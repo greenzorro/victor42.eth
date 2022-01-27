@@ -3,10 +3,6 @@ module:
         extended: true
         min: "0.87.0"
 
-permalinks:
-    post: /post/:slug/
-    page: /:slug/
-
 params:
     mainSections:
         - post
