@@ -3,6 +3,10 @@ module:
         extended: true
         min: "0.87.0"
 
+permalinks:
+    post: /post/:slug/
+    page: /:slug/
+
 params:
     mainSections:
         - post
@@ -19,7 +23,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji:
+        emoji: 🍥
         subtitle: 一只猫，也是一只愤怒的小鸟
         avatar:
             enabled: true
@@ -35,7 +39,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         disqusjs:
@@ -111,7 +115,7 @@ params:
         enabled:
             - search
             - archives
-            - tag-cloud
+            # - tag-cloud
 
         archives:
             limit: 5
@@ -145,3 +149,25 @@ params:
             enabled: true
         content:
             enabled: true
+
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          params:
+              newTab: false
+              icon: home
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/greenzorro
+          params:
+            icon: brand-github
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/victor_cheng_42
+          params:
+            icon: brand-twitter
+
