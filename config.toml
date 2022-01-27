@@ -1,6 +1,8 @@
-baseURL = 'https://greenzorro.github.io/victor42.eth/'
+baseURL = 'https://greenzorro.github.io/victor42.eth'
 languageCode = 'en-us'
 title = 'Victor42'
 theme = 'stack'
 publishDir = "docs"
 disqusShortname = 'colachan'
+relativeURLs = true
+canonifyURLs = true

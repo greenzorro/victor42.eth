@@ -5,7 +5,7 @@ comments: false
 menu: 
     main:
         name: 电影收藏
-        weight: 2
+        weight: -80
         params:
 ---
 

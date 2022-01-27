@@ -5,7 +5,7 @@ comments: false
 menu: 
     main:
         name: 小玩意
-        weight: 3
+        weight: -70
         params:
 ---
 
