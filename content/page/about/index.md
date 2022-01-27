@@ -8,7 +8,6 @@ menu:
         params:
 ---
 
-可乐橙，男，80后，现居杭州
 UI/UX设计师，喜欢素净朴实的东西，热爱自然
 
 社交账号：[新浪微博](http://weibo.com/greenzorro)、[豆瓣](http://www.douban.com/people/greenzorro/)、[下厨房](https://www.xiachufang.com/cook/10348954/)、[Github](https://github.com/greenzorro)
