@@ -4,6 +4,7 @@ date: 2020-10-01 09:11:07
 menu: 
     main:
         name: 关于我
+        url: about
         weight: 4
         params:
 ---
