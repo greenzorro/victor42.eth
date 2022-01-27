@@ -4,7 +4,7 @@ date: 2020-10-01 09:11:07
 menu: 
     main:
         name: 关于我
-        weight: 4
+        weight: -90
         params:
 ---
 

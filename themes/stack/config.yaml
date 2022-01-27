@@ -3,6 +3,9 @@ module:
         extended: true
         min: "0.87.0"
 
+permalinks:
+    post: /post/:slug/
+
 params:
     mainSections:
         - post
@@ -149,12 +152,12 @@ params:
 menu:
     main:
         - identifier: home
-          name: Home
+          name: 主页
           url: /
           weight: -100
           params:
               newTab: false
-              icon: home
+              icon: 
     social:
         - identifier: github
           name: GitHub
