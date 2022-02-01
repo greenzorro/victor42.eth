@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='[国外设计第40期]
+尽管做法不尽相同，一组指南总是所有项目最重要的起点之一。
+为每个项目创建指南（即使它原本没有）可以优化你的工作流程，也能使你的设计保持统一，并有望采取正确的开发方式。
+这的确是设计师的责任。你不能怪开发者没有你那样的像素眼。你得指导他们。
+从创建3种主要类型的文档开始。
+ 样式指南 组件文档 页面标注  这套流程不推荐兼任前端开发的设计师采用。如果是这种情况，你需要多做一步，通过代码写出的风格指南和组件，创建一个单独的平台。你甚至会想在第二步就开始编写代码，省去剩余的步骤。
+Bootstrap和Purecss就是两个知名的例子。确实，它们是完整的前端框架，或许比你正在进行的项目更庞大，不过你应该理解了吧？
+1. 样式指南 样式指南明确了一个设计项目中每个元素的样式。它基本上是开发者最普遍的样式手册。在这个文档中，颜色、字体、表格、列表项、图标使用、分隔线和其他元素都有详尽的定义。一旦你创建好并设立了每种元素的相应规范，就可以拖放使用了。
+ Styleguides 
+*提示：为元素命名。尽管开发者最终可能会用不同的class名，当谈论某个元素时也会非常有用。比如说，你给一个有渐变色导航栏的网站设计了不同主题。说#主配色 - #第二配色总比说这些颜色的名字好。
+2. 组件文档 在许多方面，这个文档与样式指南完全相同，却是另一个层次的东西。组件是指类似于登录框、轮播图、旋转木马、页头、页尾等等。
+这不同于通常意义的样式指南，这个文档有助于在整个设计过程中保持一致性。它能使开发者更轻易地辨认出重复的元素，使流程加速。
+ Components document 
+从上面可以看出，在设计响应式项目时，将每个元素的“表现”包含进来是有好处的。再说，通常开发们不会关注这些事情（也不该由他们来关注）。
+相信我，若你不强调一下CTA文字在移动端要居中显示，他们就不会注意。
+一旦完成，拖放这些组件，确保从一开始就定下规范，防止最终样品陷入无休无止的调整：内边距、颜色和字号。
+*提示：将组件导出成独立的.psb文件。这么做有个很大优势，你的客户决定改稿时，你只需要更新特定的几个.psb文件。确实很节省时间。
+3. 标注文档 最后一步是页面标注。既然已经定好了元素和组件的样式。唯一剩下的就是引用这些组件，定义外边距（名称和间距）。
+像下面这样将其分解真的很有帮助，我们之前把这种方法用在adidas网上商城和同等规模的平台上：
+ 分别导出多个页面用到的组件。 导出页面。  两种导出方式中，我都用了3套_图层复合_，可以轻松完成导出：
+ Popup_Normal.jpg Popup_Naming.jpg Popup_Spacing.jpg   Spec documents 
+我知道这一切看起来很辛苦，但作为交互设计师，它至关重要。
+所幸，有些很棒的插件可以帮你节省一些时间。specKing就是其中之一。这个工具可以标注之前提到的所有东西，不过我更爱用它来标注间距和标签。
+ specKing 
+原文链接'><title>为网站和应用创建设计指南与标准</title>
+
+<link rel='canonical' href='https://greenzorro.github.io/victor42.eth/post/3346/'>
+
+<link rel="stylesheet" href="../../scss/style.min.d4eb5f206766d93eccd4bbfa57097b6419d06ace5da4fdacc078d4f11a9b85b7.css"><meta property='og:title' content='为网站和应用创建设计指南与标准'>
+<meta property='og:description' content='[国外设计第40期]
+尽管做法不尽相同，一组指南总是所有项目最重要的起点之一。
+为每个项目创建指南（即使它原本没有）可以优化你的工作流程，也能使你的设计保持统一，并有望采取正确的开发方式。
+这的确是设计师的责任。你不能怪开发者没有你那样的像素眼。你得指导他们。
+从创建3种主要类型的文档开始。
+ 样式指南 组件文档 页面标注  这套流程不推荐兼任前端开发的设计师采用。如果是这种情况，你需要多做一步，通过代码写出的风格指南和组件，创建一个单独的平台。你甚至会想在第二步就开始编写代码，省去剩余的步骤。
+Bootstrap和Purecss就是两个知名的例子。确实，它们是完整的前端框架，或许比你正在进行的项目更庞大，不过你应该理解了吧？
+1. 样式指南 样式指南明确了一个设计项目中每个元素的样式。它基本上是开发者最普遍的样式手册。在这个文档中，颜色、字体、表格、列表项、图标使用、分隔线和其他元素都有详尽的定义。一旦你创建好并设立了每种元素的相应规范，就可以拖放使用了。
+ Styleguides 
+*提示：为元素命名。尽管开发者最终可能会用不同的class名，当谈论某个元素时也会非常有用。比如说，你给一个有渐变色导航栏的网站设计了不同主题。说#主配色 - #第二配色总比说这些颜色的名字好。
+2. 组件文档 在许多方面，这个文档与样式指南完全相同，却是另一个层次的东西。组件是指类似于登录框、轮播图、旋转木马、页头、页尾等等。
+这不同于通常意义的样式指南，这个文档有助于在整个设计过程中保持一致性。它能使开发者更轻易地辨认出重复的元素，使流程加速。
+ Components document 
+从上面可以看出，在设计响应式项目时，将每个元素的“表现”包含进来是有好处的。再说，通常开发们不会关注这些事情（也不该由他们来关注）。
+相信我，若你不强调一下CTA文字在移动端要居中显示，他们就不会注意。
+一旦完成，拖放这些组件，确保从一开始就定下规范，防止最终样品陷入无休无止的调整：内边距、颜色和字号。
+*提示：将组件导出成独立的.psb文件。这么做有个很大优势，你的客户决定改稿时，你只需要更新特定的几个.psb文件。确实很节省时间。
+3. 标注文档 最后一步是页面标注。既然已经定好了元素和组件的样式。唯一剩下的就是引用这些组件，定义外边距（名称和间距）。
+像下面这样将其分解真的很有帮助，我们之前把这种方法用在adidas网上商城和同等规模的平台上：
+ 分别导出多个页面用到的组件。 导出页面。  两种导出方式中，我都用了3套_图层复合_，可以轻松完成导出：
+ Popup_Normal.jpg Popup_Naming.jpg Popup_Spacing.jpg   Spec documents 
+我知道这一切看起来很辛苦，但作为交互设计师，它至关重要。
+所幸，有些很棒的插件可以帮你节省一些时间。specKing就是其中之一。这个工具可以标注之前提到的所有东西，不过我更爱用它来标注间距和标签。
+ specKing 
+原文链接'>
+<meta property='og:url' content='https://greenzorro.github.io/victor42.eth/post/3346/'>
+<meta property='og:site_name' content='Victor42'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2014-05-18T11:36:15&#43;00:00'/><meta property='article:modified_time' content='2014-05-18T11:36:15&#43;00:00'/>
+<meta name="twitter:title" content="为网站和应用创建设计指南与标准">
+<meta name="twitter:description" content="[国外设计第40期]
+尽管做法不尽相同，一组指南总是所有项目最重要的起点之一。
+为每个项目创建指南（即使它原本没有）可以优化你的工作流程，也能使你的设计保持统一，并有望采取正确的开发方式。
+这的确是设计师的责任。你不能怪开发者没有你那样的像素眼。你得指导他们。
+从创建3种主要类型的文档开始。
+ 样式指南 组件文档 页面标注  这套流程不推荐兼任前端开发的设计师采用。如果是这种情况，你需要多做一步，通过代码写出的风格指南和组件，创建一个单独的平台。你甚至会想在第二步就开始编写代码，省去剩余的步骤。
+Bootstrap和Purecss就是两个知名的例子。确实，它们是完整的前端框架，或许比你正在进行的项目更庞大，不过你应该理解了吧？
+1. 样式指南 样式指南明确了一个设计项目中每个元素的样式。它基本上是开发者最普遍的样式手册。在这个文档中，颜色、字体、表格、列表项、图标使用、分隔线和其他元素都有详尽的定义。一旦你创建好并设立了每种元素的相应规范，就可以拖放使用了。
+ Styleguides 
+*提示：为元素命名。尽管开发者最终可能会用不同的class名，当谈论某个元素时也会非常有用。比如说，你给一个有渐变色导航栏的网站设计了不同主题。说#主配色 - #第二配色总比说这些颜色的名字好。
+2. 组件文档 在许多方面，这个文档与样式指南完全相同，却是另一个层次的东西。组件是指类似于登录框、轮播图、旋转木马、页头、页尾等等。
+这不同于通常意义的样式指南，这个文档有助于在整个设计过程中保持一致性。它能使开发者更轻易地辨认出重复的元素，使流程加速。
+ Components document 
+从上面可以看出，在设计响应式项目时，将每个元素的“表现”包含进来是有好处的。再说，通常开发们不会关注这些事情（也不该由他们来关注）。
+相信我，若你不强调一下CTA文字在移动端要居中显示，他们就不会注意。
+一旦完成，拖放这些组件，确保从一开始就定下规范，防止最终样品陷入无休无止的调整：内边距、颜色和字号。
+*提示：将组件导出成独立的.psb文件。这么做有个很大优势，你的客户决定改稿时，你只需要更新特定的几个.psb文件。确实很节省时间。
+3. 标注文档 最后一步是页面标注。既然已经定好了元素和组件的样式。唯一剩下的就是引用这些组件，定义外边距（名称和间距）。
+像下面这样将其分解真的很有帮助，我们之前把这种方法用在adidas网上商城和同等规模的平台上：
+ 分别导出多个页面用到的组件。 导出页面。  两种导出方式中，我都用了3套_图层复合_，可以轻松完成导出：
+ Popup_Normal.jpg Popup_Naming.jpg Popup_Spacing.jpg   Spec documents 
+我知道这一切看起来很辛苦，但作为交互设计师，它至关重要。
+所幸，有些很棒的插件可以帮你节省一些时间。specKing就是其中之一。这个工具可以标注之前提到的所有东西，不过我更爱用它来标注间距和标签。
+ specKing 
+原文链接">
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="../../" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="../../categories/%E8%AE%BE%E8%AE%A1%E8%AF%91%E6%96%87/" style="background-color: #A49F97; color: #fff;">
+                设计译文
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="../../post/3346/">为网站和应用创建设计指南与标准</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 18, 2014</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>[国外设计第40期]</strong></p>
+<p>尽管做法不尽相同，一组指南总是所有项目最重要的起点之一。</p>
+<p>为每个项目创建指南（即使它原本没有）可以<a class="link" href="http://designmodo.com/photoshop-improve-workflow/"  target="_blank" rel="noopener"
+    >优化你的工作流程</a>，也能使你的设计保持统一，并有望采取正确的开发方式。</p>
+<p>这的确是设计师的责任。你不能怪开发者没有你那样的像素眼。你得指导他们。</p>
+<p>从创建3种主要类型的文档开始。</p>
+<ol>
+<li>样式指南</li>
+<li>组件文档</li>
+<li>页面标注</li>
+</ol>
+<p>这套流程不推荐兼任前端开发的设计师采用。如果是这种情况，你需要多做一步，通过代码写出的风格指南和组件，创建一个单独的平台。你甚至会想在第二步就开始编写代码，省去剩余的步骤。</p>
+<p><a class="link" href="http://getbootstrap.com/"  target="_blank" rel="noopener"
+    >Bootstrap</a>和<a class="link" href="http://purecss.io/"  target="_blank" rel="noopener"
+    >Purecss</a>就是两个知名的例子。确实，它们是完整的前端框架，或许比你正在进行的项目更庞大，不过你应该理解了吧？</p>
+<h2 id="1-样式指南">1. 样式指南</h2>
+<p>样式指南明确了一个设计项目中每个元素的样式。它基本上是开发者最普遍的样式手册。在这个文档中，颜色、字体、表格、列表项、图标使用、分隔线和其他元素都有详尽的定义。一旦你创建好并设立了每种元素的相应规范，就可以拖放使用了。</p>
+<p><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2014/05/Styleguides.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2014/05/Styleguides.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Styleguides">
+	</a>
+	
+	<figcaption>Styleguides</figcaption>
+	
+</figure></p>
+<p>*提示：为元素命名。尽管开发者最终可能会用不同的class名，当谈论某个元素时也会非常有用。比如说，你给一个有渐变色导航栏的网站设计了不同主题。说#主配色 - #第二配色总比说这些颜色的名字好。</p>
+<h2 id="2-组件文档">2. 组件文档</h2>
+<p>在许多方面，这个文档与样式指南完全相同，却是另一个层次的东西。组件是指类似于登录框、轮播图、旋转木马、页头、页尾等等。</p>
+<p>这不同于通常意义的样式指南，这个文档有助于在整个设计过程中保持一致性。它能使开发者更轻易地辨认出重复的元素，使流程加速。</p>
+<p><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2014/05/Components-document.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2014/05/Components-document.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Components document">
+	</a>
+	
+	<figcaption>Components document</figcaption>
+	
+</figure></p>
+<p>从上面可以看出，在设计响应式项目时，将每个元素的“表现”包含进来是有好处的。再说，通常开发们不会关注这些事情（也不该由他们来关注）。</p>
+<p>相信我，若你不强调一下CTA文字在移动端要居中显示，他们就不会注意。</p>
+<p>一旦完成，拖放这些组件，确保从一开始就定下规范，防止最终样品陷入无休无止的调整：内边距、颜色和字号。</p>
+<p>*提示：<em><a class="link" href="http://viget.com/inspire/smart-ways-to-use-adobe-photoshops-smart-objects"  target="_blank" rel="noopener"
+    >将组件导出成独立的.psb文件</a></em>。这么做有个很大优势，你的客户决定改稿时，你只需要更新特定的几个.psb文件。确实很节省时间。</p>
+<h2 id="3-标注文档">3. 标注文档</h2>
+<p>最后一步是页面标注。既然已经定好了元素和组件的样式。唯一剩下的就是引用这些组件，定义外边距（名称和间距）。</p>
+<p>像下面这样将其分解真的很有帮助，我们之前把这种方法用在adidas网上商城和同等规模的平台上：</p>
+<ol>
+<li>分别导出多个页面用到的组件。</li>
+<li>导出页面。</li>
+</ol>
+<p>两种导出方式中，我都用了3套_<a class="link" href="http://designmodo.com/photoshop-improve-workflow/"  target="_blank" rel="noopener"
+    >图层复合</a>_，可以轻松完成导出：</p>
+<ul>
+<li>Popup_Normal.jpg</li>
+<li>Popup_Naming.jpg</li>
+<li>Popup_Spacing.jpg</li>
+</ul>
+<p><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2014/05/Spec-documents.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2014/05/Spec-documents.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Spec documents">
+	</a>
+	
+	<figcaption>Spec documents</figcaption>
+	
+</figure></p>
+<p>我知道这一切看起来很辛苦，但作为交互设计师，它至关重要。</p>
+<p>所幸，有些很棒的插件可以帮你节省一些时间。<a class="link" href="http://www.wuwacorp.com/specking/"  target="_blank" rel="noopener"
+    >specKing</a>就是其中之一。这个工具可以标注之前提到的所有东西，不过我更爱用它来标注间距和标签。</p>
+<p><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2014/05/specKing.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2014/05/specKing.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="specKing">
+	</a>
+	
+	<figcaption>specKing</figcaption>
+	
+</figure></p>
+<p><a class="link" href="http://designmodo.com/create-guidelines/"  target="_blank" rel="noopener"
+    >原文链接</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2022 Victor42
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-样式指南">1. 样式指南</a></li>
+    <li><a href="#2-组件文档">2. 组件文档</a></li>
+    <li><a href="#3-标注文档">3. 标注文档</a></li>
+  </ul>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="../../ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

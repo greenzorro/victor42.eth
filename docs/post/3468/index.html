@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='[国外设计第109期]
+现在的UI设计团队通常先设计组件，多数界面几乎就是各种组件的结合。这会在用户的“异常路径”上留下不容小觑的断档。由于我们构建的是整个系统，而非几个页面，我们必须投入精力打磨这些常常被忽略的状态的设计，创造出组件的整个生命周期，来适应每一个人。我所理解的生命周期是这样的：
+状态 1. 初始状态 一个组件做任何事情之前是怎样的？可能这是用户首次看到它。或者它还没被激活。根本上说就是这个组件存在，但还没有启动。
+ 
+Jonas Treub的设计能确保你了解framer的最新动向。
+2. 加载中 令人厌恶的一种状态。在理想状况下，没人会看到这个。哎，可我们这里是现实世界。有许多方法能使加载状态微妙而含蓄。Facebook在这方面做得很好：
+ 
+Facebook使用“假文章”来代替传统的转圈圈。
+3. 空状态 组件已经初始化，但是空无一物。没有数据，没有项目。这时候正适合引导用户采取行动（“点这里！”），或者给他们鼓励（“好样的，一切正常”）。
+ 
+Luke Seeley就将它作为了一种捷径。
+4. 单一项目 开始有些数据了。在输入界面中，这或许是按下第一个键的状态。在列表中，可能是只有一项（或仅剩一项）时的状态。
+ 
+又是Luke Seeley，MetaLab项目。
+5. 有一些数据 这通常是你首先考虑的状态。某个组件的最理想状态是怎样的？数据加载了，也有内容输入，正是用户熟悉的状态。
+ 
+UENO.舒适的大仪表盘。
+6. 数据过多 哇！用户似乎操作过头了。产生了太多的结果（或许你现在正对它们分页处理），太多的文字（可能显示省略号？），诸如此类。
+ 
+不错的翻页设计，来自Pete Orme
+7. 错误状态 组件出错了。产生了异常。
+ 
+dunked.com的错误状态很棒。
+8. 正确状态 很好！这一项操作正确。
+ 
+Ionut Bondoc ( ►IB )的设计
+9. 完成状态 应用已经接受了用户的正确操作。他们不需要再为此操心了。
+ 
+Igor Chebotarev给出了一些积极的反馈。
+随着不同页面、用户操作、数据更新还有任何你应用的状态改变，这些状态都会反复出现。深思熟虑地设计这些变化，就能为用户创造优美的体验，无论他们身处何种情况。
+这其中许多状态都没有被考虑过，被遗忘，或仅仅是被忽略了。这是个巨大的错误，也是你赶超对手的机会。将状态的思考纳入你的设计流程，在与用户产生共鸣的同时，也能掌控好你的应用。
+这9种状态的设计适用于所有设计项目和组件。即使你做出了清醒的决策要忽略其中某一种，遵循这套准则也能确保你的确思考过那些异常路径。
+ 原文链接：https://medium.'><title>9种状态的设计</title>
+
+<link rel='canonical' href='https://greenzorro.github.io/victor42.eth/post/3468/'>
+
+<link rel="stylesheet" href="../../scss/style.min.d4eb5f206766d93eccd4bbfa57097b6419d06ace5da4fdacc078d4f11a9b85b7.css"><meta property='og:title' content='9种状态的设计'>
+<meta property='og:description' content='[国外设计第109期]
+现在的UI设计团队通常先设计组件，多数界面几乎就是各种组件的结合。这会在用户的“异常路径”上留下不容小觑的断档。由于我们构建的是整个系统，而非几个页面，我们必须投入精力打磨这些常常被忽略的状态的设计，创造出组件的整个生命周期，来适应每一个人。我所理解的生命周期是这样的：
+状态 1. 初始状态 一个组件做任何事情之前是怎样的？可能这是用户首次看到它。或者它还没被激活。根本上说就是这个组件存在，但还没有启动。
+ 
+Jonas Treub的设计能确保你了解framer的最新动向。
+2. 加载中 令人厌恶的一种状态。在理想状况下，没人会看到这个。哎，可我们这里是现实世界。有许多方法能使加载状态微妙而含蓄。Facebook在这方面做得很好：
+ 
+Facebook使用“假文章”来代替传统的转圈圈。
+3. 空状态 组件已经初始化，但是空无一物。没有数据，没有项目。这时候正适合引导用户采取行动（“点这里！”），或者给他们鼓励（“好样的，一切正常”）。
+ 
+Luke Seeley就将它作为了一种捷径。
+4. 单一项目 开始有些数据了。在输入界面中，这或许是按下第一个键的状态。在列表中，可能是只有一项（或仅剩一项）时的状态。
+ 
+又是Luke Seeley，MetaLab项目。
+5. 有一些数据 这通常是你首先考虑的状态。某个组件的最理想状态是怎样的？数据加载了，也有内容输入，正是用户熟悉的状态。
+ 
+UENO.舒适的大仪表盘。
+6. 数据过多 哇！用户似乎操作过头了。产生了太多的结果（或许你现在正对它们分页处理），太多的文字（可能显示省略号？），诸如此类。
+ 
+不错的翻页设计，来自Pete Orme
+7. 错误状态 组件出错了。产生了异常。
+ 
+dunked.com的错误状态很棒。
+8. 正确状态 很好！这一项操作正确。
+ 
+Ionut Bondoc ( ►IB )的设计
+9. 完成状态 应用已经接受了用户的正确操作。他们不需要再为此操心了。
+ 
+Igor Chebotarev给出了一些积极的反馈。
+随着不同页面、用户操作、数据更新还有任何你应用的状态改变，这些状态都会反复出现。深思熟虑地设计这些变化，就能为用户创造优美的体验，无论他们身处何种情况。
+这其中许多状态都没有被考虑过，被遗忘，或仅仅是被忽略了。这是个巨大的错误，也是你赶超对手的机会。将状态的思考纳入你的设计流程，在与用户产生共鸣的同时，也能掌控好你的应用。
+这9种状态的设计适用于所有设计项目和组件。即使你做出了清醒的决策要忽略其中某一种，遵循这套准则也能确保你的确思考过那些异常路径。
+ 原文链接：https://medium.'>
+<meta property='og:url' content='https://greenzorro.github.io/victor42.eth/post/3468/'>
+<meta property='og:site_name' content='Victor42'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2015-11-08T01:26:00&#43;00:00'/><meta property='article:modified_time' content='2015-11-08T01:26:00&#43;00:00'/>
+<meta name="twitter:title" content="9种状态的设计">
+<meta name="twitter:description" content="[国外设计第109期]
+现在的UI设计团队通常先设计组件，多数界面几乎就是各种组件的结合。这会在用户的“异常路径”上留下不容小觑的断档。由于我们构建的是整个系统，而非几个页面，我们必须投入精力打磨这些常常被忽略的状态的设计，创造出组件的整个生命周期，来适应每一个人。我所理解的生命周期是这样的：
+状态 1. 初始状态 一个组件做任何事情之前是怎样的？可能这是用户首次看到它。或者它还没被激活。根本上说就是这个组件存在，但还没有启动。
+ 
+Jonas Treub的设计能确保你了解framer的最新动向。
+2. 加载中 令人厌恶的一种状态。在理想状况下，没人会看到这个。哎，可我们这里是现实世界。有许多方法能使加载状态微妙而含蓄。Facebook在这方面做得很好：
+ 
+Facebook使用“假文章”来代替传统的转圈圈。
+3. 空状态 组件已经初始化，但是空无一物。没有数据，没有项目。这时候正适合引导用户采取行动（“点这里！”），或者给他们鼓励（“好样的，一切正常”）。
+ 
+Luke Seeley就将它作为了一种捷径。
+4. 单一项目 开始有些数据了。在输入界面中，这或许是按下第一个键的状态。在列表中，可能是只有一项（或仅剩一项）时的状态。
+ 
+又是Luke Seeley，MetaLab项目。
+5. 有一些数据 这通常是你首先考虑的状态。某个组件的最理想状态是怎样的？数据加载了，也有内容输入，正是用户熟悉的状态。
+ 
+UENO.舒适的大仪表盘。
+6. 数据过多 哇！用户似乎操作过头了。产生了太多的结果（或许你现在正对它们分页处理），太多的文字（可能显示省略号？），诸如此类。
+ 
+不错的翻页设计，来自Pete Orme
+7. 错误状态 组件出错了。产生了异常。
+ 
+dunked.com的错误状态很棒。
+8. 正确状态 很好！这一项操作正确。
+ 
+Ionut Bondoc ( ►IB )的设计
+9. 完成状态 应用已经接受了用户的正确操作。他们不需要再为此操心了。
+ 
+Igor Chebotarev给出了一些积极的反馈。
+随着不同页面、用户操作、数据更新还有任何你应用的状态改变，这些状态都会反复出现。深思熟虑地设计这些变化，就能为用户创造优美的体验，无论他们身处何种情况。
+这其中许多状态都没有被考虑过，被遗忘，或仅仅是被忽略了。这是个巨大的错误，也是你赶超对手的机会。将状态的思考纳入你的设计流程，在与用户产生共鸣的同时，也能掌控好你的应用。
+这9种状态的设计适用于所有设计项目和组件。即使你做出了清醒的决策要忽略其中某一种，遵循这套准则也能确保你的确思考过那些异常路径。
+ 原文链接：https://medium.">
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="../../" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="../../categories/%E8%AE%BE%E8%AE%A1%E8%AF%91%E6%96%87/" style="background-color: #A49F97; color: #fff;">
+                设计译文
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="../../post/3468/">9种状态的设计</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 08, 2015</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>[国外设计第109期]</strong></p>
+<p>现在的UI设计团队通常先设计组件，多数界面几乎就是各种组件的结合。这会在用户的“异常路径”上留下不容小觑的断档。由于我们构建的是整个系统，而非几个页面，我们必须投入精力打磨这些常常被忽略的状态的设计，创造出组件的整个生命周期，来适应每一个人。我所理解的生命周期是这样的：</p>
+<h2 id="状态">状态</h2>
+<h3 id="1-初始状态">1. <strong>初始状态</strong></h3>
+<p>一个组件做任何事情<em>之前</em>是怎样的？可能这是用户首次看到它。或者它还没被激活。根本上说就是这个组件存在，但还没有<em>启动</em>。</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-LNyqFzjiRNkqw186I2_YtQ.png" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-LNyqFzjiRNkqw186I2_YtQ.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><a class="link" href="https://dribbble.com/jonastreub"  target="_blank" rel="noopener"
+    >Jonas Treub</a>的设计能确保你了解framer的最新动向。</p>
+<h3 id="2-加载中">2. <strong>加载中</strong></h3>
+<p>令人厌恶的一种状态。在理想状况下，没人会看到这个。哎，可我们这里是现实世界。有许多方法能使加载状态微妙而含蓄。Facebook在这方面做得很好：</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-TpIehvczESpOJD7yQ3HF2g.gif" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-TpIehvczESpOJD7yQ3HF2g.gif"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Facebook使用“假文章”来代替传统的转圈圈。</p>
+<h3 id="3-空状态">3. <strong>空状态</strong></h3>
+<p>组件已经初始化，但是空无一物。没有数据，没有项目。这时候正适合引导用户采取行动（“点这里！”），或者给他们鼓励（“好样的，一切正常”）。</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-IoVJzoP3v9_16IdpK9ww3g.png" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-IoVJzoP3v9_16IdpK9ww3g.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><a class="link" href="https://dribbble.com/lukees"  target="_blank" rel="noopener"
+    >Luke Seeley</a>就将它作为了一种捷径。</p>
+<h3 id="4-单一项目">4. <strong>单一项目</strong></h3>
+<p>开始有些数据了。在输入界面中，这或许是按下第一个键的状态。在列表中，可能是只有一项（或仅剩一项）时的状态。</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-fnfAL-lYn5V4ulHM2f3vWg.png" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-fnfAL-lYn5V4ulHM2f3vWg.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>又是<a class="link" href="https://dribbble.com/lukees"  target="_blank" rel="noopener"
+    >Luke Seeley</a>，MetaLab项目。</p>
+<h3 id="5-有一些数据">5. <strong>有一些数据</strong></h3>
+<p>这通常是你首先考虑的状态。某个组件的最理想状态是怎样的？数据加载了，也有内容输入，正是用户熟悉的状态。</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-js-IckIHrUTT5KtZtiENSQ.png" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-js-IckIHrUTT5KtZtiENSQ.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><a class="link" href="https://dribbble.com/teams/ueno"  target="_blank" rel="noopener"
+    >UENO.</a>舒适的大仪表盘。</p>
+<h3 id="6-数据过多">6. <strong>数据过多</strong></h3>
+<p>哇！用户似乎操作过头了。产生了太多的结果（或许你现在正对它们分页处理），太多的文字（可能显示省略号？），诸如此类。</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-dp8v6F66fu5tfa4Dq_c31Q.png" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-dp8v6F66fu5tfa4Dq_c31Q.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>不错的翻页设计，来自<a class="link" href="https://dribbble.com/ormeski"  target="_blank" rel="noopener"
+    >Pete Orme</a></p>
+<h3 id="7-错误状态">7. <strong>错误状态</strong></h3>
+<p>组件出错了。产生了异常。</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-sk90HfKPbvisYcFsYjMm0A.png" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-sk90HfKPbvisYcFsYjMm0A.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>dunked.com的错误状态很棒。</p>
+<h3 id="8-正确状态">8. <strong>正确状态</strong></h3>
+<p>很好！这一项操作正确。</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-D8fkoQeLLFx1TNt5lBS0GA.png" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-D8fkoQeLLFx1TNt5lBS0GA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><a class="link" href="https://dribbble.com/IonutBondoc"  target="_blank" rel="noopener"
+    >Ionut Bondoc ( ►IB )</a>的设计</p>
+<h3 id="9-完成状态">9. <strong>完成状态</strong></h3>
+<p>应用已经接受了用户的正确操作。他们不需要再为此操心了。</p>
+<p><figure 
+	>
+	<a href="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-r6NdBjvStCqOWe4orT7bNQ.gif" >
+		<img src="http://qiniu.colacdn.com/img/posts/2015-11/11-08/1-r6NdBjvStCqOWe4orT7bNQ.gif"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><a class="link" href="https://dribbble.com/IgorCheb"  target="_blank" rel="noopener"
+    >Igor Chebotarev</a>给出了一些积极的反馈。</p>
+<p>随着不同页面、用户操作、数据更新还有任何你应用的状态改变，这些状态都会反复出现。深思熟虑地设计这些变化，就能为用户创造优美的体验，无论他们身处何种情况。</p>
+<p>这其中许多状态都没有被考虑过，被遗忘，或仅仅是被忽略了。这是个巨大的错误，也是你赶超对手的机会。将状态的思考纳入你的设计流程，在与用户产生共鸣的同时，也能掌控好你的应用。</p>
+<p>这9种状态的设计适用于所有设计项目和组件。<em>即使</em>你做出了清醒的决策要忽略其中某一种，遵循这套准则也能确保你<em>的确思考过那些异常路径</em>。</p>
+<hr>
+<p>原文链接：<a class="link" href="https://medium.com/swlh/the-nine-states-of-design-5bfe9b3d6d85"  target="_blank" rel="noopener"
+    >https://medium.com/swlh/the-nine-states-of-design-5bfe9b3d6d85</a></p>
+<p>作者信息：
+<a class="link" href="https://medium.com/@vinspee"  target="_blank" rel="noopener"
+    >Vince Speelman</a>
+Designer, developer, diner, dreamer, discoverer, do-gooder, Detroiter.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2022 Victor42
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#状态">状态</a>
+      <ul>
+        <li><a href="#1-初始状态">1. <strong>初始状态</strong></a></li>
+        <li><a href="#2-加载中">2. <strong>加载中</strong></a></li>
+        <li><a href="#3-空状态">3. <strong>空状态</strong></a></li>
+        <li><a href="#4-单一项目">4. <strong>单一项目</strong></a></li>
+        <li><a href="#5-有一些数据">5. <strong>有一些数据</strong></a></li>
+        <li><a href="#6-数据过多">6. <strong>数据过多</strong></a></li>
+        <li><a href="#7-错误状态">7. <strong>错误状态</strong></a></li>
+        <li><a href="#8-正确状态">8. <strong>正确状态</strong></a></li>
+        <li><a href="#9-完成状态">9. <strong>完成状态</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="../../ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
