@@ -22,7 +22,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        emoji: 🌌
         subtitle: 一只猫，也是一只愤怒的小鸟
         avatar:
             enabled: true
@@ -38,7 +38,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
@@ -157,16 +157,52 @@ menu:
           weight: -100
           params:
               newTab: false
-              icon: 
+              icon: home
     social:
+        - identifier: weibo
+          name: 微博
+          weight: 10
+          url: https://weibo.com/u/1273496951
+          params:
+            icon: affiliate
+        - identifier: douban
+          name: 豆瓣
+          weight: 20
+          url: http://www.douban.com/people/greenzorro/
+          params:
+            icon: books
+        - identifier: xiachufang
+          name: 下厨房
+          weight: 30
+          url: https://www.xiachufang.com/cook/10348954/
+          params:
+            icon: tools-kitchen
         - identifier: github
           name: GitHub
+          weight: 40
           url: https://github.com/greenzorro
           params:
             icon: brand-github
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com/victor_cheng_42
-          params:
-            icon: brand-twitter
 
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: false
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false

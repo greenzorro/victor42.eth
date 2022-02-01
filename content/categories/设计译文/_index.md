@@ -1,9 +1,9 @@
 ---
 title: "设计译文"
-description: "This is an example category"
-slug: "test"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+description: "翻译过的一些设计文章"
+slug: "设计译文"
+image: "https://qiniu.colacdn.com/assets/categories/translate.jpg"
 style:
-    background: "#2a9d8f"
+    background: "#A49F97"
     color: "#fff"
 ---

@@ -1,8 +1,8 @@
 ---
 title: "苟且与远方"
-description: "This is an example category"
-slug: "test"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+description: "生活那点破事儿~"
+slug: "苟且与远方"
+image: "https://qiniu.colacdn.com/assets/categories/life.jpg"
 style:
     background: "#2a9d8f"
     color: "#fff"

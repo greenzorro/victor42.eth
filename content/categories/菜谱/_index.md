@@ -1,9 +1,9 @@
 ---
 title: "菜谱"
-description: "This is an example category"
-slug: "test"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+description: "“然后把鱼皮煎至两面脱落……”"
+slug: "菜谱"
+image: "https://qiniu.colacdn.com/assets/categories/food.jpg"
 style:
-    background: "#2a9d8f"
+    background: "#CF4444"
     color: "#fff"
 ---

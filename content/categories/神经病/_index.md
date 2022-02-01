@@ -1,9 +1,9 @@
 ---
 title: "神经病"
-description: "This is an example category"
-slug: "test"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+description: "药不能停"
+slug: "神经病"
+image: "https://qiniu.colacdn.com/assets/categories/humor.jpg"
 style:
-    background: "#2a9d8f"
+    background: "#F6BC25"
     color: "#fff"
 ---
