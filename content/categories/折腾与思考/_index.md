@@ -1,9 +1,9 @@
 ---
 title: "折腾与思考"
-description: "This is an example category"
-slug: "test"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+description: "爱问为什么的小朋友运气都不会差"
+slug: "折腾与思考"
+image: "https://qiniu.colacdn.com/assets/categories/geek.jpg"
 style:
-    background: "#2a9d8f"
+    background: "#3154AF"
     color: "#fff"
 ---
