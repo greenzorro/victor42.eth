@@ -7,7 +7,7 @@ url: /post/3538
 
 **[国外设计第161期]**
 
-![Nick Babich](http://qiniu.colacdn.com/img/posts/2017-01/01-18/1-raN6DpE52jAdYaEc-zsu3A.png)
+![Nick Babich](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-18/1-raN6DpE52jAdYaEc-zsu3A.png)
 
 手势操作，是通过手指轻微移动来让用户操作应用。触屏界面提供了许多自然的手势，比如点按、滑动、双指缩放。但这些交互方式不像UI控件，通常对于用户是不可见的。除非用户事先了解手势存在，否则他们并不会尝试使用。
 
@@ -22,7 +22,7 @@ url: /post/3538
 
 举个例子，Clear应用一开始会展示7页教程，用户得耐心阅读所有信息，尝试记在脑海中。这个设计很糟糕，因为它需要用户在真正开始使用之前就付出精力。
 
-![](http://qiniu.colacdn.com/img/posts/2017-01/01-18/1-2.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-18/1-2.png)
 
 *Clear的教程*
 
@@ -32,7 +32,7 @@ url: /post/3538
 
 以Android版YouTube的手势操作指引为例：
 
-![](http://qiniu.colacdn.com/img/posts/2017-01/01-18/2-2.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-18/2-2.png)
 
 *Android版Youtube*
 
@@ -48,7 +48,7 @@ url: /post/3538
 
 **注意：**说明文字要非常简短——文字越短，用户越可能会阅读，然后才能遵照它的指引。
 
-![](http://qiniu.colacdn.com/img/posts/2017-01/01-18/3-1.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-18/3-1.gif)
 
 *图片来源：Material Design*
 
@@ -56,7 +56,7 @@ url: /post/3538
 
 提示动效（或者动画暗示）表现了执行操作时具体手势的效果预览。例如，Pudding Monsters游戏的诀窍就是完全依靠手势操作，但是用户不必过多猜测就能掌握基本玩法。动画传达了功能方面的信息——用动画来展现一个具体场景，用户立马明白该怎么做。
 
-![](http://qiniu.colacdn.com/img/posts/2017-01/01-18/4-1.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-18/4-1.gif)
 
 *提示动效展现了如何操作一个元素。来源：Pudding Monsters*
 
@@ -64,7 +64,7 @@ url: /post/3538
 
 内容暗示是一种微妙的视觉线索，表明了操作的可能。下面这个例子展示了卡片的内容暗示——当前卡片的下方还有其他卡片，这显然表明它是可以滑动的。
 
-![](http://qiniu.colacdn.com/img/posts/2017-01/01-18/5-1.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-18/5-1.gif)
 
 *展现出导航功能。来源：Barthelemy Chalvet*
 

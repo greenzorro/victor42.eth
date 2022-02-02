@@ -5,7 +5,7 @@ categories: 折腾与思考
 url: /post/3394
 ---
 
-![](http://qiniu.colacdn.com/img/posts/2014-10/10-08/1.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-10/10-08/1.jpg)
 
 虽然从屏幕长宽比来看，16:9可以说是手机界的共识，可不要高兴得太早，有个更大的坑在等着我们。
 

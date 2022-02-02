@@ -7,7 +7,7 @@ url: /post/3372
 
 ###三种境界
 
-![](http://qiniu.colacdn.com/img/posts/2014-06/06-08/1.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-06/06-08/1.jpg)
 
 QQ出了新功能，可以根据群成员的发言频率自动分等级。文案也非常有意思，“活跃”、“吐槽”、“冒泡”，不得不说，腾讯在把握网民心理上，真是准确得令人发指啊！
 
@@ -25,7 +25,7 @@ pizza辞职了，还要假惺惺买21张卡片送给没什么交情的部门同�
 
 送就送，什么奇葩礼物我没送过。
 
-![](http://qiniu.colacdn.com/img/posts/2014-06/06-08/2.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-06/06-08/2.jpg)
 
 算上这次，看来明年的生日礼物也有着落了，21张彩票！
 
@@ -63,7 +63,7 @@ me：这样就顺利的区分出了魔法师和麻瓜
 
 事后她截了一张上下班地形图给我，我一看，我擦嘞，简直就是个线团啊！
 
-![](http://qiniu.colacdn.com/img/posts/2014-06/06-08/3.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-06/06-08/3.jpg)
 
 ###大绝招
 
