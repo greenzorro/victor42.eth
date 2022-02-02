@@ -7,7 +7,7 @@ url: /post/3413
 
 **[国外设计68期]**
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1.jpg)
 
 ##为什么？
 
@@ -29,25 +29,25 @@ SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们�
 
 ###出现的问题
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-5KosaVfu23UBKC5iYpjwXw.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-5KosaVfu23UBKC5iYpjwXw.png)
 
 *我通常会搜索艺人或歌曲名称*
 
 **搜索栏太宽了。**最宽状态下，网站有1240像素宽，搜索栏输入框就有668像素。通常输入几个字后，自动补全功能就可以完成查询。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-cR1Ug-Twv0iwKoyaHvUxrQ.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-cR1Ug-Twv0iwKoyaHvUxrQ.png)
 
 *深灰色的这条就是播放器组件，令人困惑的一团乱麻*
 
 **播放器组件在页面的底部。**导航条用来提供入口，可以在所需的任何时候打开某些链接和功能。在音乐流媒体网站中，包括暂停当前歌曲、下一首和上一首。尽管播放器组件在每个页面都能看见，它位置在底部并不能直观地传达出它的功用。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-DrkOUYfP9yd4bMXyLpKbxw.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-DrkOUYfP9yd4bMXyLpKbxw.png)
 
 **点击我的用户名会出现下拉菜单。**没有任何视觉指示告诉我这下面（也就是下箭头）有下拉菜单，这样展现很古怪。这网站我用了好几年，我的直觉仍然告诉我，它应该指向我的个人资料。我通常点这里去我的个人资料、喜欢和播放列表。
 
 ###解决方案概念
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-HGY-yavhWdu9ZyavSMpLMw.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-HGY-yavhWdu9ZyavSMpLMw.png)
 
 *他们目前的设计（顶部）和我的概念设计（底部）*
 
@@ -59,7 +59,7 @@ SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们�
 
 你关注的人发布的歌曲和播放列表展现在这里，最新的在上面，像Twitter的时间轴那样。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-qtFvyx7uOYG95_oH1JGKRQ.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-qtFvyx7uOYG95_oH1JGKRQ.png)
 
 *当前形式的信息流*
 
@@ -73,11 +73,11 @@ SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们�
 
 **波形图上的头像实际上没有意义。**它们太小，无法从视觉上分辨留言者。它们唯一的价值，就是让用户知道音乐上有留言，而留言的数量已经显示在波形图下方的评论图标处了。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-HNuMRAYtmwy_jM6mqcJu2g.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-HNuMRAYtmwy_jM6mqcJu2g.png)
 
 *有认识的人评论了这首歌吗？*
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-MvVz5KJdMZ8VH47m7FfR6g.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-MvVz5KJdMZ8VH47m7FfR6g.gif)
 
 *当用户离开信息流，回来时他们会期望什么*
 
@@ -85,7 +85,7 @@ SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们�
 
 ###解决方案概念
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-2adhccrEz9bZ8-42QkFmJQ.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-2adhccrEz9bZ8-42QkFmJQ.png)
 
 *信息流概念图，我在SoundCloud上找到一些超赞的歌来模拟界面，右边栏是固定式的。*
 
@@ -95,7 +95,7 @@ SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们�
 
 很明显，从歌曲的评论数来看，多数用户并不评论。评论会在视觉上让人分心，于是我增加了一个隐藏它们的选项。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-lxqylLZXbsBEAX1vEaCVWw.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-lxqylLZXbsBEAX1vEaCVWw.png)
 
 *音轨的鼠标悬停状态和发布时间标示*
 
@@ -103,7 +103,7 @@ SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们�
 
 一个动态更新的气泡，显示了歌曲在信息流中出现了多久—[à la Path](http://cyrilmottier.com/media/2012/01/starting-considering-android-as-a-capable-os/path_info_panel.png)—在滚动条的旁边，[像这样](http://jsfiddle.net/evansimoni/cu7xgdkd/2/)。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-UOwiG7qeyTa9Z4ckObqhQw.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-UOwiG7qeyTa9Z4ckObqhQw.png)
 
 我之前提过，我想更了解我在听的艺人，并且发现新艺人。概念设计中的侧边栏突出显示了当前歌曲的艺人，链接指向他们的个人资料。这部分非常有用，尤其当你听的歌来自一条你不熟悉的歌手的转发。它让你一窥他们的档案，却不需要离开信息流。也显示了他们的粉丝数，还有一个选项让你选择是否要关注他们。
 
@@ -117,7 +117,7 @@ SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们�
 
 **分享视图并没有鼓励站内分享。**要发信息，你得移到第三个标签，而且并不明显。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-G_whpCAK1fr3P9JSDnC8Aw.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-G_whpCAK1fr3P9JSDnC8Aw.png)
 
 *首先弹出的是分享视图（左侧），而不是消息视图（右侧）。嵌入的视图（没有显示出来）目前表现不错。*
 
@@ -125,7 +125,7 @@ SoundCloud的设计如果鼓励用户优先站内社交，会大有好处。
 
 ###解决方案概念
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-6zp1QLp8RWt1OKtCVmPmrA.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-6zp1QLp8RWt1OKtCVmPmrA.png)
 
 两个标签的设计优先推荐消息，也保留了站外分享。在同一个视图中包含两者，有助于带来新用户，并让老用户回来看看。
 
@@ -135,7 +135,7 @@ SoundCloud的设计如果鼓励用户优先站内社交，会大有好处。
 
 ###概念
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-geI0fEXABhJVJtW7mWbBiQ.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-geI0fEXABhJVJtW7mWbBiQ.png)
 
 *全部消息（左侧）和一组对话（右侧）*
 
@@ -147,7 +147,7 @@ SoundCloud的设计如果鼓励用户优先站内社交，会大有好处。
 
 SoundCloud有两类通知。与账号动态相关的通知，显示在导航栏的一个下拉菜单中。页面上也有弹出式通知来标示歌曲动态。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-UaUD2dyHu_CfyS5y3o7QmA.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-UaUD2dyHu_CfyS5y3o7QmA.png)
 
 *账号动态通知（左侧）和歌曲动态通知（右侧）*
 
@@ -157,7 +157,7 @@ SoundCloud有两类通知。与账号动态相关的通知，显示在导航栏�
 
 **歌曲动态通知存在时间太长。**导致它们挡住右侧边栏顶部和下拉菜单中的东西。有时候它们会卡在那里，如果我进入个人档案，通知仍然看得见。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-DTCHs-qAdnfzeMlwmjnEuA.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-DTCHs-qAdnfzeMlwmjnEuA.png)
 
 *我的头像被信息流的错误提示遮住了*
 
@@ -165,13 +165,13 @@ SoundCloud有两类通知。与账号动态相关的通知，显示在导航栏�
 
 ###解决方案概念
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-ue49FejWYcL6toi7koQobA.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-ue49FejWYcL6toi7koQobA.png)
 
 点击通知按钮时，从右侧滑出一个面板，就像我在消息的概念设计中的那样。这个窗格可以滚动，而且不需要额外的页面来查看通知。
 
 通知现在包含转发的喜欢和二次转发了。这很有用，因为通知使一个平台具有粘性，并且[巧妙地让人习惯于](http://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google)经常回来看看。另外，知道朋友在听并且沉醉于相同的内容，是很有趣的。
 
-![](http://qiniu.colacdn.com/img/posts/2014-12/12-12/1-g0-5ThbaCwelMPgVXQzR0A.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-12/12-12/1-g0-5ThbaCwelMPgVXQzR0A.png)
 
 页面动态的通知样式与其余部分的设计统一，会如我所期望渐隐消失，不会妨碍任何重要东西。
 

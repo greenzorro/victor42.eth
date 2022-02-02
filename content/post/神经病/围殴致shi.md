@@ -57,7 +57,7 @@ yuyu说我回南昌这么多趟，也不带点特产回来给她尝尝
 
 ### 请将我围殴致shi
 
-![](http://qiniu.colacdn.com/img/posts/2012-05/05-26/1.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-05/05-26/1.jpg)
 
 在微博上看到大红发了这么张图，似乎是小红去她们家做饭了
 
@@ -85,7 +85,7 @@ pizza说她感冒了，听得出来，嗓子都变得跟田震似的
 
 ### 高科技油烟机
 
-![](http://qiniu.colacdn.com/img/posts/2012-05/05-26/2.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-05/05-26/2.jpg)
 
 看见了这么一个高科技灶台，不需要油烟机了，炒菜的油烟立马会被吸到两边去
 
@@ -115,7 +115,7 @@ pizza说她感冒了，听得出来，嗓子都变得跟田震似的
 
 大学同学的男友纠集了一帮双方的同学朋友，前往她小区楼下摆下求婚阵
 
-![](http://qiniu.colacdn.com/img/posts/2012-05/05-26/3.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-05/05-26/3.jpg)
 
 一伙人动静很大，惊动了不少街坊邻居。好奇的小孩大声问爸爸，叔叔阿姨在做什么啊？
 
@@ -125,7 +125,7 @@ pizza说她感冒了，听得出来，嗓子都变得跟田震似的
 
 ### 又是舌尖上的中国
 
-![](http://qiniu.colacdn.com/img/posts/2012-05/05-26/4.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-05/05-26/4.jpg)
 
 这么火的纪录片，淘宝怎么能不分一杯羹
 
@@ -135,7 +135,7 @@ pizza说她感冒了，听得出来，嗓子都变得跟田震似的
 
 ### 围殴致shi
 
-![](http://qiniu.colacdn.com/img/posts/2012-05/05-26/5.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-05/05-26/5.jpg)
 
 最近我和BB很爱喝这玩意，我仅仅是觉得好喝，对它的这些卖点没那么敏感
 
@@ -143,4 +143,4 @@ BB想得比我多，他手舞足蹈地向我比划着
 
 “每百毫升300亿细菌啊！一口喝进体内，300亿，冲啊！～～直接把你围殴致shi！”
 
-![](http://qiniu.colacdn.com/img/posts/2012-05/05-26/6.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-05/05-26/6.jpg)

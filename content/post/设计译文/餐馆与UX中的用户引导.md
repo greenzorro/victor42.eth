@@ -29,7 +29,7 @@ Gordon Ramsey因为烧焦的食物冲别人咆哮，这和用户引导之间有�
 
 这个原则在体验设计中也有效。TeuxDeux的首页是个很好的例子。
 
-![TeuxDeux home page](http://qiniu.colacdn.com/img/posts/2017-06/06-09/image2.png)
+![TeuxDeux home page](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-06/06-09/image2.png)
 
 我一打开他们首页，就可以直接开始使用产品。我不必通过一堆屏幕截图来想象。如果我要继续，可以稍后再注册。
 
@@ -55,7 +55,7 @@ Gordon Ramsey因为烧焦的食物冲别人咆哮，这和用户引导之间有�
 
 [RedPen.io](https://redpen.io/)在这方面做得非常好，我的一位设计同事上周给了我这个链接。（感谢Alex！）
 
-![RedPen signup form](http://qiniu.colacdn.com/img/posts/2017-06/06-09/image1.png)
+![RedPen signup form](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-06/06-09/image1.png)
 
 打开页面时，我马上就可以拖拽图片上传，写上备注。没有“注册”页面。
 
@@ -81,7 +81,7 @@ Gordon Ramsey因为烧焦的食物冲别人咆哮，这和用户引导之间有�
 
 就像那些一上来就提供面包的餐馆，HelloFax很巧妙地让人们决定采用他们家的服务。他们在用户完成注册之后，还提供了一系列任务，每完成一个奖励5个传真额度。虽然注册只需要一个邮箱地址，但设置密码甚至都可以赚取任务奖励额度。在这个赚取额度的过程中，你和这个工具就有了共同经历。
 
-![Hello Fax form](http://qiniu.colacdn.com/img/posts/2017-06/06-09/image4.jpg)
+![Hello Fax form](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-06/06-09/image4.jpg)
 
 启示：尽快让用户感受到好处。这能让他们感觉到成功（“亲，你真会挑餐馆”），并且愿意逗留。
 
@@ -107,7 +107,7 @@ Gordon Ramsey因为烧焦的食物冲别人咆哮，这和用户引导之间有�
 
 Basecamp是个很好的隐藏尽头的案例。在Basecamp里，没有“哎呀，你不能这么做”这样的消息。不像多数SaaS产品，并不会因为你用得太多，才要求你升级然后才能继续使用。相反，升级可以解锁你之前没有权限使用的新功能。
 
-![Basecamp purchase options](http://qiniu.colacdn.com/img/posts/2017-06/06-09/image3.png)
+![Basecamp purchase options](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-06/06-09/image3.png)
 
 启示：不要一直不停对用户说“不”。不要让他们一头撞在服务的天花板上，因为这会让他们很猥琐地使用产品。相反，应该奖励他们的使用，并且祝贺他们的升级行为，这样升级就会让人感觉良好。
 
