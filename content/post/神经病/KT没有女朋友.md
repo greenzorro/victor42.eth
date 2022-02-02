@@ -89,7 +89,7 @@ KT：因为你一般都和队友丢雪球丢一个下午。
 
 忘了要求证什么，某天打开了mapbox的官网。这个工具挺好的，最基础的用法，可以生成牛逼哄哄的地图。
 
-![](http://qiniu.colacdn.com/img/posts/2015-12/12-03/1.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-12/12-03/1.png)
 
 不过我发现似乎有什么不对。
 
@@ -107,13 +107,13 @@ KT要我推荐我两三个平面设计素材网站给他。我问他要什么类
 
 点是个球啊！
 
-![](http://qiniu.colacdn.com/img/posts/2015-12/12-03/2.png)![](http://qiniu.colacdn.com/img/posts/2015-12/12-03/3.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-12/12-03/2.png)![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-12/12-03/3.jpg)
 
 就是点啊。
 
 给你，点的设计。
 
-![](http://qiniu.colacdn.com/img/posts/2015-12/12-03/4.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-12/12-03/4.png)
 
 ### 小熊猫
 
@@ -141,7 +141,7 @@ KT上班经常和我现场直播他们办公室的故事，主角通常是一只
 
 “你是坐在吊床上办公么，楼下什么都能听见。”
 
-![](http://qiniu.colacdn.com/img/posts/2015-12/12-03/5.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-12/12-03/5.png)
 
 ### KT没有女朋友之二
 

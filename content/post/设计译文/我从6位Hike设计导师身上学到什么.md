@@ -9,7 +9,7 @@ url: /post/3368
 
 ##Hike是什么？
 
-![](http://qiniu.colacdn.com/img/posts/2014-05/05-25/1-g6U5zwsyeQVIaou3RguYDQ.jpeg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-05/05-25/1-g6U5zwsyeQVIaou3RguYDQ.jpeg)
 
 *从左至右：Hike赠品袋、Daniel Burka的开场演说、Github章鱼猫、Adobe大门和会场一隅*
 
@@ -21,7 +21,7 @@ url: /post/3368
 
 ##六堂课
 
-![](http://qiniu.colacdn.com/img/posts/2014-05/05-25/1-MTIshSY3Qp_ylhmM1-mnLw.jpeg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-05/05-25/1-MTIshSY3Qp_ylhmM1-mnLw.jpeg)
 
 *发这条Tweet：[http://ctt.ec/ubmdj](http://ctt.ec/ubmdj)*
 
@@ -35,7 +35,7 @@ Daniel勇敢承认，自己也没有真正跨越那条鸿沟，他自己仍是�
 
 **行为准则：启动一个项目，并设置严格的截止期限。不论最终成品是否杰作，都是很好的练习！**
 
-![](http://qiniu.colacdn.com/img/posts/2014-05/05-25/1-qYFK0gER-QR5r9PqIG0JbA.jpeg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-05/05-25/1-qYFK0gER-QR5r9PqIG0JbA.jpeg)
 
 *发这条Tweet：[http://ctt.ec/H2gJ4](http://ctt.ec/H2gJ4)*
 
@@ -49,7 +49,7 @@ Chris的第一份工作中，他留到很晚，把书本按字母表顺序排列
 
 **行为准则：如果有人需要帮助，或者有些东西需要改进，无论有没有人明确提出要求，都要怀揣恩施之心去完成它。每次相互作用都有机会提升价值。**
 
-![](http://qiniu.colacdn.com/img/posts/2014-05/05-25/1-ah8-IaWGpnhkC5UJjJPYsw.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-05/05-25/1-ah8-IaWGpnhkC5UJjJPYsw.png)
 
 *发这条Tweet：[http://ctt.ec/9cb3s](http://ctt.ec/9cb3s)*
 
@@ -63,7 +63,7 @@ Alice没有让她的角色局限自己——她硬着头皮接下了令自己兴
 
 **行为准则：背景并不重要，带着热情接受项目，硬着头皮抓住机会，即使水平还不够格。请求别人，“如果你有任何设计项目，都交给我。假如你不喜欢我的作品，没必要用它。但我想要学习。”**
 
-![](http://qiniu.colacdn.com/img/posts/2014-05/05-25/1-5RFE6iaidDjb4NJ5GvnZEw.jpeg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-05/05-25/1-5RFE6iaidDjb4NJ5GvnZEw.jpeg)
 
 *发这条Tweet：[http://ctt.ec/Pe9_0](http://ctt.ec/Pe9_0)*
 
@@ -77,7 +77,7 @@ Alice没有让她的角色局限自己——她硬着头皮接下了令自己兴
 
 **行为准则：花10分钟观察周围环境，看看有没有被忽略的问题显露出来。记录下来，让创意发酵，然后定期回顾它们。再来一点点争论，灵感就在下一秒涌现。**
 
-![](http://qiniu.colacdn.com/img/posts/2014-05/05-25/1-GIemPkAdqme2Me3c62w5jg.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-05/05-25/1-GIemPkAdqme2Me3c62w5jg.png)
 
 *发这条Tweet：[http://ctt.ec/GaLb8](http://ctt.ec/GaLb8)*
 
@@ -91,7 +91,7 @@ Steward的话与我产生强烈共鸣，因为我们总是听到“从细节看�
 
 **行为准则：深入思考产品或服务的用户，来理解他们的需求，然后头脑风暴各种给他们带来重要价值的小细节。**
 
-![](http://qiniu.colacdn.com/img/posts/2014-05/05-25/1-QYkDAl9uT_94CJVfPPdMEQ.jpeg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-05/05-25/1-QYkDAl9uT_94CJVfPPdMEQ.jpeg)
 
 *发这条Tweet：[http://ctt.ec/Y3o3u](http://ctt.ec/Y3o3u)*
 

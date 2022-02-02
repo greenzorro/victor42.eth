@@ -7,7 +7,7 @@ url: /post/3530
 
 **[国外设计第154期]**
 
-![](http://qiniu.colacdn.com/img/posts/2016-11/11-15/0-YpnyyrIb-nH8-U8h.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-11/11-15/0-YpnyyrIb-nH8-U8h.jpg)
 
 注：本文来自我与[Robert Scoble](https://www.facebook.com/RobertScoble?fref=ts)合作的新书《Beyond Mobile: Life After Headsets》中第6章的节选，目前尚未发布。这个章节关注一家你不了解的企业：Eyefluence。由于它只从事B2B业务，你很可能没听过他们。不过，如果未来你有机会用上增强现实或混合现实设备，它的体验就取决于这家公司提供的技术。
 
@@ -23,7 +23,7 @@ Jim Marggraff和David Stiehr，于2012年联合创立了Eyefluence，不过那�
 
 他们利用了现有的眼球追踪软件，在其上进行扩展建设，并取得30项专利保护。然后诞生了一种新式的头戴设备操作软件，他们称之为眼控交互（EI）。
 
-![](http://qiniu.colacdn.com/img/posts/2016-11/11-15/0-Pk-WwqOuxT0uGKTJ.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-11/11-15/0-Pk-WwqOuxT0uGKTJ.jpg)
 
 Eyefluence不像眼球追踪那样，仅仅是观察用户眼球运动，从注视、眨眼或点头中获取线索。他们的EI软件会观察用户在看着头戴设备的什么位置，并对自然的眼球运动做出反应。他们希望这些专利能够使它在这类软件中自成一派，在可预期的巨大市场中，获得强有力的竞争地位。
 
@@ -55,7 +55,7 @@ Israel体验了一种往常没有的反转：不是去使用某个技术来完�
 
 一个会观察你、了解你的软件还挺吓人的，我们之前这么写过。虽然这一点确实非常吓人，但Israel玩打地鼠玩得非常开心，以至于没有被分散注意力。打地鼠这个游戏1976问世，不过Israel之前并没有玩过。
 
-![](http://qiniu.colacdn.com/img/posts/2016-11/11-15/0-hL5oiPUSZXGoiTXu.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-11/11-15/0-hL5oiPUSZXGoiTXu.jpg)
 
 如果你也像Israel一样，是那少数没有玩过打地鼠的人，那么简单介绍一下：这个游戏的目标，就是当这些可爱的小地鼠从地下钻出来，露出微笑的脑袋时敲打它们。打中的越多，分就越高。
 
@@ -75,7 +75,7 @@ Marggraff向Israel展示了Eyefluence如何能加速完成组织内容、写书�
 
 像多数作者一样，Israel使用Microsoft Word进行整编和写作。对他来说，这是一个非常棘手低效率的过程，在这个毫无计划的过程中，他会遗失掉一些片段。
 
-![](http://qiniu.colacdn.com/img/posts/2016-11/11-15/0-MlqE3XetAtuDMRZ-.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-11/11-15/0-MlqE3XetAtuDMRZ-.jpg)
 
 当他坐着观看头戴设备中的40个屏幕，Marggraff告诉他如何剪切和粘贴内容，全都整合进一个屏幕中。这样能简化流程，为他节省数周甚至数月的时间。
 

@@ -5,7 +5,7 @@ categories: 苟且与远方
 url: /post/3344
 ---
 
-![](http://qiniu.colacdn.com/img/posts/2014-05/05-12/1.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2014-05/05-12/1.png)
 
 杭州余杭中泰乡九峰村要建垃圾焚烧发电站的事情越闹越大，已经升级成流血冲突了。为什么可乐橙说起这件事情如此轻描淡写，好像事情和自己没关系似的。因为在这种事情上，不讲理是没有用的，当然，讲理同样也是没有用的。
 

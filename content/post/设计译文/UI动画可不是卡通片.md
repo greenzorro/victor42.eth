@@ -21,7 +21,7 @@ url: /post/3464
 
 下面是一则快速且做作的动画案例，我以此来演示UI动画中的卡通化现象。尽管这是个略微夸张的例子，但事实上，确有许多界面呈现出了这种花哨的动画。
 
-![](http://qiniu.colacdn.com/img/posts/2015-10/10-11/1-KNDtrZZKN5-bNQ7YVB8_fQ.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-10/10-11/1-KNDtrZZKN5-bNQ7YVB8_fQ.gif)
 
 [点此](https://www.ux-app.com/device/view?s=MRGG9547&l=&pg=35687)查看案例原文。
 
@@ -60,7 +60,7 @@ url: /post/3464
 
 ### 通知
 
-![](http://qiniu.colacdn.com/img/posts/2015-10/10-11/1-UJdmc7IUuOjJFSNnpUmH0w.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-10/10-11/1-UJdmc7IUuOjJFSNnpUmH0w.gif)
 
 通知案例1
 
@@ -70,7 +70,7 @@ url: /post/3464
 
 ### 通知的升级
 
-![](http://qiniu.colacdn.com/img/posts/2015-10/10-11/1-bX8hBD6PmbjedK0SYzBSlA.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-10/10-11/1-bX8hBD6PmbjedK0SYzBSlA.gif)
 
 通知案例2
 
@@ -89,7 +89,7 @@ url: /post/3464
 
 这是卡片视图的一种简单有效的实现，移动端通常都这么做。我非常喜欢这个交互，因为它让用户熟悉来龙去脉。即使列表视图不见了，我们也知道它就在那里，在展开项的背后。
 
-![](http://qiniu.colacdn.com/img/posts/2015-10/10-11/1-YaoMTOLjuUBRrfBATGzSxA.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-10/10-11/1-YaoMTOLjuUBRrfBATGzSxA.gif)
 
 卡片展开案例
 
@@ -117,7 +117,7 @@ url: /post/3464
 
 切记，动画同样符合少即是多的原则。功能动画总是胜过*纯粹的*装饰动画。
 
-![](http://qiniu.colacdn.com/img/posts/2015-10/10-11/1-s9LTV7aFZeWvN-rTbGAwUA.jpeg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-10/10-11/1-s9LTV7aFZeWvN-rTbGAwUA.jpeg)
 
 不要让动画妨碍了用户。这就是为什么飞机驾驶舱的界面从不用使用动画。额外增加毫无必要的300ms动画，对*你的*界面而言可能人畜无害，但它给用户带来的烦恼远比“愉悦”更多！
 

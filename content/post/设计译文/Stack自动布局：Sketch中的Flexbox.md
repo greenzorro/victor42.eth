@@ -9,7 +9,7 @@ url: /post/3541
 
 *Skacks会彻底改变你对Sketch布局方式的理解。*
 
-![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-IjqstHVq3OGLQtqYACVgNA.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-IjqstHVq3OGLQtqYACVgNA.gif)
 
 就像[CSS中的Flex Box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)、iOS中的[UIStackView](https://www.raywenderlich.com/114552/uistackview-tutorial-introducing-stack-views)和Android中的[FlexboxLayout](https://github.com/google/flexbox-layout)——**Stack**的自动布局可以再次改变整个局面。
 
@@ -25,11 +25,11 @@ Stack是另一种形式的Flexbox，它更直观，但能力丝毫不减。它�
 
 **Stack**是一种特殊的*组*，定义了其内部*图层*的布局方式。
 
-![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-uHeThlg0lB65kTcUkrSJQg.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-uHeThlg0lB65kTcUkrSJQg.png)
 
 *Stack组的图标是一种特殊的蓝色，上面还有图标来表示方向。*
 
-![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-7NbmCjfNNEwSnh0gTD7vnQ.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-7NbmCjfNNEwSnh0gTD7vnQ.png)
 
 *要使图层变为Stack模式，在Auto-Layout面板中点击Stack按钮。*
 
@@ -41,17 +41,17 @@ Stack是另一种形式的Flexbox，它更直观，但能力丝毫不减。它�
 一个Stack组有3个属性：
 
 - *方向*：定义其内部图层按照*水平*还是*垂直*方式排列。
-    ![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-sAimwEhMxx2WwM1Ah76-AA.gif)
+    ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-sAimwEhMxx2WwM1Ah76-AA.gif)
     *方向*
 - *对齐*：包括顶对齐、中央对齐、底对齐、伸展。
-    ![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-rzprFGD1zbB2PpCwJnQ-vg.gif)
+    ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-rzprFGD1zbB2PpCwJnQ-vg.gif)
     *对齐*
 - *间距*：定义其中每个元素的间距。
-    ![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-gEkN2HgGCHq8fCXfCFbJ6Q.gif)
+    ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-gEkN2HgGCHq8fCXfCFbJ6Q.gif)
 
 > *Stack可以嵌套使用！*
 
-![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-bkdGZNtR8MeedhcouuLHSw.gif)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-bkdGZNtR8MeedhcouuLHSw.gif)
 
 ## 来解这道题！
 
@@ -59,11 +59,11 @@ Stack是另一种形式的Flexbox，它更直观，但能力丝毫不减。它�
 
 下图由多少个*Stack组*构成：
 
-![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-uQTR5Fw0VMrmVrF9EeHL9w.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-uQTR5Fw0VMrmVrF9EeHL9w.png)
 
 正确答案是：3。
 
-![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-1zBHWsMzI011GOTQSk8SxA.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-1zBHWsMzI011GOTQSk8SxA.png)
 
 *Stack组的图标是一种特殊的蓝色，上面还有图标来表示方向。*
 
@@ -75,11 +75,11 @@ Stack是另一种形式的Flexbox，它更直观，但能力丝毫不减。它�
 
 - Stack很适合用于定义**同级**图层间的排列规则。
 - 在Stack组里增加或删除元素，会重新排列其中图层。
-    ![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-Wl2bIzICvEbiNIm_WTDPtg.gif)
+    ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-Wl2bIzICvEbiNIm_WTDPtg.gif)
 - 文字图层的伸展会移动相邻图层。
-    ![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-3KNYU1p478jpCVlz-6joTA.gif)
+    ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-3KNYU1p478jpCVlz-6joTA.gif)
 - 拖拽可以轻松地重新排列子图层。
-    ![](http://qiniu.colacdn.com/img/posts/2017-02/02-24/1-V4_Axkl8r8JXcpuhBn6obw.gif)
+    ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-02/02-24/1-V4_Axkl8r8JXcpuhBn6obw.gif)
 
 ## 使用Stack实现Flex网格
 
