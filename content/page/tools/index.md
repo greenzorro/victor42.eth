@@ -10,15 +10,15 @@ menu:
             icon: flask
 ---
 
-可乐橙工作与生活中遇会遇到一些问题，有时自己动手做个工具就能满足需求，或许这些小玩意你也用得上。
+我工作与生活中遇会遇到一些问题，有时自己动手做个工具就能满足需求，或许这些小玩意你也用得上。
 
-## 可乐橙博客模版
+## 我博客模版
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/farbox-template.png)
 
 [https://github.com/greenzorro/bitcron-colachan](https://github.com/greenzorro/bitcron-colachan)
 
-可乐橙的博客模版是基于Bitcron打造的，很喜欢这个博客系统，简洁轻盈。代码已经在Github上开源，其中也包含设计文件。
+我的博客模版是基于Bitcron打造的，很喜欢这个博客系统，简洁轻盈。代码已经在Github上开源，其中也包含设计文件。
 
 ## 移动端交互组件库
 
@@ -82,7 +82,7 @@ App开发同学一定很痛恨设计师：你们给的颜色都是#ffffff这种�
 
 [http://greenzorro.github.io/chaos](http://greenzorro.github.io/chaos)
 
-混沌是一种神秘却常见的现象，大量的无序中竟然能涌现出秩序。可乐橙对此深深着迷，自己动手做了一个小实验。
+混沌是一种神秘却常见的现象，大量的无序中竟然能涌现出秩序。我对此深深着迷，自己动手做了一个小实验。
 
 ## 前端练习本
 
@@ -90,5 +90,5 @@ App开发同学一定很痛恨设计师：你们给的颜色都是#ffffff这种�
 
 [http://greenzorro.github.io/demo/](http://greenzorro.github.io/demo/)
 
-可乐橙也在自学前端技术，把一些用到过的效果与技巧集中起来，分类整理，供自己学习练习用。代码混乱，略邋遢，请慎入~
+我也在自学前端技术，把一些用到过的效果与技巧集中起来，分类整理，供自己学习练习用。代码混乱，略邋遢，请慎入~
 
