@@ -9,7 +9,7 @@ menu:
             icon: user
 ---
 
-UI/UX设计师，现居杭州。
+Victor，又名可乐橙。UI/UX设计师，现居杭州。
 
 [>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图，久未更新，懒了）
 
