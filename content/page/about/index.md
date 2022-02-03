@@ -9,9 +9,11 @@ menu:
             icon: user
 ---
 
-Victor，又名可乐橙。UI/UX设计师，现居杭州。
+**Victor**，一名UI/UX设计师，现居杭州。
 
-[>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图，久未更新，懒了）
+在中文网络里，我又名**可乐橙**。至于那个42，是个神奇数字小尾巴，圈内人会懂。
+
+[>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，慎入）
 
 社交账号：[微博](https://weibo.com/u/1273496951) | [豆瓣](http://www.douban.com/people/greenzorro/) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [Github](https://github.com/greenzorro)
 
