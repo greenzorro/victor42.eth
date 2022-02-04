@@ -10,11 +10,45 @@ menu:
             icon: blockquote
 ---
 
-喜欢的电影，附简短推荐语。
+喜欢的电影和纪录片，附简短推荐语。
 
-## 至暗时刻
+## 电影
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/91.jpg)
+### 隐藏人物
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-95.jpg)
+
+[https://movie.douban.com/subject/26615208/](https://movie.douban.com/subject/26615208/)
+
+推荐语
+
+### 实习生
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-94.jpg)
+
+[https://movie.douban.com/subject/10594965/](https://movie.douban.com/subject/10594965/)
+
+推荐语
+
+### 海蒂和爷爷
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-93.jpg)
+
+[https://movie.douban.com/subject/25958717/](https://movie.douban.com/subject/25958717/)
+
+推荐语
+
+### 切尔诺贝利
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-92.jpg)
+
+[https://movie.douban.com/subject/27098632/](https://movie.douban.com/subject/27098632/)
+
+推荐语
+
+### 至暗时刻
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-91.jpg)
 
 [https://movie.douban.com/subject/26761416/](https://movie.douban.com/subject/26761416/)
 
@@ -22,9 +56,9 @@ menu:
 
 像这种镜头会说话的电影，再怎么称赞都不为过。 
 
-## 大空头
+### 大空头
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/90.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-90.jpg)
 
 [https://movie.douban.com/subject/26303622/](https://movie.douban.com/subject/26303622/)
 
@@ -36,9 +70,9 @@ menu:
 
 故事紧凑而巧妙，剪辑可谓是神了，大量的蒙太奇看似支离破碎，实则信息量巨大，处处有惊喜。
 
-## 神秘巨星
+### 神秘巨星
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/89.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-89.jpg)
 
 [https://movie.douban.com/subject/26942674/](https://movie.douban.com/subject/26942674/)
 
@@ -54,9 +88,9 @@ menu:
 
 纵观全片，没什么实验性的东西。从头到尾就只想认认真真讲好这个故事，深深打动你，这就是本片最大的诚意。
 
-## 敦刻尔克
+### 敦刻尔克
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/88.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-88.jpg)
 
 [https://movie.douban.com/subject/26607693/](https://movie.douban.com/subject/26607693/)
 
@@ -66,9 +100,9 @@ menu:
 
 关于二战的转折点有3种说法，一是珍珠港+中途岛，二是诺曼底，三就是这场敦刻尔克。唯有它是一场大撤退，几乎不能算一场战役，足见其历史分量。
 
-## 桂河大桥
+### 桂河大桥
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/87.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-87.jpg)
 
 [https://movie.douban.com/subject/1294958/](https://movie.douban.com/subject/1294958/)
 
@@ -80,9 +114,9 @@ menu:
 
 而最有趣的地方在于，不同的视角，责任与荣誉却能产生完全不同的结果。
 
-## 守护者联盟
+### 守护者联盟
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/86.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-86.jpg)
 
 [https://movie.douban.com/subject/3769423/](https://movie.douban.com/subject/3769423/)
 
@@ -92,9 +126,9 @@ menu:
 
 台词、配音与肢体语言都很有真人电影的感觉，不像多数动画电影那么夸张和刻意低龄化，看的过程中我不止一次产生了正在看美剧的错觉。
 
-## 凯尔经的秘密
+### 凯尔经的秘密
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/85.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-85.jpg)
 
 [https://movie.douban.com/subject/3212221/](https://movie.douban.com/subject/3212221/)
 
@@ -106,9 +140,9 @@ menu:
 
 而且，故事讲得还不差。
 
-## 致命魔术
+### 致命魔术
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/84.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-84.jpg)
 
 [https://movie.douban.com/subject/1780330/](https://movie.douban.com/subject/1780330/)
 
@@ -122,9 +156,9 @@ menu:
 
 即使没有了悬念，故事本身仍然堪称传奇，史诗般的对决。
 
-## 十二怒汉
+### 十二怒汉
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/83.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-83.jpg)
 
 [https://movie.douban.com/subject/1293182/](https://movie.douban.com/subject/1293182/)
 
@@ -138,9 +172,9 @@ menu:
 
 敬理智一杯，文明因此而存在。
 
-## 活埋
+### 活埋
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/82.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-82.jpg)
 
 [https://movie.douban.com/subject/3819877/](https://movie.douban.com/subject/3819877/)
 
@@ -152,9 +186,9 @@ menu:
 
 最终，片尾再来一曲若无其事的轻快吉他，真是太恶毒了。
 
-## 2001太空漫游
+### 2001太空漫游
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/81.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-81.jpg)
 
 [https://movie.douban.com/subject/1292226/](https://movie.douban.com/subject/1292226/)
 
@@ -166,9 +200,9 @@ menu:
 
 唯有如此，才能体会到这部老电影的精妙与真实。
 
-## 火星救援
+### 火星救援
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/80.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-80.jpg)
 
 [https://movie.douban.com/subject/25864085/](https://movie.douban.com/subject/25864085/)
 
@@ -180,9 +214,9 @@ menu:
 
 你会为整个人类文明感到自豪，漫漫星河，我们的确独一无二。
 
-## 云中漫步
+### 云中漫步
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/79.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-79.jpg)
 
 [https://movie.douban.com/subject/1300945/](https://movie.douban.com/subject/1300945/)
 
@@ -196,9 +230,9 @@ menu:
 
 宛如一场美丽的梦境，美得不太真实，却最为纯粹。
 
-## 热血警探
+### 热血警探
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/78.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-78.jpg)
 
 [https://movie.douban.com/subject/1806555/](https://movie.douban.com/subject/1806555/)
 
@@ -206,9 +240,9 @@ menu:
 
 尽管结尾略潦草，仍然是很纯粹的一部英式黑色喜剧。
 
-## 王牌特工：特工学院
+### 王牌特工：特工学院
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/77.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-77.jpg)
 
 [https://movie.douban.com/subject/24405378/](https://movie.douban.com/subject/24405378/)
 
@@ -220,9 +254,9 @@ menu:
 
 亚瑟、兰斯洛特、加拉哈德，都是亚瑟王与圆桌骑士故事中的人名，这就是电影内心深处的情怀。
 
-## 银河系漫游指南
+### 银河系漫游指南
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/76.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-76.jpg)
 
 [https://movie.douban.com/subject/1292267/](https://movie.douban.com/subject/1292267/)
 
@@ -232,9 +266,9 @@ menu:
 3. 更不存在所谓真相、主旨。
 4. 只要相信一切都是有趣且合理的。
 
-## 星际穿越
+### 星际穿越
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/75.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-75.jpg)
 
 [https://movie.douban.com/subject/1889243/](https://movie.douban.com/subject/1889243/)
 
@@ -250,9 +284,9 @@ menu:
 
 与此相比，拯救全人类似乎只是顺手而为。
 
-## 虫师
+### 虫师
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/74.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-74.jpg)
 
 [https://movie.douban.com/subject/1800597/](https://movie.douban.com/subject/1800597/)
 
@@ -264,9 +298,9 @@ menu:
 
 你会感觉自己像个吟游诗人，游历四方，静听人们的故事。
 
-## 超验骇客
+### 超验骇客
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/73.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-73.jpg)
 
 [https://movie.douban.com/subject/10810745/](https://movie.douban.com/subject/10810745/)
 
@@ -280,9 +314,9 @@ menu:
 
 你们不会理解，这是神的孤独。
 
-## 地心引力
+### 地心引力
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/72.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-72.jpg)
 
 [https://movie.douban.com/subject/3793783/](https://movie.douban.com/subject/3793783/)
 
@@ -292,9 +326,9 @@ menu:
 
 苍凉之美的宇宙。
 
-## 无敌破坏王
+### 无敌破坏王
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/71.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-71.jpg)
 
 [https://movie.douban.com/subject/6534248/](https://movie.douban.com/subject/6534248/)
 
@@ -306,9 +340,9 @@ menu:
 
 叙事很流畅，惊喜不断。
 
-## 南极料理人
+### 南极料理人
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/70.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-70.jpg)
 
 [https://movie.douban.com/subject/3399559/](https://movie.douban.com/subject/3399559/)
 
@@ -320,9 +354,9 @@ menu:
 
 这一切组合起来，却流露出一种独特的日式温馨，回味无穷。
 
-## 来自新世界
+### 来自新世界
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/69.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-69.jpg)
 
 [https://movie.douban.com/subject/10527275/](https://movie.douban.com/subject/10527275/)
 
@@ -336,9 +370,9 @@ menu:
 
 水面下隐藏着令人不寒而栗的真相。
 
-## 河童之夏
+### 河童之夏
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/68.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-68.jpg)
 
 [https://movie.douban.com/subject/2982823/](https://movie.douban.com/subject/2982823/)
 
@@ -348,9 +382,9 @@ menu:
 
 冷漠无情的世界中，真诚与信任依然能融化冰川。
 
-## 超时空接触
+### 超时空接触
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/67.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-67.jpg)
 
 [https://movie.douban.com/subject/1295647/](https://movie.douban.com/subject/1295647/)
 
@@ -358,9 +392,9 @@ menu:
 
 不同的是，对至高真理的敬畏，并非源于神秘。而是来自了解，哪怕是顿悟自身的渺小。
 
-## 怦然心动
+### 怦然心动
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/66.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-66.jpg)
 
 [https://movie.douban.com/subject/3319755/](https://movie.douban.com/subject/3319755/)
 
@@ -368,9 +402,9 @@ menu:
 
 梧桐树下，终于盛开纯美的爱情之花。
 
-## 人再囧途之泰囧
+### 人再囧途之泰囧
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/65.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-65.jpg)
 
 [https://movie.douban.com/subject/10574622/](https://movie.douban.com/subject/10574622/)
 
@@ -378,9 +412,9 @@ menu:
 
 不属于情节跳跃的快节奏电影，故事连贯流畅，笑点自然亲切。
 
-## 野蛮人罗纳尔
+### 野蛮人罗纳尔
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/64.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-64.jpg)
 
 [https://movie.douban.com/subject/6015756/](https://movie.douban.com/subject/6015756/)
 
@@ -388,9 +422,9 @@ menu:
 
 但它不是普通的喜剧片，片中无处不在的各种基腐宅元素与重口笑点，让它与众不同。
 
-## 少年派的奇幻漂流
+### 少年派的奇幻漂流
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/63.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-63.jpg)
 
 [https://movie.douban.com/subject/1929463/](https://movie.douban.com/subject/1929463/)
 
@@ -402,9 +436,9 @@ menu:
 
 神性与本性激烈交锋，缠绕纠葛，造就了这个美丽而可怕的故事。
 
-## 料理鼠王
+### 料理鼠王
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/62.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-62.jpg)
 
 [https://movie.douban.com/subject/1793491/](https://movie.douban.com/subject/1793491/)
 
@@ -412,9 +446,9 @@ menu:
 
 然而五颜六色的美食当前，没有什么能阻止它成为一部温馨有爱的电影。
 
-## 三个傻瓜
+### 三个傻瓜
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/61.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-61.jpg)
 
 [https://movie.douban.com/subject/3793023/](https://movie.douban.com/subject/3793023/)
 
@@ -422,9 +456,9 @@ menu:
 
 激发人对世间万物背后所蕴含哲理的探求，当然，也包括人心。
 
-## 机器人瓦力
+### 机器人瓦力
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/60.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-60.jpg)
 
 [https://movie.douban.com/subject/2131459/](https://movie.douban.com/subject/2131459/)
 
@@ -436,9 +470,9 @@ menu:
 
 片尾演员表部分的小短片非常精彩，请勿错过。
 
-## 鬼妈妈
+### 鬼妈妈
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/59.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-59.jpg)
 
 [https://movie.douban.com/subject/1919245/](https://movie.douban.com/subject/1919245/)
 
@@ -446,9 +480,9 @@ menu:
 
 恰到好处的黑暗气息，故事简单却回味无穷。
 
-## 黑镜子
+### 黑镜子
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/58.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-58.jpg)
 
 [https://movie.douban.com/subject/7054120/](https://movie.douban.com/subject/7054120/)
 
@@ -460,9 +494,9 @@ menu:
 2. 第二集. 世界充斥着种种不真实，这些虚幻的泡沫像是流沙，尽管去挣扎，终将被吞没
 3. 第三集. 如果记忆不再是个人的专属物品，那么它将成为一把嗜血的利刃
 
-## 当尼采哭泣
+### 当尼采哭泣
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/57.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-57.jpg)
 
 [https://movie.douban.com/subject/2130545/](https://movie.douban.com/subject/2130545/)
 
@@ -472,9 +506,9 @@ menu:
 
 电影中人物的梦境几乎都用镜头表达出来。梦境表现荒诞夸张，反而更加真实。
 
-## 熔炉
+### 熔炉
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/56.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-56.jpg)
 
 [https://movie.douban.com/subject/5912992/](https://movie.douban.com/subject/5912992/)
 
@@ -484,9 +518,9 @@ menu:
 
 不是为了改变世界，只是为了不让世界改变自己。
 
-## 星空
+### 星空
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/55.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-55.jpg)
 
 [https://movie.douban.com/subject/5993185/](https://movie.douban.com/subject/5993185/)
 
@@ -496,19 +530,9 @@ menu:
 
 回忆里永远空缺的拼图碎块，遗憾之美。
 
-## 阿凡达
+### 源代码
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/54.jpg)
-
-[https://movie.douban.com/subject/1652587/](https://movie.douban.com/subject/1652587/)
-
-作为一部以特效场面著称的魔幻商业片，自然无可挑剔。
-
-不过在华丽的背后，纳美人的神灵，伊瓦，也是一种耐人寻味的超自然存在。
-
-## 源代码
-
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/52.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-52.jpg)
 
 [https://movie.douban.com/subject/3075287/](https://movie.douban.com/subject/3075287/)
 
@@ -516,29 +540,9 @@ menu:
 
 平行世界并非改变历史，而是可以无限演绎下去的广阔时空。
 
-## 不再让你孤单
+### 战略特勤组
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/50.jpg)
-
-[https://movie.douban.com/subject/4728584/](https://movie.douban.com/subject/4728584/)
-
-大多国产爱情片的故事总是很玄乎，这部却是个例外。
-
-故事的发展并不会超出你的预期，但低调实在的小温情，却总能让人为之动容。
-
-## 社交网络
-
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/49.jpg)
-
-[https://movie.douban.com/subject/3205624/](https://movie.douban.com/subject/3205624/)
-
-扎克伯格与他们之间发生了什么，那都不重要。
-
-因为在这样矛盾尖锐的叙事中，塑造一个丰满的人物是那么难得。
-
-## 战略特勤组
-
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/48.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-48.jpg)
 
 [https://movie.douban.com/subject/2275370/](https://movie.douban.com/subject/2275370/)
 
@@ -548,9 +552,9 @@ menu:
 
 被疯狂所扭曲的信条，受害者又是谁。
 
-## 美食、祈祷和恋爱
+### 美食、祈祷和恋爱
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/47.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-47.jpg)
 
 [https://movie.douban.com/subject/2033822/](https://movie.douban.com/subject/2033822/)
 
@@ -576,19 +580,9 @@ menu:
 
 不同处境不同心境的你，都能在其中看到苦苦寻找已久的那个自己。
 
-## 人类消失后的世界
+### 澳洲乱世情
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/45.jpg)
-
-[https://movie.douban.com/subject/2973851/](https://movie.douban.com/subject/2973851/)
-
-纪录片，关于零人口地球的畅想。
-
-时间留不下什么，即便是我们引以为豪的文明里的一颗沙砾。
-
-## 澳洲乱世情
-
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/44.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-44.jpg)
 
 [https://movie.douban.com/subject/2010975/](https://movie.douban.com/subject/2010975/)
 
@@ -596,35 +590,35 @@ menu:
 
 推荐本片，因为太喜欢镜头中那辽阔的荒野。
 
-## 玛丽和马克思
+### 玛丽和马克思
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/43.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-43.jpg)
 
 [https://movie.douban.com/subject/3072124/](https://movie.douban.com/subject/3072124/)
 
 真诚与原谅，一生的朋友。
 
-## 天空之城
+### 天空之城
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/42.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-42.jpg)
 
 [https://movie.douban.com/subject/1291583/](https://movie.douban.com/subject/1291583/)
 
 不需要多介绍，天空之城的一切，都是美。
 
-## 低俗小说
+### 低俗小说
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/40.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-40.jpg)
 
 [https://movie.douban.com/subject/1291832/](https://movie.douban.com/subject/1291832/)
 
-抢劫、毒品、枪杀、黑社会……似乎离我们的世界有些遥远。
+抢劫、毒品、枪杀、黑社会，这种题材的作品很多，但都体现的它们的同一面。
 
-却有这么一部电影，能让这一切发生的那么自然、贴切、诙谐、有生活味。
+却有这么一部电影，能尝试展现其另一面，让这一切发生的那么自然、贴切、诙谐、有生活味。
 
-## 变脸
+### 变脸
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/39.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-39.jpg)
 
 [https://movie.douban.com/subject/1292659/](https://movie.douban.com/subject/1292659/)
 
@@ -632,9 +626,9 @@ menu:
 
 表演之中的表演，正反二角的完美演绎都不会让你失望。
 
-## 穿PRADA的恶魔
+### 穿PRADA的恶魔
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/37.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-37.jpg)
 
 [https://movie.douban.com/subject/1482072/](https://movie.douban.com/subject/1482072/)
 
@@ -642,9 +636,9 @@ menu:
 
 如果鼓起勇气亲手戳破它，立刻就能变回真正的自己。
 
-## 这个男人来自地球
+### 这个男人来自地球
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/36.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-36.jpg)
 
 [https://movie.douban.com/subject/2300586/](https://movie.douban.com/subject/2300586/)
 
@@ -660,9 +654,9 @@ menu:
 
 Forever is the way I feel for you.
 
-## 七天
+### 七天
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/35.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-35.jpg)
 
 [https://movie.douban.com/subject/2999500/](https://movie.douban.com/subject/2999500/)
 
@@ -674,9 +668,9 @@ Forever is the way I feel for you.
 
 这感觉有点像罗生门。
 
-## 悬崖上的金鱼姬
+### 悬崖上的金鱼姬
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/34.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-34.jpg)
 
 [https://movie.douban.com/subject/1959877/](https://movie.douban.com/subject/1959877/)
 
@@ -684,19 +678,9 @@ Forever is the way I feel for you.
 
 在这一小时40分钟，给自己一颗清澈透明的心。
 
-## 蜂蜜与四叶草
+### 骗中骗
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/33.jpg)
-
-[https://movie.douban.com/subject/1796053/](https://movie.douban.com/subject/1796053/)
-
-学生时代的狂妄、张扬、迷惘、彷徨。
-
-一切在这都是那么的真实自然，因为，这就是年轻的五味瓶。
-
-## 骗中骗
-
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/31.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-31.jpg)
 
 [https://movie.douban.com/subject/1292269/](https://movie.douban.com/subject/1292269/)
 
@@ -706,17 +690,17 @@ Forever is the way I feel for you.
 
 早期影视作品中演员演技无可挑剔。
 
-## 菊次郎的夏天
+### 菊次郎的夏天
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/30.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-30.jpg)
 
 [https://movie.douban.com/subject/1293359/](https://movie.douban.com/subject/1293359/)
 
 跟着片中的"两个"小孩去进行一次奇妙温馨的旅行。
 
-## 空中监狱
+### 空中监狱
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/29.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-29.jpg)
 
 [https://movie.douban.com/subject/1300618/](https://movie.douban.com/subject/1300618/)
 
@@ -724,9 +708,9 @@ Forever is the way I feel for you.
 
 人物如此众多却人人个性鲜明，很难得。
 
-## 两杆大烟枪
+### 两杆大烟枪
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/28.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-28.jpg)
 
 [https://movie.douban.com/subject/1293350/](https://movie.douban.com/subject/1293350/)
 
@@ -734,9 +718,9 @@ Forever is the way I feel for you.
 
 经典的英式黑色幽默。
 
-## 西西里的美丽传说
+### 西西里的美丽传说
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/27.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-27.jpg)
 
 [https://movie.douban.com/subject/1292402/](https://movie.douban.com/subject/1292402/)
 
@@ -744,9 +728,9 @@ Forever is the way I feel for you.
 
 很可怕，人言可畏。
 
-## 无名英雄
+### 无名英雄
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/26.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-26.jpg)
 
 [https://movie.douban.com/subject/1301420/](https://movie.douban.com/subject/1301420/)
 
@@ -754,9 +738,9 @@ Forever is the way I feel for you.
 
 现代社会的通病，只有闪光灯下的才是英雄吗？
 
-## 爱国者
+### 爱国者
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/25.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-25.jpg)
 
 [https://movie.douban.com/subject/1293934/](https://movie.douban.com/subject/1293934/)
 
@@ -766,9 +750,9 @@ Forever is the way I feel for you.
 
 每一面都耐人寻味。
 
-## 疯狂约会美丽都
+### 疯狂约会美丽都
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/24.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-24.jpg)
 
 [https://movie.douban.com/subject/1291565/](https://movie.douban.com/subject/1291565/)
 
@@ -778,9 +762,9 @@ Forever is the way I feel for you.
 
 推荐者，好友Ginger，正是他本人的风格。
 
-## 四个婚礼一个葬礼
+### 四个婚礼一个葬礼
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/23.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-23.jpg)
 
 [https://movie.douban.com/subject/1294950/](https://movie.douban.com/subject/1294950/)
 
@@ -788,9 +772,9 @@ Forever is the way I feel for you.
 
 每天的工作是见证他人的爱情，自己却迷失其中。
 
-## 楚门的世界
+### 楚门的世界
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/22.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-22.jpg)
 
 [https://movie.douban.com/subject/1292064/](https://movie.douban.com/subject/1292064/)
 
@@ -800,9 +784,9 @@ Forever is the way I feel for you.
 
 没有欺诈、阴谋、邪恶的完美世界，你是否愿意被困在这个世界中？
 
-## 飞屋环游记
+### 飞屋环游记
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/21.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-21.jpg)
 
 [https://movie.douban.com/subject/2129039/](https://movie.douban.com/subject/2129039/)
 
@@ -814,9 +798,9 @@ Forever is the way I feel for you.
 
 简单、纯粹。
 
-## 肖申克的救赎
+### 肖申克的救赎
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/17.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-17.jpg)
 
 [https://movie.douban.com/subject/1292052/](https://movie.douban.com/subject/1292052/)
 
@@ -824,9 +808,9 @@ Forever is the way I feel for you.
 
 坚韧与谋略，令人大呼过瘾。
 
-## 大地雄心
+### 大地雄心
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/16.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-16.jpg)
 
 [https://movie.douban.com/subject/1292701/](https://movie.douban.com/subject/1292701/)
 
@@ -834,9 +818,9 @@ Forever is the way I feel for you.
 
 再没什么比它更好的诠释了自由与梦想。
 
-## 罗生门
+### 罗生门
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/15.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-15.jpg)
 
 [https://movie.douban.com/subject/1291879/](https://movie.douban.com/subject/1291879/)
 
@@ -846,9 +830,9 @@ Forever is the way I feel for you.
 
 世上并无所谓真相，千万种立场有千万个真相。
 
-## 独立日
+### 独立日
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/14.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-14.jpg)
 
 [https://movie.douban.com/subject/1293013/](https://movie.douban.com/subject/1293013/)
 
@@ -856,9 +840,9 @@ Forever is the way I feel for you.
 
 经典科幻片，一个时代的标杆。
 
-## 秒速5厘米
+### 秒速5厘米
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/13.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-13.jpg)
 
 [https://movie.douban.com/subject/2043546/](https://movie.douban.com/subject/2043546/)
 
@@ -868,9 +852,9 @@ Forever is the way I feel for you.
 
 世界不大，然而即便世界只剩下我们两个人，擦身而过的命运已注定。
 
-## 大鱼
+### 大鱼
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/12.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-12.jpg)
 
 [https://movie.douban.com/subject/1291545/](https://movie.douban.com/subject/1291545/)
 
@@ -880,19 +864,9 @@ Forever is the way I feel for you.
 
 父亲、自己、朋友们，都是这精彩故事的一段。
 
-## 泪光闪闪
+### 克莱默夫妇
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/11.jpg)
-
-[https://movie.douban.com/subject/1900180/](https://movie.douban.com/subject/1900180/)
-
-妻夫木聪的表演很自然。
-
-学学电影里面捏鼻子，看的时候或许用的上。
-
-## 克莱默夫妇
-
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/10.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-10.jpg)
 
 [https://movie.douban.com/subject/1300685/](https://movie.douban.com/subject/1300685/)
 
@@ -900,9 +874,9 @@ Forever is the way I feel for you.
 
 达斯汀·霍夫曼完美的演技总能给人带来惊喜。
 
-## 龙猫
+### 龙猫
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/9.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-9.jpg)
 
 [https://movie.douban.com/subject/1291560/](https://movie.douban.com/subject/1291560/)
 
@@ -910,9 +884,9 @@ Forever is the way I feel for you.
 
 个人觉得这才是是宫崎骏最经典的作品，细节丰富情感饱满。
 
-## 科学怪人
+### 科学怪人
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/7.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-7.jpg)
 
 [https://movie.douban.com/subject/1293778/](https://movie.douban.com/subject/1293778/)
 
@@ -922,17 +896,17 @@ Forever is the way I feel for you.
 
 当他真正理解时，却是他生命的终结。
 
-## 西北偏北
+### 西北偏北
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/6.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-6.jpg)
 
 [https://movie.douban.com/subject/1295872/](https://movie.douban.com/subject/1295872/)
 
 悬念大师希区柯克的作品，观看过程是一种享受。
 
-## 十二猴子
+### 十二猴子
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/4.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-4.jpg)
 
 [https://movie.douban.com/subject/1298744/](https://movie.douban.com/subject/1298744/)
 
@@ -940,9 +914,9 @@ Forever is the way I feel for you.
 
 不要忽视戏份不多的小人物，真正的重量级角色藏在其中。
 
-## 深入敌后搞搞震
+### 深入敌后搞搞震
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/3.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-3.jpg)
 
 [https://movie.douban.com/subject/3027162/](https://movie.douban.com/subject/3027162/)
 
@@ -950,9 +924,9 @@ Forever is the way I feel for you.
 
 虎口脱险的原班人马，用另类的视角解读残酷的战场。
 
-## 海上钢琴师
+### 海上钢琴师
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/2.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-2.jpg)
 
 [https://movie.douban.com/subject/1292001/](https://movie.douban.com/subject/1292001/)
 
@@ -962,9 +936,9 @@ Forever is the way I feel for you.
 
 他面对无数背影，面无表情，却也是这部电影里最能代替言语的表情。
 
-## 战争之王
+### 战争之王
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/1.jpg)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/m-1.jpg)
 
 [https://movie.douban.com/subject/1419936/](https://movie.douban.com/subject/1419936/)
 
@@ -975,3 +949,81 @@ Forever is the way I feel for you.
 世界现实而残酷，最残酷的是，我们不得不让它继续下去。
 
 电影镜头有极强的表现力。
+
+---
+
+## 纪录片
+
+### 完美星球
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-9.jpg)
+
+[https://movie.douban.com/subject/33387354/](https://movie.douban.com/subject/33387354/)
+
+推荐语
+
+### 阿波罗11号
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-8.jpg)
+
+[https://movie.douban.com/subject/30390701/](https://movie.douban.com/subject/30390701/)
+
+推荐语
+
+### 数学的故事
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-7.jpg)
+
+[https://movie.douban.com/subject/4139917/](https://movie.douban.com/subject/4139917/)
+
+推荐语
+
+### 美国商业大亨传奇
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-6.jpg)
+
+[https://movie.douban.com/subject/20277091/](https://movie.douban.com/subject/20277091/)
+
+推荐语
+
+### 地图：权力、掠夺和占有
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-5.jpg)
+
+[https://movie.douban.com/subject/4826804/](https://movie.douban.com/subject/4826804/)
+
+推荐语
+
+### 种出个地球
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-4.jpg)
+
+[https://movie.douban.com/subject/10514987/](https://movie.douban.com/subject/10514987/)
+
+推荐语
+
+### 万物与虚无
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-3.jpg)
+
+[https://movie.douban.com/subject/6872214/](https://movie.douban.com/subject/6872214/)
+
+推荐语
+
+### 行星
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-2.jpg)
+
+[https://movie.douban.com/subject/30362315/](https://movie.douban.com/subject/30362315/)
+
+推荐语
+
+### 人类消失后的世界
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-1.jpg)
+
+[https://movie.douban.com/subject/2973851/](https://movie.douban.com/subject/2973851/)
+
+关于零人口地球的畅想。
+
+时间留不下什么，即便是我们引以为豪的文明里的一颗沙砾。
