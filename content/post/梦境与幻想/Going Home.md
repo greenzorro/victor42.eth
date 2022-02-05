@@ -1,5 +1,7 @@
 ---
 title: Going Home
+description: 
+image: 
 date: 2011-02-05 00:30:00
 categories: 梦境与幻想
 url: /post/184

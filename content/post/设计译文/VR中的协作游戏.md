@@ -1,5 +1,7 @@
 ---
 title: VR中的协作游戏
+description: 
+image: 
 date: 2017-07-02 00:36:15
 categories: 设计译文
 url: /post/3558

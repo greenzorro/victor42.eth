@@ -1,5 +1,7 @@
 ---
 title: bye
+description: 
+image: 
 date: 2011-02-04 23:48:00
 categories: 神经病
 url: /post/117

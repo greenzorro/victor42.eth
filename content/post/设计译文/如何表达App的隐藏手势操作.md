@@ -1,5 +1,7 @@
 ---
 title: 如何表达App的隐藏手势操作
+description: 
+image: 
 date: 2017-01-22 22:03:37
 categories: 设计译文
 url: /post/3538

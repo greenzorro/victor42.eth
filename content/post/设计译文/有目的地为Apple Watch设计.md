@@ -1,5 +1,7 @@
 ---
 title: 有目的地为Apple Watch而设计
+description: 
+image: 
 date: 2015-09-06 10:40:00
 categories: 设计译文
 url: /post/3460

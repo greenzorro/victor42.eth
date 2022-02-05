@@ -1,5 +1,7 @@
 ---
 title: Android电视应用：Amazon Fire TV版TVPlayer设计
+description: 
+image: 
 date: 2016-09-25 00:00:08
 categories: 设计译文
 url: /post/3523

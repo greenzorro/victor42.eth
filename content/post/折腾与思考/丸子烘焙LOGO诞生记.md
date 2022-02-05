@@ -1,5 +1,7 @@
 ---
 title: 丸子烘焙LOGO诞生记
+description: 
+image: 
 date: 2013-04-23 21:21:00
 categories: 折腾与思考
 url: /post/2470
