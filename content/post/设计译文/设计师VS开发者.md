@@ -1,5 +1,7 @@
 ---
 title: 设计师VS开发者
+description: 
+image: 
 date: 2013-10-27 14:30:11
 categories: 设计译文
 url: /post/2860

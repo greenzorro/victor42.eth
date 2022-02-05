@@ -1,5 +1,7 @@
 ---
 title: Eyefluence：混合现实缺失的一环
+description: 
+image: 
 date: 2016-11-20 00:03:08
 categories: 设计译文
 url: /post/3530

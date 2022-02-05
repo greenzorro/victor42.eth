@@ -1,5 +1,7 @@
 ---
 title: 新iPhone6与Apple watch给设计师带来的影响
+description: 
+image: 
 date: 2014-09-28 19:12:31
 categories: 设计译文
 url: /post/3393

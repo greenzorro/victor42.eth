@@ -1,5 +1,7 @@
 ---
 title: AE环形进度条
+description: 
+image: 
 date: 2015-02-10 15:16:00
 categories: 折腾与思考
 url: /post/3424

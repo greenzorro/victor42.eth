@@ -1,5 +1,7 @@
 ---
 title: NOT Again
+description: 
+image: 
 date: 2011-05-10 22:33:58
 categories: 苟且与远方
 url: /post/768

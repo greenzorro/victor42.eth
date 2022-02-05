@@ -1,5 +1,7 @@
 ---
 title: Simple life, circle life
+description: 
+image: 
 date: 2011-02-05 00:21:01
 categories: 苟且与远方
 url: /post/152

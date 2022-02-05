@@ -1,5 +1,7 @@
 ---
 title: KT没有女朋友
+description: 
+image: 
 date: 2015-12-03 18:12:00
 categories: 神经病
 url: /post/3470

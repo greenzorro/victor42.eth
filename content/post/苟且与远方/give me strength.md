@@ -1,5 +1,7 @@
 ---
 title: give me strength
+description: 
+image: 
 date: 2012-04-29 20:45:00
 categories: 苟且与远方
 url: /post/1586

@@ -1,5 +1,7 @@
 ---
 title: 简体vs繁体
+description: 
+image: 
 date: 2011-02-04 23:44:39
 categories: 苟且与远方
 url: /post/105
