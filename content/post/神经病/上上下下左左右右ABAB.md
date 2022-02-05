@@ -1,5 +1,7 @@
 ---
 title: 上上下下左左右右ABAB
+description: 
+image: 
 date: 2014-06-08 00:05:00
 categories: 神经病
 url: /post/3372

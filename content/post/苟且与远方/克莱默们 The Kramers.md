@@ -1,5 +1,7 @@
 ---
 title: 克莱默们 The Kramers
+description: 
+image: 
 date: 2011-02-05 00:22:00
 categories: 苟且与远方
 url: /post/157

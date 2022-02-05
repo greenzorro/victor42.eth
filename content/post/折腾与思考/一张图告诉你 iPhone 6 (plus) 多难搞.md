@@ -1,5 +1,7 @@
 ---
 title: 一张图告诉你 iPhone 6 (plus) 多难搞
+description: 
+image: 
 date: 2014-10-08 18:08:00
 categories: 折腾与思考
 url: /post/3394

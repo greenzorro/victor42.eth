@@ -1,5 +1,7 @@
 ---
 title: 蓝草庄园:巧用PS匹配颜色给照片调色
+description: 
+image: 
 date: 2014-10-23 23:16:58
 categories: 折腾与思考
 url: /post/3398

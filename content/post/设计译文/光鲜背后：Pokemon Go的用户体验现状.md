@@ -1,5 +1,7 @@
 ---
 title: 光鲜背后：Pokemon Go的用户体验现状
+description: 
+image: 
 date: 2016-07-31 11:23:26
 categories: 设计译文
 url: /post/3514

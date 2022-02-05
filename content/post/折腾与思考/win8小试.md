@@ -1,5 +1,7 @@
 ---
 title: win8小试
+description: 
+image: 
 date: 2012-03-16 17:28:00
 categories: 折腾与思考
 url: /post/1485

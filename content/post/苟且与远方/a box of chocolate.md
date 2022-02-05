@@ -1,5 +1,7 @@
 ---
 title: a box of chocolate
+description: 
+image: 
 date: 2011-02-05 00:27:33
 categories: 苟且与远方
 url: /post/173
