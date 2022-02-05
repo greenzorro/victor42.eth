@@ -164,22 +164,28 @@ menu:
           weight: 10
           url: https://weibo.com/u/1273496951
           params:
-            icon: affiliate
+            icon: at
         - identifier: douban
           name: 豆瓣
           weight: 20
           url: http://www.douban.com/people/greenzorro/
           params:
-            icon: books
+            icon: movie
+        - identifier: instagram
+          name: Instagram
+          weight: 30
+          url: https://www.instagram.com/victor_cheng_42/
+          params:
+            icon: brand-instagram
         - identifier: xiachufang
           name: 下厨房
-          weight: 30
+          weight: 40
           url: https://www.xiachufang.com/cook/10348954/
           params:
-            icon: tools-kitchen
+            icon: tools-kitchen-2
         - identifier: github
           name: GitHub
-          weight: 40
+          weight: 50
           url: https://github.com/greenzorro
           params:
             icon: brand-github
