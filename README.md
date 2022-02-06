@@ -1,3 +1,3 @@
 # victor42.eth
 
-A Hugo Blog.
+A hugo-based static blog deployed on blockchain.
