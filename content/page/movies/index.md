@@ -966,6 +966,16 @@ Forever is the way I feel for you.
 
 ## 纪录片
 
+### 量子力学揭秘
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-12.jpg)
+
+[https://movie.douban.com/subject/26274172/](https://movie.douban.com/subject/26274172/)
+
+量子力学，这么晦涩的话题，拍成纪录片是很需要勇气的。
+
+本片有大量形象直观的演示，能让你窥见量子世界的冰山一角，非常用心。
+
 ### 从冰到火：关于温度的奇妙科学
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/movies/d-11.jpg)

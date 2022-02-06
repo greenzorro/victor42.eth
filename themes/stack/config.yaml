@@ -159,27 +159,33 @@ menu:
               newTab: false
               icon: home
     social:
-        - identifier: douban
-          name: 豆瓣
+        - identifier: twitter
+          name: Twitter
           weight: 10
-          url: http://www.douban.com/people/greenzorro/
+          url: https://twitter.com/victor_cheng_42
           params:
-            icon: movie
+            icon: brand-twitter
         - identifier: instagram
           name: Instagram
           weight: 20
           url: https://www.instagram.com/victor_cheng_42/
           params:
             icon: brand-instagram
+        - identifier: douban
+          name: 豆瓣
+          weight: 30
+          url: http://www.douban.com/people/greenzorro/
+          params:
+            icon: movie
         - identifier: xiachufang
           name: 下厨房
-          weight: 30
+          weight: 40
           url: https://www.xiachufang.com/cook/10348954/
           params:
             icon: tools-kitchen-2
         - identifier: github
           name: GitHub
-          weight: 40
+          weight: 50
           url: https://github.com/greenzorro
           params:
             icon: brand-github
