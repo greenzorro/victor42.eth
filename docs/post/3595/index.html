@@ -1,53 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='摩擦力并不是一个严谨的物理概念，而是被中学课本简化了的好几种物理现象的综合。
-在中学物理中，摩擦力只与两个因素有关：接触面粗糙程度、垂直接触面方向施加的压力。与接触面积大小无关。
-虽然这个结果在一些情况下正确，但它并不能让人理解摩擦力的真正原理，甚至会误导。实际上，平行于接触面方向的阻力并不存在。绝对光滑的理想物体完全没有摩擦力，这就已经能说明这一点。
-真正阻碍物体运动的，是把它推离接触面的抬升力。自然界物体表面都是粗糙的，两个接触物体会像齿轮一样嵌合在一起（当然不会那么紧密）。平均地看，接触面可以近似于N个形状与面积完全相同的小斜面，上方的物体则可以看做N个垂直摆放的小牙签，每个对应一个小斜面。想象一下活字印刷。
- 
-要移动上方物体，本质上是要把每一个小牙签推上斜面，抬高之后它才能越过斜面的顶端向前移动，这就要克服小牙签自身的重力。重力可以分解为一个沿斜面下滑的力，一个垂直于斜面把它压紧的力。而拉力可以分解为一个沿斜面上移的力，一个也是垂直于斜面把它压紧的力。压紧的力总是会获得等大的反作用力，在这里不重要。而拉力只有使得沿斜面上移的力大于下滑的力，才能使物体动起来。这才是摩擦力的根源。
-因此，摩擦力并不是与接触面积无关。毕竟接触面积大了，会有更多的小斜面，N增大了。但是中学物理讨论的是，把上面的物体立着摆变为躺着摆，摩擦力不会变。这是因为N增大的同时，每根小牙签变矮了，重力变小，沿斜面下滑的力的分量也变小，拉动每一根小牙签需要的力也变小。这一大一小，数学上抵消了，导致摩擦力不变的结果。
-但如果因为这个结果，就认为摩擦力与面积无关，是一种误导。实际上，日常生活的种种现象就在告诉你，面积大摩擦力确实更大。
-读了两篇文章，揭示了摩擦力的真相。 https://zhuanlan.zhihu.com/p/22165913 https://www.guokr.com/article/459070
-许多人想当然认为，手指的指纹为了增加摩擦力，更好抓握物体。结果正确，但原理不是你想的那样。实际上指纹的沟壑无法接触到物体，反而减少了接触面积，在同等按压力道的情况下，无指纹的手指理论上拿得更稳。那指纹的意义何在？
-因为手指采用了另一种方式增加摩擦力：出汗。出汗能软化皮肤表面的角质层，软化了贴合更紧密，像齿轮一样。也就是在面积不变的情况下，增加了小斜面的数量。
-当然，汗太多也滑。常识告诉我们湿手很难拧开水果罐头。所以接触面的湿度是有个最佳值的，超过了也会降低摩擦力。而指纹的沟壑则为排除多余水分提供了条件。
-摩擦，这么常见的现象。中学与它打了6年的交道，做过无数把小滑块摆在桌上、放在斜坡上、按在墙上甚至顶在天花板上的题。但没有一道题跟你讨论过，摩擦力到底是怎么产生的。'><title>摩擦力的真相</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='中学物理的摩擦力，真的是老师教的那样吗？'><title>摩擦力的真相</title>
 
 <link rel='canonical' href='https://greenzorro.github.io/victor42.eth/post/3595/'>
 
-<link rel="stylesheet" href="../../scss/style.min.d4eb5f206766d93eccd4bbfa57097b6419d06ace5da4fdacc078d4f11a9b85b7.css"><meta property='og:title' content='摩擦力的真相'>
-<meta property='og:description' content='摩擦力并不是一个严谨的物理概念，而是被中学课本简化了的好几种物理现象的综合。
-在中学物理中，摩擦力只与两个因素有关：接触面粗糙程度、垂直接触面方向施加的压力。与接触面积大小无关。
-虽然这个结果在一些情况下正确，但它并不能让人理解摩擦力的真正原理，甚至会误导。实际上，平行于接触面方向的阻力并不存在。绝对光滑的理想物体完全没有摩擦力，这就已经能说明这一点。
-真正阻碍物体运动的，是把它推离接触面的抬升力。自然界物体表面都是粗糙的，两个接触物体会像齿轮一样嵌合在一起（当然不会那么紧密）。平均地看，接触面可以近似于N个形状与面积完全相同的小斜面，上方的物体则可以看做N个垂直摆放的小牙签，每个对应一个小斜面。想象一下活字印刷。
- 
-要移动上方物体，本质上是要把每一个小牙签推上斜面，抬高之后它才能越过斜面的顶端向前移动，这就要克服小牙签自身的重力。重力可以分解为一个沿斜面下滑的力，一个垂直于斜面把它压紧的力。而拉力可以分解为一个沿斜面上移的力，一个也是垂直于斜面把它压紧的力。压紧的力总是会获得等大的反作用力，在这里不重要。而拉力只有使得沿斜面上移的力大于下滑的力，才能使物体动起来。这才是摩擦力的根源。
-因此，摩擦力并不是与接触面积无关。毕竟接触面积大了，会有更多的小斜面，N增大了。但是中学物理讨论的是，把上面的物体立着摆变为躺着摆，摩擦力不会变。这是因为N增大的同时，每根小牙签变矮了，重力变小，沿斜面下滑的力的分量也变小，拉动每一根小牙签需要的力也变小。这一大一小，数学上抵消了，导致摩擦力不变的结果。
-但如果因为这个结果，就认为摩擦力与面积无关，是一种误导。实际上，日常生活的种种现象就在告诉你，面积大摩擦力确实更大。
-读了两篇文章，揭示了摩擦力的真相。 https://zhuanlan.zhihu.com/p/22165913 https://www.guokr.com/article/459070
-许多人想当然认为，手指的指纹为了增加摩擦力，更好抓握物体。结果正确，但原理不是你想的那样。实际上指纹的沟壑无法接触到物体，反而减少了接触面积，在同等按压力道的情况下，无指纹的手指理论上拿得更稳。那指纹的意义何在？
-因为手指采用了另一种方式增加摩擦力：出汗。出汗能软化皮肤表面的角质层，软化了贴合更紧密，像齿轮一样。也就是在面积不变的情况下，增加了小斜面的数量。
-当然，汗太多也滑。常识告诉我们湿手很难拧开水果罐头。所以接触面的湿度是有个最佳值的，超过了也会降低摩擦力。而指纹的沟壑则为排除多余水分提供了条件。
-摩擦，这么常见的现象。中学与它打了6年的交道，做过无数把小滑块摆在桌上、放在斜坡上、按在墙上甚至顶在天花板上的题。但没有一道题跟你讨论过，摩擦力到底是怎么产生的。'>
+<link rel="stylesheet" href="../../scss/style.min.95ae00516ff116b007d113113e9603daaaef0e479f69fd5da193bda5d57b0ce7.css"><meta property='og:title' content='摩擦力的真相'>
+<meta property='og:description' content='中学物理的摩擦力，真的是老师教的那样吗？'>
 <meta property='og:url' content='https://greenzorro.github.io/victor42.eth/post/3595/'>
 <meta property='og:site_name' content='Victor42'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2021-01-20T12:05:00&#43;00:00'/><meta property='article:modified_time' content='2021-01-20T12:05:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2021-01-20T12:05:00&#43;00:00'/><meta property='article:modified_time' content='2021-01-20T12:05:00&#43;00:00'/><meta property='og:image' content='https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2021-01/friction.png' />
 <meta name="twitter:title" content="摩擦力的真相">
-<meta name="twitter:description" content="摩擦力并不是一个严谨的物理概念，而是被中学课本简化了的好几种物理现象的综合。
-在中学物理中，摩擦力只与两个因素有关：接触面粗糙程度、垂直接触面方向施加的压力。与接触面积大小无关。
-虽然这个结果在一些情况下正确，但它并不能让人理解摩擦力的真正原理，甚至会误导。实际上，平行于接触面方向的阻力并不存在。绝对光滑的理想物体完全没有摩擦力，这就已经能说明这一点。
-真正阻碍物体运动的，是把它推离接触面的抬升力。自然界物体表面都是粗糙的，两个接触物体会像齿轮一样嵌合在一起（当然不会那么紧密）。平均地看，接触面可以近似于N个形状与面积完全相同的小斜面，上方的物体则可以看做N个垂直摆放的小牙签，每个对应一个小斜面。想象一下活字印刷。
- 
-要移动上方物体，本质上是要把每一个小牙签推上斜面，抬高之后它才能越过斜面的顶端向前移动，这就要克服小牙签自身的重力。重力可以分解为一个沿斜面下滑的力，一个垂直于斜面把它压紧的力。而拉力可以分解为一个沿斜面上移的力，一个也是垂直于斜面把它压紧的力。压紧的力总是会获得等大的反作用力，在这里不重要。而拉力只有使得沿斜面上移的力大于下滑的力，才能使物体动起来。这才是摩擦力的根源。
-因此，摩擦力并不是与接触面积无关。毕竟接触面积大了，会有更多的小斜面，N增大了。但是中学物理讨论的是，把上面的物体立着摆变为躺着摆，摩擦力不会变。这是因为N增大的同时，每根小牙签变矮了，重力变小，沿斜面下滑的力的分量也变小，拉动每一根小牙签需要的力也变小。这一大一小，数学上抵消了，导致摩擦力不变的结果。
-但如果因为这个结果，就认为摩擦力与面积无关，是一种误导。实际上，日常生活的种种现象就在告诉你，面积大摩擦力确实更大。
-读了两篇文章，揭示了摩擦力的真相。 https://zhuanlan.zhihu.com/p/22165913 https://www.guokr.com/article/459070
-许多人想当然认为，手指的指纹为了增加摩擦力，更好抓握物体。结果正确，但原理不是你想的那样。实际上指纹的沟壑无法接触到物体，反而减少了接触面积，在同等按压力道的情况下，无指纹的手指理论上拿得更稳。那指纹的意义何在？
-因为手指采用了另一种方式增加摩擦力：出汗。出汗能软化皮肤表面的角质层，软化了贴合更紧密，像齿轮一样。也就是在面积不变的情况下，增加了小斜面的数量。
-当然，汗太多也滑。常识告诉我们湿手很难拧开水果罐头。所以接触面的湿度是有个最佳值的，超过了也会降低摩擦力。而指纹的沟壑则为排除多余水分提供了条件。
-摩擦，这么常见的现象。中学与它打了6年的交道，做过无数把小滑块摆在桌上、放在斜坡上、按在墙上甚至顶在天花板上的题。但没有一道题跟你讨论过，摩擦力到底是怎么产生的。">
+<meta name="twitter:description" content="中学物理的摩擦力，真的是老师教的那样吗？"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2021-01/friction.png' />
+    <link rel="shortcut icon" href="https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/assets/favicon.ico" />
+
     </head>
     <body class="
     article-page 
@@ -114,20 +81,36 @@
                 
                     <li>
                         <a 
-                            href='https://weibo.com/u/1273496951'
+                            href='https://twitter.com/victor_cheng_42'
                             target="_blank"
-                            title="微博"
+                            title="Twitter"
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
-  <path d="M11.683 12.317l5.759 -5.759" />
-  <circle cx="5.5" cy="5.5" r="1.5" />
-  <circle cx="18.5" cy="5.5" r="1.5" />
-  <circle cx="18.5" cy="18.5" r="1.5" />
-  <circle cx="8.5" cy="15.5" r="4.5" />
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://www.instagram.com/victor_cheng_42/'
+                            target="_blank"
+                            title="Instagram"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
 </svg>
 
 
@@ -144,17 +127,16 @@
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-books" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-movie" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <rect x="5" y="4" width="4" height="16" rx="1" />
-  <rect x="9" y="4" width="4" height="16" rx="1" />
-  <path d="M5 8h4" />
-  <path d="M9 16h4" />
-    <g transform="rotate(-13 27.054 -55.827)">
-  <rect width="4" height="16" rx="1" />
-  <path d="M0 4h4" />
-  <path d="M0 12h4" />
-    </g>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="4" x2="8" y2="20" />
+  <line x1="16" y1="4" x2="16" y2="20" />
+  <line x1="4" y1="8" x2="8" y2="8" />
+  <line x1="4" y1="16" x2="8" y2="16" />
+  <line x1="4" y1="12" x2="20" y2="12" />
+  <line x1="16" y1="8" x2="20" y2="8" />
+  <line x1="16" y1="16" x2="20" y2="16" />
 </svg>
 
 
@@ -171,13 +153,9 @@
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 3h8l-1 9h-6z" />
-  <path d="M7 18h2v3h-2z" />
-  <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z" />
-  <path d="M20 15v6h-1v-3" />
-  <line x1="8" y1="12" x2="8" y2="18" />
+  <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
 </svg>
 
 
@@ -344,8 +322,16 @@
 
     
 <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="../../post/3595/">
+                
+                    <img src="https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2021-01/friction.png" loading="lazy" alt="Featured image of post 摩擦力的真相" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -362,6 +348,10 @@
         <a href="../../post/3595/">摩擦力的真相</a>
     </h2>
 
+    
+    <h3 class="article-subtitle">
+        中学物理的摩擦力，真的是老师教的那样吗？
+    </h3>
     
 
     
@@ -381,20 +371,6 @@
             </div>
         
 
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    1 minute read
-                </time>
-            </div>
         
     </footer>
     

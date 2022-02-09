@@ -11,20 +11,20 @@ medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter�
 ###传统独立博客
 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
 ###云博客
-farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在可乐橙看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
 dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
-这类博客让可乐橙思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
+这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
 ###github博客
 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
 开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
 在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
-经过一番考虑，可乐橙最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
+经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
 大致研究了farbox的模板文件后，又发现新大陆。原来还有jade这么简洁的模板语言，它有一点类似于zen coding，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！
 除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。'><title>选择哪种博客？</title>
 
 <link rel='canonical' href='https://greenzorro.github.io/victor42.eth/post/3367/'>
 
-<link rel="stylesheet" href="../../scss/style.min.d4eb5f206766d93eccd4bbfa57097b6419d06ace5da4fdacc078d4f11a9b85b7.css"><meta property='og:title' content='选择哪种博客？'>
+<link rel="stylesheet" href="../../scss/style.min.95ae00516ff116b007d113113e9603daaaef0e479f69fd5da193bda5d57b0ce7.css"><meta property='og:title' content='选择哪种博客？'>
 <meta property='og:description' content='上周末做了很多事情，一切都围绕博客展开。起初是@caicai同学推荐了两套博客系统给我，ghost与farbox。在此特别感谢一下他，一位年轻有为的设计师兼产品人。
 稍作了解之后，顿时觉得自己太缺乏匠人精神，怎么就能忍受Wordpress这么久呢？博客经营了这许多年，Wordpress逐渐演变成了一个臃肿的cms，编辑器的体验也不尽人意。看来即使身为互联网人，严重依赖某个产品后，一样会无力抽身，哪怕它已经罄竹难书。
 既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了markdown语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。
@@ -35,14 +35,14 @@ medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter�
 ###传统独立博客
 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
 ###云博客
-farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在可乐橙看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
 dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
-这类博客让可乐橙思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
+这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
 ###github博客
 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
 开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
 在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
-经过一番考虑，可乐橙最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
+经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
 大致研究了farbox的模板文件后，又发现新大陆。原来还有jade这么简洁的模板语言，它有一点类似于zen coding，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！
 除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。'>
 <meta property='og:url' content='https://greenzorro.github.io/victor42.eth/post/3367/'>
@@ -59,16 +59,18 @@ medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter�
 ###传统独立博客
 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
 ###云博客
-farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在可乐橙看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
 dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
-这类博客让可乐橙思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
+这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
 ###github博客
 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
 开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
 在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
-经过一番考虑，可乐橙最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
+经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
 大致研究了farbox的模板文件后，又发现新大陆。原来还有jade这么简洁的模板语言，它有一点类似于zen coding，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！
 除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。">
+    <link rel="shortcut icon" href="https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/assets/favicon.ico" />
+
     </head>
     <body class="
     article-page 
@@ -135,20 +137,36 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
                 
                     <li>
                         <a 
-                            href='https://weibo.com/u/1273496951'
+                            href='https://twitter.com/victor_cheng_42'
                             target="_blank"
-                            title="微博"
+                            title="Twitter"
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
-  <path d="M11.683 12.317l5.759 -5.759" />
-  <circle cx="5.5" cy="5.5" r="1.5" />
-  <circle cx="18.5" cy="5.5" r="1.5" />
-  <circle cx="18.5" cy="18.5" r="1.5" />
-  <circle cx="8.5" cy="15.5" r="4.5" />
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://www.instagram.com/victor_cheng_42/'
+                            target="_blank"
+                            title="Instagram"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
 </svg>
 
 
@@ -165,17 +183,16 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-books" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-movie" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <rect x="5" y="4" width="4" height="16" rx="1" />
-  <rect x="9" y="4" width="4" height="16" rx="1" />
-  <path d="M5 8h4" />
-  <path d="M9 16h4" />
-    <g transform="rotate(-13 27.054 -55.827)">
-  <rect width="4" height="16" rx="1" />
-  <path d="M0 4h4" />
-  <path d="M0 12h4" />
-    </g>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="4" x2="8" y2="20" />
+  <line x1="16" y1="4" x2="16" y2="20" />
+  <line x1="4" y1="8" x2="8" y2="8" />
+  <line x1="4" y1="16" x2="8" y2="16" />
+  <line x1="4" y1="12" x2="20" y2="12" />
+  <line x1="16" y1="8" x2="20" y2="8" />
+  <line x1="16" y1="16" x2="20" y2="16" />
 </svg>
 
 
@@ -192,13 +209,9 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 3h8l-1 9h-6z" />
-  <path d="M7 18h2v3h-2z" />
-  <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z" />
-  <path d="M20 15v6h-1v-3" />
-  <line x1="8" y1="12" x2="8" y2="18" />
+  <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
 </svg>
 
 
@@ -403,20 +416,6 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    1 minute read
-                </time>
-            </div>
-        
     </footer>
     
 </div>
@@ -445,9 +444,9 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
 <p><a class="link" href="https://www.farbox.com/"  target="_blank" rel="noopener"
     >farbox</a>、<a class="link" href="http://www.site44.com/"  target="_blank" rel="noopener"
     >site44</a>、<a class="link" href="http://postach.io/"  target="_blank" rel="noopener"
-    >postach</a>是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在可乐橙看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。</p>
+    >postach</a>是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。</p>
 <p>dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。</p>
-<p>这类博客让可乐橙思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。</p>
+<p>这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。</p>
 <p>###github博客</p>
 <p><a class="link" href="http://jekyllrb.com/"  target="_blank" rel="noopener"
     >jekyll</a>、<a class="link" href="http://octopress.org/"  target="_blank" rel="noopener"
@@ -458,7 +457,7 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
     >marboo</a>、<a class="link" href="http://logdown.com/"  target="_blank" rel="noopener"
     >Logdown</a>、<a class="link" href="http://prose.io/"  target="_blank" rel="noopener"
     >Prose</a>就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。</p>
-<p>经过一番考虑，可乐橙最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以<a class="link" href="http://colachan.farbox.com/"  target="_blank" rel="noopener"
+<p>经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以<a class="link" href="http://colachan.farbox.com/"  target="_blank" rel="noopener"
     >来这看看效果</a>，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成<a class="link" href="http://colachan.farbox.com/album/"  target="_blank" rel="noopener"
     >相册</a>。至于<a class="link" href="http://colachan.farbox.com/about"  target="_blank" rel="noopener"
     >独立页面</a>，更是不在话下。</p>

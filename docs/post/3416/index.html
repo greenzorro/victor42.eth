@@ -2,112 +2,114 @@
 <html lang="en-us">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='图多，耗费流量7.6MB，请在WIFI下打开
- 
-自从material design发布以来，可乐橙就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在朋友的项目中实践了一番，虽然很抱歉拿朋友开刀，不过他对整体效果似乎还算满意。
+
+自从material design发布以来，我就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在朋友的项目中实践了一番，虽然很抱歉拿朋友开刀，不过他对整体效果似乎还算满意。
 material design的设计规范细致入微，需要消化好一阵子。越读越感受到它的妙处，假如每个细节都严格遵照material design的思想来设计，哪怕你不是设计人员，你的产品也一定不会难用和难看。当然，作为设计师，要求就更高了。设计文档本身，就提供了一种很好的方式，帮你从各个角度思考和构建自己产品的规范。但在这之前，先要好好整理一下学习笔记。要打破规矩，必先掌握规矩。
-由于只是笔记，我会写得尽量简单。并且省略掉一些可乐橙认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。
+由于只是笔记，我会写得尽量简单。并且省略掉一些我认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。
 ##1. 核心思想
 material design的核心思想，就是把物理世界的体验带进屏幕。去掉现实中的杂质和随机性，保留其最原始纯净的形态、空间关系、变化与过渡，配合虚拟世界的灵活特性，还原最贴近真实的体验，达到简洁与直观的效果。
- 
+
 material design是最重视跨平台体验的一套设计语言。由于规范严格细致，保证它在各个平台使用体验高度一致。不过目前还只有Google自家的服务这么做，毕竟其他平台有自己的规范与风格。
 ##2. 材质与空间
 ###材质
- 
+
 material design中，最重要的信息载体就是魔法纸片。纸片层叠、合并、分离，拥有现实中的厚度、惯性和反馈，同时拥有液体的一些特性，能够自由伸展变形。
 这些是纸片的魔法特性，真实纸片所不具备的能力：
  纸片可以伸缩、改变形状 纸片变形时可以裁剪内容，比如纸片缩小时，内容大小不变，而是隐藏超出部分 多张纸片可以拼接成一张 一张纸片可以分裂成多张 纸片可以在任何位置凭空出现  不过，魔法纸片有些效果是禁止的：
  一项操作不能同时触发两张纸片的反馈 层叠的纸片，海报高度不能相同 纸片不能互相穿透 纸片不能弯折 纸片不能产生透视，必须平行于屏幕  ###空间
- 
+
 material design引入了z轴的概念，z轴垂直于屏幕，用来表现元素的层叠关系。z值（海拔高度）越高，元素离界面底层（水平面）越远，投影越重。这里有一个前提，所有的元素的厚度都是1dp。
 所有元素都有默认的海拔高度，对它进行操作会抬升它的海拔高度，操作结束后，它应该落回默认海拔高度。同一种元素，同样的操作，抬升的高度是一致的。
 注意：这不止是设计中的概念，开发人员确实可以通过一个值来控制元素的海拔高度和投影。
 ##3. 动画
 material design重视动画效果，它反复强调一点：动画不只是装饰，它有含义，能表达元素、界面之间的关系，具备功能上的作用。
 ###easing
- 
+
 动画要贴近真实世界，就要重视easing。物理世界中的运动和变化都是有加速和减速过程的，忽然开始、忽然停止的匀速动画显得机械而不真实。考虑动画的easing，要先考虑它在现实世界中的运动规律。
 ###水波反馈
-   
+
 所有可点击的元素，都应该有这样的反馈效果。通过这个动画，将点击的位置与所操作的元素关联起来，体现了material design动画的功能性。
 ###转场效果
- 
+
 通过过渡动画，表达界面之间的空间与层级关系，并且跨界面传递信息。
- 
+
 从父界面进入子界面，需要抬升子元素的海拔高度，并展开至整个屏幕，反之亦然。'><title>material design学习笔记</title>
 
 <link rel='canonical' href='https://greenzorro.github.io/victor42.eth/post/3416/'>
 
-<link rel="stylesheet" href="../../scss/style.min.d4eb5f206766d93eccd4bbfa57097b6419d06ace5da4fdacc078d4f11a9b85b7.css"><meta property='og:title' content='material design学习笔记'>
+<link rel="stylesheet" href="../../scss/style.min.95ae00516ff116b007d113113e9603daaaef0e479f69fd5da193bda5d57b0ce7.css"><meta property='og:title' content='material design学习笔记'>
 <meta property='og:description' content='图多，耗费流量7.6MB，请在WIFI下打开
- 
-自从material design发布以来，可乐橙就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在朋友的项目中实践了一番，虽然很抱歉拿朋友开刀，不过他对整体效果似乎还算满意。
+
+自从material design发布以来，我就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在朋友的项目中实践了一番，虽然很抱歉拿朋友开刀，不过他对整体效果似乎还算满意。
 material design的设计规范细致入微，需要消化好一阵子。越读越感受到它的妙处，假如每个细节都严格遵照material design的思想来设计，哪怕你不是设计人员，你的产品也一定不会难用和难看。当然，作为设计师，要求就更高了。设计文档本身，就提供了一种很好的方式，帮你从各个角度思考和构建自己产品的规范。但在这之前，先要好好整理一下学习笔记。要打破规矩，必先掌握规矩。
-由于只是笔记，我会写得尽量简单。并且省略掉一些可乐橙认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。
+由于只是笔记，我会写得尽量简单。并且省略掉一些我认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。
 ##1. 核心思想
 material design的核心思想，就是把物理世界的体验带进屏幕。去掉现实中的杂质和随机性，保留其最原始纯净的形态、空间关系、变化与过渡，配合虚拟世界的灵活特性，还原最贴近真实的体验，达到简洁与直观的效果。
- 
+
 material design是最重视跨平台体验的一套设计语言。由于规范严格细致，保证它在各个平台使用体验高度一致。不过目前还只有Google自家的服务这么做，毕竟其他平台有自己的规范与风格。
 ##2. 材质与空间
 ###材质
- 
+
 material design中，最重要的信息载体就是魔法纸片。纸片层叠、合并、分离，拥有现实中的厚度、惯性和反馈，同时拥有液体的一些特性，能够自由伸展变形。
 这些是纸片的魔法特性，真实纸片所不具备的能力：
  纸片可以伸缩、改变形状 纸片变形时可以裁剪内容，比如纸片缩小时，内容大小不变，而是隐藏超出部分 多张纸片可以拼接成一张 一张纸片可以分裂成多张 纸片可以在任何位置凭空出现  不过，魔法纸片有些效果是禁止的：
  一项操作不能同时触发两张纸片的反馈 层叠的纸片，海报高度不能相同 纸片不能互相穿透 纸片不能弯折 纸片不能产生透视，必须平行于屏幕  ###空间
- 
+
 material design引入了z轴的概念，z轴垂直于屏幕，用来表现元素的层叠关系。z值（海拔高度）越高，元素离界面底层（水平面）越远，投影越重。这里有一个前提，所有的元素的厚度都是1dp。
 所有元素都有默认的海拔高度，对它进行操作会抬升它的海拔高度，操作结束后，它应该落回默认海拔高度。同一种元素，同样的操作，抬升的高度是一致的。
 注意：这不止是设计中的概念，开发人员确实可以通过一个值来控制元素的海拔高度和投影。
 ##3. 动画
 material design重视动画效果，它反复强调一点：动画不只是装饰，它有含义，能表达元素、界面之间的关系，具备功能上的作用。
 ###easing
- 
+
 动画要贴近真实世界，就要重视easing。物理世界中的运动和变化都是有加速和减速过程的，忽然开始、忽然停止的匀速动画显得机械而不真实。考虑动画的easing，要先考虑它在现实世界中的运动规律。
 ###水波反馈
-   
+
 所有可点击的元素，都应该有这样的反馈效果。通过这个动画，将点击的位置与所操作的元素关联起来，体现了material design动画的功能性。
 ###转场效果
- 
+
 通过过渡动画，表达界面之间的空间与层级关系，并且跨界面传递信息。
- 
+
 从父界面进入子界面，需要抬升子元素的海拔高度，并展开至整个屏幕，反之亦然。'>
 <meta property='og:url' content='https://greenzorro.github.io/victor42.eth/post/3416/'>
 <meta property='og:site_name' content='Victor42'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2014-12-28T12:36:00&#43;00:00'/><meta property='article:modified_time' content='2014-12-28T12:36:00&#43;00:00'/>
 <meta name="twitter:title" content="material design学习笔记">
 <meta name="twitter:description" content="图多，耗费流量7.6MB，请在WIFI下打开
- 
-自从material design发布以来，可乐橙就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在朋友的项目中实践了一番，虽然很抱歉拿朋友开刀，不过他对整体效果似乎还算满意。
+
+自从material design发布以来，我就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在朋友的项目中实践了一番，虽然很抱歉拿朋友开刀，不过他对整体效果似乎还算满意。
 material design的设计规范细致入微，需要消化好一阵子。越读越感受到它的妙处，假如每个细节都严格遵照material design的思想来设计，哪怕你不是设计人员，你的产品也一定不会难用和难看。当然，作为设计师，要求就更高了。设计文档本身，就提供了一种很好的方式，帮你从各个角度思考和构建自己产品的规范。但在这之前，先要好好整理一下学习笔记。要打破规矩，必先掌握规矩。
-由于只是笔记，我会写得尽量简单。并且省略掉一些可乐橙认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。
+由于只是笔记，我会写得尽量简单。并且省略掉一些我认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。
 ##1. 核心思想
 material design的核心思想，就是把物理世界的体验带进屏幕。去掉现实中的杂质和随机性，保留其最原始纯净的形态、空间关系、变化与过渡，配合虚拟世界的灵活特性，还原最贴近真实的体验，达到简洁与直观的效果。
- 
+
 material design是最重视跨平台体验的一套设计语言。由于规范严格细致，保证它在各个平台使用体验高度一致。不过目前还只有Google自家的服务这么做，毕竟其他平台有自己的规范与风格。
 ##2. 材质与空间
 ###材质
- 
+
 material design中，最重要的信息载体就是魔法纸片。纸片层叠、合并、分离，拥有现实中的厚度、惯性和反馈，同时拥有液体的一些特性，能够自由伸展变形。
 这些是纸片的魔法特性，真实纸片所不具备的能力：
  纸片可以伸缩、改变形状 纸片变形时可以裁剪内容，比如纸片缩小时，内容大小不变，而是隐藏超出部分 多张纸片可以拼接成一张 一张纸片可以分裂成多张 纸片可以在任何位置凭空出现  不过，魔法纸片有些效果是禁止的：
  一项操作不能同时触发两张纸片的反馈 层叠的纸片，海报高度不能相同 纸片不能互相穿透 纸片不能弯折 纸片不能产生透视，必须平行于屏幕  ###空间
- 
+
 material design引入了z轴的概念，z轴垂直于屏幕，用来表现元素的层叠关系。z值（海拔高度）越高，元素离界面底层（水平面）越远，投影越重。这里有一个前提，所有的元素的厚度都是1dp。
 所有元素都有默认的海拔高度，对它进行操作会抬升它的海拔高度，操作结束后，它应该落回默认海拔高度。同一种元素，同样的操作，抬升的高度是一致的。
 注意：这不止是设计中的概念，开发人员确实可以通过一个值来控制元素的海拔高度和投影。
 ##3. 动画
 material design重视动画效果，它反复强调一点：动画不只是装饰，它有含义，能表达元素、界面之间的关系，具备功能上的作用。
 ###easing
- 
+
 动画要贴近真实世界，就要重视easing。物理世界中的运动和变化都是有加速和减速过程的，忽然开始、忽然停止的匀速动画显得机械而不真实。考虑动画的easing，要先考虑它在现实世界中的运动规律。
 ###水波反馈
-   
+
 所有可点击的元素，都应该有这样的反馈效果。通过这个动画，将点击的位置与所操作的元素关联起来，体现了material design动画的功能性。
 ###转场效果
- 
+
 通过过渡动画，表达界面之间的空间与层级关系，并且跨界面传递信息。
- 
+
 从父界面进入子界面，需要抬升子元素的海拔高度，并展开至整个屏幕，反之亦然。">
+    <link rel="shortcut icon" href="https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/assets/favicon.ico" />
+
     </head>
     <body class="
     article-page 
@@ -174,20 +176,36 @@ material design重视动画效果，它反复强调一点：动画不只是装�
                 
                     <li>
                         <a 
-                            href='https://weibo.com/u/1273496951'
+                            href='https://twitter.com/victor_cheng_42'
                             target="_blank"
-                            title="微博"
+                            title="Twitter"
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
-  <path d="M11.683 12.317l5.759 -5.759" />
-  <circle cx="5.5" cy="5.5" r="1.5" />
-  <circle cx="18.5" cy="5.5" r="1.5" />
-  <circle cx="18.5" cy="18.5" r="1.5" />
-  <circle cx="8.5" cy="15.5" r="4.5" />
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://www.instagram.com/victor_cheng_42/'
+                            target="_blank"
+                            title="Instagram"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
 </svg>
 
 
@@ -204,17 +222,16 @@ material design重视动画效果，它反复强调一点：动画不只是装�
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-books" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-movie" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <rect x="5" y="4" width="4" height="16" rx="1" />
-  <rect x="9" y="4" width="4" height="16" rx="1" />
-  <path d="M5 8h4" />
-  <path d="M9 16h4" />
-    <g transform="rotate(-13 27.054 -55.827)">
-  <rect width="4" height="16" rx="1" />
-  <path d="M0 4h4" />
-  <path d="M0 12h4" />
-    </g>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="4" x2="8" y2="20" />
+  <line x1="16" y1="4" x2="16" y2="20" />
+  <line x1="4" y1="8" x2="8" y2="8" />
+  <line x1="4" y1="16" x2="8" y2="16" />
+  <line x1="4" y1="12" x2="20" y2="12" />
+  <line x1="16" y1="8" x2="20" y2="8" />
+  <line x1="16" y1="16" x2="20" y2="16" />
 </svg>
 
 
@@ -231,13 +248,9 @@ material design重视动画效果，它反复强调一点：动画不只是装�
                         >
                             
                             
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 3h8l-1 9h-6z" />
-  <path d="M7 18h2v3h-2z" />
-  <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z" />
-  <path d="M20 15v6h-1v-3" />
-  <line x1="8" y1="12" x2="8" y2="18" />
+  <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
 </svg>
 
 
@@ -442,20 +455,6 @@ material design重视动画效果，它反复强调一点：动画不只是装�
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    2 minute read
-                </time>
-            </div>
-        
     </footer>
     
 </div>
@@ -477,10 +476,10 @@ material design重视动画效果，它反复强调一点：动画不只是装�
 	</a>
 	
 </figure></p>
-<p>自从material design发布以来，可乐橙就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在<a class="link" href="http://lydiabox.com/"  target="_blank" rel="noopener"
+<p>自从material design发布以来，我就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在<a class="link" href="http://lydiabox.com/"  target="_blank" rel="noopener"
     >朋友的项目</a>中实践了一番，虽然很抱歉拿朋友开刀，不过他对整体效果似乎还算满意。</p>
 <p>material design的设计规范细致入微，需要消化好一阵子。越读越感受到它的妙处，假如每个细节都严格遵照material design的思想来设计，哪怕你不是设计人员，你的产品也一定不会难用和难看。当然，作为设计师，要求就更高了。设计文档本身，就提供了一种很好的方式，帮你从各个角度思考和构建自己产品的规范。但在这之前，先要好好整理一下学习笔记。要打破规矩，必先掌握规矩。</p>
-<p>由于只是笔记，我会写得尽量简单。并且省略掉一些可乐橙认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。</p>
+<p>由于只是笔记，我会写得尽量简单。并且省略掉一些我认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。</p>
 <p>##1. 核心思想</p>
 <p>material design的核心思想，就是把物理世界的体验带进屏幕。去掉现实中的杂质和随机性，保留其最原始纯净的形态、空间关系、变化与过渡，配合虚拟世界的灵活特性，还原最贴近真实的体验，达到简洁与直观的效果。</p>
 <p><figure 

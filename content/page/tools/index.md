@@ -12,7 +12,7 @@ menu:
 
 我工作与生活中遇会遇到一些问题，有时自己动手做个工具就能满足需求，或许这些小玩意你也用得上。
 
-## 我博客模版
+## 可乐橙博客模版
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/farbox-template.png)
 
