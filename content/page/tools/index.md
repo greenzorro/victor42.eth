@@ -28,6 +28,14 @@ menu:
 
 自己制作的交互组件库，Sketch格式，包含移动端常见的各种设计模式。几分钟便能搭出一套App或小程序的核心界面，偷懒利器。
 
+## PS图片尺寸统一脚本
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/image-unifier.png)
+
+[https://github.com/greenzorro/image-unifier](https://github.com/greenzorro/image-unifier)
+
+经常有这种情况，要把许多横的、竖的、尺寸不同的图片裁成同一个比例，缩放到同一个大小。这个PS脚本就是用来干这个的。
+
 ## PS图层批量重命名脚本
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ps-bulkrename.png)
@@ -68,7 +76,7 @@ markdown这么好用，写过一次就停不下来。所以希望能轻松把mar
 
 App开发同学一定很痛恨设计师：你们给的颜色都是#ffffff这种格式，我要的是R:255, G:255, B:255，十六进制转十进制，这是要算死我么？
 
-## [蒲丰投针实验](https://greenzorro.github.io/find-out-pi)
+## 蒲丰投针实验
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/find-out-pi.png)
 
