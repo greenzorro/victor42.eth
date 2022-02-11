@@ -6,16 +6,12 @@
 既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了markdown语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。
 安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条非常靠谱的答案，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。
 花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：
-###博客平台
-medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
-###传统独立博客
-以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
-###云博客
-farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+博客平台 medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
+传统独立博客 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
+云博客 farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
 dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
 这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
-###github博客
-jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
+github博客 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
 开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
 在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
 经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
@@ -30,16 +26,12 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
 既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了markdown语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。
 安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条非常靠谱的答案，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。
 花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：
-###博客平台
-medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
-###传统独立博客
-以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
-###云博客
-farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+博客平台 medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
+传统独立博客 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
+云博客 farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
 dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
 这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
-###github博客
-jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
+github博客 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
 开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
 在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
 经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
@@ -54,16 +46,12 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
 既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了markdown语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。
 安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条非常靠谱的答案，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。
 花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：
-###博客平台
-medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
-###传统独立博客
-以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
-###云博客
-farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+博客平台 medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
+传统独立博客 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
+云博客 farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
 dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
 这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
-###github博客
-jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
+github博客 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
 开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
 在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
 经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
@@ -73,7 +61,7 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
 
     </head>
     <body class="
-    article-page 
+    article-page has-toc
 ">
     <script>
         (function() {
@@ -99,283 +87,22 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
 </script>
 <div class="container main-container flex 
     
-        on-phone--column extended
+        extended
     
 ">
     
-        <aside class="sidebar left-sidebar sticky">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-
-    <header class="site-info">
-        
-            
-            <figure class="site-avatar">
-                <a href="../../">
-                
-                    
-                    
-                    
-                        
-                        <img src="../../img/pale-blue-dot_hu192df57e7dce341df9464625d159755f_158378_300x0_resize_q75_box.jpg" width="300"
-                            height="300" class="site-logo" loading="lazy" alt="Avatar">
-                    
-                
-                </a>
-                
-                    <span class="emoji">🌌</span>
-                
-            </figure>
-            
-        
-        
-        <h1 class="site-name"><a href="../../">Victor42</a></h1>
-        <h2 class="site-description">一只猫，也是一只愤怒的小鸟</h2><ol class="social-menu">
-                
-                    <li>
-                        <a 
-                            href='https://twitter.com/victor_cheng_42'
-                            target="_blank"
-                            title="Twitter"
-                        >
-                            
-                            
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-</svg>
-
-
-
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a 
-                            href='https://www.instagram.com/victor_cheng_42/'
-                            target="_blank"
-                            title="Instagram"
-                        >
-                            
-                            
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <rect x="4" y="4" width="16" height="16" rx="4" />
-  <circle cx="12" cy="12" r="3" />
-  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-</svg>
-
-
-
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a 
-                            href='http://www.douban.com/people/greenzorro/'
-                            target="_blank"
-                            title="豆瓣"
-                        >
-                            
-                            
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-movie" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <rect x="4" y="4" width="16" height="16" rx="2" />
-  <line x1="8" y1="4" x2="8" y2="20" />
-  <line x1="16" y1="4" x2="16" y2="20" />
-  <line x1="4" y1="8" x2="8" y2="8" />
-  <line x1="4" y1="16" x2="8" y2="16" />
-  <line x1="4" y1="12" x2="20" y2="12" />
-  <line x1="16" y1="8" x2="20" y2="8" />
-  <line x1="16" y1="16" x2="20" y2="16" />
-</svg>
-
-
-
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a 
-                            href='https://www.xiachufang.com/cook/10348954/'
-                            target="_blank"
-                            title="下厨房"
-                        >
-                            
-                            
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
-</svg>
-
-
-
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a 
-                            href='https://github.com/greenzorro'
-                            target="_blank"
-                            title="GitHub"
-                        >
-                            
-                            
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-</svg>
-
-
-
-                            
-                        </a>
-                    </li>
-                
-            </ol></header>
-
-    <ol class="menu" id="main-menu">
-        
-        
-        
-
-        <li >
-            <a href='../../' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <div id="article-toolbar">
+            <a href="../../" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+  <polyline points="15 6 9 12 15 18" />
 </svg>
 
 
 
-                
-                <span>主页</span>
+                <span>Back</span>
             </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='../../page/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>分类归档</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='../../page/movies/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-blockquote" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M6 15h15" />
-  <path d="M21 19h-15" />
-  <path d="M15 11h6" />
-  <path d="M21 7h-6" />
-  <path d="M9 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2" />
-  <path d="M3 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2" />
-</svg>
-
-
-
-                
-                <span>电影推荐</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='../../page/tools/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flask" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <line x1="9" y1="3" x2="15" y2="3" />
-  <line x1="10" y1="9" x2="14" y2="9" />
-  <path d="M10 3v6l-4 11a0.7 .7 0 0 0 .5 1h11a0.7 .7 0 0 0 .5 -1l-4 -11v-6" />
-</svg>
-
-
-
-                
-                <span>小玩意</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='../../page/about/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-</svg>
-
-
-
-                
-                <span>关于我</span>
-            </a>
-        </li>
-        
-
-        
-            <li id="dark-mode-toggle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="8" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="16" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                <span>Dark Mode</span>
-            </li>
-        
-    </ol>
-</aside>
-
+        </div>
     
 <main class="main full-width">
     <article class="main-article">
@@ -432,22 +159,22 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
 <p>安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条<a class="link" href="http://www.zhihu.com/question/21981094"  target="_blank" rel="noopener"
     >非常靠谱的答案</a>，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。</p>
 <p>花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：</p>
-<p>###博客平台</p>
+<h2 id="博客平台">博客平台</h2>
 <p><a class="link" href="https://medium.com/"  target="_blank" rel="noopener"
     >medium</a>和<a class="link" href="http://jianshu.io/"  target="_blank" rel="noopener"
     >简书</a>就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。</p>
-<p>###传统独立博客</p>
+<h2 id="传统独立博客">传统独立博客</h2>
 <p>以<a class="link" href="http://wordpress.com/"  target="_blank" rel="noopener"
     >wordpress</a>和<a class="link" href="https://ghost.org/"  target="_blank" rel="noopener"
     >ghost</a>为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。</p>
-<p>###云博客</p>
+<h2 id="云博客">云博客</h2>
 <p><a class="link" href="https://www.farbox.com/"  target="_blank" rel="noopener"
     >farbox</a>、<a class="link" href="http://www.site44.com/"  target="_blank" rel="noopener"
     >site44</a>、<a class="link" href="http://postach.io/"  target="_blank" rel="noopener"
     >postach</a>是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。</p>
 <p>dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。</p>
 <p>这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。</p>
-<p>###github博客</p>
+<h2 id="github博客">github博客</h2>
 <p><a class="link" href="http://jekyllrb.com/"  target="_blank" rel="noopener"
     >jekyll</a>、<a class="link" href="http://octopress.org/"  target="_blank" rel="noopener"
     >Octopress</a>、<a class="link" href="http://hexo.io/index.html"  target="_blank" rel="noopener"
@@ -583,6 +310,35 @@ jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，�
             >
 
             </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#博客平台">博客平台</a></li>
+    <li><a href="#传统独立博客">传统独立博客</a></li>
+    <li><a href="#云博客">云博客</a></li>
+    <li><a href="#github博客">github博客</a></li>
+  </ul>
+</nav>
+                </div>
+            </section>
+        </aside>
     
 
         </div>
