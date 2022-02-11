@@ -4,9 +4,8 @@ description:
 image: 
 date: 2021-02-01 00:00:00
 category: 苟且与远方
-slug: 3601
+slug: 3606
 draft: true
 ---
 
-![](http://qiniu.colacdn.com/img/posts/2021-01/friction.png)
-
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2021-01/friction.png)
