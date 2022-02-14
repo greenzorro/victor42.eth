@@ -1089,3 +1089,6 @@ Forever is the way I feel for you.
 关于零人口地球的畅想。
 
 我们看似居于万物灵长，执掌地球命运。但我们对地球的影响，以及我们自身，都在时间面前不堪一击。岁月留不下什么，哪怕我们引以为豪的文明里的一颗沙砾。
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTYyOTU0NjU3Ml19
+-->
