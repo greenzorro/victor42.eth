@@ -28,13 +28,13 @@ menu:
 
 自己制作的交互组件库，Sketch格式，包含移动端常见的各种设计模式。几分钟便能搭出一套App或小程序的核心界面，偷懒利器。
 
-## PS图片尺寸统一脚本
+## PS图片处理脚本
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/image-unifier.png)
 
 [https://github.com/greenzorro/image-unifier](https://github.com/greenzorro/image-unifier)
 
-经常有这种情况，要把许多横的、竖的、尺寸不同的图片裁成同一个比例，缩放到同一个大小。这个PS脚本就是用来干这个的。
+经常有这种情况，要把许多横的、竖的、尺寸不同的图片统一处理。自制了一些脚本，可以处理到同一个尺寸，或限定最大宽或高。
 
 ## PS图层批量重命名脚本
 
