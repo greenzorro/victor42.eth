@@ -20,9 +20,9 @@ https://github.com/greenzorro/bitcron-colachan
 移动端交互组件库 
 https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE
 自己制作的交互组件库，Sketch格式，包含移动端常见的各种设计模式。几分钟便能搭出一套App或小程序的核心界面，偷懒利器。
-PS图片尺寸统一脚本 
+PS图片处理脚本 
 https://github.com/greenzorro/image-unifier
-经常有这种情况，要把许多横的、竖的、尺寸不同的图片裁成同一个比例，缩放到同一个大小。这个PS脚本就是用来干这个的。
+经常有这种情况，要把许多横的、竖的、尺寸不同的图片统一处理。自制了一些脚本，可以处理到同一个尺寸，或限定最大宽或高。
 PS图层批量重命名脚本 
 https://www.jianguoyun.com/p/Ddt-26wQwKOaBhi99-wC
 PS经常用于批量制作banner图，结合画板和生成图像资源功能，效率奇高。这就需要按顺序给大量画板重命名。自己写了个PS脚本，一键搞定。
