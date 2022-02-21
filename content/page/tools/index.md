@@ -12,14 +12,6 @@ menu:
 
 我工作与生活中遇会遇到一些问题，有时自己动手做个工具就能满足需求，或许这些小玩意你也用得上。
 
-## 可乐橙博客模版
-
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/farbox-template.png)
-
-[https://github.com/greenzorro/bitcron-colachan](https://github.com/greenzorro/bitcron-colachan)
-
-我的博客模版是基于Bitcron打造的，很喜欢这个博客系统，简洁轻盈。代码已经在Github上开源，其中也包含设计文件。
-
 ## 移动端交互组件库
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ux-library.png)
@@ -52,6 +44,14 @@ PS经常用于批量制作banner图，结合画板和生成图像资源功能，
 
 画交互流程图，用Omnigraffle是非常方便的。制作了一套Stencil自用，可以方便绘制业务流程图和页面流程图，而且还包含泳道图组件。
 
+## 十/十六进制颜色值转换工具
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/hex-dec.png)
+
+[http://greenzorro.github.io/hex-dec-color-transform](http://greenzorro.github.io/hex-dec-color-transform)
+
+App开发同学一定很痛恨设计师：你们给的颜色都是#ffffff这种格式，我要的是R:255, G:255, B:255，十六进制转十进制，这是要算死我么？
+
 ## HTML转markdown
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/markdown2.png)
@@ -68,13 +68,13 @@ PS经常用于批量制作banner图，结合画板和生成图像资源功能，
 
 markdown这么好用，写过一次就停不下来。所以希望能轻松把markdown转成各种不同形式，用在不同地方，甚至包括一些老古董编辑器。
 
-## 十/十六进制颜色值转换工具
+## 可乐橙博客模版
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/hex-dec.png)
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/farbox-template.png)
 
-[http://greenzorro.github.io/hex-dec-color-transform](http://greenzorro.github.io/hex-dec-color-transform)
+[https://github.com/greenzorro/bitcron-colachan](https://github.com/greenzorro/bitcron-colachan)
 
-App开发同学一定很痛恨设计师：你们给的颜色都是#ffffff这种格式，我要的是R:255, G:255, B:255，十六进制转十进制，这是要算死我么？
+我的博客模版是基于Bitcron打造的，很喜欢这个博客系统，简洁轻盈。代码已经在Github上开源，其中也包含设计文件。
 
 ## 蒲丰投针实验
 
