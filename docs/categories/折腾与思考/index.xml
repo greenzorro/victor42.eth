@@ -6,7 +6,45 @@
     <description>Recent content in 折腾与思考 on Victor42</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Feb 2022 21:47:00 +0000</lastBuildDate><atom:link href="https://greenzorro.github.io/victor42.eth/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 22:46:00 +0000</lastBuildDate><atom:link href="https://greenzorro.github.io/victor42.eth/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>e-CNY数字人民币</title>
+      <link>https://greenzorro.github.io/victor42.eth/post/3610/</link>
+      <pubDate>Fri, 08 Apr 2022 22:46:00 +0000</pubDate>
+      
+      <guid>https://greenzorro.github.io/victor42.eth/post/3610/</guid>
+      <description>Click image to zoom in
+e-CNY is available in Hangzhou now. It&amp;rsquo;s not another payment option, though you are pretty much likely to think so. Let&amp;rsquo;s take a close look at it:
+ In terms of e-CNY, there are two concept: the e-CNY wallet App and the currency e-CNY. The former is what you see and the latter is what you don&amp;rsquo;t. The former is a payment method while the latter is not.</description>
+    </item>
+    
+    <item>
+      <title>医保</title>
+      <link>https://greenzorro.github.io/victor42.eth/post/3609/</link>
+      <pubDate>Wed, 30 Mar 2022 16:49:00 +0000</pubDate>
+      
+      <guid>https://greenzorro.github.io/victor42.eth/post/3609/</guid>
+      <description>医保账户 从资金归属来看，我国医保账户有统筹账户和个人账户。一个人有可能同时用到这两个账户。
+ 统筹账户中的余额情况，个人是看不到的。因为这部分全国人民的都混在一起，大家共享，谁需要谁花。花这里面的钱，在我们看来就算是报销了，钱由国家出了。 个人账户中的余额是由个人专享的，别人用不了。医保卡里能查到的余额就是这部分。刷医保卡虽然没付现金，但不代表自己没花钱，可能花了个人账户里的钱。  个人账户还分为本年账户与历年账户，两种余额本质上是不同的。 历年账户是经过结算，已经实际归属于个人。 本年账户是根据历年的基数估算，然后从统筹账户中预支一部分先算到你头上，不一定准，每年结算时再多退少补。 历年账户使用范围更广，有些情形只能使用历年账户。    保障对象 从保障对象来看，有2种医保：职工医保和居民医保。一个人只能参加一种。
+ 职工医保最典型的是上班族的医保，企业和个人各交一部分，且必须缴纳。个人交的全部归入个人账户；企业交的部分归入个人账户，部分归入统筹账户。职工医保还包括个体工商户等其它人员，全部由个人缴纳，但不强制。 居民医保负责职工医保覆盖不到的人，儿童、老人、农民等。这种医保缴纳金额少，相应地，保障能力也相对低。  目前的大趋势是居民医保取消个人账户，转为统筹。因为资金在居民医保账户中长期沉淀，没有发挥作用，甚至被用来在药店买米买油，有违医保系统初衷。
+医保报销 医保报销有两个比例，同时起作用：
+ 药品、材料、服务的报销比例：这个比例是跟着具体的项目的。国家有个医保目录，是个很长的清单，规定了大量药品、材料、服务属于甲乙丙哪一类。  甲类由国家指定，全国统一。甲类是必需品，且最便宜，100%由统筹账户支付。 乙类由国家指定，但各地可以视情况增减。乙类往往是甲类更好、更贵的替代方案，部分由统筹账户支付，部分由个人账户支付。 不属于甲、乙的都算丙类，全部由个人账户支付。   个人的报销比例：这个比例是跟着人的。取决于你是职工医保还是居民医保、门诊还是住院、去的是几级医院、在职还是退休，这个比例都是不同的。  除此之外，有些保健类药品或者服务费用，比如住院的陪护床位费，甚至都不在国家医保目录里。这些费用既不能使用统筹账户，也不能从个人账户中扣除，你刷了医保卡之后，这部分钱医院还是会要你用付款码支付。
+在医保目录内的项目叫做个人自付，不在目录里的叫个人自费。
+所以，各部分医保报销应该这么算。
+单看甲乙丙类和自费，能报销的只有蓝色部分：
+
+再结合你的个人报销比例，能报销的再减少一些：
+
+当然，这个图的比例有一定误导性，只用来表示计算方法。通常实际看病时，绝大多数费用都是甲类，其他3类报销比例虽然小，但所占金额不多，最终医保仍然能给你报掉一大半。
+至于每次看完病后，亲朋好友问你报销了多少，那个报销总数/费用总数得出来的比例则没有什么意义。它只是一系列复杂计算的结果，不存在哪个医院好、哪里政策好之类的比较。
+以下是2020年杭州各情形下个人报销比例的算法，请关注规则，数字本身总有一天会过时。有个起付金额也要注意下，一个年度内累计，起付金额以上的部分才能按比例报销：
+职工医保门诊 
+职工医保住院 
+居民医保门诊 
+居民医保住院 
+看来……像我这种职工在职、家附近就有三甲医院的，门诊看病通常是指望不上医保了。</description>
+    </item>
+    
     <item>
       <title>区块链博客</title>
       <link>https://greenzorro.github.io/victor42.eth/post/3608/</link>
@@ -466,7 +504,7 @@ PT. 是印尼语中有限责任公司的缩写，Inve在印尼语中是投资的
       
       <guid>https://greenzorro.github.io/victor42.eth/post/3545/</guid>
       <description>终于迎来一期特刊。最近打算在公司内部做一个分享，讲的是组件化的设计与开发的思维方式。准备完演讲资料，发现这完全可以改成一篇文章。藏着掖着不合适，发出来分享给有需求的朋友吧，就当是个试讲了，希望大家帮忙指出错误。
-下载地址： https://www.jianguoyun.com/p/DY1Z3bEQwKOaBhimoyg
+下载地址： https://www.jianguoyun.com/p/Df4KevYQwKOaBhjO8r0EIAA
 由于本文首先是以keynote的形式诞生的，其中还有动画和视频，所以我比较推荐大家直接下载keynote文件（也存了PPT版本）。内容和本文是一样的，但有些逻辑关系还真得让画面动起来才说得清。提醒一下，keynote文件大小将近150mb，嫌麻烦的朋友，当然也欢迎继续阅读。
 
 组件化 
