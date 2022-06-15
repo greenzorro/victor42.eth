@@ -6,3 +6,4 @@ publishDir = "docs"
 disqusShortname = 'colachan'
 relativeURLs = true
 canonifyURLs = true
+buildfuture = true
