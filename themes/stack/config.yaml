@@ -158,7 +158,8 @@ menu:
           params:
               newTab: false
               icon: home
-    # Select icon from: https://tabler-icons.io/
+    # Get icon names and SVGs from: https://tabler-icons.io/
+    # Place SVGs under "assets/icons"
     social:
         - identifier: twitter
           name: Twitter
