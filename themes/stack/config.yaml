@@ -158,6 +158,7 @@ menu:
           params:
               newTab: false
               icon: home
+    # Select icon from: https://tabler-icons.io/
     social:
         - identifier: twitter
           name: Twitter
@@ -183,9 +184,15 @@ menu:
           url: https://www.xiachufang.com/cook/10348954/
           params:
             icon: tools-kitchen-2
+        - identifier: mafengwo
+          name: 马蜂窝
+          weight: 50
+          url: http://www.mafengwo.cn/u/47038662.html
+          params:
+            icon: plane-departure
         - identifier: github
           name: GitHub
-          weight: 50
+          weight: 60
           url: https://github.com/greenzorro
           params:
             icon: brand-github
