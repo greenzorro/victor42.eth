@@ -288,6 +288,11 @@
     h5,
     h6 {
         margin-left: calc((var(--card-padding)) * -1);
+        padding-left: calc(var(--card-padding));
+    }
+
+    h1,
+    h2 {
         padding-left: calc(var(--card-padding) - var(--heading-border-size));
         border-left: var(--heading-border-size) solid var(--accent-color);
     }
