@@ -17,7 +17,7 @@ menu:
 
 [>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，慎入）
 
-社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [Instagram](https://www.instagram.com/victor_cheng_42/) | [豆瓣](http://www.douban.com/people/greenzorro/) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [马蜂窝]([https://www.xiachufang.com/cook/10348954/](http://www.mafengwo.cn/u/47038662.html)) | [Github](https://github.com/greenzorro)
+社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [Instagram](https://www.instagram.com/victor_cheng_42/) | [豆瓣](http://www.douban.com/people/greenzorro/) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [马蜂窝](https://www.xiachufang.com/cook/10348954/) | [Github](https://github.com/greenzorro)
 
 ## 我的喜好
 
@@ -40,4 +40,4 @@ menu:
 
 这个博客是我的一片自留地，不做SEO，不接广告。纯当日记本在用，所以不开放评论。如果看着乐呵，真想与我互动，可以通过社交媒体联系我。我登录不怎么勤，未必立刻回复。
 
-同时，这博客本身也是我技术折腾的产物。博客的域名（victor42.eth）、网站代码、内容数据依托区块链和分布式存储，无法被外力阻断，与传统技术栈完全不同。写过[一篇文章](https://victor42.eth.limo/post/3608/)介绍其原理。提示一下，[ENS](https://ens.domains/) + [IPFS](https://ipfs.io/)，有兴趣可以顺藤摸瓜研究研究。
+同时，这博客本身也是我技术折腾的产物。博客的域名（victor42.eth）、网站代码、内容数据依托区块链和分布式存储，无法被外力阻断，与传统技术栈完全不同。写过[一篇文章](./post/3608/)介绍其原理。提示一下，[ENS](https://ens.domains/) + [IPFS](https://ipfs.io/)，有兴趣可以顺藤摸瓜研究研究。
