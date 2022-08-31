@@ -28,6 +28,14 @@ menu:
 
 经常有这种情况，要把许多横的、竖的、尺寸不同的图片统一处理。自制了一些脚本，可以处理到同一个尺寸，或限定最大宽或高。
 
+## PS单页转骑马钉脚本
+
+![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/saddle-stitch-helper.png)
+
+[https://github.com/greenzorro/saddle-stitch-helper](https://github.com/greenzorro/saddle-stitch-helper)
+
+可以把独立设计的一系列单页转成骑马钉双页。它能找到对应的每两张单页，按印刷所需顺序拼合起来。并可以方便地进一步转成单个PDF文件。
+
 ## PS图层批量重命名脚本
 
 ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ps-bulkrename.png)
