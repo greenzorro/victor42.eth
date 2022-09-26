@@ -17,7 +17,7 @@ menu:
 
 [>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，慎入）
 
-社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [Instagram](https://www.instagram.com/victor_cheng_42/) | [豆瓣](http://www.douban.com/people/greenzorro/) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [马蜂窝](https://www.xiachufang.com/cook/10348954/) | [Github](https://github.com/greenzorro)
+社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [Instagram](https://www.instagram.com/victor_cheng_42/) | [马蜂窝](https://www.xiachufang.com/cook/10348954/) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [Github](https://github.com/greenzorro)
 
 ## 我的喜好
 
