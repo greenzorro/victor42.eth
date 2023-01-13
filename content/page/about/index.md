@@ -17,11 +17,11 @@ menu:
 
 [>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，慎入）
 
-社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [Instagram](https://www.instagram.com/victor_cheng_42/) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [Github](https://github.com/greenzorro)
+社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/greenzorro) | [Instagram](https://www.instagram.com/victor_cheng_42/) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [Github](https://github.com/greenzorro)
 
 ## 我的喜好
 
-相比职业，这部分才是更真实的我。科学、纪录片、博物馆爱好者；UI/UX设计师；蹩脚开发者；Excel狂魔；生活观察者。
+相比职业，这部分才是更完整的我。科学、纪录片、博物馆爱好者；UI/UX设计师；蹩脚开发者；Excel狂魔；生活观察者。
 
 我有3个理想，由小到大，都和博物馆有关，能实现哪个算哪个：
 1. 逛遍全球顶尖博物馆。
