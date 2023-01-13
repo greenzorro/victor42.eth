@@ -9,19 +9,17 @@ menu:
             icon: user
 ---
 
-## 我是谁
-
-**Victor**，有个曾用名**可乐橙**。至于42，是个神奇数字小尾巴，圈内人会懂。
-
-职业是UI/UX设计师，现居杭州。
-
-[>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，慎入）
+**Victor**，职业是UI/UX设计师，现居杭州。至于42，是个神奇数字小尾巴，圈内人会懂。
 
 社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/victor_42) | [小红书](https://www.xiaohongshu.com/user/profile/6255841b000000002102462c) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [Github](https://github.com/greenzorro)
 
-## 我的喜好
+[>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，慎入）
 
-相比职业，这部分才是更完整的我。科学、纪录片、博物馆爱好者；UI/UX设计师；蹩脚开发者；Excel狂魔；生活观察者。
+## 我是谁
+
+相比职业，这部分才是更完整的我。
+
+科学、纪录片、博物馆爱好者；UI/UX设计师；蹩脚开发者；Excel狂魔；生活观察者。
 
 我有3个理想，由小到大，都和博物馆有关，能实现哪个算哪个：
 1. 逛遍全球顶尖博物馆。
