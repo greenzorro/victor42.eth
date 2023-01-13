@@ -172,11 +172,11 @@ menu:
           weight: 20
           url: https://www.zhihu.com/people/greenzorro
           params:
-            icon: question-circle
+            icon: brand-zhihu
         - identifier: xiaohongshu
           name: 小红书
           weight: 30
-          url: https://www.xiaohongshu.com/user/profile/6255841b000000002102462c?xhsshare=CopyLink&appuid=6255841b000000002102462c&apptime=1673593105
+          url: https://www.xiaohongshu.com/user/profile/6255841b000000002102462c
           params:
             icon: camera
         - identifier: xiachufang
