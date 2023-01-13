@@ -23,7 +23,7 @@ params:
 
     sidebar:
         emoji: 🌌
-        subtitle: 一只猫，也是一只愤怒的小鸟
+        subtitle: 科学、纪录片、博物馆爱好者；UI/UX设计师；蹩脚开发者；Excel狂魔；生活观察者
         avatar:
             enabled: true
             local: true
