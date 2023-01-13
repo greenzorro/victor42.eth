@@ -173,12 +173,12 @@ menu:
           url: https://www.zhihu.com/people/greenzorro
           params:
             icon: question-circle
-        - identifier: instagram
-          name: Instagram
+        - identifier: xiaohongshu
+          name: 小红书
           weight: 30
-          url: https://www.instagram.com/victor_cheng_42/
+          url: https://www.xiaohongshu.com/user/profile/6255841b000000002102462c?xhsshare=CopyLink&appuid=6255841b000000002102462c&apptime=1673593105
           params:
-            icon: brand-instagram
+            icon: camera
         - identifier: xiachufang
           name: 下厨房
           weight: 40
