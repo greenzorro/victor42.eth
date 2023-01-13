@@ -167,9 +167,15 @@ menu:
           url: https://twitter.com/victor_cheng_42
           params:
             icon: brand-twitter
+        - identifier: zhihu
+          name: 知乎
+          weight: 20
+          url: https://www.zhihu.com/people/greenzorro
+          params:
+            icon: question-circle
         - identifier: instagram
           name: Instagram
-          weight: 20
+          weight: 30
           url: https://www.instagram.com/victor_cheng_42/
           params:
             icon: brand-instagram
