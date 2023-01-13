@@ -170,7 +170,7 @@ menu:
         - identifier: zhihu
           name: 知乎
           weight: 20
-          url: https://www.zhihu.com/people/greenzorro
+          url: https://www.zhihu.com/people/victor_42
           params:
             icon: brand-zhihu
         - identifier: xiaohongshu
