@@ -13,7 +13,7 @@ menu:
 
 社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/victor_42) | [小红书](https://www.xiaohongshu.com/user/profile/6255841b000000002102462c) | [下厨房](https://www.xiachufang.com/cook/10348954/) | [Github](https://github.com/greenzorro)
 
-[>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，慎入）
+[>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，设计水平也不咋地，慎入）
 
 ## 我是谁
 
