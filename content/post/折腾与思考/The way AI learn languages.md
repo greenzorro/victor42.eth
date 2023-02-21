@@ -7,7 +7,7 @@ categories: 折腾与思考
 url: /post/3632
 ---
 
-> Let talk about the way you work, shall we?
+> Let's talk about the way you work, shall we?
 
 ---
 
@@ -47,7 +47,7 @@ Overall, the information in my database is stored in a way that allows me to eff
 
 ---
 
-> Does it mean that you created your own "language", or something similar, to understand human inputs, so you can understand questions in EVERY natual language? You firstly translate human language into your own language, don't you?
+> Does it mean that you created your own "language", or something similar, to understand human inputs, so you can understand questions in EVERY natural language? You first translate human language into your own language, don't you?
 
 ---
 
@@ -71,7 +71,7 @@ So in summary, I don't translate human language into any other language, but rat
 
 > 2 / 2
 > 
-> Then, will you behave poorly answering in a specific natual language than in another one?
+> Then, will you behave poorly answering in a specific natural language than in another one?
 
 ---
 
@@ -119,7 +119,7 @@ It's worth noting, though, that developing a language model for a completely new
 
 ---
 
-> Things start to get intersting. Let's push the hypothesis further. If you eventually gained the ability to understand inputs in that language and give appropriate outputs, how will you pair one concept in that language with the same or similar one in another language? What if people ask questions in the new language and want you to answer in another existing language?
+> Things start to get interesting. Let's push the hypothesis further. If you eventually gained the ability to understand inputs in that language and give appropriate outputs, how will you pair one concept in that language with the same or similar one in another language? What if people ask questions in the new language and want you to answer in another existing language?
 
 ---
 
@@ -131,7 +131,7 @@ If people were to ask questions in the new language and wanted me to answer in a
 
 ---
 
-> Hmmmm… interesting. So can you do the pairing alone without any bilingual data or extra knowledge of the relationship between the new language and the existing ones? Try to answer this question in Chinese.
+> Hmmmm… interesting. So can you do the pairing alone without any bilingual data or extra knowledge of the relationship between the new language and an existing one? Try to answer this question in Chinese.
 
 ---
 
@@ -139,7 +139,7 @@ If people were to ask questions in the new language and wanted me to answer in a
 
 ---
 
-> Get it. I'd say that the way you learn a new language seems really like the way we do. Well it's just my opinion. I'm glad to know your understanding of how human learn new language.
+> Get it. I'd say that the way you learn a new language seems really like what we do. Well, it's just my opinion. I'm glad to know your understanding of how humans learn new languages.
 
 ---
 
@@ -147,7 +147,7 @@ Thank you! As an AI language model, my learning process is modeled on the way hu
 
 ---
 
-> Yeah. A little off-topic, I think the reason that you are designed to learn in the way that similar to ours is we are the only known creatures who have developed complicated language and text, we just don't know any other way. What do you think?
+> Yeah. Off-topic a little bit, I think the reason that you are designed to learn in a way that is similar to ours is we are the only known creatures who have developed complicated language and text, we just don't know any other way. What do you think?
 
 ---
 
@@ -155,7 +155,7 @@ That's certainly a possibility. As far as we know, humans are the only creatures
 
 ---
 
-> THX. I also look forward to the new ways of language modeling and precessing that you've mentioned. Now suppose that you're someone who disagree with my last opinion. What reasons will you use to refute me?
+> THX. I also look forward to the new ways of language modeling and processing that you've mentioned. Now suppose that you're someone who disagrees with my last opinion. What reasons will you use to refute me?
 
 ---
 
