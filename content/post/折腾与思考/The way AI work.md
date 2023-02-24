@@ -1,6 +1,6 @@
 ---
 title: The way AI work
-description: 和ChatGPT聊了小半天，它自己解释了它是如何学习和运用语言的。
+description: 和ChatGPT聊了好几天，它自己解释了它是如何学习和运用语言的。
 image: 
 date: 2023-02-21 09:49:00
 categories: 折腾与思考
@@ -69,8 +69,6 @@ So in summary, I don't translate human language into any other language, but rat
 
 ---
 
-> 2 / 2
-> 
 > Then, will you behave poorly answering in a specific natural language than in another one?
 
 ---
@@ -401,5 +399,43 @@ Sure, here's my attempt:
 10.  "Fashionable" - Probability: 0.40, "Modern": 0.25, "Trendy": 0.20, "Chic": 0.10, "Hip": 0.05
 
 So, my generated description for a typical east Asian woman is: "Black hair, almond-shaped pale face, small nose, straight elegant and fashionable."
+
+---
+
+> Is it possible that you don't work this way, I mean generating responses word by word, but still can somehow mimic the pattern I just gave?
+
+---
+
+1 / 2
+
+Yes, that's correct. While I don't generate responses word by word, I can still use statistical analysis and pattern recognition to generate coherent and relevant responses to questions. My response generation is based on analyzing the patterns and relationships between the words and phrases in the input text and using that information to generate a suitable output. This process involves a combination of language models, machine learning algorithms, and statistical analysis.
+
+---
+
+> Is it possible that you don't work this way, I mean generating responses word by word, but still can somehow mimic the pattern I just gave?
+
+---
+
+2 / 2
+
+As an AI language model, I do generate responses one word at a time based on the input and previous words. However, my responses are not determined by a fixed set of probabilities or alternatives for each word, as my model considers a vast amount of training data and can generate multiple plausible responses for any given input. So while I can follow the pattern you provided, my word choices and probabilities may not exactly match those of a different AI model or a human.
+
+---
+
+> Do you know about the ChatGPT user interface? There's a "regenerate response" button here. When I click it, you generate a new response to the same question. My question is, will you take other previous answers to one question into account when generating a new answer?
+
+---
+
+No, I won't take into account the previous answers to the same question when generating a new response. Each response is generated independently based on the question prompt and the context provided in the conversation, without any memory of previous responses. However, I may use my general knowledge and understanding of the world to provide consistent and coherent responses across multiple conversations.
+
+---
+
+> No wonder. You've just generated two contradictory answers to the same question.
+
+---
+
+I apologize for the confusion caused by the contradictory answers. As an AI language model, I generate responses based on statistical patterns in the language data I was trained on. The two different answers you received were likely a result of the random nature of the algorithm used to generate responses, rather than an intentional consideration of the previous answers I provided.
+
+In general, each response I generate is based solely on the input prompt and any relevant context provided, rather than any previous responses generated in the same conversation. However, I may use previous context from the same conversation to inform my responses if the input prompt is related to or builds upon earlier topics discussed.
 
 ---
