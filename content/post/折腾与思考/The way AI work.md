@@ -353,7 +353,7 @@ Anyway, I heard she's living it up now, buying all kinds of fancy clothes and go
 
 ---
 
-> Nice work! You're really good at this. Another question. Since you have no physical body, all information that you are exposed to is text. You don't understand spacial information, I suppose. So, what's your understanding of left, right, up, down, front, back, etc?
+> Nice work! You're really good at this. Another question. Since you have no physical body, all information that you are exposed to is text. You don't understand spatial information, I suppose. So, what's your understanding of left, right, up, down, front, back, etc?
 
 ---
 
