@@ -169,13 +169,13 @@ menu:
             icon: brand-twitter
         - identifier: xiaohongshu
           name: 小红书
-          weight: 30
+          weight: 20
           url: https://www.xiaohongshu.com/user/profile/6255841b000000002102462c
           params:
             icon: camera
         - identifier: zhihu
           name: 知乎
-          weight: 20
+          weight: 30
           url: https://www.zhihu.com/people/victor_42
           params:
             icon: brand-zhihu
