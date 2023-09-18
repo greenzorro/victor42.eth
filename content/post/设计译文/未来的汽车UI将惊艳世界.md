@@ -17,7 +17,7 @@ url: /post/3524
 
 ## 特斯拉手机控制中心界面
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901649059-e108745eb23c13fe1975db25742f3b23.gif)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901649059-e108745eb23c13fe1975db25742f3b23.gif)
 
 来源：[Matthaeus Krenn](http://matthaeuskrenn.com/) 
 
@@ -29,7 +29,7 @@ url: /post/3524
 
 ## 车载触摸操控界面
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901652884-3be22e13f186d28582b45574addcf8bf.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901652884-3be22e13f186d28582b45574addcf8bf.jpg)
 
 来源：[Gleb Kuznetsov for FΛNTΛSY](https://dribbble.com/glebich)
 
@@ -43,7 +43,7 @@ url: /post/3524
 
 ## 特斯拉控制面板概念设计
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901688755-59ec6fdfac83529c46f08aa5807daae4.gif)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901688755-59ec6fdfac83529c46f08aa5807daae4.gif)
 
 来源：[Bureau Oberhaeuser](https://dribbble.com/oberhaeuser)
 
@@ -55,7 +55,7 @@ url: /post/3524
 
 ## 远程汽车健康监测和控制
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901694980-f10c38003c97edf725eb4cb8bfacabd1.gif)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901694980-f10c38003c97edf725eb4cb8bfacabd1.gif)
 
 来源：[Ramotion](https://dribbble.com/Ramotion)
 
@@ -65,7 +65,7 @@ url: /post/3524
 
 ## 胎压监测与天气界面
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901710367-dd485fe877d5542ee2fa77af5eca4c45.gif)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901710367-dd485fe877d5542ee2fa77af5eca4c45.gif)
 
 来源：[Ryan Duffy](https://dribbble.com/RyanDuffy_)
 
@@ -75,7 +75,7 @@ url: /post/3524
 
 ## Hudway增强现实平视显示器
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901726547-f1d9cee26a4143367b45131df69b9100.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901726547-f1d9cee26a4143367b45131df69b9100.jpg)
 
 来源：[Hudway应用](http://www.hudwayapp.com)
 
@@ -87,7 +87,7 @@ url: /post/3524
 
 ## Car Play应用——City Guide
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901731652-cf624534d27dc66a1c2c85b43000cf63.gif)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901731652-cf624534d27dc66a1c2c85b43000cf63.gif)
 
 来源：[Cleveroad](https://dribbble.com/cleveroad)
 
@@ -97,7 +97,7 @@ url: /post/3524
 
 ## 苹果Carplay
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901736929-504bf686aef6728409946ec320faa424.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901736929-504bf686aef6728409946ec320faa424.jpg)
 
 来源：[Apple](http://www.apple.com/ios/carplay/)
 
@@ -107,7 +107,7 @@ url: /post/3524
 
 ## 数字仪表盘显示屏
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901744337-05c0824807c3a09aef6cb7b275ec7705.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901744337-05c0824807c3a09aef6cb7b275ec7705.jpg)
 
 来源：[Mike Montgomery](https://www.toptal.com/designers/resume/mike-montgomery)
 
@@ -119,7 +119,7 @@ url: /post/3524
 
 ## 特斯拉的Apple Watch界面原型
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901751486-2240efb6a80e49438c914b38abcac62e.gif)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-10/10-11/toptal-blog-image-1474901751486-2240efb6a80e49438c914b38abcac62e.gif)
 
 来源：[Eleks Digital](http://digital.eleks.com/)
 

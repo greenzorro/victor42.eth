@@ -63,7 +63,7 @@ Victor，也叫可乐橙，UI中国会员，IFEC译文团队核心成员之一�
 
 *可乐橙一年内翻译的文章：*
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-01/01-04/2.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-01/01-04/2.jpg)
 
 #### UI中国：你写了一篇[关于如何翻译UI设计文章背后的故事分享](http://colachan.com/post/3420)，为什么要这么做？
 
@@ -123,7 +123,7 @@ UI是一种不断演进、随时变化的设计。UI设计与具体业务能够�
 
 **我：**
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-01/01-04/3.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-01/01-04/3.jpg)
 
 ### 最后~
 

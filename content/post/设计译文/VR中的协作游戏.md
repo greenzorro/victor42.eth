@@ -11,7 +11,7 @@ url: /post/3558
 
 我们在ustwo工作室第一次尝试HTC Vive VR头戴设备时，我们体验了[Eleven Table Tennis](http://www.elevenvr.com/)，一款乒乓球游戏，极具探索乐趣。最吸引我们的，是可以在联机模式中与其他人对战。你的对手来自全世界，随机选择，Ta只有一个面具、一副球拍和控制器。
 
-![Trying out VR gear](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-07/07-01/P1040746-640x427.jpg)
+![Trying out VR gear](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-07/07-01/P1040746-640x427.jpg)
 
 在对战中我们发现，仅仅通过这3个视觉线索，双方的配合竟然惊人地好。我们可以辨认出对手摇头，或者打了一击臭球之后的耸肩，还有比赛结束后的握手动作。带着头戴设备玩这款游戏，对手的声音听起来非常有沉浸感。我们开始思考VR中的非语言沟通的概念。两个玩家在VR中，有没有可能不借助声音，并通过最少的视觉线索来交流？手和头是不是足够表达信息，并且在VR中与其他玩家进行互动？
 
@@ -39,7 +39,7 @@ url: /post/3558
 
 给每位玩家设定一种独特的绘画颜色，会增进玩家之间的互动，因为玩家会擦掉其他玩家的线，并且画上自己的颜色。或者他们会示意对方来自己的颜色里绘画，创造出某种奇妙的图案。
 
-![VR result polaroids](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-07/07-01/polaroids_1-640x360.png)
+![VR result polaroids](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-07/07-01/polaroids_1-640x360.png)
 
 第一版原型只允许玩家紧挨着已有的线条绘画，每次绘画都必须从两位玩家中间的某个位置开始。这可以迫使玩家专注于合作绘画，创造一件共同的艺术品。随着我们改变策略，换成一种更自由的形式，玩家可以在宇宙中任何位置绘画，他们刚开始就会各画各的，但最终还是会共同创作。
 
