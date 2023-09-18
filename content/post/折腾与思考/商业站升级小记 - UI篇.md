@@ -7,29 +7,29 @@ categories: 折腾与思考
 url: /post/1852
 ---
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/1.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/1.jpg)
 
 公司的视频聊天交友软件升级项目，视觉部分已经告一段落，很长一段时间都在配合开发做一些功能上的细微调整，才终于有时间来好好整理一下整个项目的经过。从最初的概念稿，到概念稿发布评审，产品制定需求与交互，再交到我手中开始全面的设计工作，直至最终完成通过评审，将近两个月过去了。一套完全不同的视觉风格，从无到有，再逐渐完善成熟，历数整个过程，受益良多
 
 这次升级主要目的在于提升视频交友软件的视觉体验，对产品功能的改动不大。现有的客户端界面仍然是典型的传统框架式布局，区块划分鲜明，旧式的重纹理，白底黑字配以彩色的小尺寸像素图标，俨然一副table时代网页的模样
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/2.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/2.jpg)
 
 观察竞争对手的产品，其界面也不外乎如此。如何从外观与操作上使我们的产品脱颖而出？我们需要引入一种新的视觉概念：一体化设计。打破区块束缚，拓宽用户的视野，以引导的方式帮助用户完成各项操作，而非罗列全部功能供其选择
 
 为此，我以聊天室大厅界面为例，设计了如下的概念图
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/3.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/3.jpg)
 
 第一次从网页转做UI，貌似有那么点味道，不过细节仍有待提升。灵感有部分来源于微软的metro风格，内容即全部。直到后来office 2013发布，才发现自己的设计理念果然和微软在某些方面不谋而合
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/4.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/4.jpg)
 
 但这毕竟不是一款严肃的办公软件，过分追求简洁与清爽会丧失产品的活力。而我们的视频交友软件首先要体现的，便是娱乐性
 
 最大限度的保持原有的功能与用户习惯，在表现方式上体现时尚与趣味。于是对之前方案进行改进，产生了如下设计
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/5.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/5.jpg)
 
 继续弱化区块，使整个界面浑然一体。加大房间图片，将房间信息紧凑排列。去除各种表意不清却扰乱视线的小图标，用文字与纯色图案代替。单从内容的表现与吸引程度来看，已大大胜过现有界面
 
@@ -37,25 +37,25 @@ url: /post/1852
 
 ### 1. 站点导航
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/6.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/6.jpg)
 
 一体化设计的概念，从这个站点导航界面便开始刺激用户的眼球，这是用户见到的第一个界面，立刻带来耳目一新的感觉。在这种简洁的风格下，整齐的布局尤为重要，保持无边界的内容区域完整不散乱
 
 ### 2. 登录
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/7.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/7.jpg)
 
 在这次的改版中，登陆窗口仍然采用主流的客户端软件布局方式。因为以表单为主的界面对用户来说极其敏感，轻微的困惑也足以让用户放弃一个产品
 
 登录界面除了表单，还有广告与活动推广图片。这些运营层面的内容，在这个朴素的界面上极其抢眼。尽管我本人喜欢清爽的东西，但如果结合得恰到好处，这些内容反倒能为产品增色
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/8.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/8.jpg)
 
 比起以往边界清晰棱角分明的广告图，以背景图的方式展现推广信息自然是更好的选择。对于这个不大的登录窗口，空间的利用方式也更加合理，富有层次感
 
 ### 3. 大厅
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/9.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/9.jpg)
 
 功能区块都融合为一个整体，释放出更多的空间。留出的空间用于放大主要内容区域，或仅仅是留白。主次分明能为产品增添活力
 
@@ -63,7 +63,7 @@ url: /post/1852
 
 ### 4. 房间
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/10.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/10.jpg)
 
 房间是变化最小的，这个界面功能最为复杂，且没有一项可以被删减甚至隐藏，布局也无法改变。体现在这个界面上的，更多是扁平化的色块设计与图标的统一规整
 
@@ -71,15 +71,15 @@ url: /post/1852
 
 软件界面的各种辅助元素也进行了升级设计，提示框系统随之平面化。通过不同颜色的顶部线条，来区分正确、警告、错误、进度条等场合
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/11.jpg) ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/12.jpg) ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/13.jpg) ![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/14.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/11.jpg) ![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/12.jpg) ![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/13.jpg) ![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/14.jpg)
 
 另外，站点的LOGO也全部设计了相应的配套风格。单色的LOGO比彩色更贴合一体化的设计风格
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/15.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/15.jpg)
 
 这一版UI较以往变化很大，为帮助用户尽快熟悉新界面的使用，提示引导系统不可或缺
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/16.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-09/09-20/16.jpg)
 
 **结语**
 

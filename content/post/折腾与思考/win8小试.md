@@ -11,67 +11,67 @@ url: /post/1485
 
 首先奉上[下载地址](http://win8e.com/xiazai/3430.html)
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/1.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/1.jpg)
 
 微软目前最负盛名的 win8 Metro 界面。之前看到win8的宣传介绍时，就瞬间被这界面打败了。这样简洁的线框与色块运用，简直就是专为我设计的啊！win8取消了开始菜单，取而代之就是图中的这个东西，是不是很像windows phone？没错，思路是一样的，我估计这个metro界面会是未来搭载win8系统的平板电脑桌面。而它在PC机上，却扮演着开始菜单的角色
 
 除了界面炫丽之外，我还注意到一个小细节，请看腾讯QQ那个图标。当我点击它时，方形图标会发生一定程度的倾斜。若你试试点击图标区域的任意位置，你会发现它将根据你点击的区域，向上下左右四个不同方向倾斜。这是个仿真度很高的交互体验，绝对值得[@双手捧个红苹果](http://weibo.com/oneapple "小帅") 借鉴
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/2.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/2.jpg)
 
 Metro界面的app可以随意拖动摆放，就单单是来回拖放摆动，寻找了一个美观的布局，我就折腾了将近两个小时。职业病……这是职业病，请无视
 
 Metro 界面上看到的众多图标，大致可以分为两类。由色块或图片构成的app，是专为win8 Metro开发的应用程序，无论是视觉风格与操作习惯都与Metro界面高度融合。而由小图标构成的app，则是windows传统桌面中的应用程序，打开这些app，将会启动windows传统桌面。我们可以注意到，Desktop在这里已经被弱化成了一个app，尽管这仍是表面文章，却已经能够看出微软颠覆的决心。有朝一日Metro软件丰富起来，PC也可以大大减少对传统桌面的依赖，只在需要打开一些专业软件时运行Desktop
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/3.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/3.jpg)
 
 传统桌面延续了win7的Aero玻璃质感，乍看之下，除了开始菜单不见踪影，并无太大变化。鼠标指在屏幕右上角或右下角时，会出现右侧的Metro边栏。鼠标停在边栏项上，会出现左下方这块显示时间日期的区域。由于延续了win7的绝大部分设定，所以几乎不用担心软件的兼容性问题。win7的软件，放在win8的传统桌面里几乎都能运行。就我的本本来看，只有两个问题：一个叫做color7 music editor的音频编辑软件无法运行，chrome浏览器内置的adobe flash player运行不正常，无法向服务器提交数据。导致我在又拍网上传图片和登录三国杀网页版时，只能用firefox
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/4.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/4.jpg)
 
 刚才说过了屏幕右上角与右下角。在win8传统桌面中，鼠标指在屏幕左上角，将会打开一个菜单，里面包含正在运行的程序——传统桌面与Metro桌面。左下角则默认是Metro界面的入口，当然也可以通过键盘上的win键进入。忽然间，我觉得左边这条东西很眼熟，难道不就是windows传统桌面的任务栏给竖起来么！再次说明了Metro是一个大于传统桌面的存在，而不仅仅是一个附属品
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/5.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/5.jpg)
 
 在切换输入法时遇到了一个问题，觉得win8的输入法好像有点错乱，也不知道如何切换。查了一下才知道，原来win7的输入法是独立于程序的，每个程序的输入法状态相对独立。在QQ中输入法状态是谷歌拼音，同时在chrome中输入法的状态可以是英文。而在win8中，所有程序（传统桌面与Metro）的输入法都是同步切换的。切换组合键由Ctrl + 空格改为win + 空格
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/6.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/6.jpg)
 
 好了，吊胃口到此结束，正式进入Metro界面！这是Metro系统设置的打开界面，够简洁！Metro自带的相册、摄像头、邮件、日历等等官方应用，打开界面都如出一辙，一整块的底色加上一个居中的白色图标
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/7.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/7.jpg)
 
 Metro设置界面，简单清爽
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/8.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/8.jpg)
 
 Metro自带图片浏览程序，很奇怪Metro程序都如何关闭，它并没有关闭按钮。在平板上，它肯定是通过某种手势来关闭的……手势！我找了一圈，发现果然是这个理儿。鼠标移到屏幕顶端，再把程序拖拽到屏幕底端，就算关闭了。win8的很多操作都是从屏幕的四个角和四条边开始的，并且我在更多地方发现了类似的操作。将平板的手势操作搬到PC上来，够炫，够概念，不过我还没习惯
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/9.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/9.jpg)
 
 Metro自带的音乐软件，视觉效果挺好，可惜少了专辑封面支持。专辑封面都是精心设计过的细节丰富的图片，色块配上图片，那样会更好看
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/10.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/10.jpg)
 
 win8的锁屏界面，从下向上拖动解锁，进入密码输入界面。有没有想起Bing？Bing、Windows Live Messager、Hotmail、win8、Windows Phone……似乎能从这些产品中找出一丝微软的视觉偏好
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/11.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/11.jpg)
 
 Metro的搜索功能，可以从Metro右边栏进入，或通过win + Q调出。这相当于传统桌面的F3，不过我们注意到右边还有个Store！当然，作为一个可以在平板上使用的操作系统，应用商店是必须的
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/12.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/12.jpg)
 
 同样的界面风格也出现在应用商店里，可见设计的细节固然重要，真正形成震慑力的，是视觉风格上的统一，这会是客户们常挂嘴边的“大气”么？
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/13.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/13.jpg)
 
 现在win8的应用商店，实在有待丰富。games作为软件最多的分类，也只有18个游戏相关软件
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/14.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/14.jpg)
 
 应用程序的详细界面。这个install一按下去，软件很快就给我装好了，并出现在Metro界面的末尾。我不知道它给装到哪里去了，安装过程中也没有任何设置选项。不用想，这个store彻彻底底是为移动设备服务的，却并非没有取代windows传统软件的可能
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/15.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2012-03/03-16/15.jpg)
 
 专为win8 Metro开发的QQ，没有广告和那些烦人的腾讯关联产品，我相信会深得小清新们的喜爱。不过目前的谷歌输入法，会在这个Metro版的QQ中失效
 
