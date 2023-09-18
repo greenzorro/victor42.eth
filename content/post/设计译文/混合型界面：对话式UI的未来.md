@@ -19,7 +19,7 @@ url: /post/3536
 
 似乎我们都见过这些界面。[命令行](https://en.wikipedia.org/wiki/Command-line_interface)正是最初的对话式界面。输入上下文指令，敲回车，电脑就会执行命令，并且打印出答案。输入和输出都是文字。有时候通过非常原始的方式，你能看到各种符号组成的表格或[ASCII码图片](https://en.wikipedia.org/wiki/ASCII_art)。这是文字媒介的一种极具创造力的用法，但它本质上还是文本。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-vgMiTstFJG8nYmTSY0Od_g.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-vgMiTstFJG8nYmTSY0Od_g.png)
 
 *Linux命令行*
 
@@ -33,7 +33,7 @@ url: /post/3536
 
 [施乐公司帕洛阿尔托研究中心](https://en.wikipedia.org/wiki/PARC_%28company%29)，一家复印机公司下属部门的天才们，创立了一系列用户界面范式，彻底改变了游戏规则。让不懂命令行、也不愿花数小时学习的用户，能够直接用东西（鼠标指针）指着屏幕上熟悉的视觉形象。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-SubONWzdZQXlUmH96fKlHA.jpeg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-SubONWzdZQXlUmH96fKlHA.jpeg)
 
 *Xerox Star用户界面*
 
@@ -45,13 +45,13 @@ url: /post/3536
 
 [聊天室](https://en.wikipedia.org/wiki/Internet_Relay_Chat)就是最原始的[Slack](https://slack.com)。显然，它更粗糙、更欠产品化。但聊天室引入的许多概念在今天再度盛行。聊天室已经支持了聊天机器人、多人测验、投票和其他类型的对话式应用，各频道可以依需要启用。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-_hBjjP9PVqgI6sHs4gC-DQ.jpeg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-_hBjjP9PVqgI6sHs4gC-DQ.jpeg)
 
 *Trivia聊天室机器人*
 
 即时通讯应用在视觉上更自然，随时间推移也开始支持更丰富的媒体格式，例如表情、照片、视频和小程序，例如游戏或测验。第一批这类应用包括ICQ、AIM、MSN和Yahoo! messenger，在90年代末极度盛行。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-TpEf1IFD77jLrI-6GDu8uw.jpeg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-TpEf1IFD77jLrI-6GDu8uw.jpeg)
 
 *MSN messenger里的井字游戏*
 
@@ -59,7 +59,7 @@ url: /post/3536
 
 短信服务（SMS）是1994年少数几个出现在移动设备上的服务之一。短信只支持文字，并且不能超过160个字符（译者注：这是在作者的国度）。从一开始，它就既支持人与人互发短信，也支持人与电脑发送消息。短信具备一些聊天室和桌面即时通讯应用不具备的特征。它能持续运转，可以在任何时候接收到通知。也出现了基础的对话式服务，例如通过短信指令查询余额。文字游戏、星座运势、还有其他娱乐类内容，把短信的运用推向了一个新的方向。而相对严肃的应用，例如天气和股票行情，则又是另一个方向。这些应用通常都由服务商或者关系紧密的企业提供。不像聊天室或即时聊天应用，短信自己集成了支付系统，使得它能在这个平台上构建出真正的业务。最后，许多像[Nexmo](https://www.nexmo.com)这样的上层服务商（OTT），让每个开发者都能运用短信来搭建全球平台。平台限制和入口，使得短信成为移动端对话式界面、聊天机器人、智能助手绝佳的试验田。由于只能使用文字，基于短信的应用与命令行的体验差不多。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-DZksqy11nRFRRGwn9SwHxQ.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-DZksqy11nRFRRGwn9SwHxQ.png)
 
 *[Assist](http://assi.st)的短信聊天机器人界面*
 
@@ -67,7 +67,7 @@ url: /post/3536
 
 上层消息应用正在逐步开放API来整合各种服务，非常像短信的演化路径。[Telegram](https://core.telegram.org/bots)、[Slack](https://api.slack.com/bot-users)和 [kik](http://www.kik.com)都有成百上千的聊天机器人。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-LPOVLc7cAxrAjLNZaUPWTA.gif)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-LPOVLc7cAxrAjLNZaUPWTA.gif)
 
 *[Slack中的KhaledBot](http://khaledbot.com/)*
 
@@ -79,19 +79,19 @@ url: /post/3536
 
 下面是一些混合界面的案例，很好地将命令行与图形界面范式结合起来。2016年起，我们会看到更多此类案例，因为这种结合吸取了两者的优点：文字——对话式界面的快速输入，还有图形界面丰富直观的体验。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-6tYG_b5PkO7QpY_PithljA.gif)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-6tYG_b5PkO7QpY_PithljA.gif)
 
 *每条信息都是独立应用*
 
 每条消息都有成为一个独立应用的潜质。它可以显示文字、照片，或者在消息气泡的局限中展现更复杂的信息。有无限的可能，可以创造各种迷你应用，比如照片轮播、媒体播放器、迷你游戏、清单项、消息内支付等等。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-v4dyDpzbolNjyexHGNiQsw.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-v4dyDpzbolNjyexHGNiQsw.png)
 
 *富文本消息例子——音乐、照片、移动商店、迷你游戏、测验、快递、酒店预订*
 
 开发者们可以更多关注体验，不用局限于基础设施。将迷你应用作为消息的一部分，会成为一种行业标准。我们在对话式设计领域中已经能看到这种趋势，[Operator](http://operator.com)这样的公司正在引领行业前行，设计出丰富的体验供用户直接操作，而不仅仅是回复文字。这是他们与传统消息应用的一大区别。
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-hGEAZ8AfBrRWWLU-0llWFQ.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-01/01-05/1-hGEAZ8AfBrRWWLU-0llWFQ.png)
 
 *[Operator中的可操作消息卡片](http://operator.com)*
 

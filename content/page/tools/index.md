@@ -14,7 +14,7 @@ menu:
 
 ## 移动端交互组件库
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ux-library.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ux-library.png)
 
 [https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE](https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE)
 
@@ -22,7 +22,7 @@ menu:
 
 ## PS图片处理脚本
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/image-unifier.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/image-unifier.png)
 
 [https://github.com/greenzorro/image-unifier](https://github.com/greenzorro/image-unifier)
 
@@ -30,7 +30,7 @@ menu:
 
 ## PS单页转骑马钉脚本
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/saddle-stitch-helper.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/saddle-stitch-helper.png)
 
 [https://github.com/greenzorro/saddle-stitch-helper](https://github.com/greenzorro/saddle-stitch-helper)
 
@@ -38,7 +38,7 @@ menu:
 
 ## PS图层批量重命名脚本
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ps-bulkrename.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ps-bulkrename.png)
 
 [https://www.jianguoyun.com/p/Ddt-26wQwKOaBhi99-wC](https://www.jianguoyun.com/p/Ddt-26wQwKOaBhi99-wC)
 
@@ -46,7 +46,7 @@ PS经常用于批量制作banner图，结合画板和生成图像资源功能，
 
 ## PPT模板
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/powerpoint-template.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/powerpoint-template.png)
 
 [https://www.jianguoyun.com/p/DYZkMRwQwKOaBhj-6NMEIAA](https://www.jianguoyun.com/p/DYZkMRwQwKOaBhj-6NMEIAA)
 
@@ -54,7 +54,7 @@ PS经常用于批量制作banner图，结合画板和生成图像资源功能，
 
 ## ColaUX流程图模板
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/stencil.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/stencil.png)
 
 [https://github.com/greenzorro/ColaUX-OmnigraffleStencil](https://github.com/greenzorro/ColaUX-OmnigraffleStencil)
 
@@ -62,7 +62,7 @@ PS经常用于批量制作banner图，结合画板和生成图像资源功能，
 
 ## 十/十六进制颜色值转换工具
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/hex-dec.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/hex-dec.png)
 
 [http://greenzorro.github.io/hex-dec-color-transform](http://greenzorro.github.io/hex-dec-color-transform)
 
@@ -70,7 +70,7 @@ App开发同学一定很痛恨设计师：你们给的颜色都是#ffffff这种�
 
 ## HTML转markdown
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/markdown2.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/markdown2.png)
 
 [http://greenzorro.github.io/something-to-markdown/](http://greenzorro.github.io/something-to-markdown/)
 
@@ -78,7 +78,7 @@ App开发同学一定很痛恨设计师：你们给的颜色都是#ffffff这种�
 
 ## markdown转HTML
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/markdown.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/markdown.png)
 
 [http://greenzorro.github.io/markdown-to-something](http://greenzorro.github.io/markdown-to-something)
 
@@ -86,7 +86,7 @@ markdown这么好用，写过一次就停不下来。所以希望能轻松把mar
 
 ## 可乐橙博客模版
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/farbox-template.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/farbox-template.png)
 
 [https://github.com/greenzorro/bitcron-colachan](https://github.com/greenzorro/bitcron-colachan)
 
@@ -94,7 +94,7 @@ markdown这么好用，写过一次就停不下来。所以希望能轻松把mar
 
 ## 蒲丰投针实验
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/find-out-pi.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/find-out-pi.png)
 
 [https://greenzorro.github.io/find-out-pi](https://greenzorro.github.io/find-out-pi)
 
@@ -102,7 +102,7 @@ markdown这么好用，写过一次就停不下来。所以希望能轻松把mar
 
 ## 混沌系统实验
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/chaos.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/chaos.png)
 
 [http://greenzorro.github.io/chaos](http://greenzorro.github.io/chaos)
 
@@ -110,7 +110,7 @@ markdown这么好用，写过一次就停不下来。所以希望能轻松把mar
 
 ## 前端练习本
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/demo.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/demo.png)
 
 [http://greenzorro.github.io/demo/](http://greenzorro.github.io/demo/)
 

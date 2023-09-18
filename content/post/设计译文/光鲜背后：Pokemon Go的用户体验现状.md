@@ -9,7 +9,7 @@ url: /post/3514
 
 **[国外设计第142期]**
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/03242016-169.jpg)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/03242016-169.jpg)
 
 今天，我像往常一样走路去上班。
 
@@ -17,7 +17,7 @@ url: /post/3514
 
 这就是Pokemon Go。
 
-![image05](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image05-1.jpg)
+![image05](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image05-1.jpg)
 
 口袋妖怪作为一种全国现象，大约20年前就爆发过。人们喜欢这个寻找和捕获口袋妖怪的创意，当时他们满足于用Gameboy作为平台。
 
@@ -35,8 +35,8 @@ url: /post/3514
 
 ### 创建个人资料
 
-![image06](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image06-7.png)
-![image01](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image01-9.png)
+![image06](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image06-7.png)
+![image01](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image01-9.png)
 
 个性化。游戏中人见人爱的部分。
 
@@ -48,7 +48,7 @@ url: /post/3514
 
 ### 游戏风格
 
-![image08](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image08.jpg)
+![image08](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image08.jpg)
 
 口袋妖怪的招牌元素之一，是当你穿过一片高草丛，忽然冒出一只口袋妖怪。任天堂沿用了这种体验，通过增强现实技术，使它尽可能真实、令人兴奋。
 
@@ -58,11 +58,11 @@ url: /post/3514
 
 这种几率正是游戏令人兴奋的所在。它让这场口袋妖怪大师之旅保持有趣，以此使用户成瘾。我在下图中用Nir Eyal的[成瘾模型图表](http://www.slideshare.net/nireyal/hooked-model)解释了Pokemon Go的现象：
 
-![](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image00-11.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image00-11.png)
 
 ### 社交分享
 
-![image03](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image03.jpg)
+![image03](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image03.jpg)
 
 任天堂和Niantic把Pokemon Go设计成一款社交游戏。只有当包括朋友在内的其他人加入时，人们才能从这款游戏获得价值。
 
@@ -78,7 +78,7 @@ url: /post/3514
 
 ### 无用的引导界面
 
-![image07](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image07-5.png)
+![image07](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image07-5.png)
 
 我们从头讲起
 
@@ -96,7 +96,7 @@ url: /post/3514
 
 ### 服务器问题
 
-![image04](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image04-2.jpg)
+![image04](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image04-2.jpg)
 
 对于Pokemon Go的用户体验，最严重的负面影响要归于服务器问题。
 
@@ -110,7 +110,7 @@ Pokemon Go的游戏性和社交方面很有趣，但首先得能用。
 
 ### 没有足够的持续功能
 
-![image02](https://storageapi.fleek.co/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image02-1.jpg)
+![image02](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-07/07-29/image02-1.jpg)
 
 Pokemon Go很好玩。你可以周游世界，捕获口袋妖怪、争夺场馆……但也只有这些。
 
