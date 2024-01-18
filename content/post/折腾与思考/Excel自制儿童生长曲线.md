@@ -226,3 +226,17 @@ RANK(F2,数组,1)
 它印证了多种知识、工具、技巧相互组合的威力。见招拆招，总能有效解决问题。
 
 最后说明一下，我们用的真的不是同一个Excel，我更喜欢用Google Sheets。如果想要在Excel里重复我的实验，未必能成功。可能少数细节要变通一下，但两者的公式和用法是高度一致的。
+
+
+---
+
+【2024.1.18 更新】
+有些朋友想要表格文件，我亲自尝试了下，转成Excel后部分公式无法正常工作了。因为Excel并不支持把数组常量作为rank的引用范围，而且数组常量里也无法引用其他单元格。所以Office的Excel做这个会相对麻烦，估计得一堆if嵌套了，还是建议大家有条件就用Google Sheets。
+
+我把这个表格做了两个可供取用的版本（男宝/女宝），你需要魔法上网，且有Google账号，点击【File - make a copy】就有一份在你自己的Google Sheets里了。
+
+男宝版：  
+[https://docs.google.com/spreadsheets/d/11D3oxCzVtGosAuySidwDeHgoMauo8_b4EhAcirQHNUg/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11D3oxCzVtGosAuySidwDeHgoMauo8_b4EhAcirQHNUg/edit?usp=sharing)
+
+女宝版：  
+[https://docs.google.com/spreadsheets/d/1zBMY5MfzmSSqHRrG0yu9Nz-81xkNjJAvximXY9fgVlU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1zBMY5MfzmSSqHRrG0yu9Nz-81xkNjJAvximXY9fgVlU/edit?usp=sharing)
