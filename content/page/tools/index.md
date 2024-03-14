@@ -48,9 +48,9 @@ PS经常用于批量制作banner图，结合画板和生成图像资源功能，
 
 ![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/powerpoint-template.png)
 
-[https://www.jianguoyun.com/p/DYZkMRwQwKOaBhj-6NMEIAA](https://www.jianguoyun.com/p/DYZkMRwQwKOaBhj-6NMEIAA)
+[https://www.jianguoyun.com/p/DWT8RwwQwKOaBhifyrgFIAA](https://www.jianguoyun.com/p/DWT8RwwQwKOaBhifyrgFIAA)
 
-自制自用的PPT模板，浅色深色各一套。虽然不能拿去开发布会，但好在结构清晰布局丰富，日常内部分享、汇报是够够的了。
+自制自用的PPT模板，包含深浅两色。虽然不能拿去开发布会，但好在结构清晰布局丰富，日常内部分享、汇报是够够的了。
 
 ## ColaUX流程图模板
 
