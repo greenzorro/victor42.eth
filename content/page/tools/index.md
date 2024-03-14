@@ -44,6 +44,14 @@ menu:
 
 PS经常用于批量制作banner图，结合画板和生成图像资源功能，效率奇高。这就需要按顺序给大量画板重命名。自己写了个PS脚本，一键搞定。
 
+## Excel模板
+
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/excel-template.png)
+
+[https://kdocs.cn/join/ge1fwwi](https://kdocs.cn/join/ge1fwwi)
+
+自制一些Excel模板，用于计算出门时间、医院排队、家庭现金流等，会持续补充新品。毕竟，我可是Excel狂魔啊。
+
 ## PPT模板
 
 ![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/powerpoint-template.png)
