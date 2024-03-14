@@ -12,13 +12,21 @@ menu:
 
 我工作与生活中遇会遇到一些问题，有时自己动手做个工具就能满足需求，或许这些小玩意你也用得上。
 
-## 移动端交互组件库
+## Excel模板
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ux-library.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/excel-template.png)
 
-[https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE](https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE)
+[https://kdocs.cn/join/ge1fwwi](https://kdocs.cn/join/ge1fwwi)
 
-自己制作的交互组件库，Sketch格式，包含移动端常见的各种设计模式。几分钟便能搭出一套App或小程序的核心界面，偷懒利器。
+自制一些Excel模板，用于计算出门时间、医院排队、家庭现金流等，会持续补充新品。毕竟，我可是Excel狂魔啊。
+
+## PPT模板
+
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/powerpoint-template.png)
+
+[https://www.jianguoyun.com/p/DWT8RwwQwKOaBhifyrgFIAA](https://www.jianguoyun.com/p/DWT8RwwQwKOaBhifyrgFIAA)
+
+自制自用的PPT模板，包含深浅两色。虽然不能拿去开发布会，但好在结构清晰布局丰富，日常内部分享、汇报是够够的了。
 
 ## PS图片处理脚本
 
@@ -44,21 +52,13 @@ menu:
 
 PS经常用于批量制作banner图，结合画板和生成图像资源功能，效率奇高。这就需要按顺序给大量画板重命名。自己写了个PS脚本，一键搞定。
 
-## Excel模板
+## 移动端交互组件库
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/excel-template.png)
+![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/ux-library.png)
 
-[https://kdocs.cn/join/ge1fwwi](https://kdocs.cn/join/ge1fwwi)
+[https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE](https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE)
 
-自制一些Excel模板，用于计算出门时间、医院排队、家庭现金流等，会持续补充新品。毕竟，我可是Excel狂魔啊。
-
-## PPT模板
-
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/tools/powerpoint-template.png)
-
-[https://www.jianguoyun.com/p/DWT8RwwQwKOaBhifyrgFIAA](https://www.jianguoyun.com/p/DWT8RwwQwKOaBhifyrgFIAA)
-
-自制自用的PPT模板，包含深浅两色。虽然不能拿去开发布会，但好在结构清晰布局丰富，日常内部分享、汇报是够够的了。
+自己制作的交互组件库，Sketch格式，包含移动端常见的各种设计模式。几分钟便能搭出一套App或小程序的核心界面，偷懒利器。
 
 ## ColaUX流程图模板
 
