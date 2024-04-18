@@ -179,15 +179,9 @@ menu:
           url: https://www.zhihu.com/people/victor_42
           params:
             icon: brand-zhihu
-        - identifier: xiachufang
-          name: 下厨房
-          weight: 40
-          url: https://www.xiachufang.com/cook/10348954/
-          params:
-            icon: tools-kitchen-2
         - identifier: github
           name: GitHub
-          weight: 50
+          weight: 40
           url: https://github.com/greenzorro
           params:
             icon: brand-github
