@@ -24,7 +24,13 @@ menu:
 
 自制自用的PPT模板，包含深浅两色。虽然不能拿去开发布会，但好在结构清晰布局丰富，日常内部分享、汇报是够够的了。
 
-## 📐 PS图片处理脚本
+## 🔍 ComfyUI upscale 工作流
+
+[https://github.com/greenzorro/comfyui-workflow-upscaler/tree/main](https://github.com/greenzorro/comfyui-workflow-upscaler/tree/main)
+
+能把小图放大并AI补充细节的ComfyUI工作流，前提是你已经搭好了Stable Diffusion的ComfyUI环境。
+
+## ✂️ PS图片处理脚本
 
 [https://github.com/greenzorro/image-unifier](https://github.com/greenzorro/image-unifier)
 
