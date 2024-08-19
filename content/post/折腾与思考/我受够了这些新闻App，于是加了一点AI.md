@@ -240,3 +240,32 @@ audio文件夹里是音频新闻。虽然还有一些没什么意思的社会新
 用了几天自制的新闻头条程序，这下舒坦了，开车不用分心了。除了语音比较生硬之外，其他毛病没有。语音嘛也许等哪天我受不了了，就再找个效果好的付费TTS API，把Say To File这一步替换掉就可以了。
 
 一番操作下来，不仅解决了我生活中的问题，还积累了一些有用的子任务。我在制作网络获取内容、解析XML、从HTML提取内容、向AI提问这些子任务时，充分考虑了通用性。未来还能组装出其他程序，在手机上轻松实现各种网络爬虫，甚至AI agent。手机上的网络爬虫真的香，没有任何服务器费用，还能实现全天候运行，以后有具体需求再折腾吧。
+
+
+## 资源下载
+
+其中用到的比较复杂的Task已经公开分享，可随意取用。部分过于简单的Task就没有放上来，用内置的Task就能实现。
+
+Bulk TTS:
+[https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3ABulk+TTS](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3ABulk+TTS)
+
+Fix XML format:
+[https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AFix+XML+format](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AFix+XML+format)
+
+API- Groq (enter your key):
+[https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AAPI+-+Groq+%28enter+your+key%29](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AAPI+-+Groq+%28enter+your+key%29)
+
+Fix file name:
+[https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AFix+file+name](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AFix+file+name)
+
+Get inner XML(all siblings):
+[https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AGet+inner+XML%28all+siblings%29](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AGet+inner+XML%28all+siblings%29)
+
+Get inner XML(first match):
+[https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AGet+inner+XML%28first+match%29](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3AGet+inner+XML%28first+match%29)
+
+从RSS下载特定分类新闻:
+[https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3A%E4%BB%8ERSS%E4%B8%8B%E8%BD%BD%E7%89%B9%E5%AE%9A%E5%88%86%E7%B1%BB%E6%96%B0%E9%97%BB](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3A%E4%BB%8ERSS%E4%B8%8B%E8%BD%BD%E7%89%B9%E5%AE%9A%E5%88%86%E7%B1%BB%E6%96%B0%E9%97%BB)
+
+多渠道下载新闻:
+[https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3A%E5%A4%9A%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E6%96%B0%E9%97%BB](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3A%E5%A4%9A%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E6%96%B0%E9%97%BB)
