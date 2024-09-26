@@ -36,6 +36,12 @@ menu:
 
 能把小图高清放大的ComfyUI工作流，利用AI想象出模糊图像中缺失的细节。
 
+## 🏭 Excel+PS批量自动出图
+
+[https://github.com/greenzorro/excel-ps-batch-export](https://github.com/greenzorro/excel-ps-batch-export)
+
+结合Excel的数据处理能力和PS灵活的图片编辑，用Python作为桥梁，从Excel取内容，填到PS的模板文件里，快速全自动生成大量图片。
+
 ## ✂️ PS图片处理脚本
 
 [https://github.com/greenzorro/image-unifier](https://github.com/greenzorro/image-unifier)
