@@ -42,17 +42,17 @@ menu:
 
 结合Excel的数据处理能力和PS灵活的图片编辑，用Python作为桥梁，从Excel取内容，填到PS的模板文件里，快速全自动生成大量图片。
 
-## ✂️ PS图片处理脚本
-
-[https://github.com/greenzorro/image-unifier](https://github.com/greenzorro/image-unifier)
-
-经常有这种情况，要把许多横的、竖的、尺寸不同的图片统一处理。自制了一些脚本，可以处理到同一个尺寸，或限定最大宽或高。
-
 ## 📖 PS单页转骑马钉脚本
 
 [https://github.com/greenzorro/saddle-stitch-helper](https://github.com/greenzorro/saddle-stitch-helper)
 
 可以把独立设计的一系列单页转成骑马钉双页。它能找到对应的每两张单页，按印刷所需顺序拼合起来。并可以方便地进一步转成单个PDF文件。
+
+## ✂️ PS图片处理脚本
+
+[https://github.com/greenzorro/image-unifier](https://github.com/greenzorro/image-unifier)
+
+经常有这种情况，要把许多横的、竖的、尺寸不同的图片统一处理。自制了一些脚本，可以处理到同一个尺寸，或限定最大宽或高。
 
 ## 📝 PS图层批量重命名脚本
 
