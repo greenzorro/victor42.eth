@@ -20,7 +20,7 @@ menu:
 
 ## 🖥️ PPT模板
 
-[https://www.jianguoyun.com/p/DWT8RwwQwKOaBhifyrgFIAA](https://www.jianguoyun.com/p/DWT8RwwQwKOaBhifyrgFIAA)
+[https://www.kdocs.cn/l/csfWelmrwxS2](https://www.kdocs.cn/l/csfWelmrwxS2)
 
 自制自用的PPT模板，包含深浅两色。虽然不能拿去开发布会，但好在结构清晰布局丰富，日常内部分享、汇报是够够的了。
 
@@ -56,13 +56,13 @@ menu:
 
 ## 📝 PS图层批量重命名脚本
 
-[https://www.jianguoyun.com/p/Ddt-26wQwKOaBhi99-wC](https://www.jianguoyun.com/p/Ddt-26wQwKOaBhi99-wC)
+[https://kdocs.cn/l/cpcpVJ1IxZK8](https://kdocs.cn/l/cpcpVJ1IxZK8)
 
 PS经常用于批量制作banner图，结合画板和生成图像资源功能，效率奇高。这就需要按顺序给大量画板重命名。自己写了个PS脚本，一键搞定。
 
 ## 📱 移动端交互组件库
 
-[https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE](https://www.jianguoyun.com/p/DS3NFI0QwKOaBhi7rKsE)
+[https://kdocs.cn/l/chQRAJhIfWKd](https://kdocs.cn/l/chQRAJhIfWKd)
 
 自己制作的交互组件库，Sketch格式，包含移动端常见的各种设计模式。几分钟便能搭出一套App或小程序的核心界面，偷懒利器。
 
