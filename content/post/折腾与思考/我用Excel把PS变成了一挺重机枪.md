@@ -263,5 +263,5 @@ PS数据组导出的都是psd文件，交付出去的得是jpg文件，还要再
 最后放上相关的文件和资源，有兴趣可以自己下载动手试试：
 
 - [PS+Excel批量输出基础教程](https://zhuanlan.zhihu.com/p/33725280)
-- [工作流文件包](https://www.jianguoyun.com/p/DenXcaEQwKOaBhiN5ccFIAA)
+- [工作流文件包](https://kdocs.cn/l/caikWaEn5KwZ)
 - [PS动作合集（点目录跳到E部分）](https://kdocs.cn/l/cqprl5r2a0xB)
