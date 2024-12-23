@@ -9,7 +9,7 @@ url: /post/3453
 
 **[国外设计第97期]**
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-IgmrVCbleu-evmmRd666tg.jpeg)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-IgmrVCbleu-evmmRd666tg.jpeg)
 
 Material Design发布之时，Google在设计领域做出的努力令我印象深刻。在这方面Apple一度遥遥领先。这种局面结束了。记得我以前总抱怨Android设计的那套不统一、缺乏文档、缺乏吸引力的暗色主题，还有模棱两可的汉堡菜单的滥用。Material Design解决了其中很多问题。如今它提供了一套统一的设计语言，更明亮、色彩丰富，并且背后有深思熟虑的设计指南作为坚实支撑。
 
@@ -21,7 +21,7 @@ Material Design发布之时，Google在设计领域做出的努力令我印象�
 
 **清晰**是指文字易读、图标明显、对比强烈。**清晰**的定义,对于不同平台是特定的。对于iOS和Android用户而言，什么是清晰的取决于他们熟悉什么。iOS用户可以立刻辨认的图标，Android用户或许不行，反之亦然。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-VIkd5NsktZXoejQhQ5zLww.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-VIkd5NsktZXoejQhQ5zLww.png)
 
 **深度**是两大平台共有的另一项原则。但它们用不同的方式表达这一概念。iOS提倡**模糊**和**渐变**，Android却强调**投影**和**纸张**的概念。
 
@@ -31,21 +31,21 @@ Material Design发布之时，Google在设计领域做出的努力令我印象�
 
 > 设计的数字化，使得陈旧的概念显得过时且莫名其妙。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-pZ3K06ZJoFIa3bsy8cDxwQ.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-pZ3K06ZJoFIa3bsy8cDxwQ.png)
 
 没有人再用这样的日历了。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-jQ_Ua6XKAB3VhaswYlWJPA.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-jQ_Ua6XKAB3VhaswYlWJPA.png)
 
 这两种设计语言都有各自的弱点。
 
 例如，多层模糊相互叠加，有种割裂感。而且，有点太鲜艳了。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-056C3gBMDvzbGNdvUK1i0Q.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-056C3gBMDvzbGNdvUK1i0Q.png)
 
 卡片的概念在圆形屏幕上看起来截然不同。卡片占据了整个宽度。文字的对齐方式感觉不协调，因为有很多不必要的留白。在圆形屏幕上，列表也难以使用，因为边角处隐藏了重要内容。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-aaQlu1sRK8ODngXiLz6hJw.jpeg)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-aaQlu1sRK8ODngXiLz6hJw.jpeg)
 
 不过这些[Android Wear](https://dribbble.com/shots/1748347-Moto-360-Watch-Faces/attachments/283437)界面看起来非常棒。真的给人一种专为圆形屏幕设计的感觉。
 
@@ -55,21 +55,21 @@ Material Design发布之时，Google在设计领域做出的努力令我印象�
 
 **华丽**隐藏了内容，阻碍了交互。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-QnQdq8ss2wbDCQJO108bVg.jpeg)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-QnQdq8ss2wbDCQJO108bVg.jpeg)
 
 色彩、导航和行动召唤有强烈的聚焦作用。（这就是新的[Material Design Lite](http://www.getmdl.io)，为网页而生）
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-smW9Rz1JMernVpbr1p2Mpg.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-smW9Rz1JMernVpbr1p2Mpg.png)
 
 相反在iOS中，关注点更多在内容上。界面的颜色更加中性、符合情境（它们会根据内容变化）。鲜明的色彩尽量少使用，通常都用于操作项。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-IBrjUJRaLZwdMop5Dfr_pw.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-IBrjUJRaLZwdMop5Dfr_pw.png)
 
 [Apple Music](http://apple.com/music/)与[Google Music](http://google.com/music)的简单对比显示了Material Design使用了更多亮色和插画。对于Apple Music，唯一使用的亮色就是“立即试用”按钮。
 
 ## 标签栏 VS 汉堡菜单
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-8i7QwVzou7rZ2gGzfxtB7w.jpeg)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-8i7QwVzou7rZ2gGzfxtB7w.jpeg)
 
 关于是否应该使用汉堡菜单，争议由来已久。距离结束尚遥遥无期。尽管Apple在设计中很少使用。
 
@@ -77,7 +77,7 @@ Material Design发布之时，Google在设计领域做出的努力令我印象�
 
 iOS更偏好标签栏作为导航。有趣的是，LukeW指出[明显的就是更好的](http://www.lukew.com/ff/entry.asp?1945)。Facebook的iOS版改用了标签栏后，用户粘性有了重大改善。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-22mkZEyfXxrgDtZGaiIspw.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-22mkZEyfXxrgDtZGaiIspw.png)
 
 [Google Inbox](http://www.google.com/inbox/)使用了汉堡菜单。
 
@@ -87,13 +87,13 @@ iOS更偏好标签栏作为导航。有趣的是，LukeW指出[明显的就是�
 
 Material Design突出地使用颜色。当然，它们非常漂亮。Flat UI配色方案也是。我们都知道，柔和色在各种状况下效果都很好，不像CSS或Xcode中那些耀眼的默认色彩。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-vcFohzMITdzC727iEA-0aA.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-vcFohzMITdzC727iEA-0aA.png)
 
 [iOS配色](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/ColorImagesText.html#//apple_ref/doc/uid/TP40006556-CH58-SW1)（左），[Flat UI](https://flatuicolors.com)（中），[Material Design Palette](https://www.materialpalette.com)（右）
 
 不过Material Design在页头中使用那些色彩，有时甚至盖过了内容。许多颜色竞相展现时，其他元素的重要性便降低了。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1--S1FOw02f-sY3mkx49vFVQ.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1--S1FOw02f-sY3mkx49vFVQ.png)
 
 [页头](https://www.google.com/design/spec/material-design/introduction.html#)是可以操作的吗，因为它有颜色？应该改用图片来表现我的产品吗？“Goals”这个标题为什么和链接颜色相同？
 
@@ -109,7 +109,7 @@ Material Design突出地使用颜色。当然，它们非常漂亮。Flat UI配�
 
 Material Design统一全平台的目标是个勇敢的尝试，是我所见过的在这方面做得最好的。但这真的是最好的方式吗？
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-k13le7SswwLnXec3XDZZBg.jpeg)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-k13le7SswwLnXec3XDZZBg.jpeg)
 
 网页上真的需要华丽吗？卡片适合小屏幕吗？
 
@@ -117,21 +117,21 @@ Material Design统一全平台的目标是个勇敢的尝试，是我所见过�
 
 看看Apple Watch，它的设计完全为了手表而[重新思考过](http://www.wired.com/2015/04/the-apple-watch/)。这就意味着会有新的UI范例要考虑，尤其对于按压、数字表冠、手腕检测和黑色屏幕边缘。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-EgcBgdCWEsPnvBl5AYmySg.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-EgcBgdCWEsPnvBl5AYmySg.png)
 
 ## Material Design定义更清晰
 
 从材质如何操作和选用，到色彩如何结合，一切都在指南中有详细解释。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-0Z0sCyVy8GGfXjrZc5p-uQ.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-0Z0sCyVy8GGfXjrZc5p-uQ.png)
 
 每种设计元素应该如何选用，来创造统一的构造和投影。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-i7EdIpyfwGdocgRpl1wnhQ.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-i7EdIpyfwGdocgRpl1wnhQ.png)
 
 有一套特定的配色方案和颜色的组合方式。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-vJFuQrjj_FmCTr0F8I16mw.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-vJFuQrjj_FmCTr0F8I16mw.png)
 
 *Material Design甚至还提供了[一整套系统图标](http://www.google.com/design/icons/)*。
 
@@ -145,7 +145,7 @@ Material Design统一全平台的目标是个勇敢的尝试，是我所见过�
 
 例如，他们新的[设计](https://www.google.com/design/)细则是一流的。在多个设计议题上都作出了指导，让你在Material Design的领域之外也有所收获。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-g19JfEXzo43tt535BQbYOw.png)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-g19JfEXzo43tt535BQbYOw.png)
 
 Material Design中的[颜色](https://www.google.com/design/spec/style/color.html)和[动画](https://www.google.com/design/spec/animation/authentic-motion.html)指南确实让人印象深刻。
 
@@ -155,7 +155,7 @@ Material Design中的[颜色](https://www.google.com/design/spec/style/color.htm
 
 Material Design的动画优雅，讨人喜欢，尽管不像人们理解的那么革新。在iOS7之前，过渡式的界面仍然是个非常新鲜的概念。很高兴看到两套规范都推崇更加顺滑、渐进式的动画，来逐渐引导用户，而非通过骤然变化来引人注意。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2015-08/08-02/1-wMRs1E7yCnCSyuWo-lFG4Q.gif)
+![](https://cdn.victor42.work/posts/2015-08/08-02/1-wMRs1E7yCnCSyuWo-lFG4Q.gif)
 
 Material Design中[有意义的动画](https://www.google.com/design/spec/animation/meaningful-transitions.html#)。
 

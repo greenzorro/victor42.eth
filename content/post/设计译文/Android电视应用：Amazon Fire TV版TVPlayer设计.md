@@ -9,13 +9,13 @@ url: /post/3523
 
 **[国外设计第148期]**
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0-F1yr5kRsBHZ2vNWK.jpg)
+![](https://cdn.victor42.work/posts/2016-09/09-21/0-F1yr5kRsBHZ2vNWK.jpg)
 
 **设计**和研发、推广一道，是移动应用的成功要诀之一。定义用户操作应用的方式，与应用的功能和高效的盈利模式同等重要。而且，当涉及到**为电视这样的新交互模式设计界面**，许多在智能手机和平板上有效的模式，都需要重新思考，如何利用大屏幕和遥控带来的输入模式。
 
 ## Fire TV上的TVPlayer
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0-C6I2Hu2HtWFTIPO7.png)
+![](https://cdn.victor42.work/posts/2016-09/09-21/0-C6I2Hu2HtWFTIPO7.png)
 
 这个任务并没有吓到**TVPlayer**的开发者们，这是全英国在Fire TV和Fire TV Stick上最成功的电视应用之一。
 
@@ -29,17 +29,17 @@ url: /post/3523
 
 在登陆Fire TV前，TVPlayer已经可以在Fire Tablets和Android设备的Amazon Appstore中下载。移动端版本的设计师，将关注点聚焦于**可用性与内容的易达性**。他们在欢迎界面采用了**大胆醒目的图片**布局，主标签内有可滚动的直播电视频道列表。设计师决定坚持“浅色”主题，为了使内容突出，也保持各平台的主题一致。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0-AncB4Dlaqvw7nWvV.png)![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0-WBoJB2UYacca0TzG.png)
+![](https://cdn.victor42.work/posts/2016-09/09-21/0-AncB4Dlaqvw7nWvV.png)![](https://cdn.victor42.work/posts/2016-09/09-21/0-WBoJB2UYacca0TzG.png)
 
 当进行**平板端的支持**时，设计师需要重新思考，更好地利用大屏幕。**主体布局**有所改动，在主界面上直接为用户**呈现更多内容**。这是个很好的策略，既能吸引用户注意，并且为多种相关内容提供快捷入口。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0-s8YaswLN8cFMLkEi.png)
+![](https://cdn.victor42.work/posts/2016-09/09-21/0-s8YaswLN8cFMLkEi.png)
 
 至于**第一版Fire TV应用**，主界面需要呈现新的面貌。电视的设计，与手机平板的界面和用户体验设计有两大不同，这都来源于TV自身的天性：它有**巨大的显示器**，也不提供**触摸式界面**，因为所有的操作都发生在遥控器上。
 
 Simplestream在第一版Fire TV应用的主界面上，**尽数使用了大胆醒目的图片**。“主页”、“正在直播”和“频道”标签**都移到左边**，**字号成倍放大**，使得从远处看也清晰可辨。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0-uER5i3hZGQnhcnw4.png)
+![](https://cdn.victor42.work/posts/2016-09/09-21/0-uER5i3hZGQnhcnw4.png)
 
 第一版Fire TV应用主界面，感觉像平板端那样清爽，栅格布局中承载各类主要频道。
 
@@ -54,7 +54,7 @@ Simplestream在第一版Fire TV应用的主界面上，**尽数使用了大胆�
 
 新的一版加入了按月订阅的应用内购——包含免费与付费内容，使应用更多样化。Simplestream的设计师进行了**深入的竞品分析，理解流媒体应用设计当前的趋势**，掌握了如何设计统一一致的界面，甚至是**跨越多平台与设备**。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0--AkSc_NnXYNLbKrf.jpg)
+![](https://cdn.victor42.work/posts/2016-09/09-21/0--AkSc_NnXYNLbKrf.jpg)
 
 ## 选用合适的配色方案，确保应用对眼睛友好
 
@@ -74,13 +74,13 @@ TVPlayer的**主体布局**对[ViewPager](http://developer.android.com/training/
 
 上一版中创建的网格视图得到了改进，**每项有更大的间距**，并且**用水平滚动替代了垂直滚动**。同时也引入了快速内容导航：用户可以选中**翻页导航指示器**，在页面间快速滚动。翻页导航指示器与ViewPager相关联，决定了当前展现什么页面，下一页是什么。快速滚动意味着用户能更快触达更多内容，因此有助于增强用户粘性、加强记忆。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0-yEy2wOan57S_ShDy.PNG)
+![](https://cdn.victor42.work/posts/2016-09/09-21/0-yEy2wOan57S_ShDy.PNG)
 
 ## 马赛克式界面：内容的快速入口，更加商业化
 
 最终的结果是**马赛克式界面**，能快速到达各个频道。自定义Android视图和Adapter的使用，让开发者**能在一个界面中完全掌控和融合免费与付费内容**，改善了通向**应用内购**的高级内容入口，因此也创造了更多收入。TVPlayer从第一版完全免费的形式，变为**包含付费内容的新版本**。保持了干净的用户界面，将界面背后的逻辑与核心应用组件分离开，使得这次改版轻松而迅速，也保证了快速迭代来创造**优秀的用户体验**和**加强商业化**。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-09/09-21/0-iHns9GwlNwn2BGyU.jpg)
+![](https://cdn.victor42.work/posts/2016-09/09-21/0-iHns9GwlNwn2BGyU.jpg)
 
 ## 马上开始创造Amazon Fire TV应用吧！
 

@@ -9,13 +9,13 @@ url: /post/3519
 
 **[国外设计第145期]**
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-hero.jpg)
+![](https://cdn.victor42.work/posts/2016-08/08-27/netab-hero.jpg)
 
 几周前，我在旧金山的[Yelp](http://blog.invisionapp.com/inside-design-yelp/)总部参加了一场[设计师与极客们的活动](http://www.eventbrite.com/e/designers-geeks-art-vs-science-ab-test-to-inform-design-tickets-26089495383#)Anna Blaylock和Navin Iyengar两位都是[Netflix](http://blog.invisionapp.com/inside-design-netflix/)的产品设计师，他们分享了自己多年在千万级用户群中做A/B测试的经验。他们也展示了相关的产品案例，帮助与会者思考自己的设计。
 
 下面是我关于他们演讲做的记录，其中包含我最喜欢的一些精华。
 
-[![Photo from the presentation.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-1.jpeg?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-1.jpeg "How Netflix does A/B testing")
+[![Photo from the presentation.](https://cdn.victor42.work/posts/2016-08/08-27/netab-1.jpeg?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netab-1.jpeg "How Netflix does A/B testing")
 
 *演讲的照片*
 
@@ -23,17 +23,17 @@ url: /post/3519
 
 我非常喜欢PPT的第一页——*绝命毒师*里的这张图用得很聪明，能表现[实验](http://blog.invisionapp.com/genius-designer-mindset-experimentation/)的概念。
 
-[![netab-2](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-2.jpeg?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-2.jpeg "How Netflix does A/B testing")
+[![netab-2](https://cdn.victor42.work/posts/2016-08/08-27/netab-2.jpeg?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netab-2.jpeg "How Netflix does A/B testing")
 
 ## 科学的方法
 
-[![netab-03](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-03.jpeg?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-03.jpeg "How Netflix does A/B testing")
+[![netab-03](https://cdn.victor42.work/posts/2016-08/08-27/netab-03.jpeg?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netab-03.jpeg "How Netflix does A/B testing")
 
 ## 假设
 
 在科学中，假设是指一个想法或一套解释，需要通过研究和实验来验证。在设计里，一套理论或猜想同样可以被称为假设。
 
-[![netab-4](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-4.jpeg?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-4.jpeg "How Netflix does A/B testing")
+[![netab-4](https://cdn.victor42.work/posts/2016-08/08-27/netab-4.jpeg?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netab-4.jpeg "How Netflix does A/B testing")
 
 假设的基本概念，是没有确定结果的。它经得起检验，这些测试也可以被重现。
 
@@ -43,9 +43,9 @@ Netflix的A/B测试是这样进行的：随着测试启动，它们会记录特�
 
 > [“A/B测试是研究用户行为最可靠的方式。”](https://twitter.com/intent/tweet?text=%22A%2FB+testing+is+the+most+reliable+way+to+learn+user+behaviors.%22+http%3A%2F%2Fblog.invisionapp.com%2Fhow-netflix-does-ab-testing%2F+-+%40lovejessiecat+via+%40InVisionApp)
 
-[![netab-5](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-5.jpeg?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-5.jpeg "How Netflix does A/B testing")
+[![netab-5](https://cdn.victor42.work/posts/2016-08/08-27/netab-5.jpeg?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netab-5.jpeg "How Netflix does A/B testing")
 
-[![netab-6](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-6.jpeg?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netab-6.jpeg "How Netflix does A/B testing")
+[![netab-6](https://cdn.victor42.work/posts/2016-08/08-27/netab-6.jpeg?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netab-6.jpeg "How Netflix does A/B testing")
 
 ## 实验
 
@@ -53,27 +53,27 @@ Netflix的A/B测试是这样进行的：随着测试启动，它们会记录特�
 
 你可能会注意到，[Netflix首页](https://www.netflix.com/)的焦点区域似乎随着登录状态改变。它们都是Netflix复杂实验的一部分，让你观看他们的节目。
 
-[![Homepage when I logged in the first time.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-7.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-7.png "How Netflix does A/B testing")
+[![Homepage when I logged in the first time.](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-7.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-7.png "How Netflix does A/B testing")
 
 *我首次登录看到的首页。*
 
-[![Image from the presentation: The House of Cards page as seen by a signed-out user.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-8.jpeg?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-8.jpeg "How Netflix does A/B testing")
+[![Image from the presentation: The House of Cards page as seen by a signed-out user.](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-8.jpeg?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-8.jpeg "How Netflix does A/B testing")
 
 *PPT中的图片：用户注销后会看到纸牌屋的页面。*
 
-[![Homepage when I logged in the second time.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-9.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-9.png "How Netflix does A/B testing")
+[![Homepage when I logged in the second time.](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-9.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-9.png "How Netflix does A/B testing")
 
 *我第二次登录时看到的页面。*
 
-[![Homepage when I switch to a different user name.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-10.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-10.png "How Netflix does A/B testing")
+[![Homepage when I switch to a different user name.](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-10.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-10.png "How Netflix does A/B testing")
 
 *我换了另一个账号登录看到的页面。*
 
-[![Homepage when I switch the user to "kids."](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-11.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-11.png "How Netflix does A/B testing")
+[![Homepage when I switch the user to "kids."](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-11.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-11.png "How Netflix does A/B testing")
 
 *我换了一个“儿童”账号登录看到的页面。*
 
-[![Homepage when I’m not signed in.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-12.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-12.png "How Netflix does A/B testing")
+[![Homepage when I’m not signed in.](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-12.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-12.png "How Netflix does A/B testing")
 
 *我未登录时看到的页面。*
 
@@ -81,7 +81,7 @@ A/B测试的概念，是向不同用户群呈现不同内容，收集他们的�
 
 Netflix早在2013年做过一个实验，用来研究是否可以通过创造一些不同版本的作品，来提高某个标题的收视率。结果如下：
 
-[![Image from the Netflix blog.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-13.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-13.png "How Netflix does A/B testing")
+[![Image from the Netflix blog.](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-13.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-13.png "How Netflix does A/B testing")
 
 *图片来自[Netflix技术博客](http://techblog.netflix.com/2016/05/selecting-best-artwork-for-videos.html)*
 
@@ -89,11 +89,11 @@ Krishnan补充道：“这个信号很早提示我们，用户对于封面变化
 
 Netflix后来打造了一套[系统](http://techblog.netflix.com/2016/03/extracting-image-metadata-at-scale.html)，能自动根据纵横比、裁剪、润色和不同语言的同一张背景图为作品分组。他们在TV节目上也重复这个实验，用来追踪相关作品的表现。例子如下：
 
-[![Image from the Netflix blog. The 2 marked images significantly outperformed all others.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-14.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-14.png "How Netflix does A/B testing")
+[![Image from the Netflix blog. The 2 marked images significantly outperformed all others.](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-14.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-14.png "How Netflix does A/B testing")
 
 *图片来自[Netflix技术博客](http://techblog.netflix.com/2016/05/selecting-best-artwork-for-videos.html)。两张带有标记的图片明显胜过其他版本。*
 
-[![Image from the Netflix blog. The last marked images significantly outperformed all others.](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-15.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-15.png "How Netflix does A/B testing")
+[![Image from the Netflix blog. The last marked images significantly outperformed all others.](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-15.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-15.png "How Netflix does A/B testing")
 
 *图片来自[Netflix技术博客](http://techblog.netflix.com/2016/05/selecting-best-artwork-for-videos.html)。最后一张带标记的图片明显胜过其他版本。*
 
@@ -106,11 +106,11 @@ Netflix后来打造了一套[系统](http://techblog.netflix.com/2016/03/extract
 
 A/B测试是研究用户行为的最可靠的方式。作为设计师，[我们应该通过实验的角度，思考自己的项目](https://twitter.com/intent/tweet?text=%22we+should+think+about+our+work+through+the+lens+of+experimentation.%22+http%3A%2F%2Fblog.invisionapp.com%2Fhow-netflix-does-ab-testing%2F+-+%40lovejessiecat+via+%40InVisionApp)。
 
-[![Image from the presentation: Your instinct isn](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-16.jpeg?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-16.jpeg "How Netflix does A/B testing")
+[![Image from the presentation: Your instinct isn](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-16.jpeg?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-16.jpeg "How Netflix does A/B testing")
 
 *PPT中的图片：你的直觉未必正确。*
 
-[![netflixab-17](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-17.png?ver=1)](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2016-08/08-27/netflixab-17.png "How Netflix does A/B testing")
+[![netflixab-17](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-17.png?ver=1)](https://cdn.victor42.work/posts/2016-08/08-27/netflixab-17.png "How Netflix does A/B testing")
 
 2. **何时以及为何进行A/B测试？**设计完工后，运用A/B测试调整设计细节，追求2项指标：留存率和收入。通过A/B测试，全产品全天候追踪用户，可以发你的改变是否提升了留存率或者增加了收入。如果没有，则采用默认方案。用这种方式，A/B测试可以持续用来提升业务指标。
 3. **用户的需求和行为，是你希望的那样吗？**我的经验是，[通常，用户并不能像你期望的那样迅速完成一个任务](https://twitter.com/intent/tweet?text=%22often%2C+users+cannot+always+complete+a+task+as+fast+as+you+expect%22+http%3A%2F%2Fblog.invisionapp.com%2Fhow-netflix-does-ab-testing%2F+-+%40lovejessiecat+via+%40InVisionApp)。而且有时候，他们甚至找不到你放在页面上的某个特定的按钮。原因可能有很多种：设计不够直观；颜色不够鲜明；用户对技术陌生；他们不知道如何做决定，页面上太多选项；其他等等。

@@ -1,7 +1,7 @@
 ---
 title: Excel自制儿童生长曲线
 description: Excel狂魔上线，看完你会觉得我们可能用的不是同一个Excel
-image: https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
+image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
 date: 2023-08-03 14:30:00
 categories: 折腾与思考
 url: /post/3641
@@ -15,7 +15,7 @@ url: /post/3641
 
 动手前，想清楚这事情该怎么做。首先来看看育儿App的生长曲线是怎么回事。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/4b1f944ddce86b103a4d13f3d87cc292.jpg)
+![](https://cdn.victor42.work/posts/2023-08/4b1f944ddce86b103a4d13f3d87cc292.jpg)
 
 这是宝宝树的儿童生长曲线。中间的50%线是中位数，如果我宝贝的身高（体重）刚好落在这条线上，说明这个月龄比她高（重）的宝贝和比她矮（轻）的宝贝人数大概一样多。往上的75%线和97%线，表示这个位置身高（体重）超过75%和97%的同龄宝贝，往下的25%和3%同理。看宝贝的数据点落在什么位置，大概就知道她生长状况相对整体如何。
 
@@ -27,11 +27,11 @@ url: /post/3641
 
 至于这东西是不是个图表、有没有曲线，不重要。重要的是第3点，它的计算能力，能衡量偏离程度，并用一种直观的方式表示出来。这一点我认真构思了一下，觉得比较适合的表现形式是有两个方向的条形图，类似这种：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/51645a0d58eb8f178201bf94e5759ab0.jpg)
+![](https://cdn.victor42.work/posts/2023-08/51645a0d58eb8f178201bf94e5759ab0.jpg)
 
 这类图表叫做diverging bar chart，不知道中文叫什么。它可以把两组数据在同一个维度上两两对比。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/e448352c2994787d901a185b08c8d234.jpg)
+![](https://cdn.victor42.work/posts/2023-08/e448352c2994787d901a185b08c8d234.jpg)
 
 如果只用来表达一组数据，它反映的就是该数据围绕某个基准值的方向及距离，最常见是表达正负。
 
@@ -48,37 +48,37 @@ url: /post/3641
 
 宝贝的身高体重数据存在宝宝树App里，形式如图（月龄的左边还有一行日期，不想暴露女儿生日，没截进来）：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/235b2773b1b549f5fd1e0f7c0109a66e.jpg)
+![](https://cdn.victor42.work/posts/2023-08/235b2773b1b549f5fd1e0f7c0109a66e.jpg)
 
 宝宝树没有数据导出功能。虽然我可以一条条手动输入到Excel，但难道不该用聪明点的办法吗？
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/129e9d7d3955d9993665691008c1ed88.jpg)
+![](https://cdn.victor42.work/posts/2023-08/129e9d7d3955d9993665691008c1ed88.jpg)
 
 我先把宝宝树里的记录一屏一屏截下来，用了一个叫Screen Master的Android应用拼成长图。
 
 然后使用白描OCR工具（[https://web.baimiaoapp.com/](https://web.baimiaoapp.com/)）从长图中识别出文字，得到如下右侧结果：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/406e2e8b96b201bcd2c1dc7f81b6ca28.jpg)
+![](https://cdn.victor42.work/posts/2023-08/406e2e8b96b201bcd2c1dc7f81b6ca28.jpg)
 
 这样格式错乱混在一起，乍看没法用。但在AI时代，这都不是事儿。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/804e5aee1ef71590beb2ce89bce6c424.jpg)
+![](https://cdn.victor42.work/posts/2023-08/804e5aee1ef71590beb2ce89bce6c424.jpg)
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/8d39c1dc3fbfcf00e004039bbd048a6c.jpg)
+![](https://cdn.victor42.work/posts/2023-08/8d39c1dc3fbfcf00e004039bbd048a6c.jpg)
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/b8eb3273e39b3b1bd4f907e3b3be96ce.jpg)
+![](https://cdn.victor42.work/posts/2023-08/b8eb3273e39b3b1bd4f907e3b3be96ce.jpg)
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/a9d0f842c04bd04b253d65f8f1859aae.jpg)
+![](https://cdn.victor42.work/posts/2023-08/a9d0f842c04bd04b253d65f8f1859aae.jpg)
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/ec608ab8c15ca818cd40b3a43f3efc6b.jpg)
+![](https://cdn.victor42.work/posts/2023-08/ec608ab8c15ca818cd40b3a43f3efc6b.jpg)
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/288d76243237d4eb503a3277996cf976.jpg)
+![](https://cdn.victor42.work/posts/2023-08/288d76243237d4eb503a3277996cf976.jpg)
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/375eb891054588a05fca2c0829970791.jpg)
+![](https://cdn.victor42.work/posts/2023-08/375eb891054588a05fca2c0829970791.jpg)
 
 搞定！复制到Excel即可。补充一下，表里的日龄、月龄、年龄是用记录日期减去女儿生日得到的，自动计算无需手填。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/46d9b3e18b0c825b6cd33a70f32a6b75.jpg)
+![](https://cdn.victor42.work/posts/2023-08/46d9b3e18b0c825b6cd33a70f32a6b75.jpg)
 
 ### 正常范围标准
 
@@ -87,17 +87,17 @@ url: /post/3641
 
 里面找到了格式如下的数据，正是我要的：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/344c3b29e936a24e30101cc5f27f1488.jpg)
+![](https://cdn.victor42.work/posts/2023-08/344c3b29e936a24e30101cc5f27f1488.jpg)
 
 稍微解释下这个表格的意思。中位数前面讲过，这里最关键的是看懂这个“SD”，Standard Deviation，标准差。这是个非常基础的统计学术语，在解释标准差之前，我们需要先了解正态分布。要知道，卫健委统计的儿童身高体重，样本量一定是非常大的，也就是说测量了很多很多儿童的身高体重。身高体重这种随机产生的数据，只要样本量够大，每个儿童的数值就会围绕平均数（这里它用的是中位数，与平均数应该很接近）呈正态分布。这是正态分布的样子：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg)
+![](https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg)
 
 横向是身高（体重）的值，由小到大，纵向是该身高（体重）对应的儿童人数。中央的垂直虚线代表中位数，绝大多数儿童的数据落在中位数附近，说明还是中等水平的儿童最多。越往两边去，人数越少，说明身高（体重）值特别低或者特别高的人很少，情况越极端，人数越少。
 
 现在说回标准差。我们不谈公式，不做计算，不必关心它怎么来的，我们关心的是标准差和正态分布的关系。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg)
+![](https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg)
 
 标准差体现在正态分布图上，就是每两根垂直虚线间的距离，这些虚线是等距的。怎么理解标准差？它是正态分布的一把标尺，通过标准差，我们可以准确知道某个范围内的数据占总数的比例。比如我们可以说，有68%的儿童，身高（体重）在中位数上下一个标准差范围内。有95%的儿童，身高（体重）在上下两个标准差范围内。
 
@@ -105,7 +105,7 @@ url: /post/3641
 
 现在，回来处理数据，把卫健委表格复制到Excel，年龄全部折算成月龄：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/f3531f73796d53d8ffbdc8780b0177ab.jpg)
+![](https://cdn.victor42.work/posts/2023-08/f3531f73796d53d8ffbdc8780b0177ab.jpg)
 
 表格里列出了每个月龄儿童身高（体重）中位数是多少，低于和高于中位数1、2、3个标准差位置的数值分别是多少。这就是我要的判断依据，知道女儿的身高（体重）在同龄宝贝里处于什么位置，相对于中等水平偏离得严不严重。
 
@@ -115,7 +115,7 @@ url: /post/3641
 
 现在我的Excel里有两张表格，一张记录着我宝贝各月龄的数据表，一张列出各月龄的正常值范围的参照表。我要做的是在宝贝数据表里新增几列偏离列，在里面查询参照表，得出偏离程度，以加减号的形式表现出来。减号写在左列，靠右对齐；加号写在右列，靠左对齐。这就实现了简化版diverging bar chart。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/45fffc7570cacc97388e354a71345ff4.jpg)
+![](https://cdn.victor42.work/posts/2023-08/45fffc7570cacc97388e354a71345ff4.jpg)
 
 ### 匹配对照月龄
 
@@ -123,7 +123,7 @@ url: /post/3641
 
 一动手发现没那么简单，因为卫健委表格的月龄有断档：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/5c73a637afedb7ab9c0b2aefb5cc7feb.jpg)
+![](https://cdn.victor42.work/posts/2023-08/5c73a637afedb7ab9c0b2aefb5cc7feb.jpg)
 
 它从2周岁开始，每3个月才出一行数据。这很合理，宝贝过了2周岁后，生长确实没有婴儿时那么快了，没必要那么频繁去追踪。但这影响到我的查询方法，如果我在宝贝25月龄的时候记录身高体重，直接用vlookup去查，什么也匹配不到，后续的计算便无从谈起。
 
@@ -133,7 +133,7 @@ url: /post/3641
 
 于是再增加一个隐藏列，用来计算每行的月龄对应参照表里多大月龄。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/301413489ba78fc5a651e39f21d3ae30.jpg)
+![](https://cdn.victor42.work/posts/2023-08/301413489ba78fc5a651e39f21d3ae30.jpg)
 
 这一列的公式如下：
 
@@ -145,7 +145,7 @@ url: /post/3641
 
 在2周岁以前，月龄与对照月龄一定是相同的。我手动测试了一下，25月龄时如果有记录，它会匹配24月龄作为参照。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/fc8aef6e656e32053bdb2919ec2700b6.jpg)
+![](https://cdn.victor42.work/posts/2023-08/fc8aef6e656e32053bdb2919ec2700b6.jpg)
 
 ### 计算偏离程度
 
@@ -183,7 +183,7 @@ REPT("-",第3层)
 
 此处用到一个Excel隐藏技巧：数组。Excel公式里引用一个范围，这就构成一个数组，我们大多数时候就是这么用的。但你知道吗？可以像编程软件那样，在Excel里手动创建数组，关键就是这个大括号 `{}` 。比如 `{1,2,3,4}` 在Excel公式里就等效于这个：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/9d271467e501fa6968180d9823103a40.jpg)
+![](https://cdn.victor42.work/posts/2023-08/9d271467e501fa6968180d9823103a40.jpg)
 
 但数组的用法更灵活，可以手动把八竿子打不到一块的数据凑在一起。单看 `{}` 里的内容：
 
@@ -191,7 +191,7 @@ REPT("-",第3层)
 {F2,VLOOKUP(E2,'生长对照表'!A$3:O$46,11),VLOOKUP(E2,'生长对照表'!A$3:O$46,10),VLOOKUP(E2,'生长对照表'!A$3:O$46,9)}
 ```
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/914ce9b22412179eaa9415e224c6d770.jpg)
+![](https://cdn.victor42.work/posts/2023-08/914ce9b22412179eaa9415e224c6d770.jpg)
 
 我这个数组，把宝贝的身高（F2）和-1、-2、-3个标准差的身高值放在一个数组里。
 
@@ -201,7 +201,7 @@ RANK(F2,数组,1)
 
 然后用Rank函数做个排序，得出宝贝身高在这4个数值里从小到大排第几。最后再用5减去这个数字，就得到减号的数量。至于为什么是用5减，这是个数学问题，不展开，但分情况想想就很容易理解了。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/e71ea17395838cdb234236768730de02.jpg)
+![](https://cdn.victor42.work/posts/2023-08/e71ea17395838cdb234236768730de02.jpg)
 
 用类似原理，改出另外3个偏离列的公式，效果立竿见影。几个符号表示宝贝的数值在几个标准差范围内。根据正态分布的特征，95%的儿童生长数据都在2个标准差范围内，所以看到2个符号时，我没什么需要担心的，目前为止宝贝一切正常。
 
@@ -211,11 +211,11 @@ RANK(F2,数组,1)
 
 其实用不着多复杂的图形设计、高级渐变色之类的。要突出异常值，只需要用区别足够明显的符号代替加减号，再简单写个条件格式，用背景色区分就能达到目的，我自己用足够了。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/c45040a172c150fd67749caeb6549102.jpg)
+![](https://cdn.victor42.work/posts/2023-08/c45040a172c150fd67749caeb6549102.jpg)
 
 3个符号它代表宝贝的数值低于或高于95%的同龄儿童，需要引起重视了，用黄色。4个符号表示低于或高于99.7%的同龄儿童，用红色。我手动改了几个极端值出来，实际效果如下：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg)
+![](https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg)
 
 ## 后记
 
