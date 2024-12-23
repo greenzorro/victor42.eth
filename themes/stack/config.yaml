@@ -26,7 +26,7 @@ params:
         subtitle: 科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发者；UI/UX设计师；生活观察者
         avatar:
             enabled: true
-            local: true
+            local: false
             src: https://cdn.victor42.work/assets/pale-blue-dot.jpg
 
     article:
