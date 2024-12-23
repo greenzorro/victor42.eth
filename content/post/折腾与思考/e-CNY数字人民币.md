@@ -7,7 +7,7 @@ categories: 折腾与思考
 url: /post/3610
 ---
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2022-04/e-CNY-EN.jpg)
+![](https://cdn.victor42.work/posts/2022-04/e-CNY-EN.jpg)
 
 _Click image to zoom in_
 
@@ -23,7 +23,7 @@ e-CNY is available in Hangzhou now. It's not another payment option, though you 
 9. There is also difference in terms of clearing. e-CNY doesn't rely on China UnionPay. It's another story.
 10. It makes no sense comparing e-CNY with Alipay. They are not at the same layer. It is the existing banking system that you should compare it with.
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2022-04/e-CNY-CN.jpg)
+![](https://cdn.victor42.work/posts/2022-04/e-CNY-CN.jpg)
 
 _点图片查看大图_
 

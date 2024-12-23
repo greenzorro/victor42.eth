@@ -9,7 +9,7 @@ url: /post/3550
 
 **[国外设计第170期]**
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/1*Ew1yzSqoeONxie_YuSoyng.jpeg)
+![](https://cdn.victor42.work/posts/2017-05/05-06/1*Ew1yzSqoeONxie_YuSoyng.jpeg)
 
 ## 一窥Dropbox品牌设计
 
@@ -19,7 +19,7 @@ url: /post/3550
 
 一分钟。这能有多难，对吧？本文中，我们会讲述这段视频的制作过程。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/1*cu2SsdDWKiRduXklCsBfwA.jpeg)
+![](https://cdn.victor42.work/posts/2017-05/05-06/1*cu2SsdDWKiRduXklCsBfwA.jpeg)
 
 *早期头脑风暴环节*
 
@@ -43,7 +43,7 @@ url: /post/3550
 
 简报成了我们的北极星，是我们创作的共同基础。当创意方向或策略偏离正轨时，我们会回溯到简报上，让一切归位。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/1*L2G4XYVyvL-cttTGNtDlCg.jpeg)
+![](https://cdn.victor42.work/posts/2017-05/05-06/1*L2G4XYVyvL-cttTGNtDlCg.jpeg)
 
 *创造我们的北极星*
 
@@ -55,7 +55,7 @@ url: /post/3550
 
 启动会持续了2天。这是一个每人都需要参与的工作环节。我们进行头脑风暴、在白板上涂涂画画，记录下了上百个点子，当然我们知道，最终只有少数能脱颖而出。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/1*PZy86_UL3tUcxiv0ESajpQ.jpeg)
+![](https://cdn.victor42.work/posts/2017-05/05-06/1*PZy86_UL3tUcxiv0ESajpQ.jpeg)
 
 ## 持续协作
 
@@ -71,7 +71,7 @@ url: /post/3550
 - 旁边音选用
 - 粗剪片段
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/1*S1Y0qFhgxXafD2w0MCXF5w.jpeg)
+![](https://cdn.victor42.work/posts/2017-05/05-06/1*S1Y0qFhgxXafD2w0MCXF5w.jpeg)
 
 *回顾其中一个故事板*
 
@@ -83,7 +83,7 @@ url: /post/3550
 
 我们选了少量色彩，确保视频中的每个画面只出现这些颜色。从头到尾，你会在头像、界面和物体上见到这些颜色。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/1*7vaSd7jSOCkmH_SgItnpsQ.jpeg)
+![](https://cdn.victor42.work/posts/2017-05/05-06/1*7vaSd7jSOCkmH_SgItnpsQ.jpeg)
 
 *视觉方向探索*
 
@@ -142,13 +142,13 @@ url: /post/3550
 
 有许多人参与进来了——大概总共50个——日程非常紧凑。幸运的是，我们可以提前准备、装配、预演，在一天内使用15个不同的镜头。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/0*4K43trqK911WTnNo.jpg)
+![](https://cdn.victor42.work/posts/2017-05/05-06/0*4K43trqK911WTnNo.jpg)
 
 *和我们的导演、人员与创意机构搭建场景。有件趣事：导演是[Aaron Platt](http://www.aaronplatt.com/music-videos/)，执导过Lonely Island的MV[《On A Boat》](https://www.youtube.com/watch?v=R7yfISlGLNU)*
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/1*qYvVcn5FooZ99Wcb6jcY4A.png)
+![](https://cdn.victor42.work/posts/2017-05/05-06/1*qYvVcn5FooZ99Wcb6jcY4A.png)
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2017-05/05-06/0*hqXVqBsesp-ymvxy.jpg)
+![](https://cdn.victor42.work/posts/2017-05/05-06/0*hqXVqBsesp-ymvxy.jpg)
 
 ## 拍摄后
 

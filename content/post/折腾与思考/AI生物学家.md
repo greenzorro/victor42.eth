@@ -1,13 +1,13 @@
 ---
 title: AI生物学家
 description: 我用AI给自己造了一位生物学家，但它也被水产市场难倒了。
-image: https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-03/27b2a2b1d435b113.jpg
+image: https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg
 date: 2024-03-20 15:06:00
 categories: 折腾与思考
 url: /post/3649
 ---
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-03/27b2a2b1d435b113.jpg)
+![](https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg)
 
 分享一个有趣的发现，先讲背景：家里人寄来一箱海鲜，是山东特产，包装上写着“古眼鱼”。但我看这鱼扁扁的，鲽形目特征显著，怎么看怎么像比目鱼。想要验证一下我的判断，于是问AI古眼鱼是什么鱼，各家AI都问了，全都在胡编乱造一些不存在的物种。我意识到以后查物种的情况还很多，也许应该为自己写一套提示词，让AI扮演生物学家，给出更专业的回答。说干就干：
 
