@@ -1,7 +1,7 @@
 ---
 title: 我用Excel把PS变成了一挺重机枪
 description: 一个精通Excel的设计师给公司省钱的故事。
-image: https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
+image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
 date: 2024-06-13 14:05:00
 categories: 折腾与思考
 url: /post/3650
@@ -13,7 +13,7 @@ url: /post/3650
 
 ## 需求
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/d257445c788894aad2f9c9d25333d834.jpg)
+![](https://cdn.victor42.work/posts/2024-06/d257445c788894aad2f9c9d25333d834.jpg)
 
 市场部设计师做出来的模板长这样。就别对设计指点江山了，反正这效果是老板点名要的，简单直接没毛病。具体需求说起来也简单，把图上三处文字替换成真实内容，输出800多张图。
 
@@ -25,13 +25,13 @@ url: /post/3650
 
 但是，所有模板拿到手后，发现事情远没那么简单，各种变数超乎想象：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg)
+![](https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg)
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/2f196e8210e1f43dae80cd978031cf36.jpg)
+![](https://cdn.victor42.work/posts/2024-06/2f196e8210e1f43dae80cd978031cf36.jpg)
 
-   ![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/0a0c12d573ee7d0f2958cd0baee914fc.jpg)
+   ![](https://cdn.victor42.work/posts/2024-06/0a0c12d573ee7d0f2958cd0baee914fc.jpg)
    
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/f60e4590c7b4551a14e93c37b5396f8d.jpg)
+![](https://cdn.victor42.work/posts/2024-06/f60e4590c7b4551a14e93c37b5396f8d.jpg)
 
 1. 课程分了十几类，有些分类有独特的背景图，有些分类共用一张背景图。
 2. 顶部的课程分类不全是文字，有两个特殊分类（淘宝和天猫）用的是两者的Logo字形，这只能用图片来实现。
@@ -63,7 +63,7 @@ url: /post/3650
 
 这几个是最显而易见的。加上需求里那一堆变数，实际需要的列有这么多：
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
+![](https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
 
 - 文件名：用来控制最终输出的文件名，按照合理、便于查找的顺序排列
 - 分类：那十几个分类，既以文字形式显示在顶部，也决定着模板的整体外观
@@ -78,7 +78,7 @@ url: /post/3650
 - 背景图：模板背景图对应的文件路径
 - 前景色：前景色图片对应的文件路径，这是一张纯色图，用来给标题文字上不同的色
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/f0990a616f2f602bcdd42a44bb01df9e.jpg)
+![](https://cdn.victor42.work/posts/2024-06/f0990a616f2f602bcdd42a44bb01df9e.jpg)
 
 这里要解释一下，我标题实际上有3个图层，单行标题是一个图层，第1行标题和第2行标题是另外2个图层，用于两行标题的情况。
 
@@ -86,15 +86,15 @@ url: /post/3650
 
 现在复杂的部分留给我自己了，怎样把其余的列算出来，这些都是要给PS用的，一列也不能少。略微一想就会发现，分类是关键。分类决定了淘宝、天猫Logo是否展示，决定了背景图用哪张，决定了文字是什么颜色，还决定了输出文件名的排序。所以应该为分类单独开一个表，作为维度表，一个分类就好比一种商品。记录图片内容的表，就是事实表，这就像商品的一条订单记录。分类名是分类表的主键，作为外键在事实表里出现，把分类的各种信息带过去。一张事实表（导出csv）、一张维度表，这应该是最简陋的星形结构了，或许可以叫”地月结构“？
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/6d4da5705eb81be2c0eee26a2cf600a7.jpg)
+![](https://cdn.victor42.work/posts/2024-06/6d4da5705eb81be2c0eee26a2cf600a7.jpg)
 
 上面这段许多概念属于数据模型与数据库领域。简单说就是把许多属性定义在分类上。只要属于某个分类，就自动根据分类名读出对应的背景图、前景色等属性。实际需求也正是如此。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/a536f153f4837dc8de1937558ca0482d.jpg)
+![](https://cdn.victor42.work/posts/2024-06/a536f153f4837dc8de1937558ca0482d.jpg)
 
 现在，运营填好的全部数据（4列）已经在我的Excel文件里了，把它引用到隔壁的事实表里，根据PS的需要加上各个运算列，构成完整的数据表。每次使用时更新数据，保存成csv格式，交给PS处理。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
+![](https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
 
 这些运算列就考验Excel公式的运用了：
 
@@ -112,19 +112,19 @@ url: /post/3650
 1. 运营填好的数据是如何进到我Excel里来的？
 2. 运营再给一批新数据，怎么更新进来？
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/800867584af30783c478924a6db86fdd.jpg)
+![](https://cdn.victor42.work/posts/2024-06/800867584af30783c478924a6db86fdd.jpg)
 
 先来解决第1个。之前散出去给运营填的是在线表格，每人领其中几页，互不影响，且能实时更新。而我的数据表是一个本地Excel文件，因为要用到Excel强大的Power Query功能来合并表格，大多数在线表格产品没有这种能力。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/521925ce776cc959e7698c66e0969042.jpg)
+![](https://cdn.victor42.work/posts/2024-06/521925ce776cc959e7698c66e0969042.jpg)
 
 每当要输出一批图，首先要把在线表格以Excel文件的形式下载下来（封面图内容收集.xlsx），放到和我数据表（封面图内容.xlsx）同一个目录下。只要文件位置不动，这层数据读取的关联关系就能一直保持下去。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/2878de8a5b1e67e4846803c6e585a9b3.jpg)
+![](https://cdn.victor42.work/posts/2024-06/2878de8a5b1e67e4846803c6e585a9b3.jpg)
 
 在数据表中使用“数据”菜单里的Power Query。这个功能可以理解为一种图形化界面的SQL，它可以从本地表格、网页、本地数据库、Azure云上读取数据，并进一步清洗、转换、聚合。我这里用到的是它从本地表格读取数据的能力。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/be21ed673a8ff88073305b48f847fefd.jpg)
+![](https://cdn.victor42.work/posts/2024-06/be21ed673a8ff88073305b48f847fefd.jpg)
 
 Power Query的界面对于只用Excel基础功能的人应该既熟悉又陌生。熟悉的是，“哇这里也有表格耶”；陌生的是，“其他这些都是什么玩意”。
 
@@ -134,21 +134,21 @@ Power Query的界面对于只用Excel基础功能的人应该既熟悉又陌生�
 2. 然后让我设定查询的规则和条件
 3. 最后执行这些查询请求，把我要的数据加载到当前Excel文件中，一个请求加载一页
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/af1dc0620c1d62b971ac405eddbb55cc.jpg)
+![](https://cdn.victor42.work/posts/2024-06/af1dc0620c1d62b971ac405eddbb55cc.jpg)
 
 其中最核心是第2步。界面左侧列表就是一个个的查询请求，它会按顺序执行下来。
 
 每个请求里要“将第一行用作标题”，并且在筛选条件里去掉空值。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/69054b9e157cd497d0ede7fa9d85a547.jpg)
+![](https://cdn.victor42.work/posts/2024-06/69054b9e157cd497d0ede7fa9d85a547.jpg)
 
 查询操作不止是基本的筛选排序，我这里用到了它的合并表格的能力。从运营那收过来的数据分散在很多页表里，总不能一个个手动复制黏贴吧？我把运营的每页表都查询出来，最后再建一个追加查询请求，它可以把格式完全相同的表合成一张，相当于SQL的CROSS JOIN。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/137c056d4946b2367dc3259518c0e5dd.jpg)
+![](https://cdn.victor42.work/posts/2024-06/137c056d4946b2367dc3259518c0e5dd.jpg)
 
 顺道提一下，它的合并查询也非常有用，能实现SQL里JOIN和LEFT JOIN的效果。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/66b4091f7dfc0ebf0448baf72b6509c0.jpg)
+![](https://cdn.victor42.work/posts/2024-06/66b4091f7dfc0ebf0448baf72b6509c0.jpg)
 
 点了关闭（其实作用是保存）按钮后，我的Excel文件里就刷刷刷多出许多页，不需要的可以删掉，留下有用的。我再合并好的表左侧加了一列序号，用来给文件名排序。
 
@@ -156,7 +156,7 @@ Power Query的界面对于只用Excel基础功能的人应该既熟悉又陌生�
 
 现在来解决第2个问题，怎么更新数据？
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/e56e2966a217111a4a10f15db546dd42.jpg)
+![](https://cdn.victor42.work/posts/2024-06/e56e2966a217111a4a10f15db546dd42.jpg)
 
 如果运营提交了一批新的封面图内容过来，我只要下载下来放到老地方覆盖一下。再打开数据表，进入“数据”菜单，点刷新。就这么简单，数据就更新了。
 
@@ -176,7 +176,7 @@ Power Query的界面对于只用Excel基础功能的人应该既熟悉又陌生�
 
 ### 1. 整理和重命名图层
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/531b776b93a3a94233d9c2842edd7612.jpg)
+![](https://cdn.victor42.work/posts/2024-06/531b776b93a3a94233d9c2842edd7612.jpg)
 
 第1步没什么技术含量，图层该合并的合并，顺序该调整的调整。为了后面定义变量方便，建议把图层按照数据表表头来命名。
 
@@ -184,7 +184,7 @@ Power Query的界面对于只用Excel基础功能的人应该既熟悉又陌生�
 
 前景色这个图层也需要特殊处理。变量定义无法直接改变文字颜色，怎么实现随背景变化？把需要上色的文字编组，新建一个纯色图层，使用剪贴蒙板作用在这个组上，这就实现了统一控制文本颜色。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/a9a688b8e6f7b88860fa0b00a4b79c1b.jpg)
+![](https://cdn.victor42.work/posts/2024-06/a9a688b8e6f7b88860fa0b00a4b79c1b.jpg)
 
 装饰框的线条颜色也会变，还记得吗？此处的颜色和文字颜色有关联，但又不一样。它们之间的关联是什么？在前景色的基础上，为这两根线条专门加一个色相/饱和度调整图层，把它的饱和度和明度调高就行。比如棕色加浓提亮就变橙色，墨绿加浓提亮就变草绿……这个技巧需要对色彩原理和PS调色有比较深刻的理解。
 
@@ -192,41 +192,41 @@ Power Query的界面对于只用Excel基础功能的人应该既熟悉又陌生�
 
 第2步变量定义的基础技巧，这里就不手把手教学了，开篇引用的教程里都有讲。这里主要讲几个难点的处理。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/ea2af0bf27f4c74c49db871f5c2b7296.jpg)
+![](https://cdn.victor42.work/posts/2024-06/ea2af0bf27f4c74c49db871f5c2b7296.jpg)
 
 变量定义功能最常用的是替换文字，用到的是其中的文本替换这个选项。当变量图层不是文本时，它就会变为像素替换，也就是换图。背景图通过这种方式替换。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/5be7d1ed67cc798dc3a2925f3e07cc84.jpg)
+![](https://cdn.victor42.work/posts/2024-06/5be7d1ed67cc798dc3a2925f3e07cc84.jpg)
 
 前景色也一样，为每种文字颜色准备相应的纯色图片，把上一步创建的剪贴模板图层定义为变量，根据课程分类选用相应颜色。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/46b0372dc8bd46ffed011eae85e6bb28.jpg)
+![](https://cdn.victor42.work/posts/2024-06/46b0372dc8bd46ffed011eae85e6bb28.jpg)
 
 可见性变量常被忽视，但非常有用。表格里这些TRUE和FALSE的列，就是通过可见性来控制图层的显示隐藏。可见性变量还可以和文本替换或像素替换同时使用。比如底部描述小字，文本替换改变它的内容，可见性则控制它显示隐藏。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/a740f3312e02a860493537f9e78b80c0.jpg)
+![](https://cdn.victor42.work/posts/2024-06/a740f3312e02a860493537f9e78b80c0.jpg)
 
 前两步的工作虽然繁琐，但都是一次性的，在后续的使用中不必重复。
 
 ### 3. 导入数据组
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/e1fbcc63e3a13d31e181c8a1f12db265.jpg)
+![](https://cdn.victor42.work/posts/2024-06/e1fbcc63e3a13d31e181c8a1f12db265.jpg)
 
 切换到导入面板，把准备好的csv文件导进来就是了。
 
 导入常见的错误有两种，一种是有多余的列或名称对不上的列，需要检查。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/6c7cabdd58fab84c63dfefdfeb4ad16a.jpg)
+![](https://cdn.victor42.work/posts/2024-06/6c7cabdd58fab84c63dfefdfeb4ad16a.jpg)
 
 另一种是有的行里有空单元格。是的，PS导入数据组不支持空单元格，所以我在制作数据表的时候把空单元格内容都改成了NULL。这些NULL显示出来会破坏图片效果，所以可能为空的列都要做可见性判断，适时隐藏。
 
 ### 4. 批量导出psd
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg)
+![](https://cdn.victor42.work/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg)
 
 导出没什么技巧，这么操作就是了。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg)
+![](https://cdn.victor42.work/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg)
 
 在这一步你可以自己定义导出的文件名格式。这么多可选的项里，真正有用的只有数据组名称，只有这一项能在文件名上留下对运营有帮助的信息。数据组名称读取的是csv文件第一列的内容，这就是我为什么把文件名这一列放在最前面，以实现对输出图片文件名的自由定制。
 
@@ -234,7 +234,7 @@ Power Query的界面对于只用Excel基础功能的人应该既熟悉又陌生�
 
 PS数据组导出的都是psd文件，交付出去的得是jpg文件，还要再转换一道。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg)
+![](https://cdn.victor42.work/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg)
 
 录一个简单的PS动作，打开psd，存储为jpg，关闭。就这么3步，把整个psd文件夹用批处理跑一遍就行了。
 
@@ -246,7 +246,7 @@ PS数据组导出的都是psd文件，交付出去的得是jpg文件，还要再
 
 这价值16000的800多张封面图，只是第1批。公司还会不停出新课程的，还会有第2批、第3批……我难道不该了解一下，自己的举手之劳一年下来给公司省了多少钱吗？即使我不想知道，也非常有必要让老板知道。
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg)
+![](https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg)
 
 所以还要有这样一张数据统计表，邀功表。当然，不要起这么露骨的名字，取个谐音，叫摇滚表好了。
 

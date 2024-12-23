@@ -8,4 +8,4 @@ url: /post/3655
 draft: true
 ---
 
-![](https://storage.fleek-internal.com/0a3a8890-e65e-47ce-93d7-0442b9209d38-bucket/blog/posts/2021-01/friction.png)
+![](https://cdn.victor42.work/posts/2021-01/friction.png)

@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='[国外设计第112期]
+
+虽然如今好的配色方案已经唾手可得，但为数据可视化找到合适的配色方案，却仍是一项巨大挑战。
+在Graphiq，事情甚至更加棘手，因为我们要通过上千种各不相同的数据集合来传递信息，它们有着各自迥异的视觉表现。
+目前的问题 我们没有立刻开始建立自己的配色表，而是发起了一些调查，研究网络上已存在的配色方案。令人惊讶的是，我们发现其中只有少数是为复杂的图表和数据可视化而设计的。我们发现一些不能使用现有配色的原因。
+问题1：辨识度低 我们看过的许多配色方案都不适用于数据可视化。不仅由于颜色的明度差异不大，其实它们在创造时就没有考虑过辨识度。Flat UI配色是最广泛使用的配色之一，原因显而易见：它非常优秀。但是，正如它名字所述，这是为界面而设计的。使用Flat UI配色的话，色盲者就难以辨认出数据图像。
+
+
+
+Flat UI配色的完整色彩、红色盲模式、灰度模式。
+问题2：色彩不够多 另一个问题是，许多现有配色方案没有足够的颜色。创造Graphiq的数据可视化时，我们需要至少6种颜色的配色方案，甚至有时需要8到12种颜色，才能满足所有的应用场景。我们看过的许多配色方案都没有足够多的色彩供选择。
+下面是Color Hunt里的一些例子：
+
+虽然这些都是很棒的配色，但它们都不够灵活，无法提供丰富的色系。
+问题3：难以区分 不过等一下，还有一些配色方案看起来像是渐变——理论上说可以创造出任意数量的颜色，对吧？
+不幸的是，它们明度差异通常不大，其中许多颜色很容易变得无法区分，就像这一组，同样来自Color Hunt：
+
+我们试着选第一组，把它扩展为10级色彩：
+
+如果普通用户能正确的区分出这些颜色，并与相应的数据项对应起来，我就服了，尤其是能区分出左边的4种绿色。
+我们的方式 在Graphiq，我们以数据为生命，并且投入了大量时间寻找能够用于数据可视化的配色方案，不是一组，而是许多组。我们在这个过程中受益良多，并且打算分享这些能够创造出灵活配色的准则：
+第1条：色调与明度的跨度都要大 要确保配色非常容易辨识与区分，它们的明度差异一定要够大。明度差异需要全局考虑。选择一种单色系的配色，并且测试它在红色盲、绿色盲与灰度模式下的表现。你就能迅速了解这个配色的辨识度水平。
+
+
+
+Google Material配色中的浅蓝色的完整色彩、红色盲模式与灰度模式。
+但是，有一组明度跨度大的配色还不够。配色越多样，用户越容易将数据与图像联系起来。如果能善加利用色调的变化，就能使非色盲用户更加轻松。
+
+对于明度与色调，跨度越大，就能承载越多的数据。
+第2条：仿照自然的配色 设计师都知道一个小秘密，对于理性派们而言这似乎不符合常识：并非所有颜色都是均等的。
+从纯数学的角度来看，淡紫到深黄的过渡，与淡黄到深紫的过渡，感觉大概相似。但我们在下面可以看到，前者感觉很自然，后者则不是。
+
+这是由于我们已经习惯于那些长期存在于自然界中的渐变。在华丽的日落中，我们就能看到明黄色向深紫色的渐变，但却没有哪里能看到淡紫色向深黄色的过渡。
+
+
+
+照片来源于Kyle Pearce、Wesley Fryer、和Jon Sullivan。
+类似地，还有浅绿色到藏蓝色、鹅黄色到深绿色、棕红色到蓝灰色，等等。'><title>为可视化数据寻找适合的配色</title>
+
+<link rel='canonical' href='https://greenzorro.github.io/victor42.eth/post/3472/'>
+
+<link rel="stylesheet" href="../../scss/style.min.27df386fa5b5eb5592c83aa8f94c364b3a6f56def5bc395227edba664a62fb41.css"><meta property='og:title' content='为可视化数据寻找适合的配色'>
+<meta property='og:description' content='[国外设计第112期]
+
+虽然如今好的配色方案已经唾手可得，但为数据可视化找到合适的配色方案，却仍是一项巨大挑战。
+在Graphiq，事情甚至更加棘手，因为我们要通过上千种各不相同的数据集合来传递信息，它们有着各自迥异的视觉表现。
+目前的问题 我们没有立刻开始建立自己的配色表，而是发起了一些调查，研究网络上已存在的配色方案。令人惊讶的是，我们发现其中只有少数是为复杂的图表和数据可视化而设计的。我们发现一些不能使用现有配色的原因。
+问题1：辨识度低 我们看过的许多配色方案都不适用于数据可视化。不仅由于颜色的明度差异不大，其实它们在创造时就没有考虑过辨识度。Flat UI配色是最广泛使用的配色之一，原因显而易见：它非常优秀。但是，正如它名字所述，这是为界面而设计的。使用Flat UI配色的话，色盲者就难以辨认出数据图像。
+
+
+
+Flat UI配色的完整色彩、红色盲模式、灰度模式。
+问题2：色彩不够多 另一个问题是，许多现有配色方案没有足够的颜色。创造Graphiq的数据可视化时，我们需要至少6种颜色的配色方案，甚至有时需要8到12种颜色，才能满足所有的应用场景。我们看过的许多配色方案都没有足够多的色彩供选择。
+下面是Color Hunt里的一些例子：
+
+虽然这些都是很棒的配色，但它们都不够灵活，无法提供丰富的色系。
+问题3：难以区分 不过等一下，还有一些配色方案看起来像是渐变——理论上说可以创造出任意数量的颜色，对吧？
+不幸的是，它们明度差异通常不大，其中许多颜色很容易变得无法区分，就像这一组，同样来自Color Hunt：
+
+我们试着选第一组，把它扩展为10级色彩：
+
+如果普通用户能正确的区分出这些颜色，并与相应的数据项对应起来，我就服了，尤其是能区分出左边的4种绿色。
+我们的方式 在Graphiq，我们以数据为生命，并且投入了大量时间寻找能够用于数据可视化的配色方案，不是一组，而是许多组。我们在这个过程中受益良多，并且打算分享这些能够创造出灵活配色的准则：
+第1条：色调与明度的跨度都要大 要确保配色非常容易辨识与区分，它们的明度差异一定要够大。明度差异需要全局考虑。选择一种单色系的配色，并且测试它在红色盲、绿色盲与灰度模式下的表现。你就能迅速了解这个配色的辨识度水平。
+
+
+
+Google Material配色中的浅蓝色的完整色彩、红色盲模式与灰度模式。
+但是，有一组明度跨度大的配色还不够。配色越多样，用户越容易将数据与图像联系起来。如果能善加利用色调的变化，就能使非色盲用户更加轻松。
+
+对于明度与色调，跨度越大，就能承载越多的数据。
+第2条：仿照自然的配色 设计师都知道一个小秘密，对于理性派们而言这似乎不符合常识：并非所有颜色都是均等的。
+从纯数学的角度来看，淡紫到深黄的过渡，与淡黄到深紫的过渡，感觉大概相似。但我们在下面可以看到，前者感觉很自然，后者则不是。
+
+这是由于我们已经习惯于那些长期存在于自然界中的渐变。在华丽的日落中，我们就能看到明黄色向深紫色的渐变，但却没有哪里能看到淡紫色向深黄色的过渡。
+
+
+
+照片来源于Kyle Pearce、Wesley Fryer、和Jon Sullivan。
+类似地，还有浅绿色到藏蓝色、鹅黄色到深绿色、棕红色到蓝灰色，等等。'>
+<meta property='og:url' content='https://greenzorro.github.io/victor42.eth/post/3472/'>
+<meta property='og:site_name' content='Victor42'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2015-11-29T01:29:00&#43;00:00'/><meta property='article:modified_time' content='2015-11-29T01:29:00&#43;00:00'/>
+<meta name="twitter:title" content="为可视化数据寻找适合的配色">
+<meta name="twitter:description" content="[国外设计第112期]
+
+虽然如今好的配色方案已经唾手可得，但为数据可视化找到合适的配色方案，却仍是一项巨大挑战。
+在Graphiq，事情甚至更加棘手，因为我们要通过上千种各不相同的数据集合来传递信息，它们有着各自迥异的视觉表现。
+目前的问题 我们没有立刻开始建立自己的配色表，而是发起了一些调查，研究网络上已存在的配色方案。令人惊讶的是，我们发现其中只有少数是为复杂的图表和数据可视化而设计的。我们发现一些不能使用现有配色的原因。
+问题1：辨识度低 我们看过的许多配色方案都不适用于数据可视化。不仅由于颜色的明度差异不大，其实它们在创造时就没有考虑过辨识度。Flat UI配色是最广泛使用的配色之一，原因显而易见：它非常优秀。但是，正如它名字所述，这是为界面而设计的。使用Flat UI配色的话，色盲者就难以辨认出数据图像。
+
+
+
+Flat UI配色的完整色彩、红色盲模式、灰度模式。
+问题2：色彩不够多 另一个问题是，许多现有配色方案没有足够的颜色。创造Graphiq的数据可视化时，我们需要至少6种颜色的配色方案，甚至有时需要8到12种颜色，才能满足所有的应用场景。我们看过的许多配色方案都没有足够多的色彩供选择。
+下面是Color Hunt里的一些例子：
+
+虽然这些都是很棒的配色，但它们都不够灵活，无法提供丰富的色系。
+问题3：难以区分 不过等一下，还有一些配色方案看起来像是渐变——理论上说可以创造出任意数量的颜色，对吧？
+不幸的是，它们明度差异通常不大，其中许多颜色很容易变得无法区分，就像这一组，同样来自Color Hunt：
+
+我们试着选第一组，把它扩展为10级色彩：
+
+如果普通用户能正确的区分出这些颜色，并与相应的数据项对应起来，我就服了，尤其是能区分出左边的4种绿色。
+我们的方式 在Graphiq，我们以数据为生命，并且投入了大量时间寻找能够用于数据可视化的配色方案，不是一组，而是许多组。我们在这个过程中受益良多，并且打算分享这些能够创造出灵活配色的准则：
+第1条：色调与明度的跨度都要大 要确保配色非常容易辨识与区分，它们的明度差异一定要够大。明度差异需要全局考虑。选择一种单色系的配色，并且测试它在红色盲、绿色盲与灰度模式下的表现。你就能迅速了解这个配色的辨识度水平。
+
+
+
+Google Material配色中的浅蓝色的完整色彩、红色盲模式与灰度模式。
+但是，有一组明度跨度大的配色还不够。配色越多样，用户越容易将数据与图像联系起来。如果能善加利用色调的变化，就能使非色盲用户更加轻松。
+
+对于明度与色调，跨度越大，就能承载越多的数据。
+第2条：仿照自然的配色 设计师都知道一个小秘密，对于理性派们而言这似乎不符合常识：并非所有颜色都是均等的。
+从纯数学的角度来看，淡紫到深黄的过渡，与淡黄到深紫的过渡，感觉大概相似。但我们在下面可以看到，前者感觉很自然，后者则不是。
+
+这是由于我们已经习惯于那些长期存在于自然界中的渐变。在华丽的日落中，我们就能看到明黄色向深紫色的渐变，但却没有哪里能看到淡紫色向深黄色的过渡。
+
+
+
+照片来源于Kyle Pearce、Wesley Fryer、和Jon Sullivan。
+类似地，还有浅绿色到藏蓝色、鹅黄色到深绿色、棕红色到蓝灰色，等等。">
+    <link rel="shortcut icon" href="https://cdn.victor42.work/assets/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="../../" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="../../categories/%E8%AE%BE%E8%AE%A1%E8%AF%91%E6%96%87/" style="background-color: #A49F97; color: #fff;">
+                设计译文
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="../../post/3472/">为可视化数据寻找适合的配色</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 29, 2015</time>
+            </div>
+        
+
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>[国外设计第112期]</strong></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-wG4NGJ_Q3qKm6lyznGMrxQ.jpeg" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wG4NGJ_Q3qKm6lyznGMrxQ.jpeg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>虽然如今<a class="link" href="http://flatuicolors.co/"  target="_blank" rel="noopener"
+    >好的</a><a class="link" href="https://www.google.com/design/spec/style/color.html#color-color-palette"  target="_blank" rel="noopener"
+    >配色</a><a class="link" href="http://colorhunt.co/"  target="_blank" rel="noopener"
+    >方案</a>已经唾手可得，但为数据可视化找到合适的配色方案，却<a class="link" href="https://medium.com/data-lab/i-went-a-little-crazy-trying-to-choose-charted-s-colors-8d4182c1d324"  target="_blank" rel="noopener"
+    >仍是一项巨大挑战</a>。</p>
+<p>在Graphiq，事情甚至更加棘手，因为我们要通过上千种各不相同的数据集合来传递信息，它们<a class="link" href="https://medium.com/graphiq-engineering/visualizing-the-world-s-knowledge-5ca14f098454"  target="_blank" rel="noopener"
+    >有着各自迥异的视觉表现</a>。</p>
+<h2 id="目前的问题">目前的问题</h2>
+<p>我们没有立刻开始建立自己的配色表，而是发起了一些调查，研究网络上已存在的配色方案。令人惊讶的是，我们发现其中只有少数是为复杂的图表和数据可视化而设计的。我们发现一些不能使用现有配色的原因。</p>
+<h3 id="问题1辨识度低">问题1：辨识度低</h3>
+<p>我们看过的许多配色方案都不适用于数据可视化。不仅由于颜色的明度差异不大，其实它们在创造时就没有考虑过辨识度。Flat UI配色是最广泛使用的配色之一，原因显而易见：它非常优秀。但是，正如它名字所述，这是为界面而设计的。使用Flat UI配色的话，色盲者就难以辨认出数据图像。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-KvDEGIpfwdJtUFwB5acYEA.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-KvDEGIpfwdJtUFwB5acYEA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-agD5sQvrMt6GqRmIg6zKQA.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-agD5sQvrMt6GqRmIg6zKQA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-PyjFTbCq6JBTx1oymoXeEw.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-PyjFTbCq6JBTx1oymoXeEw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Flat UI配色的完整色彩、红色盲模式、灰度模式。</p>
+<h3 id="问题2色彩不够多">问题2：色彩不够多</h3>
+<p>另一个问题是，许多现有配色方案没有足够的颜色。创造Graphiq的数据可视化时，我们需要至少6种颜色的配色方案，甚至有时需要8到12种颜色，才能满足所有的应用场景。我们看过的许多配色方案都没有足够多的色彩供选择。</p>
+<p>下面是<a class="link" href="http://colorhunt.co/"  target="_blank" rel="noopener"
+    >Color Hunt</a>里的一些例子：</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-ypvRymT0ECQ3pYwtqlfHZw.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-ypvRymT0ECQ3pYwtqlfHZw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>虽然这些都是很棒的配色，但它们都不够灵活，无法提供丰富的色系。</p>
+<h3 id="问题3难以区分">问题3：难以区分</h3>
+<p>不过等一下，还有一些配色方案看起来像是渐变——理论上说可以创造出任意数量的颜色，对吧？</p>
+<p>不幸的是，它们明度差异通常不大，其中许多颜色很容易变得无法区分，就像这一组，同样来自Color Hunt：</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-S85p-zgE9OM9xLTLEKhbng.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-S85p-zgE9OM9xLTLEKhbng.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>我们试着选<a class="link" href="http://colorhunt.co/#00a38879bd8fbeeb9fffff9d"  target="_blank" rel="noopener"
+    >第一组</a>，把它扩展为10级色彩：</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-623V9z7Xzs1Q3Uyf0qoq-A.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-623V9z7Xzs1Q3Uyf0qoq-A.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>如果普通用户能正确的区分出这些颜色，并与相应的数据项对应起来，我就服了，尤其是能区分出左边的4种绿色。</p>
+<h2 id="我们的方式">我们的方式</h2>
+<p>在Graphiq，我们以数据为生命，并且投入了大量时间寻找能够用于数据可视化的配色方案，不是一组，而是许多组。我们在这个过程中受益良多，并且打算分享这些能够创造出灵活配色的准则：</p>
+<h3 id="第1条色调与明度的跨度都要大">第1条：色调与明度的跨度都要大</h3>
+<p>要确保配色非常容易辨识与区分，它们的明度差异一定要够大。明度差异需要全局考虑。选择一种单色系的配色，并且<a class="link" href="https://medium.com/sketch-app-sources/2b189c0d58fe"  target="_blank" rel="noopener"
+    >测试它在红色盲、绿色盲与灰度模式下的表现</a>。你就能迅速了解这个配色的辨识度水平。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-hGvw1suMqgupk8EgD068aA.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-hGvw1suMqgupk8EgD068aA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-HnC6oy_l_8t4bHxg1mMyhw.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-HnC6oy_l_8t4bHxg1mMyhw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-Op_34KD5WNhPdqxZs0TsVQ.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-Op_34KD5WNhPdqxZs0TsVQ.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Google Material配色中的浅蓝色的完整色彩、红色盲模式与灰度模式。</p>
+<p>但是，有一组明度跨度大的配色还不够。配色越多样，用户越容易将数据与图像联系起来。如果能善加利用色调的变化，就能使非色盲用户更加轻松。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-wgC_dBB1C2w3G6jaSFpZPQ.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wgC_dBB1C2w3G6jaSFpZPQ.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>对于明度与色调，跨度越大，就能承载越多的数据。</p>
+<h3 id="第2条仿照自然的配色">第2条：仿照自然的配色</h3>
+<p>设计师都知道一个小秘密，对于理性派们而言这似乎不符合常识：并非所有颜色都是均等的。</p>
+<p>从纯数学的角度来看，淡紫到深黄的过渡，与淡黄到深紫的过渡，感觉大概相似。但我们在下面可以看到，前者感觉很自然，后者则不是。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-lL_koW3jH7nYf6_ZbFx3WA.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-lL_koW3jH7nYf6_ZbFx3WA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>这是由于我们已经习惯于那些长期存在于自然界中的渐变。在华丽的日落中，我们就能看到明黄色向深紫色的渐变，但却没有哪里能看到淡紫色向深黄色的过渡。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-oIa-7FvHZYgGxPp0ytfY6w.jpeg" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-oIa-7FvHZYgGxPp0ytfY6w.jpeg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-PPPHMucunVmHYzFJBJW45Q.jpeg" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-PPPHMucunVmHYzFJBJW45Q.jpeg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-Jhvmh70U7q8P-_MajshKew.jpeg" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-Jhvmh70U7q8P-_MajshKew.jpeg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>照片来源于<a class="link" href="https://www.flickr.com/photos/keepitsurreal/3256634781"  target="_blank" rel="noopener"
+    >Kyle Pearce</a>、<a class="link" href="https://www.flickr.com/photos/wfryer/12577018343"  target="_blank" rel="noopener"
+    >Wesley Fryer</a>、和<a class="link" href="http://www.public-domain-image.com/nature-landscape/sunset/slides/ocean-beach-sunset.html"  target="_blank" rel="noopener"
+    >Jon Sullivan</a>。</p>
+<p>类似地，还有浅绿色到藏蓝色、鹅黄色到深绿色、棕红色到蓝灰色，等等。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-NUUVVX2MpC4Y1_nP8CHjWA.jpeg" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-NUUVVX2MpC4Y1_nP8CHjWA.jpeg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-W5vjfZydrhjBbKQ4R9tl3A.jpeg" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-W5vjfZydrhjBbKQ4R9tl3A.jpeg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-_dsL23-byBssnWm7aFAKdg.jpeg" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-_dsL23-byBssnWm7aFAKdg.jpeg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>照片来源于<a class="link" href="https://commons.wikimedia.org/wiki/File:Round_Spring_-_Missouri,_16.jpg"  target="_blank" rel="noopener"
+    >Kbh3rd</a>、<a class="link" href="http://www.freefoto.com/preview/19-07-2/Autumn-Colour"  target="_blank" rel="noopener"
+    >Ian Britton</a>、和<a class="link" href="http://www.public-domain-image.com/nature-landscape/hot-spring/slides/hot-spring-in-yellowstone.html"  target="_blank" rel="noopener"
+    >Jon Sullivan</a>。</p>
+<p>由于我总能看到这些自然的渐变，所以当我们在可视化图表中看到对应的配色时，会感觉熟悉和愉快。</p>
+<h3 id="第3条使用渐变不要选择一系列固定颜色">第3条：使用渐变，不要选择一系列固定颜色</h3>
+<p>渐变配色结合不同色调，对两者都最好。无论你需要2种颜色还是10种，渐变中都能提取出这些颜色，让可视化图表感觉自然，同时保有足够的色调与明度差异。</p>
+<p>改用渐变的思维并不容易，不过有个好方法，可以在Photoshop中拉辅助线到断点位置，与数据的数量对应上，然后持续对渐变进行测试与调整。以下是我们在修正渐变时产生的屏幕截图。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-wgvwormxteQ6jdT4De63Hg.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wgvwormxteQ6jdT4De63Hg.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>可以看到，我们将配色表紧挨着顶部的灰度渐变，调整渐变叠加（之后就能得到精确的渐变色值），然后从那些断点处选取颜色，测试配色在实际运用中的效果。</p>
+<h2 id="我们的配色方案">我们的配色方案</h2>
+<p>我们对最终成果感到兴奋。下面是我们使用的部分配色，它们都有从纯白到纯黑的渐变，以达到最大限度的明度差异。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-B29h3NSglI42HGhWZA-5Mg.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-B29h3NSglI42HGhWZA-5Mg.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1--Vgr9hPpUU3PYtg_B4rd2g.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1--Vgr9hPpUU3PYtg_B4rd2g.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1-pH2QoOf47OqwtG9suWaRJw.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1-pH2QoOf47OqwtG9suWaRJw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>冷色、暖色和霓虹色。</p>
+<h2 id="配色的实际运用">配色的实际运用</h2>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/1.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/1.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/2.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/2.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-11/11-27/3.png" >
+		<img src="https://cdn.victor42.work/posts/2015-11/11-27/3.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<h2 id="长话短说">长话短说</h2>
+<p>尽管优秀的配色方案越来越多，但并非所有都适用于图表和数据可视化。我们的配色方法就是创建色调与明度变化都足够大的自然渐变。这么做能使我们的配色便于色盲辨识，对其他人则更明显，并且可以满足1到12种数据。</p>
+<h2 id="阅读工具和资源-更新">阅读、工具和资源 [更新]</h2>
+<p>这个过程中，我们发现了一些很棒的资源和文章，与我们得出的结论类似，但他们采用了更精确的方法，甚至钻研了色彩理论。我们觉得应该分享出来，供大家深度阅读：</p>
+<h3 id="阅读">阅读</h3>
+<ol>
+<li><a class="link" href="http://vis4.net/blog/posts/avoid-equidistant-hsv-colors/"  target="_blank" rel="noopener"
+    >如何避免等差的HSV颜色</a>，作者<a class="link" href="https://twitter.com/driven_by_data"  target="_blank" rel="noopener"
+    >Gregor Aisch</a></li>
+<li><a class="link" href="https://vis4.net/blog/posts/mastering-multi-hued-color-scales/"  target="_blank" rel="noopener"
+    >通过chroma.js控制多色调的色彩比例</a>，作者<a class="link" href="https://twitter.com/driven_by_data"  target="_blank" rel="noopener"
+    >Gregor Aisch</a></li>
+<li><a class="link" href="http://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/"  target="_blank" rel="noopener"
+    >微妙的颜色</a>，作者<a class="link" href="https://twitter.com/rsimmon"  target="_blank" rel="noopener"
+    >Robert Simmon</a></li>
+<li><a class="link" href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html"  target="_blank" rel="noopener"
+    >翠绿配色方案</a>，作者<a class="link" href="https://twitter.com/hrbrmstr"  target="_blank" rel="noopener"
+    >Bob Rudis</a>、<a class="link" href="https://twitter.com/noamross"  target="_blank" rel="noopener"
+    >Noam Ross</a>和<a class="link" href="https://twitter.com/sjmgarnier"  target="_blank" rel="noopener"
+    >Simon Garnier</a></li>
+<li><a class="link" href="http://blogs.mathworks.com/steve/2014/10/13/a-new-colormap-for-matlab-part-1-introduction/"  target="_blank" rel="noopener"
+    >MATLAB色彩地图</a>，作者<a class="link" href="https://twitter.com/steveeddins"  target="_blank" rel="noopener"
+    >Steve Eddins</a></li>
+</ol>
+<h3 id="工具">工具</h3>
+<ol>
+<li><a class="link" href="http://tristen.ca/hcl-picker/"  target="_blank" rel="noopener"
+    >数据颜色采集工具</a>——一件很趁手的工具，让你保持<a class="link" href="https://en.wikipedia.org/wiki/Chroma"  target="_blank" rel="noopener"
+    >浓度</a>不变的同时轻松选择配色</li>
+<li><a class="link" href="http://gka.github.io/chroma.js/"  target="_blank" rel="noopener"
+    >Chroma.js</a>——一个处理色彩的JavaScript库</li>
+<li><a class="link" href="http://colorbrewer2.org/"  target="_blank" rel="noopener"
+    >Colorbrewer2</a>——热点图与数据可视化颜色工具，自带了多色调与单色调的方案</li>
+</ol>
+<h3 id="其他资源">其他资源</h3>
+<p>我们还找到一些其他爱不释手的配色资源。虽然它们并非专为数据可视化而设计，不过我们觉得或许对你有帮助。</p>
+<ol>
+<li><a class="link" href="http://colorhunt.co/"  target="_blank" rel="noopener"
+    >ColorHunt</a>——高质量配色方案，能够快速预览，如果你只需要4种颜色，这是绝佳的资源</li>
+<li><a class="link" href="http://www.colourlovers.com/"  target="_blank" rel="noopener"
+    >COLOURlovers</a>——很棒的颜色社区，其中有许多工具可以创建配色方案，还有设计模式</li>
+<li><a class="link" href="https://www.colorschemer.com/"  target="_blank" rel="noopener"
+    >ColorSchemer Studio</a>——强大的桌面取色应用</li>
+<li><a class="link" href="https://coolors.co/app/"  target="_blank" rel="noopener"
+    >Coolors</a>——轻量级随机配色生成器，你可以锁定你想要的颜色，然后替换其他的</li>
+<li><a class="link" href="http://flatuicolors.com/"  target="_blank" rel="noopener"
+    >Flat UI Colors</a>——很棒的UI配色，这是最流行的配色之一</li>
+<li><a class="link" href="https://www.google.com/design/spec/style/color.html"  target="_blank" rel="noopener"
+    >Material Design Colors</a>——另一套优秀的UI配色。它不仅提供了跨度巨大的颜色，也为每种颜色提供了不同的“色深”，或者说明度</li>
+<li><a class="link" href="http://palettab.com/"  target="_blank" rel="noopener"
+    >Palettab</a>——一个Chrome插件，在每个标签页里呈现一套新的配色方案和字体灵感</li>
+<li><a class="link" href="http://www.swisscolors.net/"  target="_blank" rel="noopener"
+    >Swiss Style Color Picker</a>——另一个优秀的配色方案集</li>
+</ol>
+<p>希望本文对你有所帮助！你建立配色方案的过程是怎样的？你还用到其他的工具吗？我们想听听你在配色与可视化图表方面的经验。</p>
+<p>想了解更多我们的工作流程，请订阅我们的刊物：<a class="link" href="https://medium.com/graphiq-engineering"  target="_blank" rel="noopener"
+    ><strong>Graphiq Engineering</strong></a>。</p>
+<hr>
+<p>原文链接：<a class="link" href="https://medium.com/graphiq-engineering/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283#.s6benocrb"  target="_blank" rel="noopener"
+    >https://medium.com/graphiq-engineering/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283#.s6benocrb</a></p>
+<p>作者信息：
+<a class="link" href="https://medium.com/@moyicat"  target="_blank" rel="noopener"
+    >Samantha Zhang</a>
+Senior UI/UX <a class="link" href="http://twitter.com/GraphiqHQ"  target="_blank" rel="noopener"
+    >@GraphiqHQ</a>. Tutorial writer <a class="link" href="http://twitter.com/TutsPlusCode"  target="_blank" rel="noopener"
+    >@TutsPlusCode</a>. Product maker. Data nerd. Side project ninja. More at <a class="link" href="http://samanthaz.me"  target="_blank" rel="noopener"
+    >http://samanthaz.me/</a> and <a class="link" href="http://twitter.com/moyicat"  target="_blank" rel="noopener"
+    >@moyicat</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2022 Victor42
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#目前的问题">目前的问题</a>
+      <ul>
+        <li><a href="#问题1辨识度低">问题1：辨识度低</a></li>
+        <li><a href="#问题2色彩不够多">问题2：色彩不够多</a></li>
+        <li><a href="#问题3难以区分">问题3：难以区分</a></li>
+      </ul>
+    </li>
+    <li><a href="#我们的方式">我们的方式</a>
+      <ul>
+        <li><a href="#第1条色调与明度的跨度都要大">第1条：色调与明度的跨度都要大</a></li>
+        <li><a href="#第2条仿照自然的配色">第2条：仿照自然的配色</a></li>
+        <li><a href="#第3条使用渐变不要选择一系列固定颜色">第3条：使用渐变，不要选择一系列固定颜色</a></li>
+      </ul>
+    </li>
+    <li><a href="#我们的配色方案">我们的配色方案</a></li>
+    <li><a href="#配色的实际运用">配色的实际运用</a></li>
+    <li><a href="#长话短说">长话短说</a></li>
+    <li><a href="#阅读工具和资源-更新">阅读、工具和资源 [更新]</a>
+      <ul>
+        <li><a href="#阅读">阅读</a></li>
+        <li><a href="#工具">工具</a></li>
+        <li><a href="#其他资源">其他资源</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="../../ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

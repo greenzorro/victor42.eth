@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='[国外设计68期]
+
+##为什么？
+SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们最新的音乐，艺人可以在此发布单曲甚至完整专辑来吸引粉丝。但通常用户知道，与这个平台进行互动是很让人沮丧的。
+与其他音乐服务的简洁、美观的设计相比，SoundCloud感觉沉重而过时。网站和移动app的体验，都充斥着违反直觉的设计和尴尬的使用流程。
+尽管如此，我仍然沉浸于这个社区，因为我信任它所提供的服务。我想让SoundCloud变得更好。
+作为一个用户，我关心的是：
+ 干净、直观的功能性界面 更了解我在听的艺人，并且发现新艺人 分享并与我的朋友们交流  这些基本功能，网站目前都做的不错，但都能做得更好。看我来分解它……
+##1. 导航条和播放器组件
+###出现的问题
+
+我通常会搜索艺人或歌曲名称
+**搜索栏太宽了。**最宽状态下，网站有1240像素宽，搜索栏输入框就有668像素。通常输入几个字后，自动补全功能就可以完成查询。
+
+深灰色的这条就是播放器组件，令人困惑的一团乱麻
+**播放器组件在页面的底部。**导航条用来提供入口，可以在所需的任何时候打开某些链接和功能。在音乐流媒体网站中，包括暂停当前歌曲、下一首和上一首。尽管播放器组件在每个页面都能看见，它位置在底部并不能直观地传达出它的功用。
+
+**点击我的用户名会出现下拉菜单。**没有任何视觉指示告诉我这下面（也就是下箭头）有下拉菜单，这样展现很古怪。这网站我用了好几年，我的直觉仍然告诉我，它应该指向我的个人资料。我通常点这里去我的个人资料、喜欢和播放列表。
+###解决方案概念
+
+他们目前的设计（顶部）和我的概念设计（底部）
+搜索栏输入框的宽度减少到108像素，为播放器组件腾出空间，加在正中间。
+重要的链接在导航的右边，不再缩在下拉菜单中。头像图片指向用户的个人资料，右边的图标分别指向设置、喜欢、播放列表、消息和通知。上传链接去掉了，因为它并非随时随地需要使用。它被归到个人资料页面中。
+##2. 信息流
+你关注的人发布的歌曲和播放列表展现在这里，最新的在上面，像Twitter的时间轴那样。
+
+当前形式的信息流
+###出现的问题
+**很难辨认出正在播放哪首歌。**除了小小的播放/暂停按钮，没有任何样式突出或强调当前播放歌曲与其他的区别。过去的音乐仍然保持橙色的波形状进度条，这毫无意义。
+**每次只能看见3到5首歌。**一个音乐流媒体网站，一页应该能显示更多。
+**信息流不会自动滚动。**我通常在浏览器中开着信息流，让它播放歌曲，同时去做其他事情。当我回到页面时，我不得不向下滚动，浏览波形图来找到当前播放的歌曲。我通常依靠播放器组件了解歌名，然后执行页面搜素（Cmd &#43; F）来找到我的位置。这样的流程效率低，而且投机取巧。
+**波形图上的头像实际上没有意义。**它们太小，无法从视觉上分辨留言者。它们唯一的价值，就是让用户知道音乐上有留言，而留言的数量已经显示在波形图下方的评论图标处了。
+
+有认识的人评论了这首歌吗？
+
+当用户离开信息流，回来时他们会期望什么
+**信息流的刷新缓慢而笨重。**当我离开信息流再返回时，SoundCloud试图给我展示当前播放的歌曲，这很棒。但不是每次都正常。通常情况下，它通过渲染当前歌曲前面的每一首歌来做到这一点，这占用大量内存，这方法比普通的页面加载（这看起来很糟）还要慢。对此肯定有软件上的解决办法。
+###解决方案概念
+
+信息流概念图，我在SoundCloud上找到一些超赞的歌来模拟界面，右边栏是固定式的。
+展开的尺寸、大幅的插图和可见的波形图，清晰地标示了当前播放的歌曲。另外，相同空间里可以显示更多歌曲。
+有个选项可以使信息流在播放时自动滚动。开启这个功能会让一首歌在播放时移动到页面的顶部，像上面图中的那首歌Goldroom。
+很明显，从歌曲的评论数来看，多数用户并不评论。评论会在视觉上让人分心，于是我增加了一个隐藏它们的选项。
+
+音轨的鼠标悬停状态和发布时间标示
+下载、喜欢、转发、评论、添加到播放列表和分享按钮被图标替代。这些图标已经充分传达了它们的功能，不需要再转译为其他语言。为了保持界面简洁，图标只在鼠标悬停状态显示（但当前歌曲会一直显示）
+一个动态更新的气泡，显示了歌曲在信息流中出现了多久—à la Path—在滚动条的旁边，像这样。'><title>SoundCloud再设计</title>
+
+<link rel='canonical' href='https://greenzorro.github.io/victor42.eth/post/3413/'>
+
+<link rel="stylesheet" href="../../scss/style.min.27df386fa5b5eb5592c83aa8f94c364b3a6f56def5bc395227edba664a62fb41.css"><meta property='og:title' content='SoundCloud再设计'>
+<meta property='og:description' content='[国外设计68期]
+
+##为什么？
+SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们最新的音乐，艺人可以在此发布单曲甚至完整专辑来吸引粉丝。但通常用户知道，与这个平台进行互动是很让人沮丧的。
+与其他音乐服务的简洁、美观的设计相比，SoundCloud感觉沉重而过时。网站和移动app的体验，都充斥着违反直觉的设计和尴尬的使用流程。
+尽管如此，我仍然沉浸于这个社区，因为我信任它所提供的服务。我想让SoundCloud变得更好。
+作为一个用户，我关心的是：
+ 干净、直观的功能性界面 更了解我在听的艺人，并且发现新艺人 分享并与我的朋友们交流  这些基本功能，网站目前都做的不错，但都能做得更好。看我来分解它……
+##1. 导航条和播放器组件
+###出现的问题
+
+我通常会搜索艺人或歌曲名称
+**搜索栏太宽了。**最宽状态下，网站有1240像素宽，搜索栏输入框就有668像素。通常输入几个字后，自动补全功能就可以完成查询。
+
+深灰色的这条就是播放器组件，令人困惑的一团乱麻
+**播放器组件在页面的底部。**导航条用来提供入口，可以在所需的任何时候打开某些链接和功能。在音乐流媒体网站中，包括暂停当前歌曲、下一首和上一首。尽管播放器组件在每个页面都能看见，它位置在底部并不能直观地传达出它的功用。
+
+**点击我的用户名会出现下拉菜单。**没有任何视觉指示告诉我这下面（也就是下箭头）有下拉菜单，这样展现很古怪。这网站我用了好几年，我的直觉仍然告诉我，它应该指向我的个人资料。我通常点这里去我的个人资料、喜欢和播放列表。
+###解决方案概念
+
+他们目前的设计（顶部）和我的概念设计（底部）
+搜索栏输入框的宽度减少到108像素，为播放器组件腾出空间，加在正中间。
+重要的链接在导航的右边，不再缩在下拉菜单中。头像图片指向用户的个人资料，右边的图标分别指向设置、喜欢、播放列表、消息和通知。上传链接去掉了，因为它并非随时随地需要使用。它被归到个人资料页面中。
+##2. 信息流
+你关注的人发布的歌曲和播放列表展现在这里，最新的在上面，像Twitter的时间轴那样。
+
+当前形式的信息流
+###出现的问题
+**很难辨认出正在播放哪首歌。**除了小小的播放/暂停按钮，没有任何样式突出或强调当前播放歌曲与其他的区别。过去的音乐仍然保持橙色的波形状进度条，这毫无意义。
+**每次只能看见3到5首歌。**一个音乐流媒体网站，一页应该能显示更多。
+**信息流不会自动滚动。**我通常在浏览器中开着信息流，让它播放歌曲，同时去做其他事情。当我回到页面时，我不得不向下滚动，浏览波形图来找到当前播放的歌曲。我通常依靠播放器组件了解歌名，然后执行页面搜素（Cmd &#43; F）来找到我的位置。这样的流程效率低，而且投机取巧。
+**波形图上的头像实际上没有意义。**它们太小，无法从视觉上分辨留言者。它们唯一的价值，就是让用户知道音乐上有留言，而留言的数量已经显示在波形图下方的评论图标处了。
+
+有认识的人评论了这首歌吗？
+
+当用户离开信息流，回来时他们会期望什么
+**信息流的刷新缓慢而笨重。**当我离开信息流再返回时，SoundCloud试图给我展示当前播放的歌曲，这很棒。但不是每次都正常。通常情况下，它通过渲染当前歌曲前面的每一首歌来做到这一点，这占用大量内存，这方法比普通的页面加载（这看起来很糟）还要慢。对此肯定有软件上的解决办法。
+###解决方案概念
+
+信息流概念图，我在SoundCloud上找到一些超赞的歌来模拟界面，右边栏是固定式的。
+展开的尺寸、大幅的插图和可见的波形图，清晰地标示了当前播放的歌曲。另外，相同空间里可以显示更多歌曲。
+有个选项可以使信息流在播放时自动滚动。开启这个功能会让一首歌在播放时移动到页面的顶部，像上面图中的那首歌Goldroom。
+很明显，从歌曲的评论数来看，多数用户并不评论。评论会在视觉上让人分心，于是我增加了一个隐藏它们的选项。
+
+音轨的鼠标悬停状态和发布时间标示
+下载、喜欢、转发、评论、添加到播放列表和分享按钮被图标替代。这些图标已经充分传达了它们的功能，不需要再转译为其他语言。为了保持界面简洁，图标只在鼠标悬停状态显示（但当前歌曲会一直显示）
+一个动态更新的气泡，显示了歌曲在信息流中出现了多久—à la Path—在滚动条的旁边，像这样。'>
+<meta property='og:url' content='https://greenzorro.github.io/victor42.eth/post/3413/'>
+<meta property='og:site_name' content='Victor42'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2014-12-14T12:53:00&#43;00:00'/><meta property='article:modified_time' content='2014-12-14T12:53:00&#43;00:00'/>
+<meta name="twitter:title" content="SoundCloud再设计">
+<meta name="twitter:description" content="[国外设计68期]
+
+##为什么？
+SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们最新的音乐，艺人可以在此发布单曲甚至完整专辑来吸引粉丝。但通常用户知道，与这个平台进行互动是很让人沮丧的。
+与其他音乐服务的简洁、美观的设计相比，SoundCloud感觉沉重而过时。网站和移动app的体验，都充斥着违反直觉的设计和尴尬的使用流程。
+尽管如此，我仍然沉浸于这个社区，因为我信任它所提供的服务。我想让SoundCloud变得更好。
+作为一个用户，我关心的是：
+ 干净、直观的功能性界面 更了解我在听的艺人，并且发现新艺人 分享并与我的朋友们交流  这些基本功能，网站目前都做的不错，但都能做得更好。看我来分解它……
+##1. 导航条和播放器组件
+###出现的问题
+
+我通常会搜索艺人或歌曲名称
+**搜索栏太宽了。**最宽状态下，网站有1240像素宽，搜索栏输入框就有668像素。通常输入几个字后，自动补全功能就可以完成查询。
+
+深灰色的这条就是播放器组件，令人困惑的一团乱麻
+**播放器组件在页面的底部。**导航条用来提供入口，可以在所需的任何时候打开某些链接和功能。在音乐流媒体网站中，包括暂停当前歌曲、下一首和上一首。尽管播放器组件在每个页面都能看见，它位置在底部并不能直观地传达出它的功用。
+
+**点击我的用户名会出现下拉菜单。**没有任何视觉指示告诉我这下面（也就是下箭头）有下拉菜单，这样展现很古怪。这网站我用了好几年，我的直觉仍然告诉我，它应该指向我的个人资料。我通常点这里去我的个人资料、喜欢和播放列表。
+###解决方案概念
+
+他们目前的设计（顶部）和我的概念设计（底部）
+搜索栏输入框的宽度减少到108像素，为播放器组件腾出空间，加在正中间。
+重要的链接在导航的右边，不再缩在下拉菜单中。头像图片指向用户的个人资料，右边的图标分别指向设置、喜欢、播放列表、消息和通知。上传链接去掉了，因为它并非随时随地需要使用。它被归到个人资料页面中。
+##2. 信息流
+你关注的人发布的歌曲和播放列表展现在这里，最新的在上面，像Twitter的时间轴那样。
+
+当前形式的信息流
+###出现的问题
+**很难辨认出正在播放哪首歌。**除了小小的播放/暂停按钮，没有任何样式突出或强调当前播放歌曲与其他的区别。过去的音乐仍然保持橙色的波形状进度条，这毫无意义。
+**每次只能看见3到5首歌。**一个音乐流媒体网站，一页应该能显示更多。
+**信息流不会自动滚动。**我通常在浏览器中开着信息流，让它播放歌曲，同时去做其他事情。当我回到页面时，我不得不向下滚动，浏览波形图来找到当前播放的歌曲。我通常依靠播放器组件了解歌名，然后执行页面搜素（Cmd &#43; F）来找到我的位置。这样的流程效率低，而且投机取巧。
+**波形图上的头像实际上没有意义。**它们太小，无法从视觉上分辨留言者。它们唯一的价值，就是让用户知道音乐上有留言，而留言的数量已经显示在波形图下方的评论图标处了。
+
+有认识的人评论了这首歌吗？
+
+当用户离开信息流，回来时他们会期望什么
+**信息流的刷新缓慢而笨重。**当我离开信息流再返回时，SoundCloud试图给我展示当前播放的歌曲，这很棒。但不是每次都正常。通常情况下，它通过渲染当前歌曲前面的每一首歌来做到这一点，这占用大量内存，这方法比普通的页面加载（这看起来很糟）还要慢。对此肯定有软件上的解决办法。
+###解决方案概念
+
+信息流概念图，我在SoundCloud上找到一些超赞的歌来模拟界面，右边栏是固定式的。
+展开的尺寸、大幅的插图和可见的波形图，清晰地标示了当前播放的歌曲。另外，相同空间里可以显示更多歌曲。
+有个选项可以使信息流在播放时自动滚动。开启这个功能会让一首歌在播放时移动到页面的顶部，像上面图中的那首歌Goldroom。
+很明显，从歌曲的评论数来看，多数用户并不评论。评论会在视觉上让人分心，于是我增加了一个隐藏它们的选项。
+
+音轨的鼠标悬停状态和发布时间标示
+下载、喜欢、转发、评论、添加到播放列表和分享按钮被图标替代。这些图标已经充分传达了它们的功能，不需要再转译为其他语言。为了保持界面简洁，图标只在鼠标悬停状态显示（但当前歌曲会一直显示）
+一个动态更新的气泡，显示了歌曲在信息流中出现了多久—à la Path—在滚动条的旁边，像这样。">
+    <link rel="shortcut icon" href="https://cdn.victor42.work/assets/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page 
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        on-phone--column extended
+    
+">
+    
+        <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                <a href="../../">
+                
+                    
+                    
+                    
+                        
+                        <img src="../../img/pale-blue-dot_hu192df57e7dce341df9464625d159755f_158378_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🌌</span>
+                
+            </figure>
+            
+        
+        
+        <h1 class="site-name"><a href="../../">Victor42</a></h1>
+        <h2 class="site-description">一只猫，也是一只愤怒的小鸟</h2><ol class="social-menu">
+                
+                    <li>
+                        <a 
+                            href='https://twitter.com/victor_cheng_42'
+                            target="_blank"
+                            title="Twitter"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://www.instagram.com/victor_cheng_42/'
+                            target="_blank"
+                            title="Instagram"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='http://www.douban.com/people/greenzorro/'
+                            target="_blank"
+                            title="豆瓣"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-movie" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="4" x2="8" y2="20" />
+  <line x1="16" y1="4" x2="16" y2="20" />
+  <line x1="4" y1="8" x2="8" y2="8" />
+  <line x1="4" y1="16" x2="8" y2="16" />
+  <line x1="4" y1="12" x2="20" y2="12" />
+  <line x1="16" y1="8" x2="20" y2="8" />
+  <line x1="16" y1="16" x2="20" y2="16" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://www.xiachufang.com/cook/10348954/'
+                            target="_blank"
+                            title="下厨房"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='http://www.mafengwo.cn/u/47038662.html'
+                            target="_blank"
+                            title="马蜂窝"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-departure" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M15 12h5a2 2 0 0 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3z" transform="rotate(-15 12 12) translate(0 -1)" />
+  <line x1="3" y1="21" x2="21" y2="21" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://github.com/greenzorro'
+                            target="_blank"
+                            title="GitHub"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+            </ol></header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='../../' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='../../page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>分类归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='../../page/movies/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-blockquote" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 15h15" />
+  <path d="M21 19h-15" />
+  <path d="M15 11h6" />
+  <path d="M21 7h-6" />
+  <path d="M9 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2" />
+  <path d="M3 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2" />
+</svg>
+
+
+
+                
+                <span>电影推荐</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='../../page/tools/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flask" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="9" y1="3" x2="15" y2="3" />
+  <line x1="10" y1="9" x2="14" y2="9" />
+  <path d="M10 3v6l-4 11a0.7 .7 0 0 0 .5 1h11a0.7 .7 0 0 0 .5 -1l-4 -11v-6" />
+</svg>
+
+
+
+                
+                <span>小玩意</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='../../page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于我</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Dark Mode</span>
+            </li>
+        
+    </ol>
+</aside>
+
+    
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="../../categories/%E8%AE%BE%E8%AE%A1%E8%AF%91%E6%96%87/" style="background-color: #A49F97; color: #fff;">
+                设计译文
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="../../post/3413/">SoundCloud再设计</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 14, 2014</time>
+            </div>
+        
+
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>[国外设计68期]</strong></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1.jpg" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>##为什么？</p>
+<p>SoundCloud是个非常酷的地方——听众可以关注艺人，获取他们最新的音乐，艺人可以在此发布单曲甚至完整专辑来吸引粉丝。但通常用户知道，与这个平台进行互动是很让人沮丧的。</p>
+<p>与其他音乐服务的<a class="link" href="http://pandora.com/"  target="_blank" rel="noopener"
+    >简洁</a>、<a class="link" href="http://rdio.com/"  target="_blank" rel="noopener"
+    >美观</a>的<a class="link" href="http://spotify.com"  target="_blank" rel="noopener"
+    >设计</a>相比，SoundCloud感觉沉重而过时。网站和<a class="link" href="https://medium.com/@padschneider/the-new-soundcloud-app-sucks-bcbd77f0e8fd"  target="_blank" rel="noopener"
+    >移动app</a>的体验，都充斥着违反直觉的设计和尴尬的使用流程。</p>
+<p>尽管如此，我仍然沉浸于这个社区，因为我信任它所提供的服务。<strong>我想让SoundCloud变得更好。</strong></p>
+<p>作为一个用户，我关心的是：</p>
+<ul>
+<li>干净、直观的功能性界面</li>
+<li>更了解我在听的艺人，并且发现新艺人</li>
+<li>分享并与我的朋友们交流</li>
+</ul>
+<p>这些基本功能，网站目前都做的不错，但都能做得更好。看我来分解它……</p>
+<p>##1. 导航条和播放器组件</p>
+<p>###出现的问题</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-5KosaVfu23UBKC5iYpjwXw.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-5KosaVfu23UBKC5iYpjwXw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>我通常会搜索艺人或歌曲名称</em></p>
+<p>**搜索栏太宽了。**最宽状态下，网站有1240像素宽，搜索栏输入框就有668像素。通常输入几个字后，自动补全功能就可以完成查询。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-cR1Ug-Twv0iwKoyaHvUxrQ.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-cR1Ug-Twv0iwKoyaHvUxrQ.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>深灰色的这条就是播放器组件，令人困惑的一团乱麻</em></p>
+<p>**播放器组件在页面的底部。**导航条用来提供入口，可以在所需的任何时候打开某些链接和功能。在音乐流媒体网站中，包括暂停当前歌曲、下一首和上一首。尽管播放器组件在每个页面都能看见，它位置在底部并不能直观地传达出它的功用。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-DrkOUYfP9yd4bMXyLpKbxw.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-DrkOUYfP9yd4bMXyLpKbxw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>**点击我的用户名会出现下拉菜单。**没有任何视觉指示告诉我这下面（也就是下箭头）有下拉菜单，这样展现很古怪。这网站我用了好几年，我的直觉仍然告诉我，它应该指向我的个人资料。我通常点这里去我的个人资料、喜欢和播放列表。</p>
+<p>###解决方案概念</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-HGY-yavhWdu9ZyavSMpLMw.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-HGY-yavhWdu9ZyavSMpLMw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>他们目前的设计（顶部）和我的概念设计（底部）</em></p>
+<p>搜索栏输入框的宽度减少到108像素，为播放器组件腾出空间，加在正中间。</p>
+<p>重要的链接在导航的右边，不再缩在下拉菜单中。头像图片指向用户的个人资料，右边的图标分别指向设置、喜欢、播放列表、消息和通知。上传链接去掉了，因为它并非随时随地需要使用。它被归到个人资料页面中。</p>
+<p>##2. 信息流</p>
+<p>你关注的人发布的歌曲和播放列表展现在这里，最新的在上面，像Twitter的时间轴那样。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-qtFvyx7uOYG95_oH1JGKRQ.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-qtFvyx7uOYG95_oH1JGKRQ.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>当前形式的信息流</em></p>
+<p>###出现的问题</p>
+<p>**很难辨认出正在播放哪首歌。**除了小小的播放/暂停按钮，没有任何样式突出或强调当前播放歌曲与其他的区别。过去的音乐仍然保持橙色的波形状进度条，这毫无意义。</p>
+<p>**每次只能看见3到5首歌。**一个音乐流媒体网站，一页应该能显示更多。</p>
+<p>**信息流不会自动滚动。**我通常在浏览器中开着信息流，让它播放歌曲，同时去做其他事情。当我回到页面时，我不得不向下滚动，浏览波形图来找到当前播放的歌曲。我通常依靠播放器组件了解歌名，然后执行页面搜素（Cmd + F）来找到我的位置。这样的流程效率低，而且投机取巧。</p>
+<p>**波形图上的头像实际上没有意义。**它们太小，无法从视觉上分辨留言者。它们唯一的价值，就是让用户知道音乐上有留言，而留言的数量已经显示在波形图下方的评论图标处了。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-HNuMRAYtmwy_jM6mqcJu2g.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-HNuMRAYtmwy_jM6mqcJu2g.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>有认识的人评论了这首歌吗？</em></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-MvVz5KJdMZ8VH47m7FfR6g.gif" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-MvVz5KJdMZ8VH47m7FfR6g.gif"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>当用户离开信息流，回来时他们会期望什么</em></p>
+<p>**信息流的刷新缓慢而笨重。**当我离开信息流再返回时，SoundCloud试图给我展示当前播放的歌曲，这很棒。但不是每次都正常。通常情况下，它通过渲染当前歌曲前面的<em>每一首歌</em>来做到这一点，这占用大量内存，这方法比普通的页面加载（这看起来很糟）还要慢。对此肯定有软件上的解决办法。</p>
+<p>###解决方案概念</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-2adhccrEz9bZ8-42QkFmJQ.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-2adhccrEz9bZ8-42QkFmJQ.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>信息流概念图，我在SoundCloud上找到一些超赞的歌来模拟界面，右边栏是固定式的。</em></p>
+<p>展开的尺寸、大幅的插图和可见的波形图，清晰地标示了当前播放的歌曲。另外，相同空间里可以显示更多歌曲。</p>
+<p>有个选项可以使信息流在播放时自动滚动。开启这个功能会让一首歌在播放时移动到页面的顶部，像上面图中的那首歌Goldroom。</p>
+<p>很明显，从歌曲的评论数来看，多数用户并不评论。评论会在视觉上让人分心，于是我增加了一个隐藏它们的选项。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-lxqylLZXbsBEAX1vEaCVWw.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-lxqylLZXbsBEAX1vEaCVWw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>音轨的鼠标悬停状态和发布时间标示</em></p>
+<p>下载、喜欢、转发、评论、添加到播放列表和分享按钮被图标替代。这些图标已经充分传达了它们的功能，不需要再转译为其他语言。为了保持界面简洁，图标只在鼠标悬停状态显示（但当前歌曲会一直显示）</p>
+<p>一个动态更新的气泡，显示了歌曲在信息流中出现了多久—<a class="link" href="http://cyrilmottier.com/media/2012/01/starting-considering-android-as-a-capable-os/path_info_panel.png"  target="_blank" rel="noopener"
+    >à la Path</a>—在滚动条的旁边，<a class="link" href="http://jsfiddle.net/evansimoni/cu7xgdkd/2/"  target="_blank" rel="noopener"
+    >像这样</a>。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-UOwiG7qeyTa9Z4ckObqhQw.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-UOwiG7qeyTa9Z4ckObqhQw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>我之前提过，我想更了解我在听的艺人，并且发现新艺人。概念设计中的侧边栏突出显示了当前歌曲的艺人，链接指向他们的个人资料。这部分非常有用，尤其当你听的歌来自一条你不熟悉的歌手的转发。它让你一窥他们的档案，却不需要离开信息流。也显示了他们的粉丝数，还有一个选项让你选择是否要关注他们。</p>
+<p>##3. 分享</p>
+<p>分享是SoundCloud用户文化和音乐探索中的重要部分。就目前而言，转发可能是最普遍和有效的功能，让你分享一首歌给你的朋友和粉丝。</p>
+<p>我喜欢转发功能，不过我觉得SoundCloud如果更注重私密分享和私信，会受益良多。更多的站内分享，意味着更多时间在这个网站中度过，还有<a class="link" href="http://www.theverge.com/2014/8/21/6052211/ads-are-coming-to-soundcloud"  target="_blank" rel="noopener"
+    >推荐内容</a>的更多曝光（Spotify在这方面做得相当好）。还有，用户会频繁回到一个有朋友分享交流的平台。</p>
+<p>###存在的问题</p>
+<p>**分享视图并没有鼓励站内分享。**要发信息，你得移到第三个标签，而且并不明显。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-G_whpCAK1fr3P9JSDnC8Aw.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-G_whpCAK1fr3P9JSDnC8Aw.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>首先弹出的是分享视图（左侧），而不是消息视图（右侧）。嵌入的视图（没有显示出来）目前表现不错。</em></p>
+<p>SoundCloud的设计如果鼓励用户优先站内社交，会大有好处。</p>
+<p>###解决方案概念</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-6zp1QLp8RWt1OKtCVmPmrA.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-6zp1QLp8RWt1OKtCVmPmrA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>两个标签的设计优先推荐消息，也保留了站外分享。在同一个视图中包含两者，有助于带来新用户，并让老用户回来看看。</p>
+<p>##4. 消息</p>
+<p>目前的消息系统功能齐备。不过，它还能再简化，来增强信息流和其他页面之间的流动性。</p>
+<p>###概念</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-geI0fEXABhJVJtW7mWbBiQ.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-geI0fEXABhJVJtW7mWbBiQ.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>全部消息（左侧）和一组对话（右侧）</em></p>
+<p>点击导航栏中的消息图标时，消息视图从页面右边<a class="link" href="http://tympanus.net/Development/OffCanvasMenuEffects/sideslide.html"  target="_blank" rel="noopener"
+    >滑出</a>，和OS X Yosemite的<a class="link" href="http://img.wonderhowto.com/img/17/91/63549570322416/0/21-must-know-tips-tricks-for-mac-os-x-yosemite.w654.jpg"  target="_blank" rel="noopener"
+    >通知面板</a>类似。</p>
+<p>对话列表以一种熟悉的视觉形式出现，却不会妨碍左侧的信息流或其他页面。点击一则对话，滑动进入对话视图，非常像智能手机的短信应用。</p>
+<p>##5. 通知</p>
+<p>SoundCloud有两类通知。与账号动态相关的通知，显示在导航栏的一个下拉菜单中。页面上也有弹出式通知来标示歌曲动态。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-UaUD2dyHu_CfyS5y3o7QmA.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-UaUD2dyHu_CfyS5y3o7QmA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>账号动态通知（左侧）和歌曲动态通知（右侧）</em></p>
+<p>###存在的问题</p>
+<p>**账号动态通知不易理解。**用户会收到这几种通知：关注、评论中的@提醒、播放列表的喜欢与转发、上传音乐的喜欢和转发。考虑到Twitter和SoundCloud内容结构相似，我还希望有转发的喜欢与二次转发的通知。</p>
+<p>**歌曲动态通知存在时间太长。**导致它们挡住右侧边栏顶部和下拉菜单中的东西。有时候它们会卡在那里，如果我进入个人档案，通知仍然看得见。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-DTCHs-qAdnfzeMlwmjnEuA.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-DTCHs-qAdnfzeMlwmjnEuA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p><em>我的头像被信息流的错误提示遮住了</em></p>
+<p>**错误提示不会自己消失。**我不知道什么原因，它们频繁出现，能够盖住页面的整个右边（直到超出底部），除非我手动关闭它们，一次还只能关一个。</p>
+<p>###解决方案概念</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-ue49FejWYcL6toi7koQobA.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-ue49FejWYcL6toi7koQobA.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>点击通知按钮时，从右侧滑出一个面板，就像我在消息的概念设计中的那样。这个窗格可以滚动，而且不需要额外的页面来查看通知。</p>
+<p>通知现在包含转发的喜欢和二次转发了。这很有用，因为通知使一个平台具有粘性，并且<a class="link" href="http://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google"  target="_blank" rel="noopener"
+    >巧妙地让人习惯于</a>经常回来看看。另外，知道朋友在听并且沉醉于相同的内容，是很有趣的。</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2014-12/12-12/1-g0-5ThbaCwelMPgVXQzR0A.png" >
+		<img src="https://cdn.victor42.work/posts/2014-12/12-12/1-g0-5ThbaCwelMPgVXQzR0A.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>页面动态的通知样式与其余部分的设计统一，会如我所期望渐隐消失，不会妨碍任何重要东西。</p>
+<p>##结尾的思考</p>
+<p>这绝对不是一系列彻底的批评和概念。我考虑重新设计发现界面、个人资料界面、设置面板和播放列表编辑器。如果可以把歌曲拖拽到右侧边栏的播放列表，那该有多酷？</p>
+<p>我写这篇文章的同时，SoundCloud每月服务超过175000000个听众。显然，他们做了很多正确的事情。他们平台在发现和分发音乐、<a class="link" href="http://www.woodst.com/web-design-development/3-reasons-design-matters-on-a-web-site/"  target="_blank" rel="noopener"
+    >设计事务</a>方面，仍然扮演重要角色。</p>
+<p>我们知道，SoundCloud对于艺人和相似的听众而言，是个冷漠的地方。希望他们开始在网页和移动app上做出出色的改变。我乐于看到更多我认识的人经常使用SoundCloud。</p>
+<p>另：想找一个能写代码的产品经理？<a class="link" href="mailto:evanvincentsimoni@gmail.com" >联系我</a>吧。</p>
+<p><a class="link" href="https://medium.com/adventures-in-consumer-technology/redesigning-soundcloud-d52b4baf17a4"  target="_blank" rel="noopener"
+    >原文链接</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2022 Victor42
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="../../ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
