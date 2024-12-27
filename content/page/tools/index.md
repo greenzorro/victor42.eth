@@ -12,6 +12,12 @@ menu:
 
 我工作与生活中遇会遇到一些问题，有时自己动手做个工具就能满足需求，或许这些小玩意你也用得上。
 
+## 🎵 小熊歌单搬家
+
+[https://playlist.victor42.work/](https://playlist.victor42.work/)
+
+一款浏览器插件，轻松迁移歌单，在主流音乐平台间来去自如。
+
 ## 📊 Excel模板
 
 [https://kdocs.cn/join/ge1fwwi](https://kdocs.cn/join/ge1fwwi)
