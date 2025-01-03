@@ -42,6 +42,12 @@ menu:
 
 能把小图高清放大的ComfyUI工作流，利用AI想象出模糊图像中缺失的细节。
 
+## 🐐 瓴羊刷题助手
+
+[https://greasyfork.org/en/scripts/522657-%E7%93%B4%E7%BE%8A%E5%88%B7%E9%A2%98%E5%8A%A9%E6%89%8B](https://greasyfork.org/en/scripts/522657-%E7%93%B4%E7%BE%8A%E5%88%B7%E9%A2%98%E5%8A%A9%E6%89%8B)
+
+在瓴羊认证考个证，发现它模拟考只保留最近5次考试记录。做了个脚本，考完可以把全部答题记录导出成表格，以供分析错题和制作错题集。
+
 ## 🏭 Excel+PS批量自动出图
 
 [https://github.com/greenzorro/excel-ps-batch-export](https://github.com/greenzorro/excel-ps-batch-export)
