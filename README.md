@@ -2,4 +2,4 @@
 
 A Hugo-based static blog deployed on IPFS.
 
-https://victor42.work/
+https://victor42.eth.limo/

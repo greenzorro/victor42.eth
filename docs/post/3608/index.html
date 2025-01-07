@@ -120,8 +120,8 @@
     
     
     <p>春节期间，想着利用长假来学学之前关注已久的几个技术项目。最高效的学习，就是直接投入使用，边用边查文档，容易产生最直观的理解。整个学习过程，就是一个把博客内容搬进区块链世界的实验。</p>
-<p>当然，最终实验挺成功，我的新博客可以通过<a class="link" href="https://victor42.work/"  target="_blank" rel="noopener"
-    >https://victor42.work/</a>访问。可能在未来的某一天，区块链浏览器普及的时候，博客链接可以去掉.limo小尾巴，回归<a class="link" href="https://victor42.eth/"  target="_blank" rel="noopener"
+<p>当然，最终实验挺成功，我的新博客可以通过<a class="link" href="https://victor42.eth.limo/"  target="_blank" rel="noopener"
+    >https://victor42.eth.limo/</a>访问。可能在未来的某一天，区块链浏览器普及的时候，博客链接可以去掉.limo小尾巴，回归<a class="link" href="https://victor42.eth/"  target="_blank" rel="noopener"
     >https://victor42.eth/</a>，这才是链接本体。</p>
 <p>文章很长，预先说明一下各章包含什么信息，以及看懂它有什么前提：</p>
 <ol>
@@ -391,7 +391,7 @@
 <li><strong>可靠</strong>：只要有你要的内容，任何设备都可以把它传输给你。即使哪天世界大战了，亚马逊云、微软云、阿里云、腾讯云机房全被炸了，微博、微信、抖音服务器也全挂了。只要网是通的，你隔壁小区某住户有这个内容，你也可以通过IPFS从他那里下载到。</li>
 <li><strong>快速</strong>：总是给你找最近的，传输当然就快了。这和BT种子下载没什么两样。</li>
 <li><strong>省资源</strong>：这里指的是节省全人类的服务器资源。传统网络里，你在朋友圈、微博、抖音都发了同一条视频，它们就会分别存到3家的服务器上，各一份。你发多少个平台，就存多少份。有多少人发这同一条内容，那再翻多少倍，这个数字是很恐怖的。但在IPFS的世界，发的次数再多，发的人再多，理论上只需要少量分散存一些在服务器上兜个底，大多是通过个人设备存储和传输。</li>
-<li><strong>防篡改</strong>：一个内容一个编码，即使有人想混淆视听、歪曲历史，他篡改过的内容也会产生新的编码。你拿着原始编码始终能找到最初的内容。所以这个系统很适合忠实记录人类信息时代的历史，避免我另一篇博文里提到的<a class="link" href="https://victor42.work/post/3584/"  target="_blank" rel="noopener"
+<li><strong>防篡改</strong>：一个内容一个编码，即使有人想混淆视听、歪曲历史，他篡改过的内容也会产生新的编码。你拿着原始编码始终能找到最初的内容。所以这个系统很适合忠实记录人类信息时代的历史，避免我另一篇博文里提到的<a class="link" href="https://victor42.eth.limo/post/3584/"  target="_blank" rel="noopener"
     >数字年代的历史断层</a>问题。</li>
 </ol>
 <p>当然，也不是没有劣势：</p>
@@ -533,8 +533,8 @@
 <p>到此为止，你的区块链网站已经全部就绪。域名有了，网站内容也部署到IPFS，域名也指向网站了。但如果你用了区块链域名，就会发现一个问题，在浏览器里输入xxxx.eth根本打不开。</p>
 <p>这不能怪区块链世界。这是因为目前市面上绝大多数浏览器都是传统网络时代的产物，它们只认识ICANN许可的协议和域名。你输入一个非HTTP协议、不在ICANN许可列表里的域名，浏览器自然是打不开的。传统网络世界与区块链世界之间有一道鸿沟，你的网站在区块链世界里已经成形，但传统网络世界够不着它。</p>
 <p>这么严重的问题，当然有人解决，<a class="link" href="https://eth.limo/"  target="_blank" rel="noopener"
-    >eth.limo</a>就是连接两个世界的桥梁。想要使用它，你什么也不用做，只要对外宣传你的网站时，在域名后再加个.limo。就像我的域名，我对外宣传都用的是<a class="link" href="https://victor42.work/"  target="_blank" rel="noopener"
-    >https://victor42.work/</a>，这个网址能被任何浏览器打开。如果你装了Brave等支持区块链网络的浏览器，不带.limo也能打开。但你不能指望你网站的访客都装了这些新式浏览器。</p>
+    >eth.limo</a>就是连接两个世界的桥梁。想要使用它，你什么也不用做，只要对外宣传你的网站时，在域名后再加个.limo。就像我的域名，我对外宣传都用的是<a class="link" href="https://victor42.eth.limo/"  target="_blank" rel="noopener"
+    >https://victor42.eth.limo/</a>，这个网址能被任何浏览器打开。如果你装了Brave等支持区块链网络的浏览器，不带.limo也能打开。但你不能指望你网站的访客都装了这些新式浏览器。</p>
 <p>这个解决方案很神奇，个人觉得脑洞很大。那么，eth.limo到底做了什么呢？</p>
 <p>在传统网络域名那一节认真听讲的朋友，应该马上就能反应过来，victor42.eth和victor42.work有本质区别啊。victor42.eth是以.eth为顶级域名，在下面注册了一个名称叫victor42，我拥有的是主域名。victor42.work是以.limo为顶级域名，主域名eth.limo也不是我的，只有这个名为victor42的子域名才是我的网站。</p>
 <p>显然，eth.limo他们家的服务器做了一些努力，使自己具备进入区块链世界的能力。当你试图访问它们家的子域名时，eth.limo的服务器走过桥梁，进入区块链世界，把网站的内容打包回来，呈递到你面前，像一个外卖小哥。</p>
