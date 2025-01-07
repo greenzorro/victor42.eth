@@ -40,7 +40,7 @@ menu:
 
 [https://github.com/greenzorro/comfyui-workflow-upscaler](https://github.com/greenzorro/comfyui-workflow-upscaler)
 
-能把小图高清放大的ComfyUI工作流，利用AI想象出模糊图像中缺失的细节。
+能把小图高清放大的ComfyUI工作流，利用AI想象出模糊图像中的缺失细节。
 
 ## 🐐 瓴羊刷题助手
 
