@@ -7,3 +7,7 @@ disqusShortname = 'victor_42'
 relativeURLs = true
 canonifyURLs = true
 buildfuture = true
+
+[params.baidu]
+siteVerification = "codeva-dPZLEbdlW1"
+analytics = "2ede7eccb65906c71fa7e902045fbe97"
