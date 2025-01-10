@@ -18,6 +18,12 @@ menu:
 
 一款浏览器插件，轻松迁移歌单，在主流音乐平台间来去自如。
 
+## 📄 Google AI Studio 全局系统提示词
+
+[https://greasyfork.org/en/scripts/523344-google-ai-studio-%E9%BB%98%E8%AE%A4%E7%B3%BB%E7%BB%9F%E6%8F%90%E7%A4%BA%E8%AF%8D](https://greasyfork.org/en/scripts/523344-google-ai-studio-%E9%BB%98%E8%AE%A4%E7%B3%BB%E7%BB%9F%E6%8F%90%E7%A4%BA%E8%AF%8D)
+
+自动设置Google AI Studio的系统提示词，即使新开对话，全局设置的系统提示词也能保留。
+
 ## 📊 Excel模板
 
 [https://kdocs.cn/join/ge1fwwi](https://kdocs.cn/join/ge1fwwi)
