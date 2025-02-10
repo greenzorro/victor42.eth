@@ -236,7 +236,7 @@ RANK(F2,数组,1)
 我把这个表格做了两个可供取用的版本（男宝/女宝），你需要魔法上网，且有Google账号，点击【File - make a copy】就有一份在你自己的Google Sheets里了。
 
 男宝版：  
-[https://docs.google.com/spreadsheets/d/11D3oxCzVtGosAuySidwDeHgoMauo8_b4EhAcirQHNUg/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11D3oxCzVtGosAuySidwDeHgoMauo8_b4EhAcirQHNUg/edit?usp=sharing)
+[https://qvokpfxqsh.feishu.cn/sheets/IHEKsAaRvhZ7eLt3E6Sc1TqinrD](https://qvokpfxqsh.feishu.cn/sheets/IHEKsAaRvhZ7eLt3E6Sc1TqinrD)
 
 女宝版：  
-[https://docs.google.com/spreadsheets/d/1zBMY5MfzmSSqHRrG0yu9Nz-81xkNjJAvximXY9fgVlU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1zBMY5MfzmSSqHRrG0yu9Nz-81xkNjJAvximXY9fgVlU/edit?usp=sharing)
+[https://qvokpfxqsh.feishu.cn/sheets/OYuosUy7jhTaIytmrJEcaI26nRg](https://qvokpfxqsh.feishu.cn/sheets/OYuosUy7jhTaIytmrJEcaI26nRg)
