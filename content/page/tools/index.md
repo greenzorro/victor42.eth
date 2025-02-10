@@ -26,13 +26,13 @@ menu:
 
 ## 📊 Excel模板
 
-[https://kdocs.cn/join/ge1fwwi](https://kdocs.cn/join/ge1fwwi)
+[https://qvokpfxqsh.feishu.cn/drive/folder/UNI6fanLylS2W6dKoo0c1qSlnxh](https://qvokpfxqsh.feishu.cn/drive/folder/UNI6fanLylS2W6dKoo0c1qSlnxh)
 
 自制一些Excel模板，用于计算出门时间、医院排队、家庭现金流等，会持续补充新品。毕竟，我可是Excel狂魔啊。
 
 ## 🖥️ PPT模板
 
-[https://www.kdocs.cn/l/csfWelmrwxS2](https://www.kdocs.cn/l/csfWelmrwxS2)
+[https://qvokpfxqsh.feishu.cn/file/IhvqbC6rMounB6xBIUyc3Fvqntc](https://qvokpfxqsh.feishu.cn/file/IhvqbC6rMounB6xBIUyc3Fvqntc)
 
 自制自用的PPT模板，包含深浅两色。虽然不能拿去开发布会，但好在结构清晰布局丰富，日常内部分享、汇报是够够的了。
 
@@ -74,13 +74,13 @@ menu:
 
 ## 📝 PS图层批量重命名脚本
 
-[https://kdocs.cn/l/cpcpVJ1IxZK8](https://kdocs.cn/l/cpcpVJ1IxZK8)
+[https://qvokpfxqsh.feishu.cn/file/Y3fdbzHMloHMBuxUVV4cl7CJnrO](https://qvokpfxqsh.feishu.cn/file/Y3fdbzHMloHMBuxUVV4cl7CJnrO)
 
 PS经常用于批量制作banner图，结合画板和生成图像资源功能，效率奇高。这就需要按顺序给大量画板重命名。自己写了个PS脚本，一键搞定。
 
 ## 📱 移动端交互组件库
 
-[https://kdocs.cn/l/chQRAJhIfWKd](https://kdocs.cn/l/chQRAJhIfWKd)
+[https://qvokpfxqsh.feishu.cn/file/IowubwVTAoXMF2xGWkDcvCsKn5e](https://qvokpfxqsh.feishu.cn/file/IowubwVTAoXMF2xGWkDcvCsKn5e)
 
 自己制作的交互组件库，Sketch格式，包含移动端常见的各种设计模式。几分钟便能搭出一套App或小程序的核心界面，偷懒利器。
 
