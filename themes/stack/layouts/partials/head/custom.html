@@ -1,18 +1,15 @@
 <!--
 
 -->
-{{ with .Site.Params.baidu.siteVerification }}
-<meta name="baidu-site-verification" content="{{ . }}" />
-{{ end }}
 
-{{ with .Site.Params.baidu.analytics }}
+{{ with .Site.Params.google.analytics }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.google.analytics }}"></script>
 <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?{{ . }}";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ .Site.Params.google.analytics }}');
 </script>
 {{ end }}
