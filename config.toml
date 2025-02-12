@@ -11,6 +11,5 @@ buildfuture = true
 [params.footer]
 since = 2011
 
-[params.baidu]
-siteVerification = "codeva-IrqtgHOt6V"
-analytics = "2ede7eccb65906c71fa7e902045fbe97"
+[params.google]
+analytics = "G-H0F3NJJ4RT"
