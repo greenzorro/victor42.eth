@@ -1,18 +1,12 @@
 <!--
 
 -->
-{{ with .Site.Params.baidu.siteVerification }}
-<meta name="baidu-site-verification" content="{{ . }}" />
-{{ end }}
-
-{{ with .Site.Params.baidu.analytics }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3NJJ4RT"></script>
 <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?{{ . }}";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3NJJ4RT');
 </script>
-{{ end }}
