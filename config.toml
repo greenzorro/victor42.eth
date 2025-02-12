@@ -10,6 +10,3 @@ buildfuture = true
 
 [params.footer]
 since = 2011
-
-[params.google]
-analytics = "G-H0F3NJJ4RT"
