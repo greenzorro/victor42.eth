@@ -1,4 +1,4 @@
-{{ with .Site.Params.google.analytics }}
+{{ if .Site.Params.google.analytics }}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.google.analytics }}"></script>
 <script>
