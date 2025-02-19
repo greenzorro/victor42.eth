@@ -16,19 +16,5 @@ buildfuture = true
 [markup.highlight]
   noClasses = false
 
-[build]
-  writeStats = true
-  
-[build.processing]
-  skip = false
-  
-[build.processing.css]
-  includePaths = ["assets"]
-  
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.85.0"
-
 [params.footer]
 since = 2011
