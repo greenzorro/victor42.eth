@@ -33,15 +33,19 @@
 /* Header layout */
 .article-header-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
     margin-bottom: 10px;
 }
 
+/* Time icon */
+.article-time svg {
+    margin-right: 10px;
+}
+
 /* Language switcher */
 .article-lang-switcher {
-    float: right;
     margin: 0;
 }
 
