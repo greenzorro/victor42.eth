@@ -1,3 +1,6 @@
+
+
+
 baseURL = 'https://victor42.eth.limo/'
 languageCode = 'en-us'
 title = 'Victor42'
@@ -7,6 +10,13 @@ disqusShortname = 'victor_42'
 relativeURLs = true
 canonifyURLs = true
 buildfuture = true
+
+[module]
+  [[module.imports]]
+    path = 'github.com/CaiJimmy/hugo-theme-stack/v3'
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0"
 
 [params.footer]
 since = 2011
