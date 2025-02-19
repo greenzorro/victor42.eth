@@ -8,14 +8,6 @@ relativeURLs = true
 canonifyURLs = true
 buildfuture = true
 
-[build]
-  writeStats = true
-  
-[build.environment]
-  HUGO_VERSION = "0.121.1"
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
