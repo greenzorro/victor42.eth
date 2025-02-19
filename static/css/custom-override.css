@@ -1,0 +1,32 @@
+/* Override styles */
+.article-category a,
+.article-tags a {
+    padding: 0;
+    background: none;
+    color: inherit;
+}
+
+.article-category a::before,
+.article-tags a::before {
+    content: "#";
+    margin-right: 2px;
+    opacity: 0.8;
+}
+
+.article-category a:hover,
+.article-tags a:hover {
+    background: none;
+    color: inherit;
+    opacity: 0.8;
+}
+
+.article-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.article-lang-switcher {
+    float: right;
+    margin: 0;
+} 
