@@ -1,6 +1,6 @@
 {{ define "body-class" }}template-archives{{ end }}
 {{ define "main" }}
-    {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "categories" -}}
+    {{- $taxonomy := $.Site.GetPage "taxonomy" "categories" -}}
     {{- $terms := $taxonomy.Pages -}}
     {{ if $terms }}
     <h2 class="section-title">{{ $taxonomy.Title }}</h2>
@@ -14,8 +14,8 @@
     {{ end }}
 
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-    {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
-    {{ $filtered := ($pages | intersect $notHidden) }}
+    {{ $notHidden := where $pages "Params.hidden" "!=" true }}
+    {{ $filtered := $notHidden }}
 
     {{ range $filtered.GroupByDate "2006" }}
     {{ $id := lower (replace .Key " " "-") }}
