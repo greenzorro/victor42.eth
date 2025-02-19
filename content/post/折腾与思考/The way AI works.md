@@ -3,7 +3,7 @@ title: The way AI works
 description: 和ChatGPT聊了好几天，它自己解释了它是如何学习和运用语言的。
 image: 
 date: 2023-02-21 09:49:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3632
 ---
 

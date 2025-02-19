@@ -3,7 +3,7 @@ title: The tech implosion
 description: A dream of parallel universe.
 image: 
 date: 2022-02-10 10:36:00
-categories: 梦境与幻想
+categories: 梦境与幻想 Dream
 url: /post/3607
 ---
 

@@ -3,7 +3,7 @@ title: material design学习笔记
 description: 
 image: 
 date: 2014-12-28 12:36:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3416
 ---
 

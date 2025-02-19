@@ -3,7 +3,7 @@ title: 商业站升级小记 - UI篇
 description: 
 image: 
 date: 2012-09-20 19:36:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/1852
 ---
 

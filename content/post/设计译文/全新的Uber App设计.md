@@ -3,7 +3,7 @@ title: 全新的Uber App设计
 description: 
 image: 
 date: 2016-12-04 13:33:27
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3532
 ---
 

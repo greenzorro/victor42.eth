@@ -3,7 +3,7 @@ title: AI生物学家
 description: 我用AI给自己造了一位生物学家，但它也被水产市场难倒了。
 image: https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg
 date: 2024-03-20 15:06:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3649
 ---
 

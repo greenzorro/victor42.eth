@@ -3,7 +3,7 @@ title: 易停车icon变形记
 description: 
 image: 
 date: 2014-04-27 13:53:52
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3240
 ---
 

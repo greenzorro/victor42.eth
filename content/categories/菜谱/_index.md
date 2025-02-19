@@ -1,7 +1,7 @@
 ---
-title: "菜谱"
+title: "菜谱 Food"
 description: "“然后把鱼皮煎至两面脱落……”"
-slug: "菜谱"
+slug: "菜谱 Food"
 image: "https://cdn.victor42.work/categories/food.jpg"
 style:
     background: "#CF4444"

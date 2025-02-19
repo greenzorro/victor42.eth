@@ -3,7 +3,7 @@ title: 活力四射的APP日历组件设计
 description: 
 image: 
 date: 2013-12-15 09:51:17
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/2989
 ---
 
