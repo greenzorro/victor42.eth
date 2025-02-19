@@ -1,4 +1,3 @@
-
 baseURL = 'https://victor42.eth.limo/'
 languageCode = 'en-us'
 title = 'Victor42'
@@ -8,6 +7,14 @@ disqusShortname = 'victor_42'
 relativeURLs = true
 canonifyURLs = true
 buildfuture = true
+
+[build]
+  writeStats = true
+  
+[build.environment]
+  HUGO_VERSION = "0.121.1"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
 
 [markup]
   [markup.goldmark]
