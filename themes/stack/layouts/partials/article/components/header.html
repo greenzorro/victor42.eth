@@ -36,10 +36,6 @@
 
     <div class="article-details">
         <div class="article-header-wrapper">
-            {{ if and (not .IsSection) .Params.translationKey }}
-                {{ partial "article/components/lang-switcher" . }}
-            {{ end }}
-
             {{ if .Params.categories }}
                 <div class="article-category">
                     {{ range (.GetTerms "categories") }}
@@ -48,6 +44,10 @@
                         </a>
                     {{ end }}
                 </div>
+            {{ end }}
+
+            {{ if and (not .IsSection) .Params.translationKey }}
+                {{ partial "article/components/lang-switcher" . }}
             {{ end }}
         </div>
 
