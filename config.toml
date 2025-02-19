@@ -1,6 +1,4 @@
 
-
-
 baseURL = 'https://victor42.eth.limo/'
 languageCode = 'en-us'
 title = 'Victor42'
@@ -11,16 +9,6 @@ relativeURLs = true
 canonifyURLs = true
 buildfuture = true
 
-[module]
-  [[module.imports]]
-    path = 'github.com/CaiJimmy/hugo-theme-stack/v3'
-  [module.hugoVersion]
-    extended = true
-    min = "0.87.0"
-
-[params.footer]
-since = 2011
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -28,3 +16,6 @@ since = 2011
 
 [markup.highlight]
   noClasses = false
+
+[params.footer]
+since = 2011
