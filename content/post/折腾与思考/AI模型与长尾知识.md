@@ -3,7 +3,7 @@ title: AI模型与长尾知识
 description: 一个自身能力极强的AI，并不是灵丹妙药。
 image: 
 date: 2023-10-10 23:38:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3643
 ---
 

@@ -3,7 +3,7 @@ title: UI中国专访
 description: 
 image: 
 date: 2016-01-04 11:28:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3478
 ---
 
@@ -12,7 +12,7 @@ url: /post/3478
 *采访：UI君 肚脐美少年&*
 
 Victor，也叫可乐橙，UI中国会员，IFEC译文团队核心成员之一，每周发布UI设计领域的译文。
-欢迎登录UI中国网站 [www.ui.cn](www.ui.cn)，进入我的个人主页（[http://i.ui.cn/ucenter/93876.html](http://i.ui.cn/ucenter/93876.html)）阅读UI设计译文干货！
+欢迎登录UI中国网站 [www.ui.cn](www.ui.cn)，进入我的个人主页（[http://i.ui.cn/ucenter/93876.html](http://i.ui.cn/ucenter/93876.html)）阅读UI设计译文 Design干货！
 
 采访可乐橙的过程，有点好像高考前夕家长会请一些大学生在家一对一辅导小孩的状态。当然他是老师我是学生，有问有答而且凡事都会告诉你为什么。
  

@@ -3,7 +3,7 @@ title: Excel自制儿童生长曲线
 description: Excel狂魔上线，看完你会觉得我们可能用的不是同一个Excel
 image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
 date: 2023-08-03 14:30:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3641
 ---
 

@@ -3,7 +3,7 @@ title: Material design无需照搬Google
 description: 
 image: 
 date: 2015-05-03 12:21:00
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3437
 ---
 

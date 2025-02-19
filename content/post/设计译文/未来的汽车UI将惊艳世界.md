@@ -3,7 +3,7 @@ title: 未来的汽车UI将惊艳世界
 description: 
 image: 
 date: 2016-10-16 00:38:14
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3524
 ---
 

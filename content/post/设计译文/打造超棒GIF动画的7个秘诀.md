@@ -3,7 +3,7 @@ title: 打造超棒GIF动画的7个秘诀
 description: 
 image: 
 date: 2014-12-21 21:17:00
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3415
 ---
 

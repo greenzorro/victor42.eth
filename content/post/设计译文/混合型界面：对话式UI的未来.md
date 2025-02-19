@@ -3,7 +3,7 @@ title: 混合型界面：对话式UI的未来
 description: 
 image: 
 date: 2017-01-08 12:46:00
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3536
 ---
 

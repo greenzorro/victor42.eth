@@ -3,7 +3,7 @@ title: iOS7设计指南:轻松上手
 description: 
 image: 
 date: 2013-10-13 02:11:00
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/2832
 ---
 
