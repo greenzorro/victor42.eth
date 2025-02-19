@@ -3,8 +3,8 @@
 .article-category a,
 .article-tags a {
     padding: 0;
-    background: none;
-    color: inherit;
+    background: none !important;
+    color: var(--accent-color) !important;
     font-size: 1.4rem;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -20,8 +20,7 @@
 
 .article-category a:hover,
 .article-tags a:hover {
-    background: none;
-    color: inherit;
+    background: none !important;
     opacity: 0.8;
 }
 
@@ -33,9 +32,7 @@
 
 /* Header layout */
 .article-header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: block;
 }
 
 /* Language switcher */
