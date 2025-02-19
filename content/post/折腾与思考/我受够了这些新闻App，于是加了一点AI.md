@@ -3,7 +3,7 @@ title: 我受够了这些新闻App，于是加了一点AI
 description: 用手机编程，一不小心搞出了个市面上没有的东西。
 image: https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg
 date: 2024-08-13 13:31:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3652
 ---
 

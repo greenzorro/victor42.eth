@@ -3,7 +3,7 @@ title: LOGO设计终极指南【下篇】
 description: 
 image: 
 date: 2014-04-06 13:05:05
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3186
 ---
 

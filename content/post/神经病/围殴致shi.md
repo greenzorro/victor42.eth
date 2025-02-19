@@ -3,7 +3,7 @@ title: 围殴致shi
 description: 
 image: 
 date: 2012-05-26 16:31:00
-categories: 神经病
+categories: 神经病 Humor
 url: /post/1614
 ---
 

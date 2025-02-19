@@ -3,7 +3,7 @@ title: Harry Beck，伦敦地铁图背后的天才设计师
 description: 
 image: 
 date: 2016-03-20 12:33:50
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3489
 ---
 

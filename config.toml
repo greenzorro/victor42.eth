@@ -10,3 +10,11 @@ buildfuture = true
 
 [params.footer]
 since = 2011
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[markup.highlight]
+  noClasses = false

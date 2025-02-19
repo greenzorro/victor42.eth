@@ -3,7 +3,7 @@ title: 入门:移动APP中的各种导航
 description: 
 image: 
 date: 2014-05-11 13:25:16
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3328
 ---
 

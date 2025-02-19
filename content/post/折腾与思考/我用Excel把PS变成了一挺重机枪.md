@@ -3,7 +3,7 @@ title: 我用Excel把PS变成了一挺重机枪
 description: 一个精通Excel的设计师给公司省钱的故事。
 image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
 date: 2024-06-13 14:05:00
-categories: 折腾与思考
+categories: 折腾与思考 Geek
 url: /post/3650
 ---
 

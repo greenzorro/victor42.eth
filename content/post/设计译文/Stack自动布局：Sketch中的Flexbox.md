@@ -3,7 +3,7 @@ title: Stack自动布局：Sketch中的Flexbox
 description: 
 image: 
 date: 2017-02-26 00:57:13
-categories: 设计译文
+categories: 设计译文 Design
 url: /post/3541
 ---
 
