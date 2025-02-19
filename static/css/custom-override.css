@@ -44,6 +44,11 @@
     margin-right: 10px;
 }
 
+/* Menu icon */
+.menu li svg {
+    margin-right: 10px;
+}
+
 /* Language switcher */
 .article-lang-switcher {
     margin: 0;
