@@ -11,6 +11,10 @@ buildfuture = true
 [params]
 mainSections = ["post"]
 
+[taxonomies]
+category = "categories"
+tag = "tags"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
