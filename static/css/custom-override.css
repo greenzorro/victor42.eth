@@ -1,9 +1,14 @@
 /* Override styles */
+/* Category and tag styles */
 .article-category a,
 .article-tags a {
     padding: 0;
     background: none;
     color: inherit;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
 }
 
 .article-category a::before,
@@ -20,13 +25,63 @@
     opacity: 0.8;
 }
 
+.article-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Header layout */
 .article-header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
+/* Language switcher */
 .article-lang-switcher {
     float: right;
     margin: 0;
+}
+
+.article-lang-switcher .lang-switch-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    min-width: 80px;
+    padding: 0 16px;
+    background-color: var(--card-background);
+    border: 1.5px solid var(--accent-color);
+    border-radius: 18px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.article-lang-switcher .lang-switch-button:hover {
+    background-color: var(--accent-color);
+    color: var(--accent-color-text);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-lang-switcher .lang-switch-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.article-lang-switcher .lang-switch-button .lang-switch-icon {
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.article-lang-switcher .lang-switch-button .lang-switch-text {
+    font-weight: 500;
+    letter-spacing: 0.3px;
 } 
