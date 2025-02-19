@@ -9,6 +9,13 @@ relativeURLs = true
 canonifyURLs = true
 buildfuture = true
 
+[params]
+mainSections = ["post", "post-en"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
