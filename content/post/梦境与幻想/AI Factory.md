@@ -3,7 +3,7 @@ title: AI Factory
 description: A weird dream.
 image: 
 date: 2021-06-17 11:15:44
-categories: 梦境与幻想 Dream
+categories: 梦境与幻想-Dream
 url: /post/3599
 ---
 

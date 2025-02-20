@@ -3,13 +3,13 @@ title: Harry Beck，伦敦地铁图背后的天才设计师
 description: 
 image: 
 date: 2016-03-20 12:33:50
-categories: 设计译文 Design
+categories: 设计译文-Design
 url: /post/3489
 ---
 
 **[国外设计第126期]**
 
-译者注：在上一期[《11名顶尖设计师的职业忠告》](http://colachan.com/post/3487)中，我们提到过伦敦地铁图的设计，这是人们首次通过设计抽象化绘制出的地图，将错综复杂的系统变成了易于理解的网络。关于这个话题，我意犹未尽，本期带来这篇地铁图背后的故事，还有它的传奇作者。
+译者注：在上一期[《11名顶尖设计师的职业忠告》](http://victor42.eth.limo/post/3487)中，我们提到过伦敦地铁图的设计，这是人们首次通过设计抽象化绘制出的地图，将错综复杂的系统变成了易于理解的网络。关于这个话题，我意犹未尽，本期带来这篇地铁图背后的故事，还有它的传奇作者。
 
 ![](https://cdn2.vox-cdn.com/thumbor/a640L3bRK4XmgzVNzN4ru_eFML0=/0x180:1100x913/1310x873/cdn0.vox-cdn.com/assets/2396021/beck_image.png)
 
