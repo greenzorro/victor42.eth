@@ -3,7 +3,7 @@ title: UI中国专访
 description: 
 image: 
 date: 2016-01-04 11:28:00
-categories: 折腾与思考 Geek
+categories: 折腾与思考-Geek
 url: /post/3478
 ---
 
@@ -12,7 +12,7 @@ url: /post/3478
 *采访：UI君 肚脐美少年&*
 
 Victor，也叫可乐橙，UI中国会员，IFEC译文团队核心成员之一，每周发布UI设计领域的译文。
-欢迎登录UI中国网站 [www.ui.cn](www.ui.cn)，进入我的个人主页（[http://i.ui.cn/ucenter/93876.html](http://i.ui.cn/ucenter/93876.html)）阅读UI设计译文 Design干货！
+欢迎登录UI中国网站 [www.ui.cn](www.ui.cn)，进入我的个人主页（[http://i.ui.cn/ucenter/93876.html](http://i.ui.cn/ucenter/93876.html)）阅读UI设计译文-Design干货！
 
 采访可乐橙的过程，有点好像高考前夕家长会请一些大学生在家一对一辅导小孩的状态。当然他是老师我是学生，有问有答而且凡事都会告诉你为什么。
  
@@ -65,7 +65,7 @@ Victor，也叫可乐橙，UI中国会员，IFEC译文团队核心成员之一�
 
 ![](https://cdn.victor42.work/posts/2016-01/01-04/2.jpg)
 
-#### UI中国：你写了一篇[关于如何翻译UI设计文章背后的故事分享](http://colachan.com/post/3420)，为什么要这么做？
+#### UI中国：你写了一篇[关于如何翻译UI设计文章背后的故事分享](http://victor42.eth.limo/post/3420)，为什么要这么做？
 
 **我：**除了翻译，我有空就会写些文章，什么都写（虽然现在少了，不过以后会恢复的，最近要忙很长一段时间）。
 
@@ -127,7 +127,7 @@ UI是一种不断演进、随时变化的设计。UI设计与具体业务能够�
 
 ### 最后~
 
-谈起了他做个人网站的缘由。可乐橙笑谈是因为同事怂恿为了更好的找工作加上功利心驱使才有了[colachan.com](http://colachan.com/)的产生。
+谈起了他做个人网站的缘由。可乐橙笑谈是因为同事怂恿为了更好的找工作加上功利心驱使才有了[victor42.eth.limo](http://victor42.eth.limo/)的产生。
 
 不过后来因为个人的原因，这个逐渐成了他的私密花园，内容都是主人精心修缮但又在自然而然的情况下枝繁叶茂，阳光有时雨露有时，简单且芬芳。三三两两前去拜访的人自然懂得主人的心意。
  

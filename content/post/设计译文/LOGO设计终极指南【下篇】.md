@@ -3,13 +3,13 @@ title: LOGO设计终极指南【下篇】
 description: 
 image: 
 date: 2014-04-06 13:05:05
-categories: 设计译文 Design
+categories: 设计译文-Design
 url: /post/3186
 ---
 
 **[国外设计第35期]**
 
-LOGO设计终极指南系列：[上篇](http://colachan.com/3162.html) [中篇](http://colachan.com/3177.html) [下篇](http://colachan.com/3186.html)
+LOGO设计终极指南系列：[上篇](http://victor42.eth.limo/3162.html) [中篇](http://victor42.eth.limo/3177.html) [下篇](http://victor42.eth.limo/3186.html)
 
 ## 如何处理最终稿
 

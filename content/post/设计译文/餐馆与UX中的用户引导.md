@@ -3,7 +3,7 @@ title: 餐馆与UX中的用户引导
 description: 
 image: 
 date: 2017-06-11 00:03:50
-category: 设计译文 Design
+category: 设计译文-Design
 url: /post/3555
 ---
 

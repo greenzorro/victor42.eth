@@ -3,7 +3,7 @@ title: LOGO设计终极指南【上篇】
 description: 
 image: 
 date: 2014-03-23 10:58:35
-categories: 设计译文 Design
+categories: 设计译文-Design
 url: /post/3162
 ---
 
@@ -11,7 +11,7 @@ url: /post/3162
 
 我注：文章是好文章，弃之不舍，不过实在太太太长，所以我决定拆成3篇
 
-LOGO设计终极指南系列：[上篇](http://colachan.com/3162.html) [中篇](http://colachan.com/3177.html) [下篇](http://colachan.com/3186.html)
+LOGO设计终极指南系列：[上篇](http://victor42.eth.limo/3162.html) [中篇](http://victor42.eth.limo/3177.html) [下篇](http://victor42.eth.limo/3186.html)
 
 [![logotype](http://netdna.webdesignerdepot.com/uploads/2014/01/logotypesky.jpg "The ultimate guide to logo design photo")](http://www.behance.net/gallery/Sky-Production/13525865)
 

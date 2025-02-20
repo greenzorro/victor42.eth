@@ -99,4 +99,9 @@
 .template-archives main.main > h2:first-child,
 .template-archives main.main > div.subsection-list:first-of-type {
     display: none;
+}
+
+/* Hide section image in category pages */
+.section-card .section-image {
+    display: none;
 } 

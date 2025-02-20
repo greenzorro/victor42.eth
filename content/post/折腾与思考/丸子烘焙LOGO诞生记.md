@@ -3,7 +3,7 @@ title: 丸子烘焙LOGO诞生记
 description: 
 image: 
 date: 2013-04-23 21:21:00
-categories: 折腾与思考 Geek
+categories: 折腾与思考-Geek
 url: /post/2470
 ---
 
