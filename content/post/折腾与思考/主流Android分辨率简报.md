@@ -3,7 +3,7 @@ title: 主流Android分辨率简报
 description: 
 image: 
 date: 2014-03-29 23:23:00
-categories: 折腾与思考 Geek
+categories: 折腾与思考-Geek
 url: /post/3208
 ---
 

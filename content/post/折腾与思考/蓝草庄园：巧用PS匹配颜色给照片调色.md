@@ -3,11 +3,11 @@ title: 蓝草庄园:巧用PS匹配颜色给照片调色
 description: 
 image: 
 date: 2014-10-23 23:16:58
-categories: 折腾与思考 Geek
+categories: 折腾与思考-Geek
 url: /post/3398
 ---
 
-今天心血来潮给[以前做过的梦](http://colachan.com/post/3386)配了一张图。梦中那个叫做蓝草庄园的地方，是未来世界的一处度假圣地，漫山遍野盛开着蓝紫色的草。
+今天心血来潮给[以前做过的梦](http://victor42.eth.limo/post/3386)配了一张图。梦中那个叫做蓝草庄园的地方，是未来世界的一处度假圣地，漫山遍野盛开着蓝紫色的草。
 
 ![](https://cdn.victor42.work/posts/2014-10/10-23/11.jpg)
 

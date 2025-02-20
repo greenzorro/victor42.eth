@@ -3,7 +3,7 @@ title: UI动画可不是卡通片
 description: 
 image: 
 date: 2015-10-11 12:41:00
-categories: 设计译文 Design
+categories: 设计译文-Design
 url: /post/3464
 ---
 

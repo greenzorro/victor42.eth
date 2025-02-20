@@ -3,7 +3,7 @@ title: Material Design只是独辟蹊径，并未全面胜出
 description: 
 image: 
 date: 2015-08-02 00:04:00
-categories: 设计译文 Design
+categories: 设计译文-Design
 url: /post/3453
 ---
 

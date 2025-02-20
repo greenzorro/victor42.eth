@@ -3,7 +3,7 @@ title: e-CNY数字人民币
 description: 杭州试点数字人民币，上手体验了一下，发现要清楚理解这个概念还是得费一番功夫。
 image: 
 date: 2022-04-08 22:46:00
-categories: 折腾与思考 Geek
+categories: 折腾与思考-Geek
 url: /post/3610
 ---
 

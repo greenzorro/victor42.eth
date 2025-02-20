@@ -3,7 +3,7 @@ title: SoundCloud再设计
 description: 
 image: 
 date: 2014-12-14 12:53:00
-categories: 设计译文 Design
+categories: 设计译文-Design
 url: /post/3413
 ---
 

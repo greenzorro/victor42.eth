@@ -3,13 +3,13 @@ title: LOGO设计终极指南【中篇】
 description: 
 image: 
 date: 2014-03-30 00:25:32
-categories: 设计译文 Design
+categories: 设计译文-Design
 url: /post/3177
 ---
 
 **[国外设计第34期]**
 
-LOGO设计终极指南系列：[上篇](http://colachan.com/3162.html)[中篇](http://colachan.com/3177.html)[下篇](http://colachan.com/3186.html)
+LOGO设计终极指南系列：[上篇](http://victor42.eth.limo/3162.html)[中篇](http://victor42.eth.limo/3177.html)[下篇](http://victor42.eth.limo/3186.html)
 
 ## 纸，还是屏幕？
 

@@ -3,8 +3,9 @@ title: 我用Excel把PS变成了一挺重机枪
 description: 一个精通Excel的设计师给公司省钱的故事。
 image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
 date: 2024-06-13 14:05:00
-categories: 折腾与思考 Geek
+categories: 折腾与思考-Geek
 url: /post/3650
+translationKey: 3650
 ---
 
 听说隔壁市场部正在头疼，新版课程封面图设计被老板认可了，接下来要把平台上现有封面图全部更新掉。总共800多张图，不是那种简单替换文字就可以的，有很多细微的变化。市场部就一个设计师，忙着呢，自己做不现实。外包出去一张20就是16000，预算不够。
