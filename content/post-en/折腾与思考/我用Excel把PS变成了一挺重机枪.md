@@ -67,7 +67,7 @@ Obvious ones. Adding the variations, the real list was:
 ![](https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
 
 -   Filename: Controls the output filename, arranged logically.
--   Category: The dozen-ish categories, shown at the top, determining the template.
+-   categories: The dozen-ish categories, shown at the top, determining the template.
 -   Title Line 1: Titles can be one or two lines, split for manual line breaks.
 -   Title Line 2: Optional; if blank, it's a single-line title.
 -   Description: The optional keywords, determining if the box below is shown.
