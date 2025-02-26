@@ -4,7 +4,7 @@ description: How a designer with Excel skills saved his company a bundle.
 image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
 date: 2024-06-13 14:05:00
 categories: 折腾与思考-Geek
-url: /post/en/3650
+url: /post/en/en/3650
 translationKey: 3650
 ---
 
