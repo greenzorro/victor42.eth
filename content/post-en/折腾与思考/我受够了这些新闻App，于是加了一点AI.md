@@ -4,7 +4,7 @@ description: I built a non-existent app, coding on my phone.
 image: https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg
 date: 2024-08-13 13:31:00
 categories: 折腾与思考-Geek
-url: /post/en/3652
+url: /post/en/en/3652
 translationKey: 3652
 ---
 

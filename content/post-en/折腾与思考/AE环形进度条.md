@@ -4,7 +4,8 @@ description:
 image:
 date: 2015-02-10 15:16:00
 categories: 折腾与思考-Geek
-url: /post/3424
+url: /post/en/en/3424
+translationKey: 3424
 ---
 
 [Update: Simpler methods exist (see the end of the post). However, the techniques here are still valuable practice.]

@@ -5,7 +5,7 @@ image: https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.
 date: 2024-08-13 13:31:00
 categories: 折腾与思考-Geek
 url: /post/3652
-translationKey: 3652
+translationKey: en
 ---
 
 **阅读提示：本文涉及Tasker、AI、前端、自动化，有一定技术门槛。**
