@@ -4,7 +4,7 @@ description: I'm an Excel geek. After reading this, you might think we use diffe
 image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
 date: 2023-08-03 14:30:00
 categories: 折腾与思考-Geek
-url: /post/en/en/3641
+url: /post/en/3641
 translationKey: 3641
 ---
 
