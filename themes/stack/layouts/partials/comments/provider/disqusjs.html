@@ -5,9 +5,8 @@
 {{- $disqusjs := .Site.Params.Comments.disqusjs -}}
 {{- if and (not $pc.Disable) (and $disqusjs.Shortname $disqusjs.ApiKey) -}}
 
+<!-- 本地调试时 resources.ToCSS 换成 css.Sass -->
 {{- $style := resources.Get "scss/partials/comments/disqusjs.scss" | resources.ToCSS | minify -}}
-<!-- 本地调试时换成下面这行 -->
-<!-- {{- $style := resources.Get "scss/partials/comments/disqusjs.scss" | css.Sass | minify -}} -->
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 <div class="disqus-container">
