@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='[国外设计第13期]
+Beam Day iOS7让我们重新认识了渐变效果，老实说，渐变是设计师手法中最简单的装饰之一。它有许多变化，既可以让设计出彩，反过来也可以毁了设计，关键就取决于色彩的选用和整体风格。除此之外，和大多装饰手段一样，它也会随着当前潮流趋势变化
+近日的主流，是平滑温和的霓虹色渐变，配合近乎发光的浅色文字和简单易懂的字体，并通常伴随着低透明度的半透明层。如此细腻的结合很自然地能给任何UI增加一分精致和微妙
+我们这里不仅仅讨论这种渐变样式，它毫无疑问非常流行，我们也讨论其他基础且广为流传的渐变实现方法。其中包含的方法更多被用作一种差异化的手段，它的主要目标是在某种特定视觉风格中承载内容
+首先，我们来欣赏一些超凡脱俗、基于当红流行渐变风格的APP界面
+移动APP中的渐变效果 我们开篇选用Michael Shanks华丽柔和、基于渐变的iOS7锁屏界面设计。极简的屏幕元素只包含必须的信息，通过优雅的浅色文字实现，精妙的阴影和半透明条作为强调
+iOS7 Lockscreen by Michael Shanks Tommy Borgen的Sense。设计师也采用了极简的UI设计。界面看起来简单却相当精美。中央轻微模糊的圆形轮廓漂亮地和其中微妙的细字体组合，与平滑的背景也搭配良好
+Sense by Tommy Borgen Ross Popoff-Walker的个人站点Idea v1.1。设计师借鉴了破晓天空的渐变色，用非凡的泼溅手法来展现。背景为白色的图形和文字提供了坚实的底色，很好地突出强调了它们。大量的留白和浅灰纯色页头页尾（主要包含导航项）漂亮地与主题结合
+Personal Site Yasser Achachi的界面设计看起来绝对惊艳且引人注目。奇妙的万花筒色用在背景上，配合浅色文字、像素级优化的小图标、半透明条和彩色色块，巧妙地打造了一款相当激动人心的界面
+Screens by Yasser Achachi Kyung Min Kim的Coloring Clock依靠炽热的火焰色渐变背景，结合粗笔划的文字组合和大量留白。精美天然的配色方案很自然地点缀了整个界面。你也可以定制自己喜欢的渐变主题，来给界面赋予一些个人色彩
+Coloring Clock by Kyung Min Kim '><title>光彩夺目的柔滑渐变APP界面</title>
+
+<link rel='canonical' href='http://localhost:1313/post/2823/'>
+
+
+
+<link rel="stylesheet" href="../../scss/style.min.594112fc94b40e17b5a86b4ee206a0077216dab56dccf577eab6840808ae9f28.css">
+<link rel="stylesheet" href="../../css/custom-override.css"><meta property='og:title' content='光彩夺目的柔滑渐变APP界面'>
+<meta property='og:description' content='[国外设计第13期]
+Beam Day iOS7让我们重新认识了渐变效果，老实说，渐变是设计师手法中最简单的装饰之一。它有许多变化，既可以让设计出彩，反过来也可以毁了设计，关键就取决于色彩的选用和整体风格。除此之外，和大多装饰手段一样，它也会随着当前潮流趋势变化
+近日的主流，是平滑温和的霓虹色渐变，配合近乎发光的浅色文字和简单易懂的字体，并通常伴随着低透明度的半透明层。如此细腻的结合很自然地能给任何UI增加一分精致和微妙
+我们这里不仅仅讨论这种渐变样式，它毫无疑问非常流行，我们也讨论其他基础且广为流传的渐变实现方法。其中包含的方法更多被用作一种差异化的手段，它的主要目标是在某种特定视觉风格中承载内容
+首先，我们来欣赏一些超凡脱俗、基于当红流行渐变风格的APP界面
+移动APP中的渐变效果 我们开篇选用Michael Shanks华丽柔和、基于渐变的iOS7锁屏界面设计。极简的屏幕元素只包含必须的信息，通过优雅的浅色文字实现，精妙的阴影和半透明条作为强调
+iOS7 Lockscreen by Michael Shanks Tommy Borgen的Sense。设计师也采用了极简的UI设计。界面看起来简单却相当精美。中央轻微模糊的圆形轮廓漂亮地和其中微妙的细字体组合，与平滑的背景也搭配良好
+Sense by Tommy Borgen Ross Popoff-Walker的个人站点Idea v1.1。设计师借鉴了破晓天空的渐变色，用非凡的泼溅手法来展现。背景为白色的图形和文字提供了坚实的底色，很好地突出强调了它们。大量的留白和浅灰纯色页头页尾（主要包含导航项）漂亮地与主题结合
+Personal Site Yasser Achachi的界面设计看起来绝对惊艳且引人注目。奇妙的万花筒色用在背景上，配合浅色文字、像素级优化的小图标、半透明条和彩色色块，巧妙地打造了一款相当激动人心的界面
+Screens by Yasser Achachi Kyung Min Kim的Coloring Clock依靠炽热的火焰色渐变背景，结合粗笔划的文字组合和大量留白。精美天然的配色方案很自然地点缀了整个界面。你也可以定制自己喜欢的渐变主题，来给界面赋予一些个人色彩
+Coloring Clock by Kyung Min Kim '>
+<meta property='og:url' content='http://localhost:1313/post/2823/'>
+<meta property='og:site_name' content='Victor42'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2013-10-06T16:25:34&#43;00:00'/><meta property='article:modified_time' content='2013-10-06T16:25:34&#43;00:00'/>
+        <meta property='og:updated_time' content='2013-10-06T16:25:34&#43;00:00'/>
+<meta name="twitter:title" content="光彩夺目的柔滑渐变APP界面">
+<meta name="twitter:description" content="[国外设计第13期]
+Beam Day iOS7让我们重新认识了渐变效果，老实说，渐变是设计师手法中最简单的装饰之一。它有许多变化，既可以让设计出彩，反过来也可以毁了设计，关键就取决于色彩的选用和整体风格。除此之外，和大多装饰手段一样，它也会随着当前潮流趋势变化
+近日的主流，是平滑温和的霓虹色渐变，配合近乎发光的浅色文字和简单易懂的字体，并通常伴随着低透明度的半透明层。如此细腻的结合很自然地能给任何UI增加一分精致和微妙
+我们这里不仅仅讨论这种渐变样式，它毫无疑问非常流行，我们也讨论其他基础且广为流传的渐变实现方法。其中包含的方法更多被用作一种差异化的手段，它的主要目标是在某种特定视觉风格中承载内容
+首先，我们来欣赏一些超凡脱俗、基于当红流行渐变风格的APP界面
+移动APP中的渐变效果 我们开篇选用Michael Shanks华丽柔和、基于渐变的iOS7锁屏界面设计。极简的屏幕元素只包含必须的信息，通过优雅的浅色文字实现，精妙的阴影和半透明条作为强调
+iOS7 Lockscreen by Michael Shanks Tommy Borgen的Sense。设计师也采用了极简的UI设计。界面看起来简单却相当精美。中央轻微模糊的圆形轮廓漂亮地和其中微妙的细字体组合，与平滑的背景也搭配良好
+Sense by Tommy Borgen Ross Popoff-Walker的个人站点Idea v1.1。设计师借鉴了破晓天空的渐变色，用非凡的泼溅手法来展现。背景为白色的图形和文字提供了坚实的底色，很好地突出强调了它们。大量的留白和浅灰纯色页头页尾（主要包含导航项）漂亮地与主题结合
+Personal Site Yasser Achachi的界面设计看起来绝对惊艳且引人注目。奇妙的万花筒色用在背景上，配合浅色文字、像素级优化的小图标、半透明条和彩色色块，巧妙地打造了一款相当激动人心的界面
+Screens by Yasser Achachi Kyung Min Kim的Coloring Clock依靠炽热的火焰色渐变背景，结合粗笔划的文字组合和大量留白。精美天然的配色方案很自然地点缀了整个界面。你也可以定制自己喜欢的渐变主题，来给界面赋予一些个人色彩
+Coloring Clock by Kyung Min Kim ">
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http:\/\/localhost:1313\/post\/2823\/"
+    },
+    "headline": "光彩夺目的柔滑渐变APP界面",
+    "description": "[国外设计第13期]\nBeam Day iOS7让我们重新认识了渐变效果，老实说，渐变是设计师手法中最简单的装饰之一。它有许多变化，既可以让设计出彩，反过来也可以毁了设计，关键就取决于色彩的选用和整体风格。除此之外，和大多装饰手段一样，它也会随着当前潮流趋势变化\n近日的主流，是平滑温和的霓虹色渐变，配合近乎发光的浅色文字和简单易懂的字体，并通常伴随着低透明度的半透明层。如此细腻的结合很自然地能给任何UI增加一分精致和微妙\n我们这里不仅仅讨论这种渐变样式，它毫无疑问非常流行，我们也讨论其他基础且广为流传的渐变实现方法。其中包含的方法更多被用作一种差异化的手段，它的主要目标是在某种特定视觉风格中承载内容\n首先，我们来欣赏一些超凡脱俗、基于当红流行渐变风格的APP界面\n移动APP中的渐变效果 我们开篇选用Michael Shanks华丽柔和、基于渐变的iOS7锁屏界面设计。极简的屏幕元素只包含必须的信息，通过优雅的浅色文字实现，精妙的阴影和半透明条作为强调\niOS7 Lockscreen by Michael Shanks Tommy Borgen的Sense。设计师也采用了极简的UI设计。界面看起来简单却相当精美。中央轻微模糊的圆形轮廓漂亮地和其中微妙的细字体组合，与平滑的背景也搭配良好\nSense by Tommy Borgen Ross Popoff-Walker的个人站点Idea v1.1。设计师借鉴了破晓天空的渐变色，用非凡的泼溅手法来展现。背景为白色的图形和文字提供了坚实的底色，很好地突出强调了它们。大量的留白和浅灰纯色页头页尾（主要包含导航项）漂亮地与主题结合\nPersonal Site Yasser Achachi的界面设计看起来绝对惊艳且引人注目。奇妙的万花筒色用在背景上，配合浅色文字、像素级优化的小图标、半透明条和彩色色块，巧妙地打造了一款相当激动人心的界面\nScreens by Yasser Achachi Kyung Min Kim的Coloring Clock依靠炽热的火焰色渐变背景，结合粗笔划的文字组合和大量留白。精美天然的配色方案很自然地点缀了整个界面。你也可以定制自己喜欢的渐变主题，来给界面赋予一些个人色彩\nColoring Clock by Kyung Min Kim ",
+    
+    "author": {
+        "@type": "Person",
+        "name": "Victor42"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Victor42",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http:\/\/localhost:1313\/favicon.ico"
+        }
+    },
+    "datePublished": "2013-10-06T16:25:34\u002b00:00",
+    "dateModified": "2013-10-06T16:25:34\u002b00:00",
+    "wordCount":  3095 ,
+    "timeRequired": "PT11M"
+}
+</script> 
+    <link rel="shortcut icon" href="https://cdn.victor42.work/assets/favicon.ico" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3NJJ4RT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3NJJ4RT');
+</script>
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="../../" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    
+<article class="main-article">
+    
+
+<header class="article-header">
+    
+
+    <div class="article-details">
+        <div class="article-header-wrapper">
+            
+                <div class="article-category">
+                    
+                        <a href="../../categories/%E8%AE%BE%E8%AE%A1%E8%AF%91%E6%96%87-design/">
+                            设计译文-Design
+                        </a>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="../../post/2823/">光彩夺目的柔滑渐变APP界面</a>
+            </h2>
+
+            
+        </div>
+
+        
+            <footer class="article-time">
+                
+                    <div>
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-calendar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" /><path d="M16 3v4" /><path d="M8 3v4" /><path d="M4 11h16" /><path d="M11 15h1" /><path d="M12 15v3" /></svg>
+                        <time class="article-time--published">Oct 06, 2013</time>
+                    </div>
+                
+
+                
+
+                
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--reading">11 minute read
+        </time>
+    </div>
+ 
+            </footer>
+        
+    </div>
+</header>
+    
+<section class="article-content">
+    
+    
+    <p><strong>[国外设计第13期]</strong></p>
+<p><a class="link" href="http://dribbble.com/shots/1182962-Beam-Day-concept-clock"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/7-Beam-Day.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/7-Beam-Day.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Beam Day">
+	</a>
+	
+	<figcaption>Beam Day</figcaption>
+	
+</figure></a></p>
+<p>iOS7让我们重新认识了渐变效果，老实说，渐变是设计师手法中最简单的装饰之一。它有许多变化，既可以让设计出彩，反过来也可以毁了设计，关键就取决于色彩的选用和整体风格。除此之外，和大多装饰手段一样，它也会随着当前潮流趋势变化</p>
+<p>近日的主流，是平滑温和的霓虹色渐变，配合近乎发光的浅色文字和简单易懂的字体，并通常伴随着低透明度的半透明层。如此细腻的结合很自然地能给任何UI增加一分精致和微妙</p>
+<p>我们这里不仅仅讨论这种渐变样式，它毫无疑问非常流行，我们也讨论其他基础且广为流传的渐变实现方法。其中包含的方法更多被用作一种差异化的手段，它的主要目标是在某种特定视觉风格中承载内容</p>
+<p>首先，我们来欣赏一些超凡脱俗、基于当红流行渐变风格的APP界面</p>
+<h2 id="移动app中的渐变效果">移动APP中的渐变效果</h2>
+<p>我们开篇选用Michael Shanks华丽柔和、基于渐变的iOS7锁屏界面设计。极简的屏幕元素只包含必须的信息，通过优雅的浅色文字实现，精妙的阴影和半透明条作为强调</p>
+<p><a class="link" href="http://dribbble.com/shots/1128049-iOS7-Lockscreen"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/1-iOS7-Lockscreen-by-Michael-Shanks.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/1-iOS7-Lockscreen-by-Michael-Shanks.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="iOS7 Lockscreen by Michael Shanks">
+	</a>
+	
+	<figcaption>iOS7 Lockscreen by Michael Shanks</figcaption>
+	
+</figure></a></p>
+<p>Tommy Borgen的Sense。设计师也采用了极简的UI设计。界面看起来简单却相当精美。中央轻微模糊的圆形轮廓漂亮地和其中微妙的细字体组合，与平滑的背景也搭配良好</p>
+<p><a class="link" href="http://dribbble.com/shots/1186875-Sense"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/2-Sense-by-Tommy-Borgen.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/2-Sense-by-Tommy-Borgen.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Sense by Tommy Borgen">
+	</a>
+	
+	<figcaption>Sense by Tommy Borgen</figcaption>
+	
+</figure></a></p>
+<p>Ross Popoff-Walker的个人站点Idea v1.1。设计师借鉴了破晓天空的渐变色，用非凡的泼溅手法来展现。背景为白色的图形和文字提供了坚实的底色，很好地突出强调了它们。大量的留白和浅灰纯色页头页尾（主要包含导航项）漂亮地与主题结合</p>
+<p><a class="link" href="http://dribbble.com/shots/1105891-Personal-Site-Idea-v1-1"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/3-Personal-Site.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/3-Personal-Site.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Personal Site">
+	</a>
+	
+	<figcaption>Personal Site</figcaption>
+	
+</figure></a></p>
+<p>Yasser Achachi的界面设计看起来绝对惊艳且引人注目。奇妙的万花筒色用在背景上，配合浅色文字、像素级优化的小图标、半透明条和彩色色块，巧妙地打造了一款相当激动人心的界面</p>
+<p><a class="link" href="http://dribbble.com/shots/1158348-Screens-With-Gradient-Backgrounds-Ios"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/4-Screens-by-Yasser-Achachi.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/4-Screens-by-Yasser-Achachi.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Screens by Yasser Achachi">
+	</a>
+	
+	<figcaption>Screens by Yasser Achachi</figcaption>
+	
+</figure></a></p>
+<p>Kyung Min Kim的Coloring Clock依靠炽热的火焰色渐变背景，结合粗笔划的文字组合和大量留白。精美天然的配色方案很自然地点缀了整个界面。你也可以定制自己喜欢的渐变主题，来给界面赋予一些个人色彩</p>
+<p><a class="link" href="http://www.behance.net/gallery/Coloring-Clock/7085499"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/5-Coloring-Clock-by-Kyung-Min-Kim.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/5-Coloring-Clock-by-Kyung-Min-Kim.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Coloring Clock by Kyung Min Kim">
+	</a>
+	
+	<figcaption>Coloring Clock by Kyung Min Kim</figcaption>
+	
+</figure></a></p>
+<p>chirag dave的iPhone App Instasave中，界面切换处用了一张精彩的放射状渐变图片，来作为侧滑菜单的固定背景。设计师用背景图中相对较浅的区域来强调导航，以精美小号字和纤细字体来表现</p>
+<p><a class="link" href="http://dribbble.com/shots/1116265-Instasave-iPhone-App"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/6-Instasave-iPhone-App.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/6-Instasave-iPhone-App.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Instasave iPhone App">
+	</a>
+	
+	<figcaption>Instasave iPhone App</figcaption>
+	
+</figure></a></p>
+<p>Vladimir的Beam Day概念时钟设计。其中背景旨在清晰凸显少数几个图形构成元素。轮廓极细的圆环和纤细字体相互完美配合</p>
+<p><a class="link" href="http://dribbble.com/shots/1182962-Beam-Day-concept-clock"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/7-Beam-Day.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/7-Beam-Day.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Beam Day">
+	</a>
+	
+	<figcaption>Beam Day</figcaption>
+	
+</figure></a></p>
+<p>Alex Patrascu的Aero Weather设计。其中干净明亮的渐变，很自然地将视线吸引至包含大量信息的天气预报上。浅色的非正式字体与背景完美结合，并使数据清晰易读</p>
+<p><a class="link" href="http://dribbble.com/shots/1185408-Aero-Weather"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/8-Aero-Weather.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/8-Aero-Weather.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Aero Weather">
+	</a>
+	
+	<figcaption>Aero Weather</figcaption>
+	
+</figure></a></p>
+<p>Gaétan Pautler的iOS 7 快捷菜单设计。尽管设计师用的事实上不是传统渐变，因为那是一张有着颜色过渡的高度模糊的背景图，即便如此，快捷菜单的背景有着难以察觉的垂直渐变，从蓝色渐变至淡粉的奶油色</p>
+<p><a class="link" href="http://dribbble.com/shots/1165802-iOS-7-Shortcuts-Menu"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/9-iOS-7-Shortcuts-Menu.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/9-iOS-7-Shortcuts-Menu.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="iOS 7 Shortcuts Menu">
+	</a>
+	
+	<figcaption>iOS 7 Shortcuts Menu</figcaption>
+	
+</figure></a></p>
+<h2 id="渐变效果作为强化的手段">渐变效果作为强化的手段</h2>
+<p>作品集的这部分，是致力于将渐变效果用作强化手段的APP界面</p>
+<p>Keyuri Bosmia的IndiaNIC App有着令人喜爱的彩虹格调。设计师巧妙地把菜单上色成鲜艳的色调来将每个菜单项清晰区分开。整体来看，这个概念设计看上去愉快、充满活力</p>
+<p><a class="link" href="http://dribbble.com/shots/1180745-IndiaNIC-App"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/10-IndiaNIC-App.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/10-IndiaNIC-App.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="IndiaNIC App">
+	</a>
+	
+	<figcaption>IndiaNIC App</figcaption>
+	
+</figure></a></p>
+<p>Andrus Valulis的SunFun App设计。相反地，这件UI作品基于更加平滑自然的渐变效果。鉴于这个app致力于展示日出日落相关数据，设计师使用暖色来支撑整个主题风格就不奇怪了</p>
+<p><a class="link" href="http://dribbble.com/shots/1068915-SunFun-App"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/11-SunFun-App.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/11-SunFun-App.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="SunFun App">
+	</a>
+	
+	<figcaption>SunFun App</figcaption>
+	
+</figure></a></p>
+<p>Frantisek Krivada的扁平样式色轮设计。不同于之前的案例，这件UI作品采用了最终过渡至中性白的冷色调。所以这个界面看起来更加犀利、有力和严肃。带曲线的功能圆环富有活力，增加了一分圆滑</p>
+<p><a class="link" href="http://dribbble.com/shots/1073176-Flat-Style-Color-Wheel"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/12-Flat-Style-Color-Wheel.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/12-Flat-Style-Color-Wheel.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Flat Style Color Wheel">
+	</a>
+	
+	<figcaption>Flat Style Color Wheel</figcaption>
+	
+</figure></a></p>
+<p>Franz (Taptanium)的Haze Rays界面主题又是一件强烈依赖生脆清冷配色方案的概念设计。放射状渐变很自然地将用户注意力锁定在屏幕中央，无疑使关键数据生动鲜活起来</p>
+<p><a class="link" href="http://dribbble.com/shots/1094341-Haze-Rays-theme-anyone"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/13-Haze-Rays-theme.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/13-Haze-Rays-theme.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Haze Rays theme">
+	</a>
+	
+	<figcaption>Haze Rays theme</figcaption>
+	
+</figure></a></p>
+<p>Carrie Philips的Waygo App V2设计。设计师使用了清新的橙色明暗变化，来构成温暖鲜活的渐变主题，提亮了菜单部分。颜色的选用与主色调完美搭配，并且很好地强化了主题风格</p>
+<p><a class="link" href="http://dribbble.com/shots/1105671-Waygo-App-V2"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/14-Waygo-App-V2.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/14-Waygo-App-V2.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Waygo App V2">
+	</a>
+	
+	<figcaption>Waygo App V2</figcaption>
+	
+</figure></a></p>
+<p>Rustem Ramadanov的Bird app GIF中，组织良好、清晰易读的磁贴布局，起了重要作用，它们通过柔滑的颜色差异来精确指向各分类。设计师使用了久经考验的端庄蓝白色组合</p>
+<p><a class="link" href="http://dribbble.com/shots/1123283-Bird-app-GIF"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/15-Bird-app-GIF.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/15-Bird-app-GIF.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Bird app GIF">
+	</a>
+	
+	<figcaption>Bird app GIF</figcaption>
+	
+</figure></a></p>
+<p>Eddie Lobanovskiy的Brisk设计。界面中展示了一套渐变色大融合，主要由多种明暗变化的热带橙过渡至极地蓝。其中背景色扮演着更加功能性的角色，而非纯粹装饰，每种颜色都为温度计增加了图形化的表现</p>
+<p><a class="link" href="http://twosolid.com/brisk/"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/16-Brisk-by-Eddie-Lobanovskiy.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/16-Brisk-by-Eddie-Lobanovskiy.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Brisk by Eddie Lobanovskiy">
+	</a>
+	
+	<figcaption>Brisk by Eddie Lobanovskiy</figcaption>
+	
+</figure></a></p>
+<p>Nick Murph的Goo App基于绝妙的柔和配色。柔和渐变漂亮地与内容融合，给界面营造一种文雅怡人的氛围</p>
+<p><a class="link" href="http://www.behance.net/gallery/Goo-App/10214263"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/17-Goo-App-by-Nick-Murphy.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/17-Goo-App-by-Nick-Murphy.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Goo App by Nick Murphy">
+	</a>
+	
+	<figcaption>Goo App by Nick Murphy</figcaption>
+	
+</figure></a></p>
+<p>Maria Bratchikova的&quot;Giftboard&quot;设计。设计师通过多种色调的红色巧妙地区分类别，为界面营造一种亲切、略微伤感的格调。此处小小的渐变效果，在强调和融合类别上起到了一定作用</p>
+<p><a class="link" href="http://www.behance.net/gallery/Variant-of-page-design-for-app-Giftboard/10383777"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/18-Giftboard-by-Maria-Bratchikova.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/18-Giftboard-by-Maria-Bratchikova.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Giftboard by Maria Bratchikova">
+	</a>
+	
+	<figcaption>Giftboard by Maria Bratchikova</figcaption>
+	
+</figure></a></p>
+<p>Amine Mounazil的天气app界面又是一件利用色彩的力量来视觉化数据展示的作品。照惯例，温度越高，颜色越深、越暖、越饱和</p>
+<p><a class="link" href="http://www.behance.net/gallery/Weather-app-UI/9837535"  target="_blank" rel="noopener"
+    ><figure 
+	>
+	<a href="http://designmodo.com/wp-content/uploads/2013/10/19-Weather-app-UI.jpg" >
+		<img src="http://designmodo.com/wp-content/uploads/2013/10/19-Weather-app-UI.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="Weather app UI">
+	</a>
+	
+	<figcaption>Weather app UI</figcaption>
+	
+</figure></a></p>
+<h2 id="反思">反思</h2>
+<p>设计师们精明地利用各种渐变效果，从无间断的柔滑光亮背景，到割裂成一条条相互区别的奔放背景。他们不仅将这种活力十足的效果用于纯装饰作用，也作为一种强调既有主题风格的手段</p>
+<p><a class="link" href="http://designmodo.com/mobile-apps-gradient-effect/"  target="_blank" rel="noopener"
+    >原文链接</a></p>
+
+</section>
+
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="../../post/3018/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">网页与APP中那些优美的登录表单</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3006/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">钢筋货架与隔墙:都柏林的咖啡馆</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/2989/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">活力四射的APP日历组件设计</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/2975/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">自由职业者与外界接触联系的6个方法</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/2955/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">用草图来规划网站</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2011 - 
+        
+        2025 Victor42
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#移动app中的渐变效果">移动APP中的渐变效果</a></li>
+    <li><a href="#渐变效果作为强化的手段">渐变效果作为强化的手段</a></li>
+    <li><a href="#反思">反思</a></li>
+  </ul>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="../../ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

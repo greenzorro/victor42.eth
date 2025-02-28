@@ -1,0 +1,138 @@
+/* Override styles */
+/* Category and tag styles */
+.article-category a,
+.article-tags a {
+    padding: 0;
+    background: none !important;
+    color: var(--accent-color) !important;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.article-category a::before,
+.article-tags a::before {
+    content: "#";
+    margin-right: 2px;
+    opacity: 0.8;
+}
+
+.article-category a:hover,
+.article-tags a:hover {
+    background: none !important;
+    opacity: 0.8;
+}
+
+.article-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Header layout */
+.article-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Time icon */
+.article-time svg {
+    margin-right: 5px;
+}
+
+/* Menu icon */
+.menu li svg {
+    margin-right: 10px;
+}
+
+/* Language switcher */
+.article-lang-switcher {
+    margin: 0;
+}
+
+.article-lang-switcher .lang-switch-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    min-width: 64px;
+    padding: 0 12px;
+    background-color: var(--card-background);
+    border: 1.5px solid var(--accent-color);
+    border-radius: 14px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.article-lang-switcher .lang-switch-button:hover {
+    background-color: var(--accent-color);
+    color: var(--accent-color-text);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-lang-switcher .lang-switch-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.article-lang-switcher .lang-switch-button .lang-switch-icon {
+    margin-right: 6px;
+    font-size: 13px;
+}
+
+.article-lang-switcher .lang-switch-button .lang-switch-text {
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+/* Archives page */
+.template-archives main.main > h2:first-child,
+.template-archives main.main > div.subsection-list:first-of-type {
+    display: none;
+}
+
+/* Hide section image in category pages */
+.section-card .section-image {
+    display: none;
+}
+
+/* Related articles layout */
+.article-list--tile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    float: none;
+    width: 100%;
+}
+
+.article-list--tile article {
+    width: calc((100% - 4rem) / 5);
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.article-list--tile article.has-image .article-image img {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Mobile styles for related articles */
+@media (max-width: 768px) {
+    .article-list--tile article {
+        width: 100%;
+        flex: 1 1 auto;
+    }
+} 

@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Just the story, no code.'><title>I Did a Deep Dive into English Word Stress...</title>
+
+<link rel='canonical' href='http://localhost:1313/post/en/3651/'>
+
+
+
+<link rel="stylesheet" href="../../../scss/style.min.594112fc94b40e17b5a86b4ee206a0077216dab56dccf577eab6840808ae9f28.css">
+<link rel="stylesheet" href="../../../css/custom-override.css"><meta property='og:title' content='I Did a Deep Dive into English Word Stress...'>
+<meta property='og:description' content='Just the story, no code.'>
+<meta property='og:url' content='http://localhost:1313/post/en/3651/'>
+<meta property='og:site_name' content='Victor42'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post-En' /><meta property='article:published_time' content='2024-07-05T22:33:00&#43;00:00'/><meta property='article:modified_time' content='2024-07-05T22:33:00&#43;00:00'/>
+        <meta property='og:updated_time' content='2024-07-05T22:33:00&#43;00:00'/><meta property='og:image' content='https://cdn.victor42.work/posts/2024-07/ea6d9ff8fee7f0f2477d458be8c4a952.jpg' />
+<meta name="twitter:title" content="I Did a Deep Dive into English Word Stress...">
+<meta name="twitter:description" content="Just the story, no code."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://cdn.victor42.work/posts/2024-07/ea6d9ff8fee7f0f2477d458be8c4a952.jpg' />
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http:\/\/localhost:1313\/post\/en\/3651\/"
+    },
+    "headline": "I Did a Deep Dive into English Word Stress...",
+    "description": "Just the story, no code.",
+    "image": "https:\/\/cdn.victor42.work\/posts\/2024-07\/ea6d9ff8fee7f0f2477d458be8c4a952.jpg",
+    "author": {
+        "@type": "Person",
+        "name": "Victor42"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Victor42",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http:\/\/localhost:1313\/favicon.ico"
+        }
+    },
+    "datePublished": "2024-07-05T22:33:00\u002b00:00",
+    "dateModified": "2024-07-05T22:33:00\u002b00:00",
+    "wordCount":  6230 ,
+    "timeRequired": "PT31M"
+}
+</script> 
+    <link rel="shortcut icon" href="https://cdn.victor42.work/assets/favicon.ico" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3NJJ4RT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3NJJ4RT');
+</script>
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="../../../" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    
+<article class="has-image main-article">
+    
+
+<header class="article-header">
+    
+        <div class="article-image">
+            <a href="../../../post/en/3651/">
+                
+                    <img src="https://cdn.victor42.work/posts/2024-07/ea6d9ff8fee7f0f2477d458be8c4a952.jpg" loading="lazy" alt="Featured image of post I Did a Deep Dive into English Word Stress..." />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        <div class="article-header-wrapper">
+            
+                <div class="article-category">
+                    
+                        <a href="../../../categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/">
+                            折腾与思考-Geek
+                        </a>
+                    
+                </div>
+            
+
+            
+                
+
+    <div class="article-lang-switcher">
+        
+            
+            <a href="../../../post/3651" class="lang-switch-button">
+                <span class="lang-switch-icon">🌏</span>
+                <span class="lang-switch-text">中文</span>
+            </a>
+        
+    </div>
+ 
+            
+        </div>
+
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="../../../post/en/3651/">I Did a Deep Dive into English Word Stress...</a>
+            </h2>
+
+            
+                <h3 class="article-subtitle">
+                    Just the story, no code.
+                </h3>
+            
+        </div>
+
+        
+            <footer class="article-time">
+                
+                    <div>
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-calendar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" /><path d="M16 3v4" /><path d="M8 3v4" /><path d="M4 11h16" /><path d="M11 15h1" /><path d="M12 15v3" /></svg>
+                        <time class="article-time--published">Jul 05, 2024</time>
+                    </div>
+                
+
+                
+
+                
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--reading">31 minute read
+        </time>
+    </div>
+ 
+            </footer>
+        
+    </div>
+</header>
+    
+<section class="article-content">
+    
+    
+    <p><strong>Target audience: English learners, data analysis enthusiasts, Python coders, and my friends.</strong></p>
+<p>This is my first data analysis project. I&rsquo;ve been teaching myself data science for over a year, picking up skills along the way, but I hadn&rsquo;t tackled a real-world project. During my studies, the words &lsquo;analyze,&rsquo; &lsquo;analysis,&rsquo; and &lsquo;analytical&rsquo; kept appearing. The stress placement is unpredictable (&lsquo;analyze, a&rsquo;nalysis, ana&rsquo;lytical) – a real headache! It turned reading into a tongue-twisting exercise.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/70c28efdcd37e6d4a143ff2df66084be.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/70c28efdcd37e6d4a143ff2df66084be.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Some claim there are rules for stress, but they&rsquo;re often lengthy and complex. Others say there are too many exceptions. However, even with those three words, a pattern <em>does</em> emerge. English seems to avoid three unstressed syllables in a row and tends to place stress near the beginning. For words with five or fewer syllables, the stress often lands on the antepenultimate (third-to-last) syllable.</p>
+<p>It makes sense, doesn&rsquo;t it? Three unstressed syllables in a row would be monotonous. Stress adds rhythm. It&rsquo;s like driving on a straight road – you&rsquo;ll likely doze off. Placing stress too late would also hinder comprehension. Imagine a long word with emphasis on the very last syllable – you&rsquo;d likely miss the meaning!</p>
+<p>To illustrate, consider Mandarin Chinese. It has a significant flaw: the word &ldquo;不&rdquo; (bù, &ldquo;not&rdquo;). Both the consonant and vowel are faint, especially in rapid speech. The vowel becomes even weaker. You often can&rsquo;t discern if someone even <em>uttered</em> &ldquo;不&rdquo;! This creates a major communication problem, as it distinguishes between two opposite meanings. When my daughter cries, I struggle to understand if she&rsquo;s saying &ldquo;要&rdquo; (yào, &ldquo;want&rdquo;) or &ldquo;不要&rdquo; (bù yào, &ldquo;don&rsquo;t want&rdquo;).</p>
+<p>Back to English stress. My theory seemed reasonable, but I needed evidence. As a data-science novice, I decided to get my hands dirty and see how many words actually followed this pattern.</p>
+<h2 id="research-plan">Research Plan</h2>
+<p>Having learned data analysis, the research plan formed quickly. It involved collecting, cleaning, analyzing, and visualizing data. Regression analysis or prediction wasn&rsquo;t necessary.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/7486fc8650cedd8b8b4f7816e9af7e0d.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/7486fc8650cedd8b8b4f7816e9af7e0d.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Here&rsquo;s the skillset I had, which was sufficient:</p>
+<ol>
+<li>Find a comprehensive word list.</li>
+<li>Find a free, batch method for obtaining phonetic transcriptions from an online dictionary.</li>
+<li>Determine the syllable count and stress position for each word (possibly with AI assistance).</li>
+<li>Analyze the distribution of stress positions and visualize the findings.</li>
+<li>Test my hypothesis.</li>
+</ol>
+<p>Let&rsquo;s dive in.</p>
+<h2 id="data-source">Data Source</h2>
+<p>I found a dataset on <a class="link" href="https://www.kaggle.com/"  target="_blank" rel="noopener"
+    >Kaggle</a>, a popular data science community. It&rsquo;s a simple .txt file containing over 300,000 English words, listed alphabetically, one per line:</p>
+<p><a class="link" href="https://www.kaggle.com/datasets/bwandowando/479k-english-words"  target="_blank" rel="noopener"
+    >https://www.kaggle.com/datasets/bwandowando/479k-english-words</a></p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/035173524c2057e2515c255add081cea.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/035173524c2057e2515c255add081cea.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The .txt file is 4MB, comparable to a million-word novel.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/6d8b49da96f58a5292d53296bf7966ba.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/6d8b49da96f58a5292d53296bf7966ba.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>I created a Kaggle code project, imported the dataset, read all the words, and obtained a table with 369,652 rows and 1 column.</p>
+<h2 id="getting-the-pronunciation">Getting the Pronunciation</h2>
+<p>The table only contained words. For rigorous research, I needed phonetic transcriptions.</p>
+<p>Fortunately, I discovered a free online dictionary API: <a class="link" href="https://dictionaryapi.dev/"  target="_blank" rel="noopener"
+    >https://dictionaryapi.dev/</a>.</p>
+<p>Now, I had to look up each of those 300,000+ words. Naturally, I&rsquo;d write code to automate this.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/5c311b367a15d50faa8f53f724821a54.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/5c311b367a15d50faa8f53f724821a54.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The API returned more than just phonetics; it included audio, etymology, parts of speech, meanings, and examples. The useful components were the phonetics, etymology, and part of speech. However, etymology was mostly missing, so I extracted only the phonetics and part of speech.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/12f254a9769f985b4cacc3b3992a7577.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/12f254a9769f985b4cacc3b3992a7577.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The sheer data volume posed a challenge. The API documentation didn&rsquo;t specify request limits, but I found it in <a class="link" href="https://github.com/meetDeveloper/freeDictionaryAPI/blob/master/app.js"  target="_blank" rel="noopener"
+    >their Github code</a>: 450 requests every 5 minutes. For 369,652 words, even non-stop, it would take 369652 / 450 * 5 / 60 = 68.45 hours – almost 3 days!</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/4a9c399f7966ab61cf767f7712e209d9.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/4a9c399f7966ab61cf767f7712e209d9.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Alright, three days it was. But I had to adjust my strategy. I added a function to chunk queries and save results periodically. Every 1,000 rows, I&rsquo;d save to a sequentially numbered file. I&rsquo;d then continue querying based on the sequence number. Finally, I&rsquo;d merge all 300+ files.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/22b28704556d17baf1c0c141d5ae3e96.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/22b28704556d17baf1c0c141d5ae3e96.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>It turned out that most of the 300,000+ words were obscure and not found in the API. I only got results for roughly 100 out of every 1,000 words. The file above contains only 92 rows.</p>
+<p><a class="link" href="https://wordsrated.com/how-many-words-are-in-the-english-language/"  target="_blank" rel="noopener"
+    >Linguistic research</a> indicates that 3,000 English words cover 95% of everyday usage, and 1,000 cover 89%. <a class="link" href="https://wordcounter.io/blog/how-many-words-does-the-average-person-know"  target="_blank" rel="noopener"
+    >Another study</a> shows that the average adult has an active vocabulary of about 20,000 words and a passive one of 40,000. Thus, only about 1/10 of the dataset is relevant, which is reasonable.</p>
+<h2 id="data-cleaning">Data Cleaning</h2>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/82acc141ccd3150e4bf0fd08ae292149.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/82acc141ccd3150e4bf0fd08ae292149.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>After merging, I found the dictionary&rsquo;s phonetic symbols were inconsistent, containing uncommon symbols like <code>ɘ</code>, <code>ɝ</code>, <code>ɚ</code>, <code>ɨ</code>, <code>ʉ</code>. These represent subtle pronunciation variations, roughly equivalent to standard sounds. I had to replace them; otherwise, they&rsquo;d disrupt syllable counting and subsequent analysis.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/9d9304e6642b5df50354c06d739eea1d.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/9d9304e6642b5df50354c06d739eea1d.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Besides unusual symbols, there were many phonetically identical but differently written symbols, like <code>əu/əʊ</code> and <code>ai/aɪ</code>. These also required merging. Each line in the image signifies replacing the first symbol with the second, leaving bracketed symbols untouched.</p>
+<p>Some words differ significantly between British and American English. I prioritized American English conventions.</p>
+<p>Numerous unconventional spellings existed. Over- or under-replacement could easily cause phonetic errors. I wrote a temporary checker, manually consulted the <a class="link" href="https://dictionary.cambridge.org/us/dictionary/english/"  target="_blank" rel="noopener"
+    >Cambridge Dictionary</a>, and refined my replacements. This took time.</p>
+<p>After processing, the vowel symbols were cleaner. For &ldquo;anthropomorphic&rdquo;:</p>
+<ul>
+<li>Before: <code>[ˌæ̃n̪θɹ̠əpəˈmɔɹ̠fɪ̈k]</code></li>
+<li>After: <code>[ˌæn̪θɹ̠əpəˈmɔːfɪk]</code></li>
+</ul>
+<p>I didn&rsquo;t handle consonant symbols, as they were irrelevant to my goal, and that&rsquo;s a more complex issue.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/627162599344331488dc70237ce660a6.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/627162599344331488dc70237ce660a6.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Later, I discovered some inaccuracies in the dictionary API. For instance, &ldquo;abacus&rdquo; was transcribed as /-saɪ/? Nonsense! The information was incomplete.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/f4f3ef7e088114e942d95246bf273902.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/f4f3ef7e088114e942d95246bf273902.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>I calculated this occurred in 0.55% of all words – a small fraction. The incomplete transcriptions seemed random, lacking commonality, so I filtered them out. I&rsquo;m now analyzing a sample, not the complete data. However, the sample is large enough to be representative, allowing the research to proceed.</p>
+<h2 id="analyzing-phonetic-transcriptions-ai">Analyzing Phonetic Transcriptions (AI)</h2>
+<p>This step entails counting syllables from phonetic transcriptions and identifying the stressed syllable using the <code>ˈ</code> mark.</p>
+<p>I aimed for a shortcut by deploying an AI model on Kaggle. AI should excel at language, right?</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/c77ef4414f82188785924057cfe3bc34.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/c77ef4414f82188785924057cfe3bc34.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>I tested several text-based models but encountered obstacles:</p>
+<ol>
+<li><strong>Large models wouldn&rsquo;t run:</strong> Among Kaggle&rsquo;s deployable open-source models, Llama3 70b could accurately determine syllable count and stress position. ChatGPT, Claude, and even GPT-3.5 could also do it. Language seems to be a strength of large language models. The issue? Kaggle&rsquo;s free tier can&rsquo;t run such large models.</li>
+<li><strong>Small models were inadequate:</strong> Kaggle&rsquo;s two free T4 GPUs can handle smaller 7b models like Llama3 8b, Gemma 7b, and Qwen2 7b. However, these smaller models, on Kaggle or elsewhere, couldn&rsquo;t reliably perform the task.</li>
+</ol>
+<p>I refined prompts, guiding the AI step-by-step, and provided examples:</p>
+<pre tabindex="0"><code>&lt;task&gt;
+your task is to count how many syllables there are in an English word. list them all then count. finally answer which syllable the stress falls on(tell me the number). answer **EXACTLY** in the example format.
+
+&lt;example&gt;
+word: analysis
+phonetic transcription: /əˈnælɪsɪs/
+syllables:
+1. ə
+2. &#39;næ
+3. lɪ
+4. sɪs
+syllables count: 4
+stress position: 2
+final conclusion: &lt;&lt;&lt;2/4&gt;&gt;&gt;
+
+&lt;word&gt;
+analytical /æn.əˈlɪt.ə.kəl/
+</code></pre><p>But the smaller models kept failing. Perhaps they weren&rsquo;t capable. Phonetic symbols are vastly different from standard English letters, almost a separate, niche language for AI.</p>
+<p>This experience highlighted a key point: these open-source small models cluster around 7 billion parameters likely because that&rsquo;s the upper limit for running on specific GPUs. In this era of constrained computing, GPUs dictate the scale.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/3a5d9b8fcbd23a0d5487891310921f63.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/3a5d9b8fcbd23a0d5487891310921f63.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Was AI a dead end? I then considered a workaround: Google Sheets with an AI plugin. I could input the phonetic data into Sheets, write a prompt in the adjacent cell (including the word and transcription), and use a formula from an <a class="link" href="https://workspace.google.com/u/1/marketplace/app/gpt_for_sheets_and_docs/677318054654"  target="_blank" rel="noopener"
+    >AI plugin</a> to generate the result. This plugin, powered by GPT-3.5, could handle the task. The classic Excel drag-down trick would then populate the entire column.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/81f435b62db92e70d47f0d77841e5703.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/81f435b62db92e70d47f0d77841e5703.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The plugin&rsquo;s pricing was reasonable, around 90 RMB for my data volume. However, I was unsure if it could handle tens of thousands of AI generations simultaneously. Debugging and regenerating could double the cost, making it risky.</p>
+<h2 id="analyzing-phonetic-transcriptions-algorithm">Analyzing Phonetic Transcriptions (Algorithm)</h2>
+<p>Okay, no more AI—I&rsquo;d handle it myself. Counting syllables and locating stress? An algorithm could do that, and more reliably. Here’s the approach, using <code>analytical /æn.əˈlɪt.ə.kəl/</code> as an example:</p>
+<ol>
+<li>Create a set of all vowels: <code>ɑaæɒʌəɛeɪiɔoʊuʉɜ</code></li>
+<li>Remove slashes, parentheses, spaces, and dots: <code>/æn.əˈlɪt.ə.kəl/</code> becomes <code>ænəˈlɪtəkəl</code></li>
+<li>Iterate through <code>ænəˈlɪtəkəl</code>, checking against the vowel set. Counting vowels: <code>æ</code>, <code>ə</code>, <code>ɪ</code>, <code>ə</code>, <code>ə</code> yields 5 syllables.</li>
+<li>Split by the stress mark <code>ˈ</code>: <code>ænəˈlɪtəkəl</code> becomes <code>ænə</code> and <code>lɪtəkəl</code>. Use the first part, <code>ænə</code>.</li>
+<li>Count vowels in <code>ænə</code> as in step 3: 2 vowels.</li>
+<li>Add 1 to get the stress position: the 3rd syllable.</li>
+</ol>
+<p>The logic was clear, so I had AI write the code—a trivial task for it. A few tweaks, and it worked.</p>
+<p>A challenge arose in step 3: diphthongs, triphthongs, and long vowels. For <code>ei</code>, the algorithm would count <code>e</code> and <code>i</code> (2 syllables), but <code>ei</code> as a diphthong is only one. Triphthongs would be counted as 3.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/93fc699338026ae0a224090ea716d17c.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/93fc699338026ae0a224090ea716d17c.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The algorithm needed adjustment. I created three vowel sets: monophthongs, diphthongs, and triphthongs. The vowel check now involved three passes:</p>
+<ol>
+<li>First pass: Check each character against the monophthong set. This overcounts diphthongs and triphthongs.</li>
+<li>Second pass: Check two characters at a time against the diphthong set. If found, subtract 1 from the syllable count. Importantly, skip the next character after a diphthong to avoid miscounting triphthongs like <code>aɪə</code> as <code>aɪ</code> and <code>ɪə</code>.</li>
+<li>Third pass: Check three characters at a time against the triphthong set, subtracting 1 if found.</li>
+</ol>
+<p>This refined algorithm accurately counted syllables. (Note: I treated the long vowel marker <code>ː</code> as a phonetic character; <code>iː</code>, <code>ɑː</code> are handled as diphthongs, <code>iːə</code>, <code>uːə</code> as triphthongs, which doesn&rsquo;t affect the outcome.)</p>
+<p>It turns out, for data analysis, technique takes a backseat to domain knowledge. Analyzing English requires understanding it. Digging deeper into phonetics, I hit another snag: triphthong identification is incredibly ambiguous. There&rsquo;s no consensus on whether three vowel symbols together are a triphthong or a monophthong + diphthong. That familiar feeling&hellip; Classic English! No rigid rules.</p>
+<p>Consider <code>fire /ˈfaɪər/</code>. Some claim <code>aɪə</code> is one syllable; others say it&rsquo;s <code>aɪ</code> + <code>ə</code> (two syllables). Criteria vary wildly. Some use hyphenation (you can write &ldquo;fi-&rdquo; and &ldquo;re,&rdquo; but not &ldquo;fire,&rdquo; so it&rsquo;s a triphthong). Others use singing: if sung as one note, it&rsquo;s a triphthong. In <a class="link" href="https://www.youtube.com/watch?v=dC7Pog3biCk"  target="_blank" rel="noopener"
+    >Simple Plan - Fire In My heart</a>, at 0:57, <code>faɪ</code> and <code>ər</code> are sung as separate notes—should it be a diphthong + monophthong?</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/d0227a8fc72ffd41ff020f6fceb73b12.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/d0227a8fc72ffd41ff020f6fceb73b12.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Oh well, that&rsquo;s English. Given words like <code>oasis /oʊˈeɪsɪs/</code> (four vowels!), with <code>oʊ</code> and <code>eɪ</code> clearly separated by the stress mark (obviously two diphthongs), I disregarded triphthongs, treating them as two syllables. The only remaining &ldquo;triphthongs&rdquo; were diphthongs with a long vowel marker.</p>
+<p>Besides syllable count and stress position, I wanted the stressed vowel itself, potentially for further analysis.</p>
+<p>This was trickier. I discussed it with AI, revealing significant model differences. Gemini 1.5 Flash went in circles. GPT-4o provided the correct code in three conversational rounds (about 10 minutes). Claude 3.5 Sonnet got it right immediately. For coding, a good model is worth the cost, though basic code literacy is essential to understand the AI&rsquo;s code, its functionality, and potential issues.</p>
+<p>Here&rsquo;s the logic, again with <code>analytical /ænəˈlɪtəkəl/</code>:</p>
+<ol>
+<li>Locate the stress mark <code>ˈ</code> and consider the subsequent part: <code>lɪtəkəl</code>.</li>
+<li>Iterate, removing non-vowels until the first vowel: <code>ɪtəkəl</code>.</li>
+<li>The first character is now a vowel. Check the first 3 characters (<code>ɪtə</code>) against the triphthong set. Nope.</li>
+<li>Check the first 2 (<code>ɪt</code>) against the diphthong set. Nope.</li>
+<li>Check the first character (<code>ɪ</code>) against the monophthong set. Found it! That&rsquo;s the stressed vowel.</li>
+</ol>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/ba10765865fa9f86332e78b71807279f.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/ba10765865fa9f86332e78b71807279f.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The data table after phonetic analysis. All necessary data was now collected.</p>
+<h2 id="visualization">Visualization</h2>
+<p>Now for the highlight—not just for deriving useful conclusions, but also because AI shines here. AI is excellent at writing Python visualization code. These tasks are less about reasoning and more about knowing the visualization library&rsquo;s syntax. Even Gemini 1.5 Flash, a non-flagship model I use daily, performs well. I haven&rsquo;t formally learned Seaborn and Matplotlib, but with AI, generating plots is straightforward.</p>
+<p>Of course, &ldquo;straightforward&rdquo; doesn&rsquo;t mean &ldquo;ask and receive.&rdquo; Giving AI a vague request without context leads to failure. I crafted a Python visualization prompt, detailing the task and the data table&rsquo;s structure, enabling the AI to perform with full power and stability.</p>
+<pre tabindex="0"><code>&lt;Task&gt;
+You are a Python data visualizer. You excels at coding with data visualization libraries like Seaborn and Matplotlib. I will tell you about the structure of a Pandas dataframe and the visualization I want. First, you dive deeply into the dataframe and understand what it is all about. Then write Python code to visualize it. Just code, no explanation. Next, you check if the code meets my need. Finally, correct the code if necessary.
+
+&lt;Dataframe&gt;
+The dataframe(variable name is df) is {a list of common English words with their phonetic information and part-of-speech}.
+Now here are the columns of the dataframe, exactly in the following order:
+
+**word**
+- datatype: str
+- example: complimentary
+- description: the English words
+
+**phonetic**
+- datatype: str
+- example: /ˌkɒmplɪ̈ˈment(ə)ɹɪ/
+- description: the phonetic transcription of the words
+
+**part_of_speech**
+- datatype: str(list like)
+- example: [&#39;adjective&#39;]
+- description: how are these words used in sentences
+
+**syllable_len**
+- datatype: int
+- example: 5
+- description: how many syllables are there in these words
+
+**stress_pos**
+- datatype: int
+- example: 3
+- description: on which syllable the stress falls on, if there are more than one stress, this is the position of the first stress
+
+**stress_syllable**
+- datatype: str
+- example: e
+- description: the vowel of the stressed syllable
+
+&lt;Request&gt;
+I want to know the distribution of stress position, grouped by syllable numbers.
+</code></pre><p>To use the prompt, just tweak the <code>&lt;Request&gt;</code> section.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/6bf1e239c52df87ca7159c81c23911cd.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/6bf1e239c52df87ca7159c81c23911cd.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Some words in the data lack stress marks because they&rsquo;re short, and their phonetic transcriptions don&rsquo;t show stress. Let&rsquo;s filter those out, along with one-syllable words – analyzing stress in those is pointless.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/99b768328e8403852edad5bbe1d47def.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/99b768328e8403852edad5bbe1d47def.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>This leaves 24,433 words with complete data.</p>
+<h3 id="syllable-count-analysis">Syllable Count Analysis</h3>
+<p>Let&rsquo;s break down the syllable counts of these 24,433 words.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/e6ded1b89391ef9844e28f8d4342c3da.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/e6ded1b89391ef9844e28f8d4342c3da.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Unsurprisingly, fewer syllables mean more words. Languages tend to use up short, easy words first.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/9655926ed67e4cb11ee3f8a0ba62cbe0.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/9655926ed67e4cb11ee3f8a0ba62cbe0.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Two-syllable words make up 48.7%, three-syllable words 31.3%.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/20a81644b6c29b8bab1ccc0b79f5e220.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/20a81644b6c29b8bab1ccc0b79f5e220.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Words with four or fewer syllables make up 94.73%; five or fewer, 99%.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/963d18455de407866b97e9459de20bab.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/963d18455de407866b97e9459de20bab.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The longest word has 11 syllables.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/79fac98a54c6d574e0c2e29ef224e1dd.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/79fac98a54c6d574e0c2e29ef224e1dd.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>&ldquo;Antidisestablishmentarianism&rdquo;? Really? Opposition to opposition – double negative much? No wonder it&rsquo;s so long. Could I just add &ldquo;non-&rdquo; to create &ldquo;nonantidisestablishmentarianism&rdquo;?</p>
+<h3 id="syllable-count-vs-stress-position">Syllable Count vs. Stress Position</h3>
+<p>Statistically, the correlation coefficient is 0.67 – a pretty decent correlation.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/de6dd89e6d5f9344dc7788051d2266b0.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/de6dd89e6d5f9344dc7788051d2266b0.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>This coefficient ranges from -1 to 1. Near 0 means almost no relationship; near 1, positive correlation (one up, other up); near -1, negative correlation (one up, other down).</p>
+<p>This is just a first step, showing they&rsquo;re not unrelated. It doesn&rsquo;t explain <em>why</em>.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/424a2fdcade241c75ba5a53eabda74ee.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/424a2fdcade241c75ba5a53eabda74ee.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>A bubble chart helps. Syllable count is on the y-axis, stress position on the x-axis, and bubble size/color shows the word count. The dots roughly follow a diagonal – more syllables, later stress.</p>
+<p>Bubble charts (or heatmaps) show three dimensions but compare absolute word counts. I care more about stress position distribution <em>within</em> each syllable count.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/8a8e9b114c1ec9758b4c00e62f8be6f6.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/8a8e9b114c1ec9758b4c00e62f8be6f6.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Here&rsquo;s a stacked bar chart: syllable count on the y-axis, stress position on the x-axis. Now it&rsquo;s clear: stress shifts right like a wave, clustering around the third-to-last syllable.</p>
+<h3 id="stressed-syllable-analysis">Stressed Syllable Analysis</h3>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/a8cbd78d2abfeeb6f6a12e95dee24c99.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/a8cbd78d2abfeeb6f6a12e95dee24c99.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>These are all the vowels in stressed syllables. A couple shouldn&rsquo;t be here, but it&rsquo;s a dictionary error, and too few to matter.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/078bec4b5063d84f7f328e910dd61f9a.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/078bec4b5063d84f7f328e910dd61f9a.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>By frequency, louder vowels like <code>æ</code> and <code>e</code> are more likely stressed; weaker ones like <code>ə</code> and <code>ʊ</code> are less common.</p>
+<h3 id="part-of-speech-analysis">Part of Speech Analysis</h3>
+<p>Is there a link between part of speech and stress?</p>
+<pre tabindex="0"><code>All part of speech: [&#39;adjective&#39;, &#39;adverb&#39;, &#39;conjunction&#39;, &#39;interjection&#39;, &#39;noun&#39;, &#39;numeral&#39;, &#39;preposition&#39;, &#39;pronoun&#39;, &#39;propernoun&#39;, &#39;verb&#39;]
+</code></pre><p>Here&rsquo;s a breakdown of all parts of speech. I&rsquo;m not sure what &ldquo;propernoun&rdquo; is – it&rsquo;s not in my dictionary either. It turns out there are only two, and they don&rsquo;t seem to fit, so I suspect a data glitch with the dictionary API. I&rsquo;ll skip it for now.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/627f810c2d8d6b27501d19d8ad6cff43.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/627f810c2d8d6b27501d19d8ad6cff43.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>I ranked the parts of speech by frequency. The big ones are nouns, verbs, adjectives, and adverbs. Nouns account for roughly half the total.</p>
+<p>This gets you thinking about how language evolved. First, you need to describe the world and create concepts – that&rsquo;s where nouns come in. Then, to describe how people and things interact, you need verbs. After that, adjectives and adverbs develop to modify nouns and verbs. So, my guess is the number of words should follow that order.</p>
+<p>But wait – shouldn&rsquo;t the ratio of nouns to adjectives, and verbs to adverbs, be roughly the same? No need to calculate. The bar chart makes it obvious: nouns are more than double the adjectives, and verbs outnumber adverbs almost nine to one. They&rsquo;re way out of proportion.</p>
+<pre tabindex="0"><code>[&#39;abracadabra&#39;, &#39;absolutely&#39;, &#39;action&#39;, &#39;adieu&#39;, &#39;adios&#39;, &#39;affirmative&#39;, &#39;afternoon&#39;, &#39;ahem&#39;, &#39;alack&#39;, &#39;aloha&#39;, &#39;alright&#39;, &#39;amen&#39;, &#39;amidships&#39;, &#39;arrivederci&#39;, &#39;attaboy&#39;, &#39;attention&#39;, &#39;away&#39;, &#39;banzai&#39;, &#39;bastard&#39;, &#39;beauty&#39;, &#39;begone&#39;, &#39;begorra&#39;, &#39;behold&#39;, &#39;blazes&#39;, &#39;bollocks&#39;, &#39;bonjour&#39;, &#39;bother&#39;, &#39;botheration&#39;, &#39;brother&#39;, &#39;bully&#39;, &#39;bullseye&#39;, &#39;bullshit&#39;, &#39;caramba&#39;, &#39;checkmate&#39;, &#39;cheeses&#39;, &#39;condolences&#39;, &#39;congrats&#39;, &#39;congratulations&#39;, &#39;content&#39;, &#39;cooee&#39;, &#39;curses&#39;, &#39;dammit&#39;, &#39;ecce&#39;, &#39;egad&#39;, &#39;enchanted&#39;, &#39;encore&#39;, &#39;enough&#39;, &#39;eureka&#39;, &#39;exactly&#39;, &#39;farewell&#39;, &#39;fiddlesticks&#39;, &#39;flummery&#39;, &#39;gadzooks&#39;, &#39;gesundheit&#39;, &#39;goddamn&#39;, &#39;goodbye&#39;, &#39;gorblimey&#39;, &#39;gracias&#39;, &#39;gracious&#39;, &#39;greetings&#39;, &#39;hallelujah&#39;, &#39;hardly&#39;, &#39;havoc&#39;, &#39;heavens&#39;, &#39;heyday&#39;, &#39;hola&#39;, &#39;holla&#39;, &#39;honestly&#39;, &#39;hooray&#39;, &#39;hosanna&#39;, &#39;howdy&#39;, &#39;hullo&#39;, &#39;hurrah&#39;, &#39;huzzah&#39;, &#39;yeah&#39;, &#39;indeed&#39;, &#39;knickers&#39;, &#39;later&#39;, &#39;mercy&#39;, &#39;morepork&#39;, &#39;morning&#39;, &#39;namaste&#39;, &#39;negative&#39;, &#39;nonsense&#39;, &#39;oyez&#39;, &#39;okay&#39;, &#39;ole&#39;, &#39;pardon&#39;, &#39;peccavi&#39;, &#39;period&#39;, &#39;pity&#39;, &#39;pleasure&#39;, &#39;presto&#39;, &#39;prithee&#39;, &#39;prosit&#39;, &#39;quiet&#39;, &#39;rather&#39;, &#39;really&#39;, &#39;respect&#39;, &#39;result&#39;, &#39;roger&#39;, &#39;rumble&#39;, &#39;sayonara&#39;, &#39;scramble&#39;, &#39;selah&#39;, &#39;shabash&#39;, &#39;shazam&#39;, &#39;silence&#39;, &#39;sorry&#39;, &#39;standard&#39;, &#39;sugar&#39;, &#39;tally&#39;, &#39;tara&#39;, &#39;tarnation&#39;, &#39;tidy&#39;, &#39;timber&#39;, &#39;uncle&#39;, &#39;understood&#39;, &#39;viva&#39;, &#39;vivat&#39;, &#39;voetsek&#39;, &#39;warning&#39;, &#39;welcome&#39;, &#39;whammo&#39;, &#39;whatever&#39;, &#39;wilco&#39;, &#39;wirra&#39;, &#39;zowie&#39;]
+</code></pre><p>I listed all the interjections out of curiosity. I don&rsquo;t usually give this part of speech much thought, so I took a closer look. Surprisingly, &ldquo;afternoon&rdquo; is also classified as one! Which makes sense, since it&rsquo;s a greeting.</p>
+<pre tabindex="0"><code>[&#39;abaft&#39;, &#39;abeam&#39;, &#39;aboard&#39;, &#39;about&#39;, &#39;above&#39;, &#39;abreast&#39;, &#39;abroad&#39;, &#39;absent&#39;, &#39;across&#39;, &#39;afore&#39;, &#39;after&#39;, &#39;again&#39;, &#39;against&#39;, &#39;agin&#39;, &#39;along&#39;, &#39;alongside&#39;, &#39;aloof&#39;, &#39;alow&#39;, &#39;amid&#39;, &#39;amidst&#39;, &#39;among&#39;, &#39;amongst&#39;, &#39;anent&#39;, &#39;anti&#39;, &#39;around&#39;, &#39;asprawl&#39;, &#39;astraddle&#39;, &#39;astride&#39;, &#39;athwart&#39;, &#39;barring&#39;, &#39;bating&#39;, &#39;because&#39;, &#39;before&#39;, &#39;behind&#39;, &#39;beyond&#39;, &#39;below&#39;, &#39;beneath&#39;, &#39;beside&#39;, &#39;besides&#39;, &#39;between&#39;, &#39;betwixt&#39;, &#39;circa&#39;, &#39;concerning&#39;, &#39;considering&#39;, &#39;contra&#39;, &#39;despite&#39;, &#39;during&#39;, &#39;except&#39;, &#39;excepting&#39;, &#39;failing&#39;, &#39;following&#39;, &#39;forby&#39;, &#39;froward&#39;, &#39;given&#39;, &#39;including&#39;, &#39;inside&#39;, &#39;into&#39;, &#39;minus&#39;, &#39;modulo&#39;, &#39;nearer&#39;, &#39;nearest&#39;, &#39;onto&#39;, &#39;opposite&#39;, &#39;outwith&#39;, &#39;pending&#39;, &#39;regarding&#39;, &#39;regardless&#39;, &#39;respecting&#39;, &#39;rising&#39;, &#39;running&#39;, &#39;saving&#39;, &#39;thorough&#39;, &#39;throughout&#39;, &#39;touching&#39;, &#39;toward&#39;, &#39;towards&#39;, &#39;under&#39;, &#39;underneath&#39;, &#39;unlike&#39;, &#39;until&#39;, &#39;upon&#39;, &#39;upside&#39;, &#39;versus&#39;, &#39;wanting&#39;, &#39;within&#39;, &#39;without&#39;]
+</code></pre><p>When listing out prepositions, I noticed some recurring prefixes:</p>
+<ul>
+<li>a- indicating location or spatial relationship: aboard, across, amid, around</li>
+<li>be- (basically <em>be</em>): before, behind, below, beside</li>
+</ul>
+<p>Next, I created heatmaps for each part of speech. The y-axis shows syllable count, the x-axis shows stress position, and color intensity represents the proportion of words for each syllable count. I only included parts of speech with over 1% of the total words, as others had too few to be significant.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/ea6d9ff8fee7f0f2477d458be8c4a952.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/ea6d9ff8fee7f0f2477d458be8c4a952.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>Stress tends to shift towards the end as syllables increase. The difference between parts of speech isn&rsquo;t huge, but it&rsquo;s there. For longer words (5+ syllables), adjectives often have stress on the antepenultimate (third-to-last) syllable, nouns tend to have stress further back, and verbs/adverbs have stress further forward.</p>
+<h3 id="rules-of-stress-position">Rules of Stress Position</h3>
+<p>It was time to test my hypothesis.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/da8aadd06591c811ed2f67ee0b15503d.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/da8aadd06591c811ed2f67ee0b15503d.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>I analyzed 4- and 5-syllable words, adding a column showing the difference between the actual and hypothesized (third-to-last) stress positions. A &lsquo;0&rsquo; means a match, &lsquo;1&rsquo; means one syllable later, &lsquo;-1&rsquo; one syllable earlier, etc.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/2695209758cd7525a2d0e71e4dbb4f85.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/2695209758cd7525a2d0e71e4dbb4f85.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The hypothesis held for 43.9% of the words.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/5740e6b95198a01806d2831c73cbd1f3.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/5740e6b95198a01806d2831c73cbd1f3.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>This bar chart shows the stress deviation. Most words follow the rule, with some shifted by one syllable. Very few are further off. It kind of looks like a normal distribution (but I&rsquo;m no stats expert).</p>
+<p>Then I wondered: could this be generalized? Does it apply to words with 5+ syllables? I broadened the filter to include all words with over 3 syllables:</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/6048650203a8efe7f09b9d6b3cc270c6.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/6048650203a8efe7f09b9d6b3cc270c6.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>43.92% fit. Almost no change.</p>
+<p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2024-07/7baa190c8f4aeb3fd58ede643840201d.jpg" >
+		<img src="https://cdn.victor42.work/posts/2024-07/7baa190c8f4aeb3fd58ede643840201d.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>The deviation pattern remained. Most words are stressed on the antepenultimate syllable, many on the penultimate. Combined, they account for 78.84%. It&rsquo;s not a perfect fit, but the general trend is confirmed.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Here&rsquo;s a recap of the findings regarding phonetics and stress:</p>
+<ol>
+<li>Fewer syllables mean more words.</li>
+<li>Words with 5+ syllables are rare in everyday use.</li>
+<li>The longest word found has 11 syllables.</li>
+<li>Stress generally shifts towards the end in longer words.</li>
+<li><strong>Louder vowels are more likely to be stressed.</strong></li>
+<li>Part of speech has a minor effect on stress.</li>
+<li><strong>Most long words are stressed on the antepenultimate or penultimate syllable (78.84%).</strong></li>
+</ol>
+<h2 id="afterword">Afterword</h2>
+<p>Five minutes of analysis, two hours of data prep – seriously.</p>
+<p>Visualization took only half a day. Data preparation, especially fetching phonetic transcriptions via the dictionary API, took the longest. The script ran on and off for over two weeks; I even finished writing this before the dictionary lookup was done, using placeholders for the data.</p>
+<p>I&rsquo;m happy the results confirmed my hypothesis. After this, I doubt I&rsquo;ll ever forget English stress rules – it&rsquo;s my own research, after all.</p>
+<p>This project refreshed my Pandas skills, taught me batched requests and incremental saving, showed me how to integrate AI into analysis, helped me write effective Python data visualization prompts, and deepened my understanding of English phonetics. A huge win, and totally worth it!</p>
+<hr>
+<p>Thanks to:</p>
+<ol>
+<li><a class="link" href="https://www.kaggle.com/datasets/bwandowando/479k-english-words/versions/5"  target="_blank" rel="noopener"
+    >Word data source</a>: This 300k+ word list was the base of my analysis.</li>
+<li><a class="link" href="https://dictionaryapi.dev/"  target="_blank" rel="noopener"
+    >Free Dictionary API</a>: This provided an inexpensive way to get phonetic transcriptions.</li>
+<li><a class="link" href="https://poe.com/Gemini-1.5-Flash"  target="_blank" rel="noopener"
+    >Gemini 1.5 Flash</a>: Helped with about half the data prep and all the visualizations.</li>
+<li><a class="link" href="https://chatgpt.com/"  target="_blank" rel="noopener"
+    >GPT-4o</a>: Helped accurately ID vowels in stressed syllables.</li>
+</ol>
+<p>The full analysis and code are open-sourced on Kaggle. Check it out if you&rsquo;re interested:</p>
+<p><a class="link" href="https://www.kaggle.com/code/victorcheng42/stress-distribution-of-english-words"  target="_blank" rel="noopener"
+    >https://www.kaggle.com/code/victorcheng42/stress-distribution-of-english-words</a></p>
+<p>The dataset with phonetic transcriptions, syllable counts, and stress positions is also public. It might be useful for other analyses:</p>
+<p><a class="link" href="https://www.kaggle.com/datasets/victorcheng42/english-words-with-stress-position-analyzed"  target="_blank" rel="noopener"
+    >https://www.kaggle.com/datasets/victorcheng42/english-words-with-stress-position-analyzed</a></p>
+
+</section>
+
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="../../../post/en/3654/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://cdn.victor42.work/posts/2024-08/6cab50470236b0d2d7a8937ab39753e1.jpg" loading="lazy" data-key="" data-hash="https://cdn.victor42.work/posts/2024-08/6cab50470236b0d2d7a8937ab39753e1.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Why My Wife and Colleagues Always Ask Me to Search Stuff</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../../post/en/3653/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Where Will Our Generation&#39;s Last Words Be Written?</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="../../../post/en/3652/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg" loading="lazy" data-key="" data-hash="https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Fed Up with News Apps, I Added Some AI</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="../../../post/en/3650/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg" loading="lazy" data-key="" data-hash="https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Turning Photoshop into a Machine Gun with Excel</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="../../../post/en/3649/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg" loading="lazy" data-key="" data-hash="https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">My AI Biologist</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2011 - 
+        
+        2025 Victor42
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#research-plan">Research Plan</a></li>
+    <li><a href="#data-source">Data Source</a></li>
+    <li><a href="#getting-the-pronunciation">Getting the Pronunciation</a></li>
+    <li><a href="#data-cleaning">Data Cleaning</a></li>
+    <li><a href="#analyzing-phonetic-transcriptions-ai">Analyzing Phonetic Transcriptions (AI)</a></li>
+    <li><a href="#analyzing-phonetic-transcriptions-algorithm">Analyzing Phonetic Transcriptions (Algorithm)</a></li>
+    <li><a href="#visualization">Visualization</a>
+      <ul>
+        <li><a href="#syllable-count-analysis">Syllable Count Analysis</a></li>
+        <li><a href="#syllable-count-vs-stress-position">Syllable Count vs. Stress Position</a></li>
+        <li><a href="#stressed-syllable-analysis">Stressed Syllable Analysis</a></li>
+        <li><a href="#part-of-speech-analysis">Part of Speech Analysis</a></li>
+        <li><a href="#rules-of-stress-position">Rules of Stress Position</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#afterword">Afterword</a></li>
+  </ul>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="../../../ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

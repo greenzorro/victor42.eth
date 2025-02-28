@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='上周末做了很多事情，一切都围绕博客展开。起初是@caicai同学推荐了两套博客系统给我，ghost与farbox。在此特别感谢一下他，一位年轻有为的设计师兼产品人。
+稍作了解之后，顿时觉得自己太缺乏匠人精神，怎么就能忍受Wordpress这么久呢？博客经营了这许多年，Wordpress逐渐演变成了一个臃肿的cms，编辑器的体验也不尽人意。看来即使身为互联网人，严重依赖某个产品后，一样会无力抽身，哪怕它已经罄竹难书。
+既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了markdown语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。
+安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条非常靠谱的答案，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。
+花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：
+博客平台 medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
+传统独立博客 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
+云博客 farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
+这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
+github博客 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
+开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
+在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
+经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
+大致研究了farbox的模板文件后，又发现新大陆。原来还有jade这么简洁的模板语言，它有一点类似于zen coding，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！
+除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。
+'><title>选择哪种博客？</title>
+
+<link rel='canonical' href='http://localhost:1313/post/3367/'>
+
+
+
+<link rel="stylesheet" href="../../scss/style.min.594112fc94b40e17b5a86b4ee206a0077216dab56dccf577eab6840808ae9f28.css">
+<link rel="stylesheet" href="../../css/custom-override.css"><meta property='og:title' content='选择哪种博客？'>
+<meta property='og:description' content='上周末做了很多事情，一切都围绕博客展开。起初是@caicai同学推荐了两套博客系统给我，ghost与farbox。在此特别感谢一下他，一位年轻有为的设计师兼产品人。
+稍作了解之后，顿时觉得自己太缺乏匠人精神，怎么就能忍受Wordpress这么久呢？博客经营了这许多年，Wordpress逐渐演变成了一个臃肿的cms，编辑器的体验也不尽人意。看来即使身为互联网人，严重依赖某个产品后，一样会无力抽身，哪怕它已经罄竹难书。
+既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了markdown语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。
+安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条非常靠谱的答案，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。
+花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：
+博客平台 medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
+传统独立博客 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
+云博客 farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
+这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
+github博客 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
+开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
+在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
+经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
+大致研究了farbox的模板文件后，又发现新大陆。原来还有jade这么简洁的模板语言，它有一点类似于zen coding，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！
+除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。
+'>
+<meta property='og:url' content='http://localhost:1313/post/3367/'>
+<meta property='og:site_name' content='Victor42'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2014-05-21T21:04:39&#43;00:00'/><meta property='article:modified_time' content='2014-05-21T21:04:39&#43;00:00'/>
+        <meta property='og:updated_time' content='2014-05-21T21:04:39&#43;00:00'/>
+<meta name="twitter:title" content="选择哪种博客？">
+<meta name="twitter:description" content="上周末做了很多事情，一切都围绕博客展开。起初是@caicai同学推荐了两套博客系统给我，ghost与farbox。在此特别感谢一下他，一位年轻有为的设计师兼产品人。
+稍作了解之后，顿时觉得自己太缺乏匠人精神，怎么就能忍受Wordpress这么久呢？博客经营了这许多年，Wordpress逐渐演变成了一个臃肿的cms，编辑器的体验也不尽人意。看来即使身为互联网人，严重依赖某个产品后，一样会无力抽身，哪怕它已经罄竹难书。
+既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了markdown语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。
+安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条非常靠谱的答案，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。
+花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：
+博客平台 medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。
+传统独立博客 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。
+云博客 farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。
+dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。
+这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。
+github博客 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。
+开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？
+在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。
+经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。
+大致研究了farbox的模板文件后，又发现新大陆。原来还有jade这么简洁的模板语言，它有一点类似于zen coding，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！
+除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。
+">
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http:\/\/localhost:1313\/post\/3367\/"
+    },
+    "headline": "选择哪种博客？",
+    "description": "上周末做了很多事情，一切都围绕博客展开。起初是@caicai同学推荐了两套博客系统给我，ghost与farbox。在此特别感谢一下他，一位年轻有为的设计师兼产品人。\n稍作了解之后，顿时觉得自己太缺乏匠人精神，怎么就能忍受Wordpress这么久呢？博客经营了这许多年，Wordpress逐渐演变成了一个臃肿的cms，编辑器的体验也不尽人意。看来即使身为互联网人，严重依赖某个产品后，一样会无力抽身，哪怕它已经罄竹难书。\n既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了markdown语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。\n安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条非常靠谱的答案，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。\n花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：\n博客平台 medium和简书就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。\n传统独立博客 以wordpress和ghost为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。\n云博客 farbox、site44、postach是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。\ndropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。\n这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。\ngithub博客 jekyll、Octopress、hexo属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。\n开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？\n在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的marboo、Logdown、Prose就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。\n经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以来这看看效果，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成相册。至于独立页面，更是不在话下。\n大致研究了farbox的模板文件后，又发现新大陆。原来还有jade这么简洁的模板语言，它有一点类似于zen coding，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！\n除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。\n",
+    
+    "author": {
+        "@type": "Person",
+        "name": "Victor42"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Victor42",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http:\/\/localhost:1313\/favicon.ico"
+        }
+    },
+    "datePublished": "2014-05-21T21:04:39\u002b00:00",
+    "dateModified": "2014-05-21T21:04:39\u002b00:00",
+    "wordCount":  2006 ,
+    "timeRequired": "PT6M"
+}
+</script> 
+    <link rel="shortcut icon" href="https://cdn.victor42.work/assets/favicon.ico" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3NJJ4RT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3NJJ4RT');
+</script>
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="../../" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    
+<article class="main-article">
+    
+
+<header class="article-header">
+    
+
+    <div class="article-details">
+        <div class="article-header-wrapper">
+            
+                <div class="article-category">
+                    
+                        <a href="../../categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/">
+                            折腾与思考-Geek
+                        </a>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="../../post/3367/">选择哪种博客？</a>
+            </h2>
+
+            
+        </div>
+
+        
+            <footer class="article-time">
+                
+                    <div>
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-calendar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" /><path d="M16 3v4" /><path d="M8 3v4" /><path d="M4 11h16" /><path d="M11 15h1" /><path d="M12 15v3" /></svg>
+                        <time class="article-time--published">May 21, 2014</time>
+                    </div>
+                
+
+                
+
+                
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--reading">6 minute read
+        </time>
+    </div>
+ 
+            </footer>
+        
+    </div>
+</header>
+    
+<section class="article-content">
+    
+    
+    <p>上周末做了很多事情，一切都围绕博客展开。起初是<a class="link" href="http://www.cai-cai.me/"  target="_blank" rel="noopener"
+    >@caicai</a>同学推荐了两套博客系统给我，ghost与farbox。在此特别感谢一下他，一位年轻有为的设计师兼产品人。</p>
+<p>稍作了解之后，顿时觉得自己太缺乏匠人精神，怎么就能忍受Wordpress这么久呢？博客经营了这许多年，Wordpress逐渐演变成了一个臃肿的cms，编辑器的体验也不尽人意。看来即使身为互联网人，严重依赖某个产品后，一样会无力抽身，哪怕它已经罄竹难书。</p>
+<p>既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了<a class="link" href="http://wowubuntu.com/markdown/"  target="_blank" rel="noopener"
+    >markdown</a>语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。</p>
+<p>安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条<a class="link" href="http://www.zhihu.com/question/21981094"  target="_blank" rel="noopener"
+    >非常靠谱的答案</a>，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。</p>
+<p>花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：</p>
+<h2 id="博客平台">博客平台</h2>
+<p><a class="link" href="https://medium.com/"  target="_blank" rel="noopener"
+    >medium</a>和<a class="link" href="http://jianshu.io/"  target="_blank" rel="noopener"
+    >简书</a>就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。</p>
+<h2 id="传统独立博客">传统独立博客</h2>
+<p>以<a class="link" href="http://wordpress.com/"  target="_blank" rel="noopener"
+    >wordpress</a>和<a class="link" href="https://ghost.org/"  target="_blank" rel="noopener"
+    >ghost</a>为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。</p>
+<h2 id="云博客">云博客</h2>
+<p><a class="link" href="https://www.farbox.com/"  target="_blank" rel="noopener"
+    >farbox</a>、<a class="link" href="http://www.site44.com/"  target="_blank" rel="noopener"
+    >site44</a>、<a class="link" href="http://postach.io/"  target="_blank" rel="noopener"
+    >postach</a>是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。</p>
+<p>dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。</p>
+<p>这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。</p>
+<h2 id="github博客">github博客</h2>
+<p><a class="link" href="http://jekyllrb.com/"  target="_blank" rel="noopener"
+    >jekyll</a>、<a class="link" href="http://octopress.org/"  target="_blank" rel="noopener"
+    >Octopress</a>、<a class="link" href="http://hexo.io/index.html"  target="_blank" rel="noopener"
+    >hexo</a>属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。</p>
+<p>开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？</p>
+<p>在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的<a class="link" href="http://marboo.biz/"  target="_blank" rel="noopener"
+    >marboo</a>、<a class="link" href="http://logdown.com/"  target="_blank" rel="noopener"
+    >Logdown</a>、<a class="link" href="http://prose.io/"  target="_blank" rel="noopener"
+    >Prose</a>就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。</p>
+<p>经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以<a class="link" href="http://colachan.farbox.com/"  target="_blank" rel="noopener"
+    >来这看看效果</a>，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成<a class="link" href="http://colachan.farbox.com/album/"  target="_blank" rel="noopener"
+    >相册</a>。至于<a class="link" href="http://colachan.farbox.com/about"  target="_blank" rel="noopener"
+    >独立页面</a>，更是不在话下。</p>
+<p>大致研究了farbox的模板文件后，又发现新大陆。原来还有<a class="link" href="http://jade-lang.com/"  target="_blank" rel="noopener"
+    >jade</a>这么简洁的模板语言，它有一点类似于<a class="link" href="https://code.google.com/p/zen-coding/"  target="_blank" rel="noopener"
+    >zen coding</a>，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！</p>
+<p>除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。</p>
+
+</section>
+
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="../../post/3416/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">material design学习笔记</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3398/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">蓝草庄园:巧用PS匹配颜色给照片调色</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3395/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">设计师在创业团队中的角色</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3394/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">一张图告诉你 iPhone 6 (plus) 多难搞</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3290/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">全面进化</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2011 - 
+        
+        2025 Victor42
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#博客平台">博客平台</a></li>
+    <li><a href="#传统独立博客">传统独立博客</a></li>
+    <li><a href="#云博客">云博客</a></li>
+    <li><a href="#github博客">github博客</a></li>
+  </ul>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="../../ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

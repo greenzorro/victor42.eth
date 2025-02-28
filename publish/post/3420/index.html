@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=' 我默默地翻译着文章，除此之外，个人网站越来越少出现其他内容。可能业余时间都用来睡懒觉了。既然这样，唯一能讲的故事，就只剩翻译背后的故事了。
+从2013年7月开始，心血来潮翻译了第一篇文章，就爱上翻译这件事。和设计一样，它也是一种创造。但是来得更纯粹，抛去了设备、媒介、载体的考量，只剩语言和思想。日积月累，从中收获了很多，设计水品、英文水品都有提升。还有一些意外收获，诸如眼界、人脉、思考、坚持。
+今天，我给大家带来幕后的故事，一篇译文完整的诞生经过。
+1. 找原文 首先，这一切的前提就是科学上网。国外设计网站图多、速度慢，直连的话简直就是在浪费绳命。另外，翻译过程中用到的一些小工具，也需要科学上网支持。
+我找优秀原文有几个固定地址，多是人尽皆知的知名网站。虽然来源挺狭窄，但他们家的原文质量都比较高，我一个人翻也足够了，在此分享给大家：
+Medium designmodo webdesignerdepot Invisionapp creativebloq Abduzeedo 怎样的原文算优秀，首先自己要能从中学到东西。有些文章虽然概念好、题材火爆，但讲得极其空洞。我以前也发过这样的文章，比如别在自命不凡了，设计师。发出来后觉得太敷衍了，很对不起读者们，在此向大家道歉。
+翻译前还是要确认一下有没有别人译过，除非那人真的译得很烂。这里，我们的第一个工具要亮相了——google图片搜索插件。很不幸，第一个就要科学上网。
+设计类文章有个好处，里面最不缺的就是图片。找到一篇心仪的原文，用这个工具随意搜索其中两三张图片。如果有别人翻译过，通常都能搜到。
+2. 原文转成markdown 我一直用markdown来写作，不论翻译还是个人日志。markdown不是一种工具，也不是一种格式。它去除了所有样式，是内容最原本最朴实的形态。这是一种能够让写作流程标准化的东西。同时，也能给你最纯净和专注的体验。
+但是原文不会给我markdown格式，都是富文本。用浏览器开发人员工具一看源代码，嚯！各种style属性，各种span、div，甚至有很多html5标签，比如figure、section。手动删掉那些div、span标签会让人想掀桌，普通的markdown转换工具又无法处理。于是我在别人的基础上改进了一下，基本满足需求，偶尔会产生几个空行而已。也分享出来给有需要的朋友。
+工具地址：something- to-markdown
+转好了markdown，要找个趁手的编辑器。在mac上我目前用的是Mou，在windows上感觉没有哪款客户端好用，最后选了个网页版工具stackedit，用着也挺顺手。在iPhone和iPad上，我用的是Write。【现在mac和iOS上都已经改用byword了。】
+3. 翻译 翻译其实要进行两遍，第一遍确保不遗漏重要信息，第二遍润色。
+不必逐字翻译 优先忠实原文，但不必每个词的意思都表达出来。we, and, just, an, if等等这些词的含义，有时我会省略或者扭曲一下，并不会破坏作者要传达的信息。
+比如这一句：
+How can you take advantage of the trend?
+文章讲的是网页设计中的一种趋势。这里的you翻译出来似乎有点累赘：
+你可以如何利用这项趋势？
+在汉语中，这种时候往往是省略主语的。所以不翻就可以了：
+如何利用这一趋势？
+勤查词典 查字典要勤快，即使是我熟悉的词，感到翻译卡住了马上查。因为我并不能保证这里就是我熟悉的意思。
+其实查词应该先查英英释义，有些词用中文无法解释，一看英文解释，就恍然大悟，某个巧妙且准确的成语便可能浮上心头。
+看看这篇讲网页排版趋势的文章，有个词很有难度：
+But in this niche the designs adapt in such a way such that they completely fill the screen and do not produce scroll bars.
+'><title>译文背后的故事</title>
+
+<link rel='canonical' href='http://localhost:1313/post/3420/'>
+
+
+
+<link rel="stylesheet" href="../../scss/style.min.594112fc94b40e17b5a86b4ee206a0077216dab56dccf577eab6840808ae9f28.css">
+<link rel="stylesheet" href="../../css/custom-override.css"><meta property='og:title' content='译文背后的故事'>
+<meta property='og:description' content=' 我默默地翻译着文章，除此之外，个人网站越来越少出现其他内容。可能业余时间都用来睡懒觉了。既然这样，唯一能讲的故事，就只剩翻译背后的故事了。
+从2013年7月开始，心血来潮翻译了第一篇文章，就爱上翻译这件事。和设计一样，它也是一种创造。但是来得更纯粹，抛去了设备、媒介、载体的考量，只剩语言和思想。日积月累，从中收获了很多，设计水品、英文水品都有提升。还有一些意外收获，诸如眼界、人脉、思考、坚持。
+今天，我给大家带来幕后的故事，一篇译文完整的诞生经过。
+1. 找原文 首先，这一切的前提就是科学上网。国外设计网站图多、速度慢，直连的话简直就是在浪费绳命。另外，翻译过程中用到的一些小工具，也需要科学上网支持。
+我找优秀原文有几个固定地址，多是人尽皆知的知名网站。虽然来源挺狭窄，但他们家的原文质量都比较高，我一个人翻也足够了，在此分享给大家：
+Medium designmodo webdesignerdepot Invisionapp creativebloq Abduzeedo 怎样的原文算优秀，首先自己要能从中学到东西。有些文章虽然概念好、题材火爆，但讲得极其空洞。我以前也发过这样的文章，比如别在自命不凡了，设计师。发出来后觉得太敷衍了，很对不起读者们，在此向大家道歉。
+翻译前还是要确认一下有没有别人译过，除非那人真的译得很烂。这里，我们的第一个工具要亮相了——google图片搜索插件。很不幸，第一个就要科学上网。
+设计类文章有个好处，里面最不缺的就是图片。找到一篇心仪的原文，用这个工具随意搜索其中两三张图片。如果有别人翻译过，通常都能搜到。
+2. 原文转成markdown 我一直用markdown来写作，不论翻译还是个人日志。markdown不是一种工具，也不是一种格式。它去除了所有样式，是内容最原本最朴实的形态。这是一种能够让写作流程标准化的东西。同时，也能给你最纯净和专注的体验。
+但是原文不会给我markdown格式，都是富文本。用浏览器开发人员工具一看源代码，嚯！各种style属性，各种span、div，甚至有很多html5标签，比如figure、section。手动删掉那些div、span标签会让人想掀桌，普通的markdown转换工具又无法处理。于是我在别人的基础上改进了一下，基本满足需求，偶尔会产生几个空行而已。也分享出来给有需要的朋友。
+工具地址：something- to-markdown
+转好了markdown，要找个趁手的编辑器。在mac上我目前用的是Mou，在windows上感觉没有哪款客户端好用，最后选了个网页版工具stackedit，用着也挺顺手。在iPhone和iPad上，我用的是Write。【现在mac和iOS上都已经改用byword了。】
+3. 翻译 翻译其实要进行两遍，第一遍确保不遗漏重要信息，第二遍润色。
+不必逐字翻译 优先忠实原文，但不必每个词的意思都表达出来。we, and, just, an, if等等这些词的含义，有时我会省略或者扭曲一下，并不会破坏作者要传达的信息。
+比如这一句：
+How can you take advantage of the trend?
+文章讲的是网页设计中的一种趋势。这里的you翻译出来似乎有点累赘：
+你可以如何利用这项趋势？
+在汉语中，这种时候往往是省略主语的。所以不翻就可以了：
+如何利用这一趋势？
+勤查词典 查字典要勤快，即使是我熟悉的词，感到翻译卡住了马上查。因为我并不能保证这里就是我熟悉的意思。
+其实查词应该先查英英释义，有些词用中文无法解释，一看英文解释，就恍然大悟，某个巧妙且准确的成语便可能浮上心头。
+看看这篇讲网页排版趋势的文章，有个词很有难度：
+But in this niche the designs adapt in such a way such that they completely fill the screen and do not produce scroll bars.
+'>
+<meta property='og:url' content='http://localhost:1313/post/3420/'>
+<meta property='og:site_name' content='Victor42'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2015-01-24T10:44:00&#43;00:00'/><meta property='article:modified_time' content='2015-01-24T10:44:00&#43;00:00'/>
+        <meta property='og:updated_time' content='2015-01-24T10:44:00&#43;00:00'/>
+<meta name="twitter:title" content="译文背后的故事">
+<meta name="twitter:description" content=" 我默默地翻译着文章，除此之外，个人网站越来越少出现其他内容。可能业余时间都用来睡懒觉了。既然这样，唯一能讲的故事，就只剩翻译背后的故事了。
+从2013年7月开始，心血来潮翻译了第一篇文章，就爱上翻译这件事。和设计一样，它也是一种创造。但是来得更纯粹，抛去了设备、媒介、载体的考量，只剩语言和思想。日积月累，从中收获了很多，设计水品、英文水品都有提升。还有一些意外收获，诸如眼界、人脉、思考、坚持。
+今天，我给大家带来幕后的故事，一篇译文完整的诞生经过。
+1. 找原文 首先，这一切的前提就是科学上网。国外设计网站图多、速度慢，直连的话简直就是在浪费绳命。另外，翻译过程中用到的一些小工具，也需要科学上网支持。
+我找优秀原文有几个固定地址，多是人尽皆知的知名网站。虽然来源挺狭窄，但他们家的原文质量都比较高，我一个人翻也足够了，在此分享给大家：
+Medium designmodo webdesignerdepot Invisionapp creativebloq Abduzeedo 怎样的原文算优秀，首先自己要能从中学到东西。有些文章虽然概念好、题材火爆，但讲得极其空洞。我以前也发过这样的文章，比如别在自命不凡了，设计师。发出来后觉得太敷衍了，很对不起读者们，在此向大家道歉。
+翻译前还是要确认一下有没有别人译过，除非那人真的译得很烂。这里，我们的第一个工具要亮相了——google图片搜索插件。很不幸，第一个就要科学上网。
+设计类文章有个好处，里面最不缺的就是图片。找到一篇心仪的原文，用这个工具随意搜索其中两三张图片。如果有别人翻译过，通常都能搜到。
+2. 原文转成markdown 我一直用markdown来写作，不论翻译还是个人日志。markdown不是一种工具，也不是一种格式。它去除了所有样式，是内容最原本最朴实的形态。这是一种能够让写作流程标准化的东西。同时，也能给你最纯净和专注的体验。
+但是原文不会给我markdown格式，都是富文本。用浏览器开发人员工具一看源代码，嚯！各种style属性，各种span、div，甚至有很多html5标签，比如figure、section。手动删掉那些div、span标签会让人想掀桌，普通的markdown转换工具又无法处理。于是我在别人的基础上改进了一下，基本满足需求，偶尔会产生几个空行而已。也分享出来给有需要的朋友。
+工具地址：something- to-markdown
+转好了markdown，要找个趁手的编辑器。在mac上我目前用的是Mou，在windows上感觉没有哪款客户端好用，最后选了个网页版工具stackedit，用着也挺顺手。在iPhone和iPad上，我用的是Write。【现在mac和iOS上都已经改用byword了。】
+3. 翻译 翻译其实要进行两遍，第一遍确保不遗漏重要信息，第二遍润色。
+不必逐字翻译 优先忠实原文，但不必每个词的意思都表达出来。we, and, just, an, if等等这些词的含义，有时我会省略或者扭曲一下，并不会破坏作者要传达的信息。
+比如这一句：
+How can you take advantage of the trend?
+文章讲的是网页设计中的一种趋势。这里的you翻译出来似乎有点累赘：
+你可以如何利用这项趋势？
+在汉语中，这种时候往往是省略主语的。所以不翻就可以了：
+如何利用这一趋势？
+勤查词典 查字典要勤快，即使是我熟悉的词，感到翻译卡住了马上查。因为我并不能保证这里就是我熟悉的意思。
+其实查词应该先查英英释义，有些词用中文无法解释，一看英文解释，就恍然大悟，某个巧妙且准确的成语便可能浮上心头。
+看看这篇讲网页排版趋势的文章，有个词很有难度：
+But in this niche the designs adapt in such a way such that they completely fill the screen and do not produce scroll bars.
+">
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http:\/\/localhost:1313\/post\/3420\/"
+    },
+    "headline": "译文背后的故事",
+    "description": " 我默默地翻译着文章，除此之外，个人网站越来越少出现其他内容。可能业余时间都用来睡懒觉了。既然这样，唯一能讲的故事，就只剩翻译背后的故事了。\n从2013年7月开始，心血来潮翻译了第一篇文章，就爱上翻译这件事。和设计一样，它也是一种创造。但是来得更纯粹，抛去了设备、媒介、载体的考量，只剩语言和思想。日积月累，从中收获了很多，设计水品、英文水品都有提升。还有一些意外收获，诸如眼界、人脉、思考、坚持。\n今天，我给大家带来幕后的故事，一篇译文完整的诞生经过。\n1. 找原文 首先，这一切的前提就是科学上网。国外设计网站图多、速度慢，直连的话简直就是在浪费绳命。另外，翻译过程中用到的一些小工具，也需要科学上网支持。\n我找优秀原文有几个固定地址，多是人尽皆知的知名网站。虽然来源挺狭窄，但他们家的原文质量都比较高，我一个人翻也足够了，在此分享给大家：\nMedium designmodo webdesignerdepot Invisionapp creativebloq Abduzeedo 怎样的原文算优秀，首先自己要能从中学到东西。有些文章虽然概念好、题材火爆，但讲得极其空洞。我以前也发过这样的文章，比如别在自命不凡了，设计师。发出来后觉得太敷衍了，很对不起读者们，在此向大家道歉。\n翻译前还是要确认一下有没有别人译过，除非那人真的译得很烂。这里，我们的第一个工具要亮相了——google图片搜索插件。很不幸，第一个就要科学上网。\n设计类文章有个好处，里面最不缺的就是图片。找到一篇心仪的原文，用这个工具随意搜索其中两三张图片。如果有别人翻译过，通常都能搜到。\n2. 原文转成markdown 我一直用markdown来写作，不论翻译还是个人日志。markdown不是一种工具，也不是一种格式。它去除了所有样式，是内容最原本最朴实的形态。这是一种能够让写作流程标准化的东西。同时，也能给你最纯净和专注的体验。\n但是原文不会给我markdown格式，都是富文本。用浏览器开发人员工具一看源代码，嚯！各种style属性，各种span、div，甚至有很多html5标签，比如figure、section。手动删掉那些div、span标签会让人想掀桌，普通的markdown转换工具又无法处理。于是我在别人的基础上改进了一下，基本满足需求，偶尔会产生几个空行而已。也分享出来给有需要的朋友。\n工具地址：something- to-markdown\n转好了markdown，要找个趁手的编辑器。在mac上我目前用的是Mou，在windows上感觉没有哪款客户端好用，最后选了个网页版工具stackedit，用着也挺顺手。在iPhone和iPad上，我用的是Write。【现在mac和iOS上都已经改用byword了。】\n3. 翻译 翻译其实要进行两遍，第一遍确保不遗漏重要信息，第二遍润色。\n不必逐字翻译 优先忠实原文，但不必每个词的意思都表达出来。we, and, just, an, if等等这些词的含义，有时我会省略或者扭曲一下，并不会破坏作者要传达的信息。\n比如这一句：\nHow can you take advantage of the trend?\n文章讲的是网页设计中的一种趋势。这里的you翻译出来似乎有点累赘：\n你可以如何利用这项趋势？\n在汉语中，这种时候往往是省略主语的。所以不翻就可以了：\n如何利用这一趋势？\n勤查词典 查字典要勤快，即使是我熟悉的词，感到翻译卡住了马上查。因为我并不能保证这里就是我熟悉的意思。\n其实查词应该先查英英释义，有些词用中文无法解释，一看英文解释，就恍然大悟，某个巧妙且准确的成语便可能浮上心头。\n看看这篇讲网页排版趋势的文章，有个词很有难度：\nBut in this niche the designs adapt in such a way such that they completely fill the screen and do not produce scroll bars.\n",
+    
+    "author": {
+        "@type": "Person",
+        "name": "Victor42"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Victor42",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http:\/\/localhost:1313\/favicon.ico"
+        }
+    },
+    "datePublished": "2015-01-24T10:44:00\u002b00:00",
+    "dateModified": "2015-01-24T10:44:00\u002b00:00",
+    "wordCount":  5414 ,
+    "timeRequired": "PT16M"
+}
+</script> 
+    <link rel="shortcut icon" href="https://cdn.victor42.work/assets/favicon.ico" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3NJJ4RT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3NJJ4RT');
+</script>
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="../../" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    
+<article class="main-article">
+    
+
+<header class="article-header">
+    
+
+    <div class="article-details">
+        <div class="article-header-wrapper">
+            
+                <div class="article-category">
+                    
+                        <a href="../../categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/">
+                            折腾与思考-Geek
+                        </a>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="../../post/3420/">译文背后的故事</a>
+            </h2>
+
+            
+        </div>
+
+        
+            <footer class="article-time">
+                
+                    <div>
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-calendar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" /><path d="M16 3v4" /><path d="M8 3v4" /><path d="M4 11h16" /><path d="M11 15h1" /><path d="M12 15v3" /></svg>
+                        <time class="article-time--published">Jan 24, 2015</time>
+                    </div>
+                
+
+                
+
+                
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--reading">16 minute read
+        </time>
+    </div>
+ 
+            </footer>
+        
+    </div>
+</header>
+    
+<section class="article-content">
+    
+    
+    <p><figure 
+	>
+	<a href="https://cdn.victor42.work/posts/2015-01/01-24/1.jpg" >
+		<img src="https://cdn.victor42.work/posts/2015-01/01-24/1.jpg"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>我默默地翻译着文章，除此之外，个人网站越来越少出现其他内容。可能业余时间都用来睡懒觉了。既然这样，唯一能讲的故事，就只剩翻译背后的故事了。</p>
+<p>从2013年7月开始，心血来潮翻译了第一篇文章，就爱上翻译这件事。和设计一样，它也是一种创造。但是来得更纯粹，抛去了设备、媒介、载体的考量，只剩语言和思想。日积月累，从中收获了很多，设计水品、英文水品都有提升。还有一些意外收获，诸如眼界、人脉、思考、坚持。</p>
+<p>今天，我给大家带来幕后的故事，一篇译文完整的诞生经过。</p>
+<h2 id="1-找原文">1. 找原文</h2>
+<p>首先，这一切的前提就是科学上网。国外设计网站图多、速度慢，直连的话简直就是在浪费绳命。另外，翻译过程中用到的一些小工具，也需要科学上网支持。</p>
+<p>我找优秀原文有几个固定地址，多是人尽皆知的知名网站。虽然来源挺狭窄，但他们家的原文质量都比较高，我一个人翻也足够了，在此分享给大家：</p>
+<ul>
+<li><a class="link" href="https://medium.com/"  target="_blank" rel="noopener"
+    >Medium</a></li>
+<li><a class="link" href="http://designmodo.com/"  target="_blank" rel="noopener"
+    >designmodo</a></li>
+<li><a class="link" href="http://www.webdesignerdepot.com/"  target="_blank" rel="noopener"
+    >webdesignerdepot</a></li>
+<li><a class="link" href="http://blog.invisionapp.com/"  target="_blank" rel="noopener"
+    >Invisionapp</a></li>
+<li><a class="link" href="http://www.creativebloq.com/net-magazine"  target="_blank" rel="noopener"
+    >creativebloq</a></li>
+<li><a class="link" href="http://abduzeedo.com/"  target="_blank" rel="noopener"
+    >Abduzeedo</a></li>
+</ul>
+<p>怎样的原文算优秀，首先自己要能从中学到东西。有些文章虽然概念好、题材火爆，但讲得极其空洞。我以前也发过这样的文章，比如<a class="link" href="http://victor42.eth.limo/post/3392"  target="_blank" rel="noopener"
+    >别在自命不凡了，设计师</a>。发出来后觉得太敷衍了，很对不起读者们，在此向大家道歉。</p>
+<p>翻译前还是要确认一下有没有别人译过，除非那人真的译得很烂。这里，我们的第一个工具要亮相了——<a class="link" href="https://chrome.google.com/webstore/detail/search-by-image-by-google/dajedkncpodkggklbegccjpmnglmnflm"  target="_blank" rel="noopener"
+    >google图片搜索插件</a>。很不幸，第一个就要科学上网。</p>
+<p>设计类文章有个好处，里面最不缺的就是图片。找到一篇心仪的原文，用这个工具随意搜索其中两三张图片。如果有别人翻译过，通常都能搜到。</p>
+<h2 id="2-原文转成markdown">2. 原文转成markdown</h2>
+<p>我一直用<a class="link" href="http://wowubuntu.com/markdown/"  target="_blank" rel="noopener"
+    >markdown</a>来写作，不论翻译还是个人日志。markdown不是一种工具，也不是一种格式。它去除了所有样式，是内容最原本最朴实的形态。这是一种能够让写作流程标准化的东西。同时，也能给你最纯净和专注的体验。</p>
+<p>但是原文不会给我markdown格式，都是富文本。用浏览器开发人员工具一看源代码，嚯！各种style属性，各种span、div，甚至有很多html5标签，比如figure、section。手动删掉那些div、span标签会让人想掀桌，普通的markdown转换工具又无法处理。于是我在别人的基础上改进了一下，基本满足需求，偶尔会产生几个空行而已。也分享出来给有需要的朋友。</p>
+<p>工具地址：<a class="link" href="http://greenzorro.github.io/something-to-markdown/"  target="_blank" rel="noopener"
+    >something- to-markdown</a></p>
+<p>转好了markdown，要找个趁手的编辑器。在mac上我目前用的是<a class="link" href="http://25.io/mou/"  target="_blank" rel="noopener"
+    >Mou</a>，在windows上感觉没有哪款客户端好用，最后选了个网页版工具<a class="link" href="https://stackedit.io/editor"  target="_blank" rel="noopener"
+    >stackedit</a>，用着也挺顺手。在iPhone和iPad上，我用的是<a class="link" href="http://writeapp.net"  target="_blank" rel="noopener"
+    >Write</a>。【现在mac和iOS上都已经改用<a class="link" href="http://bywordapp.com/"  target="_blank" rel="noopener"
+    >byword</a>了。】</p>
+<h2 id="3-翻译">3. 翻译</h2>
+<p>翻译其实要进行两遍，第一遍确保不遗漏重要信息，第二遍润色。</p>
+<h3 id="不必逐字翻译">不必逐字翻译</h3>
+<p>优先忠实原文，但不必每个词的意思都表达出来。we, and, just, an, if等等这些词的含义，有时我会省略或者扭曲一下，并不会破坏作者要传达的信息。</p>
+<p>比如这一句：</p>
+<blockquote>
+<p>How can you take advantage of the trend?</p></blockquote>
+<p>文章讲的是网页设计中的一种趋势。这里的you翻译出来似乎有点累赘：</p>
+<blockquote>
+<p>你可以如何利用这项趋势？</p></blockquote>
+<p>在汉语中，这种时候往往是省略主语的。所以不翻就可以了：</p>
+<blockquote>
+<p>如何利用这一趋势？</p></blockquote>
+<h3 id="勤查词典">勤查词典</h3>
+<p>查字典要勤快，即使是我熟悉的词，感到翻译卡住了马上查。因为我并不能保证这里就是我熟悉的意思。</p>
+<p>其实查词应该先查英英释义，有些词用中文无法解释，一看英文解释，就恍然大悟，某个巧妙且准确的成语便可能浮上心头。</p>
+<p>看看这篇<a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/"  target="_blank" rel="noopener"
+    >讲网页排版趋势的文章</a>，有个词很有难度：</p>
+<blockquote>
+<p>But in this <strong>niche</strong> the designs adapt in such a way such that they completely fill the screen and do not produce scroll bars.</p></blockquote>
+<p>这个niche是什么鬼！？一查词典是壁龛、合适的职业，文不对题嘛。查了下英英释义：</p>
+<blockquote>
+<p>a position particularly well suited to the person who occupies it.</p></blockquote>
+<p>讲的也是合适的职业，但是忽然就明白了作者的意思。他想表达的是这个案例非常适合这种设计方式。所以在想到更传神的表达之前，这个niche，我们可以把它译作“绝佳案例”。</p>
+<p>看看，这么一大串意思，英文可以用一个词表达出来，真是神奇。</p>
+<h3 id="较真">较真</h3>
+<p>对于难翻译的词我非常较真。词典查不到，本着人肉搜索的精神刨根问底。Google这个词或短语，看其他地方怎么用，即便是再读另一篇原文，也要弄清楚。</p>
+<p>比如portrait和landscape，第一次遇到这两个词的时候，找了半个小时，才弄明白是指竖屏和横屏。</p>
+<p>再举一例，还是<a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/"  target="_blank" rel="noopener"
+    >刚才那篇</a>，里面提到有一类趋势，叫做No Chrome。那这个No Chrome要怎么翻译？没有铬？没有谷歌浏览器？显然都不合适。</p>
+<p>词典没用，这时候就必须靠Google大法。通过搜索No Chrome，找到<a class="link" href="http://www.zdnet.com/article/no-chrome-movement/"  target="_blank" rel="noopener"
+    >另一篇文章</a>，其中有关键的一句“No more Chrome”，显然是同一个意思。于是耐着性子开始读这篇文章，发现它讲的是网页设计中一个去界面化的现象。</p>
+<blockquote>
+<p>People feel they are interacting directly with the data.</p></blockquote>
+<blockquote>
+<p>用户直接与数据进行互动。</p></blockquote>
+<p>回来看手头的文章，发现正是这个意思。没有容器，没有界面，直接展示数据，案例网站的图片也能印证这一点。</p>
+<p>至于为什么是No Chrome，想必是因为Chrome在国外就已经是浏览器和web界面的代名词了，毕竟他们几乎不用360、搜狗这样的外壳浏览器。问题迎刃而解，原来它真的是没有谷歌浏览器的意思。但翻译可不能这么翻，No Chrome应该翻译为<strong>去界面化</strong>。</p>
+<h3 id="结合专业知识">结合专业知识</h3>
+<p>既然是翻译设计文章，在疑难词句上，优先考虑结合专业知识，回忆一些相关的行业信息。这样就可以根据自己工作经验来猜测。</p>
+<p>感谢@Gaoyounger提醒，其实那个portrait和landscape就是AI中新建文档时常用的纵向和横向比。所以，日常软件应该尽量装英文版，很有帮助。</p>
+<p>还有之前的no chrome。回想一下ios7刚发布时候，官方反复强调的“内容为主”，着重演示了safari浏览器的全屏效果，这也是一种暗示。</p>
+<h3 id="临时发挥">临时发挥</h3>
+<p>有些词确实找不到相应的汉语词，这种情况往往是短语，里面每个单词都认识，但凑在一块好像就没有意义。这就说明汉语文化中根本没这个概念，这时候我会自己发挥一下，用其中某个词直译过来组词，揣摩作者的意思。</p>
+<p>同一篇文章中有如下句子：</p>
+<blockquote>
+<p>This go-to pattern consisted of a header, footer, sidebar and content area.</p></blockquote>
+<p>这个go-to就完全查不到，较真也没用，就是查不到。</p>
+<p>首先想到C语言里有goto语句，是一种打破常规顺序直达某处的语法。而go to在英文中就是去的意思。“Go to hell！去死吧！”，有点快去、直接去的意思。所以这里就YY一下，翻译成“直截了当”。</p>
+<h3 id="通过上下文锁定含义">通过上下文锁定含义</h3>
+<p>有时一个词有很多种相近的意思，似乎每种都说得通。这时候我就会打个标记，继续往下读。通常读完一整段，这个词的含义就清晰了。</p>
+<p>比如这篇<a class="link" href="https://medium.com/adventures-in-consumer-technology/redesigning-soundcloud-d52b4baf17a4"  target="_blank" rel="noopener"
+    >SoundCloud再设计</a>，其中有一段的小标题是“The Stream”。stream有很多意思，流动、潮流。在用户体验中可以代表信息流，在音频方面也能表达流媒体的意思。这篇文章刚好讲的是音乐产品，究竟是哪个意思呢？</p>
+<p>这种时候只能往下读了。看懂下文之后，发现作者讲的是SoundCloud信息流界面，再回来把小标题补上。</p>
+<h3 id="补充信息">补充信息</h3>
+<p>适时补充信息。英文有时候是很精简的，动词当作名词用。直译过来就不通了，所以需要补上主语或宾语，让它变成一个完整的短句。</p>
+<p>再次回到那篇<a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/"  target="_blank" rel="noopener"
+    >网页排版趋势</a>，看这一句：</p>
+<blockquote>
+<p>I find the focus and clarity of these sites to be refreshing.</p></blockquote>
+<p>focus and clarity of sites，网站的焦点和清晰？说不通。这时候也需要小小臆测一下，补充一点信息进去：</p>
+<blockquote>
+<p>我发现这些网站的聚焦能力和清晰程度，令人耳目一新。</p></blockquote>
+<h3 id="拆分长句">拆分长句</h3>
+<p>长句直译过来是很难读懂的，尤其是带有很长定语的从句，需要拆成多个短句来译。如果“……的……的”这样的长串定语，“的”字超过两个，我一定会把它断开。有时哪怕稍微不忠实原文，将定语形容的对象替换掉，也要保证句子易读。</p>
+<p>有篇<a class="link" href="http://designmodo.com/color-filter-websites/"  target="_blank" rel="noopener"
+    >讨论网页中彩色滤镜效果的文章</a>，开篇就是个变态长句：</p>
+<blockquote>
+<p>Who would have thought that such simple instruments as color and gradient can catalyze creativity and enormously enhance the website’s aesthetics in the modern world of advanced effects and intricate styles?</p></blockquote>
+<p>那么来细细分解一下。首先分成两部分：</p>
+<ol>
+<li>Who would have thought</li>
+<li>that&hellip;</li>
+</ol>
+<p>只看主谓宾，不看定状补，that后面又可以继续分：</p>
+<blockquote>
+<p>such simple instruments <em>(as color and gradient)</em> can catalyze creativity and <em>(enormously)</em> enhance the website’s aesthetics <em>(in the modern world of advanced effects and intricate styles)</em>?</p></blockquote>
+<p>然后就是拼拼凑凑和调整语序了：</p>
+<blockquote>
+<p>在当今这个充斥着先进的特效和精妙风格的世界中，谁曾料到，像纯色和渐变这样简单的手法，竟能够催化出创造力，并极大提升网站的美学水准？</p></blockquote>
+<h3 id="沿袭原文文风">沿袭原文文风</h3>
+<p>文风也会尽量忠实原文，偶尔出现的一些口语化的说法，翻译过来也需要口语化，贴近作者的真实表达。</p>
+<p>在<a class="link" href="https://medium.com/@pasql/transitional-interfaces-926eb80d64e3"  target="_blank" rel="noopener"
+    >这篇讲动效的文章</a>中，一张无过渡效果的案例图下方，有一句“Yikes, that’s rough…”。</p>
+<p>这个Yikes是口语词，表示惊讶的意思。自己亲口把这句话读上几遍，尝试各种语调，似乎能体会到作者那一丝嫌恶的感情。那么这里就可以翻译得活泼一点，“我去，太挫了……”。</p>
+<h3 id="专有名词通常不处理">专有名词通常不处理</h3>
+<p>专有名称建议不翻译，比如material design。之前在译言的时候，我把它直译成材料设计，读者一致反对。</p>
+<p><a class="link" href="http://www.webdesignerdepot.com/2014/12/how-to-design-the-perfect-single-page-website/"  target="_blank" rel="noopener"
+    >这篇文章</a>中，有这样一句：</p>
+<blockquote>
+<p>One Page Love: One Page Love is the premier one page website gallery, with more than 5000 example sites, and adding more all the time. They also feature tons of templates and other resources.</p></blockquote>
+<p>这个One Page Love显然是个网站的名称，翻译成一页情要闹笑话了。</p>
+<h3 id="标点符号">标点符号</h3>
+<p>注意标点符号，英文用逗号，翻译过来未必也要是逗号。英文本身句子就长，跟一大堆从句，有可能三四行连一个标点符号都没有。10几行的一段，只有3、4个逗号也是常有的事情。中文要是这样，读者就要疯了，不信体验一下：</p>
+<blockquote>
+<p>注意标点符号，并不是英文用逗号，翻译过来就得是逗号，英文本身句子就长，跟一大堆从句，有可能三四行连一个标点符号都没有，10几行的一段，只有3、4个逗号也是常有的事情，中文要是这样，读者就要疯了，不信体验一下。</p></blockquote>
+<h2 id="4-润色">4. 润色</h2>
+<p>文章是给中国读者看的，要符合中国人的语言表达习惯。有必要花时间再读一遍翻译稿，专门进行中文润色。当然，有自信的话，对于难度较低的文章，这步我会和翻译一起完成。</p>
+<h3 id="整理语序">整理语序</h3>
+<p>有时整个句子的语序要颠倒过来，英文经常把if放在后半句，但汉语这么说就显得不太自然。</p>
+<h3 id="避免重复">避免重复</h3>
+<p>一个词连续使用太多，读着就不顺畅。比如一个句子中出现太多的“响应式设计”一词，可以适当省略，或者换成“它”代指。</p>
+<p>动词也一样，尽量避免一句中出现两个相同的动词。比如本文的翻译那章，有一句话“一篇讲网页排版趋势的文章提到有一类趋势”，其实原先是“一篇讲网页排版趋势的文章【讲】到有一类趋势”。“讲”字重复了，所以我把其中一个改成了“提”。</p>
+<h3 id="变通">变通</h3>
+<p>虽然要尽量忠实原文，但是用词可以灵活一些，偶尔添加一些原文没有的意思，无伤大雅。比如这一句：</p>
+<blockquote>
+<p>If you survey one of the many popular galleries showcasing current web design <strong>you will no doubt notice that the fundamental structure for web pages is anything but fixed</strong>.</p></blockquote>
+<p>后面半句需要动点脑筋。anything but虽然是个固定短语，意思是根本不。但是直译过来仍显生涩，需要变通一下。润色关键是表达原文的“神”，不必拘泥于“形”。</p>
+<p>最终译成：</p>
+<blockquote>
+<p>毫无疑问，你会注意到网页的基本结构千变万化，根本没有固定形态。</p></blockquote>
+<h3 id="保持简炼">保持简炼</h3>
+<p>还要注意去掉不必要的“是”、“的”、“了”，它们会使文章显得啰嗦。</p>
+<h3 id="成语">成语</h3>
+<p>润色的另一个要点，就是成语的使用。这是汉语的精华，善用成语可以让句子简炼易读，有时还能表达得更加传神。</p>
+<p>例如在这篇<a class="link" href="http://www.creativebloq.com/ux/how-human-eye-reads-website-111413463"  target="_blank" rel="noopener"
+    >讲述人眼阅读习惯的文章</a>中，有一这样一句：</p>
+<blockquote>
+<p>which is why we hold the masters like da Vinci and Van Gogh in such high regard.</p></blockquote>
+<p>当然，它可以直译成“这就是为什么我们如此高度景仰达芬奇和梵高这样的大师”，没有问题，只是不够简炼。其实一个成语就能画龙点睛：</p>
+<blockquote>
+<p>所以我们才会对达芬奇和梵高这样的大师推崇备至。</p></blockquote>
+<h3 id="检查错别字">检查错别字</h3>
+<p>最后，务必确保没有错别字。</p>
+<h2 id="5-发布">5. 发布</h2>
+<p>我的文章要发很多地方：个人网站、微信公众号、豆瓣小组、站酷、UI中国。另外还有优设、人人都是产品经理社区等不能自主发文的网站，貌似和我形成了某种默契，时不时会自主转载，不需要我动手（我当然不会告诉你我里头有人 →_→），不然这活我可干不了。</p>
+<p>这时候markdown的优势就发挥得淋漓尽致了，因为它是最纯粹、不带格式的内容，便于转换成各个平台的格式。</p>
+<h3 id="个人网站">个人网站</h3>
+<p>我个人网站用的是<a class="link" href="https://www.farbox.com/"  target="_blank" rel="noopener"
+    >farbox</a>博客系统，本身支持markdown，数据还是存在dropbox里的。发布相当简单，把markdown文件往dropbox里一丢，状态改成已发布，时间设置一下就OK了。</p>
+<h3 id="微信公众号">微信公众号</h3>
+<p>微信公众号的编辑器不支持markdown，需要用到一个chrome插件<a class="link" href="https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa"  target="_blank" rel="noopener"
+    >markdown here</a>。把markdown粘贴进去，点一下插件小图标，就转成了富文本。甚至能产生微信公众号不支持的h1~h6标签。</p>
+<h3 id="豆瓣小组">豆瓣小组</h3>
+<p>这个是最棘手的，豆瓣的编辑器……说它是编辑器都抬举了，它真的只是一个textarea。markdown here也不管用了，怎么办？</p>
+<p>所以又得自己做工具了，既然有something-to-markdown，当然也可以有<a class="link" href="http://greenzorro.github.io/markdown-to-something/"  target="_blank" rel="noopener"
+    >markdown-to-something</a></p>
+<p>这个工具可以把markdown转成纯文本，就是txt那种。至于图片，也有它的处理方法。虽然还是土办法，不过比纯手工上传还是要强多了。</p>
+<h3 id="站酷ui中国">站酷、UI中国</h3>
+<p>这里就是常规发文流程了，比较方便。</p>
+<p>不过在图片本地化方面我有点个人看法。我个人网站中的文章，图片地址从来都不改。一方面是出于懒，另一方面我觉得应该信任这些来源站。或许哪天我的个人网站都不存在了，他们的博客一定能继续运转下去。互联网的精神本该是开放和信任，而不是据为己有。</p>
+<p>那么图片是放在自己的服务器可靠，还是留给他们自己管理可靠呢？</p>
+<h2 id="6-学习">6. 学习</h2>
+<p>这是翻译的初衷，其实在翻译过程中，该学的都已经学到了。不过站在读者的角度读一遍文章，会发现文中哪些是干货，哪些是夸夸其谈，可以作为以后筛选优质原文的参考条件。</p>
+<p>另外，很多文章都会旁征博引。其中有些是设计案例，有些是技术资料，有些是工具介绍。若有需要，都可以研究起来。运气好的话，还能找到另一篇优秀原文，果断收藏起来，留待以后翻译。</p>
+<h2 id="结语">结语</h2>
+<p>翻译是一件很需要耐性的事情，和设计有那么一点像。你需要在自己的mind palace中纵情驰骋，和自己对话，精心雕琢一件作品。我很享受这样的过程，可能我真有一点孤僻吧。</p>
+
+</section>
+
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="../../post/3461/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">小白的视角</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3456/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">机械的永生</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3441/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">灵感库的故事</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3435/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">移动端尺寸基础知识</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="../../post/3428/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">我们是否高估了科技？</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2011 - 
+        
+        2025 Victor42
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-找原文">1. 找原文</a></li>
+    <li><a href="#2-原文转成markdown">2. 原文转成markdown</a></li>
+    <li><a href="#3-翻译">3. 翻译</a>
+      <ul>
+        <li><a href="#不必逐字翻译">不必逐字翻译</a></li>
+        <li><a href="#勤查词典">勤查词典</a></li>
+        <li><a href="#较真">较真</a></li>
+        <li><a href="#结合专业知识">结合专业知识</a></li>
+        <li><a href="#临时发挥">临时发挥</a></li>
+        <li><a href="#通过上下文锁定含义">通过上下文锁定含义</a></li>
+        <li><a href="#补充信息">补充信息</a></li>
+        <li><a href="#拆分长句">拆分长句</a></li>
+        <li><a href="#沿袭原文文风">沿袭原文文风</a></li>
+        <li><a href="#专有名词通常不处理">专有名词通常不处理</a></li>
+        <li><a href="#标点符号">标点符号</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-润色">4. 润色</a>
+      <ul>
+        <li><a href="#整理语序">整理语序</a></li>
+        <li><a href="#避免重复">避免重复</a></li>
+        <li><a href="#变通">变通</a></li>
+        <li><a href="#保持简炼">保持简炼</a></li>
+        <li><a href="#成语">成语</a></li>
+        <li><a href="#检查错别字">检查错别字</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-发布">5. 发布</a>
+      <ul>
+        <li><a href="#个人网站">个人网站</a></li>
+        <li><a href="#微信公众号">微信公众号</a></li>
+        <li><a href="#豆瓣小组">豆瓣小组</a></li>
+        <li><a href="#站酷ui中国">站酷、UI中国</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-学习">6. 学习</a></li>
+    <li><a href="#结语">结语</a></li>
+  </ul>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="../../ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
