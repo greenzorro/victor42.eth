@@ -12,7 +12,9 @@ buildfuture = true
 mainSections = ["post"]
 author = "Victor42"
 readingTime = true
-footer.since = 2011
+
+[params.footer]
+since = 2011
 
 [taxonomies]
 category = "categories"
