@@ -20,8 +20,12 @@ since = 2011
 category = "categories"
 
 [markup]
-goldmark.renderer.unsafe = true
-highlight.noClasses = false
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
 
 [related]
 includeNewer = true
