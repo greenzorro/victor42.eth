@@ -20,6 +20,11 @@ article:
     readingTime:
         other: "阅读时长: {{ .Count }} 分钟"
 
+    readMore: "阅读更多"
+    wordCount:
+        one: "{{ .Count }} 字"
+        other: "{{ .Count }} 字"
+
 notFound:
     title:
         other: 404 错误

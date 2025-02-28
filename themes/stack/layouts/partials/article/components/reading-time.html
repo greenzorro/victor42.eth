@@ -1,0 +1,9 @@
+{{ if .Site.Params.readingTime }}
+    <div>
+        {{ partial "helper/icon" "clock" }}
+        <time class="article-time--reading">
+            {{- $readingTime := partial "helper/reading-time" (dict "content" .Content) -}}
+            {{ T "article.readingTime" (dict "Count" $readingTime) }}
+        </time>
+    </div>
+{{ end }} 

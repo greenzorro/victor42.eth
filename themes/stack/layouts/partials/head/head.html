@@ -13,6 +13,10 @@
 {{- partial "head/script.html" . -}}
 {{- partial "head/opengraph/include.html" . -}}
 
+{{- if .IsPage -}}
+    {{- partial "head/schema.html" . -}}
+{{- end -}}
+
 {{- range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{- end -}}
