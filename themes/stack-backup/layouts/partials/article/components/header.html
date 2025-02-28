@@ -1,0 +1,97 @@
+<!--
+
+-->
+{{ $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" }}
+<header class="article-header">
+    {{ if and $image .Params.image }}
+        <div class="article-image">
+            <a href="{{ .RelPermalink }}">
+                {{ if $image.resource }}
+                    {{- $Permalink := $image.resource.RelPermalink -}}
+                    {{- $Width := $image.resource.Width -}}
+                    {{- $Height := $image.resource.Height -}}
+                    {{- $Srcset := "" -}}
+                    
+                    {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                        {{- $thumbnail := $image.resource.Resize "800x" -}}
+                        {{- $thumbnailRetina := $image.resource.Resize "1600x" -}}
+                        {{- $Srcset = printf "%s 800w, %s 1600w" $thumbnail.RelPermalink $thumbnailRetina.RelPermalink -}}
+                        {{- $Permalink = $thumbnail.RelPermalink -}}
+                        {{- $Width = $thumbnail.Width -}}
+                        {{- $Height = $thumbnail.Height -}}
+                    {{- end -}}
+
+                    <img src="{{ $Permalink }}"
+                        {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+                        width="{{ $Width }}" 
+                        height="{{ $Height }}" 
+                        loading="lazy"
+                        alt="Featured image of post {{ .Title }}" />
+                {{ else }}
+                    <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+                {{ end }}
+            </a>
+        </div>
+    {{ end }}
+
+    <div class="article-details">
+        <div class="article-header-wrapper">
+            {{ if .Params.categories }}
+                <div class="article-category">
+                    {{ range (.GetTerms "categories") }}
+                        <a href="{{ .RelPermalink }}">
+                            {{ .LinkTitle }}
+                        </a>
+                    {{ end }}
+                </div>
+            {{ end }}
+
+            {{ if and (not .IsSection) .Params.translationKey }}
+                {{ partial "article/components/lang-switcher" . }}
+            {{ end }}
+        </div>
+
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="{{ .RelPermalink }}">
+                    {{- .Title -}}
+                </a>
+            </h2>
+
+            {{ with .Params.description }}
+                <h3 class="article-subtitle">
+                    {{ . }}
+                </h3>
+            {{ end }}
+        </div>
+
+        {{ if not .Date.IsZero }}
+            <footer class="article-time">
+                {{ if .Site.Params.article.dateFormat }}
+                    <div>
+                        {{ partial "helper/icon" "calendar" }}
+                        <time class="article-time--published">
+                            {{- .Date.Format .Site.Params.article.dateFormat -}}
+                        </time>
+                    </div>
+                {{ else }}
+                    <div>
+                        {{ partial "helper/icon" "calendar" }}
+                        <time class="article-time--published">
+                            {{- .Date.Format "Jan 02, 2006" -}}
+                        </time>
+                    </div>
+                {{ end }}
+
+                {{ if ne (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02") }}
+                    <div>
+                        {{ partial "helper/icon" "clock" }}
+                        <time class="article-time--modified">
+                            {{ .Lastmod.Format "Jan 02, 2006" }}
+                        </time>
+                    </div>
+                {{ end }}
+            </footer>
+        {{ end }}
+    </div>
+</header>
