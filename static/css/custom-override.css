@@ -40,7 +40,7 @@
 
 /* Time icon */
 .article-time svg {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 /* Menu icon */
@@ -104,4 +104,35 @@
 /* Hide section image in category pages */
 .section-card .section-image {
     display: none;
+}
+
+/* Related articles layout */
+.article-list--tile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    float: none;
+    width: 100%;
+}
+
+.article-list--tile article {
+    width: calc((100% - 4rem) / 5);
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.article-list--tile article.has-image .article-image img {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Mobile styles for related articles */
+@media (max-width: 768px) {
+    .article-list--tile article {
+        width: 100%;
+        flex: 1 1 auto;
+    }
 } 
