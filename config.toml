@@ -10,18 +10,30 @@ buildfuture = true
 
 [params]
 mainSections = ["post"]
+author = "Victor42"
+readingTime = true
+footer.since = 2011
 
 [taxonomies]
 category = "categories"
-tag = "tags"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+goldmark.renderer.unsafe = true
+highlight.noClasses = false
 
-[markup.highlight]
-  noClasses = false
+[related]
+includeNewer = true
+threshold = 80
+toLower = true
 
-[params.footer]
-since = 2011
+  [[related.indices]]
+  name = "section"
+  weight = 80
+
+  [[related.indices]]
+  name = "categories"
+  weight = 40
+
+  [[related.indices]]
+  name = "date"
+  weight = 20

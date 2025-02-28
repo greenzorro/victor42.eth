@@ -1,0 +1,6 @@
+{{- /* word-count.html: 计算中英文混合文本的字数 */ -}}
+{{- $content := .content -}}
+{{- $chineseChars := len (findRE "\\p{Han}" $content) -}}
+{{- $englishWords := len (findRE "[\\w']+" $content) -}}
+{{- $totalWords := add $chineseChars $englishWords -}}
+{{- return $totalWords -}} 
