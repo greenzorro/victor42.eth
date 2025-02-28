@@ -29,7 +29,7 @@ category = "categories"
 
 [related]
 includeNewer = true
-threshold = 80
+threshold = 20
 toLower = true
 
   [[related.indices]]
