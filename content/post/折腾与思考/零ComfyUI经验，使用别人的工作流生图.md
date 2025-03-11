@@ -26,11 +26,9 @@ Liblib的工作流本质上都是ComfyUI程序，虽然现在不必理解这程�
 
 ![](https://cdn.victor42.work/posts/2025-02/caefee5ee6854594b0e273f148ddbc46.webp)
 
-## 2️⃣ 没有打包成应用，出现的是这两种浅蓝色按钮
+## 2️⃣ 没有打包成应用，出现的是这种浅蓝色运行按钮
 
 ![](https://cdn.victor42.work/posts/2025-02/421edc7a9ebe6cf69aa23245d5d0ea01.webp)
-
-![](https://cdn.victor42.work/posts/2025-02/b78bb6863e56b1c86be4bfd3feb0a5d5.webp)
 
 点了打开就会进入ComfyUI界面，黑色的界面，打开比较慢，多等一会儿。里面跟接线板一样，很复杂。
 
@@ -38,7 +36,9 @@ Liblib的工作流本质上都是ComfyUI程序，虽然现在不必理解这程�
 
 ![](https://cdn.victor42.work/posts/2025-02/7d652a7e19399a3c53683aa792a38bb7.webp)
 
-## 3️⃣ 还是那两种浅蓝色按钮，但进去没有任何说明
+## 3️⃣ 浅蓝色查看工作流按钮，但进去没有任何说明
+
+![](https://cdn.victor42.work/posts/2025-02/b78bb6863e56b1c86be4bfd3feb0a5d5.webp)
 
 这种一般是作者比较懒，连说明都不写。你可以大概看看整个程序是不是很复杂。
 
@@ -76,5 +76,7 @@ Liblib的工作流本质上都是ComfyUI程序，虽然现在不必理解这程�
 ![](https://cdn.victor42.work/posts/2025-02/c460eab80d6db0ff96dac59993a8ca9e.webp)
 
 把出错卡片的每一个模型都重新选一遍，再运行就可以了。
+
+如果列表里找不到相应的，可以直接在 [Liblib模型广场](https://www.liblib.art/) 找，找到之后加入模型库，下拉菜单里就有了。
 
 这样可以解决90%以上的错误。
