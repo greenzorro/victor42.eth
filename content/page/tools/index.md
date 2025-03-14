@@ -4,7 +4,7 @@ date: 2020-10-01 09:11:28
 comments: false
 menu: 
     main:
-        name: 小玩意
+        name: 小玩意 - Tools
         weight: -49
         params:
             icon: flask
@@ -100,7 +100,7 @@ App开发同学一定很痛恨设计师：你们给的颜色都是#ffffff这种�
 
 [http://greenzorro.github.io/something-to-markdown/](http://greenzorro.github.io/something-to-markdown/)
 
-翻译时要把英文原文转成我习惯的markdown格式，但有些网站的内容混有太多markdown不支持的标签。对内容格式有洁癖的我，一定要想个办法“对付”它们。
+翻译时要把英文原文转成我习惯的markdown格式，但有些网站的内容混有太多markdown不支持的标签。对内容格式有洁癖的我，一定要想个办法"对付"它们。
 
 ## ➡️ markdown转HTML
 

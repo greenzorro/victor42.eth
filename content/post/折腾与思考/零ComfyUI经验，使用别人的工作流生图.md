@@ -1,5 +1,5 @@
 ---
-title: 零ComfyUI经验，使用别人的工作流生图
+title: 零ComfyUI经验，使用Liblib的工作流生图
 description: 真的0基础，就像用微信小程序一样。
 image: https://cdn.victor42.work/posts/2025-02/65e10ec43957abff3dbb183248e33bd3.webp
 date: 2025-02-27 12:15:00

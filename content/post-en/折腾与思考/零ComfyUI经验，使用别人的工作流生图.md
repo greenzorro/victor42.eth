@@ -1,5 +1,5 @@
 ---
-title: Using ComfyUI Workflows with Zero Experience
+title: Using Liblib ComfyUI Workflows with Zero Experience
 description: It's as easy as using a mini-app. No experience needed.
 image: https://cdn.victor42.work/posts/2025-02/65e10ec43957abff3dbb183248e33bd3.webp
 date: 2025-02-27 12:15:00
