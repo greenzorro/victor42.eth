@@ -1,5 +1,22 @@
+<!--
+
+-->
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+{{ $defaultLang := .Site.Params.defaultPageLanguage | default "zh-cn" }}
+
+{{ $langMap := dict 
+    "post/en/" "en" 
+    "post/" "zh-cn" 
+}}
+
+{{ $lang := $defaultLang }}
+{{ range $path, $code := $langMap }}
+    {{ if in $.Permalink $path }}
+        {{ $lang = $code }}
+    {{ end }}
+{{ end }}
+
+<html lang="{{ $lang }}">
     <head>
         {{- partial "head/head.html" . -}}
         {{- block "head" . -}}{{ end }}

@@ -3,7 +3,7 @@ title: 关于我
 date: 2020-10-01 09:11:07
 menu: 
     main:
-        name: 关于我
+        name: 关于我 - About
         weight: -48
         params:
             icon: user

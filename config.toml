@@ -1,24 +1,44 @@
-baseURL = 'https://victor42.eth.limo/'
-languageCode = 'en-us'
+# 站点基本信息
+baseURL = "https://victor42.eth.limo/"
 title = 'Victor42'
-theme = 'stack'
 publishDir = "publish"
-disqusShortname = 'victor_42'
+
+# 主题配置
+theme = 'stack'
 relativeURLs = true
 canonifyURLs = true
 buildfuture = true
 
+# 语言配置
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+
+[languages]
+  [languages.zh-cn]
+    languageName = "中文"
+    contentDir = "content"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    contentDir = "content"
+    weight = 2
+
+# 站点参数
 [params]
 mainSections = ["post"]
 author = "Victor42"
 readingTime = true
+defaultPageLanguage = "zh-cn"
 
 [params.footer]
 since = 2011
 
+# 分类法配置
 [taxonomies]
 category = "categories"
 
+# Markdown 渲染配置
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -27,6 +47,7 @@ category = "categories"
 [markup.highlight]
   noClasses = false
 
+# 相关内容配置
 [related]
 includeNewer = true
 threshold = 80
@@ -43,3 +64,6 @@ toLower = true
   [[related.indices]]
   name = "date"
   weight = 20
+
+# 其他服务配置
+disqusShortname = 'victor_42'
