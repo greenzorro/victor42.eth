@@ -1,0 +1,297 @@
+# Hugo 站点配置备忘录
+
+## 1. Sitemap 配置
+
+### 1.1 问题描述
+多语言站点默认生成多个sitemap文件和一个sitemap索引，但我们希望所有内容都在一个sitemap中呈现。
+
+### 1.2 配置修改
+在`config.toml`中添加以下配置：
+
+```toml
+# Sitemap配置
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# 禁用多语言sitemap索引
+enableGitInfo = true
+
+# 确保只生成一个sitemap
+[params.sitemap]
+  disable_multilingual = true
+
+[outputs]
+  home = ["HTML", "RSS", "Sitemap"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.Sitemap]
+    mediaType = "application/xml"
+    baseName = "sitemap"
+    isHTML = false
+```
+
+### 1.3 自定义模板
+创建以下自定义模板文件：
+
+#### layouts/_default/sitemap.xml
+```xml
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{ range where .Data.Pages "Kind" "!=" "taxonomy" }}
+  {{ if not .Params.sitemap_exclude }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+    {{ end }}
+    <changefreq>{{ if .Sitemap.ChangeFreq }}{{ .Sitemap.ChangeFreq }}{{ else }}weekly{{ end }}</changefreq>
+    <priority>{{ if .Sitemap.Priority }}{{ .Sitemap.Priority }}{{ else }}0.5{{ end }}</priority>
+  </url>
+  {{ end }}
+  {{ end }}
+</urlset>
+```
+
+#### layouts/_default/sitemapindex.xml
+```xml
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>{{ absURL "sitemap.xml" }}</loc>
+  </sitemap>
+</sitemapindex>
+```
+
+#### layouts/index.sitemap.xml
+```xml
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{ range where .Site.RegularPages "Type" "not in" (slice "page" "json") }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+    {{ end }}
+    <changefreq>{{ if .Sitemap.ChangeFreq }}{{ .Sitemap.ChangeFreq }}{{ else }}weekly{{ end }}</changefreq>
+    <priority>{{ if .Sitemap.Priority }}{{ .Sitemap.Priority }}{{ else }}0.5{{ end }}</priority>
+  </url>
+  {{ end }}
+</urlset>
+```
+
+## 2. 多语言实现分析
+
+### 2.1 目录结构与URL设计
+本站使用了自定义的多语言实现方式，具有以下特点：
+
+1. **目录结构**：
+   - 中文内容：`content/post/[分类]/[文章].md`
+   - 英文内容：`content/post-en/[分类]/[文章].md`
+
+2. **URL结构**：
+   - 中文文章URL: `/post/[slug]/`
+   - 英文文章URL: `/post/en/[slug]/`
+
+3. **关联机制**：
+   - 通过`translationKey`参数关联不同语言版本的内容
+   - 文件名可以相同，但URL和目录结构不同
+
+### 2.2 前置元数据配置
+文章通过前置元数据中的`url`和`translationKey`参数实现多语言关联：
+
+中文版本（位于`content/post/[分类]/`目录）：
+```yaml
+---
+title: 文章标题
+description: 文章描述
+date: 2025-02-27 12:15:00
+categories: 分类名称
+url: /post/article-slug
+translationKey: article-slug
+---
+```
+
+英文版本（位于`content/post-en/[分类]/`目录）：
+```yaml
+---
+title: Article Title
+description: Article description
+date: 2025-02-27 12:15:00
+categories: 分类名称
+url: /post/en/article-slug
+translationKey: article-slug
+---
+```
+
+### 2.3 多语言链接关系
+在`themes/stack/layouts/partials/head/head.html`中实现了多语言版本链接关系：
+
+```html
+{{ if .IsPage }}
+    {{ $currentURL := .Permalink }}
+    
+    {{ if in $currentURL "/post/" }}
+        {{ $isEnglish := in $currentURL "/post/en/" }}
+        
+        {{ if $isEnglish }}
+            {{ $zhURL := replaceRE "/post/en/([^/]+)/" "/post/$1/" $currentURL }}
+            <link rel="alternate" hreflang="zh-CN" href="{{ $zhURL }}" />
+            <link rel="alternate" hreflang="en" href="{{ $currentURL }}" />
+            <link rel="alternate" hreflang="x-default" href="{{ $zhURL }}" />
+        {{ else }}
+            {{ $enURL := replaceRE "/post/([^/]+)/" "/post/en/$1/" $currentURL }}
+            <link rel="alternate" hreflang="zh-CN" href="{{ $currentURL }}" />
+            <link rel="alternate" hreflang="en" href="{{ $enURL }}" />
+            <link rel="alternate" hreflang="x-default" href="{{ $currentURL }}" />
+        {{ end }}
+    {{ end }}
+{{ end }}
+```
+
+这段代码通过URL模式匹配识别当前页面语言，并生成对应的`hreflang`标签，告诉搜索引擎不同语言版本的对应关系。
+
+### 2.4 与Hugo默认多语言机制的区别
+本站的多语言实现与Hugo默认的多语言机制有以下区别：
+
+1. **目录组织**：
+   - Hugo默认：同一目录下，通过文件名前缀或子目录区分语言
+   - 本站：完全独立的目录结构（post vs post-en）
+
+2. **URL生成**：
+   - Hugo默认：自动在URL中添加语言代码前缀（如`/en/post/...`）
+   - 本站：通过前置元数据中的`url`参数手动控制URL结构
+
+3. **内容关联**：
+   - Hugo默认：通过文件名和目录结构自动关联
+   - 本站：通过`translationKey`参数手动关联
+
+4. **灵活性**：
+   - 本站方案提供了更大的灵活性，可以为不同语言版本设计完全不同的URL结构
+   - 便于SEO优化和用户体验定制
+
+## 3. 内容组织与分类系统
+
+### 3.1 分类目录结构
+本站使用了自定义的分类目录结构，而非Hugo默认的taxonomies：
+
+1. **物理目录结构**：
+   - 按主题分类：`content/post/[分类名称]/`
+   - 英文内容同样按主题分类：`content/post-en/[分类名称]/`
+
+2. **分类参数**：
+   - 使用`categories`前置参数指定文章分类
+   - 分类名称可以包含子分类，如`折腾与思考-Geek`
+
+3. **与默认taxonomies的区别**：
+   - Hugo默认使用`taxonomies`配置定义分类系统
+   - 本站在物理目录结构上也体现了分类，增强了内容组织的直观性
+
+### 3.2 自定义URL结构
+本站对内容URL进行了自定义，不使用Hugo默认的URL生成规则：
+
+1. **文章URL**：
+   - 通过前置元数据中的`url`参数手动指定
+   - 格式为`/post/[slug]/`或`/post/en/[slug]/`
+   - 不包含分类信息，保持URL简洁
+
+2. **分类页URL**：
+   - 使用默认的`/categories/[category-name]/`格式
+   - 支持中英文分类页面
+
+## 4. SEO优化分析
+
+### 4.1 基础SEO元素
+站点使用了以下SEO基础元素：
+
+- 标题和描述：通过`partialCached "data/title"`和`partialCached "data/description"`生成
+- 规范链接：`<link rel='canonical' href='{{ .Permalink }}'>`
+- 多语言标记：通过`hreflang`属性实现
+
+### 4.2 Open Graph协议支持
+站点实现了完整的Open Graph协议支持，便于社交媒体分享：
+
+- 基本属性：标题、描述、URL、站点名称、类型
+- 文章特定属性：发布时间、修改时间、分类、标签
+- 图片支持：通过`helper/image`部分实现
+
+### 4.3 结构化数据
+在`head/schema.html`中实现了结构化数据，帮助搜索引擎更好地理解内容。
+
+### 4.4 图片处理与CDN
+本站对图片处理有特殊处理：
+
+1. **CDN使用**：
+   - 图片URL使用CDN域名：`https://cdn.victor42.work/`
+   - 在前置元数据中直接指定完整图片URL
+
+2. **与Hugo默认图片处理的区别**：
+   - Hugo默认使用本地图片和图片处理管道
+   - 本站使用外部CDN，不依赖Hugo的图片处理功能
+
+## 5. 主题定制与扩展
+
+### 5.1 Stack主题定制
+本站基于Stack主题进行了多处定制：
+
+1. **头部模板修改**：
+   - 修改了`head.html`添加多语言支持
+   - 自定义了SEO相关元标签
+
+2. **布局定制**：
+   - 可能修改了文章列表和文章页面布局
+   - 添加了自定义的页面组件
+
+### 5.2 静态资源处理
+本站对静态资源处理有特殊配置：
+
+1. **相对URL**：
+   - 启用了`relativeURLs = true`
+   - 启用了`canonifyURLs = true`
+
+2. **构建配置**：
+   - 使用自定义发布目录：`publishDir = "publish"`
+   - 启用了`buildfuture = true`允许发布未来日期的文章
+
+## 6. 注意事项与最佳实践
+
+### 6.1 多语言内容管理
+- 使用`translationKey`关联不同语言版本的内容
+- 保持目录结构一致性（post对应post-en）
+- 确保`hreflang`标签正确设置
+- 在创建新内容时，站长会选择性地为部分新内容创建对应的翻译版本
+
+### 6.2 URL结构维护
+- 保持URL结构一致性（中文`/post/slug/`，英文`/post/en/slug/`）
+- 使用有意义的slug，便于SEO和用户记忆
+- 避免更改已发布内容的URL，如需更改应设置301重定向
+
+### 6.3 Sitemap维护
+- 使用`hugo --cleanDestinationDir`清理缓存后重新构建
+- 定期检查sitemap.xml是否正确生成
+- 可以通过`sitemap_exclude: true`前置参数排除特定页面
+
+### 6.4 SEO优化建议
+- 确保每篇文章都有唯一的标题和描述
+- 使用有意义的URL结构
+- 提供高质量的特色图片
+- 保持内容更新，利用`lastmod`属性
+
+### 6.5 主题升级注意事项
+- 升级Stack主题时注意保留自定义修改
+- 特别关注`head.html`和多语言相关模板
+- 使用版本控制跟踪主题修改，便于合并更新
+
+## 7. 故障排查
+
+如遇问题，可尝试以下方法：
+- 检查模板语法错误
+- 查看Hugo构建日志
+- 清理缓存后重新构建
+- 验证自定义模板是否被正确加载
+- 检查`translationKey`是否正确设置
+- 验证URL结构是否符合预期 
