@@ -19,10 +19,14 @@ hasCJKLanguage = true
     languageName = "中文"
     contentDir = "content"
     weight = 1
+    [languages.zh-cn.sitemap]
+      disable = true
   [languages.en]
     languageName = "English"
     contentDir = "content"
     weight = 2
+    [languages.en.sitemap]
+      disable = true
 
 # 站点参数
 [params]
@@ -67,3 +71,29 @@ toLower = true
 
 # 其他服务配置
 disqusShortname = 'victor_42'
+
+# Sitemap配置
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# 禁用多语言sitemap索引
+disableLanguages = []
+enableGitInfo = true
+
+# 确保只生成一个sitemap
+[params.sitemap]
+  disable_multilingual = true
+
+[outputs]
+  home = ["HTML", "RSS", "Sitemap"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.Sitemap]
+    mediaType = "application/xml"
+    baseName = "sitemap"
+    isHTML = false
