@@ -39,50 +39,73 @@ enableGitInfo = true
 创建以下自定义模板文件：
 
 #### layouts/_default/sitemap.xml
-```xml
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {{ range where .Data.Pages "Kind" "!=" "taxonomy" }}
-  {{ if not .Params.sitemap_exclude }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    {{ if not .Lastmod.IsZero }}
-    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
-    {{ end }}
-    <changefreq>{{ if .Sitemap.ChangeFreq }}{{ .Sitemap.ChangeFreq }}{{ else }}weekly{{ end }}</changefreq>
-    <priority>{{ if .Sitemap.Priority }}{{ .Sitemap.Priority }}{{ else }}0.5{{ end }}</priority>
-  </url>
-  {{ end }}
-  {{ end }}
-</urlset>
-```
+自定义sitemap模板，实现以下功能：
+- 添加首页条目
+- 使用 `.Site.Pages` 包含所有页面类型
+- 处理priority值的有效性
+- 支持通过前置元数据排除特定页面
 
 #### layouts/_default/sitemapindex.xml
-```xml
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>{{ absURL "sitemap.xml" }}</loc>
-  </sitemap>
-</sitemapindex>
-```
+生成单一的sitemap索引，指向主sitemap文件。
 
 #### layouts/index.sitemap.xml
-```xml
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {{ range where .Site.RegularPages "Type" "not in" (slice "page" "json") }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    {{ if not .Lastmod.IsZero }}
-    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
-    {{ end }}
-    <changefreq>{{ if .Sitemap.ChangeFreq }}{{ .Sitemap.ChangeFreq }}{{ else }}weekly{{ end }}</changefreq>
-    <priority>{{ if .Sitemap.Priority }}{{ .Sitemap.Priority }}{{ else }}0.5{{ end }}</priority>
-  </url>
-  {{ end }}
-</urlset>
-```
+备用的sitemap生成模板，与 `_default/sitemap.xml` 功能类似。
+
+具体实现可参考对应目录下的模板文件。
+
+### 1.4 Sitemap生成优化
+
+#### 问题背景
+- 原始sitemap模板仅包含文章页面
+- 首页和其他页面（如单页、分类页）未被包含在sitemap中
+- Google Search Console报告了sitemap中的priority标签值问题
+
+#### 模板修改要点
+
+1. **首页处理**
+   - 在sitemap中明确添加首页条目
+   - 设置首页优先级为1.0
+   - 设置首页更新频率为daily
+
+2. **页面范围扩展**
+   - 使用 `.Site.Pages` 替代原有的页面过滤逻辑
+   - 包含所有类型的页面：
+     * 首页
+     * 文章页面
+     * 单页（pages）
+     * 分类页面
+     * 标签页面
+     * 列表页面（section）
+
+3. **Priority值安全处理**
+   - 添加priority值的有效性检查
+   - 确保priority值始终在0.0到1.0之间
+   - 默认priority值为0.5
+   - 支持通过前置元数据自定义priority
+
+#### 最佳实践
+
+1. 使用 `sitemap_exclude: true` 可以排除不希望出现在sitemap中的页面
+2. 可以根据页面类型自定义priority值，例如：
+   ```go
+   {{ $priority := "0.5" }}
+   {{ if eq .Kind "home" }}
+     {{ $priority = "1.0" }}
+   {{ else if eq .Kind "page" }}
+     {{ $priority = "0.8" }}
+   {{ else if eq .Kind "section" }}
+     {{ $priority = "0.6" }}
+   {{ else if eq .Kind "taxonomy" }}
+     {{ $priority = "0.4" }}
+   {{ end }}
+   ```
+
+#### 注意事项
+
+- 修改sitemap模板后，需要重新构建站点
+- 建议使用 `hugo --cleanDestinationDir` 清理缓存
+- 在Google Search Console中重新提交sitemap
+- 定期检查sitemap生成是否符合预期
 
 ## 2. 多语言实现分析
 
@@ -131,29 +154,16 @@ translationKey: article-slug
 ### 2.3 多语言链接关系
 在`themes/stack/layouts/partials/head/head.html`中实现了多语言版本链接关系：
 
-```html
-{{ if .IsPage }}
-    {{ $currentURL := .Permalink }}
-    
-    {{ if in $currentURL "/post/" }}
-        {{ $isEnglish := in $currentURL "/post/en/" }}
-        
-        {{ if $isEnglish }}
-            {{ $zhURL := replaceRE "/post/en/([^/]+)/" "/post/$1/" $currentURL }}
-            <link rel="alternate" hreflang="zh-CN" href="{{ $zhURL }}" />
-            <link rel="alternate" hreflang="en" href="{{ $currentURL }}" />
-            <link rel="alternate" hreflang="x-default" href="{{ $zhURL }}" />
-        {{ else }}
-            {{ $enURL := replaceRE "/post/([^/]+)/" "/post/en/$1/" $currentURL }}
-            <link rel="alternate" hreflang="zh-CN" href="{{ $currentURL }}" />
-            <link rel="alternate" hreflang="en" href="{{ $enURL }}" />
-            <link rel="alternate" hreflang="x-default" href="{{ $currentURL }}" />
-        {{ end }}
-    {{ end }}
-{{ end }}
-```
+主要功能：
+- 识别当前页面的语言（中文或英文）
+- 自动生成对应的`hreflang`标签
+- 为搜索引擎提供不同语言版本的对应关系
+- 支持x-default语言标记
 
-这段代码通过URL模式匹配识别当前页面语言，并生成对应的`hreflang`标签，告诉搜索引擎不同语言版本的对应关系。
+实现方式：
+- 通过URL路径模式识别页面语言
+- 动态生成中英文版本的交叉链接
+- 确保每个页面都有正确的语言版本链接
 
 ### 2.4 与Hugo默认多语言机制的区别
 本站的多语言实现与Hugo默认的多语言机制有以下区别：
@@ -294,4 +304,4 @@ translationKey: article-slug
 - 清理缓存后重新构建
 - 验证自定义模板是否被正确加载
 - 检查`translationKey`是否正确设置
-- 验证URL结构是否符合预期 
+- 验证URL结构是否符合预期
