@@ -1,13 +1,32 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {{ range where .Site.RegularPages "Type" "not in" (slice "page" "json") }}
+  <!-- 首页 -->
+  <url>
+    <loc>{{ .Site.BaseURL }}</loc>
+    {{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+    {{ end }}
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- 所有页面，包括常规页面、单页和section页面 -->
+  {{ range .Site.Pages }}
+  {{ if not .Params.sitemap_exclude }}
   <url>
     <loc>{{ .Permalink }}</loc>
     {{ if not .Lastmod.IsZero }}
     <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
     {{ end }}
     <changefreq>{{ if .Sitemap.ChangeFreq }}{{ .Sitemap.ChangeFreq }}{{ else }}weekly{{ end }}</changefreq>
-    <priority>{{ if .Sitemap.Priority }}{{ .Sitemap.Priority }}{{ else }}0.5{{ end }}</priority>
+    {{ $priority := "0.5" }}
+    {{ if .Sitemap.Priority }}
+      {{ if and (ge .Sitemap.Priority 0.0) (le .Sitemap.Priority 1.0) }}
+        {{ $priority = .Sitemap.Priority }}
+      {{ end }}
+    {{ end }}
+    <priority>{{ $priority }}</priority>
   </url>
+  {{ end }}
   {{ end }}
 </urlset> 
