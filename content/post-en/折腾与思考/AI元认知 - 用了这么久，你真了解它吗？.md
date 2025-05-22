@@ -85,7 +85,9 @@ From your end, you type, "Hi, what's your name?" The AI receives this and replie
 Behind the scenes, the AI might receive something like this:
 
 > You are a helpful assistant, and you are about to answer the user's question.
+>
 > User says: Hi, what's your name?
+>
 > Assistant says:
 
 The phrase "You are a helpful assistant..." is a "system prompt"—hardcoded instructions invisible to you.
@@ -97,9 +99,13 @@ So, it's not just answering a question; it's continuing a scripted interaction b
 If you reply again, the information it receives will be structured like this:
 
 > You are a helpful assistant, and you are about to answer the user's question.
+>
 > User says: Hi, what's your name?
+>
 > Assistant says: Hi there! I'm Doubao, and I'm happy to interact with you~ If you have any questions or need help, just let me know 😊
+>
 > User says: You can call me Kele, nice to meet you.
+>
 > Assistant says:
 
 It processes the entire conversation history each time to maintain context. This keeps the conversation coherent. AI tools typically display only the latest reply, creating the illusion of a direct exchange.
