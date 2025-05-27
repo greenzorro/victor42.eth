@@ -9,7 +9,7 @@ menu:
             icon: user
 ---
 
-**Victor**，职业是UI/UX设计师，现居杭州。至于42，是个神奇数字小尾巴，圈内人会懂。
+**Victor**，职业是UI/UX设计师，现居杭州。至于42，是个神奇数字小尾巴，科幻迷会懂。
 
 <p><img style="max-width: 400px;" src="https://cdn.victor42.work/assets/wechat_qr.png"/></p>
 
