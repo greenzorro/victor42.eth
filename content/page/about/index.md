@@ -11,7 +11,9 @@ menu:
 
 **Victor**，职业是UI/UX设计师，现居杭州。至于42，是个神奇数字小尾巴，圈内人会懂。
 
-社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [小红书](https://www.xiaohongshu.com/user/profile/6255841b000000002102462c) | [知乎](https://www.zhihu.com/people/victor_42) | [Github](https://github.com/greenzorro)
+<p><img style="max-width: 400px;" src="https://cdn.victor42.work/assets/wechat_qr.png"/></p>
+
+社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/victor_42) | [小红书](https://www.xiaohongshu.com/user/profile/6255841b000000002102462c) | [Github](https://github.com/greenzorro)
 
 [>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，设计水平也不咋地，慎入）
 
@@ -19,7 +21,7 @@ menu:
 
 相比职业，这部分才是更真实的我。
 
-科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发者；UI/UX设计师；生活观察者。
+**科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发者；UI/UX设计师；生活观察者。**
 
 我有3个理想，由小到大，都和博物馆有关，能实现哪个算哪个：
 1. 逛遍全球顶尖博物馆。
@@ -29,6 +31,20 @@ menu:
 爱听[中古民谣](https://music.163.com/#/playlist?id=364460491)、[弗拉明戈](https://music.163.com/#/playlist?id=321322809)。
 
 最喜欢的电影是[《这个男人来自地球》](http://movie.douban.com/subject/2300586/)。
+
+## 我的头像
+
+![黯淡蓝点](https://cdn.victor42.work/assets/pale-blue-dot.jpg)
+
+介绍一下我的头像：这张照片叫**黯淡蓝点**，一度是人类最远的自拍照。图中右侧中央“光束”里有个小亮点，那就是地球。
+
+这张照片由旅行者一号拍摄，它执行完拍摄土星的任务后，本应继续奔向天王星与海王星。但土星引力使它偏离航线，它的最后任务就变成了拍摄这张自拍照。
+
+图里的光束是镜头上的成像，并不是太阳光。
+
+著名天文学家、科普作家卡尔·萨根为这张《黯淡蓝点》写下了一段著名评价，节选部分：
+
+> “如果再看一眼那个光点，那是我们的家园，我们的所有。你所爱所知的每一人、所听说乃至所存在过的每一人，都在小点上度过一生……”
 
 ## 关于博客
 
