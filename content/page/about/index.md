@@ -11,7 +11,7 @@ menu:
 
 **Victor**，职业是UI/UX设计师，现居杭州。至于42，是个神奇数字小尾巴，科幻迷会懂。
 
-<p><img style="max-width: 400px;" src="https://cdn.victor42.work/assets/wechat_qr.png"/></p>
+![微信公众号](https://cdn.victor42.work/assets/wechat_qr.png)
 
 社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/victor_42) | [小红书](https://www.xiaohongshu.com/user/profile/6255841b000000002102462c) | [Github](https://github.com/greenzorro)
 
