@@ -24,6 +24,12 @@ menu:
 
 自动设置Google AI Studio的系统提示词，即使新开对话，全局设置的系统提示词也能保留。
 
+## 📐 UI画布尺寸计算器
+
+[https://ui-size.victor42.work/](https://ui-size.victor42.work/)
+
+面对陌生的设备，帮你解决"画布该设成多大"的问题。
+
 ## 📊 Excel模板
 
 [https://qvokpfxqsh.feishu.cn/drive/folder/UNI6fanLylS2W6dKoo0c1qSlnxh](https://qvokpfxqsh.feishu.cn/drive/folder/UNI6fanLylS2W6dKoo0c1qSlnxh)
