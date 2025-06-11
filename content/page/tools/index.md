@@ -28,7 +28,7 @@ menu:
 
 [https://ui-size.victor42.work/](https://ui-size.victor42.work/)
 
-面对陌生的设备，帮你解决"画布该设成多大"的问题。
+面对陌生的设备，帮你解决“画布该设成多大”的问题。
 
 ## 📊 Excel模板
 
