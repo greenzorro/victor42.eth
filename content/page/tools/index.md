@@ -32,7 +32,7 @@ menu:
 
 ## 📊 Excel模板
 
-[https://qvokpfxqsh.feishu.cn/drive/folder/UNI6fanLylS2W6dKoo0c1qSlnxh](https://qvokpfxqsh.feishu.cn/drive/folder/UNI6fanLylS2W6dKoo0c1qSlnxh)
+[https://qvokpfxqsh.feishu.cn/wiki/G8OywdlWji0H31kJ0KwciaJ8nAd](https://qvokpfxqsh.feishu.cn/wiki/G8OywdlWji0H31kJ0KwciaJ8nAd)
 
 自制一些Excel模板，用于计算出门时间、医院排队、家庭现金流等，会持续补充新品。毕竟，我可是Excel狂魔啊。
 
