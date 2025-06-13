@@ -33,7 +33,7 @@ A company is just a collection of specialists. Everyone sticks to their job, and
 
 See where this is going? There's hardly any room left for AI to step in.
 
-Aha! The biggest roadblock for AI is something fundamental and almost impossible to change: specialization, the very foundation of modern business.
+**Aha! The biggest roadblock for AI is something fundamental and almost impossible to change: specialization, the very foundation of modern business.**
 
 So, back to our two points:
 
@@ -46,17 +46,27 @@ Uprooting specialization is almost unthinkable. But if AI surpasses the pros, sp
 
 But things change slowly. AI is closing the gap on the experts, little by little. You could say it's already better than some, or at least the less skilled ones.
 
-So AI *is* being used, right? Exactly.
+**So AI *is* being used, right? Exactly.**
 
 Most employees have messed around with AI. But two things are holding them back from going all-in:
 
 1.  They've discovered AI can't top them at their day job, but it's a miracle worker for things they're clueless about. So, AI gets relegated to side quests and personal tasks.
 2.  And sure, AI can save them some time on the job. But that time is already paid for by the boss. Are they really going to hand back those cleverly saved minutes? No way. They pocket the extra time, and the boss is none the wiser.
 
-But jobs are disappearing, aren't they?
+**But jobs are disappearing, aren't they?**
 
 But look closer. What kind of jobs? Which roles are being handed to AI? Why is this happening if AI isn't even pro-level yet?
 
 Usually, it's the jobs that are less critical to making money. For these roles, a drop in quality to AI-level is "good enough." On the flip side, have you ever heard of a sales team being replaced by AI? Didn't think so.
 
 This is nothing new. Companies have been cutting these same kinds of jobs during downturns long before AI came along. It's not some AI-powered revolution.
+
+**AI will only get more powerful. How should we adapt?**
+
+Picture the previous diagrams as topographical maps viewed from above. The bright spots are mountains; the lighter areas are plains.
+
+AI is like a rising tide, slowly submerging the lowlands of every profession (though the water is still shallow). Only those on higher ground will be left to shine. But even those on high ground can't afford to be complacent. Leveraging AI is like building a boat. The flood then becomes your playground, allowing you to venture out from your mountaintop and explore every domain.
+
+But what if you're starting from the lowlands with nothing to your name? Then AI is the ultimate learning tool. It's your ticket to building a boat and getting afloat. You can then sail directly to the mountainside, skipping the initial, arduous climb. You still have to scale the rest of the peak yourself. But don't mind the flood; it won't rise faster than you can climb.
+
+In both cases, the key is the boat. The boat is the will and determination to never stop learning.
