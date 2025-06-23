@@ -90,7 +90,7 @@ PPI已经算出来了，除数也通过统计得到了。既然得到了屏幕�
 
 当然，如果对屏幕的原理感兴趣，想要更深入阅读，还可以看这篇老文：[https://victor42.eth.limo/post/3435/](https://victor42.eth.limo/post/3435/)，虽然其中的屏幕分辨率数值早已过时，但原理没变。
 
-最初是做了一个 [Excel版计算器](https://qvokpfxqsh.feishu.cn/sheets/VTuKsAJJIhCjp7t0v9rcPsIBneg?from=from_copylink)，为了验证我的计算方法是否正确。但使用不够直观友好，不适合作为正式产品。索性做成一个公开可访问的网页小工具吧！需求反正已经写这么详细了，用AI编程，不一次搞定都说不过去了。
+最初是做了一个 [Excel版计算器](https://qvokpfxqsh.feishu.cn/wiki/XLl9w5iSkiWPDIkUhfac4DF6n5e)，为了验证我的计算方法是否正确。但使用不够直观友好，不适合作为正式产品。索性做成一个公开可访问的网页小工具吧！需求反正已经写这么详细了，用AI编程，不一次搞定都说不过去了。
 
 接下来，轮到AI干活了。我把上面内容和下面的任务都给AI看，让它把我要的产品实现出来。
 
