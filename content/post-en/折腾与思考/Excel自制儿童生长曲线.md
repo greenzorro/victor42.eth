@@ -232,7 +232,7 @@ I've received requests for the spreadsheet. Converting to Excel had issues: Exce
 I've made boy/girl versions available. You need a Google account. Click "File - Make a copy" for your own copy.
 
 Boy version:
-[https://qvokpfxqsh.feishu.cn/sheets/IHEKsAaRvhZ7eLt3E6Sc1TqinrD](https://qvokpfxqsh.feishu.cn/sheets/IHEKsAaRvhZ7eLt3E6Sc1TqinrD)
+[https://qvokpfxqsh.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d](https://qvokpfxqsh.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d)
 
 Girl version:
-[https://qvokpfxqsh.feishu.cn/sheets/OYuosUy7jhTaIytmrJEcaI26nRg](https://qvokpfxqsh.feishu.cn/sheets/OYuosUy7jhTaIytmrJEcaI26nRg)
+[https://qvokpfxqsh.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc](https://qvokpfxqsh.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc)
