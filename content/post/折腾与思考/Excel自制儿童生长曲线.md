@@ -232,9 +232,9 @@ RANK(F2,数组,1)
 ---
 
 【2024.1.18 更新】
-有些朋友想要表格文件，我亲自尝试了下，转成Excel后部分公式无法正常工作了。因为Excel并不支持把数组常量作为rank的引用范围，而且数组常量里也无法引用其他单元格。所以Office的Excel做这个会相对麻烦，估计得一堆if嵌套了，还是建议大家有条件就用Google Sheets。
+有些朋友想要表格文件，我亲自尝试了下，转成Excel后部分公式无法正常工作了。因为Excel并不支持把数组常量作为rank的引用范围，而且数组常量里也无法引用其他单元格。所以Office的Excel做这个会相对麻烦，估计得一堆if嵌套了，还是建议大家有条件就用飞书表格或Google Sheets。
 
-我把这个表格做了两个可供取用的版本（男宝/女宝），你需要魔法上网，且有Google账号，点击【File - make a copy】就有一份在你自己的Google Sheets里了。
+我把这个表格做了两个可供取用的版本（男宝/女宝）：
 
 男宝版：  
 [https://qvokpfxqsh.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d](https://qvokpfxqsh.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d)
