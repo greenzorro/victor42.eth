@@ -227,9 +227,9 @@ I should mention I prefer Google Sheets. Replicating this in Excel might require
 ---
 
 [2024.1.18 Update]
-I've received requests for the spreadsheet. Converting to Excel had issues: Excel doesn't support array constants as a `RANK` range, and you can't reference other cells within them. Doing this in Excel is harder, likely needing many nested `IF`s. I recommend Google Sheets.
+I've received requests for the spreadsheet. Converting to Excel had issues: Excel doesn't support array constants as a `RANK` range, and you can't reference other cells within them. Doing this in Excel is harder, likely needing many nested `IF`s. I recommend Feishu sheets or Google Sheets.
 
-I've made boy/girl versions available. You need a Google account. Click "File - Make a copy" for your own copy.
+I've made boy/girl versions available.
 
 Boy version:
 [https://qvokpfxqsh.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d](https://qvokpfxqsh.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d)
