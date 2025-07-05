@@ -107,7 +107,7 @@ Next, it was the AI's turn to do the work. Using the logic and context above, I 
 
 And what do you know, it nailed it on the first try!
 
-![](https://cdn.victor42.work/posts/2025-06/Xnip2025-06-11_10-43-51.webp)
+![](https://cdn.victor42.work/posts/2025-06/Xnip2025-06-11_10-40-02.webp)
 
 Well, almost. It ignored my request for vanilla JS and went with a full-blown Next.js, TypeScript, and Tailwind CSS stack. As a front-end dinosaur who started in the IE6 days, that stack was a bit intimidating.
 
