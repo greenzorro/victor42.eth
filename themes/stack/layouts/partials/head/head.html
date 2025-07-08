@@ -11,20 +11,43 @@
 
 {{ if .IsPage }}
     {{ $currentURL := .Permalink }}
+    {{ $translationKey := .Params.translationKey }}
     
-    {{ if in $currentURL "/post/" }}
+    {{ if and (in $currentURL "/post/") $translationKey }}
         {{ $isEnglish := in $currentURL "/post/en/" }}
+        {{ $hasTranslation := false }}
+        {{ $translationURL := "" }}
         
         {{ if $isEnglish }}
-            {{ $zhURL := replaceRE "/post/en/([^/]+)/" "/post/$1/" $currentURL }}
-            <link rel="alternate" hreflang="zh-CN" href="{{ $zhURL }}" />
-            <link rel="alternate" hreflang="en" href="{{ $currentURL }}" />
-            <link rel="alternate" hreflang="x-default" href="{{ $zhURL }}" />
+            <!-- 当前是英文版本，查找对应的中文版本 -->
+            {{ range .Site.Pages }}
+                {{ if and (eq .Params.translationKey $translationKey) (not (in .Permalink "/post/en/")) (in .Permalink "/post/") }}
+                    {{ $hasTranslation = true }}
+                    {{ $translationURL = .Permalink }}
+                    {{ break }}
+                {{ end }}
+            {{ end }}
+            
+            {{ if $hasTranslation }}
+                <link rel="alternate" hreflang="zh-CN" href="{{ $translationURL }}" />
+                <link rel="alternate" hreflang="en" href="{{ $currentURL }}" />
+                <link rel="alternate" hreflang="x-default" href="{{ $translationURL }}" />
+            {{ end }}
         {{ else }}
-            {{ $enURL := replaceRE "/post/([^/]+)/" "/post/en/$1/" $currentURL }}
-            <link rel="alternate" hreflang="zh-CN" href="{{ $currentURL }}" />
-            <link rel="alternate" hreflang="en" href="{{ $enURL }}" />
-            <link rel="alternate" hreflang="x-default" href="{{ $currentURL }}" />
+            <!-- 当前是中文版本，查找对应的英文版本 -->
+            {{ range .Site.Pages }}
+                {{ if and (eq .Params.translationKey $translationKey) (in .Permalink "/post/en/") }}
+                    {{ $hasTranslation = true }}
+                    {{ $translationURL = .Permalink }}
+                    {{ break }}
+                {{ end }}
+            {{ end }}
+            
+            {{ if $hasTranslation }}
+                <link rel="alternate" hreflang="zh-CN" href="{{ $currentURL }}" />
+                <link rel="alternate" hreflang="en" href="{{ $translationURL }}" />
+                <link rel="alternate" hreflang="x-default" href="{{ $currentURL }}" />
+            {{ end }}
         {{ end }}
     {{ end }}
 {{ end }}
