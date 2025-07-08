@@ -132,7 +132,7 @@ enableGitInfo = true
 ---
 title: 文章标题
 description: 文章描述
-date: 2025-02-27 12:15:00
+date: 2025-01-27 12:15:00
 categories: 分类名称
 url: /post/article-slug
 translationKey: article-slug
@@ -144,7 +144,7 @@ translationKey: article-slug
 ---
 title: Article Title
 description: Article description
-date: 2025-02-27 12:15:00
+date: 2025-01-27 12:15:00
 categories: 分类名称
 url: /post/en/article-slug
 translationKey: article-slug
@@ -161,9 +161,11 @@ translationKey: article-slug
 - 支持x-default语言标记
 
 实现方式：
-- 通过URL路径模式识别页面语言
-- 动态生成中英文版本的交叉链接
-- 确保每个页面都有正确的语言版本链接
+- 基于`translationKey`参数查找对应的翻译版本
+- 只有当翻译版本真实存在时才生成hreflang标签
+- **当前页面是英文版本时**：查找同样`translationKey`的中文版本（不在`/post/en/`路径）
+- **当前页面是中文版本时**：查找同样`translationKey`的英文版本（在`/post/en/`路径）
+- 确保每个页面都有正确的语言版本链接，避免404错误
 
 ### 2.4 与Hugo默认多语言机制的区别
 本站的多语言实现与Hugo默认的多语言机制有以下区别：
@@ -296,7 +298,71 @@ translationKey: article-slug
 - 特别关注`head.html`和多语言相关模板
 - 使用版本控制跟踪主题修改，便于合并更新
 
-## 7. 故障排查
+## 7. hreflang标签修复记录
+
+### 7.1 问题描述
+**发现时间**: 2025-01-27
+
+**问题现象**:
+- 原始的hreflang标签生成逻辑假设每篇文章都有对应的翻译版本
+- 使用简单的URL替换来生成对应语言的链接
+- 对于只有单语言版本的文章，会生成指向不存在页面的hreflang链接
+- 可能导致SEO问题和404错误
+
+**具体问题**:
+```html
+<!-- 原始逻辑 - 有问题 -->
+{{ $zhURL := replaceRE "/post/en/([^/]+)/" "/post/$1/" $currentURL }}
+{{ $enURL := replaceRE "/post/([^/]+)/" "/post/en/$1/" $currentURL }}
+```
+
+### 7.2 修复方案
+**修复思路**:
+1. 基于`translationKey`参数而非URL模式来查找翻译版本
+2. 遍历所有页面验证翻译版本是否真实存在
+3. 只有当翻译版本存在时才生成hreflang标签
+
+**修复实现**:
+```html
+<!-- 修复后的逻辑 -->
+{{ $translationKey := .Params.translationKey }}
+{{ if $translationKey }}
+    {{ $hasTranslation := false }}
+    {{ $translationURL := "" }}
+    
+    {{ range .Site.Pages }}
+        {{ if and (eq .Params.translationKey $translationKey) (不同语言路径条件) }}
+            {{ $hasTranslation = true }}
+            {{ $translationURL = .Permalink }}
+            {{ break }}
+        {{ end }}
+    {{ end }}
+    
+    {{ if $hasTranslation }}
+        <!-- 生成hreflang标签 -->
+    {{ end }}
+{{ end }}
+```
+
+### 7.3 修复效果
+**修复前**:
+- 为不存在的翻译版本生成hreflang链接
+- 搜索引擎可能访问到404页面
+- SEO表现受到影响
+
+**修复后**:
+- 只为真实存在的翻译版本生成hreflang标签
+- 避免404错误
+- 改善SEO表现
+- 对于像"灵感库的故事"这样只有中文版本的文章，不会生成英文版本的hreflang链接
+
+### 7.4 验证方法
+1. 检查有翻译版本的文章：hreflang标签正常生成
+2. 检查只有单语言版本的文章：不生成指向不存在页面的hreflang标签
+3. 验证生成的URL都能正常访问
+4. 在Google Search Console中检查是否还有hreflang相关错误
+
+## 8. 故障排查
 
 如遇问题，可尝试以下方法：
 - 检查模板语法错误
@@ -305,3 +371,4 @@ translationKey: article-slug
 - 验证自定义模板是否被正确加载
 - 检查`translationKey`是否正确设置
 - 验证URL结构是否符合预期
+- **hreflang相关问题**: 检查翻译版本是否真实存在，验证`translationKey`参数是否正确配置
