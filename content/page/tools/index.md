@@ -18,11 +18,11 @@ menu:
 
 一款浏览器插件，轻松迁移歌单，在主流音乐平台间来去自如。
 
-## 📄 Google AI Studio 全局系统提示词
+## 📄 Google AI Studio Easy Use
 
 [https://greasyfork.org/en/scripts/523344-google-ai-studio-%E9%BB%98%E8%AE%A4%E7%B3%BB%E7%BB%9F%E6%8F%90%E7%A4%BA%E8%AF%8D](https://greasyfork.org/en/scripts/523344-google-ai-studio-%E9%BB%98%E8%AE%A4%E7%B3%BB%E7%BB%9F%E6%8F%90%E7%A4%BA%E8%AF%8D)
 
-自动设置Google AI Studio的系统提示词，即使新开对话，全局设置的系统提示词也能保留。
+自动设置Google AI Studio的系统提示词，即使新开对话，全局设置的系统提示词也能保留。还包含方便的快捷键和字号大小调整功能。
 
 ## 📐 UI画布尺寸计算器
 
@@ -118,7 +118,7 @@ markdown这么好用，写过一次就停不下来。所以希望能轻松把mar
 
 [https://github.com/greenzorro/bitcron-colachan](https://github.com/greenzorro/bitcron-colachan)
 
-我的博客模版是基于Bitcron打造的，很喜欢这个博客系统，简洁轻盈。代码已经在Github上开源，其中也包含设计文件。
+我以前的博客是基于Bitcron打造的，很喜欢这个博客系统，简洁轻盈。代码已经在Github上开源，其中也包含设计文件。
 
 ## 🧮 蒲丰投针实验
 
@@ -136,5 +136,5 @@ markdown这么好用，写过一次就停不下来。所以希望能轻松把mar
 
 [http://greenzorro.github.io/demo/](http://greenzorro.github.io/demo/)
 
-我也学过点前端技术，把一些用到过的效果与技巧集中起来，分类整理，供自己学习练习用。代码混乱，略邋遢，请慎入~
+我是个IE6时代的上古前端，把一些用到过的效果与技巧集中起来，分类整理，供自己学习练习用。代码混乱，略邋遢，请慎入~
 
