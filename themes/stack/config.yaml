@@ -158,6 +158,13 @@ menu:
           params:
               newTab: false
               icon: home
+        - identifier: tools
+          name: 小玩意 - Tools
+          url: http://victor42.work/
+          weight: -80
+          params:
+              newTab: true
+              icon: flask
     # Get icon names and SVGs from: https://tabler-icons.io/
     # Place SVGs under "assets/icons"
     social:
