@@ -1,11 +1,17 @@
 # Hugo 站点配置备忘录
 
-## 1. Sitemap 配置
+## 1. 目的
 
-### 1.1 问题描述
+本文档旨在详细记录 `projects/victor42.eth` 目录下的整个博客项目，为本项目的未来开发提供便利。
+
+**重要提示：** 每次新增或修改功能后，请务必更新此备忘录，确保文档的准确性和时效性。
+
+## 2. Sitemap 配置
+
+### 2.1 问题描述
 多语言站点默认生成多个sitemap文件和一个sitemap索引，但我们希望所有内容都在一个sitemap中呈现。
 
-### 1.2 配置修改
+### 2.2 配置修改
 在`config.toml`中添加以下配置：
 
 ```toml
@@ -35,7 +41,7 @@ enableGitInfo = true
     isHTML = false
 ```
 
-### 1.3 自定义模板
+### 2.3 自定义模板
 创建以下自定义模板文件：
 
 #### layouts/_default/sitemap.xml
@@ -53,7 +59,7 @@ enableGitInfo = true
 
 具体实现可参考对应目录下的模板文件。
 
-### 1.4 Sitemap生成优化
+### 2.4 Sitemap生成优化
 
 #### 问题背景
 - 原始sitemap模板仅包含文章页面
@@ -107,9 +113,9 @@ enableGitInfo = true
 - 在Google Search Console中重新提交sitemap
 - 定期检查sitemap生成是否符合预期
 
-## 2. 多语言实现分析
+## 3. 多语言实现分析
 
-### 2.1 目录结构与URL设计
+### 3.1 目录结构与URL设计
 本站使用了自定义的多语言实现方式，具有以下特点：
 
 1. **目录结构**：
@@ -124,7 +130,7 @@ enableGitInfo = true
    - 通过`translationKey`参数关联不同语言版本的内容
    - 文件名可以相同，但URL和目录结构不同
 
-### 2.2 前置元数据配置
+### 3.2 前置元数据配置
 文章通过前置元数据中的`url`和`translationKey`参数实现多语言关联：
 
 中文版本（位于`content/post/[分类]/`目录）：
@@ -151,7 +157,7 @@ translationKey: article-slug
 ---
 ```
 
-### 2.3 多语言链接关系
+### 3.3 多语言链接关系
 在`themes/stack/layouts/partials/head/head.html`中实现了多语言版本链接关系：
 
 主要功能：
@@ -167,7 +173,7 @@ translationKey: article-slug
 - **当前页面是中文版本时**：查找同样`translationKey`的英文版本（在`/post/en/`路径）
 - 确保每个页面都有正确的语言版本链接，避免404错误
 
-### 2.4 与Hugo默认多语言机制的区别
+### 3.4 与Hugo默认多语言机制的区别
 本站的多语言实现与Hugo默认的多语言机制有以下区别：
 
 1. **目录组织**：
@@ -186,9 +192,9 @@ translationKey: article-slug
    - 本站方案提供了更大的灵活性，可以为不同语言版本设计完全不同的URL结构
    - 便于SEO优化和用户体验定制
 
-## 3. 内容组织与分类系统
+## 4. 内容组织与分类系统
 
-### 3.1 分类目录结构
+### 4.1 分类目录结构
 本站使用了自定义的分类目录结构，而非Hugo默认的taxonomies：
 
 1. **物理目录结构**：
@@ -203,7 +209,7 @@ translationKey: article-slug
    - Hugo默认使用`taxonomies`配置定义分类系统
    - 本站在物理目录结构上也体现了分类，增强了内容组织的直观性
 
-### 3.2 自定义URL结构
+### 4.2 自定义URL结构
 本站对内容URL进行了自定义，不使用Hugo默认的URL生成规则：
 
 1. **文章URL**：
@@ -215,26 +221,26 @@ translationKey: article-slug
    - 使用默认的`/categories/[category-name]/`格式
    - 支持中英文分类页面
 
-## 4. SEO优化分析
+## 5. SEO优化分析
 
-### 4.1 基础SEO元素
+### 5.1 基础SEO元素
 站点使用了以下SEO基础元素：
 
 - 标题和描述：通过`partialCached "data/title"`和`partialCached "data/description"`生成
 - 规范链接：`<link rel='canonical' href='{{ .Permalink }}'>`
 - 多语言标记：通过`hreflang`属性实现
 
-### 4.2 Open Graph协议支持
+### 5.2 Open Graph协议支持
 站点实现了完整的Open Graph协议支持，便于社交媒体分享：
 
 - 基本属性：标题、描述、URL、站点名称、类型
 - 文章特定属性：发布时间、修改时间、分类、标签
 - 图片支持：通过`helper/image`部分实现
 
-### 4.3 结构化数据
+### 5.3 结构化数据
 在`head/schema.html`中实现了结构化数据，帮助搜索引擎更好地理解内容。
 
-### 4.4 图片处理与CDN
+### 5.4 图片处理与CDN
 本站对图片处理有特殊处理：
 
 1. **CDN使用**：
@@ -245,9 +251,9 @@ translationKey: article-slug
    - Hugo默认使用本地图片和图片处理管道
    - 本站使用外部CDN，不依赖Hugo的图片处理功能
 
-## 5. 主题定制与扩展
+## 6. 主题定制与扩展
 
-### 5.1 Stack主题定制
+### 6.1 Stack主题定制
 本站基于Stack主题进行了多处定制：
 
 1. **头部模板修改**：
@@ -258,7 +264,7 @@ translationKey: article-slug
    - 可能修改了文章列表和文章页面布局
    - 添加了自定义的页面组件
 
-### 5.2 静态资源处理
+### 6.2 静态资源处理
 本站对静态资源处理有特殊配置：
 
 1. **相对URL**：
@@ -269,38 +275,38 @@ translationKey: article-slug
    - 使用自定义发布目录：`publishDir = "publish"`
    - 启用了`buildfuture = true`允许发布未来日期的文章
 
-## 6. 注意事项与最佳实践
+## 7. 注意事项与最佳实践
 
-### 6.1 多语言内容管理
+### 7.1 多语言内容管理
 - 使用`translationKey`关联不同语言版本的内容
 - 保持目录结构一致性（post对应post-en）
 - 确保`hreflang`标签正确设置
 - 在创建新内容时，站长会选择性地为部分新内容创建对应的翻译版本
 
-### 6.2 URL结构维护
+### 7.2 URL结构维护
 - 保持URL结构一致性（中文`/post/slug/`，英文`/post/en/slug/`）
 - 使用有意义的slug，便于SEO和用户记忆
 - 避免更改已发布内容的URL，如需更改应设置301重定向
 
-### 6.3 Sitemap维护
+### 7.3 Sitemap维护
 - 使用`hugo --cleanDestinationDir`清理缓存后重新构建
 - 定期检查sitemap.xml是否正确生成
 - 可以通过`sitemap_exclude: true`前置参数排除特定页面
 
-### 6.4 SEO优化建议
+### 7.4 SEO优化建议
 - 确保每篇文章都有唯一的标题和描述
 - 使用有意义的URL结构
 - 提供高质量的特色图片
 - 保持内容更新，利用`lastmod`属性
 
-### 6.5 主题升级注意事项
+### 7.5 主题升级注意事项
 - 升级Stack主题时注意保留自定义修改
 - 特别关注`head.html`和多语言相关模板
 - 使用版本控制跟踪主题修改，便于合并更新
 
-## 7. hreflang标签修复记录
+## 8. hreflang标签修复记录
 
-### 7.1 问题描述
+### 8.1 问题描述
 **发现时间**: 2025-01-27
 
 **问题现象**:
@@ -316,7 +322,7 @@ translationKey: article-slug
 {{ $enURL := replaceRE "/post/([^/]+)/" "/post/en/$1/" $currentURL }}
 ```
 
-### 7.2 修复方案
+### 8.2 修复方案
 **修复思路**:
 1. 基于`translationKey`参数而非URL模式来查找翻译版本
 2. 遍历所有页面验证翻译版本是否真实存在
@@ -344,7 +350,7 @@ translationKey: article-slug
 {{ end }}
 ```
 
-### 7.3 修复效果
+### 8.3 修复效果
 **修复前**:
 - 为不存在的翻译版本生成hreflang链接
 - 搜索引擎可能访问到404页面
@@ -356,13 +362,13 @@ translationKey: article-slug
 - 改善SEO表现
 - 对于像"灵感库的故事"这样只有中文版本的文章，不会生成英文版本的hreflang链接
 
-### 7.4 验证方法
+### 8.4 验证方法
 1. 检查有翻译版本的文章：hreflang标签正常生成
 2. 检查只有单语言版本的文章：不生成指向不存在页面的hreflang标签
 3. 验证生成的URL都能正常访问
 4. 在Google Search Console中检查是否还有hreflang相关错误
 
-## 8. 故障排查
+## 9. 故障排查
 
 如遇问题，可尝试以下方法：
 - 检查模板语法错误
