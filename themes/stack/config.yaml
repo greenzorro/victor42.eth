@@ -159,7 +159,7 @@ menu:
               newTab: false
               icon: home
         - identifier: tools
-          name: 小玩意 - Tools
+          name: 小玩意 - Creation
           url: http://victor42.work/
           weight: -50
           params:
