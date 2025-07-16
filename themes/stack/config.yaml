@@ -161,7 +161,7 @@ menu:
         - identifier: tools
           name: 小玩意 - Tools
           url: http://victor42.work/
-          weight: -80
+          weight: -95
           params:
               newTab: true
               icon: flask
