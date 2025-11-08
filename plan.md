@@ -214,7 +214,7 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
 
 ### 2.1 总体架构
 ```
-GitHub Repo → GitHub Actions (Build) → Artifact → 4EVERLAND (Auto Deploy) → IPFS → ENS Domain
+GitHub Repo → GitHub Actions (Build) → gh-pages分支 → 4EVERLAND (部署gh-pages) → IPFS → ENS域名
 ```
 
 ### 2.2 职责分工
@@ -224,17 +224,26 @@ GitHub Repo → GitHub Actions (Build) → Artifact → 4EVERLAND (Auto Deploy) 
   - Stack主题依赖安装
   - Hugo Extended构建
   - 产物质量验证
-  - 上传构建产物 (Artifact)
+  - **自动推送构建产物到gh-pages分支** (永久保存)
   - **不涉及任何部署平台**
 
 - **4EVERLAND 负责**:
-  - 从GitHub自动拉取构建产物
+  - 从GitHub克隆gh-pages分支的静态文件
+  - 部署到4EVERLAND IPFS网络
   - IPFS pinning
   - CDN加速
   - SSL证书
   - ENS域名绑定
   - IPNS自动更新
   - 构建历史管理
+
+### 2.2.1 为什么使用gh-pages而不是Artifact
+- ✅ **持久化**: gh-pages是GitHub原生支持的永久分支
+- ✅ **标准做法**: 静态网站部署的行业标准
+- ✅ **平台无关**: 任何平台都可以直接部署gh-pages
+- ✅ **易于访问**: 无需特殊权限或下载链接
+- ✅ **版本管理**: GitHub自动追踪构建历史
+- ✅ **灵活切换**: 可随时切换部署平台
 
 ### 2.3 为什么选择方案A (解耦)
 1. ✅ **完整保留Stack主题功能** (SCSS/TS编译)
@@ -264,8 +273,9 @@ on:
 
 # 权限配置
 permissions:
-  contents: read
-  pull-requests: write
+  contents: read        # 读取仓库内容
+  pull-requests: write  # PR评论
+  pages: write          # 推送到gh-pages分支
 
 # 环境变量
 env:
@@ -350,38 +360,19 @@ jobs:
             exit 1
           fi
 
-      # 步骤8: 上传构建产物 (用于调试)
-      - name: Upload Build Artifacts
-        uses: actions/upload-artifact@v4
-        if: always()
+      # 步骤8: 推送构建产物到gh-pages分支 ⭐
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          name: hugo-site-${{ github.sha }}
-          path: publish/
-          retention-days: 7
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+          publish_branch: gh-pages
+          keep_files: true
+          force_orphan: false
 
-      # 步骤9: 部署到4EVERLAND ⭐ 核心步骤
-      - name: Deploy to 4EVERLAND
-        id: deploy
-        uses: 4everland/pin-action@v1.1
-        with:
-          EVER_TOKEN: ${{ secrets.EVER_TOKEN }}
-          BUILD_LOCATION: ./publish
-          EVER_PROJECT_NAME: 'victor42.eth'
-          EVER_PROJECT_PLAT: 'IPFS'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # 步骤10: 输出部署结果
-      - name: Show Deployment Results
-        if: always()
-        run: |
-          echo "🚀 部署结果:"
-          echo "Hash: ${{ steps.deploy.outputs.hash }}"
-          echo "URI: ${{ steps.deploy.outputs.uri }}"
-          echo "Project Link: ${{ steps.deploy.outputs.projLink }}"
-
-      # 步骤11: 添加PR评论 (仅PR时)
-      - name: Comment PR with Deployment Link
+      # 步骤9: 添加PR评论 (仅PR时)
+      - name: Comment PR with gh-pages Link
         if: github.event_name == 'pull_request'
         uses: actions/github-script@v7
         with:
@@ -393,16 +384,20 @@ jobs:
             });
 
             const botComment = comments.find(comment =>
-              comment.user.type === 'Bot' && comment.body.includes('4EVERLAND部署')
+              comment.user.type === 'Bot' && comment.body.includes('gh-pages部署')
             );
 
-            const deploymentLink = '${{ steps.deploy.outputs.projLink }}';
-            const commentBody = `🚀 4EVERLAND部署成功!
+            const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
+            const ghPagesUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
+            const commentBody = `🚀 Hugo构建完成并推送到gh-pages!
 
-            - **预览链接**: ${deploymentLink}
+            - **预览链接**: [${ghPagesUrl}](${ghPagesUrl})
+            - **gh-pages分支**: [查看代码](${repoUrl}/tree/gh-pages)
             - **Commit**: ${context.sha}
             - **构建者**: ${context.actor}
             - **时间**: ${new Date().toISOString()}
+
+            > 4EVERLAND等部署平台可直接部署gh-pages分支的静态文件
             `;
 
             if (botComment) {
@@ -421,21 +416,22 @@ jobs:
               });
             }
 
-      # 步骤12: 更新Commit状态 (仅push到main时)
+      # 步骤10: 更新Commit状态 (仅push到main时)
       - name: Update Commit Status
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/github-script@v7
         with:
           script: |
-            const deploymentLink = '${{ steps.deploy.outputs.projLink }}';
+            const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
+            const ghPagesUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
               sha: context.sha,
               state: 'success',
-              target_url: deploymentLink,
-              description: '4EVERLAND部署成功',
-              context: '4EVERLAND Deployment'
+              target_url: repoUrl,
+              description: 'Hugo构建完成，gh-pages已更新',
+              context: 'Hugo Build'
             });
 
   # 部署状态检查
