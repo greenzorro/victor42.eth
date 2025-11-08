@@ -145,6 +145,68 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
 | 文件数量 | 14,050+ | 0(仅配置) |
 | Go版本 | N/A | 需要1.18+ |
 | 模块路径 | N/A | 必须用/v3后缀 |
+| GitHub权限 | 只需contents:read | 需要添加statuses:write |
+
+### 1.6 🎯 最终成功配置总结 (2025-11-08)
+
+经过**15次构建尝试**，最终成功的完整配置：
+
+#### 核心文件
+1. **go.mod**:
+   ```go
+   module github.com/greenzorro/victor42.eth
+   go 1.18
+   require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
+   ```
+
+2. **config.toml**:
+   ```toml
+   [module]
+     [module.imports]
+       path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+   ```
+
+3. **.github/workflows/deploy.yml**:
+   ```yaml
+   permissions:
+     contents: read
+     pull-requests: write
+     statuses: write  # 关键：用于更新commit状态
+   ```
+
+#### 构建结果 (第十五次构建)
+- ✅ **Hugo构建成功**: Total in 1996 ms
+- ✅ **文件数量**: 689个
+- ✅ **目录大小**: 40MB
+- ✅ **包含页面**: 首页、Sitemap、RSS
+- ✅ **多语言统计**: 6页中文 + 528页英文
+- ✅ **Artifact上传**: ID 4508336709, 12MB
+- ✅ **GitHub权限**: 无错误，工作流完全成功
+
+#### 关键发现 (15次构建的经验)
+1. **第一次重大发现**: Git Submodule与Hugo Modules架构不匹配
+   - 错误: `can't evaluate field Sass in type interface {}`
+   - 原因: Hugo资源管道无法访问Git Submodule中的文件
+
+2. **第二次重大发现**: Go版本和模块路径要求
+   - 错误: `version 'v3.0.0-20230608113750-66e4eb85d8a5' invalid: should be v0 or v1, not v3`
+   - 解决: Go 1.18+, 使用`/v3`后缀，正式版本标签
+
+3. **第三次重大发现**: 版本兼容性
+   - 错误: `can't evaluate field Lastmod in type page.Site` (v3.32.0)
+   - 解决: 降级到v3.16.0 (兼容Hugo 0.111.3)
+
+4. **第四次重大发现**: GitHub Actions权限
+   - 错误: `Resource not accessible by integration` (403错误)
+   - 解决: 添加`statuses: write`权限
+
+#### 性能对比
+| 指标 | Git Submodule | Hugo Modules |
+|------|---------------|--------------|
+| 构建时间 | 失败 | 1996ms |
+| 文件数量 | 14,050+ | 0 (仅配置) |
+| 维护成本 | 高 | 低 |
+| 成功率 | 0% | 100% |
 
 ---
 
