@@ -32,14 +32,10 @@ hasCJKLanguage = true
     languageName = "中文"
     contentDir = "content"
     weight = 1
-    [languages.zh-cn.sitemap]
-      disable = true
   [languages.en]
     languageName = "English"
     contentDir = "content"
     weight = 2
-    [languages.en.sitemap]
-      disable = true
 
 # 站点参数
 [params]
