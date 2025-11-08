@@ -46,9 +46,9 @@ jobs:
           echo "🔄 初始化Hugo Modules..."
           # 启用Go模块
           export GO111MODULE=on
-          # 安装Stack主题作为Hugo Module
-          hugo mod get github.com/CaiJimmy/hugo-theme-stack/v3
-          echo "✅ Stack主题安装完成"
+          # 使用hugo自动管理模块
+          hugo mod tidy
+          echo "✅ 模块配置完成"
           # 下载模块到本地缓存
           hugo mod download
           echo "✅ 模块缓存完成"
