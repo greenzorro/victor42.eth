@@ -72,14 +72,14 @@ jobs:
           # Stack主题使用Hugo Modules，Git Submodule无法直接访问资源
           # 我们需要将主题的assets目录复制到主项目
           if [ -d "themes/stack/assets" ]; then
-            echo "📁 发现Stack主题assets目录，开始复制..."
-            # 创建assets/scss目录（如果不存在）
-            mkdir -p assets/scss
-            # 复制所有SCSS文件
-            cp -r themes/stack/assets/scss/* assets/scss/ 2>/dev/null || true
-            echo "✅ SCSS资源复制完成"
+            echo "📁 发现Stack主题assets目录，开始复制所有资源..."
+            # 复制所有资源：SCSS、TypeScript、图标等
+            cp -r themes/stack/assets/* assets/ 2>/dev/null || true
+            echo "✅ 资源复制完成"
             # 验证复制结果
-            ls -la assets/scss/ | head -10
+            echo "SCSS文件: $(ls -1 assets/scss/*.scss 2>/dev/null | wc -l) 个"
+            echo "TypeScript文件: $(ls -1 assets/ts/*.ts 2>/dev/null | wc -l) 个"
+            echo "SVG图标: $(ls -1 assets/icons/*.svg 2>/dev/null | wc -l) 个"
           else
             echo "❌ 未找到Stack主题assets目录"
             exit 1
@@ -94,7 +94,10 @@ jobs:
           echo "npm版本: $(npm --version)"
           echo "主题目录: $(ls -la themes/stack/ | head -5)"
           echo "内容目录: $(ls -la content/ | head -5)"
-          echo "复制后的资源: $(ls -la assets/scss/ 2>/dev/null || echo '无assets/scss')"
+          echo "assets目录: $(ls -la assets/ 2>/dev/null || echo '无assets目录')"
+          echo "SCSS资源: $(ls -la assets/scss/ 2>/dev/null | head -3 || echo '无')"
+          echo "TypeScript资源: $(ls -la assets/ts/ 2>/dev/null | head -3 || echo '无')"
+          echo "SVG图标资源: $(ls -la assets/icons/ 2>/dev/null | head -3 || echo '无')"
 
       # 步骤6: 执行Hugo构建
       - name: Build Hugo Site
