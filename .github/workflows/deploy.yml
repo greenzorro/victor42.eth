@@ -78,34 +78,31 @@ jobs:
       - name: Copy Stack Theme Assets
         run: |
           echo "📁 复制Stack主题资源文件..."
-          # 查找Hugo Modules缓存中的Stack主题 (多种路径)
-          THEME_PATHS=(
-            "$(go env GOPATH)/pkg/mod/github.com/!cai!jimmy/hugo-theme-stack*v3*"
-            "/home/runner/go/pkg/mod/github.com/!cai!jimmy/hugo-theme-stack*v3*"
-            "$(go env GOPATH)/pkg/mod/github.com/CaiJimmy/hugo-theme-stack*v3*"
-            "/tmp/*/pkg/mod/github.com/!cai!jimmy/hugo-theme-stack*v3*"
-          )
-          THEME_PATH=""
-          for pattern in "${THEME_PATHS[@]}"; do
-            matches=$(find $pattern -maxdepth 0 -type d 2>/dev/null)
-            if [ -n "$matches" ]; then
-              THEME_PATH="$matches"
-              break
-            fi
-          done
+          # 使用Hugo缓存目录
+          HUGO_CACHE=$(find /tmp -name "hugo-cache" -type d 2>/dev/null | head -1)
+          if [ -z "$HUGO_CACHE" ]; then
+            HUGO_CACHE="/tmp/hugo_cache"
+            mkdir -p $HUGO_CACHE
+          fi
 
-          if [ -n "$THEME_PATH" ] && [ -d "$THEME_PATH/assets" ]; then
-            echo "✅ 找到主题路径: $THEME_PATH"
-            echo "✅ 找到主题assets: $THEME_PATH/assets"
-            mkdir -p assets
-            cp -r $THEME_PATH/assets/* assets/
-            echo "✅ 资源复制完成"
-            echo "SCSS文件数: $(find assets -name "*.scss" 2>/dev/null | wc -l)"
-            echo "TypeScript文件数: $(find assets -name "*.ts" 2>/dev/null | wc -l)"
-            echo "SVG图标文件数: $(find assets/icons -name "*.svg" 2>/dev/null | wc -l)"
+          # 查找模块缓存中的主题
+          MODULE_CACHE="$HUGO_CACHE/modules/filecache/modules/pkg/mod"
+          if [ -d "$MODULE_CACHE" ]; then
+            THEME_DIR=$(find $MODULE_CACHE -name "*hugo-theme-stack*v3*" -type d 2>/dev/null | head -1)
+            if [ -n "$THEME_DIR" ] && [ -d "$THEME_DIR/assets" ]; then
+              echo "✅ 找到主题: $THEME_DIR"
+              mkdir -p assets
+              cp -r $THEME_DIR/assets/* assets/
+              echo "✅ 资源复制完成"
+              echo "SCSS文件数: $(find assets -name "*.scss" 2>/dev/null | wc -l)"
+              echo "TypeScript文件数: $(find assets -name "*.ts" 2>/dev/null | wc -l)"
+              echo "SVG图标文件数: $(find assets/icons -name "*.svg" 2>/dev/null | wc -l)"
+            else
+              echo "⚠️ 未找到主题assets目录"
+              ls -la $MODULE_CACHE/ 2>/dev/null | head -10
+            fi
           else
-            echo "⚠️ 未找到主题assets，跳过复制"
-            echo "搜索路径: ${THEME_PATHS[@]}"
+            echo "⚠️ 未找到模块缓存目录: $MODULE_CACHE"
           fi
 
       # 步骤4: 验证构建环境
