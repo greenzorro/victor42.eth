@@ -74,6 +74,24 @@ jobs:
           echo "🔍 验证主题存在..."
           ls -la $(go env GOPATH)/pkg/mod/github.com/caijimmy/ 2>/dev/null || echo "模块缓存位置未知"
 
+      # 步骤3.6: 复制Stack主题assets ⭐ 关键步骤
+      - name: Copy Stack Theme Assets
+        run: |
+          echo "📁 复制Stack主题资源文件..."
+          # 查找Hugo Modules缓存中的Stack主题
+          THEME_PATH=$(find $(go env GOPATH)/pkg/mod -name "hugo-theme-stack*v3*" -type d 2>/dev/null | head -1)
+          if [ -n "$THEME_PATH" ] && [ -d "$THEME_PATH/assets" ]; then
+            echo "✅ 找到主题assets: $THEME_PATH/assets"
+            mkdir -p assets
+            cp -r $THEME_PATH/assets/* assets/
+            echo "✅ 资源复制完成"
+            echo "SCSS文件数: $(find assets -name "*.scss" 2>/dev/null | wc -l)"
+            echo "TypeScript文件数: $(find assets -name "*.ts" 2>/dev/null | wc -l)"
+            echo "SVG图标文件数: $(find assets/icons -name "*.svg" 2>/dev/null | wc -l)"
+          else
+            echo "⚠️ 未找到主题assets，跳过复制"
+          fi
+
       # 步骤4: 验证构建环境
       - name: Verify Build Environment
         run: |
@@ -81,12 +99,11 @@ jobs:
           echo "Hugo版本: $(hugo version)"
           echo "Node版本: $(node --version)"
           echo "npm版本: $(npm --version)"
-          echo "主题目录: $(ls -la themes/stack/ | head -5)"
           echo "内容目录: $(ls -la content/ | head -5)"
           echo "assets目录: $(ls -la assets/ 2>/dev/null || echo '无assets目录')"
-          echo "SCSS资源: $(ls -la assets/scss/ 2>/dev/null | head -3 || echo '无')"
-          echo "TypeScript资源: $(ls -la assets/ts/ 2>/dev/null | head -3 || echo '无')"
-          echo "SVG图标资源: $(ls -la assets/icons/ 2>/dev/null | head -3 || echo '无')"
+          echo "SCSS资源: $(find assets/ -name "*.scss" 2>/dev/null | wc -l) 个文件"
+          echo "TypeScript资源: $(find assets/ -name "*.ts" 2>/dev/null | wc -l) 个文件"
+          echo "SVG图标资源: $(find assets/icons -name "*.svg" 2>/dev/null | wc -l) 个文件"
 
       # 步骤5: 执行Hugo构建
       - name: Build Hugo Site
