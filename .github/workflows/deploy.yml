@@ -9,9 +9,10 @@ on:
 
 # 权限配置
 permissions:
-  contents: read
-  pull-requests: write
-  statuses: write
+  contents: read        # 读取仓库内容
+  pull-requests: write  # PR评论
+  statuses: write       # 更新commit状态
+  pages: write          # 推送到gh-pages分支
 
 # 环境变量
 env:
@@ -110,13 +111,16 @@ jobs:
             exit 1
           fi
 
-      # 步骤8: 上传构建产物 (供4EVERLAND等平台拉取)
-      - name: Upload Build Artifacts
-        uses: actions/upload-artifact@v4
+      # 步骤8: 推送构建产物到gh-pages分支 ⭐
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          name: hugo-site-${{ github.sha }}
-          path: publish/
-          retention-days: 7
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+          publish_branch: gh-pages
+          keep_files: true
+          force_orphan: false
 
       # 步骤9: 添加PR评论 (仅PR时)
       - name: Comment PR with Build Status
@@ -130,7 +134,8 @@ jobs:
               issue_number: context.issue.number
             });
 
-            const artifactUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/suites/${context.runId}`;
+            const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
+            const ghPagesUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
             const buildStatus = '${{ job.status }}';
             const commentBody = `📦 Hugo构建${buildStatus === 'success' ? '成功' : '失败'}!
 
@@ -138,9 +143,10 @@ jobs:
             - **Commit**: ${context.sha.substring(0, 7)}
             - **构建者**: ${context.actor}
             - **时间**: ${new Date().toISOString()}
-            - **Artifact**: [下载构建产物](${artifactUrl})
+            - **预览链接**: [${ghPagesUrl}](${ghPagesUrl})
+            - **gh-pages分支**: [查看代码](${repoUrl}/tree/gh-pages)
 
-            > 4EVERLAND等部署平台将自动从GitHub获取最新构建产物并部署
+            > 4EVERLAND等部署平台可直接部署gh-pages分支的静态文件
             `;
 
             const botComment = comments.find(comment =>
@@ -171,13 +177,15 @@ jobs:
           script: |
             const buildStatus = '${{ job.status }}';
             const state = buildStatus === 'success' ? 'success' : 'failure';
+            const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
+            const ghPagesUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
 
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
               sha: context.sha,
               state: state,
-              description: `Hugo构建${buildStatus === 'success' ? '成功' : '失败'}`,
+              description: `Hugo构建${buildStatus === 'success' ? '成功，gh-pages已更新' : '失败'}`,
               context: 'Hugo Build',
-              target_url: `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+              target_url: repoUrl
             });
