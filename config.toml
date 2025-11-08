@@ -38,9 +38,6 @@ defaultPageLanguage = "zh-cn"
 [params.main]
 style = "light" 
 
-[params.footer]
-since = 2011
-
 # 分类法配置
 [taxonomies]
 category = "categories"
