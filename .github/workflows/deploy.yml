@@ -9,7 +9,7 @@ on:
 
 # 权限配置
 permissions:
-  contents: read        # 读取仓库内容
+  contents: write       # 读取和写入仓库内容（需要推送到publish分支）
   pull-requests: write  # PR评论
   statuses: write       # 更新commit状态
   pages: write          # 推送到publish分支
