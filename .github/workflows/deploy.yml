@@ -15,6 +15,21 @@ jobs:
           submodules: true  # 拉取 Git Submodule
           fetch-depth: 0    # 获取所有 Git 历史，用于 GitInfo
 
+      # ================================================
+      # VVVV  以下是新增的关键步骤  VVVV
+      # ================================================
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # 设置 Node.js 版本
+      
+      - name: Install PostCSS Dependencies
+        # 进入主题目录，安装它所需要的依赖
+        run: npm install --prefix themes/stack
+      # ================================================
+      # ^^^^  以上是新增的关键步骤  ^^^^
+      # ================================================
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -30,4 +45,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish # 指定要部署的文件夹
           publish_branch: gh-pages # 部署到 gh-pages 分支
-          cname: victor42.eth.limo # 如果您有自定义域名，可以写在这里，否则可以删除这行
