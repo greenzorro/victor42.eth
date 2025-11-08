@@ -11,7 +11,7 @@ buildfuture = true
 # Hugo Modules配置
 [module]
   [module.imports]
-    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+    path = "github.com/CaiJimmy/hugo-theme-stack"
 
 # Hugo资产处理配置 (Stack主题必需)
 [asset]
