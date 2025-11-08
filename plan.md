@@ -97,16 +97,18 @@ rm -rf themes/stack
 ```go
 module github.com/greenzorro/victor42.eth
 
-go 1.12
+go 1.18
 
-require github.com/CaiJimmy/hugo-theme-stack v3.16.0
+require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 ```
+
+**注意**: 必须使用Go 1.18+，主题使用`/v3`模块路径，正式版本标签。
 
 #### 步骤3: 更新config.toml
 ```toml
 [module]
   [module.imports]
-    path = "github.com/CaiJimmy/hugo-theme-stack"
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 ```
 
 #### 步骤4: 更新GitHub Actions
@@ -114,15 +116,22 @@ require github.com/CaiJimmy/hugo-theme-stack v3.16.0
 - name: Install Hugo Modules
   run: |
     export GO111MODULE=on
-    hugo mod get github.com/CaiJimmy/hugo-theme-stack/v3
-    hugo mod download
+    hugo mod tidy      # 自动从go.mod读取版本
+    hugo mod download  # 下载模块到本地缓存
 ```
+
+**注意**: 使用`hugo mod tidy`会自动从go.mod读取版本，比手动指定更可靠。
 
 #### 版本问题
 - ❌ **错误版本**: `github.com/CaiJimmy/hugo-theme-stack/v3@v3.0.0`
   - 错误: `missing go.mod at revision v3.0.0`
-- ✅ **正确版本**: `github.com/CaiJimmy/hugo-theme-stack v3.16.0`
-- 配置中也要去掉`/v3`后缀
+- ❌ **错误配置**: Go 1.12, 无/v3路径
+  - 错误: Hugo需要Go 1.18+，主题使用/v3模块路径
+- ✅ **正确版本**: `github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0`
+- ✅ **正确配置**:
+  - Go 1.18 (Hugo要求)
+  - 模块路径: `github.com/CaiJimmy/hugo-theme-stack/v3`
+  - config.toml路径: `github.com/CaiJimmy/hugo-theme-stack/v3`
 
 #### 优势对比
 | 特性 | Git Submodule | Hugo Modules |
@@ -132,6 +141,8 @@ require github.com/CaiJimmy/hugo-theme-stack v3.16.0
 | 维护性 | 手动更新 | 自动更新 |
 | 架构兼容性 | 不匹配 | 完美匹配 |
 | 文件数量 | 14,050+ | 0(仅配置) |
+| Go版本 | N/A | 需要1.18+ |
+| 模块路径 | N/A | 必须用/v3后缀 |
 
 ---
 
