@@ -30,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true          # 拉取Stack主题
+          submodules: false         # 不使用Git Submodule，改用Hugo Modules
           fetch-depth: 0            # 获取全部历史 (用于GitInfo)
 
       # 步骤2: 设置Hugo
@@ -40,6 +40,19 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: ${{ env.HUGO_EXTENDED }}
 
+      # 步骤2.5: 安装Hugo Modules依赖 ⭐ 关键变更
+      - name: Install Hugo Modules
+        run: |
+          echo "🔄 初始化Hugo Modules..."
+          # 启用Go模块
+          export GO111MODULE=on
+          # 安装Stack主题作为Hugo Module
+          hugo mod get github.com/CaiJimmy/hugo-theme-stack/v3
+          echo "✅ Stack主题安装完成"
+          # 下载模块到本地缓存
+          hugo mod download
+          echo "✅ 模块缓存完成"
+
       # 步骤3: 设置Node.js (用于Stack主题SCSS编译)
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -47,47 +60,19 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           # 注意: 不使用cache，因为主题没有package-lock.json
 
-      # 步骤4: 安装Stack主题依赖 (可选)
-      - name: Install Stack Theme Dependencies
+      # 步骤3.5: 验证Hugo Modules
+      - name: Verify Hugo Modules
         run: |
-          echo "🔍 检查Stack主题结构..."
-          ls -la themes/stack/ | head -20
+          echo "🔍 验证Hugo Modules配置..."
+          cat go.mod
           echo ""
-          echo "🔍 检查是否存在package.json..."
-          if [ -f "themes/stack/package.json" ]; then
-            echo "✅ 发现package.json，开始安装依赖..."
-            cd themes/stack
-            npm ci --silent || true
-            echo "✅ 主题依赖安装完成 (如有错误请忽略)"
-            cd ../..
-          else
-            echo "ℹ️  Stack主题无package.json，跳过依赖安装"
-          fi
-        continue-on-error: true  # 即使失败也不影响后续步骤
+          echo "🔍 检查模块缓存..."
+          hugo mod graph
+          echo ""
+          echo "🔍 验证主题存在..."
+          ls -la $(go env GOPATH)/pkg/mod/github.com/caijimmy/ 2>/dev/null || echo "模块缓存位置未知"
 
-      # 步骤4.5: 复制Stack主题资源到主项目 ⭐ 关键修复
-      - name: Copy Stack Theme Assets
-        run: |
-          echo "🔄 复制Stack主题资源文件..."
-          # Stack主题使用Hugo Modules，Git Submodule无法直接访问资源
-          # 我们需要将主题的assets目录复制到主项目
-          if [ -d "themes/stack/assets" ]; then
-            echo "📁 发现Stack主题assets目录，开始复制所有资源..."
-            # 使用rsync确保完整复制所有文件和子目录
-            rsync -av --delete themes/stack/assets/ assets/ 2>/dev/null || cp -r themes/stack/assets/ assets/
-            echo "✅ 资源复制完成"
-            # 详细验证复制结果
-            echo "总文件数: $(find assets/ -type f | wc -l) 个"
-            echo "SCSS文件: $(find assets/scss -name '*.scss' 2>/dev/null | wc -l) 个"
-            echo "TypeScript文件: $(find assets/ts -name '*.ts' -o -name '*.tsx' 2>/dev/null | wc -l) 个"
-            echo "SVG图标: $(find assets/icons -name '*.svg' 2>/dev/null | wc -l) 个"
-            echo "SCSS文件列表: $(ls -1 assets/scss/*.scss 2>/dev/null | tr '\n' ' ')"
-          else
-            echo "❌ 未找到Stack主题assets目录"
-            exit 1
-          fi
-
-      # 步骤5: 验证构建环境
+      # 步骤4: 验证构建环境
       - name: Verify Build Environment
         run: |
           echo "🔍 环境验证..."
@@ -101,7 +86,7 @@ jobs:
           echo "TypeScript资源: $(ls -la assets/ts/ 2>/dev/null | head -3 || echo '无')"
           echo "SVG图标资源: $(ls -la assets/icons/ 2>/dev/null | head -3 || echo '无')"
 
-      # 步骤6: 执行Hugo构建
+      # 步骤5: 执行Hugo构建
       - name: Build Hugo Site
         run: |
           echo "🔨 开始构建Hugo站点..."
