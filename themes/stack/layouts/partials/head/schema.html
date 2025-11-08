@@ -1,0 +1,54 @@
+{{/* 生成文章的Schema.org结构化标记 */}}
+{{ $author := .Site.Params.author | default "Anonymous" }}
+{{ $description := .Description | default .Summary | plainify }}
+
+{{/* 获取文章第一张图片 */}}
+{{ $image := "" }}
+{{ with .Params.image }}
+    {{ $image = . }}
+{{ else }}
+    {{ with .Resources.GetMatch "featured-image" }}
+        {{ $image = .Permalink }}
+    {{ else }}
+        {{ range .Resources.ByType "image" }}
+            {{ if eq $image "" }}
+                {{ $image = .Permalink }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{/* 使用统一的 helper 函数计算字数和阅读时间 */}}
+{{ $content := .Content }}
+{{ $totalWords := partial "helper/word-count" (dict "content" $content) }}
+{{ $readingTime := partial "helper/reading-time" (dict "content" $content) }}
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+    },
+    "headline": "{{ .Title }}",
+    "description": "{{ $description }}",
+    {{ if $image }}"image": "{{ $image | absURL }}",{{ end }}
+    "author": {
+        "@type": "Person",
+        "name": "{{ $author }}"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Title }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ "favicon.ico" | absURL }}"
+        }
+    },
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+    "wordCount": {{ $totalWords }},
+    "timeRequired": "PT{{ $readingTime }}M"
+}
+</script> 
