@@ -99,10 +99,10 @@ module github.com/greenzorro/victor42.eth
 
 go 1.18
 
-require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
+require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
 ```
 
-**注意**: 必须使用Go 1.18+，主题使用`/v3`模块路径，正式版本标签。
+**注意**: 必须使用Go 1.18+，主题使用`/v3`模块路径，正式版本标签。v3.16.0与Hugo 0.111.3兼容。
 
 #### 步骤3: 更新config.toml
 ```toml
@@ -127,7 +127,9 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
   - 错误: `missing go.mod at revision v3.0.0`
 - ❌ **错误配置**: Go 1.12, 无/v3路径
   - 错误: Hugo需要Go 1.18+，主题使用/v3模块路径
-- ✅ **正确版本**: `github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0`
+- ❌ **版本不兼容**: `v3.32.0` 与 Hugo 0.111.3
+  - 错误: `can't evaluate field Lastmod in type page.Site`
+- ✅ **正确版本**: `github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0` (兼容Hugo 0.111.3)
 - ✅ **正确配置**:
   - Go 1.18 (Hugo要求)
   - 模块路径: `github.com/CaiJimmy/hugo-theme-stack/v3`
