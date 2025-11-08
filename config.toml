@@ -9,6 +9,15 @@ relativeURLs = true
 canonifyURLs = true
 buildfuture = true
 
+# Hugo资产处理配置 (Stack主题必需)
+[asset]
+  [asset.versioning]
+    enable = true
+[minify]
+  [minify.tdewolff.html]
+    keepComments = true
+    keepWhitespace = true
+
 # 语言配置
 languageCode = 'en-us'
 defaultContentLanguage = "en"
