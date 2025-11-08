@@ -84,6 +84,55 @@ cp -r themes/stack/assets/* assets/
 3. **Stack主题特性**: 需要完整的资源文件集（SCSS/TS/SVG）才能正常工作
 4. **CI/CD策略**: 在构建步骤中动态复制资源是有效的解决方案
 
+### 1.5 🔄 Hugo Modules迁移过程 (2025-11-08)
+
+经过多次尝试后，我们决定将Stack主题从Git Submodule迁移到Hugo Modules。
+
+#### 步骤1: 删除Git Submodule
+```bash
+rm -rf themes/stack
+```
+
+#### 步骤2: 创建go.mod
+```go
+module github.com/greenzorro/victor42.eth
+
+go 1.12
+
+require github.com/CaiJimmy/hugo-theme-stack v3.16.0
+```
+
+#### 步骤3: 更新config.toml
+```toml
+[module]
+  [module.imports]
+    path = "github.com/CaiJimmy/hugo-theme-stack"
+```
+
+#### 步骤4: 更新GitHub Actions
+```yaml
+- name: Install Hugo Modules
+  run: |
+    export GO111MODULE=on
+    hugo mod get github.com/CaiJimmy/hugo-theme-stack/v3
+    hugo mod download
+```
+
+#### 版本问题
+- ❌ **错误版本**: `github.com/CaiJimmy/hugo-theme-stack/v3@v3.0.0`
+  - 错误: `missing go.mod at revision v3.0.0`
+- ✅ **正确版本**: `github.com/CaiJimmy/hugo-theme-stack v3.16.0`
+- 配置中也要去掉`/v3`后缀
+
+#### 优势对比
+| 特性 | Git Submodule | Hugo Modules |
+|------|---------------|--------------|
+| 资源访问 | ❌ 无法访问 | ✅ 完全支持 |
+| 版本管理 | 复杂 | 简单(go.mod) |
+| 维护性 | 手动更新 | 自动更新 |
+| 架构兼容性 | 不匹配 | 完美匹配 |
+| 文件数量 | 14,050+ | 0(仅配置) |
+
 ---
 
 ## 2. 架构决策: 方案A (解耦方案)
