@@ -46,9 +46,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'              # 缓存npm依赖
-          cache-dependency-path: |
-            themes/stack/package-lock.json
-            package-lock.json
+          # 注意: 不指定 cache-dependency-path，因为主题没有package-lock.json
 
       # 步骤4: 安装Stack主题依赖 ⭐ 关键步骤
       - name: Install Stack Theme Dependencies
