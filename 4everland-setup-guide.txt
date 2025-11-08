@@ -1,0 +1,44 @@
+================================
+4EVERLAND 配置步骤指南
+================================
+
+1. 访问 https://dashboard.4everland.org
+   - 登录您的账号
+
+2. 创建新项目
+   - 点击 "Create New Project"
+   - 选择 "Static Web Hosting"
+
+3. 配置项目
+   Name: victor42.eth
+   Platform: IPFS
+   Framework: Other
+
+4. 连接GitHub
+   - 选择 "Connect GitHub"
+   - 授权访问您的仓库
+   - 选择仓库: greenzorro/victor42.eth
+   - 选择分支: gh-pages
+   - 根目录: /
+
+5. 部署设置
+   Source: 静态文件 (已构建)
+   根目录: /
+   发布目录: / (因为gh-pages就是发布目录)
+   构建命令: (留空)
+
+6. 保存并部署
+   - 4EVERLAND会自动从gh-pages克隆文件
+   - 部署到IPFS
+   - 返回IPFS链接
+
+7. 绑定ENS域名 (victor42.eth.limo)
+   - 在项目页面点击 "Domains"
+   - 选择 "ENS"
+   - 点击 "Add Domain"
+   - 输入: victor42.eth.limo
+   - 点击 "Bind"
+   - 在MetaMask确认交易 (~$0.3)
+   - 等待1-3分钟生效
+
+完成！

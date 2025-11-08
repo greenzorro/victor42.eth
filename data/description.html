@@ -1,9 +1,0 @@
-{{- $description := .Site.Params.description | default .Site.Title -}}
-{{- if .IsPage -}}
-    {{- with .Params.description -}}
-        {{- $description = . -}}
-    {{- else -}}
-        {{- $description = .Summary | plainify | truncate 160 -}}
-    {{- end -}}
-{{- end -}}
-{{- return $description -}}
