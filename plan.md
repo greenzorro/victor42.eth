@@ -1,5 +1,19 @@
 # Victor42.eth 博客 GitHub Actions + 4EVERLAND 自动部署方案
 
+---
+
+## ⚠️ 架构更新 (2025-11-08)
+
+**重要变更**: GitHub Actions与4EVERLAND已完全解耦！
+
+- ✅ **GitHub Actions**: 仅负责Hugo构建，上传Artifact
+- ✅ **4EVERLAND**: 自动从GitHub获取构建产物并部署
+- ✅ **平台无关**: 静态文件可部署到任何平台
+
+**当前状态**: 工作流已更新并推送，参考实际工作流文件: `.github/workflows/deploy.yml`
+
+---
+
 ## 1. 项目概述
 
 ### 1.1 当前状态
@@ -28,11 +42,11 @@
 
 ---
 
-## 2. 架构决策: 方案A详解
+## 2. 架构决策: 方案A (解耦方案)
 
 ### 2.1 总体架构
 ```
-GitHub Repo → GitHub Actions → Build → 4EVERLAND Pin → IPFS → ENS Domain
+GitHub Repo → GitHub Actions (Build) → Artifact → 4EVERLAND (Auto Deploy) → IPFS → ENS Domain
 ```
 
 ### 2.2 职责分工
@@ -42,9 +56,11 @@ GitHub Repo → GitHub Actions → Build → 4EVERLAND Pin → IPFS → ENS Doma
   - Stack主题依赖安装
   - Hugo Extended构建
   - 产物质量验证
-  - 调用4EVERLAND Pin Action
+  - 上传构建产物 (Artifact)
+  - **不涉及任何部署平台**
 
 - **4EVERLAND 负责**:
+  - 从GitHub自动拉取构建产物
   - IPFS pinning
   - CDN加速
   - SSL证书
@@ -52,13 +68,15 @@ GitHub Repo → GitHub Actions → Build → 4EVERLAND Pin → IPFS → ENS Doma
   - IPNS自动更新
   - 构建历史管理
 
-### 2.3 为什么选择方案A
+### 2.3 为什么选择方案A (解耦)
 1. ✅ **完整保留Stack主题功能** (SCSS/TS编译)
 2. ✅ **4EVERLAND专注IPFS部署** (其强项)
 3. ✅ **GitHub Actions灵活可控** (可添加测试、验证等)
 4. ✅ **故障排除更易** (分离关注点)
-5. ✅ **未来可扩展** (支持复杂构建流程)
-6. ✅ **与4EVERLAND官方推荐一致** (pin-action)
+5. ✅ **平台无关** (可切换到fleek/Netlify/Vercel)
+6. ✅ **GitHub无需部署平台密钥** (更安全)
+7. ✅ **符合最佳实践** (单一职责原则)
+8. ✅ **未来可扩展** (支持复杂构建流程)
 
 ---
 
@@ -67,7 +85,7 @@ GitHub Repo → GitHub Actions → Build → 4EVERLAND Pin → IPFS → ENS Doma
 ### 3.1 工作流文件: `.github/workflows/deploy.yml`
 
 ```yaml
-name: Build and Deploy to IPFS via 4EVERLAND
+name: Build Hugo Site
 
 # 触发条件
 on:
