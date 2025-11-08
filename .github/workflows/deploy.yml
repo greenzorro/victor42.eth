@@ -73,13 +73,15 @@ jobs:
           # 我们需要将主题的assets目录复制到主项目
           if [ -d "themes/stack/assets" ]; then
             echo "📁 发现Stack主题assets目录，开始复制所有资源..."
-            # 复制所有资源：SCSS、TypeScript、图标等
-            cp -r themes/stack/assets/* assets/ 2>/dev/null || true
+            # 使用rsync确保完整复制所有文件和子目录
+            rsync -av --delete themes/stack/assets/ assets/ 2>/dev/null || cp -r themes/stack/assets/ assets/
             echo "✅ 资源复制完成"
-            # 验证复制结果
-            echo "SCSS文件: $(ls -1 assets/scss/*.scss 2>/dev/null | wc -l) 个"
-            echo "TypeScript文件: $(ls -1 assets/ts/*.ts 2>/dev/null | wc -l) 个"
-            echo "SVG图标: $(ls -1 assets/icons/*.svg 2>/dev/null | wc -l) 个"
+            # 详细验证复制结果
+            echo "总文件数: $(find assets/ -type f | wc -l) 个"
+            echo "SCSS文件: $(find assets/scss -name '*.scss' 2>/dev/null | wc -l) 个"
+            echo "TypeScript文件: $(find assets/ts -name '*.ts' -o -name '*.tsx' 2>/dev/null | wc -l) 个"
+            echo "SVG图标: $(find assets/icons -name '*.svg' 2>/dev/null | wc -l) 个"
+            echo "SCSS文件列表: $(ls -1 assets/scss/*.scss 2>/dev/null | tr '\n' ' ')"
           else
             echo "❌ 未找到Stack主题assets目录"
             exit 1
