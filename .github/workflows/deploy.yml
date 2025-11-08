@@ -35,6 +35,26 @@ jobs:
           submodules: false         # 不使用Git Submodule，改用Hugo Modules
           fetch-depth: 0            # 获取全部历史 (用于GitInfo)
 
+      # 步骤1.5: 检查并创建gh-pages分支
+      - name: Create gh-pages branch if not exists
+        run: |
+          echo "🔍 检查gh-pages分支是否存在..."
+          if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+            echo "✅ gh-pages分支已存在"
+          else
+            echo "ℹ️ gh-pages分支不存在，创建它..."
+            # 创建一个空的gh-pages分支
+            git checkout --orphan gh-pages
+            git rm -rf . 2>/dev/null || true
+            echo "# gh-pages" > README.md
+            git add README.md
+            git commit -m "Initial gh-pages branch"
+            git push origin gh-pages
+            echo "✅ gh-pages分支创建完成"
+            # 切回main分支
+            git checkout main
+          fi
+
       # 步骤2: 设置Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
