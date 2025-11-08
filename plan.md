@@ -12,6 +12,35 @@
 
 **当前状态**: 工作流已更新并推送，参考实际工作流文件: `.github/workflows/deploy.yml`
 
+### 🔑 关键问题解决记录 (2025-11-08 19:30)
+
+**问题**: GitHub Actions构建成功但无法推送到publish分支
+
+**症状**:
+```
+remote: Permission to greenzorro/victor42.eth.git denied to github-actions[bot].
+fatal: unable to access 'https://github.com/greenzorro/victor42.eth.git/': The requested URL returned error: 403
+```
+
+**原因**: Workflow权限配置中`contents: read`导致只读权限，无法推送到仓库
+
+**解决方案**:
+```yaml
+permissions:
+  contents: write       # ✅ 改为write权限
+```
+
+**验证结果**:
+- ✅ 构建成功: 689文件，40MB，Total in 2016ms
+- ✅ 推送到publish分支成功
+- ✅ 包含全部博客内容: 6页中文 + 528页英文
+
+**重要发现**:
+1. `contents: read` vs `contents: write` 权限控制推送能力
+2. 即使Workflow permissions设置正确，Action内部权限仍受workflow定义限制
+3. publish分支避免了gh-pages的Jekyll冲突问题
+4. 构建产物直接以静态文件形式存储，便于部署平台获取
+
 ---
 
 ## 1. 项目概述
