@@ -65,6 +65,26 @@ jobs:
           fi
         continue-on-error: true  # 即使失败也不影响后续步骤
 
+      # 步骤4.5: 复制Stack主题资源到主项目 ⭐ 关键修复
+      - name: Copy Stack Theme Assets
+        run: |
+          echo "🔄 复制Stack主题资源文件..."
+          # Stack主题使用Hugo Modules，Git Submodule无法直接访问资源
+          # 我们需要将主题的assets目录复制到主项目
+          if [ -d "themes/stack/assets" ]; then
+            echo "📁 发现Stack主题assets目录，开始复制..."
+            # 创建assets/scss目录（如果不存在）
+            mkdir -p assets/scss
+            # 复制所有SCSS文件
+            cp -r themes/stack/assets/scss/* assets/scss/ 2>/dev/null || true
+            echo "✅ SCSS资源复制完成"
+            # 验证复制结果
+            ls -la assets/scss/ | head -10
+          else
+            echo "❌ 未找到Stack主题assets目录"
+            exit 1
+          fi
+
       # 步骤5: 验证构建环境
       - name: Verify Build Environment
         run: |
@@ -74,6 +94,7 @@ jobs:
           echo "npm版本: $(npm --version)"
           echo "主题目录: $(ls -la themes/stack/ | head -5)"
           echo "内容目录: $(ls -la content/ | head -5)"
+          echo "复制后的资源: $(ls -la assets/scss/ 2>/dev/null || echo '无assets/scss')"
 
       # 步骤6: 执行Hugo构建
       - name: Build Hugo Site
