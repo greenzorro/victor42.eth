@@ -724,6 +724,49 @@ jobs:
 2. 重新生成Token
 3. 检查Token权限
 
+#### 问题: gh-pages推送权限被拒绝
+**症状**:
+```
+remote: Permission to greenzorro/victor42.eth.git denied to github-actions[bot].
+fatal: unable to access 'https://github.com/greenzorro/victor42.eth.git/': The requested URL returned error: 403
+```
+
+**排查步骤**:
+1. 检查仓库是否启用了GitHub Pages
+2. 确认Actions权限设置
+3. 查看gh-pages分支是否存在
+
+**解决方案**:
+1. **启用GitHub Pages** (必须先执行):
+   - 访问: https://github.com/greenzorro/victor42.eth/settings/pages
+   - Source: 选择 "Deploy from a branch"
+   - Branch: 选择 "gh-pages"
+   - 点击 "Save" 保存
+   - 重新触发构建
+
+2. **检查Actions权限**:
+   - 访问: https://github.com/greenzorro/victor42.eth/settings/actions
+   - Workflow permissions: "Read and write permissions"
+   - 勾选 "Allow GitHub Actions to create and approve pull requests"
+
+3. **手动创建gh-pages分支**:
+   ```bash
+   git checkout --orphan gh-pages
+   git rm -rf .
+   echo "# gh-pages" > README.md
+   git add README.md
+   git commit -m "Initial gh-pages branch"
+   git push origin gh-pages
+   git checkout main
+   ```
+
+**关键发现** (2025-11-08):
+- ❌ **错误做法**: 直接推送gh-pages而未启用GitHub Pages
+- ✅ **正确做法**: 必须先在仓库设置中启用GitHub Pages，指向gh-pages分支
+- 🔑 **权限机制**: GitHub Actions的`pages: write`权限需要配合仓库的Pages设置才能生效
+- 📝 **执行顺序**: 1)创建gh-pages分支 → 2)启用GitHub Pages → 3)触发构建推送
+- 🎯 **最终结果**: 第30次构建完全成功，689个文件推送到gh-pages，GitHub Pages自动部署
+
 #### 问题: IPFS部署失败
 **症状**: 部署步骤报错
 
@@ -986,3 +1029,4 @@ hugo version
 
 *本计划基于对项目的深入分析和4EVERLAND平台特性的研究，提供了完整的实施指南。如有问题，请参考故障排除章节或相关文档。*
 
+# 触发重新构建
