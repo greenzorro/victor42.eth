@@ -1,0 +1,201 @@
+name: Build and Deploy to IPFS via 4EVERLAND
+
+# 触发条件
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# 权限配置
+permissions:
+  contents: read
+  pull-requests: write
+
+# 环境变量
+env:
+  HUGO_VERSION: '0.111.3'
+  HUGO_EXTENDED: true
+  NODE_VERSION: '18'
+
+# 任务定义
+jobs:
+  # 构建任务
+  build:
+    name: Build Site
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步骤1: 检出代码
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true          # 拉取Stack主题
+          fetch-depth: 0            # 获取全部历史 (用于GitInfo)
+
+      # 步骤2: 设置Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: ${{ env.HUGO_EXTENDED }}
+
+      # 步骤3: 设置Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'              # 缓存npm依赖
+          cache-dependency-path: |
+            themes/stack/package-lock.json
+            package-lock.json
+
+      # 步骤4: 安装Stack主题依赖 ⭐ 关键步骤
+      - name: Install Stack Theme Dependencies
+        run: |
+          echo "🔍 检查Stack主题是否有package.json..."
+          if [ -f "themes/stack/package.json" ]; then
+            echo "✅ 发现package.json，开始安装依赖..."
+            cd themes/stack
+            npm ci --silent
+            echo "✅ 主题依赖安装完成"
+            cd ../..
+          else
+            echo "ℹ️  Stack主题无package.json，跳过依赖安装"
+          fi
+
+      # 步骤5: 验证构建环境
+      - name: Verify Build Environment
+        run: |
+          echo "🔍 环境验证..."
+          echo "Hugo版本: $(hugo version)"
+          echo "Node版本: $(node --version)"
+          echo "npm版本: $(npm --version)"
+          echo "主题目录: $(ls -la themes/stack/)"
+          echo "主题assets: $(ls -la themes/stack/assets/ 2>/dev/null || echo '无assets目录')"
+
+      # 步骤6: 执行构建
+      - name: Build Hugo Site
+        run: |
+          echo "🔨 开始构建Hugo站点..."
+          hugo --gc --minify --verbose
+          echo "✅ 构建完成"
+
+      # 步骤7: 验证构建产物
+      - name: Verify Build Output
+        run: |
+          echo "🔍 验证构建产物..."
+          if [ -d "publish" ]; then
+            echo "✅ publish目录存在"
+            echo "文件数量: $(find publish -type f | wc -l)"
+            echo "目录大小: $(du -sh publish | cut -f1)"
+            echo "首页检查: $(test -f publish/index.html && echo '存在' || echo '缺失')"
+          else
+            echo "❌ publish目录不存在!"
+            exit 1
+          fi
+
+      # 步骤8: 上传构建产物 (用于调试)
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hugo-site-${{ github.sha }}
+          path: publish/
+          retention-days: 7
+
+      # 步骤9: 部署到4EVERLAND ⭐ 核心步骤
+      - name: Deploy to 4EVERLAND
+        id: deploy
+        uses: 4everland/pin-action@v1.1
+        with:
+          EVER_TOKEN: ${{ secrets.TOKEN_4EVERLAND }}
+          BUILD_LOCATION: ./publish
+          EVER_PROJECT_NAME: 'victor42.eth'
+          EVER_PROJECT_PLAT: 'IPFS'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 步骤10: 输出部署结果
+      - name: Show Deployment Results
+        if: always()
+        run: |
+          echo "🚀 部署结果:"
+          echo "Hash: ${{ steps.deploy.outputs.hash }}"
+          echo "URI: ${{ steps.deploy.outputs.uri }}"
+          echo "Project Link: ${{ steps.deploy.outputs.projLink }}"
+
+      # 步骤11: 添加PR评论 (仅PR时)
+      - name: Comment PR with Deployment Link
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.type === 'Bot' && comment.body.includes('4EVERLAND部署')
+            );
+
+            const deploymentLink = '${{ steps.deploy.outputs.projLink }}';
+            const commentBody = `🚀 4EVERLAND部署成功!
+
+            - **预览链接**: ${deploymentLink}
+            - **Commit**: ${context.sha}
+            - **构建者**: ${context.actor}
+            - **时间**: ${new Date().toISOString()}
+            `;
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: commentBody
+              });
+            } else {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: commentBody
+              });
+            }
+
+      # 步骤12: 更新Commit状态 (仅push到main时)
+      - name: Update Commit Status
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const deploymentLink = '${{ steps.deploy.outputs.projLink }}';
+            await github.rest.repos.createCommitStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              sha: context.sha,
+              state: 'success',
+              target_url: deploymentLink,
+              description: '4EVERLAND部署成功',
+              context: '4EVERLAND Deployment'
+            });
+
+  # 部署状态检查
+  deploy-status:
+    name: Check Deployment Status
+    runs-on: ubuntu-latest
+    needs: build
+    if: always()
+    steps:
+      - name: Verify Deployment
+        run: |
+          if [ "${{ needs.build.result }}" == "success" ]; then
+            echo "✅ 部署成功"
+            exit 0
+          else
+            echo "❌ 部署失败"
+            exit 1
+          fi
