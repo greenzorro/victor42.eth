@@ -3,11 +3,15 @@ baseURL = "https://victor42.eth.limo/"
 title = 'Victor42'
 publishDir = "publish"
 
-# 主题配置
-theme = 'stack'
+# 主题配置 (Hugo Modules)
 relativeURLs = true
 canonifyURLs = true
 buildfuture = true
+
+# Hugo Modules配置
+[module]
+  [module.imports]
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 # Hugo资产处理配置 (Stack主题必需)
 [asset]
