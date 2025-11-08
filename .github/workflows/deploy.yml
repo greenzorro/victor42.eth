@@ -12,7 +12,7 @@ permissions:
   contents: read        # 读取仓库内容
   pull-requests: write  # PR评论
   statuses: write       # 更新commit状态
-  pages: write          # 推送到gh-pages分支
+  pages: write          # 推送到publish分支
 
 # 环境变量
 env:
@@ -111,14 +111,14 @@ jobs:
             exit 1
           fi
 
-      # 步骤8: 推送构建产物到gh-pages分支 ⭐
-      - name: Deploy to gh-pages
+      # 步骤8: 推送构建产物到publish分支 ⭐
+      - name: Deploy to publish
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish
-          publish_branch: gh-pages
+          publish_branch: publish
           keep_files: true
           force_orphan: false
 
@@ -135,7 +135,7 @@ jobs:
             });
 
             const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
-            const ghPagesUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
+            const publishUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/tree/publish`;
             const buildStatus = '${{ job.status }}';
             const commentBody = `📦 Hugo构建${buildStatus === 'success' ? '成功' : '失败'}!
 
@@ -143,10 +143,9 @@ jobs:
             - **Commit**: ${context.sha.substring(0, 7)}
             - **构建者**: ${context.actor}
             - **时间**: ${new Date().toISOString()}
-            - **预览链接**: [${ghPagesUrl}](${ghPagesUrl})
-            - **gh-pages分支**: [查看代码](${repoUrl}/tree/gh-pages)
+            - **publish分支**: [查看代码](${publishUrl})
 
-            > 4EVERLAND等部署平台可直接部署gh-pages分支的静态文件
+            > 4EVERLAND等部署平台可直接部署publish分支的静态文件
             `;
 
             const botComment = comments.find(comment =>
@@ -178,14 +177,13 @@ jobs:
             const buildStatus = '${{ job.status }}';
             const state = buildStatus === 'success' ? 'success' : 'failure';
             const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
-            const ghPagesUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
 
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
               sha: context.sha,
               state: state,
-              description: `Hugo构建${buildStatus === 'success' ? '成功，gh-pages已更新' : '失败'}`,
+              description: `Hugo构建${buildStatus === 'success' ? '成功，publish分支已更新' : '失败'}`,
               context: 'Hugo Build',
               target_url: repoUrl
             });
