@@ -35,6 +35,9 @@ author = "Victor42"
 readingTime = true
 defaultPageLanguage = "zh-cn"
 
+[params.main]
+style = "light" 
+
 [params.footer]
 since = 2011
 
