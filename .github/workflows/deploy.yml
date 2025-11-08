@@ -38,6 +38,9 @@ jobs:
       # 步骤1.5: 检查并创建gh-pages分支
       - name: Create gh-pages branch if not exists
         run: |
+          # 设置Git用户信息
+          git config --global user.email "action@github.com"
+          git config --global user.name "github-actions[bot]"
           echo "🔍 检查gh-pages分支是否存在..."
           if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
             echo "✅ gh-pages分支已存在"
