@@ -40,13 +40,12 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: ${{ env.HUGO_EXTENDED }}
 
-      # 步骤3: 设置Node.js
+      # 步骤3: 设置Node.js (用于Stack主题SCSS编译)
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'              # 缓存npm依赖
-          # 注意: 不指定 cache-dependency-path，因为主题没有package-lock.json
+          # 注意: 不使用cache，因为主题没有package-lock.json
 
       # 步骤4: 安装Stack主题依赖 (可选)
       - name: Install Stack Theme Dependencies
