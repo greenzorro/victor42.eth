@@ -40,6 +40,50 @@
 - 4EVERLAND集成方式不明确
 - 缺少必要的错误处理和日志
 
+### 1.4 🎯 实际遇到的关键问题及解决方案 (2025-11-08)
+
+在实施过程中，我们发现了Stack主题的一个**关键架构特性**：
+
+#### 🔍 问题1: Stack主题的架构兼容性
+**发现**: Stack主题使用**Hugo Modules**架构（有`go.mod`文件），但我们以**Git Submodule**方式安装。
+
+**错误信息**:
+```bash
+Error: can't evaluate field Sass in type interface {}
+```
+
+**影响**: Hugo的`resources.Get`无法从Git Submodule访问资源文件，导致：
+- SCSS文件无法编译
+- TypeScript文件无法处理
+- SVG图标无法加载
+
+**解决方案**: 在构建前将所有主题资源复制到项目根目录
+
+```bash
+# 复制所有资源：SCSS、TypeScript、图标
+cp -r themes/stack/assets/* assets/
+```
+
+**资源统计**:
+- 21个SCSS文件
+- 7个TypeScript文件
+- 39个SVG图标文件
+
+**GitHub Actions步骤**:
+```yaml
+- name: Copy Stack Theme Assets
+  run: |
+    if [ -d "themes/stack/assets" ]; then
+      cp -r themes/stack/assets/* assets/
+    fi
+```
+
+#### 📚 经验总结
+1. **Hugo Modules vs Git Submodule**: Hugo主题推荐使用Hugo Modules，Git Submodule可能导致资源访问问题
+2. **资源管道限制**: `resources.Get`只能访问项目根目录的`assets/`目录
+3. **Stack主题特性**: 需要完整的资源文件集（SCSS/TS/SVG）才能正常工作
+4. **CI/CD策略**: 在构建步骤中动态复制资源是有效的解决方案
+
 ---
 
 ## 2. 架构决策: 方案A (解耦方案)
