@@ -472,77 +472,43 @@ jobs:
 2. 注册账号
 3. 完成邮箱验证
 
-#### 步骤2: 创建Auth Token
-1. 登录 [4EVERLAND Dashboard](https://dashboard.4everland.org/hosting)
-2. 导航至: **Hosting → Auth Tokens**
-3. 点击 **"Create New Token"**
-4. 填写Token名称: `GitHub Actions - victor42.eth`
-5. 点击 **"Create"**
-6. **立即复制Token** (只显示一次)
-7. 将Token保存为GitHub Secret: `EVER_TOKEN`
-
-#### 步骤3: 创建IPFS项目
-1. 在Dashboard中点击 **"Create New Project"**
+#### 步骤2: 创建IPFS项目
+1. 在4EVERLAND Dashboard中点击 **"Create New Project"**
 2. 选择 **"Static Web Hosting"**
 3. 项目配置:
    - **Name**: `victor42.eth`
    - **Platform**: `IPFS`
-   - **Framework**: `Hugo` (4EVERLAND会检测)
-4. **先不连接GitHub** (我们用GitHub Actions)
+   - **Framework**: `Hugo` (或选择"Other")
+4. **重要**: 选择**"Connect GitHub"**来克隆gh-pages分支
 
 ### 4.2 GitHub集成
 
-#### 步骤4: 配置GitHub Secrets
-在GitHub仓库 `greenzorro/victor42.eth` 中:
+#### 步骤3: 授权GitHub访问
+在4EVERLAND项目创建流程中:
 
-1. 导航至: **Settings → Secrets and variables → Actions**
-2. 点击 **"New repository secret"**
-3. 添加:
-   - **Name**: `EVER_TOKEN`
-   - **Secret**: `<粘贴4EVERLAND的Token>`
-4. 点击 **"Add secret"**
+1. **选择仓库**: `greenzorro/victor42.eth`
+2. **选择分支**: `gh-pages`
+3. **配置部署**:
+   - **Source**: 静态文件
+   - **根目录**: `/` (gh-pages根目录)
+   - **构建命令**: 留空 (已构建完成)
+   - **发布目录**: 留空 (gh-pages就是发布目录)
 
-#### 步骤5: 提交GitHub Actions配置
-1. 在项目根目录创建 `.github/workflows/deploy.yml`
-2. 复制上述工作流配置
-3. 提交并推送:
-   ```bash
-   git add .github/workflows/deploy.yml
-   git commit -m "Add GitHub Actions workflow for 4EVERLAND deployment
-
-   - Build Hugo site with Stack theme
-   - Handle SCSS/TS dependencies
-   - Deploy to 4EVERLAND IPFS
-   - Supports PR previews and deployment status"
-   git push origin main
-   ```
+#### 步骤4: 验证GitHub工作流已完成
+1. 确保GitHub工作流成功运行并推送了gh-pages
+2. 检查仓库中是否有gh-pages分支
+3. 验证gh-pages分支包含完整的静态文件 (HTML, CSS, JS等)
 
 ### 4.3 首次部署测试
 
-#### 步骤6: 触发工作流
-1. 访问GitHub仓库的 **Actions** 标签
-2. 应该看到 "Build and Deploy to IPFS via 4EVERLAND" 工作流
-3. 点击最新工作流查看进度
-4. 观察各步骤执行情况
+#### 步骤5: 触发4EVERLAND部署
+1. 保存4EVERLAND项目配置
+2. 4EVERLAND会自动克隆gh-pages分支
+3. 部署完成后获得IPFS链接
 
-#### 步骤7: 检查工作流日志
-重点检查:
-- ✅ Checkout成功
-- ✅ Hugo安装成功
-- ✅ Node.js安装成功
-- ✅ Stack主题依赖安装 (如果存在)
-- ✅ Hugo构建成功
-- ✅ publish目录生成
-- ✅ 4EVERLAND部署成功
-- ❌ 如果有错误，查看详细日志
-
-#### 步骤8: 验证部署结果
-1. 工作流完成后，查看步骤9的输出:
-   - `hash`: IPFS哈希值
-   - `uri`: IPFS链接
-   - `projLink`: 4EVERLAND项目链接
-2. 点击 `projLink` 访问站点
-3. 检查功能:
+#### 步骤6: 验证部署结果
+1. 点击4EVERLAND项目链接访问站点
+2. 检查功能:
    - 首页加载
    - 文章列表
    - 文章详情
@@ -550,9 +516,16 @@ jobs:
    - 多语言切换
    - Sitemap生成
 
+#### 步骤7: 验证自动更新
+1. 在GitHub中修改一篇博客文章
+2. 推送到main分支
+3. 观察GitHub Actions工作流运行
+4. 等待几分钟，验证4EVERLAND自动更新
+5. 确认站点内容已更新
+
 ### 4.4 ENS域名绑定
 
-#### 步骤9: 绑定ENS域名
+#### 步骤8: 绑定ENS域名
 1. 在4EVERLAND Dashboard中打开 `victor42.eth` 项目
 2. 导航至: **Domains → Decentralized Domains → ENS**
 3. 点击 **"Add Domain"**
