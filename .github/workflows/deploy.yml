@@ -150,7 +150,7 @@ jobs:
           publish_dir: ./publish
           publish_branch: publish
           keep_files: false  # 长期配置：完全重新生成，防止旧URL文件残留
-          force_orphan: false
+          force_orphan: true  # 强制创建新commit，绕过智能检测
 
       # 步骤9: 添加PR评论 (仅PR时)
       - name: Comment PR with Build Status
