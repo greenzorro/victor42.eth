@@ -13,15 +13,15 @@
     {{ $currentURL := .Permalink }}
     {{ $translationKey := .Params.translationKey }}
     
-    {{ if and (in $currentURL "/post/") $translationKey }}
-        {{ $isEnglish := in $currentURL "/post/en/" }}
+    {{ if and (in $currentURL "/post") $translationKey }}
+        {{ $isEnglish := in $currentURL "/post-en/" }}
         {{ $hasTranslation := false }}
         {{ $translationURL := "" }}
-        
+
         {{ if $isEnglish }}
             <!-- 当前是英文版本，查找对应的中文版本 -->
             {{ range .Site.Pages }}
-                {{ if and (eq .Params.translationKey $translationKey) (not (in .Permalink "/post/en/")) (in .Permalink "/post/") }}
+                {{ if and (eq .Params.translationKey $translationKey) (not (in .Permalink "/post-en/")) (in .Permalink "/post/") }}
                     {{ $hasTranslation = true }}
                     {{ $translationURL = .Permalink }}
                     {{ break }}
@@ -36,7 +36,7 @@
         {{ else }}
             <!-- 当前是中文版本，查找对应的英文版本 -->
             {{ range .Site.Pages }}
-                {{ if and (eq .Params.translationKey $translationKey) (in .Permalink "/post/en/") }}
+                {{ if and (eq .Params.translationKey $translationKey) (in .Permalink "/post-en/") }}
                     {{ $hasTranslation = true }}
                     {{ $translationURL = .Permalink }}
                     {{ break }}
