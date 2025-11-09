@@ -16,6 +16,8 @@
 {{- with $p.Lastmod -}}
 <meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
 {{- end -}}
-{{- with $p.Author -}}
+{{- with $p.Params.author -}}
 <meta property="article:author" content="{{ . }}">
+{{- else -}}
+<meta property="article:author" content="{{ .Site.Params.author }}">
 {{- end -}}
