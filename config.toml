@@ -25,18 +25,7 @@ buildfuture = true
 
 # 语言配置
 languageCode = 'en-us'
-defaultContentLanguage = "en"
 hasCJKLanguage = true
-
-[languages]
-  [languages.zh-cn]
-    languageName = "中文"
-    contentDir = "content"
-    weight = 1
-  [languages.en]
-    languageName = "English"
-    contentDir = "content"
-    weight = 2
 
 # 站点参数
 [params]
