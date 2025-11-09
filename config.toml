@@ -50,6 +50,8 @@ subtitle = "科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发
 [params.avatar]
 URL = "https://cdn.victor42.work/assets/pale-blue-dot.jpg"
 alt = "Victor42 Avatar"
+enabled = true
+local = false
 
 # Favicon配置
 [params.favicon]
@@ -59,21 +61,27 @@ URL = "https://cdn.victor42.work/assets/favicon.ico"
 [menu]
   # 主菜单已在页面FrontMatter中配置
 
-# 社交媒体链接（通过自定义参数配置）
-[[params.social]]
-name = "Twitter"
-url = "https://x.com/victor_cheng_42"
-icon = "brand-twitter"
+  # 社交媒体链接
+  [[menu.social]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = "https://x.com/victor_cheng_42"
+    [menu.social.params]
+      icon = "brand-twitter"
 
-[[params.social]]
-name = "知乎"
-url = "https://www.zhihu.com/people/victor_42"
-icon = "brand-zhihu"
+  [[menu.social]]
+    identifier = "zhihu"
+    name = "知乎"
+    url = "https://www.zhihu.com/people/victor_42"
+    [menu.social.params]
+      icon = "brand-zhihu"
 
-[[params.social]]
-name = "GitHub"
-url = "https://github.com/greenzorro"
-icon = "brand-github"
+  [[menu.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/greenzorro"
+    [menu.social.params]
+      icon = "brand-github"
 
 [params.main]
 style = "light" 
