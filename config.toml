@@ -18,13 +18,6 @@ buildfuture = true
 [asset]
   [asset.versioning]
     enable = true
-# Minify配置
-# 为保持与原站一致，禁用HTML minify
-# 避免引号被移除导致兼容性问题
-#[minify]
-#  [minify.tdewolff.html]
-#    keepComments = true
-#    keepWhitespace = true
 
 # 语言配置
 languageCode = 'en-us'
