@@ -1191,3 +1191,160 @@ hugo version
 ---
 
 **最终状态**: ✅ 所有功能完全恢复，新部署在SEO方面**全面超越**原博客，可安全用于生产环境！
+
+---
+
+## 📋 重要更新记录 (2025-11-09)
+
+### 🔧 URL格式统一修复 (2025-11-09 22:40)
+
+#### 问题描述
+构建发现英文文章同时存在两种URL格式：
+- ❌ 旧格式：`/post/en/115/` (Hugo多语言自动生成)
+- ✅ 新格式：`/post-en/115/` (front matter定义)
+
+**危害**：两种格式同时可访问，分散SEO权重
+
+#### 解决过程
+
+**步骤1: 批量修正83个英文文章front matter**
+```bash
+find content/post-en -name "*.md" -exec sed -i 's|^\(url:\s*/\)post/en/|\1post-en/|g' {} +
+```
+- 修改前：`url: /post/en/115`
+- 修改后：`url: /post-en/115`
+- 影响文件：83个英文文章
+
+**步骤2: 移除Hugo多语言配置**
+在 `config.toml` 中删除：
+```toml
+[languages]
+  [languages.zh-cn]
+    languageName = "中文"
+    contentDir = "content"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    contentDir = "content"
+    weight = 2
+```
+- **原因**：Hugo多语言功能会为英文内容自动添加`/en/`前缀
+- **后果**：即使front matter是`/post-en/`，仍会生成`/post/en/`路径
+
+**步骤3: 清理publish分支旧文件**
+```yaml
+# .github/workflows/deploy.yml
+- name: Deploy to publish
+  uses: peaceiris/actions-gh-pages@v3
+  with:
+    publish_dir: ./publish
+    publish_branch: publish
+    keep_files: false  # 关键：完全重新生成
+    force_orphan: false
+```
+
+**历史清理统计**：
+- 清理旧文件：82个 `/post/en/*` 路径文件
+- 保留文件：83个 `/post-en/*` 路径文件
+- 总计清理：165个文件
+
+#### 验证结果
+```
+✅ /post-en/115/: 200 (正确URL)
+❌ /post/en/115/: 404 (旧URL已失效)
+```
+
+#### Git提交记录
+1. `4576948c` - 批量修正英文文章URL格式：从/post/en/改为/post-en/
+2. `42824f05` - 完全移除Hugo多语言配置
+3. `29521895` - 清理publish分支旧文件 (keep_files: false)
+4. `d20b3b39` - 将 keep_files: false 设为长期配置
+
+#### 最终配置
+
+**config.toml**:
+```toml
+# 语言配置
+languageCode = 'en-us'
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+# 注意：不使用Hugo多语言功能
+# 多语言通过translationKey在自定义模板中实现
+```
+
+**.github/workflows/deploy.yml**:
+```yaml
+- name: Deploy to publish
+  uses: peaceiris/actions-gh-pages@v3
+  if: github.ref == 'refs/heads/main'
+  with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+    publish_dir: ./publish
+    publish_branch: publish
+    keep_files: false  # 长期配置：完全重新生成，防止旧URL文件残留
+    force_orphan: false
+```
+
+**英文文章front matter**:
+```yaml
+---
+title: Wood Elves
+description:
+image:
+date: 2011-02-04 23:47:00
+categories: 梦境与幻想-Dream
+url: /post-en/115  # ✅ 正确格式
+translationKey: 115
+---
+```
+
+#### 优势分析
+- 🎯 **SEO安全**：避免URL权重分散
+- 🔒 **防止污染**：旧文件自动清理，防止历史残留
+- 🚀 **性能好**：Hugo构建速度快，影响可忽略
+- ✨ **维护简单**：URL格式永久统一，无重复路径
+
+#### 多语言功能保持
+- ✅ hreflang标签正常：`<link rel="alternate" hreflang="zh-CN" href="../../post/115/"/>`
+- ✅ 英文翻译链接正常：`<a href="./post-en/xxx/">English</a>`
+- ✅ Schema.org结构化数据完整
+- ✅ 自定义阅读时间计算正确
+
+---
+
+## 📊 完整里程碑记录
+
+### Phase 1: 环境准备 ✅
+- [x] 架构决策：方案A (解耦方案)
+- [x] GitHub Actions权限配置
+- [x] Hugo Modules配置
+
+### Phase 2: 主题迁移 ✅
+- [x] Git Submodule → Hugo Modules
+- [x] Stack主题 v3.16.0 集成
+- [x] Hugo Extended环境配置
+
+### Phase 3: 自定义功能恢复 ✅
+- [x] hreflang多语言实现
+- [x] Schema.org结构化数据
+- [x] 中文字符阅读时间计算
+- [x] 自定义partial覆盖
+
+### Phase 4: URL格式优化 ✅
+- [x] 英文文章URL格式统一 (/post-en/)
+- [x] 移除Hugo多语言冲突配置
+- [x] 清理publish分支旧文件
+- [x] keep_files: false 长期策略
+
+### Phase 5: 生产部署准备 ⏳
+- [ ] 4EVERLAND项目创建
+- [ ] ENS域名绑定
+- [ ] 完整功能验收
+- [ ] fleek.xyz迁移
+
+---
+
+**文档版本**: v2.0 (2025-11-09)
+**更新内容**: URL格式统一、Hugo多语言移除、keep_files策略
+**当前状态**: ✅ 可安全用于4EVERLAND部署
