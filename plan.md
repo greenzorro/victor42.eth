@@ -49,7 +49,7 @@ permissions:
 - **仓库**: `greenzorro/victor42.eth`
 - **当前部署**: fleek.xyz → IPFS → victor42.eth.limo
 - **目标部署**: 4EVERLAND → IPFS → victor42.eth.limo
-- **内容规模**: 82篇中文 + 419篇英文 = 501篇文章
+- **内容规模**: 400+篇中文 + 80+篇英文 = 500+篇文章
 - **技术栈**: Hugo Extended + Stack主题 + 自定义多语言
 
 ### 1.2 特殊配置
@@ -208,7 +208,7 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
 - ✅ **文件数量**: 689个
 - ✅ **目录大小**: 40MB
 - ✅ **包含页面**: 首页、Sitemap、RSS
-- ✅ **多语言统计**: 6页中文 + 528页英文
+- ✅ **多语言统计**: 400+页中文 + 80+页英文
 - ✅ **publish分支**: 689个文件，40MB，Total in 2016ms
 - ✅ **GitHub权限**: 无错误，工作流完全成功
 
@@ -398,7 +398,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish
           publish_branch: publish
-          keep_files: true
+          keep_files: false  # 长期配置：完全重新生成，防止旧URL文件残留
           force_orphan: false
 
       # 步骤9: 添加PR评论 (仅PR时)
@@ -659,7 +659,7 @@ jobs:
 
 ### 6.3 多语言测试
 - [ ] 中文文章可访问 (`/post/slug/`)
-- [ ] 英文文章可访问 (`/post/en/slug/`)
+- [ ] 英文文章可访问 (`/post-en/slug/`)
 - [ ] 语言切换按钮
 - [ ] hreflang标签正确
 - [ ] 翻译版本关联正确
@@ -1102,7 +1102,7 @@ hugo version
 | **RSS订阅** | ✅ 完整 (5.4MB) | ✅ 完整 | ✅ 功能增强 |
 | **阅读时间计算** | ✅ **自定义准确计算** | ✅ 准确 | **算法优化** |
 | **Robots.txt** | ✅ 已添加 | ✅ 存在 | ✅ 完全一致 |
-| **文章统计** | ✅ 420篇中文+1篇英文 | ✅ 完整 | ✅ 完全一致 |
+| **文章统计** | ✅ 400+篇中文+80+篇英文 | ✅ 完整 | ✅ 完全一致 |
 
 ### 🔧 关键技术成就
 
@@ -1115,7 +1115,7 @@ hugo version
 
 #### 2. **自定义多语言hreflang实现** ✅
 - **实现**: 通过`translationKey`字段自动配对中英文文章
-- **覆盖**: 82篇有translationKey的文章
+- **覆盖**: 80+篇英文文章全部有translationKey
 - **效果**: 每篇有对应翻译的文章都会显示正确的hreflang标签
 
 #### 3. **Schema.org结构化数据** ✅
@@ -1152,8 +1152,8 @@ hugo version
 - **成功率**: 100%
 
 **多语言内容**:
-- 中文文章: 420篇
-- 英文文章: 1篇 (其他在post-en/目录)
+- 中文文章: 400+篇
+- 英文文章: 80+篇 (全部在post-en/目录)
 - 分类: 完整
 - RSS: 5.4MB
 
