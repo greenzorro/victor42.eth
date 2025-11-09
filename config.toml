@@ -31,17 +31,12 @@ hasCJKLanguage = true
 [languages]
   [languages.zh-cn]
     languageName = "中文"
-    contentDir = "content/post"
+    contentDir = "content"
     weight = 1
-    [languages.zh-cn.permalinks]
-      post = "/post/:filename/"
   [languages.en]
     languageName = "English"
-    contentDir = "content/post-en"
+    contentDir = "content"
     weight = 2
-    [languages.en.permalinks]
-      post = "/post-en/:filename/"
-      category = "/post-en/:slug/"
 
 # 站点参数
 [params]
