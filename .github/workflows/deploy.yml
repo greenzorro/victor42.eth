@@ -157,8 +157,8 @@ jobs:
           echo "🔄 同步gh-pages到publish分支..."
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git temp_repo
           cd temp_repo
-          git fetch origin gh-pages
-          git push --force origin gh-pages:publish
+          git fetch origin gh-pages:gh-pages
+          git push --force origin origin/gh-pages:publish
           echo "✅ 同步完成"
 
       # 步骤9: 添加PR评论 (仅PR时)
