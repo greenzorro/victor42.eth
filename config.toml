@@ -58,21 +58,28 @@ URL = "https://cdn.victor42.work/assets/favicon.ico"
 # 菜单配置
 [menu]
   # 主菜单已在页面FrontMatter中配置
+
   # 社交媒体链接
   [[menu.social]]
+    identifier = "twitter"
     name = "Twitter"
     url = "https://x.com/victor_cheng_42"
-    params = { icon = "brand-twitter" }
+    [menu.social.params]
+      icon = "brand-twitter"
 
   [[menu.social]]
+    identifier = "zhihu"
     name = "知乎"
     url = "https://www.zhihu.com/people/victor_42"
-    params = { icon = "brand-zhihu" }
+    [menu.social.params]
+      icon = "brand-zhihu"
 
   [[menu.social]]
+    identifier = "github"
     name = "GitHub"
     url = "https://github.com/greenzorro"
-    params = { icon = "brand-github" }
+    [menu.social.params]
+      icon = "brand-github"
 
 [params.main]
 style = "light" 
