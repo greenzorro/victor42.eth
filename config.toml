@@ -37,6 +37,7 @@ hasCJKLanguage = true
     languageName = "English"
     contentDir = "content"
     weight = 2
+    uglyURLs = true  # 使用front matter的url字段，不自动添加/en/前缀
 
 # 站点参数
 [params]
