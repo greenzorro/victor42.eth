@@ -18,10 +18,13 @@ buildfuture = true
 [asset]
   [asset.versioning]
     enable = true
-[minify]
-  [minify.tdewolff.html]
-    keepComments = true
-    keepWhitespace = true
+# Minify配置
+# 为保持与原站一致，禁用HTML minify
+# 避免引号被移除导致兼容性问题
+#[minify]
+#  [minify.tdewolff.html]
+#    keepComments = true
+#    keepWhitespace = true
 
 # 语言配置
 languageCode = 'en-us'
@@ -61,27 +64,21 @@ URL = "https://cdn.victor42.work/assets/favicon.ico"
 [menu]
   # 主菜单已在页面FrontMatter中配置
 
-  # 社交媒体链接
-  [[menu.social]]
-    identifier = "twitter"
-    name = "Twitter"
-    url = "https://x.com/victor_cheng_42"
-    [menu.social.params]
-      icon = "brand-twitter"
+# 社交媒体链接（通过params配置）
+[[params.social]]
+name = "Twitter"
+url = "https://x.com/victor_cheng_42"
+icon = "brand-twitter"
 
-  [[menu.social]]
-    identifier = "zhihu"
-    name = "知乎"
-    url = "https://www.zhihu.com/people/victor_42"
-    [menu.social.params]
-      icon = "brand-zhihu"
+[[params.social]]
+name = "知乎"
+url = "https://www.zhihu.com/people/victor_42"
+icon = "brand-zhihu"
 
-  [[menu.social]]
-    identifier = "github"
-    name = "GitHub"
-    url = "https://github.com/greenzorro"
-    [menu.social.params]
-      icon = "brand-github"
+[[params.social]]
+name = "GitHub"
+url = "https://github.com/greenzorro"
+icon = "brand-github"
 
 [params.main]
 style = "light" 
