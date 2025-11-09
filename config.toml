@@ -35,9 +35,8 @@ hasCJKLanguage = true
     weight = 1
   [languages.en]
     languageName = "English"
-    contentDir = "content"
     weight = 2
-    uglyURLs = true  # 使用front matter的url字段，不自动添加/en/前缀
+    # 不设置contentDir，确保所有内容从content目录读取，URL完全由front matter控制
 
 # 站点参数
 [params]
