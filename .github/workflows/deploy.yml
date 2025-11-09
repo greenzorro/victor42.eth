@@ -143,14 +143,17 @@ jobs:
 
       # 步骤8: 推送构建产物到publish分支 ⭐
       - name: Deploy to publish
-        uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./publish
-          publish_branch: publish
-          keep_files: false  # 长期配置：完全重新生成，防止旧URL文件残留
-          force_orphan: true  # 强制创建新commit，绕过智能检测
+        run: |
+          echo "🔄 开始部署到publish分支..."
+          cd publish
+          git init
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "deploy: ${{ github.sha }}" || echo "Nothing to commit"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:publish
+          echo "✅ 部署完成"
 
       # 步骤9: 添加PR评论 (仅PR时)
       - name: Comment PR with Build Status
