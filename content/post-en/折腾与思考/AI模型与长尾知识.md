@@ -4,7 +4,7 @@ description: A super-powerful AI isn't a silver bullet.
 image:
 date: 2023-10-10 23:38:00
 categories: 折腾与思考-Geek
-url: /post/en/3643
+url: /post-en/3643
 translationKey: 3643
 ---
 

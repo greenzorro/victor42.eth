@@ -4,7 +4,7 @@ description: A story about generating AI images for profit, with some tutorials.
 image: https://cdn.victor42.work/posts/2025-05/89852ef4042c193cd77916efb0cf70b6.webp
 date: 2025-05-08 17:22:00
 categories: 折腾与思考-Geek
-url: /post/en/automate-ai-illustrations-production
+url: /post-en/automate-ai-illustrations-production
 translationKey: automate-ai-illustrations-production
 ---
 

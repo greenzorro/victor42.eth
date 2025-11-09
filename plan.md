@@ -1049,6 +1049,22 @@ hugo version
 
 ---
 
+## 📋 重要注意事项
+
+### 部署对比检查
+在验证新部署效果时，请直接对比以下两个URL：
+- **新部署 (GitHub Pages预览)**: https://greenzorro.github.io/victor42.eth/
+- **原博客 (fleek部署)**: https://victor42.eth.limo/
+
+对比时应检查：
+1. 查看页面HTML源码的`<head>`部分，对比SEO元素
+2. 确认hreflang标签是否正确生成
+3. 验证英文文章链接格式（/post-en/）
+4. 检查Schema.org结构化数据
+5. 确认OpenGraph和Twitter Card标签
+
+---
+
 **文档版本**: v1.0
 **创建日期**: 2025-11-08
 **适用项目**: victor42.eth
