@@ -141,19 +141,25 @@ jobs:
             exit 1
           fi
 
-      # 步骤8: 推送构建产物到publish分支 ⭐
-      - name: Deploy to publish
+      # 步骤8: 部署到GitHub Pages (gh-pages分支) ⭐
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+          publish_branch: gh-pages
+
+      # 步骤9: 手动同步publish分支
+      - name: Sync to publish
         if: github.ref == 'refs/heads/main'
         run: |
-          echo "🔄 开始部署到publish分支..."
-          cd publish
-          git init
-          git add -A
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "deploy: ${{ github.sha }}" || echo "Nothing to commit"
-          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:publish
-          echo "✅ 部署完成"
+          echo "🔄 同步gh-pages到publish分支..."
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git temp_repo
+          cd temp_repo
+          git fetch origin gh-pages
+          git push --force origin gh-pages:publish
+          echo "✅ 同步完成"
 
       # 步骤9: 添加PR评论 (仅PR时)
       - name: Comment PR with Build Status
