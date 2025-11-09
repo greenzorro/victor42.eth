@@ -28,15 +28,8 @@ languageCode = 'en-us'
 defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
-[languages]
-  [languages.zh-cn]
-    languageName = "中文"
-    contentDir = "content"
-    weight = 1
-  [languages.en]
-    languageName = "English"
-    weight = 2
-    # 不设置contentDir，确保所有内容从content目录读取，URL完全由front matter控制
+# 注意：不使用Hugo多语言功能
+# 多语言通过translationKey在自定义模板中实现
 
 # 站点参数
 [params]
