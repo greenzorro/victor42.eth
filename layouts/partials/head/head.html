@@ -54,9 +54,10 @@
 
 {{- partial "head/style.html" . -}}
 {{- partial "head/script.html" . -}}
-{{- partial "head/opengraph/include.html" . -}}
 
 {{- if .IsPage -}}
+    {{- partial "head/opengraph.html" . -}}
+    {{- partial "head/twitter.html" . -}}
     {{- partial "head/schema.html" . -}}
 {{- end -}}
 
