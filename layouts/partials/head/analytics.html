@@ -1,4 +1,5 @@
 {{- if .Site.GoogleAnalytics -}}
+<!-- Build Time: {{ now.Format "2006-01-02 15:04:05" }} -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
