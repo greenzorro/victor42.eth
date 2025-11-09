@@ -44,6 +44,10 @@ author = "Victor42"
 readingTime = true
 defaultPageLanguage = "zh-cn"
 
+# 侧边栏配置
+[params.sidebar]
+subtitle = "思考、生活、技术"
+
 [params.main]
 style = "light" 
 
