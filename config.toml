@@ -1,11 +1,12 @@
 # 站点基本信息
-baseURL = "https://victor42.eth.limo/"
+# baseURL留空，使用相对路径，确保平台无关部署
+baseURL = ""
 title = 'Victor42'
 publishDir = "publish"
 
 # 主题配置 (Hugo Modules)
 relativeURLs = true
-canonifyURLs = true
+canonifyURLs = false
 buildfuture = true
 
 # Hugo Modules配置
@@ -46,7 +47,32 @@ defaultPageLanguage = "zh-cn"
 
 # 侧边栏配置
 [params.sidebar]
-subtitle = "思考、生活、技术"
+subtitle = "科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发者；UI/UX设计师；生活观察者"
+
+# 头像配置
+[params.avatar]
+URL = "https://cdn.victor42.work/assets/pale-blue-dot.jpg"
+alt = "Victor42 Avatar"
+
+# Favicon配置
+[params.favicon]
+URL = "https://cdn.victor42.work/assets/favicon.ico"
+
+# 社交媒体链接
+[[params.social]]
+name = "Twitter"
+url = "https://x.com/victor_cheng_42"
+icon = "brand-twitter"
+
+[[params.social]]
+name = "知乎"
+url = "https://www.zhihu.com/people/victor_42"
+icon = "brand-zhihu"
+
+[[params.social]]
+name = "GitHub"
+url = "https://github.com/greenzorro"
+icon = "brand-github"
 
 [params.main]
 style = "light" 
