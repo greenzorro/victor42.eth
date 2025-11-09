@@ -141,15 +141,14 @@ jobs:
             exit 1
           fi
 
-      # 步骤8: 推送构建产物到publish分支 ⭐
-      - name: Deploy to publish
+      # 步骤8: 部署到GitHub Pages (gh-pages分支) ⭐
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish
-          publish_branch: publish
-          keep_files: false
+          publish_branch: gh-pages
 
       # 步骤9: 添加PR评论 (仅PR时)
       - name: Comment PR with Build Status
