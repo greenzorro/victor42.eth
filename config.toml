@@ -38,7 +38,8 @@ author = "Victor42"
 readingTime = true
 defaultPageLanguage = "zh-cn"
 
-# Google Analytics
+# Google Analytics (GA4)
+# 用于网站访问统计
 GoogleAnalytics = "G-H0F3NJJ4RT"
 
 # 侧边栏配置
