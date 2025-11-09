@@ -38,6 +38,9 @@ author = "Victor42"
 readingTime = true
 defaultPageLanguage = "zh-cn"
 
+# Google Analytics
+GoogleAnalytics = "G-H0F3NJJ4RT"
+
 # 侧边栏配置
 [params.sidebar]
 subtitle = "科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发者；UI/UX设计师；生活观察者"
