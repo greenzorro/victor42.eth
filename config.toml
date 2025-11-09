@@ -133,3 +133,4 @@ enableGitInfo = true
     mediaType = "application/xml"
     baseName = "sitemap"
     isHTML = false
+# Force rebuild
