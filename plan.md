@@ -6,7 +6,7 @@
 
 **重要变更**: GitHub Actions与4EVERLAND已完全解耦！
 
-- ✅ **GitHub Actions**: 仅负责Hugo构建，上传Artifact
+- ✅ **GitHub Actions**: 仅负责Hugo构建，推送到publish分支
 - ✅ **4EVERLAND**: 自动从GitHub获取构建产物并部署
 - ✅ **平台无关**: 静态文件可部署到任何平台
 
@@ -38,7 +38,7 @@ permissions:
 **重要发现**:
 1. `contents: read` vs `contents: write` 权限控制推送能力
 2. 即使Workflow permissions设置正确，Action内部权限仍受workflow定义限制
-3. publish分支避免了gh-pages的Jekyll冲突问题
+3. publish分支避免Jekyll冲突问题（publish分支不被GitHub Pages自动处理）
 4. 构建产物直接以静态文件形式存储，便于部署平台获取
 
 ---
@@ -59,8 +59,8 @@ permissions:
   - 通过 `translationKey` 关联
 - **图片策略**: CDN存储 `https://cdn.victor42.work/`
 - **发布目录**: `publish/` (非默认 `public/`)
-- **主题**: Stack (Git Submodule)
-- **主题依赖**: SCSS + TypeScript (需要Node.js构建)
+- **主题**: Stack (Hugo Modules v3.16.0)
+- **主题依赖**: SCSS + TypeScript (Hugo Extended + Node.js构建)
 
 ### 1.3 之前尝试失败的原因 (推测)
 根据git历史，之前的 `.github/workflows/deploy.yml` 可能在以下环节出现问题：
@@ -209,7 +209,7 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
 - ✅ **目录大小**: 40MB
 - ✅ **包含页面**: 首页、Sitemap、RSS
 - ✅ **多语言统计**: 6页中文 + 528页英文
-- ✅ **Artifact上传**: ID 4508336709, 12MB
+- ✅ **publish分支**: 689个文件，40MB，Total in 2016ms
 - ✅ **GitHub权限**: 无错误，工作流完全成功
 
 #### 关键发现 (15次构建的经验)
@@ -243,7 +243,7 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
 
 ### 2.1 总体架构
 ```
-GitHub Repo → GitHub Actions (Build) → gh-pages分支 → 4EVERLAND (部署gh-pages) → IPFS → ENS域名
+GitHub Repo → GitHub Actions (Build) → publish分支 → 4EVERLAND (部署publish) → IPFS → ENS域名
 ```
 
 ### 2.2 职责分工
@@ -253,11 +253,11 @@ GitHub Repo → GitHub Actions (Build) → gh-pages分支 → 4EVERLAND (部署g
   - Stack主题依赖安装
   - Hugo Extended构建
   - 产物质量验证
-  - **自动推送构建产物到gh-pages分支** (永久保存)
+  - **自动推送构建产物到publish分支** (永久保存)
   - **不涉及任何部署平台**
 
 - **4EVERLAND 负责**:
-  - 从GitHub克隆gh-pages分支的静态文件
+  - 从GitHub克隆publish分支的静态文件
   - 部署到4EVERLAND IPFS网络
   - IPFS pinning
   - CDN加速
@@ -266,10 +266,10 @@ GitHub Repo → GitHub Actions (Build) → gh-pages分支 → 4EVERLAND (部署g
   - IPNS自动更新
   - 构建历史管理
 
-### 2.2.1 为什么使用gh-pages而不是Artifact
-- ✅ **持久化**: gh-pages是GitHub原生支持的永久分支
+### 2.2.1 为什么使用publish分支而不只是Artifact
+- ✅ **持久化**: publish分支是GitHub原生支持的永久分支
 - ✅ **标准做法**: 静态网站部署的行业标准
-- ✅ **平台无关**: 任何平台都可以直接部署gh-pages
+- ✅ **平台无关**: 任何平台都可以直接部署publish分支
 - ✅ **易于访问**: 无需特殊权限或下载链接
 - ✅ **版本管理**: GitHub自动追踪构建历史
 - ✅ **灵活切换**: 可随时切换部署平台
@@ -302,9 +302,10 @@ on:
 
 # 权限配置
 permissions:
-  contents: read        # 读取仓库内容
+  contents: write       # 读取和写入仓库内容（需要推送到publish分支）
   pull-requests: write  # PR评论
-  pages: write          # 推送到gh-pages分支
+  statuses: write       # 更新commit状态
+  pages: write          # 推送到publish分支
 
 # 环境变量
 env:
@@ -389,19 +390,19 @@ jobs:
             exit 1
           fi
 
-      # 步骤8: 推送构建产物到gh-pages分支 ⭐
-      - name: Deploy to gh-pages
+      # 步骤8: 推送构建产物到publish分支 ⭐
+      - name: Deploy to publish
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish
-          publish_branch: gh-pages
+          publish_branch: publish
           keep_files: true
           force_orphan: false
 
       # 步骤9: 添加PR评论 (仅PR时)
-      - name: Comment PR with gh-pages Link
+      - name: Comment PR with Build Status
         if: github.event_name == 'pull_request'
         uses: actions/github-script@v7
         with:
@@ -413,20 +414,23 @@ jobs:
             });
 
             const botComment = comments.find(comment =>
-              comment.user.type === 'Bot' && comment.body.includes('gh-pages部署')
+              comment.user.type === 'Bot' && comment.body.includes('Hugo构建')
             );
 
             const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
             const ghPagesUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
-            const commentBody = `🚀 Hugo构建完成并推送到gh-pages!
+            const commentBody = `📦 Hugo构建${buildStatus === 'success' ? '成功' : '失败'}!
 
-            - **预览链接**: [${ghPagesUrl}](${ghPagesUrl})
-            - **gh-pages分支**: [查看代码](${repoUrl}/tree/gh-pages)
+            - **构建状态**: ${buildStatus.toUpperCase()}
+            - **Commit**: ${context.sha.substring(0, 7)}
+            - **构建者**: ${context.actor}
+            - **时间**: ${new Date().toISOString()}
+            - **publish分支**: [查看代码](${publishUrl})
             - **Commit**: ${context.sha}
             - **构建者**: ${context.actor}
             - **时间**: ${new Date().toISOString()}
 
-            > 4EVERLAND等部署平台可直接部署gh-pages分支的静态文件
+            > 4EVERLAND等部署平台可直接部署publish分支的静态文件
             `;
 
             if (botComment) {
@@ -459,7 +463,7 @@ jobs:
               sha: context.sha,
               state: 'success',
               target_url: repoUrl,
-              description: 'Hugo构建完成，gh-pages已更新',
+              description: `Hugo构建${buildStatus === 'success' ? '成功，publish分支已更新' : '失败'}`,
               context: 'Hugo Build'
             });
 
@@ -508,7 +512,7 @@ jobs:
    - **Name**: `victor42.eth`
    - **Platform**: `IPFS`
    - **Framework**: `Hugo` (或选择"Other")
-4. **重要**: 选择**"Connect GitHub"**来克隆gh-pages分支
+4. **重要**: 选择**"Connect GitHub"**来克隆publish分支
 
 ### 4.2 GitHub集成
 
@@ -516,17 +520,17 @@ jobs:
 在4EVERLAND项目创建流程中:
 
 1. **选择仓库**: `greenzorro/victor42.eth`
-2. **选择分支**: `gh-pages`
+2. **选择分支**: `publish`
 3. **配置部署**:
    - **Source**: 静态文件
-   - **根目录**: `/` (gh-pages根目录)
+   - **根目录**: `/` (publish根目录)
    - **构建命令**: 留空 (已构建完成)
-   - **发布目录**: 留空 (gh-pages就是发布目录)
+   - **发布目录**: 留空 (publish就是发布目录)
 
 #### 步骤4: 验证GitHub工作流已完成
-1. 确保GitHub工作流成功运行并推送了gh-pages
-2. 检查仓库中是否有gh-pages分支
-3. 验证gh-pages分支包含完整的静态文件 (HTML, CSS, JS等)
+1. 确保GitHub工作流成功运行并推送了publish
+2. 检查仓库中是否有publish分支
+3. 验证publish分支包含完整的静态文件 (HTML, CSS, JS等)
 
 ### 4.3 首次部署测试
 
