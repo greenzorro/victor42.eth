@@ -149,7 +149,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish
           publish_branch: publish
-          keep_files: true
+          keep_files: false  # 清理旧文件，防止/post/en/等旧URL格式残留
           force_orphan: false
 
       # 步骤9: 添加PR评论 (仅PR时)
