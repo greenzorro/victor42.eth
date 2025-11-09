@@ -52,14 +52,40 @@
     </footer>
     {{ end }}
 
-    {{ if .IsTranslated }}
-        <footer class="article-translations">
-            {{ partial "helper/icon" "language" }}
-            <div>
-                {{ range .Translations }}
-                    <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
+    {{/* 自定义多语言翻译链接 - 手动实现而不依赖Hugo的内置翻译 */}}
+    {{ $translationKey := .Params.translationKey }}
+    {{ if and $translationKey (in .Permalink "/post") }}
+        {{ $isEnglish := in .Permalink "/post-en/" }}
+        {{ $hasTranslation := false }}
+        {{ $translationURL := "" }}
+
+        {{ if $isEnglish }}
+            <!-- 当前是英文版本，查找对应的中文版本 -->
+            {{ range .Site.Pages }}
+                {{ if and (eq .Params.translationKey $translationKey) (not (in .Permalink "/post-en/")) (in .Permalink "/post/") }}
+                    {{ $hasTranslation = true }}
+                    {{ $translationURL = .Permalink }}
+                    {{ break }}
                 {{ end }}
-            </div>
-        </footer>
+            {{ end }}
+        {{ else }}
+            <!-- 当前是中文版本，查找对应的英文版本 -->
+            {{ range .Site.Pages }}
+                {{ if and (eq .Params.translationKey $translationKey) (in .Permalink "/post-en/") }}
+                    {{ $hasTranslation = true }}
+                    {{ $translationURL = .Permalink }}
+                    {{ break }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        {{ if $hasTranslation }}
+            <footer class="article-translations">
+                {{ partial "helper/icon" "language" }}
+                <div>
+                    <a href="{{ $translationURL }}" class="link">English</a>
+                </div>
+            </footer>
+        {{ end }}
     {{ end }}
 </div>
