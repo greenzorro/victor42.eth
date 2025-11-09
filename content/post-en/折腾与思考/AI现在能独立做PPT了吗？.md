@@ -4,7 +4,7 @@ description: Deep thinking, deep research, who cares? If AI can't even make a PP
 image: https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9b.webp
 date: 2025-05-23 15:46:00
 categories: 折腾与思考-Geek
-url: /post/en/ai-generated-ppt
+url: /post-en/ai-generated-ppt
 translationKey: ai-generated-ppt
 ---
 

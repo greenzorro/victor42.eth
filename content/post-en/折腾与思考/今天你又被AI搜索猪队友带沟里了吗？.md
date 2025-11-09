@@ -4,7 +4,7 @@ description: Read this, and you might just pull yourself (and the AI) out of the
 image: https://cdn.victor42.work/posts/2025-02/84O7u4RISVmTo0al7fmLUA.jpg
 date: 2025-02-26 12:14:00
 categories: 折腾与思考-Geek
-url: /post/en/ai-search
+url: /post-en/ai-search
 translationKey: ai-search
 ---
 

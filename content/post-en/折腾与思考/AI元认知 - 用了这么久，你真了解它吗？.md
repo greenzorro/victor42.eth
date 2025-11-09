@@ -4,7 +4,7 @@ description: An insightful guide to understanding AI
 image: https://cdn.victor42.work/posts/2025-05/09dbc0f7779d7896470f8ffc876d936d.webp
 date: 2025-05-22 17:50:00
 categories: 折腾与思考-Geek
-url: /post/en/do-you-really-know-ai
+url: /post-en/do-you-really-know-ai
 translationKey: do-you-really-know-ai
 ---
 
