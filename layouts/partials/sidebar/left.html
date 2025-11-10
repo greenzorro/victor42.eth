@@ -6,12 +6,12 @@
     </button>
 
     <header>
-        {{ with .Site.Params.sidebar.avatar }}
+        {{ with .Site.Params.avatar }}
             {{ if (default true .enabled) }}
             <figure class="site-avatar">
                 <a href="{{ .Site.BaseURL | relLangURL }}">
                 {{ if not .local }}
-                    <img src="{{ .src }}" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    <img src="{{ .URL }}" width="300" height="300" class="site-logo" loading="lazy" alt="{{ .alt }}">
                 {{ else }}
                     {{ $avatar := resources.Get (.src) }}
 
@@ -59,7 +59,11 @@
 
     <ol class="menu" id="main-menu">
         {{ $currentPage := . }}
+        {{ $seen := slice }}
         {{ range .Site.Menus.main }}
+        {{ $name := .Name | lower }}
+        {{ if and (ne .Identifier "search") (ne $name "search") (ne (hasPrefix .URL "/page/search/") true) }}
+        {{ if not (in $seen .Identifier) }}
         {{ $active := or (eq $currentPage.RelPermalink .URL) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
         <li {{ if $active }} class='current' {{ end }}>
             <a href='{{ .URL }}' {{ if eq .Params.newTab true }}target="_blank"{{ end }}>
@@ -73,6 +77,9 @@
                 <span>{{- .Name -}}</span>
             </a>
         </li>
+        {{ end }}
+        {{ end }}
+        {{ $seen = $seen | append .Identifier }}
         {{ end }}
         <li class="menu-bottom-section">
             <ol class="menu">
