@@ -1,6 +1,6 @@
 ---
 title: win8小试
-description: 
+description: Windows 8体验
 image: 
 date: 2012-03-16 17:28:00
 categories: 折腾与思考-Geek
