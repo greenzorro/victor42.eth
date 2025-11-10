@@ -4,7 +4,7 @@ description:
 image:
 date: 2015-02-10 15:16:00
 categories: 折腾与思考-Geek
-url: /post/en/3424
+url: /post-en/3424
 translationKey: 3424
 ---
 

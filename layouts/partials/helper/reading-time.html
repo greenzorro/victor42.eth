@@ -1,0 +1,8 @@
+{{- /* reading-time.html: 基于字数计算阅读时间(分钟) */ -}}
+{{- $content := .content -}}
+{{- $wordCount := partial "helper/word-count" (dict "content" $content) -}}
+{{- $readingTime := div $wordCount 200.0 | math.Round -}}
+{{- if lt $readingTime 1 -}}
+    {{- $readingTime = 1 -}}
+{{- end -}}
+{{- return $readingTime -}}

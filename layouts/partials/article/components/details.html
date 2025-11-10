@@ -1,0 +1,101 @@
+{{/* 自定义文章详情，覆盖Stack主题的版本，使用更准确的中文阅读时间计算 */}}
+<div class="article-details">
+    {{/* 使用flexbox容器包装分类和语言切换器 */}}
+    <div class="article-header-wrapper">
+        {{ if .Params.categories }}
+        <header class="article-category">
+            {{ range (.GetTerms "categories") }}
+                <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+                    {{ .LinkTitle }}
+                </a>
+            {{ end }}
+        </header>
+        {{ end }}
+
+        {{/* 自定义多语言翻译链接 - 放在分类旁边，右对齐 */}}
+        {{ $translationKey := .Params.translationKey }}
+        {{ if and $translationKey (in .Permalink "/post") }}
+            {{ $isEnglish := in .Permalink "/post-en/" }}
+            {{ $hasTranslation := false }}
+            {{ $translationURL := "" }}
+
+            {{ if $isEnglish }}
+                <!-- 当前是英文版本，查找对应的中文版本 -->
+                {{ range .Site.Pages }}
+                    {{ if and (eq .Params.translationKey $translationKey) (not (in .Permalink "/post-en/")) (in .Permalink "/post/") }}
+                        {{ $hasTranslation = true }}
+                        {{ $translationURL = .Permalink }}
+                        {{ break }}
+                    {{ end }}
+                {{ end }}
+            {{ else }}
+                <!-- 当前是中文版本，查找对应的英文版本 -->
+                {{ range .Site.Pages }}
+                    {{ if and (eq .Params.translationKey $translationKey) (in .Permalink "/post-en/") }}
+                        {{ $hasTranslation = true }}
+                        {{ $translationURL = .Permalink }}
+                        {{ break }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+            {{ if $hasTranslation }}
+                <div class="article-lang-switcher">
+                    {{ if $isEnglish }}
+                        <a href="{{ $translationURL }}" class="lang-switch-button">
+                            <span class="lang-switch-icon">🌏</span>
+                            <span class="lang-switch-text">中文</span>
+                        </a>
+                    {{ else }}
+                        <a href="{{ $translationURL }}" class="lang-switch-button">
+                            <span class="lang-switch-icon">🌏</span>
+                            <span class="lang-switch-text">English</span>
+                        </a>
+                    {{ end }}
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="{{ .RelPermalink }}">
+                {{- .Title -}}
+            </a>
+        </h2>
+
+        {{ with .Params.description }}
+        <h3 class="article-subtitle">
+            {{ . }}
+        </h3>
+        {{ end }}
+    </div>
+
+    {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
+    {{ $showDate := not .Date.IsZero }}
+    {{ $showFooter := or $showDate $showReadingTime }}
+    {{ if $showFooter }}
+    <footer class="article-time">
+        {{ if $showDate }}
+            <div>
+                {{ partial "helper/icon" "date" }}
+                <time class="article-time--published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                    {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                </time>
+            </div>
+        {{ end }}
+
+        {{ if $showReadingTime }}
+            <div>
+                {{ partial "helper/icon" "clock" }}
+                <time class="article-time--reading">
+                    {{/* 使用自定义的阅读时间计算而不是Hugo默认的.ReadingTime */}}
+                    {{- $customReadingTime := partial "helper/reading-time" (dict "content" .Content) -}}
+                    {{- $count := $customReadingTime -}}
+                    {{ T "article.readingTime" (dict "Count" $count) }}
+                </time>
+            </div>
+        {{ end }}
+    </footer>
+    {{ end }}
+</div>

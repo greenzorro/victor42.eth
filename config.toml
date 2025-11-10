@@ -1,32 +1,32 @@
 # 站点基本信息
-baseURL = "https://victor42.eth.limo/"
+# 使用生产环境域名作为baseURL
+baseURL = "https://victor42.eth.limo"
 title = 'Victor42'
-publishDir = "publish"
+# 取消publishDir，让Hugo使用默认的public目录
 
-# 主题配置
-theme = 'stack'
+# 主题配置 (Hugo Modules)
+# 使用相对路径适配GitHub Pages预览和4EVERLAND生产环境
 relativeURLs = true
-canonifyURLs = true
+canonifyURLs = false
 buildfuture = true
+
+# Hugo Modules配置
+[module]
+  [module.imports]
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+# Hugo资产处理配置 (Stack主题必需)
+[asset]
+  [asset.versioning]
+    enable = true
 
 # 语言配置
 languageCode = 'en-us'
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
-[languages]
-  [languages.zh-cn]
-    languageName = "中文"
-    contentDir = "content"
-    weight = 1
-    [languages.zh-cn.sitemap]
-      disable = true
-  [languages.en]
-    languageName = "English"
-    contentDir = "content"
-    weight = 2
-    [languages.en.sitemap]
-      disable = true
+# 注意：不使用Hugo多语言功能
+# 多语言通过translationKey在自定义模板中实现
 
 # 站点参数
 [params]
@@ -35,8 +35,86 @@ author = "Victor42"
 readingTime = true
 defaultPageLanguage = "zh-cn"
 
+# Google Analytics (GA4)
+# 用于网站访问统计
+GoogleAnalytics = "G-H0F3NJJ4RT"
+
+# 侧边栏配置
+[params.sidebar]
+subtitle = "科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发者；UI/UX设计师；生活观察者"
+
+# 页脚配置
 [params.footer]
 since = 2011
+
+# 小部件配置
+[params.widgets]
+  homepage = [
+    { type = "archives", params = { limit = 5 } }
+  ]
+  page = [
+    { type = "toc" }
+  ]
+
+# 头像配置
+[params.avatar]
+URL = "https://cdn.victor42.work/assets/pale-blue-dot.jpg"
+alt = "Victor42 Avatar"
+enabled = true
+local = false
+
+# Favicon配置
+[params.favicon]
+URL = "https://cdn.victor42.work/assets/favicon.ico"
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "主页 - Home"
+    url = "/"
+    weight = -100
+    params = { newTab = false, icon = "home" }
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档 - Archives"
+    url = "/page/archives/"
+    weight = -80
+    params = { newTab = false, icon = "archives" }
+
+  [[menu.main]]
+    identifier = "tools"
+    name = "小玩意 - Creation"
+    url = "http://victor42.work/"
+    weight = -50
+    params = { newTab = true, icon = "flask" }
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我 - About"
+    url = "/page/about/"
+    weight = -20
+    params = { newTab = false, icon = "user" }
+
+# 社交媒体链接（通过params配置）
+[[params.social]]
+name = "Twitter"
+url = "https://x.com/victor_cheng_42"
+icon = "brand-twitter"
+
+[[params.social]]
+name = "知乎"
+url = "https://www.zhihu.com/people/victor_42"
+icon = "brand-zhihu"
+
+[[params.social]]
+name = "GitHub"
+url = "https://github.com/greenzorro"
+icon = "brand-github"
+
+[params.main]
+style = "light" 
 
 # 分类法配置
 [taxonomies]
@@ -97,3 +175,4 @@ enableGitInfo = true
     mediaType = "application/xml"
     baseName = "sitemap"
     isHTML = false
+# Force rebuild

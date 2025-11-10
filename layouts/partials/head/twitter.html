@@ -1,0 +1,7 @@
+{{- $p := . -}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $p.Title }}">
+<meta name="twitter:description" content="{{ with $p.Description }}{{ . }}{{ else }}{{ $p.Summary | plainify | truncate 160 }}{{ end }}">
+{{- with $p.Params.image -}}
+<meta name="twitter:image" content="{{ . | absURL }}">
+{{- end -}}
