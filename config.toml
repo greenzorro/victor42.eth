@@ -42,6 +42,19 @@ GoogleAnalytics = "G-H0F3NJJ4RT"
 [params.sidebar]
 subtitle = "科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发者；UI/UX设计师；生活观察者"
 
+# 页脚配置
+[params.footer]
+since = 2011
+
+# 小部件配置
+[params.widgets]
+  homepage = [
+    { type = "archives", params = { limit = 5 } }
+  ]
+  page = [
+    { type = "toc" }
+  ]
+
 # 头像配置
 [params.avatar]
 URL = "https://cdn.victor42.work/assets/pale-blue-dot.jpg"
