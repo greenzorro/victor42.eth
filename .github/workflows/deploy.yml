@@ -3,9 +3,9 @@ name: Build Hugo Site
 # 触发条件
 on:
   push:
-    branches: [ main, dev ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, dev ]
+    branches: [ main ]
 
 # 权限配置
 permissions:
@@ -132,7 +132,7 @@ jobs:
       # 步骤8: 部署到GitHub Pages (gh-pages分支) ⭐
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
