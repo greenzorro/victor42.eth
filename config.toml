@@ -1,11 +1,12 @@
 # 站点基本信息
-# baseURL留空，使用相对路径，确保平台无关部署
+# baseURL留空，保持绝对路径，确保外部资源（CDN）正确加载
 baseURL = ""
 title = 'Victor42'
 publishDir = "publish"
 
 # 主题配置 (Hugo Modules)
-relativeURLs = true
+# 重要：保持绝对URL（false），避免CDN图片路径被错误处理
+relativeURLs = false
 canonifyURLs = false
 buildfuture = true
 
