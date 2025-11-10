@@ -88,12 +88,9 @@ jobs:
             echo "SCSS文件数: $(find assets -name "*.scss" 2>/dev/null | wc -l)"
             echo "TypeScript文件数: $(find assets -name "*.ts" 2>/dev/null | wc -l)"
             echo "SVG图标文件数: $(find assets/icons -name "*.svg" 2>/dev/null | wc -l)"
-            else
-              echo "⚠️ 未找到主题assets目录"
-              ls -la $MODULE_CACHE/ 2>/dev/null | head -10
-            fi
           else
-            echo "⚠️ 未找到模块缓存目录: $MODULE_CACHE"
+            echo "⚠️ 未找到主题assets目录"
+            ls -la $MODULE_CACHE/ 2>/dev/null | head -10
           fi
 
       # 步骤4: 验证构建环境
