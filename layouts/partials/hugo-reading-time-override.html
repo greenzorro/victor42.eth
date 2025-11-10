@@ -1,0 +1,3 @@
+{{/* 这个文件覆盖Hugo默认的.ReadingTime计算，使用自定义的中文字符统计 */}}
+{{- $customReadingTime := partial "helper/reading-time" (dict "content" .Content) -}}
+{{- .Scratch.Set "readingTime" $customReadingTime -}}
