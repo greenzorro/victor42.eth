@@ -11,7 +11,7 @@
 ### 2.1 基本信息
 - **部署地址**: https://victor42.eth.limo
 - **GitHub**: https://github.com/greenzorro/victor42.eth
-- **技术栈**: Hugo Extended 0.152.2 + Stack主题 v3.16.0
+- **技术栈**: Hugo Extended 0.111.3 + Stack主题 v3.16.0
 
 ### 2.2 核心特性
 - ✅ 自定义多语言实现（中文/英文）
@@ -255,17 +255,17 @@ translationKey: 3618
 文件: `config.toml`
 
 ```toml
-baseURL = ""                    # 空URL，支持多平台部署
+baseURL = "https://victor42.eth.limo"  # 生产环境域名
 relativeURLs = true             # 使用相对URL
-canonifyURLs = true             # 规范URL处理
-publishDir = "publish"          # 自定义发布目录
+# 移除publishDir，使用默认的public目录
 buildfuture = true              # 允许发布未来日期文章
 ```
 
 **特点**:
-- 静态文件可在任意平台部署
-- 避免平台特定的URL依赖
-- 灵活切换部署方式
+- 使用相对URL确保在不同部署平台都能正常工作
+- 通过GitHub Actions自动推送到gh-pages分支
+- 4EVERLAND自动同步gh-pages分支的构建产物
+- 灵活的部署策略，支持GitHub Pages、4EVERLAND等多个平台
 
 ### 5.4 自定义功能
 
@@ -310,8 +310,8 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
 ```
 
 **版本选择**:
-- Hugo: 0.152.2 Extended
-- Stack: v3.16.0 (兼容Hugo 0.152.2)
+- Hugo: 0.111.3 Extended
+- Stack: v3.16.0 (兼容Hugo 0.111.3)
 - Go: 1.18+
 
 **自定义样式**:
@@ -357,7 +357,7 @@ permissions:
 
 ```toml
 # 基础配置
-baseURL = ""                    # 空URL，支持多平台部署
+baseURL = "https://victor42.eth.limo"  # 生产环境域名
 relativeURLs = true             # 使用相对URL
 languageCode = 'en-us'
 defaultContentLanguage = "zh-cn"
