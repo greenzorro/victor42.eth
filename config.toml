@@ -55,7 +55,33 @@ URL = "https://cdn.victor42.work/assets/favicon.ico"
 
 # 菜单配置
 [menu]
-  # 主菜单已在页面FrontMatter中配置
+  [[menu.main]]
+    identifier = "home"
+    name = "主页 - Home"
+    url = "/"
+    weight = -100
+    params = { newTab = false, icon = "home" }
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档 - Archives"
+    url = "/page/archives/"
+    weight = -80
+    params = { newTab = false, icon = "archives" }
+
+  [[menu.main]]
+    identifier = "tools"
+    name = "小玩意 - Creation"
+    url = "http://victor42.work/"
+    weight = -50
+    params = { newTab = true, icon = "flask" }
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我 - About"
+    url = "/page/about/"
+    weight = -20
+    params = { newTab = false, icon = "user" }
 
 # 社交媒体链接（通过params配置）
 [[params.social]]
