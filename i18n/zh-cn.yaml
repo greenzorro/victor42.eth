@@ -1,3 +1,77 @@
-# Override Stack theme reading time calculation
-readingTime:
-  other: "{{ .ReadingTime }} minute read"
+toggleMenu:
+  other: 切换菜单
+
+darkMode:
+  other: 暗黑模式
+
+list:
+  page:
+    one: "{{ .Count }} 页"
+    other: "{{ .Count }} 页"
+
+  section:
+    other: 分类
+
+  subsection:
+    one: 子分类
+    other: 子分类
+
+article:
+  back:
+    other: 返回
+
+  tableOfContents:
+    other: 目录
+
+  relatedContent:
+    other: 相关文章
+
+  lastUpdatedOn:
+    other: 最后更新
+
+  readingTime:
+    one: "{{ .Count }} 分钟阅读"
+    other: "{{ .Count }} 分钟阅读"
+
+notFound:
+  title:
+    other: 未找到
+
+  subtitle:
+    other: 此页面不存在
+
+widget:
+  archives:
+    title:
+      other: 归档
+
+  more:
+    other: 更多
+
+  tagCloud:
+    title:
+      other: 标签云
+
+  categoriesCloud:
+    title:
+      other: 分类
+
+search:
+  title:
+    other: 搜索
+
+  placeholder:
+    other: 输入内容...
+
+  resultTitle:
+    other: "#PAGES_COUNT 页 (#TIME_SECONDS 秒)"
+
+footer:
+  builtWith:
+    other: 基于 {{ .Generator }} 构建
+
+  designedWith:
+    other: 基于 {{ .Theme }} 设计
+
+  designedBy:
+    other: 主题 {{ .Theme }} 由 {{ .DesignedBy }} 设计
