@@ -117,15 +117,15 @@ jobs:
       - name: Verify Build Output
         run: |
           echo "🔍 验证构建产物..."
-          if [ -d "publish" ]; then
-            echo "✅ publish目录存在"
-            echo "文件数量: $(find publish -type f | wc -l)"
-            echo "目录大小: $(du -sh publish | cut -f1)"
-            echo "首页检查: $(test -f publish/index.html && echo '存在' || echo '缺失')"
-            echo "Sitemap检查: $(test -f publish/sitemap.xml && echo '存在' || echo '缺失')"
-            echo "RSS检查: $(test -f publish/index.xml && echo '存在' || echo '缺失')"
+          if [ -d "public" ]; then
+            echo "✅ public目录存在"
+            echo "文件数量: $(find public -type f | wc -l)"
+            echo "目录大小: $(du -sh public | cut -f1)"
+            echo "首页检查: $(test -f public/index.html && echo '存在' || echo '缺失')"
+            echo "Sitemap检查: $(test -f public/sitemap.xml && echo '存在' || echo '缺失')"
+            echo "RSS检查: $(test -f public/index.xml && echo '存在' || echo '缺失')"
           else
-            echo "❌ publish目录不存在!"
+            echo "❌ public目录不存在!"
             exit 1
           fi
 
@@ -135,7 +135,7 @@ jobs:
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./publish
+          publish_dir: ./public
           publish_branch: gh-pages
 
       # 步骤9: 添加PR评论 (仅PR时)
@@ -151,7 +151,7 @@ jobs:
             });
 
             const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
-            const publishUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/tree/publish`;
+            const publishUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/tree/gh-pages`;
             const buildStatus = '${{ job.status }}';
             const commentBody = `📦 Hugo构建${buildStatus === 'success' ? '成功' : '失败'}!
 
@@ -159,9 +159,9 @@ jobs:
             - **Commit**: ${context.sha.substring(0, 7)}
             - **构建者**: ${context.actor}
             - **时间**: ${new Date().toISOString()}
-            - **publish分支**: [查看代码](${publishUrl})
+            - **gh-pages分支**: [查看代码](${publishUrl})
 
-            > 4EVERLAND等部署平台可直接部署publish分支的静态文件
+            > 4EVERLAND等部署平台可直接部署gh-pages分支的静态文件
             `;
 
             const botComment = comments.find(comment =>
