@@ -1,12 +1,12 @@
 # 站点基本信息
-# baseURL留空，保持绝对路径，确保外部资源（CDN）正确加载
-baseURL = ""
+# 使用生产环境域名作为baseURL
+baseURL = "https://victor42.eth.limo"
 title = 'Victor42'
-publishDir = "publish"
+# 取消publishDir，让Hugo使用默认的public目录
 
 # 主题配置 (Hugo Modules)
-# 重要：保持绝对URL（false），避免CDN图片路径被错误处理
-relativeURLs = false
+# 使用相对路径适配GitHub Pages预览和4EVERLAND生产环境
+relativeURLs = true
 canonifyURLs = false
 buildfuture = true
 
