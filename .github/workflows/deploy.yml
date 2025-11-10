@@ -1,6 +1,6 @@
 name: Build Hugo Site
 
-# 触发条件
+# 触发条件 - main分支推送时自动构建和部署
 on:
   push:
     branches: [ main ]
