@@ -44,3 +44,5 @@
 {{ define "right-sidebar" }}
     {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
 {{ end }}
+
+{{/* 关联推荐功能已启用 - 2025-11-11 */}}
