@@ -1,0 +1,178 @@
+/* Override styles */
+
+/* Header layout - flexbox for category (left) and lang switcher (right) */
+.article-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Category and tag styles */
+.article-category a,
+.article-tags a {
+    padding: 0;
+    background: none !important;
+    color: var(--accent-color) !important;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.article-category a::before,
+.article-tags a::before {
+    content: "#";
+    margin-right: 2px;
+    opacity: 0.8;
+}
+
+.article-category a:hover,
+.article-tags a:hover {
+    background: none !important;
+    opacity: 0.8;
+}
+
+.article-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Time icon */
+.article-time svg {
+    margin-right: 5px;
+}
+
+/* Article time and translation spacing */
+.article-time > div,
+.article-translations > div {
+    gap: 0;
+}
+
+/* Menu icon */
+.menu li svg {
+    margin-right: 10px;
+}
+
+/* Language switcher */
+.article-lang-switcher {
+    margin: 0;
+}
+
+.article-lang-switcher .lang-switch-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    min-width: 64px;
+    padding: 0 12px;
+    background-color: var(--card-background);
+    border: 1.5px solid var(--accent-color);
+    border-radius: 14px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.article-lang-switcher .lang-switch-button:hover {
+    background-color: var(--accent-color);
+    color: var(--accent-color-text);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-lang-switcher .lang-switch-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.article-lang-switcher .lang-switch-button .lang-switch-icon {
+    margin-right: 6px;
+    font-size: 13px;
+}
+
+.article-lang-switcher .lang-switch-button .lang-switch-text {
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+/* Archives page */
+.template-archives main.main > h2:first-child,
+.template-archives main.main > div.subsection-list:first-of-type {
+    display: none;
+}
+
+/* Hide section image in category pages */
+.section-card .section-image {
+    display: none;
+}
+
+/* Related articles layout */
+.article-list--tile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    float: none;
+    width: 100%;
+}
+
+.article-list--tile article {
+    width: calc((100% - 4rem) / 5);
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.article-list--tile article.has-image .article-image img {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Mobile styles for related articles */
+@media (max-width: 768px) {
+    .article-list--tile article {
+        width: 100%;
+        flex: 1 1 auto;
+    }
+
+    /* Adjust main-container padding for mobile */
+    .main-container {
+        padding: 15px;
+    }
+
+    /* 修复：让嵌套菜单始终显示（不受主菜单display:none影响） */
+    /* 深色模式切换按钮在嵌套的.menu中，需要在移动端始终显示 */
+    #main-menu .menu-bottom-section .menu {
+        display: flex !important;
+        flex-direction: column;
+        padding: 0;
+        background: none;
+        box-shadow: none;
+        margin: 0;
+        overflow: visible;
+    }
+
+    /* 修复：为主菜单添加大圆角，与文章卡片保持一致 */
+    .menu {
+        border-radius: var(--card-border-radius);
+    }
+}
+
+/* 分页链接样式调整 */
+.pagination .page-link {
+    padding: 16px 24px;
+}
+
+/* 右边栏宽度调整 - 保持紧凑（合并媒体查询） */
+@media (min-width: 768px) {
+    .container.extended {
+        --right-sidebar-max-width: 20%;
+    }
+} 
