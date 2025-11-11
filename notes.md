@@ -11,7 +11,7 @@
 ### 2.1 基本信息
 - **部署地址**: https://victor42.eth.limo
 - **GitHub**: https://github.com/greenzorro/victor42.eth
-- **技术栈**: Hugo Extended 0.111.3 + Stack主题 v3.16.0
+- **技术栈**: Hugo Extended 0.152.2 + Stack主题 v3.32.0
 
 ### 2.2 核心特性
 - ✅ 自定义多语言实现（中文/英文）
@@ -226,15 +226,45 @@ translationKey: 3618
 文件: `layouts/_default/sitemap.xml`
 
 ```xml
-<url>
-  <loc>{{ .Permalink }}</loc>
-  <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>{{ if eq .Kind "home" }}1.0{{ else }}0.5{{ end }}</priority>
-</url>
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 首页 -->
+  <url>
+    <loc>{{ .Site.BaseURL }}</loc>
+    {{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+    {{ end }}
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 所有页面 -->
+  {{ range .Site.Pages }}
+  {{ if not .Params.sitemap_exclude }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+    {{ end }}
+    <changefreq>{{ if .Sitemap.ChangeFreq }}{{ .Sitemap.ChangeFreq }}{{ else }}weekly{{ end }}</changefreq>
+    {{ $priority := "0.5" }}
+    {{ if .Sitemap.Priority }}
+      {{ if and (ge .Sitemap.Priority 0.0) (le .Sitemap.Priority 1.0) }}
+        {{ $priority = .Sitemap.Priority }}
+      {{ end }}
+    {{ end }}
+    <priority>{{ $priority }}</priority>
+  </url>
+  {{ end }}
+  {{ end }}
+</urlset>
 ```
 
-特点: 单一sitemap文件，包含所有页面类型
+特点:
+- 单一sitemap文件，包含所有页面类型
+- 支持sitemap_exclude参数控制页面
+- 动态priority计算
+- 首页priority=1.0，其他页面默认0.5
 
 ### 5.3 资源策略
 
@@ -299,7 +329,7 @@ module github.com/greenzorro/victor42.eth
 
 go 1.18
 
-require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
+require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 ```
 
 **config.toml**:
@@ -310,8 +340,8 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
 ```
 
 **版本选择**:
-- Hugo: 0.111.3 Extended
-- Stack: v3.16.0 (兼容Hugo 0.111.3)
+- Hugo: 0.152.2 Extended
+- Stack: v3.32.0 (兼容Hugo 0.152.2)
 - Go: 1.18+
 
 **自定义样式**:
@@ -410,7 +440,7 @@ module github.com/greenzorro/victor42.eth
 
 go 1.18
 
-require github.com/CaiJimmy/hugo-theme-stack/v3 v3.16.0
+require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 ```
 
 ### 6.3 自定义模板文件清单
@@ -427,10 +457,14 @@ layouts/
 │   │   └── custom.html         # 自定义CSS加载
 │   ├── helper/
 │   │   ├── word-count.html     # 中文字符统计
-│   │   └── reading-time.html   # 阅读时间计算
+│   │   ├── reading-time.html   # 阅读时间计算
+│   │   ├── icon.html           # 图标组件
+│   │   └── hugo-reading-time-override.html  # Hugo阅读时间覆盖
 │   ├── article/
 │   │   └── components/
-│   │       └── details.html    # 双语切换+flexbox
+│   │       ├── details.html    # 文章详情
+│   │       ├── lang-switcher.html  # 语言切换组件
+│   │       └── related-content.html  # 关联内容组件
 │   ├── sidebar/
 │   │   └── left.html           # 菜单去重
 │   └── data/
@@ -446,13 +480,19 @@ layouts/
 ```
 static/
 ├── css/
-│   └── custom-override.css     # 自定义样式+flexbox布局
+│   └── custom-override.css     # 5KB自定义样式+flexbox布局
+├── icons/                      # SVG图标资源
 └── robots.txt                  # 搜索引擎爬虫配置
 
 assets/
 └── scss/
     └── variables.scss          # Stack主题变量覆盖（主色调）
 ```
+
+**自定义样式说明**:
+- `static/css/custom-override.css` (5KB): Stack主题样式覆盖
+- `assets/icons/`: SVG图标目录
+- 主题资源通过Hugo Modules从Stack主题复制
 
 ---
 

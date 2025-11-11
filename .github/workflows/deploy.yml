@@ -16,7 +16,7 @@ permissions:
 
 # 环境变量
 env:
-  HUGO_VERSION: '0.111.3'
+  HUGO_VERSION: '0.152.2'
   HUGO_EXTENDED: true
   NODE_VERSION: '18'
 

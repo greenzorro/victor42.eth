@@ -37,17 +37,17 @@
         </div>
     </header>
 
-    {{- with .Site.Params.social -}}
-        <ol class="social-menu">
+    {{- with .Site.Menus.social -}}
+        <ol class="menu-social">
             {{ range . }}
                 <li>
                     <a
-                        href='{{ .url }}'
-                        target="_blank"
-                        {{ with .name }}title="{{ . }}"{{ end }}
+                        href='{{ .URL }}'
+                        {{ if eq (default true .Params.newTab) true }}target="_blank"{{ end }}
+                        {{ with .Name }}title="{{ . }}"{{ end }}
                         rel="me"
                     >
-                        {{ $icon := default "link" .icon }}
+                        {{ $icon := default "link" .Params.Icon }}
                         {{ with $icon }}
                             {{ partial "helper/icon" . }}
                         {{ end }}
