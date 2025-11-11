@@ -175,4 +175,48 @@
     .container.extended {
         --right-sidebar-max-width: 20%;
     }
+}
+
+/* Social menu icons - 匹配Stack v3.32.0 */
+/* 强制覆盖主题样式 */
+aside.left-sidebar .menu-social {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 15px !important;
+    list-style: none !important;
+    padding: 0 0 10px 0 !important;
+    margin: 0 !important;
+}
+
+aside.left-sidebar .menu-social li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+aside.left-sidebar .menu-social a {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    background-color: var(--card-background) !important;
+    color: var(--card-text-color-secondary) !important;
+    transition: all 0.2s ease !important;
+    text-decoration: none !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+aside.left-sidebar .menu-social a:hover {
+    background-color: var(--accent-color) !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+aside.left-sidebar .menu-social svg {
+    width: 18px !important;
+    height: 18px !important;
+    stroke: currentColor !important;
 } 

@@ -24,7 +24,7 @@
                 {{ range .Site.Pages }}
                     {{ if and (eq .Params.translationKey $translationKey) (not (in .Permalink "/post-en/")) (in .Permalink "/post/") }}
                         {{ $hasTranslation = true }}
-                        {{ $translationURL = .Permalink }}
+                        {{ $translationURL = .RelPermalink }}
                         {{ break }}
                     {{ end }}
                 {{ end }}
@@ -33,7 +33,7 @@
                 {{ range .Site.Pages }}
                     {{ if and (eq .Params.translationKey $translationKey) (in .Permalink "/post-en/") }}
                         {{ $hasTranslation = true }}
-                        {{ $translationURL = .Permalink }}
+                        {{ $translationURL = .RelPermalink }}
                         {{ break }}
                     {{ end }}
                 {{ end }}
