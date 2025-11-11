@@ -69,7 +69,7 @@ jobs:
           hugo mod graph
           echo ""
           echo "🔍 验证主题存在..."
-          ls -la $(go env GOPATH)/pkg/mod/github.com/caijimmy/ 2>/dev/null || echo "模块缓存位置未知"
+          ls -la $(go env GOPATH)/pkg/mod/github.com/CaiJimmy/ 2>/dev/null || echo "模块缓存位置未知"
 
       # 步骤3.6: 复制Stack主题assets ⭐ 关键步骤
       - name: Copy Stack Theme Assets
@@ -86,8 +86,10 @@ jobs:
             echo "TypeScript文件数: $(find assets -name "*.ts" 2>/dev/null | wc -l)"
             echo "SVG图标文件数: $(find assets/icons -name "*.svg" 2>/dev/null | wc -l)"
           else
-            echo "⚠️ 未找到主题assets目录"
-            ls -la $MODULE_CACHE/ 2>/dev/null | head -10
+            echo "⚠️ 未找到主题assets目录，查找确切位置..."
+            find $(go env GOPATH)/pkg/mod -name "hugo-theme-stack*" -type d 2>/dev/null | head -5
+            echo "列出所有Go模块缓存..."
+            ls -la $(go env GOPATH)/pkg/mod/github.com/CaiJimmy/ 2>/dev/null | head -10 || echo "无此目录"
           fi
 
       # 步骤4: 验证构建环境
@@ -107,7 +109,7 @@ jobs:
       - name: Build Hugo Site
         run: |
           echo "🔨 开始构建Hugo站点..."
-          hugo --gc --minify --verbose
+          hugo --gc --minify
           echo "✅ 构建完成"
 
       # 步骤7: 验证构建产物
