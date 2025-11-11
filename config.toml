@@ -35,6 +35,11 @@ author = "Victor42"
 readingTime = true
 defaultPageLanguage = "zh-cn"
 
+# Author配置（Stack v3.32.0需要）
+[params.Author]
+name = "Victor42"
+email = "greenzorromail@gmail.com"
+
 # Google Analytics (GA4)
 # 用于网站访问统计
 GoogleAnalytics = "G-H0F3NJJ4RT"
@@ -97,20 +102,26 @@ URL = "https://cdn.victor42.work/assets/favicon.ico"
     weight = -20
     params = { newTab = false, icon = "user" }
 
-# 社交媒体链接（通过params配置）
-[[params.social]]
+# 社交媒体链接（通过menu配置 - Stack v3.32.0要求）
+[[menu.social]]
 name = "Twitter"
 url = "https://x.com/victor_cheng_42"
+weight = 1
+[menu.social.params]
 icon = "brand-twitter"
 
-[[params.social]]
+[[menu.social]]
 name = "知乎"
 url = "https://www.zhihu.com/people/victor_42"
+weight = 2
+[menu.social.params]
 icon = "brand-zhihu"
 
-[[params.social]]
+[[menu.social]]
 name = "GitHub"
 url = "https://github.com/greenzorro"
+weight = 3
+[menu.social.params]
 icon = "brand-github"
 
 [params.main]
