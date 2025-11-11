@@ -51,9 +51,6 @@ jobs:
           # 使用hugo自动管理模块
           hugo mod tidy
           echo "✅ 模块配置完成"
-          # 下载模块到本地缓存
-          hugo mod download
-          echo "✅ 模块缓存完成"
 
       # 步骤3: 设置Node.js (用于Stack主题SCSS编译)
       - name: Setup Node.js
