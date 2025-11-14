@@ -4567,6 +4567,23 @@ loading="lazy"
 &gt;https://qvokpfxqsh.feishu.cn/docx/Fzb4dc1p8oAuPUxqPrEcFbuon2f&lt;/a&gt;&lt;br&gt;
 Dunhuang Road Trip Plan: &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/docx/QkgRd7cefoST33xpjmucTo3Rnac" target="_blank" rel="noopener"
 &gt;https://qvokpfxqsh.feishu.cn/docx/QkgRd7cefoST33xpjmucTo3Rnac&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="planning-flights-for-complex-trips"&gt;Planning Flights for Complex Trips
+&lt;/h2&gt;&lt;p&gt;Ever get stuck right at the beginning trying to sort out travel between multiple cities? It can be a real headache. This is especially true when you&amp;rsquo;re trying to find the best deals for a complex itinerary during peak holidays, like National Day or Spring Festival, when flight prices go wild.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/Xnip2025-11-13_11-21-36.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;I built a spreadsheet tool to tackle this. Here’s how it works:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Dates&lt;/strong&gt;: List your potential travel dates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fares&lt;/strong&gt;: Look up and record the lowest fare for each day.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fill&lt;/strong&gt;: Just fill in the white columns; the gray ones will auto-calculate.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indicators&lt;/strong&gt;: Yellow marks the cheapest fare for a leg. Red or green shows a big price swing from the day before (defaults to 15%, but you can change it).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Confirm&lt;/strong&gt;: When you&amp;rsquo;ve picked a flight, check its box to keep track.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Step 2 takes the most time, but AI can speed it up. AI browsers like Comet and Atlas or AI agents like Manus and Minimax can handle it, but your standard chatbot can&amp;rsquo;t. You&amp;rsquo;ll need some decent prompting skills, or you might get incomplete or no data at all. Honestly, since this is something you only do a couple of times a year, doing it manually is still the most reliable approach.&lt;/p&gt;
+&lt;p&gt;The sheet supports up to 8 flight legs, plenty even for a multi-city European tour. Then again, if you have enough time for a month-long, multi-city journey, you probably aren&amp;rsquo;t too worried about penny-pinching on flights, haha.&lt;/p&gt;
+&lt;p&gt;Flight Planning Sheet: &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/wiki/SIbUw5N3ci79d2kySNqcItRHnYd" target="_blank" rel="noopener"
+&gt;https://qvokpfxqsh.feishu.cn/wiki/SIbUw5N3ci79d2kySNqcItRHnYd&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="travel-expense-tracking"&gt;Travel Expense Tracking
 &lt;/h2&gt;&lt;p&gt;Finally, expense tracking. Skip this if you don&amp;rsquo;t track expenses.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/3d367b5c87195d840767ecc6e9739016.jpg"
