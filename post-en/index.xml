@@ -4555,17 +4555,58 @@ loading="lazy"
 &lt;p&gt;Packing List: &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/wiki/R7EAwcYX1ikNlukteCdcVhdinhb" target="_blank" rel="noopener"
 &gt;https://qvokpfxqsh.feishu.cn/wiki/R7EAwcYX1ikNlukteCdcVhdinhb&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="travel-plan-document"&gt;Travel Plan Document
-&lt;/h2&gt;&lt;p&gt;The trip is now clearly planned, and it&amp;rsquo;s not overly complex. But the above is mostly mental planning. I need a place to store this information for review and sharing with companions.&lt;/p&gt;
-&lt;p&gt;I have a well-used travel plan template. It&amp;rsquo;s a fill-in-the-blanks document. Fill in the details, and the plan is complete.&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;By following this workflow, your trip is planned out clearly—it’s not rocket science. However, up to this point, it’s all just mental planning. You need a proper &amp;ldquo;container&amp;rdquo; for this web of information, both for your own review and to share with your travel companions.&lt;/p&gt;
+&lt;p&gt;I have a travel itinerary template I’ve used for years. It’s essentially a series of fill-in-the-blank questions; once you plug the information into the right spots, your guidebook is complete.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/eedcf81640a1b16d68b6a60e6a4d14e6.jpg"
 loading="lazy"
 &gt;&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s divided into: Itinerary, Packing Checklist, Tips, Potential Destinations, and Travelogues &amp;amp; Guides Reference. The first three are for everyone; the last two are for my planning. A separator divides them. After planning, delete the latter and share the document.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt; and &lt;strong&gt;Travelogues &amp;amp; Guides Reference&lt;/strong&gt; are new. They&amp;rsquo;re notes for everyone and myself, recording useful information.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m sharing the template. It&amp;rsquo;s an online document; save or download it. One is blank; the other is the Dunhuang plan. Comparing them shows how I use it. If you&amp;rsquo;re planning a spring Dunhuang trip, feel free to use it directly.&lt;/p&gt;
-&lt;p&gt;Travel Plan Template: &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/docx/Fzb4dc1p8oAuPUxqPrEcFbuon2f" target="_blank" rel="noopener"
-&gt;https://qvokpfxqsh.feishu.cn/docx/Fzb4dc1p8oAuPUxqPrEcFbuon2f&lt;/a&gt;&lt;br&gt;
-Dunhuang Road Trip Plan: &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/docx/QkgRd7cefoST33xpjmucTo3Rnac" target="_blank" rel="noopener"
+&lt;p&gt;The document is divided into several modules: Itinerary, Packing List, Tips, Candidate Attractions, and References. The first three are for you and your group; the last two are backend notes for your own use while planning. There’s a divider between them—once the plan is finalized, just delete the bottom half and share it with your group.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;
+Inter-city Transport: Mode of transport.
+Local Transport: Mode of transport.
+Accommodation: Hotel name &amp;amp; nearby attractions/districts (if any).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;First, the itinerary starts with an overview—this is the core foundation of the entire plan. The critical constraints—inter-city transport, local transport, trip duration, and accommodation—are all condensed into this short paragraph. Once these are nailed down, you won&amp;rsquo;t drop the ball on the basics, even if you haven&amp;rsquo;t planned the specific daily sightseeing yet.&lt;/p&gt;
+&lt;p&gt;For multi-city trips, I expand it like this for better visibility:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;
+Inter-city Transport: Day X fly to [Place], Day X fly to [Place]&amp;hellip;
+Local Transport: [City] Metro + Taxi, [City] Walk&amp;hellip;
+Accommodation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dates (X Nights) at [City, Hotel]. Notes on location/attractions.&lt;/li&gt;
+&lt;li&gt;Dates (X Nights) at [City, Hotel]. Notes on location/attractions.&lt;/li&gt;
+&lt;li&gt;Dates (X Nights) at [City, Hotel]. Notes on location/attractions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;However, expanding it this way requires extreme caution because the dates are all interconnected. If you miss an edit and book tickets or hotels based on a typo, it’s a recipe for disaster. The cost of changing flights or overseas hotel bookings can be painful.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/Xnip2025-11-24_13-50-24.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;For tasks like this, the human brain isn&amp;rsquo;t as reliable as code. So, I built a spreadsheet tool. You fill in the table, and it auto-generates the itinerary overview, ensuring zero errors. You can simply copy it from the spreadsheet and paste it into your document:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Inter-city Transport: 17th fly to Bangkok, 19th fly to Phuket, 22nd ferry to Phi Phi Don, 27th ferry to Phuket, 28th fly to Hong Kong, 31st fly home.
+Local Transport: Bangkok Metro + Taxi, Phuket Bus + Taxi, Phi Phi Walk, Hong Kong Walk + Metro.
+Accommodation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;17-19 (2 Nights) at Bangkok Asia Hotel. Near Siam Center, convenient location.&lt;/li&gt;
+&lt;li&gt;19-22 (3 Nights) at Phuket Sugar Marina Hotel -POP- Kata Beach. Near Kata Beach.&lt;/li&gt;
+&lt;li&gt;22-27 (5 Nights) at Phi Phi The Cliff at PP. Tonsai Pier area, convenient but quiet.&lt;/li&gt;
+&lt;li&gt;27-28 (1 Night) at Phuket Nai Yang Beach Resort &amp;amp; Spa. Near Nai Yang Beach, close to airport.&lt;/li&gt;
+&lt;li&gt;28-31 (3 Nights) at Hong Kong Metropark Hotel Mongkok. Mongkok area, bustling commercial district.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Transport &amp;amp; Accommodation Planning Tool:&lt;/strong&gt; &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/wiki/IbkAwYIi6ieFcbkuIjuckpJlnQb" target="_blank" rel="noopener"
+&gt;https://qvokpfxqsh.feishu.cn/wiki/IbkAwYIi6ieFcbkuIjuckpJlnQb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/eedcf81640a1b16d68b6a60e6a4d14e6.jpg"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Back to the template. I&amp;rsquo;ve already covered the Packing List. &lt;strong&gt;Tips&lt;/strong&gt; and &lt;strong&gt;References&lt;/strong&gt; are sections I haven&amp;rsquo;t mentioned yet. These are basically notes—valuable info recorded for the group (Tips) and for your own research (References).&lt;/p&gt;
+&lt;p&gt;I’ve shared the template as an online doc; log in to save or download it. There’s a blank version and a filled-out &amp;ldquo;Dunhuang Road Trip&amp;rdquo; version. Comparing them shows exactly how I use the system. If you&amp;rsquo;re planning a trip to Dunhuang this spring, you can practically use it as is.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Travel Template:&lt;/strong&gt; &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/docx/Fzb4dc1p8oAuPUxqPrEcFbuon2f" target="_blank" rel="noopener"
+&gt;https://qvokpfxqsh.feishu.cn/docx/Fzb4dc1p8oAuPUxqPrEcFbuon2f&lt;/a&gt;
+&lt;strong&gt;Dunhuang Road Trip Guide:&lt;/strong&gt; &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/docx/QkgRd7cefoST33xpjmucTo3Rnac" target="_blank" rel="noopener"
 &gt;https://qvokpfxqsh.feishu.cn/docx/QkgRd7cefoST33xpjmucTo3Rnac&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="planning-flights-for-complex-trips"&gt;Planning Flights for Complex Trips
 &lt;/h2&gt;&lt;p&gt;Ever get stuck right at the beginning trying to sort out travel between multiple cities? It can be a real headache. This is especially true when you&amp;rsquo;re trying to find the best deals for a complex itinerary during peak holidays, like National Day or Spring Festival, when flight prices go wild.&lt;/p&gt;
