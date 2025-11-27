@@ -175,6 +175,8 @@ Using Minimax to automate Xiaohongshu as an example, you just need a precise pro
 
 Specialized Agents like Manus and Coze (bot platform) can even persist browser sessions, eliminating the need to log in every time.
 
+You can supercharge the workflow by chaining other AI tools. Get the Agent on Xiaohongshu to screen for helpful posts and grab the links. Once you’ve batched 50, dump the whole lot into NotebookLM for the analysis and discussion. Let each AI stay in its lane and play to its strengths.
+
 Realizing Agents possess this capability—doesn't that massively expand the possibilities?
 
 ## Postscript
