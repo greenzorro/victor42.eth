@@ -129,6 +129,7 @@ loading="lazy"
 &lt;p&gt;Edge Case: You may trigger a security verification QR code in the center of the screen (App scan only). If this happens, take a full-screen screenshot, save it to &amp;lsquo;download&amp;rsquo;, and wait for me to scan. Once I confirm verification is complete, proceed with the standard login steps above.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Specialized Agents like Manus and Coze (bot platform) can even persist browser sessions, eliminating the need to log in every time.&lt;/p&gt;
+&lt;p&gt;You can supercharge the workflow by chaining other AI tools. Get the Agent on Xiaohongshu to screen for helpful posts and grab the links. Once you’ve batched 50, dump the whole lot into NotebookLM for the analysis and discussion. Let each AI stay in its lane and play to its strengths.&lt;/p&gt;
 &lt;p&gt;Realizing Agents possess this capability—doesn&amp;rsquo;t that massively expand the possibilities?&lt;/p&gt;
 &lt;h2 id="postscript"&gt;Postscript
 &lt;/h2&gt;&lt;p&gt;At the start of the year, people were calling it the &amp;ldquo;Year of the Agent.&amp;rdquo; It turns out they weren&amp;rsquo;t exaggerating.&lt;/p&gt;
@@ -270,6 +271,7 @@ loading="lazy"
 &lt;p&gt;还有一种情况，你可能会遇到小红书的安全验证，那也是一个二维码，在屏幕中央，并且只允许用小红书App扫码。遇到这个就全屏截图，保存到download目录下，然后等待我帮你扫码通过验证。验证通过后我会告诉你，你再执行前面的常规登录步骤。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;像Manus和扣子空间这种专门的Agent产品，甚至还能给你记住浏览器登录状态，不用每次都登录了。&lt;/p&gt;
+&lt;p&gt;后续步骤结合其他AI工具一起用，效果还能更好。帮助Agent登录小红书后，让它只判断笔记有没有帮助，记下有用的笔记链接，攒满50条后一股脑丢给NotebookLM，分析和讨论都转移到那里。不同的AI各司其职，发挥各自的长处。&lt;/p&gt;
 &lt;p&gt;意识到Agent有这种能力后，想象空间是不是变得巨大？&lt;/p&gt;
 &lt;h2 id="后记"&gt;后记
 &lt;/h2&gt;&lt;p&gt;这一年开年时，大家就说是Agent元年，现在看来，没有夸大。&lt;/p&gt;
