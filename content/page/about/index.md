@@ -13,7 +13,7 @@ menu:
 
 ![微信公众号](https://cdn.victor42.work/assets/wechat_qr.png)
 
-社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/victor_42)  | [Github](https://github.com/greenzorro)
+社交媒体：[Twitter](https://twitter.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/victor_42)  | [Github](https://github.com/greenzorro) | [邮件](mailto:hi@victor42.work)
 
 [>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，设计水平也不咋地，不看也罢）
 
