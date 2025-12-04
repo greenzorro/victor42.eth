@@ -38,7 +38,7 @@ defaultPageLanguage = "zh-cn"
 # Author配置（Stack v3.32.0需要）
 [params.Author]
 name = "Victor42"
-email = "greenzorromail@gmail.com"
+email = "hi@victor42.work"
 
 # Google Analytics (GA4)
 # 用于网站访问统计
