@@ -269,3 +269,10 @@ Download specific categories of news from RSS:
 
 Download news from multiple channels:
 [https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3A%E5%A4%9A%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E6%96%B0%E9%97%BB](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3A%E5%A4%9A%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E6%96%B0%E9%97%BB)
+
+## Follow-up
+
+I rebuilt this using Google Apps Scripts to handle features that were tricky in Tasker. It's now cloud-deployed and scheduled to run silently overnight. Plus, I integrated AI summarization for long-form articles.
+
+Project Link:
+[https://github.com/greenzorro/google-apps-scripts/blob/main/news_feed.md](https://github.com/greenzorro/google-apps-scripts/blob/main/news_feed.md)
