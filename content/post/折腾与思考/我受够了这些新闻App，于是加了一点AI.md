@@ -269,3 +269,10 @@ Get inner XML(first match):
 
 多渠道下载新闻:
 [https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3A%E5%A4%9A%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E6%96%B0%E9%97%BB](https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&id=Task%3A%E5%A4%9A%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E6%96%B0%E9%97%BB)
+
+## 后续
+
+为实现一些Tasker不容易实现的能力，我又用Google Apps Scripts重新实现了一遍。部署在云端，设定触发器，凌晨静默运行。而且对于正文过长的新闻，还加入了AI总结能力。
+
+项目地址：
+[https://github.com/greenzorro/google-apps-scripts/blob/main/news_feed.md](https://github.com/greenzorro/google-apps-scripts/blob/main/news_feed.md)
