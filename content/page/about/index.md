@@ -11,9 +11,7 @@ menu:
 
 太长不看版，可以直接复制以下指令，让AI帮你了解我，还能深度挖掘和追问。切记要使用[Manus](https://manus.im/app)、[AutoGLM](https://autoglm.zhipuai.cn/)、[Minimax](https://agent.minimaxi.com/)这类AI Agent产品，退一步也至少得使用常规AI产品的【深度研究】功能：
 
-```text
-以 https://victor42.eth.limo/page/about/ 为出发点，顺藤摸瓜从公开网络广泛收集更多信息，帮我全面了解这位名为“Victor42”的博主。严禁推测，要找到实事依据来完善这位博主的网络面貌。这个关于页本身有的信息不必赘述，简单带过。
-```
+> 以 https://victor42.eth.limo/page/about/ 为出发点，顺藤摸瓜从公开网络广泛收集更多信息，帮我全面了解这位名为“Victor42”的博主。严禁推测，要找到实事依据来完善这位博主的网络面貌。这个关于页本身有的信息不必赘述，简单带过。
 
 ---
 
