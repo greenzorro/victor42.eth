@@ -1118,7 +1118,7 @@ loading="lazy"
 &lt;p&gt;到了AI时代，这些资料反而成为一笔意外的财富。把整个TIL目录导入到AI工具的知识库（如Cherry Studio）里，可以快速查到哪怕一项很细节的数据，让这些沉睡的知识再次发光发热。&lt;/p&gt;
 &lt;p&gt;不过，这不代表我不再需要用脑子记了。原子化的事实类信息不必占用大脑，大脑该记的是事实背后的规律。但这需要先让大量的事实过一遍脑子，脑子才能总结出规律。跳过脑子让AI给你总结，你记住的是无本之木，转瞬即忘。不然畅销书作者们为什么要把几十字的观点写成十几万字的书呢？&lt;/p&gt;
 &lt;p&gt;最后，再回到写科普文上。整个输出过程标准化以后，最重要的可能就是提出精彩的问题了。有了问题，后面的事水到渠成。&lt;/p&gt;
-&lt;p&gt;我就是我自己的知乎。&lt;/p&gt;</description></item><item><title>How I Use AI to Write High-Quality Popular Science Articles</title><link>https://victor42.eth.limo/post-en/ai-generate-popular-science-article/</link><pubDate>Mon, 30 Jun 2025 20:03:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/ai-generate-popular-science-article/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-06/f7b0ee2995396053cda405410209e00b.webp" alt="Featured image of post How I Use AI to Write High-Quality Popular Science Articles" /&gt;&lt;p&gt;I recently wrote a pop-science piece on chemistry, &lt;a class="link" href="https://victor42.eth.limo/post/en/how-water-puts-out-fire/" target="_blank" rel="noopener"
+&lt;p&gt;我就是我自己的知乎。&lt;/p&gt;</description></item><item><title>How I Use AI to Write High-Quality Popular Science Articles</title><link>https://victor42.eth.limo/post-en/ai-generate-popular-science-article/</link><pubDate>Mon, 30 Jun 2025 20:03:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/ai-generate-popular-science-article/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-06/f7b0ee2995396053cda405410209e00b.webp" alt="Featured image of post How I Use AI to Write High-Quality Popular Science Articles" /&gt;&lt;p&gt;I recently wrote a pop-science piece on chemistry, &lt;a class="link" href="https://victor42.eth.limo/post-en/how-water-puts-out-fire/" target="_blank" rel="noopener"
 &gt;Why Water Puts Out Fire&lt;/a&gt;. Did you notice it was actually written by an AI?&lt;/p&gt;
 &lt;p&gt;What? Fooling my readers? Not at all. It&amp;rsquo;s not what you think. I didn&amp;rsquo;t just give a prompt like &amp;ldquo;write a pop-science article on why water puts out fire&amp;rdquo; and blindly copy-paste the output. Try it yourself, and you&amp;rsquo;ll see what a mess that makes.&lt;/p&gt;
 &lt;p&gt;This article was created using a Standard Operating Procedure (SOP) I developed to turn curiosity into genuine understanding, and then into a high-quality science article.&lt;/p&gt;
@@ -1142,7 +1142,7 @@ loading="lazy"
 &lt;p&gt;And just like that, the article is done and ready to be published.&lt;/p&gt;
 &lt;h2 id="final-thoughts"&gt;Final Thoughts
 &lt;/h2&gt;&lt;p&gt;This approach lets me deepen my own understanding—ensuring the content is something I&amp;rsquo;ve truly learned—while freeing me from the tedious work of fine-tuning sentences.&lt;/p&gt;
-&lt;p&gt;During an &lt;a class="link" href="https://victor42.eth.limo/post/en/do-you-really-know-ai/" target="_blank" rel="noopener"
+&lt;p&gt;During an &lt;a class="link" href="https://victor42.eth.limo/post-en/do-you-really-know-ai/" target="_blank" rel="noopener"
 &gt;AI workshop&lt;/a&gt; with former colleagues, someone asked what I use AI for most. My answer: &amp;ldquo;Learning.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;AI has compressed nearly all of human knowledge into its parameters. For any curious person, it&amp;rsquo;s a treasure trove. There&amp;rsquo;s so much to explore that I can barely keep up with my own learning, so why are so many people rushing to just churn out content and act as mere information pipelines?&lt;/p&gt;
 &lt;p&gt;As I once mused on X(Twitter):&lt;/p&gt;
@@ -2853,7 +2853,7 @@ loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;As AI models improve, they can reliably handle more stages. Skilled AI users, understanding different models&amp;rsquo; strengths and weaknesses, can further expand AI&amp;rsquo;s role.&lt;/p&gt;
 &lt;p&gt;In complex tasks, AI can assist at multiple stages. This can create a &amp;ldquo;Human – AI – Human – AI&amp;rdquo; relay. If a task is impossible without AI, its value is clear. If you &lt;em&gt;can&lt;/em&gt; do the AI&amp;rsquo;s part manually, weigh the trade-offs. Is it a frequent, repetitive task? Can AI reduce manual effort?&lt;/p&gt;
-&lt;p&gt;For an in-depth example, see my article: &lt;a class="link" href="https://victor42.eth.limo/post/automate-ai-illustrations-production/" target="_blank" rel="noopener"
+&lt;p&gt;For an in-depth example, see my article: &lt;a class="link" href="https://victor42.eth.limo/post-en/automate-ai-illustrations-production/" target="_blank" rel="noopener"
 &gt;Selling AI Art From First Order to Calling It Quits&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="in-conclusion"&gt;In Conclusion
 &lt;/h2&gt;&lt;p&gt;As a conceptual overview, this article doesn&amp;rsquo;t delve into specific problem-solving techniques.&lt;/p&gt;
@@ -3346,7 +3346,7 @@ loading="lazy"
 &lt;p&gt;When running this batch action, the &amp;ldquo;Open image&amp;rdquo; and &amp;ldquo;Save As&amp;rdquo; steps are overridden by new settings, allowing different images to be processed each time.&lt;/p&gt;
 &lt;p&gt;The CMYK conversion could have been done in the earlier Python step, which I initially tried. However, PIL&amp;rsquo;s color profile files aren&amp;rsquo;t professional grade and yield much poorer results than dedicated image processing software, often causing a yellowish tint across the image. Color-sensitive tasks are best left to Photoshop.&lt;/p&gt;
 &lt;p&gt;PS batch processing is incredibly powerful. For advanced uses, check out my article:&lt;/p&gt;
-&lt;p&gt;&lt;a class="link" href="https://victor42.eth.limo/en/post/3650/" target="_blank" rel="noopener"
+&lt;p&gt;&lt;a class="link" href="https://victor42.eth.limo/en/post-en/3650/" target="_blank" rel="noopener"
 &gt;Turning Photoshop into a Machine Gun with Excel&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;△ △ △ 🔮 Tech Talk Ends 🔮 △ △ △&lt;/p&gt;
 &lt;h2 id="lets-get-to-work"&gt;Let&amp;rsquo;s Get to Work
@@ -11637,8 +11637,8 @@ Delli stated they don&amp;rsquo;t make pivot hinges due to sagging and shatterin
 &lt;p&gt;&amp;ldquo;Lightwave&amp;rdquo; ovens combine microwave heating with a heating tube, half microwave, half oven. It&amp;rsquo;s a differentiated product; not as advanced as advertised, nor as terrible as rumored.&lt;/p&gt;
 &lt;p&gt;&lt;a class="link" href="https://www.zhihu.com/question/28411025" target="_blank" rel="noopener"
 &gt;https://www.zhihu.com/question/28411025&lt;/a&gt;
-&lt;a class="link" href="http://www.guokr.com/post/373417/" target="_blank" rel="noopener"
-&gt;http://www.guokr.com/post/373417/&lt;/a&gt;&lt;/p&gt;
+&lt;a class="link" href="http://www.guokr.com/post-en/373417/" target="_blank" rel="noopener"
+&gt;http://www.guokr.com/post-en/373417/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="tvs"&gt;TVs
 &lt;/h3&gt;&lt;p&gt;Choosing a TV is personal preference. But it involves considering factors related to TV usage, then choosing the TV.&lt;/p&gt;
 &lt;p&gt;First, understand common home TV signal sources, usable in combination:&lt;/p&gt;
@@ -11707,8 +11707,8 @@ Front-loading: more expensive, saves water and electricity, slower, protects clo
 &lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-30/10.jpg"
 loading="lazy"
 &gt;&lt;/p&gt;
-&lt;p&gt;For details on the louver, see: &lt;a class="link" href="https://victor42.eth.limo/post/en/3515/" target="_blank" rel="noopener"
-&gt;https://victor42.eth.limo/post/en/3515/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For details on the louver, see: &lt;a class="link" href="https://victor42.eth.limo/post-en/3515/" target="_blank" rel="noopener"
+&gt;https://victor42.eth.limo/post-en/3515/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="finishing-touches"&gt;Finishing Touches
 &lt;/h3&gt;&lt;p&gt;Finally, some miscellaneous tasks:&lt;/p&gt;
 &lt;ul&gt;
