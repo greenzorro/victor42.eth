@@ -139,7 +139,7 @@ Just like that, I had a solid list of potential destinations to start my plannin
 
 From there, I switched to my usual travel planning methodology and manually crafted the full itinerary:
 
-[A Step-by-Step Guide to Travel Planning](https://victor42.eth.limo/post/en/3642/)
+[A Step-by-Step Guide to Travel Planning](https://victor42.eth.limo/post-en/3642/)
 
 ## Hands-on Guide to Non-Standard Workflows
 
@@ -189,6 +189,6 @@ It's the perfect time to shift our perspectives and start experimenting. I just 
 
 Finally, for comparison, here's a link to a test I did a while back on AI-generated presentations. You can see just how much progress agents have made:
 
-[Can AI Make PPTs Independently Now](https://victor42.eth.limo/post/en/ai-generated-ppt/)
+[Can AI Make PPTs Independently Now](https://victor42.eth.limo/post-en/ai-generated-ppt/)
 
 ![](https://cdn.victor42.work/posts/2025-10/41d210330352023851a73ea8b5a06929.webp)
