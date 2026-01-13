@@ -8,7 +8,7 @@ url: /post-en/ai-generate-popular-science-article
 translationKey: ai-generate-popular-science-article
 ---
 
-I recently wrote a pop-science piece on chemistry, [Why Water Puts Out Fire](https://victor42.eth.limo/post/en/how-water-puts-out-fire/). Did you notice it was actually written by an AI?
+I recently wrote a pop-science piece on chemistry, [Why Water Puts Out Fire](https://victor42.eth.limo/post-en/how-water-puts-out-fire/). Did you notice it was actually written by an AI?
 
 What? Fooling my readers? Not at all. It's not what you think. I didn't just give a prompt like "write a pop-science article on why water puts out fire" and blindly copy-paste the output. Try it yourself, and you'll see what a mess that makes.
 
@@ -52,7 +52,7 @@ And just like that, the article is done and ready to be published.
 
 This approach lets me deepen my own understanding—ensuring the content is something I've truly learned—while freeing me from the tedious work of fine-tuning sentences.
 
-During an [AI workshop](https://victor42.eth.limo/post/en/do-you-really-know-ai/) with former colleagues, someone asked what I use AI for most. My answer: "Learning."
+During an [AI workshop](https://victor42.eth.limo/post-en/do-you-really-know-ai/) with former colleagues, someone asked what I use AI for most. My answer: "Learning."
 
 AI has compressed nearly all of human knowledge into its parameters. For any curious person, it's a treasure trove. There's so much to explore that I can barely keep up with my own learning, so why are so many people rushing to just churn out content and act as mere information pipelines?
 

@@ -169,7 +169,7 @@ As AI models improve, they can reliably handle more stages. Skilled AI users, un
 
 In complex tasks, AI can assist at multiple stages. This can create a "Human – AI – Human – AI" relay. If a task is impossible without AI, its value is clear. If you *can* do the AI's part manually, weigh the trade-offs. Is it a frequent, repetitive task? Can AI reduce manual effort?
 
-For an in-depth example, see my article: [Selling AI Art From First Order to Calling It Quits](https://victor42.eth.limo/post/automate-ai-illustrations-production/)
+For an in-depth example, see my article: [Selling AI Art From First Order to Calling It Quits](https://victor42.eth.limo/post-en/automate-ai-illustrations-production/)
 
 ## In Conclusion
 
