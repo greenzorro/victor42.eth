@@ -481,7 +481,7 @@ The CMYK conversion could have been done in the earlier Python step, which I ini
 
 PS batch processing is incredibly powerful. For advanced uses, check out my article:
 
-[Turning Photoshop into a Machine Gun with Excel](https://victor42.eth.limo/en/post/3650/)
+[Turning Photoshop into a Machine Gun with Excel](https://victor42.eth.limo/en/post-en/3650/)
 
 △ △ △ 🔮 Tech Talk Ends 🔮 △ △ △
 
