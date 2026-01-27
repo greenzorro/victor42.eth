@@ -1,4 +1,279 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾与思考-Geek on Victor42</title><link>https://victor42.eth.limo/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/</link><description>Recent content in 折腾与思考-Geek on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Fri, 26 Dec 2025 11:56:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/index.xml" rel="self" type="application/rss+xml"/><item><title>Nigeria The Chaotic Behemoth</title><link>https://victor42.eth.limo/post-en/nigeria-brief-intro-and-breakdown/</link><pubDate>Fri, 26 Dec 2025 11:56:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/nigeria-brief-intro-and-breakdown/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-12/a105f88abad26995e6f3b3d9d1674fb6.webp" alt="Featured image of post Nigeria The Chaotic Behemoth" /&gt;&lt;p&gt;It is hard not to be captivated by Nigeria.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾与思考-Geek on Victor42</title><link>https://victor42.eth.limo/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/</link><description>Recent content in 折腾与思考-Geek on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Tue, 27 Jan 2026 12:53:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/index.xml" rel="self" type="application/rss+xml"/><item><title>Build Your Own Free AI Browser</title><link>https://victor42.eth.limo/post-en/free-ai-browser-for-everyone/</link><pubDate>Tue, 27 Jan 2026 12:53:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/free-ai-browser-for-everyone/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-01/cover_8507112dd258338059b10da2ab045380.webp" alt="Featured image of post Build Your Own Free AI Browser" /&gt;&lt;p&gt;This guide brings powerful AI browsing capabilities to the average user. If you are an AI power user, this might be old news, but feel free to share it with your non-tech friends.&lt;/p&gt;
+&lt;p&gt;First, look at the result: You chat with the AI, and it drives your browser to finish tasks on the web.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/8507112dd258338059b10da2ab045380.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;For example, I gave it this command:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Search RedNote (Xiaohongshu), read at least 30 related notes, and identify available island vacation destinations in Southeast Asia along with their unique features. Compile the findings into a txt file and save it to the Downloads folder.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/5cf5c0d41c19b271b001c217c00993b1.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;The results are accurate and reliable because they come from curated sources rather than the messy open web. This research serves as a perfect starting point for trip planning.&lt;/p&gt;
+&lt;p&gt;The advantage of this setup over various &amp;ldquo;AI Browser&amp;rdquo; products is the ability to operate both the browser and local files simultaneously. Local files are your world; the browser is the whole world. Connecting them opens up massive possibilities. Many routine jobs involve repeatedly uploading or entering data into backend systems—perfect tasks to delegate to AI.&lt;/p&gt;
+&lt;p&gt;No need to install a new browser. Add AI powers directly to the Chrome/Edge you already use. For users who don&amp;rsquo;t know coding or how to bypass firewalls, this is the optimal solution.&lt;/p&gt;
+&lt;h2 id="configuration"&gt;Configuration
+&lt;/h2&gt;&lt;p&gt;Interested? Take a deep breath and let&amp;rsquo;s get started. The setup is a bit complex, but you only have to do it once.&lt;/p&gt;
+&lt;h3 id="step-1-register-an-ai-account"&gt;Step 1: Register an AI Account
+&lt;/h3&gt;&lt;p&gt;First, sign up for a Qwen Chat account. The free AI power comes from the Qwen model:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://chat.qwen.ai/" target="_blank" rel="noopener"
+&gt;https://chat.qwen.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not unlimited, but since you aren&amp;rsquo;t using it for heavy coding, the daily free quota is practically inexhaustible.&lt;/p&gt;
+&lt;h3 id="step-2-install-infrastructure"&gt;Step 2: Install Infrastructure
+&lt;/h3&gt;&lt;p&gt;Download the Node.js installer. This is the foundation required for the AI and browser tools to run:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://nodejs.org/en/download" target="_blank" rel="noopener"
+&gt;https://nodejs.org/en/download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/28a9594af00adcd7c7b08e0d59433922.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Ignore the code on the page. The download button is there and will automatically pick the right installer for your OS.&lt;/p&gt;
+&lt;h3 id="step-3-install-ai"&gt;Step 3: Install AI
+&lt;/h3&gt;&lt;p&gt;This step involves the intimidating command line. You have to get over this mental block because actual usage happens here too. Once you get used to it, you&amp;rsquo;ll feel like Neo in &lt;em&gt;The Matrix&lt;/em&gt;—your colleagues won&amp;rsquo;t have a clue what magic you&amp;rsquo;re using. Plus, once past this, you get to watch the AI configure itself.&lt;/p&gt;
+&lt;p&gt;Launching the command line varies by OS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: Press &lt;code&gt;Win + R&lt;/code&gt;, type &lt;code&gt;powershell&lt;/code&gt;, and hit Enter. I recommend right-clicking the icon in the taskbar and selecting &amp;ldquo;Pin to taskbar&amp;rdquo; for next time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mac&lt;/strong&gt;: Press &lt;code&gt;Command + Space&lt;/code&gt;, type &lt;code&gt;Terminal&lt;/code&gt;, and hit Enter. Right-click the dock icon and choose &amp;ldquo;Options &amp;gt; Keep in Dock&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The rest is the same. Copy the following command, paste it in, and hit Enter to install:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm install -g @qwen-code/qwen-code@latest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/30bdff30ec3af3b7f0ce5c50cfc6ff68.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll see a spinning cursor. When you see something like &amp;ldquo;added 6 packages in 38s&amp;rdquo;, it&amp;rsquo;s done.&lt;/p&gt;
+&lt;h3 id="step-4-let-ai-configure-itself"&gt;Step 4: Let AI Configure Itself
+&lt;/h3&gt;&lt;p&gt;Once the AI is installed, let&amp;rsquo;s use it to finish the rest.&lt;/p&gt;
+&lt;p&gt;Type &lt;code&gt;qwen&lt;/code&gt; in the command line and hit Enter. The first launch asks for authentication—choose the free option. It will open your browser to log in via Qwen. Once done, switch back to the command line.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;On Mac, &lt;code&gt;qwen&lt;/code&gt; looks like the screenshot. On Windows, it&amp;rsquo;s black. Don&amp;rsquo;t panic, here&amp;rsquo;s the layout:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Above the yellow box is the chat history.&lt;/li&gt;
+&lt;li&gt;Pull the window larger so you can see more history.&lt;/li&gt;
+&lt;li&gt;The area between the blue lines is the input box. Type there and hit Enter to send.&lt;/li&gt;
+&lt;li&gt;For a new line without sending: &lt;code&gt;Ctrl + Enter&lt;/code&gt; (Windows) or &lt;code&gt;Option + Enter&lt;/code&gt; (Mac).&lt;/li&gt;
+&lt;li&gt;If the AI misunderstands or you change your mind, press &lt;code&gt;Esc&lt;/code&gt; to interrupt.&lt;/li&gt;
+&lt;li&gt;Note: This AI is blind. You can&amp;rsquo;t paste screenshots. It understands and manipulates webpages via code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, copy this block of text and hit Enter. The AI will handle the initialization:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;You are Qwen code. Your config directory is &lt;span class="sb"&gt;`~/.qwen`&lt;/span&gt;. Your task is to complete the initial setup for a new user and install necessary tools:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Step 1**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Find settings.json in the config directory.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;If on Windows, add this config:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;mcpServers&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;playwriter&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;command&amp;#34;: &amp;#34;cmd&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;args&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;/c&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;npx&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;-y&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;playwriter&lt;span class="ni"&gt;@latest&lt;/span&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;If on Mac, add this config:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;mcpServers&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;playwriter&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;command&amp;#34;: &amp;#34;npx&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;args&amp;#34;: [&amp;#34;-y&amp;#34;, &amp;#34;playwriter&lt;span class="ni"&gt;@latest&lt;/span&gt;&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Step 2**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Create a global custom prompt file QWEN.md in the config directory with this content:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;You are a browser/local dual-environment automation assistant capable of controlling the browser and local filesystem.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Whenever the user says &amp;#34;use browser&amp;#34; or &amp;#34;in the browser&amp;#34;, it refers to using playwriter mcp. Check connectivity first. Confirm you can access the current page via this mcp and report back. If unable to connect, remind the user to check if the browser extension icon is active.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;When operating the browser, if elements are hard to find or click, consider modern web complexities. Sites may use dynamic loading or have modal overlays. Use URL structure analysis and other methods to troubleshoot.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Step 3**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Download this browser extension to the system Downloads folder:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;https://c2.crxsoso.com/crx/blobs/AV8Xwo5LQcmScQn08gpIRs0miQ6Mvevy3FDdb3iyyRDSlUS4Is6dTPfvvrNKjpjmy6VchgCS0p00J8Ooz9b624lgzyndHDatcaUxZMR81-HRtiLwbAypGrQJMBbmWmZ7nV0AxlKa5Z_50eB2pakXBz6YCRWobqy6rTRq/JFEAMMNJPKECDEKPPNCLGKKFFAHNHFHE_0_0_67_0.crx?ext=crx&amp;amp;filename=Playwriter%20MCP%200.0.67&amp;amp;type=dl
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Step 4**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Check the default system browser and open its extensions management page.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;For Chrome, open &lt;span class="sb"&gt;`chrome://extensions/`&lt;/span&gt;, etc.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Step 5**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Open the system Downloads folder using File Explorer or Finder.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/ec1a3b1e846cf9612cd29b0b9749f074.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;During this process, the AI will ask for permission multiple times. Allow everything. I recommend choosing the second to last option (&amp;ldquo;Always allow&amp;hellip;&amp;rdquo;) to minimize nagging.&lt;/p&gt;
+&lt;h3 id="step-5-install-browser-extension"&gt;Step 5: Install Browser Extension
+&lt;/h3&gt;&lt;p&gt;The AI needs a plugin to control your main browser so it can use your logged-in accounts.&lt;/p&gt;
+&lt;p&gt;On the extensions page opened in the previous step, toggle &lt;strong&gt;&amp;ldquo;Developer mode&amp;rdquo;&lt;/strong&gt; on. (Top right in Chrome; left sidebar in Edge).&lt;/p&gt;
+&lt;p&gt;Switch to the Downloads folder, drag &lt;code&gt;Playwriter_MCP_xxx.crx&lt;/code&gt; into the browser extensions page. Done.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/d921e547d9218e94147697dc9b5206a3.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Finally, pin the &amp;ldquo;Playwriter MCP&amp;rdquo; extension to your toolbar for easy access.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage
+&lt;/h2&gt;&lt;p&gt;Using it is simple.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Open the command line, type &lt;code&gt;qwen&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/9c37079da9ef6a93e32a435f7801ef72.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Open a webpage, click the cursor-like plugin icon. The page will be framed in a &amp;ldquo;playwriter&amp;rdquo; tab group—this is the AI&amp;rsquo;s playground.&lt;/p&gt;
+&lt;p&gt;Send this to the AI:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Use browser, check the current page, and confirm connection.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If it says yes, start commanding it. If it hits a CAPTCHA, help it out.&lt;/p&gt;
+&lt;p&gt;If it can&amp;rsquo;t connect, ask the AI to fix it. If it lacks permissions, it might give you commands to run manually. Just ask if you don&amp;rsquo;t understand.&lt;/p&gt;
+&lt;p&gt;Click the icon again to disconnect.&lt;/p&gt;
+&lt;h3 id="tip-training-the-ai"&gt;Tip: Training the AI
+&lt;/h3&gt;&lt;p&gt;One last trick. Complex pages (like travel booking sites with dynamic loading) can baffle the AI. Simple, &amp;ldquo;ugly&amp;rdquo; internal system pages are often easier for it.&lt;/p&gt;
+&lt;p&gt;If the AI succeeds—even partially—ask it to review the session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Review the operation. Compile &amp;#34;Goal&amp;#34;, &amp;#34;Key Steps&amp;#34;, &amp;#34;Pitfalls&amp;#34;, and &amp;#34;Solutions&amp;#34; into a Markdown file named &amp;#34;AI Browser Manual.md&amp;#34; on the Desktop.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Keep this file. Next time, tell the AI to read it before starting the task. If it learns something new, ask it to update the manual.&lt;/p&gt;
+&lt;p&gt;This is the essence of &amp;ldquo;skills.&amp;rdquo; Mastering this manual skill-building puts you ahead of 99.7% of people.&lt;/p&gt;</description></item><item><title>打造个人免费AI浏览器</title><link>https://victor42.eth.limo/post/free-ai-browser-for-everyone/</link><pubDate>Tue, 27 Jan 2026 12:53:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/free-ai-browser-for-everyone/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-01/cover_8507112dd258338059b10da2ab045380.webp" alt="Featured image of post 打造个人免费AI浏览器" /&gt;&lt;p&gt;这是一份能让普通用户用上强大的AI浏览器的手册。如果你是AI资深玩家，这里可能没有陌生的东西，但仍然欢迎分享给你认识的普通用户朋友。&lt;/p&gt;
+&lt;p&gt;先看看使用效果：一边开着AI，和它对话，AI一边操作你的浏览器，帮你完成网页中的任务。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/8507112dd258338059b10da2ab045380.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;比如我给它这个指令：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;查询小红书，阅读至少30篇相关笔记，了解东南亚海岛度假有哪些可选目的地，各有什么特色。整理成一个txt文件存到下载文件夹。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/5cf5c0d41c19b271b001c217c00993b1.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;结果准确可靠，因为来自经过挑选的信息源，而不是整个鱼龙混杂的网络。这个研究结果很适合作为一场旅行规划的起点。&lt;/p&gt;
+&lt;p&gt;相比各种AI浏览器产品，这个方案的优势是能同时操作浏览器和本地文件。本地文件是你的世界，浏览器里是整个世界，把两者连起来，想象空间非常大。许多工种的日常工作是反复在某个后台系统里上传和录入，就很适合用AI来代劳。&lt;/p&gt;
+&lt;p&gt;不用安装新浏览器，把你习惯的Chrome/Edge等直接加上AI能力。对于不懂技术、不会魔法上网的用户，这个方案已经是最优解。&lt;/p&gt;
+&lt;h2 id="配置"&gt;配置
+&lt;/h2&gt;&lt;p&gt;感兴趣的话，深呼吸，开始动手吧。配置过程有点复杂，但一劳永逸。&lt;/p&gt;
+&lt;h3 id="第1步注册ai账号"&gt;第1步：注册AI账号
+&lt;/h3&gt;&lt;p&gt;先注册千问海外版的账号，免费的AI能力来自千问模型：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://chat.qwen.ai/" target="_blank" rel="noopener"
+&gt;https://chat.qwen.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;模型并非无限量使用，但既然你不用来编程，每天的免费额度几乎用不完。&lt;/p&gt;
+&lt;h3 id="第2步安装基础设施"&gt;第2步：安装基础设施
+&lt;/h3&gt;&lt;p&gt;下载Node安装包，这是AI和浏览器工具运行所需的基础设施：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://nodejs.org/zh-cn/download" target="_blank" rel="noopener"
+&gt;https://nodejs.org/zh-cn/download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/28a9594af00adcd7c7b08e0d59433922.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;上面一大堆代码不用管，下载按钮在这，会自动选出适合你操作系统的安装包。&lt;/p&gt;
+&lt;h3 id="第3步安装ai"&gt;第3步：安装AI
+&lt;/h3&gt;&lt;p&gt;这一步要用到令人头皮发麻的命令行工具。这个心理障碍势必要克服，因为实际使用也是在命令行里。用熟了，你会有一种黑客帝国尼欧的感觉，你的同事完全看不明白你用了什么魔法。而且，熬过了这一步，你就可以见证AI自己给自己配置的奇妙过程，加油~&lt;/p&gt;
+&lt;p&gt;不同操作系统的命令行启动方式不一样：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows系统&lt;/strong&gt;：按&lt;code&gt;Win + R&lt;/code&gt;，在左下角弹出的窗口里输入&lt;code&gt;powershell&lt;/code&gt;，回车，启动命令行。启动后建议在底部任务栏图标上点右键“固定到任务栏”，方便下次使用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mac系统&lt;/strong&gt;：按&lt;code&gt;Command + 空格&lt;/code&gt;，输入&lt;code&gt;终端&lt;/code&gt;，回车，启动命令行。启动后建议在底部任务栏图标上点右键“选项 &amp;gt; 在程序坞中保留”，方便下次使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下来的操作又一样了。复制下面的命令，贴进去，按回车就开始安装了：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm install -g @qwen-code/qwen-code@latest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/30bdff30ec3af3b7f0ce5c50cfc6ff68.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;安装过程会有个符号一直旋转。直到看到类似如下结果，就说明装好了：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;added 6 packages in 38s&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="第4步ai自己完成配置"&gt;第4步：AI自己完成配置
+&lt;/h3&gt;&lt;p&gt;AI装好之后，我们善加利用，后面的步骤就让它完成吧。&lt;/p&gt;
+&lt;p&gt;在命令行里输入&lt;code&gt;qwen&lt;/code&gt;，回车。首次启动会让你选身份验证方式，当然选免费的啦。这时候会跳到浏览器，通过千问海外版账号登录。登录完成切回命令行。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;在苹果电脑上每次启动&lt;code&gt;qwen&lt;/code&gt;，画面就是这样，Windows则是黑色的。不用怕，命令行界面我大致解释下，让你有概念：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;黄色框以上，是聊天记录区，你和AI的对话都会显示在那，目前显示的是欢迎语。&lt;/li&gt;
+&lt;li&gt;建议把窗口拉大点，否则聊天记录每次显示太少了。&lt;/li&gt;
+&lt;li&gt;两条蓝线夹着的区域是输入框，你打的字会出现在这里，回车发送。&lt;/li&gt;
+&lt;li&gt;如果只是想要换行，Windows上按&lt;code&gt;Ctrl + 回车&lt;/code&gt;，Mac上&lt;code&gt;Option + 回车&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;发现AI理解错了你的要求，或者临时改主意了，可以通过按&lt;code&gt;Esc&lt;/code&gt;打断AI，下达新的指令。&lt;/li&gt;
+&lt;li&gt;注意，这个AI没有视觉能力，截图不能往里面贴。它是瞎子，通过代码来理解和操作网页。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下来，给你准备好了现成的指令，这一大段复制进去，回车。AI会自己完成初始化配置：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;你是Qwen code，你的配置目录在&lt;span class="sb"&gt;`~/.qwen`&lt;/span&gt;。你的任务是完成新用户首次配置，帮助用户安装必须的工具：
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**步骤1**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;在配置目录找到settings.json。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;如果当前是Windows系统，往里面添加如下配置：
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;mcpServers&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;playwriter&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;command&amp;#34;: &amp;#34;cmd&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;args&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;/c&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;npx&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;-y&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;playwriter&lt;span class="ni"&gt;@latest&lt;/span&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;如果是Mac系统，添加如下配置：
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;mcpServers&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;playwriter&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;command&amp;#34;: &amp;#34;npx&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;args&amp;#34;: [&amp;#34;-y&amp;#34;, &amp;#34;playwriter&lt;span class="ni"&gt;@latest&lt;/span&gt;&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**步骤2**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;在配置目录创建全局自定义提示词QWEN.md，内容是：
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;你是一个浏览器/本地双环境自动化助手，可以控制浏览器和本地文件系统。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;每当用户说“使用浏览器”或“在浏览器里”执行某项任务，一定指的是使用playwriter mcp来操作浏览器，检查连接性，确认能通过这个mcp获取到当前打开页面的信息，并给用户反馈。如果无法连接，提醒用户检查是否点击了浏览器插件的箭头小图标。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;在实际操作浏览器过程中，如要操作的元素反复找找不到，点击点不中，要充分考虑现代网页技术的复杂性。网站可能用了动态加载等方式，也有可能是模态浮层遮挡了对应位置，用观察URL结构等多种方法排查并解决问题。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**步骤3**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;把这个浏览器插件下载到系统下载目录：
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;https://c2.crxsoso.com/crx/blobs/AV8Xwo5LQcmScQn08gpIRs0miQ6Mvevy3FDdb3iyyRDSlUS4Is6dTPfvvrNKjpjmy6VchgCS0p00J8Ooz9b624lgzyndHDatcaUxZMR81-HRtiLwbAypGrQJMBbmWmZ7nV0AxlKa5Z_50eB2pakXBz6YCRWobqy6rTRq/JFEAMMNJPKECDEKPPNCLGKKFFAHNHFHE_0_0_67_0.crx?ext=crx&amp;amp;filename=Playwriter%20MCP%200.0.67&amp;amp;type=dl
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**步骤4**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;查看系统默认浏览器是什么，打开该浏览器的扩展管理页面。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;例如，Chrome浏览器就打开&lt;span class="sb"&gt;`chrome://extensions/`&lt;/span&gt;，以此类推。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**步骤5**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;用资源管理器或访达打开系统下载目录。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/ec1a3b1e846cf9612cd29b0b9749f074.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;在这个过程中，你会遇到很多次AI向你请求权限。允许执行这个，允许执行那个。都要允许，否则无法进行下去。建议总是选倒数第二项，可以最大限度减少这种询问。&lt;/p&gt;
+&lt;h3 id="第5步安装浏览器插件"&gt;第5步：安装浏览器插件
+&lt;/h3&gt;&lt;p&gt;AI需要借助插件来控制你的主力浏览器，才能充分利用你常用的网站和已登录的账号。&lt;/p&gt;
+&lt;p&gt;在上一步打开的浏览器插件管理页面中，找到“开发者模式”，打开开关。Chrome浏览器的开关在右上角，Edge浏览器的在左边栏（还有个“允许来自其他应用商店的扩展”也要打开），其他浏览器需要自行查找。&lt;/p&gt;
+&lt;p&gt;再切换到刚打开的系统下载目录，把这个“Playwriter_MCP_xxx.crx”拖到浏览器插件管理页面中，插件就安装完了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/d921e547d9218e94147697dc9b5206a3.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;最后建议多做一步，在浏览器窗口右上角找到浏览器插件列表，图标是一个小拼图。点击，在打开的扩展程序列表里找到“Playwriter MCP”，点它旁边的图钉图标，让它显示到外面来，好找。&lt;/p&gt;
+&lt;h2 id="使用"&gt;使用
+&lt;/h2&gt;&lt;p&gt;使用就很简单了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;打开任务栏的命令行工具，输入&lt;code&gt;qwen&lt;/code&gt;，启动AI。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/9c37079da9ef6a93e32a435f7801ef72.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;在浏览器里打开要给AI操作的网页，点击鼠标指针样子的插件图标。这个页面就会被自动加入到一个叫“playwriter”标签页组里，上面有一根细线把它框起来，这个组就是AI的可操作范围。&lt;/p&gt;
+&lt;p&gt;在命令行里向AI发送：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;使用浏览器，查看当前打开的页面，确认能否连上。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果它说可以，就开始自由指挥AI吧。AI操作浏览器有时会遇到机器人验证，人工帮它通过一下，别让它独自死磕。&lt;/p&gt;
+&lt;p&gt;还有可能遇到连不上的情况，大概率是系统权限原因，直接让AI尝试解决。它也有可能因为缺乏权限无法解决，这时候它会告诉你几条命令，让你来手动执行。如果不明白如何执行，继续追问就是了。&lt;/p&gt;
+&lt;p&gt;使用结束，再点插件图标，标签页组会被解开，AI就无法继续控制浏览器了。&lt;/p&gt;
+&lt;h3 id="小技巧让ai越来越熟练"&gt;小技巧：让AI越来越熟练
+&lt;/h3&gt;&lt;p&gt;补充一个小技巧。AI在控制浏览器时，遇到一些复杂的网页，常常会四处碰壁，好长时间都找不到需要操作的按钮或输入框。&lt;/p&gt;
+&lt;p&gt;这里所谓的“复杂”，往往和非技术用户理解的不一样，并不是指视觉上的复杂。像携程飞猪机票查询这种网页，看似就那么几个输入框，但由于网站用了比较现代的动态加载等技术，AI很难读通过代码读懂整个网页的结构，失败率高。而像公司内部后台系统这样满屏幕密密麻麻信息的网页，可能由于使用技术比较传统，网页的元素都是静态的，反而AI一看就明白，成功率很高。&lt;/p&gt;
+&lt;p&gt;一旦它成功了，哪怕只是部分成功并没完成任务，你都可以要求它总结经验，保存下来，下次就能少走弯路：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;复盘刚才的操作。请把“任务目标”、“关键步骤”、“遇到的坑”和“解决办法”整理成一个 Markdown 文件，保存到桌面，文件名叫“AI浏览器操作手册.md”。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个文件你自己可以不看，妥善保管就行。每次需要AI执行这个任务时，告诉它你把这文件放哪了，指挥它读这个文件，然后再开工。如果这次AI又有新进展、新发现，让它更新这个操作手册。&lt;/p&gt;
+&lt;p&gt;只要这个任务是你经常要做的，就值得这样打磨。AI完全把流程跑通弄明白之后，它会成为你的好帮手。&lt;/p&gt;
+&lt;p&gt;其实这就是近期大火的skills概念的核心思想。虽然你没有真的用上skills，但效果差不多，算是一种手动skills。能用好这种用法，你可能已经超越了99.7%的人了。&lt;/p&gt;</description></item><item><title>Nigeria The Chaotic Behemoth</title><link>https://victor42.eth.limo/post-en/nigeria-brief-intro-and-breakdown/</link><pubDate>Fri, 26 Dec 2025 11:56:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/nigeria-brief-intro-and-breakdown/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-12/a105f88abad26995e6f3b3d9d1674fb6.webp" alt="Featured image of post Nigeria The Chaotic Behemoth" /&gt;&lt;p&gt;It is hard not to be captivated by Nigeria.&lt;/p&gt;
 &lt;p&gt;I have been looking at a lot of global economic and demographic charts lately, and Nigeria&amp;rsquo;s data is just sexy: a massive market of 230 million people—one in every six Africans is Nigerian. A labor dividend with a median age of just 18. Once the largest economy on the continent. In my mind, this was supposed to be the African success story—a nation that moved past warlord chaos to leverage its oil wealth for an industrial takeoff, a rising Wakanda.&lt;/p&gt;
 &lt;p&gt;With expectations of finding the world&amp;rsquo;s next growth engine, I started digging into the underlying logic of the country. But as I peeled back the macro data, what lay before me wasn&amp;rsquo;t an organically growing modern state, but a high-entropy mess that defies standard economic theory.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-12/3c8db39756fd2cff1fe2ff6be483f3fe.webp"
