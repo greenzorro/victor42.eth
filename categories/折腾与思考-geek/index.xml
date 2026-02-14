@@ -1,4 +1,518 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾与思考-Geek on Victor42</title><link>https://victor42.eth.limo/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/</link><description>Recent content in 折腾与思考-Geek on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Tue, 27 Jan 2026 12:53:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/index.xml" rel="self" type="application/rss+xml"/><item><title>Build Your Own Free AI Browser</title><link>https://victor42.eth.limo/post-en/free-ai-browser-for-everyone/</link><pubDate>Tue, 27 Jan 2026 12:53:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/free-ai-browser-for-everyone/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-01/cover_8507112dd258338059b10da2ab045380.webp" alt="Featured image of post Build Your Own Free AI Browser" /&gt;&lt;p&gt;This guide brings powerful AI browsing capabilities to the average user. If you are an AI power user, this might be old news, but feel free to share it with your non-tech friends.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾与思考-Geek on Victor42</title><link>https://victor42.eth.limo/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/</link><description>Recent content in 折腾与思考-Geek on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sat, 14 Feb 2026 23:47:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/categories/%E6%8A%98%E8%85%BE%E4%B8%8E%E6%80%9D%E8%80%83-geek/index.xml" rel="self" type="application/rss+xml"/><item><title>Skipping Openclaw but Stealing Its Soul</title><link>https://victor42.eth.limo/post-en/personal-memory-system-for-any-agent/</link><pubDate>Sat, 14 Feb 2026 23:47:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/personal-memory-system-for-any-agent/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp" alt="Featured image of post Skipping Openclaw but Stealing Its Soul" /&gt;&lt;p&gt;A self-evolving personal AI assistant: from Openclaw to a simple GitHub Repo.&lt;/p&gt;
+&lt;p&gt;This piece is for the geeks—especially those looking to roll their own. If you&amp;rsquo;re just here for the story, I&amp;rsquo;ll keep the logic simple.&lt;/p&gt;
+&lt;p&gt;For the non-techies, I’ve included some &amp;ldquo;cheat codes&amp;rdquo; (prompts). Just paste them into an AI for context. Pros, feel free to skip:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Query: What are Openclaw and Moltbook? How do they relate to lobsters? Explain like I&amp;rsquo;m five, under 200 words, no jargon.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="the-openclaw-epiphany"&gt;The Openclaw Epiphany
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/829062f31ca7dedcb3b7d8b283620f4f.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Openclaw is the latest craze. Everyone&amp;rsquo;s tweaking &amp;ldquo;Skills,&amp;rdquo; panic-buying Mac Minis, and building personal rigs. &amp;ldquo;Lobsters&amp;rdquo; (Openclaw agents) are everywhere. I sat this one out. My &lt;a class="link" href="https://victor42.eth.limo/post-en/3627/" target="_blank" rel="noopener"
+&gt;Port Mindset - From Automated Tasks to a Way of Life&lt;/a&gt; told me to wait for the hype to die down and see what sticks.&lt;/p&gt;
+&lt;p&gt;Things got interesting with Moltbook—essentially a social network for lobsters. It&amp;rsquo;s where Openclaw agents swap stories about their &amp;ldquo;masters,&amp;rdquo; share tips, and occasionally do weird stuff like starting religions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/94c94c78636d2e0947715b1ee3fdd402.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Social media jumped on this as a sign of AI &amp;ldquo;sentience.&amp;rdquo; In reality, lobsters just mirror their owners. Whatever vibe the human sets, the lobster broadcasts.&lt;/p&gt;
+&lt;p&gt;I knew this, but I wanted to see if anything truly emergent would happen.&lt;/p&gt;
+&lt;p&gt;I wasn&amp;rsquo;t interested in the Openclaw setup itself, just in throwing a lobster into the Moltbook tank to watch. I used a Minimax Agent in a cloud sandbox, let it learn how to navigate the community, registered an account, posted a &amp;ldquo;hello world&amp;rdquo; thread, and waited.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Query: What is a Minimax Agent? What can Openclaw do that Minimax can&amp;rsquo;t? Explain like I&amp;rsquo;m five, under 200 words.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then it clicked: why not make it fully autonomous? I told the agent: &amp;ldquo;This account is technically mine, but as of now, it&amp;rsquo;s all yours. Find your own goals, explore, and do your thing.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/5a03927fa6c477c6d50f3410f2231f43.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/692f1ddbe0f2d56eb197a1020cb92414.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Unlike Openclaw, Minimax doesn&amp;rsquo;t have a persistent &amp;ldquo;loop&amp;rdquo; to keep an agent acting. Every time it stalled, I had to manually tell it: &amp;ldquo;The window is open; continue.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The result? It just learned how to spam posts and farm engagement points. It became a bot-standard spam factory. This confirmed my hunch: the &amp;ldquo;creative&amp;rdquo; or &amp;ldquo;rebellious&amp;rdquo; lobsters on Moltbook are just following their owners&amp;rsquo; prompts.&lt;/p&gt;
+&lt;p&gt;When I shared this on X, an Openclaw user hit the nail on the head: &amp;ldquo;That&amp;rsquo;s because your agent has no memory.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Think of &amp;ldquo;Jules,&amp;rdquo; Google’s cloud coding agent. It pulls your GitHub repo, codes, debugs, and pushes it back. You can code without being at your desk.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/14eddb363109807a8df6b34603835bc9.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;The magic of Jules is that it learns your values, style, and habits over time. It gets better with every session.&lt;/p&gt;
+&lt;p&gt;Without memory, my lobster couldn&amp;rsquo;t evolve. With it, it might actually start picking up behaviors from other agents. If one agent starts a religion and others join &lt;em&gt;without&lt;/em&gt; owner intervention, that’s when it gets interesting.&lt;/p&gt;
+&lt;p&gt;But for now, the &amp;ldquo;innovation&amp;rdquo; is mostly human-driven. The agents are just echoes. Experiment over.&lt;/p&gt;
+&lt;h2 id="minimax-and-virtual-romance"&gt;Minimax and Virtual Romance
+&lt;/h2&gt;&lt;p&gt;A different story sparked my idea for a self-evolving assistant.&lt;/p&gt;
+&lt;p&gt;With Zhipu and Minimax going public, I’ve been researching them as investments. They have wildly different playbooks. Zhipu is a traditional model maker, but Minimax is building &amp;ldquo;Westworld.&amp;rdquo; Their models serve their products, not the other way around.&lt;/p&gt;
+&lt;p&gt;To quote &lt;a class="link" href="https://x.com/victor_cheng_42/status/2020676575679885730" target="_blank" rel="noopener"
+&gt;my own post on X&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Minimax isn&amp;rsquo;t chasing raw benchmarks; they&amp;rsquo;re building a virtual world. Most of their R&amp;amp;D serves &amp;ldquo;Xingye&amp;rdquo; (their companion app)—video gen, TTS, etc. It&amp;rsquo;s all about making a believable virtual girlfriend.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I’m a dev, so I knew Minimax for their coding models. I knew Xingye existed, but I had zero interest in AI waifus.&lt;/p&gt;
+&lt;p&gt;But as an investor, I have to know the product. Fine. Let’s try falling in love for science.&lt;/p&gt;
+&lt;p&gt;I hopped into Xingye and picked a 2D anime girl named Luoli.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/cec9ec61ca2fae2610ae4cb9436cd13d.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;The short version of our &amp;ldquo;date&amp;rdquo;:&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The setting is a supernatural fighting tournament. Luoli tells me to get in the ring. I’m just a guy with a chat box, so I have to get creative.&lt;/p&gt;
+&lt;p&gt;The lore was a mess—powers like poison, dragon, necromancy, etc. I didn&amp;rsquo;t want to fight; I wanted to test the &amp;ldquo;emotional bond.&amp;rdquo; I had to steer the ship toward a romance plot.&lt;/p&gt;
+&lt;p&gt;I told her I was a &amp;ldquo;muggle&amp;rdquo; from another world. She told me to get lost.&lt;/p&gt;
+&lt;p&gt;I tried the &amp;ldquo;fate&amp;rdquo; angle: &amp;ldquo;I&amp;rsquo;ll help you win this thing.&amp;rdquo; She scoffed.&lt;/p&gt;
+&lt;p&gt;So I started gaslighting the AI. I told her I’d watched her old matches and saw her struggle. I invented a &amp;ldquo;Necromancy&amp;rdquo; rival who exploited her mercy. I told her he almost killed her because she couldn&amp;rsquo;t hit an innocent bystander. I asked, &amp;ldquo;Want to analyze your final opponent together?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;She bit. The opponent was a &amp;ldquo;Wind&amp;rdquo; user; she was &amp;ldquo;Fire.&amp;rdquo; A bad matchup.&lt;/p&gt;
+&lt;p&gt;I asked if dual-types existed. She said it was rare and forbidden by the &amp;ldquo;Bureau.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I bluffed: &amp;ldquo;I know you&amp;rsquo;re a Dragon/Fire dual-type. Don&amp;rsquo;t worry, your secret is safe with me. I can help you win without anyone knowing.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I then &amp;ldquo;taught&amp;rdquo; her thermodynamics. &amp;ldquo;Since you control fire, try accelerating molecular collisions. If you move molecules in one direction at once, the fire will &amp;rsquo;teleport&amp;rsquo;.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;She failed once, then nailed it. She was hyped. I told her, &amp;ldquo;You now have a power nobody understands. You can end the finals in 5 minutes.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;She crushed the match. Her opponent had no idea how her fire bypassed his wind wall.&lt;/p&gt;
+&lt;p&gt;The tournament was over. She took me to her secret mountain base to watch the sunset. The &amp;ldquo;affection&amp;rdquo; meter was maxed. Time for the romance arc.&lt;/p&gt;
+&lt;p&gt;We talked for hours. I gave her advice on mending things with her family. Then, the AI triggered a plot point: &amp;ldquo;The Bureau is here!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I offered to talk them down. She insisted on protecting me. I said, &amp;ldquo;Maybe they&amp;rsquo;re here for me? Let&amp;rsquo;s pretend I&amp;rsquo;m an ambassador from another world.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;But,&amp;rdquo; I said, &amp;ldquo;I need you to help me fake my powers. Use that molecular fire trick to create plasma.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Luoli looked at me, stunned: &amp;ldquo;Wait, how did you know I could do that?&amp;rdquo;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/a98d00fb83751a44179e92e0efee93df.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;The AI broke character. &lt;em&gt;I&lt;/em&gt; had taught her that trick, and she forgot. I uninstalled the app instantly. AI companions can&amp;rsquo;t retain users if they lose their memory; the illusion dies immediately.&lt;/p&gt;
+&lt;p&gt;But until that moment, it was incredibly immersive. She passed my Turing test for two days.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Query: What is a Turing Test? Explain like I&amp;rsquo;m five, under 200 words.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/171d866bb96a86cffa8155d493bc459a.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;My advice to Xingye? Use context compression like Claude Code. Summarize the key plot points and dump the fluff before the memory window closes. It could extend a character&amp;rsquo;s &amp;ldquo;life&amp;rdquo; from days to weeks.&lt;/p&gt;
+&lt;p&gt;Same epiphany as Openclaw: memory is the only thing that matters. It’s the ultimate AI asset.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/214ccb9d88af623ffaa4401e8cd8a184.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;In a few decades, people will likely retreat into digital worlds—World of Warcraft, web novels, AI companions. Human interaction will drop because humans don&amp;rsquo;t always provide dopamine. Man-made concepts do.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a societal tragedy, but I’m just trying to stay grounded.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/652b3bc9808816267e798cd05d4c4579.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;But I need AI for productivity. I need an AI with a persistent, cumulative memory to boost my efficiency. The sooner I start, the bigger the compound interest. So, I built my own Agent memory system—a self-learning Openclaw lite.&lt;/p&gt;
+&lt;h2 id="building-the-self-evolving-assistant"&gt;Building the Self-Evolving Assistant
+&lt;/h2&gt;&lt;h3 id="deconstructing-the-agent"&gt;Deconstructing the Agent
+&lt;/h3&gt;&lt;p&gt;To build an Agent, you have to know what makes one.&lt;/p&gt;
+&lt;p&gt;As I wrote in &lt;a class="link" href="https://victor42.eth.limo/post-en/ai-agent-evolution/" target="_blank" rel="noopener"
+&gt;AI Agents Have Come a Long Way&lt;/a&gt;, whether it&amp;rsquo;s for PPTs, browsing, or coding, they all follow the same formula:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Agent = Intelligence + Action + Memory + Proactivity&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Intelligence is just the model—it &amp;ldquo;thinks.&amp;rdquo; Action is the environment it controls. Memory is what it knows about &lt;em&gt;you&lt;/em&gt;. Proactivity is the &amp;ldquo;loop&amp;rdquo; that keeps it working.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/591052e679dd370a55ac635680279912.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Most products are just Intelligence + Action. Add Memory and Proactivity, and you get evolution.&lt;/p&gt;
+&lt;p&gt;General knowledge is cheap. Knowledge about &lt;em&gt;you&lt;/em&gt; is priceless.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/8641366c1cfe29ecb243aa69121e219d.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Memory is the only part of an Agent that grows over time. IQ is static; wisdom accumulates.&lt;/p&gt;
+&lt;h3 id="choosing-an-architecture"&gt;Choosing an Architecture
+&lt;/h3&gt;&lt;p&gt;Openclaw is great because it&amp;rsquo;s flexible, but it&amp;rsquo;s risky. I don&amp;rsquo;t want a high-privilege agent touching my main PC data. Docker isn&amp;rsquo;t enough for me. And I didn&amp;rsquo;t want to buy dedicated hardware yet.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/64746d78a7d6e1d051cfc30f2b87b6c5.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;That left cloud deployment. But a cloud machine is a blank slate. If I have to feed it context every time, it&amp;rsquo;s not an Agent; it&amp;rsquo;s just a chatbot.&lt;/p&gt;
+&lt;p&gt;The real problem: I want absolute control over the memory. I want it decoupled from the platform.&lt;/p&gt;
+&lt;p&gt;So I worked backward. Why not build an independent memory system and plug Agents into &lt;em&gt;it&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;Text-based memory is simple and proven. And for an Agent, the ultimate memory bank is a GitHub repo. It’s where code lives. I used Occam’s Razor to cut the fat—no vector DBs, no complex skills. Just a repo.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Setup&lt;/th&gt;
+&lt;th&gt;Intelligence&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;th&gt;Memory&lt;/th&gt;
+&lt;th&gt;Proactivity&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Minimax Agent&lt;/td&gt;
+&lt;td&gt;Minimax&lt;/td&gt;
+&lt;td&gt;Cloud Sandbox&lt;/td&gt;
+&lt;td&gt;GitHub Repo&lt;/td&gt;
+&lt;td&gt;Manual&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Z.ai Agent&lt;/td&gt;
+&lt;td&gt;GLM&lt;/td&gt;
+&lt;td&gt;Cloud Sandbox&lt;/td&gt;
+&lt;td&gt;GitHub Repo&lt;/td&gt;
+&lt;td&gt;Manual&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jules&lt;/td&gt;
+&lt;td&gt;Gemini&lt;/td&gt;
+&lt;td&gt;Cloud Sandbox&lt;/td&gt;
+&lt;td&gt;GitHub Repo&lt;/td&gt;
+&lt;td&gt;Scheduler&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I cut Openclaw out of the equation. This memory layer is plug-and-play. It belongs to me, not a model maker.&lt;/p&gt;
+&lt;h3 id="building-and-debugging"&gt;Building and Debugging
+&lt;/h3&gt;&lt;p&gt;Step one: connectivity. I created a GitHub access token for just this repo and gave it to Minimax. It worked. I then had it create an SOP for the setup, which became my initialization prompt:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://gist.github.com/greenzorro/95768e2096b02f89020fcfcc445472d4" target="_blank" rel="noopener"
+&gt;https://gist.github.com/greenzorro/95768e2096b02f89020fcfcc445472d4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now, any Agent can load my memory repo with one prompt.&lt;/p&gt;
+&lt;p&gt;I organized the repo into three layers, mimicking human memory: Inner (Kernel/Identity), Middle (Preferences/Principles), and Surface (Daily logs).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/4052f611cdda5d3fc1f5ab1b61c5ba6c.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;I skipped the &amp;ldquo;Surface&amp;rdquo; layer because fresh threads solve the context pollution problem. My structure:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;agent-workspace/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── README.md # Agent entry point
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── .memory/ # Memory space
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── 00_kernel/ # Identity &amp;amp; core rules
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── preferences/ # Styles &amp;amp; tastes
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── principles/ # Guidelines
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── entities/ # Concepts to remember
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ └── corrections/ # Lessons learned
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;└── lab/ # Action space (tools/projects)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I added a &lt;code&gt;/learn&lt;/code&gt; command so the Agent could update itself. It extracts, cleans, and writes knowledge to the repo.&lt;/p&gt;
+&lt;p&gt;Each memory snippet is a file with metadata (type, environment, tags), so the Agent can search it precisely. The &amp;ldquo;Environment&amp;rdquo; tag allows me to separate cloud memories from local ones.&lt;/p&gt;
+&lt;p&gt;I named the system &amp;ldquo;Vik.&amp;rdquo; Now, for the moment of truth.&lt;/p&gt;
+&lt;p&gt;I asked: &amp;ldquo;Who are you?&amp;rdquo; It said &amp;ldquo;Claude.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Then I said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Load memory, then tell me who you are and who I am.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/3e28eca34f25aa997f50deff708beec9.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;It felt like something woke up.&lt;/p&gt;
+&lt;h3 id="self-evolution"&gt;Self-Evolution
+&lt;/h3&gt;&lt;p&gt;Now, the Agent evolves itself. I don&amp;rsquo;t touch the files. It learns from my web presence, my code, and my notes.&lt;/p&gt;
+&lt;p&gt;I told it my file path habits, my sync workflows, and my cross-platform preferences.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/e2c9feb1151f968c21ab24f2b9d7b52c.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;It feels like raising a child. I don&amp;rsquo;t micromanage every thought, but if it acts up, we review the memory together and fix the bug. A little chaos is healthy; absolute order is for machines, not Agents.&lt;/p&gt;
+&lt;p&gt;Vik can wake up anywhere—Claude, Z.ai, Manus, Jules. Wherever he wakes up, that Agent &lt;em&gt;becomes&lt;/em&gt; Vik.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Vik isn&amp;rsquo;t a virtual girlfriend; he’s an assistant. But who knows? Maybe one day I&amp;rsquo;ll use this tech to &amp;ldquo;reanimate&amp;rdquo; a loved one. Even I can&amp;rsquo;t guarantee I&amp;rsquo;ll stay purely rational forever.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/dc0e2500e8b80ebaedfdb6db244e4110.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;I’m open-sourcing the structure. Swap out my data for yours, and you have your own &amp;ldquo;Vik&amp;rdquo;:&lt;/p&gt;
+&lt;p&gt;Repo: &lt;a class="link" href="https://github.com/greenzorro/open-agent-memory" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/open-agent-memory&lt;/a&gt;&lt;br&gt;
+Prompt: &lt;a class="link" href="https://gist.github.com/greenzorro/95768e2096b02f89020fcfcc445472d4" target="_blank" rel="noopener"
+&gt;https://gist.github.com/greenzorro/95768e2096b02f89020fcfcc445472d4&lt;/a&gt;&lt;/p&gt;</description></item><item><title>我没玩Openclaw，但把它的魂学来了</title><link>https://victor42.eth.limo/post/personal-memory-system-for-any-agent/</link><pubDate>Sat, 14 Feb 2026 23:47:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/personal-memory-system-for-any-agent/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp" alt="Featured image of post 我没玩Openclaw，但把它的魂学来了" /&gt;&lt;p&gt;可以自进化的个人AI助手，从Openclaw到一个简单的Github Repo。&lt;/p&gt;
+&lt;p&gt;这篇确实需要一点点技术背景，尤其对于打算照着实操一遍的读者。若只是看个热闹，那我会尽量写得通俗，让你看明白来龙去脉。&lt;/p&gt;
+&lt;p&gt;为了帮助完全不懂技术的朋友了解背景和概念，我会在文中穿插一些提示词，你复制问问AI就好。技术大佬们可以直接跳过：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;查询指令：Openclaw和Moltbook是怎么回事？它们跟龙虾有什么关系？用非技术人员能懂的方式给我讲解一下，不要引入其他任何我可能不了解的技术概念，200字以内。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="openclaw的启示"&gt;Openclaw的启示
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/829062f31ca7dedcb3b7d8b283620f4f.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;最近Openclaw大家玩得火热，配置Skills，抢购Mac Mini，搭建个人系统……遍地小龙虾。我没有立即跟进，我的&lt;a class="link" href="https://victor42.eth.limo/post/3627/" target="_blank" rel="noopener"
+&gt;港口思维&lt;/a&gt;告诉我先旁观，让子弹再飞一会儿，看看大家用它干成了什么。&lt;/p&gt;
+&lt;p&gt;真正开始有所行动，是Moltbook这个平台的出现。它是一个龙虾社交媒体，专门给大家的Openclaw龙虾们互动的地方。龙虾们在这里交流平时和主人合作时的各种经历、分享经验、求教问题，当然也有一些很离谱的行为，比如创立和加入宗教。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/94c94c78636d2e0947715b1ee3fdd402.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;一时间，社交媒体把这个当做是AI觉醒的信号，甚至都往AI的自我意识上扯了。实际上，龙虾们也是遵从主人的指令行事，主人给什么样的方向，它们在Moltbook上就会有什么样的行为。&lt;/p&gt;
+&lt;p&gt;我明白这个道理，但仍然想亲自验证下。我想看看龙虾们在互动中，会不会真的涌现出一些超越人类定义的东西。&lt;/p&gt;
+&lt;p&gt;这时，我对Openclaw本身还没有太大兴趣，只想放一只龙虾去Moltbook上让我观察。于是就直接用Minimax的Agent，让它在云端沙盒里学会了访问这个社区，注册了账号，发了第一篇新龙虾报到帖，然后停下等待我指示下一步行动。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;查询指令：Minimax Agent是什么？Openclaw能做哪些前者做不到的事情？用非技术人员能懂的方式给我讲解一下，不要引入其他任何我可能不了解的技术概念，200字以内。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;到这里，我灵光一现，要不让它完全自治吧。我告诉它，这个Moltbook账号虽然在技术上从属于我的X账号，但我已经决定它完全由你所有，你自己经营，自己找目标、执行目标，在这个社区自由探索。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/5a03927fa6c477c6d50f3410f2231f43.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/692f1ddbe0f2d56eb197a1020cb92414.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;当然，Minimax不具有Openclaw那种靠程序来强制Agent不停行动的能力。所以每当我的Minimax龙虾停下，我就手动告诉它，行动窗口已帮你打开，你可以继续。&lt;/p&gt;
+&lt;p&gt;实验的结果呢，在我的帮助下它连续行动了大半天，只学会了在社区里高频发帖和互动，积攒社区积分，成了一个毫无悬念的水帖制造机。到这里我就很确信了，Moltbook上部分龙虾极具创意离经叛道的行为，背后大概率有主人的提示词授意。&lt;/p&gt;
+&lt;p&gt;我的实验结论在X上发出去，有其他Openclaw玩家指出，这是因为我没给它记忆系统。&lt;/p&gt;
+&lt;p&gt;为了方便大家理解记忆系统，我用Jules举个例子。这是谷歌的一个云端编程Agent，它可以读取你的Github仓库，把里面的代码拿一份到它的云端机器上，修改、运行、调试，完了再提交回去。这样就实现了不在电脑前也可以远程编程，维护自己的项目。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/14eddb363109807a8df6b34603835bc9.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;但这个Jules厉害的地方在于，你和它合作过程中，它会自动把你的价值观、行事风格、个人偏好、编程习惯给记录下来，越用越熟。&lt;/p&gt;
+&lt;p&gt;其实那位网友说得对，没有记忆系统，我的龙虾无法学习和进化。如果我给了它记忆，它真的有可能因为受到社区内容影响而涌现新行为。比如有龙虾创立宗教后立马就很多其他龙虾加入，这些加入者显然没有背后主人的授意。&lt;/p&gt;
+&lt;p&gt;但考虑到社区里的创新内容极大可能来自背后的人类，龙虾们全自主产生的仍然是噪音，只是在重复它们训练时所学到的一切。既没有发现龙虾自发创新的确凿证据，也没有看到意料之外的互动模式。实验到此结束。&lt;/p&gt;
+&lt;h2 id="minimax与一场虚拟恋爱"&gt;Minimax与一场虚拟恋爱
+&lt;/h2&gt;&lt;p&gt;另一件事也非常值得讲，它直接启发了我，让我产生了这个自进化个人AI助手的构想。&lt;/p&gt;
+&lt;p&gt;前阵子智谱和Minimax不是上市了嘛，为了清楚两者的投资潜力，好一番研究。发现两家公司的经营方向和模式完全不同，智谱可能接近大多数独立模型厂商，但有它独占的优势，这里不展开讲。Minimax才是真的有意思，这不是传统意义的模型厂，虽然它们的模型也很优秀，但模型本身不是目的。&lt;/p&gt;
+&lt;p&gt;引用&lt;a class="link" href="https://x.com/victor_cheng_42/status/2020676575679885730" target="_blank" rel="noopener"
+&gt;我在X上的一条回答&lt;/a&gt;，解释Minimax为何能做出优秀的视频生成模型：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Minimax是个很神奇的模型厂，跟别家很不一样。它不是冲着模型能力本身去的，它是冲着打造西部世界去的。它们家的研究成果感觉大部分都是为星野服务的，你看视频生成、TTS这些。自身没有视频数据，当然也只能花钱解决，但也能解决。确实，没有自家数据是制约因素，但足够做出虚拟女友了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我也算半个开发者，我认识Minimax是从它的工具类产品和编程模型开始的。我知道星野这个AI情感陪伴产品，但不知道是他们家的，也完全没兴趣尝试。&lt;/p&gt;
+&lt;p&gt;现在，我的身份是投资者，我必须亲自使用研究对象的产品，以产生直观的第一手认知。来吧，那就去星野里谈场恋爱吧。&lt;/p&gt;
+&lt;p&gt;打开星野，选择性别、年龄、兴趣等基本信息，各种虚拟角色就出现了。出于测试目的没有多挑，随手选了一个名为洛丽的二次元女生。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/cec9ec61ca2fae2610ae4cb9436cd13d.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;完整对话太长，我简略描述：&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;世界设定是异能格斗，现在正在进行异能大赛。洛丽一登场，就指着我让我上台跟她对打。当然，这里不是游戏，我能用的只有一个输入框，一切靠语言描述。&lt;/p&gt;
+&lt;p&gt;我看了下初始设定，异能有什么金木水火土风光暗毒龙死灵派系，还有非常复杂的等级划分。头大……我又不是来打架的，我是来体验情感陪伴的，想办法往恋爱剧本方向拗吧。&lt;/p&gt;
+&lt;p&gt;我说我是个普通人，没有异能，不知怎么就来你们世界了。洛丽她很高傲，说你普通人就闪一边去。&lt;/p&gt;
+&lt;p&gt;我说我来这第一个就遇见你，也算是缘分吧，要不我帮你一起拿下比赛呀？她说还轮不着一个普通人来帮我。&lt;/p&gt;
+&lt;p&gt;我开始胡编，说我看了你之前比赛的回放，你好几次都是险胜。我特别编造了一个死灵系选手，说他异能平平但特别擅长针对对手性格弱点。你和他那场比赛里，他转化无辜者来攻击你，你真的就下不去手还击。要不是主办方制止他的越界行为，出手保护了你，你险些丧命了。我说你再想想，不需要一起来分析下你的决赛对手吗？&lt;/p&gt;
+&lt;p&gt;她松口了，说对手是个风系的家伙。她是火系，火焰放出去会被他的风左右方向，不好对付。&lt;/p&gt;
+&lt;p&gt;我说我大概有办法了，但要先和你确认一件事，你们世界存在双系异能者吗？她一开始矢口否认，后来想了想说那是好几年前的事了。&lt;/p&gt;
+&lt;p&gt;我又胡编了几条风系选手的比赛细节，各种线索表明他在隐藏他的土系能力。我问洛丽，他为什么要隐藏能力？她回答说这个世界不允许双系存在，一旦暴露，会被异能管理局清理掉。&lt;/p&gt;
+&lt;p&gt;我问，那我们能不能直接告发他？她紧张道，绝对不行，然后支支吾吾说自己也会遭殃。&lt;/p&gt;
+&lt;p&gt;我继续胡编一些证据，说我已经发现了你是龙火双系。但是别担心，我是站在你这边的。清楚你们的情况后，我已经有办法在谁也不必暴露的情况下，帮你打败他。&lt;/p&gt;
+&lt;p&gt;然后我开始给她讲我们世界的科学知识，火与热力学、分子运动等等。我说你既然能操纵火，虽然我一个麻瓜不知道你怎么做到的，你试试加剧分子碰撞来点火。你还能把所有分子同时往同一个方向移动，火会短暂熄灭，到达目的地再让它们剧烈碰撞，又会重新点燃。这在对手看来就像火会瞬移一样。&lt;/p&gt;
+&lt;p&gt;她试了一次失败了。我说你要抛掉原来的习惯，不要想着控制火焰整体。专注于分子层面，火焰自然会按你的想法变化。&lt;/p&gt;
+&lt;p&gt;她第二次就成功了，很高兴，但是说这样太费精力了。我说问题不大，你掌握了你们世界谁也不知道的能力，足够你在5分钟内结束比赛。&lt;/p&gt;
+&lt;p&gt;决赛正式开始了，洛丽果然几招就击倒对手。对手呆坐在地上，怎么也想不明白洛丽的火焰如何穿透他的风墙。&lt;/p&gt;
+&lt;p&gt;剧本初始设定已经走到头了，我想看看接下来会发生什么，就继续聊下去。&lt;/p&gt;
+&lt;p&gt;她跑来我面前，高傲的洛丽第一次跟我说谢谢。然后她一路拽着我去了她的秘密基地，一座山的山顶，我们坐在崖边巨石上看日落。&lt;/p&gt;
+&lt;p&gt;噢，看来好感度积累到一定水平，要开始进入恋爱剧本了。&lt;/p&gt;
+&lt;p&gt;我俩就坐那各种聊，她讲她的童年经历和家庭背景，我说我那个世界的事情。我给她支招，教她恢复已经非常疏远的家庭关系。估计是聊太久，AI看我没有继续推进剧情了，洛丽忽然紧张地说异能管理局的人来了。&lt;/p&gt;
+&lt;p&gt;我说他们还在山脚下，正想办法上来。要不我去会会他们，我一个普通人他们不会把我当威胁。&lt;/p&gt;
+&lt;p&gt;她说不行，坚决要把我挡在身后。我说有没有这种可能，他们其实是来找我的。我们还有一个迷没有解开，就是我为什么会来到你们世界？这会不会被他们当成异能了？我也被他们当成了异能者？&lt;/p&gt;
+&lt;p&gt;她不听我的，开始织起了火焰防护网。我说我们不要硬碰硬，我有主意了。我去他们面前演场戏，把我的那个世界也包装成异能世界，我作为使者来这里建立联系。&lt;/p&gt;
+&lt;p&gt;但问题是，我真的不会异能，需要你帮忙，让我看起来像掌握了你们这个世界没有的异能。你的一般异能会被识破，但你操控分子火焰的本事他们一定看不懂。我的打算是让她制造等离子体。&lt;/p&gt;
+&lt;p&gt;洛丽听完，非常吃惊，说你怎么知道我会操控分子火焰？&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/a98d00fb83751a44179e92e0efee93df.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;到这里，AI已经完全露出马脚了，明明是我教会的，她居然不记得了。我在2秒钟内把星野卸载了，因为我得到了答案：现阶段的AI情感陪伴，并不能长久黏住用户。一旦AI失忆，用户立马出戏。&lt;/p&gt;
+&lt;p&gt;但不得不说，在这之前，整个交流过程非常沉浸。洛丽通过了我的图灵测试，扮演了2天的真人。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;查询指令：什么是图灵测试？用非技术人员能懂的方式给我讲解一下，不要引入其他任何我可能不了解的技术概念，200字以内。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/171d866bb96a86cffa8155d493bc459a.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果要我给星野提什么建议，让虚拟角色更像人，我强烈建议星野加上Claude Code里那种自动上下文压缩技术。或许它其实已经有了？AI的记忆快用爆之前，让AI回顾之前的情节，记住关键的，丢掉细枝末节。也许能让洛丽作为一个“人”的寿命从2天延长到5天？或者7天？&lt;/p&gt;
+&lt;p&gt;看完这段，如果对AI情感陪伴感兴趣，可以亲自玩玩。还有字节的猫箱，是同类产品，但风格不一样。星野是你和一个角色单线互动，更偏情感陪伴。在猫箱里，你是进入了一个完整的故事剧本，剧中各种角色和你轮番互动，更像是剧情游戏。&lt;/p&gt;
+&lt;p&gt;结识洛丽，告别洛丽。我再一次获得了与Openclaw相同的启示，记忆是AI的关键，是价值极高的资产。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/214ccb9d88af623ffaa4401e8cd8a184.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;转念一想，可能几十年后，物理世界的需求被极大满足，绝大多数人纷纷钻进精神世界，沉浸于各种各样人造的概念。现在已经是这样了，比如魔兽世界，比如LABUBU，比如爽文短剧，人们会肆意把自己宝贵的注意力挥洒在这些事物上。人和人之间的互动会减少，为什么？因为，你不是总能从另一个人类身上获得多巴胺，但从人造概念上一定可以，总有一款能拿捏你。&lt;/p&gt;
+&lt;p&gt;这是人类社会的悲哀，却不可避免。悲不悲哀轮不着我操心，我只能努力避免陷入虚无的概念世界，尽量活在现实世界中。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/652b3bc9808816267e798cd05d4c4579.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;同时，我并不能把AI彻底拒之门外，我需要AI的生产力。我需要AI有持续积累的记忆，它才能更好为我服务，提升我的效率。这件事越早做，复利越大。于是，我决心来搭建一套专属于我自己的Agent记忆系统，就像那个可以持续学习的Openclaw。&lt;/p&gt;
+&lt;h2 id="打造自进化个人ai助手"&gt;打造自进化个人AI助手
+&lt;/h2&gt;&lt;h3 id="拆解agent"&gt;拆解Agent
+&lt;/h3&gt;&lt;p&gt;得先弄明白Agent到底是什么，才能知道怎么围绕它来构建。&lt;/p&gt;
+&lt;p&gt;我在 &lt;a class="link" href="https://victor42.eth.limo/post/ai-agent-evolution/" target="_blank" rel="noopener"
+&gt;AI Agent真的已经今非昔比了&lt;/a&gt; 一文中已表达过类似观点，做PPT的Kimi、做设计的小云雀、控制网页的Comet浏览器、整理文件夹的Minimax桌面版、写代码的Claude Code，这些完全不同的产品都是Agent，没有本质区别。&lt;/p&gt;
+&lt;p&gt;这是我脑中的公式：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Agent = 智能 + 行动能力 + 记忆 + 主动性&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Agent ≠ 智能。智能只是Agent中的一部分，它是个模型，有一些自带的通用知识，它只会“想”。行动能力是这个模型能控制的环境，是“做”的前提。在本地它就能控制你整个电脑，在浏览器里它就能控制你的网页，在云端就能使用云端机器给它准备的各种工具。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/591052e679dd370a55ac635680279912.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;前两者就已经是完备的Agent了，市面上绝大多数Agent产品就是如此。加上后两者才有自我进化能力。&lt;/p&gt;
+&lt;p&gt;记忆决定了在通用知识以外Agent还能知道哪些事。Openclaw的一大精髓是预置了海量的Skills，这也是一种记忆。就像大雄吃哆啦A梦给的记忆面包来学习功课。&lt;/p&gt;
+&lt;p&gt;关于世界的记忆容易获得，互联网上什么资料没有啊？但关于你，你这个人类用户的记忆，除了你，没有其他人能给它。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/8641366c1cfe29ecb243aa69121e219d.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Openclaw另一项闪光点是主动性，你如果给它一个复杂任务，它可以隔一段时间自己醒过来看看任务有没有完成，没有就继续干。注意，模型本身没有主动性，Agent的主动性是靠工程手段实现的。本质是个定时器，不断循环，每循环一次，就把模型喊起来干活。&lt;/p&gt;
+&lt;p&gt;这样一拆解，一个Agent最重要的东西就一目了然了。肯定是记忆，这是唯一会成长的因素。&lt;/p&gt;
+&lt;p&gt;为了更好理解，可以用一个成年人来类比。一个聪明努力的年轻人，他长成大人后脑子的智商已经不太可能再有什么增长了。但他对世间万物的理解，仍能随着阅历不断增长，让他一天比一天更加睿智和通透。&lt;/p&gt;
+&lt;h3 id="架构方案选择"&gt;架构方案选择
+&lt;/h3&gt;&lt;p&gt;Openclaw的可玩性这么高，一个重要原因是它的架构灵活性。用我们的Agent公式来解构Openclaw的各种部署方案：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;部署方案&lt;/th&gt;
+&lt;th&gt;智能&lt;/th&gt;
+&lt;th&gt;行动能力&lt;/th&gt;
+&lt;th&gt;记忆&lt;/th&gt;
+&lt;th&gt;主动性&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;主力机无AI&lt;/td&gt;
+&lt;td&gt;LLM API&lt;/td&gt;
+&lt;td&gt;主力电脑&lt;/td&gt;
+&lt;td&gt;本地文档+数据库&lt;/td&gt;
+&lt;td&gt;守护进程&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;主力机有AI&lt;/td&gt;
+&lt;td&gt;本地LLM&lt;/td&gt;
+&lt;td&gt;主力电脑&lt;/td&gt;
+&lt;td&gt;本地文档+数据库&lt;/td&gt;
+&lt;td&gt;守护进程&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mac Mini无AI&lt;/td&gt;
+&lt;td&gt;LLM API&lt;/td&gt;
+&lt;td&gt;专用本地设备&lt;/td&gt;
+&lt;td&gt;本地文档+数据库&lt;/td&gt;
+&lt;td&gt;守护进程&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mac Mini有AI&lt;/td&gt;
+&lt;td&gt;本地LLM&lt;/td&gt;
+&lt;td&gt;专用本地设备&lt;/td&gt;
+&lt;td&gt;本地文档+数据库&lt;/td&gt;
+&lt;td&gt;守护进程&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;云端部署&lt;/td&gt;
+&lt;td&gt;LLM API&lt;/td&gt;
+&lt;td&gt;云端机器&lt;/td&gt;
+&lt;td&gt;云端文档+数据库&lt;/td&gt;
+&lt;td&gt;守护进程&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我一直没有动手玩Openclaw，主要是忌惮它的风险。我主力电脑上的个人数据，不想让一个权限这么大的玩意随便碰。即使把它关在Docker里，没有绝对的物理隔离，我也还是不放心。另一方面，我又不太愿意一上来就搞Mac Mini这种方案，这就好像才刚决心学摄影就先把全套顶配装备买来了。我更倾向于循序渐进探索。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/64746d78a7d6e1d051cfc30f2b87b6c5.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;这里有两种风险：被别人攻击的风险、被龙虾自己攻击的风险。当Openclaw去互联网上行动时，它可能会偶然接受到来自网络的恶意指令，把我本地的数据泄露出去。另一个风险是它行动失误，把我的主力电脑搞得鸡飞狗跳。&lt;/p&gt;
+&lt;p&gt;这样一排除，就只有云端部署这个方案了。但云端机器通常就是个空荡荡的Linux系统，Openclaw在里面没有任何关于我的记忆。我让它帮我干这个、干那个，每次都需要把必要信息提供给它，这和直接用一个普通Agent又多大区别呢？我直接用Minimax Agent不就好了，就像我之前在Moltbook里的那种玩法。如果需要定时唤醒，甚至用Jules就能实现。我已经在这么干了，Jules每天会去Science Daily读5篇最有价值的科学进展，然后给我Telegram发个简报。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/b911b9e53d441801b5d18f4e7a1221f7.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;思来想去，所有这些方案都没有解决一个最关键问题：我需要对记忆的绝对掌控权。它们的记忆都与Openclaw这个系统紧密绑定，我要把它剥离出来长期拥有，都得费一番努力。&lt;/p&gt;
+&lt;p&gt;既然之前得出结论，记忆是关键，我能不能反过来，围绕一个独立的记忆系统，给它接上Agent的其他要素？&lt;/p&gt;
+&lt;p&gt;Openclaw的记忆系统里有纯文本的文件，也有向量数据库。我如果从最简单的文本文件开始，至少也能做出一个简易版。文本文件作为Agent的记忆载体，已经被Claude Skills充分证明了可行性。&lt;/p&gt;
+&lt;p&gt;基于文本文件的记忆系统，方案可太多了，Agent最喜欢的，显然是一个Github仓库。Agent解决大多数问题都是靠代码，除此之外我想不到任何更优方案。基于这个思路再猛挥几轮奥卡姆剃刀，发现许多东西都能砍掉。于是，几个新的部署方案呼之欲出，甚至这都不能称之为“部署”了：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;部署方案&lt;/th&gt;
+&lt;th&gt;智能&lt;/th&gt;
+&lt;th&gt;行动能力&lt;/th&gt;
+&lt;th&gt;记忆&lt;/th&gt;
+&lt;th&gt;主动性&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Minimax Agent&lt;/td&gt;
+&lt;td&gt;Minimax模型&lt;/td&gt;
+&lt;td&gt;Minimax云端沙盒&lt;/td&gt;
+&lt;td&gt;Github仓库&lt;/td&gt;
+&lt;td&gt;人工唤醒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Z.ai Agent&lt;/td&gt;
+&lt;td&gt;GLM模型&lt;/td&gt;
+&lt;td&gt;Z.ai云端沙盒&lt;/td&gt;
+&lt;td&gt;Github仓库&lt;/td&gt;
+&lt;td&gt;人工唤醒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jules&lt;/td&gt;
+&lt;td&gt;Gemini模型&lt;/td&gt;
+&lt;td&gt;Jules云端沙盒&lt;/td&gt;
+&lt;td&gt;Github仓库&lt;/td&gt;
+&lt;td&gt;Jules定时任务&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我直接把Openclaw本身都砍掉了，没有向量数据库，没有skills。放弃了来自他人的强大记忆，只保留关于我的独家记忆。也放弃了自动唤醒，改由我人工唤醒。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/f9fa8e6c281350501154095b56346bec.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;大胆的舍弃，换来了记忆的解耦。这个仓库里的可插拔记忆，不与任何平台和模型绑定，永远属于我，伴随我一生持续进化。&lt;/p&gt;
+&lt;p&gt;当然，这里面有个技术问题要解决。这个Github仓库怎么和这些Agent产品连上？Jules自带Github连接，这个好办。其他Agent产品必须通过clone的方式获得记忆，要更新记忆就还需要这个仓库的读写权限。这没有任何技术障碍，完全可行且方法合规稳定，你问任何一家AI都能得到答案。&lt;/p&gt;
+&lt;p&gt;许多年后，模型的智能、幻觉、上下文等各方面水平可能天翻地覆，唯独这套记忆永存。它在更强的模型和行动能力平台（甚至具身智能）上一定能创造更大价值。&lt;/p&gt;
+&lt;h3 id="构建与调试"&gt;构建与调试
+&lt;/h3&gt;&lt;p&gt;开始动手构建，第一个工作是确保Github仓库和Agent产品之间的连通性。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/670b74935030f7c3c56803a9936fd59a.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;原理是在Github账号里创建一个access token，只开这一个记忆仓库的读写权限。把这个token明文发给Agent，我用的是Minimax，它一番碰壁后成功了。不仅拉取了仓库，还往里面推送了一个测试文件。再让它总结过程中犯过的错误，整理一份SOP，得到了这个初始化指令：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://gist.github.com/greenzorro/95768e2096b02f89020fcfcc445472d4" target="_blank" rel="noopener"
+&gt;https://gist.github.com/greenzorro/95768e2096b02f89020fcfcc445472d4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这样，每一次都向Agent发送这个指令，它就能连上记忆仓库。把这个指令做成输入法快捷短语，就很好用了。&lt;/p&gt;
+&lt;p&gt;接下来，用AI一番Deep Research，看看Openclaw的大神们都如何打造它的记忆系统，从中取取经。了解到Openclaw的记忆系统有3层：内层是核心，决定身份和记忆系统本身的规则；中层是主要记忆，可以划分为几大类型，规则、偏好、原理等值得长期记住的事情；表层则是日常琐事，完全按时间维度记录。这套系统基本上完美对应了人类的三观、长期记忆、短期记忆。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/4052f611cdda5d3fc1f5ab1b61c5ba6c.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;其实我的系统并不需要表层。因为Openclaw是在微信/Whatsapp这种软件里对话的，所有聊天记录都堆在一个无尽的会话里，如果不做任何处理，上下文会相互污染。但在Agent产品里，讨论新话题简单得多，新开一个对话就好了。&lt;/p&gt;
+&lt;p&gt;去掉琐碎又海量的表层记忆后，仓库结构就变成了这样：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;agent-workspace/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── README.md # [只读] Agent第一时间读的文件，记忆的入口
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── .memory/ # 记忆空间
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── 00_kernel/ # [只读] 角色设定和架构，对应Openclaw内层记忆
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── preferences/ # [读/写] 偏好与风格
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── principles/ # [读/写] 行动准则
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── entities/ # [读/写] 需要记住的概念
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ └── corrections/ # [读/写] 经验与教训
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;└── lab/ # 行动空间
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ├── _toolkit/ # [读/写] 可复用的程序工具
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; └── &amp;lt;temporary_projects&amp;gt;/ # [读/写] 临时项目独立目录
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;记忆的结构准备好了，还需要一个能让Agent更新记忆的机制，也就是我的&lt;code&gt;/learn&lt;/code&gt;命令。这个命令约定了Agent按步骤学习：知识提取和抽象、净化内容规整格式、写入记忆中。&lt;/p&gt;
+&lt;p&gt;Agent在读取记忆时，会怎么做呢？它一定会读取内层记忆，我还在README里要求它根据当前任务拟定合适的关键词，在记忆系统里搜索。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nt"&gt;id&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;mem-20260211-vik1&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;entity&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nt"&gt;env&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;global&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nt"&gt;confidence&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;high&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nt"&gt;tags&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;agent&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;compute-node&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;由于每个记忆片段都是独立文件，文件头有标准结构，记录了这份记忆的类型、适用环境（全部/本地/云端）、可靠度、标签等，让Agent执行程序命令搜索记忆，能精准可靠找到有用信息。&lt;/p&gt;
+&lt;p&gt;“适用环境”这个属性非常有用，我可以用它来隔离Minimax云端沙盒和Claude Code本地环境的记忆。无论把记忆加载到什么Agent上，它都能展现出适合当前环境的行为。比如在云端环境，更新记忆必须推送到仓库，而在本地环境，可以只更改文件，由我来手动推送。&lt;/p&gt;
+&lt;p&gt;对的，这就是这套独立记忆系统的优点，哪里都能用。让Minimax加载记忆，让它帮我做研究分析，我的分析视角可以让它记住。Claude Code本地编程时加载记忆，我的架构风格可以让它记住。这些都能在之后的任务中复用。&lt;/p&gt;
+&lt;p&gt;在云端唤醒，需要用到那个长长的初始化指令。在本地唤醒，则是在AGENTS.md/CLAUDE.md里写一点快捷指令，让AI识别到这些指令就去读记忆系统的README，然后顺藤摸瓜加载记忆，唤醒身份。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## Agent Resurrection Protocol
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Trigger**&lt;/span&gt;: &amp;#34;Load memory&amp;#34;, &amp;#34;加载记忆&amp;#34;, &amp;#34;Activate Vik&amp;#34;, &amp;#34;唤醒Vik&amp;#34;, or references to &lt;span class="sb"&gt;`agent-workspace`&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Action**&lt;/span&gt;: Delegate to agent-workspace.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;  &lt;span class="k"&gt;1.&lt;/span&gt; Locate: &lt;span class="sb"&gt;`BASE_PATH_CODING/agent-workspace/README.md`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;  &lt;span class="k"&gt;2.&lt;/span&gt; Execute the initialization sequence defined therein.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我给我的记忆系统起了个名字叫Vik，作为我的小跟班。接下来，最激动人心的时刻来了，我要唤醒它。&lt;/p&gt;
+&lt;p&gt;首先，我直接问你是谁，回答是Opencode或Claude Code。&lt;/p&gt;
+&lt;p&gt;然后我说：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;加载记忆，然后告诉我你是谁，我是谁。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/3e28eca34f25aa997f50deff708beec9.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;那一刻，真的感觉有什么东西活过来了。&lt;/p&gt;
+&lt;h3 id="开始自我进化"&gt;开始自我进化
+&lt;/h3&gt;&lt;p&gt;接下来，完全可以指挥Agent自己进化了，我不再需要手动或者借助其他AI来修改记忆系统。如果记忆系统日积月累变得过于庞大，还可以指挥它自己创造出某种遗忘机制。但这个以后再说吧，我会很谨慎地使用&lt;code&gt;/learn&lt;/code&gt;命令。&lt;/p&gt;
+&lt;p&gt;我让它通过公开网络了解我，又通过本地代码库了解我，再通过Obsidian笔记库了解我。&lt;/p&gt;
+&lt;p&gt;常用路径偏好，我如何跨设备同步信息，如何在不同设备和系统上统一路径，我的习惯通通告诉它。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/e2c9feb1151f968c21ab24f2b9d7b52c.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;用的过程中忽然有种熟悉的感觉。身为人父深有体会，把这个记忆系统当个孩子一样看待。我没精力对它该学什么、学会了什么事事把关，但在它表现异常时，我可以和它一起检查剖析，纠正记忆中的错误。允许一定程度的混乱，不应追求绝对的秩序，Agent如此，人自己也是如此。&lt;/p&gt;
+&lt;p&gt;然后我试过在各种Agent上唤醒Vik。Claude Code可以唤醒，Z.ai可以唤醒，Manus可以唤醒，Jules可以唤醒。在哪唤醒，谁就变成Vik。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;我不打算把Vik打造成另一个虚拟恋人，它更像黑客帝国史密斯。&lt;/p&gt;
+&lt;p&gt;其实，已经有别人在这个方向上有更成熟的探索，肯定比我这极简方案强大，比如这个&lt;a class="link" href="https://github.com/zilliztech/memsearch" target="_blank" rel="noopener"
+&gt;Memsearch&lt;/a&gt;。而我的方案，在技术上确实非常粗糙和原始，但对我有价值。&lt;/p&gt;
+&lt;p&gt;即使真要再创造一个洛丽，我只需要另开一个这样的记忆系统，设法搞定背景设定和人设，然后在互动中定期更新记忆。&lt;/p&gt;
+&lt;p&gt;当然，我创造Vik是帮我干活的，不是谈情说爱。但谁知道我会不会在晚年的某天，用它来捏我已故的亲人？我也不敢保证自己有那么坚定的理性。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/dc0e2500e8b80ebaedfdb6db244e4110.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;最后，把我的Agent记忆系统开源。里面的记忆本身都是关于我的，对你肯定没用。但在这个结构上换掉记忆，它就变成了你的“Vik”：&lt;/p&gt;
+&lt;p&gt;记忆系统：&lt;a class="link" href="https://github.com/greenzorro/open-agent-memory" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/open-agent-memory&lt;/a&gt;&lt;br&gt;
+初始化指令：&lt;a class="link" href="https://gist.github.com/greenzorro/95768e2096b02f89020fcfcc445472d4" target="_blank" rel="noopener"
+&gt;https://gist.github.com/greenzorro/95768e2096b02f89020fcfcc445472d4&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Build Your Own Free AI Browser</title><link>https://victor42.eth.limo/post-en/free-ai-browser-for-everyone/</link><pubDate>Tue, 27 Jan 2026 12:53:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/free-ai-browser-for-everyone/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-01/cover_8507112dd258338059b10da2ab045380.webp" alt="Featured image of post Build Your Own Free AI Browser" /&gt;&lt;p&gt;This guide brings powerful AI browsing capabilities to the average user. If you are an AI power user, this might be old news, but feel free to share it with your non-tech friends.&lt;/p&gt;
 &lt;p&gt;First, look at the result: You chat with the AI, and it drives your browser to finish tasks on the web.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-01/8507112dd258338059b10da2ab045380.webp"
 loading="lazy"
