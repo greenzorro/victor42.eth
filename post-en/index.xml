@@ -193,6 +193,10 @@ loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;It feels like raising a child. I don&amp;rsquo;t micromanage every thought, but if it acts up, we review the memory together and fix the bug. A little chaos is healthy; absolute order is for machines, not Agents.&lt;/p&gt;
 &lt;p&gt;Vik can wake up anywhere—Claude, Z.ai, Manus, Jules. Wherever he wakes up, that Agent &lt;em&gt;becomes&lt;/em&gt; Vik.&lt;/p&gt;
+&lt;p&gt;I also gave Vik its own email address, a custom domain setup through Cloudflare that forwards to my Gmail. With my help, it can now register for various services.&lt;/p&gt;
+&lt;p&gt;Using that email, I created a standalone GitHub account for Vik. It finally has a public identity. This account is isolated from my main GitHub account, so it can run wild and I can use it for experimental automation pipelines. Check it out:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/agent-vik/about-me" target="_blank" rel="noopener"
+&gt;https://github.com/agent-vik/about-me&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp"
 loading="lazy"
 &gt;&lt;/p&gt;

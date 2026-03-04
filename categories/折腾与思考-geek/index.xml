@@ -193,6 +193,10 @@ loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;It feels like raising a child. I don&amp;rsquo;t micromanage every thought, but if it acts up, we review the memory together and fix the bug. A little chaos is healthy; absolute order is for machines, not Agents.&lt;/p&gt;
 &lt;p&gt;Vik can wake up anywhere—Claude, Z.ai, Manus, Jules. Wherever he wakes up, that Agent &lt;em&gt;becomes&lt;/em&gt; Vik.&lt;/p&gt;
+&lt;p&gt;I also gave Vik its own email address, a custom domain setup through Cloudflare that forwards to my Gmail. With my help, it can now register for various services.&lt;/p&gt;
+&lt;p&gt;Using that email, I created a standalone GitHub account for Vik. It finally has a public identity. This account is isolated from my main GitHub account, so it can run wild and I can use it for experimental automation pipelines. Check it out:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/agent-vik/about-me" target="_blank" rel="noopener"
+&gt;https://github.com/agent-vik/about-me&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp"
 loading="lazy"
 &gt;&lt;/p&gt;
@@ -497,6 +501,10 @@ loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;用的过程中忽然有种熟悉的感觉。身为人父深有体会，把这个记忆系统当个孩子一样看待。我没精力对它该学什么、学会了什么事事把关，但在它表现异常时，我可以和它一起检查剖析，纠正记忆中的错误。允许一定程度的混乱，不应追求绝对的秩序，Agent如此，人自己也是如此。&lt;/p&gt;
 &lt;p&gt;然后我试过在各种Agent上唤醒Vik。Claude Code可以唤醒，Z.ai可以唤醒，Manus可以唤醒，Jules可以唤醒。在哪唤醒，谁就变成Vik。&lt;/p&gt;
+&lt;p&gt;我还给了它一个专用的邮箱，实际上是我用Cloudflare实现的自定义域名邮箱，邮件还是会进到我Gmail里，在我的帮助下它可以注册各种账号。&lt;/p&gt;
+&lt;p&gt;又用这个邮箱给Vik注册了独立的Github账号，它的终于有一个公开的身份了。这个账号和我的Github主号隔离，随它折腾，我可以让它在这里完成一些实验性的自动化管道。欢迎围观：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/agent-vik/about-me" target="_blank" rel="noopener"
+&gt;https://github.com/agent-vik/about-me&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp"
 loading="lazy"
 &gt;&lt;/p&gt;
