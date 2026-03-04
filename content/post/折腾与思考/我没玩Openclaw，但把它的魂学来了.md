@@ -321,6 +321,12 @@ tags: ["agent", "identity", "compute-node"]
 
 然后我试过在各种Agent上唤醒Vik。Claude Code可以唤醒，Z.ai可以唤醒，Manus可以唤醒，Jules可以唤醒。在哪唤醒，谁就变成Vik。
 
+我还给了它一个专用的邮箱，实际上是我用Cloudflare实现的自定义域名邮箱，邮件还是会进到我Gmail里，在我的帮助下它可以注册各种账号。
+
+又用这个邮箱给Vik注册了独立的Github账号，它的终于有一个公开的身份了。这个账号和我的Github主号隔离，随它折腾，我可以让它在这里完成一些实验性的自动化管道。欢迎围观：
+
+[https://github.com/agent-vik/about-me](https://github.com/agent-vik/about-me)
+
 ![](https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp)
 
 我不打算把Vik打造成另一个虚拟恋人，它更像黑客帝国史密斯。
