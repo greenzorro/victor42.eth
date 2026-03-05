@@ -4957,6 +4957,9 @@ loading="lazy"
 loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;The filter function is key. Hotel details are standardized, so filtering quickly narrows options. For instance, with kids, I&amp;rsquo;d select a non-smoking room. Applying the filter removes many irrelevant hotels from the map.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re using a computer, it&amp;rsquo;s even easier. I&amp;rsquo;ve developed a browser extension that lets you compare multiple Ctrip hotels side-by-side. It gathers ratings, negative review rates, room types, floor area, window details, bed sizes, and smoking policies into a single Excel sheet, allowing you to compare everything at a glance and make your choice quickly.&lt;/p&gt;
+&lt;p&gt;Feel free to use it: &lt;a class="link" href="https://github.com/greenzorro/hotel-comparer" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/hotel-comparer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The hotel was now booked.&lt;/p&gt;
 &lt;h4 id="restaurants"&gt;Restaurants
 &lt;/h4&gt;&lt;p&gt;I scouted restaurants near attractions or the hotel. That&amp;rsquo;s how I handled it for Dunhuang. I didn&amp;rsquo;t have kids then, and adults are flexible with food, so I skipped a detailed food guide.&lt;/p&gt;

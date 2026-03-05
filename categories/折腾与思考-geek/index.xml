@@ -7767,6 +7767,9 @@ loading="lazy"
 loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;The filter function is key. Hotel details are standardized, so filtering quickly narrows options. For instance, with kids, I&amp;rsquo;d select a non-smoking room. Applying the filter removes many irrelevant hotels from the map.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re using a computer, it&amp;rsquo;s even easier. I&amp;rsquo;ve developed a browser extension that lets you compare multiple Ctrip hotels side-by-side. It gathers ratings, negative review rates, room types, floor area, window details, bed sizes, and smoking policies into a single Excel sheet, allowing you to compare everything at a glance and make your choice quickly.&lt;/p&gt;
+&lt;p&gt;Feel free to use it: &lt;a class="link" href="https://github.com/greenzorro/hotel-comparer" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/hotel-comparer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The hotel was now booked.&lt;/p&gt;
 &lt;h4 id="restaurants"&gt;Restaurants
 &lt;/h4&gt;&lt;p&gt;I scouted restaurants near attractions or the hotel. That&amp;rsquo;s how I handled it for Dunhuang. I didn&amp;rsquo;t have kids then, and adults are flexible with food, so I skipped a detailed food guide.&lt;/p&gt;
@@ -8042,6 +8045,9 @@ loading="lazy"
 loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;筛选功能也非常重要，酒店设施的相关信息是高度标准化的，筛选能帮你快速缩小选择范围。比如带娃出行，我会选无烟房。筛选条件一加，许多没必要看的酒店就从地图上消失了。&lt;/p&gt;
+&lt;p&gt;如果你有电脑可用，那太好了。我开发了一个浏览器插件，可用帮你对比多个携程酒店，把评分、差评率、房型、面积、窗户、床尺寸、吸烟信息一股脑灌到同一个Excel里，直观对比，快速选定。&lt;/p&gt;
+&lt;p&gt;欢迎取用：&lt;a class="link" href="https://github.com/greenzorro/hotel-comparer" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/hotel-comparer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;现在，酒店也订好了。&lt;/p&gt;
 &lt;h4 id="餐馆"&gt;餐馆
 &lt;/h4&gt;&lt;p&gt;根据景点和酒店找餐馆，要么景点附近，要么酒店附近，敦煌之行基本就是这么安排的。那时候我还没小孩，大人吃饭都很佛系，没有专门做美食攻略。&lt;/p&gt;
