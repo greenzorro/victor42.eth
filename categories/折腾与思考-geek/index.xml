@@ -7807,7 +7807,7 @@ loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;The document is divided into several modules: Itinerary, Packing List, Tips, Candidate Attractions, and References. The first three are for you and your group; the last two are backend notes for your own use while planning. There’s a divider between them—once the plan is finalized, just delete the bottom half and share it with your group.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;&lt;br&gt;
 Inter-city Transport: Mode of transport.
 Local Transport: Mode of transport.
 Accommodation: Hotel name &amp;amp; nearby attractions/districts (if any).&lt;/p&gt;
@@ -7815,7 +7815,7 @@ Accommodation: Hotel name &amp;amp; nearby attractions/districts (if any).&lt;/p
 &lt;p&gt;First, the itinerary starts with an overview—this is the core foundation of the entire plan. The critical constraints—inter-city transport, local transport, trip duration, and accommodation—are all condensed into this short paragraph. Once these are nailed down, you won&amp;rsquo;t drop the ball on the basics, even if you haven&amp;rsquo;t planned the specific daily sightseeing yet.&lt;/p&gt;
 &lt;p&gt;For multi-city trips, I expand it like this for better visibility:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;&lt;br&gt;
 Inter-city Transport: Day X fly to [Place], Day X fly to [Place]&amp;hellip;
 Local Transport: [City] Metro + Taxi, [City] Walk&amp;hellip;
 Accommodation:&lt;/p&gt;
@@ -8082,7 +8082,7 @@ loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;文档分为几大模块：行程、行李检查清单、小提示、候选景点、游记&amp;amp;攻略参考。前3块是写给自己和同行人看的；后2块是攻略制作过程中的辅助信息，写给自己看的。两部分之间插入了分隔线，攻略制作完成，把后面部分删掉就可以分享给同行人了。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;时间：x月x日-x月x日（x天x晚）&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;时间：x月x日-x月x日（x天x晚）&lt;/strong&gt;&lt;br&gt;
 跨市交通：跨市交通方式。&lt;br&gt;
 市内交通：市内交通方式。&lt;br&gt;
 住宿：酒店名称与临近景点或商圈（如有）。&lt;/p&gt;
@@ -8090,7 +8090,7 @@ loading="lazy"
 &lt;p&gt;首先，行程开头有个概览，是整个旅行计划的核心和基础。最关键的约束因素，跨市交通、市内交通、几天几夜、住宿，全部浓缩在这开头一小段。这些敲定了，具体游玩行程哪怕完全不规划，也不会犯什么掉链子的大错。&lt;/p&gt;
 &lt;p&gt;对于跨多城的旅行，我会把它展开为如下形式，更加直观：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;时间：x月x日-x月x日（x天x晚）&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;时间：x月x日-x月x日（x天x晚）&lt;/strong&gt;&lt;br&gt;
 跨市交通：x日飞机到xx，x日飞机到xx，x日飞机到xx，x日飞机返程。&lt;br&gt;
 市内交通：xx市地铁+打车，xx市公交+打车，xx市步行。&lt;br&gt;
 住宿：&lt;/p&gt;

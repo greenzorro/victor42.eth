@@ -4997,7 +4997,7 @@ loading="lazy"
 &gt;&lt;/p&gt;
 &lt;p&gt;The document is divided into several modules: Itinerary, Packing List, Tips, Candidate Attractions, and References. The first three are for you and your group; the last two are backend notes for your own use while planning. There’s a divider between them—once the plan is finalized, just delete the bottom half and share it with your group.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;&lt;br&gt;
 Inter-city Transport: Mode of transport.
 Local Transport: Mode of transport.
 Accommodation: Hotel name &amp;amp; nearby attractions/districts (if any).&lt;/p&gt;
@@ -5005,7 +5005,7 @@ Accommodation: Hotel name &amp;amp; nearby attractions/districts (if any).&lt;/p
 &lt;p&gt;First, the itinerary starts with an overview—this is the core foundation of the entire plan. The critical constraints—inter-city transport, local transport, trip duration, and accommodation—are all condensed into this short paragraph. Once these are nailed down, you won&amp;rsquo;t drop the ball on the basics, even if you haven&amp;rsquo;t planned the specific daily sightseeing yet.&lt;/p&gt;
 &lt;p&gt;For multi-city trips, I expand it like this for better visibility:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;&lt;br&gt;
 Inter-city Transport: Day X fly to [Place], Day X fly to [Place]&amp;hellip;
 Local Transport: [City] Metro + Taxi, [City] Walk&amp;hellip;
 Accommodation:&lt;/p&gt;
