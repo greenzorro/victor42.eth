@@ -262,3 +262,10 @@ Finally, resources. Try it yourself:
 -   [PS+Excel Batch Output Basic Tutorial](https://zhuanlan.zhihu.com/p/33725280)
 -   [Workflow Files](https://qvokpfxqsh.feishu.cn/file/PGx8bMjyrohPp2x4DZ9ct0A9nIf)
 -   [PS Action Set (click the table of contents to jump)](https://qvokpfxqsh.feishu.cn/docx/SK0UdUPphoFBZpxJpEJcbZIsnRf)
+
+**Important Update**
+
+I have since developed a more automated programmatic solution for this workflow, which only requires a Python environment.
+
+Details: [https://github.com/greenzorro/excel-ps-batch-export](https://github.com/greenzorro/excel-ps-batch-export)
+
