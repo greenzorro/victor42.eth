@@ -266,3 +266,9 @@ PS数据组导出的都是psd文件，交付出去的得是jpg文件，还要再
 - [PS+Excel批量输出基础教程](https://zhuanlan.zhihu.com/p/33725280)
 - [工作流文件包](https://qvokpfxqsh.feishu.cn/file/PGx8bMjyrohPp2x4DZ9ct0A9nIf)
 - [PS动作合集（点目录跳转）](https://qvokpfxqsh.feishu.cn/docx/SK0UdUPphoFBZpxJpEJcbZIsnRf)
+
+**重要更新**
+
+这一套工作流程，我后来又开发了自动化程度更高的程序方案，只需要有一套Python运行环境。
+
+详见：[https://github.com/greenzorro/excel-ps-batch-export](https://github.com/greenzorro/excel-ps-batch-export)

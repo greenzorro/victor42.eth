@@ -65,7 +65,7 @@ This is nothing new. Companies have been cutting these same kinds of jobs during
 
 Picture the previous diagrams as topographical maps viewed from above. The bright spots are mountains; the lighter areas are plains.
 
-AI is like a rising tide, slowly submerging the lowlands of every profession (though the water is still shallow). Only those on higher ground will be left to shine. But even those on high ground can't afford to be complacent. Leveraging AI is like building a boat. The flood then becomes your playground, allowing you to venture out from your mountaintop and explore every domain.
+AI is like a rising tide, slowly submerging the lowlands of every profession (though the water is still shallow). Only those on higher ground will be left to shine. But even those on high ground can't afford to be complacent. Leveraging AI is like building a boat. The flood then becomes your playground, allowing you to venture out from your mountaintop and explore every domain, including higher mountains.
 
 But what if you're starting from the lowlands with nothing to your name? Then AI is the ultimate learning tool. It's your ticket to building a boat and getting afloat. You can then sail directly to the mountainside, skipping the initial, arduous climb. You still have to scale the rest of the peak yourself. But don't mind the flood; it won't rise faster than you can climb.
 
