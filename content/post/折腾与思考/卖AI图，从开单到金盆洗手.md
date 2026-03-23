@@ -10,7 +10,7 @@ translationKey: automate-ai-illustrations-production
 
 我接了个活，为一家童书电商公司生产教辅插图。本文记录了我如何分析可行性，如何做前期准备，如何干完第一单，如何决定金盆洗手的整个过程。
 
-（2025年7月更新：为这套系统写了一份[详细手册](https://qvokpfxqsh.feishu.cn/wiki/KJMgwMn0wiXeiqkFvHHcHFxAn8B)，开源其中全部工具、代码和模板。）
+（2025年7月更新：为这套系统写了一份[详细手册](https://my.feishu.cn/wiki/KJMgwMn0wiXeiqkFvHHcHFxAn8B?from=from_copylink)，开源其中全部工具、代码和模板。）
 
 其中也会穿插大量AI技巧和技术实践，讲原理和思路为主，具体操作不会写得那么详细。别慌，如果你对那些神秘的AI术语不感兴趣，我保证你也能看懂。我会把技术细节放在特定模块里，故事部分尽量避免术语。你可以直接快进跳过，不影响你看故事。
 

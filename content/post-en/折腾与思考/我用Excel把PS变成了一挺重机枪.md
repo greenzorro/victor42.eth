@@ -260,8 +260,8 @@ After setup, I met with operations. Marketing explained the four columns. No one
 Finally, resources. Try it yourself:
 
 -   [PS+Excel Batch Output Basic Tutorial](https://zhuanlan.zhihu.com/p/33725280)
--   [Workflow Files](https://qvokpfxqsh.feishu.cn/file/PGx8bMjyrohPp2x4DZ9ct0A9nIf)
--   [PS Action Set (click the table of contents to jump)](https://qvokpfxqsh.feishu.cn/docx/SK0UdUPphoFBZpxJpEJcbZIsnRf)
+-   [Workflow Files](https://my.feishu.cn/file/PGx8bMjyrohPp2x4DZ9ct0A9nIf?from=from_copylink)
+-   [PS Action Set (click the table of contents to jump)](https://my.feishu.cn/docx/SK0UdUPphoFBZpxJpEJcbZIsnRf?from=from_copylink)
 
 **Important Update**
 

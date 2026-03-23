@@ -72,7 +72,7 @@ Minimax的输出：[https://nycqzyogwce4.space.minimaxi.com/](https://nycqzyogwc
 
 ![](https://cdn.victor42.work/posts/2025-10/6d9851b72af506f3b9cdce71a715115d.webp)
 
-Kimi的输出：[https://qvokpfxqsh.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink](https://qvokpfxqsh.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink)
+Kimi的输出：[https://my.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink](https://my.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink)
 
 ![](https://cdn.victor42.work/posts/2025-10/31d44ae8c1fcfa671416ff8a91cd7a88.webp)
 

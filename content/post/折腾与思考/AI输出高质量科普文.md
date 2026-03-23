@@ -18,7 +18,7 @@ translationKey: ai-generate-popular-science-article
 
 让我感兴趣的问题，我先与AI（比如Gemini 2.5 Pro）深度讨论。挖出问题背后一连串的深层规律，形成系统性的理解，同时考证关键信息防止幻觉误导。**先涨了自己见识再说**。
 
-水灭火那篇，和AI的完整聊天记录见：[https://qvokpfxqsh.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg](https://qvokpfxqsh.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg)
+水灭火那篇，和AI的完整聊天记录见：[https://my.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg?from=from_copylink](https://my.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg?from=from_copylink)
 
 ## 2-人工撰写大纲
 

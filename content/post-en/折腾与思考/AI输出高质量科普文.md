@@ -18,7 +18,7 @@ This article was created using a Standard Operating Procedure (SOP) I developed 
 
 Whenever a topic sparks my interest, I dive into an in-depth discussion with an AI like Gemini 2.5 Pro. I probe the underlying principles to build a systematic understanding, all while fact-checking key details to sidestep AI hallucinations. **The goal is to learn something myself before I write anything.**
 
-For the article on water extinguishing fire, you can see the full chat history with the AI here: [https://qvokpfxqsh.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg](https://qvokpfxqsh.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg)
+For the article on water extinguishing fire, you can see the full chat history with the AI here: [https://my.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg?from=from_copylink](https://my.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg?from=from_copylink)
 
 ## 2. Manually Drafting the Outline
 

@@ -72,7 +72,7 @@ This task didn't require much online research, as the models' internal knowledge
 
 ![](https://cdn.victor42.work/posts/2025-10/6d9851b72af506f3b9cdce71a715115d.webp)
 
-Kimi's output: [https://qvokpfxqsh.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink](https://qvokpfxqsh.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink)
+Kimi's output: [https://my.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink](https://my.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink)
 
 ![](https://cdn.victor42.work/posts/2025-10/31d44ae8c1fcfa671416ff8a91cd7a88.webp)
 
