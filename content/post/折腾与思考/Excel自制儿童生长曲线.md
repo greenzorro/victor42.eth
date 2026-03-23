@@ -237,7 +237,7 @@ RANK(F2,数组,1)
 我把这个表格做了两个可供取用的版本（男宝/女宝）：
 
 男宝版：  
-[https://qvokpfxqsh.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d](https://qvokpfxqsh.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d)
+[https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink](https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink)
 
 女宝版：  
-[https://qvokpfxqsh.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc](https://qvokpfxqsh.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc)
+[https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink](https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink)
