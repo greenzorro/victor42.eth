@@ -5,7 +5,7 @@ image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.
 date: 2023-08-03 14:30:00
 categories: 折腾与思考-Geek
 url: /post-en/3641
-translationKey: 3641
+translationKey: '3641'
 ---
 
 This is about how I used Excel, data visualization, AI, statistics, and formulas to create a custom growth chart. I'll explain everything clearly, even the basics.
