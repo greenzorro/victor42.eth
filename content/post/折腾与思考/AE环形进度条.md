@@ -1,11 +1,11 @@
 ---
 title: AE环形进度条
-description: 
-image: 
+description:
+image:
 date: 2015-02-10 15:16:00
 categories: 折腾与思考-Geek
 url: /post/3424
-translationKey: 3424
+translationKey: '3424'
 ---
 
 【补充：本效果证实有更简便的实现方法，详情请直接看末尾。不过本文的解法中用到的一些技巧还是很实用的，可以作为一种练习。】
