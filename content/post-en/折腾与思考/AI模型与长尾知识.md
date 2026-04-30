@@ -5,7 +5,7 @@ image:
 date: 2023-10-10 23:38:00
 categories: 折腾与思考-Geek
 url: /post-en/3643
-translationKey: 3643
+translationKey: '3643'
 ---
 
 Don't expect AI models to solve everything. Top-tier AIs are strong, especially in language and reasoning, but their "world knowledge" is limited to humanity's greatest hits. There's a vast amount of long-tail knowledge online that's tough to organize into datasets, and AI can't keep pace with its growth.
