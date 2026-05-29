@@ -118,9 +118,16 @@ weight = 2
 icon = "brand-zhihu"
 
 [[menu.social]]
+name = "马蜂窝"
+url = "https://www.mafengwo.cn/u/47038662.html"
+weight = 3
+[menu.social.params]
+icon = "brand-mafengwo"
+
+[[menu.social]]
 name = "GitHub"
 url = "https://github.com/greenzorro"
-weight = 3
+weight = 4
 [menu.social.params]
 icon = "brand-github"
 
