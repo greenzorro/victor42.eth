@@ -1,0 +1,75 @@
+name: Deploy to Filebase IPFS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+env:
+  HUGO_VERSION: '0.152.2'
+  HUGO_EXTENDED: true
+  NODE_VERSION: '18'
+
+jobs:
+  deploy-filebase:
+    name: Build and Publish Filebase IPNS
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: ${{ env.HUGO_EXTENDED }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install Hugo Modules
+        run: |
+          export GO111MODULE=on
+          hugo mod tidy
+
+      - name: Copy Stack Theme Assets
+        run: |
+          MODULE_CACHE=$(go env GOPATH)/pkg/mod/github.com/CaiJimmy/hugo-theme-stack/v3*
+          mkdir -p assets
+          cp -r $MODULE_CACHE/assets/* assets/
+
+      - name: Build Hugo Site
+        run: hugo --gc --minify
+
+      - name: Verify Build Output
+        run: |
+          test -d public
+          test -f public/index.html
+          echo "files=$(find public -type f | wc -l)"
+          du -sh public
+
+      - name: Install IPFS CAR tool
+        run: npm install --no-save ipfs-car@3.1.0
+
+      - name: Pack site as CAR
+        run: |
+          mkdir -p dist
+          npx ipfs-car pack public --output dist/site.car
+
+      - name: Publish to Filebase and update IPNS
+        env:
+          FILEBASE_ACCESS_KEY: ${{ secrets.FILEBASE_ACCESS_KEY }}
+          FILEBASE_SECRET_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
+          FILEBASE_BUCKET: ${{ secrets.FILEBASE_BUCKET }}
+          FILEBASE_IPNS_NAME: ${{ secrets.FILEBASE_IPNS_NAME }}
+        run: |
+          python scripts/filebase_publish.py \
+            --car dist/site.car \
+            --object-key "releases/site-${GITHUB_SHA}.car"
