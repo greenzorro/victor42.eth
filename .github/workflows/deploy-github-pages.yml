@@ -1,4 +1,4 @@
-name: Build Hugo Site
+name: Deploy to GitHub Pages
 
 # 触发条件 - main分支推送时自动构建和部署
 on:
@@ -24,7 +24,7 @@ env:
 jobs:
   # 构建任务
   build:
-    name: Build Hugo Site
+    name: Build and Deploy GitHub Pages
     runs-on: ubuntu-latest
 
     steps:
