@@ -16,7 +16,6 @@ S3_HOST = "s3.filebase.com"
 S3_REGION = "us-east-1"
 S3_SERVICE = "s3"
 API_HOST = "api.filebase.io"
-PINATA_HOST = "api.pinata.cloud"
 S3_NS = "http://s3.amazonaws.com/doc/2006-03-01/"
 
 
@@ -250,33 +249,6 @@ def update_ipns(access_key, secret_key, label, cid):
     return payload
 
 
-def pinata_pin_cid(jwt, cid, name):
-    body = json.dumps(
-        {
-            "hashToPin": cid,
-            "pinataMetadata": {
-                "name": name,
-                "keyvalues": {
-                    "source": "filebase-ipns-workflow",
-                },
-            },
-        }
-    ).encode("utf-8")
-    headers = {
-        "Authorization": f"Bearer {jwt}",
-        "Content-Type": "application/json",
-    }
-    conn = http.client.HTTPSConnection(PINATA_HOST, timeout=60)
-    conn.request("POST", "/pinning/pinByHash", body=body, headers=headers)
-    response = conn.getresponse()
-    data = response.read()
-    conn.close()
-    payload = json.loads(data.decode("utf-8")) if data else {}
-    if response.status >= 300:
-        raise SystemExit(f"Pinata pin-by-CID failed: {response.status} {response.reason}\n{payload}")
-    return payload
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--car", required=True)
@@ -299,15 +271,6 @@ def main():
     if network_key:
         print(f"FILEBASE_IPNS_KEY={network_key}")
         print(f"FILEBASE_IPNS_URL=https://ipfs.io/ipns/{network_key}/")
-
-    pinata_jwt = os.environ.get("PINATA_JWT")
-    if pinata_jwt:
-        pinata = pinata_pin_cid(pinata_jwt, cid, f"victor42.eth {args.object_key}")
-        print(f"PINATA_PIN_ID={pinata.get('id')}")
-        print(f"PINATA_PIN_CID={pinata.get('ipfsHash')}")
-        print(f"PINATA_PIN_STATUS={pinata.get('status')}")
-    else:
-        print("PINATA_PIN_SKIPPED=missing PINATA_JWT")
 
     if args.retention_prefix:
         cleanup_old_releases(
