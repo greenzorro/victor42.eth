@@ -76,4 +76,7 @@ jobs:
         run: |
           python scripts/filebase_publish.py \
             --car dist/site.car \
-            --object-key "releases/site-${GITHUB_SHA}.car"
+            --object-key "releases/site-${GITHUB_SHA}.car" \
+            --retention-prefix "releases/" \
+            --retention-keep 20 \
+            --retention-dry-run
