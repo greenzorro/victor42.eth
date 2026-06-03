@@ -41,9 +41,10 @@ jobs:
 
       - name: Copy Stack Theme Assets
         run: |
-          MODULE_CACHE=$(go env GOPATH)/pkg/mod/github.com/CaiJimmy/hugo-theme-stack/v3*
+          MODULE_CACHE=$(find "$(go env GOPATH)/pkg/mod/github.com" -path '*/hugo-theme-stack/v3*/assets' -type d | head -n 1)
+          test -n "$MODULE_CACHE"
           mkdir -p assets
-          cp -r $MODULE_CACHE/assets/* assets/
+          cp -r "$MODULE_CACHE"/* assets/
 
       - name: Build Hugo Site
         run: hugo --gc --minify
