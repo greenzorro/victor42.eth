@@ -68,26 +68,14 @@ jobs:
           npx ipfs-car pack public --output dist/site.car
 
       - name: Publish to Filebase and update IPNS
-        id: filebase
         env:
           FILEBASE_ACCESS_KEY: ${{ secrets.FILEBASE_ACCESS_KEY }}
           FILEBASE_SECRET_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
           FILEBASE_BUCKET: ${{ secrets.FILEBASE_BUCKET }}
           FILEBASE_IPNS_NAME: ${{ secrets.FILEBASE_IPNS_NAME }}
         run: |
-          set -o pipefail
           python scripts/filebase_publish.py \
             --car dist/site.car \
             --object-key "releases/site-${GITHUB_SHA}.car" \
             --retention-prefix "releases/" \
-            --retention-keep 20 | tee filebase-output.env
-          grep '^FILEBASE_CID=' filebase-output.env >> "$GITHUB_OUTPUT"
-
-      - name: Pin CID to Pinata
-        env:
-          PINATA_JWT: ${{ secrets.PINATA_JWT }}
-        run: |
-          python scripts/pinata_publish.py \
-            --cid "${{ steps.filebase.outputs.FILEBASE_CID }}" \
-            --name "victor42.eth ${GITHUB_SHA}" \
             --retention-keep 20
