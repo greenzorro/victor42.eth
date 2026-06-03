@@ -136,6 +136,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+          cname: blog.victor42.work
 
       # 步骤9: 添加PR评论 (仅PR时)
       - name: Comment PR with Build Status
