@@ -42,9 +42,12 @@ jobs:
       - name: Copy Stack Theme Assets
         run: |
           MODULE_CACHE=$(find "$(go env GOPATH)/pkg/mod/github.com" -path '*/hugo-theme-stack/v3*/assets' -type d | head -n 1)
-          test -n "$MODULE_CACHE"
-          mkdir -p assets
-          cp -r "$MODULE_CACHE"/* assets/
+          if [ -n "$MODULE_CACHE" ]; then
+            mkdir -p assets
+            cp -r "$MODULE_CACHE"/* assets/
+          else
+            echo "Stack theme assets not found in module cache; using repository assets directory."
+          fi
 
       - name: Build Hugo Site
         run: hugo --gc --minify
