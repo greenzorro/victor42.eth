@@ -63,31 +63,55 @@ jobs:
         run: npm install --no-save ipfs-car@3.1.0
 
       - name: Pack site as CAR
+        id: car
         run: |
+          set -o pipefail
           mkdir -p dist
-          npx ipfs-car pack public --output dist/site.car
+          ROOT_CID=$(npx ipfs-car pack public --output dist/site.car | tail -n 1)
+          test -n "$ROOT_CID"
+          echo "ROOT_CID=$ROOT_CID"
+          echo "ROOT_CID=$ROOT_CID" >> "$GITHUB_OUTPUT"
+          echo "$ROOT_CID" > dist/root.cid
 
-      - name: Publish to Filebase and update IPNS
+      - name: Pin CAR to Filebase
         id: filebase
         env:
           FILEBASE_ACCESS_KEY: ${{ secrets.FILEBASE_ACCESS_KEY }}
           FILEBASE_SECRET_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
           FILEBASE_BUCKET: ${{ secrets.FILEBASE_BUCKET }}
-          FILEBASE_IPNS_NAME: ${{ secrets.FILEBASE_IPNS_NAME }}
         run: |
           set -o pipefail
-          python scripts/filebase_publish.py \
+          python scripts/filebase_pin_car.py \
             --car dist/site.car \
             --object-key "releases/site-${GITHUB_SHA}.car" \
-            --retention-prefix "releases/" \
-            --retention-keep 20 | tee filebase-output.env
+            --expected-cid "${{ steps.car.outputs.ROOT_CID }}" | tee filebase-output.env
           grep '^FILEBASE_CID=' filebase-output.env >> "$GITHUB_OUTPUT"
+
+      - name: Update Filebase IPNS
+        env:
+          FILEBASE_ACCESS_KEY: ${{ secrets.FILEBASE_ACCESS_KEY }}
+          FILEBASE_SECRET_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
+          FILEBASE_IPNS_NAME: ${{ secrets.FILEBASE_IPNS_NAME }}
+        run: |
+          python scripts/filebase_update_ipns.py \
+            --cid "${{ steps.car.outputs.ROOT_CID }}"
 
       - name: Pin CID to 4EVER Pin
         env:
           FOUREVERLAND_TOKEN: ${{ secrets.FOUREVERLAND_TOKEN }}
         run: |
           python scripts/foureverland_pin.py \
-            --cid "${{ steps.filebase.outputs.FILEBASE_CID }}" \
+            --cid "${{ steps.car.outputs.ROOT_CID }}" \
             --name "victor42.eth ${GITHUB_SHA}" \
             --retention-keep 20
+
+      - name: Run Filebase Retention
+        env:
+          FILEBASE_ACCESS_KEY: ${{ secrets.FILEBASE_ACCESS_KEY }}
+          FILEBASE_SECRET_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
+          FILEBASE_BUCKET: ${{ secrets.FILEBASE_BUCKET }}
+        run: |
+          python scripts/filebase_retention.py \
+            --prefix "releases/" \
+            --current-object-key "releases/site-${GITHUB_SHA}.car" \
+            --keep 20
