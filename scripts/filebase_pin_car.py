@@ -19,7 +19,7 @@ def main():
     if cid != args.expected_cid:
         raise SystemExit(f"Filebase returned CID {cid}, expected {args.expected_cid}")
 
-    print(f"FILEBASE_CID={cid}")
+    print(f"FILEBASE_PIN_CID={cid}")
     print(f"FILEBASE_OBJECT_KEY={args.object_key}")
 
 

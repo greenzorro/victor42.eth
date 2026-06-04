@@ -74,7 +74,6 @@ jobs:
           echo "$ROOT_CID" > dist/root.cid
 
       - name: Pin CAR to Filebase
-        id: filebase
         env:
           FILEBASE_ACCESS_KEY: ${{ secrets.FILEBASE_ACCESS_KEY }}
           FILEBASE_SECRET_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
@@ -84,8 +83,7 @@ jobs:
           python scripts/filebase_pin_car.py \
             --car dist/site.car \
             --object-key "releases/site-${GITHUB_SHA}.car" \
-            --expected-cid "${{ steps.car.outputs.ROOT_CID }}" | tee filebase-output.env
-          grep '^FILEBASE_CID=' filebase-output.env >> "$GITHUB_OUTPUT"
+            --expected-cid "${{ steps.car.outputs.ROOT_CID }}"
 
       - name: Update Filebase IPNS
         env:
