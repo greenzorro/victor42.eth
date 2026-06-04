@@ -6,7 +6,7 @@ from filebase_client import delete_release_objects, list_release_objects, requir
 
 def cleanup_old_releases(access_key, secret_key, bucket, prefix, keep, current_key, dry_run):
     if keep < 1:
-        raise SystemExit("--retention-keep must be at least 1")
+        raise SystemExit("--keep must be at least 1")
 
     objects = sorted(
         list_release_objects(access_key, secret_key, bucket, prefix),
