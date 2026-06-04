@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import argparse
 import base64
 import datetime as dt
 import hashlib
@@ -107,7 +106,7 @@ def s3_request(access_key, secret_key, method, path, query=None, body=b"", heade
     return response.status, response.reason, response_headers, data
 
 
-def s3_put_car(access_key, secret_key, bucket, object_key, car_path):
+def put_car(access_key, secret_key, bucket, object_key, car_path):
     body = pathlib.Path(car_path).read_bytes()
     path = f"/{bucket}/{urllib.parse.quote(object_key, safe='/-_.~')}"
     headers = {
@@ -130,6 +129,24 @@ def s3_put_car(access_key, secret_key, bucket, object_key, car_path):
     if not cid:
         raise SystemExit("Filebase S3 upload succeeded but x-amz-meta-cid header was missing")
     return cid
+
+
+def update_ipns(access_key, secret_key, label, cid):
+    auth = base64.b64encode(f"{access_key}:{secret_key}".encode("utf-8")).decode("ascii")
+    body = json.dumps({"cid": cid}).encode("utf-8")
+    headers = {
+        "Authorization": f"Bearer {auth}",
+        "Content-Type": "application/json",
+    }
+    conn = http.client.HTTPSConnection(API_HOST, timeout=60)
+    conn.request("PUT", f"/v1/names/{urllib.parse.quote(label, safe='')}", body=body, headers=headers)
+    response = conn.getresponse()
+    data = response.read()
+    conn.close()
+    payload = json.loads(data.decode("utf-8")) if data else {}
+    if response.status >= 300:
+        raise SystemExit(f"Filebase IPNS update failed: {response.status} {response.reason}\n{payload}")
+    return payload
 
 
 def parse_s3_timestamp(value):
@@ -199,90 +216,3 @@ def delete_release_objects(access_key, secret_key, bucket, keys):
         )
         if status >= 300:
             raise SystemExit(f"Filebase S3 delete failed: {status} {reason}\n{data.decode(errors='replace')}")
-
-
-def cleanup_old_releases(access_key, secret_key, bucket, prefix, keep, current_key, dry_run):
-    if keep < 1:
-        raise SystemExit("--retention-keep must be at least 1")
-
-    objects = sorted(
-        list_release_objects(access_key, secret_key, bucket, prefix),
-        key=lambda item: item["last_modified"],
-        reverse=True,
-    )
-    keep_keys = {item["key"] for item in objects[:keep]}
-    keep_keys.add(current_key)
-    delete_candidates = [item for item in objects if item["key"] not in keep_keys]
-
-    print(f"FILEBASE_RETENTION_TOTAL={len(objects)}")
-    print(f"FILEBASE_RETENTION_KEEP={len(keep_keys)}")
-    print(f"FILEBASE_RETENTION_DELETE={len(delete_candidates)}")
-    if not delete_candidates:
-        return
-
-    for item in delete_candidates:
-        print(f"FILEBASE_RETENTION_DELETE_CANDIDATE={item['key']} size={item['size']}")
-
-    if dry_run:
-        print("FILEBASE_RETENTION_DRY_RUN=true")
-        return
-
-    delete_release_objects(access_key, secret_key, bucket, [item["key"] for item in delete_candidates])
-    print("FILEBASE_RETENTION_DRY_RUN=false")
-
-
-def update_ipns(access_key, secret_key, label, cid):
-    auth = base64.b64encode(f"{access_key}:{secret_key}".encode("utf-8")).decode("ascii")
-    body = json.dumps({"cid": cid}).encode("utf-8")
-    headers = {
-        "Authorization": f"Bearer {auth}",
-        "Content-Type": "application/json",
-    }
-    conn = http.client.HTTPSConnection(API_HOST, timeout=60)
-    conn.request("PUT", f"/v1/names/{urllib.parse.quote(label, safe='')}", body=body, headers=headers)
-    response = conn.getresponse()
-    data = response.read()
-    conn.close()
-    payload = json.loads(data.decode("utf-8")) if data else {}
-    if response.status >= 300:
-        raise SystemExit(f"Filebase IPNS update failed: {response.status} {response.reason}\n{payload}")
-    return payload
-
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--car", required=True)
-    parser.add_argument("--object-key", required=True)
-    parser.add_argument("--retention-prefix")
-    parser.add_argument("--retention-keep", type=int, default=20)
-    parser.add_argument("--retention-dry-run", action="store_true")
-    args = parser.parse_args()
-
-    access_key = require_env("FILEBASE_ACCESS_KEY")
-    secret_key = require_env("FILEBASE_SECRET_KEY")
-    bucket = require_env("FILEBASE_BUCKET")
-    ipns_label = require_env("FILEBASE_IPNS_NAME")
-
-    cid = s3_put_car(access_key, secret_key, bucket, args.object_key, args.car)
-    ipns = update_ipns(access_key, secret_key, ipns_label, cid)
-    network_key = ipns.get("network_key")
-
-    print(f"FILEBASE_CID={cid}")
-    if network_key:
-        print(f"FILEBASE_IPNS_KEY={network_key}")
-        print(f"FILEBASE_IPNS_URL=https://ipfs.io/ipns/{network_key}/")
-
-    if args.retention_prefix:
-        cleanup_old_releases(
-            access_key,
-            secret_key,
-            bucket,
-            args.retention_prefix,
-            args.retention_keep,
-            args.object_key,
-            args.retention_dry_run,
-        )
-
-
-if __name__ == "__main__":
-    main()
