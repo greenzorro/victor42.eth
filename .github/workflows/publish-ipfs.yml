@@ -59,19 +59,9 @@ jobs:
           echo "files=$(find public -type f | wc -l)"
           du -sh public
 
-      - name: Install IPFS CAR tool
-        run: npm install --no-save ipfs-car@3.1.0
-
       - name: Pack site as CAR
         id: car
-        run: |
-          set -o pipefail
-          mkdir -p dist
-          ROOT_CID=$(npx ipfs-car pack public --output dist/site.car | tail -n 1)
-          test -n "$ROOT_CID"
-          echo "ROOT_CID=$ROOT_CID"
-          echo "ROOT_CID=$ROOT_CID" >> "$GITHUB_OUTPUT"
-          echo "$ROOT_CID" > dist/root.cid
+        run: scripts/build_ipfs_car.sh public dist/site.car dist/root.cid
 
       - name: Pin CAR to Filebase
         env:
@@ -100,8 +90,15 @@ jobs:
         run: |
           python scripts/foureverland_pin.py \
             --cid "${{ steps.car.outputs.ROOT_CID }}" \
-            --name "victor42.eth ${GITHUB_SHA}" \
-            --retention-keep 20
+            --name "victor42.eth ${GITHUB_SHA}"
+
+      - name: Run 4EVER Retention
+        env:
+          FOUREVERLAND_TOKEN: ${{ secrets.FOUREVERLAND_TOKEN }}
+        run: |
+          python scripts/foureverland_retention.py \
+            --current-cid "${{ steps.car.outputs.ROOT_CID }}" \
+            --keep 20
 
       - name: Run Filebase Retention
         env:
