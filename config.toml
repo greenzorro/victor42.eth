@@ -34,6 +34,7 @@ mainSections = ["post"]
 author = "Victor42"
 readingTime = true
 defaultPageLanguage = "zh-cn"
+favicon = "https://cdn.victor42.work/assets/favicon.ico"
 
 # Author配置（Stack v3.32.0需要）
 [params.Author]
@@ -67,10 +68,6 @@ URL = "https://cdn.victor42.work/assets/pale-blue-dot.jpg"
 alt = "Victor42 Avatar"
 enabled = true
 local = false
-
-# Favicon配置
-[params.favicon]
-URL = "https://cdn.victor42.work/assets/favicon.ico"
 
 # 菜单配置
 [menu]
