@@ -9,7 +9,6 @@
 ## 2. 项目概览
 
 ### 2.1 基本信息
-- **部署地址**: https://victor42.eth.limo
 - **GitHub**: https://github.com/greenzorro/victor42.eth
 - **技术栈**: Hugo Extended 0.152.2 + Stack主题 v3.32.0
 
@@ -18,45 +17,14 @@
 - ✅ 自动SEO优化（Schema.org、OpenGraph、hreflang）
 - ✅ 中文字符阅读时间计算
 - ✅ 关联推荐自动语言分离
-- ✅ GitHub Actions自动部署
-- ✅ 4EVERLAND IPFS部署 + ENS域名
 
 ---
 
 ## 3. 整体架构
 
-### 3.1 部署架构
+### 3.1 部署说明
 
-```
-┌─────────────────┐
-│   开发者推送     │  (main分支)
-└────────┬────────┘
-         │
-         ▼
-┌────────────────────────────────────────┐
-│         GitHub Actions                  │
-│  - Hugo Extended构建                    │
-│  - 推送到gh-pages分支                   │
-└────────┬─────────┬──────────────────────┘
-         │         │
-         ▼         ▼
-┌────────────────┐ ┌──────────────────┐
-│   gh-pages     │ │  GitHub Pages   │  (预览)
-│  (静态文件)    │ │  https://...    │
-└────────┬───────┘ └──────────────────┘
-         │
-         ▼
-┌────────────────────────────────────────┐
-│          4EVERLAND                     │
-│  - IPFS部署                             │
-│  - ENS域名绑定                          │
-│  - victor42.eth.limo                  │
-└────────────────────────────────────────┘
-```
-
-### 3.2 分支策略
-- **main分支**: 源代码
-- **gh-pages分支**: 构建产物，GitHub Actions自动更新
+网站部署方案见 `docs/ipfs-deployment.md`。
 
 ---
 
@@ -68,8 +36,10 @@
 victor42.eth/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml          # GitHub Actions工作流
+│       ├── deploy-github-pages.yml # GitHub Actions工作流配置
+│       └── publish-ipfs.yml        # GitHub Actions工作流配置
 ├── assets/                     # Hugo资源（编译）
+│   ├── icons/
 │   └── scss/
 │       └── variables.scss      # Stack主题变量
 ├── content/                    # 内容
@@ -80,9 +50,13 @@ victor42.eth/
 │   └── post-en/                # 英文文章
 │       ├── 苟且与远方/
 │       └── ...
+├── docs/                       # 项目文档
+│   └── ipfs-deployment.md      # 网站部署方案
+├── i18n/                       # 国际化文案
 ├── layouts/                    # 模板
 │   ├── partials/
 │   └── _default/
+├── scripts/                    # 项目脚本
 ├── static/                     # 静态资源
 │   └── css/
 ├── config.toml                 # 站点配置
@@ -94,7 +68,9 @@ victor42.eth/
 **配置**:
 - `config.toml`: 站点主配置
 - `go.mod`: Hugo Modules依赖
-- `.github/workflows/deploy.yml`: CI/CD配置
+- `.github/workflows/`: GitHub Actions工作流配置
+- `docs/ipfs-deployment.md`: 网站部署方案
+- `scripts/`: 项目脚本
 
 **模板**:
 - `layouts/partials/head/head.html`: 主页，SEO和hreflang
@@ -284,17 +260,15 @@ translationKey: 3618
 文件: `config.toml`
 
 ```toml
-baseURL = "https://victor42.eth.limo"  # 生产环境域名
+baseURL = "https://victor42.eth.limo"  # 站点根地址
 relativeURLs = true             # 使用相对URL
 # 移除publishDir，使用默认的public目录
 buildfuture = true              # 允许发布未来日期文章
 ```
 
 **特点**:
-- 使用相对URL确保在不同部署平台都能正常工作
-- 通过GitHub Actions自动推送到gh-pages分支
-- 4EVERLAND自动同步gh-pages分支的构建产物
-- 灵活的部署策略，支持GitHub Pages、4EVERLAND等多个平台
+- 使用相对URL提高资源路径可迁移性
+- 使用默认 `public` 目录作为Hugo构建产物目录
 
 ### 5.4 自定义功能
 
@@ -354,39 +328,13 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 - 嵌套菜单CSS规则覆盖
 - 三列布局（宽屏）vs 单列（移动端）
 
-### 5.5 CI/CD
-
-#### 5.5.1 GitHub Actions工作流
-文件: `.github/workflows/deploy.yml`
-
-**核心流程**:
-```yaml
-1. 检出代码 (actions/checkout@v4)
-2. 设置Hugo Extended (peaceiris/actions-hugo@v2)
-3. 设置Node.js 18 (actions/setup-node@v4)
-4. 安装Stack主题依赖 (npm ci)
-5. 执行构建 (hugo --gc --minify)
-6. 推送到gh-pages (peaceiris/actions-gh-pages@v3)
-```
-
-**权限配置**:
-```yaml
-permissions:
-  contents: write       # 推送到gh-pages
-  pull-requests: write  # PR评论
-  statuses: write       # 更新commit状态
-  pages: write          # GitHub Pages
-```
-
----
-
 ## 6. 核心配置
 
 ### 6.1 config.toml 关键配置
 
 ```toml
 # 基础配置
-baseURL = "https://victor42.eth.limo"  # 生产环境域名
+baseURL = "https://victor42.eth.limo"  # 站点根地址
 relativeURLs = true             # 使用相对URL
 languageCode = 'en-us'
 defaultContentLanguage = "zh-cn"
@@ -492,51 +440,3 @@ assets/
 - `static/css/custom-override.css` (5KB): Stack主题样式覆盖
 - `assets/icons/`: SVG图标目录
 - 主题资源通过Hugo Modules从Stack主题复制
-
----
-
-## 7. 部署方案
-
-### 7.1 4EVERLAND配置
-
-**项目创建**:
-1. 选择 "Static Web Hosting"
-2. 框架: Hugo (或其他)
-3. 连接到GitHub
-4. 仓库: `greenzorro/victor42.eth`
-5. 分支: `gh-pages`
-6. 根目录: `/` (gh-pages根目录)
-7. 构建命令: 空（已构建）
-8. 发布目录: 空（gh-pages就是发布目录）
-
-**域名绑定**:
-- ENS域名: `victor42.eth.limo`
-- 绑定方式: Decentralized Domains → ENS
-- 成本: ~$0.3 (MetaMask交易)
-
-**特点**:
-- 自动从GitHub获取构建产物
-- IPFS pinning
-- CDN加速
-- SSL证书
-- IPNS自动更新
-
-### 7.2 部署流程
-
-```
-开发者push → GitHub Actions → gh-pages更新 → 4EVERLAND自动部署 → victor42.eth.limo
-```
-
-**时间线**:
-- GitHub Actions: ~2分钟
-- 4EVERLAND: 3-5分钟
-- 总计: < 10分钟
-
-### 7.3 多平台支持
-
-**当前**: 4EVERLAND (生产)
-**备选**:
-- GitHub Pages: `greenzorro.github.io/victor42.eth`
-- Netlify / Vercel (支持静态文件部署)
-
-**优势**: 平台无关，静态文件可部署到任何平台
