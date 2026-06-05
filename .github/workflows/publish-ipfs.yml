@@ -63,7 +63,7 @@ jobs:
         id: car
         run: scripts/build_ipfs_car.sh public dist/site.car dist/root.cid
 
-      - name: Pin CAR to Filebase
+      - name: Pin CAR to Filebase and Run Retention
         env:
           FILEBASE_ACCESS_KEY: ${{ secrets.FILEBASE_ACCESS_KEY }}
           FILEBASE_SECRET_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
@@ -73,7 +73,19 @@ jobs:
           python scripts/filebase_pin_car.py \
             --car dist/site.car \
             --object-key "releases/site-${GITHUB_SHA}.car" \
-            --expected-cid "${{ steps.car.outputs.ROOT_CID }}"
+            --expected-cid "${{ steps.car.outputs.ROOT_CID }}" \
+            --retention-prefix "releases/" \
+            --keep 20
+
+      - name: Pin CID to 4EVER Pin and Run Retention
+        continue-on-error: true
+        env:
+          FOUREVERLAND_TOKEN: ${{ secrets.FOUREVERLAND_TOKEN }}
+        run: |
+          python scripts/foureverland_pin.py \
+            --cid "${{ steps.car.outputs.ROOT_CID }}" \
+            --name "victor42.eth ${GITHUB_SHA}" \
+            --keep 20
 
       - name: Update Filebase IPNS
         env:
@@ -83,30 +95,3 @@ jobs:
         run: |
           python scripts/filebase_update_ipns.py \
             --cid "${{ steps.car.outputs.ROOT_CID }}"
-
-      - name: Pin CID to 4EVER Pin
-        env:
-          FOUREVERLAND_TOKEN: ${{ secrets.FOUREVERLAND_TOKEN }}
-        run: |
-          python scripts/foureverland_pin.py \
-            --cid "${{ steps.car.outputs.ROOT_CID }}" \
-            --name "victor42.eth ${GITHUB_SHA}"
-
-      - name: Run 4EVER Retention
-        env:
-          FOUREVERLAND_TOKEN: ${{ secrets.FOUREVERLAND_TOKEN }}
-        run: |
-          python scripts/foureverland_retention.py \
-            --current-cid "${{ steps.car.outputs.ROOT_CID }}" \
-            --keep 20
-
-      - name: Run Filebase Retention
-        env:
-          FILEBASE_ACCESS_KEY: ${{ secrets.FILEBASE_ACCESS_KEY }}
-          FILEBASE_SECRET_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
-          FILEBASE_BUCKET: ${{ secrets.FILEBASE_BUCKET }}
-        run: |
-          python scripts/filebase_retention.py \
-            --prefix "releases/" \
-            --current-object-key "releases/site-${GITHUB_SHA}.car" \
-            --keep 20
