@@ -8,11 +8,9 @@ url: /post-en/ai-native-data-system
 translationKey: ai-native-data-system
 ---
 
-How my data management evolved alongside tools.
-
 I am a power user of Excel and Google Sheets, [relying on them heavily to manage both work and life](https://qvokpfxqsh.feishu.cn/wiki/G8OywdlWji0H31kJ0KwciaJ8nAd).
 
-Later, I migrated some of my heavier data management tasks to visual databases like Feishu Bitable. While they might look like Excel, they are fundamentally different beasts. With much stricter data rules than spreadsheets, they trade some flexibility for the raw power of a true database. You can easily link multiple tables and build highly complex data systems—more than capable of running [a small business](https://victor42.eth.limo/post/automate-ai-illustrations-production/).
+Later, I migrated some of my heavier data management tasks to visual databases like Feishu Bitable. While they might look like Excel, they are fundamentally different beasts. With much stricter data rules than spreadsheets, they trade some flexibility for the raw power of a true database. You can easily link multiple tables and build highly complex data systems—more than capable of running [a small business](https://victor42.eth.limo/post-en/automate-ai-illustrations-production/).
 
 ![](https://cdn.victor42.work/posts/2026-06/fc6b17ebd80b1127ef989c46c9ed412b.webp)
 
