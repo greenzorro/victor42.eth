@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post-Ens on Victor42</title><link>https://victor42.eth.limo/post-en/</link><description>Recent content in Post-Ens on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 28 May 2026 20:39:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/post-en/index.xml" rel="self" type="application/rss+xml"/><item><title>A Relaxing 6 Day 5 Night Early Summer Trip to Xi an</title><link>https://victor42.eth.limo/post-en/trip-to-xi-an/</link><pubDate>Thu, 28 May 2026 20:39:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/trip-to-xi-an/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-05/9adc2b6a0b364c1d54f8343c5a3d5884.webp" alt="Featured image of post A Relaxing 6 Day 5 Night Early Summer Trip to Xi an" /&gt;&lt;p&gt;The modern narrative of Tang prosperity cannot mask the sigh for the rise and fall of empires.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post-Ens on Victor42</title><link>https://victor42.eth.limo/post-en/</link><description>Recent content in Post-Ens on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Tue, 09 Jun 2026 16:12:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/post-en/index.xml" rel="self" type="application/rss+xml"/><item><title>What is an AI Native Data System</title><link>https://victor42.eth.limo/post-en/ai-native-data-system/</link><pubDate>Tue, 09 Jun 2026 16:12:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/ai-native-data-system/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-06/01a9a53be38ac38125ec5e439d0ee2d1.webp" alt="Featured image of post What is an AI Native Data System" /&gt;&lt;p&gt;How my data management evolved alongside tools.&lt;/p&gt;
+&lt;p&gt;I am a power user of Excel and Google Sheets, &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/wiki/G8OywdlWji0H31kJ0KwciaJ8nAd" target="_blank" rel="noopener"
+&gt;relying on them heavily to manage both work and life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Later, I migrated some of my heavier data management tasks to visual databases like Feishu Bitable. While they might look like Excel, they are fundamentally different beasts. With much stricter data rules than spreadsheets, they trade some flexibility for the raw power of a true database. You can easily link multiple tables and build highly complex data systems—more than capable of running &lt;a class="link" href="https://victor42.eth.limo/post/automate-ai-illustrations-production/" target="_blank" rel="noopener"
+&gt;a small business&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/fc6b17ebd80b1127ef989c46c9ed412b.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;I once built a full-cycle task management system in Bitable, tracking everything from assignment to delivery. It seamlessly spun out weekly reports, project calendars, and annual stats. People asked for this system at least three times: a colleague for personal use, a manager for their team, and my previous employer for a company-wide rollout.&lt;/p&gt;
+&lt;p&gt;But no matter how powerful the tool, you still have to do the heavy lifting yourself.&lt;/p&gt;
+&lt;p&gt;I believe in what I call the &amp;ldquo;dishwasher philosophy&amp;rdquo;. The older generation often scoffs at dishwashers, arguing, &amp;ldquo;You still have to rinse the plates first. I could have just washed them by hand in that time!&amp;rdquo; Here is my take: washing by hand takes 15 minutes of pure human labor. Rinsing takes 5 minutes, and the machine runs for 40—but that is still only 5 minutes of &lt;em&gt;my&lt;/em&gt; time. I just bought back 10 minutes of my life.&lt;/p&gt;
+&lt;p&gt;To me, technology is a tool to reclaim my life.&lt;/p&gt;
+&lt;p&gt;Bitable has built-in AI features, and you can also use local Agents to control it via CLI or API. But if you try it, it feels like Usain Bolt running underwater—completely constrained. Bitable is not an AI-native product; it is designed for human eyes and human logic. Current AI Agents are text-based creatures, interacting with the world through code. Therefore, the most AI-native data system is simply a database.&lt;/p&gt;
+&lt;p&gt;I spent a day overhauling this system with AI. I stripped it back to the basics and took it entirely local. It no longer relies on cloud services or third-party apps. Now, it is just a lightweight local SQLite database, entirely read, written, and managed by AI. It automatically generates four pages based on the data: a calendar, recent tasks, historical tasks, and project stats. These serve as my dashboard and command center. Here is how it looks:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/01a9a53be38ac38125ec5e439d0ee2d1.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/1ef49a58e0fc77e16de145b8a8f10935.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/4493b8709a24ae2c1a2ebd66f351e0de.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/6c11adfcc19725d0155524aae1eedf6f.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Need to squeeze in a last-minute request? I just tell the AI to push all tasks from today onwards back by one workday, and it even splits overnight tasks to skip the weekend. Just one sentence.&lt;/p&gt;
+&lt;p&gt;Finished a task? The AI automatically scans the schedule for the task&amp;rsquo;s last appearance, sets that as the delivery date, and marks it done. If I forget to add deliverable links or thumbnails, it nudges me to provide them. Again, just one sentence.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/d89b73b5ca2469be465cc6c1e9ddbb4a.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/c865e3397af6f1488633198616b466ff.webp"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;p&gt;Want to add public holidays to the calendar? It is a non-standard request, but since you are using AI, it always finds a way to make it happen.&lt;/p&gt;
+&lt;p&gt;I am not saying this replaces Excel or Bitable entirely. Their perks are undeniable: WYSIWYG interfaces, cross-platform access, and zero environment dependencies. I still manage plenty of data in Google Sheets.&lt;/p&gt;
+&lt;p&gt;Watching the AI carefully but slowly read specs, write SQL, verify data, and update pages does not bother me one bit. Sure, I could have done it in seconds in Excel or Bitable. But over a full day of intensive use, who knows how many of those seconds the AI has bought back for me.&lt;/p&gt;
+&lt;p&gt;This system is open-source, so feel free to grab it. It will keep your work perfectly organized without draining your time on administrative chores:
+&lt;a class="link" href="https://github.com/greenzorro/project-manager" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/project-manager&lt;/a&gt;&lt;/p&gt;</description></item><item><title>A Relaxing 6 Day 5 Night Early Summer Trip to Xi an</title><link>https://victor42.eth.limo/post-en/trip-to-xi-an/</link><pubDate>Thu, 28 May 2026 20:39:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/trip-to-xi-an/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-05/9adc2b6a0b364c1d54f8343c5a3d5884.webp" alt="Featured image of post A Relaxing 6 Day 5 Night Early Summer Trip to Xi an" /&gt;&lt;p&gt;The modern narrative of Tang prosperity cannot mask the sigh for the rise and fall of empires.&lt;/p&gt;
 &lt;p&gt;Bordering the Hexi Corridor to the west and China&amp;rsquo;s vast eastern plains, the Guanzhong Plain has witnessed the rise and fall of countless brilliant civilizations. Visiting this ancient land in early summer, you can truly feel the weight of history beneath your feet.&lt;/p&gt;
 &lt;h2 id="day-1-bell-and-drum-towers--muslim-quarter"&gt;Day 1: Bell and Drum Towers &amp;amp; Muslim Quarter
 &lt;/h2&gt;&lt;h3 id="xian-bell-and-drum-towers"&gt;Xi&amp;rsquo;an Bell and Drum Towers
