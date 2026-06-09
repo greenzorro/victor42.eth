@@ -8,8 +8,6 @@ url: /post/ai-native-data-system
 translationKey: ai-native-data-system
 ---
 
-我的数据管理方式，随工具发展的几次变迁。
-
 我Excel/Google Sheets用得很溜，[大量用它们管理工作和生活](https://qvokpfxqsh.feishu.cn/wiki/G8OywdlWji0H31kJ0KwciaJ8nAd)。
 
 后来，我曾经把一部分较重的数据管理任务迁移到飞书多维表这样的产品里。这类东西长得很像Excel，但本质上是完全不同的东西，是可视化数据库。它们比Excel有着严格得多的数据规范，限制灵活性的同时，释放了数据库天然带来的强大能力。可以更轻松建立多表关联，构建出结构非常复杂的数据系统，支撑[一个小生意](https://victor42.eth.limo/post/automate-ai-illustrations-production/)都不在话下。
