@@ -50,11 +50,11 @@ With high volume, cost was as crucial as quality. GPT-4o was too pricey, and Jim
 
 The main open-source contenders were SDXL and Flux dev. SDXL is cheap and fast, but flawed. For instance, if a prompt described a boy in a blue striped shirt and a mom in a khaki cardigan, SDXL might color both outfits blue or khaki, leading to high rejection rates. Flux dev was far more reliable.
 
-![](https://cdn.victor42.work/posts/2025-05/1cc02c0bc68a362b1d44b4de01416be3.webp)
+![AI generated Chinese xianxia couple illustration with silver-haired woman and red-haired man facing each other](https://cdn.victor42.work/posts/2025-05/1cc02c0bc68a362b1d44b4de01416be3.webp)
 
 Here's an example from another project. The Flux dev image above perfectly matched my character descriptions: a female lead in teal with silver-gray hair, and a male lead in red with red hair. Even eye colors were accurate.
 
-![](https://cdn.victor42.work/posts/2025-05/86a1c4af1b2e365cca75a7e595885a4b.webp)
+![AI generated ancient romance illustration of purple-haired lord and silver-haired woman kissing in a palace](https://cdn.victor42.work/posts/2025-05/86a1c4af1b2e365cca75a7e595885a4b.webp)
 
 In contrast, SDXL produced this mess. Total chaos.
 
@@ -66,7 +66,7 @@ So, Flux dev was the clear choice.
 
 To automate image generation, I needed programmatic access.
 
-![](https://cdn.victor42.work/posts/2025-05/8aec8fc0f480daac85a741fa5a288536.webp)
+![Full ComfyUI complex node workflow screenshot for batch AI illustration automation pipeline](https://cdn.victor42.work/posts/2025-05/8aec8fc0f480daac85a741fa5a288536.webp)
 
 There are three main ways to generate images: Flux WebUI, ComfyUI, and direct API calls. I preferred [ComfyUI](https://www.comfy.org/) for its API, which accepts entire workflows. With the model and resources set up, the program sends a workflow and receives an image. Wrapping this in a utility function and looping it allows for bulk image generation.
 
@@ -74,21 +74,21 @@ There are three main ways to generate images: Flux WebUI, ComfyUI, and direct AP
 
 AI image generation is resource-intensive. My i7 Windows laptop (over 7,000 RMB) has a weak GPU; an SDXL image took 10 minutes. A new PC was an option, but with the project still tentative and needing scalable resources, cloud computing was better.
 
-![](https://cdn.victor42.work/posts/2025-05/6b5e8f6f5c09ef4fc1957a61d0c9e7e1.webp)
+![Side-by-side brand logos of Replicate and RunComfy AI cloud GPU computing platforms](https://cdn.victor42.work/posts/2025-05/6b5e8f6f5c09ef4fc1957a61d0c9e7e1.webp)
 
 The hardcore route—buying cloud machines and storage—was too complex for my 'half-baked' developer skills. I opted for simpler platforms: [Replicate](https://replicate.com/) and [Runcomfy](https://www.runcomfy.com/). I just needed to use their APIs, avoiding machine configuration hassles.
 
-![](https://cdn.victor42.work/posts/2025-05/5fac174ef96e1fe4a297ab6365c802e7.webp)
+![Replicate model page for flux-dev-lora showing commercial-use pricing at $0.032 per image](https://cdn.victor42.work/posts/2025-05/5fac174ef96e1fe4a297ab6365c802e7.webp)
 
 Replicate offers the [Flux dev LoRA model](https://replicate.com/black-forest-labs/flux-dev-lora). Input prompts and parameters, run it, and get an image—simple. For a custom LoRA, I'd train it, upload it (Hugging Face/Civitai), and call it via URL. It costs about 0.2 RMB per image.
 
-![](https://cdn.victor42.work/posts/2025-05/3117969428b59e24d262d922b13bdc61.webp)
+![ComfyUI TTP Tile image tiling and upscaling workflow node configuration screenshot](https://cdn.victor42.work/posts/2025-05/3117969428b59e24d262d922b13bdc61.webp)
 
 However, Replicate had a key drawback: no support for arbitrary custom nodes. Understandably, as a multi-modal platform (text, voice, etc.), it couldn't offer deep ComfyUI-specific support. My planned upscaling technique needed a `TTP_Image_Tile_Batch` node, which Replicate lacked.
 
 Runcomfy, however, specializes in ComfyUI. It offers cloud machines with storage, letting me upload custom models and nodes. In theory, it supports any image model and custom node. Runcomfy bills by the minute for machine runtime. Each generation session (manual UI or API) required starting a machine; billing began at launch and ended at shutdown.
 
-![](https://cdn.victor42.work/posts/2025-05/0840c3aec7006ee08ce2b68bef26b2b1.webp)
+![RunComfy cloud GPU platform pricing comparison page for Hobby and Pro subscription tiers](https://cdn.victor42.work/posts/2025-05/0840c3aec7006ee08ce2b68bef26b2b1.webp)
 
 The kicker? It was actually cheaper per image than Replicate!
 
@@ -104,13 +104,13 @@ For the first trial, using the client's style references, I created illustration
 
 The client approved a style similar to this (watercolor left, flat right). Ignore the limb issues (I generated these later); focus on the style:
 
-![](https://cdn.victor42.work/posts/2025-05/4abb55973b10dfc1491328b0499e6de5.webp)
+![Two AI generated children's book illustrations comparing flat color and sketch styles of mother and boy near daffodils](https://cdn.victor42.work/posts/2025-05/4abb55973b10dfc1491328b0499e6de5.webp)
 
 #### Challenge 1: Meeting Style Requirements
 
 Initially, I cut corners, underestimating the client's strict style demands. I used community AI models instead of training a dedicated one. After a few attempts, the client reluctantly accepted the watercolor style but found the flat style too different from their references.
 
-![](https://cdn.victor42.work/posts/2025-05/776493c1430edf9a9a4f3e761fd69565.webp)
+![Side-by-side AI generated children's book scenes in flat color and watercolor styles of mother and son at flowers](https://cdn.victor42.work/posts/2025-05/776493c1430edf9a9a4f3e761fd69565.webp)
 
 *Results from someone else's model.*
 
@@ -124,13 +124,13 @@ The client provided dozens of reference images for each style, sufficient for tr
 
 Another hurdle was AI's grasp of image content. It could draw elements like a park, flower, boy, and mom, but character actions were often inaccurate. For instance, a boy might pick a flower without looking, or squat awkwardly, or the mom's gesture to stop him might look like she was receiving flowers.
 
-![](https://cdn.victor42.work/posts/2025-05/86958314b04e57621321225218a9be95.webp)
+![AI generated watercolor children's book illustration of mother grabbing boy's arm near daffodils](https://cdn.victor42.work/posts/2025-05/86958314b04e57621321225218a9be95.webp)
 
 *This one looks like the mom is helping the boy up, and who knows where the boy is looking.*
 
 The core issue: AI understands objects, not relationships. Unlike humans who learn from the physical world, AI is like a captive artist in a cellar, endlessly seeing paintings and crudely imitating them.
 
-![](https://cdn.victor42.work/posts/2025-05/becc19b993c3f1b05d05fceb0724da4d.webp)
+![ComfyUI CLIP prompt text node for flat color vector SVG children's book illustration scene](https://cdn.victor42.work/posts/2025-05/becc19b993c3f1b05d05fceb0724da4d.webp)
 
 To address this, I optimized my image generation system. I had DeepSeek generate highly detailed prompts, specifying character actions, expressions, positions, orientation, gaze, and even individual hand movements.
 
@@ -138,7 +138,7 @@ This significantly improved results but didn't eliminate all issues. AI has its 
 
 #### Challenge 3: Fixing Deformed Hands
 
-![](https://cdn.victor42.work/posts/2025-05/8aa627aa4a1c69576aa845f4bedda2a1.webp)
+![AI generated children's book illustration with red annotation boxes marking hand and flower rendering issues](https://cdn.victor42.work/posts/2025-05/8aa627aa4a1c69576aa845f4bedda2a1.webp)
 
 Then came the notorious AI challenge: deformed hands. Hands, our primary tools for interacting with diverse objects, are incredibly varied. Even AI that draws realistic faces struggles with hand variations after seeing countless images.
 
@@ -160,7 +160,7 @@ The style issue was resolved. Interaction and hand problems were manageable by g
 
 To accurately replicate the client's watercolor and flat styles, training a custom LoRA model was essential.
 
-![](https://cdn.victor42.work/posts/2025-05/baf0661304498451e79dedadb36305ff.webp)
+![Liblib AI Lora fine-tuning interface with training parameters and dataset upload configuration](https://cdn.victor42.work/posts/2025-05/baf0661304498451e79dedadb36305ff.webp)
 
 Despite long experience with SD and ComfyUI, this was my first LoRA training. I'd assumed training would simplify and be learnable on demand. Indeed, [Liblib's](https://www.liblib.art/pretrain) GUI now makes it a point-and-click affair.
 
@@ -176,19 +176,19 @@ Reading [another user's LoRA training diary](https://civitai.com/articles/6792/f
 
 With the trained LoRA uploaded to Runcomfy's storage, resources were set. I configured a basic Flux text-to-image workflow, adding two LoRAs: one for hand detail optimization, one for my custom style.
 
-![](https://cdn.victor42.work/posts/2025-05/50c317a3a943f4063fbdfcb904aa4c98.webp)
+![List of RunComfy API configuration JSON files used in the AI illustration automation project](https://cdn.victor42.work/posts/2025-05/50c317a3a943f4063fbdfcb904aa4c98.webp)
 
 This gave me two image generation workflows (watercolor and flat), exported as API files for programmatic use.
 
 High-resolution upscaling was another core workflow, a modified Flux image-to-image setup:
 
-![](https://cdn.victor42.work/posts/2025-05/06a64ad801e05bf0bb897a520b5a798b.webp)
+![ComfyUI flat style generation workflow with 4-step Lora nodes and low denoise value highlighted](https://cdn.victor42.work/posts/2025-05/06a64ad801e05bf0bb897a520b5a798b.webp)
 
 1.  Denoising strength at 0.15 to preserve original content.
 2.  A 4-step generation LoRA. This speeds up Flux dev (usually 20 steps) like Flux schnell, reducing quality slightly but acceptably for upscaling, where the difference is imperceptible.
 3.  TTP_Image_Tile_Batch nodes before and after sampling. These divide the image into tiles. Flux processes one tile at a time, focusing attention for richer, more accurate details. The image is then reassembled, achieving high-res upscaling.
 
-![](https://cdn.victor42.work/posts/2025-05/bc4688a79ca948cd18247bf19f64b975.webp)
+![Chinese traditional jade stone relief wall carving featuring welcoming pine tree with cranes as AI style reference](https://cdn.victor42.work/posts/2025-05/bc4688a79ca948cd18247bf19f64b975.webp)
 
 Understanding denoising strength is key to mastering ComfyUI. I visualize it as carving a 1-meter thick marble wall. Denoising 1 (max) allows free carving, even through the wall. Denoising 0.15 limits work to the top 15% (surface), creating a shallow relief.
 
@@ -202,15 +202,15 @@ With stable LoRA and workflows, I still needed manual touch-up tools for special
 
 The manual touch-up workflows included **Text-to-Image Inpainting, Image-to-Image Inpainting, and Image-to-Image (Style Transfer/Redrawing)**.
 
-![](https://cdn.victor42.work/posts/2025-05/420eff7d539ee0d57ffe31a0e2d71865.webp)
+![ComfyUI inpainting workflow with style Lora, hand-fix Lora, and Flux dev fill nodes labeled](https://cdn.victor42.work/posts/2025-05/420eff7d539ee0d57ffe31a0e2d71865.webp)
 
 **Text-to-Image Inpainting** uses the Flux dev fill model (for inpainting/outpainting) with my style LoRA, similar to basic text-to-image. Used for adding hats, changing shoes, or altering a cat's tail.
 
-![](https://cdn.victor42.work/posts/2025-05/371178a155b572a71eac5496cafde7f1.webp)
+![ComfyUI cartoon Inpaint workflow using Flux redux image reference module with two thumbnail previews](https://cdn.victor42.work/posts/2025-05/371178a155b572a71eac5496cafde7f1.webp)
 
 **Image-to-Image Inpainting** combines Flux dev fill and Flux redux. Redux processes inserted objects to blend them stylistically and naturally, preserving features. It ignores text prompts, using only the image input. Common for changing clothes on e-commerce models.
 
-![](https://cdn.victor42.work/posts/2025-05/d61012dafe242e5c5c8a12f9061b1e11.webp)
+![ComfyUI workflow with image input preprocessing and Flux redux image-to-image generation pipeline](https://cdn.victor42.work/posts/2025-05/d61012dafe242e5c5c8a12f9061b1e11.webp)
 
 **Image-to-Image (Redrawing/Style Transfer)** uses Flux dev and Flux redux to create a similar-looking "copy" with different details. Adding my style LoRA transforms photos into illustrations, preserving original features. Useful for social media "content spinning"—modifying online images to appear original and avoid plagiarism.
 
@@ -237,7 +237,7 @@ Once built, I reran the second trial tasks through the system smoothly. My invol
 7.  Run Photoshop batch action for texture details.
 8.  Run Program #4 (Organize): sorts images into book folders for client delivery.
 
-![](https://cdn.victor42.work/posts/2025-05/7ba00f10d5baba852b7ecf192d626828.webp)
+![VSCode file explorer showing Python automation scripts for children's book AI illustration generation project](https://cdn.victor42.work/posts/2025-05/7ba00f10d5baba852b7ecf192d626828.webp)
 
 This setup seems complex, but manual work is minimal. Image selection takes time; other steps are just a button press, then I'm AFK.
 
@@ -253,35 +253,35 @@ To build this system, I connected automation features from various tools. The wo
 
 Feishu Base (Lark Base) was ideal for converting brief descriptions to specific drawing prompts. It integrates with various third-party AI models, automating complex text processing.
 
-![](https://cdn.victor42.work/posts/2025-05/b20bc439ab6eb3605ca35d5f9f84dacb.webp)
+![Notion database hierarchy for AI illustration workflow showing image table, character table, and project table](https://cdn.victor42.work/posts/2025-05/b20bc439ab6eb3605ca35d5f9f84dacb.webp)
 
 My table structure is layered: Image Table, Character Profile Table, and Project Table, plus two dimension tables for style/complexity prompts (complexity affects price). Upper tables read from lower ones; lower tables summarize upper ones for image counts and revenue estimates.
 
-![](https://cdn.victor42.work/posts/2025-05/cbd58340ff222763cccda062c237bd5d.webp)
+![Notion project table Finished view with test project and experiment records and completion checkbox status](https://cdn.victor42.work/posts/2025-05/cbd58340ff222763cccda062c237bd5d.webp)
 
 Bottom-up: The Project Table defines project name, month, style, calculates image counts, looks up prices by complexity to estimate revenue, and stores notes.
 
-![](https://cdn.victor42.work/posts/2025-05/ce6e669c0e3371bb8b89c75df1b38d32.webp)
+![Notion image table Grid view showing 82 image records with thumbnail preview under project 15](https://cdn.victor42.work/posts/2025-05/ce6e669c0e3371bb8b89c75df1b38d32.webp)
 
 Next, the Character Profile Table ensures consistency. For picture books, main characters need consistent appearance. This table defines character name, project, and uses DeepSeek for detailed appearance descriptions (focusing on appearance, not actions/environment; specifying features like hairstyle, hair/clothing color, Chinese nationality). For convenience, I use StepFun (阶跃星辰) API for cheap thumbnail generation.
 
-![](https://cdn.victor42.work/posts/2025-05/473ea6c1d3a84de031141c2231b7a7cb.webp)
+![Notion image table showing character-1 and character-2 association fields linked to AI character prompt descriptions](https://cdn.victor42.work/posts/2025-05/473ea6c1d3a84de031141c2231b7a7cb.webp)
 
 The top-level Image Table is most varied. Each row is an illustration. Pasting client requirements into the "scene" column triggers Base's free Doubao model to create a concise (<10 char) title for searching and filenames.
 
-![](https://cdn.victor42.work/posts/2025-05/b6bf0ac54f2ea21dc47cbb73168df424.webp)
+![Notion image table with extra instruction column providing detailed scene direction notes for AI generation](https://cdn.victor42.work/posts/2025-05/b6bf0ac54f2ea21dc47cbb73168df424.webp)
 
 For each illustration, assign its project (can copy-paste). A column reads the style from the Project Table and prefixes it to the drawing prompt.
 
-![](https://cdn.victor42.work/posts/2025-05/7c6ba3b341f4281f8851f427c533a95e.webp)
+![Notion image table comparing AI-generated prompt output results with style prompt and AI prompt columns](https://cdn.victor42.work/posts/2025-05/7c6ba3b341f4281f8851f427c533a95e.webp)
 
 If a main character is present, select them in one of the 3 character columns (supports up to 3 main characters). This column pulls appearance details from the Character Profile Table for the prompt.
 
-![](https://cdn.victor42.work/posts/2025-05/8fff47a4821a17760fe36f61bbe00326.webp)
+![Notion project table Finished view with filter condition panel set to show only completed boolean records](https://cdn.victor42.work/posts/2025-05/8fff47a4821a17760fe36f61bbe00326.webp)
 
 A manual instruction column allows direct input for specific needs (e.g., night scene, outdoor environment), also feeding into the prompt.
 
-![](https://cdn.victor42.work/posts/2025-05/22d11320d3bdedae77b2f8ad9203be1b.webp)
+![Notion image table with retry, Photoshop, fix, and inpaint task-status checkbox columns for tracking progress](https://cdn.victor42.work/posts/2025-05/22d11320d3bdedae77b2f8ad9203be1b.webp)
 
 DeepSeek then generates English drawing prompts based on the requirement column, prioritizing manual instructions and fulfilling general needs:
 
@@ -296,11 +296,11 @@ DeepSeek R1 excels at this, usually generating usable, accurate, detailed prompt
 
 If this layered table structure seems complex, understanding [Link to other records] and [Lookup] column types in multi-dimensional tables simplifies it.
 
-![](https://cdn.victor42.work/posts/2025-05/274e00e94af16eae68ec02cdbe6dbab4.webp)
+![Notion image table Retry view showing CSV download settings dialog for exporting the current filtered view](https://cdn.victor42.work/posts/2025-05/274e00e94af16eae68ec02cdbe6dbab4.webp)
 
 Feishu Base free accounts have a 2000-record limit per table, insufficient for this project. The Image Table needs periodic cleaning. A "completion status" in the Project Table, when checked, marks projects complete. The Image Table reads this, allowing bulk deletion of finalized images to free space.
 
-![](https://cdn.victor42.work/posts/2025-05/c741c58de2d7e77c366c19302eb82a0f.webp)
+![Notion image table full multi-view tab bar showing Grid, Gen, Retry, Ps, Fix, Inpaint, and Finished tabs](https://cdn.victor42.work/posts/2025-05/c741c58de2d7e77c366c19302eb82a0f.webp)
 
 These were configurations for initial generation. I also added columns for modifications:
 
@@ -309,7 +309,7 @@ These were configurations for initial generation. I also added columns for modif
 -   Fix: check for illustrator fix.
 -   X, Y coordinates: for cropping, AI inpainting (e.g., hands), and pasting back (details in "Kicking Off").
 
-![](https://cdn.victor42.work/posts/2025-05/28ca2f09b169b2a7b9e15ef5c4f5e751.webp)
+![Notion database download settings dialog interface for CSV export](https://cdn.victor42.work/posts/2025-05/28ca2f09b169b2a7b9e15ef5c4f5e751.webp)
 
 These columns are markers. Reviewing client requests, I check boxes here. Sub-views in the Image Table list images by these statuses. Exporting as CSV allows a program to find and copy these images to a dedicated directory, avoiding manual searches.
 
@@ -317,11 +317,11 @@ This table system centralizes image management, prompt generation, and modificat
 
 #### Python for Image Generation and Upscaling
 
-![](https://cdn.victor42.work/posts/2025-05/694b43584e1e198df6c1ccb5e6101d76.webp)
+![Two Python script files child_book_1_gen.py and child_book_2_upscale.py in VSCode explorer](https://cdn.victor42.work/posts/2025-05/694b43584e1e198df6c1ccb5e6101d76.webp)
 
 Programs #1 and #2 cover the mid-workflow: from prompts to HD images.
 
-![](https://cdn.victor42.work/posts/2025-05/2669bc1721b0a5db2ac68aad8a8548ec.webp)
+![A screenshot of the CSV data sheet containing image IDs, styles, and AI final prompts](https://cdn.victor42.work/posts/2025-05/2669bc1721b0a5db2ac68aad8a8548ec.webp)
 
 Program #1 takes the CSV, reads drawing prompts, and sends them to Runcomfy, calling the style-specific workflow for bulk image generation.
 
@@ -331,13 +331,13 @@ Once all illustrations are usable, Program #2 sends them to Runcomfy for high-re
 
 Supporting Programs #1 and #2 requires significant underlying code.
 
-![](https://cdn.victor42.work/posts/2025-05/ab957480ff349869e11b97a2e54ea088.webp)
+![RunComfy API Reference introduction and documentation interface](https://cdn.victor42.work/posts/2025-05/ab957480ff349869e11b97a2e54ea088.webp)
 
 Runcomfy API integration is crucial for programmatic generation. This can be tough for non-programmers, but a capable AI model can help troubleshoot if you're patient and guide it with the API docs:
 
 [https://comfyui-guides.runcomfy.com/api-reference](https://comfyui-guides.runcomfy.com/api-reference)
 
-![](https://cdn.victor42.work/posts/2025-05/f3d224fd5e14e664d557f4cb1edf8b51.webp)
+![The Python utility file runcomfy_utils.py shown in VSCode sidebar](https://cdn.victor42.work/posts/2025-05/f3d224fd5e14e664d557f4cb1edf8b51.webp)
 
 Once working, it's a reusable utility function for AI image generation: input workflow, machine type, etc., and get an image from the cloud.
 
@@ -416,7 +416,7 @@ This new utility function takes specific parameters—like the prompt, image to 
 
 Programs 1 and 2, the higher-level applications, also incorporate instance management. They check for an active compute instance before generating images—using it if available, or starting a new one. The instance then automatically shuts down after use to control costs.
 
-![](https://cdn.victor42.work/posts/2025-05/c46f347622627b3db3c345f09790da49.webp)
+![A spreadsheet log recording AI illustration script execution times, machine tiers, and GPU costs](https://cdn.victor42.work/posts/2025-05/c46f347622627b3db3c345f09790da49.webp)
 
 Additionally, I built a statistics feature into these programs to calculate run costs based on instance type, price, and runtime. Run logs are consistently written to a spreadsheet. Data on instance costs and revenue from the multi-dimensional table are imported into a dedicated financial sheet. Adding other expenses—illustrator fees, Volcano Engine DeepSeek, and StepFun API costs—allows for easy profit calculation.
 
@@ -424,11 +424,11 @@ My programming skills are average, but with AI's help, building this system was 
 
 #### Adjusting Resolution and Dimensions with Python
 
-![](https://cdn.victor42.work/posts/2025-05/c4c8c52bb1afcb44239ccb918dbf2058.webp)
+![The Python file child_book_3_ppi.py shown in VSCode editor](https://cdn.victor42.work/posts/2025-05/c4c8c52bb1afcb44239ccb918dbf2058.webp)
 
 Program 3 automated handling resolution and image dimensions.
 
-![](https://cdn.victor42.work/posts/2025-05/e4e2309950491e205d7248bc2b411eb4.webp)
+![A screenshot of Photoshop Image Size dialog with width and height set to 10cm and resolution to 450 pixels per inch](https://cdn.victor42.work/posts/2025-05/e4e2309950491e205d7248bc2b411eb4.webp)
 
 The client required final images at 10×10cm with 450 PPI (pixels per inch).
 
@@ -442,26 +442,26 @@ This step addressed the client's specific style requirements.
 
 For instance, with the watercolor style, the trained model produced backgrounds with distinct watercolor brushstrokes, but character clothing sometimes appeared as flat, solid colors. The client wanted the clothing to also feature random light and dark variations, mimicking watercolor brushstrokes.
 
-![](https://cdn.victor42.work/posts/2025-05/a737e078b94aa4628d54bb92866f57b1.webp)
+![A close-up of a child's blue pants in an illustration showing uneven watercolor texture](https://cdn.victor42.work/posts/2025-05/a737e078b94aa4628d54bb92866f57b1.webp)
 
 *An example of the desired uneven light and dark variation on the pants.*
 
 For the "flat" style, the client envisioned something very specific, not typical commercial vector art made of solid color blocks. Close inspection of reference images revealed that the flat color areas had white, grainy brushstrokes, creating a colored pencil texture. However, the model-generated images had completely solid colors.
 
-![](https://cdn.victor42.work/posts/2025-05/6db5ffcec403296da17fe182ecd620e5.webp)
+![A close-up of a character's clothing in an illustration with red arrows pointing to subtle colored pencil texture](https://cdn.victor42.work/posts/2025-05/6db5ffcec403296da17fe182ecd620e5.webp)
 *Subtle smearing marks.*
 
 These subtle stylistic features were beyond Lora's training capabilities but achievable through Photoshop post-processing. The traditional approach involves finding watercolor or pencil-textured PS brushes and lightly brushing over the image with semi-transparent white. However, I aimed for automation, which meant standardizing the process, even at the cost of some quality.
 
 Essentially, this involved overlaying a texture. Textures are inherently random—some parts more transparent, others more opaque, like viewing the ground through patchy clouds from an airplane. Different random patterns in the texture create different brushstroke effects. I just needed to create these two textures to automate their application across all images.
 
-![](https://cdn.victor42.work/posts/2025-05/5e5e34bfd741edd3e214b22e159c43e8.webp)
+![A comparison of two textures for overlaying: watercolor paper on the left and diagonal pencil brushstrokes on the right](https://cdn.victor42.work/posts/2025-05/5e5e34bfd741edd3e214b22e159c43e8.webp)
 
 As a designer, this was no issue. I found suitable materials and layered them onto test images. By setting layer modes to Screen and Color Dodge, I eliminated the texture's original color, making it affect only the image's light and dark areas. I quickly finalized these two textures and saved them as PSD files.
 
 Next, I created a Photoshop batch processing action. For those unfamiliar, it's like this: I hit "record," and Photoshop logs all my actions. I perform the image processing workflow manually once, then stop recording. This creates a batch action that Photoshop can then apply to an entire folder of images, automating the texture addition.
 
-![](https://cdn.victor42.work/posts/2025-05/44365d71b3b51ad5992c4b473ef89b92.webp)
+![A screenshot of Photoshop Actions panel showing steps recorded for CMYK-TIFF-Watercolor process](https://cdn.victor42.work/posts/2025-05/44365d71b3b51ad5992c4b473ef89b92.webp)
 
 The action's steps were:
 
@@ -473,7 +473,7 @@ The action's steps were:
 - Save As TIFF format (for printing).
 - Close the image.
 
-![](https://cdn.victor42.work/posts/2025-05/e77285da6ae2e3d9aa3d6f462d5203de.webp)
+![A screenshot of Photoshop Batch dialog setting the source and destination folders](https://cdn.victor42.work/posts/2025-05/e77285da6ae2e3d9aa3d6f462d5203de.webp)
 
 When running this batch action, the "Open image" and "Save As" steps are overridden by new settings, allowing different images to be processed each time.
 
@@ -495,7 +495,7 @@ The first real project was small: 1 book, 82 illustrations, 7-day deadline.
 
 Time-wise, I felt no pressure. It was all done in half a day, like running a photo printer (if not a money printer).
 
-![](https://cdn.victor42.work/posts/2025-05/89852ef4042c193cd77916efb0cf70b6.webp)
+![A futuristic toy printer with transparent casing and gears printing cartoon children illustration cards](https://cdn.victor42.work/posts/2025-05/89852ef4042c193cd77916efb0cf70b6.webp)
 
 About half of the 82 illustrations didn't feature characters. These types of images are less prone to errors and often usable on the first attempt. Fewer than 20 images needed retries, mostly for incorrect character interactions rather than hand issues.
 
@@ -519,7 +519,7 @@ The client's feedback on the first draft was, frankly, a shock. The revision req
 
 In the first review round, 71 out of 82 images needed revisions. The issues went far beyond just hands, jeopardizing the illustrator's remaining 6-day schedule.
 
-![](https://cdn.victor42.work/posts/2025-05/bd059893485a3171e15896055c37db35.webp)
+![A screenshot of a WeChat chat bubble with an illustrator refusing the task due to low price](https://cdn.victor42.work/posts/2025-05/bd059893485a3171e15896055c37db35.webp)
 
 When I spoke with the illustrator, they asked to reconfirm the price. Upon reconfirmation, they abruptly decided the price was too low and quit without attempting to negotiate.
 
@@ -531,7 +531,7 @@ My friend started looking for another illustrator, and I asked around too. The o
 
 At this point, I decided to tackle the revisions myself. I wanted to gauge the extent of the client's detailed requests to set standards for future illustrator searches. I also wanted to test my own AI capabilities. Though I'm a designer, I can't draw. Could my AI and Photoshop skills compensate, freeing me from complete reliance on illustrators? My strong PS skills gave me the confidence to press on.
 
-![](https://cdn.victor42.work/posts/2025-05/ab26869c9528a694c72f501cd1f58b4a.webp)
+![A tired male designer sitting at a desk under a lamp, editing children's illustrations on a graphics tablet](https://cdn.victor42.work/posts/2025-05/ab26869c9528a694c72f501cd1f58b4a.webp)
 
 I revised intensely for a week. After 6 rounds, I'd revised 71 + 60 + 33 + 11 + 3 + 13 = 191 images. "Oh my god" was all I could think. Some images had too many issues, so I discarded them and generated new ones. This reduced problems, but local adjustments were still needed. Regenerating other images was too risky, as it could introduce new flaws. Patching existing images was the safer bet. All these fixes were manual.
 
@@ -539,7 +539,7 @@ This created a massive bottleneck in the automated pipeline. Manual retouching r
 
 Surprisingly, after a week of revisions, despite the tight schedule making my hands tremble, progress was smooth. I'd planned to meet most requests and negotiate on unmanageable ones, explaining my lack of an illustrator. But ultimately, I met all requests by combining various techniques; nothing proved impossible. The numerous revision rounds were just the client's workflow; each round brought up new points, indicating incomplete initial reviews rather than poorly executed revisions.
 
-![](https://cdn.victor42.work/posts/2025-05/e17c077275c98414ca17a7963e7ad960.webp)
+![A 3D cartoon illustration of a clipboard checklist titled Revision Comments with all tasks checked](https://cdn.victor42.work/posts/2025-05/e17c077275c98414ca17a7963e7ad960.webp)
 
 All requirements were met, yet I can't draw. How? Relying solely on AI for revisions is unrealistic; AI art is hard to control precisely. Fortunately, my PS skills allowed me to wrangle AI:
 
@@ -583,41 +583,41 @@ Now, let's see how combining these tackles tricky problems.
 
 Key Techniques: **Doubao local inpainting, Content-Aware Fill, Cutout Filter**
 
-![](https://cdn.victor42.work/posts/2025-05/db5aa83baa17fb0a76780ca9fbcf9ee2.webp)
+![An AI-generated cartoon illustration of a traffic officer in a foreign-style uniform at a crosswalk](https://cdn.victor42.work/posts/2025-05/db5aa83baa17fb0a76780ca9fbcf9ee2.webp)
 
 This illustration's difficulty stemmed from cultural differences. Flux, trained by a German team, clearly lacks Chinese clothing elements in its data. Prompting for a traffic officer directing traffic yielded a foreign-style uniform—unacceptable for a children's book.
 
 Using text-to-image local inpainting (denoising 1) to request a blue short-sleeved Chinese traffic police shirt resulted in:
 
-![](https://cdn.victor42.work/posts/2025-05/75dcc6c3d624d2e3a9e4bac512cbec52.webp)
+![A screenshot of Liblib platform's content safety policy warning dialog blocking the image generation](https://cdn.victor42.work/posts/2025-05/75dcc6c3d624d2e3a9e4bac512cbec52.webp)
 
 This is a Liblib restriction against generating content with potential legal risks. Prompts containing "police" or images resembling police uniforms trigger a block. While platforms without such restrictions exist, Liblib's affordability makes it a good choice if you lack a powerful graphics card.
 
-![](https://cdn.victor42.work/posts/2025-05/1e5a122d6b5b91b43baaa2b43876f9be.webp)
+![An AI-generated cartoon of the traffic officer wearing a plain light blue short-sleeved shirt and blue trousers](https://cdn.victor42.work/posts/2025-05/1e5a122d6b5b91b43baaa2b43876f9be.webp)
 
 Removing police-related terms, however, just produced an ordinary blue shirt, not a police uniform—a catch-22.
 
-![](https://cdn.victor42.work/posts/2025-05/2529da2758620d3dfeab11761351e3a8.webp)
+![An illustration generated by Doubao AI showing the traffic officer wearing a realistic Chinese police uniform with a tie and epaulets](https://cdn.victor42.work/posts/2025-05/2529da2758620d3dfeab11761351e3a8.webp)
 
 Since Flux on Liblib was problematic, I tried other tools. Doubao's Jimeng model lacks this restriction, and the results were decent, capturing the general look.
 
-![](https://cdn.victor42.work/posts/2025-05/54ee3fc5a4cfd8501d552646c75284c9.webp)
+![An AI-generated cartoon of the officer in a Chinese uniform wearing a white non-standard peaked cap](https://cdn.victor42.work/posts/2025-05/54ee3fc5a4cfd8501d552646c75284c9.webp)
 
 The white police cap was even trickier. Doubao couldn't render it correctly either; it resembled something a high-end hotel parking attendant might wear. The distinct features of a white police cap were missing, significantly reducing resemblance.
 
-![](https://cdn.victor42.work/posts/2025-05/c411868588a3d4ab82b96e0222b99569.webp)
+![A side-by-side comparison of a green military peaked cap and a white traffic police peaked cap used as reference](https://cdn.victor42.work/posts/2025-05/c411868588a3d4ab82b96e0222b99569.webp)
 
 I found a police cap image at a roughly matching angle and Photoshopped it in. (Note: To avoid blocks, I first used PS to erase the police emblem, adding it back once AI processing was complete.) PS Content-Aware Fill easily removed the emblem.
 
-![](https://cdn.victor42.work/posts/2025-05/f74f6dd66e7b3d25c577c034a5702251.webp)
+![An illustration generated using image reference showing the officer with the correct Chinese traffic police white peaked cap](https://cdn.victor42.work/posts/2025-05/f74f6dd66e7b3d25c577c034a5702251.webp)
 
 Positioned the hat correctly. It was still realistic at this stage.
 
-![](https://cdn.victor42.work/posts/2025-05/6864713301b8fc20d04e43464f406aef.webp)
+![A screenshot of Photoshop Filter Gallery applying Cutout filter to simplify the peaked cap vector style](https://cdn.victor42.work/posts/2025-05/6864713301b8fc20d04e43464f406aef.webp)
 
 Applying the Cutout filter to the hat and reducing colors instantly gave it a flat style.
 
-![](https://cdn.victor42.work/posts/2025-05/3cc0c42436d29bbbdc801419b5132866.webp)
+![The finalized cartoon illustration of the traffic officer with the correct peaked cap composited on his head](https://cdn.victor42.work/posts/2025-05/3cc0c42436d29bbbdc801419b5132866.webp)
 
 Much less out of place. Problem solved. Other image issues had relatively stable fixes, so I won't detail them.
 
@@ -625,23 +625,23 @@ Much less out of place. Problem solved. Other image issues had relatively stable
 
 Key Techniques: **Text-to-image local inpainting (low denoising), Style transfer, Puppet Warp**
 
-![](https://cdn.victor42.work/posts/2025-05/813b5f29f395b365d75a573510bbd525.webp)
+![A 16-panel grid of AI-generated character sheets showing a boy in various athletic poses](https://cdn.victor42.work/posts/2025-05/813b5f29f395b365d75a573510bbd525.webp)
 
 This illustration also pushed Flux's limits. It clearly hadn't seen many jump rope scenes, drawing children randomly waving ropes; even just *having* a rope was a good start. Brute-forcing 16 images yielded no usable results.
 
-![](https://cdn.victor42.work/posts/2025-05/bf930d87fa1154fe17e4f2013413ac7e.webp)
+![The original illustration of a boy jumping rope with both feet flat but looking artificially suspended](https://cdn.victor42.work/posts/2025-05/bf930d87fa1154fe17e4f2013413ac7e.webp)
 
 No worries—if the pose is right, the rope can be added. This image had the most potential. A quick PS sketch of a jump rope started to look plausible.
 
-![](https://cdn.victor42.work/posts/2025-05/0bdd32c6089ae401973dd5a61ed22352.webp)
+![ComfyUI workflow showing input image with one leg erased and the generated output with leg inpainted](https://cdn.victor42.work/posts/2025-05/0bdd32c6089ae401973dd5a61ed22352.webp)
 
 Using the style transfer workflow (denoising 0.7) largely preserved the original content, giving AI enough leeway to draw the rope more realistically.
 
-![](https://cdn.victor42.work/posts/2025-05/81994b8ebc515c2335c38ca88af4cd52.webp)
+![A close-up of the boy's hand in an illustration showing deformed fingers and a missing thumb holding the jump rope](https://cdn.victor42.work/posts/2025-05/81994b8ebc515c2335c38ca88af4cd52.webp)
 
 Let's discuss fixing hands. The child's right hand is missing a thumb, or the thumb and index finger are merged. Direct inpainting here is tricky; AI often struggles with hands holding objects, and many retries might fail.
 
-![](https://cdn.victor42.work/posts/2025-05/7f160a7d5e857e979e5e921a5f50e7c0.webp)
+![A close-up of the boy's hand after upscaling and inpainting, showing normal fingers and a thumb](https://cdn.victor42.work/posts/2025-05/7f160a7d5e857e979e5e921a5f50e7c0.webp)
 
 AI struggles with small hand areas due to insufficient attention allocation. The key isn't just local inpainting, but magnification. Zooming in provides clarity and detail, significantly increasing the success rate of fixing even mangled hands.
 
@@ -649,33 +649,33 @@ However, Flux inpainting directly on a full high-res image is slow and deviates 
 
 Accurate pasting is a pain. This is where a program for precise handling helps.
 
-![](https://cdn.victor42.work/posts/2025-05/d303746e3f41c2f46de76f0e0d4e843a.webp)
+![A diagram showing the illustration divided into a grid with a yellow box highlighting the slice containing the hand](https://cdn.victor42.work/posts/2025-05/d303746e3f41c2f46de76f0e0d4e843a.webp)
 
 Recall the x/y coordinate columns in the Feishu table; they're part of my zoom, crop, and paste program. My cropping program divides an image into 5×5=25 overlapping 1024×1024 slices. I input the slice's row/column numbers into the table. For example, here I took the slice from column 2 (x=2), row 3 (y=3), determined by eye. Running the program saves this slice.
 
-![](https://cdn.victor42.work/posts/2025-05/d9d292d343442ac6fc78f6f3b5e9a071.webp)
+![A cropped image slice extracted using Python, focusing on the hand holding the jump rope](https://cdn.victor42.work/posts/2025-05/d9d292d343442ac6fc78f6f3b5e9a071.webp)
 
 Local inpainting on the sliced image succeeded on the first try. Adjust denoising as needed: higher for major issues, lower (as here, where posture was mostly correct) to avoid new problems.
 
-![](https://cdn.victor42.work/posts/2025-05/2ffdc82e5708f25cae0968d52104a34b.webp)
+![The complete boy jump rope illustration after pasting the fixed hand slice back](https://cdn.victor42.work/posts/2025-05/2ffdc82e5708f25cae0968d52104a34b.webp)
 
 The accompanying pasting program accurately pastes the slice back onto the original image using the cropping stage's row/column numbers.
 
 However, the character's posture was still unnatural. The client felt the character standing on the ground didn't look like they were jumping.
 
-![](https://cdn.victor42.work/posts/2025-05/80984f51c5c32d29452c2b77dcc9cb7e.webp)
+![A close-up of Photoshop selection tool selecting the boy's feet and lower legs with dashed outline](https://cdn.victor42.work/posts/2025-05/80984f51c5c32d29452c2b77dcc9cb7e.webp)
 
 PS Puppet Warp to the rescue. First, Quick Select the lower leg and foot, copy to a new layer.
 
-![](https://cdn.victor42.work/posts/2025-05/98e84bc437e314249275cbf84aa844df.webp)
+![A close-up of Photoshop Puppet Warp tool displaying mesh grid and pins on the boy's leg layer](https://cdn.victor42.work/posts/2025-05/98e84bc437e314249275cbf84aa844df.webp)
 
 Activate Puppet Warp, pin the joints.
 
-![](https://cdn.victor42.work/posts/2025-05/05505577b660903338c934e797ce976d.webp)
+![The adjustment process in Photoshop using Puppet Warp to bend the leg backwards](https://cdn.victor42.work/posts/2025-05/05505577b660903338c934e797ce976d.webp)
 
 Pull the shoe back; the leg bends.
 
-![](https://cdn.victor42.work/posts/2025-05/51e37816517857e2a5e3de4aac977e63.webp)
+![The finalized boy jump rope illustration with legs bent backward using Photoshop Puppet Warp](https://cdn.victor42.work/posts/2025-05/51e37816517857e2a5e3de4aac977e63.webp)
 
 Erase the original leg. Bent. (A small knee joint artifact and missing ground shadow remain; this is a tech demo, so minor issues are ignored.)
 
@@ -683,39 +683,39 @@ Erase the original leg. Bent. (A small knee joint artifact and missing ground sh
 
 Key Techniques: **Style transfer, Doubao conversational editing**
 
-![](https://cdn.victor42.work/posts/2025-05/c967b3025d11e60d1271281e25386eb2.webp)
+![A 4-panel grid of AI-generated trees with straight vertical branches resembling banyan roots](https://cdn.victor42.work/posts/2025-05/c967b3025d11e60d1271281e25386eb2.webp)
 
 It drew a lush, leafy tree with straight, drooping branches, almost like banyan aerial roots.
 
-![](https://cdn.victor42.work/posts/2025-05/d30f4d7e5d46504b21a7d7c84489d6b7.webp)
+![A 4-panel grid of realistic photos showing willow trees with straight hanging branches generated without style Lora](https://cdn.victor42.work/posts/2025-05/d30f4d7e5d46504b21a7d7c84489d6b7.webp)
 
 To check if Flux didn't recognize willows or if my style Lora was the culprit, I turned off Lora, removed style prompts, and generated a realistic photo. Flux genuinely didn't recognize willow trees.
 
-![](https://cdn.victor42.work/posts/2025-05/e2056a4798b13e462a1b5e9aba516a42.webp)
+![The initial AI-generated illustration of a willow tree in the rain selected for editing](https://cdn.victor42.work/posts/2025-05/e2056a4798b13e462a1b5e9aba516a42.webp)
 
 Alright, let's modify this one.
 
-![](https://cdn.victor42.work/posts/2025-05/ddd14ff6641e1ee25127d9a1840b3de9.webp)
+![The background illustration showing only dark clouds, rain, and riverbank after erasing the tree](https://cdn.victor42.work/posts/2025-05/ddd14ff6641e1ee25127d9a1840b3de9.webp)
 
 First, Doubao conversational editing to remove the tree, leaving the background.
 
-![](https://cdn.victor42.work/posts/2025-05/d92d942175df1ade53b3e4d04be7051f.webp)
+![A black and white silhouette vector material of a willow tree bending in strong wind](https://cdn.victor42.work/posts/2025-05/d92d942175df1ade53b3e4d04be7051f.webp)
 
 Next, create an illustrative-style willow with distinct branches. Quickest way: find online materials.
 
-![](https://cdn.victor42.work/posts/2025-05/f996ddb5918e02a4147cb641585b69a6.webp)
+![The colored illustration of the bending willow tree with a brown trunk and green leaves](https://cdn.victor42.work/posts/2025-05/f996ddb5918e02a4147cb641585b69a6.webp)
 
 Doubao conversational editing to colorize the willow.
 
-![](https://cdn.victor42.work/posts/2025-05/ef9fd27e8d5ce4ab25be8f3e2cd5f236.webp)
+![The roughly composited image in Photoshop combining the colored willow tree and the rainy background](https://cdn.victor42.work/posts/2025-05/ef9fd27e8d5ce4ab25be8f3e2cd5f236.webp)
 
 Roughly composite in PS.
 
-![](https://cdn.victor42.work/posts/2025-05/0c045d3499a461388ba0da3b73e0580b.webp)
+![A 3-panel comparison of the image-to-image translation process with low denoise to blend the composited elements](https://cdn.victor42.work/posts/2025-05/0c045d3499a461388ba0da3b73e0580b.webp)
 
 A few rounds of low denoising style transfer (0.3) made it look quite natural.
 
-![](https://cdn.victor42.work/posts/2025-05/d940674731cde3d2882dd0d831919279.webp)
+![The finalized cartoon illustration of the willow tree in a storm with brightened leaves](https://cdn.victor42.work/posts/2025-05/d940674731cde3d2882dd0d831919279.webp)
 
 Finally, lighten the willow leaves to prevent blending with dark clouds. (Raindrop direction is still wrong; should follow wind. This should've been removed during background separation and replaced with stock material. Ignored for now.)
 
@@ -723,29 +723,29 @@ Finally, lighten the willow leaves to prevent blending with dark clouds. (Raindr
 
 Key Techniques: **Text-to-image local inpainting (high denoising), Image-to-image local inpainting, Style transfer**
 
-![](https://cdn.victor42.work/posts/2025-05/578d5efac9246d9c58ceb283d5c6ec0e.webp)
+![A 4-panel grid of AI-generated draft illustrations of children cleaning a classroom showing structural errors](https://cdn.victor42.work/posts/2025-05/578d5efac9246d9c58ceb283d5c6ec0e.webp)
 
 This scene needed one child cleaning a window while others cleaned elsewhere. AI struggles with such complex multi-character scenes: illogical actions, missing limbs on furniture, no usable images.
 
-![](https://cdn.victor42.work/posts/2025-05/ce465b01e62e61cdada1358b5a67c56a.webp)
+![A hand-drawn vector illustration material of children cleaning a classroom used as reference](https://cdn.victor42.work/posts/2025-05/ce465b01e62e61cdada1358b5a67c56a.webp)
 
 Instead of fixing problems individually, style transfer from a real photo or hand-drawn illustration is better. Their characters and environments are at least reasonable. Minor issues from style transfer are easier to fix than generating from scratch.
 
-![](https://cdn.victor42.work/posts/2025-05/f6c9dc079eace191a3f46fcb781a59ec.webp)
+![The illustration of children cleaning a classroom generated in style using high denoise](https://cdn.victor42.work/posts/2025-05/f6c9dc079eace191a3f46fcb781a59ec.webp)
 
 Denoising set to 1 corrected the style.
 
-![](https://cdn.victor42.work/posts/2025-05/7540b49eb356dfb07dc5a09ff20f38e9.webp)
+![ComfyUI workflow showing a masked area replaced with a modern red plastic basin](https://cdn.victor42.work/posts/2025-05/7540b49eb356dfb07dc5a09ff20f38e9.webp)
 
 The basin was too old-fashioned; replaced with a modern one. (Basin too deep, hand missing—fixable later.) Other minor issues resolved with simple patching.
 
 This image has fewer problems than the client's version. A typical issue not present here was the rag's shape.
 
-![](https://cdn.victor42.work/posts/2025-05/2d389e03b7309c44d970a373bbb9289a.webp)
+![A close-up of a messy, mop-like purple rag generated due to the word rag in the prompt](https://cdn.victor42.work/posts/2025-05/2d389e03b7309c44d970a373bbb9289a.webp)
 
 In a client WIP, the rag looked like this. The prompt "rag" (meaning cleaning cloth) can also mean a tattered piece, so Flux drew this messy bundle, like a mop head.
 
-![](https://cdn.victor42.work/posts/2025-05/f20f4461d8bec868d37203ab6abdb97b.webp)
+![A close-up of a normal, neatly folded blue cleaning cloth generated by changing the prompt to cloth](https://cdn.victor42.work/posts/2025-05/f20f4461d8bec868d37203ab6abdb97b.webp)
 
 Using text-to-image local inpainting with "a piece of cloth" yielded a more normal rag. Sometimes, it's not that AI *can't* draw it, but that the right prompt hasn't been found.
 

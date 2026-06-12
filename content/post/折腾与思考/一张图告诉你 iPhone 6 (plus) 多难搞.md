@@ -7,7 +7,7 @@ categories: 折腾与思考-Geek
 url: /post/3394
 ---
 
-![](https://cdn.victor42.work/posts/2014-10/10-08/1.jpg)
+![iPhone 5s iPhone 6 iPhone 6 Plus 与 Android 屏幕倍率和逻辑像素对比图](https://cdn.victor42.work/posts/2014-10/10-08/1.jpg)
 
 虽然从屏幕长宽比来看，16:9可以说是手机界的共识，可不要高兴得太早，有个更大的坑在等着我们。
 

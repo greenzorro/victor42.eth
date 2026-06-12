@@ -1,4 +1,6 @@
 {{- $p := . -}}
+<meta property="og:title" content="{{ $p.Title }}">
+<meta property="og:description" content="{{ partialCached "data/description" $p $p.RelPermalink }}">
 {{- with $p.Params.image -}}
 <meta property="og:image" content="{{ . | absURL }}">
 {{- end -}}

@@ -8,7 +8,7 @@ url: /post-en/3649
 translationKey: '3649'
 ---
 
-![](https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg)
+![A fresh flatfish on a wooden plate with lettuce and spices](https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg)
 
 Here's a funny thing that happened. My family sent me some seafood, labeled "Guyanyu," a Shandong specialty. It looked flat, obviously a flatfish, maybe a flounder. I asked several AIs about "Guyanyu," and they all invented some nonexistent species. I figured I'd be identifying species often, so I should create an AI biologist persona prompt for more professional answers. And so I did:
 

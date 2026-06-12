@@ -19,7 +19,7 @@ url: /post/2832
 
 ## 扁平，更加扁平
 
-[![ios7](http://designmodo.com/wp-content/uploads/2013/10/ios7.jpg)](http://www.apple.com/ios/what-is/)
+[![Apple的扁平更加扁平界面设计展示效果](http://designmodo.com/wp-content/uploads/2013/10/ios7.jpg)](http://www.apple.com/ios/what-is/)
 
 苹果的iOS7秉承着[扁平](http://designmodo.com/flat-design-principles/)的设计理念，尽管它不是完全的扁平化
 

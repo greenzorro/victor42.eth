@@ -81,7 +81,7 @@ Even with a search engine, finding Windsurf IDE's country is easy, but the city 
 
 So, I came up with a rough way to evaluate AI search: four quadrants based on AI ability and search ability:
 
-![](https://cdn.victor42.work/posts/2025-02/Snipaste_2025-02-26_12-52-46.png)
+![A quadrant chart classifying search problems by inference requirement and information volume](https://cdn.victor42.work/posts/2025-02/Snipaste_2025-02-26_12-52-46.png)
 
 I underestimated the "Guyanyu," Liu Chuanzhi/bike-sharing, and Lin'an questions. I thought they were type D, but they're type B. The Shanghai port question is a trickier type A.
 

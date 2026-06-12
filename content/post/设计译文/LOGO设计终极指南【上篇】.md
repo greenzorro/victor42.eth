@@ -59,11 +59,11 @@ The Sky Production的LOGO是个很棒的字体LOGO案例，将图形融入字母
 
 在SiO Athletica的LOGO中，代替A的简单三角形厚实而现代。足以贯穿整个标志和其他带有A的品牌宣传材料，强化品牌形象。创作你自己的LOGO时，可以考虑类似的处理方式。
 
-[![born](http://netdna.webdesignerdepot.com/uploads/2014/01/born.jpg "The ultimate guide to logo design photo")](http://www.behance.net/gallery/born/11613309)
+[![设计案例Behance官网字体LOGO布](http://netdna.webdesignerdepot.com/uploads/2014/01/born.jpg "The ultimate guide to logo design photo")](http://www.behance.net/gallery/born/11613309)
 
 尽管这个不会立刻让人察觉是字体LOGO，LOGO的形状是由4个字母B构成的。很有创意，令人印象深刻，却不复杂。
 
-[![cube](http://netdna.webdesignerdepot.com/uploads/2014/01/cube.jpg "The ultimate guide to logo design photo")](http://creattica.com/logos/cube/101462)
+[![设计案例Creattica官网字体LOG](http://netdna.webdesignerdepot.com/uploads/2014/01/cube.jpg "The ultimate guide to logo design photo")](http://creattica.com/logos/cube/101462)
 
 Cube的LOGO简单直接，用一根线将矩形转变为风格独特的字母C。
 

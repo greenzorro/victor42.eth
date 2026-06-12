@@ -81,7 +81,7 @@ url: /post/3415
 
 **挑毛病：**[下载视频文件](http://blog.invisionapp.com/wp-content/uploads/2014/12/invision-gif-source-file.zip)，本文的GIF就是用这个做的！（需要ScreenFlow 5以上打开）
 
-[![](http://embed.wistia.com/deliveries/9c0799063bec8f798c3e87b2651582610d67fba6.jpg?image_crop_resized=640x360)](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
+[![InVision GIF制作教程视频封面，紫红色背景上的灯泡图标与HOW WE MAKE GIFS文字](http://embed.wistia.com/deliveries/9c0799063bec8f798c3e87b2651582610d67fba6.jpg?image_crop_resized=640x360)](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
 
 译者注：上图是一段视频，建议前往[原文页面](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)查看
 

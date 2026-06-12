@@ -9,7 +9,7 @@ url: /post/3460
 
 **[国外设计第102期]**
 
-![](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch-hero00.jpg?ver=1)
+![Apple Watch 智能手表佩戴在手腕上的产品展示](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch-hero00.jpg?ver=1)
 
 几周前，我在纽约参加一个会议。这是我第二天使用Apple Watch，于是我想应该用它来查找从会场回程的路线。在以前，我会想掏出手机，输入地址，设置成步行导航，并且在步行途中视线来回游移于手机与街道之间，避开时代广场的出租车、自行车和穿着各异的人物。
 

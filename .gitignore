@@ -48,7 +48,6 @@ Thumbs.db
 logs/
 *.log
 *.tmp
-temp/
 
 # Configuration and keys
 keys.json

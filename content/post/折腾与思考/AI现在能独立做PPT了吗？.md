@@ -20,37 +20,37 @@ translationKey: ai-generated-ppt
 
 完成度最高，是唯一一个最终能输出PPT格式文件的工具。
 
-![](https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9c.webp)
+![天工智能体生成的地球地质年代演示文稿](https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9c.webp)
 
-![](https://cdn.victor42.work/posts/2025-05/2d429bf55bb6b3a3733e63033500e005.webp)
+![演示文稿中关于古生代与中生代的页面展示](https://cdn.victor42.work/posts/2025-05/2d429bf55bb6b3a3733e63033500e005.webp)
 
 完整效果见：[https://tiangong.cn/share/v2/ppt/1925788478895357952?dataType=outfile&outputId=1925788478895357952&outputType=gen_ppt&projectId=1925782838113832960&sharingId=1925797872445526016](https://tiangong.cn/share/v2/ppt/1925788478895357952?dataType=outfile&outputId=1925788478895357952&outputType=gen_ppt&projectId=1925782838113832960&sharingId=1925797872445526016)
 
-![](https://cdn.victor42.work/posts/2025-05/fc8204dba40ddd291deccb7fb6dbffb2.webp)
+![用户在天工工具中确认补充信息表单的过程](https://cdn.victor42.work/posts/2025-05/fc8204dba40ddd291deccb7fb6dbffb2.webp)
 
 在接到任务后，它有一个确认任务范围的过程。我尽量往详细了选，它最终输出的内容是几家里最丰富的。
 
-![](https://cdn.victor42.work/posts/2025-05/412c047fd18bf39596ffb101fe0d01f3.webp)
+![天工智能助手在制作前制定的待办任务清单](https://cdn.victor42.work/posts/2025-05/412c047fd18bf39596ffb101fe0d01f3.webp)
 
 接下来有个规划过程，它给自己准备了任务清单，并在整个执行过程中不断回来检查。
 
-![](https://cdn.victor42.work/posts/2025-05/14e6822b21eb2d2bf9a2446faa3ae9f3.webp)
+![智能系统调用网页搜索与网页浏览工具的过程](https://cdn.victor42.work/posts/2025-05/14e6822b21eb2d2bf9a2446faa3ae9f3.webp)
 
 中间的执行过程非常长，节选部分，但无外乎搜索和浏览2种行为。
 
-![](https://cdn.victor42.work/posts/2025-05/1512322d1022a65174fe5c735b7ddda4.webp)
+![天工系统在生成演示文稿前确认的大纲内容](https://cdn.victor42.work/posts/2025-05/1512322d1022a65174fe5c735b7ddda4.webp)
 
 信息充分收集后，它会先写PPT大纲。
 
-![](https://cdn.victor42.work/posts/2025-05/999323fe9dbe801fabe443853e1ab34a.webp)
+![天工界面显示生成超文本标记语言网页结果](https://cdn.victor42.work/posts/2025-05/999323fe9dbe801fabe443853e1ab34a.webp)
 
 最后生成PPT的过程，其实是先做了十几个网页，摆在一起展示。
 
-![](https://cdn.victor42.work/posts/2025-05/fa8b4512ddcd260e54f53796c3c7d607.webp)
+![下载文件格式选择弹窗中提供网页及演示文稿](https://cdn.victor42.work/posts/2025-05/fa8b4512ddcd260e54f53796c3c7d607.webp)
 
 在下载的时候，才把网页转换成一页页PPT，合并到一个文件里，所以下载要等很久。甚至如果你下载HTML格式，它下下来的是个文件夹，里面有十几个网页，分开的。
 
-![](https://cdn.victor42.work/posts/2025-05/e3caa031828f83557dae4dade1ab2f6f.webp)
+![电脑本地解压后的包含多个独立网页的文件夹](https://cdn.victor42.work/posts/2025-05/e3caa031828f83557dae4dade1ab2f6f.webp)
 
 但它合成的PPT文件实用价值不高。因为在生成每一页的时候，它没有严格控制尺寸，每页尺寸略微不同，许多页底部都出现空白。
 
@@ -64,19 +64,19 @@ translationKey: ai-generated-ppt
 
 扣子空间不能直接生成PPT，它最终给了我一份文档。不过形式不重要，这也算完成了任务。
 
-![](https://cdn.victor42.work/posts/2025-05/f1d552d2a069e73f168d53363b143d75.webp)
+![智能体空间生成的标记语言分享报告头部内容](https://cdn.victor42.work/posts/2025-05/f1d552d2a069e73f168d53363b143d75.webp)
 
-![](https://cdn.victor42.work/posts/2025-05/b480aa0644716122a8a1ee4e17c75aba.webp)
+![智能体空间分享报告正文中插入的古鱼类图片](https://cdn.victor42.work/posts/2025-05/b480aa0644716122a8a1ee4e17c75aba.webp)
 
 完整效果见：[https://space.coze.cn/s/bSmamok4LFg/](https://space.coze.cn/s/bSmamok4LFg/)
 
-![](https://cdn.victor42.work/posts/2025-05/8026407bd8e9265b92fdd565524cd0f0.webp)
+![智能体空间在执行任务时展示的思考规划过程](https://cdn.victor42.work/posts/2025-05/8026407bd8e9265b92fdd565524cd0f0.webp)
 
-![](https://cdn.victor42.work/posts/2025-05/8d42f164e6b26e94c4c5e234fffc7c1d.webp)
+![智能体空间调用搜索与文件保存工具完成任务](https://cdn.victor42.work/posts/2025-05/8d42f164e6b26e94c4c5e234fffc7c1d.webp)
 
 它的任务执行过程简略一些，但也类似。规划、收集资料、找网络图片、整合内容。
 
-![](https://cdn.victor42.work/posts/2025-05/5fef56ffc2dc7b28742139ce8646184c.webp)
+![智能体空间添加扩展弹窗中已勾选的图像工具](https://cdn.victor42.work/posts/2025-05/5fef56ffc2dc7b28742139ce8646184c.webp)
 
 用扣子空间的时候，我特意为它打开了两个扩展：飞书云文档和图像生成工具，想看看它会不会用到。实际上一个都没用，它并没有把报告写到飞书文档里，也没有生成图片插入报告。这个结果符合预期，毕竟没有明确给它这样的指示。而且，在这种报告里，网图显然优于生成的图片，这不是讲究美观的时候。
 
@@ -86,19 +86,19 @@ translationKey: ai-generated-ppt
 
 Manus给了我一个PDF，纯文字的。任务算是失败。
 
-![](https://cdn.victor42.work/posts/2025-05/966c7cbfbb511b90ea2a844fdb759589.webp)
+![智能助手最终生成的一份纯文本便携文档报告](https://cdn.victor42.work/posts/2025-05/966c7cbfbb511b90ea2a844fdb759589.webp)
 
 完整效果见：[https://manus.im/share/DdcDQMgzQ59pWvI2akPuiD?replay=1](https://manus.im/share/DdcDQMgzQ59pWvI2akPuiD?replay=1)
 
-![](https://cdn.victor42.work/posts/2025-05/92df60135a908ccbd177f011bb25b01f.webp)
+![智能助手初始化任务执行环境并搜索百科页面](https://cdn.victor42.work/posts/2025-05/92df60135a908ccbd177f011bb25b01f.webp)
 
 它的执行过程，也合乎逻辑。
 
-![](https://cdn.victor42.work/posts/2025-05/fcb8e048de923c536c1afde38ededdbf.webp)
+![智能助手本地工作目录中创建的任务待办清单](https://cdn.victor42.work/posts/2025-05/fcb8e048de923c536c1afde38ededdbf.webp)
 
 虽然没有单独把任务规划作为一个步骤，但最终生成的文件里有一个待办清单，说明它是有规划的。
 
-![](https://cdn.victor42.work/posts/2025-05/58f5cdd8a07f6a51595c641eb1a1bed9.webp)
+![智能助手在浏览器中尝试保存年代地层表文件](https://cdn.victor42.work/posts/2025-05/58f5cdd8a07f6a51595c641eb1a1bed9.webp)
 
 执行过程中也确实搜索了图片，但保存的很少，而且没有一张图片保存成功了。
 
@@ -110,21 +110,21 @@ Manus给了我一个PDF，纯文字的。任务算是失败。
 
 这个Agent目的不同，专注于设计，纯粹作为对比，看看它能做出什么东西。
 
-![](https://cdn.victor42.work/posts/2025-05/fb9e4ed8ae1530d3d56eb45fc2b90d15.webp)
+![智能设计助手生成的垂直地质年代表图文网页](https://cdn.victor42.work/posts/2025-05/fb9e4ed8ae1530d3d56eb45fc2b90d15.webp)
 
 完整效果见：[https://www.lovart.ai/r/62cce51](https://www.lovart.ai/r/62cce51)
 
 设计Agent的思考方式就是不一样，它完全把这个任务当成信息图来看待了。
 
-![](https://cdn.victor42.work/posts/2025-05/c452cbd16f83c1cf54c4acaa41a09968.webp)
+![智能设计助手对话窗口显示搜集到的参考图表](https://cdn.victor42.work/posts/2025-05/c452cbd16f83c1cf54c4acaa41a09968.webp)
 
 先找点视觉灵感，同时收集地质年代相关知识。
 
-![](https://cdn.victor42.work/posts/2025-05/bd58a66bddb861b38de62e73d3328cf5.webp)
+![智能设计助手的详细工作步骤与图像生成计划](https://cdn.victor42.work/posts/2025-05/bd58a66bddb861b38de62e73d3328cf5.webp)
 
 然后制定的执行计划大概是：整理信息、生成4张图片对应4个地质纪元、排版设计。
 
-![](https://cdn.victor42.work/posts/2025-05/74f874debdd5bad825e3f22f81f6334f.webp)
+![智能设计助手最终生成网页及完成任务的界面](https://cdn.victor42.work/posts/2025-05/74f874debdd5bad825e3f22f81f6334f.webp)
 
 做出一个网页长图，它就交稿了。
 

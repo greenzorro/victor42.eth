@@ -9,7 +9,7 @@ url: /post/3437
 
 **[国外设计第84期]**
 
-![](http://blog.invisionapp.com/wp-content/uploads/2015/03/blog-hero.png)
+![Material Design 风格的邮件应用界面截图](http://blog.invisionapp.com/wp-content/uploads/2015/03/blog-hero.png)
 
 最近，我们决定替换一下我们常备的邮件app原型，换成更迷人、跟上时代的东西——其中考虑采用了Google的material design原则。
 

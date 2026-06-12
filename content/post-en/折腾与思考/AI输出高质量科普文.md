@@ -68,7 +68,7 @@ As I once mused on X(Twitter):
 
 Have you seen the anime "Hitori no Shita: The Outcast"? There's a memorable, arrogant character named Wang Bing who uses a dark art to devour his opponents' spirits, only to be unceremoniously crushed, much to the audience's delight.
 
-![](https://cdn.victor42.work/posts/2025-06/8db9ce3c71a920ae4985aca5f117926b.webp)
+![Anime character Wang Bing devouring a spirit using the dark art of soul binding](https://cdn.victor42.work/posts/2025-06/8db9ce3c71a920ae4985aca5f117926b.webp)
 
 But the Wang family's core idea isn't entirely wrong. Think of AI-generated information as "spirits." The difference is, "consuming" them doesn't harm anyone since they're infinitely replicable. You can build automated systems to mass-produce content, growing your channels like a spirit army. Or, you can digest the information slowly, permanently upgrading your own skills. Only the latter offers compounding personal growth.
 

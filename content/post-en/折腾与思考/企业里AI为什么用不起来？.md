@@ -15,21 +15,21 @@ Two big, interconnected reasons:
 
 How so? Check this out:
 
-![](https://cdn.victor42.work/posts/2025-06/ca711ac73960759e026185b379056574.webp)
+![A diagram representing the total required business capabilities as a large square and an individual's skillset as a small cluster](https://cdn.victor42.work/posts/2025-06/ca711ac73960759e026185b379056574.webp)
 
 Imagine this circle is your skillset. The entire white space is everything needed to run your company.
 
-![](https://cdn.victor42.work/posts/2025-06/19ada012dc898e3ac9126beaad49fac7.webp)
+![A diagram showing the space covered by AI assistance (greyed out) except for the individual's core expertise](https://cdn.victor42.work/posts/2025-06/19ada012dc898e3ac9126beaad49fac7.webp)
 
 With AI, you can dabble outside your lane and be better than a complete beginner. But in your own area of expertise, AI is still no match for you.
 
-![](https://cdn.victor42.work/posts/2025-06/5b14439e39a31c5ab15bcf1335571cdf.webp)
+![A diagram representing a colleague's skillset as an orange cluster in the top right](https://cdn.victor42.work/posts/2025-06/5b14439e39a31c5ab15bcf1335571cdf.webp)
 
 Here's your colleague's skillset. Different job, but a similar-sized circle of expertise.
 
 A company is just a collection of specialists. Everyone sticks to their job, and together, you cover all the bases.
 
-![](https://cdn.victor42.work/posts/2025-06/661a2d07265bb07ad2781949f5dfa04a.webp)
+![A diagram showing the combined skillsets of different specialists almost completely covering the required company capabilities](https://cdn.victor42.work/posts/2025-06/661a2d07265bb07ad2781949f5dfa04a.webp)
 
 See where this is going? There's hardly any room left for AI to step in.
 

@@ -26,7 +26,7 @@ My former colleagues described AI as a diligent student.
 
 Drawing on AI principles, I offered an analogy: Imagine AI as a writer or painter, confined to a dimly lit desk in a dungeon from birth, poring over endless books and scrolls for a lifetime. Their lifespan, far exceeding a normal human's, might span the entirety of human civilization. Having consumed every recorded text, they then begin to depict the world through words and images.
 
-![](https://cdn.victor42.work/posts/2025-05/09dbc0f7779d7896470f8ffc876d936d.webp)
+![An illustration of a young scholar chained to a chair in a dark dungeon reading a book by candlelight](https://cdn.victor42.work/posts/2025-05/09dbc0f7779d7896470f8ffc876d936d.webp)
 
 This sage possesses an incredible wealth of knowledge. If you could converse with this sage in their dungeon, their vast knowledge might mislead you into believing they possess equivalent intelligence, fostering unrealistic expectations and trust.
 
@@ -46,7 +46,7 @@ For instance, training an AI to recognize cats requires tens of thousands of ima
 
 In contrast, my two-year-old daughter, who had never seen a live duck and had seen fewer than ten duck pictures, could readily identify duck-themed toys, dolls, and mall rides. To my surprise, passing a restaurant, she pointed at a golden roasted duck and exclaimed, "Ducky!"
 
-![](https://cdn.victor42.work/posts/2025-05/1ab342a28441047fafc1f1fcb46dffdf.webp)
+![A photo of golden roasted Beijing ducks hanging and on a cutting board in a restaurant kitchen](https://cdn.victor42.work/posts/2025-05/1ab342a28441047fafc1f1fcb46dffdf.webp)
 
 ### Why Doesn't AI Obey?
 
@@ -58,7 +58,7 @@ Long before ChatGPT, AI research was well underway. One study simulated evolutio
 
 The winning 'species' had a 100-meter tall neck. At the start of the race, it simply fell over, instantly crossing the finish line:
 
-![](https://cdn.victor42.work/posts/2025-05/0ce256e5944fbb8c825d1e21883095bd.webp)
+![A simple red line drawing of a creature with an extremely long neck standing at the starting line](https://cdn.victor42.work/posts/2025-05/0ce256e5944fbb8c825d1e21883095bd.webp)
 
 It appears the AI found and exploited a loophole. But how did it devise such a clever workaround?
 
@@ -78,7 +78,7 @@ Mainstream text-based AI is fundamentally a text-completion engine. Its core fun
 
 You might think, "But my AI chats like a person!" Correct. Clever design transforms this text-completion engine into a chatbot.
 
-![](https://cdn.victor42.work/posts/2025-05/47c8598d8d8102ce4ff2d1bf22f084cd.webp)
+![A screenshot of a dialogue with Doubao chatbot where the user asks for its name](https://cdn.victor42.work/posts/2025-05/47c8598d8d8102ce4ff2d1bf22f084cd.webp)
 
 From your end, you type, "Hi, what's your name?" The AI receives this and replies.
 
@@ -94,7 +94,7 @@ The phrase "You are a helpful assistant..." is a "system prompt"—hardcoded ins
 
 So, it's not just answering a question; it's continuing a scripted interaction between a user and an assistant. It predicts and appends what an assistant would likely say.
 
-![](https://cdn.victor42.work/posts/2025-05/bbdb4bc32843752ad5ba33592d4959eb.webp)
+![A screenshot of a continuing dialogue with Doubao chatbot where the user introduces their name](https://cdn.victor42.work/posts/2025-05/bbdb4bc32843752ad5ba33592d4959eb.webp)
 
 If you reply again, the information it receives will be structured like this:
 
@@ -114,7 +114,7 @@ It processes the entire conversation history each time to maintain context. This
 
 Consider the classic system prompt: "You are a helpful assistant."
 
-![](https://cdn.victor42.work/posts/2025-05/421edc7a9ebe6cf69aa23245d5d0ea01.webp)
+![A screenshot of Cambridge Dictionary entry for helpful showing its definition willing to help](https://cdn.victor42.work/posts/2025-05/421edc7a9ebe6cf69aa23245d5d0ea01.webp)
 
 The Cambridge Dictionary defines "helpful," emphasizing "willing to help." The common Chinese translation, "有帮助" (yǒu bāngzhù – literally "to have help" or "to be useful"), somewhat narrows the original meaning, emphasizing passive utility. A "helpful" hammer is useful when I need to hammer nails.
 
@@ -146,7 +146,7 @@ Text-based AI primarily excels in three areas:
 
 Its knowledge base is significantly imbalanced. If we categorize information by impact and duration, it looks like this:
 
-![](https://cdn.victor42.work/posts/2025-05/80c737da52f381f59e34b4bd9a24dc01.webp)
+![A four-quadrant matrix diagram classifying information by world impact and duration](https://cdn.victor42.work/posts/2025-05/80c737da52f381f59e34b4bd9a24dc01.webp)
 
 AI's training data typically covers: Almost all **History**, most **Hot Topics,** some **Legacy/Tradition**, and very little **Trivial Matters**.
 
@@ -163,7 +163,7 @@ What to ask AI, and what to avoid:
 
 Clearly, AI isn't a panacea. Real-world problems consist of multiple sub-tasks. AI can handle some, but you'll manage the others. Effective AI use involves integrating it to automate parts of your workflow.
 
-![](https://cdn.victor42.work/posts/2025-05/70b708611424a7986dd304fcf733ce41.webp)
+![A flow diagram showing the distribution of human and AI stages under different capabilities and task complexities](https://cdn.victor42.work/posts/2025-05/70b708611424a7986dd304fcf733ce41.webp)
 
 As AI models improve, they can reliably handle more stages. Skilled AI users, understanding different models' strengths and weaknesses, can further expand AI's role.
 
