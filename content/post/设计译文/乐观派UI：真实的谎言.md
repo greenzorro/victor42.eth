@@ -11,7 +11,7 @@ url: /post/3531
 
 想象3个用户界面（UI）一起去了酒吧。第1个点了一杯酒，然后又再点了几杯。几小时后，它买了单，醉醺醺的走了。第2个界面点了一杯酒，直接把钱付了，然后又点了一杯酒，又马上买了单，几小时后也醉醺醺的离开了酒吧。第3个界面刚走进酒吧，马上就已经醉醺醺的离开了——它知道酒吧是干什么的，它非常讲求效率，一点时间也不浪费。你听说过这第3种界面吗？它就叫做“乐观派UI”。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui-large-opt-1.png)
+[![乐观派UI设计概念插图 - 展示用户界面如何以乐观心态预判操作成功的交互模式](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui-large-opt-1.png)
 
 *乐观派UI设计并非乐观地看待页面——至少不**仅限于此**。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui-large-opt-1.png)）*
 
@@ -29,7 +29,7 @@ url: /post/3531
 4. 服务器返回信息到页面。
 5. 页面刷新，反映出返回的状态。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/old-ui-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/old-ui-large-opt-1.png)
+[![早期Web UI按钮交互流程图 - 展示点击按钮后禁用等待服务器响应的传统交互模式](https://www.smashingmagazine.com/wp-content/uploads/2016/11/old-ui-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/old-ui-large-opt-1.png)
 
 *那个年代，界面与乐观派扯不上什么关系。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/old-ui-large-opt-1.png)）*
 
@@ -50,13 +50,13 @@ url: /post/3531
 
 这种新的交互模型解决了旧交互方式存在的一个问题：页面的刷新不会导致破坏性操作，保持用户所处环境不变。相比之前，这种交互亲切多了。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/spinner-ui-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/spinner-ui-large-opt-1.png)
+[![Web 2.0时代菊花加载动画UI示意图 - XMLHttpRequest和AJAX带来的局部页面更新交互](https://www.smashingmagazine.com/wp-content/uploads/2016/11/spinner-ui-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/spinner-ui-large-opt-1.png)
 
 *XMLHttpRequest和菊花解决了旧交互方式的一个问题：服务器响应会导致破坏性的刷新，改变整个环境。([查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/spinner-ui-large-opt-1.png))*
 
 这种交互模式已经广泛应用于数字媒介。但还有一个问题：用户仍然需要等待服务器反馈。当然，我们有办法加快服务器响应速度，但无论我们如何努力优化基础设备，用户仍然要等待。比如，[研究表明](http://www.techradar.com/news/world-of-tech/roundup/consumers-dump-slow-websites-1080742)78%的用户对于缓慢或不稳定的网站产生负面情绪。更有甚者，Harris Interactive为Tealeaf做的一份[调查显示](http://www.marketwired.com/press-release/tealeaf-announces-new-mobile-transaction-research-conducted-harris-interactive-shows-1419058.htm)，23%的用户承认咒骂过自己的手机，11%冲自己手机大喊过，而且4%的用户在网络出问题时扔过手机。延迟就属于这类问题之一。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/cursing-phone-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/cursing-phone-large-opt.png)
+[![用户因网络延迟咒骂手机插画 - 78%用户对缓慢网站产生负面情绪](https://www.smashingmagazine.com/wp-content/uploads/2016/11/cursing-phone-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/cursing-phone-large-opt.png)
 
 *大约78%的用户面对缓慢或不稳定的网站时，会产生负面情绪。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/cursing-phone-large-opt.png)）*
 
@@ -73,7 +73,7 @@ url: /post/3531
 
 想一想：用户操作引发服务器错误的频率高么？比如说，用户点击按钮时，你的API经常出错吗？或者用户点击某个链接时经常会出错？说实话我觉得不会。当然，API、服务器载荷、错误处理等级不同，表现也不一样。还有一些其他因素，作为前端开发或者用户体验专家，你可能不会考虑。但只要API稳定可靠，前端以适当方式反馈正确的UI操作，那么由用户触发导致的问题会特别少。以目前状况来看，我敢说不会超过1%到3%。这就意味着97%到99%的状况下，用户点击网站的某个按钮，服务器的响应应该是成功的，没有错误。应该从一个更好的角度来看待这个问题。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/failure-success-man-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/failure-success-man-large-opt.png)
+[![服务器请求成功率与失败率对比图 - 97%到99%的按钮点击操作会成功返回](https://www.smashingmagazine.com/wp-content/uploads/2016/11/failure-success-man-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/failure-success-man-large-opt.png)
 
 *乐观派UI基于一个假设，用户点击按钮，服务器在97%到99%以上的状况下返回成功。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/failure-success-man-large-opt.png)）*
 
@@ -84,7 +84,7 @@ url: /post/3531
 
 就是这样！至少从用户的角度来看，仅此而已——不用等待，不用盯着禁用状态的按钮，也没有烦人的菊花转。交互流畅无缝，系统不会粗暴地现身，提醒用户注意它的存在。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui1-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui1-large-opt.png)
+[![乐观派UI按钮交互流程图 - 点击后立即显示成功状态无需等待服务器响应](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui1-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui1-large-opt.png)
 
 *乐观派UI交互里根本没有禁用状态按钮和菊花。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui1-large-opt.png)）*
 
@@ -101,13 +101,13 @@ url: /post/3531
 
 很明显，从点击按钮开始。但是请注意用户松开并移开鼠标时按钮的状态。它立刻变成了成功状态！
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter1-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter1-preview-opt.png)
+[![Twitter点赞按钮乐观派交互预览 - 点击后按钮立即变为红色成功状态](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter1-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter1-preview-opt.png)
 
 *点了赞之后，Twitter立刻把它更新为成功状态。*
 
 此时，我们用浏览器开发人员工具，看看里面的“网络”标签栏发生了什么。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter2-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter2-large-opt.png)
+[![Twitter浏览器开发者工具网络标签截图 - 点赞请求正在进行中但按钮已显示成功状态](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter2-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter2-large-opt.png)
 
 *按钮的视觉状态改变，独立于服务器请求存在，此时服务器请求正在进行中。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter2-large-opt.png)）*
 
@@ -115,13 +115,13 @@ url: /post/3531
 
 服务器返回成功的响应后，计数器增加，但这个变化比色彩改变微弱得多。这就给用户提供了一种流畅连贯的体验，感觉不到任何等待。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter3-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter3-large-opt.png)
+[![Twitter点赞计数器更新截图 - 服务器响应确认后数字才增加但视觉状态早已改变](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter3-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter3-large-opt.png)
 
 *尽管赞按钮在视觉上已经变为成功状态，计数器只在服务器响应确认成功后才变化。*
 
 在Facebook可以看到另一个乐观派交互的例子，也是点赞按钮。场景非常相似，不过Facebook是连着计数器一起直接变为了成功状态，完全没有等待服务器响应。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/fb-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/fb-preview-opt.png)
+[![Facebook点赞按钮乐观派更新预览 - 按钮和计数器同时立即变为成功状态](https://www.smashingmagazine.com/wp-content/uploads/2016/11/fb-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/fb-preview-opt.png)
 
 *Facebook用了和Twitter一样乐观派交互，但它连着计数器一起更新了视觉状态。*
 
@@ -135,7 +135,7 @@ url: /post/3531
 
 不过如果你继续往下读，说明你对深层原因感兴趣。那么，我们稍微深入一点，了解这种方式的心理学基础。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/psychology-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/psychology-large-opt.png)
+[![大脑神经科学研究插图 - 心理学研究解释乐观派UI为何能提升用户体验感知](https://www.smashingmagazine.com/wp-content/uploads/2016/11/psychology-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/psychology-large-opt.png)
 
 *大脑研究帮助我们理解乐观派UI起作用的心理学成因。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/psychology-large-opt.png)）*
 
@@ -156,7 +156,7 @@ url: /post/3531
 
 人们天生会把行为聚类处理，以主观定义的目标或者小目标达成为结束。有时候我们把这些聚类称作“[思维轨迹](https://en.wikipedia.org/wiki/Train_of_thought)”、“[思维涌动](http://www.unco.edu/cebs/psychology/kevinpugh/motivation_project/resources/flow6.pdf)” (PDF)，或者就简单称作“[心流](https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi%23Flow)”。心流状态的特征包括乐趣达到巅峰、精力集中、创造力爆发。在心流状态中，用户完全被这项活动吸引。[Tammy Everts的一条推特](https://twitter.com/tameverts/status/783800032436695040)准确描绘了这点：
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/tammy-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/tammy-large-opt.png)
+[![Tammy Everts关于心流状态的推特截图 - 描述用户完全沉浸于界面交互时忘记眨眼的状态](https://www.smashingmagazine.com/wp-content/uploads/2016/11/tammy-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/tammy-large-opt.png)
 
 【图注：我喜欢心流状态的一切，除了一点，我会连续几个小时忘记眨眼。我的眼睛现在是这样的。】
 
@@ -170,7 +170,7 @@ url: /post/3531
 
 他把这几类都归为**2秒**延迟的类型，用户会获得相应类型的响应。如果不继续深究，我们应该注意，这些延迟也取决于一个人的[记忆运转](http://www.simplypsychology.org/working%20memory.html)（这是指一个人记住一定量信息所需的时间，更重要的是，不仅记住，还要能运用）。我们作为开发者和用户体验专家，这意味着在操作了某个元素的2秒内，用户会短暂进入心流状态，专注于他们期待的响应。如果服务器在这个时间内返回错误状态，用户仍然处于与界面的“对话”中，这是个比喻。类似于两个人对话，比如你说了一句话，对方委婉地反驳你。想像一下，如果对方花了很长时间点头表示同意（等同于我们UI中的成功状态），但然后最终对你说“不”。这多尴尬啊？所以，乐观派UI必须在心流状态的2秒内传达出错误信息。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui2-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui2-large-opt.png)
+[![乐观派UI错误处理流程图 - 必须在2秒心流状态内向用户传达错误信息](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui2-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui2-large-opt.png)
 
 *乐观派UI必须清楚表达错误状态给用户。最重要的是，它要在用户进入心流状态的2秒内发生。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/optimistic-ui2-large-opt.png)）*
 
@@ -182,19 +182,19 @@ url: /post/3531
 
 首先，点击按钮后它立刻变为成功状态，这符合乐观派UI模式——当用户松开并移开鼠标，它的表现和用户处于在线状态时一样。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline1-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline1-large-opt.png)
+[![Twitter离线状态点赞截图 - 断网情况下点击按钮仍立即显示成功视觉反馈](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline1-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline1-large-opt.png)
 
 *离线状态下，Twitter的点赞按钮仍然在点击后产生视觉变化。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline1-large-opt.png)）*
 
 但由于用户离线，请求失败了。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline2-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline2-large-opt.png)
+[![Twitter离线请求失败网络标签截图 - 显示因用户断网导致点赞请求未能成功发送](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline2-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline2-large-opt.png)
 
 *（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline2-large-opt.png)）*
 
 那么，在用户进入心流状态后，错误信息要尽快给出。2秒通常是心流的持续时间。Twitter以一种非常微妙的方式表达这一点，把按钮的状态还原回去了。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline3-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline3-large-opt.png)
+[![Twitter离线点赞失败后按钮状态还原截图 - 请求失败后按钮低调恢复为未点赞状态](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline3-preview-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline3-large-opt.png)
 
 *请求失败后，Twitter以一种低调的方式还原了按钮的视觉状态，没有在视觉上小题大做。（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/twitter-offline3-large-opt.png)）*
 
@@ -228,7 +228,7 @@ url: /post/3531
 - 了解API的响应时间。这点至关重要。如果你知道某个特定请求的响应时间一定在2秒以上，首先应该优化API到最佳性能。之前提到，服务器响应时间在2秒以内，乐观派UI才有最佳表现。超过2秒会导致难以预期的结果，用户会更加挫败。千万注意。
 - 乐观派UI不仅仅是点击按钮。这种方式可以运用于页面中的各种不同交互，包括页面的加载。例如[框架页面](http://www.lukew.com/ff/entry.asp?1797)就运用了相同的观念：你预期服务器能成功返回信息，所以直接向用户先展示占位符。
 
-[![](https://www.smashingmagazine.com/wp-content/uploads/2016/11/finish-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/finish-large-opt.png)
+[![终点线冲刺插图 - 象征乐观派UI设计帮助用户流畅完成交互目标](https://www.smashingmagazine.com/wp-content/uploads/2016/11/finish-650-opt.png)](https://www.smashingmagazine.com/wp-content/uploads/2016/11/finish-large-opt.png)
 
 *（[查看大图](https://www.smashingmagazine.com/wp-content/uploads/2016/11/finish-large-opt.png)）*
 

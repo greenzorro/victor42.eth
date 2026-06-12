@@ -14,7 +14,7 @@ I've been using After Effects for about a year. It's fun, useful, and easy to le
 
 This circular progress bar requires a bit more thought.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/1.gif)
+![The final animated circular progress bar created in After Effects](https://cdn.victor42.work/posts/2015-02/02-09/1.gif)
 
 ## The Idea
 
@@ -26,7 +26,7 @@ To create a ring, add a smaller circle on top. AE layer masks achieve a similar 
 
 AE can create a truly transparent circular progress bar, but the core principle remains: rotating two semicircles independently. See the diagram below:
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/2.gif)
+![Demonstration gif of the rotation principle using red, blue, and purple semicircles](https://cdn.victor42.work/posts/2015-02/02-09/2.gif)
 
 Divide the circle into left (red) and right (blue) semicircles, restricting their visibility to their respective halves. Add a static right semicircle (purple) underneath. Let's break it down step by step.
 
@@ -34,67 +34,67 @@ Divide the circle into left (red) and right (blue) semicircles, restricting thei
 
 First, prepare the three semicircles.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/1.png)
+![Three static semicircle layers prepared in the After Effects timeline](https://cdn.victor42.work/posts/2015-02/02-09/1.png)
 
 Create a 720p composition.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/2.png)
+![Composition Settings panel in AE set to 1280x720 resolution](https://cdn.victor42.work/posts/2015-02/02-09/2.png)
 
 Draw a 400x400 circle.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/3.png)
+![Setting the ellipse path size to 400x400 in AE shape layer](https://cdn.victor42.work/posts/2015-02/02-09/3.png)
 
 Set the circle's position (not the shape layer's) to 0, 0 for perfect centering.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/4.png)
+![Centering the ellipse path by setting its position to 0,0 in AE](https://cdn.victor42.work/posts/2015-02/02-09/4.png)
 
 In the same shape layer, draw a 200x400 rectangle (half the circle's size).
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/5.png)
+![Creating a 200x400 rectangle path in the same shape layer](https://cdn.victor42.work/posts/2015-02/02-09/5.png)
 
 Set the rectangle's position to -100, 0 to cover the circle's left half. This rectangle will cut out the semicircle.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/6.png)
+![Positioning the rectangle at -100,0 to cover the left half of the circle](https://cdn.victor42.work/posts/2015-02/02-09/6.png)
 
 Click "Add" and choose "Merge Paths".
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/7.png)
+![Selecting Merge Paths option from the Add menu in AE shape layer](https://cdn.victor42.work/posts/2015-02/02-09/7.png)
 
 Set the mode to "Intersect" (like path operations in PS/AI).
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/8.png)
+![Setting the Merge Paths mode to Intersect in After Effects](https://cdn.victor42.work/posts/2015-02/02-09/8.png)
 
 Group (Command/Ctrl + G) the circle, rectangle, and Merge Paths. This is our semicircle.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/9.png)
+![Grouping the ellipse, rectangle, and Merge Paths inside Group 1](https://cdn.victor42.work/posts/2015-02/02-09/9.png)
 
 Expand the group, copy the inner rectangle, and paste it outside the group.
 
 This new rectangle acts as a vector mask. AE's built-in masks rotate with the layer, which we don't want. We need a stationary mask and a rotating semicircle. So, we use "Merge Paths" again.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/10.png)
+![Adding a second rectangle and Merge Paths outside Group 1 for masking](https://cdn.victor42.work/posts/2015-02/02-09/10.png)
 
 Add -> Merge Paths, setting the mode to "Intersect". This creates the intersection of the new rectangle and the group.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/11.png)
+![Rotating Group 1 in AE, with parts outside the mask hidden](https://cdn.victor42.work/posts/2015-02/02-09/11.png)
 
 Rotating the group now shows that the area outside the rectangle is hidden.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/12.png)
+![Adding a keyframe to the rotation property of Group 1](https://cdn.victor42.work/posts/2015-02/02-09/12.png)
 
 Reset the rotation and add a keyframe to the group's rotation (for later use). Press "u" to quickly access keyframed properties.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/13.png)
+![Renaming the shape layer to Left Semicircle in the timeline](https://cdn.victor42.work/posts/2015-02/02-09/13.png)
 
 Name this layer "Left Semicircle".
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/14.png)
+![Setting the outer mask rectangle position of Right Semicircle layer to 100,0](https://cdn.victor42.work/posts/2015-02/02-09/14.png)
 
 Duplicate the layer (Command/Ctrl + D) for the right semicircle. Set the *outer* rectangle's position to 100, 0 (covering the right half). Nothing appears because the semicircle is still on the left.
 
 To clarify: the inner circle and rectangle form the rotating semicircle. The outer rectangle is the mask. The left semicircle's mask covers the left; the right semicircle's mask covers the right. Together, they form a full circle.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/15.png)
+![Left, Right, and Background Semicircle layers ordered in the AE timeline](https://cdn.victor42.work/posts/2015-02/02-09/15.png)
 
 Duplicate the right semicircle, rename it "Background Semicircle," and move it to the bottom. Set the *inner* rectangle's position to 100, 0. The circle becomes whole again.
 
@@ -104,35 +104,35 @@ The static assets are now ready.
 
 Let's animate the semicircles.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/16.png)
+![AE timeline showing only rotation properties with keyframes](https://cdn.victor42.work/posts/2015-02/02-09/16.png)
 
 Press "u" to show only the rotation property with the keyframe. This is the *group's* rotation, not the layer's.
 
 Remove keyframes from the right and background semicircles' rotation. Keep the right semicircle's rotation property visible.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/17.png)
+![Enabling the Solo switch for Left Semicircle layer in AE](https://cdn.victor42.work/posts/2015-02/02-09/17.png)
 
 Click the dot on the left semicircle layer to solo it (like Alt + clicking the layer eye in PS).
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/18.png)
+![Creating a 360-degree rotation animation keyframe for Left Semicircle](https://cdn.victor42.work/posts/2015-02/02-09/18.png)
 
 Create a simple animation: one full rotation.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/19.png)
+![Activating expression input on Right Semicircle's rotation by Alt-clicking](https://cdn.victor42.work/posts/2015-02/02-09/19.png)
 
 Important: Alt + click the right semicircle's rotation property. An expression appears in the timeline.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/20.png)
+![Linking Right Semicircle's rotation to Left Semicircle using Pick Whip](https://cdn.victor42.work/posts/2015-02/02-09/20.png)
 
 Drag the right semicircle's rotation property's pick whip (spiral icon) to the left semicircle's rotation property. The expression updates.
 
 Alt + clicking activated the expression. Dragging the pick whip links the right semicircle's rotation to the left's. Now, the right semicircle always follows the left.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/21.png)
+![Disabling Solo switch on Left Semicircle layer to restore view](https://cdn.victor42.work/posts/2015-02/02-09/21.png)
 
 Turn off solo display for the left semicircle.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/22.png)
+![Red, blue, and purple colored semicircles visible in the AE canvas](https://cdn.victor42.work/posts/2015-02/02-09/22.png)
 
 For clarity, fill the semicircles with different colors (for demonstration only).
 
@@ -144,31 +144,31 @@ Play the animation. It's incorrect: the left semicircle is visible initially. It
 
 We need a specific frame where the left and background semicircles are hidden.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/23.png)
+![Locating the playback head at the critical 180-degree rotation frame](https://cdn.victor42.work/posts/2015-02/02-09/23.png)
 
 This critical frame is when the right semicircle reaches 180 degrees (or slightly more).
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/24.png)
+![Trimming the in-points of Left and Background Semicircles to the critical frame](https://cdn.victor42.work/posts/2015-02/02-09/24.png)
 
 Select the left and background semicircles and trim their timelines' left ends to this frame. They won't appear too early now.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/25.png)
+![Clicking the Graph Editor button to adjust motion curves in AE](https://cdn.victor42.work/posts/2015-02/02-09/25.png)
 
 Playback is now correct!
 
 The constant-speed rotation is unnatural.  Open the Graph Editor (graph icon). Select the left semicircle's rotation to see a straight line.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/26.png)
+![Converting linear keyframes to Bezier curves in Graph Editor](https://cdn.victor42.work/posts/2015-02/02-09/26.png)
 
 Select the line and click the two-handled icon. The line curves, and handles appear.
 
 The Graph Editor is simple: the horizontal axis is time; the vertical is value change. A flat curve means slow change; a steep curve means fast change.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/27.png)
+![Adjusting the Bezier handle to create an ease-out speed curve](https://cdn.victor42.work/posts/2015-02/02-09/27.png)
 
 For a fast-start, slow-end animation, adjust the curve like this:
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/28.png)
+![Re-aligning layer in-points based on the newly adjusted ease curve](https://cdn.victor42.work/posts/2015-02/02-09/28.png)
 
 Find the critical frame again (right semicircle at 180 degrees or slightly beyond).
 
@@ -176,39 +176,39 @@ Find the critical frame again (right semicircle at 180 degrees or slightly beyon
 
 The circular progress bar is done; let's make it a ring.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/29.png)
+![Right-clicking the selected layers to choose Pre-compose in AE](https://cdn.victor42.work/posts/2015-02/02-09/29.png)
 
 Select all layers and Pre-compose (right-click).
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/30.png)
+![Confirming settings in the Pre-compose options dialog in AE](https://cdn.victor42.work/posts/2015-02/02-09/30.png)
 
 The three layers merge (like a Smart Object in PS or Movie Clip in Flash).
 
 Create a mask (Command/Ctrl + Shift + N) - AE's built-in layer mask.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/31.png)
+![Adding a full-size rectangular mask to the new pre-composition layer](https://cdn.victor42.work/posts/2015-02/02-09/31.png)
 
 The mask is a rectangle. Expand the mask menu and click "Mask Path".
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/32.png)
+![Opening the Mask Shape settings dialog to redefine the mask bounds](https://cdn.victor42.work/posts/2015-02/02-09/32.png)
 
 Set the four values (top, left, bottom, right) as shown, and check the box to make it a circle.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/33.png)
+![Setting the mask coordinates and checking Reset to Ellipse option](https://cdn.victor42.work/posts/2015-02/02-09/33.png)
 
 These numbers ensure the circular mask matches the progress bar's size and position.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/34.png)
+![Checking the Inverted option on the mask to hide the inner circle](https://cdn.victor42.work/posts/2015-02/02-09/34.png)
 
 Check "Inverted". The circle disappears because the mask now shows the area *outside* it.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/35.png)
+![Scaling down the inverted circular mask from center to form the ring](https://cdn.victor42.work/posts/2015-02/02-09/35.png)
 
 Select the mask and press Command/Ctrl + T.
 
 Hold Command/Ctrl + Shift to scale from the center, making it slightly smaller. The ring appears.
 
-![](https://cdn.victor42.work/posts/2015-02/02-09/1.gif)
+![The final animated circular progress bar created in After Effects](https://cdn.victor42.work/posts/2015-02/02-09/1.gif)
 
 Done! That's the progress bar I wanted.
 

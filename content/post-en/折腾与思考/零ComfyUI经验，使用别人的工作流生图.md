@@ -14,31 +14,31 @@ Liblib offers many free workflows for tasks regular image generators can't handl
 
 ComfyUI is essentially an image generation program. Don't worry about the details now:
 
-![](https://cdn.victor42.work/posts/2025-02/65e10ec43957abff3dbb183248e33bd3.webp)
+![A panoramic screenshot of a complex ComfyUI node-based workflow interface](https://cdn.victor42.work/posts/2025-02/65e10ec43957abff3dbb183248e33bd3.webp)
 
 Liblib's workflows are based on ComfyUI. You don't need to know how to create them, but you should know how to use them. There are three common scenarios:
 
 ## 1️⃣ The workflow is packaged as an app (you'll see a specific button)
 
-![](https://cdn.victor42.work/posts/2025-02/46c26df9a8577c9cdf77aae4af49f1f1.webp)
+![A screenshot of the blue Run Application button on Liblib platform](https://cdn.victor42.work/posts/2025-02/46c26df9a8577c9cdf77aae4af49f1f1.webp)
 
 Click it, and you're set. It's straightforward, and you won't see the underlying program.
 
-![](https://cdn.victor42.work/posts/2025-02/caefee5ee6854594b0e273f148ddbc46.webp)
+![A diagram showing the user interface of a packed app on Liblib, with arrows indicating how to upload an image and generate](https://cdn.victor42.work/posts/2025-02/caefee5ee6854594b0e273f148ddbc46.webp)
 
 ## 2️⃣ It's not an app, and you see a light blue "Run" button
 
-![](https://cdn.victor42.work/posts/2025-02/421edc7a9ebe6cf69aa23245d5d0ea01.webp)
+![A screenshot of the light blue Run in ComfyUI button on Liblib platform](https://cdn.victor42.work/posts/2025-02/421edc7a9ebe6cf69aa23245d5d0ea01.webp)
 
 Clicking this takes you to the ComfyUI interface, a black screen that might take a moment to load. It can look complex, like a circuit board.
 
 However, creators usually include instructions. These vary, so find and read them carefully. Here's an example:
 
-![](https://cdn.victor42.work/posts/2025-02/7d652a7e19399a3c53683aa792a38bb7.webp)
+![A screenshot of custom image upload and instruction cards added by the workflow creator in Liblib ComfyUI](https://cdn.victor42.work/posts/2025-02/7d652a7e19399a3c53683aa792a38bb7.webp)
 
 ## 3️⃣ You see a light blue "View Workflow" button, but no instructions
 
-![](https://cdn.victor42.work/posts/2025-02/b78bb6863e56b1c86be4bfd3feb0a5d5.webp)
+![A screenshot of the blue View Workflow button on Liblib platform](https://cdn.victor42.work/posts/2025-02/b78bb6863e56b1c86be4bfd3feb0a5d5.webp)
 
 This likely means the creator didn't add instructions. Check if the workflow is overly complex.
 
@@ -46,8 +46,8 @@ This likely means the creator didn't add instructions. Check if the workflow is 
 
 1.  If it seems simple, with few components, there's hope. Find these two key node types:
 
-    -   Image upload node: (look for the "choose file to upload" button): ![](https://cdn.victor42.work/posts/2025-02/88465060dc6397b6e62a5bfca4b1d89f.webp)
-    -   Text input node: (look for a black input box for prompts): ![](https://cdn.victor42.work/posts/2025-02/09dbc0f7779d7896470f8ffc876d936d.webp)
+    -   Image upload node: (look for the "choose file to upload" button): ![A close-up of a ComfyUI Load Image node with the choose file to upload button outlined in red](https://cdn.victor42.work/posts/2025-02/88465060dc6397b6e62a5bfca4b1d89f.webp)
+    -   Text input node: (look for a black input box for prompts): ![A close-up of a ComfyUI CLIP Text Encode node with the text input box outlined in red](https://cdn.victor42.work/posts/2025-02/09dbc0f7779d7896470f8ffc876d936d.webp)
 
     Upload images, write text, and click "Run." It should work.
 
@@ -59,21 +59,21 @@ This likely means the creator didn't add instructions. Check if the workflow is 
 
 You might encounter errors:
 
-![](https://cdn.victor42.work/posts/2025-02/1ae88573acbc157fb7bf1443a68dcb25.webp)
+![A screenshot of ComfyUI Value not in list error popup indicating missing models](https://cdn.victor42.work/posts/2025-02/1ae88573acbc157fb7bf1443a68dcb25.webp)
 
 Don't worry! Close the error; the program will highlight the problem node in red:
 
-![](https://cdn.victor42.work/posts/2025-02/c024ed1135e6e390d941dfa607010b77.webp)
+![A screenshot of ComfyUI editor showing faulty nodes outlined in red with red pointing arrows](https://cdn.victor42.work/posts/2025-02/c024ed1135e6e390d941dfa607010b77.webp)
 
 Zoom in. It's usually a node for loading an AI model:
 
-![](https://cdn.victor42.work/posts/2025-02/53f255d839ade35227ea9c02e782517b.webp)
+![A close-up of a ComfyUI DualCLIPLoader node outlined in red indicating a model loading error](https://cdn.victor42.work/posts/2025-02/53f255d839ade35227ea9c02e782517b.webp)
 
 The creator likely used their local file names for models. On Liblib, the names might differ, causing the node to fail.
 
 Here's the fix: Note the names of each option, especially the part before the decimal (the model name). Click on each model and select the closest match from the dropdown (exact matches are best):
 
-![](https://cdn.victor42.work/posts/2025-02/c460eab80d6db0ff96dac59993a8ca9e.webp)
+![A screenshot showing selection of the correct model name from the dropdown menu in DualCLIPLoader](https://cdn.victor42.work/posts/2025-02/c460eab80d6db0ff96dac59993a8ca9e.webp)
 
 Reselect models for all faulty nodes, then run it again.
 

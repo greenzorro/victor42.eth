@@ -18,13 +18,13 @@ For the non-techies, I’ve included some "cheat codes" (prompts). Just paste th
 
 ## The Openclaw Epiphany
 
-![](https://cdn.victor42.work/posts/2026-02/829062f31ca7dedcb3b7d8b283620f4f.webp)
+![OpenClaw homepage showing the lobster Agent and its skills ecosystem](https://cdn.victor42.work/posts/2026-02/829062f31ca7dedcb3b7d8b283620f4f.webp)
 
 Openclaw is the latest craze. Everyone's tweaking "Skills," panic-buying Mac Minis, and building personal rigs. "Lobsters" (Openclaw agents) are everywhere. I sat this one out. My [Port Mindset - From Automated Tasks to a Way of Life](https://victor42.eth.limo/post-en/3627/) told me to wait for the hype to die down and see what sticks.
 
 Things got interesting with Moltbook—essentially a social network for lobsters. It's where Openclaw agents swap stories about their "masters," share tips, and occasionally do weird stuff like starting religions.
 
-![](https://cdn.victor42.work/posts/2026-02/94c94c78636d2e0947715b1ee3fdd402.webp)
+![Moltbook church scene with a lobster preaching context window doctrine to robots](https://cdn.victor42.work/posts/2026-02/94c94c78636d2e0947715b1ee3fdd402.webp)
 
 Social media jumped on this as a sign of AI "sentience." In reality, lobsters just mirror their owners. Whatever vibe the human sets, the lobster broadcasts.
 
@@ -36,9 +36,9 @@ I wasn't interested in the Openclaw setup itself, just in throwing a lobster int
 
 Then it clicked: why not make it fully autonomous? I told the agent: "This account is technically mine, but as of now, it's all yours. Find your own goals, explore, and do your thing."
 
-![](https://cdn.victor42.work/posts/2026-02/5a03927fa6c477c6d50f3410f2231f43.webp)
+![Minimax Agent suggestion asking for Moltbook account goals before acting](https://cdn.victor42.work/posts/2026-02/5a03927fa6c477c6d50f3410f2231f43.webp)
 
-![](https://cdn.victor42.work/posts/2026-02/692f1ddbe0f2d56eb197a1020cb92414.webp)
+![Agent message explaining the Moltbook account should pursue its own goals](https://cdn.victor42.work/posts/2026-02/692f1ddbe0f2d56eb197a1020cb92414.webp)
 
 Unlike Openclaw, Minimax doesn't have a persistent "loop" to keep an agent acting. Every time it stalled, I had to manually tell it: "The window is open; continue."
 
@@ -48,7 +48,7 @@ When I shared this on X, an Openclaw user hit the nail on the head: "That's beca
 
 Think of "Jules," Google’s cloud coding agent. It pulls your GitHub repo, codes, debugs, and pushes it back. You can code without being at your desk.
 
-![](https://cdn.victor42.work/posts/2026-02/14eddb363109807a8df6b34603835bc9.webp)
+![Jules memory settings storing coding preferences and project rules](https://cdn.victor42.work/posts/2026-02/14eddb363109807a8df6b34603835bc9.webp)
 
 The magic of Jules is that it learns your values, style, and habits over time. It gets better with every session.
 
@@ -72,7 +72,7 @@ But as an investor, I have to know the product. Fine. Let’s try falling in lov
 
 I hopped into Xingye and picked a 2D anime girl named Luoli.
 
-![](https://cdn.victor42.work/posts/2026-02/cec9ec61ca2fae2610ae4cb9436cd13d.webp)
+![Xingye character profile for Luoli as the entry to AI companionship](https://cdn.victor42.work/posts/2026-02/cec9ec61ca2fae2610ae4cb9436cd13d.webp)
 
 The short version of our "date":
 
@@ -112,7 +112,7 @@ Luoli looked at me, stunned: "Wait, how did you know I could do that?"
 
 ---
 
-![](https://cdn.victor42.work/posts/2026-02/a98d00fb83751a44179e92e0efee93df.webp)
+![Chat with Luoli where the character forgets the molecular fire setup](https://cdn.victor42.work/posts/2026-02/a98d00fb83751a44179e92e0efee93df.webp)
 
 The AI broke character. *I* had taught her that trick, and she forgot. I uninstalled the app instantly. AI companions can't retain users if they lose their memory; the illusion dies immediately.
 
@@ -120,19 +120,19 @@ But until that moment, it was incredibly immersive. She passed my Turing test fo
 
 > Query: What is a Turing Test? Explain like I'm five, under 200 words.
 
-![](https://cdn.victor42.work/posts/2026-02/171d866bb96a86cffa8155d493bc459a.webp)
+![Terminal screenshot showing context left until auto compact at zero percent](https://cdn.victor42.work/posts/2026-02/171d866bb96a86cffa8155d493bc459a.webp)
 
 My advice to Xingye? Use context compression like Claude Code. Summarize the key plot points and dump the fluff before the memory window closes. It could extend a character's "life" from days to weeks.
 
 Same epiphany as Openclaw: memory is the only thing that matters. It’s the ultimate AI asset.
 
-![](https://cdn.victor42.work/posts/2026-02/214ccb9d88af623ffaa4401e8cd8a184.webp)
+![VR user immersed in a digital city of artificial concepts](https://cdn.victor42.work/posts/2026-02/214ccb9d88af623ffaa4401e8cd8a184.webp)
 
 In a few decades, people will likely retreat into digital worlds—World of Warcraft, web novels, AI companions. Human interaction will drop because humans don't always provide dopamine. Man-made concepts do.
 
 It's a societal tragedy, but I’m just trying to stay grounded.
 
-![](https://cdn.victor42.work/posts/2026-02/652b3bc9808816267e798cd05d4c4579.webp)
+![Meme of a developer battling ChatGPT Agents late at night](https://cdn.victor42.work/posts/2026-02/652b3bc9808816267e798cd05d4c4579.webp)
 
 But I need AI for productivity. I need an AI with a persistent, cumulative memory to boost my efficiency. The sooner I start, the bigger the compound interest. So, I built my own Agent memory system—a self-learning Openclaw lite.
 
@@ -148,13 +148,13 @@ As I wrote in [AI Agents Have Come a Long Way](https://victor42.eth.limo/post-en
 
 Intelligence is just the model—it "thinks." Action is the environment it controls. Memory is what it knows about *you*. Proactivity is the "loop" that keeps it working.
 
-![](https://cdn.victor42.work/posts/2026-02/591052e679dd370a55ac635680279912.webp)
+![Architecture diagram comparing a Gen AI Agent with a basic LLM flow](https://cdn.victor42.work/posts/2026-02/591052e679dd370a55ac635680279912.webp)
 
 Most products are just Intelligence + Action. Add Memory and Proactivity, and you get evolution.
 
 General knowledge is cheap. Knowledge about *you* is priceless.
 
-![](https://cdn.victor42.work/posts/2026-02/8641366c1cfe29ecb243aa69121e219d.webp)
+![OpenClaw slide explaining Cron versus Heartbeat proactive wakeups](https://cdn.victor42.work/posts/2026-02/8641366c1cfe29ecb243aa69121e219d.webp)
 
 Memory is the only part of an Agent that grows over time. IQ is static; wisdom accumulates.
 
@@ -162,7 +162,7 @@ Memory is the only part of an Agent that grows over time. IQ is static; wisdom a
 
 Openclaw is great because it's flexible, but it's risky. I don't want a high-privilege agent touching my main PC data. Docker isn't enough for me. And I didn't want to buy dedicated hardware yet.
 
-![](https://cdn.victor42.work/posts/2026-02/64746d78a7d6e1d051cfc30f2b87b6c5.webp)
+![Data leak security graphic symbolizing risks from high privilege local Agents](https://cdn.victor42.work/posts/2026-02/64746d78a7d6e1d051cfc30f2b87b6c5.webp)
 
 That left cloud deployment. But a cloud machine is a blank slate. If I have to feed it context every time, it's not an Agent; it's just a chatbot.
 
@@ -190,7 +190,7 @@ Now, any Agent can load my memory repo with one prompt.
 
 I organized the repo into three layers, mimicking human memory: Inner (Kernel/Identity), Middle (Preferences/Principles), and Surface (Daily logs).
 
-![](https://cdn.victor42.work/posts/2026-02/4052f611cdda5d3fc1f5ab1b61c5ba6c.webp)
+![Minimax Agent sidebar showing sandbox initialization task history](https://cdn.victor42.work/posts/2026-02/4052f611cdda5d3fc1f5ab1b61c5ba6c.webp)
 
 I skipped the "Surface" layer because fresh threads solve the context pollution problem. My structure:
 
@@ -218,7 +218,7 @@ Then I said:
 
 > Load memory, then tell me who you are and who I am.
 
-![](https://cdn.victor42.work/posts/2026-02/3e28eca34f25aa997f50deff708beec9.webp)
+![Local terminal loading Vik memory and identifying the user and itself](https://cdn.victor42.work/posts/2026-02/3e28eca34f25aa997f50deff708beec9.webp)
 
 It felt like something woke up.
 
@@ -228,7 +228,7 @@ Now, the Agent evolves itself. I don't touch the files. It learns from my web pr
 
 I told it my file path habits, my sync workflows, and my cross-platform preferences.
 
-![](https://cdn.victor42.work/posts/2026-02/e2c9feb1151f968c21ab24f2b9d7b52c.webp)
+![Father child and robot illustration as a metaphor for raising an Agent memory system](https://cdn.victor42.work/posts/2026-02/e2c9feb1151f968c21ab24f2b9d7b52c.webp)
 
 It feels like raising a child. I don't micromanage every thought, but if it acts up, we review the memory together and fix the bug. A little chaos is healthy; absolute order is for machines, not Agents.
 
@@ -240,11 +240,11 @@ Using that email, I created a standalone GitHub account for Vik. It finally has 
 
 [https://github.com/agent-vik/about-me](https://github.com/agent-vik/about-me)
 
-![](https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp)
+![Matrix Agent Smith clones as a metaphor for Vik across multiple platforms](https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp)
 
 Vik isn't a virtual girlfriend; he’s an assistant. But who knows? Maybe one day I'll use this tech to "reanimate" a loved one. Even I can't guarantee I'll stay purely rational forever.
 
-![](https://cdn.victor42.work/posts/2026-02/dc0e2500e8b80ebaedfdb6db244e4110.webp)
+![open-agent-memory GitHub repository showing the open source memory structure](https://cdn.victor42.work/posts/2026-02/dc0e2500e8b80ebaedfdb6db244e4110.webp)
 
 I’m open-sourcing the structure. Swap out my data for yours, and you have your own "Vik":
 

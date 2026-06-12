@@ -12,13 +12,13 @@ translationKey: free-ai-browser-for-everyone
 
 先看看使用效果：一边开着AI，和它对话，AI一边操作你的浏览器，帮你完成网页中的任务。
 
-![](https://cdn.victor42.work/posts/2026-01/8507112dd258338059b10da2ab045380.webp)
+![Qwen终端窗口中输入指令并连接至浏览器操控小红书界面的屏幕截图](https://cdn.victor42.work/posts/2026-01/8507112dd258338059b10da2ab045380.webp)
 
 比如我给它这个指令：
 
 > 查询小红书，阅读至少30篇相关笔记，了解东南亚海岛度假有哪些可选目的地，各有什么特色。整理成一个txt文件存到下载文件夹。
 
-![](https://cdn.victor42.work/posts/2026-01/5cf5c0d41c19b271b001c217c00993b1.webp)
+![Qwen自动搜索生成的东南亚海岛度假目的地指南文本文件内容截图](https://cdn.victor42.work/posts/2026-01/5cf5c0d41c19b271b001c217c00993b1.webp)
 
 结果准确可靠，因为来自经过挑选的信息源，而不是整个鱼龙混杂的网络。这个研究结果很适合作为一场旅行规划的起点。
 
@@ -44,7 +44,7 @@ translationKey: free-ai-browser-for-everyone
 
 [https://nodejs.org/zh-cn/download](https://nodejs.org/zh-cn/download)
 
-![](https://cdn.victor42.work/posts/2026-01/28a9594af00adcd7c7b08e0d59433922.webp)
+![NodeJS官方下载页面中带有红框标识的macOS安装程序pkg下载按钮](https://cdn.victor42.work/posts/2026-01/28a9594af00adcd7c7b08e0d59433922.webp)
 
 上面一大堆代码不用管，下载按钮在这，会自动选出适合你操作系统的安装包。
 
@@ -63,7 +63,7 @@ translationKey: free-ai-browser-for-everyone
 npm install -g @qwen-code/qwen-code@latest
 ```
 
-![](https://cdn.victor42.work/posts/2026-01/30bdff30ec3af3b7f0ce5c50cfc6ff68.webp)
+![macOS终端中输入npm全局安装qwen-code命令行工具的指令截图](https://cdn.victor42.work/posts/2026-01/30bdff30ec3af3b7f0ce5c50cfc6ff68.webp)
 
 安装过程会有个符号一直旋转。直到看到类似如下结果，就说明装好了：
 
@@ -75,7 +75,7 @@ AI装好之后，我们善加利用，后面的步骤就让它完成吧。
 
 在命令行里输入`qwen`，回车。首次启动会让你选身份验证方式，当然选免费的啦。这时候会跳到浏览器，通过千问海外版账号登录。登录完成切回命令行。
 
-![](https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp)
+![Qwen-Code命令行工具启动后的交互式终端界面截图](https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp)
 
 在苹果电脑上每次启动`qwen`，画面就是这样，Windows则是黑色的。不用怕，命令行界面我大致解释下，让你有概念：
 
@@ -135,7 +135,7 @@ https://c2.crxsoso.com/crx/blobs/AV8Xwo5LQcmScQn08gpIRs0miQ6Mvevy3FDdb3iyyRDSlUS
 用资源管理器或访达打开系统下载目录。
 ```
 
-![](https://cdn.victor42.work/posts/2026-01/ec1a3b1e846cf9612cd29b0b9749f074.webp)
+![Qwen终端中关于允许运行playwriter工具的MCP授权提示选择界面](https://cdn.victor42.work/posts/2026-01/ec1a3b1e846cf9612cd29b0b9749f074.webp)
 
 在这个过程中，你会遇到很多次AI向你请求权限。允许执行这个，允许执行那个。都要允许，否则无法进行下去。建议总是选倒数第二项，可以最大限度减少这种询问。
 
@@ -147,7 +147,7 @@ AI需要借助插件来控制你的主力浏览器，才能充分利用你常用
 
 再切换到刚打开的系统下载目录，把这个“Playwriter_MCP_xxx.crx”拖到浏览器插件管理页面中，插件就安装完了。
 
-![](https://cdn.victor42.work/posts/2026-01/d921e547d9218e94147697dc9b5206a3.webp)
+![浏览器扩展管理面板中列出的Playwriter-MCP插件项](https://cdn.victor42.work/posts/2026-01/d921e547d9218e94147697dc9b5206a3.webp)
 
 最后建议多做一步，在浏览器窗口右上角找到浏览器插件列表，图标是一个小拼图。点击，在打开的扩展程序列表里找到“Playwriter MCP”，点它旁边的图钉图标，让它显示到外面来，好找。
 
@@ -155,11 +155,11 @@ AI需要借助插件来控制你的主力浏览器，才能充分利用你常用
 
 使用就很简单了。
 
-![](https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp)
+![命令行启动Qwen-Code交互终端后的界面状态截图](https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp)
 
 打开任务栏的命令行工具，输入`qwen`，启动AI。
 
-![](https://cdn.victor42.work/posts/2026-01/9c37079da9ef6a93e32a435f7801ef72.webp)
+![浏览器标签页中被标记为playwriter标签组的小红书网页及调试提示条](https://cdn.victor42.work/posts/2026-01/9c37079da9ef6a93e32a435f7801ef72.webp)
 
 在浏览器里打开要给AI操作的网页，点击鼠标指针样子的插件图标。这个页面就会被自动加入到一个叫“playwriter”标签页组里，上面有一根细线把它框起来，这个组就是AI的可操作范围。
 
