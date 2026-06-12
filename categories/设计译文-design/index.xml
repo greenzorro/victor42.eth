@@ -4868,7 +4868,7 @@ alt="Contrast is based on color and size"
 &lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-large-opt.jpg" target="_blank" rel="noopener"
 &gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-preview-opt.jpg"
 loading="lazy"
-alt="Description of the image."
+alt="背景照片上直接叠加白色文字导致可读性不足的网页示例"
 &gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;文字没有蒙层，直接覆盖在图片上。(图片来源：&lt;a class="link" href="https://unsplash.com/photos/N_Y88TWmGwA" target="_blank" rel="noopener"
 &gt;Jay Wennington&lt;/a&gt;) (&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-large-opt.jpg" target="_blank" rel="noopener"
@@ -4877,7 +4877,7 @@ alt="Description of the image."
 &lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-large-opt.jpg" target="_blank" rel="noopener"
 &gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-preview-opt.jpg"
 loading="lazy"
-alt="Description of the image."
+alt="背景图添加深色蒙层后白色文字反差更清晰的网页示例"
 &gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;文字覆盖在带有蒙层的图片上。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-large-opt.jpg" target="_blank" rel="noopener"
 &gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
@@ -4909,7 +4909,7 @@ alt="Amazon color picker"
 &lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/superdry-large-opt.jpg" target="_blank" rel="noopener"
 &gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/superdry-preview-opt.jpg"
 loading="lazy"
-alt="Description of the image."
+alt="SuperDry商品页中仅用树叶纹理描述颜色的T恤图片示例"
 &gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;色盲难以了解这件SuperDry T恤是什么颜色。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/superdry-large-opt.jpg" target="_blank" rel="noopener"
 &gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
