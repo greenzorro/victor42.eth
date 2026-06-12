@@ -91,7 +91,7 @@ KT：因为你一般都和队友丢雪球丢一个下午。
 
 忘了要求证什么，某天打开了mapbox的官网。这个工具挺好的，最基础的用法，可以生成牛逼哄哄的地图。
 
-![](https://cdn.victor42.work/posts/2015-12/12-03/1.png)
+![Mapbox plans and pricing 页面中 Enterprise 档位显示 Contact Us](https://cdn.victor42.work/posts/2015-12/12-03/1.png)
 
 不过我发现似乎有什么不对。
 
@@ -109,13 +109,13 @@ KT要我推荐我两三个平面设计素材网站给他。我问他要什么类
 
 点是个球啊！
 
-![](https://cdn.victor42.work/posts/2015-12/12-03/2.png)![](https://cdn.victor42.work/posts/2015-12/12-03/3.jpg)
+![地图上用红色圆点和半透明圆圈表示一个点的设计](https://cdn.victor42.work/posts/2015-12/12-03/2.png)![卫星地图上用虚线圆环和粉色中心表示一个点的设计](https://cdn.victor42.work/posts/2015-12/12-03/3.jpg)
 
 就是点啊。
 
 给你，点的设计。
 
-![](https://cdn.victor42.work/posts/2015-12/12-03/4.png)
+![白底上多个红色小圆点构成的点的设计](https://cdn.victor42.work/posts/2015-12/12-03/4.png)
 
 ### 小熊猫
 
@@ -143,7 +143,7 @@ KT上班经常和我现场直播他们办公室的故事，主角通常是一只
 
 “你是坐在吊床上办公么，楼下什么都能听见。”
 
-![](https://cdn.victor42.work/posts/2015-12/12-03/5.png)
+![手绘办公室上下楼布局说明 KT 能听见楼下抓猫](https://cdn.victor42.work/posts/2015-12/12-03/5.png)
 
 ### KT没有女朋友之二
 

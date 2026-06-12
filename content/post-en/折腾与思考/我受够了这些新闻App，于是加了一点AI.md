@@ -61,7 +61,7 @@ The first subtask browses the news source.
 **Input: News source link**  
 **Output: Code with the news list**
 
-![](https://cdn.victor42.work/posts/2024-08/7c717fff18ada6917cc6ddb9ab5acab4.jpg)
+![Tasker task edit screen showing configuration for HTTP Request action](https://cdn.victor42.work/posts/2024-08/7c717fff18ada6917cc6ddb9ab5acab4.jpg)
 
 It uses Tasker's HTTP request. I just passed the info to the outer task. Wrapping it in a layer relates to subtask execution priority, which I'll explain later.
 
@@ -69,7 +69,7 @@ It uses Tasker's HTTP request. I just passed the info to the outer task. Wrappin
 
 RSS news feeds provide XML, not directly readable news.
 
-![](https://cdn.victor42.work/posts/2024-08/d9b55eddd9d7d7e26b86fffe3dc56a1f.jpg)
+![A screenshot of raw XML code structure from a Chinese news RSS feed](https://cdn.victor42.work/posts/2024-08/d9b55eddd9d7d7e26b86fffe3dc56a1f.jpg)
 
 RSS is standardized. Each news item is an "item," with "title," "link," and "description" tags.
 
@@ -78,14 +78,14 @@ Before parsing, I standardized the XML. Webpages sometimes use escaped character
 **Input: XML with escaped characters**  
 **Output: Standard XML**
 
-![](https://cdn.victor42.work/posts/2024-08/c117f68d572158b87dc54acd03427ad3.jpg)
+![Tasker task edit screen for replacing escaped XML entity characters](https://cdn.victor42.work/posts/2024-08/c117f68d572158b87dc54acd03427ad3.jpg)
 
 Next, parsing. This subtask extracts content from specific XML tags, separating them with `|||`.
 
 **Input: Full XML, tag to extract**  
 **Output: All content within that tag**
 
-![](https://cdn.victor42.work/posts/2024-08/97c487fda93b7ef67d871a58ebd06721.jpg)
+![Tasker task edit screen for extracting content of sibling XML tags](https://cdn.victor42.work/posts/2024-08/97c487fda93b7ef67d871a58ebd06721.jpg)
 
 I use it to find all "item" tags (the news list). The outer task passes "item" as %par2, getting all news items separated by `|||`.
 
@@ -98,7 +98,7 @@ This subtask extracts content from a page's HTML, removing menus, comments, ads,
 **Input: Full HTML, tag to extract**  
 **Output: First content within that tag**
 
-![](https://cdn.victor42.work/posts/2024-08/0f45bc228aba2af149ceeb0c69a67907.jpg)
+![Tasker task edit screen for extracting content of the first matching HTML tag](https://cdn.victor42.work/posts/2024-08/0f45bc228aba2af149ceeb0c69a67907.jpg)
 
 It's complex because of nested HTML tags. It finds the tag's end to define the content range, using string manipulation to mimic Javascript's `innerHTML`.
 
@@ -107,7 +107,7 @@ The result is still HTML, so another subtask converts it to plain text – a bui
 **Input: HTML code**  
 **Output: Text content**
 
-![](https://cdn.victor42.work/posts/2024-08/75b7ba16f35c56d3bb121026e9098eeb.jpg)
+![Reconstructed Tasker action for converting HTML formatting into plain text](https://cdn.victor42.work/posts/2024-08/75b7ba16f35c56d3bb121026e9098eeb.jpg)
 
 ### AI Classification
 
@@ -116,7 +116,7 @@ This is the core: the program's brain.
 **Input: Content for AI, AI model name**  
 **Output: AI response**
 
-![](https://cdn.victor42.work/posts/2024-08/05c6c50a2cba1cad021f550344301002.jpg)
+![Tasker task edit screen showing HTTP Post configuration for Groq API call](https://cdn.victor42.work/posts/2024-08/05c6c50a2cba1cad021f550344301002.jpg)
 
 [Groq's API](https://console.groq.com/playground) is great, offering many open-source AI models. It's simple: send text, get generated text back. The 2-second wait is due to the API's 30 calls/minute limit.
 
@@ -127,15 +127,15 @@ This subtask converts text files to audio in batches.
 **Input: Text file directory, audio output directory**  
 **Output: Batch of audio files**
 
-![](https://cdn.victor42.work/posts/2024-08/c1dabc63612d30a30e611297c14b6493.jpg)
+![Tasker task edit screen showing the workflow for bulk text to speech synthesis](https://cdn.victor42.work/posts/2024-08/c1dabc63612d30a30e611297c14b6493.jpg)
 
 It uses Tasker's "Say To File," saving text as audio. "Say To File" is just the operation; the speech synthesis engine isn't built-in.
 
-![](https://cdn.victor42.work/posts/2024-08/995e0fb18649e334014f111ea8be2b8d.jpg)
+![A screenshot of Google Speech Recognition and Synthesis app page in Play Store](https://cdn.victor42.work/posts/2024-08/995e0fb18649e334014f111ea8be2b8d.jpg)
 
 I used Google's local engine. Download the app from Google Play, and Tasker can use it.
 
-![](https://cdn.victor42.work/posts/2024-08/07e0c2612c68af093e0a4e5c942ab102.jpg)
+![A screenshot of Tasker settings window for choosing preferred text to speech engine](https://cdn.victor42.work/posts/2024-08/07e0c2612c68af093e0a4e5c942ab102.jpg)
 
 The local engine is comparable to map software's default voice. Google's is decent, better than iFlytek's, but still robotic.
 
@@ -152,19 +152,19 @@ First, we'll build the core task: downloading news from a single source, filteri
 
 I added a shortcut for the second input. If you enter `<description>`, it uses the description from the XML instead of fetching the article's detail page.  This works best with high-quality news sources, and you can set it in the parent task.
 
-![](https://cdn.victor42.work/posts/2024-08/64acc1961ddd336d05f0b9aba63739ec.jpg)
+![Reconstructed Tasker screen showing initialization of the RSS news download task](https://cdn.victor42.work/posts/2024-08/64acc1961ddd336d05f0b9aba63739ec.jpg)
 
 We fetch the full XML, clean up escaped characters, and remove some special content tags. Then, we extract the news list.
 
-![](https://cdn.victor42.work/posts/2024-08/b52349abcd5a92bb918c797c3043868a.jpg)
+![Tasker task edit screen for splitting the downloaded RSS items into arrays](https://cdn.victor42.work/posts/2024-08/b52349abcd5a92bb918c797c3043868a.jpg)
 
 The news list is split into an array. We set up the AI prompt and a maximum article length (to avoid overly long articles). Then, we loop through each news item, read and convert the title to plain text, and send it to the AI for categorization.
 
-![](https://cdn.victor42.work/posts/2024-08/ba4c7edd6576c053b69d271d37f2bd88.jpg)
+![A screenshot of setting AI parameters and prompts inside a Tasker action](https://cdn.victor42.work/posts/2024-08/ba4c7edd6576c053b69d271d37f2bd88.jpg)
 
 Here's the AI prompt. I kept it simple, just telling it what to do. Groq's Gemma2 9b model works well for Chinese text, better than Llama3. A small open-source model is perfect for this, and it hasn't made any mistakes.
 
-![](https://cdn.victor42.work/posts/2024-08/3e5a40b3c15e4e3661f026de131b45f0.jpg)
+![Tasker task edit screen for filtering news types and writing texts to storage](https://cdn.victor42.work/posts/2024-08/3e5a40b3c15e4e3661f026de131b45f0.jpg)
 
 We filter out sports, entertainment, and military news based on the AI's categorization.  Then, we get the news detail page link, fetch the full HTML, clean it up, and extract the content using the specified HTML tag.
 
@@ -178,11 +178,11 @@ Tasker's core feature, "Perform Task," runs a subtask within the current task, p
 
 It's like function calls in programming. Tasker limits you to two parameters, but you can combine multiple parameters into a string using a separator, then split them in the subtask. This allows for any number of parameters. This nesting lets you build complex logic, making "Perform Task" a key programming feature in Tasker.
 
-![](https://cdn.victor42.work/posts/2024-08/9fe1b7073ff0b94fab2859978f94ec9f.jpg)
+![A screenshot of Tasker built-in documentation about Perform Task execution priority](https://cdn.victor42.work/posts/2024-08/9fe1b7073ff0b94fab2859978f94ec9f.jpg)
 
 The "Perform Task" documentation mentions execution order. The parent task doesn't wait for a triggered subtask to finish before continuing.  Many of my subtasks fetch content or loop through page code, which takes time. If the parent task proceeds before the subtask returns a result, things break.
 
-![](https://cdn.victor42.work/posts/2024-08/1091748819015f7296ec93d7500e5475.jpg)
+![A screenshot of configuring priority expression inside Tasker Perform Task action](https://cdn.victor42.work/posts/2024-08/1091748819015f7296ec93d7500e5475.jpg)
 
 Following the documentation, I set the subtask's Priority to %priority+1 (one higher than the parent). This forces the parent task to wait.
 
@@ -190,11 +190,11 @@ Following the documentation, I set the subtask's Priority to %priority+1 (one hi
 
 That was a complex task! Now, let's use it.
 
-![](https://cdn.victor42.work/posts/2024-08/a0a90a2ca998bca90156e3cfe59040b5.jpg)
+![Tasker task edit screen showing multiple actions calling different news feeds](https://cdn.victor42.work/posts/2024-08/a0a90a2ca998bca90156e3cfe59040b5.jpg)
 
 I pass my RSS feeds and article body locations to the core task. It runs for each source.
 
-![](https://cdn.victor42.work/posts/2024-08/d6d37dbe8a8195e2d6c7674104fc533f.jpg)
+![Tasker task edit screen for launching the bulk text to speech subtask](https://cdn.victor42.work/posts/2024-08/d6d37dbe8a8195e2d6c7674104fc533f.jpg)
 
 Then, I created a separate task for batch conversion to speech, specifying the input (text news) and output (audio news) directories.
 
@@ -202,11 +202,11 @@ Then, I created a separate task for batch conversion to speech, specifying the i
 
 These are the tasks, but how do they run?  On Tasker's Profiles page, you can add triggers for your tasks.
 
-![](https://cdn.victor42.work/posts/2024-08/bf1751cc5b2863826ff82d819e8b8859.jpg)
+![Tasker profiles page showing a scheduled trigger at 4:00 AM for downloading news](https://cdn.victor42.work/posts/2024-08/bf1751cc5b2863826ff82d819e8b8859.jpg)
 
 Every day at 4 AM, save all news as text files (takes 5-10 minutes).
 
-![](https://cdn.victor42.work/posts/2024-08/e1f5ef475b315060c9a3679f7a0e0603.jpg)
+![Tasker profiles page showing a scheduled trigger at 5:00 AM for voice synthesis](https://cdn.victor42.work/posts/2024-08/e1f5ef475b315060c9a3679f7a0e0603.jpg)
 
 Every day at 5 AM, convert the text news to audio.
 
@@ -214,23 +214,23 @@ Every day at 5 AM, convert the text news to audio.
 
 When I wake up, there are two folders in the News directory.
 
-![](https://cdn.victor42.work/posts/2024-08/7add1606a97bddcc6fdee7af42f71cb1.jpg)
+![A screenshot of file manager showing text and audio subfolders inside News directory](https://cdn.victor42.work/posts/2024-08/7add1606a97bddcc6fdee7af42f71cb1.jpg)
 
 `text` contains the text versions, which I can share.
 
-![](https://cdn.victor42.work/posts/2024-08/4d00497b3a8e5554ff90aeccfe11dcbd.jpg)
+![A screenshot of file manager listing generated news text files](https://cdn.victor42.work/posts/2024-08/4d00497b3a8e5554ff90aeccfe11dcbd.jpg)
 
 `audio` contains the audio news. Some local news still gets in, but the AI is doing its job filtering out sports.
 
-![](https://cdn.victor42.work/posts/2024-08/fb2a13c2d652d15b0653f2e39be0beea.jpg)
+![A screenshot of AIMP music player menu with daily news playlist selected](https://cdn.victor42.work/posts/2024-08/fb2a13c2d652d15b0653f2e39be0beea.jpg)
 
 I created a "Daily News" playlist in my music player to read the `audio` folder.
 
-![](https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg)
+![A screenshot of AIMP music player main interface showing imported daily news audio tracks](https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg)
 
 Updating the content brings in the day's news. I still have to update it manually, but I'm working on automating that.
 
-![](https://cdn.victor42.work/posts/2024-08/0023ce1bc26cb0c58b78cab5d834c033.jpg)
+![Tasker profile configuration for auto playing news when connected to car Bluetooth](https://cdn.victor42.work/posts/2024-08/0023ce1bc26cb0c58b78cab5d834c033.jpg)
 
 Playback is automatic. My car's Bluetooth connection opens the player, and I use [AIMP player](https://play.google.com/store/search?q=AIMP&c=apps), which auto-plays on open. No interaction needed.
 

@@ -9,7 +9,7 @@ url: /post/3519
 
 **[国外设计第145期]**
 
-![](https://cdn.victor42.work/posts/2016-08/08-27/netab-hero.jpg)
+![平板设备上 Netflix 应用界面的电影剧集内容网格布局展示](https://cdn.victor42.work/posts/2016-08/08-27/netab-hero.jpg)
 
 几周前，我在旧金山的[Yelp](http://blog.invisionapp.com/inside-design-yelp/)总部参加了一场[设计师与极客们的活动](http://www.eventbrite.com/e/designers-geeks-art-vs-science-ab-test-to-inform-design-tickets-26089495383#)Anna Blaylock和Navin Iyengar两位都是[Netflix](http://blog.invisionapp.com/inside-design-netflix/)的产品设计师，他们分享了自己多年在千万级用户群中做A/B测试的经验。他们也展示了相关的产品案例，帮助与会者思考自己的设计。
 

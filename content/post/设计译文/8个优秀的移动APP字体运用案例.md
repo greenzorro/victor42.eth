@@ -31,7 +31,7 @@ Fancred, iOS
 
 Fifa, iOS, Android
 
-[![Fifa](http://designmodo.com/wp-content/uploads/2014/02/3-Fifa.jpg)](http://www.fifa.com/mobile/)
+[![Fifa官方网站的网页页面版式布局](http://designmodo.com/wp-content/uploads/2014/02/3-Fifa.jpg)](http://www.fifa.com/mobile/)
 
 Foodie Recipes, iOS
 

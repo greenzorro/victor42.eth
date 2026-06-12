@@ -46,7 +46,7 @@ The magic numbers are: 150 for close-up (touch) screens, 110 for mid-range (desk
 
 Where did these numbers come from? I reverse-engineered them by analyzing data from a wide range of devices. I noticed that for most touchscreens, if you divide their PPI by their native scale factor, the result hovers around 150. The same pattern emerged for mid-range and far-range screens, with values around 110 and 40.
 
-![](https://cdn.victor42.work/posts/2025-06/15386d1877e20780e6c1b43dbf92ab10.webp)
+![Box plot of PPI divisors across different screen viewing distances](https://cdn.victor42.work/posts/2025-06/15386d1877e20780e6c1b43dbf92ab10.webp)
 
 You've probably not seen a chart like this often. It's a box plot, and it's great for showing the distribution of data. You can't whip this up in Excel; I had to use Python to generate it.
 
@@ -107,7 +107,7 @@ Next, it was the AI's turn to do the work. Using the logic and context above, I 
 
 And what do you know, it nailed it on the first try!
 
-![](https://cdn.victor42.work/posts/2025-06/Xnip2025-06-11_10-40-02.webp)
+![UI Canvas Size Calculator web app showing input fields and canvas results](https://cdn.victor42.work/posts/2025-06/Xnip2025-06-11_10-40-02.webp)
 
 Well, almost. It ignored my request for vanilla JS and went with a full-blown Next.js, TypeScript, and Tailwind CSS stack. As a front-end dinosaur who started in the IE6 days, that stack was a bit intimidating.
 
