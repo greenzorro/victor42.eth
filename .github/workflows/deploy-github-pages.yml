@@ -137,6 +137,7 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           cname: blog.victor42.work
+          force_orphan: true      # 每次部署只保留最新快照，不累积发布历史
 
       # 步骤9: 添加PR评论 (仅PR时)
       - name: Comment PR with Build Status
