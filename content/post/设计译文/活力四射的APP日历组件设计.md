@@ -9,7 +9,7 @@ url: /post/2989
 
 **[国外设计第22期]**
 
-[![活力四射的APP日历组件设计：关于日历不仅仅是很多应用的视觉展示图](http://designmodo.com/wp-content/uploads/2013/11/Date-Select-wip-by-Michael-Sambora.jpg)](http://dribbble.com/shots/1166908-Date-Select-wip)
+[![活力四射的APP日历组件设计：暗黑主题日程安排App，包含“What is there to do?”文本输入框与带蓝色高亮时间的滑块日期选择组件](http://designmodo.com/wp-content/uploads/2013/11/Date-Select-wip-by-Michael-Sambora.jpg)](http://dribbble.com/shots/1166908-Date-Select-wip)
 
 日历不仅仅是很多应用的一部分，也可作为占据主屏的独立组件。有一连串APP以精心绘制的历程表著称。尽管日历只是一个小小的单向功能，却起着处理日常事务的重大作用。
 
@@ -21,23 +21,23 @@ url: /post/2989
 
 Crab的日历设计外观干净整洁。设计师同时利用了扁平与拟物风格，增加了几分多样性、层次感，当然也有写实主义。
 
-[![活力四射的APP日历组件设计：关于的移动设计这位设计师的视觉展示图](http://designmodo.com/wp-content/uploads/2013/11/Calendar-by-crab.jpg)](http://dribbble.com/shots/1008449-Calendar)
+[![活力四射的APP日历组件设计：温暖沙色调手机日程日历App界面，包含每月网格视口与下方悬浮便签样式的日记待办清单](http://designmodo.com/wp-content/uploads/2013/11/Calendar-by-crab.jpg)](http://dribbble.com/shots/1008449-Calendar)
 
 Kenny Sing的移动APP Slider设计。这位设计师也诉诸于三维效果，适当的阴影和光照使得底部看起来非常写实。木纹的标题栏、精细抛光的背景，是这个创意的有力支撑。
 
-[![活力四射的APP日历组件设计：关于的预约日历着重强调了的视觉展示图](http://designmodo.com/wp-content/uploads/2013/11/Mobile-App-Slider-by-Kenny-Sing.jpg)](http://dribbble.com/shots/898881-Mobile-App-Slider)
+[![活力四射的APP日历组件设计：葡萄庄园主题活动日程App UI，展示带有活动图标（如酒杯、箱子）的弹出式日历卡片设计](http://designmodo.com/wp-content/uploads/2013/11/Mobile-App-Slider-by-Kenny-Sing.jpg)](http://dribbble.com/shots/898881-Mobile-App-Slider)
 
 Ethan Leon的预约日历：Month着重强调了扁平化风格，促进了设计元素的整体统一。这个APP一行行地展示数据，每行都被独特鲜活的颜色点亮。这些颜色用来给不同事件标注提醒。
 
-[![活力四射的APP日历组件设计：关于依据风格设计的日历组的视觉展示图](http://designmodo.com/wp-content/uploads/2013/11/Booking-Calendar-Month-by-Ethan-Leon.jpg)](http://dribbble.com/shots/1219982-Booking-Calendar-Month)
+[![活力四射的APP日历组件设计：左侧黑色工具栏与右侧白色日历面板拼接的预订App，以彩色长条滑块展示各天的任务排程](http://designmodo.com/wp-content/uploads/2013/11/Booking-Calendar-Month-by-Ethan-Leon.jpg)](http://dribbble.com/shots/1219982-Booking-Calendar-Month)
 
 Handsome依据iOS7风格设计的Date &amp; Time Picker。日历组件看上去绝对梦幻、精致和优雅。最先映入眼帘的，是深色模糊背景、整洁的非正式字体和雪白常规图标，它们之间形成了恰到好处的平衡和强烈的对比。
 
-[![活力四射的APP日历组件设计：关于的日历设计黑白红打造的视觉展示图](http://designmodo.com/wp-content/uploads/2013/11/iOS7-Inspired-Date-Time-Picker-by-Handsome.jpg)](http://dribbble.com/shots/1128968-iOS7-Inspired-Date-Time-Picker)
+[![活力四射的APP日历组件设计：多色渐变毛玻璃背景的iOS 7风格日期时间选择器UI，包含每月格栅和底部的滑块时间微调条](http://designmodo.com/wp-content/uploads/2013/11/iOS7-Inspired-Date-Time-Picker-by-Handsome.jpg)](http://dribbble.com/shots/1128968-iOS7-Inspired-Date-Time-Picker)
 
 Marcos Paulo Pagano的日历设计。黑白红打造了一种有力度的组合，设计师以扁平风格将三者混合效果更甚。因而这个日历拥有了讨喜的商业化外观，传达了强烈的情感。
 
-[![活力四射的APP日历组件设计：关于设计的日程规划特点是的视觉展示图](http://designmodo.com/wp-content/uploads/2013/11/Calendar-by-Marcos-Paulo-Pagano.jpg)](http://dribbble.com/shots/1210281-Calendar)
+[![活力四射的APP日历组件设计：白框iPhone上运行的极简红黑配色日程日历App，日期21以醒目的红色圆圈高亮表示](http://designmodo.com/wp-content/uploads/2013/11/Calendar-by-Marcos-Paulo-Pagano.jpg)](http://dribbble.com/shots/1210281-Calendar)
 
 Chris Rowe设计的日程规划APP特点是其端庄的葡萄酒色主题，界面独特令人难忘。巨大的图标和小字体，配上柔和的绿色和红色，完美地吻合主题风格。
 
