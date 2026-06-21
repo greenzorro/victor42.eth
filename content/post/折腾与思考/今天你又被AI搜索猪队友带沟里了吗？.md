@@ -81,7 +81,7 @@ which country does Windsurf IDE come from?
 
 于是想到一个粗略评估 AI 搜索的思路，把 AI 能力和搜索能力拆开，分出 4 象限：
 
-![基于推理要求与信息多寡分类的四象限图](https://cdn.victor42.work/posts/2025-02/f80862ccfc018deba6f38d7f92109b32.jpg)
+![今天你又被AI搜索猪队友带沟里了吗？：基于推理要求与信息多寡分类的四象限图](https://cdn.victor42.work/posts/2025-02/f80862ccfc018deba6f38d7f92109b32.jpg)
 
 重新审视，发现：古眼鱼、柳传志和共享单车、临安地名这几题难度都被我低估了，我原本认为它们是 D 类，实际搜了才知道是 B 类。而上海港的问题，则是更棘手的 A 类。
 

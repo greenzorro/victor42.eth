@@ -9,7 +9,7 @@ url: /post/3550
 
 **[国外设计第170期]**
 
-![Dropbox品牌设计一分钟宣传视频主题图，展示协作与生产力新功能](https://cdn.victor42.work/posts/2017-05/05-06/1*Ew1yzSqoeONxie_YuSoyng.jpeg)
+![Dropbox宣传视频设计：Dropbox品牌设计一分钟宣传视频主题图，展示协作与生产力新功能](https://cdn.victor42.work/posts/2017-05/05-06/1*Ew1yzSqoeONxie_YuSoyng.jpeg)
 
 ## 一窥Dropbox品牌设计
 
@@ -19,7 +19,7 @@ url: /post/3550
 
 一分钟。这能有多难，对吧？本文中，我们会讲述这段视频的制作过程。
 
-![Dropbox宣传视频早期头脑风暴环节，团队围绕创意简报讨论方向](https://cdn.victor42.work/posts/2017-05/05-06/1*cu2SsdDWKiRduXklCsBfwA.jpeg)
+![Dropbox宣传视频设计：Dropbox宣传视频早期头脑风暴环节，团队围绕创意简报讨论方向](https://cdn.victor42.work/posts/2017-05/05-06/1*cu2SsdDWKiRduXklCsBfwA.jpeg)
 
 *早期头脑风暴环节*
 
@@ -43,7 +43,7 @@ url: /post/3550
 
 简报成了我们的北极星，是我们创作的共同基础。当创意方向或策略偏离正轨时，我们会回溯到简报上，让一切归位。
 
-![Dropbox宣传视频创意简报成为团队北极星，确保创作方向不偏离目标](https://cdn.victor42.work/posts/2017-05/05-06/1*L2G4XYVyvL-cttTGNtDlCg.jpeg)
+![Dropbox宣传视频设计：Dropbox宣传视频创意简报成为团队北极星，确保创作方向不偏离目标](https://cdn.victor42.work/posts/2017-05/05-06/1*L2G4XYVyvL-cttTGNtDlCg.jpeg)
 
 *创造我们的北极星*
 
@@ -55,7 +55,7 @@ url: /post/3550
 
 启动会持续了2天。这是一个每人都需要参与的工作环节。我们进行头脑风暴、在白板上涂涂画画，记录下了上百个点子，当然我们知道，最终只有少数能脱颖而出。
 
-![Dropbox与Instrument创意机构两天启动会，白板上涂画记录上百个创意点子](https://cdn.victor42.work/posts/2017-05/05-06/1*PZy86_UL3tUcxiv0ESajpQ.jpeg)
+![Dropbox宣传视频设计：Dropbox与Instrument创意机构两天启动会，白板上涂画记录上百个创意点子](https://cdn.victor42.work/posts/2017-05/05-06/1*PZy86_UL3tUcxiv0ESajpQ.jpeg)
 
 ## 持续协作
 
@@ -71,7 +71,7 @@ url: /post/3550
 - 旁边音选用
 - 粗剪片段
 
-![Dropbox宣传视频故事板回顾会议，团队每日两次碰面交换实时反馈](https://cdn.victor42.work/posts/2017-05/05-06/1*S1Y0qFhgxXafD2w0MCXF5w.jpeg)
+![Dropbox宣传视频设计：Dropbox宣传视频故事板回顾会议，团队每日两次碰面交换实时反馈](https://cdn.victor42.work/posts/2017-05/05-06/1*S1Y0qFhgxXafD2w0MCXF5w.jpeg)
 
 *回顾其中一个故事板*
 
@@ -83,7 +83,7 @@ url: /post/3550
 
 我们选了少量色彩，确保视频中的每个画面只出现这些颜色。从头到尾，你会在头像、界面和物体上见到这些颜色。
 
-![Dropbox宣传视频视觉方向探索，谨慎选用少量色彩贯穿头像界面与物体](https://cdn.victor42.work/posts/2017-05/05-06/1*7vaSd7jSOCkmH_SgItnpsQ.jpeg)
+![Dropbox宣传视频设计：Dropbox宣传视频视觉方向探索，谨慎选用少量色彩贯穿头像界面与物体](https://cdn.victor42.work/posts/2017-05/05-06/1*7vaSd7jSOCkmH_SgItnpsQ.jpeg)
 
 *视觉方向探索*
 
@@ -142,13 +142,13 @@ url: /post/3550
 
 有许多人参与进来了——大概总共50个——日程非常紧凑。幸运的是，我们可以提前准备、装配、预演，在一天内使用15个不同的镜头。
 
-![Dropbox宣传视频拍摄现场，导演Aaron Platt与团队搭建15个不同镜头场景](https://cdn.victor42.work/posts/2017-05/05-06/0*4K43trqK911WTnNo.jpg)
+![Dropbox宣传视频设计：Dropbox宣传视频拍摄现场，导演Aaron Platt与团队搭建15个不同镜头场景](https://cdn.victor42.work/posts/2017-05/05-06/0*4K43trqK911WTnNo.jpg)
 
 *和我们的导演、人员与创意机构搭建场景。有件趣事：导演是[Aaron Platt](http://www.aaronplatt.com/music-videos/)，执导过Lonely Island的MV[《On A Boat》](https://www.youtube.com/watch?v=R7yfISlGLNU)*
 
-![Dropbox宣传视频拍摄幕后花絮，真人员工演绎协作与生产力场景](https://cdn.victor42.work/posts/2017-05/05-06/1*qYvVcn5FooZ99Wcb6jcY4A.png)
+![Dropbox宣传视频设计：Dropbox宣传视频拍摄幕后花絮，真人员工演绎协作与生产力场景](https://cdn.victor42.work/posts/2017-05/05-06/1*qYvVcn5FooZ99Wcb6jcY4A.png)
 
-![Dropbox宣传视频拍摄现场布景，50人团队一天内完成封闭拍摄任务](https://cdn.victor42.work/posts/2017-05/05-06/0*hqXVqBsesp-ymvxy.jpg)
+![Dropbox宣传视频设计：Dropbox宣传视频拍摄现场布景，50人团队一天内完成封闭拍摄任务](https://cdn.victor42.work/posts/2017-05/05-06/0*hqXVqBsesp-ymvxy.jpg)
 
 ## 拍摄后
 

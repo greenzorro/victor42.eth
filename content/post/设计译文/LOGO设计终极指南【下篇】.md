@@ -37,7 +37,7 @@ LOGO设计终极指南系列：[上篇](http://victor42.eth.limo/3162.html) [中
 
 8.  试着在LOGO设计中调整字符间距、文字间距、行高，可以看到字体的融合如何增加了吸引力并突出LOGO。这就是个很棒的例子，表现了两行平行的字母如何给LOGO增添了吸引力和一丝奇妙：
 
-[![typography](http://netdna.webdesignerdepot.com/uploads/2014/01/typography.jpg "The ultimate guide to logo design photo")](http://www.behance.net/gallery/Carousel/11958907)
+[![LOGO设计终极指南【下篇】：关于客户在应该寻找什么现的视觉展示图](http://netdna.webdesignerdepot.com/uploads/2014/01/typography.jpg "The ultimate guide to logo design photo")](http://www.behance.net/gallery/Carousel/11958907)
 
 ## 客户在（应该）寻找什么
 
@@ -79,31 +79,31 @@ Abduzeedo的[Mentaway LOGO设计案例研究](http://abduzeedo.com/mentaway-logo
 
 [Graphic Springs](http://www.graphicsprings.com/)通过简单5步，让设计LOGO变得简单。他们提供相当广泛的图片库给你选择。
 
-[![Graphic Springs](http://netdna.webdesignerdepot.com/uploads/2014/01/graphicsprings.jpg "The ultimate guide to logo design photo")](http://www.graphicsprings.com/)
+[![LOGO设计终极指南【下篇】：关于是个新工具来自一家受的视觉展示图](http://netdna.webdesignerdepot.com/uploads/2014/01/graphicsprings.jpg "The ultimate guide to logo design photo")](http://www.graphicsprings.com/)
 
 [Squarespace Logo](http://www.squarespace.com/logo/)是个新工具，来自一家受欢迎的网站提供商。和此处其他多数相比，这绝对是个更现代和合理的设计工具。
 
-[![squarespace logo](http://netdna.webdesignerdepot.com/uploads/2014/01/squarespace.jpg "The ultimate guide to logo design photo")](http://www.squarespace.com/logo/)
+[![LOGO设计终极指南【下篇】：关于提供了大量图片让你包的视觉展示图](http://netdna.webdesignerdepot.com/uploads/2014/01/squarespace.jpg "The ultimate guide to logo design photo")](http://www.squarespace.com/logo/)
 
 [DesignMantic](https://www.designmantic.com/)提供了大量图片让你包含进LOGO设计。输入你公司名称，他们会生成一堆可以自定义的模版，或者将各种设计根据行业排列。
 
-[![DesignMantic](http://netdna.webdesignerdepot.com/uploads/2014/01/designmantic.jpg "The ultimate guide to logo design photo")](https://www.designmantic.com/)
+[![LOGO设计终极指南【下篇】：关于使你可以通过步创建选的视觉展示图](http://netdna.webdesignerdepot.com/uploads/2014/01/designmantic.jpg "The ultimate guide to logo design photo")](https://www.designmantic.com/)
 
 [LogoGenie](http://www.logogenie.net/logo-design)使你可以通过3步创建LOGO：选择你的行业图标，选择字体，还有效果，然后就完成了。
 
-[![LogoGenie](http://netdna.webdesignerdepot.com/uploads/2014/01/logogenie.jpg "The ultimate guide to logo design photo")](http://www.logogenie.net/logo-design)
+[![LOGO设计终极指南【下篇】：关于是个很好用的设计应用的视觉展示图](http://netdna.webdesignerdepot.com/uploads/2014/01/logogenie.jpg "The ultimate guide to logo design photo")](http://www.logogenie.net/logo-design)
 
 [Logaster](https://www.logaster.com/)是个很好用的LOGO设计应用。输入你的公司名称和类型，选择LOGO理念，编辑，然后下载最终设计。
 
-[![Logaster](http://netdna.webdesignerdepot.com/uploads/2014/01/logaster.jpg "The ultimate guide to logo design photo")](https://www.logaster.com/)
+[![LOGO设计终极指南【下篇】：关于有一大堆图片可供选择的视觉展示图](http://netdna.webdesignerdepot.com/uploads/2014/01/logaster.jpg "The ultimate guide to logo design photo")](https://www.logaster.com/)
 
 [LogoYes](http://logoyes.com/)有一大堆图片可供选择，让创作LOGO更加快速和简单。
 
-[![LogoYes](http://netdna.webdesignerdepot.com/uploads/2014/01/logoyes.jpg "The ultimate guide to logo design photo")](http://logoyes.com/)
+[![LOGO设计终极指南【下篇】：关于是个简单快速的生成器的视觉展示图](http://netdna.webdesignerdepot.com/uploads/2014/01/logoyes.jpg "The ultimate guide to logo design photo")](http://logoyes.com/)
 
 [LogoMaker](http://www.logomaker.com/)是个简单快速的LOGO生成器。你可以最多获得6张免费GIF图，或者付费购买高分辨率图片。
 
-[![LogoMaker](http://netdna.webdesignerdepot.com/uploads/2014/01/logomaker.jpg "The ultimate guide to logo design photo")](http://www.logomaker.com/)
+[![LOGO设计终极指南【下篇】：关于结论的创作对于初学者的视觉展示图](http://netdna.webdesignerdepot.com/uploads/2014/01/logomaker.jpg "The ultimate guide to logo design photo")](http://www.logomaker.com/)
 
 ## 结论
 
