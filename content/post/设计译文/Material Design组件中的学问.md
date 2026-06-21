@@ -27,13 +27,13 @@ url: /post/3399
 
 有些按钮指的南很明确，还有一些比较模糊。总而言之，这部指南是经过深思熟虑的。它有明确的细节，讲述如何使用或避免使用按钮，有助于设计师的工作。这正是整部指南的美妙之处；设计决策则交给设计师来决断。
 
-![Directions](http://designmodo.com/wp-content/uploads/2014/10/31.jpg "Lessons Learned From Analyzing Material Design Components")
+![](http://designmodo.com/wp-content/uploads/2014/10/31.jpg "Lessons Learned From Analyzing Material Design Components")
 
 ##重视经常遭到忽视的元素
 
 你设计界面的时候，会经常考虑弹出窗口或警告组件吗？Material design文档专门有一章节讲的是对话框。设计师可不会经常从这些框框入手。但是，当用到时，它们仍然是设计的一部分，需要处理。
 
-![Elements](http://designmodo.com/wp-content/uploads/2014/10/41.jpg "Lessons Learned From Analyzing Material Design Components")
+![](http://designmodo.com/wp-content/uploads/2014/10/41.jpg "Lessons Learned From Analyzing Material Design Components")
 
 关于对话框部分的指南非常详尽。他们概述了应该使用哪种按钮，还有原因。也清楚地剖析了对话框，讲得广泛且深入。
 
@@ -67,11 +67,11 @@ Material design文档中描述标签页的方式简直精彩绝伦。Material de
 
 Metarial design文档有一个章节很有趣，介绍了叫做“点心柜和吐司”的组件。这是种不常听闻的设计术语；点心柜和吐司是我们已知的设计元素。如果你阅读了上面的引述，再看看下面的图片，你就会意识到，点心柜和吐司的概念是一种简单的弹出通知。
 
-![Message](http://designmodo.com/wp-content/uploads/2014/10/7.jpg "Lessons Learned From Analyzing Material Design Components")
+![Snackbar](http://designmodo.com/wp-content/uploads/2014/10/7.jpg "Lessons Learned From Analyzing Material Design Components")
 
 不过这里的学问更大。Material design给各种弹出窗口分了类。设计语言需要这么做，于是就这么做了。点心柜与吐司和对话框很像，但有所不同；因此，他们被区分开了。Material design将它们分开，是因为需要他们承担不同的功能。创造新元素没有问题。就像material design的每一种其他元素一样，点心柜和吐司也有特定的指南——使用示例、尺寸标注和配色。
 
-![Snackbar](http://designmodo.com/wp-content/uploads/2014/10/81.jpg "Lessons Learned From Analyzing Material Design Components")
+![](http://designmodo.com/wp-content/uploads/2014/10/81.jpg "Lessons Learned From Analyzing Material Design Components")
 
 通常我们会忘记，这些元素不能用于各种不同场合或新途径。仅仅是为弹出窗口定义两种功能，如此简单的事情竟也大有作用，真是有趣。别忘了革新我们的设计，包括那些被视作过时的元素、你希望它消失却依然存在的元素。在小细节上进行创新是非常好的，因为它们对后面的设计会产生重大影响。
 
