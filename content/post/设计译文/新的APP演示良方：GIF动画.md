@@ -9,7 +9,7 @@ url: /post/3241
 
 **[国外设计第36期]**
 
-[![新的APP演示良方:GIF动画：Zite新闻阅读应用界面GIF演示动画](http://designmodo.com/wp-content/uploads/2014/03/Next-for-Zite.gif)](http://dribbble.com/shots/1451105-What-s-Next-for-Zite)
+[![Zite新闻阅读应用界面GIF演示动画](http://designmodo.com/wp-content/uploads/2014/03/Next-for-Zite.gif)](http://dribbble.com/shots/1451105-What-s-Next-for-Zite)
 
 每种事物都有回归的本能，长期以来，GIF动画在开发者当中，失去了它的统治地位，不再受欢迎，不再通用，近期它摆出了回击的姿态。尽管还是一如既往展示图像序列，但它不再像当年那些生硬的低画质视频，没有粗糙简陋的过渡效果。如今，GIF动画能够通过抢眼的效果和流畅的过渡，有效地聚集人气，给最终的动画一种柔滑精致的感观。
 
@@ -21,77 +21,77 @@ UI/UX开发者迅速估量了这种动画图片的潜力，它们虽小却非常
 
 第一件作品是Dmitriy Chuta的Chapps，你可以欣赏它整个漂亮的动画效果，一组不同职业人员的照片卡。这张GIF图片展示了一种讨人喜爱的方式，通过令人愉快的视觉表现，来在数据库中进行选择和搜索。
 
-[![新的APP演示良方:GIF动画：关于的概念设计这里我们的的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/First-shot-in-Chapps.gif)](http://dribbble.com/shots/1265487-First-shot-in-Chapps-Animation)
+[![GIF动画设计中关于“的概念设计这里我们”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/First-shot-in-Chapps.gif)](http://dribbble.com/shots/1265487-First-shot-in-Chapps-Animation)
 
 Bastien Leprince的APP概念设计，这里，我们的主要注意力，集中在地图组件内嵌的拖拽筛选功能上。所展示的所有功能界面和组件，相互间完美互动，为用户提供了一套流畅的操作流程。
 
-[![新的APP演示良方:GIF动画：关于的概念设计尽管动画只的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/App-concept.gif)](http://dribbble.com/shots/1431325-App-concept-GIF)
+[![GIF动画设计中关于“的概念设计尽管动画”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/App-concept.gif)](http://dribbble.com/shots/1431325-App-concept-GIF)
 
 George Frigo的FaceScan APP概念设计，尽管动画只持续了12秒，但它足够清晰地表达了这个APP的主要创意。对于那些想要一睹完整版的人，这位UI设计师也提供了AVI文件。
 
-[![新的APP演示良方:GIF动画：关于设计的音乐发现就如名的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/FaceScan-app-concept.gif)](http://dribbble.com/shots/1439846-FaceScan-app-concept)
+[![GIF动画设计中关于“设计的音乐发现就如名”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/FaceScan-app-concept.gif)](http://dribbble.com/shots/1439846-FaceScan-app-concept)
 
 Alexander van Ravestyn设计的WIP音乐发现APP，就如名字所暗示的，设计师想将用户的注意力引导到多媒体内容的浏览过程上来，不出所料，最终来到一个设计精美的音乐播放器界面。
 
-[![新的APP演示良方:GIF动画：关于设计的动画设计师非常的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Discover-Music-app.gif)](http://dribbble.com/shots/1433004-GIF-WIP-Discover-Music-app)
+[![GIF动画设计中关于“设计的动画设计师非常”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Discover-Music-app.gif)](http://dribbble.com/shots/1433004-GIF-WIP-Discover-Music-app)
 
 Jakub Antalík设计的Speedcam APP动画，设计师非常棒地通过动画表现他的APP。GIF漂亮地展示了speedcam的一部分，光彩夺目。
 
-[![新的APP演示良方:GIF动画：关于的这个团队展示了他们的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Speedcam-app-animation.gif)](http://dribbble.com/shots/1436337-Speedcam-app-animation)
+[![GIF动画设计中关于“的这个团队展示了他们”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Speedcam-app-animation.gif)](http://dribbble.com/shots/1436337-Speedcam-app-animation)
 
 Barthelemy Chalvet的Workflow Payment，这个团队展示了他们新APP的几张GIF。下面这张将关注点固定在支付流程上，看起来相当优雅便捷。其他GIF突出了时间轴、支付/费用、卡片和账户处理。
 
-[![新的APP演示良方:GIF动画：关于的这个团队只是展示了的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Workflow-Payment.gif)](http://dribbble.com/shots/1350930-GIF-Workflow-Payment)
+[![GIF动画设计中关于“的这个团队只是展示”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Workflow-Payment.gif)](http://dribbble.com/shots/1350930-GIF-Workflow-Payment)
 
 Barthelemy Chalvet的Dashag Tour，这个团队只是展示了一张小GIF动画，让人想起他们之前的项目。如果你想完全熟悉这个APP，可以访问他们的官方网站，里面包含了一大堆GIF动画，展示几乎所有的功能界面。
 
-[![新的APP演示良方:GIF动画：关于的动画设计这个一流的的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Dashag-Tour.gif)](http://dribbble.com/shots/1215170-GIF-Dashag-Tour)
+[![GIF动画设计中关于“的动画设计这个一流”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Dashag-Tour.gif)](http://dribbble.com/shots/1215170-GIF-Dashag-Tour)
 
 Sergey Valiukh的GIF动画设计，这个一流的界面有着令人愉快的精心处理的过渡动画，表现了在基本地图组件与主菜单间切换的简短流程。通过舒服的动画效果，一切相互衔接良好。
 
-[![新的APP演示良方:GIF动画：关于的动画这张展现了一个的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/gif_animaton.gif)](http://dribbble.com/shots/1360884-Gif-Animation)
+[![GIF动画设计中关于“的动画这张展现了一”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/gif_animaton.gif)](http://dribbble.com/shots/1360884-Gif-Animation)
 
 Devin Ruppert的Walkthrough动画，这张GIF展现了一个欢迎界面，带有多个动态图的幻灯片和登陆按钮面板。一切都活了，有效地表现了这个APP所带来的功能。
 
-[![新的APP演示良方:GIF动画：关于的交互概览这是个非常的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Walkthrough-Animation.gif)](http://dribbble.com/shots/1453070-Walkthrough-Animation)
+[![GIF动画设计中关于“的交互概览这是个非常”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Walkthrough-Animation.gif)](http://dribbble.com/shots/1453070-Walkthrough-Animation)
 
 Mihnea Zamfir的交互概览，这是个非常简短却有效的动画，初衷是描绘一个从卡片目录中添加和删除项目的简单流程。
 
-[![新的APP演示良方:GIF动画：关于设计了给队友删除和添的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Interaction-overview.gif)](http://dribbble.com/shots/1352068-Interaction-overview)
+[![GIF动画设计中关于“设计了给队友删除和添”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Interaction-overview.gif)](http://dribbble.com/shots/1352068-Interaction-overview)
 
 Tobs设计了给队友删除和添加任务的动画，这张GIF动态展现了标准的滑动技巧，有效地支撑了整个审美取向，让APP看起来更鲜活、现代和诱人。
 
-[![新的APP演示良方:GIF动画：关于的团队信息工具这个团的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Delete-task-and-assign-task.gif)](http://dribbble.com/shots/1074906-GIF-Delete-task-and-assign-task-to-your-teammate-in-action)
+[![GIF动画设计中关于“的团队信息工具这个团”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Delete-task-and-assign-task.gif)](http://dribbble.com/shots/1074906-GIF-Delete-task-and-assign-task-to-your-teammate-in-action)
 
 Jan Losert的团队信息工具，这个团队为用户提供了大量解释性资料，不仅用来展示带有描述的静态屏幕截图，还有视频和一张巨大的GIF动画，展现这个APP的真实操作过程。
 
-[![新的APP演示良方:GIF动画：Team Messages团队沟通应用的GIF操作流程演示](http://designmodo.com/wp-content/uploads/2014/03/Team-Messages.gif)](http://dribbble.com/shots/1422850-Team-Messages)
+[![Team Messages团队沟通应用的GIF操作流程演示](http://designmodo.com/wp-content/uploads/2014/03/Team-Messages.gif)](http://dribbble.com/shots/1422850-Team-Messages)
 
 Ben Dunn的菜单交互GIF，这个动画GIF被当作展示动态美感的工具，表现了菜单优雅地从左侧滑出，并列出所有必要链接的过程。
 
-[![新的APP演示良方:GIF动画：关于的添加任务效果这个有的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Menu-interaction.gif)](http://dribbble.com/shots/1419291-Menu-interaction-GIF)
+[![GIF动画设计中关于“的添加任务效果”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Menu-interaction.gif)](http://dribbble.com/shots/1419291-Menu-interaction-GIF)
 
 Ed Sansom的Poppin添加任务效果，这个APP有着讨人喜爱的圆形氛围和优雅的扁平美学取向，集各种柔滑效果于一张GIF，使它得到了恰到好处的强调
 
-[![新的APP演示良方:GIF动画：关于的第一件动画作品这张的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Adding-a-task.gif)](http://dribbble.com/shots/1455677-Poppin-Adding-a-task-GIF)
+[![GIF动画设计中关于“的第一件动画作品”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Adding-a-task.gif)](http://dribbble.com/shots/1455677-Poppin-Adding-a-task-GIF)
 
 Dennis Terrey的第一件UI动画作品，这张GIF试图示范，如何使一个基本的菜单看上去干净、时尚和细腻。
 
-[![新的APP演示良方:GIF动画：关于的新鲜事设计我希望用的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/anim-large.gif)](http://dribbble.com/shots/1448631-My-First-UI-Animation)
+[![GIF动画设计中关于“的新鲜事设计我希望用”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/anim-large.gif)](http://dribbble.com/shots/1448631-My-First-UI-Animation)
 
 Danny Spitzer-Cohn的Zite新鲜事设计，我希望用这个讨人喜爱的GIF动画来补充这篇作品集，它对高雅和传统的运用，绝对给人带来一丝愉悦的怀旧感。
 
-[![新的APP演示良方:GIF动画：关于对于那些想要尝试这种的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Next-for-Zite.gif)](http://dribbble.com/shots/1451105-What-s-Next-for-Zite)
+[![GIF动画设计中关于“对于那些想要尝试这种”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Next-for-Zite.gif)](http://dribbble.com/shots/1451105-What-s-Next-for-Zite)
 
 对于那些想要尝试这种展现方式的人，我们也准备了几样赠品——可以被轻松拆解成组件的GIF动画。
 
 ## 赠品：PixelBuddha的扁平风格预加载动画
 
-[![新的APP演示良方:GIF动画：关于预制的触摸手势动画的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/flat-preloaders.gif)](http://dribbble.com/shots/1456592-Freebie-flat-preloaders)
+[![GIF动画设计中关于“预制的触摸手势动画”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/flat-preloaders.gif)](http://dribbble.com/shots/1456592-Freebie-flat-preloaders)
 
 Areus Wade预制的触摸手势动画
 
-[![新的APP演示良方:GIF动画：关于结论就创造者和客户或的视觉展示图](http://designmodo.com/wp-content/uploads/2014/03/Precomposed-Touch-Gestures.gif)](http://dribbble.com/shots/1173787-Precomposed-Touch-Gestures)
+[![GIF动画设计中关于“结论就创造者和客户”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/03/Precomposed-Touch-Gestures.gif)](http://dribbble.com/shots/1173787-Precomposed-Touch-Gestures)
 
 ## 结论
 

@@ -13,7 +13,7 @@ url: /post/3393
 
 有更多的产品供人选择，于是也有更多的事物给设计师们带来影响。
 
-![新iPhone6与Apple watch给设计师带来的影响：关于屏幕更多样化显然作为的视觉展示图](http://designmodo.com/wp-content/uploads/2014/09/apple-sizes.jpg)
+![新iPhone6与Apple watch给设计师带来的影响设计中关于“屏幕更多样化显然作为”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/09/apple-sizes.jpg)
 
 ##屏幕更多样化
 
@@ -21,7 +21,7 @@ url: /post/3393
 
 ###屏幕尺寸
 
-![新iPhone6与Apple watch给设计师带来的影响：关于更多信息请查看聚合了的视觉展示图](http://designmodo.com/wp-content/uploads/2014/09/iphone-sizes-screen.jpg)
+![新iPhone6与Apple watch给设计师带来的影响设计中关于“更多信息请查看聚合”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/09/iphone-sizes-screen.jpg)
 
 更多信息请查看[PDF that Lemonat Studio](http://designmodo.com/wp-content/uploads/2014/09/NewiPhoneDesignGuide-Part01.pdf)，聚合了4种iPhone的详细信息。
 
@@ -41,13 +41,13 @@ url: /post/3393
 
 是的，我知道Android很早以前就开始出现大屏幕了。但是，出于某些原因，设计师们都还是偏向于iPhone。通常，客户也优先考虑iPhone app。这或许意味着，随着iPhone的尺寸如今与Android相同或相似，我们终于可以同时包含两种手机的设计了。
 
-![新iPhone6与Apple watch给设计师带来的影响：关于是个新挑战苹果推出的的视觉展示图](http://designmodo.com/wp-content/uploads/2014/09/iphone-6-vs-moto-x-vs-lg-g2-mini.jpg)
+![新iPhone6与Apple watch给设计师带来的影响设计中关于“是个新挑战苹果推出”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/09/iphone-6-vs-moto-x-vs-lg-g2-mini.jpg)
 
 ##Apple Watch是个新挑战 
 
 Apple Watch，苹果推出的新手表产品，和其他苹果设备都不一样。它是可定制的、个性化的，也很迷你。不像同样拥有小屏幕的iPod，Apple Watch可以安装app。这点很重要，因为我们将会设计那些app。Apple Watch有它的局限，比如它只是第一代，屏幕也很小。这意味着两件事。首先，我们要拥抱小屏幕，将它的局限当作一项光荣的创意挑战。或者索性避开这款手表。可穿戴设备才刚刚起步，让人难以拥抱它们，因为它还不是一个完美的设备。所以，第二个选择可能意味着Apple Watch会成为一个迷失的媒介，像iPad一样。
 
-![新iPhone6与Apple watch给设计师带来的影响：关于不过看到苹果在尝试探的视觉展示图](http://designmodo.com/wp-content/uploads/2014/09/apple-watch.jpg)
+![新iPhone6与Apple watch给设计师带来的影响设计中关于“不过看到苹果在尝试探”的视觉设计与界面展示](http://designmodo.com/wp-content/uploads/2014/09/apple-watch.jpg)
 
 不过看到苹果在尝试探索可穿戴科技，总是件好事情。不论设计圈未来会如何对待Apple Watch，有一点可以肯定，当下Apple Watch是一款热门的激动人心的设备。 
 
