@@ -17,11 +17,11 @@ url: /post/2661
 
 妙的背景。轻微半透明的部件、白色风格和淡粉色的注入，为APP增添几分暖意和女性化意味
 
-[![活力四射的状态指示器:移动APP界面的加载动画与进度条：关于的在中央绘制了一个明的视觉展示图](http://designmodo.com/wp-content/uploads/2013/07/Smart-washer-app-UI-by-Hyelim-Choi1.jpg)](http://www.behance.net/gallery/Smart-washer-app-UI/9359203)
+[![活力四射的状态指示器：智能洗衣机App控制界面，展示带有剩余时间百分比的淡粉色环形状态指示器UI设计](http://designmodo.com/wp-content/uploads/2013/07/Smart-washer-app-UI-by-Hyelim-Choi1.jpg)](http://www.behance.net/gallery/Smart-washer-app-UI/9359203)
 
 Miguel Pires 的dB-METER在中央绘制了一个明亮的仪表盘，巧妙地打破了深色硬朗背景的单调。微妙的凹槽和精准的绘制使得界面看起来非常精致
 
-[![活力四射的状态指示器:移动APP界面的加载动画与进度条：关于的充电动画设计看上去的视觉展示图](http://designmodo.com/wp-content/uploads/2013/07/dB-METER-by-Miguel-Pires.jpg)](http://www.behance.net/gallery/dB-METER/8915687)
+[![活力四射的状态指示器：分贝仪声音测量App UI设计，展示具有渐变色环形表盘刻度与发光数字的音量指示器](http://designmodo.com/wp-content/uploads/2013/07/dB-METER-by-Miguel-Pires.jpg)](http://www.behance.net/gallery/dB-METER/8915687)
 
 Corey Lui 的充电动画设计看上去优雅醒目，有着令人喜爱的现实主义感染力。用绿意盎然的动画表达充电过程，吸引了所有的注意力
 
@@ -33,19 +33,19 @@ Muhammad Farhan 的iOS7设计练习利用扁平的图形、柔和的色彩和纤
 
 Breezy 的TICKER通过明快乐观的色系创造出温暖亲切的感觉。纯白色背景和扁平元素相互协调，为APP打造干净轻快的形象。
 
-[![活力四射的状态指示器:移动APP界面的加载动画与进度条：关于的音乐使用带噪点的灰的视觉展示图](http://designmodo.com/wp-content/uploads/2013/07/TICKER-by-breezy.jpg)](http://www.behance.net/gallery/TICKER/9225263)
+[![活力四射的状态指示器：极简烹饪计时App界面设计，使用明黄色环形状态指示器与底部多色进度条指示时间](http://designmodo.com/wp-content/uploads/2013/07/TICKER-by-breezy.jpg)](http://www.behance.net/gallery/TICKER/9225263)
 
 Andrew Fuller 的音乐APP使用带噪点的灰色背景、明亮的控制按钮，橙色作为主色起强调作用，都使之区别于通常音乐播放器。精细的阴影和渐变使按钮微微凸起。
 
-[![活力四射的状态指示器:移动APP界面的加载动画与进度条：关于的概念图基于深色系设的视觉展示图](http://designmodo.com/wp-content/uploads/2013/07/Music-app-by-Andrew-Fuller.jpg)](http://www.behance.net/gallery/Music-Player-app/8255933)
+[![活力四射的状态指示器：拟物化橙白配色音乐播放器App UI，包含专辑封面、播放控制旋钮与弧形播放进度条](http://designmodo.com/wp-content/uploads/2013/07/Music-app-by-Andrew-Fuller.jpg)](http://www.behance.net/gallery/Music-Player-app/8255933)
 
 Leigh Taylor 的Lift概念图基于深色系设计，配上炫目耀眼的亮色点缀。环形进度条很优雅，使用了间断和点状的线条来表达状态。
 
-[![活力四射的状态指示器:移动APP界面的加载动画与进度条：关于的界面设计是拟物派的的视觉展示图](http://designmodo.com/wp-content/uploads/2013/07/Early-Concepts-by-Leigh-Taylor.jpg)](http://www.behance.net/gallery/Lift-Early-Concepts/7236063)
+[![活力四射的状态指示器：Lift习惯追踪App界面设计，带有一个中央金属拉丝质感向上箭头的大按钮及分段环形进度指示器](http://designmodo.com/wp-content/uploads/2013/07/Early-Concepts-by-Leigh-Taylor.jpg)](http://www.behance.net/gallery/Lift-Early-Concepts/7236063)
 
 Miguel Pires 的AudioRec界面设计是拟物派的一款清新之作。两侧设计有冷光指示器，漂亮的光点给音量旋钮增添了几分趣味。
 
-[![活力四射的状态指示器:移动APP界面的加载动画与进度条：关于的音乐播放概念图有着的视觉展示图](http://designmodo.com/wp-content/uploads/2013/07/AudioRec-UI-by-Miguel-Pires.jpg)](http://www.behance.net/gallery/AudioRec-UI/8948903)
+[![活力四射的状态指示器：拟物风格AUDIOREC录音机App UI界面，包含复古数码管时间显示、音频波形图和圆形音量旋钮](http://designmodo.com/wp-content/uploads/2013/07/AudioRec-UI-by-Miguel-Pires.jpg)](http://www.behance.net/gallery/AudioRec-UI/8948903)
 
 Maximilian 的音乐播放APP概念图有着相当扁平的风格。中央的巨大的环状进度条，同时也是唱片封面图的边框。
 
