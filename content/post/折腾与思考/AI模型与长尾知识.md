@@ -10,11 +10,11 @@ translationKey: '3643'
 
 不能过于迷信依靠AI模型自身能力解决问题。几个顶流AI水平高是高，但主要体现在语言与思维能力。它们掌握的世界知识，其实仅仅是人类文明史里极少数意义重大的知识。还有浩如烟海的长尾知识，散落在数字世界的各个角落。这些知识既难以规整成数据集，AI也无法跟上它指数级增长的生产速度。
 
-![Claude将芒果核伸出的黑色胚根误判为维管束](https://cdn.victor42.work/posts/2023-10/5e373f07e0f1d6cc445ff23440d48175.png)
+![GPT3.5将芒果黑色枝条物体误判为食用纤维](https://cdn.victor42.work/posts/2023-10/5e373f07e0f1d6cc445ff23440d48175.png)
 
-![GPT3.5将芒果黑色枝条物体误判为食用纤维](https://cdn.victor42.work/posts/2023-10/bf76e92ffc1f62a8367a991ba92892d3.png)
+![联网版Bard正确识别出芒果黑色枝条为胚根](https://cdn.victor42.work/posts/2023-10/bf76e92ffc1f62a8367a991ba92892d3.png)
 
-![联网版Bard正确识别出芒果黑色枝条为胚根](https://cdn.victor42.work/posts/2023-10/f15d29bfa9fed427105aaaeb120ba45b.png)
+![谷歌搜索中使用MaxAI插件的Claude对话页](https://cdn.victor42.work/posts/2023-10/f15d29bfa9fed427105aaaeb120ba45b.png)
 
 以这个芒果胚根的问题为例，这是典型的长尾知识。我分别测了Claude、GPT-3.5、Bard。其中由于Bard有联网能力，表现反而优于模型自身能力更强的Claude和GPT-3.5。这里的关键在于，我指定让Bard“搜索网络后回答”，它从网络中得到了正确的长尾知识。
 
@@ -22,11 +22,11 @@ translationKey: '3643'
 
 [https://chrome.google.com/webstore/detail/maxaime-use-chatgpt-ai-an/mhnlakgilnojmhinhkckjpncpbhabphi](https://chrome.google.com/webstore/detail/maxaime-use-chatgpt-ai-an/mhnlakgilnojmhinhkckjpncpbhabphi)
 
-![谷歌搜索中使用MaxAI插件的Claude对话页](https://cdn.victor42.work/posts/2023-10/950c8f6bb194b893948fdcff805155c9.png)
+![MaxAI中Claude基于联网搜索的分析回答](https://cdn.victor42.work/posts/2023-10/950c8f6bb194b893948fdcff805155c9.png)
 
-![MaxAI中Claude基于联网搜索的分析回答](https://cdn.victor42.work/posts/2023-10/b9e98c0cae51320fc9fa0592ea298956.png)
+![谷歌搜索中MaxAI插件的ChatGPT对话页面](https://cdn.victor42.work/posts/2023-10/b9e98c0cae51320fc9fa0592ea298956.png)
 
-![谷歌搜索中MaxAI插件的ChatGPT对话页面](https://cdn.victor42.work/posts/2023-10/455533792011ed2dc9098e4418a67f78.png)
+![](https://cdn.victor42.work/posts/2023-10/455533792011ed2dc9098e4418a67f78.png)
 
 ![MaxAI中ChatGPT基于联网搜索的分析回答](https://cdn.victor42.work/posts/2023-10/8af37c7c84ade486477a4f61c7c11f11.png)
 

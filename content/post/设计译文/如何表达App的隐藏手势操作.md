@@ -9,7 +9,7 @@ url: /post/3538
 
 **[国外设计第161期]**
 
-![Nick Babich](https://cdn.victor42.work/posts/2017-01/01-18/1-raN6DpE52jAdYaEc-zsu3A.png)
+![](https://cdn.victor42.work/posts/2017-01/01-18/1-raN6DpE52jAdYaEc-zsu3A.png)
 
 手势操作，是通过手指轻微移动来让用户操作应用。触屏界面提供了许多自然的手势，比如点按、滑动、双指缩放。但这些交互方式不像UI控件，通常对于用户是不可见的。除非用户事先了解手势存在，否则他们并不会尝试使用。
 

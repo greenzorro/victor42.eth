@@ -11,19 +11,19 @@ url: /post/3558
 
 我们在ustwo工作室第一次尝试HTC Vive VR头戴设备时，我们体验了[Eleven Table Tennis](http://www.elevenvr.com/)，一款乒乓球游戏，极具探索乐趣。最吸引我们的，是可以在联机模式中与其他人对战。你的对手来自全世界，随机选择，Ta只有一个面具、一副球拍和控制器。
 
-![Trying out VR gear](https://cdn.victor42.work/posts/2017-07/07-01/P1040746-640x427.jpg)
+![](https://cdn.victor42.work/posts/2017-07/07-01/P1040746-640x427.jpg)
 
 在对战中我们发现，仅仅通过这3个视觉线索，双方的配合竟然惊人地好。我们可以辨认出对手摇头，或者打了一击臭球之后的耸肩，还有比赛结束后的握手动作。带着头戴设备玩这款游戏，对手的声音听起来非常有沉浸感。我们开始思考VR中的非语言沟通的概念。两个玩家在VR中，有没有可能不借助声音，并通过最少的视觉线索来交流？手和头是不是足够表达信息，并且在VR中与其他玩家进行互动？
 
 为了验证这个假设，我们决定自己创造。我们计划要打造一种好玩的体验，玩家需要仅仅通过肢体语言来交流，解答某些谜题，或者联手挑战。我们决定以看手势猜谜为出发点，这是很自然的选择，因为人们对此非常熟悉，玩家容易理解。
 
-![First prototype; Spencer is having a blast.](https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/waving2.gif)
+![](https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/waving2.gif)
 
 ## 测试猜谜游戏
 
 利用我们先前在VR项目中积累的知识，用[Unity](https://madewith.unity.com/)和[VRTK](https://vrtoolkit.readme.io/)这类工具，我们可以迅速开展项目。几天后，我们就制作了一个粗略的原型，在一个开放空间中，两名玩家相对站立，代表玩家的只有一个脑袋和两只手。这个测试在工作室内小范围进行，其中一名玩家得到文字指示，另一名玩家需要大声说出Ta的猜测。
 
-![“Simulating](https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/shooting2.gif)
+![](https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/shooting2.gif)
 
 我们让同事来做这个测试，然后我们很快意识到，我们创造出的东西很好玩，很受欢迎。我们又花了几天时间打磨体验，把文字指示换成了一套由各种emoji表情构成的系统，玩家可以将它展示给对方。我们还创造了另一种手的造型，让玩家可以做出握拳的动作。这就使出色的体验成为可能，玩家现在可以表达出挥手或抓取物体的动作。这时，我们对于只用手和脑袋进行沟通很有信心，然后我们开始稍稍改变我们的关注点。
 
@@ -45,7 +45,7 @@ url: /post/3558
 
 我们最初设定的绘画交互方式，产生了意外的效果，使得玩家画线时必须格外小心。我们很喜欢这种效果，能让玩家更专注，更小心地绘画。在之后的交互方式迭代中，我们一直试图在易用和繁琐之间寻找一种平衡。
 
-![“Deus](https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/differentcolors.gif)
+![](https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/differentcolors.gif)
 
 在VR中分享经验、与他人协作，这是绝无仅有的一个新维度。玩家们甚至语言都不通，这个事实如此奇妙，证明了我们仅凭极少的手段就能沟通和协作。
 

@@ -37,49 +37,49 @@ url: /post/2610
 
 ### 3. 更多菜单
 
-![百度地图导航界面](https://cdn.victor42.work/posts/2013-07/07-09/8.jpg)
+![](https://cdn.victor42.work/posts/2013-07/07-09/8.jpg)
 
 高德的菜单从右侧滑出，这部分的设计和整体风格相去甚远，却也很有效地将它独立出来
 
-![Google Maps导航界面](https://cdn.victor42.work/posts/2013-07/07-09/9.jpg)
+![百度地图导航界面](https://cdn.victor42.work/posts/2013-07/07-09/9.jpg)
 
 这个界面中，百度底部菜单的渐变就显得很碍事了，菜单部分出现好几种深浅不一的灰色，有明显的杂乱感
 
-![高德地图路线规划](https://cdn.victor42.work/posts/2013-07/07-09/10.jpg)
+![Google Maps导航界面](https://cdn.victor42.work/posts/2013-07/07-09/10.jpg)
 
 谷歌的更多菜单只能通过手机的硬件menu键调出，功能较少，使用频率又低，文字列表足矣
 
 ### 4. 搜索页
 
-![百度地图路线规划](https://cdn.victor42.work/posts/2013-07/07-09/11.jpg)![Google Maps路线规划](https://cdn.victor42.work/posts/2013-07/07-09/12.jpg)
+![高德地图路线规划](https://cdn.victor42.work/posts/2013-07/07-09/11.jpg)![百度地图路线规划](https://cdn.victor42.work/posts/2013-07/07-09/12.jpg)
 
 高德的搜索页，把周边信息与历史记录一起列出来，采用白色背景的卡片式设计。这种灰色背景加白色卡片的设计，是高德重要的视觉语言
 
-![高德地图公交查询](https://cdn.victor42.work/posts/2013-07/07-09/13.jpg)![百度地图公交查询](https://cdn.victor42.work/posts/2013-07/07-09/14.jpg)
+![Google Maps路线规划](https://cdn.victor42.work/posts/2013-07/07-09/13.jpg)![高德地图公交查询](https://cdn.victor42.work/posts/2013-07/07-09/14.jpg)
 
 百度搜索界面相比就沉重一些，大片的灰色。为了给输入法腾出半个屏幕，百度把周边信息与历史记录分开成了3个tab页，左右滑动切换。值得称赞的是周边信息的图标，简单却非常具象，事物的关键特点抓得很准
 
-![Google Maps公交查询](https://cdn.victor42.work/posts/2013-07/07-09/15.jpg)
+![百度地图公交查询](https://cdn.victor42.work/posts/2013-07/07-09/15.jpg)
 
 谷歌的做法则完全不同，没有新开一个页面，而是直接显示了搜索历史列表，周边信息这里没有显示。这点很符合谷歌产品一贯的设计理念，较少的界面层级，减少分散注意力的内容
 
 接下来我们在搜索框里输入点什么
 
-![高德地图实时路况](https://cdn.victor42.work/posts/2013-07/07-09/16.jpg)![百度地图实时路况](https://cdn.victor42.work/posts/2013-07/07-09/17.jpg)
+![Google Maps公交查询](https://cdn.victor42.work/posts/2013-07/07-09/16.jpg)![高德地图实时路况](https://cdn.victor42.work/posts/2013-07/07-09/17.jpg)
 
 高德和百度相同，会在新页面显示推荐的搜索结果，高德只显示标题，百度还多显示一行地址。界面设计方面，高德用色明亮，内容少，显得更加大方。百度边框和线条使用更多，有点拥挤，重复出现的关键词都淡化了，这点值得学习
 
-![Google Maps实时路况](https://cdn.victor42.work/posts/2013-07/07-09/18.jpg)
+![百度地图实时路况](https://cdn.victor42.work/posts/2013-07/07-09/18.jpg)
 
 谷歌还是保持了界面的一致性，和刚才的界面几乎一样，没有时钟标记的项目是推荐结果，与搜索历史区分开了
 
 ### 5. 搜索结果
 
-![高德地图卫星图层](https://cdn.victor42.work/posts/2013-07/07-09/19.jpg)![百度地图卫星图层](https://cdn.victor42.work/posts/2013-07/07-09/20.jpg)
+![Google Maps实时路况](https://cdn.victor42.work/posts/2013-07/07-09/19.jpg)![高德地图卫星图层](https://cdn.victor42.work/posts/2013-07/07-09/20.jpg)
 
 高德的地点信息采用底部信息栏的方式展现，并且切换地点时，信息栏内容会有个左右滑动的效果，体验不错。地点的标记有轻微的立体感，比较Q。列表界面再次体现了卡片式设计的优势，视觉上有宽敞的感觉。按钮样式全都纯白背景，仅靠一条浅灰色边框与背景区分，识别度相应降低了，但也更加耐看，尤其在列表界面中，不会夺去文字标题的视觉焦点
 
-![Google Maps卫星图层](https://cdn.victor42.work/posts/2013-07/07-09/21.jpg)![高德地图3D建筑](https://cdn.victor42.work/posts/2013-07/07-09/22.jpg)
+![百度地图卫星图层](https://cdn.victor42.work/posts/2013-07/07-09/21.jpg)![高德地图3D建筑](https://cdn.victor42.work/posts/2013-07/07-09/22.jpg)
 
 百度由于底部有菜单栏，地点信息只能悬浮在地点上方，无论从视线移动或是点击操作上，都更加便捷，当然，也牺牲了内容的扩展性。地点标记是扁平样式，可以看到几个标叠在一起的时候，就看不出彼此界限了。界面整体颜色基调偏灰，百度在按钮的设计上，都一致采用了轻微的灰色渐变，按钮尺寸小。在列表页面中，地点图片与评分功能的加入，使得列表页的构图难度加大，通栏+分隔线的设计较为紧凑，美观度有所下降
 
