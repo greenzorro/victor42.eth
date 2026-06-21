@@ -7,7 +7,7 @@ categories: 折腾与思考-Geek
 url: /post/3610
 ---
 
-![English e-CNY infographic explaining the digital yuan wallet banks PBOC and payment platforms](https://cdn.victor42.work/posts/2022-04/e-CNY-EN.jpg)
+![e-CNY数字人民币：关于折腾与思考的视觉展示图](https://cdn.victor42.work/posts/2022-04/e-CNY-EN.jpg)
 
 _Click image to zoom in_
 
@@ -23,7 +23,7 @@ e-CNY is available in Hangzhou now. It's not another payment option, though you 
 9. There is also difference in terms of clearing. e-CNY doesn't rely on China UnionPay. It's another story.
 10. It makes no sense comparing e-CNY with Alipay. They are not at the same layer. It is the existing banking system that you should compare it with.
 
-![数字人民币中文信息图解释钱包银行央行和支付平台之间的关系](https://cdn.victor42.work/posts/2022-04/e-CNY-CN.jpg)
+![e-CNY数字人民币：数字人民币中文信息图解释钱包银行央行和支付平台之间的关系](https://cdn.victor42.work/posts/2022-04/e-CNY-CN.jpg)
 
 _点图片查看大图_
 

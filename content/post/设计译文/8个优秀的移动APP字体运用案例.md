@@ -23,36 +23,36 @@ url: /post/3147
 
 Citroen Lifestyle, iOS
 
-[![Citroen](http://designmodo.com/wp-content/uploads/2014/02/1-Citroen.jpg)](http://www.citroen.com.br/lifestyle/)
+[![8个优秀的移动APP字体运用案例：关于不能再忽视中的字体了的视觉展示图](http://designmodo.com/wp-content/uploads/2014/02/1-Citroen.jpg)](http://www.citroen.com.br/lifestyle/)
 
 Fancred, iOS
 
-[![Fancred](http://designmodo.com/wp-content/uploads/2014/02/2-Fancred.jpg)](http://fancred.com/)
+[![8个优秀的移动APP字体运用案例：关于官方网站的网页页面版的视觉展示图](http://designmodo.com/wp-content/uploads/2014/02/2-Fancred.jpg)](http://fancred.com/)
 
 Fifa, iOS, Android
 
-[![Fifa官方网站的网页页面版式布局](http://designmodo.com/wp-content/uploads/2014/02/3-Fifa.jpg)](http://www.fifa.com/mobile/)
+[![8个优秀的移动APP字体运用案例：Fifa官方网站的网页页面版式布局](http://designmodo.com/wp-content/uploads/2014/02/3-Fifa.jpg)](http://www.fifa.com/mobile/)
 
 Foodie Recipes, iOS
 
-[![Foodie](http://designmodo.com/wp-content/uploads/2014/02/4-Foodie.jpg)](http://www.foodie.com/)
+[![8个优秀的移动APP字体运用案例：关于官方网站的网页页面版的视觉展示图](http://designmodo.com/wp-content/uploads/2014/02/4-Foodie.jpg)](http://www.foodie.com/)
 
 Hotel Tonight, iOS, Android
 
-[![Hotel Tonight](http://designmodo.com/wp-content/uploads/2014/02/5-Hotel-Tonight.jpg)](http://www.hoteltonight.com/)
+[![8个优秀的移动APP字体运用案例：Hotel Tonight](http://designmodo.com/wp-content/uploads/2014/02/5-Hotel-Tonight.jpg)](http://www.hoteltonight.com/)
 
 National Geographic City Guide, iOS
 
-![National Geographic](http://designmodo.com/wp-content/uploads/2014/02/6-National-Geographic.jpg)
+![8个优秀的移动APP字体运用案例：National Geographic](http://designmodo.com/wp-content/uploads/2014/02/6-National-Geographic.jpg)
 
 Ultravisual, iOS
 
-[![Ultravisual](http://designmodo.com/wp-content/uploads/2014/02/7-Ultravisual.jpg)](http://www.ultravisual.com/)
+[![8个优秀的移动APP字体运用案例：Ultravisual](http://designmodo.com/wp-content/uploads/2014/02/7-Ultravisual.jpg)](http://www.ultravisual.com/)
 
 Willcall, iOS, Android
 
-[![Wilcall](http://designmodo.com/wp-content/uploads/2014/02/8-Wilcall.jpg)](https://www.getwillcall.com/)
+[![8个优秀的移动APP字体运用案例：关于原文链接的视觉展示图](http://designmodo.com/wp-content/uploads/2014/02/8-Wilcall.jpg)](https://www.getwillcall.com/)
 
-[![Mobile Design Trends 2014](http://designmodo.com/wp-content/uploads/2014/02/footer.jpg)](http://mobiledesigntrends.com/2014.html)
+[![8个优秀的移动APP字体运用案例：关于原文链接的视觉展示图](http://designmodo.com/wp-content/uploads/2014/02/footer.jpg)](http://mobiledesigntrends.com/2014.html)
 
 [原文链接](http://designmodo.com/typography-mobile-apps/)

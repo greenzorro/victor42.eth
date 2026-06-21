@@ -9,7 +9,7 @@ url: /post/3415
 
 **[国外设计第69期]**
 
-![blogtest](http://blog.invisionapp.com/wp-content/uploads/2014/12/blogtest.gif)
+![打造超棒GIF动画的7个秘诀：关于在可不是消磨时间的玩的视觉展示图](http://blog.invisionapp.com/wp-content/uploads/2014/12/blogtest.gif)
 
 在InVision，[GIF可不是消磨时间的玩意](https://twitter.com/intent/tweet?text=%22GIFs+aren%27t+just+for+goofing+around%22+http%3A%2F%2Fbit.ly%2F1vEneI7+via+%40invisionapp)——它们在市场和教育方面扮演着强有力的角色。更有甚者，我们在[首页](http://invisionapp.com/tour)上用的就是GIF，而不是基于代码的炫酷动画。
 
@@ -23,7 +23,7 @@ url: /post/3415
 
 将动画导出成视频文件后，我通过**文件>导入>视频帧作为图层**将它导入到Photoshop里。
 
-![gif-post_0000_Layer Comp 1](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0000_Layer-Comp-1.jpg)
+![打造超棒GIF动画的7个秘诀：关于高级技巧如果或超出你的视觉展示图](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0000_Layer-Comp-1.jpg)
 
 > **高级技巧：** 如果ScreenFlow或After Effects超出你的预算，可以在Keynote里创作你的动画，然后导出成视频。是的，最后有这个选项。
 
@@ -35,9 +35,9 @@ url: /post/3415
 
 像ScreenFlow和After Effects这样的软件，能输出带有运动模糊效果的视频。这不仅使你的动画看起来更专业，而且为了压缩文件尺寸，要从Photoshop中的GIF里删掉一些帧，还能帮你蒙混过关。
 
-![no-motion-example](http://blog.invisionapp.com/wp-content/uploads/2014/12/no-motion-example.gif)
+![打造超棒GIF动画的7个秘诀：关于懒某种程度来说的视觉展示图](http://blog.invisionapp.com/wp-content/uploads/2014/12/no-motion-example.gif)
 
-![motion-example](http://blog.invisionapp.com/wp-content/uploads/2014/12/motion-example.gif)
+![打造超棒GIF动画的7个秘诀：关于懒某种程度来说想像一的视觉展示图](http://blog.invisionapp.com/wp-content/uploads/2014/12/motion-example.gif)
 
 ###4. 懒（某种程度来说）
 
@@ -51,11 +51,11 @@ url: /post/3415
 
 你的动画很可能在某处会暂时停止。仔细观察，你会发现这些片段包含了一大堆重复的帧，每个0.03秒。如果有10个重复帧，删掉9个，把剩下的那个时间设长一些，比如说1秒。
 
-![gif-post_0004_Layer-Comp-5](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0004_Layer-Comp-5.png)
+![打造超棒GIF动画的7个秘诀：关于如果这没用尝试重新导的视觉展示图](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0004_Layer-Comp-5.png)
 
 如果这没用，尝试重新导入视频，但这次要选**间隔帧**。它会显著缩减文件大小。
 
-![gif-post_0003_Layer Comp 4](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0003_Layer-Comp-4.jpg)
+![打造超棒GIF动画的7个秘诀：关于高级技巧这不是一条铁的视觉展示图](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0003_Layer-Comp-4.jpg)
 
 > **高级技巧：** 这不是一条铁律，但如果你的GIF有超过150帧，你就得花好一阵子来削减文件大小。
 
@@ -63,13 +63,13 @@ url: /post/3415
 
 在Photoshop中保存GIF时，右边能看到一个下拉菜单写着“颜色”。随便调调。只要GIF不会变成一团糟，设得越低越好。
 
-![gif-post_0002_Layer Comp 3](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0002_Layer-Comp-3.jpg)
+![打造超棒GIF动画的7个秘诀：关于调整失真率老实说我甚的视觉展示图](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0002_Layer-Comp-3.jpg)
 
 ###7. 调整失真率
 
 老实说，我甚至不知道失真率是什么意思。但我**的确**知道，如果你把它设置成1和10之间的某个数，就能在不降低画质的情况下剔除很多kb。
 
-![gif-post_0001_Layer Comp 2](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0001_Layer-Comp-2.jpg)
+![打造超棒GIF动画的7个秘诀：关于喂这就是失真率意思这的视觉展示图](http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0001_Layer-Comp-2.jpg)
 
 (喂Andy, [这就是失真率意思](http://www.pcmag.com/encyclopedia/term/46335/lossy-compression)——Ed)
 
@@ -81,7 +81,7 @@ url: /post/3415
 
 **挑毛病：**[下载视频文件](http://blog.invisionapp.com/wp-content/uploads/2014/12/invision-gif-source-file.zip)，本文的GIF就是用这个做的！（需要ScreenFlow 5以上打开）
 
-[![InVision GIF制作教程视频封面，紫红色背景上的灯泡图标与HOW WE MAKE GIFS文字](http://embed.wistia.com/deliveries/9c0799063bec8f798c3e87b2651582610d67fba6.jpg?image_crop_resized=640x360)](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
+[![打造超棒GIF动画的7个秘诀：InVision GIF制作教程视频封面，紫红色背景上的灯泡图标与HOW WE MAKE GIFS文字](http://embed.wistia.com/deliveries/9c0799063bec8f798c3e87b2651582610d67fba6.jpg?image_crop_resized=640x360)](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
 
 译者注：上图是一段视频，建议前往[原文页面](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)查看
 

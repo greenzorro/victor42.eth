@@ -15,21 +15,21 @@ translationKey: barriers-to-ai-adoption-in-companies
 
 怎么讲？看图：
 
-![示意图展示公司所需的所有能力范围与个人较小能力范围的对比](https://cdn.victor42.work/posts/2025-06/ca711ac73960759e026185b379056574.webp)
+![企业里AI为什么用不起来？：示意图展示公司所需的所有能力范围与个人较小能力范围的对比](https://cdn.victor42.work/posts/2025-06/ca711ac73960759e026185b379056574.webp)
 
 假设这是你的能力范围，而整个白色区域，是经营你们这家公司需要的所有能力。
 
-![示意图展示在引入AI辅助后除个人核心专业领域外其余部分被灰色覆盖的能力变化](https://cdn.victor42.work/posts/2025-06/19ada012dc898e3ac9126beaad49fac7.webp)
+![企业里AI为什么用不起来？：示意图展示在引入AI辅助后除个人核心专业领域外其余部分被灰色覆盖的能力变化](https://cdn.victor42.work/posts/2025-06/19ada012dc898e3ac9126beaad49fac7.webp)
 
 你获得了AI帮助之后，在所有领域都能比彻头彻尾的门外汉好点，但在你专业领域，AI还得靠边。
 
-![示意图展示同事在不同专业领域的能力覆盖范围](https://cdn.victor42.work/posts/2025-06/5b14439e39a31c5ab15bcf1335571cdf.webp)
+![企业里AI为什么用不起来？：示意图展示同事在不同专业领域的能力覆盖范围](https://cdn.victor42.work/posts/2025-06/5b14439e39a31c5ab15bcf1335571cdf.webp)
 
 这是你同事的能力范围，他跟你不是一个工种，但覆盖范围差不多大。
 
 一家公司是由各领域的专业人士构成的，大家各司其职，把公司所需的能力范围给覆盖满。
 
-![示意图展示公司里各领域专业人员的混合能力几乎完全覆盖了公司所需能力](https://cdn.victor42.work/posts/2025-06/661a2d07265bb07ad2781949f5dfa04a.webp)
+![企业里AI为什么用不起来？：示意图展示公司里各领域专业人员的混合能力几乎完全覆盖了公司所需能力](https://cdn.victor42.work/posts/2025-06/661a2d07265bb07ad2781949f5dfa04a.webp)
 
 你看，还剩多少地方让AI下脚？
 

@@ -17,7 +17,7 @@ url: /post/2860
 
 ## 设计师的职责
 
-![A Designer](http://designmodo.com/wp-content/uploads/2013/10/adaptable.jpg)
+![设计师VS开发者：关于首先我们来站在每个职的视觉展示图](http://designmodo.com/wp-content/uploads/2013/10/adaptable.jpg)
 
 首先，我们来站在每个职业各自的角度审视这个问题
 
@@ -31,7 +31,7 @@ url: /post/2860
 
 ## 开发者的职责
 
-![A Developer](http://designmodo.com/wp-content/uploads/2013/10/adaptable-dev.jpg)
+![设计师VS开发者：关于开发者的职责可以在某的视觉展示图](http://designmodo.com/wp-content/uploads/2013/10/adaptable-dev.jpg)
 
 开发者的职责可以在某些方面和设计师相似，也可以完全不同
 
@@ -51,7 +51,7 @@ url: /post/2860
 
 ## 两者协作
 
-![Working Together ](http://designmodo.com/wp-content/uploads/2013/10/designervdeveloper.jpg)
+![设计师VS开发者：关于关于设计与开发最困难的视觉展示图](http://designmodo.com/wp-content/uploads/2013/10/designervdeveloper.jpg)
 
 关于设计与开发最困难的一件事，是两者协作并找到一种大家都理解的沟通方式。双方都有太多的术语，若不斟酌词句，协作就难以进行
 
