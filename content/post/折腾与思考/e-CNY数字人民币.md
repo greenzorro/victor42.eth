@@ -7,7 +7,7 @@ categories: 折腾与思考-Geek
 url: /post/3610
 ---
 
-![e-CNY数字人民币：关于折腾与思考的视觉展示图](https://cdn.victor42.work/posts/2022-04/e-CNY-EN.jpg)
+![e-CNY数字人民币：英文版数字人民币信息图表解释（e-CNY English Infographic），展示数字人民币钱包、商业银行、中国人民银行与第三方支付平台的结算体系与运作逻辑](https://cdn.victor42.work/posts/2022-04/e-CNY-EN.jpg)
 
 _Click image to zoom in_
 

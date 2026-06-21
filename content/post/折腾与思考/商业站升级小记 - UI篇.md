@@ -71,7 +71,7 @@ url: /post/1852
 
 软件界面的各种辅助元素也进行了升级设计，提示框系统随之平面化。通过不同颜色的顶部线条，来区分正确、警告、错误、进度条等场合
 
-![商业站升级小记 - UI篇的插图](https://cdn.victor42.work/posts/2012-09/09-20/11.jpg) ![商业站升级小记 - UI篇：网站错误页面](https://cdn.victor42.work/posts/2012-09/09-20/12.jpg) ![商业站升级小记 - UI篇：网站空白状态](https://cdn.victor42.work/posts/2012-09/09-20/13.jpg) ![商业站升级小记 - UI篇：网站成功提示](https://cdn.victor42.work/posts/2012-09/09-20/14.jpg)
+![商业站升级小记 - UI篇：积分商城兑换成功提示弹窗，展示精简扁平的浅灰底色与深青色按钮界面设计](https://cdn.victor42.work/posts/2012-09/09-20/11.jpg) ![商业站升级小记 - UI篇：网站错误页面](https://cdn.victor42.work/posts/2012-09/09-20/12.jpg) ![商业站升级小记 - UI篇：网站空白状态](https://cdn.victor42.work/posts/2012-09/09-20/13.jpg) ![商业站升级小记 - UI篇：网站成功提示](https://cdn.victor42.work/posts/2012-09/09-20/14.jpg)
 
 另外，站点的LOGO也全部设计了相应的配套风格。单色的LOGO比彩色更贴合一体化的设计风格
 

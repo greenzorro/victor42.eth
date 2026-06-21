@@ -26,7 +26,7 @@ translationKey: '3643'
 
 ![AI模型与长尾知识：谷歌搜索中MaxAI插件的ChatGPT对话页面](https://cdn.victor42.work/posts/2023-10/b9e98c0cae51320fc9fa0592ea298956.png)
 
-![AI模型与长尾知识的插图](https://cdn.victor42.work/posts/2023-10/455533792011ed2dc9098e4418a67f78.png)
+![AI模型与长尾知识：谷歌搜索与MaxAI助手关于“芒果核伸出黑色丝状物（芒果核发芽胚根）”长尾问题查询与AI智能回答界面截图](https://cdn.victor42.work/posts/2023-10/455533792011ed2dc9098e4418a67f78.png)
 
 ![AI模型与长尾知识：MaxAI中ChatGPT基于联网搜索的分析回答](https://cdn.victor42.work/posts/2023-10/8af37c7c84ade486477a4f61c7c11f11.png)
 
