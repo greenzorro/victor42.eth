@@ -8,8 +8,6 @@ url: /post-en/personal-memory-system-for-any-agent
 translationKey: personal-memory-system-for-any-agent
 ---
 
-A self-evolving personal AI assistant: from Openclaw to a simple GitHub Repo.
-
 This piece is for the geeks—especially those looking to roll their own. If you're just here for the story, I'll keep the logic simple.
 
 For the non-techies, I’ve included some "cheat codes" (prompts). Just paste them into an AI for context. Pros, feel free to skip:

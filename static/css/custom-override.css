@@ -101,34 +101,6 @@
     letter-spacing: 0.2px;
 }
 
-/* Article album link */
-.article-album-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 0 var(--card-padding) 24px;
-    padding: 12px 16px;
-    border-left: 3px solid var(--accent-color);
-    background: var(--card-background-selected);
-    color: var(--card-text-color-main);
-    font-size: 1.5rem;
-    line-height: 1.5;
-}
-
-.article-album-link__label {
-    color: var(--card-text-color-secondary);
-}
-
-.article-album-link a {
-    color: var(--accent-color);
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.article-album-link a:hover {
-    text-decoration: underline;
-}
-
 /* Archives page */
 .template-archives main.main > h2:first-child,
 .template-archives main.main > div.subsection-list:first-of-type {
@@ -173,13 +145,6 @@
     /* Adjust main-container padding for mobile */
     .main-container {
         padding: 15px;
-    }
-
-    .article-album-link {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 4px;
-        margin: 0 var(--card-padding) 20px;
     }
 
     /* 修复：让嵌套菜单始终显示（不受主菜单display:none影响） */
