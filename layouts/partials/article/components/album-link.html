@@ -1,0 +1,14 @@
+{{ if .Params.album }}
+    {{ $slug := .Params.translationKey }}
+    {{ if not $slug }}
+        {{ $slug = replaceRE "^.*/([^/]+)/?$" "$1" .Params.url }}
+    {{ end }}
+    {{ if $slug }}
+        <aside class="article-album-link">
+            <span class="article-album-link__label">照片相册</span>
+            <a href="https://album.victor42.work/album/{{ $slug }}/" target="_blank" rel="noopener noreferrer">
+                查看本篇相册
+            </a>
+        </aside>
+    {{ end }}
+{{ end }}
