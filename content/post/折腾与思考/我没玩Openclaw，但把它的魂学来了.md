@@ -8,8 +8,6 @@ url: /post/personal-memory-system-for-any-agent
 translationKey: personal-memory-system-for-any-agent
 ---
 
-可以自进化的个人AI助手，从Openclaw到一个简单的Github Repo。
-
 这篇确实需要一点点技术背景，尤其对于打算照着实操一遍的读者。若只是看个热闹，那我会尽量写得通俗，让你看明白来龙去脉。
 
 为了帮助完全不懂技术的朋友了解背景和概念，我会在文中穿插一些提示词，你复制问问AI就好。技术大佬们可以直接跳过：
