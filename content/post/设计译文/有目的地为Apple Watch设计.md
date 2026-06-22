@@ -19,7 +19,7 @@ url: /post/3460
 
 我意识到我从没有*真的*想要操作我的手机——只是觉得我*需要*这么做。如果[移动技术](http://blog.invisionapp.com/mobile-first-a-future-friendly-approach-to-ux-design/)能足够融入环境，我就会忘了它，那些充实我生活的时刻除外。
 
-[![有目的地为Apple Watch而设计设计中关于“举个例子有个盛行”的视觉设计与界面展示](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/nycwatch.jpg?ver=1)](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/nycwatch.jpg "Meaningful design for the Apple Watch")
+[![有目的地为Apple Watch而设计设计中关于“举个例子有](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/nycwatch.jpg?ver=1)](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/nycwatch.jpg "Meaningful design for the Apple Watch")
 
 ## 举个例子
 
@@ -39,7 +39,7 @@ url: /post/3460
 
 [开发者](http://blog.invisionapp.com/design-with-developers-in-mind/)还没有权限使用所有传感器和控制器（即将开放），其中多数人在创建第一批软件时甚至都没有一台硬件设备，所以我们不必对他们过于苛责。但如今可用的多数应用，只是把口袋里的通知中心移到了手腕上，或是创造了一个烦人的袖珍iPhone应用。这个问题，并不值得专门创建一个新的$350-$17,000的产品类别。
 
-[![有目的地为Apple Watch而设计设计中关于“摄影师在他们的人机交”的视觉设计与界面展示](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch01.jpg?ver=1)](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch01.jpg "Meaningful design for the Apple Watch")
+[![有目的地为Apple Watch而设计设计中关于“摄影师在他](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch01.jpg?ver=1)](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch01.jpg "Meaningful design for the Apple Watch")
 
 摄影师：[Kārlis Dambrāns](https://www.flickr.com/photos/janitors/)。Creative Commons [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/legalcode).
 
@@ -63,7 +63,7 @@ Apple在他们的人机交互指南中暗示了它的潜力，但他们自己也
 
 本质上说，这是移动技术更加有利的位置。
 
-[![有目的地为Apple Watch而设计设计中关于“摄影师为设计时需要牢”的视觉设计与界面展示](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/watch02.jpg?ver=1)](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/watch02.jpg "Meaningful design for the Apple Watch")
+[![有目的地为Apple Watch而设计设计中关于“摄影师为设](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/watch02.jpg?ver=1)](http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/watch02.jpg "Meaningful design for the Apple Watch")
 
 摄影师：[Shinya Suzuki](https://www.flickr.com/photos/shinyasuzuki/)。Creative Commons [Attribution-NoDerivs 2.0](https://creativecommons.org/licenses/by-nd/2.0/legalcode).
 

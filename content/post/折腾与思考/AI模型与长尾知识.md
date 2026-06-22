@@ -10,11 +10,11 @@ translationKey: '3643'
 
 不能过于迷信依靠AI模型自身能力解决问题。几个顶流AI水平高是高，但主要体现在语言与思维能力。它们掌握的世界知识，其实仅仅是人类文明史里极少数意义重大的知识。还有浩如烟海的长尾知识，散落在数字世界的各个角落。这些知识既难以规整成数据集，AI也无法跟上它指数级增长的生产速度。
 
-![GPT3.5将芒果黑色枝条物体误判为食用纤维](https://cdn.victor42.work/posts/2023-10/5e373f07e0f1d6cc445ff23440d48175.png)
+![GPT-3.5对话截图，用户提问芒果核里伸出来的黑色枝条状物体是什么，AI回答可能是果肉内部的纤维或纤维状物体，由细胞壁残留或木质化部分形成](https://cdn.victor42.work/posts/2023-10/5e373f07e0f1d6cc445ff23440d48175.png)
 
-![联网版Bard正确识别出芒果黑色枝条为胚根](https://cdn.victor42.work/posts/2023-10/bf76e92ffc1f62a8367a991ba92892d3.png)
+![Google Bard对话截图，用户提问芒果核里伸出来的黑色枝条状物体是什么并搜索网络后回答，AI正确识别为芒果胚根，列出形状/位置/功能/长度/粗细等特点](https://cdn.victor42.work/posts/2023-10/bf76e92ffc1f62a8367a991ba92892d3.png)
 
-![谷歌搜索中使用MaxAI插件的Claude对话页](https://cdn.victor42.work/posts/2023-10/f15d29bfa9fed427105aaaeb120ba45b.png)
+![Google搜索结果页右侧MaxAI.me插件面板，红框标注Claude AI图标，左侧显示百度知道和知乎关于芒果核黑色丝状物的搜索结果，右侧Sources区域列出6条来源](https://cdn.victor42.work/posts/2023-10/f15d29bfa9fed427105aaaeb120ba45b.png)
 
 以这个芒果胚根的问题为例，这是典型的长尾知识。我分别测了Claude、GPT-3.5、Bard。其中由于Bard有联网能力，表现反而优于模型自身能力更强的Claude和GPT-3.5。这里的关键在于，我指定让Bard“搜索网络后回答”，它从网络中得到了正确的长尾知识。
 
@@ -22,13 +22,13 @@ translationKey: '3643'
 
 [https://chrome.google.com/webstore/detail/maxaime-use-chatgpt-ai-an/mhnlakgilnojmhinhkckjpncpbhabphi](https://chrome.google.com/webstore/detail/maxaime-use-chatgpt-ai-an/mhnlakgilnojmhinhkckjpncpbhabphi)
 
-![MaxAI中Claude基于联网搜索的分析回答](https://cdn.victor42.work/posts/2023-10/950c8f6bb194b893948fdcff805155c9.png)
+![MaxAI插件Claude回答截图，Sources区域列出百度知道和知乎等6条来源，Answer部分总结芒果核里伸出来的黑色枝条状物体应该是芒果的胚根，分5点引用各来源](https://cdn.victor42.work/posts/2023-10/950c8f6bb194b893948fdcff805155c9.png)
 
-![谷歌搜索中MaxAI插件的ChatGPT对话页面](https://cdn.victor42.work/posts/2023-10/b9e98c0cae51320fc9fa0592ea298956.png)
+![Google搜索结果页右侧MaxAI.me插件面板，红框标注ChatGPT图标，左侧显示百度知道和知乎关于芒果核黑色丝状物的搜索结果，右侧Sources区域列出6条来源](https://cdn.victor42.work/posts/2023-10/b9e98c0cae51320fc9fa0592ea298956.png)
 
-![谷歌搜索与MaxAI助手关于“芒果核伸出黑色丝状物（芒果核发芽胚根）”长尾问题查询与AI智能回答界面截图](https://cdn.victor42.work/posts/2023-10/455533792011ed2dc9098e4418a67f78.png)
+![MaxAI插件ChatGPT回答截图，Sources区域列出百度知道和知乎等6条来源，Answer部分总结芒果核里伸出来的黑色枝条状物体是芒果的胚根，分5点引用各来源](https://cdn.victor42.work/posts/2023-10/455533792011ed2dc9098e4418a67f78.png)
 
-![MaxAI中ChatGPT基于联网搜索的分析回答](https://cdn.victor42.work/posts/2023-10/8af37c7c84ade486477a4f61c7c11f11.png)
+![MaxAI插件ChatGPT回答详细截图，Sources区域列出6条来源，Answer部分分三段说明芒果胚根是正常现象，吸收水分，但也可能表示芒果已变质](https://cdn.victor42.work/posts/2023-10/8af37c7c84ade486477a4f61c7c11f11.png)
 
 ~~它自己实现了搜索的部分，然后把搜索得来的几条结果让AI总结，现在结果大致令人满意了。只是我不太清楚这个插件挑选搜索结果的逻辑，它的准确度不如专业的搜索引擎（我在后来的几项其他测试中验证了这一点），Claude和GPT-3.5被一些无关信息干扰或误导，产生的结果仍然比不上Bard。确实，Bard在搜索能力上的优势无可比拟。~~
 
