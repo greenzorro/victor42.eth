@@ -218,7 +218,7 @@ When I wake up, there are two folders in the News directory.
 
 `text` contains the text versions, which I can share.
 
-![A screenshot of file manager listing generated news text files](https://cdn.victor42.work/posts/2024-08/4d00497b3a8e5554ff90aeccfe11dcbd.jpg)
+![A screenshot of file manager listing generated news audio files](https://cdn.victor42.work/posts/2024-08/4d00497b3a8e5554ff90aeccfe11dcbd.jpg)
 
 `audio` contains the audio news. Some local news still gets in, but the AI is doing its job filtering out sports.
 
@@ -230,7 +230,7 @@ I created a "Daily News" playlist in my music player to read the `audio` folder.
 
 Updating the content brings in the day's news. I still have to update it manually, but I'm working on automating that.
 
-![Tasker profile configuration for auto playing news when connected to car Bluetooth](https://cdn.victor42.work/posts/2024-08/0023ce1bc26cb0c58b78cab5d834c033.jpg)
+![Tasker profile configuration for playing news based on variable value and time condition](https://cdn.victor42.work/posts/2024-08/0023ce1bc26cb0c58b78cab5d834c033.jpg)
 
 Playback is automatic. My car's Bluetooth connection opens the player, and I use [AIMP player](https://play.google.com/store/search?q=AIMP&c=apps), which auto-plays on open. No interaction needed.
 
