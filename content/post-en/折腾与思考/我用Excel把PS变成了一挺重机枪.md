@@ -14,7 +14,7 @@ Bingo! 16,000 RMB? My ears perked up. I love automation. A data geek who knows P
 
 ## The Challenge
 
-![A pink-orange video cover for a product operations course](https://cdn.victor42.work/posts/2024-06/d257445c788894aad2f9c9d25333d834.jpg)
+![Pink-orange course cover template with orange rounded tag showing Product Operations at top, large text How to Create Potential Hit Products in center, smaller text New Product Development below, grid texture and geometric decorations in background](https://cdn.victor42.work/posts/2024-06/d257445c788894aad2f9c9d25333d834.jpg)
 
 This is the template the marketing designer created. No use criticizing – the boss wanted this style. Simple. The basic need was also simple: replace three text areas and generate 800+ images.
 
@@ -26,13 +26,13 @@ Yeah... that's the gist. If it were *that* easy, you could just follow the tutor
 
 But, once I saw the template, I realized it was much trickier. The variations were crazy:
 
-![A grid of ten different video covers with various color schemes and themes](https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg)
+![Grid of ten course covers with different color schemes and themes, including Product Operations/Sports Academy/Taobao New Merchant/Tmall New Merchant/Education Academy/Home Academy/FMCG Academy/Enterprise Academy/Digital Academy/Fashion Academy, each with category-colored tag at top](https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg)
 
-![A comparison of course type labels with three different color schemes](https://cdn.victor42.work/posts/2024-06/2f196e8210e1f43dae80cd978031cf36.jpg)
+![Three course category label designs stacked vertically: orange Product Operations label, orange Taobao New Merchant label, pink Tmall New Merchant label, all with rounded rectangle backgrounds](https://cdn.victor42.work/posts/2024-06/2f196e8210e1f43dae80cd978031cf36.jpg)
 
-   ![A placeholder layout comparison between two-line and single-line titles on video covers](https://cdn.victor42.work/posts/2024-06/0a0c12d573ee7d0f2958cd0baee914fc.jpg)
+   ![Title layout comparison: top Taobao New Merchant cover shows two-line title Name Max 8 Characters and Line 2 Content 1, bottom Tmall New Merchant cover shows single-line title Name Max 8 Characters 1, each with description text placeholder below](https://cdn.victor42.work/posts/2024-06/0a0c12d573ee7d0f2958cd0baee914fc.jpg)
    
-![Two bottom bar design slices showing different icons and color schemes](https://cdn.victor42.work/posts/2024-06/f60e4590c7b4551a14e93c37b5396f8d.jpg)
+![Two bottom bar design slices: top blue background with monitor icon showing Max 5 Characters, bottom pink background with folder icon showing Max 5 Characters, demonstrating different category decoration styles](https://cdn.victor42.work/posts/2024-06/f60e4590c7b4551a14e93c37b5396f8d.jpg)
 
 1.  Over a dozen course categories, some with unique backgrounds, others sharing.
 2.  The top category wasn't always text. Two (Taobao and Tmall) used logos – images.
@@ -64,7 +64,7 @@ So, what columns did we need?
 
 Obvious ones. Adding the variations, the real list was:
 
-![A spreadsheet metadata table containing variables for course covers](https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
+![Excel fact table screenshot with 12 columns: Filename/Category/Title Line 1/Title Line 2/Description/Taobao/Tmall/Single Line/Two Lines/Has Description/Background Image/Foreground Color, showing data for Rule Interpretation/Product Operations/Content Live categories](https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
 
 -   Filename: Controls the output filename, arranged logically.
 -   categories: The dozen-ish categories, shown at the top, determining the template.
@@ -79,7 +79,7 @@ Obvious ones. Adding the variations, the real list was:
 -   Background Image: Path for the background image.
 -   Foreground Color: Path for the color image, used for title text color.
 
-![A layers panel in design software showing text group and foreground layers](https://cdn.victor42.work/posts/2024-06/f0990a616f2f602bcdd42a44bb01df9e.jpg)
+![Photoshop layers panel screenshot from top to bottom: Foreground Color layer/Text Group folder containing Description/Title Line 2/Title Line 1/Title Single Line text layers/Hue-Saturation adjustment layer/Foreground Color layer](https://cdn.victor42.work/posts/2024-06/f0990a616f2f602bcdd42a44bb01df9e.jpg)
 
 Explanation: I had three title layers. One for single-line, two for two-line titles.
 
@@ -87,15 +87,15 @@ Giving this to operations would be brutal. Most could be calculated. Operations 
 
 The hard part was mine: calculating the rest, all needed for Photoshop. None could be skipped. Category was key. It determined the logos, background, text color, and filename sorting. So, I made a separate Category table, a dimension table, where each category was like a product. The image content table was the fact table, like an order. Category name was the dimension table's primary key, a foreign key in the fact table, pulling in category info. One fact table (CSV) and one dimension table – a simple star schema, or maybe "Earth-Moon schema"?
 
-![A dimensions sheet in spreadsheet mapping course categories to resources](https://cdn.victor42.work/posts/2024-06/6d4da5705eb81be2c0eee26a2cf600a7.jpg)
+![Excel dimension table screenshot with 5 columns: Category/id/Filename/Background Image/Foreground Color, listing 18 categories including Rule Interpretation/User Operations/Product Operations with corresponding template file paths](https://cdn.victor42.work/posts/2024-06/6d4da5705eb81be2c0eee26a2cf600a7.jpg)
 
 These concepts are from data modeling and databases. Simply, it's defining attributes on Category. Anything in a category would auto-read the background, color, etc., based on the name. This matched the requirements.
 
-![A consolidated sheet in spreadsheet containing course titles and keywords](https://cdn.victor42.work/posts/2024-06/a536f153f4837dc8de1937558ca0482d.jpg)
+![Excel consolidated table screenshot with 5 columns: Sequence/Category Name/Title Line 1/Title Line 2/Keywords, showing operations-entered data for Rule Interpretation/Product Operations/Content Live/Taobao New Merchant/Tmall New Merchant/Fashion Academy categories](https://cdn.victor42.work/posts/2024-06/a536f153f4837dc8de1937558ca0482d.jpg)
 
 All the operations data (4 columns) was now in my Excel. I referenced it, added the calculated columns, and formed a complete table. I updated, saved as CSV, and gave it to Photoshop.
 
-![A metadata parameter table defined in the spreadsheet for batch creation](https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
+![Excel fact table complete configuration screenshot with 12 columns showing automatically calculated cover metadata through formulas](https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg)
 
 These calculated columns tested my Excel skills:
 
@@ -113,19 +113,19 @@ But, two questions remained:
 1.  How did operations' data get into my Excel?
 2.  How do I update it?
 
-![A spreadsheet workbook containing character limit templates for various courses](https://cdn.victor42.work/posts/2024-06/800867584af30783c478924a6db86fdd.jpg)
+![Excel online collection form screenshot with 4 columns: Category Name/Title Line 1/Title Line 2/Keywords, bottom tab bar showing General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise worksheets](https://cdn.victor42.work/posts/2024-06/800867584af30783c478924a6db86fdd.jpg)
 
 First: The online spreadsheet let people work independently and update in real-time. My table was local because I needed Excel's Power Query for merging, which most online spreadsheets lack.
 
-![A folder view on macOS Finder showing cover templates and data files](https://cdn.victor42.work/posts/2024-06/521925ce776cc959e7698c66e0969042.jpg)
+![macOS Finder folder screenshot showing 8 items: Cover Template.psb/Cover Content.xlsx/Cover Content Collection.xlsx/Workbook 7.csv/Template-Background folder/Template-Foreground folder/JPG folder/PSD folder](https://cdn.victor42.work/posts/2024-06/521925ce776cc959e7698c66e0969042.jpg)
 
 For each batch, I downloaded the online spreadsheet (`Course Cover Content Collection.xlsx`) to the same directory as my table (`Course Cover Content.xlsx`). The data link would stay as long as the location didn't change.
 
-![The Get Data button highlighted in the spreadsheet Data tab](https://cdn.victor42.work/posts/2024-06/2878de8a5b1e67e4846803c6e585a9b3.jpg)
+![Excel Data menu screenshot with red box highlighting Get Data Power Query button, next to Refresh All/Queries & Connections/Properties/Workbook Links options](https://cdn.victor42.work/posts/2024-06/2878de8a5b1e67e4846803c6e585a9b3.jpg)
 
 I used Power Query from the "Data" menu. Think of it as a visual SQL. It reads data from local tables, web pages, databases, and Azure, and cleans, transforms, and aggregates it. I used its local table reading.
 
-![A Power Query editor interface with imported query data and steps](https://cdn.victor42.work/posts/2024-06/be21ed673a8ff88073305b48f847fefd.jpg)
+![Power Query editor screenshot with 10 queries listed on left: General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise/Merged, center table showing Category Name/Title Line 1/Title Line 2/Keywords data, right Query Settings showing Source/Navigation1/Changed Type/Promoted Headers steps](https://cdn.victor42.work/posts/2024-06/be21ed673a8ff88073305b48f847fefd.jpg)
 
 The Power Query interface is both familiar and strange to basic Excel users. Familiar: "Tables!" Strange: "What's all this?"
 
@@ -135,21 +135,21 @@ Understanding Power Query: It does three things:
 2.  Sets rules and conditions.
 3.  Executes and loads data, one request per sheet.
 
-![A close-up showing the query list on the left side of the data query editor](https://cdn.victor42.work/posts/2024-06/af1dc0620c1d62b971ac405eddbb55cc.jpg)
+![Power Query editor left panel screenshot showing Queries[10] title with General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise/Merged 10 query items listed below](https://cdn.victor42.work/posts/2024-06/af1dc0620c1d62b971ac405eddbb55cc.jpg)
 
 Step two is crucial. The left list is a series of requests, executed in order.
 
 Each needs "Use First Row as Headers" and removal of empty values.
 
-![The Append Queries button highlighted in the data query editor toolbar](https://cdn.victor42.work/posts/2024-06/69054b9e157cd497d0ede7fa9d85a547.jpg)
+![Power Query editor toolbar screenshot with red box highlighting Append Queries button under Combine dropdown, next to Close & Load/Get Data/Enter Data buttons](https://cdn.victor42.work/posts/2024-06/69054b9e157cd497d0ede7fa9d85a547.jpg)
 
 It's not just filtering and sorting. I used its table merging. Operations' data was scattered. I couldn't copy-paste, right? I queried each sheet, then created an append request, combining tables with the same format, like SQL's `CROSS JOIN`.
 
-![An Append window in data query editor configuring multiple tables connection](https://cdn.victor42.work/posts/2024-06/137c056d4946b2367dc3259518c0e5dd.jpg)
+![Power Query Append dialog with title Append, Three or more tables option selected, left Available Tables list showing General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise, right Tables to Append list with New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise selected](https://cdn.victor42.work/posts/2024-06/137c056d4946b2367dc3259518c0e5dd.jpg)
 
 Its merge query is also useful, like SQL's `JOIN` and `LEFT JOIN`.
 
-![The Close & Load button highlighted in the data query editor toolbar](https://cdn.victor42.work/posts/2024-06/66b4091f7dfc0ebf0448baf72b6509c0.jpg)
+![Power Query editor toolbar screenshot with red box highlighting Close & Load button in top-left Close area, next to Get Data/Enter Data/Options buttons](https://cdn.victor42.work/posts/2024-06/66b4091f7dfc0ebf0448baf72b6509c0.jpg)
 
 "Close" (actually save) made a bunch of sheets appear. I deleted unneeded ones. I added a sequence number for filename sorting.
 
@@ -157,7 +157,7 @@ All operations data was now in.
 
 Second question: updating?
 
-![The Refresh All button highlighted in the spreadsheet Data tab](https://cdn.victor42.work/posts/2024-06/e56e2966a217111a4a10f15db546dd42.jpg)
+![Excel Data menu screenshot with red box highlighting Refresh All button in Queries & Connections area, next to Get Data Power Query/Properties/Workbook Links options](https://cdn.victor42.work/posts/2024-06/e56e2966a217111a4a10f15db546dd42.jpg)
 
 New batch? Download, overwrite, open the data table, "Data" menu, "Refresh." Simple.
 
@@ -177,7 +177,7 @@ Photoshop had five steps:
 
 ### 1. Organize and Rename Layers
 
-![A detailed layers panel in Photoshop showing more variable layers](https://cdn.victor42.work/posts/2024-06/531b776b93a3a94233d9c2842edd7612.jpg)
+![Photoshop layers panel complete screenshot with 14 layers from top to bottom: Foreground Color/Text Group folder with Description/Title Line 2/Title Line 1/Title Single Line/Hue-Saturation 1/Foreground Color/Description Background-Colored/Description Background-White/Tmall New Merchant/Taobao New Merchant/Category/Background Image/Filename](https://cdn.victor42.work/posts/2024-06/531b776b93a3a94233d9c2842edd7612.jpg)
 
 Not hard. Merge, reorder. Name layers according to table headers for easier variable definition.
 
@@ -185,7 +185,7 @@ Not hard. Merge, reorder. Name layers according to table headers for easier vari
 
 "Foreground Color" needed special handling. Variables can't directly change text color. For background-based changes: group the text, create a solid color layer, and use a clipping mask. This gives unified control.
 
-![The Hue/Saturation adjustment properties panel in Photoshop](https://cdn.victor42.work/posts/2024-06/a9a688b8e6f7b88860fa0b00a4b79c1b.jpg)
+![Photoshop Hue/Saturation adjustment panel screenshot showing Custom preset, Master range selected, Hue slider at 0, Saturation slider at +100, Lightness slider at +50, with before/after color comparison bars at bottom](https://cdn.victor42.work/posts/2024-06/a9a688b8e6f7b88860fa0b00a4b79c1b.jpg)
 
 The box's line color? Related to text, but not the same. Add a Hue/Saturation layer for the lines, increasing saturation and brightness. Brown becomes orange, dark green becomes grass green... This needs color theory and Photoshop knowledge.
 
@@ -193,25 +193,25 @@ The box's line color? Related to text, but not the same. Add a Hue/Saturation la
 
 No step-by-step; the linked tutorial covers it. I'll discuss tricky points.
 
-![A variable definition window in Photoshop configuring pixel replacement](https://cdn.victor42.work/posts/2024-06/ea2af0bf27f4c74c49db871f5c2b7296.jpg)
+![Photoshop Variables dialog screenshot with Background Image layer selected, Pixel Replacement checked with name Background Image and method Consistent, bottom description text reads Specify layer variables to control visibility, replace text strings or replace pixels](https://cdn.victor42.work/posts/2024-06/ea2af0bf27f4c74c49db871f5c2b7296.jpg)
 
 Common use: "Text Replacement." Non-text layers become "Pixel Replacement" – image change. Background is replaced this way.
 
-![A folder view on macOS Finder showing ten solid color background images](https://cdn.victor42.work/posts/2024-06/5be7d1ed67cc798dc3a2925f3e07cc84.jpg)
+![10 solid color foreground image thumbnails in 2-row grid: top row 1-General/2-Taobao/2-Tmall/3-Fashion/3-Home/3-FMCG in dark brown/dark purple/dark red warm tones, bottom row 3-Enterprise/3-Digital/3-Education/3-Sports in dark blue/dark green cool tones](https://cdn.victor42.work/posts/2024-06/5be7d1ed67cc798dc3a2925f3e07cc84.jpg)
 
 Foreground color is similar. Prepare color images, define the clipping mask as a variable, select based on category.
 
-![A close-up of columns in the spreadsheet containing TRUE/FALSE visibility variables](https://cdn.victor42.work/posts/2024-06/46b0372dc8bd46ffed011eae85e6bb28.jpg)
+![Excel table screenshot showing Taobao/Tmall/Single Line/Two Lines/Has Description 5 boolean columns, all rows show FALSE for Taobao and Tmall, FALSE for Single Line, TRUE for Two Lines, alternating TRUE/FALSE for Has Description](https://cdn.victor42.work/posts/2024-06/46b0372dc8bd46ffed011eae85e6bb28.jpg)
 
 Visibility variables are useful. TRUE/FALSE control display. Can be used with text/pixel replacement. Description text: text replacement changes content, visibility controls display.
 
-![A variable definition window in Photoshop configuring visibility and text replacement for description](https://cdn.victor42.work/posts/2024-06/a740f3312e02a860493537f9e78b80c0.jpg)
+![Photoshop Variables dialog with Description layer selected, Visibility checked with name Has Description linking Description Background-Colored and Description Background-White layers, plus Text Replacement checked with name Description](https://cdn.victor42.work/posts/2024-06/a740f3312e02a860493537f9e78b80c0.jpg)
 
 These first two steps, though tedious, are one-time.
 
 ### 3. Import Data Sets
 
-![The Import button highlighted in Photoshop Variables Data Set panel](https://cdn.victor42.work/posts/2024-06/e1fbcc63e3a13d31e181c8a1f12db265.jpg)
+![Photoshop Variables dialog Data Set panel showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1, variable list showing Two Lines/Category/Foreground Color/Single Line/Tmall/Description/Filename with values and layers, red box highlighting Import button on right](https://cdn.victor42.work/posts/2024-06/e1fbcc63e3a13d31e181c8a1f12db265.jpg)
 
 Import the CSV.
 
@@ -219,11 +219,11 @@ Two common errors: extra/mismatched columns, and empty cells. Photoshop doesn't 
 
 ### 4. Batch Export PSDs
 
-![A close-up of spreadsheet cells with NULL values representing empty descriptions](https://cdn.victor42.work/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg)
+![Excel table screenshot showing Title Line 2 and Description columns, Description column has NULL values in some cells marking empty cells like Hit Product 3/Line 2 Content 3/Line 2 Content 2 rows](https://cdn.victor42.work/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg)
 
 No trick; do it like this.
 
-![The Export Data Sets as Files menu option highlighted in Photoshop](https://cdn.victor42.work/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg)
+![Photoshop File menu screenshot with Export submenu expanded, highlighting Data Sets as Files option, above Quick Export as JPG/Export As/Export Preferences options](https://cdn.victor42.work/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg)
 
 Define filename format. "Data Set Name" is useful; it's the first column, "Filename," allowing customization.
 
@@ -231,7 +231,7 @@ Define filename format. "Data Set Name" is useful; it's the first column, "Filen
 
 PSDs need conversion.
 
-![A dialog window in Photoshop configuring naming rules for exporting data sets](https://cdn.victor42.work/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg)
+![Photoshop Export Data Sets as Files dialog with folder path selected, Data Sets set to All Data Sets, filename using only Data Set Name with no suffix, name example showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1.psd](https://cdn.victor42.work/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg)
 
 Record a simple action: open, save as JPG, close. Batch process the PSD folder.
 
@@ -243,7 +243,7 @@ Done? Task complete, but not the matter. One crucial table is missing.
 
 These 800+ images (16,000 RMB) are just the first batch. More will come. Shouldn't I know the yearly savings? Even if I don't, the boss should.
 
-![A recorded action list for saving as JPG in Photoshop Action panel](https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg)
+![Photoshop Actions panel screenshot showing [A] save jpg action set with Open/Save/Close three steps, each with checkbox and play button](https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg)
 
 So, a statistics table, a "bragging table." Let's call it "Rock and Roll Table."
 

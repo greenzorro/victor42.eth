@@ -17,7 +17,7 @@ url: /post/3514
 
 这就是Pokemon Go。
 
-![国外优秀设计官方网站的网页页面版式布5](https://cdn.victor42.work/posts/2016-07/07-29/image05-1.jpg)
+![国外优秀设计官方网站的网页页面版式布5图](https://cdn.victor42.work/posts/2016-07/07-29/image05-1.jpg)
 
 口袋妖怪作为一种全国现象，大约20年前就爆发过。人们喜欢这个寻找和捕获口袋妖怪的创意，当时他们满足于用Gameboy作为平台。
 
@@ -36,7 +36,7 @@ url: /post/3514
 ### 创建个人资料
 
 ![设计案例国外优秀设计官网创建个人资料布局](https://cdn.victor42.work/posts/2016-07/07-29/image06-7.png)
-![设计案例国外优秀设计官网创建个人资料1](https://cdn.victor42.work/posts/2016-07/07-29/image01-9.png)
+![设计案例国外优秀设计官网创建个人资料1图](https://cdn.victor42.work/posts/2016-07/07-29/image01-9.png)
 
 个性化。游戏中人见人爱的部分。
 
@@ -58,7 +58,7 @@ url: /post/3514
 
 这种几率正是游戏令人兴奋的所在。它让这场口袋妖怪大师之旅保持有趣，以此使用户成瘾。我在下图中用Nir Eyal的[成瘾模型图表](http://www.slideshare.net/nireyal/hooked-model)解释了Pokemon Go的现象：
 
-![Nir Eyal成瘾模型五步法分析Pokemon Go用户行为的流程图](https://cdn.victor42.work/posts/2016-07/07-29/image00-11.png)
+![Nir Eyal成瘾模型五步法分析Pokemon Go用户行](https://cdn.victor42.work/posts/2016-07/07-29/image00-11.png)
 
 ### 社交分享
 
