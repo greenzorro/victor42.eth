@@ -17,7 +17,7 @@ url: /post/3524
 
 ## 特斯拉手机控制中心界面
 
-![特斯拉手机控制中心界面动画，远程查看车门锁状态电量与里程数据](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901649059-e108745eb23c13fe1975db25742f3b23.gif)
+![特斯拉手机控制中心界面动画，iPhone显示车门锁状态、电量91%、里程156英里和温度17度的实时数据](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901649059-e108745eb23c13fe1975db25742f3b23.gif)
 
 来源：[Matthaeus Krenn](http://matthaeuskrenn.com/) 
 
@@ -29,7 +29,7 @@ url: /post/3524
 
 ## 车载触摸操控界面
 
-![车载触摸操控界面，手指在屏幕上通过手势滑动调节温度等参数](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901652884-3be22e13f186d28582b45574addcf8bf.jpg)
+![车载触摸操控界面特写，手指在深色屏幕上通过圆形手势滑动调节23°C温度参数，青色光效环绕](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901652884-3be22e13f186d28582b45574addcf8bf.jpg)
 
 来源：[Gleb Kuznetsov for FΛNTΛSY](https://dribbble.com/glebich)
 
@@ -43,7 +43,7 @@ url: /post/3524
 
 ## 特斯拉控制面板概念设计
 
-![特斯拉控制面板概念设计动画，地图导航与多媒体控制集成在中央大屏](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901688755-59ec6fdfac83529c46f08aa5807daae4.gif)
+![特斯拉控制面板概念设计，深灰色界面集成旧金山地图导航、多媒体控制和空调温度调节功能](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901688755-59ec6fdfac83529c46f08aa5807daae4.gif)
 
 来源：[Bureau Oberhaeuser](https://dribbble.com/oberhaeuser)
 
@@ -55,7 +55,7 @@ url: /post/3524
 
 ## 远程汽车健康监测和控制
 
-![远程汽车健康监测与控制应用动画，手机显示车辆俯视图与各项系统状态](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901694980-f10c38003c97edf725eb4cb8bfacabd1.gif)
+![远程汽车健康监测应用，iPhone深色界面显示车辆俯视线框图和Engine Start、锁车等控制按钮](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901694980-f10c38003c97edf725eb4cb8bfacabd1.gif)
 
 来源：[Ramotion](https://dribbble.com/Ramotion)
 
@@ -65,7 +65,7 @@ url: /post/3524
 
 ## 胎压监测与天气界面
 
-![胎压监测与天气界面动画，实时显示四个轮胎气压数值与外部温度](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901710367-dd485fe877d5542ee2fa77af5eca4c45.gif)
+![Mercedes C63 AMG仪表盘界面，显示车内68°F温度、四个轮胎气压数值和外部38°F天气信息](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901710367-dd485fe877d5542ee2fa77af5eca4c45.gif)
 
 来源：[Ryan Duffy](https://dribbble.com/RyanDuffy_)
 
@@ -75,7 +75,7 @@ url: /post/3524
 
 ## Hudway增强现实平视显示器
 
-![Hudway增强现实平视显示器，挡风玻璃上投射车速与转向导航信息](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901726547-f1d9cee26a4143367b45131df69b9100.jpg)
+![Hudway增强现实平视显示器，挡风玻璃上投射47km/h车速和200米后右转的导航指引信息](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901726547-f1d9cee26a4143367b45131df69b9100.jpg)
 
 来源：[Hudway应用](http://www.hudwayapp.com)
 
@@ -87,7 +87,7 @@ url: /post/3524
 
 ## Car Play应用——City Guide
 
-![Car Play应用City Guide界面动画，车载屏幕展示导航音乐空调等控制图标](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901731652-cf624534d27dc66a1c2c85b43000cf63.gif)
+![Car Play应用City Guide界面，车载中控屏显示Check My Car、Traffic、Navigation等八个功能图标](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901731652-cf624534d27dc66a1c2c85b43000cf63.gif)
 
 来源：[Cleveroad](https://dribbble.com/cleveroad)
 
@@ -97,7 +97,7 @@ url: /post/3524
 
 ## 苹果Carplay
 
-![苹果CarPlay车载界面，Phone Music Maps Messages等应用图标整齐排列](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901736929-504bf686aef6728409946ec320faa424.jpg)
+![苹果CarPlay车载中控屏，显示Phone、Music、Maps、Messages、Now Playing、Podcasts、Audiobooks七个应用图标](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901736929-504bf686aef6728409946ec320faa424.jpg)
 
 来源：[Apple](http://www.apple.com/ios/carplay/)
 
@@ -107,7 +107,7 @@ url: /post/3524
 
 ## 数字仪表盘显示屏
 
-![数字仪表盘显示屏概念设计，速度表能耗音乐播放与里程信息集中展示](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901744337-05c0824807c3a09aef6cb7b275ec7705.jpg)
+![数字仪表盘概念设计，黑色宽屏显示75MPH车速、能耗304Wh/Mi、音乐播放和3300英里里程信息](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901744337-05c0824807c3a09aef6cb7b275ec7705.jpg)
 
 来源：[Mike Montgomery](https://www.toptal.com/designers/resume/mike-montgomery)
 
@@ -119,7 +119,7 @@ url: /post/3524
 
 ## 特斯拉的Apple Watch界面原型
 
-![特斯拉Apple Watch界面原型动画，手表显示电量里程与车辆锁定状态](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901751486-2240efb6a80e49438c914b38abcac62e.gif)
+![特斯拉Apple Watch界面，显示充电91%、续航156英里、Locked锁定状态和车内17度温度](https://cdn.victor42.work/posts/2016-10/10-11/toptal-blog-image-1474901751486-2240efb6a80e49438c914b38abcac62e.gif)
 
 来源：[Eleks Digital](http://digital.eleks.com/)
 

@@ -9,7 +9,7 @@ url: /post/3485
 
 **[国外设计第123期]**
 
-![让你的Logo被采纳：8步优化设计流程的插图](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-02.jpg)
+![品牌设计三要素图标：棋子代表品牌策略、带爱心的眼睛代表情感传达、靶心代表技术细节](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-02.jpg)
 
 在Dribbble上，**品牌设计师**只占少数。Dribbble社区的主导力量由界面、用户体验和动画的设计者构成。当我去年七月去波兰Gdańsk市参加第一届Dribbble Meetup时，我觉得会遇到一群类似的听众。确实，他们大多是自由职业网页设计师和跨界人士，多少都有被要求设计logo的经历。
 
@@ -33,7 +33,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 无论是个人客户还是机构，他们雇佣你时，**他们也雇佣了你的工作流程**。
 
-![我的工作流程](https://cdn.victor42.work/posts/2016-02/02-26/1.jpg)
+![Logo设计工作流程图：从创意简报、调研、草图设计、演示、反馈、修改到最终交付的完整流程，含50%定金和尾款节点](https://cdn.victor42.work/posts/2016-02/02-26/1.jpg)
 
 *我的工作流程*
 
@@ -47,7 +47,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 在设计流程的这个环节，我的主要建议是**多提问题**。不要怕问东问西，即使是话题之外的事情。首次客户会议中，我通常这样开场：“我会提出许多问题。其中一些似乎与我们项目毫无关系，或者并不是设计师需要了解的。但所有的信息都至关重要。这有助于我创作出能够传达你们身份、直击顾客情感的特征形象。”
 
-[![让你的Logo被采纳：8步优化设计流程的插图](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-02.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-02.jpg)
+[![品牌设计流程中创意简报环节的三个核心要素图标](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-02.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-02.jpg)
 
 ### 关于品牌的问题
 
@@ -66,7 +66,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 我有个简易模板，首次会议之后让客户填写，以便他们深入思考其中部分问题。（通常，这都伴随特殊的卖点——很难用一句话解释人们为何会选择你。）
 
-[![让你的Logo被采纳：8步优化设计流程的插图](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-03.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-03.jpg)
+[![品牌设计演示幻灯片集合，展示"TIMELESS LOGO"标题页、品牌定位问题和设计流程图表](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-03.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-03.jpg)
 
 如果想要进一步加深客户的参与度，可以发起一个小型的研讨会！
 
@@ -76,7 +76,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 你是否经历过在你忙项目时客户坐在身边？我就有，幸运的是职业生涯中只有两三次。（就5年的工作室/机构经历而言，可以说我是个幸运儿。）这些是我们工作室的客户，所以我无法抗拒我的老板，并拒绝如此亲密无间地工作。没错，当客户在一天结束时离开办公室后，整个团队都为我鼓掌喝彩。不过这已经足够了，我可以再设立一条创意流程准则：**在品牌创造过程中，尽可能让客户参与进来**。确保你们相互理解，如果你所有的修改都在远程进行，这会有所帮助。
 
-[![Logo设计项目从创意简报到文件交付的完整流程图](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-04.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-04.jpg) 
+[![客户邮件截图，文字内容为"PS. and here is my top-of-the-charts design in attachment"](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-04.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-04.jpg) 
 
 来自客户的一封邮件。相信我，其中附件真的是……“顶尖的”绘画艺术 :)
 
@@ -107,7 +107,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 首先，你应该寻找其他（世界范围内）相同业务领域的公司logo——尽可能多。这是第一轮（市场）调研。将这些logo收集到一页幻灯片里，展示给客户：“你潜在竞争对手的logo就长这样”。
 
-[![HappyTeamCheck的市场调研](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-05.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-05.jpg) 
+[![市场调研收集的15个竞品Logo集合，包括SurveyMonkey、Gallup、LimeSurvey等品牌标识](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-05.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-05.jpg) 
 
 *HappyTeamCheck的市场调研*
 
@@ -119,7 +119,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 有时客户会要求你修改，并且不经意间让你的方案与现存的设计相似。这时候就该从中指出：“实际上，我建议过不要这么做。因为我们最终会得到与这个非常接近的logo。”
 
-[![让你的Logo被采纳：8步优化设计流程的插图](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-06.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-06.jpg) 
+[![12个现有切片式Logo设计案例集合，包括NASA、Surface、Clyde Cutlery等品牌标识](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-06.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-06.jpg) 
 
 在概念演示中，一旦客户想到了一个点子：“我们把logo切成片！”为什么不呢？这是个好主意，很好地吻合了他们公司名称，Clipatize。在下次会议展示我自己的版本之前，我会向客户展出我找到的所有切片式logo：“我们不能重复这些造型。”
 
@@ -133,7 +133,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 首先，它展示了品牌的外观和感觉。这是客户对简报中一个问题答案的视觉化，“你希望激发顾客什么样的情感？”有时客户会要求换掉情绪板上的某张特定图片，或者将情绪板合二为一。
 
-[![Betoscope的情绪板，在线赌球网站](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-07.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-07.jpg) 
+[![Betoscope在线赌球网站的情绪板，包含足球场、球员庆祝、赌注、股票行情和豪华汽车等图片](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-07.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-07.jpg) 
 
 *Betoscope的情绪板，在线赌球网站*
 
@@ -141,7 +141,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 最终，**情绪板为你节省时间，让你自由掌控**。一旦客户接受了情绪板，如果将来设计修改偏离初衷，你还能把它搬出来。
 
-[![我现在某个项目的情绪板](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-08.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-08.jpg) 
+[![某项目的情绪板，包含建筑平面图、彩色灯具、现代室内设计和材料色板等参考图片](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-08.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-08.jpg) 
 
 *我现在某个项目的情绪板*
 
@@ -165,8 +165,8 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 你知道为什么人们爱看镜头背后的故事吗？你在制作视频过程中，是不是经常有惊喜时刻？Logo也是相同的道理。不要以最终成品来引导用户——他们在幻灯片上就能看到。相反，从概念的根源开始。解释为什么以及如何产生这个点子。毕竟，你并不仅仅是在创造一个小图标或者logo，**你在创造一则品牌故事**。
 
-[![不要以最终成品来引导用户——从概念的根源开始](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-09.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-09.jpg)
-[![不要以最终成品来引导用户——从概念的根源开始](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-10.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-10.jpg) 
+[![字母A、L、F、A组合成三角形Logo的设计过程示意图](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-09.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-09.jpg)
+[![Nexion品牌Logo从灵感来源到最终成品的演变过程，包含棱镜、建筑结构和渐变X标志](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-10.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-10.jpg) 
 
 *不要以最终成品来引导用户——从概念的根源开始*
 
@@ -174,7 +174,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 这个真的很有用。怎么用？想象一下，你刚完成了面对面的logo概念演示。已经传达了你的专业观点、哪个概念最符合客户的商业目标、以及为什么。客户几天后会带着反馈回来找你，因为他们需要隔几天才能做决策。当他们第二天再看你的演示时，他们会注意到这些标记，并想起你的建议。
 
-[![当第二天再看你的演示时，客户会注意到这些标记，并想起你的建议](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-2.gif)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-11.gif) 
+[![Clipatize品牌Logo设计稿，淡紫色手写风格字体配以飞溅装饰元素](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-2.gif)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-11.gif) 
 
 *当第二天再看你的演示时，客户会注意到这些标记，并想起你的建议*
 
@@ -182,19 +182,19 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 模版很有用，因为在这上面，相比孤零零logo更容易让人理解最终产出物。但遗憾的是多数设计师都在错误地使用它们。为什么？有两种模版：演示用模版，还有作品集用的模版。
 
-[![演示用模版 vs 作品集用模版](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-12.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-12.jpg) 
+[![演示模板对比图，左侧"GOOD CHOICE"和右侧"BEST CHOICE"的绿色斜角标签设计](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-12.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-12.jpg) 
 
 *演示用模版 vs 作品集用模版*
 
 所有这些漂浮的名片、带角度的桌面上的iPhone照片……虽然很好，但不适合用来演示概念。你在哪种情况下能看清名片上的信息，平直地拿在手中，还是摊在一米外的桌子上？你用手机时是垂直拿着，还是45度角倾斜持握？你明白其中意思。这就是为什么演示中最好使用平直的模版。
 
-[![8步优化设计流程设计中关于“注意应用图标我很喜欢”的视觉设计与界面展示](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-13.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-13.jpg)
+[![Kina'ole品牌名片设计展示，左侧为深蓝色名片正面，右侧为名片放入包装盒的效果图](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-13.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-13.jpg)
 
 ## 7. 注意应用图标
 
 我很喜欢文字商标。但这种logo有一大缺憾——要从它们中创造出一个独特的应用图标简直难于登天。网站小图标就要好很多，因为它不需要太特殊。但是，应用图标必须特殊（而且最好不要和App Store中现有的图标哪怕有一点点相似）。
 
-[![应用图标必须特殊](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-14.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-14.jpg) 
+[![三个应用图标设计示例：蓝色同心圆、地图定位针和深蓝色G字母图标](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-14.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-14.jpg) 
 
 *应用图标必须特殊*
 
@@ -204,7 +204,7 @@ Duang！你拿下了一个网页设计项目。一个新产品或服务即将在
 
 一个Logo不代表一个品牌。（关于这一点有[太多](https://www.smashingmagazine.com/2015/06/effective-logo-design-symbols-metaphors-intuition/)要讲。这是个[很好的话题](https://www.smashingmagazine.com/2015/06/effective-logo-design-nature-pattern/)，可以[另外写一系列的文章](https://www.smashingmagazine.com/2015/06/effective-logo-design-geometry/)。）
 
-[![（从Entrepreneur的指南，到创建令人印象深刻的创业品牌）](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-15.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-15.jpg) 
+[![Upnext品牌网站截图，展示UPNEXT标志和浏览器地址栏中的upnext.io网址](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-15.jpg)](https://cdn.victor42.work/posts/2016-02/02-28/how-to-get-a-logo-accepted-1000-15.jpg) 
 
 *（从Entrepreneur的指南，到创建令人印象深刻的创业品牌）*
 

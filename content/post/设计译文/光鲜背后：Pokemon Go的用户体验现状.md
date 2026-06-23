@@ -17,7 +17,7 @@ url: /post/3514
 
 这就是Pokemon Go。
 
-![国外优秀设计官方网站的网页页面版式布5图](https://cdn.victor42.work/posts/2016-07/07-29/image05-1.jpg)
+![Pokemon Go品牌Logo以地球和星空为背景GO字母中嵌入精灵球图标](https://cdn.victor42.work/posts/2016-07/07-29/image05-1.jpg)
 
 口袋妖怪作为一种全国现象，大约20年前就爆发过。人们喜欢这个寻找和捕获口袋妖怪的创意，当时他们满足于用Gameboy作为平台。
 
@@ -35,8 +35,8 @@ url: /post/3514
 
 ### 创建个人资料
 
-![设计案例国外优秀设计官网创建个人资料布局](https://cdn.victor42.work/posts/2016-07/07-29/image06-7.png)
-![设计案例国外优秀设计官网创建个人资料1图](https://cdn.victor42.work/posts/2016-07/07-29/image01-9.png)
+![Pokemon Go男性角色创建界面左侧显示发型眼睛帽子衣服裤子鞋子背包自定义选项](https://cdn.victor42.work/posts/2016-07/07-29/image06-7.png)
+![Pokemon Go女性角色全身展示穿着红色上衣黑色紧身裤白色帽子左侧有自定义选项](https://cdn.victor42.work/posts/2016-07/07-29/image01-9.png)
 
 个性化。游戏中人见人爱的部分。
 
@@ -48,7 +48,7 @@ url: /post/3514
 
 ### 游戏风格
 
-![国外优秀设计官网中采用的游戏风格设计效果](https://cdn.victor42.work/posts/2016-07/07-29/image08.jpg)
+![三张Pokemon Go增强现实截图分别展示Growlithe Voltorb和Nidoran出现在真实草地街道上](https://cdn.victor42.work/posts/2016-07/07-29/image08.jpg)
 
 口袋妖怪的招牌元素之一，是当你穿过一片高草丛，忽然冒出一只口袋妖怪。任天堂沿用了这种体验，通过增强现实技术，使它尽可能真实、令人兴奋。
 
@@ -62,7 +62,7 @@ url: /post/3514
 
 ### 社交分享
 
-![国外优秀设计官网中采用的社交分享设计效果](https://cdn.victor42.work/posts/2016-07/07-29/image03.jpg)
+![街头一男一女共同看着手机屏幕男子手指指向屏幕背景是纽约黄色出租车](https://cdn.victor42.work/posts/2016-07/07-29/image03.jpg)
 
 任天堂和Niantic把Pokemon Go设计成一款社交游戏。只有当包括朋友在内的其他人加入时，人们才能从这款游戏获得价值。
 
@@ -78,7 +78,7 @@ url: /post/3514
 
 ### 无用的引导界面
 
-![设计案例国外优秀设计官网无用的引导界面布](https://cdn.victor42.work/posts/2016-07/07-29/image07-5.png)
+![Nir Eyal上瘾模型四象限图展示触发行动奖励投资循环分析Pokemon Go](https://cdn.victor42.work/posts/2016-07/07-29/image07-5.png)
 
 我们从头讲起
 
@@ -96,7 +96,7 @@ url: /post/3514
 
 ### 服务器问题
 
-![国外优秀设计的服务器问题界面设计展示效果](https://cdn.victor42.work/posts/2016-07/07-29/image04-2.jpg)
+![手持iPhone显示Pokemon Go地图界面玩家角色站在道馆旁边等级为5级](https://cdn.victor42.work/posts/2016-07/07-29/image04-2.jpg)
 
 对于Pokemon Go的用户体验，最严重的负面影响要归于服务器问题。
 
@@ -110,7 +110,7 @@ Pokemon Go的游戏性和社交方面很有趣，但首先得能用。
 
 ### 没有足够的持续功能
 
-![设计案例国外优秀设计官网没有足够的持续功](https://cdn.victor42.work/posts/2016-07/07-29/image02-1.jpg)
+![手持iPhone显示Pokemon Go启动画面背景是白宫前广场上许多游客也在玩手机](https://cdn.victor42.work/posts/2016-07/07-29/image02-1.jpg)
 
 Pokemon Go很好玩。你可以周游世界，捕获口袋妖怪、争夺场馆……但也只有这些。
 
