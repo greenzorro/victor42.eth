@@ -7,7 +7,7 @@ categories: 折腾与思考-Geek
 url: /post/3394
 ---
 
-![iPhone 5s iPhone 6 iPhone 6 Pl](https://cdn.victor42.work/posts/2014-10/10-08/1.jpg)
+![iPhone与Android屏幕规格对比图，左侧5/5s、6、6+三款机型，右侧hdpi、xhdpi、xxhdpi三档，下方列出倍率、物理像素和逻辑像素数据](https://cdn.victor42.work/posts/2014-10/10-08/1.jpg)
 
 虽然从屏幕长宽比来看，16:9可以说是手机界的共识，可不要高兴得太早，有个更大的坑在等着我们。
 
