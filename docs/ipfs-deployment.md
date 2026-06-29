@@ -109,7 +109,7 @@ Filebase：
 Filebase pin 成功后清理旧 release CAR
 托管 IPNS name
 在 Filebase pin 成功、4EVER Pin 尝试完成后将 IPNS 指向 ROOT_CID
-保留最近 20 个 release CAR
+保留最近 10 个 release CAR
 ```
 
 4EVER Pin：
@@ -121,7 +121,7 @@ pin 同一个 CID
 作为第二 pin 服务提供内容冗余
 失败不阻塞 Filebase IPNS 更新
 只清理 workflow 自己创建的 pins
-保留最近 20 个 workflow pins
+保留最近 10 个 workflow pins
 ```
 
 GitHub Pages：

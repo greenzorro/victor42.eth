@@ -75,7 +75,7 @@ jobs:
             --object-key "releases/site-${GITHUB_SHA}.car" \
             --expected-cid "${{ steps.car.outputs.ROOT_CID }}" \
             --retention-prefix "releases/" \
-            --keep 20
+            --keep 10
 
       - name: Pin CID to 4EVER Pin and Run Retention
         continue-on-error: true
@@ -85,7 +85,7 @@ jobs:
           python scripts/foureverland_pin.py \
             --cid "${{ steps.car.outputs.ROOT_CID }}" \
             --name "victor42.eth ${GITHUB_SHA}" \
-            --keep 20
+            --keep 10
 
       - name: Update Filebase IPNS
         env:
