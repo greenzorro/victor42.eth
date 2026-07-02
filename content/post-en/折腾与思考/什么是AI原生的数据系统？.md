@@ -4,6 +4,7 @@ description: How my data management evolved alongside tools
 image: https://cdn.victor42.work/posts/2026-06/01a9a53be38ac38125ec5e439d0ee2d1.webp
 date: 2026-06-09 16:12:00
 categories: 折腾与思考-Geek
+tags: ["AI", "Technology", "Data", "Tool", "Product"]
 url: /post-en/ai-native-data-system
 translationKey: ai-native-data-system
 ---
