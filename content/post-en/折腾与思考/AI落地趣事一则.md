@@ -1,5 +1,6 @@
 ---
 categories: 折腾与思考-Geek
+tags: ["AI", "Career", "Design", "Technology"]
 date: 2026-04-03 09:42:00
 description: A glimpse into the absurdities of the current AI gold rush
 image: https://cdn.victor42.work/posts/2026-04/5c4ba548b31db35137c4d2b685767ba3.webp

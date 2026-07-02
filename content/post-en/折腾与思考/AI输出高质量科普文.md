@@ -4,6 +4,7 @@ description: Not about fooling readers with AI, but sharing the art of using it 
 image: https://cdn.victor42.work/posts/2025-06/f7b0ee2995396053cda405410209e00b.webp
 date: 2025-06-30 20:03:00
 categories: 折腾与思考-Geek
+tags: ["AI", "Science", "Education", "Writing"]
 url: /post-en/ai-generate-popular-science-article
 translationKey: ai-generate-popular-science-article
 ---

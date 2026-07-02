@@ -4,6 +4,7 @@ description: I built an AI biologist, but it got stumped by the seafood market.
 image: https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg
 date: 2024-03-20 15:06:00
 categories: 折腾与思考-Geek
+tags: ["AI", "Biology", "Technology", "Prompt Engineering"]
 url: /post-en/3649
 translationKey: '3649'
 ---

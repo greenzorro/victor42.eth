@@ -1,5 +1,6 @@
 ---
 categories: 折腾与思考-Geek
+tags: ["AI", "Technology", "Product"]
 date: 2025-10-31 15:46:00
 description: I just realized AI agents can now solve real-world problems. They are not toys anymore.
 image: https://cdn.victor42.work/posts/2025-10/fa3e1420ce5ad04750a70cf47af3b382.webp
