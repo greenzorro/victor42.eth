@@ -4,6 +4,7 @@ description:
 image: 
 date: 2011-02-05 00:22:00
 categories: 苟且与远方-Life
+tags: ["电影", "散文"]
 url: /post/157
 ---
 
