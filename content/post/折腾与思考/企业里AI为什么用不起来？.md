@@ -4,6 +4,7 @@ description: 一个怪现象：一边是人们玩AI风生水起，一边是老�
 image: https://cdn.victor42.work/posts/2025-06/72358370443a48e8cf01f51a4d8e7fd3.webp
 date: 2025-06-09 10:02:00
 categories: 折腾与思考-Geek
+tags: ["AI", "职场", "商业", "科技"]
 url: /post/barriers-to-ai-adoption-in-companies
 translationKey: barriers-to-ai-adoption-in-companies
 ---
