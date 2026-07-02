@@ -1,0 +1,46 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  {{- range where .Site.RegularPages "Section" "in" (slice "post" "post-en") }}
+    {{- if not .Params.sitemap_exclude }}
+      {{- $page := . }}
+      {{- $images := slice }}
+      {{- $seen := slice }}
+
+      {{- with .Params.image }}
+        {{- $src := . | absURL }}
+        {{- if not (in $seen $src) }}
+          {{- $images = $images | append (dict "src" $src "caption" $page.Title) }}
+          {{- $seen = $seen | append $src }}
+        {{- end }}
+      {{- end }}
+
+      {{- range findRE `<img[^>]+>` .Content }}
+        {{- $src := replaceRE `(?s).*?\ssrc=["']([^"']+)["'].*` "$1" . }}
+        {{- if and $src (ne $src .) }}
+          {{- $src = $src | absURL }}
+          {{- if not (in $seen $src) }}
+            {{- $alt := replaceRE `(?s).*?\salt=["']([^"']*)["'].*` "$1" . }}
+            {{- if eq $alt . }}{{ $alt = "" }}{{ end }}
+            {{- $images = $images | append (dict "src" $src "caption" $alt) }}
+            {{- $seen = $seen | append $src }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+
+      {{- if gt (len $images) 0 }}
+  <url>
+    <loc>{{ $page.Permalink }}</loc>
+        {{- range $images }}
+    <image:image>
+      <image:loc>{{ .src }}</image:loc>
+          {{- with .caption }}
+      <image:caption>{{ . }}</image:caption>
+          {{- end }}
+    </image:image>
+        {{- end }}
+  </url>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+</urlset>

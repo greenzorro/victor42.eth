@@ -134,6 +134,7 @@ style = "light"
 # 分类法配置
 [taxonomies]
 category = "categories"
+tag = "tags"
 
 # Markdown 渲染配置
 [markup]
@@ -180,7 +181,7 @@ enableGitInfo = true
   disable_multilingual = true
 
 [outputs]
-  home = ["HTML", "RSS", "Sitemap"]
+  home = ["HTML", "RSS", "Sitemap", "ImageSitemap"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   term = ["HTML", "RSS"]
@@ -190,4 +191,9 @@ enableGitInfo = true
     mediaType = "application/xml"
     baseName = "sitemap"
     isHTML = false
-# Force rebuild
+
+  [outputFormats.ImageSitemap]
+    mediaType = "application/xml"
+    baseName = "image-sitemap"
+    isHTML = false
+    notAlternative = true

@@ -38,6 +38,18 @@
     gap: 10px;
 }
 
+.article-footer {
+    margin-top: 3rem;
+    padding-top: 1.8rem;
+    border-top: 1px solid var(--card-separator-color);
+}
+
+.article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 /* Time icon */
 .article-time svg {
     margin-right: 5px;
