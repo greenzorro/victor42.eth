@@ -4,7 +4,6 @@ description:
 image: 
 date: 2015-12-03 18:12:00
 categories: 神经病-Humor
-tags: ["日常", "615", "设计师", "办公室", "魔兽世界", "文字游戏"]
 url: /post/3470
 ---
 

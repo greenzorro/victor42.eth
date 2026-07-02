@@ -4,7 +4,6 @@ description: A dream of parallel universe.
 image: 
 date: 2022-02-10 10:36:00
 categories: 梦境与幻想-Dream
-tags: ["梦", "科幻", "平行世界", "科技", "战争"]
 url: /post/3607
 ---
 

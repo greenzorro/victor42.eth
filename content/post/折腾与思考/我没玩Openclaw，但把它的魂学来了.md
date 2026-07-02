@@ -270,7 +270,6 @@ id: "mem-20260211-vik1"
 type: "entity"
 env: "global"
 confidence: "high"
-tags: ["agent", "identity", "compute-node"]
 ---
 ```
 
