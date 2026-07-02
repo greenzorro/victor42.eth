@@ -4,6 +4,7 @@ description: 专门给我老婆做了一款小工具产品，但对其他UI和�
 image: https://cdn.victor42.work/posts/2025-06/593bba684765381e0ac910413a657590.webp
 date: 2025-06-10 17:27:00
 categories: 折腾与思考-Geek
+tags: ["设计师", "工具", "AI", "产品"]
 url: /post/ui-canvas-size-calculator
 translationKey: ui-canvas-size-calculator
 ---

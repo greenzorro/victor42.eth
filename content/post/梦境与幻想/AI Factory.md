@@ -4,6 +4,7 @@ description: A weird dream.
 image: 
 date: 2021-06-17 11:15:44
 categories: 梦境与幻想-Dream
+tags: ["梦", "AI", "科幻", "短篇小说", "英语", "恐怖"]
 url: /post/3599
 ---
 

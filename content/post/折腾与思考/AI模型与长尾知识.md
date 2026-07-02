@@ -4,6 +4,7 @@ description: 一个自身能力极强的AI，并不是灵丹妙药。
 image:
 date: 2023-10-10 23:38:00
 categories: 折腾与思考-Geek
+tags: ["AI", "科技", "科普"]
 url: /post/3643
 translationKey: '3643'
 ---

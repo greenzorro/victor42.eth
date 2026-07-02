@@ -4,6 +4,7 @@ description:
 image: 
 date: 2015-12-03 18:12:00
 categories: 神经病-Humor
+tags: ["日常", "615", "文字游戏", "设计师", "游戏", "职场", "音乐"]
 url: /post/3470
 ---
 

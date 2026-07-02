@@ -4,6 +4,7 @@ description: Windows 8体验
 image: 
 date: 2012-03-16 17:28:00
 categories: 折腾与思考-Geek
+tags: ["科技", "Windows", "评测"]
 url: /post/1485
 ---
 

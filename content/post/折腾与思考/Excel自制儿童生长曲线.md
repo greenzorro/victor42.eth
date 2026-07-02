@@ -4,6 +4,7 @@ description: Excel狂魔上线，看完你会觉得我们可能用的不是同�
 image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
 date: 2023-08-03 14:30:00
 categories: 折腾与思考-Geek
+tags: ["Excel", "育儿", "数据可视化", "统计学", "AI"]
 url: /post/3641
 translationKey: '3641'
 ---

@@ -4,6 +4,7 @@ description:
 image: 
 date: 2014-10-08 18:08:00
 categories: 折腾与思考-Geek
+tags: ["设计师", "iPhone", "UI", "科技"]
 url: /post/3394
 ---
 

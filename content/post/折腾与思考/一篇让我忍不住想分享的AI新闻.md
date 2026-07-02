@@ -1,5 +1,6 @@
 ---
 categories: 折腾与思考-Geek
+tags: ["AI", "教育", "科技"]
 date: 2026-03-13 14:19:00
 description: AI时代的教育，变了，也没变。
 image: https://cdn.victor42.work/posts/2026-03/b2c0b4efca2bf8e1c151cea27c5ff965.webp

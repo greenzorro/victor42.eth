@@ -1,5 +1,6 @@
 ---
 categories: 折腾与思考-Geek
+tags: ["AI", "职场", "设计师", "科技"]
 date: 2026-04-03 09:42:00
 description: 让你一窥当前AI大潮众生相。
 image: https://cdn.victor42.work/posts/2026-04/5c4ba548b31db35137c4d2b685767ba3.webp

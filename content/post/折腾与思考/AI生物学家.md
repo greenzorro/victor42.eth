@@ -4,6 +4,7 @@ description: 我用AI给自己造了一位生物学家，但它也被水产市�
 image: https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg
 date: 2024-03-20 15:06:00
 categories: 折腾与思考-Geek
+tags: ["AI", "生物", "科技", "提示词工程"]
 url: /post/3649
 translationKey: '3649'
 ---
