@@ -1,5 +1,6 @@
 ---
 categories: 折腾与思考-Geek
+tags: ["AI", "科技", "工具", "教程"]
 date: 2026-02-14 23:47:00
 description: 可以自进化的个人AI助手，从Openclaw到一个简单的Github Repo。
 image: https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp

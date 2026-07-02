@@ -4,6 +4,7 @@ description:
 image: 
 date: 2012-09-20 19:36:00
 categories: 折腾与思考-Geek
+tags: ["设计师", "UI", "设计", "产品", "教程"]
 url: /post/1852
 ---
 
