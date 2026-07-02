@@ -1,7 +1,5 @@
 # victor42.eth 博客部署备忘录
 
-> 最后更新：2026-06-05
-
 > 文档定位：这是 `victor42.eth` 博客当前部署方案的长期备忘。本文只记录稳定架构、职责边界、验证入口和排障顺序；具体实现以博客仓库中的 workflow 和脚本为准。本文不记录 Filebase Access Key、Secret Key、4EVER Pin token、GitHub Secrets 具体值、钱包私钥等敏感信息。
 
 ## 当前架构

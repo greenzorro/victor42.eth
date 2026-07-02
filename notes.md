@@ -4,8 +4,6 @@
 
 本文档旨在详细记录 `projects/victor42.eth` 目录下的整个博客项目，为本项目的未来开发提供便利。
 
-**重要提示：** 每次新增或修改功能后，请务必更新此备忘录，确保文档的准确性和时效性。
-
 ## 2. 项目概览
 
 ### 2.1 基本信息
@@ -14,7 +12,8 @@
 
 ### 2.2 核心特性
 - ✅ 自定义多语言实现（中文/英文）
-- ✅ 自动SEO优化（Schema.org、OpenGraph、hreflang）
+- ✅ 自动SEO优化（Schema.org、OpenGraph、hreflang、sitemap、image sitemap）
+- ✅ 分类与标签体系（categories + tags）
 - ✅ 中文字符阅读时间计算
 - ✅ 关联推荐自动语言分离
 
@@ -54,12 +53,19 @@ victor42.eth/
 │   └── ipfs-deployment.md      # 网站部署方案
 ├── i18n/                       # 国际化文案
 ├── layouts/                    # 模板
+│   ├── _default/
+│   ├── page/
 │   ├── partials/
-│   └── _default/
+│   ├── index.html
+│   ├── index.imagesitemap.xml
+│   └── index.sitemap.xml
 ├── scripts/                    # 项目脚本
 ├── static/                     # 静态资源
-│   └── css/
+│   ├── css/
+│   ├── favicon.ico
+│   └── robots.txt
 ├── config.toml                 # 站点配置
+├── .gitignore                  # Git忽略规则
 └── go.mod                      # Hugo Modules
 ```
 
@@ -68,14 +74,17 @@ victor42.eth/
 **配置**:
 - `config.toml`: 站点主配置
 - `go.mod`: Hugo Modules依赖
+- `.gitignore`: 忽略 Hugo 构建产物与本地生成文件
 - `.github/workflows/`: GitHub Actions工作流配置
 - `docs/ipfs-deployment.md`: 网站部署方案
 - `scripts/`: 项目脚本
 
 **模板**:
-- `layouts/partials/head/head.html`: 主页，SEO和hreflang
+- `layouts/partials/head/head.html`: 页面 head、SEO和hreflang
 - `layouts/partials/article/components/details.html`: 文章详情
+- `layouts/partials/article/components/footer.html`: 文章页脚
 - `layouts/index.html`: 首页
+- `layouts/index.imagesitemap.xml`: 图片sitemap
 
 **资源**:
 - `assets/scss/variables.scss`: 主题变量
@@ -165,9 +174,32 @@ translationKey: 3618
 - 中文文章只推荐中文，英文文章只推荐英文
 - 无需自定义过滤逻辑
 
-### 5.2 SEO优化
+### 5.2 内容组织
 
-#### 5.2.1 Schema.org结构化数据
+#### 5.2.1 分类与标签
+
+文件: `config.toml`
+
+```toml
+[taxonomies]
+category = "categories"
+tag = "tags"
+```
+
+**职责边界**:
+- `categories` 是一级内容分类，沿用 `苟且与远方-Life`、`折腾与思考-Geek`、`设计译文-Design` 等长期栏目。
+- `tags` 是跨栏目主题索引，用于目的地、旅行方式、技术主题、设计主题等细粒度聚合。
+- Stack主题自带 tags 展示和 taxonomy 列表能力；文章写入 `tags` 后会生成 `/tags/<tag>/` 页面。
+
+**文章写法**:
+```yaml
+categories: 苟且与远方-Life
+tags: ["舟山", "朱家尖", "亲子旅行", "自驾游", "海岛旅行", "浙江旅行"]
+```
+
+### 5.3 SEO优化
+
+#### 5.3.1 Schema.org结构化数据
 文件: `layouts/partials/head/schema.html`
 
 ```html
@@ -189,7 +221,7 @@ translationKey: 3618
 </script>
 ```
 
-#### 5.2.2 OpenGraph标签
+#### 5.3.2 OpenGraph标签
 文件: `layouts/partials/head/opengraph.html`
 
 包含完整的社交媒体分享元数据：
@@ -197,7 +229,7 @@ translationKey: 3618
 - `article:section`, `article:published_time`
 - `article:author` (自定义修复)
 
-#### 5.2.3 Sitemap配置
+#### 5.3.3 Sitemap配置
 文件: `layouts/_default/sitemap.xml`
 
 ```xml
@@ -213,9 +245,9 @@ translationKey: 3618
     <priority>1.0</priority>
   </url>
 
-  <!-- 所有页面 -->
+  <!-- 所有页面，包括常规页面、单页和分类页面 -->
   {{ range .Site.Pages }}
-  {{ if not .Params.sitemap_exclude }}
+  {{ if and (not .IsHome) (not .Params.sitemap_exclude) }}
   <url>
     <loc>{{ .Permalink }}</loc>
     {{ if not .Lastmod.IsZero }}
@@ -237,13 +269,32 @@ translationKey: 3618
 
 特点:
 - 单一sitemap文件，包含所有页面类型
+- 自定义多语言通过 `/post/` 与 `/post-en/` 目录区分，中英文URL混合收录在同一个 `sitemap.xml`
 - 支持sitemap_exclude参数控制页面
 - 动态priority计算
 - 首页priority=1.0，其他页面默认0.5
 
-### 5.3 资源策略
+#### 5.3.4 Image Sitemap配置
 
-#### 5.3.1 图片CDN配置
+文件: `layouts/index.imagesitemap.xml`
+
+`image-sitemap.xml` 是独立的图片sitemap，由 Hugo 构建时自动生成。它覆盖 `post` 和 `post-en` 两个文章区，收录：
+
+- 文章 front matter 的 `image`
+- 正文渲染后的 `<img>` 图片
+- 图片 alt 文本作为 `image:caption`
+- 同一页面内重复图片自动去重
+
+文件: `static/robots.txt`
+
+```text
+Sitemap: https://victor42.eth.limo/sitemap.xml
+Sitemap: https://victor42.eth.limo/image-sitemap.xml
+```
+
+### 5.4 资源策略
+
+#### 5.4.1 图片CDN配置
 **CDN域名**: `https://cdn.victor42.work/`
 
 **使用方式**:
@@ -256,23 +307,23 @@ translationKey: 3618
 - 统一的CDN加速
 - 便于图片管理和备份
 
-#### 5.3.2 平台无关配置
+#### 5.4.2 平台无关配置
 文件: `config.toml`
 
 ```toml
 baseURL = "https://victor42.eth.limo"  # 站点根地址
 relativeURLs = true             # 使用相对URL
-# 移除publishDir，使用默认的public目录
 buildfuture = true              # 允许发布未来日期文章
 ```
 
 **特点**:
 - 使用相对URL提高资源路径可迁移性
 - 使用默认 `public` 目录作为Hugo构建产物目录
+- `public/`、`resources/`、`dist/` 是构建产物，不提交到仓库
 
-### 5.4 自定义功能
+### 5.5 自定义功能
 
-#### 5.4.1 中文字符阅读时间计算
+#### 5.5.1 中文字符阅读时间计算
 问题: Hugo内置`.ReadingTime`对中文字符计算不准确
 
 解决: 自定义helper函数
@@ -293,7 +344,7 @@ buildfuture = true              # 允许发布未来日期文章
 - 自定义阅读速度（200字/分钟）
 - 集成到Schema.org结构化数据
 
-#### 5.4.2 Stack主题定制
+#### 5.5.2 Stack主题定制
 
 **Hugo Modules配置**:
 ```go
@@ -322,7 +373,21 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 - 文件: `assets/scss/variables.scss`
 - CSS覆盖: `static/css/custom-override.css`
 
-#### 5.4.3 响应式设计
+#### 5.5.3 文章页脚
+
+文件: `layouts/partials/article/components/footer.html`
+
+文章页脚只有在存在可展示内容时才输出。判断条件：
+
+- 文章存在 tags
+- 文章启用 license
+- 文章 `Lastmod` 与 `Date` 不同
+
+文件: `static/css/custom-override.css`
+
+`article-footer` 上方有分隔线和上间距；无页脚内容的文章不会输出 `article-footer`，因此不会出现空分隔线。
+
+#### 5.5.4 响应式设计
 移动端优化:
 - 汉堡菜单深色模式切换按钮显示
 - 嵌套菜单CSS规则覆盖
@@ -362,6 +427,30 @@ hasCJKLanguage = true           # 支持中文
   [[related.indices]]
   name = "date"
   weight = 20
+
+# 分类法
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "Sitemap", "ImageSitemap"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.Sitemap]
+    mediaType = "application/xml"
+    baseName = "sitemap"
+    isHTML = false
+
+  [outputFormats.ImageSitemap]
+    mediaType = "application/xml"
+    baseName = "image-sitemap"
+    isHTML = false
+    notAlternative = true
 
 # 页脚
 [params.footer]
@@ -410,6 +499,7 @@ layouts/
 │   ├── article/
 │   │   └── components/
 │   │       ├── details.html    # 文章详情
+│   │       ├── footer.html     # 文章页脚条件渲染
 │   │       ├── lang-switcher.html  # 语言切换组件
 │   │       └── related-content.html  # 关联内容组件
 │   ├── sidebar/
@@ -418,6 +508,8 @@ layouts/
 │       ├── title.html          # 自定义标题
 │       └── description.html    # 自定义描述
 ├── index.html                   # 首页，包含页脚和右边栏
+├── index.imagesitemap.xml       # 图片sitemap
+├── index.sitemap.xml            # 首页sitemap输出
 └── _default/
     └── sitemap.xml             # 单sitemap文件
 ```
@@ -427,16 +519,17 @@ layouts/
 ```
 static/
 ├── css/
-│   └── custom-override.css     # 5KB自定义样式+flexbox布局
-├── icons/                      # SVG图标资源
+│   └── custom-override.css     # 自定义样式、语言切换、标签、文章页脚
+├── favicon.ico                 # 站点图标
 └── robots.txt                  # 搜索引擎爬虫配置
 
 assets/
+├── icons/                      # SVG图标资源
 └── scss/
     └── variables.scss          # Stack主题变量覆盖（主色调）
 ```
 
 **自定义样式说明**:
-- `static/css/custom-override.css` (5KB): Stack主题样式覆盖
+- `static/css/custom-override.css`: Stack主题样式覆盖
 - `assets/icons/`: SVG图标目录
 - 主题资源通过Hugo Modules从Stack主题复制

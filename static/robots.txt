@@ -3,3 +3,4 @@ Allow: /
 
 # Sitemap
 Sitemap: https://victor42.eth.limo/sitemap.xml
+Sitemap: https://victor42.eth.limo/image-sitemap.xml
