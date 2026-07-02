@@ -1,5 +1,6 @@
 ---
 categories: 折腾与思考-Geek
+tags: ["AI", "Technology", "Tool", "Tutorial"]
 date: 2026-01-27 12:53:00
 description: Wrote this manual for non-techies after configuring an AI browser agent for a colleague to handle daily tasks.
 image: https://cdn.victor42.work/posts/2026-01/cover_8507112dd258338059b10da2ab045380.webp

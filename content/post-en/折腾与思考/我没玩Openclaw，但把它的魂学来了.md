@@ -1,5 +1,6 @@
 ---
 categories: 折腾与思考-Geek
+tags: ["AI", "Technology", "Tool", "Tutorial"]
 date: 2026-02-14 23:47:00
 description: Building a self-evolving AI assistant from Openclaw concepts to a GitHub repo
 image: https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp
