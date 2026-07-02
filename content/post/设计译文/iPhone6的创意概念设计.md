@@ -4,6 +4,7 @@ description:
 image: 
 date: 2013-09-08 21:49:36
 categories: 设计译文-Design
+tags: ["设计", "翻译", "设计师", "iPhone", "UI", "创意"]
 url: /post/2781
 ---
 
