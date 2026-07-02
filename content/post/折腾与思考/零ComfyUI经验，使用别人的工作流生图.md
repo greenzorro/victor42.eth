@@ -4,6 +4,7 @@ description: 真的0基础，就像用微信小程序一样。
 image: https://cdn.victor42.work/posts/2025-02/65e10ec43957abff3dbb183248e33bd3.webp
 date: 2025-02-27 12:15:00
 categories: 折腾与思考-Geek
+tags: ["AI", "AI绘画", "教程", "工具"]
 url: /post/comfyui-workflow-tutorial-for-newbies
 translationKey: comfyui-workflow-tutorial-for-newbies
 ---

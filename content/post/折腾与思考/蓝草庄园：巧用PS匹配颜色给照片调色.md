@@ -4,6 +4,7 @@ description:
 image: 
 date: 2014-10-23 23:16:58
 categories: 折腾与思考-Geek
+tags: ["设计师", "教程", "PS", "摄影"]
 url: /post/3398
 ---
 
