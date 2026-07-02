@@ -4,6 +4,7 @@ description:
 image: 
 date: 2015-04-05 12:32:00
 categories: 设计译文-Design
+tags: ["设计", "翻译", "设计师", "Apple", "iOS", "UI", "教程"]
 url: /post/3433
 ---
 
