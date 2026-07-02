@@ -1,5 +1,6 @@
 ---
 categories: 折腾与思考-Geek
+tags: ["AI", "科技", "工具", "教程"]
 date: 2026-01-27 12:53:00
 description: 帮同事配置AI操作浏览器来完成日常任务，顺手写了这个给非技术人员的使用手册。
 image: https://cdn.victor42.work/posts/2026-01/cover_8507112dd258338059b10da2ab045380.webp
