@@ -4,6 +4,7 @@ description:
 image: 
 date: 2014-12-21 21:17:00
 categories: 设计译文-Design
+tags: ["设计", "翻译", "设计师", "动画", "教程"]
 url: /post/3415
 ---
 

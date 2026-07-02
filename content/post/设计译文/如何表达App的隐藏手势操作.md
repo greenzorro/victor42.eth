@@ -4,6 +4,7 @@ description:
 image: 
 date: 2017-01-22 22:03:37
 categories: 设计译文-Design
+tags: ["设计", "翻译", "设计师", "移动端", "UX", "手势", "教程"]
 url: /post/3538
 ---
 
