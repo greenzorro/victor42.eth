@@ -4,6 +4,7 @@ description:
 image: 
 date: 2013-04-23 21:21:00
 categories: 折腾与思考-Geek
+tags: ["设计师", "LOGO", "设计", "教程"]
 url: /post/2470
 ---
 

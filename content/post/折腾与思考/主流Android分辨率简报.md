@@ -4,6 +4,7 @@ description:
 image: 
 date: 2014-03-29 23:23:00
 categories: 折腾与思考-Geek
+tags: ["设计师", "Android", "科技", "教程"]
 url: /post/3208
 ---
 
