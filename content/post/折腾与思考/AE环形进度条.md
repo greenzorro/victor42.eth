@@ -4,6 +4,7 @@ description:
 image:
 date: 2015-02-10 15:16:00
 categories: 折腾与思考-Geek
+tags: ["After Effects", "教程", "动效"]
 url: /post/3424
 translationKey: '3424'
 ---
