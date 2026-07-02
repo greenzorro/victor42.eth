@@ -4,6 +4,7 @@ description: 一篇让你醍醐灌顶的AI认知指南。
 image: https://cdn.victor42.work/posts/2025-05/09dbc0f7779d7896470f8ffc876d936d.webp
 date: 2025-05-22 17:50:00
 categories: 折腾与思考-Geek
+tags: ["AI", "科普", "认知"]
 url: /post/do-you-really-know-ai
 translationKey: do-you-really-know-ai
 ---
