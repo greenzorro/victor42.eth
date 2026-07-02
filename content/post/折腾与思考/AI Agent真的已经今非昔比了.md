@@ -1,6 +1,5 @@
 ---
 categories: 折腾与思考-Geek
-tags: ["AI", "Agent", "科技"]
 date: 2025-10-31 15:46:00
 description: 猛然发现，现在真的能用Agent解决实际问题了，不再是玩具。
 image: https://cdn.victor42.work/posts/2025-10/fa3e1420ce5ad04750a70cf47af3b382.webp

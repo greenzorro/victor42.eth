@@ -4,7 +4,6 @@ description: 一篇关于AI生图和赚钱的长文，有教程，但主线是�
 image: https://cdn.victor42.work/posts/2025-05/89852ef4042c193cd77916efb0cf70b6.webp
 date: 2025-05-08 17:22:00
 categories: 折腾与思考-Geek
-tags: ["AI", "AI绘画", "副业", "教程"]
 url: /post/automate-ai-illustrations-production
 translationKey: automate-ai-illustrations-production
 ---

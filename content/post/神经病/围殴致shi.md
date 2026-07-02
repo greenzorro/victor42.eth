@@ -4,7 +4,6 @@ description:
 image: 
 date: 2012-05-26 16:31:00
 categories: 神经病-Humor
-tags: ["日常", "615", "美食", "求职", "微博"]
 url: /post/1614
 ---
 
