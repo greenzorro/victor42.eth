@@ -4,7 +4,7 @@ description:
 image: 
 date: 2015-10-11 12:41:00
 categories: 设计译文-Design
-tags: ["设计师", "UI", "动画", "教程"]
+tags: ["UI", "动画", "教程"]
 url: /post/3464
 ---
 

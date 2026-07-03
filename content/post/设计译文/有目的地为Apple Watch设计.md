@@ -4,7 +4,7 @@ description:
 image: 
 date: 2015-09-06 10:40:00
 categories: 设计译文-Design
-tags: ["设计师", "Apple", "可穿戴", "UI", "教程"]
+tags: ["Apple", "可穿戴", "UI", "教程"]
 url: /post/3460
 ---
 

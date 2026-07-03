@@ -4,7 +4,7 @@ description:
 image: 
 date: 2015-08-02 00:04:00
 categories: 设计译文-Design
-tags: ["设计师", "Material Design", "UI", "趋势"]
+tags: ["Material Design", "UI", "趋势"]
 url: /post/3453
 ---
 

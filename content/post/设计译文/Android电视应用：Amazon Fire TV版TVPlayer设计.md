@@ -4,7 +4,7 @@ description:
 image: 
 date: 2016-09-25 00:00:08
 categories: 设计译文-Design
-tags: ["设计师", "Android", "UI", "产品", "TV"]
+tags: ["Android", "UI", "产品", "TV"]
 url: /post/3523
 ---
 

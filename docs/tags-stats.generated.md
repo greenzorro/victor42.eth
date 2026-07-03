@@ -7,8 +7,8 @@
 - Articles scanned: 521
 - Articles with tags: 521
 - Unique tags: 340
-- Total tag assignments: 2279
-- Average tags per article: 4.37
+- Total tag assignments: 2098
+- Average tags per article: 4.03
 - Glossary tags: 103
 - Used tags missing from glossary: 243
 - Glossary tags unused in content: 6
@@ -24,17 +24,17 @@
 | 6-10 | 29 |
 | 11-20 | 19 |
 | 21-50 | 20 |
-| 51-100 | 3 |
-| 101+ | 2 |
+| 51-100 | 4 |
+| 101+ | 1 |
 
 ## Tags Per Article
 
 | Tags on article | Article count |
 | --- | --- |
-| 2 | 15 |
-| 3 | 77 |
-| 4 | 253 |
-| 5 | 101 |
+| 2 | 44 |
+| 3 | 180 |
+| 4 | 141 |
+| 5 | 81 |
 | 6 | 34 |
 | 7 | 31 |
 | 8 | 10 |
@@ -43,11 +43,11 @@
 
 | Tag | Uses | Top categories |
 | --- | --- | --- |
-| `设计师` | 232 | 设计译文-Design: 181, 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
 | `教程` | 182 | 设计译文-Design: 159, 折腾与思考-Geek: 23 |
 | `UI` | 83 | 设计译文-Design: 75, 折腾与思考-Geek: 8 |
 | `日常` | 73 | 苟且与远方-Life: 34, 神经病-Humor: 25, 折腾与思考-Geek: 14 |
 | `UX` | 61 | 设计译文-Design: 53, 折腾与思考-Geek: 8 |
+| `设计师` | 51 | 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
 | `AI` | 49 | 折腾与思考-Geek: 38, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
 | `科技` | 44 | 折腾与思考-Geek: 36, 神经病-Humor: 5, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
 | `美食` | 44 | 苟且与远方-Life: 28, 神经病-Humor: 14, 梦境与幻想-Dream: 2 |

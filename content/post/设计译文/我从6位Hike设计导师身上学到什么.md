@@ -4,7 +4,7 @@ description:
 image: 
 date: 2014-05-25 01:04:39
 categories: 设计译文-Design
-tags: ["设计师", "成长", "职场", "教程"]
+tags: ["成长", "职场", "教程"]
 url: /post/3368
 ---
 

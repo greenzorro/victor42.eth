@@ -4,7 +4,7 @@ description:
 image: 
 date: 2013-12-29 10:34:45
 categories: 设计译文-Design
-tags: ["设计师", "UI", "网页设计", "教程"]
+tags: ["UI", "网页设计", "教程"]
 url: /post/3018
 ---
 

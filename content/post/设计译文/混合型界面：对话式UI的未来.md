@@ -4,7 +4,7 @@ description:
 image: 
 date: 2017-01-08 12:46:00
 categories: 设计译文-Design
-tags: ["设计师", "UI", "趋势", "教程"]
+tags: ["UI", "趋势", "教程"]
 url: /post/3536
 ---
 
