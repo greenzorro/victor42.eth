@@ -6,18 +6,18 @@
 
 - Articles scanned: 521
 - Articles with tags: 521
-- Unique tags: 340
-- Total tag assignments: 2064
-- Average tags per article: 3.96
+- Unique tags: 336
+- Total tag assignments: 2060
+- Average tags per article: 3.95
 - Glossary tags: 106
-- Used tags missing from glossary: 240
+- Used tags missing from glossary: 236
 - Glossary tags unused in content: 6
 
 ## Usage Buckets
 
 | Articles per tag | Unique tag count |
 | --- | --- |
-| 1 | 150 |
+| 1 | 146 |
 | 2 | 58 |
 | 3 | 26 |
 | 4-5 | 33 |
@@ -31,10 +31,10 @@
 
 | Tags on article | Article count |
 | --- | --- |
-| 2 | 73 |
-| 3 | 156 |
-| 4 | 136 |
-| 5 | 81 |
+| 2 | 74 |
+| 3 | 157 |
+| 4 | 135 |
+| 5 | 80 |
 | 6 | 34 |
 | 7 | 31 |
 | 8 | 10 |
@@ -172,14 +172,12 @@
 | `亡灵` | `content/post/梦境与幻想/空间裂隙.md` | 空间裂隙 |
 | `亲情` | `content/post/梦境与幻想/草原之歌.md` | 草原之歌 |
 | `人工智能觉醒` | `content/post/梦境与幻想/42秒.md` | 42秒 |
-| `人类学` | `content/post/折腾与思考/人类简史读书笔记.md` | 人类简史读书笔记 |
 | `人类未来` | `content/post/梦境与幻想/42秒.md` | 42秒 |
 | `作品集` | `content/post/设计译文/几则诀窍打造个人作品集网站.md` | 几则诀窍打造个人作品集网站 |
 | `内蒙古` | `content/post/苟且与远方/蒙西宁夏国庆小众自驾6天5夜.md` | 蒙西宁夏国庆小众自驾6天5夜 |
 | `创业` | `content/post/折腾与思考/设计师在创业团队中的角色.md` | 设计师在创业团队中的角色 |
 | `动漫` | `content/post/苟且与远方/黑暗走向光明.md` | 黑暗走向光明 |
 | `动物` | `content/post/梦境与幻想/草原之歌.md` | 草原之歌 |
-| `化学` | `content/post/折腾与思考/水为什么能灭火？.md` | 水为什么能灭火？ |
 | `北京` | `content/post/苟且与远方/北京4天5夜.md` | 北京4天5夜 |
 | `区块链` | `content/post/折腾与思考/区块链博客.md` | 区块链博客 |
 | `同人` | `content/post/梦境与幻想/大雄拯救世界.md` | 大雄拯救世界 |
@@ -187,14 +185,12 @@
 | `吸血鬼` | `content/post/梦境与幻想/威廉古堡的谜案.md` | 威廉古堡的谜案 |
 | `哆啦A梦` | `content/post/梦境与幻想/大雄拯救世界.md` | 大雄拯救世界 |
 | `哥特` | `content/post/梦境与幻想/威廉古堡的谜案.md` | 威廉古堡的谜案 |
-| `声音` | `content/post/折腾与思考/关于回音的无厘头研究.md` | 关于回音的无厘头研究 |
 | `天罚` | `content/post/梦境与幻想/天罚纪元的平凡一天.md` | 天罚纪元的平凡一天 |
 | `宁夏` | `content/post/苟且与远方/蒙西宁夏国庆小众自驾6天5夜.md` | 蒙西宁夏国庆小众自驾6天5夜 |
 | `宁波` | `content/post/苟且与远方/酱油打到了宁波.md` | 酱油打到了宁波 |
 | `寓言` | `content/post/梦境与幻想/蚂蚁楚门秀.md` | 蚂蚁楚门秀 |
 | `导视` | `content/post/设计译文/东京的导视系统设计.md` | 东京的导视设计 |
 | `少年派` | `content/post/梦境与幻想/少年橙的奇幻漂流.md` | 少年橙的奇幻漂流 |
-| `幽默` | `content/post/苟且与远方/地下车库道闸的拉锯战.md` | 地下车库道闸的拉锯战 |
 | `异域` | `content/post/梦境与幻想/一千零一夜.md` | 一千零一夜 |
 | `异星` | `content/post/梦境与幻想/深蓝星球.md` | 深蓝星球 |
 | `微交互` | `content/post/设计译文/提升用户体验的7大微交互.md` | 提升用户体验的7大微交互 |
@@ -386,7 +382,6 @@
 - `产品`
 - `亲子`
 - `亲情`
-- `人类学`
 - `作品集`
 - `信息设计`
 - `健康`
@@ -396,7 +391,6 @@
 - `创业`
 - `动漫`
 - `动画`
-- `化学`
 - `北京`
 - `区块链`
 - `南昌`
@@ -411,7 +405,6 @@
 - `商业`
 - `图标`
 - `地理`
-- `声音`
 - `字体`
 - `宁夏`
 - `宁波`
@@ -419,7 +412,6 @@
 - `导航`
 - `导视`
 - `工具`
-- `幽默`
 - `开发`
 - `影评`
 - `微交互`
