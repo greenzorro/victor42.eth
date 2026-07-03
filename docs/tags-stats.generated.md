@@ -9,8 +9,8 @@
 - Unique tags: 340
 - Total tag assignments: 2064
 - Average tags per article: 3.96
-- Glossary tags: 103
-- Used tags missing from glossary: 243
+- Glossary tags: 106
+- Used tags missing from glossary: 240
 - Glossary tags unused in content: 6
 
 ## Usage Buckets
@@ -433,7 +433,6 @@
 - `搜索`
 - `摄影`
 - `效率`
-- `教程`
 - `敦煌`
 - `数学`
 - `数据`
@@ -470,7 +469,6 @@
 - `统计学`
 - `编程`
 - `网页设计`
-- `翻译`
 - `能源`
 - `自动化`
 - `自驾`
@@ -485,7 +483,6 @@
 - `视觉`
 - `视频`
 - `认知`
-- `设计`
 - `设计规范`
 - `评测`
 - `语言`
