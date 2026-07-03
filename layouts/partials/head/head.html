@@ -3,6 +3,7 @@
 
 {{- $description := partialCached "data/description" . .RelPermalink -}}
 <meta name='description' content='{{ $description }}'>
+<meta name='robots' content='max-image-preview:large'>
 
 {{- $title := partialCached "data/title" . .RelPermalink -}}
 <title>{{ $title }}</title>
