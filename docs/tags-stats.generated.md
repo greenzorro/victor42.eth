@@ -7,8 +7,8 @@
 - Articles scanned: 521
 - Articles with tags: 521
 - Unique tags: 333
-- Total tag assignments: 1992
-- Average tags per article: 3.82
+- Total tag assignments: 1996
+- Average tags per article: 3.83
 - Glossary tags: 106
 - Used tags missing from glossary: 233
 - Glossary tags unused in content: 6
@@ -31,9 +31,9 @@
 
 | Tags on article | Article count |
 | --- | --- |
-| 2 | 117 |
-| 3 | 133 |
-| 4 | 121 |
+| 2 | 114 |
+| 3 | 135 |
+| 4 | 122 |
 | 5 | 75 |
 | 6 | 35 |
 | 7 | 30 |
@@ -43,7 +43,7 @@
 
 | Tag | Uses | Top categories |
 | --- | --- | --- |
-| `教程` | 115 | 设计译文-Design: 92, 折腾与思考-Geek: 23 |
+| `教程` | 119 | 设计译文-Design: 96, 折腾与思考-Geek: 23 |
 | `UI` | 83 | 设计译文-Design: 75, 折腾与思考-Geek: 8 |
 | `UX` | 61 | 设计译文-Design: 53, 折腾与思考-Geek: 8 |
 | `设计师` | 51 | 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
