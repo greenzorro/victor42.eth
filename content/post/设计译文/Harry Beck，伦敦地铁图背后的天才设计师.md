@@ -4,7 +4,7 @@ description:
 image: 
 date: 2016-03-20 12:33:50
 categories: 设计译文-Design
-tags: ["设计", "翻译", "设计师", "信息设计", "历史", "教程"]
+tags: ["设计师", "信息设计", "历史", "教程"]
 url: /post/3489
 ---
 

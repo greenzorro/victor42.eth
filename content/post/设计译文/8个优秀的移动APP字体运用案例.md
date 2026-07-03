@@ -4,7 +4,7 @@ description:
 image: 
 date: 2014-03-09 16:35:38
 categories: 设计译文-Design
-tags: ["设计", "翻译", "设计师", "字体", "移动端", "UI"]
+tags: ["设计师", "字体", "移动端", "UI"]
 url: /post/3147
 ---
 

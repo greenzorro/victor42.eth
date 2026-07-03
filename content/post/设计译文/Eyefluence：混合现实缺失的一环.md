@@ -4,7 +4,7 @@ description:
 image: 
 date: 2016-11-20 00:03:08
 categories: 设计译文-Design
-tags: ["设计", "翻译", "设计师", "科技", "VR", "UI"]
+tags: ["设计师", "科技", "VR", "UI"]
 url: /post/3530
 ---
 
