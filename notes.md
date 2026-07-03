@@ -77,7 +77,10 @@ victor42.eth/
 - `.gitignore`: 忽略 Hugo 构建产物与本地生成文件
 - `.github/workflows/`: GitHub Actions工作流配置
 - `docs/ipfs-deployment.md`: 网站部署方案
+- `docs/tags-glossary.md`: tags 人工规范词表
+- `docs/tags-stats.generated.md`: tags 自动统计报告
 - `scripts/`: 项目脚本
+- `scripts/generate_tags_report.py`: tags 统计报告生成脚本
 
 **模板**:
 - `layouts/partials/head/head.html`: 页面 head、SEO和hreflang
@@ -190,12 +193,21 @@ tag = "tags"
 - `categories` 是一级内容分类，沿用 `苟且与远方-Life`、`折腾与思考-Geek`、`设计译文-Design` 等长期栏目。
 - `tags` 是跨栏目主题索引，用于目的地、旅行方式、技术主题、设计主题等细粒度聚合。
 - Stack主题自带 tags 展示和 taxonomy 列表能力；文章写入 `tags` 后会生成 `/tags/<tag>/` 页面。
+- `docs/tags-glossary.md` 维护人工判断的规范 tag 定义和使用边界。
+- `docs/tags-stats.generated.md` 由 `scripts/generate_tags_report.py` 从文章 front matter 自动生成，记录实际使用次数、长尾分布和词表差异。
 
 **文章写法**:
 ```yaml
 categories: 苟且与远方-Life
 tags: ["舟山", "朱家尖", "亲子旅行", "自驾游", "海岛旅行", "浙江旅行"]
 ```
+
+**维护流程**:
+```bash
+<routine-python> scripts/generate_tags_report.py
+```
+
+在博客仓库根目录运行上述脚本，刷新 `docs/tags-stats.generated.md`。仓库路径通过 `routine/utils/path.py` 中的 `BASE_PATH_CODING` 解析；词表只记录稳定规则，不手动维护使用次数。
 
 ### 5.3 SEO优化
 
