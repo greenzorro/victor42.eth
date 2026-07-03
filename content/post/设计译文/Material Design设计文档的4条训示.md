@@ -4,7 +4,7 @@ description:
 image: 
 date: 2014-09-07 18:42:02
 categories: 设计译文-Design
-tags: ["Material Design", "UI", "教程"]
+tags: ["Material Design", "UI"]
 url: /post/3387
 ---
 

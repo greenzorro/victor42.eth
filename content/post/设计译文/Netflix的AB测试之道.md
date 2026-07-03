@@ -4,7 +4,7 @@ description:
 image: 
 date: 2016-08-28 00:53:10
 categories: 设计译文-Design
-tags: ["产品", "UX", "数据", "教程"]
+tags: ["产品", "UX", "数据"]
 url: /post/3519
 ---
 

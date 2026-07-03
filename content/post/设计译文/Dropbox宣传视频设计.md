@@ -4,7 +4,7 @@ description:
 image: 
 date: 2017-05-07 00:01:45
 categories: 设计译文-Design
-tags: ["视频", "UI", "教程"]
+tags: ["视频", "UI"]
 url: /post/3550
 ---
 
