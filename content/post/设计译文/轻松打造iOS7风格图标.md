@@ -4,7 +4,7 @@ description:
 image: 
 date: 2013-11-24 10:29:38
 categories: 设计译文-Design
-tags: ["设计", "翻译", "设计师", "iOS", "图标", "教程"]
+tags: ["设计师", "iOS", "图标", "教程"]
 url: /post/2938
 ---
 
