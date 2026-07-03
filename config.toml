@@ -101,11 +101,11 @@ local = false
 
 # 社交媒体链接（通过menu配置 - Stack v3.32.0要求）
 [[menu.social]]
-name = "Twitter"
+name = "X"
 url = "https://x.com/victor_cheng_42"
 weight = 1
 [menu.social.params]
-icon = "brand-twitter"
+icon = "brand-x"
 
 [[menu.social]]
 name = "知乎"
