@@ -4,7 +4,7 @@ description:
 image: 
 date: 2017-02-26 00:57:13
 categories: 设计译文-Design
-tags: ["设计", "翻译", "设计师", "Sketch", "工具", "教程"]
+tags: ["设计师", "Sketch", "工具", "教程"]
 url: /post/3541
 ---
 
