@@ -6,18 +6,18 @@
 
 - Articles scanned: 521
 - Articles with tags: 521
-- Unique tags: 336
-- Total tag assignments: 2060
+- Unique tags: 333
+- Total tag assignments: 2057
 - Average tags per article: 3.95
 - Glossary tags: 106
-- Used tags missing from glossary: 236
+- Used tags missing from glossary: 233
 - Glossary tags unused in content: 6
 
 ## Usage Buckets
 
 | Articles per tag | Unique tag count |
 | --- | --- |
-| 1 | 146 |
+| 1 | 143 |
 | 2 | 58 |
 | 3 | 26 |
 | 4-5 | 33 |
@@ -32,8 +32,8 @@
 | Tags on article | Article count |
 | --- | --- |
 | 2 | 74 |
-| 3 | 157 |
-| 4 | 135 |
+| 3 | 160 |
+| 4 | 132 |
 | 5 | 80 |
 | 6 | 34 |
 | 7 | 31 |
@@ -234,10 +234,7 @@
 | `草原` | `content/post/梦境与幻想/草原之歌.md` | 草原之歌 |
 | `西双版纳` | `content/post/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | 西双版纳景洪春季休闲6天5夜 |
 | `西安` | `content/post/苟且与远方/西安初夏休闲6天5夜.md` | 西安初夏休闲6天5夜 |
-| `视觉` | `content/post/折腾与思考/关于分辨颜色的视觉实验.md` | 关于分辨颜色的视觉实验 |
 | `视频` | `content/post/设计译文/Dropbox宣传视频设计.md` | Dropbox宣传视频设计 |
-| `认知` | `content/post/折腾与思考/另一种方位感.md` | 另一种方位感 |
-| `谷歌` | `content/post/折腾与思考/三体,不作恶与蜂群思维.md` | 三体,不作恶与蜂群思维 |
 | `购房` | `content/post/苟且与远方/看房要点.md` | 看房要点 |
 | `赛博朋克` | `content/post/神经病/灵魂升华.md` | 灵魂升华 |
 | `跨平台` | `content/post/设计译文/跨平台移动应用的延续性.md` | 跨平台移动应用的延续性 |
@@ -472,13 +469,10 @@
 - `蟑螂`
 - `西双版纳`
 - `西安`
-- `视觉`
 - `视频`
-- `认知`
 - `设计规范`
 - `评测`
 - `语言`
-- `谷歌`
 - `购房`
 - `趋势`
 - `跨平台`
