@@ -4,7 +4,7 @@ description:
 image: 
 date: 2013-10-27 14:30:11
 categories: 设计译文-Design
-tags: ["开发", "职场", "教程"]
+tags: ["开发", "职场"]
 url: /post/2860
 ---
 
