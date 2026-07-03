@@ -4,7 +4,7 @@ description:
 image: 
 date: 2016-10-16 00:38:14
 categories: 设计译文-Design
-tags: ["设计", "翻译", "设计师", "汽车", "UI", "趋势"]
+tags: ["设计师", "汽车", "UI", "趋势"]
 url: /post/3524
 ---
 
