@@ -7,8 +7,8 @@
 - Articles scanned: 521
 - Articles with tags: 521
 - Unique tags: 340
-- Total tag assignments: 2343
-- Average tags per article: 4.50
+- Total tag assignments: 2323
+- Average tags per article: 4.46
 - Glossary tags: 103
 - Used tags missing from glossary: 243
 - Glossary tags unused in content: 6
@@ -32,11 +32,11 @@
 | Tags on article | Article count |
 | --- | --- |
 | 2 | 15 |
-| 3 | 68 |
-| 4 | 235 |
-| 5 | 105 |
-| 6 | 52 |
-| 7 | 36 |
+| 3 | 71 |
+| 4 | 241 |
+| 5 | 103 |
+| 6 | 46 |
+| 7 | 35 |
 | 8 | 10 |
 
 ## Top Tags
@@ -49,7 +49,6 @@
 | `日常` | 73 | 苟且与远方-Life: 34, 神经病-Humor: 25, 折腾与思考-Geek: 14 |
 | `UX` | 61 | 设计译文-Design: 53, 折腾与思考-Geek: 8 |
 | `AI` | 49 | 折腾与思考-Geek: 38, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
-| `设计` | 45 | 设计译文-Design: 32, 折腾与思考-Geek: 13 |
 | `科技` | 44 | 折腾与思考-Geek: 36, 神经病-Humor: 5, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
 | `美食` | 44 | 苟且与远方-Life: 28, 神经病-Humor: 14, 梦境与幻想-Dream: 2 |
 | `职场` | 43 | 折腾与思考-Geek: 12, 设计译文-Design: 12, 神经病-Humor: 11, 苟且与远方-Life: 8 |
@@ -58,7 +57,7 @@
 | `旅行` | 36 | 苟且与远方-Life: 26, 神经病-Humor: 5, 梦境与幻想-Dream: 4, 折腾与思考-Geek: 1 |
 | `网页设计` | 36 | 设计译文-Design: 36 |
 | `产品` | 35 | 折腾与思考-Geek: 24, 设计译文-Design: 11 |
-| `翻译` | 34 | 设计译文-Design: 32, 折腾与思考-Geek: 2 |
+| `设计` | 35 | 设计译文-Design: 22, 折腾与思考-Geek: 13 |
 | `615` | 32 | 神经病-Humor: 26, 苟且与远方-Life: 6 |
 | `散文` | 31 | 折腾与思考-Geek: 14, 苟且与远方-Life: 13, 梦境与幻想-Dream: 4 |
 | `文字游戏` | 28 | 神经病-Humor: 28 |
@@ -67,6 +66,7 @@
 | `哲学` | 26 | 折腾与思考-Geek: 11, 苟且与远方-Life: 11, 梦境与幻想-Dream: 4 |
 | `Science` | 26 | 折腾与思考-Geek: 26 |
 | `Technology` | 25 | 折腾与思考-Geek: 24, 苟且与远方-Life: 1 |
+| `翻译` | 24 | 设计译文-Design: 22, 折腾与思考-Geek: 2 |
 | `Education` | 24 | 折腾与思考-Geek: 18, 苟且与远方-Life: 6 |
 | `历史` | 23 | 折腾与思考-Geek: 11, 苟且与远方-Life: 10, 设计译文-Design: 2 |
 | `社会` | 22 | 折腾与思考-Geek: 10, 苟且与远方-Life: 10, 梦境与幻想-Dream: 2 |
