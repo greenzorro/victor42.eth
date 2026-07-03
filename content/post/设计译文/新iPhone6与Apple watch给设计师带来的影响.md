@@ -4,7 +4,7 @@ description:
 image: 
 date: 2014-09-28 19:12:31
 categories: 设计译文-Design
-tags: ["设计", "翻译", "设计师", "iPhone", "Apple", "可穿戴", "UI"]
+tags: ["设计师", "iPhone", "Apple", "可穿戴", "UI"]
 url: /post/3393
 ---
 

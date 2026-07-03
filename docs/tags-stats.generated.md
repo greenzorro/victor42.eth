@@ -7,8 +7,8 @@
 - Articles scanned: 521
 - Articles with tags: 521
 - Unique tags: 340
-- Total tag assignments: 2585
-- Average tags per article: 4.96
+- Total tag assignments: 2565
+- Average tags per article: 4.92
 - Glossary tags: 103
 - Used tags missing from glossary: 243
 - Glossary tags unused in content: 6
@@ -33,10 +33,10 @@
 | --- | --- |
 | 2 | 15 |
 | 3 | 52 |
-| 4 | 142 |
-| 5 | 108 |
-| 6 | 147 |
-| 7 | 47 |
+| 4 | 151 |
+| 5 | 109 |
+| 6 | 138 |
+| 7 | 46 |
 | 8 | 10 |
 
 ## Top Tags
@@ -45,8 +45,8 @@
 | --- | --- | --- |
 | `设计师` | 232 | 设计译文-Design: 181, 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
 | `教程` | 186 | 设计译文-Design: 163, 折腾与思考-Geek: 23 |
-| `设计` | 164 | 设计译文-Design: 151, 折腾与思考-Geek: 13 |
-| `翻译` | 153 | 设计译文-Design: 151, 折腾与思考-Geek: 2 |
+| `设计` | 154 | 设计译文-Design: 141, 折腾与思考-Geek: 13 |
+| `翻译` | 143 | 设计译文-Design: 141, 折腾与思考-Geek: 2 |
 | `UI` | 83 | 设计译文-Design: 75, 折腾与思考-Geek: 8 |
 | `日常` | 73 | 苟且与远方-Life: 34, 神经病-Humor: 25, 折腾与思考-Geek: 14 |
 | `UX` | 61 | 设计译文-Design: 53, 折腾与思考-Geek: 8 |
