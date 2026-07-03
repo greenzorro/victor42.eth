@@ -4,7 +4,7 @@ description:
 image: 
 date: 2013-07-14 20:42:18
 categories: 设计译文-Design
-tags: ["设计", "翻译", "设计师", "动画", "移动端", "UI", "教程"]
+tags: ["设计师", "动画", "移动端", "UI", "教程"]
 url: /post/2661
 ---
 
