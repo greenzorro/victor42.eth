@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_DIR = ROOT / "content"
 GLOSSARY_PATH = ROOT / "docs" / "tags-glossary.md"
+GLOSSARY_EN_PATH = ROOT / "docs" / "tags-glossary-en.md"
 REPORT_PATH = ROOT / "docs" / "tags-stats.generated.md"
 
 
@@ -78,6 +79,13 @@ def load_glossary_tags() -> set[str]:
     return set(re.findall(r"^### `(.+?)`", text, re.MULTILINE))
 
 
+def load_glossary_tags_en() -> set[str]:
+    if not GLOSSARY_EN_PATH.exists():
+        return set()
+    text = GLOSSARY_EN_PATH.read_text(encoding="utf-8")
+    return set(re.findall(r"^### `(.+?)`", text, re.MULTILINE))
+
+
 def bucket_label(count: int) -> str:
     if count <= 3:
         return str(count)
@@ -107,7 +115,11 @@ def article_link(article: Article) -> str:
     return f"`{article.path}`"
 
 
-def generate_report(articles: list[Article], glossary_tags: set[str]) -> str:
+def generate_report(
+    articles: list[Article],
+    glossary_tags: set[str],
+    glossary_tags_en: set[str],
+) -> str:
     tag_usage: Counter[str] = Counter()
     tag_categories: dict[str, Counter[str]] = defaultdict(Counter)
     tag_articles: dict[str, list[Article]] = defaultdict(list)
@@ -124,8 +136,18 @@ def generate_report(articles: list[Article], glossary_tags: set[str]) -> str:
     buckets: Counter[str] = Counter(bucket_label(count) for count in tag_usage.values())
     bucket_order = ["1", "2", "3", "4-5", "6-10", "11-20", "21-50", "51-100", "101+"]
 
-    missing_from_glossary = sorted(unique_tags - glossary_tags)
-    unused_in_content = sorted(glossary_tags - unique_tags)
+    # Split tags by language so each side is audited against its own glossary.
+    # section "post" = Chinese articles, "post-en" = English articles.
+    zh_unique_tags = {
+        tag for tag in unique_tags if any(article.section == "post" for article in tag_articles[tag])
+    }
+    en_unique_tags = {
+        tag for tag in unique_tags if any(article.section == "post-en" for article in tag_articles[tag])
+    }
+    zh_missing = sorted(zh_unique_tags - glossary_tags)
+    zh_unused = sorted(glossary_tags - zh_unique_tags)
+    en_missing = sorted(en_unique_tags - glossary_tags_en)
+    en_unused = sorted(glossary_tags_en - en_unique_tags)
 
     lines: list[str] = [
         "# Tags Stats",
@@ -144,9 +166,12 @@ def generate_report(articles: list[Article], glossary_tags: set[str]) -> str:
             f"- Unique tags: {len(unique_tags)}",
             f"- Total tag assignments: {total_assignments}",
             f"- Average tags per article: {average:.2f}",
-            f"- Glossary tags: {len(glossary_tags)}",
-            f"- Used tags missing from glossary: {len(missing_from_glossary)}",
-            f"- Glossary tags unused in content: {len(unused_in_content)}",
+            f"- Glossary tags (CN): {len(glossary_tags)}",
+            f"- Glossary tags (EN): {len(glossary_tags_en)}",
+            f"- Used tags missing from glossary (CN): {len(zh_missing)}",
+            f"- Used tags missing from glossary (EN): {len(en_missing)}",
+            f"- Glossary tags unused in content (CN): {len(zh_unused)}",
+            f"- Glossary tags unused in content (EN): {len(en_unused)}",
             "",
             "## Usage Buckets",
             "",
@@ -185,19 +210,34 @@ def generate_report(articles: list[Article], glossary_tags: set[str]) -> str:
     lines.extend(md_table(["Tag", "Article", "Title"], single_rows))
 
     lines.extend(["", "## Glossary Audit", ""])
-    if missing_from_glossary:
-        lines.extend(["### Used tags missing from glossary", ""])
-        lines.extend("- `" + tag + "`" for tag in missing_from_glossary)
-        lines.append("")
-    else:
-        lines.extend(["### Used tags missing from glossary", "", "None.", ""])
 
-    if unused_in_content:
-        lines.extend(["### Glossary tags unused in content", ""])
-        lines.extend("- `" + tag + "`" for tag in unused_in_content)
+    lines.extend(["### Used tags missing from glossary (Chinese)", ""])
+    if zh_missing:
+        lines.extend("- `" + tag + "`" for tag in zh_missing)
         lines.append("")
     else:
-        lines.extend(["### Glossary tags unused in content", "", "None.", ""])
+        lines.extend(["None.", ""])
+
+    lines.extend(["### Used tags missing from glossary (English)", ""])
+    if en_missing:
+        lines.extend("- `" + tag + "`" for tag in en_missing)
+        lines.append("")
+    else:
+        lines.extend(["None.", ""])
+
+    lines.extend(["### Glossary tags unused in content (Chinese)", ""])
+    if zh_unused:
+        lines.extend("- `" + tag + "`" for tag in zh_unused)
+        lines.append("")
+    else:
+        lines.extend(["None.", ""])
+
+    lines.extend(["### Glossary tags unused in content (English)", ""])
+    if en_unused:
+        lines.extend("- `" + tag + "`" for tag in en_unused)
+        lines.append("")
+    else:
+        lines.extend(["None.", ""])
 
     return "\n".join(lines).rstrip() + "\n"
 
@@ -205,7 +245,11 @@ def generate_report(articles: list[Article], glossary_tags: set[str]) -> str:
 def main() -> None:
     articles = load_articles()
     glossary_tags = load_glossary_tags()
-    REPORT_PATH.write_text(generate_report(articles, glossary_tags), encoding="utf-8")
+    glossary_tags_en = load_glossary_tags_en()
+    REPORT_PATH.write_text(
+        generate_report(articles, glossary_tags, glossary_tags_en),
+        encoding="utf-8",
+    )
     print(f"Generated {REPORT_PATH.relative_to(ROOT)}")
 
 

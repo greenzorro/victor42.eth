@@ -9,9 +9,12 @@
 - Unique tags: 333
 - Total tag assignments: 1996
 - Average tags per article: 3.83
-- Glossary tags: 106
-- Used tags missing from glossary: 233
-- Glossary tags unused in content: 6
+- Glossary tags (CN): 235
+- Glossary tags (EN): 113
+- Used tags missing from glossary (CN): 0
+- Used tags missing from glossary (EN): 0
+- Glossary tags unused in content (CN): 5
+- Glossary tags unused in content (EN): 2
 
 ## Usage Buckets
 
@@ -244,247 +247,23 @@
 
 ## Glossary Audit
 
-### Used tags missing from glossary
+### Used tags missing from glossary (Chinese)
 
-- `AE`
-- `AI Art`
-- `AI Awakening`
-- `AR`
-- `Adventure`
-- `After Effects`
-- `Alien`
-- `Android`
-- `Animal`
-- `Animation`
-- `Anthropology`
-- `Apocalypse`
-- `Apple`
-- `Architecture`
-- `Automation`
-- `Beijing`
-- `Biology`
-- `Blockchain`
-- `Book Review`
-- `Business`
-- `Career`
-- `Chemistry`
-- `Coming of Age`
-- `Cooking`
-- `Culture`
-- `DIY`
-- `Daily Life`
-- `Data`
-- `Data Analysis`
-- `Data Visualization`
-- `Desert`
-- `Design`
-- `Development`
-- `Doraemon`
-- `Dream`
-- `Dunhuang`
-- `ENS`
-- `Economy`
-- `Education`
-- `Efficiency`
-- `Elf`
-- `Energy`
-- `Entrepreneurship`
-- `Environment`
-- `Essay`
-- `Excel`
-- `Exploration`
-- `Family`
-- `Fan Fiction`
-- `Fantasy`
-- `Finance`
-- `Food`
-- `Forest`
-- `Future of Humanity`
-- `Gaming`
-- `Geography`
-- `Growth`
-- `Hangzhou`
-- `History`
-- `Home Improvement`
-- `Horror`
-- `Human Nature`
-- `Humor`
-- `IPFS`
-- `Inner Mongolia`
-- `Investment`
-- `LOGO`
-- `Language`
-- `Law`
-- `Magic`
-- `Material Design`
-- `Mathematics`
-- `Method`
-- `Middle East`
-- `Mobile`
-- `Museum`
-- `Nature`
-- `Ningxia`
-- `PS`
-- `Parenting`
-- `Philosophy`
-- `Phone`
-- `Photography`
-- `Physics`
-- `Product`
-- `Programming`
-- `Prompt Engineering`
-- `Psychology`
-- `Religion`
-- `Review`
-- `Road Trip`
-- `Robot`
-- `Rural`
-- `Savanna`
-- `Sci-Fi`
-- `Science`
-- `Search`
-- `Short Story`
-- `Sketch`
-- `Society`
-- `Space`
-- `Statistics`
-- `Survival`
-- `Suzhou`
-- `TV`
-- `Technology`
-- `Tool`
-- `Travel`
-- `Tutorial`
-- `UI`
-- `UX`
-- `VR`
-- `Vision`
-- `Windows`
-- `World of Warcraft`
-- `Writing`
-- `Xi'an`
-- `Xinjiang`
-- `Xishuangbanna`
-- `Yunnan`
-- `iOS`
-- `iPhone`
-- `三体`
-- `上海`
-- `专访`
-- `中东`
-- `丽水`
-- `书评`
-- `云南`
-- `交互设计`
-- `产品`
-- `亲子`
-- `亲情`
-- `作品集`
-- `信息设计`
-- `健康`
-- `儿童`
-- `内蒙古`
-- `写作`
-- `创业`
-- `动漫`
-- `动画`
-- `北京`
-- `区块链`
-- `南昌`
-- `博客`
-- `博物馆`
-- `历史`
-- `反乌托邦`
-- `可穿戴`
-- `后台`
-- `品牌`
-- `响应式`
-- `商业`
-- `图标`
-- `地理`
-- `字体`
-- `宁夏`
-- `宁波`
-- `家庭`
-- `导航`
-- `导视`
-- `工具`
-- `开发`
-- `影评`
-- `微交互`
-- `心理学`
-- `扁平化`
-- `手势`
-- `手机`
-- `投资`
-- `排版`
-- `提示词工程`
-- `搜索`
-- `摄影`
-- `效率`
-- `敦煌`
-- `数学`
-- `数据`
-- `数据分析`
-- `数据可视化`
-- `文化`
-- `文案`
-- `新疆`
-- `方法`
-- `无障碍`
-- `春节`
-- `杭州`
-- `栅格`
-- `汽车`
-- `沙漠`
-- `消费`
-- `深圳`
-- `渐变`
-- `澳门`
-- `热带雨林`
-- `物理`
-- `珠海`
-- `生物`
-- `用户研究`
-- `电商`
-- `科学`
-- `科普`
-- `移动端`
-- `童年`
-- `管理`
-- `精选`
-- `组件化`
-- `经济`
-- `统计学`
-- `编程`
-- `网页设计`
-- `能源`
-- `自动化`
-- `自驾`
-- `舞蹈`
-- `舟山`
-- `艺术`
-- `节日`
-- `苏州`
-- `蟑螂`
-- `西双版纳`
-- `西安`
-- `视频`
-- `设计规范`
-- `评测`
-- `语言`
-- `购房`
-- `趋势`
-- `跨平台`
-- `通知`
-- `配色`
-- `金融`
+None.
 
-### Glossary tags unused in content
+### Used tags missing from glossary (English)
+
+None.
+
+### Glossary tags unused in content (Chinese)
 
 - `DOTA`
-- `tag名`
 - `地心`
 - `微博`
 - `星际争霸`
 - `海底`
+
+### Glossary tags unused in content (English)
+
+- `DOTA`
+- `Deemo`
