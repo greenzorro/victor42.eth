@@ -38,16 +38,7 @@ jobs:
         run: |
           export GO111MODULE=on
           hugo mod tidy
-
-      - name: Copy Stack Theme Assets
-        run: |
-          MODULE_CACHE=$(find "$(go env GOPATH)/pkg/mod/github.com" -path '*/hugo-theme-stack/v3*/assets' -type d | head -n 1)
-          if [ -n "$MODULE_CACHE" ]; then
-            mkdir -p assets
-            cp -r "$MODULE_CACHE"/* assets/
-          else
-            echo "Stack theme assets not found in module cache; using repository assets directory."
-          fi
+          hugo mod graph
 
       - name: Build Hugo Site
         run: hugo --gc --minify

@@ -59,53 +59,19 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           # 注意: 不使用cache，因为主题没有package-lock.json
 
-      # 步骤3.5: 验证Hugo Modules
+      # 步骤3.5: 验证Hugo Modules（主题 assets 由 Hugo Modules 解析，无需拷贝进仓库）
       - name: Verify Hugo Modules
         run: |
           echo "🔍 验证Hugo Modules配置..."
           cat go.mod
           echo ""
-          echo "🔍 检查模块缓存..."
           hugo mod graph
           echo ""
-          echo "🔍 验证主题存在..."
-          ls -la $(go env GOPATH)/pkg/mod/github.com/CaiJimmy/ 2>/dev/null || echo "模块缓存位置未知"
-
-      # 步骤3.6: 复制Stack主题assets ⭐ 关键步骤
-      - name: Copy Stack Theme Assets
-        run: |
-          echo "📁 复制Stack主题资源文件..."
-          # 查找Go模块缓存
-          MODULE_CACHE=$(go env GOPATH)/pkg/mod/github.com/CaiJimmy/hugo-theme-stack/v3*
-          if [ -d "$MODULE_CACHE" ]; then
-            echo "✅ 找到主题: $MODULE_CACHE"
-            mkdir -p assets
-            cp -r $MODULE_CACHE/assets/* assets/ 2>/dev/null || echo "⚠️  资源复制失败"
-            echo "✅ 资源复制完成"
-            echo "SCSS文件数: $(find assets -name "*.scss" 2>/dev/null | wc -l)"
-            echo "TypeScript文件数: $(find assets -name "*.ts" 2>/dev/null | wc -l)"
-            echo "SVG图标文件数: $(find assets/icons -name "*.svg" 2>/dev/null | wc -l)"
-          else
-            echo "⚠️ 未找到主题assets目录，查找确切位置..."
-            find $(go env GOPATH)/pkg/mod -name "hugo-theme-stack*" -type d 2>/dev/null | head -5
-            echo "列出所有Go模块缓存..."
-            ls -la $(go env GOPATH)/pkg/mod/github.com/CaiJimmy/ 2>/dev/null | head -10 || echo "无此目录"
-          fi
-
-      # 步骤4: 验证构建环境
-      - name: Verify Build Environment
-        run: |
-          echo "🔍 环境验证..."
           echo "Hugo版本: $(hugo version)"
           echo "Node版本: $(node --version)"
-          echo "npm版本: $(npm --version)"
-          echo "内容目录: $(ls -la content/ | head -5)"
-          echo "assets目录: $(ls -la assets/ 2>/dev/null || echo '无assets目录')"
-          echo "SCSS资源: $(find assets/ -name "*.scss" 2>/dev/null | wc -l) 个文件"
-          echo "TypeScript资源: $(find assets/ -name "*.ts" 2>/dev/null | wc -l) 个文件"
-          echo "SVG图标资源: $(find assets/icons -name "*.svg" 2>/dev/null | wc -l) 个文件"
+          echo "项目 assets: $(find assets -type f 2>/dev/null | wc -l) 个文件"
 
-      # 步骤5: 执行Hugo构建
+      # 步骤4: 执行Hugo构建
       - name: Build Hugo Site
         run: |
           echo "🔨 开始构建Hugo站点..."

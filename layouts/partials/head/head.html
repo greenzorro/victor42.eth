@@ -13,38 +13,27 @@
 {{ if .IsPage }}
     {{ $currentURL := .Permalink }}
     {{ $translationKey := .Params.translationKey }}
-    
+
     {{ if and (in $currentURL "/post") $translationKey }}
         {{ $isEnglish := in $currentURL "/post-en/" }}
-        {{ $hasTranslation := false }}
         {{ $translationURL := "" }}
 
-        {{ if $isEnglish }}
-            <!-- 当前是英文版本，查找对应的中文版本 -->
-            {{ range .Site.Pages }}
-                {{ if and (eq .Params.translationKey $translationKey) (not (in .Permalink "/post-en/")) (in .Permalink "/post/") }}
-                    {{ $hasTranslation = true }}
+        {{ range where .Site.RegularPages "Params.translationKey" $translationKey }}
+            {{ if $isEnglish }}
+                {{ if and (not (in .Permalink "/post-en/")) (in .Permalink "/post/") }}
                     {{ $translationURL = .Permalink }}
-                    {{ break }}
                 {{ end }}
+            {{ else if in .Permalink "/post-en/" }}
+                {{ $translationURL = .Permalink }}
             {{ end }}
+        {{ end }}
 
-            {{ if $hasTranslation }}
+        {{ if $translationURL }}
+            {{ if $isEnglish }}
                 <link rel="alternate" hreflang="zh-CN" href="{{ $translationURL }}" />
                 <link rel="alternate" hreflang="en" href="{{ $currentURL }}" />
                 <link rel="alternate" hreflang="x-default" href="{{ $translationURL }}" />
-            {{ end }}
-        {{ else }}
-            <!-- 当前是中文版本，查找对应的英文版本 -->
-            {{ range .Site.Pages }}
-                {{ if and (eq .Params.translationKey $translationKey) (in .Permalink "/post-en/") }}
-                    {{ $hasTranslation = true }}
-                    {{ $translationURL = .Permalink }}
-                    {{ break }}
-                {{ end }}
-            {{ end }}
-
-            {{ if $hasTranslation }}
+            {{ else }}
                 <link rel="alternate" hreflang="zh-CN" href="{{ $currentURL }}" />
                 <link rel="alternate" hreflang="en" href="{{ $translationURL }}" />
                 <link rel="alternate" hreflang="x-default" href="{{ $currentURL }}" />

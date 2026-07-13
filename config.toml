@@ -21,7 +21,7 @@ buildfuture = true
     enable = true
 
 # 语言配置
-languageCode = 'en-us'
+languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
@@ -35,15 +35,13 @@ author = "Victor42"
 readingTime = true
 defaultPageLanguage = "zh-cn"
 favicon = "https://cdn.victor42.work/assets/favicon.ico"
+# Google Analytics (GA4)
+GoogleAnalytics = "G-H0F3NJJ4RT"
 
 # Author配置（Stack v3.32.0需要）
 [params.Author]
 name = "Victor42"
 email = "hi@victor42.work"
-
-# Google Analytics (GA4)
-# 用于网站访问统计
-GoogleAnalytics = "G-H0F3NJJ4RT"
 
 # 侧边栏配置
 [params.sidebar]
@@ -88,7 +86,7 @@ local = false
   [[menu.main]]
     identifier = "tools"
     name = "小玩意 - Creation"
-    url = "http://victor42.work/"
+    url = "https://work.victor42.work/"
     weight = -50
     params = { newTab = true, icon = "flask" }
 
