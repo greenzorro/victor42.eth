@@ -4,10 +4,10 @@
 
 ## Summary
 
-- Articles scanned: 521
-- Articles with tags: 521
+- Articles scanned: 523
+- Articles with tags: 523
 - Unique tags: 333
-- Total tag assignments: 1996
+- Total tag assignments: 2004
 - Average tags per article: 3.83
 - Glossary tags (CN): 235
 - Glossary tags (EN): 113
@@ -21,13 +21,13 @@
 | Articles per tag | Unique tag count |
 | --- | --- |
 | 1 | 143 |
-| 2 | 58 |
-| 3 | 26 |
-| 4-5 | 33 |
-| 6-10 | 29 |
+| 2 | 57 |
+| 3 | 27 |
+| 4-5 | 32 |
+| 6-10 | 30 |
 | 11-20 | 19 |
-| 21-50 | 21 |
-| 51-100 | 3 |
+| 21-50 | 20 |
+| 51-100 | 4 |
 | 101+ | 1 |
 
 ## Tags Per Article
@@ -36,7 +36,7 @@
 | --- | --- |
 | 2 | 114 |
 | 3 | 135 |
-| 4 | 122 |
+| 4 | 124 |
 | 5 | 75 |
 | 6 | 35 |
 | 7 | 30 |
@@ -49,12 +49,12 @@
 | `教程` | 119 | 设计译文-Design: 96, 折腾与思考-Geek: 23 |
 | `UI` | 83 | 设计译文-Design: 75, 折腾与思考-Geek: 8 |
 | `UX` | 61 | 设计译文-Design: 53, 折腾与思考-Geek: 8 |
+| `AI` | 51 | 折腾与思考-Geek: 40, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
 | `设计师` | 51 | 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
-| `AI` | 49 | 折腾与思考-Geek: 38, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
 | `科技` | 44 | 折腾与思考-Geek: 36, 神经病-Humor: 5, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
 | `美食` | 44 | 苟且与远方-Life: 28, 神经病-Humor: 14, 梦境与幻想-Dream: 2 |
 | `职场` | 43 | 折腾与思考-Geek: 12, 设计译文-Design: 12, 神经病-Humor: 11, 苟且与远方-Life: 8 |
-| `日常` | 41 | 神经病-Humor: 25, 折腾与思考-Geek: 14, 苟且与远方-Life: 2 |
+| `日常` | 42 | 神经病-Humor: 25, 折腾与思考-Geek: 15, 苟且与远方-Life: 2 |
 | `教育` | 38 | 折腾与思考-Geek: 24, 苟且与远方-Life: 12, 梦境与幻想-Dream: 1, 设计译文-Design: 1 |
 | `科普` | 37 | 折腾与思考-Geek: 37 |
 | `旅行` | 36 | 苟且与远方-Life: 26, 神经病-Humor: 5, 梦境与幻想-Dream: 4, 折腾与思考-Geek: 1 |
@@ -78,9 +78,9 @@
 | `烹饪` | 17 | 苟且与远方-Life: 16, 折腾与思考-Geek: 1 |
 | `育儿` | 16 | 苟且与远方-Life: 13, 神经病-Humor: 2, 折腾与思考-Geek: 1 |
 | `音乐` | 16 | 苟且与远方-Life: 8, 神经病-Humor: 5, 梦境与幻想-Dream: 3 |
+| `Daily Life` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `Design` | 16 | 折腾与思考-Geek: 16 |
 | `短篇小说` | 15 | 梦境与幻想-Dream: 15 |
-| `Daily Life` | 15 | 折腾与思考-Geek: 9, 苟且与远方-Life: 6 |
 | `Tutorial` | 14 | 折腾与思考-Geek: 14 |
 | `设计` | 13 | 折腾与思考-Geek: 13 |
 | `History` | 13 | 折腾与思考-Geek: 7, 苟且与远方-Life: 6 |
