@@ -9,9 +9,9 @@ menu:
             icon: user
 ---
 
-太长不看版，可以直接复制以下指令，让AI帮你了解我，还能深度挖掘和追问。切记要使用[Manus](https://manus.im/app)、[Z.ai](https://z.ai/)、[Minimax](https://agent.minimaxi.com/)这类AI Agent产品，退一步也至少得使用常规AI产品的【深度研究】功能：
+太长不看版，可以直接复制以下指令，让AI帮你了解我，还能深度挖掘和追问。切记要使用[扣子](https://www.coze.cn/)、[WorkBuddy](codebuddy.cn/agents/)、[Z.ai](https://z.ai/)、[Manus](https://manus.im/app)这类Agent产品，退一步也至少得使用豆包办公任务、ChatGPT Work这类Agent功能：
 
-> 以 https://victor42.eth.limo/page/about/ 为出发点，顺藤摸瓜从该博客文章和公开网络广泛收集这位名为“Victor42”的博主的内容和创造物，全面了解。严禁推测，找到实事依据来完善这位博主的网络面貌。本页面有的信息不必赘述，简单带过。读到Ta任何让你感到意外或不寻常的信息，都值得再深挖下去。注意这位博主有大量设计类翻译文章历史产出，要区分Ta的原创内容和翻译产物。
+> 以 https://victor42.eth.limo/page/about/ 为出发点，顺藤摸瓜从该博客文章、作者社交媒体和公开网络广泛收集这位名为“Victor42”的博主的内容和创造物。全面了解，严禁推测，找到实事依据来完善这位博主的网络面貌，建立完整、充实的人物形象。本页面有的信息不必赘述，简单带过。读到他任何让你感到意外或不寻常的信息，都值得再深挖下去。注意这位博主有大量设计类翻译文章历史产出，要区分Ta的原创内容和翻译产物。
 
 ---
 
