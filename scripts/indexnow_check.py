@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 import json
 import ssl
+import sys
 
 # ================= Configuration =================
 SITEMAP_URL = "https://victor42.eth.limo/sitemap.xml"
@@ -56,13 +57,13 @@ def main():
     status, body = fetch_url(SITEMAP_URL)
     if status != 200:
         print(f"Error: Failed to fetch sitemap from {SITEMAP_URL} (Status {status})")
-        return
+        return 1
         
     try:
         root = ET.fromstring(body)
     except Exception as e:
         print(f"Error: Failed to parse XML sitemap: {e}")
-        return
+        return 1
         
     # XML namespace handling
     ns = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
@@ -92,7 +93,7 @@ def main():
                     
     if not recent_urls:
         print(f"No URLs modified in the last {TIME_WINDOW_HOURS} hours.")
-        return
+        return 0
         
     print(f"Found {len(recent_urls)} recently modified URLs in sitemap:")
     for url in recent_urls:
@@ -111,7 +112,7 @@ def main():
             
     if not live_urls:
         print("None of the recently modified URLs are live yet. Exiting.")
-        return
+        return 0
         
     # 4. Submit live URLs to IndexNow
     print(f"Submitting {len(live_urls)} live URLs to IndexNow...")
@@ -131,9 +132,11 @@ def main():
     if submit_status == 200:
         print("Success: IndexNow notification sent successfully!")
         print(response_body.decode('utf-8', errors='ignore'))
+        return 0
     else:
         print(f"Error: IndexNow submission failed with status {submit_status}")
         print(response_body.decode('utf-8', errors='ignore') if isinstance(response_body, bytes) else response_body)
+        return 1
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
