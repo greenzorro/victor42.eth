@@ -86,7 +86,7 @@ local = false
   [[menu.main]]
     identifier = "tools"
     name = "小玩意 - Creation"
-    url = "https://work.victor42.work/"
+    url = "https://victor42.work/"
     weight = -50
     params = { newTab = true, icon = "flask" }
 
