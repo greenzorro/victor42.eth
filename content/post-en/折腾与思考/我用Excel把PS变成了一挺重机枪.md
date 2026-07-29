@@ -261,7 +261,7 @@ After setup, I met with operations. Marketing explained the four columns. No one
 Finally, resources. Try it yourself:
 
 -   [PS+Excel Batch Output Basic Tutorial](https://zhuanlan.zhihu.com/p/33725280)
--   [Workflow Files](https://my.feishu.cn/file/PGx8bMjyrohPp2x4DZ9ct0A9nIf?from=from_copylink)
+-   [Workflow Files](https://cloud.victor42.work/share/批量生成封面图工作流.zip)
 -   [PS Action Set (click the table of contents to jump)](https://my.feishu.cn/docx/SK0UdUPphoFBZpxJpEJcbZIsnRf?from=from_copylink)
 
 **Important Update**
