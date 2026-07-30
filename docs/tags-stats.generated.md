@@ -4,10 +4,10 @@
 
 ## Summary
 
-- Articles scanned: 523
-- Articles with tags: 523
+- Articles scanned: 525
+- Articles with tags: 525
 - Unique tags: 333
-- Total tag assignments: 2004
+- Total tag assignments: 2012
 - Average tags per article: 3.83
 - Glossary tags (CN): 235
 - Glossary tags (EN): 113
@@ -23,8 +23,8 @@
 | 1 | 143 |
 | 2 | 57 |
 | 3 | 27 |
-| 4-5 | 32 |
-| 6-10 | 30 |
+| 4-5 | 31 |
+| 6-10 | 31 |
 | 11-20 | 19 |
 | 21-50 | 20 |
 | 51-100 | 4 |
@@ -36,7 +36,7 @@
 | --- | --- |
 | 2 | 114 |
 | 3 | 135 |
-| 4 | 124 |
+| 4 | 126 |
 | 5 | 75 |
 | 6 | 35 |
 | 7 | 30 |
@@ -49,7 +49,7 @@
 | `教程` | 119 | 设计译文-Design: 96, 折腾与思考-Geek: 23 |
 | `UI` | 83 | 设计译文-Design: 75, 折腾与思考-Geek: 8 |
 | `UX` | 61 | 设计译文-Design: 53, 折腾与思考-Geek: 8 |
-| `AI` | 51 | 折腾与思考-Geek: 40, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
+| `AI` | 53 | 折腾与思考-Geek: 42, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
 | `设计师` | 51 | 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
 | `科技` | 44 | 折腾与思考-Geek: 36, 神经病-Humor: 5, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
 | `美食` | 44 | 苟且与远方-Life: 28, 神经病-Humor: 14, 梦境与幻想-Dream: 2 |
@@ -68,8 +68,8 @@
 | `哲学` | 26 | 折腾与思考-Geek: 11, 苟且与远方-Life: 11, 梦境与幻想-Dream: 4 |
 | `Science` | 26 | 折腾与思考-Geek: 26 |
 | `Technology` | 25 | 折腾与思考-Geek: 24, 苟且与远方-Life: 1 |
+| `历史` | 24 | 折腾与思考-Geek: 12, 苟且与远方-Life: 10, 设计译文-Design: 2 |
 | `Education` | 24 | 折腾与思考-Geek: 18, 苟且与远方-Life: 6 |
-| `历史` | 23 | 折腾与思考-Geek: 11, 苟且与远方-Life: 10, 设计译文-Design: 2 |
 | `社会` | 22 | 折腾与思考-Geek: 10, 苟且与远方-Life: 10, 梦境与幻想-Dream: 2 |
 | `移动端` | 19 | 设计译文-Design: 18, 折腾与思考-Geek: 1 |
 | `趋势` | 18 | 设计译文-Design: 18 |
@@ -78,14 +78,14 @@
 | `烹饪` | 17 | 苟且与远方-Life: 16, 折腾与思考-Geek: 1 |
 | `育儿` | 16 | 苟且与远方-Life: 13, 神经病-Humor: 2, 折腾与思考-Geek: 1 |
 | `音乐` | 16 | 苟且与远方-Life: 8, 神经病-Humor: 5, 梦境与幻想-Dream: 3 |
-| `Daily Life` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `Design` | 16 | 折腾与思考-Geek: 16 |
+| `Daily Life` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `短篇小说` | 15 | 梦境与幻想-Dream: 15 |
 | `Tutorial` | 14 | 折腾与思考-Geek: 14 |
+| `History` | 14 | 折腾与思考-Geek: 8, 苟且与远方-Life: 6 |
+| `工具` | 13 | 折腾与思考-Geek: 11, 设计译文-Design: 2 |
 | `设计` | 13 | 折腾与思考-Geek: 13 |
-| `History` | 13 | 折腾与思考-Geek: 7, 苟且与远方-Life: 6 |
 | `Philosophy` | 13 | 折腾与思考-Geek: 6, 苟且与远方-Life: 5, 梦境与幻想-Dream: 2 |
-| `工具` | 12 | 折腾与思考-Geek: 10, 设计译文-Design: 2 |
 | `成长` | 12 | 设计译文-Design: 7, 折腾与思考-Geek: 3, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
 | `建筑` | 12 | 苟且与远方-Life: 6, 神经病-Humor: 2, 设计译文-Design: 2, 折腾与思考-Geek: 1 |
 | `Product` | 12 | 折腾与思考-Geek: 12 |
