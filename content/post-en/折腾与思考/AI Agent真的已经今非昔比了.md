@@ -2,12 +2,14 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "Technology", "Product"]
 date: 2025-10-31 15:46:00
-description: I just realized AI agents can now solve real-world problems. They are not toys anymore.
+description: An in-depth evaluation of Kimi, GLM, and Minimax AI Agents across complex tasks, introducing a 4-quadrant task model and workflows to bypass login walls.
 image: https://cdn.victor42.work/posts/2025-10/fa3e1420ce5ad04750a70cf47af3b382.webp
 title: AI Agents Have Come a Long Way
 url: /post-en/ai-agent-evolution
 translationKey: ai-agent-evolution
 ---
+
+I just realized AI agents can now solve real-world problems. They are not toys anymore.
 
 After the initial hype around agents like Manus, I tested them on complex, real-world tasks like generating presentations. They were far from practical back then. Has that changed? It’s time for another look.
 

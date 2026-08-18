@@ -1,6 +1,6 @@
 ---
 title: AI输出高质量科普文
-description: 不是教你拿AI来糊弄读者，是分享使用AI的精髓。
+description: AI辅助创作高质量科普文的4步SOP：系统拆解与大模型深度探究、人工费曼大纲构建、文风模仿正文生成与智能图文协同全流程，探讨以认知复利为核心的人机协同写作方法论。
 image: https://cdn.victor42.work/posts/2025-06/f7b0ee2995396053cda405410209e00b.webp
 date: 2025-06-30 20:03:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "科普", "教育", "写作"]
 url: /post/ai-generate-popular-science-article 
 translationKey: ai-generate-popular-science-article
 ---
+
+不是教你拿AI来糊弄读者，是分享使用AI的精髓。
 
 前阵子写了篇化学科普文，[水为什么能灭火](https://victor42.eth.limo/post/how-water-puts-out-fire/)。不知道大家有没有看出来，我这篇文章其实是AI生成的？
 

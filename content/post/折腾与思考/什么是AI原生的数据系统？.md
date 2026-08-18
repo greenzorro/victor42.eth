@@ -1,6 +1,6 @@
 ---
 title: 什么是AI原生的数据系统？
-description: 我的数据管理方式，随工具发展的几次变迁。
+description: 个人数据管理系统演进与AI Native实践：从Excel、飞书多维表到本地SQLite+AI Agent驱动的自动化排期系统，践行“洗碗机哲学”，详解用自然语言读写数据库赎回时间的系统架构。
 image: https://cdn.victor42.work/posts/2026-06/01a9a53be38ac38125ec5e439d0ee2d1.webp
 date: 2026-06-09 16:12:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "科技", "数据", "工具", "产品"]
 url: /post/ai-native-data-system
 translationKey: ai-native-data-system
 ---
+
+我的数据管理方式，随工具发展的几次变迁。
 
 我Excel/Google Sheets用得很溜，[大量用它们管理工作和生活](https://qvokpfxqsh.feishu.cn/wiki/G8OywdlWji0H31kJ0KwciaJ8nAd)。
 

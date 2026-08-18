@@ -1,12 +1,14 @@
 ---
 title: win8小试
-description: Windows 8体验
+description: 微软Windows 8早期预览版深度上手评测：从UI设计师视角体验Metro动态磁贴、屏幕热角与手势交互、Charms侧边栏，并实测传统桌面兼容性与输入法逻辑变革。
 image: 
 date: 2012-03-16 17:28:00
 categories: 折腾与思考-Geek
 tags: ["科技", "Windows", "评测"]
 url: /post/1485
 ---
+
+Windows 8体验
 
 装了个win8系统，尽管还是 ComsumerPreview 版，仍然用得不亦乐乎。我就是猎奇心重，特别是对这些科技界的新鲜玩意毫无抵抗力，下面我们来看看微软这番大动干戈究竟葫芦里卖的是什么药 
 

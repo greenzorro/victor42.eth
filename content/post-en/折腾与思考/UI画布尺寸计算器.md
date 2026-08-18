@@ -1,6 +1,6 @@
 ---
 title: UI Canvas Size Calculator
-description: I built a simple tool for my wife that other UI and industrial designers might find useful.
+description: A UI canvas calculator for non-standard screens: explaining PPI, viewing distance constants, and statistical boxplots behind designing for IoT displays.
 image: https://cdn.victor42.work/posts/2025-06/593bba684765381e0ac910413a657590.webp
 date: 2025-06-10 17:27:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["Design", "Tool", "AI", "Product"]
 url: /post-en/ui-canvas-size-calculator
 translationKey: ui-canvas-size-calculator
 ---
+
+I built a simple tool for my wife that other UI and industrial designers might find useful.
 
 > "When designing a UI for this screen, how big should I make my canvas?"
 

@@ -50,6 +50,20 @@
     gap: 10px;
 }
 
+/* SEO description shown as subtitle: same size as date/reading time on all devices */
+.article-subtitle {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: var(--card-text-color-tertiary);
+    line-height: 1.5;
+}
+
+@media (min-width: 1280px) {
+    .article-subtitle {
+        font-size: 1.4rem;
+    }
+}
+
 /* Time icon */
 .article-time svg {
     margin-right: 5px;

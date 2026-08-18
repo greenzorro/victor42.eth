@@ -1,6 +1,6 @@
 ---
 title: 卖AI图，从开单到金盆洗手
-description: 一篇关于AI生图和赚钱的长文，有教程，但主线是个故事。
+description: AI插画商业化实战与全流程自动化复盘：详述基于Flux dev、ComfyUI API与RunComfy云端算力搭建批量生图流水线的全过程，剖析接单交付、返工成本与商业退场的真实教训。
 image: https://cdn.victor42.work/posts/2025-05/89852ef4042c193cd77916efb0cf70b6.webp
 date: 2025-05-08 17:22:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "AI绘画", "商业", "教程"]
 url: /post/automate-ai-illustrations-production
 translationKey: automate-ai-illustrations-production
 ---
+
+一篇关于AI生图和赚钱的长文，有教程，但主线是个故事。
 
 我接了个活，为一家童书电商公司生产教辅插图。本文记录了我如何分析可行性，如何做前期准备，如何干完第一单，如何决定金盆洗手的整个过程。
 

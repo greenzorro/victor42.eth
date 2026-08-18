@@ -1,6 +1,6 @@
 ---
 title: What is an AI Native Data System
-description: How my data management evolved alongside tools
+description: The evolution of personal data management: migrating from Excel and Bitable to an AI-native local SQLite system managed by agents to reclaim life.
 image: https://cdn.victor42.work/posts/2026-06/01a9a53be38ac38125ec5e439d0ee2d1.webp
 date: 2026-06-09 16:12:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "Technology", "Data", "Tool", "Product"]
 url: /post-en/ai-native-data-system
 translationKey: ai-native-data-system
 ---
+
+How my data management evolved alongside tools
 
 I am a power user of Excel and Google Sheets, [relying on them heavily to manage both work and life](https://qvokpfxqsh.feishu.cn/wiki/G8OywdlWji0H31kJ0KwciaJ8nAd).
 

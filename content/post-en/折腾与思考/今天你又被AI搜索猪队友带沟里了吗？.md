@@ -1,6 +1,6 @@
 ---
 title: AI Search Got You Stuck?
-description: Read this, and you might just pull yourself (and the AI) out of the ditch.
+description: A guide to overcoming AI search pitfalls: analyzing reasoning bottlenecks across tricky real-world queries and how to reclaim manual search control.
 image: https://cdn.victor42.work/posts/2025-02/84O7u4RISVmTo0al7fmLUA.jpg
 date: 2025-02-26 12:14:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "Technology", "Science", "Review"]
 url: /post-en/ai-search
 translationKey: ai-search
 ---
+
+Read this, and you might just pull yourself (and the AI) out of the ditch.
 
 I've been looking for a truly reliable AI search tool. I figured I'd just test it with some representative questions. Turns out, I was in over my head.
 

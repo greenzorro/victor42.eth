@@ -1,6 +1,6 @@
 ---
 title: Can AI Make PPTs Independently Now
-description: Deep thinking, deep research, who cares? If AI can't even make a PPT, how will it replace humans?
+description: A benchmark evaluating Tiangong, Coze, Manus, and Lovart on independently creating an illustrated geology presentation, analyzing their real capabilities.
 image: https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9b.webp
 date: 2025-05-23 15:46:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "Technology", "Product", "Review"]
 url: /post-en/ai-generated-ppt
 translationKey: ai-generated-ppt
 ---
+
+Deep thinking, deep research, who cares? If AI can't even make a PPT, how will it replace humans?
 
 I ran an interesting test for AI agents: to create a presentation on the history of Earth's geological eras, complete with text and images.
 

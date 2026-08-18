@@ -1,6 +1,6 @@
 ---
 title: Why AI Fails at Work
-description: It's a weird disconnect - everyone's playing with AI, while bosses trying to implement it at work are hitting a wall.
+description: Why enterprise AI adoption hits a wall: analyzing the tension between corporate specialization and LLM capabilities, plus survival strategies for workers.
 image: https://cdn.victor42.work/posts/2025-06/72358370443a48e8cf01f51a4d8e7fd3.webp
 date: 2025-06-09 10:02:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "Career", "Business", "Technology"]
 url: /post-en/barriers-to-ai-adoption-in-companies
 translationKey: barriers-to-ai-adoption-in-companies
 ---
+
+It's a weird disconnect - everyone's playing with AI, while bosses trying to implement it at work are hitting a wall.
 
 Two big, interconnected reasons:
 

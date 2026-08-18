@@ -1,6 +1,6 @@
 ---
 title: 今天你又被AI搜索猪队友带沟里了吗？
-description: 看完这篇，你或许可以把自己和它从沟里拉出来。
+description: AI搜索避坑指南与四象限选型模型：深度复盘大模型在长尾实体、复杂关系链与误导性问题上的翻车案例，提出推理与信息量四象限评估框架，详解多轮交互与跨语种选型策略。
 image: https://cdn.victor42.work/posts/2025-02/84O7u4RISVmTo0al7fmLUA.jpg
 date: 2025-02-26 12:14:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "科技", "科普", "评测"]
 url: /post/ai-search
 translationKey: ai-search
 ---
+
+看完这篇，你或许可以把自己和它从沟里拉出来。
 
 一直想要一款令人完全放心的AI搜索工具，开始以为需求很简单，拿着一批有代表性的问题一个个试，结果发现进入了AI深水区。
 

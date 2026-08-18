@@ -1,6 +1,6 @@
 ---
 title: AI现在能独立做PPT了吗？
-description: 我不管你什么深度思考，什么深度研究，连PPT都做不了还取代人类？
+description: AI智能体制作PPT能力横向评测：以“地球地质年代”图文报告为例，深度实测天工、扣子空间、Manus与Lovart在任务规划、网络搜图、排版设计与文件转换上的真实表现。
 image: https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9b.webp
 date: 2025-05-23 15:46:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "科技", "产品", "评测"]
 url: /post/ai-generated-ppt
 translationKey: ai-generated-ppt
 ---
+
+我不管你什么深度思考，什么深度研究，连PPT都做不了还取代人类？
 
 一个有趣的Agent测试：做一份图文并茂的关于地球地质年代历史的分享报告。
 

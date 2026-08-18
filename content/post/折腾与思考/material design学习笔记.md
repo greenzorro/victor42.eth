@@ -1,6 +1,6 @@
 ---
 title: material design学习笔记
-description: 
+description: Google Material Design设计规范深度拆解与实战笔记：系统总结物理纸片隐喻、Z轴海拔高度与光影、动效曲线与涟漪反馈、色彩栅格以及核心UI组件的落地设计法则。
 image: 
 date: 2014-12-28 12:36:00
 categories: 折腾与思考-Geek

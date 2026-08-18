@@ -1,6 +1,6 @@
 ---
 title: AI生物学家
-description: 我用AI给自己造了一位生物学家，但它也被水产市场难倒了。
+description: AI提示词工程与生物分类识别实战：针对水产错别字“古眼鱼”引发的大模型幻觉，设计具备同音异字容错与多源联网核验的“AI生物学家”提示词，实测对比Gemini与Perplexity。
 image: https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg
 date: 2024-03-20 15:06:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "生物", "科技", "提示词工程"]
 url: /post/3649
 translationKey: '3649'
 ---
+
+我用AI给自己造了一位生物学家，但它也被水产市场难倒了。
 
 ![深褐色扁平比目鱼放置在圆形木盘上，配有生菜叶、冰块、八角和干红辣椒，展示山东特产鼓眼鱼的外观特征](https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg)
 

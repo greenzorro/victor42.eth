@@ -2,12 +2,14 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "科技", "产品"]
 date: 2025-10-31 15:46:00
-description: 猛然发现，现在真的能用Agent解决实际问题了，不再是玩具。
+description: AI Agent实用评测与工作流实操：实测Kimi、GLM与Minimax在复杂调研与代码生成中的表现，提出任务四象限模型，详解突破平台登录墙与结合NotebookLM的深度研究流。
 image: https://cdn.victor42.work/posts/2025-10/fa3e1420ce5ad04750a70cf47af3b382.webp
 title: AI Agent真的已经今非昔比了
 url: /post/ai-agent-evolution
 translationKey: ai-agent-evolution
 ---
+
+猛然发现，现在真的能用Agent解决实际问题了，不再是玩具。
 
 Manus那一波Agent概念火过之后，当时拿各种真实的复杂任务去测试，包括生成PPT，离解决实际问题还有一段距离。今天，情况是否不同了？值得再研究一次看看。
 

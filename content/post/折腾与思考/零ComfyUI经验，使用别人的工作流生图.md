@@ -1,6 +1,6 @@
 ---
 title: 零ComfyUI经验，使用Liblib的工作流生图
-description: 真的0基础，就像用微信小程序一样。
+description: 零基础玩转LiblibAI与ComfyUI生图工作流教程：详解打包应用运行、核心输入节点快速识别技巧，以及模型缺失报红等90%常见错误的下拉替换与修复方案。
 image: https://cdn.victor42.work/posts/2025-02/65e10ec43957abff3dbb183248e33bd3.webp
 date: 2025-02-27 12:15:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "AI绘画", "教程", "工具"]
 url: /post/comfyui-workflow-tutorial-for-newbies
 translationKey: comfyui-workflow-tutorial-for-newbies
 ---
+
+真的0基础，就像用微信小程序一样。
 
 [LiblibAI-哩布哩布AI - 中国领先的AI创作平台](https://www.liblib.art/workflows)
 

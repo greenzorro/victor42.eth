@@ -1,6 +1,6 @@
 ---
 title: 克莱默们 The Kramers
-description: 
+description: 经典家庭伦理电影《克莱默夫妇》观后感随笔：从单亲家庭孩子Bill的境遇投射个人童年成长经历，细腻感怀家庭破裂下的亲情挣扎与对纯真童年的守护。
 image: 
 date: 2011-02-05 00:22:00
 categories: 苟且与远方-Life

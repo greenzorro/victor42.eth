@@ -1,6 +1,6 @@
 ---
 title: 易停车icon变形记
-description: 
+description: 停车工具类App应用图标设计与迭代复盘：从一代“P”字路网具象符号，到适配iOS 7与Android扁平化规范的二代极简图钉方案，详解Icon视觉语义提炼与演变全流程。
 image: 
 date: 2014-04-27 13:53:52
 categories: 折腾与思考-Geek

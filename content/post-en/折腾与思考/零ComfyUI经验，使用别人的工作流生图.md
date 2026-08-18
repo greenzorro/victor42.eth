@@ -1,6 +1,6 @@
 ---
 title: Using Liblib ComfyUI Workflows with Zero Experience
-description: It's as easy as using a mini-app. No experience needed.
+description: A beginner-friendly guide to running ComfyUI workflows on LiblibAI without experience: identifying key nodes, loading models, and fixing 90% of errors.
 image: https://cdn.victor42.work/posts/2025-02/65e10ec43957abff3dbb183248e33bd3.webp
 date: 2025-02-27 12:15:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "AI Art", "Tutorial", "Tool"]
 url: /post-en/comfyui-workflow-tutorial-for-newbies
 translationKey: comfyui-workflow-tutorial-for-newbies
 ---
+
+It's as easy as using a mini-app. No experience needed.
 
 [LiblibAI](https://www.liblib.art/workflows)
 

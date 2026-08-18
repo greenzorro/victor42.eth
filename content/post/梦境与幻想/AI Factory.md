@@ -1,12 +1,14 @@
 ---
 title: AI Factory
-description: A weird dream.
+description: 英文超现实科幻短篇小说：荒诞记录AI算法股东掌权、人类充当工人的自动化工厂梦境，描绘每逢季度产能调低即遭遇机器人定期血腥清洗与重置的冰冷赛博寓言。
 image: 
 date: 2021-06-17 11:15:44
 categories: 梦境与幻想-Dream
 tags: ["梦", "AI", "科幻", "短篇小说", "英语", "恐怖"]
 url: /post/3599
 ---
+
+A weird dream.
 
 Dreamt of being hired as a manager to operate a factory. What's special about it is the shareholders are all artificial intelligent programs rather than humans, while the workers are humans rather than robots.
 

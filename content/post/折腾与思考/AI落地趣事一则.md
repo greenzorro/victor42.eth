@@ -2,12 +2,14 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "职场", "设计师", "科技"]
 date: 2026-04-03 09:42:00
-description: 让你一窥当前AI大潮众生相。
+description: 企业AI落地职场魔幻实录：真实记录将成熟高效的Excel-PS批量出图Python脚本，为迎合考核强行包装为云端AI钉钉机器人的全过程，幽默反思企业AI热潮下的形式主义与情绪价值。
 image: https://cdn.victor42.work/posts/2026-04/5c4ba548b31db35137c4d2b685767ba3.webp
 title: AI落地趣事一则
 url: /post/the-great-ai-ification
 translationKey: the-great-ai-ification
 ---
+
+让你一窥当前AI大潮众生相。
 
 公司每天要产大量固定模板的图，课程封面、推广位、喷绘横幅、桌签、臂贴等。基本都是改改文字，并根据类型从一批固定的背景图中选一张用。
 

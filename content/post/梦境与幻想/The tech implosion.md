@@ -1,12 +1,14 @@
 ---
 title: The tech implosion
-description: A dream of parallel universe.
+description: 架空历史与赛博朋克科幻微型故事：构想1914年由科技互联网巨头联盟统治的平行宇宙，因算法垄断与商业帝国入侵引发轰炸数据中心的全球战争，记录科技内爆时代。
 image: 
 date: 2022-02-10 10:36:00
 categories: 梦境与幻想-Dream
 tags: ["梦", "平行世界", "科幻", "科技", "战争", "短篇小说"]
 url: /post/3607
 ---
+
+A dream of parallel universe.
 
 What a ridiculous dream. 
 

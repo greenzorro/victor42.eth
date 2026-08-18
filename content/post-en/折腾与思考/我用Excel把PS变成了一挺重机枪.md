@@ -1,6 +1,6 @@
 ---
 title: Turning Photoshop into a Machine Gun with Excel
-description: How a designer with Excel skills saved his company a bundle.
+description: A guide to automating design production: using Excel relational data models and Photoshop variables to batch-generate 800+ complex course banners.
 image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
 date: 2024-06-13 14:05:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["Design", "Excel", "Automation", "Tutorial", "Career"]
 url: /post-en/3650
 translationKey: '3650'
 ---
+
+How a designer with Excel skills saved his company a bundle.
 
 I heard Marketing was tearing their hair out. The boss greenlit the new course cover design, and now they needed to update all 800+ existing covers. It wasn't a simple find-and-replace; there were tons of small differences.  Marketing has only one designer, and they were slammed. Doing it in-house? No way. Outsourcing would cost 20 RMB per image, totaling 16,000 RMB – a budget buster.
 

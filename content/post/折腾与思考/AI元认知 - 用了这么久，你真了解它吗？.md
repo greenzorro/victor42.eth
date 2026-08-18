@@ -1,6 +1,6 @@
 ---
 title: AI元认知 - 用了这么久，你真了解它吗？
-description: 一篇让你醍醐灌顶的AI认知指南。
+description: 通俗易懂的AI底层逻辑与元认知科普：借“地牢智者”与“剧本续写机”形象隐喻，深度拆解大模型缺乏常识与幻觉的本质成因，并提供让AI精准听话的提示词思维框架。
 image: https://cdn.victor42.work/posts/2025-05/09dbc0f7779d7896470f8ffc876d936d.webp
 date: 2025-05-22 17:50:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "教育", "科普", "科技"]
 url: /post/do-you-really-know-ai
 translationKey: do-you-really-know-ai
 ---
+
+一篇让你醍醐灌顶的AI认知指南。
 
 前些天受邀去前司做了一次AI相关分享，为他们团队解决业务问题。准备分享资料时，我加了一章观念性质的内容，特别针对非技术人员，希望把大家对AI的理解提到一个更高的层次，这样许多细枝末节的问题自然就会有答案。
 

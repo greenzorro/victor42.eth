@@ -1,6 +1,6 @@
 ---
 title: 主流Android分辨率简报
-description: 
+description: 主流Android设备屏幕分辨率与长宽比信息图简报：统计分析市场主流机型的屏幕分辨率分布、DPI密度与长宽比例，为移动UI设计师与开发者提供适配参考。
 image: 
 date: 2014-03-29 23:23:00
 categories: 折腾与思考-Geek

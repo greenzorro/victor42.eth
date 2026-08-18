@@ -2,12 +2,14 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "Technology", "Tool", "Tutorial"]
 date: 2026-01-27 12:53:00
-description: Wrote this manual for non-techies after configuring an AI browser agent for a colleague to handle daily tasks.
+description: A step-by-step guide to building a free AI browser using Qwen Code and Playwright MCP for automated web browsing, data scraping, and local file operations.
 image: https://cdn.victor42.work/posts/2026-01/cover_8507112dd258338059b10da2ab045380.webp
 title: Build Your Own Free AI Browser
 url: /post-en/free-ai-browser-for-everyone
 translationKey: free-ai-browser-for-everyone
 ---
+
+Wrote this manual for non-techies after configuring an AI browser agent for a colleague to handle daily tasks.
 
 This guide brings powerful AI browsing capabilities to the average user. If you are an AI power user, this might be old news, but feel free to share it with your non-tech friends.
 

@@ -1,6 +1,6 @@
 ---
 title: Selling AI Art - From First Order to Calling It Quits
-description: A story about generating AI images for profit, with some tutorials. A long read.
+description: A case study on monetizing AI art: building a Flux and ComfyUI batch pipeline on cloud GPUs, taking orders, then quitting while ahead.
 image: https://cdn.victor42.work/posts/2025-05/89852ef4042c193cd77916efb0cf70b6.webp
 date: 2025-05-08 17:22:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "AI Art", "Business", "Tutorial"]
 url: /post-en/automate-ai-illustrations-production
 translationKey: automate-ai-illustrations-production
 ---
+
+A story about generating AI images for profit, with some tutorials. A long read.
 
 I landed a gig creating illustrations for a children's e-book company. This article chronicles my journey: from assessing feasibility and initial prep to delivering the first order and, ultimately, walking away.
 

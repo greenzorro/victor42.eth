@@ -1,6 +1,6 @@
 ---
 title: 丸子烘焙LOGO诞生记
-description: 
+description: 手工蛋糕店品牌LOGO与定制字体设计实战复盘：记录从小丸子发型与流淌巧克力酱的双关草图构思、到卡通圆润中文标准字绘制与品牌配色确立的完整设计全流程。
 image: 
 date: 2013-04-23 21:21:00
 categories: 折腾与思考-Geek

@@ -2,12 +2,14 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "科技", "工具", "教程"]
 date: 2026-01-27 12:53:00
-description: 帮同事配置AI操作浏览器来完成日常任务，顺手写了这个给非技术人员的使用手册。
+description: 零门槛打造个人免费AI浏览器教程：详解基于Qwen Code与Playwright MCP的配置指南，无需梯子与复杂开发，让AI在终端内直接接管Chrome/Edge执行网页自动化与数据抓取。
 image: https://cdn.victor42.work/posts/2026-01/cover_8507112dd258338059b10da2ab045380.webp
 title: 打造个人免费AI浏览器
 url: /post/free-ai-browser-for-everyone
 translationKey: free-ai-browser-for-everyone
 ---
+
+帮同事配置AI操作浏览器来完成日常任务，顺手写了这个给非技术人员的使用手册。
 
 这是一份能让普通用户用上强大的AI浏览器的手册。如果你是AI资深玩家，这里可能没有陌生的东西，但仍然欢迎分享给你认识的普通用户朋友。
 

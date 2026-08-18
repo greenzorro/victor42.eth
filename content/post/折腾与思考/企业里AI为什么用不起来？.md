@@ -1,6 +1,6 @@
 ---
 title: 企业里AI为什么用不起来？
-description: 一个怪现象：一边是人们玩AI风生水起，一边是老板在公司推AI四处碰壁。
+description: 企业AI落地受阻与职场竞争力的底层逻辑：深度剖析现代商业精细分工与大模型专业天花板的结构性矛盾，借“洪水与造船”地形模型，阐述普通人与专业人士的应对策略。
 image: https://cdn.victor42.work/posts/2025-06/72358370443a48e8cf01f51a4d8e7fd3.webp
 date: 2025-06-09 10:02:00
 categories: 折腾与思考-Geek
@@ -8,6 +8,8 @@ tags: ["AI", "职场", "商业", "科技"]
 url: /post/barriers-to-ai-adoption-in-companies
 translationKey: barriers-to-ai-adoption-in-companies
 ---
+
+一个怪现象：一边是人们玩AI风生水起，一边是老板在公司推AI四处碰壁。
 
 原因有两个，是相互高度关联的：
 
