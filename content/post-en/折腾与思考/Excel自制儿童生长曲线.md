@@ -1,6 +1,6 @@
 ---
 title: Creating Custom Child Growth Charts in Excel
-description: Build a custom child growth tracker in Excel using OCR, ChatGPT data cleaning, and WHO/NHC standard-deviation Z-score charts for height and weight.
+description: "Build a custom child growth tracker in Excel using OCR, ChatGPT data cleaning, and WHO/NHC standard-deviation Z-score charts for height and weight."
 image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
 date: 2023-08-03 14:30:00
 categories: 折腾与思考-Geek

@@ -1,6 +1,6 @@
 ---
 title: Can AI Make PPTs Independently Now
-description: A benchmark evaluating Tiangong, Coze, Manus, and Lovart on independently creating an illustrated geology presentation, analyzing their real capabilities.
+description: "A benchmark evaluating Tiangong, Coze, Manus, and Lovart on independently creating an illustrated geology presentation, analyzing their real capabilities."
 image: https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9b.webp
 date: 2025-05-23 15:46:00
 categories: 折腾与思考-Geek

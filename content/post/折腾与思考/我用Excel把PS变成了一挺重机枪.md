@@ -1,6 +1,6 @@
 ---
 title: 我用Excel把PS变成了一挺重机枪
-description: Excel结合Photoshop批量自动化出图实战教程：从数据模型规划切入，详解利用Excel公式处理动态标题折行、分类背景映射与图层可见性，驱动单一PSD批量导出数百张高保真设计图。
+description: "Excel结合Photoshop批量自动化出图实战教程：从数据模型规划切入，详解利用Excel公式处理动态标题折行、分类背景映射与图层可见性，驱动单一PSD批量导出数百张高保真设计图。"
 image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
 date: 2024-06-13 14:05:00
 categories: 折腾与思考-Geek

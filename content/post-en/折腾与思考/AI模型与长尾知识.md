@@ -1,6 +1,6 @@
 ---
 title: AI Models and Long-Tail Knowledge
-description: A benchmark comparing GPT-3.5, Claude, and Bard on long-tail knowledge, analyzing how web search plugins empower LLMs beyond static training datasets.
+description: "A benchmark comparing GPT-3.5, Claude, and Bard on long-tail knowledge, analyzing how web search plugins empower LLMs beyond static training datasets."
 image:
 date: 2023-10-10 23:38:00
 categories: 折腾与思考-Geek

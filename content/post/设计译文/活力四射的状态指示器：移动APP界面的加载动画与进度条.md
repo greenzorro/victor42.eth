@@ -1,6 +1,6 @@
 ---
 title: 活力四射的状态指示器:移动APP界面的加载动画与进度条
-description: 
+description: ""
 image: 
 date: 2013-07-14 20:42:18
 categories: 设计译文-Design

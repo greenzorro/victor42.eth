@@ -1,6 +1,6 @@
 ---
 title: AE环形进度条
-description: After Effects 制作透明环形进度条动效教程：详解基于左右半圆旋转遮罩与父级绑定的经典解法，并对比更高效的修剪路径 Trim Paths 极简制作方案。
+description: "After Effects 制作透明环形进度条动效教程：详解基于左右半圆旋转遮罩与父级绑定的经典解法，并对比更高效的修剪路径 Trim Paths 极简制作方案。"
 image:
 date: 2015-02-10 15:16:00
 categories: 折腾与思考-Geek

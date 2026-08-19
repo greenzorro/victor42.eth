@@ -1,6 +1,6 @@
 ---
 title: AI Search Got You Stuck?
-description: A guide to overcoming AI search pitfalls: analyzing reasoning bottlenecks across tricky real-world queries and how to reclaim manual search control.
+description: "A guide to overcoming AI search pitfalls: analyzing reasoning bottlenecks across tricky real-world queries and how to reclaim manual search control."
 image: https://cdn.victor42.work/posts/2025-02/84O7u4RISVmTo0al7fmLUA.jpg
 date: 2025-02-26 12:14:00
 categories: 折腾与思考-Geek

@@ -1,6 +1,6 @@
 ---
 title: 让你的Logo被采纳：8步优化设计流程
-description: 
+description: ""
 image: 
 date: 2016-02-28 02:10:00
 categories: 设计译文-Design

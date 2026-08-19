@@ -2,7 +2,7 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "Technology", "Tool", "Tutorial"]
 date: 2026-02-14 23:47:00
-description: Building a self-evolving AI memory system: distilling the essence of OpenClaw into a lightweight Git repository to give any coding agent persistent memory.
+description: "Building a self-evolving AI memory system: distilling the essence of OpenClaw into a lightweight Git repository to give any coding agent persistent memory."
 image: https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp
 title: Skipping Openclaw but Stealing Its Soul
 url: /post-en/personal-memory-system-for-any-agent

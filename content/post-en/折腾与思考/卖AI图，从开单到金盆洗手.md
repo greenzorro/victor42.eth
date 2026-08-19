@@ -1,6 +1,6 @@
 ---
 title: Selling AI Art - From First Order to Calling It Quits
-description: A case study on monetizing AI art: building a Flux and ComfyUI batch pipeline on cloud GPUs, taking orders, then quitting while ahead.
+description: "A case study on monetizing AI art: building a Flux and ComfyUI batch pipeline on cloud GPUs, taking orders, then quitting while ahead."
 image: https://cdn.victor42.work/posts/2025-05/89852ef4042c193cd77916efb0cf70b6.webp
 date: 2025-05-08 17:22:00
 categories: 折腾与思考-Geek

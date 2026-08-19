@@ -1,6 +1,6 @@
 ---
 title: Creating a Circular Progress Bar in AE
-description: Learn how to create a smooth circular progress bar animation in After Effects using shape layers, merge paths, rotation keyframes, and track mattes.
+description: "Learn how to create a smooth circular progress bar animation in After Effects using shape layers, merge paths, rotation keyframes, and track mattes."
 image:
 date: 2015-02-10 15:16:00
 categories: 折腾与思考-Geek

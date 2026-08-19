@@ -1,6 +1,6 @@
 ---
 title: 新的APP演示良方:GIF动画
-description: 
+description: ""
 image: 
 date: 2014-04-13 13:24:03
 categories: 设计译文-Design

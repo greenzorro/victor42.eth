@@ -2,7 +2,7 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "科技", "工具", "教程"]
 date: 2026-02-14 23:47:00
-description: 个人AI记忆系统设计与Agent自进化实操：从OpenClaw热潮与Moltbook社交实验切入，提炼记忆与自进化内核，详解基于轻量Git仓库构建跨Agent通用记忆系统的开源方案。
+description: "个人AI记忆系统设计与Agent自进化实操：从OpenClaw热潮与Moltbook社交实验切入，提炼记忆与自进化内核，详解基于轻量Git仓库构建跨Agent通用记忆系统的开源方案。"
 image: https://cdn.victor42.work/posts/2026-02/6d5235b1aa32024027e4f2e055273001.webp
 title: 我没玩Openclaw，但把它的魂学来了
 url: /post/personal-memory-system-for-any-agent

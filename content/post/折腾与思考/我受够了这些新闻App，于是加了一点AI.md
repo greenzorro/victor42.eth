@@ -1,6 +1,6 @@
 ---
 title: 我受够了这些新闻App，于是加了一点AI
-description: 基于Tasker与AI的个人定制化车载新闻电台开发实录：详解在安卓手机上整合RSS源抓取、大模型智能分类过滤、TTS语音合成与车载蓝牙自动播放的全套自动化工作流。
+description: "基于Tasker与AI的个人定制化车载新闻电台开发实录：详解在安卓手机上整合RSS源抓取、大模型智能分类过滤、TTS语音合成与车载蓝牙自动播放的全套自动化工作流。"
 image: https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg
 date: 2024-08-13 13:31:00
 categories: 折腾与思考-Geek

@@ -1,6 +1,6 @@
 ---
 title: 光彩夺目的柔滑渐变APP界面
-description: 
+description: ""
 image: 
 date: 2013-10-06 16:25:34
 categories: 设计译文-Design

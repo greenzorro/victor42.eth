@@ -1,6 +1,6 @@
 ---
 title: Excel自制儿童生长曲线
-description: Excel自制儿童生长曲线与统计分析实战：结合OCR与ChatGPT快速清洗育儿数据，基于国家卫健委正态分布标准差与Z-Score算法，打造极简直观的Excel生长追踪工具。
+description: "Excel自制儿童生长曲线与统计分析实战：结合OCR与ChatGPT快速清洗育儿数据，基于国家卫健委正态分布标准差与Z-Score算法，打造极简直观的Excel生长追踪工具。"
 image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
 date: 2023-08-03 14:30:00
 categories: 折腾与思考-Geek

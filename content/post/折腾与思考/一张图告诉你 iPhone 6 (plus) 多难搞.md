@@ -1,6 +1,6 @@
 ---
 title: 一张图告诉你 iPhone 6 (plus) 多难搞
-description: iPhone 6及Plus多屏幕尺寸UI适配图解指南：对比iOS与Android逻辑像素与倍率模型，剖析屏幕碎片化对设计信息量的冲击，倡导放弃绝对定位转向Auto Layout响应式布局。
+description: "iPhone 6及Plus多屏幕尺寸UI适配图解指南：对比iOS与Android逻辑像素与倍率模型，剖析屏幕碎片化对设计信息量的冲击，倡导放弃绝对定位转向Auto Layout响应式布局。"
 image: 
 date: 2014-10-08 18:08:00
 categories: 折腾与思考-Geek

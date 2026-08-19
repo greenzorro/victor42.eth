@@ -1,6 +1,6 @@
 ---
 title: 案例研究:wordpress主题设计
-description: 
+description: ""
 image: 
 date: 2014-04-20 00:26:26
 categories: 设计译文-Design

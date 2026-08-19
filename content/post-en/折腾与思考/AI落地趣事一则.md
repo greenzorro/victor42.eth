@@ -2,7 +2,7 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "Career", "Design", "Technology"]
 date: 2026-04-03 09:42:00
-description: A workplace satire on AI hype: how a zero-cost Python batch-export tool was repackaged as an AI bot and sold internally as digital transformation.
+description: "A workplace satire on AI hype: how a zero-cost Python batch-export tool was repackaged as an AI bot and sold internally as digital transformation."
 image: https://cdn.victor42.work/posts/2026-04/5c4ba548b31db35137c4d2b685767ba3.webp
 title: A funny story about AI implementation
 url: /post-en/the-great-ai-ification

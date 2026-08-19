@@ -1,6 +1,6 @@
 ---
 title: 我从6位Hike设计导师身上学到什么
-description: 
+description: ""
 image: 
 date: 2014-05-25 01:04:39
 categories: 设计译文-Design

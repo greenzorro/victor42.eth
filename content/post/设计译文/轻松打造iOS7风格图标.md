@@ -1,6 +1,6 @@
 ---
 title: 轻松打造iOS7风格图标
-description: 
+description: ""
 image: 
 date: 2013-11-24 10:29:38
 categories: 设计译文-Design

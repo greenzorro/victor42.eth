@@ -1,6 +1,6 @@
 ---
 title: AI现在能独立做PPT了吗？
-description: AI智能体制作PPT能力横向评测：以“地球地质年代”图文报告为例，深度实测天工、扣子空间、Manus与Lovart在任务规划、网络搜图、排版设计与文件转换上的真实表现。
+description: "AI智能体制作PPT能力横向评测：以“地球地质年代”图文报告为例，深度实测天工、扣子空间、Manus与Lovart在任务规划、网络搜图、排版设计与文件转换上的真实表现。"
 image: https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9b.webp
 date: 2025-05-23 15:46:00
 categories: 折腾与思考-Geek

@@ -1,6 +1,6 @@
 ---
 title: LOGO设计终极指南【中篇】
-description: 
+description: ""
 image: 
 date: 2014-03-30 00:25:32
 categories: 设计译文-Design

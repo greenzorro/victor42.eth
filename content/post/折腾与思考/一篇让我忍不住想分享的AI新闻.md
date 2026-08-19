@@ -2,7 +2,7 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "教育", "科技"]
 date: 2026-03-13 14:19:00
-description: 高校AI写作业与师生博弈深度调查评述：记录大学生用AI代写报告与高校教师识破空泛假数据的攻防战，深度反思AI时代高等教育重构、思维退化与终身学习的本质。
+description: "高校AI写作业与师生博弈深度调查评述：记录大学生用AI代写报告与高校教师识破空泛假数据的攻防战，深度反思AI时代高等教育重构、思维退化与终身学习的本质。"
 image: https://cdn.victor42.work/posts/2026-03/b2c0b4efca2bf8e1c151cea27c5ff965.webp
 title: 一篇让我忍不住想分享的AI新闻
 url: /post/ai-in-education

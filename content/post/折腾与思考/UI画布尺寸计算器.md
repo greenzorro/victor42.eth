@@ -1,6 +1,6 @@
 ---
 title: UI画布尺寸计算器
-description: UI非标屏幕画布尺寸计算器与算法原理：深入解析PPI像素密度、视距常量与屏幕倍率换算逻辑，借助Python箱线图统计反推，打造解决工控机及IoT非标屏设计稿尺寸的开源工具。
+description: "UI非标屏幕画布尺寸计算器与算法原理：深入解析PPI像素密度、视距常量与屏幕倍率换算逻辑，借助Python箱线图统计反推，打造解决工控机及IoT非标屏设计稿尺寸的开源工具。"
 image: https://cdn.victor42.work/posts/2025-06/593bba684765381e0ac910413a657590.webp
 date: 2025-06-10 17:27:00
 categories: 折腾与思考-Geek

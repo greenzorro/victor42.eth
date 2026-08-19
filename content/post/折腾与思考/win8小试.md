@@ -1,6 +1,6 @@
 ---
 title: win8小试
-description: 微软Windows 8早期预览版深度上手评测：从UI设计师视角体验Metro动态磁贴、屏幕热角与手势交互、Charms侧边栏，并实测传统桌面兼容性与输入法逻辑变革。
+description: "微软Windows 8早期预览版深度上手评测：从UI设计师视角体验Metro动态磁贴、屏幕热角与手势交互、Charms侧边栏，并实测传统桌面兼容性与输入法逻辑变革。"
 image: 
 date: 2012-03-16 17:28:00
 categories: 折腾与思考-Geek

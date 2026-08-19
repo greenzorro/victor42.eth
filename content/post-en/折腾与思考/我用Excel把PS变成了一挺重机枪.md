@@ -1,6 +1,6 @@
 ---
 title: Turning Photoshop into a Machine Gun with Excel
-description: A guide to automating design production: using Excel relational data models and Photoshop variables to batch-generate 800+ complex course banners.
+description: "A guide to automating design production: using Excel relational data models and Photoshop variables to batch-generate 800+ complex course banners."
 image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
 date: 2024-06-13 14:05:00
 categories: 折腾与思考-Geek

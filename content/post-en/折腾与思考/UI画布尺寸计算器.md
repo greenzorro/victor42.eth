@@ -1,6 +1,6 @@
 ---
 title: UI Canvas Size Calculator
-description: A UI canvas calculator for non-standard screens: explaining PPI, viewing distance constants, and statistical boxplots behind designing for IoT displays.
+description: "A UI canvas calculator for non-standard screens: explaining PPI, viewing distance constants, and statistical boxplots behind designing for IoT displays."
 image: https://cdn.victor42.work/posts/2025-06/593bba684765381e0ac910413a657590.webp
 date: 2025-06-10 17:27:00
 categories: 折腾与思考-Geek

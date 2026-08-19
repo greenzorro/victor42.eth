@@ -1,6 +1,6 @@
 ---
 title: My AI Biologist
-description: A prompt engineering case study: building an AI Biologist with phonetic fuzzy-matching and web search to fix seafood name hallucinations.
+description: "A prompt engineering case study: building an AI Biologist with phonetic fuzzy-matching and web search to fix seafood name hallucinations."
 image: https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg
 date: 2024-03-20 15:06:00
 categories: 折腾与思考-Geek

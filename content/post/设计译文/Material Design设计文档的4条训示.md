@@ -1,6 +1,6 @@
 ---
 title: Material Design设计文档的4条训示
-description: 
+description: ""
 image: 
 date: 2014-09-07 18:42:02
 categories: 设计译文-Design

@@ -1,6 +1,6 @@
 ---
 title: AI模型与长尾知识
-description: 大模型长尾知识获取与联网机制实测：以识别“芒果胚根”长尾问题为例，深度对比GPT-3.5、Claude与Google Bard的回答表现，拆解搜索插件与大模型结合的底层工作流。
+description: "大模型长尾知识获取与联网机制实测：以识别“芒果胚根”长尾问题为例，深度对比GPT-3.5、Claude与Google Bard的回答表现，拆解搜索插件与大模型结合的底层工作流。"
 image:
 date: 2023-10-10 23:38:00
 categories: 折腾与思考-Geek

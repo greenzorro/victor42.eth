@@ -2,7 +2,7 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "科技", "产品"]
 date: 2025-10-31 15:46:00
-description: AI Agent实用评测与工作流实操：实测Kimi、GLM与Minimax在复杂调研与代码生成中的表现，提出任务四象限模型，详解突破平台登录墙与结合NotebookLM的深度研究流。
+description: "AI Agent实用评测与工作流实操：实测Kimi、GLM与Minimax在复杂调研与代码生成中的表现，提出任务四象限模型，详解突破平台登录墙与结合NotebookLM的深度研究流。"
 image: https://cdn.victor42.work/posts/2025-10/fa3e1420ce5ad04750a70cf47af3b382.webp
 title: AI Agent真的已经今非昔比了
 url: /post/ai-agent-evolution

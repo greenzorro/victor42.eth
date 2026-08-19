@@ -1,6 +1,6 @@
 ---
 title: Fed Up with News Apps, I Added Some AI
-description: How I built a personalized AI-curated car radio on Android using Tasker, RSS feeds, LLM topic filtering, Edge TTS, and auto-play bluetooth triggers.
+description: "How I built a personalized AI-curated car radio on Android using Tasker, RSS feeds, LLM topic filtering, Edge TTS, and auto-play bluetooth triggers."
 image: https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg
 date: 2024-08-13 13:31:00
 categories: 折腾与思考-Geek

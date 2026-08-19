@@ -2,7 +2,7 @@
 categories: 折腾与思考-Geek
 tags: ["AI", "职场", "设计师", "科技"]
 date: 2026-04-03 09:42:00
-description: 企业AI落地职场魔幻实录：真实记录将成熟高效的Excel-PS批量出图Python脚本，为迎合考核强行包装为云端AI钉钉机器人的全过程，幽默反思企业AI热潮下的形式主义与情绪价值。
+description: "企业AI落地职场魔幻实录：真实记录将成熟高效的Excel-PS批量出图Python脚本，为迎合考核强行包装为云端AI钉钉机器人的全过程，幽默反思企业AI热潮下的形式主义与情绪价值。"
 image: https://cdn.victor42.work/posts/2026-04/5c4ba548b31db35137c4d2b685767ba3.webp
 title: AI落地趣事一则
 url: /post/the-great-ai-ification

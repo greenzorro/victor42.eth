@@ -1,6 +1,6 @@
 ---
 title: 卖AI图，从开单到金盆洗手
-description: AI插画商业化实战与全流程自动化复盘：详述基于Flux dev、ComfyUI API与RunComfy云端算力搭建批量生图流水线的全过程，剖析接单交付、返工成本与商业退场的真实教训。
+description: "AI插画商业化实战与全流程自动化复盘：详述基于Flux dev、ComfyUI API与RunComfy云端算力搭建批量生图流水线的全过程，剖析接单交付、返工成本与商业退场的真实教训。"
 image: https://cdn.victor42.work/posts/2025-05/89852ef4042c193cd77916efb0cf70b6.webp
 date: 2025-05-08 17:22:00
 categories: 折腾与思考-Geek

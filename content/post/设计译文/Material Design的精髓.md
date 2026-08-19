@@ -1,6 +1,6 @@
 ---
 title: Material Design的精髓
-description: 
+description: ""
 image: 
 date: 2014-07-13 11:42:07
 categories: 设计译文-Design
