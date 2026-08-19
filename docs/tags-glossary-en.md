@@ -413,6 +413,12 @@ Each tag appears once. When different categories reuse the same tag, update the 
 - **Don't use**: general decentralized-web content
 - **Synonyms/retired**:—
 
+### `Japan`
+- **Definition**: Japan as a geographical, cultural, and historical subject
+- **Use**: articles substantively discussing Japanese society, culture, history, or travel
+- **Don't use**: articles that merely mention Japanese products or names in passing
+- **Synonyms/retired**: —
+
 ### `Language`
 - **Definition**: language and linguistics as subject matter
 - **Use**: essays on words, phonetics, translation (English stress, "ten thousand")
