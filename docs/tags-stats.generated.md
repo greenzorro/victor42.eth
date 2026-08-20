@@ -6,25 +6,25 @@
 
 - Articles scanned: 525
 - Articles with tags: 525
-- Unique tags: 332
-- Total tag assignments: 2005
+- Unique tags: 330
+- Total tag assignments: 2008
 - Average tags per article: 3.82
 - Glossary tags (CN): 236
 - Glossary tags (EN): 114
 - Used tags missing from glossary (CN): 0
 - Used tags missing from glossary (EN): 0
 - Glossary tags unused in content (CN): 8
-- Glossary tags unused in content (EN): 2
+- Glossary tags unused in content (EN): 4
 
 ## Usage Buckets
 
 | Articles per tag | Unique tag count |
 | --- | --- |
-| 1 | 143 |
-| 2 | 57 |
-| 3 | 28 |
-| 4-5 | 29 |
-| 6-10 | 31 |
+| 1 | 139 |
+| 2 | 55 |
+| 3 | 31 |
+| 4-5 | 31 |
+| 6-10 | 30 |
 | 11-20 | 19 |
 | 21-50 | 20 |
 | 51-100 | 4 |
@@ -36,10 +36,10 @@
 | --- | --- |
 | 2 | 114 |
 | 3 | 137 |
-| 4 | 126 |
-| 5 | 75 |
+| 4 | 127 |
+| 5 | 72 |
 | 6 | 34 |
-| 7 | 29 |
+| 7 | 31 |
 | 8 | 10 |
 
 ## Top Tags
@@ -49,7 +49,7 @@
 | `教程` | 119 | 设计译文-Design: 96, 折腾与思考-Geek: 23 |
 | `UI` | 83 | 设计译文-Design: 75, 折腾与思考-Geek: 8 |
 | `UX` | 61 | 设计译文-Design: 53, 折腾与思考-Geek: 8 |
-| `AI` | 53 | 折腾与思考-Geek: 42, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
+| `AI` | 52 | 折腾与思考-Geek: 41, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
 | `设计师` | 51 | 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
 | `科技` | 44 | 折腾与思考-Geek: 36, 神经病-Humor: 5, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
 | `职场` | 43 | 折腾与思考-Geek: 12, 设计译文-Design: 12, 神经病-Humor: 11, 苟且与远方-Life: 8 |
@@ -73,29 +73,29 @@
 | `社会` | 22 | 折腾与思考-Geek: 10, 苟且与远方-Life: 10, 梦境与幻想-Dream: 2 |
 | `移动端` | 19 | 设计译文-Design: 18, 折腾与思考-Geek: 1 |
 | `趋势` | 18 | 设计译文-Design: 18 |
+| `Daily Life` | 18 | 折腾与思考-Geek: 12, 苟且与远方-Life: 6 |
 | `自然` | 17 | 苟且与远方-Life: 13, 梦境与幻想-Dream: 3, 折腾与思考-Geek: 1 |
 | `科幻` | 17 | 梦境与幻想-Dream: 12, 苟且与远方-Life: 3, 折腾与思考-Geek: 2 |
 | `烹饪` | 17 | 苟且与远方-Life: 16, 折腾与思考-Geek: 1 |
 | `育儿` | 16 | 苟且与远方-Life: 13, 神经病-Humor: 2, 折腾与思考-Geek: 1 |
 | `Design` | 16 | 折腾与思考-Geek: 16 |
-| `Daily Life` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `短篇小说` | 15 | 梦境与幻想-Dream: 15 |
 | `History` | 15 | 折腾与思考-Geek: 9, 苟且与远方-Life: 6 |
 | `音乐` | 14 | 苟且与远方-Life: 8, 神经病-Humor: 5, 梦境与幻想-Dream: 1 |
-| `Tutorial` | 14 | 折腾与思考-Geek: 14 |
 | `工具` | 13 | 折腾与思考-Geek: 11, 设计译文-Design: 2 |
 | `设计` | 13 | 折腾与思考-Geek: 13 |
 | `Philosophy` | 13 | 折腾与思考-Geek: 6, 苟且与远方-Life: 5, 梦境与幻想-Dream: 2 |
 | `成长` | 12 | 设计译文-Design: 7, 折腾与思考-Geek: 3, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
 | `建筑` | 12 | 苟且与远方-Life: 6, 神经病-Humor: 2, 设计译文-Design: 2, 折腾与思考-Geek: 1 |
+| `Tutorial` | 12 | 折腾与思考-Geek: 12 |
 | `Product` | 12 | 折腾与思考-Geek: 12 |
-| `Career` | 12 | 折腾与思考-Geek: 10, 苟且与远方-Life: 2 |
+| `Career` | 11 | 折腾与思考-Geek: 9, 苟且与远方-Life: 2 |
 | `科学` | 10 | 折腾与思考-Geek: 9, 苟且与远方-Life: 1 |
 | `大学` | 10 | 苟且与远方-Life: 6, 神经病-Humor: 3, 梦境与幻想-Dream: 1 |
+| `Tool` | 10 | 折腾与思考-Geek: 10 |
 | `Essay` | 10 | 折腾与思考-Geek: 8, 苟且与远方-Life: 2 |
 | `Society` | 10 | 折腾与思考-Geek: 7, 苟且与远方-Life: 2, 梦境与幻想-Dream: 1 |
 | `Travel` | 10 | 苟且与远方-Life: 9, 折腾与思考-Geek: 1 |
-| `动画` | 9 | 设计译文-Design: 8, 折腾与思考-Geek: 1 |
 
 ## Single-use Tags
 
@@ -111,13 +111,13 @@
 | `Animation` | `content/post-en/折腾与思考/AE环形进度条.md` | Creating a Circular Progress Bar in AE |
 | `Anthropology` | `content/post-en/折腾与思考/人类简史读书笔记.md` | Notes on Sapiens - A Brief History of Humankind |
 | `Apocalypse` | `content/post-en/梦境与幻想/天罚纪元的平凡一天.md` | A Regular Day in the Era of Divine Punishment |
+| `Automation` | `content/post-en/折腾与思考/港口思维：从自动化任务到一种生活方式.md` | Port Mindset - From Automated Tasks to a Way of Life |
 | `Beijing` | `content/post-en/苟且与远方/北京4天5夜.md` | 4 Days 5 Nights in Beijing |
 | `Blockchain` | `content/post-en/折腾与思考/区块链博客.md` | Blockchain-Powered Blogging |
 | `Chemistry` | `content/post-en/折腾与思考/水为什么能灭火？.md` | How Does Water Put Out Fire |
 | `Coming of Age` | `content/post-en/梦境与幻想/草原之歌.md` | Song of the Grassland |
 | `Cooking` | `content/post-en/折腾与思考/厨具的思考.md` | Thoughts on Kitchenware |
 | `Data` | `content/post-en/折腾与思考/什么是AI原生的数据系统？.md` | What is an AI Native Data System |
-| `Data Visualization` | `content/post-en/折腾与思考/Excel自制儿童生长曲线.md` | Creating Custom Child Growth Charts in Excel |
 | `Deemo` | `content/post/梦境与幻想/树屋里的钢琴师.md` | 树屋里的钢琴师 |
 | `Desert` | `content/post-en/苟且与远方/蒙西宁夏国庆小众自驾6天5夜.md` | A 6-Day Off-the-Beaten-Path Road Trip in West Inner Mongolia and North Ningxia |
 | `Development` | `content/post-en/折腾与思考/搬砖与拓荒.md` | Bricklaying and Trailblazing |
@@ -128,11 +128,9 @@
 | `Entrepreneurship` | `content/post-en/折腾与思考/设计师在创业团队中的角色.md` | The Role of a Designer in a Startup |
 | `Environment` | `content/post-en/梦境与幻想/木精灵.md` | Wood Elves |
 | `Exploration` | `content/post-en/梦境与幻想/太空酒店.md` | Space Hotel |
-| `Family` | `content/post-en/梦境与幻想/草原之歌.md` | Song of the Grassland |
 | `Fan Fiction` | `content/post-en/梦境与幻想/大雄拯救世界.md` | Nobita Saves the World |
 | `Fantasy` | `content/post-en/梦境与幻想/木精灵.md` | Wood Elves |
 | `Finance` | `content/post-en/折腾与思考/年化收益率的陷阱.md` | The Annualized Return Trap |
-| `Forest` | `content/post-en/梦境与幻想/木精灵.md` | Wood Elves |
 | `Future of Humanity` | `content/post-en/梦境与幻想/42秒.md` | 42 Seconds |
 | `Gaming` | `content/post-en/苟且与远方/魔兽世界的陈年往事.md` | Old Tales from World of Warcraft |
 | `Horror` | `content/post-en/梦境与幻想/降福灵童.md` | The Blessed Child |
@@ -150,23 +148,21 @@
 | `Programming` | `content/post-en/折腾与思考/自制《失控》活系统.md` | Building a Living System Inspired by Out of Control |
 | `Prompt Engineering` | `content/post-en/折腾与思考/AI生物学家.md` | My AI Biologist |
 | `Psychology` | `content/post-en/折腾与思考/一个图标背后的心理暗示.md` | The Psychology Behind an Icon |
-| `Religion` | `content/post-en/梦境与幻想/降福灵童.md` | The Blessed Child |
 | `Robot` | `content/post-en/梦境与幻想/机器人的权利.md` | The Rights of Robots |
 | `Rural` | `content/post-en/梦境与幻想/降福灵童.md` | The Blessed Child |
 | `Savanna` | `content/post-en/梦境与幻想/草原之歌.md` | Song of the Grassland |
 | `Search` | `content/post-en/折腾与思考/老婆和同事搜不到东西时总找我.md` | Why My Wife and Colleagues Always Ask Me to Search Stuff |
 | `Sketch` | `content/post/设计译文/Stack自动布局：Sketch中的Flexbox.md` | Stack自动布局：Sketch中的Flexbox |
 | `Space` | `content/post-en/梦境与幻想/太空酒店.md` | Space Hotel |
-| `Statistics` | `content/post-en/折腾与思考/Excel自制儿童生长曲线.md` | Creating Custom Child Growth Charts in Excel |
 | `Suzhou` | `content/post-en/苟且与远方/苏州园林的一点功课.md` | A Bit of Homework on Suzhou Gardens |
 | `Vision` | `content/post-en/折腾与思考/关于分辨颜色的视觉实验.md` | A Visual Experiment on Distinguishing Colors |
 | `Windows` | `content/post/折腾与思考/win8小试.md` | win8小试 |
 | `World of Warcraft` | `content/post-en/苟且与远方/魔兽世界的陈年往事.md` | Old Tales from World of Warcraft |
 | `Writing` | `content/post-en/折腾与思考/AI输出高质量科普文.md` | How I Use AI to Write High-Quality Popular Science Articles |
-| `Xi'an` | `content/post-en/苟且与远方/西安初夏休闲6天5夜.md` | A Relaxing 6 Day 5 Night Early Summer Trip to Xi an |
-| `Xinjiang` | `content/post-en/苟且与远方/新疆自然风光与民族文化旅行指南.md` | Xinjiang Travel Guide Exploring Nature and Ethnic Cultures |
-| `Xishuangbanna` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | 6 Days and 5 Nights of Spring Leisure in Jinghong Xishuangbanna |
-| `Yunnan` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | 6 Days and 5 Nights of Spring Leisure in Jinghong Xishuangbanna |
+| `Xi'an` | `content/post-en/苟且与远方/西安初夏休闲6天5夜.md` | A Relaxing 6-Day 5-Night Early Summer Trip to Xi an |
+| `Xinjiang` | `content/post-en/苟且与远方/新疆自然风光与民族文化旅行指南.md` | A Travel Guide to Xinjiang Natural Scenery and Ethnic Culture |
+| `Xishuangbanna` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | A Relaxing 6-Day 5-Night Spring Trip to Jinghong Xishuangbanna |
+| `Yunnan` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | A Relaxing 6-Day 5-Night Spring Trip to Jinghong Xishuangbanna |
 | `上海` | `content/post/苟且与远方/山雨欲来风满楼.md` | 山雨欲来风满楼 |
 | `专访` | `content/post/折腾与思考/UI中国专访.md` | UI中国专访 |
 | `中东` | `content/post/折腾与思考/中东乱局80年：从以色列建国到加沙战争及后续.md` | 中东乱局80年：从以色列建国到加沙战争及后续 |
@@ -269,4 +265,6 @@ None.
 ### Glossary tags unused in content (English)
 
 - `DOTA`
+- `Data Visualization`
 - `Deemo`
+- `Statistics`

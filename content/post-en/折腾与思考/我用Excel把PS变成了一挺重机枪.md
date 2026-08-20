@@ -1,12 +1,12 @@
 ---
-title: Turning Photoshop into a Machine Gun with Excel
-description: "A guide to automating design production: using Excel relational data models and Photoshop variables to batch-generate 800+ complex course banners."
-image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
-date: 2024-06-13 14:05:00
 categories: 折腾与思考-Geek
-tags: ["Design", "Excel", "Automation", "Tutorial", "Career"]
-url: /post-en/3650
-translationKey: '3650'
+tags: ["Efficiency", "Tool", "Design", "Excel"]
+date: 2024-06-25 15:39:00
+description: "Automate bulk image generation using Excel data sets and Photoshop variables to mass produce hundreds of standardized design assets at zero cost."
+image: https://cdn.victor42.work/posts/2024-06/e59871587ee1079d3806a682855848c6.jpg
+title: Turning Photoshop into a Machine Gun with Excel
+url: /post-en/3648
+translationKey: '3648'
 ---
 
 How a designer with Excel skills saved his company a bundle.
@@ -216,37 +216,41 @@ These first two steps, though tedious, are one-time.
 
 ![Photoshop Variables dialog Data Set panel showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1, variable list showing Two Lines/Category/Foreground Color/Single Line/Tmall/Description/Filename with values and layers, red box highlighting Import button on right](https://cdn.victor42.work/posts/2024-06/e1fbcc63e3a13d31e181c8a1f12db265.jpg)
 
-Import the CSV.
+Switch to the Data Sets panel and import the prepared CSV file.
 
-Two common errors: extra/mismatched columns, and empty cells. Photoshop doesn't support empty cells, so I used NULL, with visibility checks.
+Two common errors occur during import: redundant or mismatched column headers, and empty cells.
+
+![Excel table screenshot showing Title Line 2 and Description columns, Description column has NULL values in some cells marking empty cells like Hit Product 3/Line 2 Content 3/Line 2 Content 2 rows](https://cdn.victor42.work/posts/2024-06/6c7cabdd58fab84c63dfefdfeb4ad16a.jpg)
+
+Photoshop Data Sets do not support empty cells. When constructing the data table, fill empty cells with `NULL` and configure visibility logic to hide those layers automatically.
 
 ### 4. Batch Export PSDs
 
-![Excel table screenshot showing Title Line 2 and Description columns, Description column has NULL values in some cells marking empty cells like Hit Product 3/Line 2 Content 3/Line 2 Content 2 rows](https://cdn.victor42.work/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg)
+![Photoshop File menu screenshot with Export submenu expanded, highlighting Data Sets as Files option, above Quick Export as JPG/Export As/Export Preferences options](https://cdn.victor42.work/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg)
 
-No trick; do it like this.
+Exporting requires no complex tricks: navigate to **File > Export > Data Sets as Files**.
 
-![Photoshop File menu screenshot with Export submenu expanded, highlighting Data Sets as Files option, above Quick Export as JPG/Export As/Export Preferences options](https://cdn.victor42.work/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg)
+![Photoshop Export Data Sets as Files dialog with folder path selected, Data Sets set to All Data Sets, filename using only Data Set Name with no suffix, name example showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1.psd](https://cdn.victor42.work/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg)
 
-Define filename format. "Data Set Name" is useful; it's the first column, "Filename," allowing customization.
+In this step, define your export filename format. Using "Data Set Name" reads directly from the first column of the CSV, which is why placing custom filenames in the first column is advantageous.
 
 ### 5. Batch PSD to JPG Conversion
 
-PSDs need conversion.
+Photoshop exports individual PSD files. To deliver final JPG assets, run a batch conversion.
 
-![Photoshop Export Data Sets as Files dialog with folder path selected, Data Sets set to All Data Sets, filename using only Data Set Name with no suffix, name example showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1.psd](https://cdn.victor42.work/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg)
+![Photoshop Actions panel screenshot showing [A] save jpg action set with Open/Save/Close three steps, each with checkbox and play button](https://cdn.victor42.work/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg)
 
-Record a simple action: open, save as JPG, close. Batch process the PSD folder.
+Record a three-step Photoshop action: Open PSD, Save as JPG, and Close. Then run **File > Automate > Batch** across the entire PSD folder.
 
-My action set has "Save as JPG"; link at the end.
+My downloadable Photoshop action set includes a ready-to-use "Save as JPG" action linked at the end of this post.
 
 ## One More Table
 
-Done? Task complete, but not the matter. One crucial table is missing.
+Is the work finished? The immediate assignment is complete, but the most important step remains: tracking business value.
 
-These 800+ images (16,000 RMB) are just the first batch. More will come. Shouldn't I know the yearly savings? Even if I don't, the boss should.
+These 800+ cover images (worth 16,000 RMB) represent only the initial batch. As new course offerings launch continuously, there will be subsequent batches. It is prudent to measure how much money this automated pipeline saves the organization over a year—and make that tangible value visible to leadership.
 
-![Photoshop Actions panel screenshot showing [A] save jpg action set with Open/Save/Close three steps, each with checkbox and play button](https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg)
+![Summary data table screenshot tracking date, image count, and monetary value produced across monthly cohorts](https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg)
 
 So, a statistics table, a "bragging table." Let's call it "Rock and Roll Table."
 

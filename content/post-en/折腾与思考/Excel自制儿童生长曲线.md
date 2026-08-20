@@ -1,12 +1,12 @@
 ---
-title: Creating Custom Child Growth Charts in Excel
-description: "Build a custom child growth tracker in Excel using OCR, ChatGPT data cleaning, and WHO/NHC standard-deviation Z-score charts for height and weight."
-image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
-date: 2023-08-03 14:30:00
 categories: 折腾与思考-Geek
-tags: ["Excel", "Parenting", "Data Visualization", "Statistics", "AI"]
-url: /post-en/3641
-translationKey: '3641'
+tags: ["Data Analysis", "Excel", "Family", "DIY", "Daily Life"]
+date: 2023-08-01 22:52:00
+description: "Build a child growth curve dashboard in Excel using official standard deviation tables, smart month matching, lookup formulas, and diverging bars."
+image: https://cdn.victor42.work/posts/2023-08/f920f78997a61d15bf0eb7fcae8cba50.jpg
+title: Building a Custom Child Growth Curve in Excel
+url: /post-en/3642
+translationKey: '3642'
 ---
 
 I'm an Excel geek. After reading this, you might think we use different Excels.
@@ -99,7 +99,11 @@ I'll explain this table. We've covered the median. The key is "SD," or Standard 
 
 The horizontal axis is height (or weight), and the vertical axis is the number of children. The center dashed line is the median. Most children are near the median. Fewer children are at the extremes.
 
-Standard deviation is the distance between the dashed lines, which are equally spaced. It's like a ruler for the normal distribution. It tells us the proportion of data within a range. For example, 68% of children are within one standard deviation above and below the median; 95% are within two.
+Now back to standard deviation. We will not discuss formulas or calculations; what matters is the relationship between standard deviation and normal distribution.
+
+![Normal distribution bell curve, x-axis labeled μ-3σ to μ+3σ, y-axis shows probability density, marking 68.26%/95.44%/99.72% three standard deviation interval percentages](https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg)
+
+Standard deviation appears on the normal distribution curve as the distance between adjacent vertical dashed lines, which are equally spaced. It is like a ruler for the normal distribution. It tells us the proportion of data within a range. For example, 68% of children are within one standard deviation above and below the median; 95% are within two.
 
 Standard deviation is a key property of normal distribution. Proportions for 1, 2, and 3 standard deviations are always 68%, 95%, and 99.7%. Knowing the average (or median) and standard deviation lets us find any data point's position.
 
@@ -138,7 +142,7 @@ So, I added a hidden column to find the corresponding reference month for each r
 The formula for this column is:
 
 ```
-=IF(ISBLANK(A2),"",INDEX('生长对照表'!A$3:A$46,COUNTIFS('生长对照表'!A$3:A$46,"<="&C2),0))
+=IF(ISBLANK(A2),"",INDEX('Growth_Reference'!A$3:A$46,COUNTIFS('Growth_Reference'!A$3:A$46,"<="&C2),0))
 ```
 
 In plain English, the formula checks if the date is blank. If so, the cell is empty. Otherwise, it counts rows in the reference table with months less than or equal to the baby's age, effectively "matching down."
@@ -154,7 +158,7 @@ The reference month column handles mismatches, so we can calculate deviations.
 The "height below average" column formula serves as an example:
 
 ```
-=IF(ISBLANK(F2),"",IF(F2>VLOOKUP(E2,'生长对照表'!A$3:O$46,12),"",IF(F2=VLOOKUP(E2,'生长对照表'!A$3:O$46,12),"=",REPT("-",5-RANK(F2,{F2,VLOOKUP(E2,'生长对照表'!A$3:O$46,11),VLOOKUP(E2,'生长对照表'!A$3:O$46,10),VLOOKUP(E2,'生长对照表'!A$3:O$46,9)},1)))))
+=IF(ISBLANK(F2),"",IF(F2>VLOOKUP(E2,'Growth_Reference'!A$3:O$46,12),"",IF(F2=VLOOKUP(E2,'Growth_Reference'!A$3:O$46,12),"=",REPT("-",5-RANK(F2,{F2,VLOOKUP(E2,'Growth_Reference'!A$3:O$46,11),VLOOKUP(E2,'Growth_Reference'!A$3:O$46,10),VLOOKUP(E2,'Growth_Reference'!A$3:O$46,9)},1)))))
 ```
 
 Okay, this formula looks insane. Let's break it down, layer by layer, starting from the outside:
@@ -162,7 +166,7 @@ Okay, this formula looks insane. Let's break it down, layer by layer, starting f
 **Layer 1**
 
 ```
-=IF(ISBLANK(F2),"",IF(F2>VLOOKUP(E2,'生长对照表'!A$3:O$46,12),"",IF(F2=VLOOKUP(E2,'生长对照表'!A$3:O$46,12),"=",Layer 2)))
+=IF(ISBLANK(F2),"",IF(F2>VLOOKUP(E2,'Growth_Reference'!A$3:O$46,12),"",IF(F2=VLOOKUP(E2,'Growth_Reference'!A$3:O$46,12),"=",Layer 2)))
 ```
 
 This part first checks if the height column (F2) is empty. If so, this cell is also empty. Otherwise, it compares F2 with the corresponding median height from the reference table. If F2 is greater than the median, the cell remains blank (as this column only shows negative deviations). If F2 equals the median, it displays "=". If F2 is less than the median, the second layer calculates the number of "-" signs to output.
@@ -178,7 +182,7 @@ I initially planned to use nested IF statements to determine the number of minus
 **Layer 3**
 
 ```
-5-RANK(F2,{F2,VLOOKUP(E2,'生长对照表'!A$3:O$46,11),VLOOKUP(E2,'生长对照表'!A$3:O$46,10),VLOOKUP(E2,'生长对照表'!A$3:O$46,9)},1)
+5-RANK(F2,{F2,VLOOKUP(E2,'Growth_Reference'!A$3:O$46,11),VLOOKUP(E2,'Growth_Reference'!A$3:O$46,10),VLOOKUP(E2,'Growth_Reference'!A$3:O$46,9)},1)
 ```
 
 Here's a hidden gem in Excel: array constants.  We often use ranges in formulas, which are implicitly arrays. But did you know you can create arrays manually, like in programming, using curly braces `{}`?  For instance, `{1,2,3,4}` in a formula is the same as:
@@ -188,7 +192,7 @@ Here's a hidden gem in Excel: array constants.  We often use ranges in formulas,
 Array constants are far more flexible. You can combine seemingly unrelated data. Just look at what's inside the `{}`:
 
 ```
-{F2,VLOOKUP(E2,'生长对照表'!A$3:O$46,11),VLOOKUP(E2,'生长对照表'!A$3:O$46,10),VLOOKUP(E2,'生长对照表'!A$3:O$46,9)}
+{F2,VLOOKUP(E2,'Growth_Reference'!A$3:O$46,11),VLOOKUP(E2,'Growth_Reference'!A$3:O$46,10),VLOOKUP(E2,'Growth_Reference'!A$3:O$46,9)}
 ```
 
 ![Excel growth reference table screenshot with red box highlighting -3SD/-2SD/-1SD three columns of height data, values from 44.7 to 61 increasing, used for array formula reference](https://cdn.victor42.work/posts/2023-08/914ce9b22412179eaa9415e224c6d770.jpg)
