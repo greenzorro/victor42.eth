@@ -1,12 +1,12 @@
 ---
-categories: 折腾与思考-Geek
-tags: ["Efficiency", "Tool", "Design", "Excel"]
-date: 2024-06-25 15:39:00
-description: "Automate bulk image generation using Excel data sets and Photoshop variables to mass produce hundreds of standardized design assets at zero cost."
-image: https://cdn.victor42.work/posts/2024-06/e59871587ee1079d3806a682855848c6.jpg
 title: Turning Photoshop into a Machine Gun with Excel
-url: /post-en/3648
-translationKey: '3648'
+description: "Automate bulk image generation using Excel data sets and Photoshop variables to mass produce hundreds of standardized design assets at zero cost."
+image: https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg
+date: 2024-06-13 14:05:00
+categories: 折腾与思考-Geek
+tags: ["Design", "Excel", "Automation", "Tutorial", "Career"]
+url: /post-en/3650
+translationKey: '3650'
 ---
 
 How a designer with Excel skills saved his company a bundle.

@@ -1,12 +1,12 @@
 ---
-categories: 折腾与思考-Geek
-tags: ["Data Analysis", "Excel", "Family", "DIY", "Daily Life"]
-date: 2023-08-01 22:52:00
-description: "Build a child growth curve dashboard in Excel using official standard deviation tables, smart month matching, lookup formulas, and diverging bars."
-image: https://cdn.victor42.work/posts/2023-08/f920f78997a61d15bf0eb7fcae8cba50.jpg
 title: Building a Custom Child Growth Curve in Excel
-url: /post-en/3642
-translationKey: '3642'
+description: "Build a child growth curve dashboard in Excel using official standard deviation tables, smart month matching, lookup formulas, and diverging bars."
+image: https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg
+date: 2023-08-03 14:30:00
+categories: 折腾与思考-Geek
+tags: ["Excel", "Parenting", "Data Visualization", "Statistics", "AI"]
+url: /post-en/3641
+translationKey: '3641'
 ---
 
 I'm an Excel geek. After reading this, you might think we use different Excels.
