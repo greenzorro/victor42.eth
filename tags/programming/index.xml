@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Victor42</title><link>https://victor42.eth.limo/tags/programming/</link><description>Recent content in Programming on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 30 Jan 2014 15:00:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Building a Living System Inspired by Out of Control</title><link>https://victor42.eth.limo/post-en/3085/</link><pubDate>Thu, 30 Jan 2014 15:00:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3085/</guid><description>&lt;p&gt;I revisited Kevin Kelly&amp;rsquo;s (KK) &lt;em&gt;Out of Control&lt;/em&gt; and &lt;em&gt;What Technology Wants&lt;/em&gt;. His worldview is mind-blowing. Both books are dense; you can&amp;rsquo;t rush them. The ideas interconnect, resembling a living system.&lt;/p&gt;
+&lt;p&gt;I won&amp;rsquo;t recap the books. Inspired by &lt;em&gt;Out of Control&lt;/em&gt;, I built a chaos system simulator to observe emergent behavior. I coded it in half a day, and the results surprised even me. &lt;a class="link" href="http://greenzorro.github.io/chaos/" target="_blank" rel="noopener"
+&gt;Check it out&lt;/a&gt; (Chrome or Chromium-based browser recommended; cross-browser compatibility wasn&amp;rsquo;t a priority).&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://greenzorro.github.io/chaos/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-01/01-30/1.png"
+loading="lazy"
+alt="Initial random matrix of teal and brown dots in the chaos simulator"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how it works: Set the grid size, and it generates a random matrix. The grid wraps around, having no center. Two colors of dots are randomly distributed in equal numbers (the total must be even). It evolves iteratively. Each dot&amp;rsquo;s new color is determined by the majority color within a surrounding square (e.g., a 5x5 square represents a &amp;ldquo;connection level&amp;rdquo; of 2). All dots evolve simultaneously.&lt;/p&gt;
+&lt;p&gt;This system mirrors KK&amp;rsquo;s four characteristics of decentralized systems:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;No central control.&lt;/li&gt;
+&lt;li&gt;Autonomous sub-units.&lt;/li&gt;
+&lt;li&gt;Highly connected sub-units.&lt;/li&gt;
+&lt;li&gt;Nonlinear causality from peer-to-peer influence.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The goal is to see emergent behavior from simple, individual changes in a large, decentralized group – the core of &lt;em&gt;Out of Control&lt;/em&gt;&amp;rsquo;s second chapter. Search &amp;ldquo;swarm intelligence&amp;rdquo; for a quick overview.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-01/01-30/2.png"
+loading="lazy"
+alt="Stable evolved dot pattern in a 10x20 grid with connection level of 1"
+&gt;&lt;/p&gt;
+&lt;p&gt;The default is a 10x20 grid with a connection level of 1. Each manual evolution stabilizes the pattern. Random evolutions produce different final patterns, proving that living systems are sensitive to initial conditions, with unpredictable outcomes.&lt;/p&gt;
+&lt;p&gt;Increasing the connection level (explained in the app) signifies stronger inter-individual influence. Higher levels mean greater &amp;ldquo;socialization.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-01/01-30/3.png"
+loading="lazy"
+alt="Regular polarized pattern with a higher connection level of 3 in the simulator"
+&gt;&lt;/p&gt;
+&lt;p&gt;Now, both manual and random evolutions create more regular patterns. Sometimes, perfectly straight lines emerge, forming two opposing groups, akin to the development of civilizations – nations are born.&lt;/p&gt;
+&lt;p&gt;I increased the grid to 20x30 (600 &amp;ldquo;individuals&amp;rdquo; instead of 200). What would happen?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-01/01-30/4.png"
+loading="lazy"
+alt="Simulator pattern showing isolated islands in a 20x30 grid with connection level 1"
+&gt;&lt;/p&gt;
+&lt;p&gt;Not much difference, but interestingly, at 20x30, setting the connection level back to 1 (weaker individual influence) often creates isolated islands.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-01/01-30/5.png"
+loading="lazy"
+alt="Simulator pattern with connection level 3 where isolated islands are eliminated"
+&gt;&lt;/p&gt;
+&lt;p&gt;Increasing the connection level to 3 eliminates the islands. Consider the spread of rumors! In our interconnected information age, how much pseudoscience becomes &amp;ldquo;common knowledge&amp;rdquo;? Lacking reliable scientific standards, we&amp;rsquo;re pushed toward ignorance by commercial hype, relying on friends and family, even if their information is flawed.&lt;/p&gt;
+&lt;p&gt;The result is similar: many believe cacti absorb radiation or avoid nonexistent harmful food combinations. Truly scientific individuals might have a connection level of 1. But amidst rampant rumors, they can&amp;rsquo;t verify everything, absorbing some false beliefs and, in a sense, being &amp;ldquo;eliminated.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Rumors are an inseparable byproduct of the information age, because the information society is itself a giant chaotic system.&lt;/p&gt;
+&lt;p&gt;I kept hitting random evolution until, finally, a single-color result appeared!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-01/01-30/6.png"
+loading="lazy"
+alt="A uniform single-color evolved pattern in a 20x30 grid with connection level 3"
+&gt;&lt;/p&gt;
+&lt;p&gt;Increasing the population &lt;em&gt;can&lt;/em&gt; cause a qualitative change – a core concept of swarm intelligence. Hundreds of bees behave differently than the sum of their parts; the swarm gains a consciousness. It&amp;rsquo;s alive!&lt;/p&gt;
+&lt;p&gt;Two equally numerous, randomly distributed colors can result in a single color. More bizarre stable states, like a checkerboard pattern, probably exist, but I haven&amp;rsquo;t found the initial conditions to create them.&lt;/p&gt;
+&lt;p&gt;This uniformity signifies consensus. This can be efficient or disastrous, depending on its use. It relates to bird flocks, musical creation, the formation of scientific systems, and also mass extinctions, moral decline, new values, machine dominance&amp;hellip; things we might &lt;em&gt;not&lt;/em&gt; want.&lt;/p&gt;
+&lt;p&gt;But that&amp;rsquo;s letting it run wild. Chaotic systems are unpredictable; we can&amp;rsquo;t control them externally. However, controlling the initial conditions allows us to create highly fault-tolerant systems, like the neural network computers of sci-fi.&lt;/p&gt;
+&lt;p&gt;KK&amp;rsquo;s vision of the future hinges on a world where life (chaotic living systems) and machines (systems with predictable, fixed rules) are deeply integrated. Combining their strengths could create an unimaginable new world. But we must relinquish our desire for absolute control – over technology, society, and even thought. Because these, too, are alive.&lt;/p&gt;</description></item></channel></rss>

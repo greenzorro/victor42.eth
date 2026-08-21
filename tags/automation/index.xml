@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on Victor42</title><link>https://victor42.eth.limo/tags/automation/</link><description>Recent content in Automation on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 13 Jun 2024 14:05:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Turning Photoshop into a Machine Gun with Excel</title><link>https://victor42.eth.limo/post-en/3650/</link><pubDate>Thu, 13 Jun 2024 14:05:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3650/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg" alt="Featured image of post Turning Photoshop into a Machine Gun with Excel" /&gt;&lt;p&gt;How a designer with Excel skills saved his company a bundle.&lt;/p&gt;
+&lt;p&gt;I heard Marketing was tearing their hair out. The boss greenlit the new course cover design, and now they needed to update all 800+ existing covers. It wasn&amp;rsquo;t a simple find-and-replace; there were tons of small differences. Marketing has only one designer, and they were slammed. Doing it in-house? No way. Outsourcing would cost 20 RMB per image, totaling 16,000 RMB – a budget buster.&lt;/p&gt;
+&lt;p&gt;Bingo! 16,000 RMB? My ears perked up. I love automation. A data geek who knows Photoshop? This was my moment. People talk about the &amp;ldquo;value of design.&amp;rdquo; But what &lt;em&gt;is&lt;/em&gt; your value? How do you put a number on it? Saving the company a designer&amp;rsquo;s monthly salary in half a day? That&amp;rsquo;s real value. Plus, it&amp;rsquo;d be great for my year-end review. I jumped on the task.&lt;/p&gt;
+&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/d257445c788894aad2f9c9d25333d834.jpg"
+loading="lazy"
+alt="Pink-orange course cover template with orange rounded tag showing Product Operations at top, large text How to Create Potential Hit Products in center, smaller text New Product Development below, grid texture and geometric decorations in background"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is the template the marketing designer created. No use criticizing – the boss wanted this style. Simple. The basic need was also simple: replace three text areas and generate 800+ images.&lt;/p&gt;
+&lt;p&gt;Most designers would think, &amp;ldquo;Piece of cake! Define some variables in Photoshop, create an Excel sheet, and batch export.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;If you &lt;em&gt;don&amp;rsquo;t&lt;/em&gt; know how to batch output with Excel and Photoshop, check out this tutorial: &lt;a class="link" href="https://zhuanlan.zhihu.com/p/33725280" target="_blank" rel="noopener"
+&gt;https://zhuanlan.zhihu.com/p/33725280&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Yeah&amp;hellip; that&amp;rsquo;s the gist. If it were &lt;em&gt;that&lt;/em&gt; easy, you could just follow the tutorial, and this article would be done.&lt;/p&gt;
+&lt;p&gt;But, once I saw the template, I realized it was much trickier. The variations were crazy:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg"
+loading="lazy"
+alt="Grid of ten course covers with different color schemes and themes, including Product Operations/Sports Academy/Taobao New Merchant/Tmall New Merchant/Education Academy/Home Academy/FMCG Academy/Enterprise Academy/Digital Academy/Fashion Academy, each with category-colored tag at top"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/2f196e8210e1f43dae80cd978031cf36.jpg"
+loading="lazy"
+alt="Three course category label designs stacked vertically: orange Product Operations label, orange Taobao New Merchant label, pink Tmall New Merchant label, all with rounded rectangle backgrounds"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/0a0c12d573ee7d0f2958cd0baee914fc.jpg"
+loading="lazy"
+alt="Title layout comparison: top Taobao New Merchant cover shows two-line title Name Max 8 Characters and Line 2 Content 1, bottom Tmall New Merchant cover shows single-line title Name Max 8 Characters 1, each with description text placeholder below"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/f60e4590c7b4551a14e93c37b5396f8d.jpg"
+loading="lazy"
+alt="Two bottom bar design slices: top blue background with monitor icon showing Max 5 Characters, bottom pink background with folder icon showing Max 5 Characters, demonstrating different category decoration styles"
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Over a dozen course categories, some with unique backgrounds, others sharing.&lt;/li&gt;
+&lt;li&gt;The top category wasn&amp;rsquo;t always text. Two (Taobao and Tmall) used logos – images.&lt;/li&gt;
+&lt;li&gt;Course titles: one or two lines. Single-line titles needed vertical centering.&lt;/li&gt;
+&lt;li&gt;Text color changed with the background – a tinted shade, not pure black.&lt;/li&gt;
+&lt;li&gt;The bottom description text wasn&amp;rsquo;t always there. If missing, its decorative box had to go too.&lt;/li&gt;
+&lt;li&gt;The box&amp;rsquo;s line color also changed, matching the text but brighter.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Think. Could you handle this with Photoshop variables? Sure, you could make a dozen PSDs. But I wanted just &lt;em&gt;one&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Yes, it was possible.&lt;/p&gt;
+&lt;p&gt;But it needed a designer who was also an Excel expert.&lt;/p&gt;
+&lt;h2 id="designing-the-excel-data-model"&gt;Designing the Excel Data Model
+&lt;/h2&gt;&lt;p&gt;The complexity meant I needed to think about the data model first.&lt;/p&gt;
+&lt;p&gt;Programmers might laugh. &amp;ldquo;Data model? For a simple image?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t @ me! I&amp;rsquo;m just using the idea. Look, if you just want to finish, anything goes. But for top efficiency, you need a data model mindset. What&amp;rsquo;s that? The operations team fills in the least info, and I do the least work per export. This was ongoing, so I needed low marginal costs. The initial setup could be complex; that cost was less important.&lt;/p&gt;
+&lt;p&gt;So, what columns did we need?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Course Category&lt;/li&gt;
+&lt;li&gt;Course Title&lt;/li&gt;
+&lt;li&gt;Description&lt;/li&gt;
+&lt;li&gt;Background Image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Obvious ones. Adding the variations, the real list was:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg"
+loading="lazy"
+alt="Excel fact table screenshot with 12 columns: Filename/Category/Title Line 1/Title Line 2/Description/Taobao/Tmall/Single Line/Two Lines/Has Description/Background Image/Foreground Color, showing data for Rule Interpretation/Product Operations/Content Live categories"
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Filename: Controls the output filename, arranged logically.&lt;/li&gt;
+&lt;li&gt;categories: The dozen-ish categories, shown at the top, determining the template.&lt;/li&gt;
+&lt;li&gt;Title Line 1: Titles can be one or two lines, split for manual line breaks.&lt;/li&gt;
+&lt;li&gt;Title Line 2: Optional; if blank, it&amp;rsquo;s a single-line title.&lt;/li&gt;
+&lt;li&gt;Description: The optional keywords, determining if the box below is shown.&lt;/li&gt;
+&lt;li&gt;Taobao: Yes/no, toggles the Taobao logo, based on Category.&lt;/li&gt;
+&lt;li&gt;Tmall: Yes/no, toggles the Tmall logo, based on Category.&lt;/li&gt;
+&lt;li&gt;Single Line: Yes/no, controls the single-line title layer, based on Title Line 2.&lt;/li&gt;
+&lt;li&gt;Two Lines: Yes/no, controls Title Line 1 and 2 layers, based on Title Line 2.&lt;/li&gt;
+&lt;li&gt;Has Description: Yes/no, controls the description box, based on Description.&lt;/li&gt;
+&lt;li&gt;Background Image: Path for the background image.&lt;/li&gt;
+&lt;li&gt;Foreground Color: Path for the color image, used for title text color.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/f0990a616f2f602bcdd42a44bb01df9e.jpg"
+loading="lazy"
+alt="Photoshop layers panel screenshot from top to bottom: Foreground Color layer/Text Group folder containing Description/Title Line 2/Title Line 1/Title Single Line text layers/Hue-Saturation adjustment layer/Foreground Color layer"
+&gt;&lt;/p&gt;
+&lt;p&gt;Explanation: I had three title layers. One for single-line, two for two-line titles.&lt;/p&gt;
+&lt;p&gt;Giving this to operations would be brutal. Most could be calculated. Operations only needed: Category, Title Line 1, Title Line 2, and Description. I made an online spreadsheet with just those four and sent it out. We had 5-6 people working, each taking categories. They finished fast.&lt;/p&gt;
+&lt;p&gt;The hard part was mine: calculating the rest, all needed for Photoshop. None could be skipped. Category was key. It determined the logos, background, text color, and filename sorting. So, I made a separate Category table, a dimension table, where each category was like a product. The image content table was the fact table, like an order. Category name was the dimension table&amp;rsquo;s primary key, a foreign key in the fact table, pulling in category info. One fact table (CSV) and one dimension table – a simple star schema, or maybe &amp;ldquo;Earth-Moon schema&amp;rdquo;?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/6d4da5705eb81be2c0eee26a2cf600a7.jpg"
+loading="lazy"
+alt="Excel dimension table screenshot with 5 columns: Category/id/Filename/Background Image/Foreground Color, listing 18 categories including Rule Interpretation/User Operations/Product Operations with corresponding template file paths"
+&gt;&lt;/p&gt;
+&lt;p&gt;These concepts are from data modeling and databases. Simply, it&amp;rsquo;s defining attributes on Category. Anything in a category would auto-read the background, color, etc., based on the name. This matched the requirements.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a536f153f4837dc8de1937558ca0482d.jpg"
+loading="lazy"
+alt="Excel consolidated table screenshot with 5 columns: Sequence/Category Name/Title Line 1/Title Line 2/Keywords, showing operations-entered data for Rule Interpretation/Product Operations/Content Live/Taobao New Merchant/Tmall New Merchant/Fashion Academy categories"
+&gt;&lt;/p&gt;
+&lt;p&gt;All the operations data (4 columns) was now in my Excel. I referenced it, added the calculated columns, and formed a complete table. I updated, saved as CSV, and gave it to Photoshop.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg"
+loading="lazy"
+alt="Excel fact table complete configuration screenshot with 12 columns showing automatically calculated cover metadata through formulas"
+&gt;&lt;/p&gt;
+&lt;p&gt;These calculated columns tested my Excel skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vlookup&lt;/code&gt; was crucial for looking up category attributes.&lt;/li&gt;
+&lt;li&gt;Filenames needed text concatenation. I could combine them freely, deciding the output order.&lt;/li&gt;
+&lt;li&gt;I used string replacement to remove spaces in titles, ensuring centering even with accidental spaces.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;IF&lt;/code&gt; checked for empty values, preventing 0 on empty rows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are easy for Excel users, so I won&amp;rsquo;t detail them.&lt;/p&gt;
+&lt;h2 id="merging-tables-with-power-query"&gt;Merging Tables with Power Query
+&lt;/h2&gt;&lt;p&gt;But, two questions remained:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How did operations&amp;rsquo; data get into my Excel?&lt;/li&gt;
+&lt;li&gt;How do I update it?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/800867584af30783c478924a6db86fdd.jpg"
+loading="lazy"
+alt="Excel online collection form screenshot with 4 columns: Category Name/Title Line 1/Title Line 2/Keywords, bottom tab bar showing General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise worksheets"
+&gt;&lt;/p&gt;
+&lt;p&gt;First: The online spreadsheet let people work independently and update in real-time. My table was local because I needed Excel&amp;rsquo;s Power Query for merging, which most online spreadsheets lack.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/521925ce776cc959e7698c66e0969042.jpg"
+loading="lazy"
+alt="macOS Finder folder screenshot showing 8 items: Cover Template.psb/Cover Content.xlsx/Cover Content Collection.xlsx/Workbook 7.csv/Template-Background folder/Template-Foreground folder/JPG folder/PSD folder"
+&gt;&lt;/p&gt;
+&lt;p&gt;For each batch, I downloaded the online spreadsheet (&lt;code&gt;Course Cover Content Collection.xlsx&lt;/code&gt;) to the same directory as my table (&lt;code&gt;Course Cover Content.xlsx&lt;/code&gt;). The data link would stay as long as the location didn&amp;rsquo;t change.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/2878de8a5b1e67e4846803c6e585a9b3.jpg"
+loading="lazy"
+alt="Excel Data menu screenshot with red box highlighting Get Data Power Query button, next to Refresh All/Queries &amp; Connections/Properties/Workbook Links options"
+&gt;&lt;/p&gt;
+&lt;p&gt;I used Power Query from the &amp;ldquo;Data&amp;rdquo; menu. Think of it as a visual SQL. It reads data from local tables, web pages, databases, and Azure, and cleans, transforms, and aggregates it. I used its local table reading.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/be21ed673a8ff88073305b48f847fefd.jpg"
+loading="lazy"
+alt="Power Query editor screenshot with 10 queries listed on left: General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise/Merged, center table showing Category Name/Title Line 1/Title Line 2/Keywords data, right Query Settings showing Source/Navigation1/Changed Type/Promoted Headers steps"
+&gt;&lt;/p&gt;
+&lt;p&gt;The Power Query interface is both familiar and strange to basic Excel users. Familiar: &amp;ldquo;Tables!&amp;rdquo; Strange: &amp;ldquo;What&amp;rsquo;s all this?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Understanding Power Query: It does three things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Specifies the data source.&lt;/li&gt;
+&lt;li&gt;Sets rules and conditions.&lt;/li&gt;
+&lt;li&gt;Executes and loads data, one request per sheet.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/af1dc0620c1d62b971ac405eddbb55cc.jpg"
+loading="lazy"
+alt="Power Query editor left panel screenshot showing Queries[10] title with General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise/Merged 10 query items listed below"
+&gt;&lt;/p&gt;
+&lt;p&gt;Step two is crucial. The left list is a series of requests, executed in order.&lt;/p&gt;
+&lt;p&gt;Each needs &amp;ldquo;Use First Row as Headers&amp;rdquo; and removal of empty values.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/69054b9e157cd497d0ede7fa9d85a547.jpg"
+loading="lazy"
+alt="Power Query editor toolbar screenshot with red box highlighting Append Queries button under Combine dropdown, next to Close &amp; Load/Get Data/Enter Data buttons"
+&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not just filtering and sorting. I used its table merging. Operations&amp;rsquo; data was scattered. I couldn&amp;rsquo;t copy-paste, right? I queried each sheet, then created an append request, combining tables with the same format, like SQL&amp;rsquo;s &lt;code&gt;CROSS JOIN&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/137c056d4946b2367dc3259518c0e5dd.jpg"
+loading="lazy"
+alt="Power Query Append dialog with title Append, Three or more tables option selected, left Available Tables list showing General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise, right Tables to Append list with New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise selected"
+&gt;&lt;/p&gt;
+&lt;p&gt;Its merge query is also useful, like SQL&amp;rsquo;s &lt;code&gt;JOIN&lt;/code&gt; and &lt;code&gt;LEFT JOIN&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/66b4091f7dfc0ebf0448baf72b6509c0.jpg"
+loading="lazy"
+alt="Power Query editor toolbar screenshot with red box highlighting Close &amp; Load button in top-left Close area, next to Get Data/Enter Data/Options buttons"
+&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Close&amp;rdquo; (actually save) made a bunch of sheets appear. I deleted unneeded ones. I added a sequence number for filename sorting.&lt;/p&gt;
+&lt;p&gt;All operations data was now in.&lt;/p&gt;
+&lt;p&gt;Second question: updating?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/e56e2966a217111a4a10f15db546dd42.jpg"
+loading="lazy"
+alt="Excel Data menu screenshot with red box highlighting Refresh All button in Queries &amp; Connections area, next to Get Data Power Query/Properties/Workbook Links options"
+&gt;&lt;/p&gt;
+&lt;p&gt;New batch? Download, overwrite, open the data table, &amp;ldquo;Data&amp;rdquo; menu, &amp;ldquo;Refresh.&amp;rdquo; Simple.&lt;/p&gt;
+&lt;p&gt;Why compare to SQL? It records query &lt;em&gt;conditions&lt;/em&gt;, not results. Results are shown, but it&amp;rsquo;s a preview. It records requests and re-queries on &amp;ldquo;Refresh.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;After complex initial setup, the pipeline was set. Use was simple: download, overwrite, refresh, save as CSV – Photoshop&amp;rsquo;s data file.&lt;/p&gt;
+&lt;h2 id="batch-image-generation-in-photoshop"&gt;Batch Image Generation in Photoshop
+&lt;/h2&gt;&lt;p&gt;Photoshop had five steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Organize/rename layers.&lt;/li&gt;
+&lt;li&gt;Define variables.&lt;/li&gt;
+&lt;li&gt;Import data.&lt;/li&gt;
+&lt;li&gt;Batch export PSDs.&lt;/li&gt;
+&lt;li&gt;Batch convert to JPGs.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="1-organize-and-rename-layers"&gt;1. Organize and Rename Layers
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/531b776b93a3a94233d9c2842edd7612.jpg"
+loading="lazy"
+alt="Photoshop layers panel complete screenshot with 14 layers from top to bottom: Foreground Color/Text Group folder with Description/Title Line 2/Title Line 1/Title Single Line/Hue-Saturation 1/Foreground Color/Description Background-Colored/Description Background-White/Tmall New Merchant/Taobao New Merchant/Category/Background Image/Filename"
+&gt;&lt;/p&gt;
+&lt;p&gt;Not hard. Merge, reorder. Name layers according to table headers for easier variable definition.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Filename&amp;rdquo; is special; it&amp;rsquo;s not visible. I created it manually. Style doesn&amp;rsquo;t matter. Hide it.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Foreground Color&amp;rdquo; needed special handling. Variables can&amp;rsquo;t directly change text color. For background-based changes: group the text, create a solid color layer, and use a clipping mask. This gives unified control.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a9a688b8e6f7b88860fa0b00a4b79c1b.jpg"
+loading="lazy"
+alt="Photoshop Hue/Saturation adjustment panel screenshot showing Custom preset, Master range selected, Hue slider at 0, Saturation slider at &amp;#43;100, Lightness slider at &amp;#43;50, with before/after color comparison bars at bottom"
+&gt;&lt;/p&gt;
+&lt;p&gt;The box&amp;rsquo;s line color? Related to text, but not the same. Add a Hue/Saturation layer for the lines, increasing saturation and brightness. Brown becomes orange, dark green becomes grass green&amp;hellip; This needs color theory and Photoshop knowledge.&lt;/p&gt;
+&lt;h3 id="2-define-variables-for-layers"&gt;2. Define Variables for Layers
+&lt;/h3&gt;&lt;p&gt;No step-by-step; the linked tutorial covers it. I&amp;rsquo;ll discuss tricky points.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/ea2af0bf27f4c74c49db871f5c2b7296.jpg"
+loading="lazy"
+alt="Photoshop Variables dialog screenshot with Background Image layer selected, Pixel Replacement checked with name Background Image and method Consistent, bottom description text reads Specify layer variables to control visibility, replace text strings or replace pixels"
+&gt;&lt;/p&gt;
+&lt;p&gt;Common use: &amp;ldquo;Text Replacement.&amp;rdquo; Non-text layers become &amp;ldquo;Pixel Replacement&amp;rdquo; – image change. Background is replaced this way.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/5be7d1ed67cc798dc3a2925f3e07cc84.jpg"
+loading="lazy"
+alt="10 solid color foreground image thumbnails in 2-row grid: top row 1-General/2-Taobao/2-Tmall/3-Fashion/3-Home/3-FMCG in dark brown/dark purple/dark red warm tones, bottom row 3-Enterprise/3-Digital/3-Education/3-Sports in dark blue/dark green cool tones"
+&gt;&lt;/p&gt;
+&lt;p&gt;Foreground color is similar. Prepare color images, define the clipping mask as a variable, select based on category.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/46b0372dc8bd46ffed011eae85e6bb28.jpg"
+loading="lazy"
+alt="Excel table screenshot showing Taobao/Tmall/Single Line/Two Lines/Has Description 5 boolean columns, all rows show FALSE for Taobao and Tmall, FALSE for Single Line, TRUE for Two Lines, alternating TRUE/FALSE for Has Description"
+&gt;&lt;/p&gt;
+&lt;p&gt;Visibility variables are useful. TRUE/FALSE control display. Can be used with text/pixel replacement. Description text: text replacement changes content, visibility controls display.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a740f3312e02a860493537f9e78b80c0.jpg"
+loading="lazy"
+alt="Photoshop Variables dialog with Description layer selected, Visibility checked with name Has Description linking Description Background-Colored and Description Background-White layers, plus Text Replacement checked with name Description"
+&gt;&lt;/p&gt;
+&lt;p&gt;These first two steps, though tedious, are one-time.&lt;/p&gt;
+&lt;h3 id="3-import-data-sets"&gt;3. Import Data Sets
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/e1fbcc63e3a13d31e181c8a1f12db265.jpg"
+loading="lazy"
+alt="Photoshop Variables dialog Data Set panel showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1, variable list showing Two Lines/Category/Foreground Color/Single Line/Tmall/Description/Filename with values and layers, red box highlighting Import button on right"
+&gt;&lt;/p&gt;
+&lt;p&gt;Switch to the Data Sets panel and import the prepared CSV file.&lt;/p&gt;
+&lt;p&gt;Two common errors occur during import: redundant or mismatched column headers, and empty cells.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/6c7cabdd58fab84c63dfefdfeb4ad16a.jpg"
+loading="lazy"
+alt="Excel table screenshot showing Title Line 2 and Description columns, Description column has NULL values in some cells marking empty cells like Hit Product 3/Line 2 Content 3/Line 2 Content 2 rows"
+&gt;&lt;/p&gt;
+&lt;p&gt;Photoshop Data Sets do not support empty cells. When constructing the data table, fill empty cells with &lt;code&gt;NULL&lt;/code&gt; and configure visibility logic to hide those layers automatically.&lt;/p&gt;
+&lt;h3 id="4-batch-export-psds"&gt;4. Batch Export PSDs
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg"
+loading="lazy"
+alt="Photoshop File menu screenshot with Export submenu expanded, highlighting Data Sets as Files option, above Quick Export as JPG/Export As/Export Preferences options"
+&gt;&lt;/p&gt;
+&lt;p&gt;Exporting requires no complex tricks: navigate to &lt;strong&gt;File &amp;gt; Export &amp;gt; Data Sets as Files&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg"
+loading="lazy"
+alt="Photoshop Export Data Sets as Files dialog with folder path selected, Data Sets set to All Data Sets, filename using only Data Set Name with no suffix, name example showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1.psd"
+&gt;&lt;/p&gt;
+&lt;p&gt;In this step, define your export filename format. Using &amp;ldquo;Data Set Name&amp;rdquo; reads directly from the first column of the CSV, which is why placing custom filenames in the first column is advantageous.&lt;/p&gt;
+&lt;h3 id="5-batch-psd-to-jpg-conversion"&gt;5. Batch PSD to JPG Conversion
+&lt;/h3&gt;&lt;p&gt;Photoshop exports individual PSD files. To deliver final JPG assets, run a batch conversion.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg"
+loading="lazy"
+alt="Photoshop Actions panel screenshot showing [A] save jpg action set with Open/Save/Close three steps, each with checkbox and play button"
+&gt;&lt;/p&gt;
+&lt;p&gt;Record a three-step Photoshop action: Open PSD, Save as JPG, and Close. Then run &lt;strong&gt;File &amp;gt; Automate &amp;gt; Batch&lt;/strong&gt; across the entire PSD folder.&lt;/p&gt;
+&lt;p&gt;My downloadable Photoshop action set includes a ready-to-use &amp;ldquo;Save as JPG&amp;rdquo; action linked at the end of this post.&lt;/p&gt;
+&lt;h2 id="one-more-table"&gt;One More Table
+&lt;/h2&gt;&lt;p&gt;Is the work finished? The immediate assignment is complete, but the most important step remains: tracking business value.&lt;/p&gt;
+&lt;p&gt;These 800+ cover images (worth 16,000 RMB) represent only the initial batch. As new course offerings launch continuously, there will be subsequent batches. It is prudent to measure how much money this automated pipeline saves the organization over a year—and make that tangible value visible to leadership.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg"
+loading="lazy"
+alt="Summary data table screenshot tracking date, image count, and monetary value produced across monthly cohorts"
+&gt;&lt;/p&gt;
+&lt;p&gt;So, a statistics table, a &amp;ldquo;bragging table.&amp;rdquo; Let&amp;rsquo;s call it &amp;ldquo;Rock and Roll Table.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I could even make a chart, showing monthly/quarterly/seasonal value. Subtract from my salary to show my cost – hiring me is a steal! Data is there; whether I do it is TBD.&lt;/p&gt;
+&lt;h2 id="epilogue"&gt;Epilogue
+&lt;/h2&gt;&lt;p&gt;This was cost-effective. Half a day for initial setup. Negligible time after; I ran it during lunch.&lt;/p&gt;
+&lt;p&gt;This is my strength. I don&amp;rsquo;t reinvent wheels, but I assemble them well.&lt;/p&gt;
+&lt;p&gt;After setup, I met with operations. Marketing explained the four columns. No one found it hard. Operations thought I used AI. For non-tech people, anything amazing is AI. AI is the silver bullet. It&amp;rsquo;s funny; I&amp;rsquo;m used to it.&lt;/p&gt;
+&lt;p&gt;Finally, resources. Try it yourself:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://zhuanlan.zhihu.com/p/33725280" target="_blank" rel="noopener"
+&gt;PS+Excel Batch Output Basic Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://cloud.victor42.work/share/%e6%89%b9%e9%87%8f%e7%94%9f%e6%88%90%e5%b0%81%e9%9d%a2%e5%9b%be%e5%b7%a5%e4%bd%9c%e6%b5%81.zip" target="_blank" rel="noopener"
+&gt;Workflow Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/SK0UdUPphoFBZpxJpEJcbZIsnRf?from=from_copylink" target="_blank" rel="noopener"
+&gt;PS Action Set (click the table of contents to jump)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Important Update&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I have since developed a more automated programmatic solution for this workflow, which only requires a Python environment.&lt;/p&gt;
+&lt;p&gt;Details: &lt;a class="link" href="https://github.com/greenzorro/excel-ps-batch-export" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/excel-ps-batch-export&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Port Mindset - From Automated Tasks to a Way of Life</title><link>https://victor42.eth.limo/post-en/3627/</link><pubDate>Thu, 12 Jan 2023 23:52:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3627/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-01/chuttersnap-xewrfLD8emE-unsplash.jpg" alt="Featured image of post Port Mindset - From Automated Tasks to a Way of Life" /&gt;&lt;p&gt;Inspired by ports, a new perspective on how things and thoughts flow in life.&lt;/p&gt;
+&lt;p&gt;This is a rather abstract and rambling article, discussing a somewhat metaphysical topic. It touches upon information automation techniques, ponders the philosophy of life, and explores the methodology of methods. If you have the time, you&amp;rsquo;re welcome to read on.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Daily life and work involve a lot of trivial matters, which are irregular both logically and chronologically.&lt;/p&gt;
+&lt;p&gt;A typical scenario: You&amp;rsquo;re researching something on your computer, with a bunch of web pages open, relevant and irrelevant ones all piled up, and you&amp;rsquo;ve downloaded a few PDFs. Then a colleague sends you a file and discusses it with you. After the discussion, you give them some feedback, taking several screenshots to illustrate your points. It&amp;rsquo;s almost time to get off work, so you close your laptop and head home. The materials generated from these tasks remain on your computer, waiting for you to clean them up someday.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/25483758823_4ef46dc7e1_o.jpg"
+loading="lazy"
+alt="Screenshot of cluttered computer desktop with blue starry sky background, hundreds of file and folder icons densely arranged including PDFs/games/documents/shortcuts"
+&gt;&lt;/p&gt;
+&lt;p&gt;Most people I know are pretty laid-back, just letting things be. The consequence is a computer desktop full of files. When that &amp;ldquo;someday&amp;rdquo; finally arrives, they&amp;rsquo;ve forgotten what these materials are, whether they&amp;rsquo;re useful, and whether they can be deleted. If they don&amp;rsquo;t clean up, they&amp;rsquo;ll be searching through a haystack every day. If they do, they have to recall the origin of each file, delete the useless ones, and save the useful ones, which is quite time-consuming.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-21-44.jpg"
+loading="lazy"
+alt="To-do completion screen screenshot with orange-yellow hot air balloon illustration on white background, text below reads All tasks for today are completed! Enjoy your empty inbox."
+&gt;&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s another type, the organized ones, like those who always keep their email inbox empty. They believe in &amp;ldquo;a stitch in time saves nine&amp;rdquo; and are incredibly efficient. They remember even the most trivial things, using to-do lists or sticky notes, and handle them all as soon as they have time. They spend time now to save more time in the future. They feel genuine joy at the moment they clear their daily tasks.&lt;/p&gt;
+&lt;p&gt;I might lean towards the organized type, but not to that extreme. I&amp;rsquo;ve tried managing trivial matters with the latter method. Things were well-organized, but it made me very tired. I was in a state of slight anxiety until everything was done, which seemed detrimental to my mental health.&lt;/p&gt;
+&lt;p&gt;Instead of extreme organization, I believe that relaxation and a happy mood are more worthwhile goals. It is on this premise that we should try to establish order as much as possible. Until one day, during self-reflection, I realized that I had unknowingly established another operating mechanism, managing all aspects of life with a mindset similar to that of a seaport. And this is what this article is about.&lt;/p&gt;
+&lt;h2 id="principles-of-the-port-mindset"&gt;Principles of the Port Mindset
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/chuttersnap-xewrfLD8emE-unsplash.jpg"
+loading="lazy"
+alt="Aerial night photo of busy shipping port, thousands of containers densely stacked, multiple yellow gantry cranes operating, lights illuminating the entire port area"
+&gt;&lt;/p&gt;
+&lt;p&gt;Let me explain a few shipping terms first:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Demurrage and Detention:&lt;/strong&gt; In the shipping industry, shipping companies and port companies are independent. When your goods are shipped across the ocean to a port, the shipping company usually allows you to continue occupying the container for free for a few days, which is the demurrage period. Your goods are stacked somewhere in the port, and the port company also allows you to stack them for free for a few days, giving you time to find a truck to take them away, which is the detention period.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Demurrage and Detention Charges:&lt;/strong&gt; These are the opposites of the previous two terms. When your goods occupy the container for too long, the shipping company will charge you demurrage. When your goods are stacked in the port for too long, the port company will also charge you detention fees. This constraint mechanism prevents you from treating valuable transportation resources as warehouses and occupying them indefinitely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The port mindset has two core principles:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Everything in the world is dynamic.&lt;/strong&gt; Everything goes through an intermediate state from start to finish. Conceptually, accept the existence of this intermediate state. In action, proactively create buffer zones for loading and unloading in all aspects of life, temporarily storing electronic files, online content, physical objects, and even knowledge and ideas, to accommodate this intermediate state. Instead of mentally denying or ignoring the existence of the intermediate state, resulting in a lack of management of the intermediate state. When things come up, if they are not dealt with immediately, they are either forgotten in an instant or piled up.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Not everything needs a beginning and an end.&lt;/strong&gt; Important things are handled on the spot at the port, and after handling, they are transferred to where they should go. Unimportant things will expose their insignificance after staying in the port for a while, and they will be destroyed on the spot. Time works magic, and the port is where the magic happens. Give it some time, and it will return you to peace.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After all, haste makes waste.&lt;/p&gt;
+&lt;p&gt;Using the port mindset to manage things facilitates scheduling and avoids omissions. More importantly, it has psychological significance. Because you know that these miscellaneous things have a formal temporary storage place, you can safely accept them staying here for a while. You won&amp;rsquo;t always be thinking about something undone (if you are the organized type), so you won&amp;rsquo;t feel anxious.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/3wg83jbos.jpg"
+loading="lazy"
+alt="Top-bottom comparison image, top shows express packages piled up outdoors, bottom shows scrap metal heap piled up, demonstrating consequences of buffer zone being used as garbage dump"
+&gt;&lt;/p&gt;
+&lt;p&gt;But for the laid-back type, even if a buffer zone is established, it will be used as a garbage dump.&lt;/p&gt;
+&lt;p&gt;This is not to belittle anyone. These tendencies aren&amp;rsquo;t fixed and must be considered in relation to specific matters. Everyone values different things. You might be laid-back about one thing but meticulous about another. Most people&amp;rsquo;s computers are a mess because they don&amp;rsquo;t think the digital world is important. Their order is established elsewhere, such as in their social circles. Similarly, things I don&amp;rsquo;t value will also be used as a garbage dump by me.&lt;/p&gt;
+&lt;p&gt;Back to the topic, how to avoid the garbage dump problem? It is to establish a constraint mechanism like a port to prevent the buffer zone from expanding uncontrollably, which is very crucial.&lt;/p&gt;
+&lt;p&gt;In terms of digital materials, there are many automated methods to clean up files and materials that have stayed too long, which will be discussed later. In terms of physical objects, you can force yourself to organize in time by limiting the capacity of the buffer zone. In terms of knowledge and ideas, time plays the most important filtering role.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/RE3HTxG.jpg"
+loading="lazy"
+alt="Microsoft To Do app interface screenshot, left tablet shows Work/Home/Groceries category lists, right phone shows Groceries list with Milk/Apples/Frozen pizza items"
+&gt;&lt;/p&gt;
+&lt;p&gt;By the way, let&amp;rsquo;s talk about the difference between to-do lists and the port mindset:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Different nature:
+&lt;ul&gt;
+&lt;li&gt;To-do lists are just a tool. It is a specific software that you need to install and master its usage.&lt;/li&gt;
+&lt;li&gt;The port mindset is a concept and attitude. Any place where information and materials are input can be regarded as a port. If you identify your computer desktop as a port, then it is. Nothing has changed, but you will have a new understanding of the desktop, seeing it as a distribution center for files. Many people do this, but they don&amp;rsquo;t realize it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Different things stored:
+&lt;ul&gt;
+&lt;li&gt;To-do lists only store concepts. They abstract every event in the digital and real world into a line of text and list them together for centralized management. But the specific materials related to the event are still in place. To-do lists are not good at managing files and materials.&lt;/li&gt;
+&lt;li&gt;Ports store specific materials. They are some real locations, a folder on the computer, or a small paper bag at the door of the house. In the port, you can directly handle the corresponding things on the spot. Therefore, there is more than one port, but with some automated methods, there won&amp;rsquo;t be too many, and there won&amp;rsquo;t be a problem of scattering everywhere.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Different workload:
+&lt;ul&gt;
+&lt;li&gt;Using to-do lists increases workload. Things are still there, still waiting for you to deal with. Your task is only postponed, not reduced at all. It&amp;rsquo;s even heavier, because you have to make an extra note in the software, and then check it off. For the matter itself, this recording behavior is extra and redundant.&lt;/li&gt;
+&lt;li&gt;The purpose of the port mindset is to reduce workload. It is an upgrade and transformation of the places you are already familiar with. Here, you will naturally deal with important things in time, without reminders; unimportant things, or things that have been dealt with, let them disappear by themselves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="digital-ports"&gt;Digital Ports
+&lt;/h2&gt;&lt;p&gt;In terms of digital materials, the essence of the port lies in the constraint mechanism, using a series of automated methods to clear away materials that have stayed too long. This demurrage and detention fee is much more expensive than a real port. It&amp;rsquo;s not a fine, but the direct destruction of overdue goods.&lt;/p&gt;
+&lt;p&gt;This seemingly dangerous destruction mechanism can first urge you to deal with it in time. More often, it can also be used in reverse: just let it be, let it clean up the materials for you, and truly liberate you.&lt;/p&gt;
+&lt;p&gt;The specific implementation of automated methods is just a brief introduction. These can be learned through public information. Tools change over time, but concepts stand the test of time. This article mainly shows what these methods can do and how to form a constraint mechanism.&lt;/p&gt;
+&lt;h3 id="mobile-file-port"&gt;Mobile File Port
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144709.jpg"
+loading="lazy"
+alt="Android phone File Manager screenshot, red circle highlights 0#FilePort folder with 3 items, below lists 0#Music/0#Resilio/Alarms/alipay/amap folders"
+&gt;&lt;/p&gt;
+&lt;p&gt;I have a special folder on my phone, which is a distribution center for mobile files. I named it File Port. Things downloaded by different apps on the phone are stored in different places. Most apps are stored in the &amp;ldquo;Download&amp;rdquo; folder, WeChat is stored in its own location, Baidu Cloud has another place, and many content production software also output to their respective folders.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-144251.jpg"
+loading="lazy"
+alt="Tasker automation app settings screenshot showing three toggles: Auto move download directory/Auto move WeChat download directory/Auto move audio output directory, all enabled"
+&gt;&lt;/p&gt;
+&lt;p&gt;I use an automation app called Tasker to centralize them. Once there are new files in these locations, they are all moved to the File Port.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-144325.jpg"
+loading="lazy"
+alt="Tasker automation app settings screenshot showing Daily cleanup specific directory toggle enabled, time set to 3:00AM to execute cleanup specific directory task"
+&gt;&lt;/p&gt;
+&lt;p&gt;Tasker can also implement automatic cleanup. I have set some rules. Every night, Tasker will delete files that have been in the File Port for more than 7 days. My File Port can always remain relatively clean, files are easy to find, and it also saves storage space on the phone.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144823.jpg"
+loading="lazy"
+alt="Tasker task edit interface screenshot, title Cleanup specific directory, red circle highlights Variable Set step, parameter 1 set to %PathFilePort, parameter 2 set to 604800 seconds i.e. 7 days"
+&gt;&lt;/p&gt;
+&lt;p&gt;In this way, I need to deal with the things in the File Port within 7 days. But this is more than enough for me. Usually, I deal with them in one or two days, and then I don&amp;rsquo;t have to clean up myself. The useful ones are moved away, and the useless ones are waiting to be automatically deleted.&lt;/p&gt;
+&lt;p&gt;I have an Android phone. This capability may only be available on Android phones. I&amp;rsquo;m not sure about Apple. I don&amp;rsquo;t know if the openness of the system has improved over the years, probably not.&lt;/p&gt;
+&lt;h3 id="call-recording-port"&gt;Call Recording Port
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-145049.jpg"
+loading="lazy"
+alt="Android phone File Manager screenshot showing PhoneRecord folder with call recording file list, each file in aac format, size from 99KB to 689KB, dates from 2022"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is also a capability only available on Android phones. I record all calls and store them in the system-designated folder for future reference. But most of them are advertising calls that hang up within 5 seconds. There is no need to keep these. Too many recording files are inconvenient for future searches.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144905.jpg"
+loading="lazy"
+alt="Tasker task edit interface screenshot, red circle highlights Variable Set step, parameter 1 set to %PathCallRecord, parameter 2 set to 100000 bytes i.e. 100KB, for cleaning small files"
+&gt;&lt;/p&gt;
+&lt;p&gt;Tasker can implement cleanup by file size. I have set some rules. Every night, Tasker will delete files smaller than 100kB in the Call Recording Port, which filters out the truly useful recordings.&lt;/p&gt;
+&lt;p&gt;With some sync disks, these recordings can be synchronized to the computer or network disk, and then stored for a long time.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-145129.jpg"
+loading="lazy"
+alt="Dropsync folder pair settings screenshot, Remote folder set to /archive/电话录音, Local folder set to [Internal storage]/Record/PhoneRecord, sync method Two-way"
+&gt;&lt;/p&gt;
+&lt;p&gt;I use a third-party client of Dropbox, Dropsync, to synchronize mobile folders with the network disk, which even the official client can&amp;rsquo;t do.&lt;/p&gt;
+&lt;p&gt;The constraint mechanism of this port is relatively implicit. There are not many useful calls. Even if you make calls non-stop, there is a ceiling of 24 hours a day. It will not expand indefinitely. Time itself is the constraint mechanism. Therefore, you can rest assured to let it accumulate as a backup.&lt;/p&gt;
+&lt;h3 id="computer-file-port"&gt;Computer File Port
+&lt;/h3&gt;&lt;p&gt;This is similar to the mobile file port. But the advantage of the computer is that almost all software downloads are placed in the system&amp;rsquo;s download folder. I use the download folder as a port and deal with things directly here, eliminating the process of centralization. And my desktop never has any files on it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-52-38.jpg"
+loading="lazy"
+alt="Windows 11 desktop screenshot with Saturn ring wallpaper background, only Recycle Bin icon on desktop, taskbar shows Edge/File Manager/Mail apps"
+&gt;&lt;/p&gt;
+&lt;p&gt;Then there are some ways to achieve similar effects to the mobile file port. Windows can use File Juggler; I have it clean up files from 18 hours ago. Mac can use the system&amp;rsquo;s built-in Automator + Calendar; I have it empty the download folder at 9:30 am every day. In short, the purpose is to clear it daily.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-54-02.jpg"
+loading="lazy"
+alt="File Juggler auto cleanup rule settings screenshot, Description is Empty download, Monitor monitors download folder, If condition is Date modified Older than 18 Hours ago, Then action is Send file to recycle"
+&gt;&lt;/p&gt;
+&lt;p&gt;The scope of cleaning is different from the mobile file port, but the constraint mechanism is the same. There are many more files processed on the computer every day than on the mobile phone. Only daily cleaning can maintain the port in a relatively high state of order.&lt;/p&gt;
+&lt;p&gt;I am used to dealing with temporarily generated materials in the download folder. After finishing the day, the results and intermediate products—the useful ones are stored, and the useless ones are left alone. As for things that cannot be dealt with in a day, implying they&amp;rsquo;re of higher importance, I will transfer them to a formal folder to deal with, a bit like project initiation.&lt;/p&gt;
+&lt;h3 id="screenshot-port"&gt;Screenshot Port
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-56-00.jpg"
+loading="lazy"
+alt="PC WeChat File Transfer Assistant chat window screenshot, red box highlights scissors screenshot button in bottom toolbar"
+&gt;&lt;/p&gt;
+&lt;p&gt;Maybe most people use chat software for screenshots on the computer, without installing additional tools, but there&amp;rsquo;s a disadvantage: there is no record of historical screenshots. Sometimes you need to use a screenshot taken a few days ago; you have to go to the chat history to find it, or try to reproduce the scene of the screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-57-15.jpg"
+loading="lazy"
+alt="Snipaste screenshot tool preferences interface screenshot, Output tab with Auto Save checked enabled, Path set to D:/Resilio/screenshots/Snipaste_$yyyy-MM-dd_HH-mm-ss.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;I prefer to use screenshot tools like Snipaste, which do not rely on chat software. In addition to rich image annotation functions, more importantly, each screenshot can be saved to the folder I specify and can be reused.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-58-56.jpg"
+loading="lazy"
+alt="Resilio Sync screenshot comparison, left Sync Home Pro shows screenshots folder status normal 1/3 online users, right phone Folders interface shows screenshots folder Peers: 1"
+&gt;&lt;/p&gt;
+&lt;p&gt;Personal computers, work computers, and mobile phones have their own folders for storing screenshots. Since screenshots sometimes involve sensitive information, I don&amp;rsquo;t want to use a network disk to synchronize them. I use Resilio, which has no cloud, to associate them. The screenshots of the 3 devices are centralized; each device has a copy, and point-to-point synchronization is maintained.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144849.jpg"
+loading="lazy"
+alt="Tasker task edit interface screenshot, red circle highlights Variable Set step, parameter 1 set to %PathSyncScreenshots, parameter 2 set to 604800 seconds i.e. 7 days, for cleaning expired screenshots"
+&gt;&lt;/p&gt;
+&lt;p&gt;Screenshots, especially screen recordings, still take up space, and old screenshots have no retention value. I have set some rules. Every night, Tasker will delete screenshots that have been in the Screenshot Port for more than 7 days. Since it can be synchronized, the ones on other devices are also deleted.&lt;/p&gt;
+&lt;p&gt;This port not only has a constraint mechanism, but also doesn&amp;rsquo;t need to be maintained. I take screenshots as usual, I can retrieve recent screenshots, and I can limit the number of pictures to a controllable range, so I don&amp;rsquo;t have to search through a haystack.&lt;/p&gt;
+&lt;h3 id="browser-tab-port"&gt;Browser Tab Port
+&lt;/h3&gt;&lt;p&gt;Observing others using browsers, I found that most people belong to the &amp;ldquo;open only, no close&amp;rdquo; type. They often use the browser tab bar like this, and then close all the next day and start over:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_15-00-47.jpg"
+loading="lazy"
+alt="Browser tab bar screenshot showing about 20 densely packed tabs including Google Search/Gmail/YouTube/Documents icons"
+&gt;&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t have this problem originally. I closed tabs very frequently, consciously closing tabs that were used in time. But this also has drawbacks: it takes up my time and interrupts my tasks. The common situation is that I click on a web page and open a new tab, and the original web page is useless. For a tab hoarder like me, I have to immediately close the original one. Even using shortcut keys Ctrl/Cmd+Shift+Tab and then Ctrl/Cmd+W, which is faster than the mouse, is also quite troublesome.&lt;/p&gt;
+&lt;p&gt;Why not try to regard the browser as a port? Tabs are also digital materials, and they can also be managed with the port mindset. This trial was really great! I can also open only, no close, and not do those cleaning things.&lt;/p&gt;
+&lt;p&gt;This requires a browser plugin called Tab Wrangler, which can be installed in browsers that support the Chrome app store. I have set some rules. Tabs that have not been moved for more than 12 hours will be automatically closed by the plugin. When I wake up the next day, the browser is clean by itself. As for the tabs to be processed the next day, I only need to use the browser&amp;rsquo;s pin function; pinned tabs will not be cleaned up by the plugin.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_15-02-18.jpg"
+loading="lazy"
+alt="Tab Wrangler browser plugin settings interface screenshot, Close inactive tabs if over 720 minutes 0 seconds, Auto close tabs only when more than 5 tabs opened, Remember up to 100 closed tabs"
+&gt;&lt;/p&gt;
+&lt;p&gt;The constraint mechanism of the browser tab port is very similar to the computer file port: daily cleaning. Useful tabs, actively save; most of them are useless, no additional processing is required.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;My digital world ports seem numerous, but they are basically upgrades and transformations of existing locations, do not change the original usage habits, there is nothing to remember. The call recording port and the screenshot port don&amp;rsquo;t even need to be managed; they all run silently.&lt;/p&gt;
+&lt;h2 id="physical-world-ports"&gt;Physical World Ports
+&lt;/h2&gt;&lt;p&gt;Can the port mindset be extended beyond the digital world to reduce the burden of life?&lt;/p&gt;
+&lt;p&gt;Absolutely. For many people, this is a matter of course: opening up a dedicated space to store items to be processed or sorted, and regularly cleaning to prevent excessive accumulation. Everyone is actually doing this, but they haven&amp;rsquo;t theorized it.&lt;/p&gt;
+&lt;p&gt;For example, during Double Eleven, the packages at home are bursting and there is no time to unpack them. Isn&amp;rsquo;t it just piled up at the door? At this time, this small space next to the shoe cabinet becomes a port, and some are unpacked every day when there is time.&lt;/p&gt;
+&lt;p&gt;Another example is the desk of the company&amp;rsquo;s finance department, with neat stacks of A4 paper on the desktop. This stack is for archiving after verification, and that stack is the reimbursement forms submitted by everyone. This is also a port, a distribution center for documents.&lt;/p&gt;
+&lt;p&gt;Therefore, there is actually nothing to say about establishing a port in the physical world. Everyone has already mastered this ability.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/IMG_20230112_103422.jpg"
+loading="lazy"
+alt="White paper bag hanging on hook behind door, with handwritten Inbox text and envelope icon on it, for storing time-sensitive paper documents"
+&gt;&lt;/p&gt;
+&lt;p&gt;However, my home still has a special small port, which can be shown. I found a paper bag of suitable size, labeled &amp;ldquo;Inbox,&amp;rdquo; and hung it at the door to store time-sensitive paper documents.&lt;/p&gt;
+&lt;p&gt;What are &amp;ldquo;time-sensitive paper documents&amp;rdquo;? For example, a one-year car insurance contract, medical records required to apply for special additional deductions for personal income tax, or paper catering invoices collected for friends. These are all useful for a certain period of time, and after that, they become waste paper and do not need to be kept for a long time.&lt;/p&gt;
+&lt;p&gt;In the digital age, there are fewer and fewer such documents at home, but not completely absent, which is the troublesome part. If they are classified and placed with long-term materials, they are often forgotten to be cleaned up and accumulate more and more; if they are placed in a conspicuous place, some materials have a long validity period, and after being placed for half a year, they become backing paper. Can you still remember where it is?&lt;/p&gt;
+&lt;p&gt;At this time, a port should be opened for them. The constraint mechanism of the port in the physical world basically depends on the size of the space. The space opened up should not be too large, otherwise it will become a warehouse; it should not be too small, otherwise it will not be able to turn around. This requires a period of experimentation to find the right size.&lt;/p&gt;
+&lt;p&gt;In short, open up space for the intermediate state of the physical world and create a habitat. It is better to dredge than to block.&lt;/p&gt;
+&lt;h2 id="financial-world-ports"&gt;Financial World Ports
+&lt;/h2&gt;&lt;p&gt;The object of the financial world is money. Of course, no penny is useless and can be destroyed, so the main problem here is the scheduling of funds.&lt;/p&gt;
+&lt;p&gt;I have many bank cards. Savings, financial management and daily expenses mainly rely on China Merchants Bank. Mortgage loans are deducted from China Construction Bank. There are also salary cards from various companies I have worked for. Funds are scattered everywhere, difficult to manage and count. Monthly income, mortgage repayment, and transfers are also very annoying. Is it possible to have a financial port for centralized scheduling?&lt;/p&gt;
+&lt;p&gt;Most domestic banks have a fund collection function, and it is cross-bank. Search in the corresponding bank app to find it. It can associate two cards from different banks, set rules to automatically schedule funds in the two cards.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-150344.jpg"
+loading="lazy"
+alt="China Merchants Bank app fund collection settings screenshot showing two rules: Daily minimum balance collection from CITIC Bank to CMB, Daily smart collection from CCB minimum 5000 yuan maximum 20000 yuan to CMB"
+&gt;&lt;/p&gt;
+&lt;p&gt;Through fund collection, every day China Merchants Bank will transfer all the funds from the CITIC Bank salary card, leaving only 20 yuan balance to keep it active. At the same time, China Merchants Bank will ensure that there is at least 5000 balance in the China Construction Bank mortgage card every day for repayment. If it is not enough, it will transfer money. If the CCB card has a balance of more than 20,000 due to other people&amp;rsquo;s transfers, it will collect the excess.&lt;/p&gt;
+&lt;p&gt;In this way, this China Merchants Bank card becomes my financial port. Funds are concentrated here to the maximum extent and then used for financial management. Even if there are other bank cards in the future, and there are other forms of capital transactions, they can also be scheduled through here.&lt;/p&gt;
+&lt;h2 id="thought-world-ports"&gt;Thought World Ports
+&lt;/h2&gt;&lt;p&gt;Furthermore, does the port mindset have a place in the world of thought?&lt;/p&gt;
+&lt;p&gt;Yes. Here, it has no physical form, no folders, no small paper bags. What needs to be done is to change your attitude towards information.&lt;/p&gt;
+&lt;p&gt;Information is divided into 3 categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Events:&lt;/strong&gt; Something happened, you know it; this is an event. Due to the minimal long-term impact on the whole society, it is more of a talking point at the moment and has no value afterward. For example, in 2018, the movie &amp;ldquo;Dunkirk&amp;rdquo; won the 90th Academy Award.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Knowledge:&lt;/strong&gt; You have learned a principle or a historical event; this is knowledge. This principle is very basic, not affected by human society, and plays a long-term role. Or this historical event has a major and long-term impact on the world, and you understand its causes and consequences. For example, the 2011 Fukushima nuclear accident changed the attitudes and policies of countries around the world towards nuclear power.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opinions:&lt;/strong&gt; You have a certain view or attitude towards something; this is an opinion. Your opinion only exists in your heart. Everyone has different opinions on this matter. People with the same and opposite views as you even quarrel for a long time. For example, you think that the south of China should also have central heating in winter like the north.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Events are objective and short-term; knowledge is objective and long-term; opinions are subjective.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The information you receive daily from various channels is shaping and changing your thought world. A big problem today is that all 3 types of information are unreliable. Events are often false and spread by hearsay; knowledge is often wrong and misleading for profit; opinions are often extreme and force people to choose camps. Let such information shape or invade your thought world, and you will be ruined.&lt;/p&gt;
+&lt;p&gt;But accepting information is unavoidable and cannot be complacent. A huge amount of information comes every day. Accept it, you may eat too much garbage; verify it, how can you verify so much information?&lt;/p&gt;
+&lt;p&gt;Therefore, it is very meaningful to establish a port for the thought world. To establish this port is to accept the existence of the intermediate state of information in concept. In layman&amp;rsquo;s terms, it is to have a state of &amp;ldquo;Well, I have heard of it; I don&amp;rsquo;t know if it is true or false; I haven&amp;rsquo;t verified it yet.&amp;rdquo; If you see a piece of news or a popular science article, and your brain immediately wants to express your opinion, wants to scold the person in the news, or wants to forward this popular science to the family group, it means that the port of thought has not been established.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t directly put the information you receive every day into your memory as facts, but let it stay in this &amp;ldquo;I have heard of it&amp;rdquo; port for a few days. In these few days, important things that are related to you, you will naturally recall, will verify, understand more details, form your own understanding and attitude, and finally officially incorporate them into your thought world. Those unimportant ones will no longer appear in your mind, and time will help you destroy them. Even if you think of it again someday, its state will become: &amp;ldquo;Well, I have heard of it; I don&amp;rsquo;t know if it is true or false; it is not important; I am too lazy to verify.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Remember principle two of the port mindset? Not everything needs a beginning and an end. Forgetting is the constraint mechanism of the thought port.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;From digital materials to the physical world, and then from the physical world to thought, the port mindset allows people to change themselves and actively fit into this changing and flowing world. Perhaps because it is close to the real way things work, people feel more relaxed and natural.&lt;/p&gt;
+&lt;p&gt;So what role does this abstract &amp;ldquo;port mindset&amp;rdquo; play in life? How to imagine these virtual ports?&lt;/p&gt;
+&lt;p&gt;The picture in my mind is: The port is a brave pass; it fights against chaos and disorder and leaves order to the land behind that needs to be protected. That land is your life, your time, your thoughts.&lt;/p&gt;</description></item></channel></rss>

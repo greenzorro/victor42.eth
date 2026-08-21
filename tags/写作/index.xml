@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>写作 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%86%99%E4%BD%9C/</link><description>Recent content in 写作 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Mon, 30 Jun 2025 20:03:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml"/><item><title>AI输出高质量科普文</title><link>https://victor42.eth.limo/post/ai-generate-popular-science-article/</link><pubDate>Mon, 30 Jun 2025 20:03:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/ai-generate-popular-science-article/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-06/f7b0ee2995396053cda405410209e00b.webp" alt="Featured image of post AI输出高质量科普文" /&gt;&lt;p&gt;不是教你拿AI来糊弄读者，是分享使用AI的精髓。&lt;/p&gt;
+&lt;p&gt;前阵子写了篇化学科普文，&lt;a class="link" href="https://victor42.eth.limo/post/how-water-puts-out-fire/" target="_blank" rel="noopener"
+&gt;水为什么能灭火&lt;/a&gt;。不知道大家有没有看出来，我这篇文章其实是AI生成的？&lt;/p&gt;
+&lt;p&gt;什么？糊弄读者？我不是，我没有，不是你想的那样。我没有发“写篇水为什么能灭火的科普文”然后闭着眼睛复制发布，这样操作会出来什么不信你试试。&lt;/p&gt;
+&lt;p&gt;这篇文章的写法，其实是一套把我的好奇心转换为自己的认知、进而转换成高质量科普文的SOP（标准作业程序）。&lt;/p&gt;
+&lt;h2 id="1-深度讨论"&gt;1-深度讨论
+&lt;/h2&gt;&lt;p&gt;让我感兴趣的问题，我先与AI（比如Gemini 2.5 Pro）深度讨论。挖出问题背后一连串的深层规律，形成系统性的理解，同时考证关键信息防止幻觉误导。&lt;strong&gt;先涨了自己见识再说&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;水灭火那篇，和AI的完整聊天记录见：&lt;a class="link" href="https://my.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/docx/TRWldvN8uo9VRqxly8Fc30HwnYg?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="2-人工撰写大纲"&gt;2-人工撰写大纲
+&lt;/h2&gt;&lt;p&gt;下一步，我会根据自己的理解，梳理出一个科普文大纲。&lt;/p&gt;
+&lt;p&gt;100%人工梳理。这样可以运用我在科普写作方面的经验，知道如何导入，什么时候用比喻和联想创造画面感，什么时候该升华出一两个金句作为记忆点。&lt;/p&gt;
+&lt;p&gt;写大纲的过程也是在实践费曼学习法。这个话题的知识脉络，在我脑子里是什么样，我就按什么结构写，是我真实的心智模型。我自己理不清的关系，写完大纲后就豁然开朗了。我是用文字思考的人，我需要token。&lt;/p&gt;
+&lt;p&gt;这样的大纲写好之后，我会发给AI。先检查有没有事实错误，再问问结构和表达上有没有更好的建议。有时AI确实能补充一些很有价值的角度，根据反馈再改一两轮。&lt;/p&gt;
+&lt;h2 id="3-ai输出正文"&gt;3-AI输出正文
+&lt;/h2&gt;&lt;p&gt;大纲定稿后，让AI根据大纲输出正文。&lt;/p&gt;
+&lt;p&gt;同时给AI看另一篇我人工撰写的科普文，让AI模仿我的文风，要求它保持平直、简练。&lt;/p&gt;
+&lt;p&gt;这个过程短暂且顺利。有了前几步的铺垫，输出的正文往往质量非常高，手动改少量细节就可以用了。&lt;/p&gt;
+&lt;h2 id="4-ai人工合作配图"&gt;4-AI/人工合作配图
+&lt;/h2&gt;&lt;p&gt;接下来，我再把正文给AI，让AI帮我思考哪里可以配什么样的图，把图片描述写到文中对应位置。这些配图描述大多很到位，即使有些需要调整和增减的，也往往可以给我带来一些灵感。&lt;/p&gt;
+&lt;p&gt;最后，拿这个带有配图描述的全文，发给AI Agent产品（如扣子空间），充分利用它图片搜索和图文编辑的能力。它会把配图全部填上，我来判断适不适合，不行再手动找，或者用AI生成。&lt;/p&gt;
+&lt;p&gt;以目前Agent能力，完成得不算太好，配图相关性和质量都不高，大多还得靠我。但我相信这是个渐进的过程，今天能找10%，明天能找30%、50%。也许有一天，配图工作真的不需要我动手了。&lt;/p&gt;
+&lt;p&gt;就这样，全文正式完成，可以多渠道发布了。&lt;/p&gt;
+&lt;h2 id="思考"&gt;思考
+&lt;/h2&gt;&lt;p&gt;这样做的好处是，既提升了自己的认知，保证最终输出的内容真的进了自己的脑子，又避免把自己的时间投入到斟酌词句里。&lt;/p&gt;
+&lt;p&gt;之前给前同事做&lt;a class="link" href="https://victor42.eth.limo/post/do-you-really-know-ai/" target="_blank" rel="noopener"
+&gt;AI分享&lt;/a&gt;的时候，同事问我，我用AI做的最多的一件事是什么。我说，学习。&lt;/p&gt;
+&lt;p&gt;AI把人类社会几乎所有的重要知识都压缩到了它的参数里。对任何富有好奇心的人，这简直是个大宝库。里面有意思的东西太多，自己消化都还来不及呢，怎么很多人就在忙着输出给别人，只做个搬运工？&lt;/p&gt;
+&lt;p&gt;引用我在X(Twitter)上的&lt;a class="link" href="https://x.com/victor_cheng_42/status/1930134733012512846" target="_blank" rel="noopener"
+&gt;一条思考&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AI的生产力让人跃跃欲试，总想要用AI输出点什么。&lt;/p&gt;
+&lt;p&gt;但实际上，如果仅抱着自我成长的目的，开设任何输出AI内容的媒体账号没有意义。只有亲自输出，经过了自己的脑子，才能达到目的。&lt;/p&gt;
+&lt;p&gt;如果自己的输出质量比AI高，还要去用AI输出，那是在走弯路。&lt;/p&gt;
+&lt;p&gt;当然，为了搞钱另说。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个有点像什么呢？不知道多少人看过《一人之下》？罗天大醮里有个令人印象深刻的角色：王并。嚣张跋扈，滥用服灵术夺取吞食对手灵体，然后在剧情安排下被秒杀给观众解气。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/8db9ce3c71a920ae4985aca5f117926b.webp"
+loading="lazy"
+alt="动漫一人之下中王并使用服灵术吞噬灵体"
+&gt;&lt;/p&gt;
+&lt;p&gt;但他们王家的思路不能说错。在AI使用的问题上，AI输出的所有信息都可视作灵体。不同的是，服灵并不会给别人带来损失，因为“灵”是可复制的。你可以摆下自动化大阵，海量洗稿加速起号，像调遣一整支灵体大军。你也可以缓慢消化，永久性强化自己的能力。但只有后一种，对个人有复利作用。&lt;/p&gt;
+&lt;p&gt;这事其实我在AI时代前就在做，只是当时费劲得多。我有一个庞大的个人笔记本，我把它命名为TIL(Today I learned)。闲来无事研究天上地下各种奇怪问题，从云的分类到铀浓缩技术，从古代官服制式到印巴分治。研究完了就自己组织语言写一篇简短笔记，积累到今天已经300多篇了。&lt;/p&gt;
+&lt;p&gt;其中绝大部分，写完我就再也不会打开。有的记住了，有的忘得一干二净。但写作过程本身，对记忆有极大的帮助。&lt;/p&gt;
+&lt;p&gt;到了AI时代，这些资料反而成为一笔意外的财富。把整个TIL目录导入到AI工具的知识库（如Cherry Studio）里，可以快速查到哪怕一项很细节的数据，让这些沉睡的知识再次发光发热。&lt;/p&gt;
+&lt;p&gt;不过，这不代表我不再需要用脑子记了。原子化的事实类信息不必占用大脑，大脑该记的是事实背后的规律。但这需要先让大量的事实过一遍脑子，脑子才能总结出规律。跳过脑子让AI给你总结，你记住的是无本之木，转瞬即忘。不然畅销书作者们为什么要把几十字的观点写成十几万字的书呢？&lt;/p&gt;
+&lt;p&gt;最后，再回到写科普文上。整个输出过程标准化以后，最重要的可能就是提出精彩的问题了。有了问题，后面的事水到渠成。&lt;/p&gt;
+&lt;p&gt;我就是我自己的知乎。&lt;/p&gt;</description></item><item><title>博客与写作工具</title><link>https://victor42.eth.limo/post/3490/</link><pubDate>Thu, 24 Mar 2016 00:09:07 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3490/</guid><description>&lt;p&gt;广告文如期而至，今天来介绍一下我使用的markdown写作工具——&lt;a class="link" href="http://markeditor.com/app/markeditor" target="_blank" rel="noopener"
+&gt;MarkEditor&lt;/a&gt;。作为书写工具，对我而言最重要的意义就是博客写作。大家不妨先听我唠叨一段我博客的历史，然后你们会明白我的选择。小小透露一下，文末有&lt;strong&gt;限时优惠&lt;/strong&gt;噢！&lt;/p&gt;
+&lt;h2 id="无聊是第一生产力"&gt;无聊是第一生产力
+&lt;/h2&gt;&lt;p&gt;这个博客的诞生，完全不是出于什么人生大计，纯粹就是无聊。早在大学期间，我就开始写点小日记，记录一些鸡毛蒜皮的小事，今天又骑车去哪逛了一圈、期末高数又挂了之类（哎我为什么要说又呢）。内容的形式逐渐分化，开始产生一些固定栏目：旅游照片、生活趣事集锦、影评书评、梦中神奇经历、还写过几篇矫情的微型小说。如今这些都原封不动保留着，偶尔翻一翻，也算见证一下当时的青葱岁月。直到大学毕业，我都是直接在博客平台里写，用的是哪家门户已经不记得了，反正纯粹是当作私人日记本在用，访客寥寥。&lt;/p&gt;
+&lt;h2 id="免不了要走上折腾的道路"&gt;免不了要走上折腾的道路
+&lt;/h2&gt;&lt;p&gt;毕业一年左右，朋友们说，作为设计师，怎能没有个人网站呢。那时的做法很偷懒，找个相册网站，把作品往上面一扔，博客那边再加个主导航外链。朋友说这也太low了，既然你会点前端，搭个wordpress啊。找了一圈模版，发现都不太符合我的要求。以博客为主的，作品展示效果不好；以作品为主的，文章往往藏得很深。作品反映的是身为设计师的我，而文章更接近完整的我，不能喧宾夺主。&lt;/p&gt;
+&lt;p&gt;没办法，只好自己卷起袖管改代码，在朋友的指导下理解了域名、空间、独立博客之间的关系，第一个独立博客搭起来了。我还清楚记得第一版的样子，首页有一张大大的海星特写，背后是沙滩与海洋。从中取了天蓝、明黄和咖啡色，作为博客的主要配色。遗憾的是当时没有备份意识，早期的几版博客模版都被彻底覆盖了，什么也没留下。只能找到最后一版wordpress博客的主页，贴出来供大家吐吐槽：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/cola.png"
+loading="lazy"
+alt="可乐橙早期WordPress博客首页截图，展示绿色导航栏、文章列表预览与深色页脚"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/page_about.png"
+loading="lazy"
+alt="设计师可乐橙个人网站旧版“关于我”页面，包含时光轴、技能树及友人评价"
+&gt;&lt;/p&gt;
+&lt;h2 id="不能忘了写作是初衷"&gt;不能忘了，写作是初衷
+&lt;/h2&gt;&lt;p&gt;模板一套又一套地改，从别人的独立博客学到了许多技术知识。这些博客往往有个特点，翻它早期的文章，可以看到一些生活和感悟，后来就逐渐变成纯技术博客了。&lt;/p&gt;
+&lt;p&gt;我不想那样。&lt;/p&gt;
+&lt;p&gt;我花了太多心思在文章的展示上，却从没重视过写作的过程。台前与幕后，写博客的初衷是什么？让别人看得开心，还是自己写得开心。如果非要选一个，我觉得是后者。失去兴趣的写作，无论如何也不可能坚持将近10年。技术博客之所以改变方向，也必然是博主的兴趣转移到了技术上，兴趣使然，自己喜欢就好。&lt;/p&gt;
+&lt;h2 id="尊重写作本身"&gt;尊重写作本身
+&lt;/h2&gt;&lt;p&gt;虽然爱好和意志力有不可否认的作用，但一个舒适的写作环境也有积极的意义。和文字打了这么多年的交道，却忽略了一个显而易见的问题：为什么非得用这个来写？相当长一段时间里，我只在两个地方码字：Word和wordpress，只能说它们名字起得好，直击本质，让人潜意识觉得不需要其他的选择。&lt;/p&gt;
+&lt;p&gt;当然了，并非真的不需要。&lt;/p&gt;
+&lt;p&gt;最理想的写作环境是一整套体验，需要各方面的支持。手边要有一杯温水，喝水的间隙时常能产生灵感；背后要有一个厚度适中的靠垫；要有舒缓心神的音乐，或者大自然的声音；最好还能有微凉的轻风让人保持清醒；当然，专业的写作工具也是必须的，让人只关心内容，不必去想大标题用24号还是21号、宋体还是黑体。&lt;/p&gt;
+&lt;p&gt;Markdown就是这样一种格式，可塑性强，放之四海皆准。除此之外，编辑器更加功不可没。把写作想象成庄园里的午后，与某位远方来客喝茶闲谈，那编辑器就要起到侍从的作用。它得通晓十八般武艺，“手机拍照插入文中”、“生成图片分享全文”这样的事情，肯定不能劳烦你亲自动手。同时又要保持缄默，按下全屏快捷键，世界只剩思想，其他一概遁入阴影，等待召唤。&lt;/p&gt;
+&lt;h2 id="markeditor"&gt;MarkEditor
+&lt;/h2&gt;&lt;p&gt;能够做到召之即来挥之即去的写作工具已不在少数，但在多才多艺方面，&lt;a class="link" href="http://markeditor.com/app/markeditor" target="_blank" rel="noopener"
+&gt;MarkEditor&lt;/a&gt;绝对算是个中翘楚。功能强大的意义在于，不必写作中途费一番周折上传图片，也不必为了回顾某个章节翻遍整篇长文。因为做这些事情，思绪会被打断，这并非简洁前卫的UI能够弥补。若要追求流畅的写作体验，该简洁的其实是输入内容的过程，并不是编辑器的功能。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/Welcome_to_MarkEditor.png"
+loading="lazy"
+alt="桌面端Markdown写作编辑器MarkEditor软件界面与文档排版样式效果截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;这就是MarkEditor的第一印象，相较于它丰富的功能，界面已经极其克制和朴素了。你可以不去管那些附加功能，放手开始写作，一样的简单清净。你也可以仔细探索一番，发掘它的无穷潜力。MarkEditor的自由化程度极高，众多小功能都不是花瓶玩物，而是些杀手级的功能。有没有想过？链接能直接生成二维码图片，插入文中。下面列举一些让我感到惊喜的功能，逐一演示：&lt;/p&gt;
+&lt;h3 id="工作目录"&gt;工作目录
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%8f%af%e4%b9%90%e6%a9%99%e7%9a%84%e5%b7%a5%e4%bd%9c%e7%9b%ae%e5%bd%95.png"
+loading="lazy"
+alt="MarkEditor工作目录设置窗口，展示经典树型文件管理器与Markdown模板配置选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;许多Markdown编辑器都只能设置一个工作目录。MarkEditor可以设置几个常用工作路径，通过快捷键召唤出工作目录窗口。同时处理多份文档时极其有用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%86%99%e4%bd%9c%e7%9b%ae%e5%bd%95.png"
+loading="lazy"
+alt="MarkEditor文件列表以简洁风格展示按周命名的周报Markdown文件，右侧为文档编辑区"
+&gt;&lt;/p&gt;
+&lt;p&gt;值得一提的是，每个工作目录还有些选项能独立设置。我的博客文件夹有多个日志分类，我可以把目录设成树状结构展示，能够操作整个目录下的文章和图片。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%91%a8%e6%8a%a5.png"
+loading="lazy"
+alt="MarkEditor简洁风格文件列表展示按日期命名的周报文档，右侧显示工作事项清单"
+&gt;&lt;/p&gt;
+&lt;p&gt;而用来写工作周报的目录只有一层，就比较适合简洁风格，只显示文章，忽略其他文件类型。&lt;/p&gt;
+&lt;h3 id="生成二维码"&gt;生成二维码
+&lt;/h3&gt;&lt;p&gt;文章中需要插入二维码，便于PC端读者浏览某个H5页面。以往碰到这种情况是很头疼的，切出去打开浏览器，用chrome插件或某个网页工具来生成，然后再下载、插入文中。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e6%8f%92%e5%85%a5%e4%ba%8c%e7%bb%b4%e7%a0%81.png"
+loading="lazy"
+alt="MarkEditor插入二维码弹窗，输入网址文本框与尺寸设置（360像素）及确认按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;MarkEditor考虑了这种情况，快捷键呼出二维码窗口，粘贴内容，直接就能生成了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e4%ba%8c%e7%bb%b4%e7%a0%81.png"
+loading="lazy"
+alt="MarkEditor文档预览中嵌入的大型二维码图片，左侧为文件目录树结构"
+&gt;&lt;/p&gt;
+&lt;h3 id="临时插入手机照片"&gt;临时插入手机照片
+&lt;/h3&gt;&lt;p&gt;窗台上飞来一只漂亮的鸟，想拍下来发到博客上，又要大动干戈一番。要设法把照片同步到电脑上，再拖到文章中。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e6%8f%92%e5%85%a5%e6%9d%a5%e8%87%aa%e4%bd%a0%e7%a7%bb%e5%8a%a8%e8%ae%be%e5%a4%87%e4%b8%ad%e7%9a%84%e5%9b%be%e7%89%87.png"
+loading="lazy"
+alt="MarkEditor移动端图片上传界面，显示局域网二维码扫描地址与允许上传勾选框"
+&gt;&lt;/p&gt;
+&lt;p&gt;在这里就要方便不少，激活插图窗口，手机扫个码，拍照上传，完事。当然还可以从相册选取图片。&lt;/p&gt;
+&lt;p&gt;![iPhone照片选择界面，提供拍照、从相册选取和更多选项三个图片插入方式](&lt;a class="link" href="https://cdn.victor42.work/posts/2016-03/03-23/2016-03-23" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2016-03/03-23/2016-03-23&lt;/a&gt; 15.35.04.png)&lt;/p&gt;
+&lt;h3 id="改变图片尺寸"&gt;改变图片尺寸
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e8%b0%83%e6%95%b4%e5%9b%be%e7%89%87%e5%a4%a7%e5%b0%8f_%e5%92%8c_Dropbox_documents_MarkEditor%e7%ae%80%e4%bb%8b_md_%e5%92%8c_pic__%e5%b0%8f%e5%9b%be.png"
+loading="lazy"
+alt="MarkEditor图片缩放功能弹窗，展示缩放率滑块与最宽最高像素设置输入框"
+&gt;&lt;/p&gt;
+&lt;p&gt;插入文中的图片可以很方便地再手动缩小尺寸，拖动一个滑块就行，MarkEditor官网的介绍视频中有这个操作，给我极其深刻印象深刻。&lt;/p&gt;
+&lt;h3 id="打字机式滚动"&gt;打字机式滚动
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e6%89%93%e5%ad%97%e6%9c%ba.png"
+loading="lazy"
+alt="MarkEditor打字机式滚动功能演示，编辑区文档内容随光标自动居中滚动"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个功能虽然不是独家，却还是不多见的。每回车一次，就会滚动画面，让光标所在行移到屏幕中央。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/depositphotos_58981925-merry-christmas-typewritten-in-a-paper-sheet-on-a-typewriter-wi.jpg"
+loading="lazy"
+alt="复古打字机俯拍特写，双手正在敲击键盘，纸卷上印有Merry Christmas字样"
+&gt;&lt;/p&gt;
+&lt;p&gt;很像打字机，这是对眼睛最大的善意。&lt;/p&gt;
+&lt;h3 id="文章内容索引"&gt;文章内容索引
+&lt;/h3&gt;&lt;p&gt;长文会有比较复杂的结构，主副标题能多达3级甚至4级。如果要回顾之前某个章节的内容，做个呼应，这时翻滚动条也要翻半天。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e7%9b%ae%e5%bd%95.png"
+loading="lazy"
+alt="MarkEditor文章内容索引侧边栏，以多级标题大纲形式展示文档章节结构"
+&gt;&lt;/p&gt;
+&lt;p&gt;文章内容索引就能很好地解决这个问题，这是天然的大纲结构，便于查找的同时，也能帮助自己梳理逻辑。&lt;/p&gt;
+&lt;h3 id="生成长图"&gt;生成长图
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%af%bc%e5%87%ba%e5%9b%be%e7%89%87.png"
+loading="lazy"
+alt="MarkEditor导出菜单展示PDF、图片、HTML等多种导出格式选项及右键上下文菜单"
+&gt;&lt;/p&gt;
+&lt;p&gt;发长微博时这个就特别有用了。如你所见，除了长图，还可以导出成许多其他形式，用于不同的场合。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%8f%af%e4%b9%90%e6%a9%99%e8%af%91%e6%96%87%e8%83%8c%e5%90%8e%e7%9a%84%e6%95%85%e4%ba%8b.png"
+loading="lazy"
+alt="MarkEditor长图导出效果，展示文章排版后的移动端阅读样式与文字层级"
+&gt;&lt;/p&gt;
+&lt;p&gt;长微博图片对移动端做了优化，清晰美观大方。&lt;/p&gt;
+&lt;h3 id="历史版本"&gt;历史版本
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%8e%86%e5%8f%b2%e7%89%88%e6%9c%ac.png"
+loading="lazy"
+alt="MarkEditor历史版本对比界面，左侧时间轴列出各版本，右侧红绿高亮显示文本差异"
+&gt;&lt;/p&gt;
+&lt;p&gt;自带历史版本功能，如果你不用dropbox或坚果云，那这个功能意义重大。而且这个历史版本可比dropbox的详细多了，能看到历史版本与当前版本的具体差异，代码对比功能的妙用。&lt;/p&gt;
+&lt;h3 id="灵活的自定义皮肤"&gt;灵活的自定义皮肤
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e7%9a%ae%e8%82%a4.png"
+loading="lazy"
+alt="MarkEditor设置窗口中的自定义皮肤配色表，展示字体颜色、背景色等CSS属性参数"
+&gt;&lt;/p&gt;
+&lt;p&gt;MarkEditor有意思的地方是直接把UI的配色表放出来了，几乎所有能看到的元素，都可以改颜色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%a4%9c%e9%97%b4.png"
+loading="lazy"
+alt="MarkEditor夜间模式主题效果，深色背景配绿色链接与紫色图片的自定义配色"
+&gt;&lt;/p&gt;
+&lt;p&gt;我就自己改了个夜间模式主题，绿色链接，紫色图片，标题和正文的颜色略微改柔和了一点。如果你喜欢，可以在下面链接中复制我的配色表。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://pan.baidu.com/s/1kUbUYb1" target="_blank" rel="noopener"
+&gt;http://pan.baidu.com/s/1kUbUYb1&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="todo-list"&gt;Todo list
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/todo.png"
+loading="lazy"
+alt="MarkEditor无序列表作为Todo清单使用，已完成项带删除线，待办项正常显示"
+&gt;&lt;/p&gt;
+&lt;p&gt;无序列表还能当Todo list用，鼠标点击直接标记完成/未完成，我平时工作就是用的这个来记录一些临时需求。&lt;/p&gt;
+&lt;h3 id="同步到第三方云服务商"&gt;同步到第三方云服务商
+&lt;/h3&gt;&lt;p&gt;这是个重磅功能，也是解决图片存储问题的关键所在，真正把图片存储和写作集中到一个地方了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%90%8c%e6%ad%a5.png"
+loading="lazy"
+alt="MarkEditor同步到第三方云服务商设置窗口，展示七牛、Amazon S3等选项与AccessKey配置"
+&gt;&lt;/p&gt;
+&lt;p&gt;图片可以同步到第三方云服务商，例如七牛、亚马逊云，也可以同步到Farbox自家服务器。文章发布之后，图片自动转为相应的云端地址。除了写文章，你什么都不用做。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;这款写作工具还有大量待发掘的高级功能，比如可以自定义markdown的转译语法，怎么用就取决于你的想象力了。MarkEditor与同门产品&lt;a class="link" href="https://www.farbox.com/" target="_blank" rel="noopener"
+&gt;Farbox&lt;/a&gt;配合，会让博客的管理非常省心。&lt;/p&gt;
+&lt;p&gt;如果要为MarkEditor找一个关键词，我觉得应该是：自由。把整个博客都放在自己的硬盘上，能获得最大限度的自由。无论是博客还是编辑器本身，都能灵活调整迎合自己的习惯与喜好。&lt;/p&gt;
+&lt;p&gt;在重要且常用的工具上，定制化程度高的产品有它无可替代的优势。一番悉心调教后，它会成为你最得力的助手。&lt;/p&gt;
+&lt;p&gt;还有最亲民的一点，&lt;strong&gt;它也提供windows版&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;最后附上MarkEditor的官网，可以先下载体验一下，其中部分功能需要购买才能激活：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://markeditor.com/app/markeditor" target="_blank" rel="noopener"
+&gt;http://markeditor.com/app/markeditor&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="优惠购买优惠已结束"&gt;优惠购买【优惠已结束】
+&lt;/h2&gt;&lt;p&gt;终于到发福利的时刻啦，我向MarkEditor作者讨来了独家优惠。首先请关注微信公众号【可乐橙】，并发送“优惠”2字。使用优惠码购买，前3名享受3折优惠，前30名5折，之后到2016-3-28都是7折。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/Buy_a_License.png"
+loading="lazy"
+alt="Markdown写作软件MarkEditor许可证购买表单，包含Email、优惠券码（PromoCode）输入栏与支付宝购买按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;点击购买按钮后，会看到实际购买价格。**一定记得填入优惠码噢！！因为License激活后是无法退款的。**要是一激动原价买下了，我也无能为力。&lt;/p&gt;
+&lt;p&gt;¯\_( ツ )_/¯&lt;/p&gt;</description></item></channel></rss>

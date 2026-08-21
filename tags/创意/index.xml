@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>创意 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%88%9B%E6%84%8F/</link><description>Recent content in 创意 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 03 Jan 2016 00:32:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%88%9B%E6%84%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>10条建议打造更聪明的设计流程</title><link>https://victor42.eth.limo/post/3477/</link><pubDate>Sun, 03 Jan 2016 00:32:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3477/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第117期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;身为用户体验设计师，回归对艺术设计的热爱非常重要。尤其是当你寻找创意的时候。&lt;/p&gt;
+&lt;p&gt;原因有很多。或许是我们工作节奏太快强度太高，精疲力竭。也可能是你身处一个抑制创意的环境，每天要与众多阻力抗争。也可能你不知不觉就成了一个循规蹈矩的执行者，一遍遍重复同样的工作。或者仅仅是你感到厌倦了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/09/image00.jpg"
+loading="lazy"
+alt="10条建议打造更聪明的设计流程的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计流程能让你自信满满地进行创新，因为创意的萌芽和演化是有迹可循的。&lt;/p&gt;
+&lt;p&gt;你的流程不应该一成不变，每个项目都有其约束。无论是资源还是技能，你的设计流程都必须随着这些实实在在的制约而改变。&lt;/p&gt;
+&lt;p&gt;下面，我依据自己职业生涯的亲身经历，整理出&lt;strong&gt;10条改善设计流程的建议&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id="1-寻找解决方案之前先确定问题"&gt;1. 寻找解决方案之前，先确定问题
+&lt;/h2&gt;&lt;p&gt;爱因斯坦说过：“如果我有一小时来解决问题，我会花55分钟思考问题，5分钟思考解决方法。”&lt;/p&gt;
+&lt;p&gt;许多设计师都犯了致命错误，认为问题是显而易见的。多数时候，表面问题仅仅是根本问题的一种表现。找到真正的问题时你一定会有所觉悟，因为它同时会解决许多其他问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/09/image01.jpg"
+loading="lazy"
+alt="10条建议打造更聪明的设计流程设计中关于“免费电子书网页最佳实”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;免费电子书&lt;a class="link" href="http://www.google.com/url?q=http%3A%2F%2Fwww.uxpin.com%2Fweb-ui-design-best-practices.html&amp;amp;sa=D&amp;amp;sntz=1&amp;amp;usg=AFQjCNEQWUkD9AAZJotn4EqNFZ-OU5B57w" target="_blank" rel="noopener"
+&gt;网页UI最佳实践&lt;/a&gt;中提到，以“&lt;a class="link" href="https://www.google.com/url?q=https%3A%2F%2Fhbr.org%2F2012%2F09%2Fthe-secret-phrase-top-innovato%2F&amp;amp;sa=D&amp;amp;sntz=1&amp;amp;usg=AFQjCNGVtrhoNIolFzoPQLtjd3ynpsbDvg" target="_blank" rel="noopener"
+&gt;我们该如何……&lt;/a&gt;”作为设计项目的起点，开始设计的思索。牢记一点，首先要确保你在设计正确的产品，然后才是正确地设计产品。&lt;/p&gt;
+&lt;h2 id="2-对用户了如指掌"&gt;2. 对用户了如指掌
+&lt;/h2&gt;&lt;p&gt;有个开发者曾经告诉我，她正在为“每个人”打造一款产品。这对于批量生产或许说得通，但如果不能精确指定某一类用户，就无法创造有意义的用户场景。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/09/image02.jpg"
+loading="lazy"
+alt="10条建议打造更聪明的设计流程设计中关于“没有有意义的用户场景”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;没有有意义的用户场景，就不知道你的MVP(&lt;a class="link" href="http://designmodo.com/incremental-design-mvp/" target="_blank" rel="noopener"
+&gt;最简形态产品&lt;/a&gt;)是什么，也不知道如何建立产品计划与策略。所有的产品都致力于解决某些微不足道的问题，对于需要它的人而言，这就简单易懂。&lt;/p&gt;
+&lt;p&gt;发起&lt;a class="link" href="http://designmodo.com/ux-research/" target="_blank" rel="noopener"
+&gt;用户调研&lt;/a&gt;，创建&lt;a class="link" href="http://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/" target="_blank" rel="noopener"
+&gt;人物角色&lt;/a&gt;，开始制定&lt;a class="link" href="https://www.newfangled.com/how-to-tell-the-users-story/" target="_blank" rel="noopener"
+&gt;用户情景&lt;/a&gt;与流程。任何能给用户留下更深刻印象的手段，都有助于将设计推向成功。&lt;/p&gt;
+&lt;h2 id="3-思考极端的解决方案"&gt;3. 思考极端的解决方案
+&lt;/h2&gt;&lt;p&gt;暂时逃离创意的困境，也是设计的乐趣之一。天马行空的机会总是值得歌颂。&lt;/p&gt;
+&lt;p&gt;打破惯例恰恰对它有益。跳出单一策略思考，将用户一天的生活写在故事板上，看看有哪些可能发生的接触。撇开草稿，自由发挥。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/09/image03.jpg"
+loading="lazy"
+alt="10条建议打造更聪明的设计流程设计中关于“别在这上面花上数周时”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;别在这上面花上数周时间（除非你时间充足），但是一次创意的停歇能将你的潜意识与要解决的问题联系起来。&lt;/p&gt;
+&lt;p&gt;看看&lt;a class="link" href="https://www.duolingo.com/" target="_blank" rel="noopener"
+&gt;Duolingo&lt;/a&gt;。这个应用感觉更像是一款手机游戏，而不是语言学习平台。这完全是无意识的，在理论上可能会受到质疑，但是数字证明了其价值——在2015年6月的Google Capital中，这家公司&lt;a class="link" href="http://venturebeat.com/2015/06/10/100m-users-strong-duolingo-raises-45m-led-by-google-at-a-470m-valuation-to-grow-language-learning-platform/" target="_blank" rel="noopener"
+&gt;估值4.7亿美元&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;在你的行业外寻找灵感，设计方案的有效（及创意）会出乎你意料。&lt;/p&gt;
+&lt;h2 id="4-设计之前建立一个假设进行测试"&gt;4. 设计之前，建立一个假设进行测试
+&lt;/h2&gt;&lt;p&gt;假设提供了一条寻找真理的道路。每个设计都要构建在某种坚实的基础上。&lt;/p&gt;
+&lt;p&gt;把它想成是论文的论点，这就是设计的核心。早在开发工作之前，这里就是用户情景演绎的地方。&lt;/p&gt;
+&lt;p&gt;尽可能多地头脑风暴各种情景，与你的团队在白板上分享。进行&lt;a class="link" href="http://goodkickoffmeetings.com/2010/04/design-studioprototyping-exercise/" target="_blank" rel="noopener"
+&gt;设计工作室练习&lt;/a&gt;，让参与者画出他们完成特定任务的方案。你得持续探索（并且迭代）你的假设，这是设计中的第一步。&lt;/p&gt;
+&lt;p&gt;需要一套有用的框架流程，请看Maximilian Wambach（Ebay的交互设计）的&lt;a class="link" href="https://medium.com/@mwambach1/hypotheses-driven-ux-design-c75fbf3ce7cc" target="_blank" rel="noopener"
+&gt;方法&lt;/a&gt;。“如果[动作]那么[结果]，因为[用户有需求/遇到问题]”这样的思维模式极其有用。&lt;/p&gt;
+&lt;h2 id="5-就最佳方案与不同人探讨"&gt;5. 就最佳方案与不同人探讨
+&lt;/h2&gt;&lt;p&gt;如果你的设计是可靠的，那就要能经得起批评与讨论。来自不同背景、有不同经历的人，能为你指引更好的方案。&lt;/p&gt;
+&lt;p&gt;可以考虑成立一个利益相关者的智囊团，让他们分享各自独特的视角，为你的设计提供改善建议。与你的设计主管一起，确保产品团队仍然有最终的决定权，否则你就会落入群众设计的陷阱。&lt;/p&gt;
+&lt;h2 id="6-写文档创建一则故事"&gt;6. 写文档创建一则故事
+&lt;/h2&gt;&lt;p&gt;产出一份讲述故事的文档。你设定的人物角色是其性格的缩影。使用场景是荧屏展示的关键部分，&lt;a class="link" href="http://designmodo.com/wireframing-prototyping-mockuping/" target="_blank" rel="noopener"
+&gt;线框图&lt;/a&gt;是舞台，操作流程和&lt;a class="link" href="https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows" target="_blank" rel="noopener"
+&gt;用户流程&lt;/a&gt;是编舞，UI组件集则是舞台设计。&lt;/p&gt;
+&lt;p&gt;所有相关元素都相互交融。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/09/image06.jpg"
+loading="lazy"
+alt="10条建议打造更聪明的设计流程设计中关于“文档往往被忽略了因为”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;文档往往被忽略了，因为它缺乏环境。把你的设计资源与产出当成拼图，相互独立时价值甚微，拼接起来却成为一幅讲述故事的好画面。&lt;/p&gt;
+&lt;p&gt;不要视野狭隘，过分沉迷于优化某一项设计文档。相反，要确保每份文档之间的关联简单易懂。&lt;/p&gt;
+&lt;p&gt;精简那些无法推动设计前行的文档。如果文档没有用，就没有必要创建它。&lt;/p&gt;
+&lt;h2 id="7-在纸上设计与测试"&gt;7. 在纸上设计与测试
+&lt;/h2&gt;&lt;p&gt;任何阶段都可以进行快速的纸上原型设计，而且这对设计决策总有帮助。&lt;/p&gt;
+&lt;p&gt;给自己或团队一定时间来迅速迭代创意。设计一旦以像素形式出现，就很容易对其过分依赖。而在纸上绘制原型能让你的大脑不断探索可能性。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/09/image07.jpg"
+loading="lazy"
+alt="照片来源"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;照片来源：&lt;a class="link" href="https://www.flickr.com/photos/johanl/8348989885/in/photolist-dhlkpt-p3wtqw-n5hslw-n5he57-n5hkrq-n5gffk-n5fuk2-n5fe3b-n5hbcu-n5hr4m-n5fwzb-n5fuak-n5fuup-n5fbgp-n5fkbe-n5fuzh-n5g3fn-p3xgzt-n5ft8x-n5fpfr-n5g8br-n5fank-dwn9sm-n5fhgx-n5hsss-n5ff5t-eaovpu-pipf69-eahrn6-eahtna-dayqq3-dayqyh-n5fmdv-n5fk9g-n5fuev-n5g9ff-n5g8f2-n5fmkr-n5fkht-n5houu-6kdsnt-eahrrv-eahtfx-eahtbb-dayspp-daz5uw-pkaxvk-eahwbk-eaozp1-eaoxgw" target="_blank" rel="noopener"
+&gt;“App sketching”&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;绘制草图有利于探索创意，然后召集3-5人进行一场迅速的&lt;a class="link" href="http://www.digitalgov.gov/2014/02/19/10-tips-for-better-hallway-usability-testing/" target="_blank" rel="noopener"
+&gt;非正式可用性测试&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;一旦想到你认为可靠的设计，通过虚拟的操作流程对它进行测试。找个伙伴一起推演各种不同使用场景，你们可以相互提醒，避免遗漏和潜在的错误。一旦你的伙伴理解了这套设计的作用，在可用性测试过程中，他就能扮演“人肉计算机”的角色操作这些纸上原型。&lt;/p&gt;
+&lt;h2 id="8-将产出物贴在墙上"&gt;8. 将产出物贴在墙上
+&lt;/h2&gt;&lt;p&gt;在墙上贴大量的便签可能是陈词滥调了，但这么做确有非常正当的理由。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/09/image08.jpg"
+loading="lazy"
+alt="照片来源：的关系图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;照片来源：&lt;a class="link" href="http://blog.acquitygroup.com/2013/03/15/affinity-diagramming/" target="_blank" rel="noopener"
+&gt;Acquity Group&lt;/a&gt;的关系图&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;想想所有那些侦探剧。当侦探在探案时，墙壁就会变成犯罪地图。所有的证人与嫌犯，都与收集来的证据一起展示在上面。&lt;/p&gt;
+&lt;p&gt;为特定用户设计时，也会发生同样的事情。就像侦探一样，用户体验设计师需要定位问题与用户之间的关联，然后将它直接连接到解决方案上。这些实际产出物不是用来展示的。团队有一个分享的地方，任何时间都能查看，有助于将用户体验方法灌输进每一个人的工作流程。&lt;/p&gt;
+&lt;h2 id="9-创建低保真原型用于测试"&gt;9. 创建低保真原型用于测试
+&lt;/h2&gt;&lt;p&gt;低保真原型可以用基本的HTML、Keynote、PPT、剪纸、&lt;a class="link" href="http://johnnyholland.org/2011/10/storyboarding-ux-part-1-an-introduction/" target="_blank" rel="noopener"
+&gt;故事板&lt;/a&gt;、和特定的原型工具来创建，例如&lt;a class="link" href="https://www.uxpin.com/" target="_blank" rel="noopener"
+&gt;UXPin&lt;/a&gt;（我对此非常熟悉）。&lt;/p&gt;
+&lt;p&gt;一旦进入开发阶段，某些限制总是不可避免（浏览器兼容性、网站性能等等）。在开发之前验证你的设计，因为它能更好地呈现用户故事，使开发者们充分感受与理解。&lt;/p&gt;
+&lt;p&gt;低保真原型可以让你连接多个线框图，创建完整流程。这样一来，你就能测试这套流程的有效性，而不仅仅是用户在屏幕上看到的各种元素。可以以此验证交互的次序对用户是否有效。&lt;/p&gt;
+&lt;h2 id="10-协作创造"&gt;10. 协作创造
+&lt;/h2&gt;&lt;p&gt;设计师不是孤岛。人们往往独自工作太长时间。&lt;/p&gt;
+&lt;p&gt;就像&lt;a class="link" href="http://www.wikihow.com/Pair-Program" target="_blank" rel="noopener"
+&gt;配对编程&lt;/a&gt;已经被证明能够减少技术错误（因为人很容易陷入代码盲区），尝试Cooper的配对设计的技巧，能够更好地分析和迭代。与其他人一起工作，能够产生自我提升的动机，营造团队工作的感觉，在生产力与分享精神之间找到平衡。&lt;/p&gt;
+&lt;p&gt;认为只有与其他人隔离开才能做出好的设计，这是相当守旧的想法。这个想法就像办公室吸烟一样已经不合时宜了。遵循指南：&lt;a class="link" href="https://www.uxpin.com/design-collaboration-devs-mockups.html" target="_blank" rel="noopener"
+&gt;《设计出不让开发厌恶的效果图》&lt;/a&gt;，你的项目也可以很有趣，充分协作。&lt;/p&gt;
+&lt;p&gt;准备好打造属于自己的设计流程了吗？&lt;/p&gt;
+&lt;p&gt;可以从用户体验设计流程地图开始，然后在&lt;a class="link" href="http://www.google.com/url?q=http%3A%2F%2Fuxpin.com&amp;amp;sa=D&amp;amp;sntz=1&amp;amp;usg=AFQjCNEIYsSly3x1G6sRQkdrsEC8YvLkwg" target="_blank" rel="noopener"
+&gt;UXPin&lt;/a&gt;这类工具中实践，与你的团队并肩设计。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://designmodo.com/design-process-tips/" target="_blank" rel="noopener"
+&gt;http://designmodo.com/design-process-tips/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://designmodo.com/author/jerrycao/" target="_blank" rel="noopener"
+&gt;Jerry Cao&lt;/a&gt;
+Jerry Cao is a content strategist at UXPin — &lt;a class="link" href="http://www.uxpin.com/" target="_blank" rel="noopener"
+&gt;the wireframing and prototyping app&lt;/a&gt; — where he develops in-app and online content for the wireframing and prototyping platform.&lt;/p&gt;</description></item><item><title>保持创造力的5种方式</title><link>https://victor42.eth.limo/post/3467/</link><pubDate>Sun, 01 Nov 2015 22:20:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3467/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第108期]&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="遵循这些建议找到你才思枯竭的原因寻找自我提升的策略geekmentalhelp"&gt;遵循这些建议，找到你才思枯竭的原因，寻找自我提升的策略——geekmentalhelp。
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2014/09/net256essay/main.jpg"
+loading="lazy"
+alt="设计师创意灵感来源与创造力保持策略的视觉表达"
+&gt;&lt;/p&gt;
+&lt;p&gt;*&lt;a class="link" href="http://geekmentalhelp.com/" target="_blank" rel="noopener"
+&gt;Geek Mental Help Week&lt;/a&gt;*是一系列为期一周的文章、博客、会谈、播客和线上活动，围绕心理健康问题和如何帮助人们。在这里，设计总监Hannah Donovan揭示了一些方法，她以此避免才思枯竭，使自己保持进步。&lt;/p&gt;
+&lt;p&gt;同样住在我34楼公寓的热带鸟再一次吵醒了我，当然，它住在外面。香港的湿热气候已经包裹了整个清晨，我的手机开始嗡嗡作响。“虽然很不情愿在你工作之余打扰，不过可否请你帮我做一个项目？”&lt;/p&gt;
+&lt;p&gt;我的长期合作伙伴Matthew Ogle需要一名设计师。但设计师是我好几个月前的身份了。&lt;/p&gt;
+&lt;p&gt;我才思枯竭了。我去工作，尝试打开创意的水龙头，但什么也出不来。这不是一天两天了，已经持续了许多星期。于是，在临近2011年的几个月前，我辞掉了Last.fm的工作，打包好行李，并不知道即将去向何方。设计——我唯一想到的方向，我唯一赖以谋生的手段——已经干涸枯竭了。&lt;/p&gt;
+&lt;p&gt;作为“创造者”（无论是设计、开发、产品设计、写作或是其他什么，这些我们谋生的技能），你会发现我们最重要的技能之一，就是好好保持我们创造力。但现在，我在盯着这条信息好一会儿，脑袋却塞住了，不仅在考虑如何回复，也不知道接下来该怎么做。&lt;/p&gt;
+&lt;p&gt;“好啊”，我回复，“什么项目？”&lt;/p&gt;
+&lt;p&gt;然后我意识到只有一条路可以逃脱困境——继续创作。当然，我也得寻找新的道路，但那也是创作生涯要承担的责任。从那以后，我不仅仅走出了困境，也重新设计了我创作的方式。以下是我所发现的最有用的办法。&lt;/p&gt;
+&lt;h3 id="01-学会停下脚步"&gt;01. 学会停下脚步
+&lt;/h3&gt;&lt;p&gt;如果你在真实媒介上创作，很容易学会应该何时收手。因为如果作品“完成”后你还继续作画，反而会毁了它。这样的错误会耗费大量时间与材料，你不会轻易忘记这点。&lt;/p&gt;
+&lt;p&gt;但是数字设计在这方面更加包容：有很强的诱惑力促使你不断微调下去。很容易就没有结束的概念。&lt;/p&gt;
+&lt;p&gt;了结旧事物，才能为新事物开辟空间。在我的观念中，如果你不“完成”一个创意，它就会变得很臃肿。它打破了“产生创意——创作——创意完成”的循环。如果你感觉卡住了，可能是有太多的创意在游荡。&lt;/p&gt;
+&lt;h3 id="02-允许丑陋的创意"&gt;02. 允许丑陋的创意
+&lt;/h3&gt;&lt;p&gt;我为粗糙的草图道歉过。设计师身上天生就承载了对美的期望。当然，创意与美在现实中则免不了有许多丑陋。去年我听说Jason Santa Maria在New Adventures中宣称：“创意都倾向于丑陋”——它们鼓励大家参与和协作。&lt;/p&gt;
+&lt;p&gt;我现在就不会为粗糙而道歉了。我让同事们忽视设计的粗糙，关注核心概念，向他们保证成品会是美好的。&lt;/p&gt;
+&lt;p&gt;对于任何事情，过早产生高期望会使得项目极度难以启动。它会带来可怕的一张白纸无从下手的感觉。虽然我保留了设计生涯中的所有手绘本，但面对新的手绘本总会感到恐慌。于是我在第一页上信手涂鸦，降低自己的期望。然后翻过去，开始正式工作。&lt;/p&gt;
+&lt;p&gt;如果不知从何下手，不要担心初次的尝试难看。实际上，就应该怀着它可能会很丑的想法。越快把它画出来，你或你的同事们就能越早想到创意来改善它，你则会更受启发。&lt;/p&gt;
+&lt;h3 id="03-行动起来做什么都可以"&gt;03. 行动起来，做什么都可以
+&lt;/h3&gt;&lt;p&gt;有一项常见的误解，认为“创造”是某种魔法般的过程，灵光一闪，创意凭空出现给你启发。这几乎和魔法药粉一样不切实际。&lt;/p&gt;
+&lt;p&gt;有好几次，我不得不向失望的记者解释，故事剧本并非Matt和我忽然想到了现在这个项目的灵感，我的处境其实是花了超过5年时间沉浸在Last.fm的音乐产业中，实验许多备受争议的创意，然后将它们融入其中。&lt;/p&gt;
+&lt;p&gt;若想让创意成为一道耀眼的闪电，首先你要使天空黯淡阴郁、耐人寻味。采取某种行动——无论大小都行——把一切都搅动起来。&lt;/p&gt;
+&lt;h3 id="04-拥抱意外发现"&gt;04. 拥抱意外发现
+&lt;/h3&gt;&lt;p&gt;理应如此，我们的行业非常重视流程——最佳的习惯能帮助我们打造最棒的产品。这些既定模式有时真让人感到厌倦。敏捷开发、长期运行、固定的晨间咖啡等等。这些模式有些无趣，但没关系，创造力还是很有趣，我们需要日常程序来使自己保持状态。&lt;/p&gt;
+&lt;p&gt;但创意类工作也需要非常规的输入——我们的生活需要惊喜。人们很容易陷入一步步的常规流程，忘了产生意外惊喜的模式。记得上一次你花时间寻找意外惊喜是什么时候吗？无论是独自一人还是和你的团队一起？常规流程模式与意外惊喜模式都十分重要，每个人在两者之间都有一个平衡点。&lt;/p&gt;
+&lt;p&gt;真正让我对于创造保持兴奋的，正是脱离常规、迈出这创意的一步，这胜过其他一切。尽管我从事全职工作，我也会做许多副业。比如印刷品设计，我接触这个媒介尚不满六年。&lt;/p&gt;
+&lt;p&gt;这些项目与我的主线工作没有什么关系，当然，也正是这种“不相干”的媒介让我再次对工作充满激情。尝试运用自己的技能，切换到另一种模式或语言中，看看会发生什么。&lt;/p&gt;
+&lt;h3 id="05-自我表达"&gt;05. 自我表达
+&lt;/h3&gt;&lt;p&gt;虽然这些技巧帮助我走出低谷，但什么样的环境最容易引发这个问题呢？科技行业——特别是创业公司——最容易产生这种对创造力有害的环境。&lt;/p&gt;
+&lt;p&gt;当然，很明显的长时间高强度工作是一个原因。但对我产生最大的负面影响的因素，是我自认为在为自己工作，但实则不然，然后会逐渐屈从于这种同质化的科技行业文化。&lt;/p&gt;
+&lt;p&gt;不像在创意机构中工作，在那里人人都知道他们在为别人而创造，创业心态会让人对这一点视而不见。只要人们在用你的产品，你就是在为别人而创造。或许你对自己的事业激情满满，但责任使得你无法遵从于自己的异想天开。你还是需要纯粹的个人项目和副业。&lt;/p&gt;
+&lt;p&gt;我工作中的同质化文化扼杀了我许多的个人表达（比方说时尚，一项重要的个人视觉输入），我反而让自己去适应它。如此回应或许是我所做的最糟糕的事情了。自我表达能激发自己灵感，灵感又促使我想要表达。我扼杀了一条良性循环道路。&lt;/p&gt;
+&lt;p&gt;如果这些听起来都似曾相识，要仔细想想你究竟在为谁而创造；拥抱行业中的多样化；整理那些能够避免和克服才思枯竭的技巧，分享出来。若非如此，我们则无法帮助到别人。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://www.creativebloq.com/web-design/geek-mental-help-week-5-ways-keep-your-creative-tap-turned-101412827" target="_blank" rel="noopener"
+&gt;http://www.creativebloq.com/web-design/geek-mental-help-week-5-ways-keep-your-creative-tap-turned-101412827&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://blog.hannahdonovan.com/" target="_blank" rel="noopener"
+&gt;Hannah Donovan&lt;/a&gt;
+Hannah Donovan is co-founder and design director of new music service This Is My Jam, and prior to that led design at Last.fm. This article originally appeared in &lt;a class="link" href="http://www.myfavouritemagazines.co.uk/design/net-magazine-subscription/" target="_blank" rel="noopener"
+&gt;net magazine&lt;/a&gt; issue 256.&lt;/p&gt;</description></item><item><title>钢筋货架与隔墙:都柏林的咖啡馆</title><link>https://victor42.eth.limo/post/3006/</link><pubDate>Sun, 22 Dec 2013 12:23:46 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3006/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第23期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_21bann.jpg"
+loading="lazy"
+alt="都柏林Bear Market咖啡馆室内设计：钢筋货架与木桌构成的工业风格空间"
+&gt;&lt;/p&gt;
+&lt;p&gt;VAV 建筑在&lt;a class="link" href="http://www.dezeen.com/tag/dublin/" target="_blank" rel="noopener"
+&gt;都柏林&lt;/a&gt; 建造的这家咖啡馆采用了 &lt;a class="link" href="http://www.dezeen.com/tag/steel/" target="_blank" rel="noopener"
+&gt;钢筋&lt;/a&gt; 作为货架与隔墙。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_9.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“通过一系列垂直的钢条”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.vavarchitects.com/" target="_blank" rel="noopener"
+&gt;VAV&lt;/a&gt; 通过一系列垂直的钢条，打造了这家Bear Market咖啡店的货架空间，而这些钢筋通常用于在建筑中加固混凝土。钢条在咖啡馆的中央区域从地面延伸至天花板，围起一张低矮的木桌。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_16.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“我们的目的是将整个空”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;“我们的目的是将整个空间用垂直的线条填充，从而对空间进行轻微的分割，阻挡视线，滤出其中的顾客，”建筑师说，“我们希望这座钢铁森林能够创造一个蛮荒而直白的空间。”&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_17.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“钢筋来源是本地的一家”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;钢筋来源是本地的一家钢材制造商，吧台区域后方竖立起嵌入墙体的网格展柜，其中插入了一些厚木板来陈列货品。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_12.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“上方悬挂着的青铜色吊”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;上方悬挂着的青铜色吊灯，照亮着由橡树枕木打造的柜台。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_20.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“厚木板也被用来制成桌”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;厚木板也被用来制成桌面，地板则是由回收木料制成。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_11.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“天花板保持裸露砖墙漆”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;天花板保持裸露，砖墙漆成白色。&lt;/p&gt;
+&lt;p&gt;以下是设计师提供的更多信息：&lt;/p&gt;
+&lt;h2 id="bear-market咖啡馆"&gt;Bear Market咖啡馆
+&lt;/h2&gt;&lt;p&gt;咖啡馆坐落于都柏林郡、Blackrock村的Main大街。受紧张的预算所限，我们的目地在于提供与咖啡馆相关的各种功能，在已知的最小空间中，完成最少的装修与更改。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_1.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“设计的概念是探索和对”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计的概念是探索和对材料提出质疑，尝试可用的日常建材和技巧，同时打造独一无二的特色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_3.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“作为一种尝试我们选择”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;作为一种尝试，我们选择用钢筋来装修。我们的目的是将整个空间用垂直的线条填充，从而对空间进行轻微的分割，阻挡视线和其中的顾客。我们希望这座钢铁森林能够创造一个蛮荒而直白的空间。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_18.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“最终完成的咖啡馆将给”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;最终完成的咖啡馆将给人这样的印象：钢条营造出垂直的线条，货架和长凳藏在其后提供映衬。由于钢筋主导着整个室内设计的风格，其他元素都扮演着背景的角色。从而将原先的室内设计隐藏于最核心的条纹之后。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_2.jpg"
+loading="lazy"
+alt="都柏林的咖啡馆设计中关于“天花板完全裸露墙面也”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;天花板完全裸露，墙面也只做了最少的装饰，现有的粗糙墙面正在剥落，留下了网格状的表面。地板就用了粗糙的回收木料，钢条置于夹层中，那是垂直线与地面相连接的地方。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_24.jpg"
+loading="lazy"
+alt="平面图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;平面图&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;回收木料地板柔化了整个空间，并且隐藏了货架的支撑部件，钢筋穿过它与下方隐藏的支架相连。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/12/Bear-Market-Coffee-by-VAV-architects_dezeen_25.jpg"
+loading="lazy"
+alt="室内区域"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;室内区域&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这两种新元素——回收木料构成的水平线、钢筋构成的垂直线，相互交叉，划分了室内空间。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/square-blocks-design/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>网页设计的10个灵感来源</title><link>https://victor42.eth.limo/post/2891/</link><pubDate>Sun, 10 Nov 2013 10:54:31 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2891/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第17期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这一期有意外收获，我在译言网上发布的&lt;a class="link" href="http://source.yeeyan.org/view/498576_507" target="_blank" rel="noopener"
+&gt;原文&lt;/a&gt;竟然被人抢先翻译了。通读一遍，发现译者的文字功底相当深厚，而自己的翻译太拘泥于原文，收益良多。有兴趣的朋友也可以看看本文的&lt;a class="link" href="http://article.yeeyan.org/view/393950/385497" target="_blank" rel="noopener"
+&gt;另一个翻译版本&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;能够激发我们创作优秀网站的，不仅仅是网页设计&lt;/p&gt;
+&lt;p&gt;这世上几乎每一样你身边的事物都能对你有所启发&lt;/p&gt;
+&lt;p&gt;你总是无法预料什么东西会点燃你创意的火花，我时常发现，一些最常见的事物能让我从新的或不同的角度来思考项目。这里我们介绍10种我最爱的网页以外的设计灵感来源&lt;/p&gt;
+&lt;h2 id="大自然"&gt;&lt;strong&gt;大自然&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://jardin4d.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/nature-flower.jpg"
+loading="lazy"
+alt="从花卉色彩中汲取网页设计配色灵感的自然案例"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://wondersauce.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/nature-wood.jpg"
+loading="lazy"
+alt="从木材纹理和自然材质中获得网页背景设计灵感"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;思考设计的最佳地点之一就是户外。看看自然界这些伟大的图形和色彩搭配。就我个人而言，我喜欢从花卉中汲取配色灵感&lt;/p&gt;
+&lt;p&gt;这株秋天的三色堇，可以作为新项目配色方案的出发点，伴以明亮且对比鲜明的颜色所营造出怦然效果【作者这里似乎忘记配图了，说好的三色堇呢~】&lt;/p&gt;
+&lt;h2 id="音乐"&gt;&lt;strong&gt;音乐&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;虽然很多设计师都会赞同，听听小曲是激发设计灵感的绝佳方法，然而音乐也能给人其他收获。想想你听不同风格音乐时，所感受到的形形色色的情感。收听吻合你项目基调的音乐，可以额外激发一些灵感。听音乐时随思维跳跃，将大脑在听音乐时创作出的画面，用作项目雏形的基础&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://en.wikipedia.org/wiki/File:TheHitsVol1Cover.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/jay-z.jpg"
+loading="lazy"
+alt="Jay-Z极简扁平风格音乐专辑封面设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我也喜爱音乐作品背后的创意和思想。专辑封面（甚至包括电子版）是个有趣的启迪思维、迸发创意的方式。我最喜欢的一张是极简风格的Jay-Z的The Hits Collection Volume One（它有着扁平风格的设计，并且在当前趋势流行很久以前就发行了）&lt;/p&gt;
+&lt;h2 id="艺术"&gt;&lt;strong&gt;艺术&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://www.austynweiner.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/art.jpg"
+loading="lazy"
+alt="Austyn Weiner作品集用抽象绘画色彩激发网页视觉灵感"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设计是艺术或创意表达的另一种形式，参考其他艺术形式能够充分帮助你推动项目进行。不过别拘泥于最浅显的那层含义——参考美术作品。雕塑也是一个极好的灵感来源。细致观察它们的形状、物体的连接和相互作用，然后头脑风暴出规划网站的新途径&lt;/p&gt;
+&lt;h2 id="包装"&gt;&lt;strong&gt;包装&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://fuckyeahpackaging.tumblr.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/packaging.jpg"
+loading="lazy"
+alt="网页设计中创意包装配色与排版布局效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;包装设计可能是最容易被忽略的设计领域之一。回想一下，你有多少回拆封一条口香糖或丢弃一个饮料瓶时，却根本没注意过它的外观。在狭小空间中使用时，这些物件往往都是非常好的例子（从可读性角度回想一下食品标签上拥挤的信息）&lt;/p&gt;
+&lt;p&gt;观察这类东西，能极大帮助你处理好狭小空间。包装也有很多种形状和形式，能帮助我思考不同的内容展现方式（不是什么东西都得是四四方方的！）&lt;/p&gt;
+&lt;h2 id="照片"&gt;&lt;strong&gt;照片&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://photography.nationalgeographic.com/photography/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/nat-geo.jpg"
+loading="lazy"
+alt="国家地理摄影作品作为网页设计图像与构图灵感来源"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.jillgreenberg.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/greenBERG.jpg"
+loading="lazy"
+alt="人像摄影大师Jill Greenberg具有强烈光影色彩的摄影作品"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://artsy.net/artist/jill-greenberg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-11/11-12/1.png"
+loading="lazy"
+alt="创意艺术平台Artsy为摄影师Jill Greenberg定制设计的个人网页"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[译者注：创意机构Artsy也为Jill greenberg制作了个人主页，应对方要求，在此添加了上面的地址]&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.levonbiss.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/biss.jpg"
+loading="lazy"
+alt="Levon Biss摄影师作品集展示网页设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;尽管摄影是网页设计一个显而易见的灵感来源，但它可能并不像你想象中的那样，只发挥常规的作用&lt;/p&gt;
+&lt;p&gt;如果一张漂亮的图片对你的项目有帮助，别仅限于从中汲取灵感，直接使用它。大胆设计，聚焦于这张漂亮图片。另一方面，如果你没有合适的图片，搜罗全世界的照片来寻找灵感。当你感到艰难、设计卡住时，National Geographic、Jill Greenberg和Levon Biss，就是寻求帮助的绝佳地方（而且这些网站围绕图片的设计都做得不错）&lt;/p&gt;
+&lt;h2 id="时尚"&gt;&lt;strong&gt;时尚&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://www.polyvore.com/cgi/shop?query=chevron%20scarves" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/fashion.jpg"
+loading="lazy"
+alt="网页设计中时尚潮流色彩与服装纤维背景纹理展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;T台、时尚秀和杂志是参考新兴潮流的绝佳途径，从颜色到尺寸再到纹理。然后你可以将其中一些概念同样运用在网页设计中&lt;/p&gt;
+&lt;p&gt;时尚设计师在秀场用到的尺寸，或许有助于你思考从大（或小）方面来着手构建事物，但颜色选择和纹理才是最值得一看的时尚元素（想想时下的雪弗兰热潮就知道）。我们在网站上看到的很多背景纹理也取材于纤维制品或服装图案&lt;/p&gt;
+&lt;p&gt;提到从时尚中汲取灵感时，有一点需要注意：有时候网页设计师们需要好一阵子才能捕捉到最前卫的潮流。但这是一个站在时尚前沿来思考未来趋势的好办法&lt;/p&gt;
+&lt;h2 id="室内设计"&gt;&lt;strong&gt;室内设计&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;若说获取颜色与纹理设计灵感，室内设计是世上最棒的途径之一&lt;/p&gt;
+&lt;p&gt;逛家具店，触碰和观察布艺品，有助于把你的网站所需背景视觉化。你也可以在现实中混合搭配颜色和纹理，从而你可以在创作电子版本前，挨个尝试哪些适用&lt;/p&gt;
+&lt;p&gt;观察室内设计动向，也能帮助你在颜色方面掌握流行趋势。斑驳脱落的油漆和设计博客是不错的地方，能让你思考时下盛行的颜色，以及如何运用于自己的项目中&lt;/p&gt;
+&lt;h2 id="食物"&gt;&lt;strong&gt;食物&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://www.florentina-events.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/food.jpg"
+loading="lazy"
+alt="高端餐饮活动策划官网的食物摄影网页设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;虽然有大量的反对者非常厌恶Instagram上那些食物图片，但这些简单的照片也能带来灵感&lt;/p&gt;
+&lt;p&gt;颜色和形状的组合有时非常棒。处于某种原因，寿司图片给我非常多启迪（可能是因为颜色和它圆形的轮廓）。观察食物能帮助你创作一个与食物相关的网站……或者是某些完全无关的东西&lt;/p&gt;
+&lt;h2 id="旧物"&gt;&lt;strong&gt;旧物&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://eattheordinary.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/old.jpg"
+loading="lazy"
+alt="具有复古质感与旧物色彩特征的博客网页设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;提到创造意象，旧物能很好地帮助你入手。硬币、电影海报和旧书中包含了很棒的颜色与字体案例&lt;/p&gt;
+&lt;p&gt;你所看到的样式大多都不常见，能帮助你完成一个外观感觉不要求太前卫而是与众不同的项目&lt;/p&gt;
+&lt;p&gt;这些灵感来源的妙处是，它们会让你从不同方面思考意象。比如很多旧书，包含了素描样式的图画，而不是照片或全彩色绘画。看着这些样式，能帮你考虑各种不同途径，来在项目中创建和使用图片&lt;/p&gt;
+&lt;h2 id="建筑"&gt;&lt;strong&gt;建筑&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://www.flickr.com/photos/48973657@N00/8685678314/in/photolist-eewnyo-Ezb9P-dWmCbd-6kFWHu-2digtT-4FVD7g-24h21E-MmFCa-92XbK8-dM2tyz-dzFH4b-93bAWb-94Ru3D-2366W-eeigiy-8sheHm-4wPWxk-ecWXnN-eVkSuY-dmEGVw-fpmM79-9nyeJU-dmECtP-7wR3mC-7wMf5c-3PrBVx-dUk2qd-e7PoC7-8AjuY2-e3PHSa-e7KouK-8v2tiQ-9qSiEg-f1tG-9qVhZu-9DjoSK-53Y9yv-e1Lbhx-8CjN59-cZiphL-6xmqXY-6xmraE-dmEDHk-6xmr4E-5m1NHu-dyUHVB-5dz1oo-fk5c1M-dYU7ni-djbf2E-djbh2t" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/architecture.jpg"
+loading="lazy"
+alt="网页设计中几何构图与城市天际线建筑轮廓美学展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;建筑及它的轮廓（特别是大城市中的那些）对我来说是相当惊艳的灵感来源。这些创造物的外观和“生命”简直让我有种冲动亲手设计些东西&lt;/p&gt;
+&lt;p&gt;在数字领域运用你从建筑中观察到的形状，来创作一些有趣的东西。当你需要一幕背景或框架来排列布局各元素时，想想建筑轮廓与地平线是如何交汇的。也回忆一下夜晚的天际线，明暗（颜色对比的基准）如何共同作用来创造视觉特效，然后将它复制到设计项目中&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/everyday-design/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>精彩绝伦的纸制热带鸟</title><link>https://victor42.eth.limo/post/2818/</link><pubDate>Sat, 28 Sep 2013 20:43:23 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2818/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第12期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_ss_1.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“哥伦比亚艺术家用纸创”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;哥伦比亚艺术家Diana Beltran Herrera用纸创造了这些错综复杂的热带鸟类模型&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_3a.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“小青鹭分层建立起基本”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;小青鹭&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.dianabeltranherrera.com/" target="_blank" rel="noopener"
+&gt;Diana Beltran Herrera&lt;/a&gt;分层建立起基本结构，然后粘上卷曲张开的精致羽毛，最终手工打造了这些纸制鸟类模型&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_1.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“鹤我首先用纸张搭起基”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;鹤&lt;/p&gt;
+&lt;p&gt;“我首先用纸张搭起基本结构。我为主体、尾巴、翅膀和头部准备了大量的羽毛，”Herrera告诉我们，“然后我开始一片片粘贴。最后总是以鸟喙和眼睛这种细节收尾。”&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_4.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“绿咬鹃完成之际再加上”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;绿咬鹃&lt;/p&gt;
+&lt;p&gt;完成之际，再加上电线制成的腿，并为羽毛上色，来让模型尽可能接近真实&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_2.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“火烈鸟至于鸟腿我用”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;火烈鸟&lt;/p&gt;
+&lt;p&gt;“至于鸟腿，我用了形似花朵的胶带。我根据鸟的特征为每片羽毛上色，以达到正确的颜色和设计效果。每一处都是苦力活，”她说&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_7.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“天堂鸟以照片和她的印”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;天堂鸟&lt;/p&gt;
+&lt;p&gt;Herrera以照片和她的印象作为色彩与形式的参考&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_5.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“小天堂鸟有些照片是我”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;小天堂鸟&lt;/p&gt;
+&lt;p&gt;“有些照片是我自己的，有些来自鸟类爱好者的分享，其他的就来自杂志、书籍、互联网，”她告诉我们。“我先在照片上绘制矢量图，然后依照尺寸打印出来作为鸟模型中的每个部件&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_10.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“冠蓝鸦目前为止这个系”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;冠蓝鸦&lt;/p&gt;
+&lt;p&gt;目前为止，这个系列包含了五彩缤纷的异国鸟类，比如一只火烈鸟、一只鹤、一只青鹭和一只绿咬鹃，外加一些更常见的品种，比如啄木鸟和松鸡&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_6.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“蓝蕉鹃根据大小和复杂”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;蓝蕉鹃&lt;/p&gt;
+&lt;p&gt;根据大小和复杂程度的不同，每个模型完成需要5天至2周&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_9.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“白腹鱼狗我们之前介绍”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;白腹鱼狗&lt;/p&gt;
+&lt;p&gt;我们之前介绍过一系列&lt;a class="link" href="http://www.dezeen.com/2011/08/18/air-heads-by-hector-serrano/" target="_blank" rel="noopener"
+&gt;变气球为动物脑袋的纸制配件&lt;/a&gt;和&lt;a class="link" href="http://www.dezeen.com/2010/11/03/papillons-graphiques-by-chris-waind/" target="_blank" rel="noopener"
+&gt;装饰性纸蝴蝶&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/09/dezeen_Paper-birds-by-Diana-Beltran-Herrera_8.jpg"
+loading="lazy"
+alt="精彩绝伦的纸制热带鸟设计中关于“主红雀原文链接”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;主红雀&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.dezeen.com/2013/09/26/paper-birds-by-diana-beltran-herrera/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>iPhone6的创意概念设计</title><link>https://victor42.eth.limo/post/2781/</link><pubDate>Sun, 08 Sep 2013 21:49:36 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2781/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第9期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1207855-Stats-iOS-7-style" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/12.jpg"
+loading="lazy"
+alt="iPhone 6概念设计Stats应用iOS 7模糊背景数据统计界面.wrap-around屏幕设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;随着几个月前iOS7的亮相和iMac的全新产品设计问世，我们可以瞥见今年秋季苹果新产品线的冰山一角。尽管很多设计师对于&lt;a class="link" href="http://designmodo.com/new-apple-not-flat/" target="_blank" rel="noopener"
+&gt;新iOS设计&lt;/a&gt;表示愤怒，实际上我也是，有些设计师已经开始拥抱它并将它推向一个新的高度。我的意思是，他们已经接受了新的iOS设计风格并且进行了改进。不管怎么说，这还不是所有，他们也创造了iPhone 6的概念设计，让整个概念设计走得更远&lt;/p&gt;
+&lt;p&gt;我们都焦急期待着苹果将在9月发布会上展示什么，就像一直以来，设计师们都会创造他们期望看到的产品原型。这些iPhone 6概念是其中一部分。不管怎么说，这些特别的设计都值得一谈&lt;/p&gt;
+&lt;p&gt;简而言之，我觉得它们都是漂亮的界面设计，囊括了新的苹果设计风格来打造惊人的外观。它们有着欢乐且丰富的配色、纤细的字体和新iPhone界面下有趣的使用体验&lt;/p&gt;
+&lt;h2 id="新iphone"&gt;新iPhone
+&lt;/h2&gt;&lt;p&gt;那么新iPhone的概念设计有什么不同？嗯……最重要的一点，是你会注意到它看起来很像iPhone 5但是屏幕边缘包裹手机。个人感觉这看起来相当优雅，但从可用性角度来看，在实际设备上可能没那么好用，不过那只是我自己的用户体验主张&lt;/p&gt;
+&lt;p&gt;接下来这些例子中可以看出，一些设计师把这部分空间用作社交媒体的小按钮，其他人就只是把漂亮的界面背景延伸到上面。这种边缘延伸相当唯美，虽然这个细长尴尬的空间看起来难以加入更多实用功能&lt;/p&gt;
+&lt;h2 id="案例集锦"&gt;案例集锦
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1188123-Adventurous-Reader-Mobile-Site-WIP" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/1.jpg"
+loading="lazy"
+alt="iPhone 6环绕屏阅读器应用红色暖调配色扁平化iOS7界面设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第一个界面非常高雅，这得益于它温暖的红色调配色。上层界面的背景图非常有趣，充分利用了不同色彩间的戏剧性效果。视线事实上直接被吸引过去了。总体上这个界面没有太多内容，因为它除了一个简单的三角形图标、一行标题和一个确认按钮之外就没什么了&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1194385-twitter-prototype-Iphone-6-Wrap-Around-Screen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/2.jpg"
+loading="lazy"
+alt="iPhone 6环绕屏Twitter应用iOS7扁平化原生风格界面概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个Twitter界面看起来是多么不同！不过它确实遵从了iOS 7的设计风格。因为虽然可以看出Twitter app的功能还是一样，新的皮肤让它看起来像是苹果设计的原生app。但它不是个糟糕的设计，我喜欢那些小说明箭头，附加了一种强烈的设计感，你觉得呢？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1195581-iOS7-Lockscreen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/3.jpg"
+loading="lazy"
+alt="iPhone 6概念版iOS7星空背景锁屏界面纤细字体设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是新iOS7锁屏界面在iPhone 6概念版中的精彩演绎。尽管这回界面与新iOS的设计非常接近，让人看到了华丽纤细的字体。但这个星空背景和以此著称的苹果设计主题实在太贴切了&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1191824-Translucent-Infinity-screen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/4.jpg"
+loading="lazy"
+alt="iPhone 6半透明无限屏彩色渐变背景锁屏天气界面iOS7概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是我个人最喜欢的一个，因为这彩色的背景。它简直可以用辉煌灿烂形容。这也是个锁屏界面，可以看到当前天气。事实上图标设计和字体极其相称。但鲜艳的背景色才是引人注目的焦点。这些颜色令人欲罢不能&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1191163-Messaging-App-Friends-w-iPhone-6" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/5.jpg"
+loading="lazy"
+alt="iPhone 6消息通讯应用好友列表iOS7扁平设计风格环绕屏概念"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我不得不说，我欣赏这个消息界面设计，因为它是那么直白切题，真了不起。虽然和iOS7中展现的有少许不同，它仍然遵从了新的扁平iOS7设计。这件作品和影响了新iOS设计风格的扁平设计大潮结合地恰到好处&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1190633-iPhone-6-Infinity" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/6.jpg"
+loading="lazy"
+alt="iPhone 6 Infinity极简锁屏界面上滑解锁大字体iOS7概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这有另一款极简却美妙的锁屏界面。当然，又是一张令我们神魂颠倒的精彩背景图。但如果你整个看下来，你会发现它巨大的字体，还有新的iPhone解锁方式——上滑，而非右滑。这个创意来自通知中心的下滑动作，解锁功能于是颠倒过来&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1190794-Fun-with-freebies" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/7.jpg"
+loading="lazy"
+alt="iPhone 6蓝色调扁平锁屏界面上滑解锁长阴影设计iOS7风格"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;与这系列中其他大部分锁屏界面不同，这款用了扁平的背景，非常棒。这件作品实际上是前一个的回应，能看到同样华丽的上滑解锁功能。不管怎么说，我都觉得这件设计非常赞，因为蓝色调显得如此高贵，也因为它包含了iOS7亮相以来在Dribbble上盛行的长阴影设计趋势。这个结合干净利索&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1199240-Weather" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/8.jpg"
+loading="lazy"
+alt="iPhone 6天气应用扁平化长阴影图标厚实风格iOS7概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;又是长阴影和天气。这个app扁平地很迷人。没有iOS7典型的纤细字体和图标，这件设计使用细温度字体，其他所有地方却都用了厚实的图标。这个对比非常有趣，因为这两者间的平衡恰到好处。实际上这个天气app设计还有很多内容，但它执行良好，一点也不显得杂乱&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1191957-Square-Register-Infinity-Screen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/9.jpg"
+loading="lazy"
+alt="Square Register支付应用iOS7风格计算器界面明亮简洁环绕屏概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Square的产品设计和界面设计都相当漂亮。这件Square App的概念设计iOS7风格执行地很到位。这其实就是个想象中的计算器应用，但它看起来很棒。你觉得吗？它看起来集明亮、现代、简洁和优雅于一身&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1198705-Your-trip-app" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/10.jpg"
+loading="lazy"
+alt="旅行分享应用深色木炭灰配红色对比配色iPhone 6环绕屏iOS7概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是个相当优雅的旅行app概念设计，可以让你分享旅行地点给朋友。我喜欢这件设计的地方，是在大部分iOS7设计都使用亮色时，它大胆地采用了深色配色，令人耳目一新。木炭灰与红色的强烈对比让人爱不释手。而且白色的小小高亮元素简直是神来之笔&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1207855-Stats-iOS-7-style" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/12.jpg"
+loading="lazy"
+alt="Stats数据统计应用iOS7模糊背景白色半透明图表环绕屏iPhone 6概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最后一件作品展示了讨喜的模糊背景——沿袭iOS7的作风，自从它拥抱模糊背景的界面设计之后。它主体部分有一堆看似单一的白色图表，用了不同的透明度来展现。它们灰白混搭，看上去组织良好，一点也不显得杂乱&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/iphone-6-concepts/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>六边形置物架</title><link>https://victor42.eth.limo/post/2688/</link><pubDate>Sun, 21 Jul 2013 17:23:49 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2688/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第2期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://pic.yupoo.com/greenzorro/D1GUGylY/medish.jpg"
+loading="lazy"
+alt="BUILD 模块化六边形置物架产品组合展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;这款置物架由完全契合的六边形组合而成，也可以用作凳子和桌子&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/07/dezeen_BUILD-modular-shelving-by-Movisi_7.jpg"
+loading="lazy"
+alt="六边形置物架设计中关于“英国设计师和为家居品”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;英国设计师Jack Godfrey Wood 和 Tom Ballhatchet 为家居品牌Movisi 打造，它由一系列各角度都完全贴合的相同部件组成&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/07/dezeen_BUILD-modular-shelving-by-Movisi_6.jpg"
+loading="lazy"
+alt="六边形置物架设计中关于“整套承重系统由高密度”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;整套承重系统由高密度发泡聚丙烯制成，Movisi声明它是完全无毒的。“造型时尚、功能性强、100%可回收，甚至材料安全得能够食用。”品牌创始人Natascha Stojanovic说&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/07/dezeen_BUILD-modular-shelving-by-Movisi_10.jpg"
+loading="lazy"
+alt="六边形置物架设计中关于“三角形锁嵌入每个部件”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;三角形锁嵌入每个部件后方的孔中，将它们组成整体，可以很简单地创造出多种不同组合&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://static.dezeen.com/uploads/2013/07/dezeen_BUILD-modular-shelving-by-Movisi_3.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="http://static.dezeen.com/uploads/2013/07/dezeen_BUILD-modular-shelving-by-Movisi_3.jpg"
+loading="lazy"
+alt="六边形置物架设计中关于“拆卸后置物架可以作为”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;拆卸后，置物架可以作为临时座椅、单个搬运箱或者小桌子使用&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/07/dezeen_BUILD-modular-shelving-by-Movisi_2.jpg"
+loading="lazy"
+alt="六边形置物架设计中关于“这款置物架有纯黑与花”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;这款置物架有纯黑与花纹白两款&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static.dezeen.com/uploads/2013/07/dezeen_BUILD-modular-shelving-by-Movisi_12.jpg"
+loading="lazy"
+alt="六边形置物架设计中关于“之前也推出过一款英国”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Movisi 之前也推出过一款英国设计师Peter Marigold设计的&lt;a class="link" href="http://www.dezeen.com/2007/01/25/movisi-launches-peter-marigold-shelving/" target="_blank" rel="noopener"
+&gt;可调节置物架-Make/Shift&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dezeen另有几款有特色多功能置物架：&lt;a class="link" href="http://www.dezeen.com/2012/06/20/as-if-from-nowhere-by-orla-reynolds/" target="_blank" rel="noopener"
+&gt;亮色桌椅书架组合&lt;/a&gt;和&lt;a class="link" href="http://www.dezeen.com/2011/05/29/readme-by-peter-bockel/" target="_blank" rel="noopener"
+&gt;带台灯的书架&lt;/a&gt;。&lt;a class="link" href="http://www.dezeen.com/tag/shelving/" target="_blank" rel="noopener"
+&gt;还有更多置物架设计&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.dezeen.com/2013/07/21/build-by-jack-godfrey-wood-and-tom-ballhatchet-for-movisi/" target="_blank" rel="noopener"
+&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description></item><item><title>荒岛余生</title><link>https://victor42.eth.limo/post/1143/</link><pubDate>Fri, 19 Aug 2011 23:33:40 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/1143/</guid><description>&lt;p&gt;在公交车上打了个小盹儿，又有绝妙的梦冒出来&lt;/p&gt;
+&lt;p&gt;回忆一下时下盛行的桌游，绝大部分都是以推理或牌技推动游戏发展。游戏开始时，玩家处于一种猜忌他人隐藏自我的状态，随着回合的推移，玩家的身份渐渐显露出来，游戏变成了各自阵营间的公开战斗&lt;/p&gt;
+&lt;p&gt;而我要创造一款完全相反的桌游！&lt;/p&gt;
+&lt;p&gt;………………………………………………………………………………………………………………………………&lt;/p&gt;
+&lt;p&gt;从荒岛余生这个名字可以看出来，这必须是一款以团队合作推动情节发展的游戏&lt;/p&gt;
+&lt;p&gt;玩家扮演的角色各自身怀绝技，而且都是公开的，每个人都能清楚了解其他成员对团队的价值所在&lt;/p&gt;
+&lt;p&gt;按照游戏设定，身怀绝技的玩家们流落荒岛，面临荒岛上接连发生的危险与灾祸，他们将发挥各自的特长帮助团队度过难关&lt;/p&gt;
+&lt;p&gt;但是，如果它仅仅是组队过关，就太小儿科了&lt;/p&gt;
+&lt;p&gt;游戏最核心的玩点，将是人性阴暗面、道德底线、博弈与取舍，好朋友玩过一次荒岛余生甚至会吵起架来，这便是我要的效果！&lt;/p&gt;
+&lt;p&gt;每个角色都有固定的生命值，在被灾难袭击时会相应扣除，而某些严重的灾难往往能将生命值满的玩家直接秒杀。这些重大灾难发生时，即使倾尽团队之力，也很可能无力回天，但是牺牲掉一位具备某种特长的队员，反而能以较小的代价保全团队生存&lt;/p&gt;
+&lt;p&gt;举个例子，荒岛上居住着一种游荡的食人蚁，蚁群来袭时悄无声息，如果毫无防备中遭到攻击，将直接导致全员死亡游戏结束，所有玩家都是失败者&lt;/p&gt;
+&lt;p&gt;此时，能够站立在胳膊细的树枝上的杂技演员将是最理想的哨兵，能够为团队争取宝贵的逃离时间。但是，面对蜂拥而至的蚁群，杂技演员自己却不能全身而退，他有一定的概率会被蚁群吞噬（至于这条如何操作，取决于那八字还没一撇的游戏规则）。蚁群来袭时，其他队员可以选择逃之夭夭，这是万全的自保方案，但是杂技演员的生还机率将会急剧下降；他们也可以选择使用自己的特长为杂技演员争取一点点爬下树的时间，杂技演员生还机率上升的同时，其他玩家的生还机率将会下降，但至少会比杂技演员高&lt;/p&gt;
+&lt;p&gt;很显然，杂技演员并不愿成为那个牺牲品，但团队可以通过各种努力使他爬上那棵树顶。他们可以讨论分析形势，并承诺蚁群来袭时为他争取下树的时间，当然，游戏规则中并不包含任何履行承诺的义务。或者他们可以强制将杂技演员捆在树上，但杂技演员同样没有履行职责的义务，他可以选择沉默，从而导致全员死亡。不过还有一种特殊的可能性，警探（另一个玩家）也许会私下找杂技演员谈话，告诉他如果不爬上树去，警探枪膛里的子弹会从他胸前穿过；或者是药剂师使用精神药剂，令杂技演员在神志不清中爬上树顶为大家放哨。要知道，每个角色的特殊能力并非只能为团队度过劫难，也能在关键时刻控制或攻击队友&lt;/p&gt;
+&lt;p&gt;于是胜利条件浮出水面：最后的生还者将是游戏中唯一的胜者，当然，生还者所经历的回合数也将作为衡量他游戏成绩至关重要的因素。很自然地，我们也能顺水推舟得出玩家准则：第一，团队的生命值总和，是在面临灾难时影响团队决策的最重要指标；第二，对于玩家个人而言，自己的生命值却比团队总生命值更重要。如此尖锐的矛盾必将为游戏带来无限种可能&lt;/p&gt;
+&lt;p&gt;随着游戏时间的推移，不断会有玩家在灾难中死亡，剩下的玩家越少，应对灾难的策略也将更加单薄。一波波打击之下，团队必然已经分崩离析，游戏进入最精华的部分，为了成为最终的胜者，玩家们先后开始打起了彼此的主意。药剂师会拒绝救治患病的队友，警探会在森林大火时给潜水教练来一枪，一切行动，都越来越倾向于保全自己。而即使一心为了团队延续的你，又能经得起多少次出卖与背叛？&lt;/p&gt;
+&lt;p&gt;在这样一个残酷的游戏中，并无所谓公平。但由于灾难是随机的，未知因素太多，游戏初期意外丧生的玩家只能等待下一场，从参与程度来说还是有必要做到公平的。思密达的建议很巧妙地解决了这个问题，加入复活机制！&lt;/p&gt;
+&lt;p&gt;死亡的玩家不用急着离开游戏，游戏中会设置某种机会能够将死去的角色复活，帮助团队度过难关，不过复活队友是需要付出沉重代价的，甚至会是另一名队友的生命。而被复活的玩家，又将重新在这各怀鬼胎的团队中为保全自己不择手段&lt;/p&gt;
+&lt;p&gt;………………………………………………………………………………………………………………………………&lt;/p&gt;
+&lt;p&gt;游戏的核心思想就到此为止，具体规则与游戏流程则是一个浩浩荡荡的工程，哪怕是从简入手&lt;/p&gt;
+&lt;p&gt;不过我很惊奇地发现，这个背景设定怎么感觉就这么熟悉呢，这明明就是受了作家研习营的启发啊……帕拉尼克这家伙……&lt;/p&gt;</description></item><item><title>喝的是科学</title><link>https://victor42.eth.limo/post/723/</link><pubDate>Fri, 15 Apr 2011 20:29:36 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/723/</guid><description>&lt;p&gt;昨天在办公室趴了一会儿，就那么十几分钟，做了个意义重大的&lt;/p&gt;
+&lt;p&gt;这回不是科幻片，也不是悬疑片，倒是很有实际意&lt;/p&gt;
+&lt;p&gt;我手拿一瓶纸盒装饮料，津津有味地叼着吸&lt;/p&gt;
+&lt;p&gt;我吸了一口，皱起了眉头，what the hell is this !mor&lt;/p&gt;
+&lt;p&gt;不过一会儿之后，嘴里又泛起另一种味道，不算好喝却很特&lt;/p&gt;
+&lt;p&gt;这感觉就像……你挖鼻子的时候很纠结，挖完了却很舒&lt;/p&gt;
+&lt;p&gt;或许我不该用这个找抽的比喻，但这确实就是一款重口味饮料&lt;/p&gt;
+&lt;h2 id="问我喝的究竟是啥我喝的是科学"&gt;问我喝的究竟是啥，我喝的是科学！
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2011-04/04-15/1.jpg"
+loading="lazy"
+alt="喝的是科学：印有 E 等于 mc 平方公式的物理味纸盒饮料概念图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2011-04/04-15/2.jpg"
+loading="lazy"
+alt="喝的是科学：印有积分公式和函数曲线的数学味纸盒饮料概念图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2011-04/04-15/3.jpg"
+loading="lazy"
+alt="喝的是科学：印有分子结构式的化学味纸盒饮料概念图"
+&gt;&lt;/p&gt;
+&lt;p&gt;目前有物理味、数学味、化学味三种口味可供选&lt;/p&gt;
+&lt;p&gt;相信在不久的将来，还将研发出医学味、天文学味、考古学味等更多口味，总有一款适合&lt;/p&gt;
+&lt;p&gt;什么？物理味、数学味、化学味是什么味道？总之你没喝过就对了，专供重口味人&lt;/p&gt;
+&lt;p&gt;只要你想得到，它可以喝起来像腊肉、酱油、风油精、牙膏、烟丝、重庆火锅……&lt;/p&gt;
+&lt;p&gt;没事儿，不用担心卖不出&lt;/p&gt;
+&lt;p&gt;小时候看的《魔方世界》里，邋遢大王不是还碰到了一位爱闻汽油味儿的老鼠国王么&lt;/p&gt;
+&lt;p&gt;当然，如果实在卖不出去&lt;/p&gt;
+&lt;p&gt;##我可以卖给孩子马上高考的父母们，灭哈哈哈哈……&lt;/p&gt;</description></item></channel></rss>

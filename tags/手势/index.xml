@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>手势 on Victor42</title><link>https://victor42.eth.limo/tags/%E6%89%8B%E5%8A%BF/</link><description>Recent content in 手势 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 22 Jan 2017 22:03:37 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E6%89%8B%E5%8A%BF/index.xml" rel="self" type="application/rss+xml"/><item><title>如何表达App的隐藏手势操作</title><link>https://victor42.eth.limo/post/3538/</link><pubDate>Sun, 22 Jan 2017 22:03:37 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3538/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第161期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/1-raN6DpE52jAdYaEc-zsu3A.png"
+loading="lazy"
+alt="如何表达App的隐藏手势操作的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;手势操作，是通过手指轻微移动来让用户操作应用。触屏界面提供了许多自然的手势，比如点按、滑动、双指缩放。但这些交互方式不像UI控件，通常对于用户是不可见的。除非用户事先了解手势存在，否则他们并不会尝试使用。&lt;/p&gt;
+&lt;p&gt;如何加入隐藏手势呢？好在有许多视觉层面的交互设计技巧，可以让用户了解这些手势。&lt;/p&gt;
+&lt;h2 id="首次打开时的教程和引导页"&gt;首次打开时的教程和引导页
+&lt;/h2&gt;&lt;p&gt;在手势为主的应用中，教程和引导页相当常见。许多情况下，在应用中加入教程意味着向用户说明、解释界面。但是，UI教程并不是阐述应用核心功能的最简洁方式。这种方式存在两个问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果你要给产品准备说明书，就说明与用户的沟通还不到位，因为他们可不希望使用前还要读说明书。&lt;/li&gt;
+&lt;li&gt;另一个问题在于，用户不得不记住所有这些新的用法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;举个例子，Clear应用一开始会展示7页教程，用户得耐心阅读所有信息，尝试记在脑海中。这个设计很糟糕，因为它需要用户在真正开始使用之前就付出精力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/1-2.png"
+loading="lazy"
+alt="Clear 应用用多页教程讲解点按滑动和长按排序手势"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Clear的教程&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;避免使用强制性的多步引导，要试图在操作所处环境中教育用户（这时候用户真正需要相应功能）。几经迭代后，教程可以变成更加平缓的暗示。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;关注单个操作，而不是试图在界面中解释每一个操作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以Android版YouTube的手势操作指引为例：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/2-2.png"
+loading="lazy"
+alt="Android 版 YouTube 在情境中提示拖拽展开和滑动关闭手势"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Android版Youtube&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这个应用有用到手势操作，但并不是通过教程的方式教育用户。它反而是在新用户首次触发时进行了暗示，每次只介绍一处，而且只在用户进入相关功能时才触发。&lt;/p&gt;
+&lt;h2 id="如何在情境中教育用户"&gt;如何在情境中教育用户
+&lt;/h2&gt;&lt;p&gt;在情境中教育的技巧，能帮助用户以一种从未尝试过的方式操作某个元素或界面。这种技巧通常包含&lt;em&gt;轻微的视觉提示&lt;/em&gt;和&lt;em&gt;微妙的动画&lt;/em&gt;。&lt;/p&gt;
+&lt;h3 id="纯文本指令"&gt;纯文本指令
+&lt;/h3&gt;&lt;p&gt;这个技巧主要依靠纯文本指令，促使用户执行某个手势操作，并且简明地描述这个操作的结果。&lt;/p&gt;
+&lt;p&gt;**注意：**说明文字要非常简短——文字越短，用户越可能会阅读，然后才能遵照它的指引。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/3-1.gif"
+loading="lazy"
+alt="Material Design 用简短文字提示向右滑动关闭卡片的隐藏手势"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="提示动效"&gt;提示动效
+&lt;/h3&gt;&lt;p&gt;提示动效（或者动画暗示）表现了执行操作时具体手势的效果预览。例如，Pudding Monsters游戏的诀窍就是完全依靠手势操作，但是用户不必过多猜测就能掌握基本玩法。动画传达了功能方面的信息——用动画来展现一个具体场景，用户立马明白该怎么做。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/4-1.gif"
+loading="lazy"
+alt="Pudding Monsters 通过提示动效展示拖动物体的手势操作方法"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;提示动效展现了如何操作一个元素。来源：Pudding Monsters&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="内容的暗示"&gt;内容的暗示
+&lt;/h3&gt;&lt;p&gt;内容暗示是一种微妙的视觉线索，表明了操作的可能。下面这个例子展示了卡片的内容暗示——当前卡片的下方还有其他卡片，这显然表明它是可以滑动的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/5-1.gif"
+loading="lazy"
+alt="商品卡片堆叠露出下层内容暗示用户可以滑动浏览"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;展现出导航功能。来源：Barthelemy Chalvet&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;总之，在移动或网页应用中展现手势操作方式，并没有万能的方案。不过在教育用户操作界面时，我比较推崇通过内容暗示、&lt;a class="link" href="http://babich.biz/design-patterns-progressive-disclosure-for-mobile-apps/" target="_blank" rel="noopener"
+&gt;渐进式提示&lt;/a&gt;和微妙的动画，在具体情景中教育用户。教程和引导页应该只作为最后手段。&lt;/p&gt;
+&lt;p&gt;感谢阅读！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://babich.biz/how-to-communicate-hidden-gestures-in-mobile-app/" target="_blank" rel="noopener"
+&gt;http://babich.biz/how-to-communicate-hidden-gestures-in-mobile-app/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="http://babich.biz/author/nick/" target="_blank" rel="noopener"
+&gt;Nick Babich&lt;/a&gt;&lt;/p&gt;</description></item><item><title>超越触控的手势交互</title><link>https://victor42.eth.limo/post/3505/</link><pubDate>Sun, 29 May 2016 16:41:10 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3505/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第134期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-29/gestural_hero.jpg"
+loading="lazy"
+alt="博物馆中参观者用手势与大型触控屏幕墙上的照片墙进行交互"
+&gt;&lt;/p&gt;
+&lt;p&gt;未来的交互是多重方式的。但结合触控和隔空手势（还可能有语音输入）的方式，并非典型的&lt;a class="link" href="http://blog.invisionapp.com/core-principles-of-ui-design/" target="_blank" rel="noopener"
+&gt;UI设计&lt;/a&gt;任务。&lt;/p&gt;
+&lt;p&gt;在Exipple，我们的设计师与工程师协作打造各种环境中的界面，能够响应手势交互和用户移动等物理属性。我们从迭代式的设计、&lt;a class="link" href="http://blog.invisionapp.com/3-steps-to-bridging-the-design-development-gap/" target="_blank" rel="noopener"
+&gt;研发&lt;/a&gt;和评估过程中受益良多，我愿意在此分享我们在手势交互中的领悟与心得。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-29/gest-1.jpg" title="Beyond touch: designing effective gestural interactions"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-29/gest-1.jpg?ver=1"
+loading="lazy"
+alt="FC Barcelona博物馆中一堵交互式视频墙的照片"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;FC Barcelona博物馆中一堵交互式视频墙的照片。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="设计易于发现的手势"&gt;设计易于发现的手势
+&lt;/h2&gt;&lt;p&gt;手势通常被认为是与屏幕和物体交互的自然方式，我们会谈论在移动设备屏幕上双指缩放地图，还有在电视前挥手切换到下一部电影。但这些手势真的那么自然吗？&lt;/p&gt;
+&lt;p&gt;对于从没体验过某种交互方式的用户而言，手势是陌生的领域。虽然我们都本能地了解在触屏上查看地图细节该如何操作，但是想一想，如果在远处观看一块大屏幕呢？如果有人告诉你，你不用触碰屏幕，可以通过手部运动，以一种很自然直观的方式放大地图，你会首先尝试什么手势？遇到这种问题时，我们每个人对自然的手势都有各自的定义。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22The&amp;#43;future&amp;#43;of&amp;#43;interaction&amp;#43;is&amp;#43;multimodal.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“未来的交互是多重方式的”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Design&amp;#43;for&amp;#43;discovery&amp;#43;is&amp;#43;crucial.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;设计要易于发现，这点非常重要。&lt;/a&gt;要确保提供正确的设计&lt;a class="link" href="http://jnd.org/dn.mss/signifiers_not_affordances.html" target="_blank" rel="noopener"
+&gt;符号&lt;/a&gt;线索，帮助用户轻松发现手势操作方式。这些可以是视觉提示，表明什么样的手势触发什么样的动作。反复使用后，这些探索性的提示就不必保留了，因为用户已经学会了这种手势。&lt;/p&gt;
+&lt;p&gt;还可以&lt;a class="link" href="http://blog.invisionapp.com/motion-prototype-animation/" target="_blank" rel="noopener"
+&gt;设计动画&lt;/a&gt;，渐进式地揭示某种不同的交互方式。例如，要确保用户了解到他们可以不必触碰屏幕，在远处就能操作，为此我们创造了一个菜单，当手指向屏幕时它就能显示更多信息。起初图片以一种随意的方式悬浮排列（A图）。靠近伸手指向这些图片，能显示出每张图片其实是一个分类，包含更多内容（B图）。&lt;/p&gt;
+&lt;p&gt;[&lt;img src="https://cdn.victor42.work/posts/2016-05/05-29/gest-7.jpg?ver=1"
+loading="lazy"
+alt="A图展示随机悬浮排列的图片B图展示手指指向后图片按分类展开显示更多信息"
+&gt;](&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-29/gest-7.jpg" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2016-05/05-29/gest-7.jpg&lt;/a&gt; “Beyond touch: designing effective gestural interactions”)&lt;/p&gt;
+&lt;h2 id="为什么不能直接把触控操作搬过来"&gt;为什么不能直接把触控操作搬过来
+&lt;/h2&gt;&lt;p&gt;去年我们做了一个小小的非正式研究。我们邀请了一些人到工作室来，向他们展示了一些熟悉的电视界面：菜单和图标、地图、网格、轮播图。让他们想象应该如何在远处通过隔空手势操作这些界面。&lt;/p&gt;
+&lt;p&gt;这些界面实际上是一系列微型的手势交互原型。我们收集他们的期望，让他们探索一番并给我们反馈。其中显示出一种清晰的模式，他们的期望基本都来源于移动设备上熟悉的手势。所有的参与者，都将手机上的心理模型应用到隔空手势上。有时候，通过对界面操作的期望，我们甚至能从中区分出iOS和Android用户。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22What%27s&amp;#43;most&amp;#43;intuitive&amp;#43;is&amp;#43;not&amp;#43;necessarily&amp;#43;the&amp;#43;most&amp;#43;efficient&amp;#43;and&amp;#43;easy&amp;#43;to&amp;#43;use.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“最直观的未必最有效易用。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;但我们很快就遭遇了挑战：&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22What%27s&amp;#43;most&amp;#43;intuitive&amp;#43;is&amp;#43;not&amp;#43;necessarily&amp;#43;the&amp;#43;most&amp;#43;efficient&amp;#43;and&amp;#43;easy&amp;#43;to&amp;#43;use.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;最直观的未必最有效易用。&lt;/a&gt;例如，鼠标是一种高精度设备，提供一种精确控制。人的肢体在三维空间中隔空移动就没这么精确。我们觉得自己的手在X轴上移动，但实际上我们在另外两个维度上也在微微运动。&lt;/p&gt;
+&lt;p&gt;我们无法指望达到相同的精确度。专注于精确细致的移动，会不可避免地导致某种紧张——而且“伸直手”肯定不是自然的交互方式。&lt;/p&gt;
+&lt;p&gt;触碰屏幕时，触点就是起点——一个参照点。想象一下，典型的双指缩放和双手隔空构成类似的操作，两者有什么区别。缩放等级的参考点变得模糊不定。你也不能松开屏幕来停止操作，所以起始点和结束点都变得模棱两可。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-29/gest-6.jpg" title="Beyond touch: designing effective gestural interactions"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-29/gest-6.jpg?ver=1"
+loading="lazy"
+alt="应该避免的例子：等同于双指缩放的隔空手势"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;应该避免的例子：等同于双指缩放的隔空手势。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Try&amp;#43;not&amp;#43;to&amp;#43;translate&amp;#43;touch&amp;#43;gestures&amp;#43;directly&amp;#43;to&amp;#43;air&amp;#43;gestures%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;不要尝试把触控手势直接变成隔空手势&lt;/a&gt;，尽管它们更熟悉和容易。手势交互需要一种全新的方式——一种起初陌生，但最终能够让用户极尽掌控、并使&lt;a class="link" href="http://blog.invisionapp.com/world-class-ux/" target="_blank" rel="noopener"
+&gt;用户体验设计&lt;/a&gt;走得更远的方式。&lt;/p&gt;
+&lt;h2 id="去掉乱跳的指针"&gt;去掉“乱跳”的指针
+&lt;/h2&gt;&lt;p&gt;如果你在项目中运用计算机视觉技术（例如通过Kinect、Asus、Orbecc等带有深度传感器的相机捕捉动作），你就知道，无法100%实现手和手指的位置追踪。&lt;/p&gt;
+&lt;p&gt;其他的技术或许能提供更高的精确度，但它们通常需要用户&lt;a class="link" href="http://blog.invisionapp.com/designing-for-wearables/" target="_blank" rel="noopener"
+&gt;穿戴特殊的设备&lt;/a&gt;。随着我们手部运动，计算机并不能持续“看见”我们的手，结果就导致了我们所谓的&lt;em&gt;手抖&lt;/em&gt;：看起来像屏幕上的指针或箭头“紧张”颤抖。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Eliminate&amp;#43;the&amp;#43;need&amp;#43;for&amp;#43;a&amp;#43;cursor&amp;#43;as&amp;#43;feedback%2C&amp;#43;but&amp;#43;provide&amp;#43;an&amp;#43;alternative.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“去掉指针这种反馈形式，提供一种替代方案。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;设计另一种指针或箭头起不到多大作用，因为它仍然需要在屏幕上追踪手部运动。你可以要求&lt;a class="link" href="http://blog.invisionapp.com/design-with-developers-in-mind/" target="_blank" rel="noopener"
+&gt;开发者&lt;/a&gt;过滤这些微妙的手部运动来避免这种效果。但是，这种解决方案要付出很高的代价，丧失了某些响应和精确度，并且会导致指针与手有轻微的延迟，降低用户对于界面的操控感。丧失用户的操控感，我们承担不起。&lt;/p&gt;
+&lt;p&gt;那应该怎么办？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Kill&amp;#43;that&amp;#43;cursor.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;去掉指针。&lt;/a&gt;触摸屏上也不需要指针。去掉指针这种反馈形式，提供一种替代方案。让图片和物体“弹出来”，立即响应用户的手部运动，不需要任何指针。&lt;/p&gt;
+&lt;p&gt;这会从根本上改变你思考&lt;a class="link" href="http://blog.invisionapp.com/crafting-easing-curves/" target="_blank" rel="noopener"
+&gt;用户界面&lt;/a&gt;的方式。这不是网页，也不是移动端触摸屏体验。&lt;/p&gt;
+&lt;p&gt;[&lt;img src="https://cdn.victor42.work/posts/2016-05/05-29/gest-3.jpg?ver=1"
+loading="lazy"
+alt="左图Cursor pointer显示绿色圆圈指针右图No cursor直接高亮绿色方块无指针反馈"
+&gt;](&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-29/gest-3.jpg" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2016-05/05-29/gest-3.jpg&lt;/a&gt; “Beyond touch: designing effective gestural interactions”)&lt;/p&gt;
+&lt;h2 id="敞开思路"&gt;敞开思路
+&lt;/h2&gt;&lt;p&gt;要尝试解放思想，从你熟悉的标准网页和移动UI模式中解脱出来。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Forget&amp;#43;about&amp;#43;buttons%E2%80%94think&amp;#43;actions.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;忘了按钮——思考动作。&lt;/a&gt;想象一下，不再有屏幕了，你要用手势来控制周围环境中的设备。你要如何让电视机降低音量？如何点亮电灯？&lt;/p&gt;
+&lt;p&gt;象征性和形象的手势，例如用食指做出“嘘”的手势降低电视音量，这就简单直接、富于表达力。这或许有些依赖特定场景，也需要用户学习，但一旦用户学会了，他们就很容易记住和使用。&lt;/p&gt;
+&lt;p&gt;我们创造了一些成功的手势来控制媒体播放：&lt;/p&gt;
+&lt;p&gt;[&lt;img src="https://cdn.victor42.work/posts/2016-05/05-29/gest-2.jpg?ver=1"
+loading="lazy"
+alt="四个圆形手势图标分别展示食指嘘声降音量侧耳倾听升音量手掌前推下一曲手掌后拉上一曲"
+&gt;](&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-29/gest-2.jpg" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2016-05/05-29/gest-2.jpg&lt;/a&gt; “Beyond touch: designing effective gestural interactions”)&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Aim&amp;#43;to&amp;#43;create&amp;#43;associations&amp;#43;between&amp;#43;the&amp;#43;gesture&amp;#43;and&amp;#43;the&amp;#43;action&amp;#43;that&amp;#43;it&amp;#43;triggers.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;要在手势和它所触发的动作之间建立联系。&lt;/a&gt;这些可以基于容易记忆的含义或者视觉参考。这并不容易——因为你需要考虑例如文化环境这样的方面。比如说，在某个国家或文化中被普遍接受的一种手势表达，在另一个国家中或许有冒犯的意味。在某些环境中非常突出的象征，在其他场合或许就没有帮助。&lt;/p&gt;
+&lt;p&gt;依靠形象化的手势创造所有类型的交互，可能会导致太多的手势要记忆。要将它们当做快捷、有力的快速触发方式——值得分配给那些需要用户频繁重复的操作。&lt;/p&gt;
+&lt;h2 id="减少错误识别"&gt;减少错误识别
+&lt;/h2&gt;&lt;p&gt;对于计算机而言最大的挑战，就是区分真正的意图，和那些人们自然做出的偶然手势，例如与人交谈时手部四处移动。&lt;/p&gt;
+&lt;p&gt;很容易会意外触发动作，让界面在不该变化时发生改变，导致不稳定的体验。作为UI设计师，你得与开发者密切配合，找出哪些有意义、哪些没有，就能避免哪些错误的识别。&lt;/p&gt;
+&lt;p&gt;好的起点是：&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Always&amp;#43;design&amp;#43;gestures&amp;#43;tied&amp;#43;to&amp;#43;a&amp;#43;particular&amp;#43;context&amp;#43;or&amp;#43;conditions&amp;#43;that&amp;#43;need&amp;#43;to&amp;#43;be&amp;#43;met.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;手势设计总是要与特定场景和需要遇到的状况联系起来。&lt;/a&gt;是否正在播放音乐？那么手势就可以触发。如果没有，那就什么也不做。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Forget&amp;#43;about&amp;#43;buttons%E2%80%94think&amp;#43;actions.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“忘了按钮——思考动作。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;要区分手势和意外手部运动，时间是个重要的因素。例如，如果我指着某个物体超过1秒，就意味着我的确想要操作它。&lt;/p&gt;
+&lt;p&gt;距离也是另一个因素。如果你在为博物馆或参观中心设计一套互动装置，你可能想让它识别足够靠近的参与者的手势，相对忽略那些站在远处的旁观者。&lt;/p&gt;
+&lt;h2 id="避免疲劳"&gt;避免疲劳
+&lt;/h2&gt;&lt;p&gt;就像字面意思，感受手势造成的影响并不容易。你得一遍遍&lt;a class="link" href="http://blog.invisionapp.com/immersive-user-research/" target="_blank" rel="noopener"
+&gt;观察用户&lt;/a&gt;，理解你所创造的体验给人带来的真实感受。&lt;/p&gt;
+&lt;p&gt;简单几点需要记住：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;除非你在设计物理游戏或锻炼项目，否则要确保人们不必太频繁或太长时间举起手臂、抬起双手。&lt;/li&gt;
+&lt;li&gt;要确保手部轨迹和UI元素间距离的比例足够舒适，尤其对于大屏幕。这意味着用户可以毫不费力指向屏幕的任何部分。
+&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-29/gest-4.jpg" title="Beyond touch: designing effective gestural interactions"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-29/gest-4.jpg?ver=1"
+loading="lazy"
+alt="一个例子，小范围动作对应屏幕上更大范围的区域，让触达更加轻松"
+&gt;&lt;/a&gt;
+&lt;em&gt;一个例子，小范围动作对应屏幕上更大范围的区域，让触达更加轻松。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22The&amp;#43;use&amp;#43;of&amp;#43;2&amp;#43;hands&amp;#43;generates&amp;#43;less&amp;#43;fatigue&amp;#43;than&amp;#43;a&amp;#43;single-handed&amp;#43;interaction.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;使用双手比单手交互更不容易感到疲劳。&lt;/a&gt;可以把某只手作为惯用手，用来触发操作（比如显示出滑块）。然后用另一只手来辅助（调整滑块的数值）。要考虑到你不必用单手来完成所有操作，可以探索更多的组合。
+&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-29/gest-5.jpg" title="Beyond touch: designing effective gestural interactions"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-29/gest-5.jpg?ver=1"
+loading="lazy"
+alt="相关阅读"
+&gt;&lt;/a&gt;
+&lt;em&gt;相关阅读：&lt;a class="link" href="http://blog.invisionapp.com/ux-design-gestural-interaction/" target="_blank" rel="noopener"
+&gt;UX设计师应当探索手势交互的6大理由&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="保持一致左右手都要触发相同动作"&gt;保持一致，左右手都要触发相同动作
+&lt;/h2&gt;&lt;p&gt;最后，用户通过右手触发的任何操作，也应当能够用左手触发。这不仅是为了方便右撇子和左撇子，这种&lt;a class="link" href="http://blog.invisionapp.com/consistent-design/" target="_blank" rel="noopener"
+&gt;一致性&lt;/a&gt;也帮助人们学习和接受。所以如果你学会了某个手势，你可以用任意一只手触发——不必记住要用哪只手。&lt;/p&gt;
+&lt;p&gt;一致性要贯穿你整个概念，就像其他所有UX项目一样。成功创造了&lt;em&gt;手势+动作&lt;/em&gt;的组合后，可以考虑是否需要在其他用户场景下启用类似动作。一旦熟悉了，用户会期望使用相同的手势。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Aim&amp;#43;to&amp;#43;create&amp;#43;a&amp;#43;consistent&amp;#43;gestural&amp;#43;language&amp;#43;that%27s&amp;#43;easy&amp;#43;to&amp;#43;discover&amp;#43;and&amp;#43;remember%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Feffective-gestural-interaction-design%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;要创造易于发现和记忆的统一的手势语言。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;有了这些手势交互的规范，你就可以开始探索这块相对未知的创意领域了。一旦理解了这些区别，就能结合隔空手势和触控手势，创造独特流畅的用户交互。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://blog.invisionapp.com/effective-gestural-interaction-design/" target="_blank" rel="noopener"
+&gt;http://blog.invisionapp.com/effective-gestural-interaction-design/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://blog.invisionapp.com/author/yanna-vogiazou/" target="_blank" rel="noopener"
+&gt;Yanna Vogiazou&lt;/a&gt;
+Yanna is UX Director at Exipple, a Barcelona-based startup. She&amp;rsquo;s working with her team on new concepts and user interfaces based on gestural interaction. She brings over 8 years of experience in designing for mobile, tablet, web, TV, automotive, and domestic appliances. Outside work, Yanna can be found searching for orangutans in the jungle or exploring the underwater world.&lt;/p&gt;</description></item></channel></rss>

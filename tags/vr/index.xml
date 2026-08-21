@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VR on Victor42</title><link>https://victor42.eth.limo/tags/vr/</link><description>Recent content in VR on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 02 Jul 2017 00:36:15 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/vr/index.xml" rel="self" type="application/rss+xml"/><item><title>VR中的协作游戏</title><link>https://victor42.eth.limo/post/3558/</link><pubDate>Sun, 02 Jul 2017 00:36:15 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3558/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第176期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们在ustwo工作室第一次尝试HTC Vive VR头戴设备时，我们体验了&lt;a class="link" href="http://www.elevenvr.com/" target="_blank" rel="noopener"
+&gt;Eleven Table Tennis&lt;/a&gt;，一款乒乓球游戏，极具探索乐趣。最吸引我们的，是可以在联机模式中与其他人对战。你的对手来自全世界，随机选择，Ta只有一个面具、一副球拍和控制器。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-07/07-01/P1040746-640x427.jpg"
+loading="lazy"
+alt="两人戴着 HTC Vive VR 头显体验游戏，背景墙贴满设计草图和照片"
+&gt;&lt;/p&gt;
+&lt;p&gt;在对战中我们发现，仅仅通过这3个视觉线索，双方的配合竟然惊人地好。我们可以辨认出对手摇头，或者打了一击臭球之后的耸肩，还有比赛结束后的握手动作。带着头戴设备玩这款游戏，对手的声音听起来非常有沉浸感。我们开始思考VR中的非语言沟通的概念。两个玩家在VR中，有没有可能不借助声音，并通过最少的视觉线索来交流？手和头是不是足够表达信息，并且在VR中与其他玩家进行互动？&lt;/p&gt;
+&lt;p&gt;为了验证这个假设，我们决定自己创造。我们计划要打造一种好玩的体验，玩家需要仅仅通过肢体语言来交流，解答某些谜题，或者联手挑战。我们决定以看手势猜谜为出发点，这是很自然的选择，因为人们对此非常熟悉，玩家容易理解。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/waving2.gif"
+loading="lazy"
+alt="VR 协作游戏截图，两个白色球体角色在灰色场景中，一个角色挥手示意"
+&gt;&lt;/p&gt;
+&lt;h2 id="测试猜谜游戏"&gt;测试猜谜游戏
+&lt;/h2&gt;&lt;p&gt;利用我们先前在VR项目中积累的知识，用&lt;a class="link" href="https://madewith.unity.com/" target="_blank" rel="noopener"
+&gt;Unity&lt;/a&gt;和&lt;a class="link" href="https://vrtoolkit.readme.io/" target="_blank" rel="noopener"
+&gt;VRTK&lt;/a&gt;这类工具，我们可以迅速开展项目。几天后，我们就制作了一个粗略的原型，在一个开放空间中，两名玩家相对站立，代表玩家的只有一个脑袋和两只手。这个测试在工作室内小范围进行，其中一名玩家得到文字指示，另一名玩家需要大声说出Ta的猜测。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/shooting2.gif"
+loading="lazy"
+alt="VR 协作游戏截图，白色球体角色在空中跳跃，下方两个方块角色在灰色场景中"
+&gt;&lt;/p&gt;
+&lt;p&gt;我们让同事来做这个测试，然后我们很快意识到，我们创造出的东西很好玩，很受欢迎。我们又花了几天时间打磨体验，把文字指示换成了一套由各种emoji表情构成的系统，玩家可以将它展示给对方。我们还创造了另一种手的造型，让玩家可以做出握拳的动作。这就使出色的体验成为可能，玩家现在可以表达出挥手或抓取物体的动作。这时，我们对于只用手和脑袋进行沟通很有信心，然后我们开始稍稍改变我们的关注点。&lt;/p&gt;
+&lt;h2 id="创造deus-voxel"&gt;创造Deus Voxel
+&lt;/h2&gt;&lt;p&gt;在原型阶段，关于VR中的“协作创造”，我们冒出了许多想法。我们想看看，猜谜游戏中的非语言沟通，在这样的设定中是否也有效。于是我们开始创造一套新的原型，它的概念是一套好玩的、有创造力的工具，依然只用肢体语言沟通，让两位陌生人连接起来，共同进行艺术创作。&lt;/p&gt;
+&lt;p&gt;灵感来源是&lt;a class="link" href="http://www.minddesk.com/" target="_blank" rel="noopener"
+&gt;Qubicle&lt;/a&gt;和&lt;a class="link" href="https://ephtracy.github.io/" target="_blank" rel="noopener"
+&gt;MagicaVoxel&lt;/a&gt;这样的3D像素编辑器，让用户使用三维像素——voxel来画线。我们用了几周的时间，专注于设计和制作原型，并不断地找朋友和工作室的同事来进行用户测试。最终我们创造出了Deus Voxel，两名玩家在外太空的场景中合作绘制荧光造型，进行艺术创作。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/logo-640x381.jpg"
+loading="lazy"
+alt="Deus Voxel 游戏霓虹风格 logo，两个戴头盔角色在星空背景中"
+&gt;&lt;/p&gt;
+&lt;p&gt;在开发过程中，我们做了几个实验，来测试如何能够影响玩家之间的协作。其中重要的一项，是邀请了我们在纽约的公司同事参与游戏。与大西洋彼岸的人一起玩游戏，感觉更接近线上的随机玩家。&lt;/p&gt;
+&lt;p&gt;给每位玩家设定一种独特的绘画颜色，会增进玩家之间的互动，因为玩家会擦掉其他玩家的线，并且画上自己的颜色。或者他们会示意对方来自己的颜色里绘画，创造出某种奇妙的图案。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-07/07-01/polaroids_1-640x360.png"
+loading="lazy"
+alt="三张拍立得风格截图展示 VR 协作游戏中的霓虹风格场景"
+&gt;&lt;/p&gt;
+&lt;p&gt;第一版原型只允许玩家紧挨着已有的线条绘画，每次绘画都必须从两位玩家中间的某个位置开始。这可以迫使玩家专注于合作绘画，创造一件共同的艺术品。随着我们改变策略，换成一种更自由的形式，玩家可以在宇宙中任何位置绘画，他们刚开始就会各画各的，但最终还是会共同创作。&lt;/p&gt;
+&lt;p&gt;我们最初设定的绘画交互方式，产生了意外的效果，使得玩家画线时必须格外小心。我们很喜欢这种效果，能让玩家更专注，更小心地绘画。在之后的交互方式迭代中，我们一直试图在易用和繁琐之间寻找一种平衡。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2017/06/differentcolors.gif"
+loading="lazy"
+alt="两个 VR 角色戴霓虹色头盔在星空中伸手触碰发光方块"
+&gt;&lt;/p&gt;
+&lt;p&gt;在VR中分享经验、与他人协作，这是绝无仅有的一个新维度。玩家们甚至语言都不通，这个事实如此奇妙，证明了我们仅凭极少的手段就能沟通和协作。&lt;/p&gt;
+&lt;p&gt;我们相信，VR中的协作会越来越重要。通过这个实验我们知道，玩家在强烈沉浸感的体验中协作创造事物是可行的。我们期待继续探索更多机会，让我们的知识在这个领域有更多实际应用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;作者信息：MIKAEL JOHANSSON AND LINUS NORDGREN&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://ustwo.com/blog/collaborative-play-in-vr" target="_blank" rel="noopener"
+&gt;https://ustwo.com/blog/collaborative-play-in-vr&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Eyefluence：混合现实缺失的一环</title><link>https://victor42.eth.limo/post/3530/</link><pubDate>Sun, 20 Nov 2016 00:03:08 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3530/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第154期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-11/11-15/0-YpnyyrIb-nH8-U8h.jpg"
+loading="lazy"
+alt="混合现实眼镜中通过视线选择图标的Eyefluence眼控界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;注：本文来自我与&lt;a class="link" href="https://www.facebook.com/RobertScoble?fref=ts" target="_blank" rel="noopener"
+&gt;Robert Scoble&lt;/a&gt;合作的新书《Beyond Mobile: Life After Headsets》中第6章的节选，目前尚未发布。这个章节关注一家你不了解的企业：Eyefluence。由于它只从事B2B业务，你很可能没听过他们。不过，如果未来你有机会用上增强现实或混合现实设备，它的体验就取决于这家公司提供的技术。&lt;/p&gt;
+&lt;p&gt;Jim Marggraff和David Stiehr，于2012年联合创立了Eyefluence，不过那时候他们早已就眼球追踪技术展开合作了。他们开始探索各种途径来为此技术赋予价值，就像它的字面意义那样。&lt;/p&gt;
+&lt;p&gt;眼球追踪技术本身并没什么大不了。它早在100年前的PC时代就出现了。科学家使用纸笔创造了一种研究方法，研究人的大脑在阅读时如何工作。到80年代，这种方式被运用到计算机中。当时，名为Marcel Just和Patricia Carperter的两位心理学家创立了理论，证明眼睛看到事物之后，大脑立刻就开始处理相关信息。&lt;/p&gt;
+&lt;p&gt;除非人类继续进化，否则再也没有什么比这个更快的了。&lt;/p&gt;
+&lt;p&gt;科学家发现了一系列领域能发挥眼球追踪的价值，例如心理学、心理语言学、还有其他健康相关领域。它能让四肢瘫痪者通过点头和眨眼，操纵屏幕上的物体。史蒂芬·霍金的语音合成系统就用了这种技术，让他的思想能够转化为相仿的语音。后来，一家名为Fove的头戴设备制造商，将它引入虚拟现实设备。动作游戏玩家欢呼雀跃，他们能够以前所未有的速度击杀外星人。&lt;/p&gt;
+&lt;p&gt;但是这些，都与大脑理解眼睛读到信息的速度相去甚远，这正是Eyefluence的研究方向。&lt;/p&gt;
+&lt;p&gt;他们利用了现有的眼球追踪软件，在其上进行扩展建设，并取得30项专利保护。然后诞生了一种新式的头戴设备操作软件，他们称之为眼控交互（EI）。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-11/11-15/0-Pk-WwqOuxT0uGKTJ.jpg"
+loading="lazy"
+alt="Eyefluence眼控交互技术公司的蓝绿色品牌标志"
+&gt;&lt;/p&gt;
+&lt;p&gt;Eyefluence不像眼球追踪那样，仅仅是观察用户眼球运动，从注视、眨眼或点头中获取线索。他们的EI软件会观察用户在看着头戴设备的什么位置，并对自然的眼球运动做出反应。他们希望这些专利能够使它在这类软件中自成一派，在可预期的巨大市场中，获得强有力的竞争地位。&lt;/p&gt;
+&lt;p&gt;Marggraff告诉我们，Eyefluence与多数主要头戴设备制造商建立了不同程度的合作。&lt;/p&gt;
+&lt;p&gt;EI软件不是纸上谈兵，它在实际使用中大获赞赏。我们各自体验了演示版产品。Scoble在SXSW大会看到它，立刻折服了。我们两人当中，他对于新科技有更快、更直观的理解。&lt;/p&gt;
+&lt;p&gt;作为记者，Israel带着多年来形成的怀疑态度，更多关注商业策略。他见证了许多技术昙花一现，相关产品最终也倒在不成熟的市场面前。他在5月采访了位于加州Milpitas的Eyefluence公司总部，并且没有抱太大期望。&lt;/p&gt;
+&lt;p&gt;在那之前，Israel已经使用过大多数新式头戴设备，他怀疑这些有多少能最终生存下来，更别说盛行起来，像智能手机那样深入生活。他尤其担心个人的生产效率。&lt;/p&gt;
+&lt;p&gt;他之前与Marggraff谈话时，这名创始人强调说，今后十年内，头戴设备会是人们唯一需要的数码设备。他预言Israel的下一本书可能会用眼睛来书写，而不是用手指在键盘上书写。&lt;/p&gt;
+&lt;p&gt;Israel的质疑不止在于文字处理的挑战，他还怀疑表格绘制和演示的生产效率。&lt;/p&gt;
+&lt;p&gt;Israel像许多其他作者一样，花在桌面电脑上的时间比手机多。他从不觉得长篇写作可以离开外接键盘和大屏幕。使用混合现实眼睛写书的点子，对他来说听起来像虚无缥缈的幻想。&lt;/p&gt;
+&lt;p&gt;但是，观看了一段15分钟的演示后，其中包括Marggraff的两分钟Eyefluence教学视频，Israel就开始期待在不远的将来，能使用智能眼镜设备书写任何东西。&lt;/p&gt;
+&lt;h2 id="快速打地鼠"&gt;快速打地鼠
+&lt;/h2&gt;&lt;p&gt;Marggraff给Israel做了2分钟的演示，然后他发现自己就开始毫不费力地通过眼睛移动和打开物体。他感到很放松，而且发现自己浏览地比鼠标操作的设备更快。仅仅通过看向一个图标，他就完成了机票预订，还看到他的医生如何使用X光。&lt;/p&gt;
+&lt;p&gt;Israel体验了一种往常没有的反转：不是去使用某个技术来完成目标，Eyefluence直接把技术带到了他面前。&lt;/p&gt;
+&lt;p&gt;在这个演示之前，Marggraff聊到了他的哲学博士为主的团队多年来如何研究人眼。Israel没怎么放在心上。几乎所有的创始人都会夸大团队能力、教育水平和独特文化。&lt;/p&gt;
+&lt;p&gt;现在，Israel体验过这项新技术后，他马上意识到，在他看着屏幕的同时，屏幕也在看着他，在观察他看着哪里，视线停留在何处。他有意四处游移视线，避开Marggraff请他看的地方。这项技术真的跟随他的眼睛，而不是Marggraff的指引。演示非常真实，软件了解他想要什么，它正在观察，据说还能记忆。&lt;/p&gt;
+&lt;p&gt;一个会观察你、了解你的软件还挺吓人的，我们之前这么写过。虽然这一点确实非常吓人，但Israel玩打地鼠玩得非常开心，以至于没有被分散注意力。打地鼠这个游戏1976问世，不过Israel之前并没有玩过。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-11/11-15/0-hL5oiPUSZXGoiTXu.jpg"
+loading="lazy"
+alt="用于说明眼控交互速度的经典打地鼠游戏包装"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果你也像Israel一样，是那少数没有玩过打地鼠的人，那么简单介绍一下：这个游戏的目标，就是当这些可爱的小地鼠从地下钻出来，露出微笑的脑袋时敲打它们。打中的越多，分就越高。&lt;/p&gt;
+&lt;p&gt;起初，Marggraff指导他通过眼球追踪技术敲打地鼠，这需要点头。每当地鼠出现，Israel点头一击。随着他进入状态，他点头敲打的动作变快了。游戏结束时，他认为自己作为新手玩得非常棒。&lt;/p&gt;
+&lt;p&gt;然后，他用Eyefluence技术敲打地鼠。不必点头，他只需要移动视线。设备记录下了积分，Eyefluence技术使得Israel在相同时间敲中的地鼠增加了40%。&lt;/p&gt;
+&lt;p&gt;最后，Israel置身于40个屏幕中，它们360度水平方向、180度垂直方向环绕自己——这是增强现实环境的全幅视域。这与电脑桌面由标签页组织的内容完全不同。通过这个头戴设备，Israel可以轻松缩放这40个网站，只需要看着它：他甚至还能在观看时滚动或操作。&lt;/p&gt;
+&lt;p&gt;不远的将来，这就是电脑环境的样子，它一点也不可怕；它感觉很自然，富有创造力。他知道自己的信息正在被收集，但能换来这样的体验，似乎很值得。&lt;/p&gt;
+&lt;h2 id="使用眼睛输入"&gt;使用眼睛输入
+&lt;/h2&gt;&lt;p&gt;Marggraff向Israel展示了Eyefluence如何能加速完成组织内容、写书这样的浩大工程。通常，作家们在各种设备和应用中做笔记。最终他们会深陷在文字、视频和音频的沼泽中。Israel会用许多工具，从Post-It笔记到视频音频剪辑。在极端情况下，他还会把网址写在自己手背上。&lt;/p&gt;
+&lt;p&gt;最难的地方在于，把这些不同信息片段编成一篇完整的章节，然后写进书中。书里会有成千上万的片段，像七巧板一样紧密结合。&lt;/p&gt;
+&lt;p&gt;像多数作者一样，Israel使用Microsoft Word进行整编和写作。对他来说，这是一个非常棘手低效率的过程，在这个毫无计划的过程中，他会遗失掉一些片段。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-11/11-15/0-MlqE3XetAtuDMRZ-.jpg"
+loading="lazy"
+alt="智能眼镜与人眼示意未来头戴设备中的眼控输入"
+&gt;&lt;/p&gt;
+&lt;p&gt;当他坐着观看头戴设备中的40个屏幕，Marggraff告诉他如何剪切和粘贴内容，全都整合进一个屏幕中。这样能简化流程，为他节省数周甚至数月的时间。&lt;/p&gt;
+&lt;p&gt;演示之后，Marggraff告诉Israel，有一款为作者设计的杀手级应用即将问世：一款眼控输入的头戴式QWERTY键盘。Eyefluence已经完成了，但还没做出样品。据他预计，当它推出时，人的眼睛移动多快，输入就能有多快。&lt;/p&gt;
+&lt;p&gt;在科技行业中，人们总是说颠覆，但它真正在生活中很少发生。不过对于Israel来说，这可以算一个。他想不到手机和桌面设备有哪里能胜过头戴设备——并且希望迫切改变。对他而言，那款键盘就是杀手级应用。对其他人来说，肯定期待更多既炫酷又实用的应用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/@shelisrael/eyefluence-the-missing-link-in-mr-headsets-37997ae54c3a#.ib4ysmr8j" target="_blank" rel="noopener"
+&gt;https://medium.com/@shelisrael/eyefluence-the-missing-link-in-mr-headsets-37997ae54c3a#.ib4ysmr8j&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://medium.com/@shelisrael" target="_blank" rel="noopener"
+&gt;shel israel&lt;/a&gt;
+I write &amp;amp; speak about technology’s impact on business &amp;amp; life.&lt;/p&gt;</description></item><item><title>为虚拟现实而设计</title><link>https://victor42.eth.limo/post/3486/</link><pubDate>Sun, 06 Mar 2016 00:36:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3486/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第124期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;虚拟现实&lt;/strong&gt;，这种体验自从80年代中期就出现了，但似乎科技总是在拖后腿。终于，智能手机和相关科技的发展，使虚拟现实的惊人潜力触手可及。如今，我们正处于一场虚拟现实的革命当中。&lt;/p&gt;
+&lt;p&gt;从价值上千美元的高端平台，到可运行在智能手机上的系统，虚拟现实的设计仅仅展露了其冰山一角。从根本上说，它仍是一片蛮荒，亟待崭新概念的探索开垦，Google敲开了这扇大门。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2015/05/cardboard.png"
+loading="lazy"
+alt="为虚拟现实而设计设计中关于“去年他们开始推出一种”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;去年，他们开始推出&lt;a class="link" href="http://google.com/cardboard" target="_blank" rel="noopener"
+&gt;Google Cardboard&lt;/a&gt;：一种简单、廉价的方式，让任何拥有智能手机的人都可以体验虚拟现实。只要下载Cardboard应用，购买（或者自己动手制作）&lt;a class="link" href="http://www.google.com/get/cardboard/get-cardboard/" target="_blank" rel="noopener"
+&gt;Cardboard眼镜&lt;/a&gt;，你就跻身虚拟人群了。想要开发自己的应用？它还提供了SDK。然后，2015年初，关于Cardboard还发布了&lt;a class="link" href="http://www.google.com/design/spec-vr/designing-for-google-cardboard/a-new-dimension.html" target="_blank" rel="noopener"
+&gt;一系列成文的设计指南&lt;/a&gt;。其中细节树立了基本原则，例如“如何避免晕动症”和“如果通过固定物体使用户感觉脚踏实地”。不过，还有什么方法能比亲自体验一遍能更好地教育和启发虚拟现实设计师呢？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.youtube.com/watch?v=Qwh1LBzz3AU" target="_blank" rel="noopener"
+&gt;在Google 2015年的I/O大会上&lt;/a&gt;，Cardboard团队发起了&lt;a class="link" href="https://play.google.com/store/apps/details?id=com.google.vr.cardboard.apps.designlab" target="_blank" rel="noopener"
+&gt;Cardboard Design Lab&lt;/a&gt;：基于虚拟现实的交互式“指南应用”，它诠释了早些时候定下的标准和原则。Google与ustwo合作，不仅仅为了设计和开发相关体验，同时也是一次试水，通过路演亲自验证这些原则。我们的共同目标是帮助每个对虚拟现实设计与开发感兴趣的人，拓宽他们的基础面，揭示更多可（待）探索的领域。&lt;/p&gt;
+&lt;p&gt;在Design Lab内部，这些原则被分类成相互影响的章节，叫做“基础”和“沉浸”。基础部分的关注点，在于教导设计师基本的虚拟现实准则，或多或少都是宇宙通行的规则。沉浸部分则更具探索性，无论在理论上，还是Cardboard Design Lab本身的体验上。首先，我们来接触其中一些基础原则：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2015/05/05-windmill.png"
+loading="lazy"
+alt="在风车脚下四下环顾时，锁定用户的视野，印证了头部追踪的重要性"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;在风车脚下四下环顾时，锁定用户的视野，印证了头部追踪的重要性。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="头部追踪"&gt;头部追踪
+&lt;/h3&gt;&lt;p&gt;如果用户在虚拟现实环境中移动头部，它应当在应用中有所反映，这是老生常谈了。“虚拟现实设计中最重要的规则，就是时刻保持头部追踪。应用中绝不能停止追踪用户的头部位置运动。即使是短暂的停顿，也会导致用户感到不适。”这项原则，还有“使用恒定的低速率”和“让用户在虚拟环境中脚踏实地”，都是虚拟现实体验中必备的基本原则。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2015/05/03_minecart.png"
+loading="lazy"
+alt="适当制造运动体验，通过矿车移动我们可以看到正面与反面例子"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;适当制造运动体验，通过矿车移动我们可以看到正面与反面例子。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="加速度"&gt;加速度
+&lt;/h3&gt;&lt;p&gt;让用户在虚拟环境中穿行是非常微妙的，因为它是人类感知空间位置的最基本方式。如果你站着不动，因为万有引力存在会导致一个加速度，这决定了你的站立方向。完全忽略加速度或明显的匀速都是不自然的。挑战在于，要么找到正确的加速度数值，或者完全用某种其他事物代替加速度的感觉。在这版Cardboard Design Lab中，我们的团队实验了83毫秒的加速度，之后大概3米每秒的匀速运动，再是266毫秒的减速。我们觉得这个方案不错，但作为Design Lab的一项原则，我们希望能从设计师群体中获得一些反馈。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2015/05/02-reticles.png"
+loading="lazy"
+alt="引爆气球时，有和没有十字星的效果差别"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;引爆气球时，有和没有十字星的效果差别。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="利用十字星"&gt;利用十字星
+&lt;/h3&gt;&lt;p&gt;因为多数虚拟现实系统无法追踪眼球位置（目前如此），无法告诉应用，用户当前视线停留在哪里。所以，十字星能帮助应用标示出画面中心点。在上面的例子中，我们让用户在没有十字星的帮助下尝试引爆气球，结果他们在找到窍门之前，似乎要偏离了目标好几次。我们之前在虚拟现实中从没见过十字星的运用，但这就是个绝佳的例子，如此微不足道的东西为设计师打开了一扇大门，创造更好的体验。&lt;/p&gt;
+&lt;p&gt;使用十字星的目的，是让用户轻松意识到哪些物体是可以选中的，或者在菜单中快速浏览等等。我们很谨慎地不让十字星干涉应用的设计，有时候我们会将它隐藏不见，而在飞行员的版本中则保持极简样式和基本功能。设计师能以此为设计和迭代的基础，无论他们是要设计成十字、摄像机，还是其他一切他们认为有利于体验的物体。&lt;/p&gt;
+&lt;p&gt;理解了基础，设计师们就要进入到沉浸原则中。受旧金山北部Muir森林的启发，Design Lab的沉浸部分教了设计师们一些特定原则，虽然对于虚拟现实应用并非绝对必要，但仍然极力推荐，它们能尽可能为用户提供好的体验。下面的案例都是关于这些原则，我们觉得它们会随着时间推移剧烈变化：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2015/05/01-redwoods.png"
+loading="lazy"
+alt="为虚拟现实而设计设计中关于“运用比例有许多方面致”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;h3 id="运用比例"&gt;运用比例
+&lt;/h3&gt;&lt;p&gt;有许多方面致使虚拟现实有着相当特殊的体验，其中最引人注目的，是用户和周遭环境的比例变化产生的视觉冲击。构建Design Lab时，ustwo尝试了许多种不同比例，最终选定了你在上文中看到的视角，让人感觉到渺小，甚至卑微。因为沉浸原则的目的，就是激发情绪反应。我们觉得，让设计师们体验到周遭世界的宏大和广袤，有助于启动他们的想象力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2015/05/04-campfire.png"
+loading="lazy"
+alt="循着右耳的猫头鹰鸣叫，你就会发现一只猫头鹰站在枝头凝视你"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;循着右耳的猫头鹰鸣叫，你就会发现一只猫头鹰站在枝头凝视你。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="空间音效"&gt;空间音效
+&lt;/h3&gt;&lt;p&gt;3D和虚拟现实游戏中有个相当独特的概念，空间中的音效，在你周围环境中固定了声源的具体位置。所以从某物体传到你左侧的声音，在耳机中听起来像是来自左侧。在上面的例子中，用户听到猫头鹰的鸣叫，看向右侧，然后在相应位置发现了猫头鹰，正站在枝头凝视自己。虽然简单，但这一课告诉设计师，在虚拟现实的创造中，音效有着无尽的可能。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2015/05/06-constelllations.png"
+loading="lazy"
+alt="为虚拟现实而设计设计中关于“注视提示注视提示的运”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;h3 id="注视提示"&gt;注视提示
+&lt;/h3&gt;&lt;p&gt;注视提示的运用，对于刚开始设计虚拟现实的设计师而言，或许是个新概念，这也是我们非常期待随时间而演变的一项特性。注视提示基于用户视线方向，体验到相应反馈。这种体验可能表现得更为微妙，“悬停状态”，或者也可以基于事件触发，例如在恐怖游戏中身后涌出大量怪物。在我们为Cardboard Design Lab创造的案例中，注视满天星辰，会激活一个悬停状态的注视提示，显示出一系列的星座。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://usweb-cdn.ustwo.com/ustwo-production/uploads/2015/05/07-overlook.png"
+loading="lazy"
+alt="徒步达到山顶，达成最终目的，看到海上的日落"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;徒步达到山顶，达成最终目的，看到海上的日落。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="赋予它美感"&gt;赋予它美感
+&lt;/h3&gt;&lt;p&gt;最后一条沉浸原则？那就是赋予它美感。注重创造物在视觉上的美感，有益于用户的沉浸式体验。穿过森林，在遍布课程的徒步旅行终点，呈现在用户眼前的是崖顶俯瞰大海的场景，让他们目睹日落。我们希望用户在开始自己的虚拟现实设计之旅前，有片刻的喘息，让灵感沉浸其中。&lt;/p&gt;
+&lt;p&gt;“我们的目的并非创造虚拟现实领域的圣经”，Toph Brown，ustwo的项目经理、Cardboard Design Lab项目成员说。“虚拟现实正在高速发展，而且这是一项团队运动——行业中的每个人都在一起努力，使得虚拟现实更易用、更有用。正因为如此，画一条分野线并且声明&amp;rsquo;就得这么做&amp;rsquo;是愚蠢的。同时我们认为有些观念已足够成熟，能让我们达成共识。通过Cardboard Design Lab，我们试图创造一种能够反映和验证这些观念的体验。我们希望设计师们接受它，以它为基础在虚拟现实世界中创造美。最棒的是我们才刚刚上路，还有许多等待发掘。”&lt;/p&gt;
+&lt;p&gt;Cardboard Design Lab项目最初的目的，不仅仅是一种可能性的案例，也是作为一种交互式学习体验，让设计师与开发者们能够接受我们的观念，继续前进打造他们自己的产品。这需要灵感的激发，需要交流，需要踏上虚拟现实的征程，创造出人们真正想要使用和体验的应用。今天是第一步，我们非常期待设计师群体的反馈，Google、ustwo和所有的虚拟现实设计师都能一起继续探索前路。&lt;/p&gt;
+&lt;p&gt;Cardboard Design Lab现在已经可以在&lt;a class="link" href="https://play.google.com/store/apps/details?id=com.google.vr.cardboard.apps.designlab" target="_blank" rel="noopener"
+&gt;Google Play Store&lt;/a&gt;下载了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://ustwo.com/blog/designing-for-virtual-reality-google-cardboard/" target="_blank" rel="noopener"
+&gt;https://ustwo.com/blog/designing-for-virtual-reality-google-cardboard/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+CASEY HOPKINS
+Casey is a curator of marketing, community and events at ustwo™. Hopeless geekette. Extreme baker. World traveler. Follow her on Twitter @caseyhopkins.&lt;/p&gt;</description></item></channel></rss>

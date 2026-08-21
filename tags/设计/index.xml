@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>设计 on Victor42</title><link>https://victor42.eth.limo/tags/%E8%AE%BE%E8%AE%A1/</link><description>Recent content in 设计 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 25 Oct 2023 10:51:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml"/><item><title>量化设计价值构成</title><link>https://victor42.eth.limo/post/3644/</link><pubDate>Wed, 25 Oct 2023 10:51:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3644/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png" alt="Featured image of post 量化设计价值构成" /&gt;&lt;p&gt;万万没想到，一份甩锅文档变成了一个数据分析项目。&lt;/p&gt;
+&lt;h2 id="事由"&gt;事由
+&lt;/h2&gt;&lt;p&gt;前阵子和几个同事在群里大干了一架，剑拔弩张。&lt;/p&gt;
+&lt;p&gt;虽然你几乎看不到我发设计相关的东西，但必须承认，我的本职工作还是一名设计师。主要做UI与交互设计，也接数据报告与PPT美化的活，有时还写写代码、搭建网站。我所在的设计部门是个中台性质的部门，承接其他部门的需求。我一人扛4个项目，其中2个UI类项目只能我接，团队里没有其他UI。4个项目会相互打架抢人，需求密集时我的排期是非常紧张的。&lt;/p&gt;
+&lt;p&gt;为什么跟同事干架呢？简单说，就是我UI工作都排满的情况下，另一个部门硬要占我时间帮他们优化数据报告（一份饰品行业的消费报告）。不并是什么高级的数据可视化，而是给PPT找商品图、换图，换完给客户看，不满意再换。&lt;/p&gt;
+&lt;p&gt;我拒绝了。这种实习生都能做的事，有空我可以帮帮忙，没空可不允许插队。我咬死排期不松口，对方认为这报告之前是我出的就应该由我继续，客户又在催，我俩就这么干起来了。&lt;/p&gt;
+&lt;p&gt;最终他们还是找其他设计师去了。事后我主管来找我谈，要我把排期管理方法在设计团队内推广。看来对方已经投诉过来了，但没空就是没空，就走排期，没得商量。公司还是有限责任公司呢，员工总不能是无限责任个人吧。&lt;/p&gt;
+&lt;p&gt;目前看来，对方是拿我没辙了。但为了防止事态升级，万一对方把战火烧到老板那儿去，我提前留了后手。我根据自己的工作排期数据，算出了手上各项工作花费的时间占比，对每项工作的价值做了评估，出了几张数据图表。其中的金额表示，相应的工作，只有月薪达到这个范围的设计师才做得了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png"
+loading="lazy"
+alt="Excel设计工作构成分析仪表盘，左侧树状图按20K以上/8-20K/8K以下三档展示业务价值分布，右侧业务构成饼图和价值构成饼图"
+&gt;&lt;/p&gt;
+&lt;p&gt;一目了然，他们这个部门（棕色）低价值工作的比例相当大，大量找图换图对齐调字号的工作，占我时间还非常多。老板看这事的角度，显然是招一个人来划不划算，有没有用出工资应有的价值。让我一个20K以上的人来干实习生的活，这事到了老板那，谁挨骂还不一定呢。&lt;/p&gt;
+&lt;p&gt;干架的事情到此为止，不深究。倒是这个处理和分析数据的过程挺有意思，在此记录分享一下。&lt;/p&gt;
+&lt;h2 id="数据来源"&gt;数据来源
+&lt;/h2&gt;&lt;p&gt;能做这样的分析，前提是我平时有积累数据的习惯。任何在我看来可以算作数据的东西，我都会设计某种方式把它组织起来，利于将来使用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/b7cb270372f19fd67879c57bd8a7b009.jpg"
+loading="lazy"
+alt="手机端日历视图截图显示2023年10月设计排期，浅绿色色块标注各项目占用天数，底部显示设计排期/日历标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;我给自己做了一张设计排期表，用的是多维表之类的工具。把默认视图调成了日历，挂在自己的钉钉签名上，让想提需求的人先看我排期。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/65d4321bfa13f03090b90554cad84bd6.png"
+loading="lazy"
+alt="Excel设计排期数据表截图，包含项目/设计师/开始日期/结束日期/对接人/历时6列，展示2023年8月至9月的项目记录"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然添加工作项是在日历视图完成的，但它本质是一张数据表。为了方便记录，我没有设置太多字段。项目名称、设计师（这是整个设计团队的排期）、开始和结束日期、需求对接人，还有一个历时（天）是直接算出来的，不用填。&lt;/p&gt;
+&lt;p&gt;有新项目过来时，我会第一时间更新到排期表上。为避免需求打架和扯皮，我有充足的动机维护这张数据表。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/5d8953d9788ad3b0997eea965fec52e6.png"
+loading="lazy"
+alt="Excel底部工作表标签栏截图，从左到右依次为图表/价值分析/时间分析/设计排期数据四个工作表"
+&gt;&lt;/p&gt;
+&lt;p&gt;原始数据准备好了，里面有我40个工作日（近2个月的数据）。导到Excel里，需要做一项处理，把历时从文本格式改为数字，否则无法求和。接下来要开始做一系列的分析（从右往左），最终生成图表。&lt;/p&gt;
+&lt;h2 id="时间分析"&gt;时间分析
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/ab35313c1c52dc5c5328490034a68dbd.png"
+loading="lazy"
+alt="Excel时间分析表截图，左侧数据透视表按对接人汇总历时总和40天，右侧手动对应业务分类汇总各业务占用时长"
+&gt;&lt;/p&gt;
+&lt;p&gt;先做时间分析，这个Tab里有两张表：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;左表是对原始数据做了数据透视，得到每个需求对接人所占时长。&lt;/li&gt;
+&lt;li&gt;右表是把各个需求对接人手动对应到几大业务，汇总出各业务占用我的时长。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/b790a28d8fc8fc1ad15ecb4b726112eg.png"
+loading="lazy"
+alt="Excel数据透视表字段面板截图，勾选设计师/对接人/历时三个字段，Filters区域放置设计师，Rows放置对接人，Values放置求和项历时"
+&gt;&lt;/p&gt;
+&lt;p&gt;左表的数据透视是这么来的，翻译成人话：筛选特定的设计师（就是我了），以每一个对接人为一行，汇总历时之和。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/ab35313c1c52dc5c5328490034a68dbd.png"
+loading="lazy"
+alt="Excel时间分析表截图，左侧数据透视表按对接人汇总历时，右侧手动列出业务分类并用加法公式汇总各业务时长"
+&gt;&lt;/p&gt;
+&lt;p&gt;右表里手动列出几大业务，从左表里选相应业务的人，用最简单的加法公式求和。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/0d9aec6a5807c7ba9153da8f20b261a1.png"
+loading="lazy"
+alt="Excel公式栏截图显示GETPIVOTDATA函数，从数据透视表中提取历时数据用于业务汇总计算"
+&gt;&lt;/p&gt;
+&lt;p&gt;从数据透视表里选数据，比从普通表格里选数据方便。Excel会自动帮你写好这个getpivotdata函数，你只要点选就可以了，免去了使用sumifs的麻烦。&lt;/p&gt;
+&lt;h2 id="价值分析"&gt;价值分析
+&lt;/h2&gt;&lt;p&gt;接下来分析我这些时间花出去值不值。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel价值分析表截图，包含5张表：表1业务历时占比/表2业务价值区间占比/表3数据透视/表4相乘结果/表5价值汇总透视"
+&gt;&lt;/p&gt;
+&lt;p&gt;价值分析Tab里有5张表：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;表1其实就是时间分析里的右表，数据形式做了个变形。&lt;/li&gt;
+&lt;li&gt;表2是我手动创建的表，标明了各业务工作内容在不同价值区间的占比。&lt;/li&gt;
+&lt;li&gt;表3是对表2的数据透视，只是整理了一下格式而已，为了方便做表4。&lt;/li&gt;
+&lt;li&gt;表4是把表1和表3相乘，算出每种工作不同价值的部分的实际占比。&lt;/li&gt;
+&lt;li&gt;表5是对表4的数据透视，汇总出不同价值区间的工作总量占比。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/4b7fd4d8f38266dc59903bddfa4dc4d2.png"
+loading="lazy"
+alt="Excel数据透视表字段面板截图，勾选业务和历时字段，Rows区域放置业务，Values放置求和项历时"
+&gt;&lt;/p&gt;
+&lt;p&gt;表1是这么来的，仍然是一个业务一行，汇总历时。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/187174f765fd78ba42d098c00b301d92.png"
+loading="lazy"
+alt="Excel值字段设置对话框截图，Show Values As选项卡中选择% of Column Total将历时转换为列汇总百分比"
+&gt;&lt;/p&gt;
+&lt;p&gt;但关键是格式的变化。在“求和项:历时”旁边的三角箭头里，有个设置。把它的值显示方式改成列汇总的百分比，再把数字格式也改成百分数，得出每个业务所占时间比例。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel价值分析完整截图，5张表从左到右依次为业务历时占比/业务价值区间占比/透视整理/相乘结果/价值汇总"
+&gt;&lt;/p&gt;
+&lt;p&gt;表2其实是整个分析的关键，但又是由我主观决定的。所以这不是一个多严谨的数据分析，但用来干架和自己看看，应该是够了。我根据实际经历和感受，尽可能公正地为每个业务划定不同的价值比例。我保证，我没有恶意贬低之前干架部门的设计价值，他们的乙方属性决定了低价值工作的比例真就这么高。至于价值区间分界线对应的设计师月薪，也是基于我10多年的工作经验而来，我对自己的判断有信心。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/d68bb255437ef1e63a9386d499ce48e4.png"
+loading="lazy"
+alt="Excel数据透视表字段面板截图，勾选业务/价值/占比三个字段，Rows区域先放价值再放业务，Values放置求和项占比"
+&gt;&lt;/p&gt;
+&lt;p&gt;表3是表2的数据透视表。先按价值划分，每个价值区间里再按业务分。因为表4是这样的结构，一方面为了看起来方便，另一方面还是因为从数据透视表里取数比从普通表里取数方便。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel价值分析最终结果截图，表4业务与价值交叉相乘，表5按价值区间汇总显示20K以上44.5%/8-20K35%/8K以下20.5%"
+&gt;&lt;/p&gt;
+&lt;p&gt;表4很简单，从表1和表3里手动选择数据相乘。&lt;/p&gt;
+&lt;p&gt;表5再简单对表4做个数据透视，按价值汇总一下就好了。&lt;/p&gt;
+&lt;h2 id="图表"&gt;图表
+&lt;/h2&gt;&lt;p&gt;分析完了，开始考虑数据怎么视觉呈现。&lt;/p&gt;
+&lt;p&gt;第1层，分别展示各业务、各价值区间的占比，数据来源是表1和表5。直接对它们生成饼图，加上数据标签。再调一调颜色，避免重复。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png"
+loading="lazy"
+alt="Excel设计工作构成仪表盘，左侧树状图按20K以上绿色/8-20K橙色/8K以下灰色三档展示业务价值分布，右侧业务构成饼图和价值构成饼图"
+&gt;&lt;/p&gt;
+&lt;p&gt;第2层，展示各价值区间里不同业务的细分占比。表达这种2层树状结构的比例数据，最适合用Treemap，因为人眼对面积非常敏感，能够快速从中感知占比信息。从表4生成Treemap即可，再调下背景与标签的颜色，与右边两图对应。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a85c0e8de3b950ff50c3771a36666c8e.png"
+loading="lazy"
+alt="Excel格式化数据标签对话框截图，Label Options中勾选Category Name和Value两个选项，Separator设为space"
+&gt;&lt;/p&gt;
+&lt;p&gt;开启Treemap的标签，让名字和值都显示出来，图上就有每个业务的细分占比了。&lt;/p&gt;
+&lt;h2 id="后记"&gt;后记
+&lt;/h2&gt;&lt;p&gt;有了这一套价值分析系统，我以后只要继续维护排期表就好。随时把排期数据往这里面一导，更新几张数据透视表，最终的图表直接就出来了。&lt;/p&gt;
+&lt;p&gt;其实别看原始数据就那么点信息，还能继续分析出很多东西。比如分析每月工作的饱和度、各业务的平均项目周期，如果继续深挖设计价值，还可以观察一年当中价值构成比例的波动变化，等等。&lt;/p&gt;
+&lt;p&gt;虽然干架的事情过去了，我也不会主动拿出这个东西去老板面前挑事，但意识到设计师这么抽象的工作也能以某种数据化的方式做分析，还是很有意思的。&lt;/p&gt;</description></item><item><title>组件化设计与开发</title><link>https://victor42.eth.limo/post/3545/</link><pubDate>Sun, 19 Mar 2017 00:46:29 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3545/</guid><description>&lt;p&gt;终于迎来一期特刊。最近打算在公司内部做一个分享，讲的是组件化的设计与开发的思维方式。准备完演讲资料，发现这完全可以改成一篇文章。藏着掖着不合适，发出来分享给有需求的朋友吧，就当是个试讲了，希望大家帮忙指出错误。&lt;/p&gt;
+&lt;p&gt;下载地址：
+&lt;a class="link" href="https://www.jianguoyun.com/p/Df4KevYQwKOaBhjO8r0EIAA" target="_blank" rel="noopener"
+&gt;https://www.jianguoyun.com/p/Df4KevYQwKOaBhjO8r0EIAA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;由于本文首先是以keynote的形式诞生的，其中还有动画和视频，所以我比较推荐大家直接下载keynote文件（也存了PPT版本）。内容和本文是一样的，但有些逻辑关系还真得让画面动起来才说得清。提醒一下，keynote文件大小将近150mb，嫌麻烦的朋友，当然也欢迎继续阅读。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_1.png"
+loading="lazy"
+alt="Keynote标题幻灯片，红色大字&amp;#34;组件化设计与开发&amp;#34;配副标题&amp;#34;一种灵活可靠的工作方式&amp;#34;，白底简洁排版"
+&gt;&lt;/p&gt;
+&lt;h2 id="组件化"&gt;组件化
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_2.png"
+loading="lazy"
+alt="Keynote章节页，左侧红色&amp;#34;组件化&amp;#34;标题配&amp;#34;独立·完整·自由组合&amp;#34;副标题，右侧展示各类电子元器件实物照片含尺子标尺"
+&gt;&lt;/p&gt;
+&lt;p&gt;组件化的工作方式信奉独立、完整、自由组合。目标就是尽可能把设计与开发中的元素独立化，使它具备完整的局部功能，通过自由组合来构成整个产品。&lt;/p&gt;
+&lt;p&gt;对于计算机这么复杂的工业产品，组件化是唯一能使它成为现实的方法。我中学暑假去电脑城打工，跟着别人学习电脑维修。CPU在哪里，负责什么，如何拆装；内存在哪里，负责什么，如何拆装。这些都是基础知识，各部分各司其职，什么坏了就换什么。我还见过资深维修工修主板，他真的能找出主板上哪个电容爆了，换一个相同规格的上去，电脑又能正常开机了。&lt;/p&gt;
+&lt;h3 id="对产品设计的意义"&gt;对产品设计的意义
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_3.png"
+loading="lazy"
+alt="Keynote章节页，白底黑字&amp;#34;对产品设计的意义&amp;#34;居中显示，作为章节过渡幻灯片"
+&gt;&lt;/p&gt;
+&lt;p&gt;当然今天我们不讲电脑维修，组件化思维要运用到我们的工作中。首先要了解，它对设计和开发到底有什么意义？&lt;/p&gt;
+&lt;p&gt;这部分虽然讲的是设计，但对开发同学也有价值。你们能了解设计师在做设计时的思路，说直白点就是摸清楚我们的套路。其实我们做设计的时候会有系统的考虑，并不是天马行空，想一出是一出。&lt;/p&gt;
+&lt;h4 id="符合功能逻辑"&gt;符合功能逻辑
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_4.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明表格是高效检索对比大量数据的最佳方式，右侧展示yupoo后台相册管理的表格界面含文件名、大小和时间列"
+&gt;&lt;/p&gt;
+&lt;p&gt;组件化的设计恰恰是符合产品功能逻辑的。特定类型的信息，就有特定的最优展现方式和交互方式，这叫做设计模式。设计模式就应该提取出来作为组件。&lt;/p&gt;
+&lt;p&gt;比如要从多个维度快速检索和对比大量数据，没有什么能比表格形式效率更高。想象一下，上面这个界面的表格数据，做成卡片式堆叠在一起，划一张换一条，或者像淘宝商品列表那样，一行4列平铺开。那还对比个P啊，用户都要摔鼠标了。&lt;/p&gt;
+&lt;h4 id="保持交互一致性"&gt;保持交互一致性
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_5.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明日期选择应有统一方式，右侧展示Material Design风格的日历日期选择器界面选中4月13日"
+&gt;&lt;/p&gt;
+&lt;p&gt;交互的一致性，或者说可预测性，是用户体验的根本。比如日期选择组件，在整个产品中就应该只有一种存在形式。如果一会儿是滚轮拨盘，一会儿是日历，一会儿又是下拉列表，这样的设计绝对是不能上线的。&lt;/p&gt;
+&lt;h4 id="保持视觉风格统一"&gt;保持视觉风格统一
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_6.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明按钮形状应统一，右侧展示yupoo后台访问统计页面用红色箭头标注圆角按钮与直角按钮混用的问题"
+&gt;&lt;/p&gt;
+&lt;p&gt;这部分主要是视觉方面的考虑，更多样式上的差异。不同的样式会给产品带来不同的调性。&lt;/p&gt;
+&lt;p&gt;就拿按钮来说。圆头造型表现出一种柔和亲切的特质，同时有利于将注意力聚焦到其中内容上。而直角则展现出一种棱角分明的硬朗，边界更加清晰。想一想三星手机和锤子手机的外观造型，两种截然不同的感觉。&lt;/p&gt;
+&lt;p&gt;为了保持产品视觉风格统一，设计师应该找到最合适的方案，并处处保持统一，不可以太随心所欲。&lt;/p&gt;
+&lt;h4 id="便于多设计师协作"&gt;便于多设计师协作
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_7.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明多设计师协作时表单需统一，右侧对比展示注册界面和账号安全设置界面的表单组件"
+&gt;&lt;/p&gt;
+&lt;p&gt;组件化设计是大型设计项目的必要条件。比如两位设计师协作，一个在设计注册界面，一个在设计修改密码界面，或者在设计某个问卷调查的弹窗。这其中都有表单，两个人设计出来不一样怎么办？一个边框颜色深一点，一个边框颜色浅一点？其实没理由不同，应该保持一致。口头约定太麻烦，而且难以保证执行到位，组件化是最好的解决方式。&lt;/p&gt;
+&lt;h4 id="便于修改设计"&gt;便于修改设计
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_8.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明修改主菜单颜色不应逐页改动，右侧对比展示yupoo后台深色和浅色两种主菜单风格的界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计总是要修改优化的，有些改动牵扯全局，动静非常大。&lt;/p&gt;
+&lt;p&gt;比如管理后台的界面，左侧的主导航是全站通用的。某天决定要给它换一套浅色的设计，难道每个PSD都改一遍吗？如果产品逻辑复杂，PSD有上百个呢？&lt;/p&gt;
+&lt;h3 id="对开发的意义"&gt;对开发的意义
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_9.png"
+loading="lazy"
+alt="Keynote章节页，白底黑字&amp;#34;对开发的意义&amp;#34;居中显示，作为章节过渡幻灯片"
+&gt;&lt;/p&gt;
+&lt;p&gt;下面讲讲组件化对开发的意义。其实开发同学从中受益比设计师更多。&lt;/p&gt;
+&lt;h4 id="降低耦合度"&gt;降低耦合度
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_10.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明页面加宽会导致内部元素排版错乱，右侧用灰色线框图对比展示页面宽度变化前后的布局差异"
+&gt;&lt;/p&gt;
+&lt;p&gt;降低耦合度，相信这是大型项目都在追求的。&lt;/p&gt;
+&lt;p&gt;举个例子，如果要把页面的body区域加宽。内部许多元素因为浮动、固定宽度、百分比宽度、文字行数减少等等，布局会乱套。就像这图里这样，这是因为内部模块的样式对页面父级元素存在依赖和继承。&lt;/p&gt;
+&lt;p&gt;可能有人会觉得并不存在依赖关系，但其实固定宽度本身就是一种依赖关系。假如说页面主体部分宽度1000px，左侧边栏200px，右侧800px。没错，这是按设计图来做的。那这个800px宽是怎么得出的？正是因为页面主体宽度1000px，才找了个合适的左右比例，设计成这样的。所以无可避免，从设计这个环节开始就产生了依赖关系。&lt;/p&gt;
+&lt;p&gt;像这种情况，我宁可在模块外面多套一层容器，模块本身的宽度写成100%，外面那层容器属于框架布局，具体宽度写在它上面。虽然DOM树变复杂了，但内外的布局逻辑被分离了。&lt;/p&gt;
+&lt;h4 id="减少冗余"&gt;减少冗余
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_11.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明表格CSS可集中复用，右侧深色背景展示table、tr、td等CSS选择器代码片段"
+&gt;&lt;/p&gt;
+&lt;p&gt;比方说要新增一个带表格的界面，开发同学按照设计的效果图一行行写页面。但是如果在某个已有界面中就存在表格？或许当时是另一位开发同学做的。相比重新写一遍，把代码要过来直接用更方便一点吧？&lt;/p&gt;
+&lt;p&gt;如果表格样式之后又要改呢，是不是两个地方都得改。如此一来，用到表格的页面越多，就越容易漏改。而且静态资源服务器上存了太多份关于表格的样式，其中内容明明是一样的。&lt;/p&gt;
+&lt;h4 id="优化性能"&gt;优化性能
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_12.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明按需加载资源避免拖慢速度，右侧展示Chrome开发者工具Network面板中知乎首页的资源加载瀑布图"
+&gt;&lt;/p&gt;
+&lt;p&gt;优化性能刚好可以接着上一条说。&lt;/p&gt;
+&lt;p&gt;那么多份表格的样式，客户端每打开一个新的表格页面，就得加载一次。占用带宽，浪费了缓存资源。虽然一两个的影响几乎感受不到，但这种情况一多，就会对用户体验产生明显的影响。&lt;/p&gt;
+&lt;p&gt;慢，是用户体验的头等大忌，没有之一。&lt;/p&gt;
+&lt;h4 id="便于多开发协作"&gt;便于多开发协作
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_13.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明两位前端协作时下拉菜单只需一人处理，右侧展示两个不同样式的下拉菜单搜索组件对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;这和设计师协作的道理相同。&lt;/p&gt;
+&lt;p&gt;如果两个开发同学都在制作带有下拉菜单的页面，这部分工作只要交给其中一人就行了。TA做好之后封装成组件，另一位开发在自己的页面中加载就行了。&lt;/p&gt;
+&lt;h4 id="便于查错"&gt;便于查错
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_14.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明弹窗样式错乱时可缩小排查范围，右侧展示yupoo后台清空回收站弹窗的两种样式对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;便于查错，是耦合性降低的一个副产品。它可以大大加快错误排查的速度。&lt;/p&gt;
+&lt;p&gt;如果页面上出现问题，可以找出每个可能有关的组件，逐个拔除，直到恢复正常。这样就能迅速锁定错误发生的位置。同时组件内也可以形成完整的自测单元，也方便了测试工作。&lt;/p&gt;
+&lt;h4 id="便于修改"&gt;便于修改
+&lt;/h4&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_15.png"
+loading="lazy"
+alt="Keynote幻灯片，左侧说明标题字号加大不应逐页修改，右侧展示yupoo消息中心页面用红色箭头标注字号变化前后对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;假如设计师每个页面改同一个地方要花一个小时，那开发做同样的事情至少要花一个上午，至少。&lt;/p&gt;
+&lt;p&gt;封装成组件，可以把这个时间缩短到10分钟。毕竟不用去改几十个页面的HTML、CSS和JS，改一个组件就可以了。&lt;/p&gt;
+&lt;h2 id="布局原理"&gt;布局原理
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_16.png"
+loading="lazy"
+alt="Keynote章节页，左侧红色&amp;#34;布局原理&amp;#34;标题配副标题&amp;#34;设计师要懂页面布局原理&amp;#34;，右侧展示彩色方块堆叠的俄罗斯方块风格示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;讲了组件化的意义，本来顺理成章应该讲组件化的具体做法。但在这之前其实有必要插入这一块内容，帮助没有前端基础的设计师了解，开发是如何把页面搭建起来的。&lt;/p&gt;
+&lt;p&gt;大家可以先有一个粗略的想象，就像是重力朝上的俄罗斯方块。页面元素都是从下往上这样一行一行搭出来的，不过这个玩家有强迫症，他一定会从左上角、右上角或者中间位置搭起。当然……搭满一行并不会消除。 ¯\&lt;em&gt;( ツ )&lt;/em&gt;/¯&lt;/p&gt;
+&lt;h3 id="行内元素与块元素"&gt;行内元素与块元素
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_17.png"
+loading="lazy"
+alt="Keynote幻灯片，展示Chrome浏览器中行内元素与块元素的布局对比，绿色矩形演示不同宽度元素的排列方式"
+&gt;&lt;/p&gt;
+&lt;p&gt;网页布局中有两个概念：行内元素和块元素。它们是非此即彼的关系，网页里只要是你能看见的东西，一定不是行内元素就是块元素。&lt;/p&gt;
+&lt;p&gt;这两种元素的表现略有不同。虚线框代表一行，但实际上这是不可见的，只是我为了说明布局方式画出来的，其中的绿色矩形才是页面上真实可见的元素。&lt;/p&gt;
+&lt;p&gt;我们看第一行，这里有3个行内元素。内容长度不同，它们表现出来的宽度就不同，这是一种会随内容变化而改变尺寸的布局单元，而且它们总是从左到右横向排列，只要一行里排得下。&lt;/p&gt;
+&lt;p&gt;再看第二行，这里只有1个块元素。你看它内容很短，就三个字，却占了一整行。没错，块元素就是这么任性。自习室一卷厕纸占一排座位。&lt;/p&gt;
+&lt;p&gt;最后看第三行。浅绿色是一个块元素，深绿色是它内部的元素。所以元素之间是可以嵌套的，无论多么复杂的页面，都是这样一层层嵌套形成的。但是要注意，块元素内可以嵌入行内元素和块元素，行内元素只能嵌入行内元素。请看其中的深绿色部分，第二行是一个块元素，设定了宽度，并且居中排列。其实前两个行内元素的右边明明有空间，而且右边还放得下一个行内元素。但即使如此，它还是要占一整行。&lt;/p&gt;
+&lt;p&gt;当然，块元素这个独占一行的特性有例外，我们接下来就会说。&lt;/p&gt;
+&lt;h3 id="浮动"&gt;浮动
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_18.png"
+loading="lazy"
+alt="Keynote幻灯片，展示Chrome浏览器中浮动布局的三种情况，绿色矩形演示左右浮动和文字环绕效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;刚才讲的是常规的布局方式，我们现在讲两种打破常规的方式。&lt;/p&gt;
+&lt;p&gt;浮动有两个方向，向左和向右。被加上了浮动属性的元素，表现都会变得类似于行内元素，根据内容变化尺寸。第一行的左右浮动元素都可以是块元素，但它们却排在了一行里。&lt;/p&gt;
+&lt;p&gt;第二行和第三行是一组对比，表现了非浮动元素与浮动元素混合排列时的规则。第二行的文字是一个常规布局的元素，可以看到左右浮动的元素各就各位，常规布局的文字很灵活地填充空隙，就像报纸排版一样。而第三行里的情况，文字段落也加上左浮动属性，并且限定宽度，它就会跟在左浮动元素的右侧。&lt;/p&gt;
+&lt;p&gt;当然，如果文字不限定宽度，它还是会独占一行，因为文字足够多。这和块元素独占一行的道理不同，它仍然带有浮动属性，本应该跟在左浮动元素的右边。只是因为自身宽度太大，一行挤不下了。&lt;/p&gt;
+&lt;h3 id="绝对定位"&gt;绝对定位
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_19.png"
+loading="lazy"
+alt="Keynote幻灯片，展示Chrome浏览器中绝对定位的效果，绿色矩形上叠加红色和深红色圆形标注&amp;#34;狗皮膏药&amp;#34;比喻层叠遮挡"
+&gt;&lt;/p&gt;
+&lt;p&gt;另一种打破常规的布局方式是绝对定位。这就毫无章法可言了，像狗皮膏药一样想贴哪里贴哪里，还可以像图里这样层叠着贴。总之，绝对定位的元素不会占据常规布局和浮动布局中的任何空间，而是直接挡住它背后的内容。&lt;/p&gt;
+&lt;p&gt;不过既然可以层叠，就有谁在前谁在后的问题。这和设计工具里的图层是一样的，当然有办法可以控制。&lt;/p&gt;
+&lt;h3 id="一个页面是如何搭建出来的"&gt;一个页面是如何搭建出来的
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI3OTAyMA==.html" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_20.png"
+loading="lazy"
+alt="Keynote幻灯片，展示空白Chrome浏览器窗口作为页面搭建演示的起始状态，标题为”一个页面是如何搭建出来的”"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI3OTAyMA==.html" target="_blank" rel="noopener"
+&gt;http://v.youku.com/v_show/id_XMjY0ODI3OTAyMA==.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我做了一个动画演示，大家感受一下页面搭建的大致原理。&lt;/p&gt;
+&lt;h3 id="流式布局"&gt;流式布局
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_21.png"
+loading="lazy"
+alt="Keynote幻灯片，展示iPhone 7和7 Plus上App Store的流式布局对比，屏幕越大显示内容越多"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在要讲的是两个更宏观的概念：流式布局与弹性布局。&lt;/p&gt;
+&lt;p&gt;我们前面有提到常规布局，那个概念与这两者不能相提并论。其实这两种布局都是基于前面提到的原理实现的，只是区别在于对待自适应问题上采取了不同的策略。&lt;/p&gt;
+&lt;p&gt;看图中的App store界面，在iPhone 7和7 plus上略有不同。虽然布局形式类似，但7上面只能看到一张banner，而7 plus则能看到左右两边banner露出来。而且App展示区域里，7上能看到3列多一点，7 plus则能看到4列多。屏幕大则视野更大，能显示更多内容，这是流式布局的思想。&lt;/p&gt;
+&lt;h3 id="弹性布局"&gt;弹性布局
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_22.png"
+loading="lazy"
+alt="Keynote幻灯片，展示iPhone 7和7 Plus上App Store的弹性布局对比，内容等比例缩放信息容量相同"
+&gt;&lt;/p&gt;
+&lt;p&gt;弹性布局则是另一种思路。根据屏幕尺寸变化，让界面上所有元素等比例放大缩小。所以无论在什么尺寸的设备上，看到的画面都是一样的，信息容量相同。只是到了大屏幕上，会变得像老年手机那样硕大无比。&lt;/p&gt;
+&lt;p&gt;这两种自适应方式都有各自的用途，不能说哪种一定更好。但我们在设计时可以考虑一下这个问题，什么类型的设计适合哪种布局。&lt;/p&gt;
+&lt;h2 id="组件化设计"&gt;组件化设计
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_23.png"
+loading="lazy"
+alt="Keynote章节页，上方展示各类UI组件卡片拼贴图含视频播放器、表单、地图和日历等，下方红色&amp;#34;设计组件化&amp;#34;标题"
+&gt;&lt;/p&gt;
+&lt;p&gt;补完了基础知识，现在就可以讲组件化设计的具体方法了。&lt;/p&gt;
+&lt;h3 id="提取产品中的共用部分"&gt;提取产品中的共用部分
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_24.png"
+loading="lazy"
+alt="Keynote章节页，白底黑字&amp;#34;提取产品中的共用部分&amp;#34;居中显示，作为子章节过渡幻灯片"
+&gt;&lt;/p&gt;
+&lt;p&gt;首先要提取产品中的共用部分。我列举了一些，这些都是极为常见的组件。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_25.png"
+loading="lazy"
+alt="Keynote幻灯片，展示深灰色侧边栏导航菜单的线框设计，含首页、相册、分类等图标和文字标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_26.png"
+loading="lazy"
+alt="Keynote幻灯片，展示三种按钮状态的对比设计，绿色默认状态、深绿按下状态和灰色禁用状态"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_27.png"
+loading="lazy"
+alt="Keynote幻灯片，展示表单组件设计含输入框、下拉选择框、勾选项和单选项的默认与选中状态"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_28.png"
+loading="lazy"
+alt="Keynote幻灯片，展示Tab标签栏组件设计，含一个选中状态带绿色下划线和四个默认状态标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_29.png"
+loading="lazy"
+alt="Keynote幻灯片，展示翻页组件设计含前后箭头按钮、页码1到5、省略号和末页87"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个翻页其实有点问题，少了个当前选中状态，不知道现在是第几页啊。所以说组件的提取要考虑周全，所有可能的状态都要设计。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_30.png"
+loading="lazy"
+alt="Keynote幻灯片，展示表格组件设计含绿色表头行和斑马纹数据行，第四列含蓝色链接样式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_31.png"
+loading="lazy"
+alt="Keynote幻灯片，展示进度条组件的三种样式，含环形进度条、波浪填充圆形和线性进度条"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_32.png"
+loading="lazy"
+alt="Keynote幻灯片，白底黑字列出弹窗、列表、错误提示等经过实践验证的设计模式"
+&gt;&lt;/p&gt;
+&lt;h3 id="制作成通用组件"&gt;制作成通用组件
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_33.png"
+loading="lazy"
+alt="Keynote章节页，白底黑字&amp;#34;制作成通用组件&amp;#34;居中显示，作为子章节过渡幻灯片"
+&gt;&lt;/p&gt;
+&lt;p&gt;找到了这些共用元素，下面到具体制作环节，关于工具的使用我不会讲太多，主要是思路与观念。我用Sketch录了3段操作演示，我们边看边讲。&lt;/p&gt;
+&lt;h4 id="sketch-symbol"&gt;Sketch Symbol
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI2MDA0MA==.html" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_34.png"
+loading="lazy"
+alt="Keynote幻灯片，展示Sketch软件界面中创建Symbol组件的操作，画布上显示iPhone 7线框图和列表项组件"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI2MDA0MA==.html" target="_blank" rel="noopener"
+&gt;http://v.youku.com/v_show/id_XMjY0ODI2MDA0MA==.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这段视频是讲Sketch中组件的使用。&lt;/p&gt;
+&lt;p&gt;我们把这个列表项提取为一个组件，现在看其实没什么变化。我们先复制几个出来，让它成为一个列表。然后我们到组件页面去，发现刚才提取的组件就在这里。我们尝试把圆形的头像改成方形，嗯，去掉边框。回到列表界面来，发现整个列表的头像都变成方形了，但我们只在组件里做了一次修改，就达到这样的效果。&lt;/p&gt;
+&lt;h4 id="sketch-overrides"&gt;Sketch Overrides
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI1ODUyNA==.html" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_35.png"
+loading="lazy"
+alt="Keynote幻灯片，展示Sketch中Symbol Overrides功能，左侧Symbols面板显示list_item组件结构含姓名和电话号码"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI1ODUyNA==.html" target="_blank" rel="noopener"
+&gt;http://v.youku.com/v_show/id_XMjY0ODI1ODUyNA==.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这段视频是讲如何把组件的样式与内容分离开。&lt;/p&gt;
+&lt;p&gt;还是刚才的组件，不过我把头像右边代表两行文字的矩形换成了真正的文字，我要把它当作通讯录界面来设计。现在我们回到列表界面，发现列表里每一项都变成了姓名+电话号码。然后我们在每一项的Overrides选项中输入数据，因为这是在组件之外输入的信息，它只会影响那一条内容。用这种方式把每个列表项都填上数据。现在我们再进到组件里，做点样式修改，比如把电话号码颜色改成灰色。回到列表，所有电话号码都变灰了，内容保持不变。&lt;/p&gt;
+&lt;p&gt;这样就实现了样式与内容的分离，降低耦合度对设计同样适用。&lt;/p&gt;
+&lt;h4 id="sketch-symbol-的嵌套"&gt;Sketch Symbol 的嵌套
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI2Mjc2OA==.html" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_36.png"
+loading="lazy"
+alt="Keynote幻灯片，展示Sketch中Symbol嵌套功能，列表项组件内嵌入按钮子组件含姓名、电话号码和按钮文字"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI2Mjc2OA==.html" target="_blank" rel="noopener"
+&gt;http://v.youku.com/v_show/id_XMjY0ODI2Mjc2OA==.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这段视频是讲组件的嵌套。&lt;/p&gt;
+&lt;p&gt;组件小的可以只有一个按钮，大的可以是一个交互极其复杂的多步筛选项。所以复杂组件内再嵌入简单组件，这是很常见的事情。&lt;/p&gt;
+&lt;p&gt;我给刚才的组件又增加了一个按钮，我们把这个按钮也提取成组件，可以看到它出现在了列表项组件的右侧。回到列表界面，每个列表项都有了按钮，我们选中所有列表项，把按钮文字成呼叫。然后右边还有另一个界面，这里也需要一个按钮。我们在此插入之前提取的按钮组件，把按钮文字改为订阅。如此一来，按钮组件就既存在于界面中，也存在于其他组件中。这时候如果想对按钮的样式做点调整，我们再进入按钮组件，改成灰底白字。回到界面中，发现各处按钮都一起变了。&lt;/p&gt;
+&lt;p&gt;组件化的思想不限于设计工具，虽然Sketch很先进，很利于实现这种工作方式。但PS也有相应的功能，能够以另一种形式实现组件化。&lt;/p&gt;
+&lt;h3 id="一个组件就是一个完整的产品"&gt;一个组件就是一个完整的产品
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_37.png"
+loading="lazy"
+alt="Keynote章节页，白底黑字&amp;#34;一个组件就是一个完整的产品&amp;#34;居中显示，作为子章节过渡幻灯片"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计组件不是把它搬到另一个地方，然后各处集中引用这么简单。开头我们就说过，组件化思维的精髓是独立、完整、自由组合。刚才我们做到了独立，同时也需要做到完整。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_38.png"
+loading="lazy"
+alt="Keynote幻灯片，展示按钮组件的完整状态设计含默认、按下、禁用、长中短尺寸、加载中和失败状态"
+&gt;&lt;/p&gt;
+&lt;p&gt;就拿按钮来说，我们必须考虑它的各种状态、极端情况、尺寸变化，还有所有附带的交互效果。这才能称之为一个独立完整的组件，满足其他组件对一个按钮的所有要求。
+除了最标准的默认、按下、禁用状态，还要考虑按钮的尺寸变化，发生服务器交互时每个状态的样式，还有特殊按钮内容的展示效果。&lt;/p&gt;
+&lt;h3 id="思考相互间的组合方式"&gt;思考相互间的组合方式
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_39.png"
+loading="lazy"
+alt="Keynote章节页，白底黑字&amp;#34;然后思考相互间的组合方式&amp;#34;居中显示，作为子章节过渡幻灯片"
+&gt;&lt;/p&gt;
+&lt;p&gt;组件内部完整了，接下来就是自由组合了。但并不是真的那么自由，我们要确定一些常用的组合方式。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_40.png"
+loading="lazy"
+alt="Keynote幻灯片，展示yupoo后台账号设置页面的组件间距标注示意图，红色数字标注各元素间的像素距离"
+&gt;&lt;/p&gt;
+&lt;p&gt;像这样一个后台管理界面：页面的整体背景色，主菜单与右侧内容的距离，输入框之间的距离……这些也都要有章法。&lt;/p&gt;
+&lt;h3 id="形成规范文档"&gt;形成规范文档
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_41.png"
+loading="lazy"
+alt="Keynote章节页，白底黑字&amp;#34;形成规范文档&amp;#34;居中显示，作为子章节过渡幻灯片"
+&gt;&lt;/p&gt;
+&lt;p&gt;以上这些工作，沉淀下来，就成了设计规范。这套文档对项目中的其他设计师是莫大的帮助，也是开发人员重要的资料。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_42.png"
+loading="lazy"
+alt="Keynote幻灯片，展示设计规范文档三栏布局含颜色使用说明、按钮使用说明和界面通用尺寸说明"
+&gt;&lt;/p&gt;
+&lt;p&gt;组件化设计是一切的源头，如果我们设计部分的组件化工作做得不到位，自己定的规范自己不遵守，开发的同学的组件化工作是无法进行的。&lt;/p&gt;
+&lt;h2 id="开发组件化"&gt;开发组件化
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_43.png"
+loading="lazy"
+alt="Keynote章节页，上方展示组件目录结构图含components文件夹和页面组件关系，下方红色&amp;#34;开发组件化&amp;#34;标题"
+&gt;&lt;/p&gt;
+&lt;p&gt;讲完设计组件化，现在我们来讲一下开发的组件化。&lt;/p&gt;
+&lt;h3 id="按组件而不是页面来开发"&gt;按组件，而不是页面来开发
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_44.png"
+loading="lazy"
+alt="Keynote章节页，白底黑字&amp;#34;按组件，而不是页面来开发&amp;#34;居中显示，作为子章节过渡幻灯片"
+&gt;&lt;/p&gt;
+&lt;p&gt;最重要的一点，是需要转变一个观念。我们应该以组件为单位，而不是以页面为单位进行开发。&lt;/p&gt;
+&lt;h3 id="轻度组件化"&gt;轻度组件化
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_45.png"
+loading="lazy"
+alt="Keynote章节页，展示轻度组件化概念含HTML结构、CSS样式和JS函数统一管理的说明文字"
+&gt;&lt;/p&gt;
+&lt;p&gt;组件化开发有两种不同程度的做法。&lt;/p&gt;
+&lt;p&gt;先讲讲轻度组件化。它的主要思想是使用相同的html结构和特定的class名，并且用同一段css代码定义样式，用同一个js函数来定义交互。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_46.png"
+loading="lazy"
+alt="Keynote幻灯片，展示登录框组件的HTML、CSS和JS代码结构三段式布局含用户名和密码输入框"
+&gt;&lt;/p&gt;
+&lt;p&gt;我们来看看上面这个登录框，下面3个代码块是它大致的代码结构。输入框在其他页面肯定也会用到，那么只需要与左边框里的html结构保持一致。各处页面代码中引用同一个css和js文件，至少做到了在一处集中管理样式与交互。但如果组件的html结构发生变化，修改的工作量还是会比较大。&lt;/p&gt;
+&lt;h3 id="重度组件化"&gt;重度组件化
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_47.png"
+loading="lazy"
+alt="Keynote章节页，展示重度组件化概念含每个组件独立封装html、css、js并从外部填充内容的说明"
+&gt;&lt;/p&gt;
+&lt;p&gt;重度组件化的方式可以解决这个问题，不过这就不仅仅停留在思想层面，对项目的代码结构都有一定的要求。&lt;/p&gt;
+&lt;p&gt;每个组件的html结构、css样式、js交互都独立封装管理，定义好框架和加载方式，内容在加载时从外部填充。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_48.png"
+loading="lazy"
+alt="Keynote幻灯片，展示重度组件化的界面、项目目录和源码结构关系图含Handlebars、React、PHP和Velocity四种模板"
+&gt;&lt;/p&gt;
+&lt;p&gt;在重度组件化的项目中，每个组件都做到了彻底的独立封装。比如这个页头组件，它的代码存在于独立的目录下，这个目录包含了它的html结构、css样式、js交互、资源图、甚至自测试模块。&lt;/p&gt;
+&lt;p&gt;那么各处页面中要加载页头组件，往往只是一条语句，将数据传入这个已存在的结构中就行了。&lt;/p&gt;
+&lt;p&gt;组件如果要与外部进行数据传递，也应该以接口形式对外开放。组件内部是个黑盒，外部只需要了解数据的输入与返回，不必关心组件内的工作原理。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_49.png"
+loading="lazy"
+alt="Keynote幻灯片，展示组件分工表格含ID、路径、描述、开发者和组件图五列，列出header、tab、list和footer四个组件"
+&gt;&lt;/p&gt;
+&lt;p&gt;用这种思路管理项目，也会改变开发的协作方式。大家不再是按页面分工，而是按组件来分工。页头和tab由一人负责，列表和页脚由另一个人负责，弱化了相互间的依赖关系。直到将组件拼装成页面，才需要处理组件之间相互作用的部分，但这时候工作量已经被大大消化了。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI1NzI0MA==.html" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_50.png"
+loading="lazy"
+alt="Keynote幻灯片，展示组件化项目的完整目录结构含JS模块、CSS模块、UI组件和页面四大分类"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://v.youku.com/v_show/id_XMjY0ODI1NzI0MA==.html" target="_blank" rel="noopener"
+&gt;http://v.youku.com/v_show/id_XMjY0ODI1NzI0MA==.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我们可以来感受一下组件化管理的项目，应该是个什么样的结构。&lt;/p&gt;
+&lt;p&gt;一个应用由大量页面组成。一个页面的绝大部分都是组件。组件内部已经定义好了完整的结构，可以独立运行。纵观整个项目，可能就会是这样一个结构。组件的代码占了大多数，能共用的都尽量共用，各个页面的特殊代码则会变得非常轻。各功能模块的划分清晰明确，一目了然。&lt;/p&gt;
+&lt;h2 id="重在维护"&gt;重在维护
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_51.png"
+loading="lazy"
+alt="Keynote章节页，红色&amp;#34;重在维护&amp;#34;标题配副标题说明组件化初期工作量大但随时间推移会发挥出巨大优势"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然前面说了这么多好处，但组件化不是一件轻松的工作。在项目初期的准备工作会增加一定工作量，但随时间推移会发挥出巨大的优势。&lt;/p&gt;
+&lt;p&gt;想象一下，像windows操作系统这种航母级的开发项目，如果不用组件化的方式来管理，它有可能成为现实吗？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_52.png"
+loading="lazy"
+alt="Keynote幻灯片，展示完整的UI组件库规范文档含颜色色板、按钮样式、表格、表单和进度条等各类组件"
+&gt;&lt;/p&gt;
+&lt;p&gt;我们设计师要做的，就是要有专人负责维护设计组件库。组件发生了任何设计修改，或者加入了新组件，都要及时反映在设计规范上。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_53.png"
+loading="lazy"
+alt="Keynote幻灯片，展示Google Ara模块化手机概念图含摄像头、扬声器、电池等各种可拆卸功能模块拼合"
+&gt;&lt;/p&gt;
+&lt;p&gt;开发同学也需要指定人员来负责维护具体的组件。他们要做的，我就不好多说了，毕竟我不是专业的。&lt;/p&gt;
+&lt;p&gt;但可以举个例子，像Google Ara项目的这款模块化手机一样：摄像头模块只负责拍照，处理照片得交给运算模块；而GPS模块只负责定位相关功能，导航语音播报则需要发声模块来处理。任何模块的拆换，对其余模块的运转毫无影响。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_54.png"
+loading="lazy"
+alt="Keynote幻灯片，展示&amp;#34;TEAM&amp;#34;字母模型上坐微型人偶配&amp;#34;及时沟通反馈&amp;#34;标题，强调团队协作的重要性"
+&gt;&lt;/p&gt;
+&lt;p&gt;双方的维护工作固然重要，更重要的是沟通交换信息。有任何变化都要及时告知对方，组件的高度同步，是这种工作方式得以长期延续的关键。&lt;/p&gt;
+&lt;h2 id="组件化思维"&gt;组件化思维
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_55.png"
+loading="lazy"
+alt="Keynote章节页，上方展示彩色拼图方块手绘插图象征组件自由组合，下方红色&amp;#34;组件化思维&amp;#34;标题"
+&gt;&lt;/p&gt;
+&lt;p&gt;我们跳出工作的范畴，跳出刚才这些条条框框，单纯想一想组件化这种思想。其实它可以用来理解生活的方方面面。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_56.png"
+loading="lazy"
+alt="Keynote幻灯片，白底黑字&amp;#34;独立·完整·自由组合&amp;#34;居中显示，总结组件化思维的三大精髓"
+&gt;&lt;/p&gt;
+&lt;p&gt;它的精髓就是这么3点：独立、完整、自由组合。我们生活中见到的绝大多数工业产品，就是这么造出来的，比如汽车工业，比如富士康的iPhone生产线。甚至部队的编制也是遵循这个原理。&lt;/p&gt;
+&lt;p&gt;而且组件化甚至都不算是人类的发明。即使放在自然界，这也是早已存在的模式。想想我们人体多么复杂，绝对不亚于windows操作系统。但除去极少数器官之外，任何部分损坏或缺失，我们都能活下来。这不得不说是组件化的奇迹。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://v.qq.com/x/page/e0350h51dga.html" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_57.png"
+loading="lazy"
+alt="Keynote幻灯片，展示IKEA METOD厨房宣传片截图，黑底白字标题含腾讯视频标志"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://v.qq.com/x/page/e0350h51dga.html" target="_blank" rel="noopener"
+&gt;https://v.qq.com/x/page/e0350h51dga.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最后，我想给大家看一段1分钟的视频。这是宜家厨房的宣传片，宜家是一家高度推崇组件化的公司。不仅仅是用在生产流程中，也把组件化思维从幕后推向了台前，成为了自己品牌的一种语言。&lt;/p&gt;
+&lt;p&gt;我们来直观感受一下，让组件化的思想在你脑海中留下一个具象的画面。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-18/pic_58.png"
+loading="lazy"
+alt="Keynote结束幻灯片，白底黑字&amp;#34;谢谢&amp;#34;居中显示，底部注明部分资料引自《前端工程——基础篇》及GitHub链接"
+&gt;&lt;/p&gt;
+&lt;p&gt;部分资料引自《前端工程——基础篇》
+&lt;a class="link" href="https://github.com/fouber/blog/issues/10" target="_blank" rel="noopener"
+&gt;https://github.com/fouber/blog/issues/10&lt;/a&gt;&lt;/p&gt;</description></item><item><title>文字聊天的体验</title><link>https://victor42.eth.limo/post/3533/</link><pubDate>Sun, 11 Dec 2016 01:20:29 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3533/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2016-12/12-09/dribbble.png" alt="Featured image of post 文字聊天的体验" /&gt;&lt;p&gt;&lt;em&gt;图片来自Dribbble。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;文章标题可能有点误导，这里不是要讨论IM产品的体验设计，而是聊天内容本身的阅读体验。&lt;/p&gt;
+&lt;h2 id="数字的强迫症"&gt;数字的强迫症
+&lt;/h2&gt;&lt;p&gt;前几天，主管问我要手机号和身份证号，用于制作工作相关的证件。由于是钉钉上沟通的，很简单一件小事，我回了个OK，然后顺手发过去了：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;××（我的姓名）
+手机号：186××××××××
+身份证：360103××××××××××××&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我盯着发出去的消息，细想觉得有点问题，可以优化一下，于是我又发了一遍：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;××（我的姓名）
+手机号：186 ×××× ××××
+身份证：360 103 ×××× ×××× ××××&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我说这样便于阅读。主管说小伙子不错啊，强迫症又犯了。然后我回了一句略微有点装X的话：“用户体验无处不在。”并且配上一个咧嘴笑的表情。&lt;/p&gt;
+&lt;p&gt;事情到此告一段落。不过既然硬要把这件事情扯上用户体验，那就不妨深入思考一下吧。仔细一想，发现这真的不是没事找事。而且，我发出去的消息，其实也不算是一件合格的设计产物。&lt;/p&gt;
+&lt;p&gt;把回复消息的形式当成一项设计课题，既然是设计，绝对离不开用户场景和目标。场景很明显，对方在手机版钉钉上查看这条消息。但目标是什么呢？其实我之前并没有问清楚。要我的手机号和身份证用来制作证件，但肯定不是我主管本人制作，她要把这些信息再传递给制证者。通过什么方式传递出去？用纸笔填写还是手机转发？这可有天壤之别！&lt;/p&gt;
+&lt;h3 id="纸笔填写"&gt;纸笔填写
+&lt;/h3&gt;&lt;p&gt;如果用纸笔填写，鉴于任务比较简单，制证者不太可能用上什么逆天的高科技手段来收集信息。所以，一定会经过最原始的“阅读——记忆——书写”过程，才能完成信息的转移。书写的环节我无法掌控，但阅读和记忆就取决于我发过去的内容形式了。&lt;/p&gt;
+&lt;p&gt;有研究表明，人类短时间内能够记住的连续信息长度，极限是7个字符，超过就必须分段记忆了。我们能记住五言诗、七言诗，历史上也出现过九言诗，但生命力就弱得多。屈原的&lt;a class="link" href="http://baike.baidu.com/item/%E7%A6%BB%E9%AA%9A/1045" target="_blank" rel="noopener"
+&gt;《离骚》&lt;/a&gt;算是一个特例，其中有不少诗句超出了7个字，但考虑到“兮”字作为语气词存在，有实际含义的内容仍然多数控制在7字以内，所以我们能从中感受到强烈的诗句韵律。&lt;/p&gt;
+&lt;p&gt;但7毕竟是个极限，能记住，却不容易。想一想我们平时收到的各种短信验证码，最多的是4字和6字两种。4字验证码我们能一气呵成记下，6字验证码我们通常会分成3+3两段来念。这也证明，我们能轻松记住的信息长度，一定少于6个字符。中国的11位手机号基本都按3+4+4的方式阅读，这已经被广泛接受。我们和朋友确认联系方式时，会说“没错，就打我那个186的号码”。网络上给手机号做隐私处理，会把中间的4位变成星号；报手机尾号，也通常是取后4位，可见这种划分根深蒂固。至于身份证号的划分，生活中见得倒是不多，毕竟它的出处——身份证上都是挤作一团的。但它天然带有特定含义，要给它划分非常简单，也容易得到大家认同：6（省市区）+4（年）+4（月与日）+4（尾号），相信绝大多数人都会这样记忆自己的身份证号。&lt;/p&gt;
+&lt;p&gt;这里还可以再插一个题外话，能够轻松记忆的信息长度，最长到底是4还是5呢？我认为是4，虽然没有找到直接证据，但上面这些现象已经能间接佐证了。如果手机号和身份证号还不够，我们可以再加个银行卡号。各家银行卡的卡号位数可不一样，但它们如果有意划分，一组最长必定不会超过4个数字。&lt;/p&gt;
+&lt;p&gt;长串数字，发出去是什么格式，对方就会按什么格式来阅读和记忆。这不仅仅是机器应该给予我们的方便，我们每个人也同样应该给予他人方便。&lt;/p&gt;
+&lt;h3 id="手机转发"&gt;手机转发
+&lt;/h3&gt;&lt;p&gt;回到正题，如果我的手机号和身份证号是要通过手机转发出去，并且复制填入某个后台中，那情况就完全不同了。&lt;/p&gt;
+&lt;p&gt;我无法确定录入信息的后台能不能排除空格，如果把便于阅读的格式粘贴过去，很可能最终记录下的手机号是“186 ×××× ××”。而且我主管用的是Android手机，无法安装Pin这样的剪贴板工具。把数字从整条信息中提取出来，是一件非常棘手的事。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-09/1.jpg"
+loading="lazy"
+alt="钉钉聊天界面长按包含隐私信息的消息气泡弹出复制菜单的截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;在手机IM中，往往只能整段复制。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;所以，如果要通过IM复制到别处，最佳的信息格式应该是这样：&lt;/p&gt;
+&lt;blockquote&gt;姓名：&lt;/blockquote&gt;
+&lt;blockquote&gt;××&lt;/blockquote&gt;
+&lt;blockquote&gt;手机号：&lt;/blockquote&gt;
+&lt;blockquote&gt;186××××××××&lt;/blockquote&gt;
+&lt;blockquote&gt;身份证：&lt;/blockquote&gt;
+&lt;blockquote&gt;360103××××××××××××&lt;/blockquote&gt;
+&lt;p&gt;这让我想起自己的微信公众号。由于我只在那边发文章，基本没空回复或互动，所以设置了一条自动回复，引导读者通过微博联系我。&lt;/p&gt;
+&lt;p&gt;很长一段时间，我都直接把微博昵称写在自动回复里：“我除了发文章之外，不会经常打开公众号。有需要联系的朋友，请新浪微博私信我@我_ColaChan。”&lt;/p&gt;
+&lt;p&gt;直到有一次，我尝试给自己发信息。得到了这样的回复之后，我发现要去微博里找到自己并不容易，很难从中单独复制出微博昵称。于是做了一些改动：“我除了发文章之外，不会经常打开公众号。有需要联系的朋友，请新浪微博私信我，回复‘微博’获取新浪微博昵称。”回复微博两字之后，会再收到一条消息，内容只有“@我_ColaChan”。&lt;/p&gt;
+&lt;p&gt;虽然增加了一步，反倒是方便了信息的提取。&lt;/p&gt;
+&lt;h2 id="消灭错字"&gt;消灭错字
+&lt;/h2&gt;&lt;p&gt;既然要说文字聊天，那当然不仅限于数字和ID，篇幅最多的日常对话才是核心。日常沟通的体验，又如何界定这个“好”与“坏”？&lt;/p&gt;
+&lt;p&gt;中学的时候，大家都没有手机，用电脑聊QQ是同学死党间最主要的在线交流方式。我记得那时候有同学说，和我聊QQ感觉很安心。我问为什么，她说我从不打错别字。&lt;/p&gt;
+&lt;p&gt;嗯……现在回忆起这件事，确实有一定道理。如今生活与工作节奏远比学生时代快，加上输入法的候选词动态排序，日常沟通中难免打错字。但关键在于对待错别字的态度。我在发送消息之前，往往会自己看一遍，发现错字一定改正。&lt;/p&gt;
+&lt;p&gt;我知道许多人用微信、用QQ发消息时，是从不检查的。输完不检查，输入的过程中也不检查，噼里啪啦一通打完就发出去了。即使输入过程中发现打错，也懒得改正，指望对方通过上下文领会他的意思。于是你会收到“恩爱”、“不会你哦”这样的奇怪词语。如果关键词语打错，就要很费劲猜测他的意思，甚至要做一些同音词联想和键位联想。我联系过的许多印刷厂老板，还有部分合作过的开发同学，阅读他们的消息极其费劲。当然，忙起来确实没空检查，可以理解。不过至少可以肯定，没有错别字的文字聊天，是一种人人渴望的好体验。&lt;/p&gt;
+&lt;h2 id="语言是严肃的"&gt;语言是严肃的
+&lt;/h2&gt;&lt;p&gt;我收到过这样的消息，一串连珠炮轰过来：&lt;/p&gt;
+&lt;blockquote&gt;在&lt;/blockquote&gt;
+&lt;blockquote&gt;UI需要手绘?&lt;/blockquote&gt;
+&lt;blockquote&gt;不会手绘不行吗&lt;/blockquote&gt;
+&lt;blockquote&gt;投简历没有回应 是不是 经验不够&lt;/blockquote&gt;
+&lt;blockquote&gt;ui规范有那些啊 ios andriod都要看啊&lt;/blockquote&gt;
+&lt;blockquote&gt;在吗在吗、&lt;/blockquote&gt;
+&lt;blockquote&gt;没有作品怎么办啊？&lt;/blockquote&gt;
+&lt;p&gt;不过以上内容并非原话，我只是凭记忆把它还原出来，但是很有代表性。不用标点、错用标点、空格代替标点、不删除多余的空格、中英文标点错用、固有名词写错、“那”和“哪”乱用、不按话题归类分段……日常沟通中的毛病基本都集齐了，可以召唤神龙了。&lt;/p&gt;
+&lt;p&gt;语言的存在，一大作用就是让人们相互传递信息，它是人类对一切概念表述所达成的共识。如果不遵循语言的规范，就相当于脱离或者至少偏离了人类赖以沟通的渠道。这不是小事。在我看来，即使是日常文字沟通，都非常有必要区分“的地得”，有太多类似细节被忽视。不是为了维护语言的纯正性，这方面我不关心。但为了对方有更顺畅的阅读体验，规范的语言一定更有帮助。&lt;/p&gt;
+&lt;h2 id="写新闻稿的心态"&gt;写新闻稿的心态
+&lt;/h2&gt;&lt;p&gt;说出去的话就像是发出去的新闻稿。除非是与最好的朋友放飞脑洞、海阔天空扯淡，否则谈话必定有个主题。&lt;/p&gt;
+&lt;p&gt;还是上面那一段信息，除了不严谨之外，话题散乱更是致命伤。面对这样自言自语般的问题，要从何答起呢？如果想表达自己的困惑，希望得到对方的帮助，以此为主题写一封求助信。那上面这段连提纲都算不上。&lt;/p&gt;
+&lt;p&gt;易于阅读和理解的消息，是有特定结构的。先用一句话讲清楚在讨论的是一件什么事情，然后展开说细节，讲完一个再讲下一个。如果是告知对方信息，要清晰表明关键要素。如果需要对方做什么，至少说明原因，并最好提供可行方案。如果是反映问题，也要提供足够对方排查问题的线索。&lt;/p&gt;
+&lt;p&gt;所有问我电脑问题的朋友和亲戚，几乎都是这么一句：“帮我看看电脑吧，好像出问题了。”然后就没了，就等着我提问了。我多希望哪怕有一个人，问我电脑问题的时候，能主动告诉我出问题时显示了什么，以前有没有出过这个问题，上一次和第一次出问题是什么时候，出问题之前做过什么，之后又做过什么，尝试过哪些解决方法，有没有效果，引发了哪些变化。&lt;/p&gt;
+&lt;p&gt;试想有个人家里遭贼了，贵重物品被洗劫一空。警察赶到时，问他任何问题，他只会回答：“我家都遭贼了，赶紧帮我抓到小偷啊，不然日子都没法过了！”显然，这案子是破不了的。&lt;/p&gt;
+&lt;p&gt;只要交谈有主题有目的，就必须追求高效。十分钟能说清楚的事情，由于糟糕的交流体验，也可能要说上一个小时。浪费别人的时间是一种罪过。&lt;/p&gt;
+&lt;h2 id="现代大字报"&gt;现代大字报
+&lt;/h2&gt;&lt;p&gt;我们国家一大特色：标语横幅大字报。城市抓环境治理，挂一条横幅：“举各方之力，谋治水之略，建和谐之城，兴水乡之貌，树世代之功”。建筑工地搞安全生产，挂一条横幅：“安全创造幸福，疏忽带来痛苦。安全就是效益，安全就是幸福”。医院要提升业务品质，挂一条横幅：“创建平安医院，构建和谐医患关系”。&lt;/p&gt;
+&lt;p&gt;我们这里不去讨论这些标语本身存在的意义。至少有一点，决定挂这些标语的人，并没有弄清楚受众是谁，要以什么样的口吻来写。我路过部队军管区看到的一则标语就很不错：“听党指挥，能打胜仗，作风优良”，这是一句有主次关系层层递进的标语，深究细想，逻辑其实非常严密。关键，它直白易懂，没有模糊不清的概念。&lt;/p&gt;
+&lt;p&gt;新闻与官媒采用模糊的口吻来表达，是为了给任何事情留有余地，同时尽可能包容，保证内容中提及的各种概念定义正确。但不要觉得这些离我们日常生活很远。我们工作中的沟通，是不是也碰到过一些人，文风很官方，或者很卖弄？想一想你看到过多少这样的引导页：一张不明所以的插画，购物车、购物袋、钱袋满天飞，上面写着一行字，“海量优惠享不停”。&lt;/p&gt;
+&lt;p&gt;有一则广告我印象很深，品牌没记住，但记住了一个场景。广告片要表现出酱油制作工艺的传统和纯天然，代言人站在高台上，面对镜头，伸手指向身后的加工基地，黄豆在一大片空地上铺开晾晒。他用一种不带任何技巧雕琢的语调说：“就在这晒，就靠太阳晒。”若是换了一些不说人话的创意公司，写出来的台词很可能会变成：“XX公顷黄豆加工基地，天然晾晒风干工艺。”这样的阅读体验是非常无感的。定义再正确，描述再精准，概念再华丽，就是没有画面感。&lt;/p&gt;
+&lt;p&gt;可以在此感受一下这则广告的直白和平实：&lt;a class="link" href="http://t.cn/RcxcZ3I" target="_blank" rel="noopener"
+&gt;http://t.cn/RcxcZ3I&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;说到这里，我想起和同学一起调侃过的一个段子：&lt;/p&gt;
+&lt;blockquote&gt;“滚滚长江东逝水……”&lt;/blockquote&gt;
+&lt;blockquote&gt;“说人话！”&lt;/blockquote&gt;
+&lt;blockquote&gt;“大河向东流哇！”&lt;/blockquote&gt;
+&lt;h2 id="话题守护者"&gt;话题守护者
+&lt;/h2&gt;&lt;p&gt;工作之后，第二次有人评价我的聊天风格，说我“用绳命在聊天”。我追问下去，对方说和别人聊天都是你一言我一语。唯独和我聊天，会看到我一直保持正在输入的状态，长的能持续十几分钟。倒杯水回来，发现我轰隆隆发来一通长篇大论，分成好几大段，逐个回应之前瞎扯歪楼产生的各种分支话题。&lt;/p&gt;
+&lt;p&gt;噢，原来我还有这样的习惯！不放走任何一个话题，拒绝不了了之，必须得出结论。其实可以想象，如果纯粹是闲聊找话题，和我这种人聊天应该会蛮累的。说实话我并不想这样，我内心深处向往一次只说一件事。但既然楼已经歪了，虽然不是我造成的，我还是会本能地尽力支撑住它。这样聊天，如果对方感到舒畅，我感觉其实是很累的。&lt;/p&gt;
+&lt;p&gt;长篇大论这个习惯，有好处也有坏处。坏处当然是要让人等，不能及时得到回应。但好处是可以避免节外生枝。假如回复到一半，其中的某些信息让对方想起另一件事，在你余下内容到来之前，对方的思绪就已经飘走了。他就可能会开始插话，从而产生更多的分支话题，这情况太常见了。&lt;/p&gt;
+&lt;p&gt;这一点让我非常纠结。之前说过，浪费别人时间是一种罪过，那么就不该让人等这么久咯？但如果不加以控制，任由话题爆炸，被遗漏的话题碎片，在将来的某个时候或许还要旧事重提，同样是在浪费时间。文字聊天，如果为对方的体验着想，当然要选择一种花费时间较少的方式。任由话题爆炸，怎么看都有点因小失大。&lt;/p&gt;
+&lt;h2 id="哦呵呵呲牙"&gt;哦，呵呵，[呲牙]
+&lt;/h2&gt;&lt;p&gt;文字聊天最讨厌这几个回复了，堪称话题终结者。为什么呢？内容短、没有实际意义，这没错。但根源在于它不能反映对方的状态。虽然回复了，但不予置评，效果和没有回复一样。你仍然不能确定对方是否理解了你发送的内容，他完全可以心不在焉地打出以上回复。&lt;/p&gt;
+&lt;p&gt;这就好像你发一封邮件出去，当你按下发送按钮，没有菊花转，没有toast，界面仍然停留在写邮件窗口，里面仍然显示着你的邮件内容。然后你把写邮件的窗口关了，发现已发送里并没有这封邮件，发件箱也没有，草稿箱、收件箱、垃圾箱、广告邮件里都没有。WTF……&lt;/p&gt;
+&lt;p&gt;看似荒唐，但这样的对话在现实中绝对不少。Android开发同学问我要一张切图，我问他打算如何实现，是切成固定尺寸还是.9图。他回了我一个“可以”。我假设他一句话没打完，不小心按到回车，先把这两个字发出来了（这种事情每个人都干过，应该谅解）。但我等了半分钟，根本连“正在输入”的状态都没有。话题终结了，并且没有得出任何确切结论，只能开启新一轮追问。&lt;/p&gt;
+&lt;p&gt;其实再也没有谁比技术同学更了解反馈的重要性了。比如TCP/IP服务器请求的过程，需要“三次握手”：首先客户端发送信息给服务器，服务器知道有东西要接入了。然后服务器把收到的信息再发回去，说这是你发过来的东西没错吧？是你要接进来吧？最后，客户端把收到的信息与自己之前发出去的信息一对比，正确无误，再发信息给服务器，说没错就是我，我们接通电话吧。&lt;/p&gt;
+&lt;p&gt;我们人类对于上下文的理解能力很强，相比之下机器则笨拙地多。但无论上下文多详细，明确的反馈一定要有。再小的事，起码都应该回复一个“好的”或者“收到”。如果有选择，至少复述一遍所选的选项。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;回忆一下形形色色在IM上打过交道的人，有很明显的落差。有的人沟通起来感觉很顺畅，有些人简直恨不得要一通电话轰过去。同样一件事情，文字表述的品质不同，接收者的体验大相径庭。&lt;/p&gt;
+&lt;p&gt;体验设计这个学科，说它无处不在一点也不过分，非常接地气。假如抛开各种方法论，剩下的其实就只有一句话：替别人着想。&lt;/p&gt;</description></item><item><title>以人为本的矛盾</title><link>https://victor42.eth.limo/post/3499/</link><pubDate>Wed, 04 May 2016 22:00:15 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3499/</guid><description>&lt;p&gt;中午偶然想到，会不会在许多年之后，我们今天所说的“鼠标手”、脊柱弯曲，不再会被当成一种病，而是新时代人类的特征？&lt;/p&gt;
+&lt;p&gt;想想觉得不对，这个假设被迅速推翻了。&lt;/p&gt;
+&lt;p&gt;如果这些不是病，那腰间盘突出要作何解释？同样是现代生活的副产品，严重时却可能导致瘫痪。这些现象在影响我们身体的同时，其中多数都会带来生理上的痛苦，这绝对不能说是人类的进化。&lt;/p&gt;
+&lt;p&gt;科技的发展无法预料，今天的道德观、社会结构可能会被轻轻松松推翻。我们觉得理所当然的事物：婚姻、语言等等，都可能消失，被其他某种机制替代。但有一样东西不会变，至少不会大变——我们的身体构造，这是一切的根基。&lt;/p&gt;
+&lt;p&gt;我们亲手打造了自己生活的环境，努力让其中的方方面面都符合人类的身体特征。通过助力，我们可以仅用转动方向盘的力量移动成吨的物体；所有建筑和交通工具的出入口，都至少能保证一个成年人顺利通过；闪烁的红灯与急促的警示音，强烈的感官刺激暗示了事态的严重……身边所有事物的设计出发点，都围绕着我们的手、身体和5大感官。&lt;/p&gt;
+&lt;p&gt;阿西莫夫的机器人系列里描绘过一个问题，为什么人们要把人工智能造得和人类一模一样？在一些具体的工作上，人类身体并不比专用的机器更有优势。但是，派人形机器人前往其他星球垦荒时，它们会在不经意中按照符合它们习惯的方式来设计和建造，把这些拓荒者设计得和我们一模一样，恰恰是符合了将来人类移民的生活习惯。&lt;/p&gt;
+&lt;p&gt;虽然是科幻，却揭示了世界的本源。一英尺的长度单位起源于一位国王的脚；古代城墙高度足以令人无法翻越；法定结婚年龄不会定在150岁，也不会定在15岁。整个人类文明，都建立在我们的生理特征之上。我们感受到寒冷和饥饿，于是意识到我们需要住所、耕种。另一方面，仰望星空也给了我们诗和远方。所有的创造物，最终都要为我们所用。上帝不会去创造那颗自己也搬不动的石头，人也一样。&lt;/p&gt;
+&lt;p&gt;这就是设计的意义，帮助人们通过最基础的感官来理解和控制世界，同时最大程度免除身体的痛苦、打破身体的局限。我们用遥控控制电视与空调，用手套来抵御冬天的严寒，用盲文来帮助视觉障碍者参与大众生活……如果一种物品的设计，或者说一种生活方式的设计，会无法避免地给人带来某种痛苦，说明它仍然不够完美。无论如何，我们的身体会通过某种不适感告诉我们，还需要更好的方案。&lt;/p&gt;
+&lt;p&gt;以人为本，或许就是这个意思。&lt;/p&gt;
+&lt;p&gt;&amp;mdash;&amp;mdash; 180度大转折的分隔线 &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;意识流本该到此就结束，然而我想到，世上又存在另一些东西，可以轻易推翻以上观点，比如说：高跟鞋，你觉得它的存在究竟是天才还是恶魔呢？&lt;/p&gt;
+&lt;p&gt;如果把心理因素也考虑进来，设计或许永远也做不到客观。设计者的喜好、价值取向，多少都会体现在他的创造物中，这正是有趣的地方。设计师、创造物、还有它的使用者，自然而然因为相同的观点聚集在一起，通过创造物进行一种精神层面的沟通，就像在读一本书。这种情况下，设计者的身份就变了，从幕后创世的上帝，变成了引领人们的耶稣。&lt;/p&gt;
+&lt;p&gt;这就容易让人困惑了，究竟该怎么做？满足需求和创造需求，似乎需要两种截然不同的做法。前者的设计方式，要尽可能隐形，让设计成为身体反应的一部分，任何引起不适感的细节，都是设计中的败笔。而后一种设计，却偏要让人注意到，不仅让使用者注意到，还要让旁观者注意到，这就需要消耗人们的时间和精力，但是他们乐意！&lt;/p&gt;
+&lt;p&gt;其实这并不矛盾，就像牛顿经典力学和相对论，该用哪一个，放到了具体场景中自然就清楚明了。或许你选择了某个设计方向，吸引了一批拥护者，另一些人却离你而去。但是没关系，人的多样性正体现在这里，尤其是在心理上。全自动洗衣机好过半自动的，所有人都能达成共识。可是要说桂花比薰衣草好闻，却并非人人都会同意。如果能赢得薰衣草爱好者的认同，这个设计也是成功的。&lt;/p&gt;
+&lt;p&gt;尊重人的多样性，同样是以人为本。&lt;/p&gt;</description></item><item><title>灵感库的故事</title><link>https://victor42.eth.limo/post/3441/</link><pubDate>Mon, 01 Jun 2015 10:59:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3441/</guid><description>&lt;p&gt;开门见山，这是一篇广告文，分享一款设计师灵感库管理工具。诶，先别急着开骂，我可没有商业化的打算。我打广告一定要严格满足三个条件：【朋友】推出的【好产品】，【无偿】广告。&lt;/p&gt;
+&lt;p&gt;不过，在做广告之前，我有故事要讲。&lt;/p&gt;
+&lt;p&gt;设计师的职业生涯就像一棵树，素材库与灵感库交织出了年轮，从某方面反映着你的成长经历。不知道大家的灵感库经历了怎样的演变与迁徙，至少我的是几经辗转。&lt;/p&gt;
+&lt;p&gt;起先根本没有收集意识，需要什么临时找，几个网页书签就是全世界。从实习公司的老师那里拷来一套商业图库，10几个G。看得心花怒放，每件素材看着都精美无比。很长一段时间，那个文件夹就是我全部的上升空间，探索没有尽头。然而这个世界再精彩，也难以为我所用。文件多如牛毛，分类方式不合我的逻辑，找素材还不如百度来得快。我这才第一次意识到个人积累的意义。&lt;/p&gt;
+&lt;p&gt;于是开辟了一个硬盘分区来存放素材——必须按我的习惯整理。网络上的素材涌入素材库，商业图库里的一部分也逐渐被吸收进来，其余的则索性删掉了，因为很多大半辈子也不可能用上一次。隔壁目录下，灵感库文件夹也慢慢成长起来。鼎盛时期，两者加起来超过了30G。&lt;/p&gt;
+&lt;p&gt;然后大迁徙开始了，起因是应聘时被要求当场做设计。空着手去的，以我那时的水平，结果可想而知。解决方法不止一种，我选了最辛苦却一劳永逸的——统统搬到云端。灵感库采集到花瓣，人工上传，搬家持续了整整一个下午。而素材库要随时取用，电脑上也得有一份，同步盘比较合适，上传了两天两夜。&lt;/p&gt;
+&lt;p&gt;随着经验与水平的增长，早期的素材与灵感，现在看来就不忍直视了。这中间又经过几番大清洗，灵感库也搬到了Pinterest，因为它更好用。然而意义最重大的，并非这些图片的数量或质量，而是两者的泾渭分明。&lt;/p&gt;
+&lt;p&gt;其实在相当长的一段时间内，我都在以错误的方法工作。拿到一个设计需求，先打开素材库，看看哪些东西能组合起来。长此以往，素材不但帮不了你，反而会阻碍进步，阻断你的思考。近年来，我的灵感库在不断扩充，倒是素材库几乎是一滩死水，极少更新。素材库的内容也与之前大不相同，零散的小玩意取代了整体的设计模版。原因只有一个，素材的作用是为我节省时间，不能被它左右了风格。打开素材库之前，设计就应该已经完成了，要么在纸上，要么在心中。&lt;/p&gt;
+&lt;p&gt;说到这里，灵感库的作用显得愈发重要了。它不能代替你画图，却能指引你设计。除了自己，能左右设计风格的，就只有它了。所以在这件事上，务必要有一件趁手的工具。&lt;/p&gt;
+&lt;p&gt;今天的主角，PinCap，就是这样一款灵感库管理工具。看看界面先。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-05/05-26/1.png"
+loading="lazy"
+alt="PinCap 灵感库管理工具的图片网格和详情面板界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;乍看像个图片管理工具。当然，那是最基本的功能。分类目录管理、图片预览、信息修改。还有色彩筛选，对摄影图片很有用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-05/05-26/2.png"
+loading="lazy"
+alt="Finder 中 PinCap 目录与硬盘文件夹对应关系的截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;PinCap中的目录，对应着硬盘上的文件夹。在PinCap中做的各种操作，最终都会体现到文件和文件夹上，反之亦然。&lt;/p&gt;
+&lt;p&gt;就管理功能而言，它刚刚好，很节制。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-05/05-26/3.png"
+loading="lazy"
+alt="PinCap 新建采集窗口填写目录标题链接和备注"
+&gt;&lt;/p&gt;
+&lt;p&gt;更精髓的是采集功能。只要有图片被复制到剪贴板里，就能触发它的采集窗口。选个目录，完事。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-05/05-26/4.png"
+loading="lazy"
+alt="PinCap 设置界面配置剪贴板监听和软件过滤例外"
+&gt;&lt;/p&gt;
+&lt;p&gt;有时候我们并不希望触发采集。在设置里可以过滤掉一些设计软件，避免不必要的干扰。&lt;/p&gt;
+&lt;p&gt;通过PinCap，可以把网络上、聊天窗口中、截屏工具里的图片集中收纳管理。图片多了，优势自然就体现出来，管理本地文件总是最容易的。&lt;/p&gt;
+&lt;p&gt;如果想要同时兼具云端同步的功能，需要另外有个同步盘。我把PinCap的默认文件夹直接设在了百度云同步目录里，problem solved!&lt;/p&gt;
+&lt;p&gt;PinCap的UI与交互细节，在各位挑剔的设计师眼中，我相信仍有提升空间。不过真正打动我的是一个想法——连接一切现有资源，应用本身甘做一扇窗，深藏功与名。&lt;/p&gt;
+&lt;p&gt;很好的开始，我们不妨拭目以待。&lt;/p&gt;
+&lt;p&gt;最后奉上下载地址：&lt;a class="link" href="http://zrey.com/app/pincap" target="_blank" rel="noopener"
+&gt;http://zrey.com/app/pincap&lt;/a&gt;，有mac和windows两个版本。6月1日-6月3日半价优惠。另外我还从朋友那里要来了3个免费名额，在此送给大家。需要的朋友，请发邮件到&lt;strong&gt;&lt;a class="link" href="mailto:greenzorro@163.com" &gt;greenzorro@163.com&lt;/a&gt;&lt;/strong&gt;，邮件主题就写PinCap免费领取。前三名发进来的朋友会获得免费License，晚些时候统一发给大家，手慢无喔。&lt;/p&gt;</description></item><item><title>选择哪种博客？</title><link>https://victor42.eth.limo/post/3367/</link><pubDate>Wed, 21 May 2014 21:04:39 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3367/</guid><description>&lt;p&gt;上周末做了很多事情，一切都围绕博客展开。起初是&lt;a class="link" href="http://www.cai-cai.me/" target="_blank" rel="noopener"
+&gt;@caicai&lt;/a&gt;同学推荐了两套博客系统给我，ghost与farbox。在此特别感谢一下他，一位年轻有为的设计师兼产品人。&lt;/p&gt;
+&lt;p&gt;稍作了解之后，顿时觉得自己太缺乏匠人精神，怎么就能忍受Wordpress这么久呢？博客经营了这许多年，Wordpress逐渐演变成了一个臃肿的cms，编辑器的体验也不尽人意。看来即使身为互联网人，严重依赖某个产品后，一样会无力抽身，哪怕它已经罄竹难书。&lt;/p&gt;
+&lt;p&gt;既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了&lt;a class="link" href="http://wowubuntu.com/markdown/" target="_blank" rel="noopener"
+&gt;markdown&lt;/a&gt;语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。&lt;/p&gt;
+&lt;p&gt;安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条&lt;a class="link" href="http://www.zhihu.com/question/21981094" target="_blank" rel="noopener"
+&gt;非常靠谱的答案&lt;/a&gt;，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。&lt;/p&gt;
+&lt;p&gt;花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：&lt;/p&gt;
+&lt;h2 id="博客平台"&gt;博客平台
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://medium.com/" target="_blank" rel="noopener"
+&gt;medium&lt;/a&gt;和&lt;a class="link" href="http://jianshu.io/" target="_blank" rel="noopener"
+&gt;简书&lt;/a&gt;就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。&lt;/p&gt;
+&lt;h2 id="传统独立博客"&gt;传统独立博客
+&lt;/h2&gt;&lt;p&gt;以&lt;a class="link" href="http://wordpress.com/" target="_blank" rel="noopener"
+&gt;wordpress&lt;/a&gt;和&lt;a class="link" href="https://ghost.org/" target="_blank" rel="noopener"
+&gt;ghost&lt;/a&gt;为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。&lt;/p&gt;
+&lt;h2 id="云博客"&gt;云博客
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://www.farbox.com/" target="_blank" rel="noopener"
+&gt;farbox&lt;/a&gt;、&lt;a class="link" href="http://www.site44.com/" target="_blank" rel="noopener"
+&gt;site44&lt;/a&gt;、&lt;a class="link" href="http://postach.io/" target="_blank" rel="noopener"
+&gt;postach&lt;/a&gt;是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。&lt;/p&gt;
+&lt;p&gt;dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。&lt;/p&gt;
+&lt;p&gt;这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。&lt;/p&gt;
+&lt;h2 id="github博客"&gt;github博客
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://jekyllrb.com/" target="_blank" rel="noopener"
+&gt;jekyll&lt;/a&gt;、&lt;a class="link" href="http://octopress.org/" target="_blank" rel="noopener"
+&gt;Octopress&lt;/a&gt;、&lt;a class="link" href="http://hexo.io/index.html" target="_blank" rel="noopener"
+&gt;hexo&lt;/a&gt;属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。&lt;/p&gt;
+&lt;p&gt;开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？&lt;/p&gt;
+&lt;p&gt;在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的&lt;a class="link" href="http://marboo.biz/" target="_blank" rel="noopener"
+&gt;marboo&lt;/a&gt;、&lt;a class="link" href="http://logdown.com/" target="_blank" rel="noopener"
+&gt;Logdown&lt;/a&gt;、&lt;a class="link" href="http://prose.io/" target="_blank" rel="noopener"
+&gt;Prose&lt;/a&gt;就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。&lt;/p&gt;
+&lt;p&gt;经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以&lt;a class="link" href="http://colachan.farbox.com/" target="_blank" rel="noopener"
+&gt;来这看看效果&lt;/a&gt;，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成&lt;a class="link" href="http://colachan.farbox.com/album/" target="_blank" rel="noopener"
+&gt;相册&lt;/a&gt;。至于&lt;a class="link" href="http://colachan.farbox.com/about" target="_blank" rel="noopener"
+&gt;独立页面&lt;/a&gt;，更是不在话下。&lt;/p&gt;
+&lt;p&gt;大致研究了farbox的模板文件后，又发现新大陆。原来还有&lt;a class="link" href="http://jade-lang.com/" target="_blank" rel="noopener"
+&gt;jade&lt;/a&gt;这么简洁的模板语言，它有一点类似于&lt;a class="link" href="https://code.google.com/p/zen-coding/" target="_blank" rel="noopener"
+&gt;zen coding&lt;/a&gt;，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！&lt;/p&gt;
+&lt;p&gt;除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。&lt;/p&gt;</description></item><item><title>易停车icon变形记</title><link>https://victor42.eth.limo/post/3240/</link><pubDate>Sun, 27 Apr 2014 13:53:52 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3240/</guid><description>&lt;p&gt;我是头一回主导移动APP的UI设计，与一伙志同道合的朋友反复讨论打磨，不知不觉，&lt;a class="link" href="http://axetime.com/" target="_blank" rel="noopener"
+&gt;我们的产品&lt;/a&gt;就快1岁啦！接下来还会有个大版本更新，带来一项神奇的新功能和诸多细节优化，杭州的车主旁友们请多多捧场昂！&lt;/p&gt;
+&lt;p&gt;APP的UI博大精深，着手设计易停车之后，接触到了很多从前做网页不曾触及的知识与技巧，一言难尽，本篇我们大致回顾一下APP的门面——易停车icon背后的故事。&lt;/p&gt;
+&lt;h3 id="一代icon"&gt;一代icon
+&lt;/h3&gt;&lt;p&gt;首先介绍一下项目背景，易停车顾名思义，核心功能一定和停车有关，它是一款查看实时停车位数据的APP，这也是我们想传达给用户的核心信息。之前翻译的一篇&lt;a class="link" href="http://victor42.eth.limo/3162.html" target="_blank" rel="noopener"
+&gt;LOGO设计终极指南&lt;/a&gt;里讲过，LOGO（icon同理）可以大致分为文字、具象图形、抽象图形3类。鉴于是新产品问世，在设计上更多需要考虑的是易于认知，个人觉得icon应该直观一些，所以方向直接锁定具象图形。即使与美观相冲突，也以准确传达信息为重。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-27/1.jpg"
+loading="lazy"
+alt="停车应用图标初稿"
+&gt;&lt;/p&gt;
+&lt;p&gt;参考了一些同类APP，还有主流的地图类APP，发现有3个意象被广泛使用：字母P、汽车、图钉。其中字母P对于车主来说可以和停车场划等号，这是考驾照必须掌握的基本交通标识。汽车就更直接了，这一切的一切，都与车有关。图钉是被无数地图应用普及过的概念，用来表示地图上的具体地点，时至今日，拿掉地图只留下图钉，用户一样能明白其中含义。对于这些深入人心的形象，善加利用是上上策，为不同而不同，为创新而创新，未必能起到好的效果（我会告诉你是我想不出来了么……）。&lt;/p&gt;
+&lt;p&gt;开始筛选意象，绘制手稿。我的手绘功底，那是有（cǎn）目（bù）共（rěn）睹（dǔ）的，所以这里就不放出来了，放出来你们也像看医生的签字一样。总之，因为汽车这个意象太宽泛，被果断抛弃了。对于停车这个概念，再也没有比字母P更合适的了，够精准，也够简单。毕竟，下面这样东西，我相信没有车主不认识：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-27/2.jpg"
+loading="lazy"
+alt="停车图标设计草图"
+&gt;&lt;/p&gt;
+&lt;p&gt;另外，我们APP的主界面是地图，能够查询附近和目标地点周边的停车位情况，所以地图这层含义必须表达出来，但强度较弱。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-27/3.jpg"
+loading="lazy"
+alt="停车图标色彩方案"
+&gt;&lt;/p&gt;
+&lt;p&gt;加上边框，处理一下背景色，微调字体笔划，背后叠一层表示道路的交叉虚线。在没有大创新的情况下，进行微整形更需要精雕细琢。背景色的渐变、文字与边框的渐变、边框位置与粗细、虚线的透明度，都是来来回回反复调整才得出的结果。虽然比较挫，不过这就是我们的第一代icon了，用了半年多。至少可以保证看到它的人，第一反应就是停车场标识。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-27/4.jpg"
+loading="lazy"
+alt="停车图标字体设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;我甚至还专门设计了中文字体，当然……很不到位，再接再厉，字体设计是我需要恶补的一口大坑。&lt;/p&gt;
+&lt;h3 id="二代icon"&gt;二代icon
+&lt;/h3&gt;&lt;p&gt;随着产品功能迭代，不再只有1.0时期寥寥可数的几个界面了，APP的整体风格和视觉语言也逐渐体现出来。为保持所有界面协调一致，我设计了一套配色方案，用来确定整个产品的形象和基调。不过实际上，这项工作，最好是在一切开始之前进行。虽然它不属于icon的范畴，但对icon的设计有深远影响。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-27/5.png"
+loading="lazy"
+alt="停车图标图形优化"
+&gt;&lt;/p&gt;
+&lt;p&gt;有了用色标准，APP的界面风格是统一了，但之前的icon却显得脱节了。设计一款同时符合iOS7和Android 4.0+视觉风格的icon势在必行。研究两者的官方设计指南，可以发现一些共同点和差异。首先，扁平化在当下是大势所趋，也是工具类APP极为受用的指导方向。不过iOS7与Android 4.0的扁平风格有所差异，iOS7的扁平可以简单归纳为：细字体、微妙渐变、无阴影无线条、模糊背景，而Android的扁平具备以下特点：纯色、无渐变、微妙阴影、广泛使用线条、卡片式设计。&lt;/p&gt;
+&lt;p&gt;首先，新icon在内容上需要做到简洁，去除了之前一些冗余元素，例如边框、虚线，引入图钉元素，地图的含义还是需要保留的，大致方向就确定了。然后从iOS7与Android的设计指南中吸取各种特征进行排列组合，对字体倒角、图钉形状和位置大小等进行反复调整，产生了4个有细微差异的版本：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;第一个是由浅蓝到深蓝的渐&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二个是由海蓝到紫罗兰的渐&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三个由半透明色块相互叠加构成，想表达出类似水晶的质&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第四个是向Google致敬的作品，底部有厚度和透视角度，图钉的颜色是纯色&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;由于某人对blingbling的东西情有独钟，加上我最近又很迷&lt;a class="link" href="https://itunes.apple.com/cn/app/ji-nian-bei-gu/id728293409?mt=8" target="_blank" rel="noopener"
+&gt;纪念碑谷&lt;/a&gt;这款游戏，很难控制向它致敬的冲动。又擅自补充了两款激进风格的，完全去掉了图钉，停车的含义反而更突出了，用色和布局都更加夸张。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-27/6.png"
+loading="lazy"
+alt="停车图标最终稿"
+&gt;&lt;/p&gt;
+&lt;p&gt;最后在朋友中发起了一轮投票，两个激进方案由于出现较晚，没有参与投票过程。前4枚icon朋友们给出的票数竟然非常接近，分别是3、3、2、3，结合团队成员和我自己的选择，最终定稿。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-27/7.jpg"
+loading="lazy"
+alt="停车图标应用场景"
+&gt;&lt;/p&gt;
+&lt;p&gt;No. 2 就你了！&lt;/p&gt;
+&lt;h3 id="小结"&gt;小结
+&lt;/h3&gt;&lt;p&gt;以前总认为icon设计是美术功底非常扎实的设计师才能做好的事情，尽管那对于设计确实有帮助，却不应成为阻碍自己尝试新领域的借口。这小小的四方天地中，怎样的设计能够出彩，考验的更多是设计师对于所要传达信息的理解与把握，还有反复雕琢的耐心。这一版赶着和APP一块儿上线，暂且告一段落，希望以后自己获得更多提升后，再回头来将它做得更细致，或者设计出更棒的替代方案。&lt;/p&gt;</description></item><item><title>设计师的自我提升</title><link>https://victor42.eth.limo/post/3080/</link><pubDate>Sun, 09 Feb 2014 13:45:47 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3080/</guid><description>&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-02/02-09/1.jpg"
+loading="lazy"
+alt="金发女孩跃起触摸空中肥皂泡，寓意设计师突破瓶颈"
+&gt;&lt;/p&gt;
+&lt;p&gt;过去一年感触良多，深深体会到作为设计师的不易，一度觉得自己的水平没多大长进，有些低落。同时也收获了一些至关重要的情报，都是关于自我提升的。今年将是付诸实施的一年，争取通过努力打破瓶颈。当然，我很乐意将它们与所有热爱设计的朋友分享：&lt;/p&gt;
+&lt;h3 id="1-分享精神"&gt;1. 分享精神
+&lt;/h3&gt;&lt;p&gt;分享本身就是自我提升的第一步，阐述自己所学是整理与回顾的过程。虽然无法从中直接获得新技能与水平的提升，却能让一味赶路的自己停下脚步，慢慢吸收其中精华。这时候，我们需要化身为一头牛，默默的反刍。&lt;/p&gt;
+&lt;p&gt;有朋友在博客上问我如何培养色彩感觉，提升自己的配色能力。我一时间也不知道如何回答，色彩这种东西最玄乎。最后还是憋出了一个回答，我建议她多留意生活中的颜色，食品化妆品包装、菜谱-Food、路人的衣服、平面广告，下意识地去回想自己见过的这些事物，这时候所有细节都变得模糊，只记得几种主色，配色的精髓就显现出来了。另外也要多看摄影作品和单色系设计，道理也一样。回答完后我感到很意外，这些方法我自己用过吗？仔细想想还是用过的，只是刚刚才意识到。&lt;/p&gt;
+&lt;p&gt;于是，在回答别人问题的同时，也为自己总结出了一则重要的设计师技巧。分享所得的收获，往往是些很抽象或者细枝末节的东西，这都是在书本与教程中不会出现的，万万不可错过。&lt;/p&gt;
+&lt;h3 id="2-低头做设计抬头交朋友"&gt;2. 低头做设计，抬头交朋友
+&lt;/h3&gt;&lt;p&gt;我话不多，但不是内向的入。这说明我有结交朋友的能力，却缺乏扩大朋友圈的意愿。现有的朋友和我关系都很好，我也热衷于继续维持，并不怎么愿意主动认识新朋友，但这对设计师是相当不利的。设计师的能力，不是闭门造车，而是要走进别人的生活。设计师需要交流，尤其是与同行。&lt;/p&gt;
+&lt;p&gt;自从之前那篇&lt;a class="link" href="http://victor42.eth.limo/2874" target="_blank" rel="noopener"
+&gt;《我如何成为了一名设计师》&lt;/a&gt;反响强烈，我的博客再也不是互联网中的一座信息孤岛。很多素未谋面的设计师与设计爱好者通过各种途经找到我，与我交流心得，咨询专业问题，探讨职业规划，找我做项目，拉我入伙创业，还有只为寻求鼓励的毕业生。手足无措之余，我心里暖洋洋的。工作三年了，一直都在小团队里孤军奋战，第一次找到了设计大家庭，找到了组织。不同于某个社区或论坛，这是一群活生生的人。持续接触下来，发现每个人有不凡的经历和满腔热忱。最重要都是，大家都是很好的人，值得交朋友。&lt;/p&gt;
+&lt;p&gt;好好经营自己的设计同行圈子，且不说交流获得的海量信息，光是这相互鼓励的氛围，就足以催人继续奋进了。&lt;/p&gt;
+&lt;h3 id="3-隔行如隔山但别怕爬山"&gt;3. 隔行如隔山，但别怕爬山
+&lt;/h3&gt;&lt;p&gt;我做过半年的平面，然后一直做网站到现在，我可以很自信地说出各类网站的标准结构、主流显示器分辨率、浏览器内核、各种常用灰色的色值，可脚步就止于此吗？&lt;/p&gt;
+&lt;p&gt;当然不能困死在这里，如今轰轰烈烈的移动互联网大潮怎能少得了我。很早就给自己博客做了个手机版，虽然当时还没摆脱PC的思维，却让我了解到移动互联网完全是另一片天地。千变万化的屏幕尺寸，与web端截然不同的度量单位，以触摸为核心的交互方式，里面都大有学问。为了适配苹果设备的Retina屏，甚至需要将背景图做成两倍大小，再用CSS压缩回一倍。这些细节，不深入研究是不会知道的。&lt;/p&gt;
+&lt;p&gt;而设计一词的含义也在变得更广，APP中无处不在的动画效果成为设计的必要元素之一，按下按钮的震动反馈与音效，也是设计师需要考虑的，设计已经完全超越了视觉的局限。&lt;/p&gt;
+&lt;p&gt;接触的媒介越多，设计的含义就变得越广泛。没有色彩的电纸书界面该怎么设计？智能电视操作界面与PC软件有什么不同？盲人手机又该怎么操作？擦亮眼睛，设计的冰山在水面以下的部分，轰然出现在眼前。&lt;/p&gt;
+&lt;h3 id="4-训练毅力培养习惯"&gt;4. 训练毅力，培养习惯
+&lt;/h3&gt;&lt;p&gt;我大学里也一度沉迷游戏，没日没夜地玩魔兽世界，将近两年时间花在那上面。虽然玩游戏也有很多收获，对于优秀游戏的理解之类，不过要取得那些收获，昏天暗地玩三个月足矣。客户端装装删删好几回，最后终于和魔兽世界say goodbye了，尽管那也是一段美好时光。&lt;/p&gt;
+&lt;p&gt;如果改掉一个习惯都如此艰难，养成习惯就更像天方夜谭了，为此需要一些下意识的行为来训练自己的毅力。&lt;/p&gt;
+&lt;p&gt;从学生时代到现在，我唯一一件坚持下来的事情就是写东西，生活琐事、影评，也记录一些光怪陆离的梦境。或许它让我了解了培养习惯的重要性，不论这个习惯对自己有没有实际帮助，养成习惯本身就能强化人的毅力。&lt;/p&gt;
+&lt;p&gt;我决定要做点有意义的事情，长期性的，什么都好。无意间想到一个绝妙的主意，我开始每周翻译一篇国外的设计文章，还为此专门开了微信公众号“我”，用来集中记录和传播。我热爱英文，正苦于没有途径让我长期接触。我从事设计，国外的设计文章对提升自己很有帮助。我喜欢码字，翻译的过程本身就是二次创作，顺便还能充实我的博客内容。于是，这一石三鸟的习惯，我已经坚持7个月了。如果还有什么其他长期的事情要做，我已经自信满满了。&lt;/p&gt;
+&lt;h3 id="5-快乐至上"&gt;5. 快乐至上
+&lt;/h3&gt;&lt;p&gt;以上都只能间接提升设计师的水平，而这一条，则直接关系到作品质量。不快乐的设计师，很难在作品中感染其他人，自身水平也鲜有突破。这点我深有体会，因为我经历过几份非常不快乐的工作。&lt;/p&gt;
+&lt;p&gt;由于我掌握了一点点的前端技术，工作过的也基本都是创业型团队，很自然就一个顶两个用了。不过专业的前端远比设计难招，工作中代码的成份越来越多，后来发展到公司另招了设计师，让我专门负责切页面了。前端技术倒是突飞猛进，但这不是我的目的。这也怪我不懂拒绝，不过已经这样了，我的心态严重受到影响。疯狂加班导致的身体酸痛，还有想尽快摆脱这种状态的烦躁，让我身心俱疲，没有心思再专心学习设计。最后全都以闪电辞职收场，从头开始。&lt;/p&gt;
+&lt;p&gt;心情好的时候，设计师的大脑都是极品飞车，神奇的点子甚至会惊艳到自己，有点闲工夫就能折腾出各种有趣的玩意。聚会海报、简单的手工活、概念设计，多多练习才是提升自我的关键。&lt;/p&gt;
+&lt;h3 id="结语"&gt;结语
+&lt;/h3&gt;&lt;p&gt;可见，要当好设计师是多不容易的事情。不过它的魅力就在于，力克艰难险阻后看见的那道破晓光芒。这很像骇客帝国里的一幕，救世主尼欧驾着飞船飞向机械帝国，在机械章鱼的围攻下，他冲破云层，看见温暖光明的天际线。&lt;/p&gt;
+&lt;p&gt;所以为了各自心中的阳光，2014，设计师们，火力全开吧！&lt;/p&gt;</description></item><item><title>博客改版小结</title><link>https://victor42.eth.limo/post/2555/</link><pubDate>Sun, 23 Jun 2013 00:23:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2555/</guid><description>&lt;p&gt;找每次换工作的间隙，我总要折腾一遍博客。除了有闲功夫，也是希望提升自己的作品质量。这么一个简单的纯信息展示类网站，我已经改过数不清次版了。我还记得第一版个人博客用了一张巨大花哨的海星图片作为背景，文字淡到看不清，颜色用了不下5种。直到上一版，本博客才第一次能称得上一件合格的产品，在那之前，只是一味在设计花哨的首页而已&lt;/p&gt;
+&lt;p&gt;不管怎么说，这算是我最早的一件互联网产品。我对于视觉设计与用户体验的理解，有相当一部分来源于这个产品的反复折腾，同时也逐渐形成自己的设计风格与理念。我在其中所扮演的角色，涵盖了产品经理、交互、视觉、开发、运营，更能让我从不同的角度考虑产品，虽然做不到那么专业&lt;/p&gt;
+&lt;p&gt;上一版的视觉语言可以用这么几条来概括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;扁平设计，纯白背景&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;无边框，大空隙&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;以草绿与橙色为主色，提亮关键信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;圆作为视觉符号广泛使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/1.jpg"
+loading="lazy"
+alt="博客改版前后对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;此次改版仍然延续了之前的部分视觉语言，重点在于优化了关键信息的展现方式，并且重新设计了几张特殊页面。主色略有变化，用砖红代替了纯度较高的橙色，可以令色调更加轻松缓和。圆的运用也不到位，使用过多略感凌乱，改为圆角方形，立马就有点APP化的感觉了&lt;/p&gt;
+&lt;p&gt;主导航的动画效果是个亮点，稍稍改变形状，继续保留。其实这里做了一个很细微的视觉差滚动，滚动条往下滚时，LOGO会加速向上移动。导航按钮后方的轴线，也会略微下移，变成悬浮导航的背景阴影&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/2.jpg"
+loading="lazy"
+alt="新博客首页设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;文章标题信息我不爽很久了，标题和时间在一头，评论数和分类在另一头，谁会这么来回两头看啊？（说得好像这个不是出自我手似的……）当时的考虑是，整个页面的宽度显示文字段落，看着太累，我把文字区域宽度限制在650像素，那空出来的部分放点什么呢？于是就有了这两个突兀的圆&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/3.jpg"
+loading="lazy"
+alt="博客导航结构优化"
+&gt;&lt;/p&gt;
+&lt;p&gt;的确，当美观与实用性冲突的时候，一味追求视觉效果，很容易做出愚蠢的产品。实际上，冲突，不代表两者不可兼得。改换思路，大胆抛弃曾经引以为豪的小把戏，从实用性出发，总能找到同样美观的解决方法&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/4.jpg"
+loading="lazy"
+alt="博客响应式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;header和footer是这次首页改版的重头戏，header的搜索与二维码使用频率很低，应该扔到底部去，至于登陆注册入口，只对我本人有用，果断隐藏。这样header就干干净净只剩个LOGO了，很好&lt;/p&gt;
+&lt;p&gt;footer内容多起来了，可以考虑用较重的色调与内容区域区分开。个人的外站链接、友链、搜索和版权信息都加大。显示器分辨率越来越高，网页设计也不该再拘泥于12、14像素字的尺寸。其实这个思想早已被大量国外网站实践过，放在这里的确适用&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/5.jpg"
+loading="lazy"
+alt="博客加载速度优化"
+&gt;&lt;/p&gt;
+&lt;p&gt;真正改变大的，不是首页，而是两个与求职密切相关的特殊页面：作品和关于我&lt;/p&gt;
+&lt;p&gt;旧版作品页已经看不到了，简单说是图片墙形式。类似于&lt;a class="link" href="http://songtaste.com/" target="_blank" rel="noopener"
+&gt;songtaste首页&lt;/a&gt;，只是图片较大。点击小图弹出浮层显示大图，在大图界面中可以直接前后翻页&lt;/p&gt;
+&lt;p&gt;实际浏览中，没人会打开关闭再打开关闭，使用者打开了大图界面，就会直接通过翻页浏览所有作品。而且设计作品涉及不同领域，每个领域的作品也有时间和类别区分，我设定的图片顺序是有它意义在的。既然如此，整这个图片墙干什么呢？这个作品页面其实更应该看作一部幻灯片，那么给个播放按钮就行啦，详细的内容，都靠图片说话&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/6.jpg"
+loading="lazy"
+alt="博客主题配色"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/7.jpg"
+loading="lazy"
+alt="博客字体选择"
+&gt;&lt;/p&gt;
+&lt;p&gt;关于我之前非常简陋，有一小段基本信息，接下来就是朋友熟人的评价，都是纯文字列表展示，大量文字可没谁有耐心看下去。数据类尽量都图形化，其他内容也需要合理组织起来。整理过后，各种内容就一目了然了&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/8.jpg"
+loading="lazy"
+alt="博客评论系统"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/9.jpg"
+loading="lazy"
+alt="博客分类归档"
+&gt;&lt;/p&gt;
+&lt;p&gt;博客类产品，最关键的就是图片与文字信息展示，展现方式是否合理，直接决定了读者的阅读耐心。与此相比，装饰性的设计，真没那么重要&lt;/p&gt;</description></item><item><title>丸子烘焙LOGO诞生记</title><link>https://victor42.eth.limo/post/2470/</link><pubDate>Tue, 23 Apr 2013 21:21:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2470/</guid><description>&lt;p&gt;应蜡笔小丸子要求，给她即将开业的手工蛋糕店设计LOGO一枚。首先要帮推广一下，&lt;a class="link" href="http://shop63958548.taobao.com/?spm=0.0.0.0.ZO8zQN" title="丸子烘焙"
+target="_blank" rel="noopener"
+&gt;丸子烘焙&lt;/a&gt;的手工蛋糕与饼干那真的是相当好吃啊，本人已经争当过无数次小白鼠了&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/1.jpg"
+loading="lazy"
+alt="丸子烘焙品牌LOGO成品：巧克力蛋糕配草莓蝴蝶结与店名"
+&gt;&lt;/p&gt;
+&lt;p&gt;先上成品图。言归正传，吃了人家东西还是要干活滴，来看看关键的几条需求：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;丸子烘培，这是店名，没有英文名，这里的丸子其实是指樱桃小丸子&lt;/li&gt;
+&lt;li&gt;店里的商品以手工蛋糕为主，饼干和其他甜品较少&lt;/li&gt;
+&lt;li&gt;LOGO采用图案配文字的方式呈现，图案为主文字为辅&lt;/li&gt;
+&lt;li&gt;颜色最好是深棕色&lt;/li&gt;
+&lt;li&gt;图案的造型她提出了一个思路，多层蛋糕的侧面&lt;/li&gt;
+&lt;li&gt;最后一点，欧式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我把自己的设计收藏夹展示给丸子看，她对这几个LOGO比较感兴趣&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/2.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO参考：墨西哥披萨风格圆形仙人掌标志"
+&gt; &lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/3.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO参考：美味房地产饼干房屋图形标志"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/4.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO参考：奢华度假村品牌标志设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;从前两个LOGO来看，具象的蛋糕图案是比较符合要求的方案，直接表现店铺的主营产品，而且图案内容还带有双关性质，是两件事物的组合。第三个LOGO则代表着另一个方向，抽象、简洁、规则的图案，显得专业且可靠。脑海里大致有了思路，既然是小丸子蛋糕，那LOGO图案与字体很自然最适合卡通甜美风。至于欧式，看似冲突，实则是指蛋糕，而非LOGO风格。再说颜色，对于蛋糕，深棕色能让人产生巧克力酱的联想，搭配色也应该是能够勾起人食欲的暖色&lt;/p&gt;
+&lt;p&gt;首先要考虑的是图案造型，我没有绘画基础，更需要多找些图片参考和观察，并且思考丸子与烘焙如何在一个图案中自然结合&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/5.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO参考资料：蛋糕、樱桃小丸子与甜品拼贴"
+&gt;&lt;/p&gt;
+&lt;p&gt;接下来该着手画草图了，信手涂鸦时往往会画出一些自己也意想不到的东西，答案也许就藏在其中。当然也会冒出很多有趣却帮不上忙的东西，比如那两个胖版小丸子……&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/6.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO设计初稿：手绘蛋糕与卡通头像草图"
+&gt;&lt;/p&gt;
+&lt;p&gt;嗯……草图一画，似乎找到了结合点，丸子的发型！果酱或巧克力酱流淌产生的不规则形状，和小丸子的发型相似。如果在蛋糕顶上加上蝴蝶结，小丸子的形象就更加鲜明了。丸子说蝴蝶结能不能做成草莓的样子，这是个好主意，小丸子的象征符号，对于蛋糕的造型同样有意义&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/7.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO设计修改稿：蛋糕形象演化过程示意"
+&gt;&lt;/p&gt;
+&lt;p&gt;做完这一款觉得不满足，想着要再换个造型，并且要满足一下丸子同学那两个被忽略的需求：多层蛋糕侧面、欧式。继续观察参考图，多层蛋糕看上去确实漂亮，厚厚的奶油，两层中间再夹着些水果，看起来相当有食欲。又想起亲自吃过的21cake，方形蛋糕很有现代感，也有几分欧式的韵味。于是把草图最下面的那个造型加工一下，另一款LOGO成型了。造型虽然仍是卡通风格，蛋糕却有那么点欧式的味道了&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/8.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO设计优化稿：方形多层蛋糕造型演变"
+&gt;&lt;/p&gt;
+&lt;p&gt;然后该设计字体了。用现成的字库打了几组出来对照，其中迷你简卡通和华康少女体看着相对顺眼。仔细观察发现两者的笔划都比较圆润可爱，美中不足是迷你简卡通的笔尖有棱角，而华康少女体的笔划过于纤细，显得LOGO比例失调。不过这样就足够了，找到问题和方向，咱自主设计&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/9.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO字体设计手稿：多种字体与店名尝试"
+&gt;&lt;/p&gt;
+&lt;p&gt;本人的手写非常之难看，对字体设计也是相当不在行，于是打算从简。本来有想过要设计成无印良品那种风格硬朗的字体，笔划简单也容易更改。顺手画了几个字，发现确实有可取之处，却不能照搬。笔划要粗，但不能有棱角，而且横平竖直显得过分严谨&lt;/p&gt;
+&lt;p&gt;我又尝试了连笔的写法，不过烘焙两个字笔划略多，处理不当容易与丸子二字风格不统一，最终还是选择了无连笔的方向。适当违反正常笔划，人为制造一些断裂、倾斜和弯曲，同样能让字体活泼起来。在AI里绘制的过程中，我又有新发现。原来笔划的棱角处，我全都做成了弧度相近的圆头，字体的确是够圆润，却总觉得呆板。把笔划的弧度改得再随意些，该钝的钝，该锐的锐，微调笔划粗细，总体保持圆润柔和，顿时豁然开朗&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/10.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO字体定稿：从手写草图到圆润标准字"
+&gt;&lt;/p&gt;
+&lt;p&gt;图案与文字组合起来，两种方案看上去都挺顺眼，丸子还专门微博发起了投票，她和我本人都还是倾向于左边方案&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/11.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO最终方案：巧克力蛋糕蝴蝶结组合标志"
+&gt; &lt;img src="https://cdn.victor42.work/posts/2013-04/04-23/12.jpg"
+loading="lazy"
+alt="丸子烘焙LOGO备选方案：方形多层蛋糕与店名组合"
+&gt;&lt;/p&gt;
+&lt;p&gt;只是有网友评价左边有点像天灵盖，好吧……LOGO设计就怕这种联想，这么想过一次之后就再也止不住了。所以，我很想对那位网友说：&lt;/p&gt;
+&lt;h2 id="还我的logo啊啊啊啊啊啊坏银"&gt;还我的LOGO啊啊啊啊啊啊坏银！！！
+&lt;/h2&gt;</description></item><item><title>瓶盖为什么不可以是方形的</title><link>https://victor42.eth.limo/post/2063/</link><pubDate>Sun, 20 Jan 2013 00:04:19 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2063/</guid><description>&lt;p&gt;意识流就是神奇，下楼吃晚饭的路上，不知怎么忽然想起刘仪伟这个人，现在算也是小有名气的喜剧明星了。最近一次看到他，是铁齿铜牙纪晓岚里的那个算命先生，虽然他演的有点假，但不得不说他身上还是有与生俱来的喜感。我很小的时候，在他进入影视圈之前，看过他主持的厨艺类节目。还是那个万年不变的小平头，穿着小围裙手里忙着倒腾锅碗瓢盆。食用油的瓶盖从他手里滑落，在槽台上滚了起来。刘仪伟一掌就把它摁住了，像赵本山的老虎摁住王八一样，口中还振振有词：“盖子想跑？哪里跑！”&lt;/p&gt;
+&lt;p&gt;我对他最深的记忆便是这一段了，这一定是突发情况，不可能事先安排，可见他的幽默细胞在那时候就体现出来了。不过我扯得有点远，因为接下来脑海中出现的和本文要写的，都与刘仪伟没有半点关系&lt;/p&gt;
+&lt;p&gt;瓶盖掉落逃跑的事件在我和身边朋友身上发生过无数回了，特别像矿泉水瓶盖这样的形状，可以滚去很远。所以我们还得跑很远去把它捡回来，如果这发生在马路上，还真令人提心吊胆&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-01/01-20/1.jpg"
+loading="lazy"
+alt="散落的圆形塑料瓶盖说明瓶盖容易滚动的问题"
+&gt;&lt;/p&gt;
+&lt;p&gt;那么，我们平时是如何使用瓶盖的？&lt;/p&gt;
+&lt;p&gt;最常见的瓶盖是靠螺纹的摩擦力固定在瓶子上，能够隔绝空气保护瓶内的食物，使用者打开瓶盖靠的是手指的摩擦力旋转打开。这个动作叫做拧，拧毛巾的拧，它很形象地表达了打开瓶盖的过程。有些做工很严实，力气小的人还打不开，甚至有时我也要求助他人。瓶盖上往往都有竖条纹来增大摩擦力，尽管这在一定程度解决了打开困难的问题，但为了开个瓶盖手掌生疼，这并不是一件让人开心的事情&lt;/p&gt;
+&lt;p&gt;瓶盖为什么不可以做成圆角的方形呢？方形防止瓶盖滚动，开瓶时由于有力矩的作用，比纯靠摩擦力轻松多了，竖条纹也不需要了，那种锯齿般的触感让人难受&lt;/p&gt;
+&lt;p&gt;网上一搜，还确实有这样的瓶盖，但它并没有投产，仅仅是件拿了红点奖的学生作品&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-01/01-20/2.jpg"
+loading="lazy"
+alt="圆角方形瓶盖设计展示防滚动和便于旋拧的思路"
+&gt;&lt;/p&gt;
+&lt;p&gt;究其原因，想必还是出于成本考虑，这也无可厚非。由于瓶口还是圆形的（这点未必，但至少我没想到其他思路），方形瓶盖势必要在外面再多用一层材料。每天产量惊人的塑料瓶，所装的大多是快速消费品，成本的重要性显然高过了使用体验。所以这篇日志相当于说了一段大白话，但也并非完全如此&lt;/p&gt;
+&lt;p&gt;我是个消费者，产品最终变成什么样子，我们消费者自己也脱不了干系。这些缺乏人性缺乏尊重的产品长期折磨着我们，当我们逐渐失去较真儿的劲，厂家自然可以无所顾忌地专注于成本&lt;/p&gt;
+&lt;p&gt;麦片包装袋开口极其吝啬，又没有标识，想撕开需要瞪大眼睛找一圈。衣帽架支架完全靠摩擦力固定，随手拎起就变两截。由于管子是弯的，洗手液有一部分永远也压不出来。明明两相的插头，设计成圆形，插上就把三相口挡住了。弧形电脑桌，打开抽屉就拉不出键盘，拉出键盘就打不开抽屉……&lt;/p&gt;
+&lt;p&gt;光是我自己住的地方就有这么多侮辱消费者智商的产品，怎么不叫人生气。且不说要如何人性贴心，先天残疾的都多如牛毛。如果这些二逼设计都能容忍，我们是不是也可以安然回到洞穴中生活了？&lt;/p&gt;</description></item><item><title>商业站升级小记 - UI篇</title><link>https://victor42.eth.limo/post/1852/</link><pubDate>Thu, 20 Sep 2012 19:36:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/1852/</guid><description>&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/1.jpg"
+loading="lazy"
+alt="商业站UI升级方案展示图，含多个界面模块"
+&gt;&lt;/p&gt;
+&lt;p&gt;公司的视频聊天交友软件升级项目，视觉部分已经告一段落，很长一段时间都在配合开发做一些功能上的细微调整，才终于有时间来好好整理一下整个项目的经过。从最初的概念稿，到概念稿发布评审，产品制定需求与交互，再交到我手中开始全面的设计工作，直至最终完成通过评审，将近两个月过去了。一套完全不同的视觉风格，从无到有，再逐渐完善成熟，历数整个过程，受益良多&lt;/p&gt;
+&lt;p&gt;这次升级主要目的在于提升视频交友软件的视觉体验，对产品功能的改动不大。现有的客户端界面仍然是典型的传统框架式布局，区块划分鲜明，旧式的重纹理，白底黑字配以彩色的小尺寸像素图标，俨然一副table时代网页的模样&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/2.jpg"
+loading="lazy"
+alt="原网站首页界面截图，显示传统框架式布局设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;观察竞争对手的产品，其界面也不外乎如此。如何从外观与操作上使我们的产品脱颖而出？我们需要引入一种新的视觉概念：一体化设计。打破区块束缚，拓宽用户的视野，以引导的方式帮助用户完成各项操作，而非罗列全部功能供其选择&lt;/p&gt;
+&lt;p&gt;为此，我以聊天室大厅界面为例，设计了如下的概念图&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/3.jpg"
+loading="lazy"
+alt="网站导航栏优化设计概念方案效果展示图稿一"
+&gt;&lt;/p&gt;
+&lt;p&gt;第一次从网页转做UI，貌似有那么点味道，不过细节仍有待提升。灵感有部分来源于微软的metro风格，内容即全部。直到后来office 2013发布，才发现自己的设计理念果然和微软在某些方面不谋而合&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/4.jpg"
+loading="lazy"
+alt="网站响应式布局设计灵感来源效果展示图稿一"
+&gt;&lt;/p&gt;
+&lt;p&gt;但这毕竟不是一款严肃的办公软件，过分追求简洁与清爽会丧失产品的活力。而我们的视频交友软件首先要体现的，便是娱乐性&lt;/p&gt;
+&lt;p&gt;最大限度的保持原有的功能与用户习惯，在表现方式上体现时尚与趣味。于是对之前方案进行改进，产生了如下设计&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/5.jpg"
+loading="lazy"
+alt="网站整体色彩搭配方案设计效果展示图稿一一份"
+&gt;&lt;/p&gt;
+&lt;p&gt;继续弱化区块，使整个界面浑然一体。加大房间图片，将房间信息紧凑排列。去除各种表意不清却扰乱视线的小图标，用文字与纯色图案代替。单从内容的表现与吸引程度来看，已大大胜过现有界面&lt;/p&gt;
+&lt;p&gt;概念版界面评审通过，产品定下需求与部分交互界面，正式的设计工作开始了。在一次完整的产品使用流程中，除去各种提示框与弹出窗口，用户会遇到4个主要的界面：站点导航、登陆、大厅、房间&lt;/p&gt;
+&lt;h3 id="1-站点导航"&gt;1. 站点导航
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/6.jpg"
+loading="lazy"
+alt="网站站点导航按钮与图标设计效果展示图稿一"
+&gt;&lt;/p&gt;
+&lt;p&gt;一体化设计的概念，从这个站点导航界面便开始刺激用户的眼球，这是用户见到的第一个界面，立刻带来耳目一新的感觉。在这种简洁的风格下，整齐的布局尤为重要，保持无边界的内容区域完整不散乱&lt;/p&gt;
+&lt;h3 id="2-登录"&gt;2. 登录
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/7.jpg"
+loading="lazy"
+alt="网站登录表单界面设计效果方案展示图稿一一份"
+&gt;&lt;/p&gt;
+&lt;p&gt;在这次的改版中，登陆窗口仍然采用主流的客户端软件布局方式。因为以表单为主的界面对用户来说极其敏感，轻微的困惑也足以让用户放弃一个产品&lt;/p&gt;
+&lt;p&gt;登录界面除了表单，还有广告与活动推广图片。这些运营层面的内容，在这个朴素的界面上极其抢眼。尽管我本人喜欢清爽的东西，但如果结合得恰到好处，这些内容反倒能为产品增色&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/8.jpg"
+loading="lazy"
+alt="网站登录窗口卡片布局设计效果展示图稿一一份"
+&gt;&lt;/p&gt;
+&lt;p&gt;比起以往边界清晰棱角分明的广告图，以背景图的方式展现推广信息自然是更好的选择。对于这个不大的登录窗口，空间的利用方式也更加合理，富有层次感&lt;/p&gt;
+&lt;h3 id="3-大厅"&gt;3. 大厅
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/9.jpg"
+loading="lazy"
+alt="网站聊天大厅主界面设计效果方案展示图稿一"
+&gt;&lt;/p&gt;
+&lt;p&gt;功能区块都融合为一个整体，释放出更多的空间。留出的空间用于放大主要内容区域，或仅仅是留白。主次分明能为产品增添活力&lt;/p&gt;
+&lt;p&gt;房间的内容区域采用了横向滚动的设计，类似于windows 8的应用商店。原先挤在一起的内容平铺开来，展现形式可以更加丰富。水平移动符合人眼的活动规律，给人一种视野宽广的感觉，也符合这次改版的视觉概念&lt;/p&gt;
+&lt;h3 id="4-房间"&gt;4. 房间
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/10.jpg"
+loading="lazy"
+alt="网站聊天房间主界面设计效果方案展示图稿一"
+&gt;&lt;/p&gt;
+&lt;p&gt;房间是变化最小的，这个界面功能最为复杂，且没有一项可以被删减甚至隐藏，布局也无法改变。体现在这个界面上的，更多是扁平化的色块设计与图标的统一规整&lt;/p&gt;
+&lt;h3 id="5-辅助元素"&gt;5. 辅助元素
+&lt;/h3&gt;&lt;p&gt;软件界面的各种辅助元素也进行了升级设计，提示框系统随之平面化。通过不同颜色的顶部线条，来区分正确、警告、错误、进度条等场合&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/11.jpg"
+loading="lazy"
+alt="积分商城兑换成功提示弹窗，展示精简扁平的浅灰底色与深青色按钮"
+&gt; &lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/12.jpg"
+loading="lazy"
+alt="网站错误提示弹窗页面设计效果展示图稿一一份"
+&gt; &lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/13.jpg"
+loading="lazy"
+alt="网站空白状态提示页面设计效果展示图稿一一份"
+&gt; &lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/14.jpg"
+loading="lazy"
+alt="网站操作成功提示弹窗设计效果展示图稿一一份"
+&gt;&lt;/p&gt;
+&lt;p&gt;另外，站点的LOGO也全部设计了相应的配套风格。单色的LOGO比彩色更贴合一体化的设计风格&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/15.jpg"
+loading="lazy"
+alt="网站移动端适配设计概念方案效果展示图稿一"
+&gt;&lt;/p&gt;
+&lt;p&gt;这一版UI较以往变化很大，为帮助用户尽快熟悉新界面的使用，提示引导系统不可或缺&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-09/09-20/16.jpg"
+loading="lazy"
+alt="网站新手引导提示设计概念效果展示图稿一一份"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;结语&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;尽管这次更新的主要目的是视觉提升，所有界面从头到尾设计下来，我对这款软件本身以及它背后的需求与定位都有了更深入的了解。视觉提升固然能够吸引用户，留住用户却要靠一些其他的东西。其实需要改进的并不仅仅是外观，交互流程不够简明，不少功能易使用户混淆，产品背后的逻辑也存在更合理的可能。当然，这些都只是我个人抛开了实际情况的理解。无论如何，这款视频交友软件要成为优秀的产品，还有很长的路要走。希望本次更新能为这个目标铺平道路，期待下回重大版本更新时，这款产品能够从里到外焕发耀眼的光芒&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;吐槽的分割线 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以下内容我就不便发在设计团队博客上了，决定在自己博客里咆哮一下&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一家开发人员懒得生蛆的公司是木有前途滴！木有前途滴！！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以上所有效果图，都是和开发协商过后的修改版，已经比最初的纯视觉稿难看了不少，开发还在不停提要求，“这几种窗口能不能做成一样大小？我这里不好做”、“这个进度条就不要了吧，用文字来表现”、“这个你看看腾讯是怎么做的，他们都有这个按钮”、“这里改一下吧，弹出一个层盖在上面，我就好做多了”、“这张图切给我一下”、“这图给我切一下”、“这张图切一下”……&lt;/p&gt;
+&lt;p&gt;你以前的公司切图是切一张给一张的么？我TMD整个软件的图全都切好了按文件夹分类命名好给你，还一张张问我要！同类按钮拼在一张图上又要我切开，就为了你少写十几行代码，我就要多切几十张图么？看看腾讯？你就只认识腾讯吧？截个图给我叫我参考QQ的卸载界面，拜托您老先搞清楚QQ和QQ旋风是两个软件！截图敢不敢好好截，那么大个界面，你就截个按钮，上面写着确定两个字，然后告诉我这个界面不对，我TM是神仙啊！？功能你实现不了，我们没意见，保证产品质量的前提下，修改设计给你提供折衷方案，你麻烦事还特么这么多，尼玛开会的时候怎么就不吭声了？产品经理都没有意见的效果图，你给老子来那么一大堆有的没的，敢情你才是产品经理啊！&lt;/p&gt;
+&lt;p&gt;铁打的程序员，流水的产品经理。最近产品部貌似换人挺勤，前几天又有个来接手这项目，问我要全套效果图。我终于明白了，因为咱压根儿就不缺产品经理，咱的开发就是产品经理！&lt;/p&gt;
+&lt;p&gt;好了……喷完了，心情舒畅。对事不对人，这个开发尽管很难沟通，但我目前还没看出他的品行有什么问题。我不会因为工作能力和工作方式的原因和同事吵起来，不过这样的工作方式继续下去，任何美好的蓝图最终都会成为泡影。等着瞧吧，这次产品升级的结果一定面目全非&lt;/p&gt;</description></item><item><title>隐形设计</title><link>https://victor42.eth.limo/post/1633/</link><pubDate>Thu, 07 Jun 2012 01:23:18 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/1633/</guid><description>&lt;p&gt;最近在读原研哉&lt;a class="link" href="http://book.douban.com/subject/1941558/" title="原研哉《设计中的设计》"
+target="_blank" rel="noopener"
+&gt;《设计中的设计》&lt;/a&gt;。以前读过的书都会争论一个问题，设计究竟该归于艺术还是科学，这本书却完全没有提及&lt;/p&gt;
+&lt;p&gt;因为，它两者都不属于&lt;/p&gt;
+&lt;p&gt;设计就是生活，优秀的设计，最不易被察觉，是隐形的&lt;/p&gt;
+&lt;p&gt;wordpress博客主题我已经做过不下五款了。由于是个人博客可以随意折腾，从布局版式到评论表单，都极尽所能地天马行空。只是这样的花哨设计，让我极少思考设计在这其中所发挥的作用，以及它的本质是什么&lt;/p&gt;
+&lt;p&gt;恰好最近在负责公司UED团队blog的设计，商业化的东西不能太异想天开，需要规矩一点。这么一来，如何在大众化的博客布局上出彩？这才令人想起要回归设计的本质。在设计评论表单的时候，这个毫无新意的元素反倒费了我不少功夫……&lt;/p&gt;
+&lt;p&gt;一个标准的wordpress评论表单，用户名、邮箱、网站链接、评论正文、提交按钮，没了。而且还要符合博客本身干净简洁的设计风格，这能出什么花样？&lt;/p&gt;
+&lt;p&gt;想起书中提到深泽直人的伞筒设计，伞筒的本质是什么？一个可以整齐排列雨伞的容器。他的设计却完全异于传统意义上的伞筒，严格来说那根本就不是一个容器，仅仅是离墙根有点距离的一条地面沟槽。人们却会不自觉地将伞尖放进沟槽中，把伞依靠在墙边，整齐列成一排。于是，伞筒的功能实现了&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-06/06-07/1.jpg"
+loading="lazy"
+alt="博客评论表单初始状态，输入框内显示灰色提示文字"
+&gt;&lt;/p&gt;
+&lt;p&gt;回归本质……那输入框的本质是什么呢？是用户填写信息的地方。为了让用户了解他应该填写什么，都会有提示文本。通常的做法，是把提示文本写在输入框的一侧。用户会看一眼旁边的提示文本，再把视线移回输入框，开始填写信息。为何不让用户只看一个地方就好呢？于是我把提示文本移进了框中&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-06/06-07/2.jpg"
+loading="lazy"
+alt="博客评论表单获得焦点时提示文字隐藏的状态"
+&gt;&lt;/p&gt;
+&lt;p&gt;输入框获得焦点时，提示文本便隐藏起来，当前输入框亮起蓝色发光边框&lt;/p&gt;
+&lt;p&gt;用户会有各种各样的行事风格。理想中的用户，在输入之前会阅读框中的提示文本。与此相对应，一定存在看都不看就直接输入信息的用户。但他发现点击了输入框之后，提示文本没有了，又忽然记不起该输入什么。对于这部分用户，真的需要把提示文本写在旁边，或者在他输入第一个文字之后再隐藏提示文本（但我个人不喜欢光标与提示文本重叠，看着眼花）。既然两者不可兼得，请允许我擅自决定，把这个细节作为对那些粗心用户的小小惩罚&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-06/06-07/3.jpg"
+loading="lazy"
+alt="博客评论表单用户名已输入黑色文字的显示状态"
+&gt;&lt;/p&gt;
+&lt;p&gt;可以发现，提示文本的字色与用户自己输入的字色不同，两者的色值分别是#aaa与#444。用户只需要填过其中一个输入框，就会发现颜色上的区别，从而条件反射地将颜色与输入框内容状态联系起来&lt;/p&gt;
+&lt;p&gt;想象一下，如果颜色不加以区分，视力不怎么好的用户，也许会忘记自己填过哪些，或者仅仅是想确认一下。于是他们接下来的动作很可能是凑近显示屏，阅读文本内容来判断哪些输入框已经填过，这绝对令人沮丧&lt;/p&gt;
+&lt;p&gt;若用户把填写好的内容删除，相应输入框的提示文字又会出现，并且变为之前的灰色。这个细节告诉用户，此处的内容刚刚被你删除了，现在输入框又恢复到待填的状态&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-06/06-07/4.jpg"
+loading="lazy"
+alt="博客评论表单电子邮箱已填写内容的完成状态图"
+&gt;&lt;/p&gt;
+&lt;p&gt;最后我自己体验了一遍。从灰色的提示文本，到框中填满黑色的用户信息，这整个过程比较自然，没有什么吸引或分散我注意力的事情&lt;/p&gt;
+&lt;p&gt;设计完成后不禁捏了把汗，一个小小的评论表单竟也有如此多名堂。而我之前的作品，究竟遗漏了多少东西？那些对用户发表演讲般的设计，完全没有与人交流的诚意，如果用户仍然感觉到了设计的存在，就一定还有可以改进的余地&lt;/p&gt;</description></item></channel></rss>

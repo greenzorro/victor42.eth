@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>统计学 on Victor42</title><link>https://victor42.eth.limo/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/</link><description>Recent content in 统计学 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 03 Aug 2023 14:30:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>Excel自制儿童生长曲线</title><link>https://victor42.eth.limo/post/3641/</link><pubDate>Thu, 03 Aug 2023 14:30:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3641/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg" alt="Featured image of post Excel自制儿童生长曲线" /&gt;&lt;p&gt;Excel狂魔上线，看完你会觉得我们可能用的不是同一个Excel&lt;/p&gt;
+&lt;p&gt;一篇把Excel玩出花来的折腾笔记，涉及数据可视化、AI工具、统计学、Excel公式。不用担心，我会以数据小白的角度来写，最基础的概念我都会解释。&lt;/p&gt;
+&lt;p&gt;不少宝爸宝妈使用育儿App来记录宝贝的生长，追踪身高体重变化。实际上，育儿App那么多功能，我也就用这一项，就为这个就要在手机上装个大几百Mb的App，这让我动了卸载的念头。我也不是真缺这几百Mb，只是忽然意识到，这也是个练手的好机会。不就是个数据分析工具嘛，我万能的Excel会搞不定？&lt;/p&gt;
+&lt;h2 id="系统规划"&gt;系统规划
+&lt;/h2&gt;&lt;p&gt;动手前，想清楚这事情该怎么做。首先来看看育儿App的生长曲线是怎么回事。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/4b1f944ddce86b103a4d13f3d87cc292.jpg"
+loading="lazy"
+alt="宝宝树App体重曲线页面，横轴为月龄从8个月到14个月，纵轴为体重kg从4到44，显示3%/25%/50%/75%/97%五条参考线，绿色数据点沿50%线附近分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;这是宝宝树的儿童生长曲线。中间的50%线是中位数，如果我宝贝的身高（体重）刚好落在这条线上，说明这个月龄比她高（重）的宝贝和比她矮（轻）的宝贝人数大概一样多。往上的75%线和97%线，表示这个位置身高（体重）超过75%和97%的同龄宝贝，往下的25%和3%同理。看宝贝的数据点落在什么位置，大概就知道她生长状况相对整体如何。&lt;/p&gt;
+&lt;p&gt;我要的也是一个类似的分析工具，它应该具有以下能力：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;能记录宝贝每次测得的身高体重&lt;/li&gt;
+&lt;li&gt;能查询各月龄的身高体重正常范围&lt;/li&gt;
+&lt;li&gt;能清晰表达我宝贝各月龄身高体重偏离正常范围的程度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;至于这东西是不是个图表、有没有曲线，不重要。重要的是第3点，它的计算能力，能衡量偏离程度，并用一种直观的方式表示出来。这一点我认真构思了一下，觉得比较适合的表现形式是有两个方向的条形图，类似这种：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/51645a0d58eb8f178201bf94e5759ab0.jpg"
+loading="lazy"
+alt="双向条形图Birth Rate by Years，中间为年份1940-2010，左侧橙色条表示20-25岁母亲生育率，右侧蓝色条表示30-35岁母亲生育率"
+&gt;&lt;/p&gt;
+&lt;p&gt;这类图表叫做diverging bar chart，不知道中文叫什么。它可以把两组数据在同一个维度上两两对比。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/e448352c2994787d901a185b08c8d234.jpg"
+loading="lazy"
+alt="R语言Diverging Bars示例图，展示mtcars数据集汽车油耗与均值偏差，绿色Above Average向右，红色Below Average向左"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果只用来表达一组数据，它反映的就是该数据围绕某个基准值的方向及距离，最常见是表达正负。&lt;/p&gt;
+&lt;p&gt;这很适合用来表示我宝贝的生长数据，以参考值的中等水平作为基准值，表现女儿的身高（体重）是偏低了还是偏高。至于偏离基准值多远，图表用柱子长短来表达，柱子长短的差异有时不是那么明显，我觉得应该进一步简化，只使用符号。低于基准值用减号，高于基准值用加号，偏离越多符号就越多，这样当我看到三、四个加号（+++）减号（&amp;mdash;-）时，就知道宝贝的生长趋势该引起重视了。&lt;/p&gt;
+&lt;h2 id="准备数据"&gt;准备数据
+&lt;/h2&gt;&lt;p&gt;有了具体目标，该开始干活了。先实现前2项能力：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;能记录宝贝每次测得的身高体重&lt;/li&gt;
+&lt;li&gt;能查询各月龄的身高体重正常范围&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="宝贝生长数据"&gt;宝贝生长数据
+&lt;/h3&gt;&lt;p&gt;宝贝的身高体重数据存在宝宝树App里，形式如图（月龄的左边还有一行日期，不想暴露女儿生日，没截进来）：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/235b2773b1b549f5fd1e0f7c0109a66e.jpg"
+loading="lazy"
+alt="宝宝树App儿童生长记录列表截图，显示1岁3个月17天/1岁2个月16天/1岁1天/11个月15天/9个月25天等记录，包含身高cm/体重kg/头围cm数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;宝宝树没有数据导出功能。虽然我可以一条条手动输入到Excel，但难道不该用聪明点的办法吗？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/129e9d7d3955d9993665691008c1ed88.jpg"
+loading="lazy"
+alt="Google Play商店ScreenMaster Screenshot Markup应用页面，Blossgraph开发，4.5星77.6K评价，5M&amp;#43;下载量"
+&gt;&lt;/p&gt;
+&lt;p&gt;我先把宝宝树里的记录一屏一屏截下来，用了一个叫Screen Master的Android应用拼成长图。&lt;/p&gt;
+&lt;p&gt;然后使用白描OCR工具（&lt;a class="link" href="https://web.baimiaoapp.com/" target="_blank" rel="noopener"
+&gt;https://web.baimiaoapp.com/&lt;/a&gt;）从长图中识别出文字，得到如下右侧结果：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/406e2e8b96b201bcd2c1dc7f81b6ca28.jpg"
+loading="lazy"
+alt="白描OCR网页端截图，左侧Origin Photo显示宝宝树生长记录截图，右侧Results显示识别出的文字内容，日期/身高/体重/头围数据混排"
+&gt;&lt;/p&gt;
+&lt;p&gt;这样格式错乱混在一起，乍看没法用。但在AI时代，这都不是事儿。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/804e5aee1ef71590beb2ce89bce6c424.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求将OCR识别内容改成表格形式，以日期为索引值首列，日期后面信息填入第2列以空格分隔"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/8d39c1dc3fbfcf00e004039bbd048a6c.jpg"
+loading="lazy"
+alt="ChatGPT输出表格截图，日期列和信息列两列，信息列包含年龄/体重/身高/体重/头围等混合数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/b8eb3273e39b3b1bd4f907e3b3be96ce.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把日期列改成M/D/YYYY的格式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/a9d0f842c04bd04b253d65f8f1859aae.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把信息列里的几岁几个月几天这样的信息删掉"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/ec608ab8c15ca818cd40b3a43f3efc6b.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把信息列拆分成身高/体重/头围三列，kg单位数据填入体重列，cm单位数据填入身高列，第二个cm数据填入头围列"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/288d76243237d4eb503a3277996cf976.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把每列的单位写到表头里，列内容只保留数值，同时把头围列里的补充营养提示删掉"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/375eb891054588a05fca2c0829970791.jpg"
+loading="lazy"
+alt="ChatGPT输出清洗后表格截图，包含日期/身高cm/体重kg/头围cm四列，日期列模糊处理，数值列仅保留数字"
+&gt;&lt;/p&gt;
+&lt;p&gt;搞定！复制到Excel即可。补充一下，表里的日龄、月龄、年龄是用记录日期减去女儿生日得到的，自动计算无需手填。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/46d9b3e18b0c825b6cd33a70f32a6b75.jpg"
+loading="lazy"
+alt="Excel儿童生长记录表截图，包含日期/日龄/月龄/年龄/身高cm/体重kg六列，日期列模糊处理，日龄从0到151，月龄从0到5"
+&gt;&lt;/p&gt;
+&lt;h3 id="正常范围标准"&gt;正常范围标准
+&lt;/h3&gt;&lt;p&gt;各月龄的身高体重参考值，在卫健委的网站可以找到。2022年发布的标准，还蛮新的，编号是WS/T 423—2022，跟宝宝树同一个数据源：
+&lt;a class="link" href="http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf" target="_blank" rel="noopener"
+&gt;http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;里面找到了格式如下的数据，正是我要的：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/344c3b29e936a24e30101cc5f27f1488.jpg"
+loading="lazy"
+alt="卫健委7岁以下女童年龄别体重标准差数值表，包含年龄/-3SD/-2SD/-1SD/中位数/&amp;#43;1SD/&amp;#43;2SD/&amp;#43;3SD八列，从0月到2岁6月逐行列出"
+&gt;&lt;/p&gt;
+&lt;p&gt;稍微解释下这个表格的意思。中位数前面讲过，这里最关键的是看懂这个“SD”，Standard Deviation，标准差。这是个非常基础的统计学术语，在解释标准差之前，我们需要先了解正态分布。要知道，卫健委统计的儿童身高体重，样本量一定是非常大的，也就是说测量了很多很多儿童的身高体重。身高体重这种随机产生的数据，只要样本量够大，每个儿童的数值就会围绕平均数（这里它用的是中位数，与平均数应该很接近）呈正态分布。这是正态分布的样子：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg"
+loading="lazy"
+alt="正态分布钟形曲线图，横轴标注μ-3σ到μ&amp;#43;3σ，纵轴为概率密度，标注68.26%/95.44%/99.72%三个标准差区间占比"
+&gt;&lt;/p&gt;
+&lt;p&gt;横向是身高（体重）的值，由小到大，纵向是该身高（体重）对应的儿童人数。中央的垂直虚线代表中位数，绝大多数儿童的数据落在中位数附近，说明还是中等水平的儿童最多。越往两边去，人数越少，说明身高（体重）值特别低或者特别高的人很少，情况越极端，人数越少。&lt;/p&gt;
+&lt;p&gt;现在说回标准差。我们不谈公式，不做计算，不必关心它怎么来的，我们关心的是标准差和正态分布的关系。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg"
+loading="lazy"
+alt="正态分布钟形曲线图，横轴标注μ-3σ到μ&amp;#43;3σ，纵轴为概率密度，标注68.26%/95.44%/99.72%三个标准差区间占比"
+&gt;&lt;/p&gt;
+&lt;p&gt;标准差体现在正态分布图上，就是每两根垂直虚线间的距离，这些虚线是等距的。怎么理解标准差？它是正态分布的一把标尺，通过标准差，我们可以准确知道某个范围内的数据占总数的比例。比如我们可以说，有68%的儿童，身高（体重）在中位数上下一个标准差范围内。有95%的儿童，身高（体重）在上下两个标准差范围内。&lt;/p&gt;
+&lt;p&gt;要注意它名字里有“标准”二字，这两个字可不是随便说说的。标准差是正态分布的一个独特性质，不同的数据集算出的标准差数值可能不一样，但比例却是一致的。只要是正态分布，它1个、2个、3个标准差范围对应的占比就一定是68%、95%、99.7%，这就是神奇的地方。生活中各种各样的随机数据，都会呈现正态分布。所以只要我们知道了平均值（或中位数）和标准差，就可以知道手上任何一个数据在整体中所处的位置。&lt;/p&gt;
+&lt;p&gt;现在，回来处理数据，把卫健委表格复制到Excel，年龄全部折算成月龄：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/f3531f73796d53d8ffbdc8780b0177ab.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，包含月龄/体重-3SD到&amp;#43;3SD/身高-3SD到&amp;#43;3SD共17列，月龄从0到33逐行列出标准差数值"
+&gt;&lt;/p&gt;
+&lt;p&gt;表格里列出了每个月龄儿童身高（体重）中位数是多少，低于和高于中位数1、2、3个标准差位置的数值分别是多少。这就是我要的判断依据，知道女儿的身高（体重）在同龄宝贝里处于什么位置，相对于中等水平偏离得严不严重。&lt;/p&gt;
+&lt;h2 id="绘制曲线"&gt;绘制曲线
+&lt;/h2&gt;&lt;p&gt;接下来，要啃硬骨头了，来实现第3个能力，“表达我宝贝在相应月龄身高体重偏离正常范围多少”，这是实打实的Excel技巧。&lt;/p&gt;
+&lt;p&gt;现在我的Excel里有两张表格，一张记录着我宝贝各月龄的数据表，一张列出各月龄的正常值范围的参照表。我要做的是在宝贝数据表里新增几列偏离列，在里面查询参照表，得出偏离程度，以加减号的形式表现出来。减号写在左列，靠右对齐；加号写在右列，靠左对齐。这就实现了简化版diverging bar chart。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/45fffc7570cacc97388e354a71345ff4.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，包含日期/日龄/月龄/年龄/身高cm/身高偏离/体重kg/体重偏离八列，偏离列待填充"
+&gt;&lt;/p&gt;
+&lt;h3 id="匹配对照月龄"&gt;匹配对照月龄
+&lt;/h3&gt;&lt;p&gt;这个事情想想是不难，不就是拿vlookup去查嘛，月龄对上，然后一堆If嵌套对比数值大小，输出符号，肯定能搞定。&lt;/p&gt;
+&lt;p&gt;一动手发现没那么简单，因为卫健委表格的月龄有断档：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/5c73a637afedb7ab9c0b2aefb5cc7feb.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，红框标注24/27/30/33月龄行，显示2岁后每3个月才有一行数据，存在月龄断档"
+&gt;&lt;/p&gt;
+&lt;p&gt;它从2周岁开始，每3个月才出一行数据。这很合理，宝贝过了2周岁后，生长确实没有婴儿时那么快了，没必要那么频繁去追踪。但这影响到我的查询方法，如果我在宝贝25月龄的时候记录身高体重，直接用vlookup去查，什么也匹配不到，后续的计算便无从谈起。&lt;/p&gt;
+&lt;p&gt;此时有个土办法，规整数据，手动补全参照表。把缺失的月龄加上，用更小月龄的参照值来填充。比如把25、26月龄的参照标准都填成24月龄的。&lt;/p&gt;
+&lt;p&gt;但这是练手项目啊，拒绝土办法。我要在宝贝数据表里实现智能匹配！&lt;/p&gt;
+&lt;p&gt;于是再增加一个隐藏列，用来计算每行的月龄对应参照表里多大月龄。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/301413489ba78fc5a651e39f21d3ae30.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，红框标注新增的对照月龄列，显示月龄25时匹配24，月龄30时匹配30，实现向下匹配参照表"
+&gt;&lt;/p&gt;
+&lt;p&gt;这一列的公式如下：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(A2),&amp;#34;&amp;#34;,INDEX(&amp;#39;生长对照表&amp;#39;!A$3:A$46,COUNTIFS(&amp;#39;生长对照表&amp;#39;!A$3:A$46,&amp;#34;&amp;lt;=&amp;#34;&amp;amp;C2),0))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;翻译成人话是：先查日期列是不是空的，它空我也空。如果不是，就去参照表里数一数比宝贝月龄小或者相等的有多少行，这就实现了向下匹配。&lt;/p&gt;
+&lt;p&gt;在2周岁以前，月龄与对照月龄一定是相同的。我手动测试了一下，25月龄时如果有记录，它会匹配24月龄作为参照。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/fc8aef6e656e32053bdb2919ec2700b6.jpg"
+loading="lazy"
+alt="Excel表格截图显示#REF!错误，月龄25行对照月龄显示24，红框标注该行，演示公式引用错误情况"
+&gt;&lt;/p&gt;
+&lt;h3 id="计算偏离程度"&gt;计算偏离程度
+&lt;/h3&gt;&lt;p&gt;有了对照月龄列，不担心参照表匹配不上，现在可以放心在偏离列里做计算了。&lt;/p&gt;
+&lt;p&gt;以身高偏低列的公式为例：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(F2),&amp;#34;&amp;#34;,IF(F2&amp;gt;VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;&amp;#34;,IF(F2=VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;=&amp;#34;,REPT(&amp;#34;-&amp;#34;,5-RANK(F2,{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)},1)))))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;啊……这个公式就有点丧心病狂了，我要先拆解一下再翻译。从外向里看，分为3层：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第1层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(F2),&amp;#34;&amp;#34;,IF(F2&amp;gt;VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;&amp;#34;,IF(F2=VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;=&amp;#34;,第2层)))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这部分先看身高列是不是空的，它空我也空。如果不是，就开始把它与参照表对比，查出对应的身高中位数是多少。如果高于中位数，这列留空（这列专填减号）；如果等于中位数，写个等号“=”；如果低于中位数，就进入第二层，输出一定数量的减号。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第2层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;REPT(&amp;#34;-&amp;#34;,第3层)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;原本是打算用一层又一层的 If 条件判断来决定输出几个减号，后来想想这方法也有点傻。这就是简单的方法，Rept函数可以把一个字符串重复输出一定次数。现在问题甩给第3层，计算要输出减号的数量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第3层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;5-RANK(F2,{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)},1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此处用到一个Excel隐藏技巧：数组。Excel公式里引用一个范围，这就构成一个数组，我们大多数时候就是这么用的。但你知道吗？可以像编程软件那样，在Excel里手动创建数组，关键就是这个大括号 &lt;code&gt;{}&lt;/code&gt; 。比如 &lt;code&gt;{1,2,3,4}&lt;/code&gt; 在Excel公式里就等效于这个：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/9d271467e501fa6968180d9823103a40.jpg"
+loading="lazy"
+alt="Excel单元格自动填充截图，A列显示0到9数字序列，蓝色填充柄在A5单元格右下角，演示拖拽填充功能"
+&gt;&lt;/p&gt;
+&lt;p&gt;但数组的用法更灵活，可以手动把八竿子打不到一块的数据凑在一起。单看 &lt;code&gt;{}&lt;/code&gt; 里的内容：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/914ce9b22412179eaa9415e224c6d770.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，红框标注-3SD/-2SD/-1SD三列身高数据，数值从44.7到61递增，用于数组公式引用"
+&gt;&lt;/p&gt;
+&lt;p&gt;我这个数组，把宝贝的身高（F2）和-1、-2、-3个标准差的身高值放在一个数组里。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;RANK(F2,数组,1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后用Rank函数做个排序，得出宝贝身高在这4个数值里从小到大排第几。最后再用5减去这个数字，就得到减号的数量。至于为什么是用5减，这是个数学问题，不展开，但分情况想想就很容易理解了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/e71ea17395838cdb234236768730de02.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，红框标注身高偏离和体重偏离两列，显示–/-/=/&amp;#43;/&amp;#43;&amp;#43;等符号表示偏离程度"
+&gt;&lt;/p&gt;
+&lt;p&gt;用类似原理，改出另外3个偏离列的公式，效果立竿见影。几个符号表示宝贝的数值在几个标准差范围内。根据正态分布的特征，95%的儿童生长数据都在2个标准差范围内，所以看到2个符号时，我没什么需要担心的，目前为止宝贝一切正常。&lt;/p&gt;
+&lt;h3 id="数据可视化"&gt;数据可视化
+&lt;/h3&gt;&lt;p&gt;既然要做数据可视化，就要让值得留意的数据更显眼，一目了然。加减号的效果稍微糙了点。&lt;/p&gt;
+&lt;p&gt;其实用不着多复杂的图形设计、高级渐变色之类的。要突出异常值，只需要用区别足够明显的符号代替加减号，再简单写个条件格式，用背景色区分就能达到目的，我自己用足够了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/c45040a172c150fd67749caeb6549102.jpg"
+loading="lazy"
+alt="Excel条件格式规则管理器截图，显示身高偏离和体重偏离列的条件格式规则，3个符号黄色背景，4个符号红色背景"
+&gt;&lt;/p&gt;
+&lt;p&gt;3个符号它代表宝贝的数值低于或高于95%的同龄儿童，需要引起重视了，用黄色。4个符号表示低于或高于99.7%的同龄儿童，用红色。我手动改了几个极端值出来，实际效果如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg"
+loading="lazy"
+alt="Excel生长记录表最终效果截图，身高偏离和体重偏离列应用条件格式，黄色高亮3个符号，红色高亮4个符号，直观显示偏离程度"
+&gt;&lt;/p&gt;
+&lt;h2 id="后记"&gt;后记
+&lt;/h2&gt;&lt;p&gt;搞定，收工！现在可以把育儿App卸了，愉快按下叉叉按钮。&lt;/p&gt;
+&lt;p&gt;这类生长记录小工具，我相信有很多现成的，但自己创造的乐趣是它们无法替代的。像其中的数组、Rept函数、Rank函数，都是现学现用，收获很大。这里面最有意思的部分其实是前期的规划构思，真正动起手来，整个过程1小时就搞定了。&lt;/p&gt;
+&lt;p&gt;它印证了多种知识、工具、技巧相互组合的威力。见招拆招，总能有效解决问题。&lt;/p&gt;
+&lt;p&gt;最后说明一下，我们用的真的不是同一个Excel，我更喜欢用Google Sheets。如果想要在Excel里重复我的实验，未必能成功。可能少数细节要变通一下，但两者的公式和用法是高度一致的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;【2024.1.18 更新】
+有些朋友想要表格文件，我亲自尝试了下，转成Excel后部分公式无法正常工作了。因为Excel并不支持把数组常量作为rank的引用范围，而且数组常量里也无法引用其他单元格。所以Office的Excel做这个会相对麻烦，估计得一堆if嵌套了，还是建议大家有条件就用飞书表格或Google Sheets。&lt;/p&gt;
+&lt;p&gt;我把这个表格做了两个可供取用的版本（男宝/女宝）：&lt;/p&gt;
+&lt;p&gt;男宝版：&lt;br&gt;
+&lt;a class="link" href="https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;女宝版：&lt;br&gt;
+&lt;a class="link" href="https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>记一次统计学知识的应用</title><link>https://victor42.eth.limo/post/3633/</link><pubDate>Wed, 22 Mar 2023 16:14:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3633/</guid><description>&lt;p&gt;初学数据分析，临时起意给自己出了个题，不过这是个反面教材。&lt;/p&gt;
+&lt;p&gt;统计学刚入门，接触到了概率的基础知识。中学的排列组合我还记得，A(5,3)、C(5,3)这种，一堆阶乘除来除去。我还给自己编了个记忆口诀，组合是大阶乘除以小阶乘除以差阶乘，排列是大阶乘除以差阶乘。&lt;/p&gt;
+&lt;p&gt;我真是个很爱算的人，玩游戏都不忘做数学题。英雄无敌4是一个我玩了很久的游戏，其中原版战役海盗的女儿第一关，地图上有4座魔法建筑可以学到魔法技能。整个游戏有5大派系魔法，我特别钟爱自然系魔法，总想让主角学自然法术。但有时候，运气就是那么背，4个魔法建筑都随机不到自然魔法。我决定算一算成功学到的概率，其中2个建筑是直接学会某个随机派系，还有一个是随机出两个派系，二选一，剩下一个建筑牵扯到一些复杂的游戏设定，就不展开讲了。最终算出来学到自然魔法的概率是：&lt;/p&gt;
+&lt;p&gt;1 - 4/C(5,1) x 4/C(5,1) x C(4,2)/C(5,2) x C(12,4)/C(15,4) =&lt;br&gt;
+1 - 4/5 x 4/5 x 3/5 x 11x10x9/15/14/13 ≈&lt;br&gt;
+86%&lt;br&gt;
+看来那次没学到是真的背。&lt;/p&gt;
+&lt;p&gt;当然，统计学远不止这点内容。最近接触到一个基础概念：期望值，指多次试验中，每次试验的结果与该结果发生概率的乘积之和。它可以用来评估大量反复做同一件事时整体表现如何。&lt;/p&gt;
+&lt;p&gt;忽然灵光一现，可以给自己出个练习题了。练习题本身的前提假设是有问题的，后面会解释。但没关系，主要目的是练习概念运用与数据操作：&lt;/p&gt;
+&lt;p&gt;获得比特币近3年、5年、有数据以来的每日价格，根据收盘价算出每日较前一日的涨跌幅百分比。把涨跌视作随机发生的概率事件，假设每天都在收盘时买入，并把这笔在第二日收盘时卖出，长此以往，这种操作的期望值如何？没错，这就是把币价波动当做赌场了，通过统计学方法，看看会得到什么结果。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_16-01-39.jpg"
+loading="lazy"
+alt="CoinGlass比特币历史数据页面截图，显示2023年2月20日至3月22日每日开盘价/最高价/最低价/收盘价/成交量/市值数据表格"
+&gt;&lt;/p&gt;
+&lt;p&gt;首先，要获得数据。原本是想让ChatGPT或Bing Chat教我爬数据，但一问发现，这是个公开数据，直接导出就是表格了。好吧，爬数据以后再慢慢学，先做题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-55-06.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，导入pandas读取bitcoin_2020-03-20_2023-03-20.csv文件，显示Date/Open/High/Low/Close/Volume/Market Cap七列数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;拿到表格导入Jupyter中，初始化一下，发现表里有日期、开盘价、最高价、最低价、收盘价、成交量、市值。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-55-27.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，用pct_change计算每日涨跌幅百分比存入return列，显示date/open/high/low/close/volume/market_cap/return八列数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;我要用的只有收盘价，根据它来计算出每日较前日的涨跌百分比，记录在return列里。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-55-48.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，用pd.cut将涨跌幅按5%区间分组，return列显示涨跌幅数值，range列显示所属区间如-5%到0%/0%到5%"
+&gt;&lt;/p&gt;
+&lt;p&gt;既然是把它看作赌场，那么涨还是跌、涨跌百分之多少就是完全随机的，和丢骰子没差别。把return列的百分比值划分到不同的区间，我随便定了个5%作为区间的跨度。然后得出每天的涨跌百分比落在了哪个区间里，记录到另一列中。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-56-06.jpg"
+loading="lazy"
+alt="Jupyter Notebook分布图代码截图，用matplotlib绘制涨跌幅直方图，横轴-100到100，纵轴0到500，数据集中在0附近呈尖峰分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;先画个分布图，直观感受下是什么情况。如图所示，几乎全部涨跌都落在正负20%范围内。从历史看来，单日能波动这么多已是极限。而绝大多数落在了正负5%范围内，看来近3年里币价整体平稳。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-56-18.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，用groupby按区间分组计算mean/median/count，显示-20%到20%各区间的平均值/中位数/数量"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在来计算具体的分布数据。把前面的百分比值按所在区间分组，有很多区间没有数据，去掉空值行之后，得到百分比值在各区间的平均值、中位数、数量。中位数没有用到，但可以和平均值对比做个参考，两者差别不大，表明每个区间内的分布相对均匀。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-56-29.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，计算概率和回报乘积，新增return_probability和product列，显示各区间概率与平均值乘积"
+&gt;&lt;/p&gt;
+&lt;p&gt;计算出涨跌落在每个区间的概率，也就是用该区间里的数量除以总数量，单开一列记录概率。把平均值和概率相乘，另开一列记录。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-56-40.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，对product列求和计算期望值，输出结果为-0.1%，表明当天买第二天卖的操作长期期望值接近零"
+&gt;&lt;/p&gt;
+&lt;p&gt;最终把乘积加总，得到统计学意义上的期望值。3年、5年、有数据以来，期望值都很接近，基本上都接近0。我也试着把区间划得更小，1%为一个区间，结果也差不多。&lt;/p&gt;
+&lt;p&gt;期望值为0，表明什么？代表当天买第二天卖的操作，长期坚持下来毫无收获，尽管它诞生以来涨了这么多。&lt;/p&gt;
+&lt;p&gt;但要注意，这个结论其实是错误的。因为这个练习题的前提假设就错了，币价的涨跌不能视为独立的概率事件，有太多场外因素对每日涨跌产生影响，同时过去的涨跌也在心理层面对未来的涨跌产生影响。这些影响无法用简单的统计学模型来量化。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/R.jpg"
+loading="lazy"
+alt="大富翁4游戏启动画面截图，蓝色地球背景上显示大富翁4标题，下方有START/LOAD/OPTION三个卡通角色按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;再者，即使这真是纯概率事件，比如我们实际上活在一个像大富翁游戏那样的虚拟世界中，里面的股票涨跌全是计算机程序生成的随机数，这结论是不是就正确呢？还是错误的，这种当天买第二天卖的操作，不是一无所获，而是注定亏损。因为我们观察的指标是涨跌百分比，每一天这个百分比的基数都不同。无论先涨10%再跌10%，还是先跌10%再涨10%，效果都不是变回原价，而是比原价低。&lt;/p&gt;
+&lt;p&gt;一番折腾，基于错误假设得出错误结论。除了练习数据分析技巧外，还有个重要的收获：统计学真的可以验证和研究生活中的问题，只要你尊重和敬畏它的严谨和局限性。这是信心的收获。&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>动画 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%8A%A8%E7%94%BB/</link><description>Recent content in 动画 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 24 Jul 2016 12:39:09 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%8A%A8%E7%94%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>功能性动画设计：优秀的转场效果</title><link>https://victor42.eth.limo/post/3513/</link><pubDate>Sun, 24 Jul 2016 12:39:09 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3513/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第141期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-0i2sLw80L7-AGewecMZQpQ.png"
+loading="lazy"
+alt="功能性动画在UI设计中的应用概念图，展示微妙的转场效果如何减少认知负荷并提升用户体验"
+&gt;&lt;/p&gt;
+&lt;p&gt;功能性动画是一种微妙的动画，有着明确、合理的目标。它能减少认知负荷，防止变化视盲，在空间上营造更好的印象。但还有一点，动画让用户界面鲜活起来。&lt;/p&gt;
+&lt;p&gt;通过组合与分割、改变形状和尺寸，运动可以使外表感觉鲜活。应当运用功能性的动画，流畅地在导航内容间引导用户，解释屏幕元素和排列的变化，并且强调元素层级。&lt;/p&gt;
+&lt;p&gt;成功的动效设计具有以下6个特征：&lt;/p&gt;
+&lt;h2 id="1-响应"&gt;1. 响应
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;视觉反馈&lt;/em&gt;在UI设计中极度重要。因为它符合了用户&lt;em&gt;确认应答&lt;/em&gt;的天然需要，所以它管用。在现实生活中，按钮、遥控和各种物体，会响应我们的操作，人们对事物的期待就是如此。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-JMF7PzZzVJnmRG_Rm91vGQ.jpeg"
+loading="lazy"
+alt="按钮按压的视觉反馈示例，展示界面如何快速响应用户操作以提供确认应答"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Smart Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;界面应当快速响应用户输入，&lt;em&gt;准确地说是要在用户触发的一刹那响应&lt;/em&gt;，展现出新界面和元素与触发它们的操作之间的关联。在整个应用中到处点击，并且总是能知道正在发生什么，这感觉就非常棒。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-7Rpnlu_SIU5oxkx04COVcA.gif"
+loading="lazy"
+alt="Material Design触摸涟漪动效，展示界面元素对用户触碰意图的恰当视觉反馈"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;物体对于用户意图的恰当反馈。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="2-关联性"&gt;2. 关联性
+&lt;/h2&gt;&lt;p&gt;把新产生的界面，与触发它们的元素或操作关联起来。关联性背后的逻辑，能帮助用户在界面布局中&lt;em&gt;理解刚发生的变化&lt;/em&gt;，&lt;em&gt;是什么导致了变化&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;下图中，可以看到两个菜单过渡效果。第一个例子中，菜单出现位置远离触发它的接触点，破坏了与这种输入方式的关联。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-dA4FQv8kPMPOCtMI0ROc7Q.gif"
+loading="lazy"
+alt="错误做法：菜单从远离触点的位置弹出，破坏了用户操作与界面变化之间的关联性"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;错误做法。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;第二个例子中，菜单正是从触点产生。这就把这个元素与触点关联起来了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-ybsLIi1mP11AteWzLp3vSQ.gif"
+loading="lazy"
+alt="正确做法：菜单从用户触点位置展开，建立操作与界面元素之间的视觉关联"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;正确做法。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;另一个例子，是操作按钮在特定情境下改变功能。“播放”和“暂停”按钮或许是开关按钮中最普遍的例子。播放变为暂停，表现出这两者是相关联的，点按其中一个，就会看到另一个。应该设计好状态间的过渡动画，让它看起来流畅不间断。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-AjZdyjy-rCglKHnndA-CfQ.gif"
+loading="lazy"
+alt="播放与暂停按钮之间的流畅过渡动画，展示开关按钮状态变化的关联性设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;播放控件的流畅过渡，向用户展现按钮功能的同时，也为这个操作增加了一丝惊叹。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="3-自然"&gt;3. 自然
+&lt;/h2&gt;&lt;p&gt;*避免令人意外的过渡效果。*所有的运动都应该遵循真实世界中力的作用。现实中，一个物体加速减速的快慢，受它的重量和表面摩擦力影响。类似的，在好的界面设计中，启动和停止不会立刻发生。&lt;/p&gt;
+&lt;p&gt;下图中，可以看到一个很好的例子，用户选中列表中的一项，展开进入详情视图。展开的过程中，小卡片沿着一条弧线移动到目标位置，并且展开成一张更大的卡片。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-x3bKB3_Utn9ZsYOVAUeCIA.gif"
+loading="lazy"
+alt="列表卡片沿弧线轨迹展开为详情视图的转场动画，体现自然运动中力的作用"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;正确做法。在屏幕上向上移动的物体，应该在移动时体现出加速的力。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="4-有目的"&gt;4. 有目的
+&lt;/h2&gt;&lt;p&gt;在合适的时机，将视线引导到适当的位置。动画天生就是最高一级的&lt;em&gt;突显&lt;/em&gt;。无论文字段落还是静止图片都无法与之相提并论。好的过渡效果引导用户到下一步操作。&lt;/p&gt;
+&lt;p&gt;用户第一次无法预料某个操作触发的结果，但适当的动画能帮助用户保持方向，不会感觉内容的突然改变。&lt;/p&gt;
+&lt;p&gt;Mac OS在最小化窗口时用了一种功能性动画。动画把前后两个状态联系起来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-cUuemraCtTmGdor3QvjOJg.jpeg"
+loading="lazy"
+alt="Mac OS窗口最小化动画，通过功能性过渡效果将窗口与Dock图标状态联系起来"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Mac OS的最小化动画&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;另一个好例子是由父及子的过渡，用户选中一个列表项或卡片元素，放大进入详情视图。这个操作让用户了解来龙去脉。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-ZP256QX2UpMJ8xvAlm9ZJw.gif"
+loading="lazy"
+alt="由父及子的过渡动画，列表卡片放大展开为详情页面，帮助用户理解界面层级来龙去脉"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;由父及子的过渡动画。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="5-快速"&gt;5. 快速
+&lt;/h2&gt;&lt;p&gt;元素在不同位置和状态间运动时，运动要足够快，不要让人等待；也不可过快，让过渡能够理解。&lt;/p&gt;
+&lt;p&gt;不要缓慢的动画，因为它产生了不必要的停顿，延长了整个过程。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-yD4-lLqDg45rdIrjbgGqRw.gif"
+loading="lazy"
+alt="错误做法：动画速度过慢产生不必要的停顿，延长界面交互过程让用户等待"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;错误做法。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;交错和减缓多个元素的运动会延长整个过程。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-dYPldsFjmci8JC0OXCgBJg.gif"
+loading="lazy"
+alt="错误做法：多个元素交错运动延长了整个动画过程，降低界面响应效率"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;错误做法：图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;快速完成动画，用户就不必等待动画结束。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-pfUY5WeNJYUG5xvIrTiplQ.gif"
+loading="lazy"
+alt="正确做法：动画快速流畅地完成过渡，用户无需等待即可继续操作"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;正确做法。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;保持过渡动画简短，因为用户会频繁看到它们。让动画持续时间保持在300ms或更短。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-dtPS0dBgHbmst7PEgpjuEA.gif"
+loading="lazy"
+alt="正确做法：简短的过渡动画保持在300毫秒以内，兼顾流畅感与操作效率"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;正确做法。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="6-明确"&gt;6. 明确
+&lt;/h2&gt;&lt;p&gt;过渡效果应当避免一次做太多事情，因为如果许多物体往不同方向或沿着不同路径运动，它们就会令人困惑。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-iBCr8Bw-h6EEC3Z-u-HkgA.gif"
+loading="lazy"
+alt="错误做法：多个元素沿不同方向同时运动，造成视觉混乱和认知负荷"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;错误做法。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;过渡效果应当明确、简洁、条理清晰。记住，关于动画，少即是多。我们应该只专注于动画能为用户带来的实际价值。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/07/1-YHgeqAVAyoAbKu9-kGOwQA.gif"
+loading="lazy"
+alt="正确做法：过渡动画明确简洁，元素运动路径清晰一致，体现少即是多的设计原则"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;正确做法。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;综上所述，动画不是随意为之。每个操作背后都有其目的。动画对它加以引导，显示出重要内容，以防忽略。无论你的应用是欢乐幽默还是严肃直接，动画的运用原则有助于提供明确、快速、有粘性的体验。&lt;/p&gt;
+&lt;p&gt;*谨慎地设计。*注意每一个细节，是成功打造易用人机交互的关键。&lt;/p&gt;
+&lt;p&gt;非常感谢！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://babich.biz/functional-animation-in-ux-design-what-makes-a-good-transition/" target="_blank" rel="noopener"
+&gt;http://babich.biz/functional-animation-in-ux-design-what-makes-a-good-transition/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="http://babich.biz/author/nick/" target="_blank" rel="noopener"
+&gt;Nick Babich&lt;/a&gt;&lt;/p&gt;</description></item><item><title>UI动画可不是卡通片</title><link>https://victor42.eth.limo/post/3464/</link><pubDate>Sun, 11 Oct 2015 12:41:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3464/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第105期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我&lt;a class="link" href="https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97" target="_blank" rel="noopener"
+&gt;之前撰文讲过多余的动画&lt;/a&gt;，引发了一些共鸣。得到了非常积极的反馈，我很高兴了解到，动画过多的界面也会令其他人手足无措。&lt;/p&gt;
+&lt;p&gt;老实说，&lt;strong&gt;我并不反对为界面进行动效设计&lt;/strong&gt;。我主要是在质疑那些妨碍用户的动画。&lt;/p&gt;
+&lt;p&gt;克制，是一名优秀UI设计师的特质。它要求你了解所选平台的能力，然后避免使用它（除非时机成熟）。&lt;/p&gt;
+&lt;p&gt;与其为多余的动画惋惜，我宁可学习深思熟虑的动画，尽量提出一些方案。&lt;/p&gt;
+&lt;p&gt;我期望得到你对本文的评价与建议。&lt;/p&gt;
+&lt;h3 id="做作的动画案例"&gt;做作的动画案例
+&lt;/h3&gt;&lt;p&gt;下面是一则快速且做作的动画案例，我以此来演示UI动画中的卡通化现象。尽管这是个略微夸张的例子，但事实上，确有许多界面呈现出了这种花哨的动画。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-10/10-11/1-KNDtrZZKN5-bNQ7YVB8_fQ.gif"
+loading="lazy"
+alt="按钮像橡皮绳一样夸张弹动的卡通化UI动画反例"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.ux-app.com/device/view?s=MRGG9547&amp;amp;l=&amp;amp;pg=35687" target="_blank" rel="noopener"
+&gt;点此&lt;/a&gt;查看案例原文。&lt;/p&gt;
+&lt;p&gt;似乎我们刚抛弃了拟物化的视觉设计，又陷入了行为上的拟物化。我们把虚拟物表现得像是果冻，或像是挂在隐形的橡皮绳上。&lt;/p&gt;
+&lt;h3 id="拒绝肆无忌惮的动画"&gt;拒绝肆无忌惮的动画
+&lt;/h3&gt;&lt;p&gt;动画就像某种咒法。如果过度使用，就会效力尽失。&lt;/p&gt;
+&lt;h3 id="动画原则"&gt;动画原则
+&lt;/h3&gt;&lt;p&gt;我听闻一些UI设计师推崇卡通化的动画设计，将它作为UI设计师的必读准则。不幸的是，这增强了UI的娱乐功效，总会使得界面变成用户的阻碍。&lt;/p&gt;
+&lt;p&gt;许多UI动效设计师似乎把界面设计当成了他们的动画作品集。除非你想被收录进Pixar，否则请避免使用“弹跳”、“加速后减速”这样的缓动效果。&lt;/p&gt;
+&lt;h3 id="界面是什么"&gt;界面是什么？
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;在计算机科学中，界面是指计算机系统中，两个独立组成部分相互交换信息的衔接处。
+界面（计算机）——维基百科，自由的百科全书&lt;a class="link" href="https://en.wikipedia.org/wiki/Interface_%28computing%29" target="_blank" rel="noopener"
+&gt;https://en.wikipedia.org/wiki/Interface_(computing)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;界面居中衔接、传达信息的作用使得它如此重要。决定何时可以违背这条UI中心原则，是设计师所面临的挑战。&lt;/p&gt;
+&lt;h3 id="ui设计中的动效"&gt;UI设计中的动效
+&lt;/h3&gt;&lt;p&gt;这些简单的准则让我受益良多，在此推荐：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;站在用户的立场对每段动画做出决断，“挺好看的”可不是正确答案。&lt;/li&gt;
+&lt;li&gt;保持每段动画时间不超过300ms。&lt;/li&gt;
+&lt;li&gt;避免使用线性动画，它使得动画看起来迟缓、无趣且机械。&lt;/li&gt;
+&lt;li&gt;99%的动画都应该使用简单的“加速”或“减速”缓动效果。&lt;/li&gt;
+&lt;li&gt;你极少会需要那些更加醒目的缓动效果，例如弹簧、弹跳等等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="界面案例"&gt;界面案例
+&lt;/h3&gt;&lt;p&gt;&lt;em&gt;这些例子请尽情批评、挑刺。你们的评论和建议常常能改善我的想法。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="通知"&gt;通知
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-10/10-11/1-UJdmc7IUuOjJFSNnpUmH0w.gif"
+loading="lazy"
+alt="保存失败通知用300毫秒淡入动效引导用户注意"
+&gt;&lt;/p&gt;
+&lt;p&gt;通知案例1&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.ux-app.com/device/view?s=MRGG9547&amp;amp;l=1&amp;amp;pg=36655" target="_blank" rel="noopener"
+&gt;点此&lt;/a&gt;查看案例原文。&lt;/p&gt;
+&lt;p&gt;这个简单的动画只持续300ms。它有细微的分层效果，卡片的动画开始后，消息在100ms内淡入显现。本例中的动效确实提升了用户体验，因为它将用户的注意力引向了不可忽视的重要的通知。&lt;/p&gt;
+&lt;h3 id="通知的升级"&gt;通知的升级
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-10/10-11/1-bX8hBD6PmbjedK0SYzBSlA.gif"
+loading="lazy"
+alt="保存失败通知在重复点击后升级为更强烈的晃动动效"
+&gt;&lt;/p&gt;
+&lt;p&gt;通知案例2&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.ux-app.com/device/view?s=MRGG9547&amp;amp;l=1&amp;amp;pg=36656" target="_blank" rel="noopener"
+&gt;点此&lt;/a&gt;查看案例原文。&lt;/p&gt;
+&lt;p&gt;上面的例子使用了更强烈的动画。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首次点按，通知淡入显现&lt;/li&gt;
+&lt;li&gt;再次点按，整个标签晃动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果用户持续点按按钮，还可以叠加一个模态窗口吸引用户注意。&lt;/p&gt;
+&lt;p&gt;而且在后续失败的尝试后，也可以通过改变按钮本身颜色来警示。&lt;/p&gt;
+&lt;h3 id="卡片展开"&gt;卡片展开
+&lt;/h3&gt;&lt;p&gt;这是卡片视图的一种简单有效的实现，移动端通常都这么做。我非常喜欢这个交互，因为它让用户熟悉来龙去脉。即使列表视图不见了，我们也知道它就在那里，在展开项的背后。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-10/10-11/1-YaoMTOLjuUBRrfBATGzSxA.gif"
+loading="lazy"
+alt="移动端列表卡片展开时保持上下文关系的功能动画"
+&gt;&lt;/p&gt;
+&lt;p&gt;卡片展开案例&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.ux-app.com/device/view?s=MRGG9547&amp;amp;l=1&amp;amp;pg=36662" target="_blank" rel="noopener"
+&gt;点此&lt;/a&gt;查看案例原文。&lt;/p&gt;
+&lt;p&gt;我故意让卡片的关闭按钮稍稍延迟显现，同时使用了位置与透明度的动画。用户的视线不会漏掉这个重要的UI元素，他们在收起卡片时会需要它。&lt;/p&gt;
+&lt;h3 id="重要性分层次"&gt;重要性分层次
+&lt;/h3&gt;&lt;p&gt;作为设计师与开发者，必然要决定我们界面中哪些元素更重要。它有很多种体现方式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用标题&lt;/li&gt;
+&lt;li&gt;下划线、或是加粗&lt;/li&gt;
+&lt;li&gt;使用色彩&lt;/li&gt;
+&lt;li&gt;使用形状和图片&lt;/li&gt;
+&lt;li&gt;运动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你当然不会把文章的每一句话都当作标题。这个原则也适用于动画。界面中的每个动画元素，都等同于文章中的一个标题。它应该用来显现元素的重要性。过度使用反而会混淆层次，同时干扰你试图表达的信息。&lt;/p&gt;
+&lt;h3 id="功能动画-vs-装饰动画"&gt;功能动画 vs 装饰动画
+&lt;/h3&gt;&lt;p&gt;程序员常常谈论“代码嗅觉”。这是指编写代码时的某种特质，它并无绝对的对错，但能避免老练的程序员写出低质量代码。&lt;/p&gt;
+&lt;p&gt;如果你听到团队伙伴谈论UI动画“愉悦”用户，你的“设计嗅觉”警钟可能就响起了。为了动画而做动画（几乎任何时候）是糟糕的设计。&lt;/p&gt;
+&lt;p&gt;切记，动画同样符合少即是多的原则。功能动画总是胜过&lt;em&gt;纯粹的&lt;/em&gt;装饰动画。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-10/10-11/1-s9LTV7aFZeWvN-rTbGAwUA.jpeg"
+loading="lazy"
+alt="飞机驾驶舱界面用静态仪表说明关键系统不需要装饰动画"
+&gt;&lt;/p&gt;
+&lt;p&gt;不要让动画妨碍了用户。这就是为什么飞机驾驶舱的界面从不用使用动画。额外增加毫无必要的300ms动画，对&lt;em&gt;你的&lt;/em&gt;界面而言可能人畜无害，但它给用户带来的烦恼远比“愉悦”更多！&lt;/p&gt;
+&lt;h3 id="总结"&gt;总结
+&lt;/h3&gt;&lt;p&gt;界面中还是需要动画的。要将它作为迅速传递重要信息的工具。多用功能性而非纯装饰动画，珍视用户花在你界面上的每一毫秒。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/@sophie_paxtonUX/your-ui-isn-t-a-disney-movie-703f7fbd24d2" target="_blank" rel="noopener"
+&gt;https://medium.com/@sophie_paxtonUX/your-ui-isn-t-a-disney-movie-703f7fbd24d2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://medium.com/@sophie_paxtonUX" target="_blank" rel="noopener"
+&gt;Sophie Paxton&lt;/a&gt;&lt;/p&gt;</description></item><item><title>网页动画终极指南</title><link>https://victor42.eth.limo/post/3444/</link><pubDate>Sun, 14 Jun 2015 10:19:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3444/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第90期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/featured_animation.png"
+loading="lazy"
+alt="网页动画与交互设计概念插画，展示显示器动态元素、视觉感知与触摸交互的扁平化图形"
+&gt;&lt;/p&gt;
+&lt;p&gt;动画是人类毕生的理想之一（如果像某些历史学家相信的那样）。这个理论源起于洞穴壁画：在某些洞穴壁画中，经常见到一些生物被画上远多于正常数量的肢体。&lt;/p&gt;
+&lt;p&gt;这背后有很多套理论。有些指出这很简单，因为艺术家们并没有方法可以擦除这些肢体，于是将他们的错误留在壁画上，传给了子孙。还有理论相信，这些是最早的试图在静止图像中捕捉动态的方法。我选择相信后者。&lt;/p&gt;
+&lt;p&gt;还有比捕捉动态更加自然的愿望了吗？自然界的一切都在运动。人在行走，水在流动，植物开枝散叶，自然界唯一不变的就是变化，以一种运动的形式。有些在模糊中一闪而过，有些则慢到难以察觉，但这些都在发生。&lt;/p&gt;
+&lt;p&gt;动画对于网页设计师已经不再新奇……它正在成为最基础的交互设计效果。&lt;/p&gt;
+&lt;p&gt;动画就是变化，是一种运动。它是我们艺术创作中最接近真实反映生活的东西。这就是为什么人们总是说“动画使我们的网站（或是演讲，诸如此类）&lt;em&gt;鲜活起来&lt;/em&gt;。”这可能是陈词滥调了，但这个词很优美地呈现了动画在网页设计中的目的。&lt;/p&gt;
+&lt;p&gt;正确使用运动感，可以告诉用户他们完成了某些操作。他们成功地与界面进行了交互，引发了某些变化。&lt;/p&gt;
+&lt;p&gt;人们与真实物体互动时，也会触发并体验到相同的感觉（至少是类似的感觉）。就某种程度而言，动画是拟物的。没错，我说的就是拟物。&lt;/p&gt;
+&lt;p&gt;使用得当时，动画可以被设计成模仿真实世界的交互。我们似乎在原地打转。可能我们不会再过多使用复杂的皮革纹理，但我们仍然在尝试效仿现实世界。&lt;/p&gt;
+&lt;h2 id="网页动画简史"&gt;网页动画简史
+&lt;/h2&gt;&lt;p&gt;在进入实用部分之前，我们看看互联网上的动画是如何发展到今天（这么酷）的。最初一切都诞生于gif图……&lt;/p&gt;
+&lt;p&gt;原来.gif文件年龄甚至比我还大2岁。它们在1987年被创造，正是早年我们刚知道（或多或少）互联网的时候。因此开创了跳舞婴儿的纪元，那些东西太可怕了，还是忘了好。&lt;/p&gt;
+&lt;p&gt;如果gif图的流行告诉了我们什么，那就是人们想要将动画引入网页中。在此提醒一下，多数人可能并没有从改善可用性的方式考虑动画。一切都只是为了产生一点个性，表现一点生机，与其他静止的网页区分开。&lt;/p&gt;
+&lt;p&gt;现在正是关注网页动画与App动画的最佳时机。&lt;/p&gt;
+&lt;p&gt;当.gif文件的能力耗尽后，人们想要一种更好的方式，来向网站中添加动画。对，声音！声音太棒了。如果人们打开你的网页，开始播放你最喜欢的歌曲，这得有多棒啊？要像真正的歌曲……而不是那种破烂电脑音乐，对吧？&lt;/p&gt;
+&lt;p&gt;是Flash让我们艰难地学到了这个教训。但是别忘了Flash在它所处的年代是相当惊艳的。实际上它是一种革新。它是一种进步。它非常&lt;em&gt;酷&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;无论后来它被如何滥用，要知道Flash让我们在互联网中做一些从没想过的事情。它拓宽了创意的视野，为人们在一个崭新的行业创造了工作机会，带来了“网页动画”和90年代最棒的东西（除了天堂）：Flash游戏。甚至直到现在，我都觉得那些游戏使人入迷。&lt;/p&gt;
+&lt;p&gt;随着时间推移，很多设计师转移到基于Javascript的动画上，用于创造一些小东西，比如下拉菜单和其他导航元素。毕竟如果做得恰当的话，这更有利于SEO。其他人只用Javascript是因为，那正是FrontPage和DreamWeaver调用按钮图片的方式。微小的进步仍然是进步。&lt;/p&gt;
+&lt;p&gt;00年代中旬，W3C已经在努力将动画加入到CSS规范中。2009年，首份公开的CSS动画规范初稿就发布了。&lt;/p&gt;
+&lt;p&gt;如今呢？我们探索出了强制硬件渲染、CSS动画结合SVG文件、延伸基本动画功能的JavaScript库，等等。&lt;/p&gt;
+&lt;p&gt;现在我们正在探寻各种方式，不仅仅是为网站增添风格。我们在试图改善可用性，告知并教育用户，让用户更容易了解他们在做什么。&lt;/p&gt;
+&lt;p&gt;对于网页设计师，动画不再是新奇事物。它成为了影视行业的基础，一种全新的叙事方式。对我们而言，它成为了有效交互设计的基础。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.bizbrain.org/coffee/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/coffee.jpg"
+loading="lazy"
+alt="网页动画终极指南设计中关于“现在正是关注网页动画”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;现在正是关注网页动画与App动画的最佳时机。科技尚没有完全成熟（什么时候会呢），也无法提供全方位支持（何时能够呢），但我们在探寻新的方式将它呈现在世人面前，无需通过插件或是专用代码。&lt;/p&gt;
+&lt;p&gt;我们越是以开放的动画标准为基础，越多的人就能首先看到。近年来人们专注于运用动画驱动交互，这是一件非常非常好的事情。&lt;/p&gt;
+&lt;p&gt;是时候成为先行者了。&lt;/p&gt;
+&lt;h2 id="网页动画的种类"&gt;网页动画的种类
+&lt;/h2&gt;&lt;p&gt;回到正题。我们在谈论的是哪种动画？我的意思是，我说了很多关于使用动画改善用户界面的言论，那些究竟是什么意思？&lt;/p&gt;
+&lt;p&gt;很显然，我们不能将动画效果随手加于网页元素之上，然后期盼它能提升转化率。那太傻了。就像设计的所有其他方面，使用哪种动画，何时使用，这都需要仔细考虑。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://neomam.com/interactive/13reasons/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/infographic.jpg"
+loading="lazy"
+alt="网页动画终极指南设计中关于“实际细节与实现也是必”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;实际细节与实现也是必须考虑的。如果你的动画过于耗费资源，拖慢用户的移动设备，或者更糟的是拖慢他们的桌面设备，这就有问题了。很多问题。&lt;/p&gt;
+&lt;p&gt;我们由此入手，看看网页上几种典型的动画：&lt;/p&gt;
+&lt;h3 id="界面元素动画"&gt;界面元素动画
+&lt;/h3&gt;&lt;p&gt;我不知道这是不是最普遍的一类动画，不过我猜是的。它应该获此殊荣。在我的观念中，这是最有用的动画类型。&lt;/p&gt;
+&lt;p&gt;正如我在介绍中说的，这是一种让用户了解他们的操作（比如点击）被记录的动画。变化的发生需要他们的点击来催化，无论是转向另一个页面，打开侧边栏或模态窗口，还是在客服窗口中发送电子邮件。&lt;/p&gt;
+&lt;p&gt;不是说有反馈更好，而是如今反馈是必须的，这是个扁平化设计的世界。人们需要了解界面与装饰物之间的区别。让元素运动起来，是简单微妙的交互方式，给予用户他们所需的反馈。&lt;/p&gt;
+&lt;p&gt;它就像改变按钮背景色或让它跳动那么简单。这个类型也包含了侧边栏菜单“滑入”页面的动画，还有模态窗口放大显现的动画。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.pro-foods.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/profoods.jpg"
+loading="lazy"
+alt="网页动画终极指南设计中关于“等待动画这个也是同样”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="等待动画"&gt;等待动画
+&lt;/h3&gt;&lt;p&gt;这个也是，同样是为了给用户提供反馈。这类动画，会在某些操作正在后台进行时呈现给用户，你可不想让他们等到崩溃。&lt;/p&gt;
+&lt;p&gt;这类动画的作用很久以前就得到了印证，就在图形化用户界面首次发明的时候。最早的方式是鼠标指针变成沙漏，还有进度条也是。Apple在某时刻采用了“旋转的沙滩排球”，而windows则呈现了文件优雅地从一个文件夹飞向另一个。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.pro-foods.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/loaders.jpg"
+loading="lazy"
+alt="网页动画终极指南设计中关于“这些惯例第一时间就被”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这些惯例第一时间就被网页采用了，理由很充分。当用户开始疑惑正在发生什么时，他们会一直点击或点按。这是沮丧的一种表现。他们认为这样会让进度加快一点。&lt;/p&gt;
+&lt;p&gt;无论哪种方式，告诉用户正在发生的事情，哪怕通过一个简单的进度条，也能极大减轻精神负担……即使对于我们这些使用电脑很久的用户也是一样。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://beegit.com/" target="_blank" rel="noopener"
+&gt;Beegit&lt;/a&gt;是一款写作应用，我用它来撰写和编辑这篇文章。它提供了一个便捷的“进度圈”，告诉我图片何时会上传完成，在模态窗口的左上角可以看到：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/1.png"
+loading="lazy"
+alt="网页动画终极指南设计中关于“讲故事的动画如今用动”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;h3 id="讲故事的动画"&gt;讲故事的动画
+&lt;/h3&gt;&lt;p&gt;如今，用动画来讲故事已经超越了卡通。实际上，我要讲的完全不是那些动画。而是那些被设计出来与用户互动（比如向下滚动）的网站，操作引发了动画，讲述了故事。&lt;/p&gt;
+&lt;p&gt;有些普遍例子，那些页面会在你眼前将产品“装配”起来，以此展现新产品。其他则更像卡通片，有个小卡通形象跟随你到页面的每个地方。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.kennedyandoswald.com/#!/rendezvous-with-death-title-screen" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/kennedy.jpg"
+loading="lazy"
+alt="网页动画终极指南设计中关于“这些动画的作用存在争”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这些动画的作用……存在争议。通常它们并没有提升可用性的意图，只是为了让用户印象深刻，为他们提供页面主题相应的环境。它们可能是在试图呈现一件产品的工艺，或是分享打造这件创造物的经历。&lt;/p&gt;
+&lt;p&gt;动画能否做到这点，取决于它们本身的质量。是否过度影响了网站的性能，或是影响了页面内容本身。如果用户在网站上找不到自己要的东西，世上所有的动画效果都救不了它。&lt;/p&gt;
+&lt;p&gt;有两个案例我&lt;em&gt;的确&lt;/em&gt;很喜欢，它们来自深谙此道品牌：Apple和Sony。&lt;/p&gt;
+&lt;p&gt;Mac Pro的页面，致力于向下滚动时精确呈现内部构造：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.apple.com/mac-pro/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/mac_pro.jpg"
+loading="lazy"
+alt="网页动画终极指南设计中关于“同时在网站中他们展现”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;同时，在Sony网站中，他们展现了多款不同设备。当然，“装配感”并没有那么强烈，各部分相互撞击，在火焰效果中成型。&lt;/p&gt;
+&lt;h3 id="纯装饰动画"&gt;纯装饰动画
+&lt;/h3&gt;&lt;p&gt;无论好坏，有些人在网站上加入一些没有目的的动画，只是为了让人看到。这值得吗？&lt;/p&gt;
+&lt;p&gt;值得，也可以说不值得……&lt;/p&gt;
+&lt;p&gt;我会尽量避免，因为它使人分心。你想要人们的视线集中在商品信息和购买按钮上。让他们来此达成目的。如果网站没有提供特定的目标，或者确定目标时过于使人分心，他们就不会再回来了。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://brightmedia.pl/?lang=en&amp;amp;site=intro" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/brightmedia.jpg"
+loading="lazy"
+alt="网页动画终极指南设计中关于“装饰性的动画应该完全”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;装饰性的动画应该完全隐藏起来。在人们完成行动召唤后再展现出来。还可以包含微妙的动画，只在用户触发某个特殊操作时才展现，比如鼠标悬停在页头和页尾的某个小物件上面。&lt;/p&gt;
+&lt;p&gt;在WDD网站中，鼠标悬停在logo上会让它动起来，虽然这点尚存争议。因为logo是个链接，并非纯装饰物，但它仍然是个不错的例子。Google随便一搜，就会找到很多带有彩蛋的网站（比如跳出一只哥斯拉并且咆哮怒吼……我不是在开玩笑）。&lt;/p&gt;
+&lt;p&gt;还有很多其他例子，包括Google众所周知的&lt;a class="link" href="http://en.wikipedia.org/wiki/List_of_Google_hoaxes_and_easter_eggs" target="_blank" rel="noopener"
+&gt;彩蛋&lt;/a&gt;，下面这个来自photojojo.com：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://photojojo.com/store/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-14/2.png"
+loading="lazy"
+alt="网页动画终极指南设计中关于“在任何页面一路滚动到”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在任何页面一路滚动到最底部，会出现一只友善的恐龙“给你拍照”。而且在有气球的页面上，画面中的气球会微妙地来回飘浮。&lt;/p&gt;
+&lt;h3 id="广告中的动画可以说内心抗拒钱包却不听使唤"&gt;广告中的动画，可以说：内心抗拒，钱包却不听使唤
+&lt;/h3&gt;&lt;p&gt;广告。对于某些网站来说就是他们收入来源（咳咳），对于另一些网站则如同瘟神。给广告加上动画，duang！视线就被吸引过去了，违背了本意。这是个条件反射动作。&lt;/p&gt;
+&lt;p&gt;再加入声音，用户会感到强烈的憎恨……这也是条件反射。&lt;/p&gt;
+&lt;p&gt;但这几乎无法避免。如果想让人看广告，让它动起来就是个好方法。这可能在某些自我标榜“不喧宾夺主”的广告平台那里不受欢迎，但如果动画广告不起作用，我们就不需要它们了。&lt;/p&gt;
+&lt;p&gt;不过这种动画也有着与装饰性动画相同的问题：将用户的注意力从主要任务上分散开。这个在线销售的世界，分心就意味着死亡。&lt;/p&gt;
+&lt;p&gt;最终，衡量利弊还取决于你。没有广告、低调的广告、或是动画广告，都需要权衡。&lt;/p&gt;
+&lt;p&gt;你可能注意到了，我前面一直没提过启动界面动画。那是因为我觉得大家都已经很了解了。&lt;/p&gt;
+&lt;h2 id="动画的实现"&gt;动画的实现
+&lt;/h2&gt;&lt;p&gt;技术实现方面也很重要，但无论你用.gif图、视频、CSS、SVG、甚至Flash（天哪），都有一些更重要的原则。暂时忘掉你打算使用的技术与技巧，再多做一些理论储备。用户会感谢你的。&lt;/p&gt;
+&lt;h3 id="性能性能还是性能"&gt;性能，性能，还是性能
+&lt;/h3&gt;&lt;p&gt;你会想，“当然，这很明显。动画应当运行流畅，不能卡顿。”正确，这在理论上确实显而易见。但问题是我仍然能看到一些网站，虽然用最新技术构建，动画却很卡。&lt;/p&gt;
+&lt;p&gt;我的Nvidia GTX 750 TI显卡要200美元。你的动画没理由卡。最近有些网站让我觉得，“《上古卷轴》运行也比这流畅。”我没有开玩笑说大话。&lt;/p&gt;
+&lt;p&gt;现在，想象一下在低分辨率的平板或手机上，浏览那些网站是什么样子。一方面，这是个检验个性的方法，但另一方面，它无法给这些龟速网站带来任何业务。如果你的印象中只有卡顿的动画，或者压根没有动画，那还不如让界面元素直接各就各位。&lt;/p&gt;
+&lt;p&gt;这就是说，那些加入了诸多动画和特效的网站也不怎么样，它们需要加载界面和进度条。没有人在看到想要的信息前，有义务等待动画加载。让人等待，就是你业务流失的方式。&lt;/p&gt;
+&lt;p&gt;我们将这些分成几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果《上古卷轴》比网站的桌面端运行更流畅，那很糟糕。&lt;/li&gt;
+&lt;li&gt;如果用户看到主页前要等待加载动画，那&lt;em&gt;相当&lt;/em&gt;糟糕。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在此我要给出一点技术层面的建议：考虑了硬件加速和性能之后，CSS&lt;a class="link" href="https://css-tricks.com/myth-busting-css-animations-vs-javascript/" target="_blank" rel="noopener"
+&gt;几乎&lt;/a&gt;总是优于JavaScript。有选择时，使用基于CSS的动画，将JS作为备选。&lt;/p&gt;
+&lt;h3 id="从细微处开始"&gt;从细微处开始
+&lt;/h3&gt;&lt;p&gt;将动画当作设计工具而非样式表现时，最好从细微处着手。比如，微小低调的动画表现更好（见上一章）。第二，巨大炫目的动画必须带有实用的目的，不能只为了“好看”。&lt;/p&gt;
+&lt;p&gt;除了那些让UI元素感觉“真实”和接近自然的动画，多数网站都不需要任何动画。想像一下婚礼上撒米祝福的场景，加入那种视觉差滚动效果之前，问问自己，它真的改善了用户的体验吗。巨大炫目的东西在屏幕上四处移动，比常规文字和美丽的图片更能告知和引导用户吗？&lt;/p&gt;
+&lt;p&gt;多数情况下，答案很可能都是“不”。当然也会有例外。例外总是会有。但多数时候，让按钮动起来，让隐藏的导航条滑入，用动画移除发送客服邮件后的成功提示，这就足够了。&lt;/p&gt;
+&lt;p&gt;微妙是好设计的关键，这点往往被低估。以此为起点，然后如果你能确信，更大更闪耀的东西在用户体验方面更符合你的目标，那么再全力以赴！&lt;/p&gt;
+&lt;h3 id="持续时间要短或者说我觉得有必要加快速度"&gt;持续时间要短，或者说：我觉得有必要加快速度
+&lt;/h3&gt;&lt;p&gt;动画要快，准确的说，应该发生得快。这里我不是在说性能，而是一个物体在运动过程中实际耗费的时间。&lt;/p&gt;
+&lt;p&gt;想想我们如何与真实物体互动。有时候我们动作很快，有时慢。我们操作物体的速度，取决于它的尺寸。是顺手而为的任务，还是像端着满满一碗水那样。通常我们会很快地拿起物体，快速移动。单个动作可能发生在毫秒间。&lt;/p&gt;
+&lt;p&gt;在我们度量界面动画时，“毫秒”是最通常的度量单位。再长的话，人们就会开始对机器或产品、或是两者失去耐心。得确保它够短，不然让人感觉迟钝。&lt;/p&gt;
+&lt;p&gt;对于人们反复使用的产品，这点尤其正确。即使某个动画&lt;em&gt;相当有趣好玩&lt;/em&gt;，第10次看到时也会失去吸引力。它只是个跳动的按钮或是滑动菜单，而不是你最爱的电视节目的片头。没有人会为此随声附和。&lt;/p&gt;
+&lt;h3 id="有时要让物体具有弹性"&gt;有时要让物体具有弹性
+&lt;/h3&gt;&lt;p&gt;真实物体都会回弹。有些并不明显，但基本上所有的物体都有一点弹性。如果将它从足够高的地方扔向坚硬的表面，而且如果没有太大的空气阻力的话……总之你懂我意思。&lt;/p&gt;
+&lt;p&gt;与UI元素交互就像在操作硬质的小物体。将它们抛到一边，它们回弹一点。扔下去，也会回弹一点。&lt;/p&gt;
+&lt;p&gt;因此这很有帮助，适当时候让你的动画“回弹”，尤其是当它们垂直移动的时候。这都是在维持运动感。&lt;/p&gt;
+&lt;h3 id="物体不会突然停止"&gt;物体不会突然停止
+&lt;/h3&gt;&lt;p&gt;移动中的物体需要一些时间才能静止。静止物体需要一定时间加速。耶，物理现象！&lt;/p&gt;
+&lt;p&gt;所以，当你使物体移动或停止时，记得给他们一些时间（以毫秒计）来减速或加速。这个叫做“缓动”，这个功能被置入了CSS中。&lt;/p&gt;
+&lt;h2 id="链接"&gt;链接
+&lt;/h2&gt;&lt;p&gt;终极指南如果没有一个满是链接的章节，就是不完整的。下面来了。我们整理了一些文章链接，围绕网页动画背后的基本理论、入门教程，还有大量案例。请尽情享用。&lt;/p&gt;
+&lt;h3 id="网页动画理论"&gt;网页动画理论
+&lt;/h3&gt;&lt;p&gt;开始做动画前还想了解更多信息？没问题。这儿有一大堆聪明人的建议，其中一些还对网页动画的未来作了预测。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="https://cssanimation.rocks/principles/" target="_blank" rel="noopener"
+&gt;Animation Principles for the Web&lt;/a&gt;&lt;/strong&gt; 这篇文章围绕CSS动画。描绘了运动物体背后最基础的原则。仔细看看他们网站的其余案例、教程和邮件课程。（不过，邮件课程是收费的）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="https://medium.com/@stevenfabre/invisible-animation-ffa27d0b77e5" target="_blank" rel="noopener"
+&gt;Invisible animation&lt;/a&gt;&lt;/strong&gt; Steven Fabre告诉我们动画要如何像设计本身那样，基本不可见。读了之后你就不会觉得这句话矛盾。快去吧。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://www.creativebloq.com/animation/will-animation-be-big-ui-trend-2015-21514144" target="_blank" rel="noopener"
+&gt;Will animation be the big UI trend of 2015?&lt;/a&gt;&lt;/strong&gt; 对于动画的指导原则做出了一些很棒的推测性的阐释，如果再短点就好了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://byrichardpowell.co.uk/post/10648897311/animations-role-in-web-design" target="_blank" rel="noopener"
+&gt;The Role of Animation in Web Design&lt;/a&gt;&lt;/strong&gt; 另一则简单基础的建议。短小精悍，当你每次需要做出动画方面的重要抉择时，都值得回来重读一遍。可以将它作为记录思想的便条。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://www.smashingmagazine.com/2014/11/18/the-state-of-animation-2014/" target="_blank" rel="noopener"
+&gt;The State Of Animation 2014&lt;/a&gt;&lt;/strong&gt; Rachel Nabors出品，一套非常棒的总览，（或多或少）讲述了网页动画是如何完成的。你还会见到她的名字好几次，因为她是这个领域的专家。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://24ways.org/2014/five-ways-to-animate-responsibly/" target="_blank" rel="noopener"
+&gt;Five Ways to Animate Responsibly&lt;/a&gt;&lt;/strong&gt; Rachel Nabors的又一篇干货（我早说过还会看到她的作品……）。这篇中，她重温了5种加入动画同时不会疏远用户的方法。&lt;/p&gt;
+&lt;h3 id="教程"&gt;教程
+&lt;/h3&gt;&lt;p&gt;关键在这里！学习更多你想都没想过的CSS属性。学习&lt;em&gt;easeIn&lt;/em&gt;和&lt;em&gt;easeOut&lt;/em&gt;的区别——其实我也要查阅一下。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://develop-a-website.com/simple-css3-animation-tutorials/" target="_blank" rel="noopener"
+&gt;4 Simple CSS3 Animation Tutorials&lt;/a&gt;&lt;/strong&gt; 跳过简介部分，直达干货，如果这样符合你习惯。我在下面还包含了很多引导性的教程。如果你想直接看一些基础代码，请由此开始。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://webdesign.tutsplus.com/tutorials/a-beginners-introduction-to-css-animation--cms-21068" target="_blank" rel="noopener"
+&gt;A Beginner’s Introduction to CSS Animation&lt;/a&gt;&lt;/strong&gt; 正如标题所描述的。只要你有基础的HTML和CSS知识，就能跟上这个教程，掌握一些有用的基于CSS的动画知识。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://www.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/" target="_blank" rel="noopener"
+&gt;The Guide To CSS Animation: Principles and Examples&lt;/a&gt;&lt;/strong&gt; Smashing Magazine为读者奉献了大量的基本动画。这是简单却有价值的知识。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://24ways.org/2012/flashless-animation/" target="_blank" rel="noopener"
+&gt;Flashless Animation&lt;/a&gt;&lt;/strong&gt; 又一篇很好的CSS动画介绍，传奇的Rachel Nabors出品。没错，它是2012年的文章，但那时与现在的唯一区别，是她提供的技巧如今得到了更多浏览器的支持。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://tympanus.net/codrops/category/tutorials/" target="_blank" rel="noopener"
+&gt;Codrops tutorials&lt;/a&gt;&lt;/strong&gt; 我说真的，Codrops的这些家伙，推荐多少次都不为过。他们创作了大量的案例、概念样品、灵感收集，当然还有教程。他们热爱动画，并且做了许多来分享他们的爱好。&lt;/p&gt;
+&lt;p&gt;这里是&lt;em&gt;一些&lt;/em&gt;他们创作的动画相关的教程：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="http://tympanus.net/codrops/2014/03/13/tilted-content-slideshow/" target="_blank" rel="noopener"
+&gt;Tilted Content Slideshow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://tympanus.net/codrops/2014/08/05/page-preloading-effect/" target="_blank" rel="noopener"
+&gt;Page Preloading Effect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://tympanus.net/codrops/2014/12/23/sliding-header-layout/" target="_blank" rel="noopener"
+&gt;Sliding Header Layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://tympanus.net/codrops/2015/03/04/playful-trampoline-effect/" target="_blank" rel="noopener"
+&gt;Playful Trampoline Effect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://tympanus.net/codrops/2015/02/16/create-animated-text-fills/" target="_blank" rel="noopener"
+&gt;How to Create (Animated) Text Fills&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://css3.bradshawenterprises.com/" target="_blank" rel="noopener"
+&gt;CSS3 Transitions, Transforms, Animation, Filters and more!&lt;/a&gt;&lt;/strong&gt; 深入全面的交互教程，大量生动的案例。当你完成了大部分基础教程，可以来这里看看。它给你很多用于练习的创意。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://learn.shayhowe.com/advanced-html-css/transitions-animations/" target="_blank" rel="noopener"
+&gt;Transitions &amp;amp; Animations&lt;/a&gt;&lt;/strong&gt; 一篇简易CSS动画教程，特别关注transition和相关属性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://www.cssreset.com/css3-webkit-animation-shake-links/" target="_blank" rel="noopener"
+&gt;Shaking Up The Web With CSS3 (How To Make Links Shake)&lt;/a&gt;&lt;/strong&gt; 重点讲述晃动物体的教程。我是指……看看就知道了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/" target="_blank" rel="noopener"
+&gt;High Performance Animations&lt;/a&gt;&lt;/strong&gt; 这篇教程由众人爱戴的Paul Lewis和Paul Irish联合创作完成，关注如何在不拖慢浏览器的情况下完成动画。由于这点在移动端尤其重要，很值得一读。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://valhead.com/2013/01/04/tutorial-css-animation-fill-mode/" target="_blank" rel="noopener"
+&gt;Tutorial: Using animation-fill-mode In Your CSS Animations&lt;/a&gt;&lt;/strong&gt; 在学了这么多让物体运动的方法后，还可以学着处理那些尚未移动、或是运动完成的物体。有时候样式会很棘手，这就是为什么需要&lt;em&gt;animation-fill-mode&lt;/em&gt;属性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="https://css-tricks.com/snippets/css/keyframe-animation-syntax/" target="_blank" rel="noopener"
+&gt;Keyframe Animation Syntax&lt;/a&gt;&lt;/strong&gt; css-tricks.com提供的一些非常有用的片段。不记得如何设定keyframe来达成目标？收藏这篇，就再也不用担心了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://www.hongkiat.com/blog/css-cubic-bezier/" target="_blank" rel="noopener"
+&gt;A Look Into: Cubic-Bezier In CSS3 Transition&lt;/a&gt;&lt;/strong&gt; 这篇完全是关于时间。我是指动画字面意义的时间。更确切的说，是讲述使用贝塞尔曲线来使动画节奏适中。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;弹跳物体！&lt;/strong&gt; 我发现两个不同的教程，讲述如何打造弹跳动画。每个都采用了不同的方式，有一些其他所没有的内容。犹豫不决之余，我干脆把两者都放出来。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://davidwalsh.name/css-flip" target="_blank" rel="noopener"
+&gt;Create a CSS Flipping Animation&lt;/a&gt; &lt;a class="link" href="http://callmenick.com/2014/11/19/css-transitions-transforms-animations-flipping-card/" target="_blank" rel="noopener"
+&gt;CSS Transitions, Transforms &amp;amp; Animations – Flipping Card&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="http://www.impressivewebs.com/animating-css3-gradients/" target="_blank" rel="noopener"
+&gt;Animating CSS3 Gradients&lt;/a&gt;&lt;/strong&gt; 多数动画教程都假定你是要改变物体的几何形体或在页面上的位置。这篇则教你如何改变他们的内部……在本例中是指渐变。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;标题图：&lt;a class="link" href="http://www.shutterstock.com/pic-215370808.html" target="_blank" rel="noopener"
+&gt;动画图片&lt;/a&gt;，来自Shutterstock&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2015/05/the-ultimate-guide-to-web-animation/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://designmodo.com/author/ghazaryan/" target="_blank" rel="noopener"
+&gt;EZEQUIEL BRUNI&lt;/a&gt;
+&lt;a class="link" href="http://www.ezequielbruni.com/" target="_blank" rel="noopener"
+&gt;Ezequiel Bruni&lt;/a&gt; is a web/UX designer, blogger, and aspiring photographer living in Mexico. When he&amp;rsquo;s not up to his finely-chiselled ears in wire-frames and front-end code, or ranting about the same, he indulges in beer, pizza, fantasy novels, and stand-up comedy. &lt;a class="link" href="http://www.webdesignerdepot.com/author/Ezequiel-Bruni" target="_blank" rel="noopener"
+&gt;More articles&lt;/a&gt; by Ezequiel Bruni&lt;/p&gt;</description></item><item><title>AE环形进度条</title><link>https://victor42.eth.limo/post/3424/</link><pubDate>Tue, 10 Feb 2015 15:16:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3424/</guid><description>&lt;p&gt;【补充：本效果证实有更简便的实现方法，详情请直接看末尾。不过本文的解法中用到的一些技巧还是很实用的，可以作为一种练习。】&lt;/p&gt;
+&lt;p&gt;我过去这一年才开始接触AE，确实是很有意思且实用的一门技能。AE入门挺简单，如果学过FLASH，上手会更快。其实任何复杂的UI动画，都是通过最基本的位移、旋转、缩放、透明度、颜色变化的组合来实现。网上这些基本技巧的学习资料非常丰富，比如我就是靠这个&lt;a class="link" href="http://v.youku.com/v_show/id_XMjMyNzk0NjQ4.html?f=5405564" target="_blank" rel="noopener"
+&gt;系列视频&lt;/a&gt;入门的。&lt;/p&gt;
+&lt;p&gt;不过，今天要分享给大家的这个环形进度条，制作起来需要花点心思。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/1.gif"
+loading="lazy"
+alt="AE制作出的最终环形进度条动画效果动图"
+&gt;&lt;/p&gt;
+&lt;h2 id="思路"&gt;思路
+&lt;/h2&gt;&lt;p&gt;环形进度条是个挺特殊的动画，在旋转的基础上还要选择性地显示部分区域。似乎没有很直接的实现方式。&lt;/p&gt;
+&lt;p&gt;参考之前做过的&lt;a class="link" href="http://greenzorro.github.io/demo/css/%E7%8E%AF%E5%BD%A2%E8%BF%9B%E5%BA%A6%E6%9D%A1.html" target="_blank" rel="noopener"
+&gt;CSS3环形进度条&lt;/a&gt;，感觉可行。它的实现方式，核心思想是把圆环分割成左右两个半圆。进度条的深绿色，事实上是背景色，不会动的。左右两个浅绿色半圆遮住进度条，先右后左依次旋转，露出下方的进度条。&lt;/p&gt;
+&lt;p&gt;至于圆怎么变成环，在上方盖一个小点的圆就行了。在AE中，还可以使用图层遮罩，这个我们稍后会讲。&lt;/p&gt;
+&lt;p&gt;其实AE的实现方式可以更好，能做出真正背景透明的环形进度条。但核心仍然是左右两个半圆分别旋转。原理请看下图。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/2.gif"
+loading="lazy"
+alt="AE环形进度条实现原理的红蓝紫三色半圆旋转演示动图"
+&gt;&lt;/p&gt;
+&lt;p&gt;把圆分成左半圆（红色）和右半圆（蓝色），限定两个半圆的显示区域在各自半边空间里。底下再加一层静止的右半圆（紫色）。详细的原理，我们边做边看。&lt;/p&gt;
+&lt;h2 id="左半圆右半圆背景半圆"&gt;左半圆、右半圆、背景半圆
+&lt;/h2&gt;&lt;p&gt;首先把静止的素材准备好，也就是这3个半圆。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/1.png"
+loading="lazy"
+alt="在AE中准备好的左、右及背景三个彩色半圆素材图层"
+&gt;&lt;/p&gt;
+&lt;p&gt;建立合成，随意选了个720p的尺寸。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/2.png"
+loading="lazy"
+alt="AE中新建合成的属性设置面板，宽度1280高度720"
+&gt;&lt;/p&gt;
+&lt;p&gt;画圆，尺寸设为400*400。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/3.png"
+loading="lazy"
+alt="AE形状图层中椭圆路径的大小属性设置为400x400"
+&gt;&lt;/p&gt;
+&lt;p&gt;把圆的位置（不是形状图层的位置）设为0, 0，圆就准确定位在画布的中央。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/4.png"
+loading="lazy"
+alt="AE中将椭圆路径的位置参数重置为0,0以进行居中"
+&gt;&lt;/p&gt;
+&lt;p&gt;在同一个形状图层中再画个矩形，宽高设为200*400，半个圆的大小。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/5.png"
+loading="lazy"
+alt="在同一形状图层下新建一个大小为200x400的矩形路径"
+&gt;&lt;/p&gt;
+&lt;p&gt;矩形的位置设为-100,0，刚好能盖住左半边圆。没错，这个矩形就是用来裁剪半圆的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/6.png"
+loading="lazy"
+alt="设置矩形路径位置为-100,0以遮挡圆的左半部分"
+&gt;&lt;/p&gt;
+&lt;p&gt;点此处的添加，选择复合路径。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/7.png"
+loading="lazy"
+alt="AE形状图层添加菜单中选择复合路径Merge Paths选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;模式设置为相交。这个和PS和AI里的路径加减道理相同。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/8.png"
+loading="lazy"
+alt="在复合路径属性中将合并模式设置为相交Intersect"
+&gt;&lt;/p&gt;
+&lt;p&gt;然后选中圆、矩形和复合路径，command/ctrl + G编组。这个组就是我们需要的半圆。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/9.png"
+loading="lazy"
+alt="将椭圆、矩形和复合路径归纳编组在同一个组中"
+&gt;&lt;/p&gt;
+&lt;p&gt;展开组，复制其中的矩形，粘贴到组外面来。&lt;/p&gt;
+&lt;p&gt;这个新矩形才是真正用来做遮罩的，可以理解为PS里的矢量蒙版。AE本身也有遮罩功能，但是只能应用在图层上，图层旋转，遮罩也跟着旋转。我们需要的效果是半圆旋转，遮罩层静止不动。半圆转到矩形外面的部分不可见。所以我们要再用一次复合路径。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/10.png"
+loading="lazy"
+alt="在组外部添加新的矩形和复合路径以创建矢量蒙版"
+&gt;&lt;/p&gt;
+&lt;p&gt;添加——复合路径，模式仍然选择相交。这回是新矩形和组的相交。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/11.png"
+loading="lazy"
+alt="在AE画布中旋转组，超出外部矢量蒙版的部分被裁切隐藏"
+&gt;&lt;/p&gt;
+&lt;p&gt;可以试着把组旋转一下，超出矩形的部分确实看不见了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/12.png"
+loading="lazy"
+alt="给组的旋转属性在0帧位置打上首个关键帧"
+&gt;&lt;/p&gt;
+&lt;p&gt;旋转归位，给组的旋转属性加个关键帧，因为后面会用到。一层层点进来找实在太麻烦，如果有关键帧存在，按快捷键u就直接打开了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/13.png"
+loading="lazy"
+alt="在图层面板中将当前形状图层重命名为左半圆"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在我们可以开心地把这个图层命名为“左半圆”了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/14.png"
+loading="lazy"
+alt="设置右半圆图层中外部蒙版矩形的位置为100,0以裁切右半圆"
+&gt;&lt;/p&gt;
+&lt;p&gt;command/ctrl + D复制图层，这个新图层是右半圆。把组外面的矩形位置设为100, 0，刚好盖住圆的右半边。但是什么也没显示出来，没错，因为我们只是把蒙版移到了右边，半圆的位置仍然在左边。&lt;/p&gt;
+&lt;p&gt;好多图层，是不是有点糊涂了？简单来说，组里的圆和矩形，用来产生一个静止的半圆。我们后面需要旋转的时候，转的就是这个半圆。组外面的矩形，则是矢量蒙版。左半圆的矢量蒙版盖住左边，右半圆的矢量蒙版盖住右边，拼起来刚好能显示完整的圆。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/15.png"
+loading="lazy"
+alt="AE时间轴中排列着左半圆、右半圆和背景半圆三个图层"
+&gt;&lt;/p&gt;
+&lt;p&gt;把右半圆再复制一个，改名为背景半圆，移到底层。把组内的矩形位置设为100, 0，圆完整了。&lt;/p&gt;
+&lt;p&gt;至此，动画所需的静止素材都准备好了。&lt;/p&gt;
+&lt;h2 id="制作旋转动画"&gt;制作旋转动画
+&lt;/h2&gt;&lt;p&gt;现在要让半圆动起来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/16.png"
+loading="lazy"
+alt="AE时间轴按键u后，只显示具有关键帧的组旋转属性"
+&gt;&lt;/p&gt;
+&lt;p&gt;多按几次快捷键u，之前展开的各种属性都收起来了，只剩有关键帧的旋转属性。注意，这并不是图层的旋转属性，而是每个图层内那个组（静止半圆）的旋转属性。&lt;/p&gt;
+&lt;p&gt;右半圆和背景半圆的旋转属性的关键帧可以去掉了。不过右半圆的旋转属性我们还会用到，先不要折叠起来，不然找起来很麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/17.png"
+loading="lazy"
+alt="在左半圆图层点击独奏Solo小圆点以单独显示该图层"
+&gt;&lt;/p&gt;
+&lt;p&gt;点击左半圆图层的这个小圆点，只显示当前图层。相当于PS里按alt点图层眼睛。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/18.png"
+loading="lazy"
+alt="为左半圆添加从0度到1x0.0度旋转一圈的关键帧动画"
+&gt;&lt;/p&gt;
+&lt;p&gt;做一个最普通的旋转动画吧，旋转一周。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/19.png"
+loading="lazy"
+alt="按Alt点击右半圆旋转属性的秒表激活其表达式编辑框"
+&gt;&lt;/p&gt;
+&lt;p&gt;这步很重要。按alt点右半圆的旋转属性，下面多出一行，时间轴里出现了表达式。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/20.png"
+loading="lazy"
+alt="使用AE父级螺旋关联器将右半圆的旋转表达式链接至左半圆"
+&gt;&lt;/p&gt;
+&lt;p&gt;接下来，把右半圆旋转属性的这个螺旋状图标，拖到左半圆的旋转属性上。表达式随之变化。（这里扯一句题外话，拖拽过程中可以试着在中途某个空白处松手，会看到一个很有爱的动画效果）&lt;/p&gt;
+&lt;p&gt;刚才我们做了什么呢？按alt点旋转属性，激活了它的表达式。把小螺旋拖动到左半圆的旋转属性上，会让右半圆的旋转属性始终同步，数值与左半圆保持一致。所以从现在起，任何时候我们旋转左半圆，右半圆都会跟着转。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/21.png"
+loading="lazy"
+alt="在时间轴中关闭左半圆的独奏Solo状态以恢复完整图层显示"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在我们可以关闭左半圆的单独显示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/22.png"
+loading="lazy"
+alt="AE画布上分别填充为红、蓝、紫三色的半圆拼接效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;为了能清晰地区分3个半圆，我们来填上不同的颜色。当然，填色没有实际用途，只是教学目的。&lt;/p&gt;
+&lt;p&gt;就按照思路里的示意图，左半圆填红色，右半圆蓝色，背景半圆紫色。&lt;/p&gt;
+&lt;h2 id="找到临界帧"&gt;找到临界帧
+&lt;/h2&gt;&lt;p&gt;可以试着播放一下看，现在的动画显然是不对的。左半圆怎么能一上来就显示？应该要在右半圆转完半圈之后才显示。背景半圆也是。&lt;/p&gt;
+&lt;p&gt;所以，我们要找到特定的一帧。在这帧之前，左半圆和背景半圆都必须是隐藏状态。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/23.png"
+loading="lazy"
+alt="将时间轴指针定位在右半圆旋转至180度的临界帧处"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个临界帧，就是右半圆刚刚转到180度或超出一点点的时候。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/24.png"
+loading="lazy"
+alt="截断左半圆和背景半圆图层的入点，使其在180度临界帧后才出现"
+&gt;&lt;/p&gt;
+&lt;p&gt;选中左半圆和背景半圆，把时间轴左端缩到临界帧的位置。现在它们不会在不该出现的时候现身了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/25.png"
+loading="lazy"
+alt="在AE时间轴下方点击图表编辑器图标进入运动曲线调整"
+&gt;&lt;/p&gt;
+&lt;p&gt;再播放一下，这回对了！&lt;/p&gt;
+&lt;p&gt;不过这么机械的匀速旋转绝对是拿不出手的。要让旋转的过程自然一点。点击这个波形图标，打开曲线编辑器。选中左半圆的旋转属性，编辑器中出现了一条直线。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/26.png"
+loading="lazy"
+alt="在曲线编辑器中将线性关键帧转为贝塞尔曲线关键帧"
+&gt;&lt;/p&gt;
+&lt;p&gt;选中直线，点击这个两端手柄的图标。直线变成了曲线，出现了两个手柄。&lt;/p&gt;
+&lt;p&gt;曲线编辑器这个功能很好理解。横轴是时间，纵轴是值的变化。曲线的平缓处，值的变化慢。曲线的陡峭处，值的变化快。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/27.png"
+loading="lazy"
+alt="通过贝塞尔手柄将旋转速度曲线调整为前快后慢的缓动状态"
+&gt;&lt;/p&gt;
+&lt;p&gt;比如我们这里要做一个快速进入、再逐渐减速停止的动画，就应该把曲线调成这样。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/28.png"
+loading="lazy"
+alt="结合最新的缓动速度曲线，重新在时间轴上微调图层的入点"
+&gt;&lt;/p&gt;
+&lt;p&gt;这时候我们就需要重新找一遍临界帧了。还是那条原则，右半圆刚刚转到180度或超出一点点的时候。&lt;/p&gt;
+&lt;h2 id="添加遮罩"&gt;添加遮罩
+&lt;/h2&gt;&lt;p&gt;圆形进度条已经完成了，我们把它裁剪成环形。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/29.png"
+loading="lazy"
+alt="选中所有形状图层并右键选择新建预合成Pre-compose选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;选中所有图层，右键预合成。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/30.png"
+loading="lazy"
+alt="在预合成属性设置对话框中命名为预合成1并点击确定"
+&gt;&lt;/p&gt;
+&lt;p&gt;3个图层变成了一个，这个有点像PS里的智能对象，或者FLASH里的影片剪辑。&lt;/p&gt;
+&lt;p&gt;command/ctrl + shift + N，创建遮罩。这里的遮罩就是我开头说的图层遮罩，AE自带的遮罩功能。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/31.png"
+loading="lazy"
+alt="为预合成图层添加一个覆盖整个合成画面的矩形遮罩"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在的遮罩是个矩形，盖住了整个画布。我们展开遮罩菜单，点遮罩路径。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/32.png"
+loading="lazy"
+alt="在遮罩形状属性对话框中准备对边界值进行输入重设"
+&gt;&lt;/p&gt;
+&lt;p&gt;上下左右4个值设置成图中数字，下面的钩打上，重设为圆形。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/33.png"
+loading="lazy"
+alt="将遮罩边界的上下左右值设为算好的固定数值，并勾选重设为椭圆"
+&gt;&lt;/p&gt;
+&lt;p&gt;这4个数字是算出来的，目的是为了让遮罩变为圆形后，尺寸与位置刚好与圆形进度条重合。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/34.png"
+loading="lazy"
+alt="在遮罩属性中勾选反向Inverted，使遮罩范围外的圆形显示"
+&gt;&lt;/p&gt;
+&lt;p&gt;然后我们勾上这个反向。圆不见了，因为遮罩现在变为只显示它外面的部分。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/35.png"
+loading="lazy"
+alt="在画布中按住Ctrl&amp;#43;Shift等比例中心缩小圆形遮罩，切出内部圆环"
+&gt;&lt;/p&gt;
+&lt;p&gt;选中遮罩，command/ctrl + T（各位相当熟悉的快捷键）&lt;/p&gt;
+&lt;p&gt;按住command/ctrl + shift，以中心为原点缩放遮罩，把它稍稍缩小一点。圆环露出来了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/1.gif"
+loading="lazy"
+alt="AE制作出的最终环形进度条动画效果动图"
+&gt;&lt;/p&gt;
+&lt;p&gt;大功告成，这就是我要的&lt;del&gt;滑板鞋&lt;/del&gt;进度条。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;教程洋洋洒洒写了这么长一段，大多都在解释思路与原理。其实整个制作过程非常简单。多来几遍，以后再碰到这样的需求，基本5分钟拿下。&lt;/p&gt;
+&lt;p&gt;当然，你也可以再偷懒一点。因为在文章末尾，我一定会把源文件放出来的。 →_→&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://pan.baidu.com/s/1eQxSE6A" target="_blank" rel="noopener"
+&gt;传说中的源文件&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我最后要提醒一下，由于我也是半桶水，不能保证这就是最佳的实现方法，只是能实现而已。我猜测，或许在我还没有研究过的路径动画中，藏着更简便的解法。&lt;/p&gt;
+&lt;p&gt;如果你有更好的方法，请不吝赐教。&lt;/p&gt;
+&lt;p&gt;【补充：马上就有朋友回复了，更简便的方法还不止一种。“径向擦除”和“修剪路径”，我试了下径向擦除，真是一步到位。有兴趣的朋友可以看看&lt;a class="link" href="http://www.zcool.com.cn/article/ZNDkzNDg=.html" target="_blank" rel="noopener"
+&gt;这篇文章&lt;/a&gt;中的圆形生长部分。】&lt;/p&gt;</description></item><item><title>打造超棒GIF动画的7个秘诀</title><link>https://victor42.eth.limo/post/3415/</link><pubDate>Sun, 21 Dec 2014 21:17:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3415/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第69期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2014/12/blogtest.gif"
+loading="lazy"
+alt="打造超棒GIF动画的7个秘诀设计中关于“在可不是消磨时间的玩”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;在InVision，&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22GIFs&amp;#43;aren%27t&amp;#43;just&amp;#43;for&amp;#43;goofing&amp;#43;around%22&amp;#43;http%3A%2F%2Fbit.ly%2F1vEneI7&amp;#43;via&amp;#43;%40invisionapp" target="_blank" rel="noopener"
+&gt;GIF可不是消磨时间的玩意&lt;/a&gt;——它们在市场和教育方面扮演着强有力的角色。更有甚者，我们在&lt;a class="link" href="http://invisionapp.com/tour" target="_blank" rel="noopener"
+&gt;首页&lt;/a&gt;上用的就是GIF，而不是基于代码的炫酷动画。&lt;/p&gt;
+&lt;p&gt;实际上，人们开始询问，“那些GIF你们怎么做出来的？”是时候透露一下秘密了。&lt;/p&gt;
+&lt;p&gt;##设计GIF&lt;/p&gt;
+&lt;p&gt;###1. 秘密武器&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Here%27s&amp;#43;my&amp;#43;dirty&amp;#43;little&amp;#43;secret%3A&amp;#43;all&amp;#43;my&amp;#43;GIFs&amp;#43;start&amp;#43;as&amp;#43;videos.%22&amp;#43;http%3A%2F%2Fbit.ly%2F1vEneI7&amp;#43;via&amp;#43;%40invisionapp" target="_blank" rel="noopener"
+&gt;这就是我不可告人的小秘密：所有的GIF是从视频文件开始的。&lt;/a&gt;我通常在&lt;a class="link" href="http://www.telestream.net/screenflow/overview.htm" target="_blank" rel="noopener"
+&gt;ScreenFlow&lt;/a&gt;里制作，我们也用它来制作产品视频。它足够简单，学起来很快，内置了一些非常有用的动画工具。&lt;/p&gt;
+&lt;p&gt;将动画导出成视频文件后，我通过&lt;strong&gt;文件&amp;gt;导入&amp;gt;视频帧作为图层&lt;/strong&gt;将它导入到Photoshop里。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0000_Layer-Comp-1.jpg"
+loading="lazy"
+alt="打造超棒GIF动画的7个秘诀设计中关于“高级技巧如果或超出你”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;高级技巧：&lt;/strong&gt; 如果ScreenFlow或After Effects超出你的预算，可以在Keynote里创作你的动画，然后导出成视频。是的，最后有这个选项。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;###2. 更少的颜色 = 更多的乐趣&lt;/p&gt;
+&lt;p&gt;如果想要惊艳的GIF，你得&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22be&amp;#43;really&amp;#43;selective&amp;#43;about&amp;#43;your&amp;#43;use&amp;#43;of&amp;#43;color.%22&amp;#43;http%3A%2F%2Fbit.ly%2F1vEneI7&amp;#43;via&amp;#43;%40invisionapp" target="_blank" rel="noopener"
+&gt;精挑细选地使用颜色&lt;/a&gt;。它不仅会使文件大小激增，使用更少的颜色也能让你制作更长、更复杂的GIF，而且文件仍然可以相对较小。（对我来说，1MB以下才算小）&lt;/p&gt;
+&lt;p&gt;###3. 可能的话，使用运动模糊&lt;/p&gt;
+&lt;p&gt;像ScreenFlow和After Effects这样的软件，能输出带有运动模糊效果的视频。这不仅使你的动画看起来更专业，而且为了压缩文件尺寸，要从Photoshop中的GIF里删掉一些帧，还能帮你蒙混过关。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2014/12/no-motion-example.gif"
+loading="lazy"
+alt="打造超棒GIF动画的7个秘诀设计中关于“懒某种程度来说”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2014/12/motion-example.gif"
+loading="lazy"
+alt="打造超棒GIF动画的7个秘诀设计中关于“懒某种程度来说想像一”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;###4. 懒（某种程度来说）&lt;/p&gt;
+&lt;p&gt;想像一下，本文开头的那个GIF，我本来还能加很多东西进去。带有用户名的小提示、一个鼠标指针点击加号按钮、鼠标滑过头像触发更多提示和悬停状态。人们不用看到每个细节就能了解情况，所以&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22only&amp;#43;show&amp;#43;what&amp;#43;you&amp;#43;need&amp;#43;to%E2%80%94your&amp;#43;time&amp;#43;and&amp;#43;file&amp;#43;size&amp;#43;are&amp;#43;limited.%22&amp;#43;http%3A%2F%2Fbit.ly%2F1vEneI7&amp;#43;via&amp;#43;%40invisionapp" target="_blank" rel="noopener"
+&gt;就只展示需要展示的部分——时间和文件大小是有限的&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;##导出GIF&lt;/p&gt;
+&lt;p&gt;下面这些诀窍可能会让你有些紧张，在这之前，先尝试直接导出GIF。如果文件大小可以接受，那么很好！继续这么做。如果它太大了，继续往下看。&lt;/p&gt;
+&lt;p&gt;###5. 删除重复的帧&lt;/p&gt;
+&lt;p&gt;你的动画很可能在某处会暂时停止。仔细观察，你会发现这些片段包含了一大堆重复的帧，每个0.03秒。如果有10个重复帧，删掉9个，把剩下的那个时间设长一些，比如说1秒。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0004_Layer-Comp-5.png"
+loading="lazy"
+alt="打造超棒GIF动画的7个秘诀设计中关于“如果这没用尝试重新导”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果这没用，尝试重新导入视频，但这次要选&lt;strong&gt;间隔帧&lt;/strong&gt;。它会显著缩减文件大小。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0003_Layer-Comp-4.jpg"
+loading="lazy"
+alt="打造超棒GIF动画的7个秘诀设计中关于“高级技巧这不是一条铁”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;高级技巧：&lt;/strong&gt; 这不是一条铁律，但如果你的GIF有超过150帧，你就得花好一阵子来削减文件大小。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;###6. 缩减色彩&lt;/p&gt;
+&lt;p&gt;在Photoshop中保存GIF时，右边能看到一个下拉菜单写着“颜色”。随便调调。只要GIF不会变成一团糟，设得越低越好。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0002_Layer-Comp-3.jpg"
+loading="lazy"
+alt="打造超棒GIF动画的7个秘诀设计中关于“调整失真率老实说我甚”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;###7. 调整失真率&lt;/p&gt;
+&lt;p&gt;老实说，我甚至不知道失真率是什么意思。但我&lt;strong&gt;的确&lt;/strong&gt;知道，如果你把它设置成1和10之间的某个数，就能在不降低画质的情况下剔除很多kb。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2014/12/gif-post_0001_Layer-Comp-2.jpg"
+loading="lazy"
+alt="打造超棒GIF动画的7个秘诀设计中关于“喂这就是失真率意思”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;(喂Andy, &lt;a class="link" href="http://www.pcmag.com/encyclopedia/term/46335/lossy-compression" target="_blank" rel="noopener"
+&gt;这就是失真率意思&lt;/a&gt;——Ed)&lt;/p&gt;
+&lt;p&gt;###这些都不管用！求助！&lt;/p&gt;
+&lt;p&gt;如果上面方法都尝试过，但GIF大小就是压不下去，这时候需要倒退一步。你想做的是不是太多了？有没有其他方式达成你的目标？如果把它拆分成几个不同的GIF呢？就像大多数创意产品一样，如果你专注于一件事，你的GIF会表现更好。&lt;/p&gt;
+&lt;h2 id="福利视频极速创作"&gt;**福利视频：**极速创作
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;挑毛病：&lt;/strong&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2014/12/invision-gif-source-file.zip" target="_blank" rel="noopener"
+&gt;下载视频文件&lt;/a&gt;，本文的GIF就是用这个做的！（需要ScreenFlow 5以上打开）&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://embed.wistia.com/deliveries/9c0799063bec8f798c3e87b2651582610d67fba6.jpg?image_crop_resized=640x360"
+loading="lazy"
+alt="InVision GIF制作教程视频封面，紫红色背景上的灯泡图标与HOW WE MAKE GIFS文字"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;译者注：上图是一段视频，建议前往&lt;a class="link" href="http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/" target="_blank" rel="noopener"
+&gt;原文页面&lt;/a&gt;查看&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;**高级技巧：**在原型中使用GIF，可以创造一些惊艳的过渡效果。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;##还少了什么？&lt;/p&gt;
+&lt;p&gt;关于本文还有什么杀手级的技巧吗？想聊聊GIF？在Twitter上和我联络&lt;a class="link" href="https://twitter.com/andyorsow" target="_blank" rel="noopener"
+&gt;@andyorsow&lt;/a&gt;，或者访问我们网站&lt;a class="link" href="https://twitter.com/invisionapp" target="_blank" rel="noopener"
+&gt;@invisionapp&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>稍等片刻:页面预加载动画</title><link>https://victor42.eth.limo/post/3397/</link><pubDate>Sun, 19 Oct 2014 01:22:08 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3397/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第60期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://alstercloud.rs/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/5-Alstercloud.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于创造良好的用户体验已的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;创造良好的用户体验已成为先决条件，微体验更是位列前茅——本文探讨的是预加载动画。长久以来，只有少数人重视这部分，如今一切都不同了，几乎每个网站都能以一两个赏心悦目、给用户留下深刻印象的效果自居。&lt;/p&gt;
+&lt;p&gt;微体验通常与经过深思熟虑的小组件有关，它们能架起用户与内容之间的桥梁，把访问网站变为一段愉快难忘的旅程。这个领域包含了各种友好的效果，今天我们要谈的就是加载状态的指示计。&lt;/p&gt;
+&lt;p&gt;虽然只会维持几秒钟（多数情况），它们应当得到特别的重视。我们习惯于相信，首页肩负着创造显著第一印象的责任，无论如何，假如你是一个非静态网站的站长，第一个页面就是加载页，你得考虑加载的过程。讨人喜欢、吸引眼球、令人愉快的动态计数器是无可替代的；它们会愉悦用户，悄悄地迫使用户停留一小会儿——这正是你希望的。&lt;/p&gt;
+&lt;p&gt;时髦的计数器，与主体的设计有着同等的独创性，欣赏设计师们想出的那些方案非常有趣，振奋人心。那么，我们来探寻一些有趣的预加载动画吧。&lt;/p&gt;
+&lt;h3 id="little-big-room"&gt;Little Big Room
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.little-big-room.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/1-little-big-room.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于探秘这家机构的作品集的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;探秘这家机构的作品集，从这个卡通画风格的加载条开始。它不仅是为了娱乐那些正在等待的网站访客，也奠定了基调，为接下来将要发生的事情做了一点点提示。&lt;/p&gt;
+&lt;h3 id="subskill-digital"&gt;Subskill Digital
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://subskill.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/2-Subskill-Digital.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于这个团队通过漂亮的动的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个团队通过漂亮的动态logo，来给预加载页面增添活力，巧妙地将品牌标识应用到网站设计中。这效果有种讨人喜欢的数码氛围，与整个主题完美搭配。&lt;/p&gt;
+&lt;h3 id="the-erasable-wall"&gt;The Erasable Wall
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://plan.werkstatt.fr" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/3-The-Erasable-Wall.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于尽管这个网站旨在强调的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;尽管这个网站旨在强调非常严肃的话题，由于手绘风的图片、铅笔画和动画元素，它的设计却稍显俏皮。这个预加载页面聪明地表现出同样的风格，与整个项目融合得非常理想。&lt;/p&gt;
+&lt;h3 id="dunckelfeld"&gt;Dunckelfeld
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.dunckelfeld.de" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/4-Dunckelfeld.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于这个加载动画有着优雅的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个加载动画有着优雅精致的外观，与在线作品集的整体外观完全统一。这个团队巧妙地利用了logo，惊人地将动画运用其中。&lt;/p&gt;
+&lt;h3 id="alstercloud"&gt;Alstercloud
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://alstercloud.rs/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/5-Alstercloud.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于这个加载页面如此富有的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个加载页面如此富有想象力，这个充斥着生动矢量画的独创设计，清晰无疑地反映了一点，你将获得相当有趣难忘的用户体验。加载页面有着强烈的艺术氛围，与整体设计感觉接近。&lt;/p&gt;
+&lt;h3 id="though-brancott-estate"&gt;Though Brancott Estate
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://pioneers.brancottestate.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/6-Brancott-Estate.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于尽管用了一种相当简单的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;尽管Brancott Estate用了一种相当简单的解决之道——基本的旋转图标，但与背景纹理、粉笔风格的字体和引人注目的措辞聪明地结合起来，就足够迫使你停留一会儿。&lt;/p&gt;
+&lt;h3 id="sixzero"&gt;SIXZERO
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://dieze-sixzero.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/7-SIXZERO.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于有时要使你的页面迷人的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;有时要使你的页面迷人，不需要重新造轮子，SIXZERO诠释了如何利用朴素的单色背景，来为加载页面打造一系列连续的纯色布景。&lt;/p&gt;
+&lt;h3 id="tu-corte"&gt;Tu Corte
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.lider.cl/dys/HTML/tucorte.html" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/8-Tu-Corte.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于专门从事肉类领域所以的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tu Corte专门从事肉类领域，所以毫无疑问，加载指示计展示了牛肉、猪肉、禽类的具象图形。&lt;/p&gt;
+&lt;h3 id="new-jumo-concept"&gt;New Jumo Concept
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.newjumoconcept.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/9-New-Jumo-Concept.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于这个预加载页面以一个的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个预加载页面以一个带有logo形状的小动画结束。通过一种愉快迷人的方式开启了首页。&lt;/p&gt;
+&lt;h3 id="letters-inc"&gt;Letters, Inc
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://letters-inc.jp/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/10-letters-inc.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于和网站的设计非常像加的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;和网站的设计非常像，加载页面也有着精妙优雅的轮廓式外观。动画效果勾勒出首页的中心，缓缓揭开整个构图。&lt;/p&gt;
+&lt;h3 id="at-work"&gt;At Work
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.atwork.pl/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/11-At-Work.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于没有专门的加载页面一的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;没有专门的加载页面，一切都在首页上发生。它包含一个神秘的漩涡状动画，以一种汇聚能量的隐喻吸引你进入。&lt;/p&gt;
+&lt;h3 id="relio"&gt;Relio
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.relio.it/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/12-Relio.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于是个口袋大小的方形专的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Relio是个口袋大小的方形专业设备，能够为你提供照明。加载页面包含一个简洁的轮廓式图形，正是代表了这个小玩意。这个团队还让它运动起来，给这个页面增加了一点动态的感觉。&lt;/p&gt;
+&lt;h3 id="fulvio-luparia"&gt;Fulvio Luparia
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.fulvioluparia.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/13-Fulvio-Luparia.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于此处没有什么超自然的的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此处没有什么超自然的东西，带有计数器的标准圆形指示计，构成了这个页面。但是，设计师将简洁化为了优势，在锋利的图形、鲜明的颜色反差和带有淡淡标语的干净背景之间，呈现出杰出的融合。&lt;/p&gt;
+&lt;h3 id="scotch-and-soda"&gt;Scotch and Soda
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://webstore-all.scotch-soda.com/alchemyblues.html" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/14-Scotch-and-Soda.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于此处你会看到一个有装的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此处你会看到一个有装饰性的基本加载条，用一种原始的手绘方式来表现。它与首页中四处散布的手绘元素自然地呼应。&lt;/p&gt;
+&lt;h3 id="engage"&gt;Engage
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://engageinteractive.co.uk/beer" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/15-Engage.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于以艺术化的手绘风网站的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Engage以艺术化的手绘风网站设计著称，从头到尾每个细节都是这么规划的。甚至指示上传状态的一个常规加载条，也有着讨人喜爱的手绘风感染力，它还运用了品牌的配色。&lt;/p&gt;
+&lt;h3 id="all-about-medical-training"&gt;All About Medical Training
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.allaboutmedicaltraining.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/16-All-About-Medical-Training.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于这个团队诠释了如何最的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个团队诠释了如何最大限度利用空白。加载页面的特色是一个直观的医学图标，立刻反映出并生动地支撑着设计背后的想法。动态的阴影扮演着状态指示计的角色。&lt;/p&gt;
+&lt;h3 id="mikado"&gt;Mikado
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.mikado.lu/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/17-Mikado.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于把基于的图形作为了简的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mikado把基于logo的图形作为了简洁扁平风格的旋转图标。访问网站的头几秒钟，就烙上了品牌身份的标记。&lt;/p&gt;
+&lt;h3 id="designova"&gt;Designova
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.designova.net/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/18-Designova.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于和上一个例子很像也将的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;和上一个例子很像，Designova也将它的logo动画化，仅靠跳动的圆形标志装点加载页面。尽管这种解决方案相当优雅，而且易于实施，不过久而久之，它会失去魅力。&lt;/p&gt;
+&lt;h3 id="zipper-galeria"&gt;Zipper Galeria
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.zippergaleria.com.br" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/19-Zipper-Galeria.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于这个团队将它的转化成的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个团队将它的logo转化成基于文字的加载条，逐渐填入品牌色。&lt;/p&gt;
+&lt;h3 id="kommigraphics"&gt;Kommigraphics
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.kommigraphics.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/20-Kommigraphics.jpg"
+loading="lazy"
+alt="稍等片刻:页面预加载动画：关于用了经典的圆形加载指的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kommigraphics用了经典的圆形加载指示计。它呈现一种扁平样式，柔和的双色调配色，与网站的设计主题完美吻合。&lt;/p&gt;
+&lt;p&gt;###结论&lt;/p&gt;
+&lt;p&gt;尽管将加载指示计融入网站中绝非新鲜之举，记得那些基于flash的网站吧，它们普遍运用了这些时尚的小指示计。如今它们有着更新、更先进、更时尚且更精美的诠释。设计师开始像对待其他必备元素一样对待它，力求完美无瑕，吻合整体主题并且同时保有自己的风格，那么，我希望在不久的将来，每个动态的设计都具备独创且有趣的加载指示计。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/website-preloading-animation/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>界面的过渡效果</title><link>https://victor42.eth.limo/post/3381/</link><pubDate>Sun, 10 Aug 2014 10:52:20 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3381/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第52期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-ScCkVKA-o9Mz2t4Z.gif"
+loading="lazy"
+alt="界面过渡效果动画演示，几何图形在空间中平滑移动展示时间与衔接维度"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设计师都爱雕琢细节&lt;/strong&gt;。多数时间都用来折腾像素级的按钮、表单样式、设定字体，还要把图标打磨得像图钉一样锋利。很好，满分，大家请继续保持。&lt;/p&gt;
+&lt;p&gt;但是，还需要考虑一点，它们除了静态组合之外如何相互结合。按下按钮，表单就……直接出现吗？滑动删除一个项目，它就直接消失？那太奇怪了，也不自然。现实中几乎没有什么会这样突兀地直接切换状态。它给人感觉像是出了毛病。&lt;/p&gt;
+&lt;p&gt;那好。你写下了一条注释——&lt;em&gt;它是“滑入”的。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如何滑入？速度多快？会不会反弹？有没有缓冲？静态的设计无法提供状态之间的衔接。&lt;/p&gt;
+&lt;p&gt;提到动画和讨喜的交互时，人们总是用“&lt;em&gt;有趣&lt;/em&gt;”一词。对他们来说，这些动态效果很酷。但你猜怎么着？动画还有&lt;em&gt;功能性&lt;/em&gt;的作用。它不仅仅是个美化过的细节。&lt;/p&gt;
+&lt;p&gt;动画利用了一个被忽略的维度——时间！一种将空间缝合在一起的隐形织物。即使不是数学宅，你也能理解这点。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我们来看看一些简单的概念：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;##缓动/缓冲&lt;/p&gt;
+&lt;p&gt;传统动画中，&lt;em&gt;断点&lt;/em&gt;决定了一团东西如何从&lt;strong&gt;A点&lt;/strong&gt;移动到&lt;strong&gt;B点&lt;/strong&gt;。它给动画增加了偏移量，决定了其余帧的时间间隔是怎样的。以这25帧补间动画为例，第13帧（中点）的位置有所不同：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-Q7TOdd6hMjHLK_1Q.gif"
+loading="lazy"
+alt="线性匀速动画示意，圆球在25帧中均匀移动第13帧恰好在中间点"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-yfq40i7GG4MDdzzA.gif"
+loading="lazy"
+alt="缓入动画示意，圆球起始慢速移动后半段加速第13帧位置偏右"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-LKq1k9BrgDRRqoMR.gif"
+loading="lazy"
+alt="缓出动画示意，圆球起始快速移动后半段减速第13帧位置偏左"
+&gt;&lt;/p&gt;
+&lt;p&gt;瞧瞧！你已经学会了缓冲/缓动。电脑都是混蛋，喜欢线性均匀地填充这些空隙，因为他们就是一团懒惰的电路。优秀的动画/动效设计师多数时间都在与电脑作斗争，确保它们不会把这搞砸。&lt;/p&gt;
+&lt;p&gt;动画总是关乎时间。你可以尝试各种不同的时间间隔，会得到不同的结果。但这已经足够了。这不是动画教程，关键是让你思考时间与间隔的语言。&lt;/p&gt;
+&lt;p&gt;##关于界面衔接动画的一些创意&lt;/p&gt;
+&lt;p&gt;我之前说过，动画有助于创造&lt;em&gt;情境&lt;/em&gt;。它帮助大脑理解信息如何流转。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;向列表中添加项目&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比如说你在看着一列动态列表，你希望用实时数据填充它。如果你把这任务交给电脑，它看起来会是这样：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-tAlK3EOkHdLj6MDE.gif"
+loading="lazy"
+alt="列表项突然出现动画，新条目无过渡直接弹出缺乏空间情境感"
+&gt;&lt;/p&gt;
+&lt;p&gt;我去，太挫了……&lt;/p&gt;
+&lt;p&gt;平滑地将它显示出来，只需要几帧动画。给你的大脑提供一点&lt;em&gt;线索&lt;/em&gt;吧，想想这个列表发生了什么？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-g9eRRfNg3IpKZebc.gif"
+loading="lazy"
+alt="列表添加项目平滑动画，列表先让出空间新条目从上方滑入填充"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-ugnsxwIKHdkMHEe1.gif"
+loading="lazy"
+alt="列表项淡入动画，新条目透明度渐变出现状态变化更加自然缓和"
+&gt;&lt;/p&gt;
+&lt;p&gt;为了添加一个新项目，列表需要为它让出空间，然后（来自&lt;em&gt;某处&lt;/em&gt;的）新项目填充了这片空间。突兀感&lt;strong&gt;大大&lt;/strong&gt;减少了。状态淡入淡出还能使变化更加缓和。感觉更自然，因为我们联想到空间的相关情境——它反映了现实生活中，你往一堆东西里添加东西的过程。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;再来几个：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;进入列表项&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;典型的默认方式是滑动进入某一项。这是常用的一种模式，但整体在空间上并不怎么合理：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-L1E2mBLnM2M1L2nD.gif"
+loading="lazy"
+alt="列表项滑入详情动画，点击后整页横向滑动进入缺乏空间合理性"
+&gt;&lt;/p&gt;
+&lt;p&gt;滑动的方向并没有给你任何有用的线索，除了一系列串成线的界面。&lt;/p&gt;
+&lt;p&gt;要不考虑一下把这项做成一个容器，点它之后在内部展示更多详情？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-BcnJucADwdqzblrf.gif"
+loading="lazy"
+alt="列表项内部展开动画，点击后在容器内部展示详情保持空间上下文"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果目的是进入该项，并使它吸引全部的注意力，我们甚至可以在同个界面中把其他所有都隐藏起来：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/0-k09FdcfO2JI1jcbq.gif"
+loading="lazy"
+alt="列表项全屏展开动画，点击后隐藏其他内容该项占据全部注意力"
+&gt;&lt;/p&gt;
+&lt;p&gt;把&amp;gt;所有&amp;gt;界面&amp;gt;用&amp;gt;面包屑导航&amp;gt;串起来，很容易迷失方向。&lt;/p&gt;
+&lt;p&gt;内部展开的一个优势，是你不需要解释用户如何到达这个子界面。可以抛弃层级式的导航，因为用户&lt;em&gt;&lt;strong&gt;看见了&lt;/strong&gt;&lt;/em&gt;他们是如何进到那里。&lt;/p&gt;
+&lt;p&gt;我和&lt;a class="link" href="http://kylebragger.com/" target="_blank" rel="noopener"
+&gt;Kyle Bragger &lt;/a&gt;先生正在致力于打造&lt;a class="link" href="http://appstore.com/thinglist" target="_blank" rel="noopener"
+&gt;Thinglist&lt;/a&gt;，一款&lt;a class="link" href="http://elepath.com/" target="_blank" rel="noopener"
+&gt;Elepath&lt;/a&gt;旗下的产品，它里面加入了一些非常好玩的界面过渡效果。上面的例子演示了这些新特性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;你该看看这些界面过渡效果案例：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.realmacsoftware.com/clear/" target="_blank" rel="noopener"
+&gt;Clear&lt;/a&gt;：与手势操作紧密相关的动画。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.getwillcall.com/" target="_blank" rel="noopener"
+&gt;Willcall&lt;/a&gt;：它有一套统一的律动节奏。状态之间不会有东西生硬地出现。非常有趣值得把玩。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://elepath.com/" target="_blank" rel="noopener"
+&gt;Elepath&lt;/a&gt;的员工可以解释我对于动画的痴迷。毕竟我是一名&lt;a class="link" href="http://psql.carbonmade.com/" target="_blank" rel="noopener"
+&gt;动效设计师&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://twitter.com/pasql" target="_blank" rel="noopener"
+&gt;&lt;em&gt;@pasql&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;你还可以参与branch的讨论：&lt;a class="link" href="http://branch.com/b/transitional-interfaces-design-ux" target="_blank" rel="noopener"
+&gt;http://branch.com/b/transitional-interfaces-design-ux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-08/08-10/1-DyPeH4O7HGGDrNGkSLIw0Q.png"
+loading="lazy"
+alt="界面过渡效果50分钟演说视频截图，大脑彩色思维灯泡创意概念动画"
+&gt;&lt;/p&gt;
+&lt;p&gt;最新消息：&lt;a class="link" href="http://www.youtube.com/watch?v=TMe0WnkF1Lc&amp;amp;amp;feature=c4-overview&amp;amp;amp;list=UURx1y52pfeMwbuer9Vh2u-A" target="_blank" rel="noopener"
+&gt;我为这篇文章做了一段50分钟的演说，可以在此观看&lt;/a&gt;（译者提醒：需翻墙）&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;如果动画使你无法自拔，我概不负责。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://medium.com/@pasql/transitional-interfaces-926eb80d64e3" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>新的APP演示良方:GIF动画</title><link>https://victor42.eth.limo/post/3241/</link><pubDate>Sun, 13 Apr 2014 13:24:03 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3241/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第36期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1451105-What-s-Next-for-Zite" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Next-for-Zite.gif"
+loading="lazy"
+alt="Zite新闻阅读应用界面GIF演示动画"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;每种事物都有回归的本能，长期以来，GIF动画在开发者当中，失去了它的统治地位，不再受欢迎，不再通用，近期它摆出了回击的姿态。尽管还是一如既往展示图像序列，但它不再像当年那些生硬的低画质视频，没有粗糙简陋的过渡效果。如今，GIF动画能够通过抢眼的效果和流畅的过渡，有效地聚集人气，给最终的动画一种柔滑精致的感观。&lt;/p&gt;
+&lt;p&gt;UI/UX开发者迅速估量了这种动画图片的潜力，它们虽小却非常有效，极具解释性。我们都知道，有时向客户或最终用户解释APP最后看起来将是什么样，会是多么困难、气人且耗时的事情；没有华丽的高质量截屏，精心绘制的用户界面配上一大堆解释和“手势”说明效果，并不怎么管用。只有视频和这些简短的GIF动画，才能轻松展示操作流程，并传达一款“活”APP的所有魅力，在众多功能组件之间，有效地展现交互。&lt;/p&gt;
+&lt;p&gt;颇具讽刺意味的是，我们的展示工具集中，最近补充了一种新工具，而它实际上一直以来就近在咫尺。&lt;/p&gt;
+&lt;p&gt;今天，我们汇集了一系列GIF动画作品，愉快地展现了各种移动应用的操作流程。&lt;/p&gt;
+&lt;p&gt;第一件作品是Dmitriy Chuta的Chapps，你可以欣赏它整个漂亮的动画效果，一组不同职业人员的照片卡。这张GIF图片展示了一种讨人喜爱的方式，通过令人愉快的视觉表现，来在数据库中进行选择和搜索。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1265487-First-shot-in-Chapps-Animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/First-shot-in-Chapps.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的概念设计这里我们”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bastien Leprince的APP概念设计，这里，我们的主要注意力，集中在地图组件内嵌的拖拽筛选功能上。所展示的所有功能界面和组件，相互间完美互动，为用户提供了一套流畅的操作流程。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1431325-App-concept-GIF" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/App-concept.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的概念设计尽管动画”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;George Frigo的FaceScan APP概念设计，尽管动画只持续了12秒，但它足够清晰地表达了这个APP的主要创意。对于那些想要一睹完整版的人，这位UI设计师也提供了AVI文件。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1439846-FaceScan-app-concept" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/FaceScan-app-concept.gif"
+loading="lazy"
+alt="GIF动画设计中关于“设计的音乐发现就如名”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alexander van Ravestyn设计的WIP音乐发现APP，就如名字所暗示的，设计师想将用户的注意力引导到多媒体内容的浏览过程上来，不出所料，最终来到一个设计精美的音乐播放器界面。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1433004-GIF-WIP-Discover-Music-app" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Discover-Music-app.gif"
+loading="lazy"
+alt="GIF动画设计中关于“设计的动画设计师非常”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jakub Antalík设计的Speedcam APP动画，设计师非常棒地通过动画表现他的APP。GIF漂亮地展示了speedcam的一部分，光彩夺目。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1436337-Speedcam-app-animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Speedcam-app-animation.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的这个团队展示了他们”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Barthelemy Chalvet的Workflow Payment，这个团队展示了他们新APP的几张GIF。下面这张将关注点固定在支付流程上，看起来相当优雅便捷。其他GIF突出了时间轴、支付/费用、卡片和账户处理。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1350930-GIF-Workflow-Payment" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Workflow-Payment.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的这个团队只是展示”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Barthelemy Chalvet的Dashag Tour，这个团队只是展示了一张小GIF动画，让人想起他们之前的项目。如果你想完全熟悉这个APP，可以访问他们的官方网站，里面包含了一大堆GIF动画，展示几乎所有的功能界面。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1215170-GIF-Dashag-Tour" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Dashag-Tour.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的动画设计这个一流”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sergey Valiukh的GIF动画设计，这个一流的界面有着令人愉快的精心处理的过渡动画，表现了在基本地图组件与主菜单间切换的简短流程。通过舒服的动画效果，一切相互衔接良好。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1360884-Gif-Animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/gif_animaton.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的动画这张展现了一”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Devin Ruppert的Walkthrough动画，这张GIF展现了一个欢迎界面，带有多个动态图的幻灯片和登陆按钮面板。一切都活了，有效地表现了这个APP所带来的功能。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1453070-Walkthrough-Animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Walkthrough-Animation.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的交互概览这是个非常”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mihnea Zamfir的交互概览，这是个非常简短却有效的动画，初衷是描绘一个从卡片目录中添加和删除项目的简单流程。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1352068-Interaction-overview" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Interaction-overview.gif"
+loading="lazy"
+alt="GIF动画设计中关于“设计了给队友删除和添”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tobs设计了给队友删除和添加任务的动画，这张GIF动态展现了标准的滑动技巧，有效地支撑了整个审美取向，让APP看起来更鲜活、现代和诱人。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1074906-GIF-Delete-task-and-assign-task-to-your-teammate-in-action" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Delete-task-and-assign-task.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的团队信息工具这个团”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jan Losert的团队信息工具，这个团队为用户提供了大量解释性资料，不仅用来展示带有描述的静态屏幕截图，还有视频和一张巨大的GIF动画，展现这个APP的真实操作过程。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1422850-Team-Messages" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Team-Messages.gif"
+loading="lazy"
+alt="Team Messages团队沟通应用的GIF操作流程演示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ben Dunn的菜单交互GIF，这个动画GIF被当作展示动态美感的工具，表现了菜单优雅地从左侧滑出，并列出所有必要链接的过程。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1419291-Menu-interaction-GIF" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Menu-interaction.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的添加任务效果”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ed Sansom的Poppin添加任务效果，这个APP有着讨人喜爱的圆形氛围和优雅的扁平美学取向，集各种柔滑效果于一张GIF，使它得到了恰到好处的强调&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1455677-Poppin-Adding-a-task-GIF" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Adding-a-task.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的第一件动画作品”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dennis Terrey的第一件UI动画作品，这张GIF试图示范，如何使一个基本的菜单看上去干净、时尚和细腻。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1448631-My-First-UI-Animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/anim-large.gif"
+loading="lazy"
+alt="GIF动画设计中关于“的新鲜事设计我希望用”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Danny Spitzer-Cohn的Zite新鲜事设计，我希望用这个讨人喜爱的GIF动画来补充这篇作品集，它对高雅和传统的运用，绝对给人带来一丝愉悦的怀旧感。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1451105-What-s-Next-for-Zite" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Next-for-Zite.gif"
+loading="lazy"
+alt="GIF动画设计中关于“对于那些想要尝试这种”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对于那些想要尝试这种展现方式的人，我们也准备了几样赠品——可以被轻松拆解成组件的GIF动画。&lt;/p&gt;
+&lt;h2 id="赠品pixelbuddha的扁平风格预加载动画"&gt;赠品：PixelBuddha的扁平风格预加载动画
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1456592-Freebie-flat-preloaders" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/flat-preloaders.gif"
+loading="lazy"
+alt="GIF动画设计中关于“预制的触摸手势动画”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Areus Wade预制的触摸手势动画&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1173787-Precomposed-Touch-Gestures" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/03/Precomposed-Touch-Gestures.gif"
+loading="lazy"
+alt="GIF动画设计中关于“结论就创造者和客户”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;就APP创造者和客户（或最终用户）间的互动而言，像Adobe After Effects这样的视频编辑软件充满了机会和可能，能够解决很多问题。GIF图片可以用来简短的解释动画效果，有效的展现操作流程，让人更好地理解这是怎么回事。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/animated-gif-app-presentation/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>活力四射的状态指示器:移动APP界面的加载动画与进度条</title><link>https://victor42.eth.limo/post/2661/</link><pubDate>Sun, 14 Jul 2013 20:42:18 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2661/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第1期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;调查显示，人们总是希望看到进度条的，尤其是在各种数据化APP中。充分理解当前状态或进度，对用户来说至关重要。另外，在需要耐心等待的时候，进度条是极为强大的工具。活力四射、有趣且漂亮令人愉快的进度条，绝对会让我们短短数秒的等待时间兴致盎然。&lt;/p&gt;
+&lt;p&gt;而且，进度条是各种多媒体播放器的基本组成，提供了退后和前进的功能。让用户不只是跟随播放，更能控制它。进度状态的图形表达对于增加用户好感起着至关重要的作用，同时也建立了优秀的人机交互界面。&lt;/p&gt;
+&lt;h2 id="带有载入动画与进度条的移动界面"&gt;带有载入动画与进度条的移动界面
+&lt;/h2&gt;&lt;p&gt;妙的背景。轻微半透明的部件、白色风格和淡粉色的注入，为APP增添几分暖意和女性化意味&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Smart-washer-app-UI/9359203" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Smart-washer-app-UI-by-Hyelim-Choi1.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：智能洗衣机App控制界面，展示带有剩余时间百分比的淡粉色环形状态指示器UI设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Miguel Pires 的dB-METER在中央绘制了一个明亮的仪表盘，巧妙地打破了深色硬朗背景的单调。微妙的凹槽和精准的绘制使得界面看起来非常精致&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/dB-METER/8915687" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/dB-METER-by-Miguel-Pires.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：分贝仪声音测量App UI设计，展示具有渐变色环形表盘刻度与发光数字的音量指示器"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Corey Lui 的充电动画设计看上去优雅醒目，有着令人喜爱的现实主义感染力。用绿意盎然的动画表达充电过程，吸引了所有的注意力&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1069484-Charging-Animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Charging-Animation-by-Corey-Lui.jpg"
+loading="lazy"
+alt="手机充电动画界面设计：绿色叶片元素表达充电过程"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Muhammad Farhan 的iOS7设计练习利用扁平的图形、柔和的色彩和纤细字体，清晰无疑表达了扁平风格的哲学。巨大的环形进度条占据整个界面的主要部分，使得数据看起来跃然纸上。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1112808-ios7-design-practice" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/ios7-design-practice-by-Muhammad-Farhan.jpg"
+loading="lazy"
+alt="iOS 7扁平风格界面设计练习：柔和的图形、色彩与纤细字体"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Breezy 的TICKER通过明快乐观的色系创造出温暖亲切的感觉。纯白色背景和扁平元素相互协调，为APP打造干净轻快的形象。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/TICKER/9225263" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/TICKER-by-breezy.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：极简烹饪计时App界面设计，使用明黄色环形状态指示器与底部多色进度条指示时间"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Andrew Fuller 的音乐APP使用带噪点的灰色背景、明亮的控制按钮，橙色作为主色起强调作用，都使之区别于通常音乐播放器。精细的阴影和渐变使按钮微微凸起。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Music-Player-app/8255933" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Music-app-by-Andrew-Fuller.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：拟物化橙白配色音乐播放器App UI，包含专辑封面、播放控制旋钮与弧形播放进度条"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Leigh Taylor 的Lift概念图基于深色系设计，配上炫目耀眼的亮色点缀。环形进度条很优雅，使用了间断和点状的线条来表达状态。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Lift-Early-Concepts/7236063" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Early-Concepts-by-Leigh-Taylor.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：Lift习惯追踪App界面设计，带有一个中央金属拉丝质感向上箭头的大按钮及分段环形进度指示器"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Miguel Pires 的AudioRec界面设计是拟物派的一款清新之作。两侧设计有冷光指示器，漂亮的光点给音量旋钮增添了几分趣味。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/AudioRec-UI/8948903" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/AudioRec-UI-by-Miguel-Pires.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：拟物风格AUDIOREC录音机App UI界面，包含复古数码管时间显示、音频波形图和圆形音量旋钮"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maximilian 的音乐播放APP概念图有着相当扁平的风格。中央的巨大的环状进度条，同时也是唱片封面图的边框。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Musicplayer-App-Conceptional/8387015" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/MusicPlayer-App-Conceptional-by-Maximilian.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的计时器作者设计了一”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MVBen 的计时器。作者设计了一款非常棒的现实主义风格作品，中间的控制按钮与现实中的几乎无差。精致的渐变蓝进度条，在深色背景上非常醒目。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1109874-Timer" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Timer-by-MVBen.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的用了仿仪表盘的进度”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Karol Ortyl 的Statistics Screen用了仿仪表盘的进度条设计，还有附加文字来表示状态。干净的浅灰色背景与扁平图形巧妙地融合。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1089096-Statistics-Screen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Statistics-Screen-by-Karol-Ortyl.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的全屏背景图非正式字”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Patrick N. Lewis 的Dash iOS App。全屏背景图、非正式字体和普通的白色装饰，作者很好地处理了它们之间的平衡。半透明部件构成的环形加载动画，看起来优雅简练。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1086942-Dash-iOS-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Dash-iOS-App-by-Patrick-N.-Lewis.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的另一款主要采用双色”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Corey Lui 的另一款iPhone APP主要采用双色设计（浅灰色与鲜艳的绿色），令界面外观干净且井然有序。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1083117-Another-iphone-app" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Another-iphone-app-by-Corey-Lui.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“设计作者很巧妙地处理”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dario, Morning设计。作者很巧妙地处理了黑色调、微妙的渐变和精细纹理之间的平衡。有光泽、极大的绿色环形进度条被放置在屏幕中心，用户一眼就能看见所需信息。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Dario-app-design/9243971" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Dario-app-design-by-Morning.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“设计的有很不错的格调”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ryan Littrell 设计的CLOCKWORK Timer App有很不错的metro格调。干净纯白的巨大矩形、浅蓝色的运用、细字体和整齐排布的数据，都给它创造一种井井有条的形象。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/CLOCKWORK-Timer-App/7882085" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/CLOCKWORK-Timer-App-by-Ryan-Littrell.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的音乐播放器概念图”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kiran 的iPhone音乐播放器APP概念图的界面风格以深色、重纹理为主。深色的音量滑块、金属质感按钮和控制按钮的霓虹灯背景光，给界面增添一点粗犷的感觉。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/iPhone-Music-Player-App-Concept/5627861" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/iPhone-Music-Player-App-Concept-by-Kiran.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“这张播放器界面概念图”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这张播放器界面概念图有着让人惊叹的音乐氛围。紫色与蓝色，和深至纯黑的图形与背景完美结合。柔滑高光和微妙渐变使得按钮看起来非常漂亮。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Player-UI-Concept/8214247" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Player-UI-Concept.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的是个充满正能量的设”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lucas Ramos 的Recife FM是个充满正能量的设计。明亮的橙色帆布质地、清晰明确的网格和圆形音乐控制中心，给界面创造了欢乐愉快的氛围。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Recife-FM/6116297" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Recife-FM-by-Lucas-Ramos.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“作为一款整洁美观的监”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;App Vital Watcher作为一款整洁美观的监控软件，它采用了高识别度的图标与形象符号，所用的绿色明亮鲜活。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Vital-Watcher-App/9385141" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Vital-Watcher-App.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的设计表现了时尚和精”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Suhaila Baheyeldin 的Study Timer设计表现了时尚和精致的扁平风格。主体采用灰色调，搭配珊瑚色和大号窄字体，使APP界面工整朴素。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Study-Timer/9053999" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Study-Timer-by-Suhaila-Baheyeldin.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“创作的音乐播放软件看”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BLASTAROCKS 创作的 MeloMe音乐播放软件看起来轻快、干净、非常令人愉悦。浅色背景、浅色按钮、浅灰色字体为界面创造了一种独特的优美。平顺光滑的进度条很容易抓住眼球。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/MeloMe-Music-Player-App/5730235" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/MeloMe-Music-Player-App-by-BLASTAROCKS.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的减肥设计强调功”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nikita Abramenkov 的减肥APP设计强调功能与设计上干净协调地结合。粉色与白色优美地互补，深色字体使得内容容易辨认且易于阅读。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1103074-Weight-Loss-App-Design" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Weight-Loss-App-Design-by-Nikita-Abramenkov.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的睡眠的扁平风格统计”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jeff Rauch 的睡眠APP的扁平风格统计数据十分讨喜，还有优雅的粗圆弧，向用户展示他的睡眠质量信息。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1099709-Sleeply-App-Nightly-Stat-Page" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Nightly-Stat-Page-by-Jeff-Rauch.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“设计的界面有着很重”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Artua 设计的Gym Genius APP界面有着很重的风格，大量使用光泽与渐变。圆形进度条能瞬间吸引注意力。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1089631-Gym-Genius-app-UI" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Gym-Genius-app-UI-by-Artua.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的短跑计时有着精妙”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Oktafian Angga Nugraha 的短跑计时 App有着精妙的传统金属质感界面，运用了大量有光泽的控制按钮和深蓝色元素。电子样式的字体，很好辨认，也使界面元素浑然一体&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1117881-Sprinter-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Sprinter-App-by-Oktafian-Angga-Nugraha.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的公交指引中设计了一”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Martin Oberhäuser 的公交指引APP Nextr中设计了一个封闭的环形搜索图标，采用鲜活的渐变样式和动画效果&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/nextr-app-public-transportation-guidance/7121205" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/public-transportation-guidance-by-Martin-Oberhauser.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的版采用非常规设计来”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Zahir Ramos 的Laundry Master iOS版采用非常规设计来表现进度条。结合了现实主义和动画效果，使它看起来像洗衣机的一部分&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Laundry-Master-App-iOS/4540475" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Laundry-Master-App-iOS-by-Zahir-Ramos.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“反思作为一种完美的方”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="反思"&gt;反思
+&lt;/h2&gt;&lt;p&gt;作为一种完美的方式来表达正在发生的事情，进度条与载入动画是大量APP中最重要且不可或缺的部件。在界面看起来没什么变化时，它可以鼓励用户继续等待，也能展现更多额外功能。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/mobile-app-loading-progress-bars/" target="_blank" rel="noopener"
+&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

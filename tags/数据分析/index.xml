@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据分析 on Victor42</title><link>https://victor42.eth.limo/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</link><description>Recent content in 数据分析 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Fri, 11 Jul 2025 23:24:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>成语里的数字</title><link>https://victor42.eth.limo/post/digit-world-in-chinese-idioms/</link><pubDate>Fri, 11 Jul 2025 23:24:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/digit-world-in-chinese-idioms/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-07/56d249df019bf237052da68e0ea6a30e.webp" alt="Featured image of post 成语里的数字" /&gt;&lt;p&gt;数据分析项目，带你走进成语里的数字世界。&lt;/p&gt;
+&lt;p&gt;带数字的成语，你一口气不停说，停顿5秒以上就算输，最多能说多少个？&lt;/p&gt;
+&lt;p&gt;先分享个小技巧：这游戏想要玩得好，优先想带“一”的成语。如果偶然想到带其他数字的成语，发散完没有头绪不要恋战，回到“一”来。而且，优先想“数字字字”和“字字数字”这种格式的词。&lt;/p&gt;
+&lt;p&gt;这技巧我怎么知道的？因为我对3万多个成语做了详细的数据分析，感兴趣请往下看。&lt;/p&gt;
+&lt;h2 id="数据准备"&gt;数据准备
+&lt;/h2&gt;&lt;p&gt;首先，要分析成语，先得把成语都找出来。稍微了解了下，不同词典收录的成语数量不同，数量范围在3-5万个之间。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/527587086a0a60070cf28dfa4e4f5d46.webp"
+loading="lazy"
+alt="成语接龙数据集Lawrenceshi的词条列表截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;a class="link" href="https://modelscope.cn/" target="_blank" rel="noopener"
+&gt;Modelscope&lt;/a&gt;找到一份数据集，包含3万多个成语，足以支撑我的研究：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://modelscope.cn/datasets/Lawrenceshi/Idiom-solitaire" target="_blank" rel="noopener"
+&gt;https://modelscope.cn/datasets/Lawrenceshi/Idiom-solitaire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个数据集本身也挺有意思，可能是为研究成语接龙而创建的。它把每个成语首字和尾字拼音都单列出来了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/fdb3f18bb78518335c0f9b91157ef2cb.webp"
+loading="lazy"
+alt="CSV数据集读取结果展示30895个成语的word和explanation列"
+&gt;&lt;/p&gt;
+&lt;p&gt;不过我的研究方向有所不同，我只需要成语本身（word）和释义（explanation）两项足矣。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/26f48b2453dd81b42ce98ceef9c73c73.webp"
+loading="lazy"
+alt="代码筛选出包含数字词的成语共2803个"
+&gt;&lt;/p&gt;
+&lt;p&gt;把成语中的数字词提取出来，单独一列，便于后续分析。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/90ba778c07799a72454b9fd7061de2da.webp"
+loading="lazy"
+alt="饼图显示4字成语占所有成语的95.5%"
+&gt;&lt;/p&gt;
+&lt;p&gt;另外，成语中绝大多数都是四字成语，占比达到95%以上。我们提到“成语”这一概念时，更多还是指狭义的四字成语。虽然非四字成语也包含数字词，如“三下五除二”、“一而再，再而三”，但由于总量较小，排除掉对结果影响不会很大。&lt;/p&gt;
+&lt;p&gt;后续的研究都仅围绕四字成语展开。&lt;/p&gt;
+&lt;h2 id="成语中有哪些数字"&gt;成语中有哪些数字？
+&lt;/h2&gt;&lt;p&gt;不过，提取数字词的过程中，我发现这事情不能深想，这里面水很深。&lt;/p&gt;
+&lt;p&gt;我们得定义一下这个课题本身。我研究的是成语中的“数字词”，还是成语中的“数字”？&lt;/p&gt;
+&lt;p&gt;这完全是2个概念。前者只需看常规的数字词是否出现，后者要关注成语中是否出现表达数字的含义。由于研究对象本身就是一种文化现象，我认为&lt;strong&gt;应该从含义的角度出发&lt;/strong&gt;。所以，成语中的数字，要把那些“是数字词但表达含义不是数字”的剔除掉，同时还要把“不是数字词但含义等同于数字”的包括进来。&lt;/p&gt;
+&lt;p&gt;任务难度提高，我们一步步来。先看“是数字词但表达含义不是数字”这种情况，真的存在吗？&lt;/p&gt;
+&lt;p&gt;狭义的数字词有“一二三四五六七八九十百千万亿”这些。经过研究发现，它们在成语中无论是实指还是虚指，都没有脱离数的含义。顶多是类似于“三”泛化为“多”这样的用法，但它们的含义是从一个具体的数发展出来的，仍然可以视作数字。&lt;/p&gt;
+&lt;p&gt;“不是数字词但含义等同于数字”的情况呢？&lt;/p&gt;
+&lt;p&gt;应该马上有人能想到，“二”和“两”经常可以相互替代。没错，“二”确实是个很特殊的数字，它似乎有许多变体：“两”、“双”、“偶”、“再”、“复”。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/9999ae362c31e8474a0471e08bb6f0cc.webp"
+loading="lazy"
+alt="代码统计数字2的变体两双偶在四字成语中的出现数量"
+&gt;&lt;/p&gt;
+&lt;p&gt;我把其中部分变体也作为数字词，加到筛选条件中。把含有这些变体的成语单独提取出来，合并到一个专门的文件中，结合成语释义，交给AI判断它在里面表达的是不是数字的含义。结果如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;“两”字除了表达计量单位的意思，其余都是数字词。&lt;/li&gt;
+&lt;li&gt;“双”全是数字词。&lt;/li&gt;
+&lt;li&gt;“偶”只有“无独有偶”是数字词，其他的含义大多和“机会”有关。&lt;/li&gt;
+&lt;li&gt;为什么“再”、“复”不算数字2的变体？因为它们加了一层时间含义，第二次，有明确的“先”与“后”的概念，与纯粹的数值不同。&lt;/li&gt;
+&lt;li&gt;其他数字有没有这样的变体？完全等同的精确指代没有。“众”、“群”等模糊指代有的，但这些不是确切的数，我认为不能算进来。&lt;/li&gt;
+&lt;li&gt;我不放心AI，又人工筛选了一遍，发现Gemini 2.5 Pro其实准确率非常高。人工筛选的和它筛选的结果对比，AI只有3处遗漏，而且还发现了我的一处判断错误。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我尝试思考，为什么只有“二”有这么多变体，其他数字却没有？&lt;/p&gt;
+&lt;p&gt;一番查证，发现“二”在中华文化里真的很特殊。我们是一个高度崇尚二元论的文明，古代哲学中处处可见阴阳、乾坤、虚实等对立统一的世界观，导致数字2在文化上有大量衍生和泛化。比如“两”这个字，是符合二元论哲学的典型，它最初的意思是“天然成对的事物”，从字形上也能看出来，与“二”纯粹指代序数有所不同。想一想，只能用“两”不能用“二”的场合，是不是有许多事物都是成对的、或者对称的？另外，大写数字“贰”的来历，里面加入的这个“贝”字，也是在借用贝壳两半成对的含义。&lt;/p&gt;
+&lt;h2 id="展开分析"&gt;展开分析
+&lt;/h2&gt;&lt;p&gt;言归正传。既然我们把“带有数字含义”的四字成语都成功筛选出来，研究可以正式开始了。&lt;/p&gt;
+&lt;h3 id="带数字成语的比例"&gt;带数字成语的比例
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/a1c36f6f8e8e7dd2d36932eebf8d915e.webp"
+loading="lazy"
+alt="饼图显示含数字的4字成语占总量的8.2%"
+&gt;&lt;/p&gt;
+&lt;p&gt;在29502个四字成语中，有2431个带有数字含义，占总量的8.2%。&lt;/p&gt;
+&lt;h3 id="成语数字词出现频率"&gt;成语数字词出现频率
+&lt;/h3&gt;&lt;p&gt;在后续的分析中，我把含义相同的数字词都算到同一个数上，也就是把“两”、“双”、“偶”的数据都归到“二”里。为表示它是广义的数字“二”，我把它写作“(2)”。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/9addb18b7c75c804165195936895633a.webp"
+loading="lazy"
+alt="柱状图显示每个数字在4字成语中的出现频率"
+&gt;&lt;/p&gt;
+&lt;p&gt;数字词出现频率的规律：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;“一”遥遥领先，约是第二名的3倍。&lt;/li&gt;
+&lt;li&gt;两头高中间低。“一二三”、“百千万”用得多，普遍为中间数字的2倍多。可见古人造词也爱走极端，不夸张不足以抓人眼球。&lt;/li&gt;
+&lt;li&gt;“亿”几乎没人用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;关于“亿”可以多说几句。我做研究前就认为它在成语中应该极少出现，把它加进来分析是作为“对照组”。因为“亿”是这里面唯一一个万进制数字，其他都是十进制数字。&lt;/p&gt;
+&lt;p&gt;从十开始，每个数字10倍递进。到了万之后，这几乎触及古人日常生活中的数量级天花板，再往上没有造词的必要了。但统治者不同，统治者处理天文数字。只是他同样不能再往上造词了，因为上面数量级太多，造多了根本记不住。采用“民间”最高数量级万来递进，中间的用复合单位来表示，十万、百万、千万、万万=亿……这样一个体系，既不增加新概念，又能很好表达各数量级的大数。&lt;/p&gt;
+&lt;p&gt;我在这篇文章里详细解释了这个观点：&lt;a class="link" href="https://victor42.eth.limo/post/3601/" target="_blank" rel="noopener"
+&gt;为什么英语中没有万这个单位？&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="成语数字词的数量"&gt;成语数字词的数量
+&lt;/h3&gt;&lt;p&gt;四字成语中，数字词占了其中几个字？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/4d1e8c0f847487d4f4a0ffb925dd6196.webp"
+loading="lazy"
+alt="饼图显示含数字的4字成语中数字数量分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;1个数字词的成语占64.1%，2个占35%，这两者加起来就99.1%了，3个和4个的极少。&lt;/p&gt;
+&lt;p&gt;3个的如“三六九等”，4个的如“一五一十”。&lt;/p&gt;
+&lt;p&gt;看到这里不得不说，成语真是文化的高度浓缩，可以说是意义的&lt;strong&gt;多层包浆&lt;/strong&gt;。想象一个不懂中文的歪果仁看盯着“一五一十”这个词：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One, five, one, ten？是说一个东西是另一个两倍那么厉害吗？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="成语数字词组合"&gt;成语数字词组合
+&lt;/h3&gt;&lt;p&gt;有2个及以上数字词出现时，它们是如何相互组合的？哪些数经常一起使用？&lt;/p&gt;
+&lt;p&gt;我先讲讲怎么看这图，它是一个条件概率热力图。先选一行横着看，再看其中某一列。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/56d249df019bf237052da68e0ea6a30e.webp"
+loading="lazy"
+alt="热力图显示数字在多数字4字成语中的共现概率"
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;比如第“三”行第“四”列表示，所有含“三”的（2个数字词）成语中，也含有“四”的占了26%。&lt;/li&gt;
+&lt;li&gt;反过来，第“四”行第“三”列表示，所有含“四”的成语中，也含有“三”的占了59%。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;严谨地解释一遍。这个图里每个格子的概率来自两个数相除，分母是包含行数字的成语数量，分子是同时包含行数字和列数字的成语数量，约束条件是所有带有2个及以上数字词的成语。&lt;/p&gt;
+&lt;p&gt;这张图上能看出的东西就非常丰富了：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;“一”雨露均沾，对其他数字没有明显偏好。&lt;/li&gt;
+&lt;li&gt;“二三四五六”倾向于和相邻或相近的数组合，对“三”尤其依赖。如“两面三刀”、“三从四德”、“三令五申”、“五脏六腑”。&lt;/li&gt;
+&lt;li&gt;“七八”是好基友，基本只认彼此。如“七上八下”。&lt;/li&gt;
+&lt;li&gt;“九十”组合也非常常见，两个大数表示多。如“十拿九稳”。&lt;/li&gt;
+&lt;li&gt;较大的偶数有“减半组合”现象，和自身的1/2组合，比其它数字明显高一些。如“三头六臂”、“四平八稳”、“五光十色”。&lt;/li&gt;
+&lt;li&gt;“九”和“三”也构成了特殊的组合，尤其是“九”依赖“三”，如“三教九流”。这里面莫非有平方的思想？&lt;/li&gt;
+&lt;li&gt;从“百”开始，大数的组合模式只剩两种：和“一”组合表示反差，如“一落千丈”；和相邻大数组合表示非常多，如“千头万绪”。&lt;/li&gt;
+&lt;li&gt;竖着看，“一”和“三”是最被需要的数字。这也与出现频率那章结论相符。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="成语数字词重复"&gt;成语数字词重复
+&lt;/h3&gt;&lt;p&gt;这里还有个小插曲。由于这分析代码是AI（Claude 4 Sonnet）写的，对于这种复杂的热力图，我不太信任AI的算法，特意验证了一遍。&lt;/p&gt;
+&lt;p&gt;怎么验证？热力图里的成语，每一个都包含至少2个数字词，每一行已经锁定了其中一个数字词，行里的格子是另一个数字词出现的概率。理论上，每一行的概率之和应该接近于1。但为什么不刚好是1，有两个因素会使概率之和偏移：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当成语中出现3个甚至更多不同数字词（如“三六九等”），会在多个格子中重复出现，分别独立计算概率，导致概率之和偏高。&lt;/li&gt;
+&lt;li&gt;当成语中仅有一种数字词但出现多次（如“一心一意”），它不会出现在任何一个格子里（其实它就在没有数字的对角线白格里），却会被算进分母中，导致概率之和偏低。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;和AI讲了我这个观察，它认同偏高的原因，却不同意偏低的原因。它坚称每行概率之和理论上只会大于等于1，如果有小于一的情况是数据精度导致的误差。&lt;/p&gt;
+&lt;p&gt;我亲自一算就发现不对劲，第“一”行之和只有0.74，离1也太远了，精度再差也不能差掉1/4啊。&lt;/p&gt;
+&lt;p&gt;和AI来回拉锯几轮，它顶不住我的追问，决定在代码里写一些验算逻辑。验算完发现我是对的，偏低真是这个原因。&lt;/p&gt;
+&lt;p&gt;验算也让我发现了两个特殊数字。绝大部分数字概率之和都在1附近，上下偏离极小。但“一”的概率之和是0.74，“百”的概率之和是0.9，表明这两个数字词确实有大量重复出现的情况。&lt;/p&gt;
+&lt;p&gt;想想确实如此：“一朝一夕”、“一草一木”、“一唱一和”、“百战百胜”、“百发百中”、“百依百顺”……&lt;/p&gt;
+&lt;h3 id="成语数字词位置"&gt;成语数字词位置
+&lt;/h3&gt;&lt;p&gt;再看看数字词在四字成语里通常出现在什么位置。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/ca3e941180d1269997a6a1835dfabe65.webp"
+loading="lazy"
+alt="柱状图显示含1个数字词的4字成语中数字词位置分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;只包含一个数字词的成语，绝大部分数字都出现在第1个或第3个字。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/b3dbf31b9dd734d9aa129864271e3608.webp"
+loading="lazy"
+alt="柱状图显示含2个数字词的4字成语中数字词位置分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;包含2个数字词的成语，数字位置就有6种组合：1-2型（数数字字）、1-3型（数字数字）、1-4型（数字字数）、2-3型（字数数字）、2-4型（字数字数）、3-4型（字字数数）。&lt;/p&gt;
+&lt;p&gt;1-3型占绝对主导，正是典型的“三番五次”模式。2-4型少很多，但也远超其他，“横七竖八”模式。&lt;/p&gt;
+&lt;p&gt;3个及以上数字词的成语就没什么好分析的了，总量才22个。&lt;/p&gt;
+&lt;p&gt;另外，只有1个数字词的成语还能继续挖掘，看看每个位置上都是些什么数字。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/9c3612d2fee1ee646a153a9d731bf5c5.webp"
+loading="lazy"
+alt="四张柱状图显示含1个数字词的4字成语中各位置数字词分布"
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;无论几号位，都是“一”最多，1号位和3号位领先优势尤其明显，一骑绝尘。&lt;/li&gt;
+&lt;li&gt;忽略“一”的领先，其他数字在1号位分布相对平均（除了“百”较多），而在3号位出现明显的微笑曲线式分布。&lt;/li&gt;
+&lt;li&gt;“(2)”在2号位和4号位表现非常突出，相信“双”字在这里作出了巨大贡献。虽然比例可观，但总量其实很少，所以这两个位置的规律未必能说明什么。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;关于微笑曲线我有个猜测。只有1个数字词的成语，和有2个数字词的成语，在语法结构上有明显不同。在这短短4个字里，1个数字的成语，前两字和后两字是有明确分工的，前者更倾向于表达事物本体，而后者更倾向于形容前者，比如“一飞冲天”。而2个数字的成语，前两字是一个一件事，后两字是另一件事，靠对仗排比的手法让人明白它的内涵，如“百媚千娇”。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;回到1个数字的成语。既然前者是本体，考虑到文化和历史的丰富性，各种数字都可能出现，因为有许多约定俗成。如“五雷轰顶”，你不能随随便便换成“一雷”、“百雷”。&lt;/li&gt;
+&lt;li&gt;而后者是形容，所以可以怎么夸张怎么来，中间不大不小的数字用处不大。“雷霆万钧”和“雷霆九钧”哪个更有张力？你一看便知。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;虽然也有倒过来的用法，如“不堪一击”。但你仔细品味，有没有觉得倒过来的用法似乎给人一种“倒装句”的感觉？汉语常规语序（包括古文）里是不是更多说“什么东西怎么样”？似乎主体先说出来对信息传递更有利，所以总体而言1号位数字更多是本体，3号位数字更多是形容，导致了这种差别。&lt;/p&gt;
+&lt;h3 id="成语数字词大小"&gt;成语数字词大小
+&lt;/h3&gt;&lt;p&gt;再看看数字大小在四字成语中有什么规律。既然要比较大小，就至少得有2个数字词。由于3个和4个数字词的成语极少，这里只分析2个数字词的成语。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/27cad63247aeca7981866bab8779acc4.webp"
+loading="lazy"
+alt="柱状图显示含2个数字词的4字成语中前后数字大小关系分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;数字增大的情况占多数，减小的情况次之。两数相等其实就是重复使用，这种用法最少。可见数字增大的递进式表达更加自然，信息传递效果更佳。&lt;/p&gt;
+&lt;p&gt;再细看每种位置组合的大小情况，也就是：1-2型（数数字字）、1-3型（数字数字）、1-4型（数字字数）、2-3型（字数数字）、2-4型（字数字数）、3-4型（字字数数）。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/33e1d0ec742cf57978bcd0861208f4f2.webp"
+loading="lazy"
+alt="六张柱状图显示各位置组合的数字大小关系分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;由于1-3型和2-4型占了绝大多数，我们重点看图2和图5：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;1-3型的大小关系和整体情况接近。如“一石二鸟”、“双宿双飞”、“万紫千红”。&lt;/li&gt;
+&lt;li&gt;2-4型更极端，明显由数字增大的情况主导。如“隔三差五”，另两种模式我竟然一个也想不到。&lt;/li&gt;
+&lt;li&gt;其他类型数量太少，图表没什么意义。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="成语数字词奇偶"&gt;成语数字词奇偶
+&lt;/h3&gt;&lt;p&gt;奇数与偶数在汉语中也有显著区别。奇数为阳，偶数为阴。来看下（十以内）奇偶数在成语中的情况。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/166cb319d7b1a94296e50a4e5b63e451.webp"
+loading="lazy"
+alt="饼图显示含数字词4字成语中十以内数字奇偶性分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;由于“一”傲视群雄的使用频率，仅含奇数的成语占到一半以上。仅含十以上大数的次之，奇偶数都有再次，最少的是仅含偶数的成语。看来阴数确实在文化上就矮一头，不受待见。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/c39f7c4a1e27f308e0a1d53d6a228c3d.webp"
+loading="lazy"
+alt="柱状图显示仅含1个数字词的4字成语中各位置奇偶数分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;单独分析仅含1个数字词的成语，无论在几号位上，奇数都力压偶数，1号、3号位尤其明显。&lt;/p&gt;
+&lt;p&gt;到含2个数字词的成语里，情况就有变化了。这里我们只分析1-3型和2-4型成语，因为其他类型总数太少了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/48bb154ea8694a442855d8f69c5da694.webp"
+loading="lazy"
+alt="两张柱状图显示含2个数字词的4字成语中1-3位和2-4位各位置奇偶数分布"
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;1-3型的1号位奇数占绝大多数，但3号位两者持平。当头先来一个阳数，后面可阳可阴，“一波三折”、“七上八下”。&lt;/li&gt;
+&lt;li&gt;2-4型的2号位也是奇数占绝大多数，但4号位完全反转。阳数还是得在前，阴数结尾，“丢三落四”、“横七竖八”。但这背后有什么文化原因，我还没想明白。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;可见，无论从哪个角度，成语中的文化可以只用阳数，也欢迎阴阳调和，但基本拒绝只用阴数。&lt;/p&gt;
+&lt;h2 id="结语"&gt;结语
+&lt;/h2&gt;&lt;p&gt;数据分析这个技能很有意思。我学了它这一年多以来，没做过什么正经事，完全当玩具在用了。用来满足我的各种突发奇想，比如我之前还研究过&lt;a class="link" href="https://victor42.eth.limo/post/3651/" target="_blank" rel="noopener"
+&gt;英语单词重音的分布规律&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;整一套分析下来，没有任何对生活有直接帮助的结论，纯粹图一乐呵。&lt;/p&gt;
+&lt;p&gt;不过，我更想知道语言学者和语文老师此刻感想，或许能联想到什么关键因素，从中挖掘出更多数据背后的文化和历史。如果你有新的发现，欢迎和我分享。&lt;/p&gt;
+&lt;p&gt;最后，开头的游戏你玩了吗？最高记录可以连续说多少个？&lt;/p&gt;</description></item><item><title>关于英语的重音，我做了一个深入研究……</title><link>https://victor42.eth.limo/post/3651/</link><pubDate>Fri, 05 Jul 2024 22:33:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3651/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2024-07/ea6d9ff8fee7f0f2477d458be8c4a952.jpg" alt="Featured image of post 关于英语的重音，我做了一个深入研究……" /&gt;&lt;p&gt;只讲故事，不提代码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;适合读者：学英语的朋友、搞数据分析的朋友、写Python的朋友、我的朋友&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是我的第一个数据分析项目。自学数据科学有一年多了，技能掌握了不少，实际项目一个没有。学数据分析时，analyze、analysis、analytical天天在面前晃悠，3个单词重音位置都不一样（&amp;lsquo;analyze, a&amp;rsquo;nalysis, ana&amp;rsquo;lytical），太不友好了，读文章的时候舌头老打结。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/70c28efdcd37e6d4a143ff2df66084be.jpg"
+loading="lazy"
+alt="四个同源英语单词Analyze、Analyst、Analysis、Analytical的重音位置对比，撇号标记显示重音依次从第一音节向后移动"
+&gt;&lt;/p&gt;
+&lt;p&gt;重音位置的问题，有人说有规律，规则罗列一大堆；有人说例外太多，别找什么规律。细想，就拿这3个单词来说，规律真的有。英语似乎在极力避免3个连续非重音，且重音位置尽量靠前。在不超过5个音节的情况下，重音总在倒数第3个音节上。&lt;/p&gt;
+&lt;p&gt;感觉有它的道理，3个连续非重音太平淡了，听者提不起精神，重音可以增加变化。就像开车一路笔直不转弯特容易犯困。重音太靠后则会降低信息传递成功率，试想一个长单词前面的音都轻轻的，最后一个音节发重音，听者还没反应过来就结束了。&lt;/p&gt;
+&lt;p&gt;这点可能不太好想象，我用普通话来类比。普通话其实有个巨大的缺陷，就是这个“不”字。它的声母、韵母发音都非常轻，尤其和后面的字连读时，韵母还会变得更轻，你时常会分不清对方究竟有没有说这个“不”字。那可是完全相反的两种意思，严重阻碍沟通。我女儿哭闹时，我就分不清她到底是“要”还是“不要”。&lt;/p&gt;
+&lt;p&gt;回到英语重音的问题，我的猜测似乎像那么回事，但缺少证据支撑。现在，作为一个学习数据的人，是不是该自己动手拿数据验证一下，有多大比例的单词符合这个规律？&lt;/p&gt;
+&lt;h2 id="研究方案规划"&gt;研究方案规划
+&lt;/h2&gt;&lt;p&gt;学了数据分析后，研究思路很快就出来了。这个问题无非就是采集、清洗、分析、可视化，并不涉及回归分析和预测。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/7486fc8650cedd8b8b4f7816e9af7e0d.jpg"
+loading="lazy"
+alt="Kaggle Notebook中展示的原始英文单词数据集预览，按字母顺序从a开始逐行排列，文件因过大被截断显示"
+&gt;&lt;/p&gt;
+&lt;p&gt;这是我目前掌握的技能，足以一试：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;找一份全面的单词列表&lt;/li&gt;
+&lt;li&gt;找免费批量的方法，从在线词典获得音标信息&lt;/li&gt;
+&lt;li&gt;得出每个单词的音节数、重音位置，这一步可以借助AI&lt;/li&gt;
+&lt;li&gt;分析重音位置分布，数据可视化&lt;/li&gt;
+&lt;li&gt;验证我的猜想&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;下面逐一拆解。&lt;/p&gt;
+&lt;h2 id="数据来源"&gt;数据来源
+&lt;/h2&gt;&lt;p&gt;在知名数据科学社区&lt;a class="link" href="https://www.kaggle.com/" target="_blank" rel="noopener"
+&gt;Kaggle&lt;/a&gt;找到了一个数据集，就是个朴素的txt文件。其中包含了30多万个英文单词，按字母顺序排列，一行一个：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.kaggle.com/datasets/bwandowando/479k-english-words" target="_blank" rel="noopener"
+&gt;https://www.kaggle.com/datasets/bwandowando/479k-english-words&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/035173524c2057e2515c255add081cea.jpg"
+loading="lazy"
+alt="Kaggle Notebook中展示的原始英文单词txt文件预览，从a、aa、aaa到aardvark等按字母顺序逐行排列"
+&gt;&lt;/p&gt;
+&lt;p&gt;一个txt文件有4mb，看小说的人应该熟悉，这可是百万字级别的小说。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/6d8b49da96f58a5292d53296bf7966ba.jpg"
+loading="lazy"
+alt="Pandas DataFrame的info输出截图，显示369652行1列的word数据，红色下划线标注Non-Null Count数值"
+&gt;&lt;/p&gt;
+&lt;p&gt;我在Kaggle创建了一个代码项目，数据集导进去，读出其中所有单词，得到了一张369652行、1列的表格。&lt;/p&gt;
+&lt;h2 id="查发音"&gt;查发音
+&lt;/h2&gt;&lt;p&gt;表格里只有单词，要从词典里获取音标，研究才能严谨地继续下去。&lt;/p&gt;
+&lt;p&gt;运气不错，有个免费的在线词典API：&lt;a class="link" href="https://dictionaryapi.dev/" target="_blank" rel="noopener"
+&gt;https://dictionaryapi.dev/&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;现在我需要把这30多万个单词，挨个拿到这个词典里去查。当然，不是手动的，要写代码跑。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/5c311b367a15d50faa8f53f724821a54.jpg"
+loading="lazy"
+alt="dictionaryapi.dev接口文档页面，展示以hello为例的JSON返回结构，包含phonetic音标、audio音频URL、origin词源和meanings释义"
+&gt;&lt;/p&gt;
+&lt;p&gt;API返回的信息里，除了音标，还有发音的音频、词源、词性、意思和例句。这里可能有用的是音标、词源和词性。但绝大多数词源缺失，只拿了音标和词性。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/12f254a9769f985b4cacc3b3992a7577.jpg"
+loading="lazy"
+alt="GitHub上freeDictionaryAPI的app.js源码截图，红框标注rateLimit配置：windowMs为5分钟，max为450次请求限制"
+&gt;&lt;/p&gt;
+&lt;p&gt;查音标过程中，遇到了数据量太大的问题。API文档没有提到请求的限制，终于在&lt;a class="link" href="https://github.com/meetDeveloper/freeDictionaryAPI/blob/master/app.js" target="_blank" rel="noopener"
+&gt;它的Github代码&lt;/a&gt;里找到了：每5分钟最多请求450次。这369652个单词，即使没日没夜地查，也要 369652/450*5/60 = 68.45 小时，将近3天！&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/4a9c399f7966ab61cf767f7712e209d9.jpg"
+loading="lazy"
+alt="Kaggle Notebook输出面板显示/kaggle/working/chunks目录下数十个按序号命名的results CSV分块文件"
+&gt;&lt;/p&gt;
+&lt;p&gt;好吧，3天就3天吧。但做法得改了，要加一个分块查询、阶段性保存的功能。每查了1000行，就存到一个文件里，编上序号。下次按照序号继续查，全部查完再把这300多个文件合并成一张大表。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/22b28704556d17baf1c0c141d5ae3e96.jpg"
+loading="lazy"
+alt="Google Sheets电子表格合并后的数据预览，A列为again/agave等单词，B列为音标和词性列表，C列为清洗后音标，D列为词性集合"
+&gt;&lt;/p&gt;
+&lt;p&gt;实际上，30多万个单词大部分是生僻词，在词典API里根本查不到。每1000个词里只能查出其中100个左右。上面这个文件就只有92行。&lt;/p&gt;
+&lt;p&gt;有&lt;a class="link" href="https://wordsrated.com/how-many-words-are-in-the-english-language/" target="_blank" rel="noopener"
+&gt;语言学研究&lt;/a&gt;表示，3000个英文单词能覆盖95%的日常写作和口语，1000个单词也足以覆盖89%。&lt;a class="link" href="https://wordcounter.io/blog/how-many-words-does-the-average-person-know" target="_blank" rel="noopener"
+&gt;另一份研究&lt;/a&gt;显示，成年人平均主动词汇量大约20000个，被动词汇量约40000个。这么看来，30多万的数据集大约只有1/10有用，也算是在合理范围。&lt;/p&gt;
+&lt;h2 id="数据清洗"&gt;数据清洗
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/82acc141ccd3150e4bf0fd08ae292149.jpg"
+loading="lazy"
+alt="Python代码中Uncommon音标替换规则字典，将非常规符号如ã替换为a、æ替换为e、ə̃替换为e等标准化映射"
+&gt;&lt;/p&gt;
+&lt;p&gt;合并文件后发现，词典查出的音标符号乱七八糟，许多不常见的符号混在其中，比如 &lt;code&gt;ɘ&lt;/code&gt;, &lt;code&gt;ɝ&lt;/code&gt;, &lt;code&gt;ɚ&lt;/code&gt;, &lt;code&gt;ɨ&lt;/code&gt;, &lt;code&gt;ʉ&lt;/code&gt;。它们是标准音的变体，在表示更精确的发音时会用到，近似等同与标准音。这些得替换掉，否则会影响音节数和后续所有分析。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/9d9304e6642b5df50354c06d739eea1d.jpg"
+loading="lazy"
+alt="Python代码中美式英式音标合并规则，将a替换为æ但保留aɪ/aɪ等组合，标注American English和British English注释"
+&gt;&lt;/p&gt;
+&lt;p&gt;除了奇怪的符号，还有许多常见音标发音相同但写法不同。比如 &lt;code&gt;əu/əʊ&lt;/code&gt;、&lt;code&gt;ai/aɪ&lt;/code&gt;，这些也需要合并。图里每行的意思是，把第1个音标替换成第2个音标，但中括号里的音标不动。&lt;/p&gt;
+&lt;p&gt;有的单词英音和美音有严重分歧，这里优先按美音规则替换。&lt;/p&gt;
+&lt;p&gt;这里有太多非常规写法在玩排列组合，多替换或者漏替换很容易导致音标错乱。我临时写了个检查程序，一边手动查&lt;a class="link" href="https://dictionary.cambridge.org/us/dictionary/english/" target="_blank" rel="noopener"
+&gt;剑桥词典&lt;/a&gt;确认标准的写法，一边完善我的替换规则，搞了好一会儿。&lt;/p&gt;
+&lt;p&gt;处理过后，元音符号规矩多了，以 anthropomorphic 为例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;处理前：&lt;code&gt;[ˌæ̃n̪θɹ̠əpəˈmɔɹ̠fɪ̈k]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;处理后：&lt;code&gt;[ˌæn̪θɹ̠əpəˈmɔːfɪk]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;辅音符号对我没用，没做处理，这是个更大的坑。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/627162599344331488dc70237ce660a6.jpg"
+loading="lazy"
+alt="词典API返回abacus算盘的错误音标/-saɪ/，phonetic字段显示不完整信息，audio音频URL为空字符串"
+&gt;&lt;/p&gt;
+&lt;p&gt;后来发现，词典API有少量数据本身就不对。比如算盘（abacus）的发音，/-saɪ/，什么鬼？信息不完整。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/f4f3ef7e088114e942d95246bf273902.jpg"
+loading="lazy"
+alt="文本显示不完整音标统计结果：Incomplete phonetic共172个，占比0.55%，用于过滤掉词典API返回的错误数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;算了一下，这种情况占全部单词的0.55%，极少。不完整的音标都列出来，看起来比较随机，没有什么共性，把它们一刀切过滤掉。现在，我实际分析的虽然不再是完整数据，而是一个样本，但样本足够大，足以反映整体，研究可以继续。&lt;/p&gt;
+&lt;h2 id="分析音标ai"&gt;分析音标（AI）
+&lt;/h2&gt;&lt;p&gt;这一步要从音标中算出单词音节数，并根据重音符号 &lt;code&gt;ˈ&lt;/code&gt; 来判断重音落在第几个音节上。&lt;/p&gt;
+&lt;p&gt;想偷个懒，在Kaggle上部署一个AI模型，AI不是最懂语言么？让它来判断正合适。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/c77ef4414f82188785924057cfe3bc34.jpg"
+loading="lazy"
+alt="Kaggle Models页面搜索结果，筛选Text任务模型后显示Gemma、Llama 3、PaliGemma等113个结果及其热度排名"
+&gt;&lt;/p&gt;
+&lt;p&gt;文字类模型试了一圈，卡住了：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;大模型跑不动：&lt;/strong&gt; Kaggle能部署的开源模型中，Llama3 70b就可以完成任务，能稳定、准确地判断出音节数和重音位置。ChatGPT、Claude等其他家模型也都能完成，甚至GPT-3.5都可以，看来语言确实是大模型的传统强项。只是……免费版Kaggle跑不了这么大的模型。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;小模型不给力：&lt;/strong&gt; Kaggle免费提供的2张T4显卡可以带动7b规模的小模型，也就是Llama3 8b、Gemma 7b、Qwen2 7b这些。这些小模型无论是在Kaggle里用，还是在别的平台上用，都无法稳定地完成任务。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;仔细打磨提示词，让AI一步步思考，还给了它例子：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&amp;lt;task&amp;gt;
+your task is to count how many syllables there are in an English word. list them all then count. finally answer which syllable the stress falls on(tell me the number). answer **EXACTLY** in the example format.
+&amp;lt;example&amp;gt;
+word: analysis
+phonetic transcription: /əˈnælɪsɪs/
+syllables:
+1. ə
+2. &amp;#39;næ
+3. lɪ
+4. sɪs
+syllables count: 4
+stress position: 2
+final conclusion: &amp;lt;&amp;lt;&amp;lt;2/4&amp;gt;&amp;gt;&amp;gt;
+&amp;lt;word&amp;gt;
+analytical /æn.əˈlɪt.ə.kəl/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但小模型仍然经常出错，也许小模型就是不足以胜任这种任务吧。毕竟音标符号和日常使用的英文字母完全不一样，对AI来差不多算另一种语言了，还是小语种。&lt;/p&gt;
+&lt;p&gt;这番折腾让我明白：为什么各家开源小模型不约而同训练成了7b左右规模，就是为了刚好能跑在一张特定显卡上啊！在算力吃紧的当下，显卡才是基本计量单位。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/3a5d9b8fcbd23a0d5487891310921f63.jpg"
+loading="lazy"
+alt="Google Sheets中使用=GPT(D2)公式批量分析音节和重音，D列输入提示词和示例，E列输出syllables count和stress position结果"
+&gt;&lt;/p&gt;
+&lt;p&gt;真的没法用AI了吗？又想到一个曲线救国的办法：Google Sheets+AI插件。把音标信息导到Google Sheets里，右边单元格里写上提示词，把单词和音标带进去。再右边一格使用&lt;a class="link" href="https://workspace.google.com/u/1/marketplace/app/gpt_for_sheets_and_docs/677318054654" target="_blank" rel="noopener"
+&gt;AI插件&lt;/a&gt;的公式，输入提示词，得到生成结果。这个插件用的模型是GPT-3.5，能正确完成任务。然后用Excel里经典操作往下一拉，整列就都给生成了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/81f435b62db92e70d47f0d77841e5703.jpg"
+loading="lazy"
+alt="GPT for Sheets成本估算页面，显示36000次执行预计费用$12.71，下方展示prompt模板和token计数"
+&gt;&lt;/p&gt;
+&lt;p&gt;看了插件的收费标准，按数据量估算了一下，成本倒是不高，90块左右。但是不知道这几万条数据同时用AI生成，插件会不会出什么异常。如果出现问题再调试、重新生成，又是90，何时是个头，有点不太敢用。&lt;/p&gt;
+&lt;h2 id="分析音标算法"&gt;分析音标（算法）
+&lt;/h2&gt;&lt;p&gt;行吧，求AI不如求己。数音节、找重音，这事儿自己写算法也可以搞定，而且更可靠。思路如下，以 &lt;code&gt;analytical /æn.əˈlɪt.ə.kəl/&lt;/code&gt; 为例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;创建一个集合，包含所有已知的元音 &lt;code&gt;ɑaæɒʌəɛeɪiɔoʊuʉɜ&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;去掉音标里的斜杠、括号、空格、点等无用符号，&lt;code&gt;/æn.əˈlɪt.ə.kəl/&lt;/code&gt; 变成 &lt;code&gt;ænəˈlɪtəkəl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;剩下的字符 &lt;code&gt;ænəˈlɪtəkəl&lt;/code&gt; 逐个去集合里查，是元音的就记个数，其中 &lt;code&gt;æ&lt;/code&gt;, &lt;code&gt;ə&lt;/code&gt;, &lt;code&gt;ɪ&lt;/code&gt;, &lt;code&gt;ə&lt;/code&gt;, &lt;code&gt;ə&lt;/code&gt; 是元音，就得到音节数5&lt;/li&gt;
+&lt;li&gt;以重音符号 &lt;code&gt;ˈ&lt;/code&gt; 为分隔符把音标分段，&lt;code&gt;ænəˈlɪtəkəl&lt;/code&gt; 变成 &lt;code&gt;ænə&lt;/code&gt; 和 &lt;code&gt;lɪtəkəl&lt;/code&gt;，取第1段 &lt;code&gt;ænə&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;再用第3步的方法，数第1段的元音的个数，2个&lt;/li&gt;
+&lt;li&gt;这个数字+1就是重音所在的位置，重音在第3个音节上&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;思路出来了，具体代码就让AI写吧。 AI写这种难度的代码简直小菜一碟，没改几轮就能用了。&lt;/p&gt;
+&lt;p&gt;过程中遇到个有意思的问题，第3步数元音时，双元音怎么办？还有三重元音呢？长音呢？比如 &lt;code&gt;ei&lt;/code&gt; 这个音，去集合里查，发现 &lt;code&gt;e&lt;/code&gt; 是元音，&lt;code&gt;i&lt;/code&gt; 也是元音，这样一来就算了2个音节。实际上 &lt;code&gt;ei&lt;/code&gt; 作为双元音只算一个音节。同理，三重元音会被数成3个音节。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/93fc699338026ae0a224090ea716d17c.jpg"
+loading="lazy"
+alt="Python代码定义单元音双元音三重元音集合，vowels包含ɑæɒʌə等单字符，diphthongs列表含aɪ/aʊ/eɪ/oʊ等组合，triphthongs仅含I:ə和u:ə"
+&gt;&lt;/p&gt;
+&lt;p&gt;算法得改。元音集合分成3个，分别存放单、双、三重元音，查元音的时候要查3遍：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;第1遍逐个字符查，比对单元音集合，双元音、三重元音会被多算。&lt;/li&gt;
+&lt;li&gt;第2遍两个字符查，比对双元音集合，遇到双元音，音节数就减1，抵消多算的双元音。特别需要注意的是，识别到了双元音后，下一次比对要跳过一个字符，防止把三重元音比如 &lt;code&gt;aɪə&lt;/code&gt; 算成 &lt;code&gt;aɪ&lt;/code&gt; 和 &lt;code&gt;ɪə&lt;/code&gt;，这样又多减了。&lt;/li&gt;
+&lt;li&gt;第3遍三个字符查，比对三重元音集合，遇到三重元音，音节数再减1，抵消多算的三重元音。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;修改后的算法就能准确判断音节数了。说明一下，我把长音符号 &lt;code&gt;ː&lt;/code&gt; 也算作一个音标字符，所以 &lt;code&gt;iː&lt;/code&gt;, &lt;code&gt;ɑː&lt;/code&gt; 这样的长音在算法上当作双元音处理，&lt;code&gt;iːə&lt;/code&gt;, &lt;code&gt;uːə&lt;/code&gt; 就当三重元音处理了，不影响计算结果。&lt;/p&gt;
+&lt;p&gt;果然，做数据分析，技巧是其次，关键得懂业务啊！分析英语就得了解英语。随着对音标的深入研究，又发现了新问题：三重元音的判定非常模糊。三个元音符号连在一起时，它到底算一个三重元音，还是单元音+双元音，竟然没有共识。这熟悉的感觉……没错，这就是英语！没个准儿。&lt;/p&gt;
+&lt;p&gt;比如 &lt;code&gt;fire /ˈfaɪər/&lt;/code&gt; 这个词，有人认为 &lt;code&gt;aɪə&lt;/code&gt; 是一整个音节，有人认为它是 &lt;code&gt;aɪ&lt;/code&gt; + &lt;code&gt;ə&lt;/code&gt; 两个。判定标准也五花八门。有说看能不能在这个位置被断行的，在一行末尾写成 fi-，再把 re 写到第2行去，fire不能这么写，所以它是三重元音。也有根据唱歌来判定的，如果唱歌的时候这个音节被唱成一个音符，那就是三重元音。这首 &lt;a class="link" href="https://www.youtube.com/watch?v=dC7Pog3biCk" target="_blank" rel="noopener"
+&gt;Simple Plan - Fire In My heart&lt;/a&gt; 0分57秒的时候，&lt;code&gt;faɪ&lt;/code&gt; 和 &lt;code&gt;ər&lt;/code&gt; 是被唱成了2个不同的音符，那么它又应该算双元音+单元音？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/d0227a8fc72ffd41ff020f6fceb73b12.jpg"
+loading="lazy"
+alt="Simple Plan乐队Fire In My Heart歌曲歌词视频截图，显示And it’s my self control goes up in smoke等歌词，进度条在0:57处，用于说明fire中aɪə三重元音判定争议"
+&gt;&lt;/p&gt;
+&lt;p&gt;先不管了，这就是英语。考虑到有 &lt;code&gt;oasis /oʊˈeɪsɪs/&lt;/code&gt; 这样的单词存在，这都四重元音了，还有完没完？况且 &lt;code&gt;oʊ&lt;/code&gt; 和 &lt;code&gt;eɪ&lt;/code&gt; 明明都已经被重音符号分开了，显然是两个双元音。我决定直接无视三重元音的存在，把它们统统当作两个音节。最后，算法里的三重元音就只剩带有长音的双元音了。&lt;/p&gt;
+&lt;p&gt;得到了音节数和重音位置，我还想知道重音对应什么元音，或许也能分析出点啥来。&lt;/p&gt;
+&lt;p&gt;这个需求就略微烧脑了，一时半会儿没想明白，还是找AI讨论一下。这时候不同模型的效果高下立判，平时表现优秀的Gemini 1.5 Flash跟我兜了半天圈子，完全没有解决问题。转而求助GPT-4o，3轮对话就输出正确代码了，前后也就10分钟。又试了Claude 3.5 Sonnet，甚至一次就成功。若需要大量写代码，还是值得为优秀模型付费。当然，基本的代码理解能力还得有，看到AI的代码，要能知道它是在干什么、会不会管用、哪里可能出问题，以便让它继续调整。&lt;/p&gt;
+&lt;p&gt;它的思路是这样的，还是以 &lt;code&gt;analytical /ænəˈlɪtəkəl/&lt;/code&gt; 为例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;找到重音符号 &lt;code&gt;ˈ&lt;/code&gt; 所在的位置，从这里往后看，取 &lt;code&gt;lɪtəkəl&lt;/code&gt; 这段。&lt;/li&gt;
+&lt;li&gt;后面的音标字符一个个看过去，不是元音就去掉，直到遇到第一个元音符号，得到 &lt;code&gt;ɪtəkəl&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;这时候开头一定是元音了，接下来取3前个字符 &lt;code&gt;ɪtə&lt;/code&gt;，看看在不在三重元音里，不在。&lt;/li&gt;
+&lt;li&gt;再取前2个字符 &lt;code&gt;ɪt&lt;/code&gt;，看看在不在双元音里，不在。&lt;/li&gt;
+&lt;li&gt;最后取第1个字符 &lt;code&gt;ɪ&lt;/code&gt;，看看在不在单元音里，在，这就是重音对应的元音。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/ba10765865fa9f86332e78b71807279f.jpg"
+loading="lazy"
+alt="Google Sheets分析完成后的数据表，包含word/phonetic/part_of_speech/syllable_len/syllable_pos/stress_syllable六列，展示aam/aardvark等单词的音节数和重音位置分析结果"
+&gt;&lt;/p&gt;
+&lt;p&gt;分析音标后的数据表变成这样，现在，所需的数据已经集齐了。&lt;/p&gt;
+&lt;h2 id="可视化"&gt;可视化
+&lt;/h2&gt;&lt;p&gt;最爽的部分开始了，不仅因为能得出有用结论，也因为AI在这里简直指哪打哪。AI极其擅长写数据可视化Python代码，这类任务对推理能力要求不高，熟悉可视化库的语法就够了，我日常使用的Gemini 1.5 Flash这种非旗舰模型都能很好完成。Seaborn和Matplotlib这两个可视化库我没有认真学过，但借助AI，画图信手拈来。&lt;/p&gt;
+&lt;p&gt;当然，信手拈来不等于张口就来，AI什么都不知道的情况下，跟它说我要个什么什么图表，它原地摆烂给你看。我写了个Python可视化提示词，告诉它任务，告诉它数据表的结构和内容，然后就能满火力稳定输出了。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&amp;lt;Task&amp;gt;
+You are a Python data visualizer. You excels at coding with data visualization libraries like Seaborn and Matplotlib. I will tell you about the structure of a Pandas dataframe and the visualization I want. First, you dive deeply into the dataframe and understand what it is all about. Then write Python code to visualize it. Just code, no explanation. Next, you check if the code meets my need. Finally, correct the code if necessary.
+&amp;lt;Dataframe&amp;gt;
+The dataframe(variable name is df) is {a list of common English words with their phonetic information and part-of-speech}.
+Now here are the columns of the dataframe, exactly in the following order:
+**word**
+- datatype: str
+- example: complimentary
+- description: the English words
+**phonetic**
+- datatype: str
+- example: /ˌkɒmplɪ̈ˈment(ə)ɹɪ/
+- description: the phonetic transcription of the words
+**part_of_speech**
+- datatype: str(list like)
+- example: [&amp;#39;adjective&amp;#39;]
+- description: how are these words used in sentences
+**syllable_len**
+- datatype: int
+- example: 5
+- description: how many syllables are there in these words
+**stress_pos**
+- datatype: int
+- example: 3
+- description: on which syllable the stress falls on, if there are more than one stress, this is the position of the first stress
+**stress_syllable**
+- datatype: str
+- example: e
+- description: the vowel of the stressed syllable
+&amp;lt;Request&amp;gt;
+I want to know the distribution of stress position, grouped by syllable numbers.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;使用提示词，只需要修改 &lt;code&gt;&amp;lt;Request&amp;gt;&lt;/code&gt; 部分。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/6bf1e239c52df87ca7159c81c23911cd.jpg"
+loading="lazy"
+alt="Pandas DataFrame初步加载后的前5行预览，显示word/phonetic/part_of_speech/syllable_len/stress_pos/stress_syllable六列数据结构"
+&gt;&lt;/p&gt;
+&lt;p&gt;观察数据表，里面有一些词没有重音。这是因为单词比较短，音标里没有重音符号，把这些排除掉。再排除掉只有一个音节的单词，这重音即使有，位置也实在是没什么好分析的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/99b768328e8403852edad5bbe1d47def.jpg"
+loading="lazy"
+alt="Pandas DataFrame清洗筛选后的info输出，显示24433个有效单词、6列数据，红色下划线标注entries数量"
+&gt;&lt;/p&gt;
+&lt;p&gt;剩下24433个数据完整的单词以供分析。&lt;/p&gt;
+&lt;h3 id="音节数分析"&gt;音节数分析
+&lt;/h3&gt;&lt;p&gt;看看这24433个单词里，音节的数量如何分布。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/e6ded1b89391ef9844e28f8d4342c3da.jpg"
+loading="lazy"
+alt="音节数分布柱状图Distribution of syllable length，横轴syllable length从2到11，纵轴Frequency，2音节11908个最多，11音节仅1个"
+&gt;&lt;/p&gt;
+&lt;p&gt;并不意外，音节数越少，单词数越多。一门语言的演变，当然是先把好用好记的短单词用完了，再去造更长的词。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/9655926ed67e4cb11ee3f8a0ba62cbe0.jpg"
+loading="lazy"
+alt="音节长度占比饼状图，2音节占48.7%近一半，3音节占31.3%，4音节占14.7%，三者合计占总数的94.7%"
+&gt;&lt;/p&gt;
+&lt;p&gt;双音节单词占了48.7%，三音节单词占了31.3%。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/20a81644b6c29b8bab1ccc0b79f5e220.jpg"
+loading="lazy"
+alt="文本统计结果显示94.73%的单词不超过4个音节，99.00%的单词不超过5个音节"
+&gt;&lt;/p&gt;
+&lt;p&gt;4个及以内音节的单词占总数的94.73%，5个及以内的单词占总数的99%。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/963d18455de407866b97e9459de20bab.jpg"
+loading="lazy"
+alt="超长单词antidisestablishmentarianism反政教分离主义的音标分解显示11个音节，下方标注syllable count: 11"
+&gt;&lt;/p&gt;
+&lt;p&gt;音节数最多的单词竟然有11个音节。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/79fac98a54c6d574e0c2e29ef224e1dd.jpg"
+loading="lazy"
+alt="剑桥词典antidisestablishmentarianism词条页面，显示名词词性、RELigion/POLITICS分类、美音和英音两种音标及释义opposition to the belief that there should not be an official relationship between a country’s government and its national Church"
+&gt;&lt;/p&gt;
+&lt;p&gt;什么意思，反政教分离主义？又opposition又not，你这是双重否定套娃呀，难怪这么多音节。那我能不能在前面加non，无反政教分离主义？&lt;/p&gt;
+&lt;h3 id="音节数和重音位置的关系"&gt;音节数和重音位置的关系
+&lt;/h3&gt;&lt;p&gt;先用统计学方法，计算这两组数值的相关性系数：0.67。还不错，关联度不低。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/de6dd89e6d5f9344dc7788051d2266b0.jpg"
+loading="lazy"
+alt="文本显示音节长度与重音位置的相关系数为0.67，取值范围-1到1之间，接近1表示正相关"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个相关性系数的取值范围是-1到1。接近0表示两者几乎无关；接近1是正相关，一个随另一个正向变化；接近-1是负相关，一个高，另一个就低。&lt;/p&gt;
+&lt;p&gt;该系数只是统计学上的相关，是分析的第一步。排除了两者不相关，才值得继续研究下去。它并不能反映出两者有什么实际关联。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/424a2fdcade241c75ba5a53eabda74ee.jpg"
+loading="lazy"
+alt="音节长度与重音位置分布气泡图，纵轴Syllable Length从2到11，横轴Stress Position从1到8，气泡大小和颜色深浅代表单词数量，点沿对角线从左下到右上分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;画个气泡图探索一下。纵轴音节数，横轴重音位置，气泡大小和颜色深度代表单词数量。点的分布大约沿着对角线从左下到右上一路过去，随着音节数变多，重音位置在向后移动。&lt;/p&gt;
+&lt;p&gt;气泡图（或热力图）虽然能同时展现三个维度的信息，但它们比较的是单词数量的绝对值。我更想知道的是，每一组音节数的单词重音位置分布如何。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/8a8e9b114c1ec9758b4c00e62f8be6f6.jpg"
+loading="lazy"
+alt="各音节长度单词重音位置频数分布分组柱状图，共11个子图分别展示syllable length 2到11，横轴为重音位置1-11，纵轴为单词数量，显示重音随音节数增加而后移的海浪状分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;又画了一个复合柱状图，纵轴音节数，横轴重音位置。现在一目了然，重音的分布像海浪一样向右移动，而且似乎真的集中在倒数第三个音节附近。&lt;/p&gt;
+&lt;h3 id="重音音节分析"&gt;重音音节分析
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/a8cbd78d2abfeeb6f6a12e95dee24c99.jpg"
+loading="lazy"
+alt="Python代码输出Unique stress syllables去重列表，包含ɑ:/ɔ:/æ/eɪ/i:等25种不同的重音元音音素"
+&gt;&lt;/p&gt;
+&lt;p&gt;列出所有在重音位置的元音。其中一两个本不该作为元音出现在这儿，但检查了原始数据，发现词典本身数据就错了，且数量极少，对结果影响不大。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/078bec4b5063d84f7f328e910dd61f9a.jpg"
+loading="lazy"
+alt="重音位置元音频数排行横向柱状图Distribution of Stressed Syllables，e以3431次居首，I和æ各约3250次，əʊ/u:/:/ɑ:/3:依次递减，底部u:ə/ʊɪ//:/I:ə仅个位数"
+&gt;&lt;/p&gt;
+&lt;p&gt;根据出现的频率做了个排行。很明显，比较响亮的 &lt;code&gt;æ&lt;/code&gt;, &lt;code&gt;e&lt;/code&gt; 等更容易被用作重音；而比较低沉的 &lt;code&gt;ə&lt;/code&gt;, &lt;code&gt;ʊ&lt;/code&gt;，用作重音效果较弱，较少在重音位置出现。&lt;/p&gt;
+&lt;h3 id="词性分析"&gt;词性分析
+&lt;/h3&gt;&lt;p&gt;词性和重音位置有没有关系呢？&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;All part of speech: [&amp;#39;adjective&amp;#39;, &amp;#39;adverb&amp;#39;, &amp;#39;conjunction&amp;#39;, &amp;#39;interjection&amp;#39;, &amp;#39;noun&amp;#39;, &amp;#39;numeral&amp;#39;, &amp;#39;preposition&amp;#39;, &amp;#39;pronoun&amp;#39;, &amp;#39;propernoun&amp;#39;, &amp;#39;verb&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;列出数据表中所有词性。其中的 propernoun 不知道是什么玩意，这个词在词典里也没有。一查数据发现只有两个单词，而且牛头不对马嘴，怀疑是词典API数据问题，暂时忽略。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/627f810c2d8d6b27501d19d8ad6cff43.jpg"
+loading="lazy"
+alt="词性分布横向柱状图Distribution of Words by Part-of-Speech，noun名词17590个最多，verb动词8639个，adjective形容词6659个，adverb副词962个，interjection感叹词128个，preposition介词86个，pronoun代词48个，conjunction连词33个，numeral数词27个，propernoun专有名词4个"
+&gt;&lt;/p&gt;
+&lt;p&gt;把词性做了个排行，最丰富的依次是名词、动词、形容词、副词。有一半左右是名词。&lt;/p&gt;
+&lt;p&gt;这个结果不禁让人思考语言的发展史。一门语言首先要能描绘世间万物，创造概念与之对应，名词是基础。为了描绘人和物、物和物之间的相互作用，就需要引入动词。然后需要分别对名词和动词加以修饰，补充信息，才衍生出了形容词和副词。所以单词量会按这个顺序排列，这是我的猜测。&lt;/p&gt;
+&lt;p&gt;诶，想到这里，名词和形容词、动词和副词的比例是不是应该接近呢？其实都不用计算，条形图上一目了然，名词大概是形容词的2倍多，动词则接近副词的9倍，并不成比例。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[&amp;#39;abracadabra&amp;#39;, &amp;#39;absolutely&amp;#39;, &amp;#39;action&amp;#39;, &amp;#39;adieu&amp;#39;, &amp;#39;adios&amp;#39;, &amp;#39;affirmative&amp;#39;, &amp;#39;afternoon&amp;#39;, &amp;#39;ahem&amp;#39;, &amp;#39;alack&amp;#39;, &amp;#39;aloha&amp;#39;, &amp;#39;alright&amp;#39;, &amp;#39;amen&amp;#39;, &amp;#39;amidships&amp;#39;, &amp;#39;arrivederci&amp;#39;, &amp;#39;attaboy&amp;#39;, &amp;#39;attention&amp;#39;, &amp;#39;away&amp;#39;, &amp;#39;banzai&amp;#39;, &amp;#39;bastard&amp;#39;, &amp;#39;beauty&amp;#39;, &amp;#39;begone&amp;#39;, &amp;#39;begorra&amp;#39;, &amp;#39;behold&amp;#39;, &amp;#39;blazes&amp;#39;, &amp;#39;bollocks&amp;#39;, &amp;#39;bonjour&amp;#39;, &amp;#39;bother&amp;#39;, &amp;#39;botheration&amp;#39;, &amp;#39;brother&amp;#39;, &amp;#39;bully&amp;#39;, &amp;#39;bullseye&amp;#39;, &amp;#39;bullshit&amp;#39;, &amp;#39;caramba&amp;#39;, &amp;#39;checkmate&amp;#39;, &amp;#39;cheeses&amp;#39;, &amp;#39;condolences&amp;#39;, &amp;#39;congrats&amp;#39;, &amp;#39;congratulations&amp;#39;, &amp;#39;content&amp;#39;, &amp;#39;cooee&amp;#39;, &amp;#39;curses&amp;#39;, &amp;#39;dammit&amp;#39;, &amp;#39;ecce&amp;#39;, &amp;#39;egad&amp;#39;, &amp;#39;enchanted&amp;#39;, &amp;#39;encore&amp;#39;, &amp;#39;enough&amp;#39;, &amp;#39;eureka&amp;#39;, &amp;#39;exactly&amp;#39;, &amp;#39;farewell&amp;#39;, &amp;#39;fiddlesticks&amp;#39;, &amp;#39;flummery&amp;#39;, &amp;#39;gadzooks&amp;#39;, &amp;#39;gesundheit&amp;#39;, &amp;#39;goddamn&amp;#39;, &amp;#39;goodbye&amp;#39;, &amp;#39;gorblimey&amp;#39;, &amp;#39;gracias&amp;#39;, &amp;#39;gracious&amp;#39;, &amp;#39;greetings&amp;#39;, &amp;#39;hallelujah&amp;#39;, &amp;#39;hardly&amp;#39;, &amp;#39;havoc&amp;#39;, &amp;#39;heavens&amp;#39;, &amp;#39;heyday&amp;#39;, &amp;#39;hola&amp;#39;, &amp;#39;holla&amp;#39;, &amp;#39;honestly&amp;#39;, &amp;#39;hooray&amp;#39;, &amp;#39;hosanna&amp;#39;, &amp;#39;howdy&amp;#39;, &amp;#39;hullo&amp;#39;, &amp;#39;hurrah&amp;#39;, &amp;#39;huzzah&amp;#39;, &amp;#39;yeah&amp;#39;, &amp;#39;indeed&amp;#39;, &amp;#39;knickers&amp;#39;, &amp;#39;later&amp;#39;, &amp;#39;mercy&amp;#39;, &amp;#39;morepork&amp;#39;, &amp;#39;morning&amp;#39;, &amp;#39;namaste&amp;#39;, &amp;#39;negative&amp;#39;, &amp;#39;nonsense&amp;#39;, &amp;#39;oyez&amp;#39;, &amp;#39;okay&amp;#39;, &amp;#39;ole&amp;#39;, &amp;#39;pardon&amp;#39;, &amp;#39;peccavi&amp;#39;, &amp;#39;period&amp;#39;, &amp;#39;pity&amp;#39;, &amp;#39;pleasure&amp;#39;, &amp;#39;presto&amp;#39;, &amp;#39;prithee&amp;#39;, &amp;#39;prosit&amp;#39;, &amp;#39;quiet&amp;#39;, &amp;#39;rather&amp;#39;, &amp;#39;really&amp;#39;, &amp;#39;respect&amp;#39;, &amp;#39;result&amp;#39;, &amp;#39;roger&amp;#39;, &amp;#39;rumble&amp;#39;, &amp;#39;sayonara&amp;#39;, &amp;#39;scramble&amp;#39;, &amp;#39;selah&amp;#39;, &amp;#39;shabash&amp;#39;, &amp;#39;shazam&amp;#39;, &amp;#39;silence&amp;#39;, &amp;#39;sorry&amp;#39;, &amp;#39;standard&amp;#39;, &amp;#39;sugar&amp;#39;, &amp;#39;tally&amp;#39;, &amp;#39;tara&amp;#39;, &amp;#39;tarnation&amp;#39;, &amp;#39;tidy&amp;#39;, &amp;#39;timber&amp;#39;, &amp;#39;uncle&amp;#39;, &amp;#39;understood&amp;#39;, &amp;#39;viva&amp;#39;, &amp;#39;vivat&amp;#39;, &amp;#39;voetsek&amp;#39;, &amp;#39;warning&amp;#39;, &amp;#39;welcome&amp;#39;, &amp;#39;whammo&amp;#39;, &amp;#39;whatever&amp;#39;, &amp;#39;wilco&amp;#39;, &amp;#39;wirra&amp;#39;, &amp;#39;zowie&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;出于兴趣，列出所有的感叹词，平时很少注意这个词性，所以展开来看看。发现afternoon都算啊！也对，问候语嘛。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[&amp;#39;abaft&amp;#39;, &amp;#39;abeam&amp;#39;, &amp;#39;aboard&amp;#39;, &amp;#39;about&amp;#39;, &amp;#39;above&amp;#39;, &amp;#39;abreast&amp;#39;, &amp;#39;abroad&amp;#39;, &amp;#39;absent&amp;#39;, &amp;#39;across&amp;#39;, &amp;#39;afore&amp;#39;, &amp;#39;after&amp;#39;, &amp;#39;again&amp;#39;, &amp;#39;against&amp;#39;, &amp;#39;agin&amp;#39;, &amp;#39;along&amp;#39;, &amp;#39;alongside&amp;#39;, &amp;#39;aloof&amp;#39;, &amp;#39;alow&amp;#39;, &amp;#39;amid&amp;#39;, &amp;#39;amidst&amp;#39;, &amp;#39;among&amp;#39;, &amp;#39;amongst&amp;#39;, &amp;#39;anent&amp;#39;, &amp;#39;anti&amp;#39;, &amp;#39;around&amp;#39;, &amp;#39;asprawl&amp;#39;, &amp;#39;astraddle&amp;#39;, &amp;#39;astride&amp;#39;, &amp;#39;athwart&amp;#39;, &amp;#39;barring&amp;#39;, &amp;#39;bating&amp;#39;, &amp;#39;because&amp;#39;, &amp;#39;before&amp;#39;, &amp;#39;behind&amp;#39;, &amp;#39;beyond&amp;#39;, &amp;#39;below&amp;#39;, &amp;#39;beneath&amp;#39;, &amp;#39;beside&amp;#39;, &amp;#39;besides&amp;#39;, &amp;#39;between&amp;#39;, &amp;#39;betwixt&amp;#39;, &amp;#39;circa&amp;#39;, &amp;#39;concerning&amp;#39;, &amp;#39;considering&amp;#39;, &amp;#39;contra&amp;#39;, &amp;#39;despite&amp;#39;, &amp;#39;during&amp;#39;, &amp;#39;except&amp;#39;, &amp;#39;excepting&amp;#39;, &amp;#39;failing&amp;#39;, &amp;#39;following&amp;#39;, &amp;#39;forby&amp;#39;, &amp;#39;froward&amp;#39;, &amp;#39;given&amp;#39;, &amp;#39;including&amp;#39;, &amp;#39;inside&amp;#39;, &amp;#39;into&amp;#39;, &amp;#39;minus&amp;#39;, &amp;#39;modulo&amp;#39;, &amp;#39;nearer&amp;#39;, &amp;#39;nearest&amp;#39;, &amp;#39;onto&amp;#39;, &amp;#39;opposite&amp;#39;, &amp;#39;outwith&amp;#39;, &amp;#39;pending&amp;#39;, &amp;#39;regarding&amp;#39;, &amp;#39;regardless&amp;#39;, &amp;#39;respecting&amp;#39;, &amp;#39;rising&amp;#39;, &amp;#39;running&amp;#39;, &amp;#39;saving&amp;#39;, &amp;#39;thorough&amp;#39;, &amp;#39;throughout&amp;#39;, &amp;#39;touching&amp;#39;, &amp;#39;toward&amp;#39;, &amp;#39;towards&amp;#39;, &amp;#39;under&amp;#39;, &amp;#39;underneath&amp;#39;, &amp;#39;unlike&amp;#39;, &amp;#39;until&amp;#39;, &amp;#39;upon&amp;#39;, &amp;#39;upside&amp;#39;, &amp;#39;versus&amp;#39;, &amp;#39;wanting&amp;#39;, &amp;#39;within&amp;#39;, &amp;#39;without&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;再列出所有介词，发现了一些特定模式。反复出现的词根值得注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a- 表示方位或空间关系：aboard, across, amid, around&lt;/li&gt;
+&lt;li&gt;be- 真的就是字面意思的be：before, behind, below, beside&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;现在为每一个词性画热力图，纵轴音节数，横轴重音位置，颜色深度表示单词量占所有该音节数单词的比例。部分词性的单词量太少，没有分析价值，只选了单词量大于总数1%的词性。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/ea6d9ff8fee7f0f2477d458be8c4a952.jpg"
+loading="lazy"
+alt="四类主要词性名词/动词/形容词/副词的重音位置与音节长度关系热力图，纵轴为音节长度，横轴为重音位置，颜色深浅表示单词占比，显示形容词重音集中在倒数第3音节、名词整体偏后、动词副词整体偏前"
+&gt;&lt;/p&gt;
+&lt;p&gt;只能看出重音位置随着音节数增加而后移，不同词性之间并没有明显差别。但仔细看，其实有点区别，在长单词（5个及以上音节）的情况下，形容词重音集中在倒数第3个音节，名词重音整体偏后，动词、副词重音整体偏前。&lt;/p&gt;
+&lt;h3 id="重音位置的规律"&gt;重音位置的规律
+&lt;/h3&gt;&lt;p&gt;现在，是时候验证我开篇对重音位置的猜想了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/da8aadd06591c811ed2f67ee0b15503d.jpg"
+loading="lazy"
+alt="Pandas DataFrame新增一列用于检验重音位置猜想，用实际重音位置减去倒数第3音节的假设位置，值为0表示符合猜想，正负值表示偏离方向和程度"
+&gt;&lt;/p&gt;
+&lt;p&gt;取音节数是4和5的单词，在数据表里专门增加一列，用重音实际位置减去假象位置（倒数第3个）。这列的值可以用来分析单词重音位置是否符合我的猜想，为0则符合，为1则偏后一个音节，-1则偏前，以此类推。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/2695209758cd7525a2d0e71e4dbb4f85.jpg"
+loading="lazy"
+alt="文本统计结果显示43.9%的单词重音落在倒数第3个音节上，符合重音位置猜想"
+&gt;&lt;/p&gt;
+&lt;p&gt;符合猜想的单词，比例占43.9%。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/5740e6b95198a01806d2831c73cbd1f3.jpg"
+loading="lazy"
+alt="实际重音与预测重音位置偏差分布柱状图，偏差0（符合倒数第3音节）的单词最多，偏差±1的次之，再远的很少，形状接近正态分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;用柱状图来展示重音的偏离情况。符合规律的最多，前后偏一个音节的也有，再远的就很少很少了。这形状看着……像正态分布啊（不是，一个统计学半吊子看什么都像正态分布&lt;/p&gt;
+&lt;p&gt;到这里，我意识到我的猜测或许可以进一步推广，音节数超过5是不是也适用呢？修改数据表筛选条件，再来一遍，这次包含所有音节数大于3的单词：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/6048650203a8efe7f09b9d6b3cc270c6.jpg"
+loading="lazy"
+alt="文本统计结果显示扩大样本到所有音节数大于3的单词后，43.92%的单词重音落在倒数第3个音节上，与原始样本比例几乎一致"
+&gt;&lt;/p&gt;
+&lt;p&gt;符合猜想的单词，比例占43.92%。嗯，没变多少。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-07/7baa190c8f4aeb3fd58ede643840201d.jpg"
+loading="lazy"
+alt="扩大样本后重音偏差分布柱状图，偏差0（倒数第3音节）的单词最多占约44%，偏差-1（倒数第2音节）的次之，两者合计占78.84%，更远的偏差极少"
+&gt;&lt;/p&gt;
+&lt;p&gt;偏离依然符合猜测。重音在倒数第三个音节的单词最多，在倒数第2个音节的单词也很多，这两者加起来占到了78.84%。虽然结果和我预测的并不100%吻合，但整体规律被证实了。&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;再总结一下。通过以上分析，关于音标和重音，有以下观察：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;音节数越少，单词越多&lt;/li&gt;
+&lt;li&gt;日常几乎用不到超过5个音节的单词&lt;/li&gt;
+&lt;li&gt;音节最多的单词有11个音节&lt;/li&gt;
+&lt;li&gt;单词音节数增加，重音总体上往后移&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;较响亮的元音更容易作为重音&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;词性对重音位置影响不大&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;大多数长单词的重音落在倒数第3和倒数第2个音节上，占总数的78.84%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="后记"&gt;后记
+&lt;/h2&gt;&lt;p&gt;分析5分钟，准备数据2小时。&lt;/p&gt;
+&lt;p&gt;可视化我大概只搞了半天，绝大多数时间都在准备数据，尤其从词典API查音标，断断续续跑脚本跑了两个多星期。甚至我这篇文章都写完了，词典还没查完，文中的数据结论我都用占位符占着，最终数据出来才填上的。&lt;/p&gt;
+&lt;p&gt;结论部分证实了我的猜想，还是很开心的。经过这番研究，英语单词的重音规律，我相信我永远都会记得，毕竟是自己的研究成果。&lt;/p&gt;
+&lt;p&gt;研究过程复习了Pandas的使用，掌握了分块请求阶段性保存的方法，学会了把AI整合进分析工作中，写出了一套非常有效的Python数据可视化提示词，还对英语音标有了更深入的了解。收获非常大，太值了！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;在此感谢：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.kaggle.com/datasets/bwandowando/479k-english-words/versions/5" target="_blank" rel="noopener"
+&gt;单词数据来源&lt;/a&gt;：这份30多万单词的列表是我整个分析的基础。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://dictionaryapi.dev/" target="_blank" rel="noopener"
+&gt;免费词典API&lt;/a&gt;：提供了低成本获取这些单词音标的途径。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://poe.com/Gemini-1.5-Flash" target="_blank" rel="noopener"
+&gt;Gemini 1.5 Flash&lt;/a&gt;：帮我完成了一半左右数据准备工作和全部的数据可视化工作。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://chatgpt.com/" target="_blank" rel="noopener"
+&gt;GPT-4o&lt;/a&gt;：帮我准确找出了重音位置的元音。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;整个分析过程及相关代码，已经开源分享在Kaggle上了，看完故事如果还对代码感兴趣，请前往：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.kaggle.com/code/victorcheng42/stress-distribution-of-english-words" target="_blank" rel="noopener"
+&gt;https://www.kaggle.com/code/victorcheng42/stress-distribution-of-english-words&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;中间过程产生的带有音标、音节数、重音位置的数据集也公开了。如有其他分析需要，可以看看能不能帮到你：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.kaggle.com/datasets/victorcheng42/english-words-with-stress-position-analyzed" target="_blank" rel="noopener"
+&gt;https://www.kaggle.com/datasets/victorcheng42/english-words-with-stress-position-analyzed&lt;/a&gt;&lt;/p&gt;</description></item><item><title>量化设计价值构成</title><link>https://victor42.eth.limo/post/3644/</link><pubDate>Wed, 25 Oct 2023 10:51:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3644/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png" alt="Featured image of post 量化设计价值构成" /&gt;&lt;p&gt;万万没想到，一份甩锅文档变成了一个数据分析项目。&lt;/p&gt;
+&lt;h2 id="事由"&gt;事由
+&lt;/h2&gt;&lt;p&gt;前阵子和几个同事在群里大干了一架，剑拔弩张。&lt;/p&gt;
+&lt;p&gt;虽然你几乎看不到我发设计相关的东西，但必须承认，我的本职工作还是一名设计师。主要做UI与交互设计，也接数据报告与PPT美化的活，有时还写写代码、搭建网站。我所在的设计部门是个中台性质的部门，承接其他部门的需求。我一人扛4个项目，其中2个UI类项目只能我接，团队里没有其他UI。4个项目会相互打架抢人，需求密集时我的排期是非常紧张的。&lt;/p&gt;
+&lt;p&gt;为什么跟同事干架呢？简单说，就是我UI工作都排满的情况下，另一个部门硬要占我时间帮他们优化数据报告（一份饰品行业的消费报告）。不并是什么高级的数据可视化，而是给PPT找商品图、换图，换完给客户看，不满意再换。&lt;/p&gt;
+&lt;p&gt;我拒绝了。这种实习生都能做的事，有空我可以帮帮忙，没空可不允许插队。我咬死排期不松口，对方认为这报告之前是我出的就应该由我继续，客户又在催，我俩就这么干起来了。&lt;/p&gt;
+&lt;p&gt;最终他们还是找其他设计师去了。事后我主管来找我谈，要我把排期管理方法在设计团队内推广。看来对方已经投诉过来了，但没空就是没空，就走排期，没得商量。公司还是有限责任公司呢，员工总不能是无限责任个人吧。&lt;/p&gt;
+&lt;p&gt;目前看来，对方是拿我没辙了。但为了防止事态升级，万一对方把战火烧到老板那儿去，我提前留了后手。我根据自己的工作排期数据，算出了手上各项工作花费的时间占比，对每项工作的价值做了评估，出了几张数据图表。其中的金额表示，相应的工作，只有月薪达到这个范围的设计师才做得了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png"
+loading="lazy"
+alt="Excel设计工作构成分析仪表盘，左侧树状图按20K以上/8-20K/8K以下三档展示业务价值分布，右侧业务构成饼图和价值构成饼图"
+&gt;&lt;/p&gt;
+&lt;p&gt;一目了然，他们这个部门（棕色）低价值工作的比例相当大，大量找图换图对齐调字号的工作，占我时间还非常多。老板看这事的角度，显然是招一个人来划不划算，有没有用出工资应有的价值。让我一个20K以上的人来干实习生的活，这事到了老板那，谁挨骂还不一定呢。&lt;/p&gt;
+&lt;p&gt;干架的事情到此为止，不深究。倒是这个处理和分析数据的过程挺有意思，在此记录分享一下。&lt;/p&gt;
+&lt;h2 id="数据来源"&gt;数据来源
+&lt;/h2&gt;&lt;p&gt;能做这样的分析，前提是我平时有积累数据的习惯。任何在我看来可以算作数据的东西，我都会设计某种方式把它组织起来，利于将来使用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/b7cb270372f19fd67879c57bd8a7b009.jpg"
+loading="lazy"
+alt="手机端日历视图截图显示2023年10月设计排期，浅绿色色块标注各项目占用天数，底部显示设计排期/日历标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;我给自己做了一张设计排期表，用的是多维表之类的工具。把默认视图调成了日历，挂在自己的钉钉签名上，让想提需求的人先看我排期。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/65d4321bfa13f03090b90554cad84bd6.png"
+loading="lazy"
+alt="Excel设计排期数据表截图，包含项目/设计师/开始日期/结束日期/对接人/历时6列，展示2023年8月至9月的项目记录"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然添加工作项是在日历视图完成的，但它本质是一张数据表。为了方便记录，我没有设置太多字段。项目名称、设计师（这是整个设计团队的排期）、开始和结束日期、需求对接人，还有一个历时（天）是直接算出来的，不用填。&lt;/p&gt;
+&lt;p&gt;有新项目过来时，我会第一时间更新到排期表上。为避免需求打架和扯皮，我有充足的动机维护这张数据表。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/5d8953d9788ad3b0997eea965fec52e6.png"
+loading="lazy"
+alt="Excel底部工作表标签栏截图，从左到右依次为图表/价值分析/时间分析/设计排期数据四个工作表"
+&gt;&lt;/p&gt;
+&lt;p&gt;原始数据准备好了，里面有我40个工作日（近2个月的数据）。导到Excel里，需要做一项处理，把历时从文本格式改为数字，否则无法求和。接下来要开始做一系列的分析（从右往左），最终生成图表。&lt;/p&gt;
+&lt;h2 id="时间分析"&gt;时间分析
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/ab35313c1c52dc5c5328490034a68dbd.png"
+loading="lazy"
+alt="Excel时间分析表截图，左侧数据透视表按对接人汇总历时总和40天，右侧手动对应业务分类汇总各业务占用时长"
+&gt;&lt;/p&gt;
+&lt;p&gt;先做时间分析，这个Tab里有两张表：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;左表是对原始数据做了数据透视，得到每个需求对接人所占时长。&lt;/li&gt;
+&lt;li&gt;右表是把各个需求对接人手动对应到几大业务，汇总出各业务占用我的时长。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/b790a28d8fc8fc1ad15ecb4b726112eg.png"
+loading="lazy"
+alt="Excel数据透视表字段面板截图，勾选设计师/对接人/历时三个字段，Filters区域放置设计师，Rows放置对接人，Values放置求和项历时"
+&gt;&lt;/p&gt;
+&lt;p&gt;左表的数据透视是这么来的，翻译成人话：筛选特定的设计师（就是我了），以每一个对接人为一行，汇总历时之和。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/ab35313c1c52dc5c5328490034a68dbd.png"
+loading="lazy"
+alt="Excel时间分析表截图，左侧数据透视表按对接人汇总历时，右侧手动列出业务分类并用加法公式汇总各业务时长"
+&gt;&lt;/p&gt;
+&lt;p&gt;右表里手动列出几大业务，从左表里选相应业务的人，用最简单的加法公式求和。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/0d9aec6a5807c7ba9153da8f20b261a1.png"
+loading="lazy"
+alt="Excel公式栏截图显示GETPIVOTDATA函数，从数据透视表中提取历时数据用于业务汇总计算"
+&gt;&lt;/p&gt;
+&lt;p&gt;从数据透视表里选数据，比从普通表格里选数据方便。Excel会自动帮你写好这个getpivotdata函数，你只要点选就可以了，免去了使用sumifs的麻烦。&lt;/p&gt;
+&lt;h2 id="价值分析"&gt;价值分析
+&lt;/h2&gt;&lt;p&gt;接下来分析我这些时间花出去值不值。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel价值分析表截图，包含5张表：表1业务历时占比/表2业务价值区间占比/表3数据透视/表4相乘结果/表5价值汇总透视"
+&gt;&lt;/p&gt;
+&lt;p&gt;价值分析Tab里有5张表：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;表1其实就是时间分析里的右表，数据形式做了个变形。&lt;/li&gt;
+&lt;li&gt;表2是我手动创建的表，标明了各业务工作内容在不同价值区间的占比。&lt;/li&gt;
+&lt;li&gt;表3是对表2的数据透视，只是整理了一下格式而已，为了方便做表4。&lt;/li&gt;
+&lt;li&gt;表4是把表1和表3相乘，算出每种工作不同价值的部分的实际占比。&lt;/li&gt;
+&lt;li&gt;表5是对表4的数据透视，汇总出不同价值区间的工作总量占比。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/4b7fd4d8f38266dc59903bddfa4dc4d2.png"
+loading="lazy"
+alt="Excel数据透视表字段面板截图，勾选业务和历时字段，Rows区域放置业务，Values放置求和项历时"
+&gt;&lt;/p&gt;
+&lt;p&gt;表1是这么来的，仍然是一个业务一行，汇总历时。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/187174f765fd78ba42d098c00b301d92.png"
+loading="lazy"
+alt="Excel值字段设置对话框截图，Show Values As选项卡中选择% of Column Total将历时转换为列汇总百分比"
+&gt;&lt;/p&gt;
+&lt;p&gt;但关键是格式的变化。在“求和项:历时”旁边的三角箭头里，有个设置。把它的值显示方式改成列汇总的百分比，再把数字格式也改成百分数，得出每个业务所占时间比例。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel价值分析完整截图，5张表从左到右依次为业务历时占比/业务价值区间占比/透视整理/相乘结果/价值汇总"
+&gt;&lt;/p&gt;
+&lt;p&gt;表2其实是整个分析的关键，但又是由我主观决定的。所以这不是一个多严谨的数据分析，但用来干架和自己看看，应该是够了。我根据实际经历和感受，尽可能公正地为每个业务划定不同的价值比例。我保证，我没有恶意贬低之前干架部门的设计价值，他们的乙方属性决定了低价值工作的比例真就这么高。至于价值区间分界线对应的设计师月薪，也是基于我10多年的工作经验而来，我对自己的判断有信心。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/d68bb255437ef1e63a9386d499ce48e4.png"
+loading="lazy"
+alt="Excel数据透视表字段面板截图，勾选业务/价值/占比三个字段，Rows区域先放价值再放业务，Values放置求和项占比"
+&gt;&lt;/p&gt;
+&lt;p&gt;表3是表2的数据透视表。先按价值划分，每个价值区间里再按业务分。因为表4是这样的结构，一方面为了看起来方便，另一方面还是因为从数据透视表里取数比从普通表里取数方便。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel价值分析最终结果截图，表4业务与价值交叉相乘，表5按价值区间汇总显示20K以上44.5%/8-20K35%/8K以下20.5%"
+&gt;&lt;/p&gt;
+&lt;p&gt;表4很简单，从表1和表3里手动选择数据相乘。&lt;/p&gt;
+&lt;p&gt;表5再简单对表4做个数据透视，按价值汇总一下就好了。&lt;/p&gt;
+&lt;h2 id="图表"&gt;图表
+&lt;/h2&gt;&lt;p&gt;分析完了，开始考虑数据怎么视觉呈现。&lt;/p&gt;
+&lt;p&gt;第1层，分别展示各业务、各价值区间的占比，数据来源是表1和表5。直接对它们生成饼图，加上数据标签。再调一调颜色，避免重复。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png"
+loading="lazy"
+alt="Excel设计工作构成仪表盘，左侧树状图按20K以上绿色/8-20K橙色/8K以下灰色三档展示业务价值分布，右侧业务构成饼图和价值构成饼图"
+&gt;&lt;/p&gt;
+&lt;p&gt;第2层，展示各价值区间里不同业务的细分占比。表达这种2层树状结构的比例数据，最适合用Treemap，因为人眼对面积非常敏感，能够快速从中感知占比信息。从表4生成Treemap即可，再调下背景与标签的颜色，与右边两图对应。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a85c0e8de3b950ff50c3771a36666c8e.png"
+loading="lazy"
+alt="Excel格式化数据标签对话框截图，Label Options中勾选Category Name和Value两个选项，Separator设为space"
+&gt;&lt;/p&gt;
+&lt;p&gt;开启Treemap的标签，让名字和值都显示出来，图上就有每个业务的细分占比了。&lt;/p&gt;
+&lt;h2 id="后记"&gt;后记
+&lt;/h2&gt;&lt;p&gt;有了这一套价值分析系统，我以后只要继续维护排期表就好。随时把排期数据往这里面一导，更新几张数据透视表，最终的图表直接就出来了。&lt;/p&gt;
+&lt;p&gt;其实别看原始数据就那么点信息，还能继续分析出很多东西。比如分析每月工作的饱和度、各业务的平均项目周期，如果继续深挖设计价值，还可以观察一年当中价值构成比例的波动变化，等等。&lt;/p&gt;
+&lt;p&gt;虽然干架的事情过去了，我也不会主动拿出这个东西去老板面前挑事，但意识到设计师这么抽象的工作也能以某种数据化的方式做分析，还是很有意思的。&lt;/p&gt;</description></item><item><title>记一次统计学知识的应用</title><link>https://victor42.eth.limo/post/3633/</link><pubDate>Wed, 22 Mar 2023 16:14:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3633/</guid><description>&lt;p&gt;初学数据分析，临时起意给自己出了个题，不过这是个反面教材。&lt;/p&gt;
+&lt;p&gt;统计学刚入门，接触到了概率的基础知识。中学的排列组合我还记得，A(5,3)、C(5,3)这种，一堆阶乘除来除去。我还给自己编了个记忆口诀，组合是大阶乘除以小阶乘除以差阶乘，排列是大阶乘除以差阶乘。&lt;/p&gt;
+&lt;p&gt;我真是个很爱算的人，玩游戏都不忘做数学题。英雄无敌4是一个我玩了很久的游戏，其中原版战役海盗的女儿第一关，地图上有4座魔法建筑可以学到魔法技能。整个游戏有5大派系魔法，我特别钟爱自然系魔法，总想让主角学自然法术。但有时候，运气就是那么背，4个魔法建筑都随机不到自然魔法。我决定算一算成功学到的概率，其中2个建筑是直接学会某个随机派系，还有一个是随机出两个派系，二选一，剩下一个建筑牵扯到一些复杂的游戏设定，就不展开讲了。最终算出来学到自然魔法的概率是：&lt;/p&gt;
+&lt;p&gt;1 - 4/C(5,1) x 4/C(5,1) x C(4,2)/C(5,2) x C(12,4)/C(15,4) =&lt;br&gt;
+1 - 4/5 x 4/5 x 3/5 x 11x10x9/15/14/13 ≈&lt;br&gt;
+86%&lt;br&gt;
+看来那次没学到是真的背。&lt;/p&gt;
+&lt;p&gt;当然，统计学远不止这点内容。最近接触到一个基础概念：期望值，指多次试验中，每次试验的结果与该结果发生概率的乘积之和。它可以用来评估大量反复做同一件事时整体表现如何。&lt;/p&gt;
+&lt;p&gt;忽然灵光一现，可以给自己出个练习题了。练习题本身的前提假设是有问题的，后面会解释。但没关系，主要目的是练习概念运用与数据操作：&lt;/p&gt;
+&lt;p&gt;获得比特币近3年、5年、有数据以来的每日价格，根据收盘价算出每日较前一日的涨跌幅百分比。把涨跌视作随机发生的概率事件，假设每天都在收盘时买入，并把这笔在第二日收盘时卖出，长此以往，这种操作的期望值如何？没错，这就是把币价波动当做赌场了，通过统计学方法，看看会得到什么结果。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_16-01-39.jpg"
+loading="lazy"
+alt="CoinGlass比特币历史数据页面截图，显示2023年2月20日至3月22日每日开盘价/最高价/最低价/收盘价/成交量/市值数据表格"
+&gt;&lt;/p&gt;
+&lt;p&gt;首先，要获得数据。原本是想让ChatGPT或Bing Chat教我爬数据，但一问发现，这是个公开数据，直接导出就是表格了。好吧，爬数据以后再慢慢学，先做题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-55-06.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，导入pandas读取bitcoin_2020-03-20_2023-03-20.csv文件，显示Date/Open/High/Low/Close/Volume/Market Cap七列数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;拿到表格导入Jupyter中，初始化一下，发现表里有日期、开盘价、最高价、最低价、收盘价、成交量、市值。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-55-27.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，用pct_change计算每日涨跌幅百分比存入return列，显示date/open/high/low/close/volume/market_cap/return八列数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;我要用的只有收盘价，根据它来计算出每日较前日的涨跌百分比，记录在return列里。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-55-48.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，用pd.cut将涨跌幅按5%区间分组，return列显示涨跌幅数值，range列显示所属区间如-5%到0%/0%到5%"
+&gt;&lt;/p&gt;
+&lt;p&gt;既然是把它看作赌场，那么涨还是跌、涨跌百分之多少就是完全随机的，和丢骰子没差别。把return列的百分比值划分到不同的区间，我随便定了个5%作为区间的跨度。然后得出每天的涨跌百分比落在了哪个区间里，记录到另一列中。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-56-06.jpg"
+loading="lazy"
+alt="Jupyter Notebook分布图代码截图，用matplotlib绘制涨跌幅直方图，横轴-100到100，纵轴0到500，数据集中在0附近呈尖峰分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;先画个分布图，直观感受下是什么情况。如图所示，几乎全部涨跌都落在正负20%范围内。从历史看来，单日能波动这么多已是极限。而绝大多数落在了正负5%范围内，看来近3年里币价整体平稳。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-56-18.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，用groupby按区间分组计算mean/median/count，显示-20%到20%各区间的平均值/中位数/数量"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在来计算具体的分布数据。把前面的百分比值按所在区间分组，有很多区间没有数据，去掉空值行之后，得到百分比值在各区间的平均值、中位数、数量。中位数没有用到，但可以和平均值对比做个参考，两者差别不大，表明每个区间内的分布相对均匀。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-56-29.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，计算概率和回报乘积，新增return_probability和product列，显示各区间概率与平均值乘积"
+&gt;&lt;/p&gt;
+&lt;p&gt;计算出涨跌落在每个区间的概率，也就是用该区间里的数量除以总数量，单开一列记录概率。把平均值和概率相乘，另开一列记录。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/Snipaste_2023-03-22_15-56-40.jpg"
+loading="lazy"
+alt="Jupyter Notebook代码截图，对product列求和计算期望值，输出结果为-0.1%，表明当天买第二天卖的操作长期期望值接近零"
+&gt;&lt;/p&gt;
+&lt;p&gt;最终把乘积加总，得到统计学意义上的期望值。3年、5年、有数据以来，期望值都很接近，基本上都接近0。我也试着把区间划得更小，1%为一个区间，结果也差不多。&lt;/p&gt;
+&lt;p&gt;期望值为0，表明什么？代表当天买第二天卖的操作，长期坚持下来毫无收获，尽管它诞生以来涨了这么多。&lt;/p&gt;
+&lt;p&gt;但要注意，这个结论其实是错误的。因为这个练习题的前提假设就错了，币价的涨跌不能视为独立的概率事件，有太多场外因素对每日涨跌产生影响，同时过去的涨跌也在心理层面对未来的涨跌产生影响。这些影响无法用简单的统计学模型来量化。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-03/R.jpg"
+loading="lazy"
+alt="大富翁4游戏启动画面截图，蓝色地球背景上显示大富翁4标题，下方有START/LOAD/OPTION三个卡通角色按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;再者，即使这真是纯概率事件，比如我们实际上活在一个像大富翁游戏那样的虚拟世界中，里面的股票涨跌全是计算机程序生成的随机数，这结论是不是就正确呢？还是错误的，这种当天买第二天卖的操作，不是一无所获，而是注定亏损。因为我们观察的指标是涨跌百分比，每一天这个百分比的基数都不同。无论先涨10%再跌10%，还是先跌10%再涨10%，效果都不是变回原价，而是比原价低。&lt;/p&gt;
+&lt;p&gt;一番折腾，基于错误假设得出错误结论。除了练习数据分析技巧外，还有个重要的收获：统计学真的可以验证和研究生活中的问题，只要你尊重和敬畏它的严谨和局限性。这是信心的收获。&lt;/p&gt;</description></item></channel></rss>

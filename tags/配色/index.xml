@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>配色 on Victor42</title><link>https://victor42.eth.limo/tags/%E9%85%8D%E8%89%B2/</link><description>Recent content in 配色 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 03 Jul 2016 00:02:52 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E9%85%8D%E8%89%B2/index.xml" rel="self" type="application/rss+xml"/><item><title>提升色盲用户的体验</title><link>https://victor42.eth.limo/post/3509/</link><pubDate>Sun, 03 Jul 2016 00:02:52 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3509/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第138期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;据Colour Blind Awareness的统计，&lt;a class="link" href="http://www.colourblindawareness.org/colour-blindness/" target="_blank" rel="noopener"
+&gt;总人口的4.5%是色盲&lt;/a&gt;。如果你的用户多数是男性，则这个比例还要上升到8%。人们常常忘了为色盲设计，因为多数设计师&lt;em&gt;不是&lt;/em&gt;色盲。本文中，我们提出13条建议来改善色盲用户的体验——这些对视觉正常的用户同样有益。&lt;/p&gt;
+&lt;h2 id="色盲是什么"&gt;色盲是什么？
+&lt;/h2&gt;&lt;p&gt;有&lt;a class="link" href="http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/" target="_blank" rel="noopener"
+&gt;许多种类&lt;/a&gt;的色盲，但最终都能分成这几类：无法清晰辨认颜色、色彩混杂、无法区分特定颜色。&lt;/p&gt;
+&lt;p&gt;这些问题在特定环境中愈发严重，比如浏览网站。这包括低分辨率显示器、糟糕的光线、小移动端屏幕、远离大屏幕电视而坐。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;仅仅&lt;/em&gt;依靠色彩建立可读性和可见性，会让网站难以使用，最终影响了阅读和销售。&lt;/p&gt;
+&lt;p&gt;尽管下面这些建议并不全面，它们确实涵盖了色盲用户浏览网站时遇到的主要问题。&lt;/p&gt;
+&lt;h2 id="1-文字可读性"&gt;1. 文字可读性
+&lt;/h2&gt;&lt;p&gt;要确保文字容易阅读，它就应该遵循可读性规范，结合字色、背景色和字号：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“WCAG 2.0的AA级标准要求，普通字号的对比率要达到4.5:1，大字号的对比率要达到3:1（大字号是指14磅的加粗或加大文字，或者18磅及以上字号）”
+——&lt;a class="link" href="http://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener"
+&gt;WebAim色彩对比检查器&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面列举了一些颜色和字号组合，有的达到标准，有的没有：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-contrast-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/text-contrast-preview-opt.png"
+loading="lazy"
+alt="这表明了颜色和字号的组合形成了怎样的反差对比。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这表明了颜色和字号的组合形成了怎样的反差对比。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-contrast-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="2-背景图上的文字"&gt;2. 背景图上的文字
+&lt;/h2&gt;&lt;p&gt;背景图上的文字处理起来很微妙，因为图片局部或整张图都可能无法与文字形成足够的反差。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-preview-opt.jpg"
+loading="lazy"
+alt="背景照片上直接叠加白色文字导致可读性不足的网页示例"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;文字没有蒙层，直接覆盖在图片上。(图片来源：&lt;a class="link" href="https://unsplash.com/photos/N_Y88TWmGwA" target="_blank" rel="noopener"
+&gt;Jay Wennington&lt;/a&gt;) (&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-large-opt.jpg" target="_blank" rel="noopener"
+&gt;View large version&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;降低背景透明度能够增强反差，让文字更容易阅读。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-preview-opt.jpg"
+loading="lazy"
+alt="背景图添加深色蒙层后白色文字反差更清晰的网页示例"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;文字覆盖在带有蒙层的图片上。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;或者，你可以给文字选择一个可靠的颜色，或者加上投影，其他任何符合品牌规范的方法都行。&lt;/p&gt;
+&lt;h2 id="3-颜色过滤器选择器和色盘"&gt;3. 颜色过滤器、选择器和色盘
+&lt;/h2&gt;&lt;p&gt;下图展示了&lt;a class="link" href="https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;amp;field-keywords=t&amp;#43;shirts" target="_blank" rel="noopener"
+&gt;Amazon的颜色过滤器&lt;/a&gt;，可以看到普通人与红绿色盲（分不清红色与绿色）的视觉效果。如果没有描述文字，就不可能从这么多选项中作出区分。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/amazon-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/amazon-preview-opt.jpg"
+loading="lazy"
+alt="不带标签的颜色过滤器，在红绿色盲看来是完全没法用的。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;不带标签的颜色过滤器，在红绿色盲看来是完全没法用的。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/amazon-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;在用户鼠标悬停时，Amazon展示了描述文字，但移动端上没有这一操作。&lt;/p&gt;
+&lt;p&gt;在下图中，&lt;a class="link" href="http://www.gap.co.uk/" target="_blank" rel="noopener"
+&gt;Gap&lt;/a&gt;在每个色彩旁边加上了文字标签，问题得以解决。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gap-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/gap-preview-opt.jpg"
+loading="lazy"
+alt="带有标签的色彩选择器，红绿色盲使用起来很轻松。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;带有标签的色彩选择器，红绿色盲使用起来很轻松。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gap-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这刚好也对正常视觉的人有益。例如，黑色与藏蓝在屏幕上很难区分。文字标签能让人免于猜测。&lt;/p&gt;
+&lt;h2 id="4-缺乏有效描述的照片"&gt;4. 缺乏有效描述的照片
+&lt;/h2&gt;&lt;p&gt;下图展示了&lt;a class="link" href="http://www.superdry.com/mens/t-shirts/details/55971/pt-classics-vintage-logo-t-shirt" target="_blank" rel="noopener"
+&gt;SuperDry&lt;/a&gt;网站上售卖的一件T恤。它的描述是“树叶纹理”，这太模棱两可了，因为树叶可以有许多颜色（绿色、黄色、棕色等等）。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/superdry-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/superdry-preview-opt.jpg"
+loading="lazy"
+alt="SuperDry商品页中仅用树叶纹理描述颜色的T恤图片示例"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;色盲难以了解这件SuperDry T恤是什么颜色。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/superdry-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Jaspe&lt;/em&gt;（其实应该是“jaspé”）是指随机的斑点或纹理，所以应该加上这样的特殊说明：“灰绿色树叶纹理”。&lt;/p&gt;
+&lt;h2 id="5-链接的辨识度"&gt;5. 链接的辨识度
+&lt;/h2&gt;&lt;p&gt;链接应该容易被发现，不必依赖颜色。下图模拟了全色色盲（看不到颜色）浏览&lt;a class="link" href="https://gds.blog.gov.uk/" target="_blank" rel="noopener"
+&gt;UK Government Digital Service (GDS)网站&lt;/a&gt;所见到的画面。许多链接都难以察觉。例如你有没有注意到“GDS team, User research”（标题下方）是链接？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gds-screenshot-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/gds-screenshot-preview-opt.jpg"
+loading="lazy"
+alt="GDS博客在全色色盲眼中的样子。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GDS博客在全色色盲眼中的样子。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gds-screenshot-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;要发现一个链接，用户只能鼠标悬停，等待指针变成一个手形。在移动端，他们只能点按文字，希望它触发页面请求。&lt;/p&gt;
+&lt;p&gt;上面带有图标的链接更容易察觉。而那些没有图标的，加一条下划线是个好方法，GDS在文章正文部分正是这么做的：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gds2-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/gds2-preview-opt.jpg"
+loading="lazy"
+alt="带下划线的链接更容易被全色色盲察觉。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;带下划线的链接更容易被全色色盲察觉。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gds2-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="6-色彩组合"&gt;6. 色彩组合
+&lt;/h2&gt;&lt;p&gt;在现实世界，你无法控制色彩的组合排列：红色的苹果可能掉进绿色的草丛里。但是，我们&lt;em&gt;可以&lt;/em&gt;控制网页设计中使用的颜色。下面这些色彩组合应当尽量避免：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;绿色/红色&lt;/li&gt;
+&lt;li&gt;绿色/棕色&lt;/li&gt;
+&lt;li&gt;蓝色/紫色&lt;/li&gt;
+&lt;li&gt;绿色/蓝色&lt;/li&gt;
+&lt;li&gt;浅绿色/黄色&lt;/li&gt;
+&lt;li&gt;蓝色/灰色&lt;/li&gt;
+&lt;li&gt;绿色/灰色&lt;/li&gt;
+&lt;li&gt;绿色/黑色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/combinations-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/combinations-preview-opt.png"
+loading="lazy"
+alt="色盲眼中的色彩组合。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;色盲眼中的色彩组合。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/combinations-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="7-表单的默认文字"&gt;7. 表单的默认文字
+&lt;/h2&gt;&lt;p&gt;没有标签，只用框内的默认文字提示，这是个问题，因为默认文字通常缺乏足够的对比度。&lt;a class="link" href="https://appleid.apple.com/account" target="_blank" rel="noopener"
+&gt;Apple&lt;/a&gt;的注册表单就有这样的问题，请看下图：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/apple-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/apple-preview-opt.jpg"
+loading="lazy"
+alt="Apple的注册表单使用了不带标签的文字提示。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Apple的注册表单使用了不带标签的文字提示。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/apple-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;不建议增强对比度，因为那样就难以区分默认提示和用户输入的文字。&lt;/p&gt;
+&lt;p&gt;最好还是使用标签——毕竟是&lt;a class="link" href="https://www.christianheilmann.com/2015/12/04/a-quick-reminder-on-how-and-why-to-use-labels-in-forms-to-make-them-more-accessible/" target="_blank" rel="noopener"
+&gt;最佳实践&lt;/a&gt;——对比要鲜明，下图中的&lt;a class="link" href="http://www.made.com" target="_blank" rel="noopener"
+&gt;Made.com&lt;/a&gt;正是这么做的：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/label-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/label-preview-opt.jpg"
+loading="lazy"
+alt="Made.com使用了对比度强烈的标签。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Made.com使用了对比度强烈的标签。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/label-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="8-主按钮"&gt;8. 主按钮
+&lt;/h2&gt;&lt;p&gt;通常情况下，只有主按钮使用颜色来表现，&lt;a class="link" href="https://www.argos.co.uk" target="_blank" rel="noopener"
+&gt;Argos&lt;/a&gt;在它的登录页面就是这么做的：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/argos-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/argos-preview-opt.jpg"
+loading="lazy"
+alt="Argos的登录界面依靠颜色来强调主按钮。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Argos的登录界面依靠颜色来强调主按钮。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/argos-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;其实应该考虑通过尺寸、位置、粗细、对比度、边框、图标和任何其他手段来辅助——只要在品牌指南的范畴内。例如，&lt;a class="link" href="http://kidly.co.uk" target="_blank" rel="noopener"
+&gt;Kidly&lt;/a&gt;就运用了尺寸、颜色和图标来凸显：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/kidly-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/kidly-preview-opt.jpg"
+loading="lazy"
+alt="Kidly用了尺寸、颜色和图标来强调主按钮。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Kidly用了尺寸、颜色和图标来强调主按钮。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/kidly-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="9-警告消息"&gt;9. 警告消息
+&lt;/h2&gt;&lt;p&gt;成功和错误的消息通常各自选用绿色和红色。多数色盲没有全色色盲的烦恼，自然能够把不同的信息与不同颜色联系起来。但是，使用比如“成功”这样的前置文案，或者用我喜欢的图标形式，就能更快更轻松地阅读，就像下图这样：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/messaging-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/messaging-preview-opt.jpg"
+loading="lazy"
+alt="带有前置文案和图标的警告消息。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;带有前置文案和图标的警告消息。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/messaging-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="10-表单必填项"&gt;10. 表单必填项
+&lt;/h2&gt;&lt;p&gt;Denoting这种用颜色表示的必填项有问题，因为有些人可能看不出区别。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/required-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/required-preview-opt.jpg"
+loading="lazy"
+alt="Denoting的必填项用颜色表示。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Denoting的必填项用颜色表示。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/messaging-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;其实应该考虑这些方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;给必填项加上星号&lt;/li&gt;
+&lt;li&gt;更好的方法，给必填项加上“必填”&lt;/li&gt;
+&lt;li&gt;如果可能的话，把所有选填项都去掉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="11-图表"&gt;11. 图表
+&lt;/h2&gt;&lt;p&gt;颜色经常用来区分图表中不同的指标。下图显示了不同视觉能力的人看到的样子。右边的图表对色盲做了优化。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_normal-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/graphs_normal-preview-opt.png"
+loading="lazy"
+alt="正常视觉者眼中的图表()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;正常视觉者眼中的图表(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_normal-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_protan-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/graphs_protan-preview-opt.png"
+loading="lazy"
+alt="红绿色盲眼中的图表()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;红绿色盲眼中的图表(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_protan-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_achrom-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/graphs_achrom-preview-opt.png"
+loading="lazy"
+alt="全色色盲眼中的图表()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;全色色盲眼中的图表(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_achrom-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;使用纹理，并且尽可能加上每个指标的文字，能让图表更易理解。如果文字不合适——通常是小尺寸饼状图的情况——用一个字母就足够了。&lt;/p&gt;
+&lt;h2 id="12-缩放"&gt;12. 缩放
+&lt;/h2&gt;&lt;p&gt;浏览器有一项易用功能，让人根据需要尽可能放大页面。这点能提升易读性，在移动设备上尤其有帮助。&lt;/p&gt;
+&lt;p&gt;不幸的是，&lt;a class="link" href="https://developer.mozilla.org/en/docs/Mozilla/Mobile/Viewport_meta_tag" target="_blank" rel="noopener"
+&gt;Viewport Meta标签&lt;/a&gt;可以禁用缩放，这也是个问题。比如，对于色彩对比度而言，字号可能过小了——放大则能有效增大字号，让文字更易阅读。所以不要禁用网站的缩放。&lt;/p&gt;
+&lt;h2 id="13-相对字号"&gt;13. 相对字号
+&lt;/h2&gt;&lt;p&gt;和前一点类似，浏览器提供了放大字号的功能（并不是放大整个页面），也是为了提升可读性。但是，如果字号被指定为绝对单位时，例如像素，有些浏览器会禁用这个功能。应该使用相对字号单位，例如em，确保所有浏览器都能提供这个功能。&lt;/p&gt;
+&lt;h2 id="工具"&gt;工具
+&lt;/h2&gt;&lt;p&gt;有许多工具能帮助你为色盲群体设计：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.checkmycolours.com/" target="_blank" rel="noopener"
+&gt;Check My Colours&lt;/a&gt;：如果你有现成的网站，可以输入URL获得反馈，告诉你哪里需要改善。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener"
+&gt;WebAim的色彩对比度检查器&lt;/a&gt;：提供两种颜色，看它们是否符合易用性规范。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://chrome.google.com/webstore/detail/i-want-to-see-like-the-o/jebeedfnielkcjlcokhiobodkjjpbjia?hl=en-GB" target="_blank" rel="noopener"
+&gt;I Want To See Like The ColorBlind&lt;/a&gt;：在Chrome中对网页应用色盲模式滤镜。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://colororacle.org/" target="_blank" rel="noopener"
+&gt;Color Oracle&lt;/a&gt;：Windows、Mac和Linux平台的一款色盲模拟器，展示常见的视觉障碍人士看到的画面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;本文中的建议并不全面，它们并非要应用到每个场合中。但是，它们确实涵盖了色盲用户浏览网站时遇到的主要问题。&lt;/p&gt;
+&lt;p&gt;更重要的是要消化这些原则，这样才能将它们融入到你的设计中。最终，网页并不是仅仅为了好看——而是要易于每个人使用，包括色盲人士。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://www.smashingmagazine.com/2016/06/improving-ux-for-color-blind-users/" target="_blank" rel="noopener"
+&gt;https://www.smashingmagazine.com/2016/06/improving-ux-for-color-blind-users/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://www.smashingmagazine.com/author/adamsilver/?rel=author" target="_blank" rel="noopener"
+&gt;Adam Silver&lt;/a&gt;
+&lt;a class="link" href="http://adamsilver.io/" target="_blank" rel="noopener"
+&gt;Adam Silver&lt;/a&gt; helps people and companies make the web simple and human. He specialises in UX, Front-end engineering and Strategy. Oh, and he&amp;rsquo;s also the author of &lt;a class="link" href="http://maintainablecss.com/" target="_blank" rel="noopener"
+&gt;MaintainableCSS&lt;/a&gt; which is about writing modular, scalable and maintainable CSS.&lt;/p&gt;</description></item><item><title>优秀配色方案的探索过程</title><link>https://victor42.eth.limo/post/3502/</link><pubDate>Sun, 15 May 2016 00:09:57 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3502/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第133期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-XWDMzvBFKfF_Mf6ix1nf9A.jpeg"
+loading="lazy"
+alt="苏黎世机场内部宽幅全景，自动扶梯通向登机口，青蓝色玻璃幕墙与暖色灯带形成冷暖对比，作为配色方案的灵感来源照片"
+&gt;&lt;/p&gt;
+&lt;p&gt;选择配色方案往往是个难题，尽管网上有各种各样的色彩库，配色仍然至关重要，有时候最好还是亲自动手。而且这个过程也非常有意思。&lt;/p&gt;
+&lt;p&gt;为这类工作&lt;a class="link" href="http://www.firebrand.co.uk/process.asp" target="_blank" rel="noopener"
+&gt;找到一套标准流程是不可能的&lt;/a&gt;，因为它天然具有创造性。我使用&lt;a class="link" href="http://sketchapp.com" target="_blank" rel="noopener"
+&gt;Sketch&lt;/a&gt;来进行这项工作，你当然也可以用Illustrator甚至Keynote和PPT来做。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;提醒&lt;/strong&gt;：品牌建设包含的远不止选择颜色和字体，如果你想要给自己的公司寻找一套配色，我还是建议你雇佣专业的品牌设计公司。&lt;/p&gt;
+&lt;p&gt;我接下来会重现我选定配色方案的过程，我需要把它用在一些演示当中。一切开始于&lt;a class="link" href="https://unsplash.com/photos/KqVHRmHVwwM" target="_blank" rel="noopener"
+&gt;这张照片&lt;/a&gt;，Zurich机场，由Erez Attias拍摄。在&lt;a class="link" href="https://unsplash.com" target="_blank" rel="noopener"
+&gt;Unsplash&lt;/a&gt;上你可以找到许多更加漂亮（并且版权免费）的照片。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-VHoHvr8JQjNoNxcaVA9u2g.jpeg"
+loading="lazy"
+alt="苏黎世机场E62-67登机口区域，自动扶梯居中对称构图，青蓝色调玻璃窗与混凝土墙面呈现冷峻工业风格，配色提取的原始素材"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;瑞士Zürich-Flughafen的Zurich机场&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;首先要做的是从图片中选取一些颜色。目前，我只会选出4种颜色：一种强调色彩、一种浅色、一种深色、还有一种其他颜色。我们之后可以随时回来查看这张图片。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-KTfLVZkGqqb02Tm0lKP6hA.png"
+loading="lazy"
+alt="Sketch取色器从机场照片中提取颜色#CEBEBF，下方展示四种基础配色色块：青绿色、米白色、灰褐色和深墨绿色，构成初始配色方案"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;初始配色，从图片中选出的样本。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;有了4种基础色彩，可以开始做一些色彩上的探索了。尽管我不是这方面专家，但我有色彩理论的&lt;a class="link" href="https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/" target="_blank" rel="noopener"
+&gt;基本知识&lt;/a&gt;，我以此来引导我的决策。&lt;/p&gt;
+&lt;h3 id="探索色调和饱和度"&gt;探索色调和饱和度
+&lt;/h3&gt;&lt;p&gt;使用Sketch的调色盘，我们可以减淡或加深每一种色彩。既然有浅色和深色，我们就得稍微调节一下饱和度和明度。通常情况，调节色调时最好保持饱和度与明度近似，反之亦然。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-hrkOFdrzGPhOIV8GYzpi1A.png"
+loading="lazy"
+alt="Sketch调色板饱和度探索，三行四列色块分别展示高饱和度、原始饱和度和低饱和度下的青绿、米白、灰褐、深墨绿四种基础色变化"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-syH0srvgPs9NYU1tlxECqQ.png"
+loading="lazy"
+alt="Sketch色相偏移实验，三行四列色块展示高色相、原始色相和低色相下的颜色变化，青绿色分别偏移为紫色和橄榄绿，探索配色方案的色相可能性"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-fevfYlI9rRjJ5iCSbcZOUQ.png"
+loading="lazy"
+alt="Sketch应用内置颜色选择器界面，显示十六进制色值65C0C3的青绿色，HSB参数为H:2-10、S:48、B:76，用于精确调节配色方案中的色调"
+&gt;&lt;/p&gt;
+&lt;h3 id="通过其他工具探索"&gt;通过其他工具探索
+&lt;/h3&gt;&lt;p&gt;我们可以使用像&lt;a class="link" href="http://paletton.com" target="_blank" rel="noopener"
+&gt;Paletton&lt;/a&gt;这样的&lt;a class="link" href="http://www.sessions.edu/color-calculator" target="_blank" rel="noopener"
+&gt;在线工具&lt;/a&gt;帮助我们发现新的色彩。在本例中，我用了两种不同工具来计算互补色和三色系。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1--6vH4MJdXVHxr-mvilCvdQ.png"
+loading="lazy"
+alt="互补色与三色系配色工具生成的颜色方案，左侧展示原始配色与Triad 1、Triad 2三色系变体，右侧为调整后的版本，底部展示互补色方案，用于扩展配色选择"
+&gt;&lt;/p&gt;
+&lt;p&gt;最后，还可以尝试在配色上叠加40%透明度的白色和黑色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1--vyvYrSOi8LJNYVm4Oxkww.png"
+loading="lazy"
+alt="在原始四色配色上叠加40%白色和40%黑色的效果对比，三行色块分别展示白色叠加后的浅色调、原始颜色和黑色叠加后的深色调，探索明度变化对配色方案的影响"
+&gt;&lt;/p&gt;
+&lt;h3 id="尝试各种叠加"&gt;尝试各种叠加
+&lt;/h3&gt;&lt;p&gt;我最后尝试的一件事情，来自&lt;a class="link" href="https://medium.com/@markoxvee" target="_blank" rel="noopener"
+&gt;Marko Vuletič&lt;/a&gt;的绝佳提议。建议你直接看看：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://medium.com/p/8ba0fcbb7023" title="https://medium.com/p/8ba0fcbb7023"
+target="_blank" rel="noopener"
+&gt;&lt;strong&gt;《快速创建配色方案的秘诀》&lt;/strong&gt;&lt;/a&gt;&lt;a class="link" href="https://medium.com/p/8ba0fcbb7023" target="_blank" rel="noopener"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;选择强调色时，我们可以尝试之前生成的某些更亮的颜色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-Bx8AvMNcXPWljOgg_bi3HA.png"
+loading="lazy"
+alt="配色方案探索全景图，左侧展示以黄色作为强调色的选择过程，右侧汇总Hue色相、Grayscale Overlay灰度叠加、Triadic三色系、Saturation饱和度、Compl互补色等所有探索生成的色板变体"
+&gt;&lt;/p&gt;
+&lt;p&gt;这整个过程帮助我们生成了相当多不同的颜色。如果我把最初的配色去掉，它们就是这些：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-yAmiyOuq-n8bNnXzhkPZPQ.png"
+loading="lazy"
+alt="所有探索过程生成的色彩样品汇总，左上角为苏黎世机场原始照片和四色基础配色，下方大网格展示色相、饱和度、三色系、互补色、灰度叠加等所有方法产生的大量颜色变体"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;最后得到的色彩样品&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="哎呀这颜色太多了-"&gt;哎呀，这颜色太多了 😧
+&lt;/h3&gt;&lt;p&gt;一点没错，这颜色确实太多了。我发现通常最好保持4到5个主要色彩，其中有一个应当作为强调色。还可以有一系列的辅助色来支撑，比如用来表达某些含义（红色代表错误等等），将不同部分或者概念分组，（比如用在我的演示中），或者用于代码语法高亮。&lt;/p&gt;
+&lt;p&gt;现在我们已经有了这一大堆演示，该花些时间相互搭配，尝试看哪些可以凑成对、可以用在哪里。在这里我给不出什么建议，你只能相信自己的内心，还要考虑这些色彩能否很好描绘你的气质和身份。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-NhYQLJJ2HC1dkaNkG49bWQ.png"
+loading="lazy"
+alt="配色方案打磨过程，色块以类似俄罗斯方块的方式错落排列，展示从大量候选颜色中筛选、搭配和组合最终配色的决策过程"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;打磨配色（这不是在玩俄罗斯方块）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;纠结一阵子后，得到最终的配色方案：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-11/1-tBCSRhffACvsNF2eyt4HNQ.png"
+loading="lazy"
+alt="最终确定的配色方案，包含Primary主色Teal青绿、Bright Teal亮青绿、White白、Cream奶油白、Grey灰、Black黑，以及Secondary辅色Tomato番茄红、Lime青柠绿、Yellow黄、Pink粉、Purple紫、Dark Teal深青绿等共14种颜色"
+&gt;&lt;/p&gt;
+&lt;p&gt;**更新：**自从把本文的草稿发给一些朋友看，就有人指出我的主要配色和&lt;a class="link" href="https://deliveroo.co.uk/" target="_blank" rel="noopener"
+&gt;Deliveroo&lt;/a&gt;几乎一样。这当然不是故意的，不过我忍不住想，是不是我的潜意识已经被伦敦遍地都是的Deliveroo品牌形象影响了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/@dannysmith/finding-a-good-colour-palette-through-exploration-b90abde88a1c#.j7e0r5lit" target="_blank" rel="noopener"
+&gt;https://medium.com/@dannysmith/finding-a-good-colour-palette-through-exploration-b90abde88a1c#.j7e0r5lit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://medium.com/@dannysmith" target="_blank" rel="noopener"
+&gt;Danny Smith&lt;/a&gt;
+Teacher. Engineer. People Geek. Blues Musician. Rubyist. Used to design things, now I teach others how to build them better.&lt;/p&gt;</description></item><item><title>巧用色彩为卡片设计加分</title><link>https://victor42.eth.limo/post/3491/</link><pubDate>Sun, 27 Mar 2016 00:07:40 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3491/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第127期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/03/image024.jpg"
+loading="lazy"
+alt="卡片式界面设计中色彩运用与排版布局示例"
+&gt;&lt;/p&gt;
+&lt;p&gt;得益于Material Design日益增长的人气，卡片式界面已经随处可见了。这种时尚且注重功能的美学，运用块状的设计元素承载多种多样的信息。如果想要利用这种多才多艺的手法，你的卡片设计必须别具一格。&lt;/p&gt;
+&lt;p&gt;色彩就是方法之一。优美的色彩选用、令人振奋的色彩搭配、和有趣的结合，能创造重点、提升易用性，并且吸引用户深入你的设计项目。&lt;/p&gt;
+&lt;h2 id="卡片式设计基础"&gt;卡片式设计基础
+&lt;/h2&gt;&lt;p&gt;要运用卡片来设计，有许多要注意，这些卡片会突出不同类型的数据（例如图片、文字、按钮、链接、评论、或视频），这些数据都关联到同一则信息。&lt;/p&gt;
+&lt;p&gt;这些可点击的区块，被设计成复古校园游戏卡牌的样式，其中一块区域包含了某种视觉信息，还有一小块文字或按钮。卡片风格界面的优点是，用户能很轻易领悟它们的用法，使得它成为大量内容或电商的理想方案。而且，它们易于浏览、适于分享、用途广泛。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/03/image015.jpg"
+loading="lazy"
+alt="设计案例UrbanMin官网卡片式基础布"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://www.namesforchange.org/" target="_blank" rel="noopener"
+&gt;Urban Ministries of Durham&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/03/image038.jpg"
+loading="lazy"
+alt="设计案例UrbanMin官网卡片式基1"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="http://www.theclymb.com/" target="_blank" rel="noopener"
+&gt;The Clymb&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;要开始运用卡片设计，可以从学习卡片设计的基础开始，请看UX Pin的&lt;a class="link" href="https://studio.uxpin.com/ebooks/web-ui-design-trends-2015-2016/" target="_blank" rel="noopener"
+&gt;《2015-2016的网页设计趋势手册》&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;你还得遵循&lt;a class="link" href="http://designshack.net/articles/layouts/the-complete-guide-to-an-effective-card-style-interface-design/" target="_blank" rel="noopener"
+&gt;《有效的卡片式设计完全指南》&lt;/a&gt;中的这7条最佳用法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;**留白。**运用足够的边界和边距来避免杂乱。&lt;/li&gt;
+&lt;li&gt;**一张卡片一件事。**卡片能简化你的网站结构。不要让每张卡片过于复杂，破坏了这层基础。&lt;/li&gt;
+&lt;li&gt;**合适的图片。**卡片中的图总是比较小，要确保图片清晰、裁剪得当，适合相应的场景。&lt;/li&gt;
+&lt;li&gt;**简洁的字体。**由于文字也很小，简洁的字体最易辨识。选用简洁优美的字体，避免使用装饰性字体。&lt;/li&gt;
+&lt;li&gt;**发挥创意。**付出额外的努力让它别具一格，使用诸如动画效果、视频、圆角、或新颖的配色。&lt;/li&gt;
+&lt;li&gt;**使用开放的栅格。**标准的栅格有助于保持间距一致，同时包容各种尺寸和断点。&lt;/li&gt;
+&lt;li&gt;**贯彻菲兹定律。**正如我们在&lt;a class="link" href="https://studio.uxpin.com/ebooks/interaction-design-best-practices-tangibles/" target="_blank" rel="noopener"
+&gt;《交互设计最佳实践》&lt;/a&gt;中所描述的，菲兹定律（同样适用于卡片）建议整个卡片都可以点击——而不仅仅是上面的文字或图片。这使得用户操作更轻松。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="浅色与深色卡片"&gt;浅色与深色卡片
+&lt;/h2&gt;&lt;p&gt;首先要面临的抉择，是使用浅色还是深色的配色。两种各有利弊；白色或浅色的配色最普遍，但深色在移动应用上正在变得流行。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/03/image024.jpg"
+loading="lazy"
+alt="设计案例Dribbble官网浅色与深色卡"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://dribbble.com/" target="_blank" rel="noopener"
+&gt;Dribbble&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Dribbble的卡片很容易分辨、排列、和点击，让人了解某个项目的详细信息。它的设计在浅色背景上使用了白色的卡片，每张图片下方有个内容区域显示作品。浅色在桌面端表现尤其优秀，对于眼睛很友好。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/03/image054.jpg"
+loading="lazy"
+alt="设计案例SBJoinery官网浅色与深色"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="http://www.sbjdanebury.com/" target="_blank" rel="noopener"
+&gt;SB Joinery&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;SB Joinery则选用了深色的配色——在深色背景上使用反白文字——并在图片上叠加了颜色，让视觉重心停留在文字和幽灵按钮上。弹出菜单同样使用了深色主题。得益于粗字体和高对比度的色彩，深色风格的卡片易读性强，极其实用。&lt;/p&gt;
+&lt;h2 id="鲜艳的配色"&gt;鲜艳的配色
+&lt;/h2&gt;&lt;p&gt;卡片式设计的运用主要受Material Design的影响——好的影响。设计风格强调移动端的可用性，借扁平化设计和极简风格之所长，遵循一套用户日益习惯的美学风格和技巧。&lt;/p&gt;
+&lt;p&gt;这种风格吸收了鲜艳、高饱和的配色，从蓝色到绿色、红色。虽然不是一定要遵循这些色彩建议，但这是个好主意。加入大胆、明亮的配色，能够创造重点和顺畅的体验。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/03/image043.jpg"
+loading="lazy"
+alt="Helbak的鲜艳的配色界面设计展示效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="http://www.helbak.com/" target="_blank" rel="noopener"
+&gt;Helbak &lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如何充分利用饱和色？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用在页头、按钮和行动指令元素上。&lt;/li&gt;
+&lt;li&gt;作为一种有含义的背景元素使用——例如不同类型的卡片使用不同颜色。（就像Helbak.的案例）请注意，即使是柔和色和浅色也能美妙地套用这种方式。&lt;/li&gt;
+&lt;li&gt;将色彩用于主要的文字元素，提升可读性。&lt;/li&gt;
+&lt;li&gt;用鲜艳的色彩叠加在图片上，或使用双色渐变的技巧来引导用户浏览卡片。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="用于强调的颜色"&gt;用于强调的颜色
+&lt;/h2&gt;&lt;p&gt;最后，大胆的颜色选择，是一种强调特定元素的手段。例如，彩色元素能打破视觉单一，促进交互行为。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/03/image005.jpg"
+loading="lazy"
+alt="设计案例MayorsCh官网用于强调的颜"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="http://mayorschallenge.bloomberg.org/" target="_blank" rel="noopener"
+&gt;Mayors Challenge 2016&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Mayors Challenge的设计充分运用了material design的概念，却没有做出Google产品的感觉。颜色鲜艳而明亮，同时卡片在某种程度上却非常简单和“不明确”。图标、文字和链接中都有鲜艳色彩，所有这些暗示，都在引导用户在网站上进行操作。&lt;/p&gt;
+&lt;p&gt;关于卡片式界面设计有一种批判的声音，它使各种元素看起来过于相似了——所以需要挥洒创意、打破陈规。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;色彩正是让卡片式设计独具一格的因素。选择所用技巧时，要考虑色彩如何最好地与品牌相结合，并为用户服务。&lt;/p&gt;
+&lt;p&gt;要产生最佳效果，就要带着特定目的运用色彩，通过设计吸引用户，促使他们采取行动。无论是使用浅色还是深色，或者是鲜艳色彩和流行混搭，色彩都能影响用户对于设计的感知和操作方式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://studio.uxpin.com/blog/use-color-to-up-the-ante-on-your-ui-cards/" target="_blank" rel="noopener"
+&gt;https://studio.uxpin.com/blog/use-color-to-up-the-ante-on-your-ui-cards/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Carrie Cousins
+Carrie Cousins has more than 10 years experience in the media industry, including design, editing, and writing for print and online publications. Carrie is also a sports fanatic and spends way too much time planning football and basketball trips and obsessing over stats.&lt;/p&gt;</description></item><item><title>在设计中运用潘通年度代表色</title><link>https://victor42.eth.limo/post/3479/</link><pubDate>Sun, 10 Jan 2016 13:26:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3479/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第118期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;潘通为2016年选出的“年度色彩”令人拍案叫绝，融合了蔷薇粉与宁静蓝来构成这组色调。&lt;/p&gt;
+&lt;p&gt;这组柔和的配色很可能会成为接下来一年的配色趋势。正如潘通往年的选择，这些颜色通常都会成为设计、时尚与其他项目的标杆。对于某些设计师而言，柔和色彩可能不太好处理。不过，今天我们来看看，有哪些方法能够在项目中充分运用这些色彩。&lt;/p&gt;
+&lt;h2 id="蔷薇粉与宁静蓝"&gt;蔷薇粉与宁静蓝
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designshack.net/wp-content/uploads/pantone-roseQ.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色设计中关于“自年起潘通就开始推选”的视觉设计与界面展示"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/pantone-serenity.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色设计中关于“自年起潘通就开始推选”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;自2000年起，潘通就开始推选年度色彩，其中多数都是明亮的色彩——从去年的玛萨拉酒红，到2013年的翡翠绿和2008年的鸢尾蓝。所以今年发布的色彩，某种程度上来说是一种惊喜，因为它包含了两种柔和色彩，共同构成了今年的年度代表色。&lt;/p&gt;
+&lt;p&gt;下面是&lt;a class="link" href="http://www.pantone.com/color-of-the-year-2016" target="_blank" rel="noopener"
+&gt;潘通对今年所选颜色的定义&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;“人们不懈追求正能量与幸福安乐，以缓解现代社会的压力。为此，我们非常需要迎来一款能够给予人们心灵慰藉与安定的色彩。蔷薇粉与宁静蓝相互结合，在温暖的玫瑰色调与清凉宁静的蓝色之间，呈现出一种与生俱来的平衡，象征连接与健康，还有抚慰人心的秩序与平和。&lt;/p&gt;
+&lt;p&gt;“蔷薇粉与宁静蓝的流行组合，对于色彩联想的传统认知是一种挑战。&lt;/p&gt;
+&lt;p&gt;“在时尚圈，世界各地都在经历一场去性别化运动，它也通过色彩的趋势逐一影响了其他设计领域。这种色彩上的归一，恰恰迎合了许多社会现实：性别平等与流动，人们更习惯于将颜色作为一种表达方式，这个时代不必担心千篇一律或是被妄加评判，数字信息的开放交流让我们见识了丰富的色彩运用。”&lt;/p&gt;
+&lt;h3 id="蔷薇粉"&gt;蔷薇粉
+&lt;/h3&gt;&lt;p&gt;蔷薇粉是一种淡粉色，这种颜色很容易使人联想到小女孩与新生命。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pantone: 9281 C&lt;/li&gt;
+&lt;li&gt;RGB: 242 R, 221 G, 222 B&lt;/li&gt;
+&lt;li&gt;CMYK: 0 C, 14 M, 9 Y, 0 K&lt;/li&gt;
+&lt;li&gt;HTML: F2DDDE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="宁静蓝"&gt;宁静蓝
+&lt;/h3&gt;&lt;p&gt;宁静蓝是一种淡蓝色，略微偏向紫色。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pantone: 7451 C&lt;/li&gt;
+&lt;li&gt;RGB: 137 R, 171 G, 227 B&lt;/li&gt;
+&lt;li&gt;CMYK: 46 C, 23 M, 0 Y, 0 K&lt;/li&gt;
+&lt;li&gt;HTML: 89ABE3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有了这些颜色样本，你可以将这个色彩概念运用于各种类型的项目。也不必拘泥于它们给人的第一印象（例如这两种颜色都是非常流行的发色）。用上这些颜色、或者它们的变种（在下面的案例中你会看到），玩得开心！&lt;/p&gt;
+&lt;h2 id="背景底纹"&gt;背景底纹
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://www.christmas.express/en/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/christmas-exp.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.carandache.com/849paulsmith/#!/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/carandache.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://labs.convoy.me/camper/#!/landing" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/camper.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;潘通今年的代表色可以作为很好的背景。这种色彩组合很容易在自然界找到，如果你拍摄晚霞，就能看到它充满了粉色与蓝色。将它用作一种背景底纹，你可以最大限度地用这种色彩营造出自然的环境。&lt;/p&gt;
+&lt;p&gt;得益于它们的柔和天性，这两种色彩也能很好地用作背景色，因为色彩融入背景中，不会从前景和图片上夺走注意力。&lt;/p&gt;
+&lt;p&gt;上面这个Camper的案例演示了蔷薇粉与宁静蓝的运用。注意两种色彩之间的美妙渐变，衬托出了前面的小狗图片。这种色彩营造了一种平和的视觉，与白色的小狗相得益彰，并没有形成干扰。&lt;/p&gt;
+&lt;h2 id="图片与色彩叠加"&gt;图片与色彩叠加
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://gonebraskacity.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/nebraskacity.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://katafarkas.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/farkas.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.loveholidays.com/holiday-memories/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/holiday-mem.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用这些颜色最简单的方法，就是用在主画面中。从照片到插画，蔷薇粉与宁静蓝都可以结合到设计中，不会有生硬的感觉。上图的案例，展示了这种色彩组合能在照片（Nebraska City）或更艺术化的色彩表现（Kata Farkas）中呈现出怎样的华丽。&lt;/p&gt;
+&lt;p&gt;还有一种方案，可以通过这种色调来创造温暖或清凉的颜色叠加。Holiday Memories的网站熟练运用了粉色调来遮盖整张图片，蓝色的文字与之相称。得益于照片的处理和清凉酷爽的文字颜色，这样的搭配极具魅力。色彩相互协调，营造出阴阳的效果，感觉恰到好处。&lt;/p&gt;
+&lt;h2 id="强调元素"&gt;强调元素
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://www.totallywaggedout.co.uk/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/walkies.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;通常，你考虑将红色作为按钮颜色时，较柔和的色彩或许是正确选择。柔和色彩也能用于按钮的设计，尤其按钮元素或行动号召面积太大的时候。而蓝色按钮，则是一种普遍存在，将颜色改为宁静蓝轻而易举。&lt;/p&gt;
+&lt;p&gt;还有个很有趣的做法，选定潘通的年度代表色，与它衍生出的梯度色彩相结合，然后用在按钮或其他元素上。&lt;/p&gt;
+&lt;p&gt;这些颜色能用于文字元素（尤其在深色背景上）或是链接、粗体文字，这取决于整体美感。注意上图的网站中，使用了多种近似的粉色与蓝色元素，包括文字左侧的小爪印。&lt;/p&gt;
+&lt;h2 id="颜色的变种"&gt;颜色的变种
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://holmmarcher.dk/en/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designshack.net/wp-content/uploads/holm.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;虽然你已经迫不及待要在项目中运用这些颜色了，但它或许并不适合所有情况。这时候就更应该使用其变种。可以考虑加入黑色营造更暗沉的美感，或者增加白色创造更柔和的色调。&lt;/p&gt;
+&lt;p&gt;这正是年度代表色有趣的地方，可以看到这股潮流会将我们引向何方。最终方向完全取决于你。并非要死守着精确的色彩搭配，才算搭上了这趟潮流列车，你也可以实验创造出属于自己的东西。&lt;/p&gt;
+&lt;h2 id="来自design-shack-gallery的一组设计灵感"&gt;来自Design Shack Gallery的一组设计灵感
+&lt;/h2&gt;&lt;p&gt;Design Shack Gallery里充满了各种案例——还能通过颜色搜索——可以看到其他人如何处理这些颜色。下面这些项目，可以帮助你思考应该如何运用粉色与蓝色。&lt;/p&gt;
+&lt;h3 id="byanise"&gt;&lt;a class="link" href="http://designshack.net/design/byanise" target="_blank" rel="noopener"
+&gt;Byanise&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designshack.net/images/designs/byanise.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/p&gt;
+&lt;h3 id="appon-calendar"&gt;&lt;a class="link" href="http://designshack.net/design/appon-calendar" target="_blank" rel="noopener"
+&gt;Appon Calendar&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designshack.net/images/designs/appon-calendar.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/p&gt;
+&lt;h3 id="mel-louie"&gt;&lt;a class="link" href="http://designshack.net/design/mel-louie" target="_blank" rel="noopener"
+&gt;Mel Louie&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designshack.net/images/designs/mel-louie.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/p&gt;
+&lt;h3 id="melodrama-boutique"&gt;&lt;a class="link" href="http://designshack.net/design/melodrama-boutique" target="_blank" rel="noopener"
+&gt;Melodrama Boutique&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designshack.net/images/designs/melodrama-boutique.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/p&gt;
+&lt;h3 id="fforever"&gt;&lt;a class="link" href="http://designshack.net/design/teamgeek" target="_blank" rel="noopener"
+&gt;FForever&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designshack.net/images/designs/teamgeek.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/p&gt;
+&lt;h3 id="neatfolio"&gt;&lt;a class="link" href="http://designshack.net/design/neatfolio" target="_blank" rel="noopener"
+&gt;NeatFolio&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designshack.net/images/designs/neatfolio.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/p&gt;
+&lt;h3 id="dockpop"&gt;&lt;a class="link" href="http://designshack.net/design/dockpop" target="_blank" rel="noopener"
+&gt;Dockpop&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designshack.net/images/designs/dockpop.jpg"
+loading="lazy"
+alt="在设计中运用潘通年度代表色的插图"
+&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;年度代表色为我们打开一扇未来之窗，让我们见证接下来这一年的潮流趋势。如何将其运用于项目中取决于你，但还要敢于打破常规，以非传统的方式运用这组颜色。（这本就是非传统的年度代表色）&lt;/p&gt;
+&lt;p&gt;尽情创作，然后在&lt;a class="link" href="http://designshack.net/gallery" target="_blank" rel="noopener"
+&gt;Design Shack Gallery&lt;/a&gt;展示你的作品吧。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://designshack.net/articles/graphics/how-to-use-the-pantone-color-of-the-year-in-design-projects/" target="_blank" rel="noopener"
+&gt;http://designshack.net/articles/graphics/how-to-use-the-pantone-color-of-the-year-in-design-projects/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://designshack.net/author/carriecousins/" target="_blank" rel="noopener"
+&gt;Carrie Cousins&lt;/a&gt;
+Carrie is the chief writer at Design Shack, with years of experience in web and graphic design. Sports fanatic. Information junkie. Designer. True-believer in karma.&lt;/p&gt;</description></item><item><title>为可视化数据寻找适合的配色</title><link>https://victor42.eth.limo/post/3472/</link><pubDate>Sun, 29 Nov 2015 01:29:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3472/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第112期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wG4NGJ_Q3qKm6lyznGMrxQ.jpeg"
+loading="lazy"
+alt="数据可视化配色方案示意图，展示从浅绿到深蓝的多组渐变柱状图"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然如今&lt;a class="link" href="http://flatuicolors.co/" target="_blank" rel="noopener"
+&gt;好的&lt;/a&gt;&lt;a class="link" href="https://www.google.com/design/spec/style/color.html#color-color-palette" target="_blank" rel="noopener"
+&gt;配色&lt;/a&gt;&lt;a class="link" href="http://colorhunt.co/" target="_blank" rel="noopener"
+&gt;方案&lt;/a&gt;已经唾手可得，但为数据可视化找到合适的配色方案，却&lt;a class="link" href="https://medium.com/data-lab/i-went-a-little-crazy-trying-to-choose-charted-s-colors-8d4182c1d324" target="_blank" rel="noopener"
+&gt;仍是一项巨大挑战&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;在Graphiq，事情甚至更加棘手，因为我们要通过上千种各不相同的数据集合来传递信息，它们&lt;a class="link" href="https://medium.com/graphiq-engineering/visualizing-the-world-s-knowledge-5ca14f098454" target="_blank" rel="noopener"
+&gt;有着各自迥异的视觉表现&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id="目前的问题"&gt;目前的问题
+&lt;/h2&gt;&lt;p&gt;我们没有立刻开始建立自己的配色表，而是发起了一些调查，研究网络上已存在的配色方案。令人惊讶的是，我们发现其中只有少数是为复杂的图表和数据可视化而设计的。我们发现一些不能使用现有配色的原因。&lt;/p&gt;
+&lt;h3 id="问题1辨识度低"&gt;问题1：辨识度低
+&lt;/h3&gt;&lt;p&gt;我们看过的许多配色方案都不适用于数据可视化。不仅由于颜色的明度差异不大，其实它们在创造时就没有考虑过辨识度。Flat UI配色是最广泛使用的配色之一，原因显而易见：它非常优秀。但是，正如它名字所述，这是为界面而设计的。使用Flat UI配色的话，色盲者就难以辨认出数据图像。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-KvDEGIpfwdJtUFwB5acYEA.png"
+loading="lazy"
+alt="Flat UI 配色方案色板，展示绿蓝紫灰黄橙红白灰等15种鲜艳色彩的完整模式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-agD5sQvrMt6GqRmIg6zKQA.png"
+loading="lazy"
+alt="Flat UI 配色方案在红色盲模式下的色板，颜色变为黄绿蓝灰等低对比度色调"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-PyjFTbCq6JBTx1oymoXeEw.png"
+loading="lazy"
+alt="Flat UI 配色方案在灰度模式下的色板，所有颜色变为不同深浅的灰色，辨识度极低"
+&gt;&lt;/p&gt;
+&lt;p&gt;Flat UI配色的完整色彩、红色盲模式、灰度模式。&lt;/p&gt;
+&lt;h3 id="问题2色彩不够多"&gt;问题2：色彩不够多
+&lt;/h3&gt;&lt;p&gt;另一个问题是，许多现有配色方案没有足够的颜色。创造Graphiq的数据可视化时，我们需要至少6种颜色的配色方案，甚至有时需要8到12种颜色，才能满足所有的应用场景。我们看过的许多配色方案都没有足够多的色彩供选择。&lt;/p&gt;
+&lt;p&gt;下面是&lt;a class="link" href="http://colorhunt.co/" target="_blank" rel="noopener"
+&gt;Color Hunt&lt;/a&gt;里的一些例子：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-ypvRymT0ECQ3pYwtqlfHZw.png"
+loading="lazy"
+alt="Color Hunt 社区12组四色配色方案，每组由四种不同颜色的矩形色块组成"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然这些都是很棒的配色，但它们都不够灵活，无法提供丰富的色系。&lt;/p&gt;
+&lt;h3 id="问题3难以区分"&gt;问题3：难以区分
+&lt;/h3&gt;&lt;p&gt;不过等一下，还有一些配色方案看起来像是渐变——理论上说可以创造出任意数量的颜色，对吧？&lt;/p&gt;
+&lt;p&gt;不幸的是，它们明度差异通常不大，其中许多颜色很容易变得无法区分，就像这一组，同样来自Color Hunt：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-S85p-zgE9OM9xLTLEKhbng.png"
+loading="lazy"
+alt="Color Hunt 社区12组渐变色板，每组颜色明度差异过小难以区分"
+&gt;&lt;/p&gt;
+&lt;p&gt;我们试着选&lt;a class="link" href="http://colorhunt.co/#00a38879bd8fbeeb9fffff9d" target="_blank" rel="noopener"
+&gt;第一组&lt;/a&gt;，把它扩展为10级色彩：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-623V9z7Xzs1Q3Uyf0qoq-A.png"
+loading="lazy"
+alt="绿色渐变强行扩展为10级色板，4级和10级数据系列中相邻绿色几乎无法区分"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果普通用户能正确的区分出这些颜色，并与相应的数据项对应起来，我就服了，尤其是能区分出左边的4种绿色。&lt;/p&gt;
+&lt;h2 id="我们的方式"&gt;我们的方式
+&lt;/h2&gt;&lt;p&gt;在Graphiq，我们以数据为生命，并且投入了大量时间寻找能够用于数据可视化的配色方案，不是一组，而是许多组。我们在这个过程中受益良多，并且打算分享这些能够创造出灵活配色的准则：&lt;/p&gt;
+&lt;h3 id="第1条色调与明度的跨度都要大"&gt;第1条：色调与明度的跨度都要大
+&lt;/h3&gt;&lt;p&gt;要确保配色非常容易辨识与区分，它们的明度差异一定要够大。明度差异需要全局考虑。选择一种单色系的配色，并且&lt;a class="link" href="https://medium.com/sketch-app-sources/2b189c0d58fe" target="_blank" rel="noopener"
+&gt;测试它在红色盲、绿色盲与灰度模式下的表现&lt;/a&gt;。你就能迅速了解这个配色的辨识度水平。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-hGvw1suMqgupk8EgD068aA.png"
+loading="lazy"
+alt="Google Material Design 浅蓝色系完整色板，从50到900共10级明度渐变，附十六进制色值"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-HnC6oy_l_8t4bHxg1mMyhw.png"
+loading="lazy"
+alt="Google Material Design 浅蓝色系在红色盲模式下的色板，颜色变为蓝紫色调渐变"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-Op_34KD5WNhPdqxZs0TsVQ.png"
+loading="lazy"
+alt="Google Material Design 浅蓝色系在灰度模式下的色板，从浅灰到深灰的10级明度渐变"
+&gt;&lt;/p&gt;
+&lt;p&gt;Google Material配色中的浅蓝色的完整色彩、红色盲模式与灰度模式。&lt;/p&gt;
+&lt;p&gt;但是，有一组明度跨度大的配色还不够。配色越多样，用户越容易将数据与图像联系起来。如果能善加利用色调的变化，就能使非色盲用户更加轻松。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wgC_dBB1C2w3G6jaSFpZPQ.png"
+loading="lazy"
+alt="明度与色调双轴变化示意图，四个象限用笑脸表情展示色盲者和正常人的辨识差异"
+&gt;&lt;/p&gt;
+&lt;p&gt;对于明度与色调，跨度越大，就能承载越多的数据。&lt;/p&gt;
+&lt;h3 id="第2条仿照自然的配色"&gt;第2条：仿照自然的配色
+&lt;/h3&gt;&lt;p&gt;设计师都知道一个小秘密，对于理性派们而言这似乎不符合常识：并非所有颜色都是均等的。&lt;/p&gt;
+&lt;p&gt;从纯数学的角度来看，淡紫到深黄的过渡，与淡黄到深紫的过渡，感觉大概相似。但我们在下面可以看到，前者感觉很自然，后者则不是。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-lL_koW3jH7nYf6_ZbFx3WA.png"
+loading="lazy"
+alt="自然渐变与非自然渐变对比，浅黄到深紫渐变自然，浅紫到深黄渐变不自然"
+&gt;&lt;/p&gt;
+&lt;p&gt;这是由于我们已经习惯于那些长期存在于自然界中的渐变。在华丽的日落中，我们就能看到明黄色向深紫色的渐变，但却没有哪里能看到淡紫色向深黄色的过渡。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-oIa-7FvHZYgGxPp0ytfY6w.jpeg"
+loading="lazy"
+alt="湖面日落景色，天空从橙黄渐变到粉红再到深紫，水面倒映着绚丽的晚霞"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-PPPHMucunVmHYzFJBJW45Q.jpeg"
+loading="lazy"
+alt="密苏里圆形泉水俯拍，周围绿叶环绕，泉水从浅绿渐变到深蓝色"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-Jhvmh70U7q8P-_MajshKew.jpeg"
+loading="lazy"
+alt="海滩日落景色，天空从橙红渐变到紫色，栈桥剪影和两人在浅滩漫步的倒影"
+&gt;&lt;/p&gt;
+&lt;p&gt;照片来源于&lt;a class="link" href="https://www.flickr.com/photos/keepitsurreal/3256634781" target="_blank" rel="noopener"
+&gt;Kyle Pearce&lt;/a&gt;、&lt;a class="link" href="https://www.flickr.com/photos/wfryer/12577018343" target="_blank" rel="noopener"
+&gt;Wesley Fryer&lt;/a&gt;、和&lt;a class="link" href="http://www.public-domain-image.com/nature-landscape/sunset/slides/ocean-beach-sunset.html" target="_blank" rel="noopener"
+&gt;Jon Sullivan&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;类似地，还有浅绿色到藏蓝色、鹅黄色到深绿色、棕红色到蓝灰色，等等。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-NUUVVX2MpC4Y1_nP8CHjWA.jpeg"
+loading="lazy"
+alt="密苏里圆形泉水中浅绿向藏蓝的自然渐变"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-W5vjfZydrhjBbKQ4R9tl3A.jpeg"
+loading="lazy"
+alt="秋季林荫道，两侧树木叶子从金黄渐变到橙红，地上铺满落叶，中间有绿色长椅"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-_dsL23-byBssnWm7aFAKdg.jpeg"
+loading="lazy"
+alt="黄石公园温泉梯田，从白色钙华到橙黄再到棕红色的自然色彩渐变，蒸汽缭绕"
+&gt;&lt;/p&gt;
+&lt;p&gt;照片来源于&lt;a class="link" href="https://commons.wikimedia.org/wiki/File:Round_Spring_-_Missouri,_16.jpg" target="_blank" rel="noopener"
+&gt;Kbh3rd&lt;/a&gt;、&lt;a class="link" href="http://www.freefoto.com/preview/19-07-2/Autumn-Colour" target="_blank" rel="noopener"
+&gt;Ian Britton&lt;/a&gt;、和&lt;a class="link" href="http://www.public-domain-image.com/nature-landscape/hot-spring/slides/hot-spring-in-yellowstone.html" target="_blank" rel="noopener"
+&gt;Jon Sullivan&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;由于我总能看到这些自然的渐变，所以当我们在可视化图表中看到对应的配色时，会感觉熟悉和愉快。&lt;/p&gt;
+&lt;h3 id="第3条使用渐变不要选择一系列固定颜色"&gt;第3条：使用渐变，不要选择一系列固定颜色
+&lt;/h3&gt;&lt;p&gt;渐变配色结合不同色调，对两者都最好。无论你需要2种颜色还是10种，渐变中都能提取出这些颜色，让可视化图表感觉自然，同时保有足够的色调与明度差异。&lt;/p&gt;
+&lt;p&gt;改用渐变的思维并不容易，不过有个好方法，可以在Photoshop中拉辅助线到断点位置，与数据的数量对应上，然后持续对渐变进行测试与调整。以下是我们在修正渐变时产生的屏幕截图。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wgvwormxteQ6jdT4De63Hg.png"
+loading="lazy"
+alt="Photoshop CC 2015 中调整渐变叠加的截图，顶部灰度渐变条配青色辅助线，下方为多组彩色椭圆色值测试"
+&gt;&lt;/p&gt;
+&lt;p&gt;可以看到，我们将配色表紧挨着顶部的灰度渐变，调整渐变叠加（之后就能得到精确的渐变色值），然后从那些断点处选取颜色，测试配色在实际运用中的效果。&lt;/p&gt;
+&lt;h2 id="我们的配色方案"&gt;我们的配色方案
+&lt;/h2&gt;&lt;p&gt;我们对最终成果感到兴奋。下面是我们使用的部分配色，它们都有从纯白到纯黑的渐变，以达到最大限度的明度差异。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-B29h3NSglI42HGhWZA-5Mg.png"
+loading="lazy"
+alt="冷色系渐变色板，从浅黄绿到深蓝黑，展示1到12级颜色数量对应的色块分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1--Vgr9hPpUU3PYtg_B4rd2g.png"
+loading="lazy"
+alt="暖色系渐变色板，从浅黄到深棕黑，展示1到12级颜色数量对应的色块分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-pH2QoOf47OqwtG9suWaRJw.png"
+loading="lazy"
+alt="霓虹色系渐变色板，从浅粉到深紫黑，展示1到12级颜色数量对应的色块分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;冷色、暖色和霓虹色。&lt;/p&gt;
+&lt;h2 id="配色的实际运用"&gt;配色的实际运用
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1.png"
+loading="lazy"
+alt="各国兴奋剂违规次数柱状图，用蓝绿色系区分水上、田径、健美等不同运动项目"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/2.png"
+loading="lazy"
+alt="全球2型糖尿病死亡率热力地图，用黄到棕的渐变色表示各国死亡率高低"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/3.png"
+loading="lazy"
+alt="詹妮弗·劳伦斯参演电影类型柱状图，用粉紫渐变区分剧情、科幻、动作等类型"
+&gt;&lt;/p&gt;
+&lt;h2 id="长话短说"&gt;长话短说
+&lt;/h2&gt;&lt;p&gt;尽管优秀的配色方案越来越多，但并非所有都适用于图表和数据可视化。我们的配色方法就是创建色调与明度变化都足够大的自然渐变。这么做能使我们的配色便于色盲辨识，对其他人则更明显，并且可以满足1到12种数据。&lt;/p&gt;
+&lt;h2 id="阅读工具和资源-更新"&gt;阅读、工具和资源 [更新]
+&lt;/h2&gt;&lt;p&gt;这个过程中，我们发现了一些很棒的资源和文章，与我们得出的结论类似，但他们采用了更精确的方法，甚至钻研了色彩理论。我们觉得应该分享出来，供大家深度阅读：&lt;/p&gt;
+&lt;h3 id="阅读"&gt;阅读
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="http://vis4.net/blog/posts/avoid-equidistant-hsv-colors/" target="_blank" rel="noopener"
+&gt;如何避免等差的HSV颜色&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/driven_by_data" target="_blank" rel="noopener"
+&gt;Gregor Aisch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://vis4.net/blog/posts/mastering-multi-hued-color-scales/" target="_blank" rel="noopener"
+&gt;通过chroma.js控制多色调的色彩比例&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/driven_by_data" target="_blank" rel="noopener"
+&gt;Gregor Aisch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/" target="_blank" rel="noopener"
+&gt;微妙的颜色&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/rsimmon" target="_blank" rel="noopener"
+&gt;Robert Simmon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html" target="_blank" rel="noopener"
+&gt;翠绿配色方案&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/hrbrmstr" target="_blank" rel="noopener"
+&gt;Bob Rudis&lt;/a&gt;、&lt;a class="link" href="https://twitter.com/noamross" target="_blank" rel="noopener"
+&gt;Noam Ross&lt;/a&gt;和&lt;a class="link" href="https://twitter.com/sjmgarnier" target="_blank" rel="noopener"
+&gt;Simon Garnier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://blogs.mathworks.com/steve/2014/10/13/a-new-colormap-for-matlab-part-1-introduction/" target="_blank" rel="noopener"
+&gt;MATLAB色彩地图&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/steveeddins" target="_blank" rel="noopener"
+&gt;Steve Eddins&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="工具"&gt;工具
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="http://tristen.ca/hcl-picker/" target="_blank" rel="noopener"
+&gt;数据颜色采集工具&lt;/a&gt;——一件很趁手的工具，让你保持&lt;a class="link" href="https://en.wikipedia.org/wiki/Chroma" target="_blank" rel="noopener"
+&gt;浓度&lt;/a&gt;不变的同时轻松选择配色&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://gka.github.io/chroma.js/" target="_blank" rel="noopener"
+&gt;Chroma.js&lt;/a&gt;——一个处理色彩的JavaScript库&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://colorbrewer2.org/" target="_blank" rel="noopener"
+&gt;Colorbrewer2&lt;/a&gt;——热点图与数据可视化颜色工具，自带了多色调与单色调的方案&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="其他资源"&gt;其他资源
+&lt;/h3&gt;&lt;p&gt;我们还找到一些其他爱不释手的配色资源。虽然它们并非专为数据可视化而设计，不过我们觉得或许对你有帮助。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="http://colorhunt.co/" target="_blank" rel="noopener"
+&gt;ColorHunt&lt;/a&gt;——高质量配色方案，能够快速预览，如果你只需要4种颜色，这是绝佳的资源&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.colourlovers.com/" target="_blank" rel="noopener"
+&gt;COLOURlovers&lt;/a&gt;——很棒的颜色社区，其中有许多工具可以创建配色方案，还有设计模式&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.colorschemer.com/" target="_blank" rel="noopener"
+&gt;ColorSchemer Studio&lt;/a&gt;——强大的桌面取色应用&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://coolors.co/app/" target="_blank" rel="noopener"
+&gt;Coolors&lt;/a&gt;——轻量级随机配色生成器，你可以锁定你想要的颜色，然后替换其他的&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://flatuicolors.com/" target="_blank" rel="noopener"
+&gt;Flat UI Colors&lt;/a&gt;——很棒的UI配色，这是最流行的配色之一&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.google.com/design/spec/style/color.html" target="_blank" rel="noopener"
+&gt;Material Design Colors&lt;/a&gt;——另一套优秀的UI配色。它不仅提供了跨度巨大的颜色，也为每种颜色提供了不同的“色深”，或者说明度&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://palettab.com/" target="_blank" rel="noopener"
+&gt;Palettab&lt;/a&gt;——一个Chrome插件，在每个标签页里呈现一套新的配色方案和字体灵感&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.swisscolors.net/" target="_blank" rel="noopener"
+&gt;Swiss Style Color Picker&lt;/a&gt;——另一个优秀的配色方案集&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;希望本文对你有所帮助！你建立配色方案的过程是怎样的？你还用到其他的工具吗？我们想听听你在配色与可视化图表方面的经验。&lt;/p&gt;
+&lt;p&gt;想了解更多我们的工作流程，请订阅我们的刊物：&lt;a class="link" href="https://medium.com/graphiq-engineering" target="_blank" rel="noopener"
+&gt;&lt;strong&gt;Graphiq Engineering&lt;/strong&gt;&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/graphiq-engineering/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283#.s6benocrb" target="_blank" rel="noopener"
+&gt;https://medium.com/graphiq-engineering/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283#.s6benocrb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://medium.com/@moyicat" target="_blank" rel="noopener"
+&gt;Samantha Zhang&lt;/a&gt;
+Senior UI/UX &lt;a class="link" href="http://twitter.com/GraphiqHQ" target="_blank" rel="noopener"
+&gt;@GraphiqHQ&lt;/a&gt;. Tutorial writer &lt;a class="link" href="http://twitter.com/TutsPlusCode" target="_blank" rel="noopener"
+&gt;@TutsPlusCode&lt;/a&gt;. Product maker. Data nerd. Side project ninja. More at &lt;a class="link" href="http://samanthaz.me" target="_blank" rel="noopener"
+&gt;http://samanthaz.me/&lt;/a&gt; and &lt;a class="link" href="http://twitter.com/moyicat" target="_blank" rel="noopener"
+&gt;@moyicat&lt;/a&gt;&lt;/p&gt;</description></item><item><title>在网页设计中运用柔和色调</title><link>https://victor42.eth.limo/post/3408/</link><pubDate>Sun, 30 Nov 2014 04:18:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3408/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第66期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;网页中的柔和色调&lt;/strong&gt;的使用，不止是近来的趋势，这是一项设计师使用多年的技巧，用来创造有冲击力的视觉效果。&lt;/p&gt;
+&lt;p&gt;当你听到“柔和”一词，想到的可能是淡粉色、淡蓝色、淡黄色，不过这种配色远不止这些颜色。柔和并不一定要感觉像新生儿一样。通过某些适当的方式，配合其他元素，这些色调也可以相当鲜明。&lt;/p&gt;
+&lt;p&gt;下面我们从优秀的案例网站出发，了解10种在网页设计中运用柔和色调的方法。&lt;/p&gt;
+&lt;p&gt;###柔和的照片&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.solasie.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/solasie.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调：关于照片上的柔和遮罩层或的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;照片上的柔和遮罩层，或是在恰当的光照环境中拍摄的照片，可以成为精妙绝伦的网站背景。照片的色调越淡雅，设计师就有越多的区域可以放置其他元素。&lt;/p&gt;
+&lt;p&gt;使用柔和的照片同样有助于与其他元素产生反差，比如logo或按钮。请注意Solasie的logo与柔和色调的照片搭配得多么完美。这种思想也能突出幽灵按钮。&lt;/p&gt;
+&lt;p&gt;###柔和的背景色&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.dearmum.org/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/mum.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调：关于柔和的背景色是个好主的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;柔和的背景色是个好主意，使用多种颜色却不会咄咄逼人。由于柔和色调更加淡雅，画布上可以使用更大面积的颜色，却不会感觉太强烈。&lt;/p&gt;
+&lt;p&gt;处理柔和背景色的一个常见的趋势，就是像Dear Mum这样，使用单色调的配色方案，对一种颜色进行深浅变化。单色调能够与白色的文字元素产生美妙的视觉对比。搭配合适的字体，这种技巧也能打造时髦的现代感。&lt;/p&gt;
+&lt;p&gt;###鲜明的柔和色&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.mariecatribs.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/marie.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;尽管你通常不会把“鲜明”和“柔和”相提并论，这类配色可以帮你创造出大胆的设计。因为柔和色容易退居幕后，所以如果你要在它附近有所动作，这是非常棒的选择。&lt;/p&gt;
+&lt;p&gt;Marie Catrib’s在这方面做得很好。这里的柔和色相当鲜明，但似乎没有喧宾夺主，你能看到这个从色块层探出头偷瞄的女人。鲜明的柔和色帮助你发现并聚焦在图片上，完全柔和的背景冲击力就会稍显逊色。&lt;/p&gt;
+&lt;p&gt;###柔和色调营造氛围&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.sweez.com.br/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/sweez.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;你希望网站的访客产生怎样的感觉？柔和色很擅长营造平静、放松、缓和的感觉。如果这些情绪可以描述你的网站或公司，它或许就是正确的选择。&lt;/p&gt;
+&lt;p&gt;Sweez做得很棒，通过颜色创造了这样的情感链接。图中的一切都带着淡雅柔和的色调。它让你想到坐在安静平和的地方，享受一杯温暖美妙的卡布奇诺。看见没，这种简单的色彩多么有效。&lt;/p&gt;
+&lt;p&gt;###柔和色的插画&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://makeyourmoneymatter.org/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/money-matter-600x438.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;柔和色也是插画的绝佳选择。运用这种色彩理念创造出令用户驻足观赏的作品。&lt;/p&gt;
+&lt;p&gt;柔和色调的插画，将带有某种平静的绘画作品与色彩结合起来。它让绘画的运用出人意料。&lt;/p&gt;
+&lt;p&gt;###与柔和色产生对比&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.kinderfotografie-evihermans.be/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/kinder-foto.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;柔和色并不一定要凭空创造。它是一种很好地与其他设计元素产生对比的手段。&lt;/p&gt;
+&lt;p&gt;Kinder Fotografie在这方面做得非常好，运用了柔和色和明亮的照片、文字。设计中的柔和色部分包含了大量小细节，但你首先看到的儿童照片和文字“smiles”。然后用户才开始注意这些精致的细节。&lt;/p&gt;
+&lt;p&gt;###柔和色的导航&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.wonderfullywild.co.uk/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/wonderfully-wild.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;柔和色调也是创造优秀导航的手段。通常情况，设计师会给网站设计黑白色的导航条，但彩色在这里也有用武之地。&lt;/p&gt;
+&lt;p&gt;柔和色可以作为导航的手段，是因为它们避让了其他部分的设计。比如，Wonderfully Wild中，用户最先看见照片并做出反应。导航元素与主要内容融合地很好，但由于颜色的选用，它并没有妨碍主要视觉内容。&lt;/p&gt;
+&lt;p&gt;###扁平化设计中的柔和色调&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://everylastdrop.co.uk/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/every-last-drop.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调：关于我们今天看到的柔和色的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我们今天看到的柔和色调大多都没有采用扁平化设计。设计师们喜欢的各种亮色，都变成了扁平设计兴起之初那些超级亮色的淡雅版。&lt;/p&gt;
+&lt;p&gt;在扁平化设计项目中使用柔和色调，好处是颜色仍然保有相同的感觉和整体外观，这种方式却不会为了吸引注意而过于压迫用户。在网站中运用柔和色与扁平风格色彩，更容易通过颜色引导用户到屏幕的特定区域，或是强调重要的文字元素。&lt;/p&gt;
+&lt;p&gt;###柔和色文字&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.putzengel.at/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/schmutz.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调：关于设计师们不止是在图片的视觉展示图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设计师们不止是在图片和背景上使用柔和色调。这种配色风格也可以运用在文字上。（虽然这会很微妙）&lt;/p&gt;
+&lt;p&gt;柔和色最好以粗大字体的方式使用，与更加朴实的背景相衬来创造鲜明对比。使用带有粗描边的大字体，可以确保屏幕上有更多柔和色。这个概念通常用于少量的字母或文字组合，不适用于正文。&lt;/p&gt;
+&lt;p&gt;###柔和色调的界面元素&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.duy-tran.de" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/11/tran.jpg"
+loading="lazy"
+alt="在网页设计中运用柔和色调的插图"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;将柔和色用作界面元素的一部分，是个有趣的概念。这是扁平设计理念孕育出的又一个“花样”，按钮和其他元素可以使用柔和色。&lt;/p&gt;
+&lt;p&gt;Duy Tran的网站中，每块柔和色区域实际上是个超大的按钮。这些柔和色告诉用户哪块是哪块，让每个都易于点击（或触摸）。这些色调很突出，因为与极简的主图区域形成鲜明对比。（轮播图中的每一张与这些柔和色调的按钮区别开）&lt;/p&gt;
+&lt;p&gt;###结论&lt;/p&gt;
+&lt;p&gt;使用柔和色的关键，在于让它看起来清新，而不是褪色。将柔和色调与你期望的深色、更鲜明的图片或白色元素对比搭配，有助于创造带有冲击力的柔和配色。&lt;/p&gt;
+&lt;p&gt;柔和色调天生就带有令人放松和冷静的理念。网页设计时使用这种配色方案对你有利。要牢记颜色与整体设计的其余部分如何相互影响。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/pastel-colors/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>选择你自己的配色方案</title><link>https://victor42.eth.limo/post/2723/</link><pubDate>Sun, 11 Aug 2013 00:19:18 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2723/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第5期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://uisdc.qiniudn.com/wp-content/uploads/2013/08/adobe-kuler-2.jpg"
+loading="lazy"
+alt="选择你自己的配色方案设计中关于“目前为止你应该已经很”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;目前为止，你应该已经很熟悉颜色是什么、每种颜色代表什么，对于不同配色方案也有很好的理解。但是不管怎样，你知道这些也没什么作用，假如你不知从何下手或如何运用&lt;/p&gt;
+&lt;h2 id="色彩对你项目的影响"&gt;色彩对你项目的影响
+&lt;/h2&gt;&lt;p&gt;颜色是种看起来相当简单，却非常难处理好的东西。而且，由于它是任何设计中极度视觉化、焦点化的部分（它确实是），当它没处理好时会如此引人注意。如果你的设计中这么重要的部分给人感觉不好，或者没有很好的表现你的公司、服务或品牌，那么它就能让停留访问的用户消失不见&lt;/p&gt;
+&lt;p&gt;正因为如此，选择配色方案时，你需要非常清楚颜色在你设计中可以造成的影响——好的与坏的&lt;/p&gt;
+&lt;p&gt;摒弃这些默认样式（例如互补色），使用你自己的配色方案，绝对是件好事，但是当你着手开始创建自己的配色方案时，可能你最好还是沿袭主流的配色方案。这样一来，走错路创造出糟糕的配色方案就不容易了，虽然也难以杜绝&lt;/p&gt;
+&lt;h2 id="选择适当的配色方案"&gt;选择适当的配色方案
+&lt;/h2&gt;&lt;p&gt;首先，我们来看看如何为你的项目选择一个适当的配色方案&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://uisdc.qiniudn.com/wp-content/uploads/2013/08/choosing-a-colour-scheme.jpg"
+loading="lazy"
+alt="选择你自己的配色方案设计中关于“这里你需要全局考虑”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;这里你需要全局考虑，什么配色方案适合你的品牌、公司或者行业。有篇文章&lt;a class="link" href="http://columnfivemedia.com/work-items/marketo-infographic-true-colors-what-your-brand-colors-say-about-your-business/" title="Brand Colours Infographic at Column Five Media"
+target="_blank" rel="noopener"
+&gt;fantastic infographic over at Column Five Media&lt;/a&gt;介绍了世界百强品牌的颜色使用&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://uisdc.qiniudn.com/wp-content/uploads/2013/08/color-scheme-info.png"
+loading="lazy"
+alt="选择你自己的配色方案设计中关于“这个非常有趣不仅让我”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个非常有趣，不仅让我们一睹世界顶尖品牌与企业的用色倾向，还让我们洞悉具体行业中，哪些颜色效果更好，或使用更广泛&lt;/p&gt;
+&lt;p&gt;从信息图表中可以看出，所有能为你所用的主色都适用于各种不同行业，这些可能适用的颜色都能解读出常用的含义，之前有文章讨论过&lt;/p&gt;
+&lt;p&gt;我所喜爱的方式，是为项目创建思维导图来探索我能想到的各种不同色调和创意，并且上网寻找这类符合品牌战略的信息。然后，把这些思维导图的创意转换为颜色的含义来确定哪个最符合，这可以帮助你找到哪种配色最适合这个项目或品牌&lt;/p&gt;
+&lt;h2 id="我该用多少种颜色"&gt;我该用多少种颜色
+&lt;/h2&gt;&lt;p&gt;有时候，这个问题真的只是个人喜好问题。不管怎样，这个问题在Column Five Media的信息图表中不值一提，因为百强品牌中，只有5%选择在配色方案中使用两种以上的颜色&lt;/p&gt;
+&lt;p&gt;注：近年来，印刷品的预算比在线曝光更重要，品牌印刷品中使用的颜色数量确实值得慎重考虑&lt;/p&gt;
+&lt;p&gt;即便如此，用多少种颜色随你感觉就好，在一些情况下，你可以用颜色来在网页的不同区块中制造差异化。在这种情况下，你可能会有4、5种不同颜色加入到配色方案中，使网页每部分协调&lt;/p&gt;
+&lt;p&gt;尽管最终选择权在你，我还是会建议你在主要配色方案中使用至少两到三种颜色，这其中不包含文字或背景的明暗中性色。比起用单色配上渐变和阴影，使用两到三种颜色的配色方案，能够给你机会尝试在各个区块间创造更丰富的对比&lt;/p&gt;
+&lt;h2 id="从照片中选择配色方案"&gt;从照片中选择配色方案
+&lt;/h2&gt;&lt;p&gt;你是否观察过一张照片，并思考它的颜色表现多么奇妙和惊人？有时候，这些漂亮颜色可以被转换成可用的配色方案，并为你所用。从照片中提取一套非常棒的配色方案，只需要稍加训练和充足的耐心，如果你和我一样是个完美主义者，那么你会花相当一段时间微调颜色，直到它们刚刚好为止&lt;/p&gt;
+&lt;h2 id="选择你的照片"&gt;选择你的照片
+&lt;/h2&gt;&lt;p&gt;选择一张好照片上手的关键，是多样化而且最好能让你震撼。无论你的图片比较复古或单色系（即整张图片都贯穿着相近的色调和色彩），或者更加鲜活色彩丰富，你总能在其中某处找到有用的配色方案&lt;/p&gt;
+&lt;p&gt;一旦你有了一张或几张照片，假如你立马就想试着创造几种配色方案，那么用你最喜欢的图像处理软件打开它，然后开始疯狂吧。我在Photoshop中有个自己爱用的模板（包含几个小矩形）作为切入点，来放置我所选择颜色&lt;/p&gt;
+&lt;p&gt;从照片中选取配色方案时，我试着只坚持一种（比如单色或互补色），然后在照片中尝试选取相配的颜色。所以举个例子，我会观察照片并试着发现什么颜色对我而言最突出，这不是指它们要明亮鲜艳，它们可能很柔和或只占照片的一小部分，但我会试着选出成就这张照片的那些少数色彩&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://uisdc.qiniudn.com/wp-content/uploads/2013/08/choosing-from-photos-1.jpg"
+loading="lazy"
+alt="选择你自己的配色方案设计中关于“在这张照片中由于这些”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;在这张照片中，由于这些相近的紫色调，我们能够很容易选出一套单色系配色方案&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://uisdc.qiniudn.com/wp-content/uploads/2013/08/choosing-from-photos-2.jpg"
+loading="lazy"
+alt="选择你自己的配色方案设计中关于“这张照片非常饱满因此”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;这张照片非常饱满，因此我们可以花些时间创造一个更加个性化的配色方案，它受制于一些规则，搭配起来却也同样合适&lt;/p&gt;
+&lt;p&gt;一旦我开始深入观察照片，我就对我想要的风格有更深的了解，我会继续胡乱尝试（就用吸管工具）来看看什么颜色搭配最好。比如只选择一种颜色作为主体，再选两种其他颜色来作为陪衬&lt;/p&gt;
+&lt;p&gt;然后，开始将这些颜色放入模版，将它们来回移动，直到你对颜色的位置与层级满意为止。我通常也会试着在我所选的主色旁边各放置一个暗色（接近或几乎纯黑）和亮色（接近白色）。这可以帮助页面达到色彩与结构上的平衡，也可以在配色方案中没有适合的文字颜色时提供一种可能&lt;/p&gt;
+&lt;p&gt;老实说，这里的主要目的就是随手试试，有时候你得到的颜色并不合适，也有时候你在照片中根本找不到一个得体的配色方案，但是要确保你尝试过各种颜色，直到你为自己的设计找到了一套感觉更加统一协调的配色方案&lt;/p&gt;
+&lt;h2 id="iphone-app-adobe-kuler"&gt;iPhone App Adobe Kuler
+&lt;/h2&gt;&lt;p&gt;如果从照片中创建自己的配色方案令你纠结不已，Adobe最近也发布一款iPhone app Adobe Kuler，带来了一种非常便捷的从照片中创建配色方案的方法。你可以切换到相机模式从现有照片中选择一张，或者直接在所在地拍点什么&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://uisdc.qiniudn.com/wp-content/uploads/2013/08/adobe-kuler-1.jpg"
+loading="lazy"
+alt="选择你自己的配色方案设计中关于“的妙处是它提供了一种”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Adobe Kuler app的妙处，是它提供了一种极为创新的颜色选择方式。如果你用Kuler app的“现场”视图直接拍照，你就会看见照片上四处移动的小圆圈。眼前所发生的，是这个app在不断寻找和选出照片中它认为最有价值的配色，就在它停下的位置，然后帮你将它们组合成一个小配色板&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://uisdc.qiniudn.com/wp-content/uploads/2013/08/adobe-kuler-2.jpg"
+loading="lazy"
+alt="选择你自己的配色方案设计中关于“如果你对于从照片中选”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果你对于从照片中选取自己的配色方案没有信心，那么使用Kuler app是个好办法，可以帮助你理解什么造就了照片中的优秀配色。随意拍下大量照片（单调、朴素色调和丰富、明亮鲜艳色调都有），然后用Kuler app认真分析为什么这些配色方案起作用，为什么这个app选择了它们&lt;/p&gt;
+&lt;p&gt;然后，你可以适时开始着手从照片中创建自己的配色方案了，并对于自己的选择更加自信&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://webdesign.tutsplus.com/articles/design-theory/selecting-your-own-color-scheme/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

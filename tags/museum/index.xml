@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Museum on Victor42</title><link>https://victor42.eth.limo/tags/museum/</link><description>Recent content in Museum on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Fri, 04 Jul 2025 13:33:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/museum/index.xml" rel="self" type="application/rss+xml"/><item><title>Zhejiang Museum of Surveying, Mapping, and Geoinformation</title><link>https://victor42.eth.limo/post-en/zhejiang-surveying-mapping-and-geoinformation-museum/</link><pubDate>Fri, 04 Jul 2025 13:33:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/zhejiang-surveying-mapping-and-geoinformation-museum/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-07/0049b42bd1c2729ff1c7646e92e61d5c.webp" alt="Featured image of post Zhejiang Museum of Surveying, Mapping, and Geoinformation" /&gt;&lt;p&gt;A hidden gem in a tech park—a paradise for geography and map lovers.&lt;/p&gt;
+&lt;p&gt;On a whim, I took a day off to explore this niche museum I&amp;rsquo;d stumbled upon. It&amp;rsquo;s part of the Zhejiang Academy of Surveying and Mapping Science and Technology. I didn&amp;rsquo;t expect much, planning just a quick look, but the quality was surprisingly high. The very first exhibit had me hooked.&lt;/p&gt;
+&lt;p&gt;The museum spans two floors. The first floor traces the history of Chinese surveying and mapping from ancient to modern times. The second floor features two halls: one on modern applications of surveying and GIS (Geographic Information System), and another on maps. The GIS hall is packed with interactive, kid-friendly exhibits.&lt;/p&gt;
+&lt;p&gt;Time was short—just one morning—so I snapped as many photos as I could to pore over later, though I still missed most of it. Anyway, let&amp;rsquo;s take a quick virtual tour.&lt;/p&gt;
+&lt;h2 id="ancient-chinese-surveying-and-mapping"&gt;Ancient Chinese Surveying and Mapping
+&lt;/h2&gt;&lt;p&gt;The first hall on ancient surveying techniques posed a question we moderns rarely consider: without rigorous science like geometry, did early humans rely purely on intuition?&lt;/p&gt;
+&lt;p&gt;Absolutely not.&lt;/p&gt;
+&lt;p&gt;While our perception can be vague, interacting with the physical world demands precision. The laws of physics make quantitative measurement a necessity.&lt;/p&gt;
+&lt;h3 id="vertical-surveying"&gt;Vertical Surveying
+&lt;/h3&gt;&lt;p&gt;Take well-digging. The ancients couldn&amp;rsquo;t just dig on a whim. A well had to be perfectly vertical to prevent collapse and make drawing water easier. They might not have known about gravity, but they understood that a hanging weight points straight down.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/4c140fd538d8f1ccccc8028530c77154.webp"
+loading="lazy"
+alt="Ancient Plumb Bob and Surveying Marker Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;The pointed piece of wood in the bottom left is a plumb bob, suspended by a rope from the well&amp;rsquo;s center. The large wooden stake next to it is a sighting pile. It&amp;rsquo;s hard to see through the glass, but there&amp;rsquo;s a small hollow carved in its top. While digging, they kept the plumb bob pointing at that hollow. As the well deepened, the rope lengthened, and the sighting pile was moved lower. With this setup, they could keep the well perfectly vertical, as shown in the diagram.&lt;/p&gt;
+&lt;p&gt;This simple setup was the world&amp;rsquo;s earliest surveying tool. This method is still used in construction today. You&amp;rsquo;ve probably heard of it: the plumb line.&lt;/p&gt;
+&lt;h3 id="horizontal-surveying"&gt;Horizontal Surveying
+&lt;/h3&gt;&lt;p&gt;While gravity makes finding &amp;lsquo;up&amp;rsquo; and &amp;lsquo;down&amp;rsquo; easy, the horizontal plane is trickier to measure precisely.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/90c6604d4a20c66b7145658331fec758.webp"
+loading="lazy"
+alt="Cangyuan Rock Painting Settlement Map Exhibit"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is where maps come in. Cave paintings weren&amp;rsquo;t just art; alongside scenes of daily life and belief, ancient people drew highly practical maps.&lt;/p&gt;
+&lt;p&gt;This 3,500-year-old rock painting of a settlement in Cangyuan, Yunnan, shows the distribution of houses and roads—an abstraction of the physical world.&lt;/p&gt;
+&lt;p&gt;The further I walked, the more I appreciated the genius of the map. As land-bound creatures who can&amp;rsquo;t fly, our world is essentially two-dimensional. We don&amp;rsquo;t burrow underground or float in the air, so it&amp;rsquo;s natural to represent our world on a flat surface, ignoring altitude and focusing on the cardinal directions.&lt;/p&gt;
+&lt;p&gt;A map is the ultimate tool for filtering key information from the noise of the natural world. A tribal chief cared where the houses, roads, and livestock were, but not how many trees were in a certain area.&lt;/p&gt;
+&lt;h3 id="from-qualitative-to-quantitative"&gt;From Qualitative to Quantitative
+&lt;/h3&gt;&lt;p&gt;But the Cangyuan rock painting is purely qualitative. It shows a house is near a road, but not how far. It doesn&amp;rsquo;t tell us which of two houses is closer.&lt;/p&gt;
+&lt;p&gt;Why does this matter? Without quantitative data, we can&amp;rsquo;t make comparisons at scales beyond what the eye can see.&lt;/p&gt;
+&lt;p&gt;We understand the world through comparison, relating new concepts to what we already know. By spotting similarities and differences, we learn.&lt;/p&gt;
+&lt;p&gt;For example, if I tell you the Earth&amp;rsquo;s circumference is 40,000 kilometers, the number is too big to grasp. But if I say that light can circle the Earth 7.5 times per second, you get it. The fastest thing we know takes a noticeable amount of time to circle our planet, which means Earth is immense.&lt;/p&gt;
+&lt;p&gt;That 7.5 is a quantitative expression. Numbers allow for comparison, and using math to measure the world frees us from vague intuition.&lt;/p&gt;
+&lt;p&gt;To compare numbers, they must share the same units. Which is longer, one meter or one zhang? Without a conversion, nobody knows. Standardizing units unifies a country&amp;rsquo;s mathematical language. Yes, math has dialects: calculation methods are grammar, and units are pronunciation. When everyone speaks the same mathematical language, people from different regions can trade more easily or collaborate on building the Great Wall, enabling the efficient flow of resources.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/3a57b9e8297d9dd40088913f8f572acd.webp"
+loading="lazy"
+alt="Surveying Management and Unified Measurement Exhibition"
+&gt;&lt;/p&gt;
+&lt;p&gt;This puts Emperor Qin Shi Huang&amp;rsquo;s standardization of weights and measures in a new light. It wasn&amp;rsquo;t just a grand gesture; it was a practical necessity for ruling a vast empire.&lt;/p&gt;
+&lt;p&gt;The exhibit also revealed something I&amp;rsquo;d never considered: the Qin Dynasty had officials specifically in charge of surveying and cartography. This shows how crucial these tasks were to the state; at such a macro level, no decision could be based on feeling alone.&lt;/p&gt;
+&lt;p&gt;With standardized units and measurement techniques, it became possible to shrink vast territories onto small maps.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/47592fc1bc1e52c807a63a3aed2f2d81.webp"
+loading="lazy"
+alt="Mawangdui Han Tomb Topographic Map"
+&gt;&lt;/p&gt;
+&lt;p&gt;A topographic map from Mawangdui Tomb No. 3. I&amp;rsquo;ve transcribed the description:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Measuring 96x96 cm, it depicts the southern part of the Changsha Kingdom in the early Western Han Dynasty, now the upper Xiang River, the Nanling and Jiuyi Mountains, and surrounding areas. The orientation is south-up. The scale is roughly 1:170,000 to 1:190,000. Analysis confirms it is a surveyed topographic map.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/64c6a060c02cfe3c0adc20a0147b3058.webp"
+loading="lazy"
+alt="Ancient and Modern Map Comparison Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not familiar with the geography of Hunan and Guangxi. Note that the Mawangdui map must be rotated 180 degrees to match modern maps. Over 2,000 years, river systems may have changed, but the mountains still seem to align well. Can any friends from Hunan or Guangxi comment on the accuracy of this Han Dynasty survey?&lt;/p&gt;
+&lt;h3 id="the-math-behind-surveying"&gt;The Math Behind Surveying
+&lt;/h3&gt;&lt;p&gt;Once surveying methods exist, someone is bound to create a science out of them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;geometry(n.)&lt;/p&gt;
+&lt;p&gt;early 14c., also &lt;em&gt;gemetrie&lt;/em&gt;, &lt;em&gt;gemetry&lt;/em&gt;, from Old French &lt;em&gt;geometrie&lt;/em&gt; (12c., Modern French &lt;em&gt;géométrie&lt;/em&gt;), from Latin &lt;em&gt;geometria&lt;/em&gt;, from Greek &lt;em&gt;geometria&lt;/em&gt; &amp;ldquo;measurement of earth or land; &lt;em&gt;geometry&lt;/em&gt;,&amp;rdquo; from combining form of &lt;em&gt;gē&lt;/em&gt; &amp;ldquo;earth, land&amp;rdquo; (see &lt;a class="link" href="https://www.etymonline.com/word/Gaia" title="Etymology, meaning and definition of Gaia"
+target="_blank" rel="noopener"
+&gt;Gaia&lt;/a&gt;) + &lt;em&gt;-metria&lt;/em&gt; &amp;ldquo;a measuring of&amp;rdquo; (see &lt;a class="link" href="https://www.etymonline.com/word/-metry" title="Etymology, meaning and definition of -metry"
+target="_blank" rel="noopener"
+&gt;-metry&lt;/a&gt;). Old English used &lt;em&gt;eorðcræft&lt;/em&gt; &amp;ldquo;earth-craft&amp;rdquo; as a loan-translation of Latin &lt;em&gt;geometria&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The word &amp;ldquo;geometry&amp;rdquo; traces back to ancient Greece, where it meant &amp;ldquo;earth measurement.&amp;rdquo; It allowed for objective comparisons of land area, settling disputes between farmers. From such practical problems, this science of shapes emerged.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/6559ba2b53df7c0ed1b67c7e76591756.webp"
+loading="lazy"
+alt="Nine Chapters on Mathematical Art Exhibition Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;China had its own geometric pioneers. Liu Hui, a mathematician of the Three Kingdoms period, wrote a treatise on measuring the height of a sea island in his commentary on the &lt;em&gt;Nine Chapters on the Mathematical Art&lt;/em&gt;. It systematically used the principle of similar triangles to remotely measure an island&amp;rsquo;s height without setting foot on it. This was China&amp;rsquo;s first mathematical work on surveying.&lt;/p&gt;
+&lt;p&gt;Measuring a sea island might sound trivial, but it freed surveyors from physical constraints, enabling the remote measurement of large, distant objects. The principle of similar triangles is foundational to modern astronomy.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/8e1c45738bdc368bb40f24c886bb70b8.webp"
+loading="lazy"
+alt="Remote Island Measurement Interactive Screen"
+&gt;&lt;/p&gt;
+&lt;p&gt;A nearby interactive exhibit demonstrated the principle. Tapping the screen showed an ancient cartoon figure with a pole, taking a few measurements to get the result.&lt;/p&gt;
+&lt;p&gt;Place a pole of known height, step back until its top visually aligns with the island peak, and record the horizontal distance to the pole. That creates a small right triangle (eye–pole top–pole base) similar to the large triangle (eye–island peak–island base). One sighting gives a ratio between height and distance but leaves both unknown. Repeat from a second spot farther out along the same sightline with another pole and measure the separation between the two pole positions. Those two similar-triangle equations plus the known separation give two equations for two unknowns, allowing you to solve for the island’s height and distance.&lt;/p&gt;
+&lt;p&gt;So, not only is the island&amp;rsquo;s height calculated, but the distance to it is found as well.&lt;/p&gt;
+&lt;h3 id="measuring-water-levels-the-grand-canal"&gt;Measuring Water Levels: The Grand Canal
+&lt;/h3&gt;&lt;p&gt;With basic math, even without systematic physics, ancient people could build incredible things, like a nationwide canal.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a question: Is the water level of the 1,700-km Beijing-Hangzhou Grand Canal constant?&lt;/p&gt;
+&lt;p&gt;Impossible. The terrain varies, with some cities on high ground and others in lowlands. A canal built at a high elevation would flood low-lying cities if it leaked. Building it at a low elevation would require carving through mountains to reach higher cities.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/41f210d0f382e6d8f8ff8babc922d509.webp"
+loading="lazy"
+alt="Panama Canal Cross-Section and Lock Principle Diagram"
+&gt;&lt;/p&gt;
+&lt;p&gt;So, canals are built in sections, each with its own water level. The Panama Canal, for example, uses locks to separate segments. A chamber between two segments changes its water level. A ship enters, the gate behind it closes, and water from the next segment flows in, raising the ship to the next level. Step by step, the ship conquers the terrain.&lt;/p&gt;
+&lt;p&gt;An astute observer might ask: doesn&amp;rsquo;t water constantly flow out of the higher sections? Yes, it does. A canal isn&amp;rsquo;t a self-sustaining system; it needs external water sources to replenish the upper levels. A dry season could even shut it down.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/ce5ed44b99341b4c6acac61b1d335cb7.webp"
+loading="lazy"
+alt="Hydraulic Engineering Survey History Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;Clearly, building the Grand Canal was more than just digging a long trench. It required immense, precise surveying and calculation to find suitable routes. Guo Shoujing of the Yuan Dynasty was the first in China to use &amp;ldquo;sea level&amp;rdquo; as a baseline to compare canal sections, introducing the concept of &amp;ldquo;altitude.&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A bit of trivia: The Grand Canal was built during the Sui Dynasty, but it wasn&amp;rsquo;t the &amp;ldquo;Beijing-Hangzhou&amp;rdquo; Grand Canal at first. The Sui capital was Chang&amp;rsquo;an, and later Luoyang. A canal would have to serve the capital. The original main artery was centered on Luoyang, connecting the northern plains to the southern Jiangnan region, funneling goods to the capital.&lt;/p&gt;
+&lt;p&gt;In the later Yuan, Ming, and Qing dynasties, the political focus shifted north, and the importance of Chang&amp;rsquo;an and Luoyang faded. Massive resources were poured into the canal between Beijing and Hangzhou, which gradually became the main trunk.&lt;/p&gt;
+&lt;p&gt;I learned this from the &lt;strong&gt;Canal Museum&lt;/strong&gt; by the Gongchen Bridge in Hangzhou. If you&amp;rsquo;re interested, major cities along the canal likely have their own museums documenting this history.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="measuring-the-earth-the-meridian-line"&gt;Measuring the Earth: The Meridian Line
+&lt;/h3&gt;&lt;p&gt;Besides measuring things on the ground, the ancients also measured the Earth itself.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/ce7a4647ce91cc9a0fcd8034e947c6dc.webp"
+loading="lazy"
+alt="Monk Yixing Meridian Measurement History Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;In ancient civilizations worldwide, heaven and earth were seen as connected and mutually influential. The Tang dynasty monk Yi Xing was tasked with creating a more accurate astronomical calendar to predict celestial events and guide life on Earth. He set up 13 observation stations over a vast distance, from Mongolia to Vietnam, and had his teams simultaneously measure the altitude of the North Star and the length of the noon shadow.&lt;/p&gt;
+&lt;p&gt;Because the Earth is a sphere, the North Star&amp;rsquo;s altitude and the noon shadow&amp;rsquo;s length vary with latitude. Using this data, he calculated the arc length of a degree of the meridian with the highest accuracy of his time.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In ancient China, &amp;ldquo;zi&amp;rdquo; meant north and &amp;ldquo;wu&amp;rdquo; south, so a &amp;ldquo;ziwu line&amp;rdquo; was a north-south arc on the Earth&amp;rsquo;s surface—what we call a meridian line.&lt;/p&gt;
+&lt;p&gt;The arc length of one degree of longitude is key data; it can be used to calculate the size of the Earth. This discovery could have sparked an age of exploration for China. But that didn&amp;rsquo;t happen, partly because the concept of a spherical Earth wasn&amp;rsquo;t yet widely accepted.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="measuring-the-sky-the-cross-staff"&gt;Measuring the Sky: The Cross-Staff
+&lt;/h3&gt;&lt;p&gt;The ancients also measured the sky.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/b118e9fef8ec73f7849605189bd7b7c0.webp"
+loading="lazy"
+alt="Celestial Navigation Technology Exhibition Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;At sea, with no landmarks, the sky is the only guide. By day, you have the sun. At night, what do you have? The moon is unreliable; as Earth&amp;rsquo;s satellite, its position is too variable.&lt;/p&gt;
+&lt;p&gt;Ancient nighttime navigation relied on the stars. This worked because the distant stars form a fixed map in the sky.&lt;/p&gt;
+&lt;p&gt;Strictly speaking, stars aren&amp;rsquo;t completely fixed; their own motion and the Earth&amp;rsquo;s precession slowly change their positions. But these changes are so gradual that for ancient navigators, the stars were a stable and information-rich guide, even more so than the sun. The challenge was learning to read this celestial &amp;ldquo;map.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/de8a1e112a8b6583ea2627aa422caee1.webp"
+loading="lazy"
+alt="Ancient Star-Gazing Board Navigation Tool"
+&gt;&lt;/p&gt;
+&lt;p&gt;The cross-staff was a tool for measuring a ship&amp;rsquo;s latitude, usually by sighting the North Star.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/4796ad5682a85b522c4735fbb338c504.webp"
+loading="lazy"
+alt="Star-Gazing Board Polaris Altitude Measurement Diagram"
+&gt;&lt;/p&gt;
+&lt;p&gt;It looks complex, but the principle is simple. You select one of the square boards. Holding it at arm&amp;rsquo;s length, you align its bottom edge with the horizon. If the top edge lines up with the North Star, you&amp;rsquo;ve found the star&amp;rsquo;s altitude.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/93b265f7c295d178ccf6e0974020b81f.webp"
+loading="lazy"
+alt="Star-Gazing Board Six-Finger Measurement Principle"
+&gt;&lt;/p&gt;
+&lt;p&gt;If the &amp;ldquo;six-finger&amp;rdquo; board lines up, you&amp;rsquo;d say, &amp;ldquo;The North Star is six fingers high.&amp;rdquo; This measurement could be converted to latitude using a table. A &amp;ldquo;finger&amp;rdquo; was a unit of about 2cm. If the alignment wasn&amp;rsquo;t perfect, you&amp;rsquo;d try a smaller or larger board.&lt;/p&gt;
+&lt;p&gt;Amazingly, this crude device played a huge role in Zheng He&amp;rsquo;s voyages. The method was obviously prone to error—arm lengths differ, and holding the board perfectly vertical on a rocking ship is difficult. But this principle inspired more advanced instruments, like the sextant.&lt;/p&gt;
+&lt;p&gt;Coincidentally, I found an &lt;a class="link" href="https://mp.weixin.qq.com/s?__biz=MzIxMjg4OTI1OQ==&amp;amp;mid=2247487525&amp;amp;idx=2&amp;amp;sn=870ada9649cf86a215a50f8f08e1174a&amp;amp;chksm=97be6be1a0c9e2f7df6793c00f778eb92fc28ac1fff95732a7c9a7b447356d6ba6c052fa8f47#rd" target="_blank" rel="noopener"
+&gt;article from the museum&amp;rsquo;s official WeChat account&lt;/a&gt; that details how to use the cross-staff.&lt;/p&gt;
+&lt;p&gt;The cross-staff and sextant measure latitude. Longitude was a much harder problem for all ancient seafaring civilizations. But why was knowing only latitude so useful? If you were sailing to a known location, you could look up its latitude, sail north or south until you reached that latitude, and then simply sail east or west along it.&lt;/p&gt;
+&lt;p&gt;However, I suspect this method would be less effective in archipelagos.&lt;/p&gt;
+&lt;h3 id="nationwide-large-scale-surveys"&gt;Nationwide Large-Scale Surveys
+&lt;/h3&gt;&lt;p&gt;Rulers throughout history recognized the benefits of accurate measurement and periodically launched nationwide survey campaigns.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/df7c98d1ff91fb465b2ae3c28df372a0.webp"
+loading="lazy"
+alt="Guo Shoujing’s Worldwide Survey and Simplified Armillary Sphere"
+&gt;&lt;/p&gt;
+&lt;p&gt;Guo Shoujing of the Yuan Dynasty was ordered to conduct a nationwide survey, rivaling Yi Xing&amp;rsquo;s in scope.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To compile a new calendar, Guo Shoujing led an unprecedented &amp;ldquo;Four Seas Survey.&amp;rdquo; It ranged from the Paracel Islands in the south to near the Arctic Circle. Using instruments he invented, like the simplified armillary sphere (Jianyi), he measured the latitudes of 27 locations with accuracy very close to modern values.&lt;/p&gt;
+&lt;p&gt;In what is now Dengfeng, Henan, Guo Shoujing built an observatory that functioned as a giant gnomon; it&amp;rsquo;s the oldest surviving observatory in China. To improve accuracy, he invented a &amp;ldquo;shadow definer&amp;rdquo; that used a pinhole to measure shadow length to within ±2 millimeters.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/da8abe57424bb8b649e2272cc9572a52.webp"
+loading="lazy"
+alt="Ancient Astronomical Instrument Simplified Armillary Sphere"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is the Jianyi, a simplified armillary sphere. It looks anything but simple, but its function was direct: to measure a celestial body&amp;rsquo;s coordinates.&lt;/p&gt;
+&lt;p&gt;Time was running short, so I didn&amp;rsquo;t examine the Jianyi closely. I was the only visitor, and a staff member, noticing my interest, told me I could use the paper from the entrance to make a souvenir map rubbing. I chose the &amp;ldquo;Mountains and Rivers of the Nine Provinces.&amp;rdquo; Here&amp;rsquo;s the result:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/fcc0bf2c2d9ea516b9476357c3968207.webp"
+loading="lazy"
+alt="Nine Provinces Mountains and Rivers Rubbing Souvenir"
+&gt;&lt;/p&gt;
+&lt;p&gt;I asked how large the museum was and realized I&amp;rsquo;d seen only a fifth of it in half a day. I sped up, stopping only for things that immediately caught my eye and taking photos of the rest.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/37b26e82075a2f9a007cfab7a92a80d9.webp"
+loading="lazy"
+alt="Kangxi Imperial Atlas Historical Map"
+&gt;&lt;/p&gt;
+&lt;p&gt;The renowned scholar-emperor Kangxi personally studied and directed a massive survey that produced the &lt;em&gt;Huangyu Quanlan Tu&lt;/em&gt; (Map of the Imperial Territories).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Emperor Kangxi of the Qing Dynasty personally directed a large-scale survey using latitude, longitude, and triangulation. It produced 641 coordinate points across the country. Combined with China&amp;rsquo;s vast geographical literature, this data was used to create the &lt;em&gt;Huangyu Quanlan Tu&lt;/em&gt;, China&amp;rsquo;s first map based on measured coordinates. Its coverage, accuracy, and speed were unparalleled in the world at the time. The project also led to the first survey of Mount Everest and provided the first empirical evidence that the Earth is an oblate spheroid, marking a great leap for Chinese surveying technology.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Regarding the &amp;ldquo;first discovery that the Earth is an oblate spheroid,&amp;rdquo; I did some digging. With so much data, they spotted a pattern: the arc length of one degree of latitude was longer at high latitudes than at low latitudes. This meant the Earth is slightly flattened at the poles and bulges at the equator. The difference between Earth&amp;rsquo;s polar and equatorial diameters is just 0.33%—a tiny discrepancy on a planetary scale, discoverable only through precise measurement. However, &amp;ldquo;first discovery&amp;rdquo; should really be &amp;ldquo;first confirmed,&amp;rdquo; as Newton had already theorized an oblate spheroid.&lt;/p&gt;
+&lt;p&gt;But this led me to a contradiction: why does a &lt;strong&gt;longer arc length at higher latitudes&lt;/strong&gt; mean the &lt;strong&gt;poles are flatter&lt;/strong&gt;? My intuition said the opposite.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/0ae3180f5d50905eccaa0f44b5d71774.webp"
+loading="lazy"
+alt="Oblate Earth 0-45 Degree Arc Length Diagram"
+&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s exaggerate. If the Earth spun much faster, centrifugal force would flatten it like a lens. A cross-section would show that the meridian arc from 0 to 45 degrees is clearly longer than the arc from 45 to 90 degrees.&lt;/p&gt;
+&lt;p&gt;To avoid being tricked by intuition, I reasoned it out. A quarter meridian can be divided into 90 one-degree arcs. If the high-latitude arcs are longer, then &lt;code&gt;... &amp;lt; arc 44-45 &amp;lt; arc 45-46 &amp;lt; ...&lt;/code&gt;. Logically, the total arc length above 45 degrees should be greater than that below it. But my diagram shows the opposite. Where&amp;rsquo;s the flaw?&lt;/p&gt;
+&lt;p&gt;After some research, I found the flaw was in my understanding of &amp;ldquo;latitude.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re used to thinking of Earth as a perfect sphere where latitude lines are evenly spaced. On a perfect sphere, definitions of latitude don&amp;rsquo;t matter. But on an oblate spheroid, the two common definitions differ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Geodetic Latitude&lt;/strong&gt;: The angle between the normal (a line perpendicular to the surface) and the equatorial plane. This line does not necessarily pass through the Earth&amp;rsquo;s center.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geocentric Latitude&lt;/strong&gt;: The angle between a line from the surface to the Earth&amp;rsquo;s center and the equatorial plane.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/6dc886a8157b670d8f7534b344daf14f.webp"
+loading="lazy"
+alt="Oblate Earth 45-90 Degree Arc Length Diagram"
+&gt;&lt;/p&gt;
+&lt;p&gt;As the diagram shows, 45 degrees geodetic latitude is not where you&amp;rsquo;d intuitively think it is. Conflict resolved.&lt;/p&gt;
+&lt;p&gt;My mistake was assuming geocentric latitude, a classic case of modern knowledge leading to a wrong assumption. Geographical latitude is geodetic. From an ancient perspective, geodetic latitude is far more intuitive and measurable—you don&amp;rsquo;t even need to believe the Earth is a sphere to use it. The concept of geocentric latitude, on the other hand, is meaningless without a spherical Earth model.&lt;/p&gt;
+&lt;p&gt;Enough about latitude. Back to the &lt;em&gt;Huangyu Quanlan Tu&lt;/em&gt;. The museum had a QR code for an audio guide, which I&amp;rsquo;ve transcribed:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1223" target="_blank" rel="noopener"
+&gt;http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1223&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There were also several other ancient surveying instruments on display:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kangxi Era Globe (Replica)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1224" target="_blank" rel="noopener"
+&gt;http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1224&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A globe offers a visual overview of the Earth. This one was made by the Imperial Household Department workshop, based on the &lt;em&gt;Kunyu Tushuo&lt;/em&gt; (Illustrated Account of the Earth) by Ferdinand Verbiest, a Belgian missionary and Emperor Kangxi&amp;rsquo;s science tutor. The theory of a round Earth is the basis for latitude and longitude measurement and map projection.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Gilt Copper Orrery of the Seven Luminaries (Replica)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1225" target="_blank" rel="noopener"
+&gt;http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1225&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Used to demonstrate the movements of the seven luminaries (Venus, Jupiter, Mercury, Mars, Saturn, the Sun, and the Moon) and celestial events like eclipses. Longitude for the &lt;em&gt;Huangyu Quanlan Tu&lt;/em&gt; was measured primarily by observing lunar eclipses and the occultations of Jupiter&amp;rsquo;s moons.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Imperial Gilt Copper Astrolabe (Replica)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1226" target="_blank" rel="noopener"
+&gt;http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1226&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Used to calculate time for geodetic surveys. It consists of a base plate, a celestial plate, a triangular gnomon, and a plumb line. The celestial plate is rotated to align the gnomon with key stars, and the time is read from the corresponding solar term on the base plate.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Theodolite with a Single Telescope (Replica)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1227" target="_blank" rel="noopener"
+&gt;http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1227&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Used to measure azimuth angles. The disk is engraved from 10° to 360° and has four sight vanes. Two are fixed, and two are movable, supporting a telescope with a spirit level for horizontal correction.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Copper Altitude Quadrant (Replica)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1228" target="_blank" rel="noopener"
+&gt;http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1228&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Used to measure the altitude of a celestial body or an object above the horizon, and also for horizontal angles. The base has an embedded compass to correct the measurement direction.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Plane Table (Replica)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1229" target="_blank" rel="noopener"
+&gt;http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1229&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Used to measure distances and survey plots of land. One side has fixed sight vanes, and a movable alidade is in the lower-left. Drawing paper is clipped to the board, allowing for simultaneous surveying and drawing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Black Lacquer Box of Drawing Instruments (Replica)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1230" target="_blank" rel="noopener"
+&gt;http://ws.taoart.com/bwgAudio/audio/detail.htm?id=1230&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This two-layered box contains over thirty drawing instruments, including various dividers, compasses, scales, rulers, and a protractor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="modern-and-contemporary-chinese-surveying-and-mapping"&gt;Modern and Contemporary Chinese Surveying and Mapping
+&lt;/h2&gt;&lt;p&gt;After the ancient section, I skipped a small exhibit on modern history and went straight to the contemporary surveying area.&lt;/p&gt;
+&lt;h3 id="surveying-datums"&gt;Surveying Datums
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/4747c35ba94438ace05af5f50de03ac0.webp"
+loading="lazy"
+alt="National Geodetic Datum System Exhibition Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;First up: national surveying datums. In plain English: what do we measure, and by what standards?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/8e4e1eff407c12cf671d9994eb5dee26.webp"
+loading="lazy"
+alt="National GNSS Geodetic Control Network Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;The geodetic control network defines 3D coordinates. Ground survey reference stations are scattered across the country. Like the international prototype meter and kilogram, their coordinates are maintained with extreme precision, and all other locations are calculated relative to them.&lt;/p&gt;
+&lt;p&gt;This involves ground stations, real-time satellite monitoring, and data centers. Even minute factors like tectonic plate movement are tracked, allowing the system to dynamically update the true coordinates of each station.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/36ecbdad1a36014ac39a4914d6b6d855.webp"
+loading="lazy"
+alt="Ancient Observatory Building Model"
+&gt;&lt;/p&gt;
+&lt;p&gt;A model of a classic geodetic origin. China&amp;rsquo;s geodetic origin is in Jingyang County, Shaanxi Province. It was chosen in the last century because it was near the country&amp;rsquo;s geographical center and geologically stable. This facilitated the expansion of the control network nationwide.&lt;/p&gt;
+&lt;p&gt;Today, however, the network no longer uses a physical origin. With modern technology, the geodetic origin is defined as the Earth&amp;rsquo;s center of mass, in line with international standards.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/233be0e8b51119d960a8e4e0436c3944.webp"
+loading="lazy"
+alt="National Elevation Control Network and Map Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;The vertical control network is similar, defining numerous reference points for altitude.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/4e6b491bc20622a39684e15df73aa374.webp"
+loading="lazy"
+alt="Benchmark Origin Building Model Exhibit"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is a model of a leveling benchmark, the starting point for altitude measurements, located on Guanxiang Hill in Qingdao.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/0f4a8ca05149ea32d7c83b58fa1e9082.webp"
+loading="lazy"
+alt="National Gravity and Elevation Control Network Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;There are also reference points for gravity.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/df4441616b5e83911c917f780f9fc953.webp"
+loading="lazy"
+alt="National Satellite Navigation Positioning Reference Station Network Map Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;And a network of reference stations for satellite navigation and positioning.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/b98cac1665d1a486d0c6e261487bc68e.webp"
+loading="lazy"
+alt="Satellite Navigation Positioning Reference Station Jinhua Station Model Exhibit"
+&gt;&lt;/p&gt;
+&lt;p&gt;A satellite navigation and positioning reference station.&lt;/p&gt;
+&lt;h3 id="applications-of-datums"&gt;Applications of Datums
+&lt;/h3&gt;&lt;p&gt;What can we do with these datums?&lt;/p&gt;
+&lt;p&gt;With accurate 3D coordinates, we can perform precise nationwide analysis for the first time.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/6ee5c87f9ba2e217d0319da262e2696e.webp"
+loading="lazy"
+alt="Hu Huanyong Line Population Distribution Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;The Hu Huanyong Line diagonally divides China. A comparison of the two sides reveals a stark population imbalance:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In 1935, geographer Hu Huanyong proposed a line dividing China&amp;rsquo;s population density. It runs from Heihe to Tengchong. At the time, 96% of the population lived on 36% of the land southeast of the line, while 4% lived on the other 64%.&lt;/p&gt;
+&lt;p&gt;This demographic divide persists. According to the 2010 census, 94% of the population lives on 43% of the land southeast of the line, with 6% on the remaining 57%.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/e8e497389e7133b3fd640e8332ea7cc6.webp"
+loading="lazy"
+alt="Hu Huanyong Line Circular Population Map"
+&gt;&lt;/p&gt;
+&lt;p&gt;Hu didn&amp;rsquo;t just draw an arbitrary line. It&amp;rsquo;s a real geographical boundary where population density drops off sharply, and it has been stable for a long time. It reflects China&amp;rsquo;s geographical realities and closely matches the 400mm annual precipitation line. Monsoons, water resources, terrain, and history have all contributed to the distinctly different civilizations on either side: agricultural and pastoral.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/d84fc3b57197eab0a86939267a924b6e.webp"
+loading="lazy"
+alt="National Land Resource Statistics Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;The first national geographical census determined the breakdown of cultivated land:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Area (10,000 sq km)&lt;/th&gt;
+&lt;th&gt;Percentage (%)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Paddy Field&lt;/td&gt;
+&lt;td&gt;30.39&lt;/td&gt;
+&lt;td&gt;19.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dry Land&lt;/td&gt;
+&lt;td&gt;109.52&lt;/td&gt;
+&lt;td&gt;68.49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Orchard&lt;/td&gt;
+&lt;td&gt;11.64&lt;/td&gt;
+&lt;td&gt;7.28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Other&lt;/td&gt;
+&lt;td&gt;8.36&lt;/td&gt;
+&lt;td&gt;5.23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total&lt;/td&gt;
+&lt;td&gt;159.91&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/6a8e2e5e8f7d8107165e7ea4de17aebc.webp"
+loading="lazy"
+alt="National Water Resource Distribution Statistics Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;It also tallied the distribution of water resources by altitude:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Region&lt;/th&gt;
+&lt;th&gt;Area (10,000 sq km)&lt;/th&gt;
+&lt;th&gt;Percentage (%)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Extremely High Altitude&lt;/td&gt;
+&lt;td&gt;0.49&lt;/td&gt;
+&lt;td&gt;2.37&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;High Altitude&lt;/td&gt;
+&lt;td&gt;4.72&lt;/td&gt;
+&lt;td&gt;22.86&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Medium Altitude&lt;/td&gt;
+&lt;td&gt;2.01&lt;/td&gt;
+&lt;td&gt;9.73&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Low Altitude&lt;/td&gt;
+&lt;td&gt;13.43&lt;/td&gt;
+&lt;td&gt;65.04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total&lt;/td&gt;
+&lt;td&gt;20.65&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/f4f85bbcbf3b4e947a0eca891963d348.webp"
+loading="lazy"
+alt="National Vegetation Coverage Statistics Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;And vegetation cover by altitude:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Region&lt;/th&gt;
+&lt;th&gt;Area (10,000 sq km)&lt;/th&gt;
+&lt;th&gt;Percentage (%)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Extremely High Altitude&lt;/td&gt;
+&lt;td&gt;37.42&lt;/td&gt;
+&lt;td&gt;6.27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;High Altitude&lt;/td&gt;
+&lt;td&gt;129.00&lt;/td&gt;
+&lt;td&gt;21.62&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Medium Altitude&lt;/td&gt;
+&lt;td&gt;210.42&lt;/td&gt;
+&lt;td&gt;35.26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Low Altitude&lt;/td&gt;
+&lt;td&gt;219.94&lt;/td&gt;
+&lt;td&gt;36.85&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total&lt;/td&gt;
+&lt;td&gt;596.78&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Further on, an exhibit detailed the three measurements of Mount Everest&amp;rsquo;s height. The latest official height is 8848.86 meters to the &amp;ldquo;snow surface.&amp;rdquo; You can easily find the story behind this online.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/0214a860cc504173697b7707cb162cd3.webp"
+loading="lazy"
+alt="Eye of Time and Space Projection Interactive Device"
+&gt;&lt;/p&gt;
+&lt;p&gt;I passed a futuristic installation with a sleek console and an oddly shaped screen, like something from an alien spaceship.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/5b5a063dbd68f4edca19354ad8d79663.webp"
+loading="lazy"
+alt="Earthquake Relief Surveying Application Interactive Device"
+&gt;&lt;/p&gt;
+&lt;p&gt;It was an interactive exhibit on how survey data is used for earthquake disaster relief.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/9e14b3a9dac5687e3e057bc178e74fab.webp"
+loading="lazy"
+alt="Eye of Time and Space Projection Interactive Device"
+&gt;&lt;/p&gt;
+&lt;p&gt;Another clever device: rotating discs on a barrel showed the historical changes of cities in Zhejiang.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/cfb6f8c7f78a595b3d058b84a56109ea.webp"
+loading="lazy"
+alt="Zhejiang City Historical Change Rotating Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;The modern section on the first floor was much larger than I&amp;rsquo;ve shown. I didn&amp;rsquo;t photograph many of the display boards with dense text.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/52741edf82f2aefffefa42f160e9bb9d.webp"
+loading="lazy"
+alt="Surveying Technology Interactive Touch Wall"
+&gt;&lt;/p&gt;
+&lt;p&gt;As I left the first-floor hall, I saw two opposing interactive walls. Touching a painting on the wall lit up the corresponding object, reminding visitors of the pervasive impact of surveying technology on modern society.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/c5739df0da779e12686464b78c2814e6.webp"
+loading="lazy"
+alt="Surveying Technology Impact Interactive Wall"
+&gt;&lt;/p&gt;
+&lt;h2 id="applications-of-surveying-technology"&gt;Applications of Surveying Technology
+&lt;/h2&gt;&lt;p&gt;On the second floor, the focus shifted from history to the technology itself.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/9963657c52e26b9c6a2c5f17ee28882c.webp"
+loading="lazy"
+alt="Different Civilizations Geographic View Exhibition Entrance"
+&gt;&lt;/p&gt;
+&lt;p&gt;Of course, it began with a touch of history, showcasing the geographical views of different civilizations over time.&lt;/p&gt;
+&lt;p&gt;Note the timeline: the theory of a spherical Earth was proposed in the 6th century BC. Two centuries later, there was already strong evidence to support it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the 6th century BC, the ancient Greek Pythagoras proposed the concept of a spherical Earth. Two centuries later, Aristotle further argued for it based on the spherical shadow during a lunar eclipse, astronomical observations, and the way ships disappear over the horizon.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yet, nearly 2,000 years later, most people still believed the Earth was a flat disc.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Before the 15th-17th centuries, many Europeans believed the ocean was a vast, flat plane ending in a waterfall. This view was gradually overturned during the Age of Discovery.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s a powerful reminder of how long it can take for a now-obvious truth to overcome cognitive inertia. It also makes you wonder: what if the scientific spirit of ancient Greece had continued uninterrupted?&lt;/p&gt;
+&lt;h3 id="numerical-measurement"&gt;Numerical Measurement
+&lt;/h3&gt;&lt;p&gt;Once we knew the Earth was a sphere, we had to measure it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/f0d6c408bea51397250150d71b619f71.webp"
+loading="lazy"
+alt="Geoid and Elevation Benchmark Schematic Diagram"
+&gt;&lt;/p&gt;
+&lt;p&gt;A few related but distinct concepts are at play here. Imagine the Earth as a perfect ellipsoid (the green dashed line). The actual solid surface (mountains, seabeds) is uneven (the solid green line). You can&amp;rsquo;t use this uneven surface as a baseline for measuring height. A more uniform reference is sea level (the solid white line). But because Earth&amp;rsquo;s mass isn&amp;rsquo;t evenly distributed, the sea level (the geoid) doesn&amp;rsquo;t perfectly match a standard ellipse.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/208cc31d8adf37bc15def1b21aa5e0b0.webp"
+loading="lazy"
+alt="NASA Geoid Color Earth Map"
+&gt;&lt;/p&gt;
+&lt;p&gt;Coincidentally, I&amp;rsquo;d just seen a NASA image of the geoid on social media. It gives you a great visual for how much the geoid, shaped by gravity, differs from a perfect sphere.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/c15f8ca5c0f1c6b45e7840639e120053.webp"
+loading="lazy"
+alt="Contour Sand Table Interactive Projection Device"
+&gt;&lt;/p&gt;
+&lt;p&gt;This device lets you see how topographic maps are made. Using the geoid concept, imagine slicing the Earth with parallel planes at regular intervals. The lines where these planes intersect the terrain are the contour lines.&lt;/p&gt;
+&lt;p&gt;You can shape the sand in the sandbox, and an overhead projector instantly redraws the contour lines on the new terrain.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/0049b42bd1c2729ff1c7646e92e61d5c.webp"
+loading="lazy"
+alt="Modern Surveying Instruments Exhibition Area"
+&gt;&lt;/p&gt;
+&lt;p&gt;This area was lined with an impressive collection of surveying instruments.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/21e4761af32a594f08916793876fd0f9.webp"
+loading="lazy"
+alt="Surveying Instruments and Equipment Display Case"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/b6c22daa33d1f846e1396b8d91d3bcc2.webp"
+loading="lazy"
+alt="Marine Positioning Long and Short Baseline Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;The section on marine positioning caught my eye. The diagram shows two common acoustic positioning methods for missions at sea.&lt;/p&gt;
+&lt;p&gt;The long-baseline method (left) is used for long-term projects in a fixed area, like oil drilling or cable laying. A ship deploys an array of transponders on the seabed and calibrates their positions to centimeter-level accuracy. The ship can then use signals from at least three transponders to pinpoint its own location with extreme precision.&lt;/p&gt;
+&lt;p&gt;The short-baseline method is used to track moving underwater objects, like ROVs. It works in reverse: the ship emits a sound wave, and receivers at three different points on the ship listen for the object&amp;rsquo;s reply, calculating its position for precise control.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/21420857a3b343cb98b0c36f1da9cd55.webp"
+loading="lazy"
+alt="Unmanned Survey Vessel Model Exhibit"
+&gt;&lt;/p&gt;
+&lt;p&gt;The unmanned survey boat is surprisingly small.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/224c1ee48466be3d9aa8f76d2d3c4725.webp"
+loading="lazy"
+alt="Rope Depth Sounding Interactive Device Showing Ancient Ocean Depth Measurement"
+&gt;&lt;/p&gt;
+&lt;p&gt;This exhibit showed the evolution of underwater survey technology. Ancient methods involved lowering a weighted, knotted rope and counting the knots to determine depth.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/7ce6aa074f21a96694b59c3f61356aa3.webp"
+loading="lazy"
+alt="Echo Sounding Interactive Device Showing Sonar Depth Measurement Principle"
+&gt;&lt;/p&gt;
+&lt;p&gt;With sonar, you can measure the depth along a ship&amp;rsquo;s path.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/019d9c97d4b830a964f28c4a268f87e4.webp"
+loading="lazy"
+alt="Multibeam Bathymetry Interactive Device Showing Modern Survey Ship Mapping Seafloor"
+&gt;&lt;/p&gt;
+&lt;p&gt;Multibeam sonar scans a wide swath at once, creating a full 3D image of the seafloor, not just a line of depth soundings.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/ee1d346f9a7d8b0db34400b52cf26488.webp"
+loading="lazy"
+alt="Zhejiang Province Land-Sea Evolution Historical Map Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;And so, we land-dwellers have a detailed understanding of the ocean floor. Our maps can even reflect submarine topography.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/1ea0767649c92636dd81882c9cd587a2.webp"
+loading="lazy"
+alt="Zhejiang Province Marine Atlas Exhibition Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;We can also map topography across time. This diagram shows how the coastline of the Zhejiang region has changed over geological eras.&lt;/p&gt;
+&lt;h3 id="image-based-measurement"&gt;Image-based Measurement
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/7cbf8f1a6900a8f5ea55e1036c498acf.webp"
+loading="lazy"
+alt="Remote Sensing Technology Principle and Application Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;With modern computer vision and AI, a new path to surveying has opened up: visual measurement, or remote sensing. We capture images and analyze the data within them.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/242a58277626c3e041068ad5faac824f.webp"
+loading="lazy"
+alt="Remote Sensing Technology Development Timeline Exhibition Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;The history of remote sensing technology.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/a3b9712fade84f58af0aa4214f9bcc43.webp"
+loading="lazy"
+alt="Remote Sensing Satellite Imagery Comparison Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;An interesting device showed how aerial drone photos of a city are stitched together. This is the same process used to create the satellite layer in map apps.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/a58d2e7b454df7ff390efc7103b516f0.webp"
+loading="lazy"
+alt="Visible Light Thermal Infrared Microwave Remote Sensing Comparison"
+&gt;&lt;/p&gt;
+&lt;p&gt;Remote sensing goes beyond visible light, using infrared, microwave, and other bands to gather richer information.&lt;/p&gt;
+&lt;h3 id="gis-systems"&gt;GIS Systems
+&lt;/h3&gt;&lt;p&gt;This hall was a highlight, showcasing the true power of surveying technology. All the history and techniques discussed so far are about collecting data.&lt;/p&gt;
+&lt;p&gt;But are numbers and images the end goal? In data analysis, raw data is useless, no matter how much you have. It must be cleaned, processed, and integrated to derive &lt;strong&gt;meaning&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Similarly, scattered survey data must be integrated into a system to create a multi-dimensional reconstruction of our world. This is GIS: the Geographic Information System.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/ce3302313639dc4d03b9c34c39294a12.webp"
+loading="lazy"
+alt="GIS Geographic Information System Origin and Development Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;This board displays one of the earliest applications of GIS.&lt;/p&gt;
+&lt;p&gt;In mid-19th century London, during a cholera outbreak, Dr. John Snow (no, not that one) mapped the locations of cases. He noticed they clustered around a specific water pump, allowing him to identify and disable the source of the contamination.&lt;/p&gt;
+&lt;p&gt;This is a landmark case in the history of data analysis. I&amp;rsquo;ll recommend a documentary at the end that covers this story.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/0a869aa79ecef39a6950f2fc93c2898f.webp"
+loading="lazy"
+alt="Big Talk GIS Science Interactive Display Screen"
+&gt;&lt;/p&gt;
+&lt;p&gt;This interactive screen offered a complete introduction to GIS. I really wanted to explore it, but I&amp;rsquo;ll have to save that for next time.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/163184a12dbbeb524b09d1c0ca9998a3.webp"
+loading="lazy"
+alt="Supermarket Site Selection GIS Spatial Analysis Screen"
+&gt;&lt;/p&gt;
+&lt;p&gt;This installation demonstrated GIS for supermarket site selection. Imagine a city wants to build a new public-welfare supermarket. It needs to be on a main road, serve a large population, be near a transport hub, have reasonable rent, and avoid existing competitors. Following the steps, the device filters down to the optimal locations.&lt;/p&gt;
+&lt;p&gt;Only by integrating data on road networks, population, transport hubs, land prices, and property types can such an analysis be performed. This highlights the unique power of GIS.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/0b9363c7bf3f60b26072c5a47e7615ad.webp"
+loading="lazy"
+alt="Autonomous Driving and Smart Traffic Simulation Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;There was also a racing game I didn&amp;rsquo;t try. I&amp;rsquo;m not sure what aspect of GIS it demonstrated, but it seemed popular with kids—it&amp;rsquo;s all over Xiaohongshu (Little Red Book) posts about the museum.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/804182712ad114b8de23a20bdeb65f36.webp"
+loading="lazy"
+alt="Flood Inundation Analysis GIS Interactive Device"
+&gt;&lt;/p&gt;
+&lt;p&gt;This flood inundation analysis tool demonstrates a value far greater than site selection. It simulates a river basin flood, allowing for rapid assessment of which villages will be affected, enabling time-critical evacuation decisions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/ff1b3a24cd959d93792435aa0824a286.webp"
+loading="lazy"
+alt="Flood Disaster Simulation GIS Interactive Screen"
+&gt;&lt;/p&gt;
+&lt;p&gt;When we see disaster relief news, we see frontline responders and strategic command centers. But behind their rapid response is a robust geographic information database.&lt;/p&gt;
+&lt;p&gt;A nation&amp;rsquo;s strength is highly correlated with its level of informatization. National power is the ability to mobilize resources, and data&amp;rsquo;s role in that is ever-growing.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/703ed452a552ed2c1936a4069f2d6484.webp"
+loading="lazy"
+alt="3S Technology Integration Interactive Display for Forest Fire Break Setup"
+&gt;&lt;/p&gt;
+&lt;p&gt;This installation showed how remote sensing technology helps fight forest fires.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/ca885e91c5766d53119bf757013cda5a.webp"
+loading="lazy"
+alt="3S Technology Integration Interactive Display for Route Planning Decision Support"
+&gt;&lt;/p&gt;
+&lt;p&gt;Manual or automated analysis of fire imagery provides crucial, real-time intelligence for firefighting efforts and helps predict a fire&amp;rsquo;s spread.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/c6b9bf5b8ea714773f9c9deb5df752fe.webp"
+loading="lazy"
+alt="Astronomical Surveying and Starry Sky Interactive Area"
+&gt;&lt;/p&gt;
+&lt;p&gt;Next, I passed through a dome theater. I caught the 10:40 AM show, a 5-minute film about the BeiDou Navigation Satellite System. Unfortunately, it didn&amp;rsquo;t make great use of the dome format; it felt more like a regular video projected on a curved screen.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/9c30a9c86afb113b3aa9a8a381fd62a8.webp"
+loading="lazy"
+alt="Surveying Technology Modern Application Exhibition Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;This series of panels showed macro-level applications of GIS in public life.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/d0e22d35e41787ca9fe511aabd834216.webp"
+loading="lazy"
+alt="Electric Power Industry Surveying Technology Application Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;The role of GIS in the power grid can be abstract, so let me explain.&lt;/p&gt;
+&lt;p&gt;We take for granted that electricity is always there when we flip a switch. But when you turn on an air conditioner, where does that extra power come from?&lt;/p&gt;
+&lt;p&gt;At the other end of the grid, a natural gas plant might ramp up its output slightly. Or a solar farm might discharge a bit from its battery storage.&lt;/p&gt;
+&lt;p&gt;Electricity travels at near light speed. The moment you turn on your AC, it needs that power. How does the plant know?&lt;/p&gt;
+&lt;p&gt;This is the incredible challenge of a national power grid. The grid must constantly predict load changes and dispatch flexible power sources (hydro, gas, batteries) to match demand in real-time.&lt;/p&gt;
+&lt;p&gt;What if supply and demand don&amp;rsquo;t match? The entire grid and all its connected equipment must operate at a precise AC frequency. A significant mismatch causes the frequency to drift, which damages equipment. Damaged equipment destabilizes the frequency further, creating a vicious cycle that can lead to a nationwide blackout.&lt;/p&gt;
+&lt;p&gt;Therefore, the grid must predict and react to demand changes almost instantly, automatically dispatching power plants. This instantaneous response requires perfect time synchronization across the entire system.&lt;/p&gt;
+&lt;p&gt;This is where GIS plays a vital, life-or-death role: providing that precise time synchronization.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/6415395762afc550b07a1c2ccdc28448.webp"
+loading="lazy"
+alt="Satellite Remote Sensing and Space Surveying Technology Interactive Display"
+&gt;&lt;/p&gt;
+&lt;p&gt;This installation simulated a military application of GIS: using satellite positioning to direct missile strikes.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/09965fcfe1b7c15a5ec946e8dfd51729.webp"
+loading="lazy"
+alt="Military Simulation Interactive Game Lock-On Complete Screen"
+&gt;&lt;/p&gt;
+&lt;p&gt;Target locked. I hit the launch button and slipped away to the next exhibit. Heroes in movies always walk away from explosions without looking back, right? 😉&lt;/p&gt;
+&lt;h2 id="the-story-of-maps"&gt;The Story of Maps
+&lt;/h2&gt;&lt;p&gt;The last hall on the second floor was dedicated to maps, the product of all this surveying. &amp;ldquo;Viewing the world on a tiny square&amp;rdquo;—the phrase perfectly captures the essence of a map.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/ee6ad73aa889c93a49d2a306857e13f4.webp"
+loading="lazy"
+alt="Fangcun Lankunyun Ancient Map Exhibition Hall"
+&gt;&lt;/p&gt;
+&lt;p&gt;Entering the hall, I was greeted by a stunning collection of rare ancient maps—a paradise for any map lover.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/606c14b87e92124cd85b23bbe5ba1bd0.webp"
+loading="lazy"
+alt="Ancient Triangulation Network Model Exhibit"
+&gt;&lt;/p&gt;
+&lt;p&gt;The people of the Marshall Islands invented sea charts made of bound sticks.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/54890c1d5a3e4cc96a1d061da8f19bf6.webp"
+loading="lazy"
+alt="Babylonian World Map Replica 6th Century BC"
+&gt;&lt;/p&gt;
+&lt;p&gt;A Babylonian stone-carved world map.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/d34922a407950c0d3ef0fb0bf4e893e4.webp"
+loading="lazy"
+alt="Architectural Drawing of a Garden Replica 1550-1295 BC Thebes Egypt"
+&gt;&lt;/p&gt;
+&lt;p&gt;A floor plan of a garden from a tomb in Egypt.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/f535fdded54f02c8fd61eab2f96ea090.webp"
+loading="lazy"
+alt="Ptolemy Ancient World Map Replica"
+&gt;&lt;/p&gt;
+&lt;p&gt;Ptolemy&amp;rsquo;s world map.&lt;/p&gt;
+&lt;p&gt;Ptolemy is famous for his geocentric model. Modern people, accustomed to the heliocentric model, often see him as a figure of ridicule, but that&amp;rsquo;s a Whiggish perspective to be avoided. Ptolemy actually made enormous contributions to astronomy and geography.&lt;/p&gt;
+&lt;p&gt;In geography, he was a great synthesizer of past knowledge. On his map, he used innovative projection methods and rigorous math to represent the spherical Earth on a flat plane with minimal distortion. It was the most comprehensive and accurate map of its time. He also established a precise latitude and longitude system, correlating Earth&amp;rsquo;s coordinates with those of the celestial sphere.&lt;/p&gt;
+&lt;p&gt;Ironically, his map contained a major error. He underestimated the Earth&amp;rsquo;s circumference by nearly 30% (Eratosthenes&amp;rsquo;s earlier calculation was off by only 2%). He also overestimated the east-west span of Eurasia and was, of course, unaware of the Americas. On his map, it looked like only a narrow sea separated Europe from the Far East. Because of Ptolemy&amp;rsquo;s immense academic influence, his flawed map was taken as gospel and, by a twist of fate, helped inspire the Age of Discovery.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/5fef602dbf65c4706e4b196c25488701.webp"
+loading="lazy"
+alt="Ibn Hawqal World Map Replica AD 977"
+&gt;&lt;/p&gt;
+&lt;p&gt;An ancient map from the Islamic world, full of the atmosphere of the Arabian Nights.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/b119c5efcfd1452db4bd6528ffa82db8.webp"
+loading="lazy"
+alt="Carta Marina Replica 1539 Nordic Map"
+&gt;&lt;/p&gt;
+&lt;p&gt;The first detailed nautical chart of Northern Europe.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/185d145d5a97f4725ae11f6c53d704db.webp"
+loading="lazy"
+alt="Ancient World Atlas Exhibit"
+&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;Kunyu Wanguo Quantu&lt;/em&gt; (Map of the Myriad Countries of the World), was drawn in Ming Dynasty Beijing by the Italian missionary Matteo Ricci. It was China&amp;rsquo;s first map with complete longitude and latitude lines and delivered a huge shock to the prevailing Chinese view of a flat earth under a round heaven, with China at the center.&lt;/p&gt;
+&lt;p&gt;To soften the blow, Ricci used a clever trick: he shifted the prime meridian to place China and the Pacific Ocean at the center of the map.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/7aed86e58fc6093125d0dddd8f426fb9.webp"
+loading="lazy"
+alt="Tenochtitlan City Historical Map"
+&gt;&lt;/p&gt;
+&lt;p&gt;A map of the Aztec capital, drawn by Europeans.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/76b37223ca420f35dad34d1b7f67d67a.webp"
+loading="lazy"
+alt="Complete Map of Hainan Island Qing Dynasty Replica"
+&gt;&lt;/p&gt;
+&lt;p&gt;A map of Hainan Province from the Daoguang era of the Qing Dynasty. Frankly, many modern tourist maps aren&amp;rsquo;t this beautiful.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/1fcb239e3f567cb97fcc9be7c089ec2c.webp"
+loading="lazy"
+alt="Hangzhou City Bird’s Eye View Map Replica"
+&gt;&lt;/p&gt;
+&lt;p&gt;An old map of Hangzhou inspired by Marco Polo&amp;rsquo;s travels. It comes from a &lt;em&gt;Civitates Orbis Terrarum&lt;/em&gt; (Atlas of the Cities of the World) and is the only East Asian city included.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/d70cfe400017d567cb6049325c76f4f3.webp"
+loading="lazy"
+alt="Ancient Chinese Territory Map Replica"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/c21a83bb30cff65f060efecc77f2b7ab.webp"
+loading="lazy"
+alt="Beijing Complete Map Historical Replica"
+&gt;&lt;/p&gt;
+&lt;p&gt;After the map appreciation, I came to another section of the map hall, which mainly talked about the various aspects behind maps, such as projection methods, and the relationship between maps and national sovereignty.&lt;/p&gt;
+&lt;p&gt;Due to time constraints, I only snapped a few photos about map projections before leaving in a hurry.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/e287a2b35de611ac5618089c4f851848.webp"
+loading="lazy"
+alt="Spherical to Plane Map Projection Principle Panel"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/3498641a5a072466a4989a565f087917.webp"
+loading="lazy"
+alt="Map Projection Classification Method Diagram"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/6e6c83319f8271a46e6c98eabff7b373.webp"
+loading="lazy"
+alt="Map Projection Deformation Principle Diagram"
+&gt;&lt;/p&gt;
+&lt;p&gt;The most common projection today is the Mercator, shown above. Its problem is that it drastically enlarges high-latitude areas, making Greenland look nearly the size of South America. Comparing a map to a globe makes this distortion obvious.&lt;/p&gt;
+&lt;h2 id="afterword"&gt;Afterword
+&lt;/h2&gt;&lt;p&gt;I left buzzing with excitement. I&amp;rsquo;d truly discovered a hidden treasure. A second visit is definitely in order; there&amp;rsquo;s so much I didn&amp;rsquo;t have time to properly appreciate.&lt;/p&gt;
+&lt;p&gt;The museum&amp;rsquo;s structure is very clear: it starts with the history of surveying, delves into the technology, and ends with the products—GIS and maps. The logical flow is impeccable. It&amp;rsquo;s a very high-quality museum.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s just so low-key. I suspect the name holds it back. But if you&amp;rsquo;ve read this far, I&amp;rsquo;m sure you&amp;rsquo;re interested. If you get the chance, go see it for yourself.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Visitor Tips&lt;/strong&gt;: The museum is free but has no parking. You can find street parking a few blocks north, or park at the &lt;strong&gt;Alibaba Digital Ecology Innovation Park&lt;/strong&gt;, a 5-10 minute walk away. This park, once Alibaba&amp;rsquo;s closed headquarters, is now an open campus for e-commerce companies. There are no walls or gates. You can park there (for a fee), and the cafeteria is open to the public (though possibly not on weekends). If you want to spend a whole day at the museum, it&amp;rsquo;s a great place to take a lunch break.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-07/56a890b7f262fad1c9d7e7e3f82534bf.webp"
+loading="lazy"
+alt="Mapping the World BBC Cartography History Book Cover"
+&gt;&lt;/p&gt;
+&lt;p&gt;Finally, I recommend the BBC documentary &lt;a class="link" href="https://movie.douban.com/subject/4826804/" target="_blank" rel="noopener"
+&gt;Maps: Power, Plunder and Possession&lt;/a&gt;. Its topic is highly relevant to the second half of the museum. Watching it beforehand will make your visit even more rewarding.&lt;/p&gt;</description></item><item><title>Zhejiang Museum of Natural History Anji</title><link>https://victor42.eth.limo/post-en/3617/</link><pubDate>Wed, 27 Jul 2022 10:48:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3617/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_125734.jpg" alt="Featured image of post Zhejiang Museum of Natural History Anji" /&gt;&lt;p&gt;A quick virtual tour.&lt;/p&gt;
+&lt;p&gt;I recently visited the Zhejiang Museum of Natural History&amp;rsquo;s Anji branch, a place I&amp;rsquo;d been meaning to check out. It&amp;rsquo;s located in Anji County, Huzhou, about an hour&amp;rsquo;s drive from Hangzhou.&lt;/p&gt;
+&lt;p&gt;I opted for the afternoon session (12 PM - 4 PM), which is longer. But for a museum enthusiast like myself, time flies. Four hours for six halls means prioritizing – you can&amp;rsquo;t see everything in detail.&lt;/p&gt;
+&lt;p&gt;The recommended order is: Geology, Behring, Ocean, Natural Art, Dinosaur, and Ecology. Being my first visit, I moved quickly, took fewer pictures, and focused on the exhibit texts.&lt;/p&gt;
+&lt;h2 id="geology-hall"&gt;Geology Hall
+&lt;/h2&gt;&lt;p&gt;The introduction is striking: a spherical screen displays Earth&amp;rsquo;s 4.6-billion-year evolution. Surrounding it, small exhibits showcase rocks and meteorites – granite, metamorphic, sedimentary, even meteorites from Mars and the Moon.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re familiar with Earth&amp;rsquo;s history, the intro&amp;rsquo;s brilliance is clear: 4.6 billion years of dramatic change, with life somehow emerging in a volatile environment. From there, the epic of life&amp;rsquo;s evolution unfolds in the following six halls.&lt;/p&gt;
+&lt;p&gt;The introductory video is surprisingly detailed, covering major geological events.&lt;/p&gt;
+&lt;p&gt;Snowball Earth: A massive global ice age. Expanding glaciers reflected sunlight, reducing heat absorption and creating a feedback loop that froze the entire planet. The photo depicts volcanic activity, caused by crustal movement, which reversed this process.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_121129.jpg"
+loading="lazy"
+alt="Snowball Earth video showing global freezing and volcanic eruptions in geology hall"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Snowball Earth&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Pangaea: The second instance of all continental plates merging into a supercontinent. Pangaea&amp;rsquo;s center, far from oceans, became vast Gobi deserts – the video is quite realistic. Pangaea eventually broke apart, forming today&amp;rsquo;s continents and oceans.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_120623.jpg"
+loading="lazy"
+alt="Pangaea supercontinent paleogeography map shown on the globe screen"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Pangaea&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;East African Rift Valley: Crustal movement is separating the African and Arabian plates, creating a rift valley spanning East Africa. Notably, our human ancestors would eventually emerge from this region.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_120802.jpg"
+loading="lazy"
+alt="Topographic map of East African Rift Valley shown on the globe screen"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;East African Rift Valley&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Geology Hall&amp;rsquo;s central theme is the geological time scale. Everything pre-Cambrian is grouped as Precambrian. Subsequent periods each have displays of equal size and format, showcasing typical life and environments.&lt;/p&gt;
+&lt;p&gt;I suggest initially skipping the displays on the opposite side of the corridor. Focus on the main displays along one side – the hall&amp;rsquo;s core. Familiarity with evolution and taxonomy enhances the &amp;ldquo;epic of life&amp;rdquo; experience: primordial life in the oceans, the Cambrian explosion, Devonian plants conquering land, amphibians emerging, Mesozoic reptile dominance, and mammal takeover after the dinosaur extinction. It&amp;rsquo;s a whirlwind tour of life&amp;rsquo;s history.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_122741.jpg"
+loading="lazy"
+alt="Showcase detailing pre-Cambrian to early Cambrian life explosion in geology hall"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cambrian Display&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t overlook the small globes beside the displays. Each shows the continental distribution of that period. Unfortunately, they&amp;rsquo;re positioned too low; even for children, the ocean dominates the view. You need to crouch to see the landmasses, discouraging interaction.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_124135.jpg"
+loading="lazy"
+alt="Showcase detailing Cretaceous paleontology and plant habitats in geology hall"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cretaceous Display&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The displays are exceptionally well-crafted. Plant specialists might spot small yellow flowers from the Cretaceous onward, aligning with the prevailing theory of angiosperm (flowering plant) origin in that period.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_124141.jpg"
+loading="lazy"
+alt="Close-up of low-lying flowering angiosperms in the Cretaceous showcase"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cretaceous Display - Small Yellow Flowers&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;After experiencing the main timeline, return to the hall entrance and explore the other side. As the &lt;strong&gt;Zhejiang&lt;/strong&gt; Museum of Natural History, the geology section highlights Zhejiang&amp;rsquo;s history and contributions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_121427.jpg"
+loading="lazy"
+alt="Exhibit map showing Zhejiang province formed by two different ancient landmasses"
+&gt;&lt;/p&gt;
+&lt;p&gt;Zhejiang formed from the merging of two landmasses. Check your map app&amp;rsquo;s terrain view to see the rift valley in western Zhejiang&amp;rsquo;s hills.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_121442.jpg"
+loading="lazy"
+alt="Topographic map detailing the rift valley zones of western Zhejiang hills"
+&gt;&lt;/p&gt;
+&lt;p&gt;Rodinia: A supercontinent, like Pangaea, where landmasses were joined. Rodinia existed much earlier than Pangaea.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_121722.jpg"
+loading="lazy"
+alt="Diagram showing Rodinia supercontinent continental plate convergence"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Rodinia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_121834.jpg"
+loading="lazy"
+alt="Rock specimen showing scratches left by ancient glacial movements"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Evidence of Glacial Movement&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Remember Snowball Earth? The discovery of tillite was key to proving such extensive glaciation. The principle resembles these scratches, but is more definitive.&lt;/p&gt;
+&lt;p&gt;Tillite forms from slow-moving glaciers. The immense force scrapes up various rocks, incorporates them into the glacier, and crushes them. Disparate rocks become tightly compacted. When unearthed, geologists recognize glacial action as the only explanation. Tillite&amp;rsquo;s global distribution proves past global glaciation.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_122130.jpg"
+loading="lazy"
+alt="Infographic introducing GSSP golden spikes used to define geological eras"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Golden Spike&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The display&amp;rsquo;s explanation is concise. Let me expand on Golden Spikes. They&amp;rsquo;re essentially standards for demarcating geological ages.&lt;/p&gt;
+&lt;p&gt;Earth&amp;rsquo;s 4.6-billion-year history requires division into periods, similar to China&amp;rsquo;s dynasties. Given the vast timescale, multiple divisions are needed. The Qing Dynasty is subdivided into Qianlong, Jiaqing, and Daoguang. Geology uses six levels, from largest to smallest. The most familiar are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Archean&lt;/li&gt;
+&lt;li&gt;Proterozoic&lt;/li&gt;
+&lt;li&gt;Paleozoic (The names of first four periods come from British locations where corresponding strata were initially discovered)
+&lt;ul&gt;
+&lt;li&gt;Cambrian (Explosion of life, appearance of mollusks and arthropods)&lt;/li&gt;
+&lt;li&gt;Ordovician (Appearance of chordates)&lt;/li&gt;
+&lt;li&gt;Silurian&lt;/li&gt;
+&lt;li&gt;Devonian (Fish dominated)&lt;/li&gt;
+&lt;li&gt;Carboniferous (Plants with lignin grew tall. Bacteria and fungi to decompose it hadn&amp;rsquo;t evolved, so buried wood formed thick coal seams)&lt;/li&gt;
+&lt;li&gt;Permian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mesozoic
+&lt;ul&gt;
+&lt;li&gt;Triassic (Dinosaurs emerged)&lt;/li&gt;
+&lt;li&gt;Jurassic&lt;/li&gt;
+&lt;li&gt;Cretaceous (Dinosaur extinction)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cenozoic (Mammals rose)
+&lt;ul&gt;
+&lt;li&gt;Tertiary&lt;/li&gt;
+&lt;li&gt;Quaternary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, what are Golden Spikes? They&amp;rsquo;re based on fossils of specific, representative species. These species, distinct from predecessors and reflecting major environmental shifts, mark the boundaries between geological ages. Organisms are markers; they divide geological time.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_123302.jpg"
+loading="lazy"
+alt="Interactive digital touch screen providing earth sciences knowledge to visitors"
+&gt;&lt;/p&gt;
+&lt;p&gt;The hall features numerous interactive displays. If interested, you can explore them for a deeper understanding of the hall&amp;rsquo;s theme.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_123307.jpg"
+loading="lazy"
+alt="Interactive physical display modeling the formation of coal from forests"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Coal Formation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_124843.jpg"
+loading="lazy"
+alt="Geological time hourglass scale device consisting of transparent layered discs"
+&gt;&lt;/p&gt;
+&lt;p&gt;A somewhat overlooked installation on the second floor provides a fitting conclusion to the Geology Hall, echoing the opening&amp;rsquo;s depiction of Earth&amp;rsquo;s evolution. Beneath us lies the profound history of Earth and life. On a geological timescale, what mark will our modern civilization leave? What &lt;em&gt;should&lt;/em&gt; it leave?&lt;/p&gt;
+&lt;h2 id="behring-hall"&gt;Behring Hall
+&lt;/h2&gt;&lt;p&gt;This hall is named after &lt;a class="link" href="http://www.xinhuanet.com/world/2014-05/19/c_1110757616.htm" target="_blank" rel="noopener"
+&gt;Kenneth Behring&lt;/a&gt;, a businessman and philanthropist who donated numerous wildlife specimens, primarily displayed here. It&amp;rsquo;s essentially the terrestrial animal hall.&lt;/p&gt;
+&lt;h3 id="1st-floor-terrestrial-animals-and-environments"&gt;1st Floor: Terrestrial Animals and Environments
+&lt;/h3&gt;&lt;p&gt;The first floor focuses on terrestrial animals from different continents, showcasing representative species from Africa, North America, and Australia. Africa has the largest exhibit, representing the hall&amp;rsquo;s biodiversity centerpiece.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_125318.jpg"
+loading="lazy"
+alt="Realistic taxidermy diorama recreating African savanna wildlife habitats"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This scene is vast; I only captured a portion. The specimens&amp;rsquo; lifelike poses and movements evoke a Serengeti National Park experience.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Perhaps due to my familiarity with nature documentaries, the animal specimens didn&amp;rsquo;t hold my full attention. I took fewer general photos, focusing instead on the text explanations and the animals&amp;rsquo; survival strategies.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_125432.jpg"
+loading="lazy"
+alt="Infographic explaining resources partitioning among African herbivores"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;How different African savanna herbivores utilize resources, partitioning niches to avoid competition and maximize resource use.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_125734.jpg"
+loading="lazy"
+alt="Panoramic view of grand African savanna wild animal specimens in Behring Hall"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A must-take photo: African large animal group portrait.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_125957.jpg"
+loading="lazy"
+alt="Specimen of a common warthog running with its tail pointed vertically upwards"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Warthog Specimen&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The specimens&amp;rsquo; postures have a scientific basis. A warthog raising its tail signals to predators: &amp;ldquo;I&amp;rsquo;m healthy and strong; you likely can&amp;rsquo;t catch me. Consider another target.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_130925.jpg"
+loading="lazy"
+alt="Q and A board discussing evolutionary competition between predators and prey"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A pertinent question, aiding understanding of natural selection and the predator-prey arms race.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;While less diverse in large animals than Africa, North America and Australia are key to this hall&amp;rsquo;s species evolution exhibits.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_131718.jpg"
+loading="lazy"
+alt="Exhibit panel explaining wildlife variations in continents from a drift perspective"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Why are species on different continents so distinct?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Mammalian evolution has three stages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prototheria: The most primitive. Like the platypus, they lay eggs and secrete milk through their skin – unlike most mammals, but they&amp;rsquo;re classified as such.&lt;/li&gt;
+&lt;li&gt;Metatheria: Marsupials like kangaroos, Tasmanian wolves, and koalas. Born underdeveloped, they require a pouch to complete development.&lt;/li&gt;
+&lt;li&gt;Eutheria: Placental mammals like mice, antelopes, and gorillas. A newborn antelope can stand and run soon after birth, fully developed at birth.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Placental reproduction clearly offers better offspring protection. Combined with other advantages, it led to placental mammals outcompeting the other two groups globally. However, Australia&amp;rsquo;s early isolation by oceans, before placental mammals appeared, allowed marsupials to dominate, while they were replaced elsewhere.&lt;/p&gt;
+&lt;p&gt;South America also retains many marsupials. The Bering Strait land bridge provided a narrow passage from Eurasia and Africa to North America. The Isthmus of Panama later reconnected, allowing placental mammals into South America. Their late arrival explains the survival of South American marsupials, which even spread back into North America.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_132448.jpg"
+loading="lazy"
+alt="Map detailing the migration routes of marsupials and placental mammals"
+&gt;&lt;/p&gt;
+&lt;p&gt;Cats, highly efficient predators, occupy the top of the food chain in most terrestrial environments. The museum dedicates a significant section to them.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_132252.jpg"
+loading="lazy"
+alt="Family tree diagram detailing the evolution and classification of felids"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cat Family Tree&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A bit of a feline tongue-twister: Lions are Pantherinae; cheetahs are Felinae. Cougars are Felinae; jaguars are Pantherinae.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_132408.jpg"
+loading="lazy"
+alt="Exhibit map showing the first major migration routes of felids"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cat Family&amp;rsquo;s First Great Migration&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In short: Cats originated in Southeast Asia. Their unique lifestyle led to remarkable dispersal. Adult cats must leave their families and establish new territories. Their large territories necessitate long migrations, leading to rapid occupation of available land.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_132413.jpg"
+loading="lazy"
+alt="Exhibit map showing the second major migration routes of felids"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cat Family&amp;rsquo;s Second Great Migration&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Both migrations resulted from falling sea levels, creating new land bridges. Comparing this with the cat family tree, small cats initially spread to all continents (except Australia), followed by large cats from Eurasia and North America expanding into Africa and South America.&lt;/p&gt;
+&lt;h3 id="2nd-floor-animal-evolution"&gt;2nd Floor: Animal Evolution
+&lt;/h3&gt;&lt;p&gt;The second floor highlights species evolution, focusing on adaptations to environments. For instance, the entrance introduces convergent evolution, where different species evolve similar features for the same function. Wings are a prime example: birds, bats (mammals), and insects have evolved different wing types, all achieving flight.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_132748.jpg"
+loading="lazy"
+alt="Exhibit panel demonstrating convergent evolution of wings in bats, birds and insects"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sideways or forward-facing eyes provide different advantages.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_132942.jpg"
+loading="lazy"
+alt="Diagram comparing monocular vision of prey and binocular vision of predators"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Pupil shape, like eye position, relates to vigilance or hunting.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_132950.jpg"
+loading="lazy"
+alt="Exhibit comparing round, horizontal and vertical pupil shapes and their advantages"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Advantages of different pupil shapes (zoom may be needed).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The bird section is a highlight, visually comparing bird beaks to human tools to illustrate diet and feeding. I found the pelican amusing – a living net. However, I question the flamingo&amp;rsquo;s depiction, as they don&amp;rsquo;t primarily eat fish. This might be an inaccuracy.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_133256.jpg"
+loading="lazy"
+alt="Close-up of pupil advantage exhibit displaying light entry pathways"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bird Beak Shapes and Functions&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The next display continues, adding bird feet. You can deduce a bird&amp;rsquo;s diet and habitat from the beak and foot combination. Birds are categorized into seven groups based on feet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Wading birds: Shallow-water dwellers, non-swimmers, relying on water for food. Long necks and legs. Small webs between toes aid traction on mudflats. Example: Cranes.&lt;/li&gt;
+&lt;li&gt;Waterfowl: Aquatic birds, capable of floating and swimming, some diving. Fully webbed toes act as paddles. Example: Ducks.&lt;/li&gt;
+&lt;li&gt;Landfowl: Ground-dwelling, flight is secondary. Leg strength supports walking. Example: Chickens.&lt;/li&gt;
+&lt;li&gt;Songbirds: Branch dwellers, small, known for singing and nest-building. Thin legs grip branches naturally. Example: Magpies.&lt;/li&gt;
+&lt;li&gt;Running birds: Ground-dwelling, large, flightless. Strong legs, enhanced running ability. Example: Ostriches.&lt;/li&gt;
+&lt;li&gt;Climbing birds: Inhabit vertical spaces (tree trunks, cliffs). Two toes forward, two backward, for stability. Example: Parrots.&lt;/li&gt;
+&lt;li&gt;Birds of prey: Aerial hunters. Sharp, hooked claws grasp prey. Example: Eagles.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_133643.jpg"
+loading="lazy"
+alt="Bird exhibit comparing beak shapes and functions using tools like pliers"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Classification of Bird Feet&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_133632.jpg"
+loading="lazy"
+alt="Infographic classifying bird feet into seven categories based on habitats"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Combination of Bird Beaks and Feet&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_133810.jpg"
+loading="lazy"
+alt="Wall display demonstrating combinations of bird beaks and feet adaptations"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For comic relief: Shoebill&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Following the bird section, examples of animal appearance and behavior adapting to the environment are presented.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_134105.jpg"
+loading="lazy"
+alt="Specimen of a shoebill stork with fluffy feathers and a bulbous bill"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Same Species in Different Environments&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_134241.jpg"
+loading="lazy"
+alt="Evolutionary variation exhibit comparing Arctic fox and Ruppell’s sand fox"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Mimicry, such an ingenious behavior, deserves more detailed explanation.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="exit-corridor"&gt;Exit Corridor
+&lt;/h3&gt;&lt;p&gt;Descending from the second floor, you enter the exit corridor. Here, you&amp;rsquo;ll find a biography of Mr. Behring and his contributions to science education. One side features a sobering timeline of animal extinctions since the 17th century, culminating in the northern white rhino, which went extinct in the wild in 2018.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_131104.jpg"
+loading="lazy"
+alt="Diorama showcase displaying camouflaged insects like stick insects and leaf butterflies"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Animal Extinction Timeline&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_131118.jpg"
+loading="lazy"
+alt="Timeline wall of extinct animal species since the 17th century at the exit"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Northern White Rhino Extinct in the Wild&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Public attention often centers on animals, particularly large ones. However, since industrialization, the number of extinct small mammals, reptiles, insects, marine animals, and plants is far greater. The full timeline is truly disheartening.&lt;/p&gt;
+&lt;h2 id="ocean-hall"&gt;Ocean Hall
+&lt;/h2&gt;&lt;p&gt;I spent 2.5 hours in the first two halls and started to lose steam by the Ocean Hall, taking almost no photos.&lt;/p&gt;
+&lt;p&gt;Honestly, the Ocean Hall isn&amp;rsquo;t as impressive as the first two. The layout is confusing. You ascend a spiral ramp to the 2nd floor, descend another to the 1st, and then find yourself disoriented, forced to explore radially outwards. The hall&amp;rsquo;s narrative also feels disjointed, lacking a clear storyline.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/VID_20220722_134637.jpg"
+loading="lazy"
+alt="Infographic board detailing the extinction of the Northern White Rhino"
+&gt;&lt;/p&gt;
+&lt;p&gt;The ascending spiral has its moments, captured in this short video: &lt;a class="link" href="https://b23.tv/eIOuBNz" target="_blank" rel="noopener"
+&gt;【浙江省自然博物馆安吉馆-海洋馆入口-哔哩哔哩】&lt;/a&gt;. Ocean-themed photography lines one side of the corridor, the vibrant colors of the marine world creating a strong visual impact.&lt;/p&gt;
+&lt;p&gt;The 2nd-floor section follows an ecosystem approach, showcasing environments like rocky shores, estuaries, mangroves, kelp forests, and coral reefs. The deep sea should be included, but it&amp;rsquo;s understandably absent due to our limited knowledge. The exhibits are mostly text and image-based, lacking specimens and dioramas due to space constraints.&lt;/p&gt;
+&lt;p&gt;On the descending spiral, several large marine animal specimens (or perhaps models) are suspended overhead.&lt;/p&gt;
+&lt;p&gt;Reaching the 1st floor, you enter an enclosed area. Small live aquariums are interspersed with display boards, featuring common marine life such as fish and jellyfish.&lt;/p&gt;
+&lt;p&gt;Branching out from this central area, you&amp;rsquo;ll find exhibits on marine mammals, cephalopods, polar ecosystems, deep-sea exploration, the marine economy, and marine conservation – a somewhat scattered arrangement.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_135808.jpg"
+loading="lazy"
+alt="Anatomical model showing the internal muscle and bone structures of an ocean sunfish"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ocean Sunfish Internal Structure&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I quickly moved on after this.&lt;/p&gt;
+&lt;h2 id="natural-art-hall"&gt;Natural Art Hall
+&lt;/h2&gt;&lt;p&gt;This hall was impressive, but I didn&amp;rsquo;t linger, eager to reach the Dinosaur Hall.&lt;/p&gt;
+&lt;p&gt;The Natural Art Hall&amp;rsquo;s theme is simple: no geological or biological expertise needed. Just bring your eyes and appreciate nature&amp;rsquo;s beauty directly – a quick visit.&lt;/p&gt;
+&lt;h3 id="1st-floor-the-beauty-of-life"&gt;1st Floor: The Beauty of Life
+&lt;/h3&gt;&lt;p&gt;The 1st floor celebrates the beauty of life. Leaves, wood grains, butterflies, beetles, shells, feathers, and more are displayed artistically. These natural creations are stunning individually, and their collective display is breathtaking.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_140604.jpg"
+loading="lazy"
+alt="Vibrant rainbow chandelier made of butterfly specimens in Natural Art Hall"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Colorful butterfly ornaments&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_140705.jpg"
+loading="lazy"
+alt="Showcase displaying a matrix of colorful beetle specimens with metallic luster"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Beetle display case&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Beetles in nature are even more vibrant, many with an iridescent sheen. I suspect limitations in specimen preparation and collection prevented showcasing their full splendor. Beetles belong to Coleoptera, the most diverse order of insects, and indeed, of all animals. This species richness results in a stunning variety of appearances.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_140927.jpg"
+loading="lazy"
+alt="Specimen of a polar narwhal showing its long spiral horn in the polar exhibit"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Narwhal&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This Arctic whale&amp;rsquo;s horn remains a mystery. While once thought to break ice for breathing, newer research suggests a more significant role in mating and reproduction.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_140956.jpg"
+loading="lazy"
+alt="Circular exhibit of world shells arranged by color spectrum"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Shells and color wheel&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This exhibit highlights nature&amp;rsquo;s difficulty in synthesizing blue pigments. As the color wheel approaches blue-violet, the shells become mostly grayish-white. While blue butterflies, flowers, and feathers are common, these organisms don&amp;rsquo;t actually create blue substances. They employ microscopic structures, a clever optical illusion using other colors.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_141130.jpg"
+loading="lazy"
+alt="Specimen of a Golden Pheasant showing detailed golden and red feathers"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Golden pheasant neck feathers spread out&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="2nd-floor-the-beauty-of-non-life"&gt;2nd Floor: The Beauty of Non-Life
+&lt;/h3&gt;&lt;p&gt;The 2nd floor showcases the beauty of non-living things – specifically, rocks and minerals. I&amp;rsquo;m no expert, so I&amp;rsquo;ll let the pictures speak for themselves.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_141623.jpg"
+loading="lazy"
+alt="Malachite mineral specimen showing green fibrous crystals with silky luster"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Malachite, the blue color comes from copper&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_141635.jpg"
+loading="lazy"
+alt="Pyrite crystal cluster showing metallic yellow cubic structures on rock"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_141701.jpg"
+loading="lazy"
+alt="Deep purple natural fluorite crystal clusters exhibited in the mineral zone"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_141709.jpg"
+loading="lazy"
+alt="Pink quartz rock crystal cluster showing dense crystalline formations"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_141746.jpg"
+loading="lazy"
+alt="Translucent multilayered barite crystal formations exhibited in the showcase"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_141839.jpg"
+loading="lazy"
+alt="Green beryl emerald crystals embedded in dark grey host rock"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_141921.jpg"
+loading="lazy"
+alt="Deep blue needle-like vivianite crystals growing on rock fractures"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Vivianite&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_142005.jpg"
+loading="lazy"
+alt="Tanzanite gemstone raw crystal showing violet-blue pleochroism under spotlight"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tanzanite&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Tanzanite was my personal favorite, likely enhanced by the lighting. The visual effects of transparent substances under light are quantum phenomena at the crystal and atomic levels. The beauty of minerals is, in essence, the beauty of physics.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_142140.jpg"
+loading="lazy"
+alt="Sky-blue hexagonal columns of aquamarine crystal growing on white rock matrix"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Aquamarine&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="dinosaur-hall"&gt;Dinosaur Hall
+&lt;/h2&gt;&lt;p&gt;Short on time, I still decided to explore this hall thoroughly. It was packed with kids, clearly the museum&amp;rsquo;s main attraction for them.&lt;/p&gt;
+&lt;p&gt;Stepping inside was breathtaking. A projector mapped images onto a dinosaur model, perfectly synchronized. The projections cycled through the skeleton, internal organs, muscles, and skin – an internal perspective rarely seen.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_142618.jpg"
+loading="lazy"
+alt="Dinosaur model with 3D projection showing muscle and bone structures"
+&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a hidden gem: easily missed if you&amp;rsquo;re focused on the dinosaur, it&amp;rsquo;s a light strip on the entrance floor, pointing to a wall displaying chordate classification.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/VID_20220722_142938.jpg"
+loading="lazy"
+alt="Branching diagram of chordate evolution on the floor and wall at the entrance"
+&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a metaphor: as chordates, we trace the evolutionary path, witnessing its branching, ultimately finding our place – placental mammals. See the short video: &lt;a class="link" href="https://b23.tv/BflQo0E" target="_blank" rel="noopener"
+&gt;【浙江省自然博物馆安吉馆-恐龙馆入口处-哔哩哔哩】&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_143015.jpg"
+loading="lazy"
+alt="Large wall chart displaying the evolutionary family tree of dinosaurs"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Chordate evolutionary tree&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="dinosaur-classification"&gt;Dinosaur Classification
+&lt;/h3&gt;&lt;p&gt;The second exhibit expands on the chordate evolutionary tree, introducing the dinosaur family.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_143245.jpg"
+loading="lazy"
+alt="Anatomy diagram contrasting pelvis bone structures of Ornithischian and Saurischian"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Dinosaur evolutionary tree&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_143714.jpg"
+loading="lazy"
+alt="Illustrated diagram explaining dinosaur hip bones and bird ancestry"
+&gt;&lt;/p&gt;
+&lt;p&gt;Dinosaurs are taxonomically divided into two groups based on hip structure: Ornithischia (bird-hipped) and Saurischia (lizard-hipped). Ornithischians have a pelvis resembling modern birds, while saurischians resemble other modern reptiles.&lt;/p&gt;
+&lt;p&gt;However, birds didn&amp;rsquo;t evolve from ornithischians. Birds&amp;rsquo; true ancestors are theropods, a saurischian subgroup. The pelvic similarity between ornithischians and birds is likely convergent evolution.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_143824.jpg"
+loading="lazy"
+alt="Exhibit panels introducing Triassic dinosaur origins and environmental changes"
+&gt;&lt;/p&gt;
+&lt;p&gt;I witnessed a funny scene here. A mother, explaining the dinosaur family tree to her child, misread it, saying: &amp;ldquo;Dinosaurs are divided into bird-armed and lizard-armed, got it?&amp;rdquo; She then quizzed her child: &amp;ldquo;What kind of dinosaur is Triceratops? Bird-armed. What about Tyrannosaurus Rex? Lizard-armed.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;A classic &amp;ldquo;tiger mom&amp;rdquo; moment: expecting mastery from her child without understanding it herself.&lt;/p&gt;
+&lt;h3 id="triassic-period"&gt;Triassic Period
+&lt;/h3&gt;&lt;p&gt;The Dinosaur Hall is chronologically arranged: Triassic, Jurassic, Cretaceous. Each period features representative species and environments, with numerous fossils and reconstructions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_144758.jpg"
+loading="lazy"
+alt="Complete fossil skeleton model of Mixosaurus Mixosaur adapted for deep sea"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Dinosaurs originated in the late Triassic.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Across the corridor, the Triassic oceans are depicted. Dinosaurs were land-bound – ichthyosaurs and pterosaurs don&amp;rsquo;t qualify – but their contemporaneous existence justifies their inclusion.&lt;/p&gt;
+&lt;p&gt;Ichthyosaurs, marine reptiles returned from land, initially swam like lizards, wriggling their bodies. Later forms swam like fish, using only tail fins – a significant adaptation for deep-sea life.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_145044.jpg"
+loading="lazy"
+alt="Fossil skeleton model of Nothosaurus showing long neck and sharp teeth"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Mixosaurus, with limbs too reduced for walking on land.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nothosaurs (pachypleurosaurs) also returned to the sea, but differently. They remained in shallow waters, using webbed toes to paddle and hunt small fish.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_145139.jpg"
+loading="lazy"
+alt="Fossil skeleton of Herrerasaurus showing primitive three-fingered forelimbs"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Nothosaurus&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Meanwhile, on land, dinosaurs thrived. &lt;em&gt;Herrerasaurus&lt;/em&gt;, though only 3-6 meters long, was a top predator. Its forelimbs were evolving for hunting, with five fingers reduced to three.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_145643.jpg"
+loading="lazy"
+alt="Fossil skeleton of Yangchuanosaurus with a large skull in Jurassic zone"
+&gt;&lt;/p&gt;
+&lt;h3 id="jurassic-period"&gt;Jurassic Period
+&lt;/h3&gt;&lt;p&gt;By the Jurassic, land predators had become even more formidable. As you can see, &lt;em&gt;Yangchuanosaurus&lt;/em&gt; was much more robust, reaching up to 10 meters in length.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_145715.jpg"
+loading="lazy"
+alt="Anatomical comparison chart showing teeth and skulls of three herbivores"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Yangchuanosaurus&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;On the herbivore side, sauropods (part of the saurischian group) were diversifying. These were the giants with long necks and tails, like &lt;em&gt;Diplodocus&lt;/em&gt;, &lt;em&gt;Brachiosaurus&lt;/em&gt;, and &lt;em&gt;Mamenchisaurus&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Take a look at the skulls, especially the teeth. Different tooth structures reflect different feeding strategies – much like the division of labor on the African savanna. Nature always finds a way.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_150545.jpg"
+loading="lazy"
+alt="Reconstructed model of Guanlong with proto-feathers in the Jurassic Death Trap"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;3 types of skulls and tooth functions&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Jurassic section features a fascinating &amp;ldquo;Death Trap&amp;rdquo; scene. Note &lt;em&gt;Guanlong&lt;/em&gt;&amp;rsquo;s appearance – it sports feathers on its forelimbs. &lt;em&gt;Guanlong&lt;/em&gt;, a tyrannosauroid, is related to &lt;em&gt;T. rex&lt;/em&gt;. As a kid, I always saw dinosaurs depicted as scaly. Later research revealed that some carnivorous dinosaurs likely had feathers. While still debated, it&amp;rsquo;s now the prevailing view.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_150803.jpg"
+loading="lazy"
+alt="File panel explaining feathers research and feeding characteristics of Guanlong"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_150843.jpg"
+loading="lazy"
+alt="Reconstructed feathered model of Velociraptor from the Cretaceous period"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Guanlong profile&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="cretaceous-period"&gt;Cretaceous Period
+&lt;/h3&gt;&lt;p&gt;By the Cretaceous, feathers were even more widespread. &lt;em&gt;Velociraptor&lt;/em&gt;, a small dinosaur, was closely related to modern birds. Check out the feathers on its forelimbs and tail; it probably had downy feathers all over.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_151014.jpg"
+loading="lazy"
+alt="Fossilized Triceratops skull displayed on the platform in the dinosaur hall"
+&gt;&lt;/p&gt;
+&lt;p&gt;A classic Cretaceous herbivore is &lt;em&gt;Triceratops&lt;/em&gt;, one of the last dinosaurs. The caption notes something interesting: while most assume the frill and horns were for defense, recent theories suggest they were primarily for courtship.&lt;/p&gt;
+&lt;p&gt;Courtship again! First the narwhal, now this. A recent study even suggests giraffes&amp;rsquo; long necks evolved for mating, not reaching leaves. Love seems to trump survival – the wild romance of animals. →_→&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_151429.jpg"
+loading="lazy"
+alt="Grand fossil skeleton model of a Tyrannosaurus Rex in Cretaceous zone"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This Triceratops fossil is remarkably complete, preserving most of the key bones. The display, of course, is a model.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Across from &lt;em&gt;Triceratops&lt;/em&gt; stands its frequent adversary, &lt;em&gt;Tyrannosaurus rex&lt;/em&gt;. Standing beneath it, gazing up at that massive jaw&amp;hellip; the sense of intimidation is palpable.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_151536.jpg"
+loading="lazy"
+alt="Exhibit panel explaining dinosaur respiration research using CT scans"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t scoff at its tiny arms – judging by the skeleton, it could easily win an arm-wrestling match.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;While on the first floor of the Dinosaur Hall, look out the windows. The museum has some hidden Easter eggs. One window overlooks a dinosaur sculpture on the lawn – a nice touch.&lt;/p&gt;
+&lt;h3 id="dinosaur-lifestyle-and-other-reptiles"&gt;Dinosaur Lifestyle and Other Reptiles
+&lt;/h3&gt;&lt;p&gt;The second floor of the Dinosaur Hall is smaller. You&amp;rsquo;re greeted by an animatronic &lt;em&gt;T. rex&lt;/em&gt;, surrounded by kids and parents snapping photos.&lt;/p&gt;
+&lt;p&gt;This floor explores dinosaur behavior. It highlights how challenging it is to study ancient animal behavior from fossils. Consider breathing: we can infer about bird ancestors by studying living birds, but the respiration of ornithischian dinosaurs, which have no living descendants, remains a mystery. Respiratory systems leave few skeletal traces, and soft tissues rarely fossilize.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_152524.jpg"
+loading="lazy"
+alt="CT scan images showing air flow pathways inside dinosaur nasal cavities"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_152529.jpg"
+loading="lazy"
+alt="Infographic comparing two major pterosaur lineages and their geological ages"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;CT scans of skull interiors might offer clues about breathing.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Another major theme on the second floor is the marine and aerial reptiles of the era.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_152200.jpg"
+loading="lazy"
+alt="Life-size model of Quetzalcoatlus with a 10m wingspan suspended in the air"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Two different types of pterosaurs and their periods&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_151201.jpg"
+loading="lazy"
+alt="Exhibit panel displaying the phylogenetic tree of marine reptiles on 2nd floor"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A 10-meter wingspan – imagine that.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_152653.jpg"
+loading="lazy"
+alt="Exhibition panel explaining the Biosphere 2 experiment at the ecology hall entrance"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Marine reptiles also have their evolutionary tree.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="ecology-hall"&gt;Ecology Hall
+&lt;/h2&gt;&lt;p&gt;This hall is massive, but I only had 40 minutes left. I had to speed through, but I grasped the main points.&lt;/p&gt;
+&lt;p&gt;It begins with the Biosphere 2 experiment, a failed attempt at a self-contained ecosystem. Why did it fail? Keep that in mind. The hall underscores ecosystem complexity from multiple perspectives.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_153203.jpg"
+loading="lazy"
+alt="Showcase demonstrating the life cycle stages of the pine caterpillar"
+&gt;&lt;/p&gt;
+&lt;p&gt;The hall dedicates considerable space to explaining ecosystem components: producers, consumers, decomposers, their functions, food chains, and how water, carbon, nitrogen, and phosphorus cycle through nature. It adopts a wider view, focusing on interspecies relationships and interactions, rather than on individual organisms.&lt;/p&gt;
+&lt;p&gt;This small display exemplifies this. While the previous five halls would&amp;rsquo;ve highlighted a single moment in a pine moth&amp;rsquo;s life, here, its entire life cycle is shown. I&amp;rsquo;ve often seen the larvae and adults, but never connected the two.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_153648.jpg"
+loading="lazy"
+alt="Beetle specimens displayed in a realistic decaying wood environment"
+&gt;&lt;/p&gt;
+&lt;p&gt;Given the ecological theme, the hall meticulously recreates species&amp;rsquo; habitats. The initial exhibits realistically depict several natural environments.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_153813.jpg"
+loading="lazy"
+alt="Close-up of beetle specimens in their element inside the showcase"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Beetles in their element.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;There was a truly impressive section I couldn&amp;rsquo;t photograph due to time constraints. It consisted of dioramas, akin to those in the Geological Hall, each portraying a different environment and its characteristic species: subtropical desert, North American prairie, alpine tundra, and so on. The animal specimens and settings were incredibly immersive, resembling exquisite crystal balls.&lt;/p&gt;
+&lt;p&gt;Next, a unique circular area presents interspecies relationships and interactions, each accompanied by a short nature narrative and a realistic scene. This space truly highlights the museum&amp;rsquo;s creative approach.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/VID_20220722_154101.jpg"
+loading="lazy"
+alt="Circular corridor exhibits showing interspecies symbiotic and predatory interactions"
+&gt;&lt;/p&gt;
+&lt;p&gt;Check out the short video: &lt;a class="link" href="https://b23.tv/M4LTzxC" target="_blank" rel="noopener"
+&gt;【浙江省自然博物馆安吉馆-生态馆物种相互作用-哔哩哔哩】&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s another interesting point, one most people (myself included) likely haven&amp;rsquo;t considered: Ecosystems vary not just by location, but also by altitude within the same location.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_154902.jpg"
+loading="lazy"
+alt="Infographic diagram of Mount Everest showing seven vertical ecosystems"
+&gt;&lt;/p&gt;
+&lt;p&gt;Mount Everest serves as a prime example. Its 8,000-meter elevation encompasses seven ecosystems, with distinct differences between the windward and leeward sides.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_154939.jpg"
+loading="lazy"
+alt="Cross-section diagram showing Mount Everest vegetation changes by elevation"
+&gt;&lt;/p&gt;
+&lt;p&gt;The hall also explores how various natural factors influence ecosystems. While discussing rainfall, I came across an engaging interactive exhibit.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_160033.jpg"
+loading="lazy"
+alt="Interactive slide screen device detailing rainfall effects on vegetation"
+&gt;&lt;/p&gt;
+&lt;p&gt;The diagram indicates that visitors can drag the screen below to alter the rainfall in the animation, which in turn changes the vegetation. The museum&amp;rsquo;s intention was to allow visitors to modify precipitation and observe the ecosystem&amp;rsquo;s response. Sadly, the device malfunctioned; regardless of the dragging, the animation consistently displayed a rainforest.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_160039.jpg"
+loading="lazy"
+alt="Interactive screen animation showing rainforest evolution affected by precipitation"
+&gt;&lt;/p&gt;
+&lt;p&gt;Further along, there&amp;rsquo;s more on ecosystem roles and conservation, but I&amp;rsquo;ll skip the details.&lt;/p&gt;
+&lt;p&gt;Near the exit, the initial question is finally answered: Why did Biosphere 2 fail?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-07/IMG_20220722_160435.jpg"
+loading="lazy"
+alt="Video wall explaining why the Biosphere 2 experiment failed at the exit"
+&gt;&lt;/p&gt;
+&lt;p&gt;Naturally, the answer extends beyond those few lines. A small theater screens a film about Biosphere 2. I was eager to sit, watch, and enjoy the yogurt I&amp;rsquo;d packed. However, with closing time nearing, I only managed a brief look.&lt;/p&gt;
+&lt;p&gt;The film noted that Biosphere 2 contained an overabundance of decomposers, disrupting the balance with other system components.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;My overriding feeling during the latter half was a lack of time; I had to rush. Even so, the museum was thrilling overall. I highly recommend it.&lt;/p&gt;
+&lt;p&gt;Two minor issues:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;While the video content is high-quality, some footage is quite blurry, likely from older sources.&lt;/li&gt;
+&lt;li&gt;Insufficient lighting. I frequently encountered text panels in dimly lit corners, making them difficult to read.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, some advice for those planning a visit to the Zhejiang Museum of Natural History, Anji:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Book the afternoon session; it&amp;rsquo;s an hour longer than the morning one.&lt;/li&gt;
+&lt;li&gt;Even with the four-hour afternoon session, prioritization is key:
+&lt;ul&gt;
+&lt;li&gt;If you have kids interested in animals, concentrate on the Behring Hall, Ocean Hall, and Dinosaur Hall.&lt;/li&gt;
+&lt;li&gt;For those keen on the broader evolutionary narrative, focus on the Geological Hall, Behring Hall, and Ecology Hall.&lt;/li&gt;
+&lt;li&gt;If you simply want to appreciate nature&amp;rsquo;s beauty, prioritize the Behring Hall, Natural Art Hall, and Ecology Hall.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The museum is less than a 30-minute drive from Anji town, so you can grab a bite there beforehand.&lt;/li&gt;
+&lt;li&gt;The museum offers convenient underground parking.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

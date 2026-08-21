@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>成长 on Victor42</title><link>https://victor42.eth.limo/tags/%E6%88%90%E9%95%BF/</link><description>Recent content in 成长 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 29 Mar 2023 13:42:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E6%88%90%E9%95%BF/index.xml" rel="self" type="application/rss+xml"/><item><title>当自信突破能力圈</title><link>https://victor42.eth.limo/post/3635/</link><pubDate>Wed, 29 Mar 2023 13:42:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3635/</guid><description>&lt;p&gt;与能力圈相对，自信也是个圈，自信圈通常在能力圈的内部。但如果设法让自信圈先一步扩展到能力圈之外，会有奇效。&lt;/p&gt;
+&lt;p&gt;自信通常是随着能力圈扩大而扩大的，而且自信圈的范围通常小一些，得是你能力圈足够大之后，才会在内部形成一个较小的自信圈。但有些情况下，自信圈会生长到能力圈之外，让你不惧怕陌生的领域。从毕业以来，我有两次遇到了这种情况：&lt;/p&gt;
+&lt;p&gt;第一次是前几年在新东方学成人口语，很快乐的一段经历。我的中学英语教育见长，导致我英语的基础本身就还可以。举个例子，大学英语六级，没做准备，抱着盲考心态一次通过，504分。但是考试成绩并不能给人建立自信圈，我长期都在接收中文世界的信息，会的也只是哑巴英语。英语新闻有闲暇才读，读之前总是正襟危坐，感觉要做一件什么大事。&lt;/p&gt;
+&lt;p&gt;去新东方和中国老师、外国老师和同学用英语聊了大半年的天，天南海北地侃。课本上的语法其实大部分是学生时代学过的，当时学会的生词，现在也忘得差不多了。如果要说实际的英语水平提升，到今天可能也没留下多少。但是经历了这么一段，我的信心圈一下子扩大到能力圈的外面，需要查资料、搜新闻的时候，我可以毫无顾忌的直接输入英语，然后毫无心理负担地阅读英语长文。不是说我可以轻松读懂，我也需要配合词典，但这么做感觉很自然。一个直接的结果就是，英语水平真正突飞猛进，恰恰是新东方毕业之后才开始。&lt;/p&gt;
+&lt;p&gt;第二次就是学会调遣AI。以前，我的写代码水平也就那样，毕竟我是个设计师，也不是职业开发人员。在朋友的怂恿下，为了给自己搭建个人网站，自己学会了web前端三件套：HTML、CSS和JavaScript，其中JavaScript的掌握比较肤浅。个人网站做出来后，也从来没想过用代码能力去解决其他问题。遇到问题都是找现成的工具来解决，找不到就不解决。&lt;/p&gt;
+&lt;p&gt;在AI的帮助下学会了Python基础之后，信心圈再次扩大到能力圈之外，说白了就是胆儿肥了。现在遇到问题，我第一反应往往是：要不和AI合作写个程序来解决吧！&lt;/p&gt;
+&lt;p&gt;今天在整理AI画图用的提示词，我自己做了一篇笔记分门别类收藏。里面很多诸如knolling, isometric drawing, dutch shot这样描述具体效果的词，这是让AI准确产出所需效果的关键。但有时我也想把其中几种效果相互对比，直观感受每种效果的样子，看看具体画面如何，这就得把这些词一个个拿到搜索引擎里去图片搜索。&lt;/p&gt;
+&lt;p&gt;今天决定解决这个问题。想达到的效果是，把要对比的词放到一起，用逗号隔开，然后一键操作，直接打开多个浏览器标签页，对这几个词分别做图片搜索。&lt;/p&gt;
+&lt;p&gt;跟AI合作，2分钟写出了一个能用的脚本。再额外花了10分钟，完善一下特殊情况的处理，并让脚本更有扩展性。从意识到问题到实际解决解决，不到15分钟。关键是，这是我能力圈外的问题。&lt;/p&gt;
+&lt;p&gt;信心圈如果扩展到能力圈之外，能力圈很快也会跟上来，毕竟知行合一。所以，学任何东西，建立信心真的比学到了什么程度重要。&lt;/p&gt;
+&lt;p&gt;现在是个很好的时代，有太多办法可以让你的信心圈扩展到能力圈之外，还能解决实际问题。我说的不只是AI，敢于请专业人士帮忙也行，甚至淘宝买专业服务也可以（但需要甄别），只要你愿意迈出这一步。&lt;/p&gt;</description></item><item><title>像用户体验设计师一样思考</title><link>https://victor42.eth.limo/post/3535/</link><pubDate>Sun, 25 Dec 2016 18:59:22 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3535/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第158期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-20/1-slvuThkTr1BsmpeedW605Q.png"
+loading="lazy"
+alt="桥梁插画象征用户体验设计中探索未知的心态"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;插画来自&lt;a class="link" href="http://crafticons.com/" target="_blank" rel="noopener"
+&gt;Crafticons&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="培养探索未知的心态"&gt;培养探索未知的心态
+&lt;/h2&gt;&lt;p&gt;（持续）学习用户体验是最需要技巧的事情。因为这不是标准教育中的某个正式课题。&lt;/p&gt;
+&lt;p&gt;它总是以某种神秘不可预测面貌示人，直到你在设计、研发、市场推广（或者其他创意领域）中遭遇到用户体验的具体概念。&lt;/p&gt;
+&lt;p&gt;虽然在用户体验方面有一些基础书籍，还有成百上千的博客文章，研究最具体的设计细节。但关于如何培养心态与思维过程，仍然严重缺乏资源。&lt;/p&gt;
+&lt;p&gt;不同于视觉设计（实践是开拓眼界的关键），我们多数人都能够思考和提出正确的问题，培养自己的用户体验思维。&lt;/p&gt;
+&lt;p&gt;毋庸置疑，成长为一名杰出的用户体验设计师需要时间、投入和努力。但实际上，大多数基本的用户体验，仍然是关于如何提出正确的问题——这点我们基本都能做到。&lt;/p&gt;
+&lt;p&gt;创造高质量的用户体验，包括了提出好的假设，然后检验、持续迭代（通过数据与反馈）。&lt;/p&gt;
+&lt;p&gt;提出好的假设，是用户体验思维、用户体验感觉和学习用户体验的基础。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-20/1-M5SMsqTIfsdEHwYBDeNjKQ.png"
+loading="lazy"
+alt="用户与电脑插画象征通过提问和假设理解用户体验"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;插画来自&lt;a class="link" href="http://crafticons.com/" target="_blank" rel="noopener"
+&gt;Crafticons&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="人本主义"&gt;人本主义
+&lt;/h3&gt;&lt;p&gt;所有的用户体验设计，都源于人本主义和执行这些操作的人。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请别误会，用户体验其实也不仅限于人类。本文的每一章，其实也完全适用于猫猫狗狗甚至斑马——都适用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在下文中，我们对交互作出如下定义：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在用户体验中，交互可以定义为人与物之间的一切互动。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;互动一词非常重要——交互的作用是双向的。&lt;/p&gt;
+&lt;p&gt;一切交互都需要耗费资源。无论是能量、时间或是其他什么，人们总会付出他们认为有价值的东西与某物互动，他们也希望得到同等的回馈。&lt;/p&gt;
+&lt;p&gt;将耗费的资源最小化，回馈的资源最大化，就是通向杰出体验的道路。&lt;/p&gt;
+&lt;p&gt;要理解如何优化交互，就要更多了解背后的人、事、地点、和缘由。&lt;/p&gt;
+&lt;p&gt;这些问题有助于开个好头……&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这个交互有谁参与？
+&lt;em&gt;深入挖掘交互背后的人的&lt;a class="link" href="https://en.wikipedia.org/wiki/Demographics" target="_blank" rel="noopener"
+&gt;人口特征&lt;/a&gt;与&lt;a class="link" href="https://en.wikipedia.org/wiki/Psychographic" target="_blank" rel="noopener"
+&gt;心理变量&lt;/a&gt;。如果能把人们从哪来、在想什么结合起来，就能产生同理心，了解他们需要什么。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;他们在操作什么物体？
+&lt;em&gt;物体就是指与人互动的东西。如果你在操作智能手机，那问题中说的物体就是智能手机。如果你正在开关一扇门，那么门就是物体。&lt;/em&gt;
+&lt;em&gt;人们在操作什么，那个就是我们说的物体。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;他们用什么工具在操作？
+&lt;em&gt;谈论工具时，我们指的是操作这个物体的媒介。以智能手机为例。当你（人们）使用智能手机（物体）时，你就是通过手、眼睛和耳朵（工具）在与手机交互。正确分辨出工具，对你之后工作有所帮助。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;操作发生在什么地方？
+&lt;em&gt;是发生在家里、咖啡馆、还是大街上？环境温暖还是寒冷，或者适中？是在安全放松的环境下，还是在危险中？&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;交互为什么发生在这里地方？
+&lt;em&gt;人们执行这个操作的动机是什么？他们的最终目标是什么，希望达成什么样的效果？&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;这个操作对他们有何帮助？
+&lt;em&gt;人们为什么会反复进行这个操作？他们会从中得到什么回报？这个操作让他们收获什么，如何向别人描述这个操作？&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要知道，如果忽略了以上任何一项，人们绝不会在毫无价值的事物上投入时间精力。&lt;/p&gt;
+&lt;p&gt;人们操作物体，是为了创造更好的自己，即便这个行为似乎对他们不利（例如减肥期间吃快餐食品）。对这个人而言，负面的行为仍然从本质上被认为是有价值的，这就是&lt;strong&gt;为什么&lt;/strong&gt;必须要理解行为。&lt;/p&gt;
+&lt;p&gt;只有理解（并产生共情），才能问出更好的问题，提出更好的假设。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-20/1-0rl63CoXuwngWG9P_kfG6g.png"
+loading="lazy"
+alt="齿轮插画象征用户体验中交互工具与工程限制"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;插画来自&lt;a class="link" href="http://crafticons.com/" target="_blank" rel="noopener"
+&gt;Crafticons&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="人本主义结合工程学"&gt;人本主义结合工程学
+&lt;/h3&gt;&lt;p&gt;当你开始提出正确的问题，并把答案放在一起研究，这时候就可以开始进行用户体验的设计部分了。&lt;/p&gt;
+&lt;p&gt;设计包含了对交互实用性的理解，还有它对于体验的影响。&lt;/p&gt;
+&lt;p&gt;上文中，我们提到了工具，还有它如何作为人与物体之间的操作媒介。用户体验的核心组成之一，就是理解工具的优劣与局限。&lt;/p&gt;
+&lt;p&gt;我们再次用智能手机（物体）和手（工具）作为例子。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;优势
+&lt;em&gt;两只手可以独立行动。它们每天、每次都在分别执行不同任务。手还可以承受一定的重量，并持续一定的时间。多数手都有5只手指，可以绘制形状和手势。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;劣势
+&lt;em&gt;手的大小会随基因和其他外部因素变化，例如人口统计因素。手也容易犯错，并且它的表现受制于温度。太热会打滑，太冷会僵硬。随着人的年龄增长，手也会变虚弱，要忍受关节疲劳和关节炎。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;局限
+&lt;em&gt;像身体的每个部分一样，手也会疲劳和受伤。在某些情况下，手部会在数天内、数周内受损，甚至是永久性受损。手（和手指）的移动范围和APM（每分钟操作）有限。只能伸展一定长度，在一定时间内只能完成一定量的动作。&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;了解了所用工具的能力，就可以提出更深入更有趣的问题。例如下面这些：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;操作物体时，工具是什么样的？&lt;/li&gt;
+&lt;li&gt;工具的使用有没有对人产生约束？&lt;/li&gt;
+&lt;li&gt;使用工具会不会大量耗费资源？&lt;/li&gt;
+&lt;li&gt;如何改进这些工具？&lt;/li&gt;
+&lt;li&gt;还有什么工具可以作为补充？&lt;/li&gt;
+&lt;li&gt;有什么工具可以替代它？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;设计体验的关键部分之一，就是理解交互中的工具。&lt;/p&gt;
+&lt;p&gt;理解了交互中的工具，就可以开始研究如何完善交互和物体了。&lt;/p&gt;
+&lt;p&gt;这个阶段可以做两件事情：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;研究可能性和不可能。&lt;/li&gt;
+&lt;li&gt;明白资源和时间的局限。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;设计体验不只是理解人、物体和工具。它还包含了对于可能性与不可能的更深入理解，还有产生解决方案需要耗费的资源。&lt;/p&gt;
+&lt;p&gt;说起来很简单……&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;X的理想解决方案是Y。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;但是如果Y要耗费太长时间呢？如果Y的代价高到无法承受，以至于根本做不到呢？&lt;/p&gt;
+&lt;p&gt;Y方案可能比其他现有方案都提升了100%，但有没有只提升了20%的方案？鉴于时间和代价，能不能使用那种方案呢？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-20/1-jN6NE2mcLiCm4jT75zztrQ.png"
+loading="lazy"
+alt="设计工具插画象征用户体验作品中的个人标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;插画来自&lt;a class="link" href="http://crafticons.com/" target="_blank" rel="noopener"
+&gt;Crafticons&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="你的个人标签"&gt;你的个人标签
+&lt;/h3&gt;&lt;p&gt;就像所有创意类工作一样，你创造的每一件用户体验设计都能代表你自己。&lt;/p&gt;
+&lt;p&gt;它里面包含了部分的你、你的知识、还有过去经验。那就是你的个人标签。&lt;/p&gt;
+&lt;p&gt;你对于用户体验世界的思考和感受非常重要，它会将你的创造物（还有你的思考）与其他区分开来。&lt;/p&gt;
+&lt;p&gt;这并不代表可以忽视真正执行操作的人。&lt;/p&gt;
+&lt;p&gt;一旦忘记了用户，就会陷入自我参考的设计中，要不惜一切代价避免这种状况。&lt;/p&gt;
+&lt;p&gt;如果为自己而设计，就无法为别人解决问题，也就无法使他们受益。&lt;/p&gt;
+&lt;p&gt;始终要让自己站在别人的立场，而不是自己的。&lt;/p&gt;
+&lt;p&gt;尽管这对于用户体验而言并不容易，可以通过提出问题来评估利益与代价：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;人们为什么要使用这个？&lt;/li&gt;
+&lt;li&gt;人们为什么不愿使用这个？&lt;/li&gt;
+&lt;li&gt;它给&lt;strong&gt;你&lt;/strong&gt;什么感觉？&lt;/li&gt;
+&lt;li&gt;别人也有相同感觉吗？&lt;/li&gt;
+&lt;li&gt;有什么其他方式？为什么？&lt;/li&gt;
+&lt;li&gt;如何检验这些假设？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;记住，创新来自多样化。&lt;/p&gt;
+&lt;p&gt;如果能理解并参与以上流程，就能让你自己的体验成为整个用户体验的一份子。&lt;/p&gt;
+&lt;h3 id="总结"&gt;总结
+&lt;/h3&gt;&lt;p&gt;像用户体验设计师一样思考，其实只有这简单的3步：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;深入研究执行操作的人。&lt;/li&gt;
+&lt;li&gt;理解如何设计交互，还有它的潜在限制条件。&lt;/li&gt;
+&lt;li&gt;将你的独特思维、感觉和个人个人标签运用到作品中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;只要保持好奇心、同理心，热衷于研究身边的世界，像用户体验设计师一样思考，其实很容易。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://uxplanet.org/thinking-like-an-experience-designer-25610c4fa7cf#.l7dkd1gkq" target="_blank" rel="noopener"
+&gt;https://uxplanet.org/thinking-like-an-experience-designer-25610c4fa7cf#.l7dkd1gkq&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://uxplanet.org/@cassiuskiani?source=post_header_lockup" target="_blank" rel="noopener"
+&gt;Cassius Kiani&lt;/a&gt;
+Partner at Mikleo.&lt;/p&gt;</description></item><item><title>从业余项目中学习</title><link>https://victor42.eth.limo/post/3507/</link><pubDate>Sun, 19 Jun 2016 00:08:37 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3507/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第136期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-19/sideproject_hero.jpg"
+loading="lazy"
+alt="业余项目灵感概念：用废旧金属零件和铜丝手工制作的创意微型摩托车雕塑"
+&gt;&lt;/p&gt;
+&lt;p&gt;某些情况下，我们总是心怀一丝产品梦——总有个项目能让我们迫不及待为之日夜奋斗。在业余项目中，你得依靠自己的经验，独立作出抉择。对于创意你能够全权掌控，并且当你的想法脱离草图逐步落地时，也会沿途获得许多技能。&lt;/p&gt;
+&lt;p&gt;离开日常的轨迹，&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22a&amp;#43;side&amp;#43;project&amp;#43;can&amp;#43;motivate&amp;#43;and&amp;#43;excite&amp;#43;you.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;业余项目能刺激你、让你兴奋。&lt;/a&gt;于我而言，兴奋来自实验和回馈整个行业。但是，从一个好想法到将它推向合适的受众，业余项目包含了大量艰辛的工作。本文涵盖了我业余时间构建&lt;a class="link" href="http://uxrecipe.github.io/" target="_blank" rel="noopener"
+&gt;UX Recipe&lt;/a&gt;、发布它的&lt;a class="link" href="https://itunes.apple.com/us/app/ux-recipe/id1078077486?ls=1&amp;amp;mt=8" target="_blank" rel="noopener"
+&gt;iOS应用&lt;/a&gt;所得到的收获。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UX Recipe&lt;/strong&gt;是一个清单，让你发现、选择和评估所需的手段和技巧。UX Recipe有3种使用方法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;为自己的产品或用户体验项目创建流程。&lt;/li&gt;
+&lt;li&gt;估计每个过程的时间与金钱成本，并计算总数。&lt;/li&gt;
+&lt;li&gt;发现一系列推荐方法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;每一项都有定义，并且列举了一系列有用的链接。如此一来，团队和客户从一开始就知道需要什么、如何使用、成本多少。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-06/06-19/side-project-2.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-19/side-project-2.jpg?ver=1"
+loading="lazy"
+alt="UX Recipe网页中选择用户研究方法并估算成本的界面"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;网页版UX Recipe&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;我独自启动这个项目，是因为我觉得“UX”还大有发展空间。它不是&lt;a class="link" href="http://blog.invisionapp.com/core-principles-of-ui-design/" target="_blank" rel="noopener"
+&gt;UI&lt;/a&gt;——也不是简历上的装逼词汇。甚至，UX也不是使用户趋之若鹜的魔法调味料。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22UX&amp;#43;isn%27t&amp;#43;a&amp;#43;magic&amp;#43;ingredient&amp;#43;you&amp;#43;add&amp;#43;to&amp;#43;get&amp;#43;users&amp;#43;to&amp;#43;start&amp;#43;pouring&amp;#43;in.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“UX并不是使用户趋之若鹜的魔法调味料。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-规划路线"&gt;1. 规划路线
+&lt;/h2&gt;&lt;p&gt;从第一版原型开始，我就知道我要启动的是个什么项目，我一直徘徊于计划中，直到真正付诸实施。这样，我不会让自己拖延&lt;a class="link" href="http://blog.invisionapp.com/teams-tight-deadlines/" target="_blank" rel="noopener"
+&gt;截止日期&lt;/a&gt;、增加功能、或者尝试每一种可能。做到这么严格并不容易，但它很有帮助。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Treating&amp;#43;a&amp;#43;side&amp;#43;project&amp;#43;like&amp;#43;client&amp;#43;work&amp;#43;helps&amp;#43;you&amp;#43;avoid&amp;#43;the&amp;#43;I%27ll-do-it-tomorrow&amp;#43;effect.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;把业余项目当做客户任务对待，能帮你避免明日复明日。&lt;/a&gt;在没有固定规则时，很容易就推迟最终期限。&lt;/p&gt;
+&lt;p&gt;有时我的确逼着自己前进：我保持着紧密的日程安排，尽快把作品发布上线。我还把项目分享给几个熟人，来为自己增加压力。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Failure&amp;#43;is&amp;#43;educational%2C&amp;#43;but&amp;#43;it&amp;#43;stings&amp;#43;when&amp;#43;it&amp;#43;happens&amp;#43;before&amp;#43;an&amp;#43;audience.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;失败有教育意义，但如果让别人看到就会有刺激作用。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;为每一个将要发布的版本规划路线。当然，随着版本迭代，你的项目可能需要转变。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22A&amp;#43;distraction-free&amp;#43;design&amp;#43;sprint&amp;#43;can&amp;#43;do&amp;#43;wonders.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;一轮无干扰的设计冲刺能够创造奇迹。&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Treat&amp;#43;your&amp;#43;side&amp;#43;project&amp;#43;like&amp;#43;client&amp;#43;work.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“把业余项目当做客户任务对待。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="2-要的是结果不只是产出物"&gt;2. 要的是结果，不只是产出物
+&lt;/h2&gt;&lt;p&gt;UX Recipe最棒的一点就是它的内容。UX Recipe的口号让用户产生共鸣，这得益于它随意诙谐的语调。各种资源和项目评估功能，再为之增添色彩，它不仅仅是一个计算器。&lt;/p&gt;
+&lt;p&gt;分析反馈、回顾记录之后，我注意到一些现象：人们再次回来是因为它的价值，而不是那些数字。他们要么是借助同样的语调进行推广，要么把它作为一种发现工具。这些信息的收集和分类，是它成功的原因。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Emphasize&amp;#43;the&amp;#43;value&amp;#43;proposition&amp;#43;you&amp;#43;offer%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;要强调你的价值主张&lt;/a&gt;，而不仅仅是一系列功能。用户可能会因为你所代表的立场再次回来，并且长期融入你的项目，这就是最大的胜利。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-06/06-19/side-project-1.jpg" title="Lessons learned from building a side project"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-19/side-project-1.jpg?ver=1"
+loading="lazy"
+alt="UX Recipe的资源、彩蛋和模板"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;UX Recipe的资源、彩蛋和模板。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="3-原型再三强调"&gt;3. 原型，再三强调
+&lt;/h2&gt;&lt;p&gt;进行业余项目时，时间极其重要。很显然如果我想尽快测试，就要发布上线。最终内容完成后，我转而使用HTML/CSS/JS制作原型。我全部都用&lt;a class="link" href="https://pages.github.com/" target="_blank" rel="noopener"
+&gt;Github pages&lt;/a&gt;发布，修复明显的bug，并且征询反馈。&lt;/p&gt;
+&lt;p&gt;无论你是用HTML、&lt;a class="link" href="http://invisionapp.com/" target="_blank" rel="noopener"
+&gt;InVision&lt;/a&gt;、还是白纸，都应该画出原型。你可以试验、快速记录想法、尽早发现错误、并且&lt;a class="link" href="http://blog.invisionapp.com/design-project-communication/" target="_blank" rel="noopener"
+&gt;更好交流&lt;/a&gt;。比如，从我刚开始在Github上分享项目。它一直是在线的，我可以发布小更新和测试功能。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Build&amp;#43;a&amp;#43;prototype&amp;#43;so&amp;#43;you&amp;#43;can&amp;#43;make&amp;#43;mistakes&amp;#43;sooner.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“画出原型能够让你尽早发现错误。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="4-这不是独自一人的工作"&gt;4. 这不是独自一人的工作
+&lt;/h2&gt;&lt;p&gt;到某阶段你会发现自己需要援助。我想要一个iOS应用，但我不会用Xcode。我想要推广这个项目，但我不知道所有这些&lt;a class="link" href="http://blog.invisionapp.com/marketing-for-designers/" target="_blank" rel="noopener"
+&gt;市场推广手段&lt;/a&gt;、诀窍和技巧。&lt;/p&gt;
+&lt;p&gt;那如果我想要一个Android应用。我要自己开发吗？不。请求帮助？是的。&lt;/p&gt;
+&lt;p&gt;我很幸运。这个项目吸引了渴望贡献力量的热心人。他们对于这个项目表露出了自然的兴趣。而且，我在Github上提供了代码，事情进展更顺利了。开发者们，无论陌生人还是朋友，都帮助优化了我的代码。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22There%27s&amp;#43;no&amp;#43;harm&amp;#43;in&amp;#43;asking&amp;#43;for&amp;#43;help.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“请求帮助没有任何坏处。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一个同事开始尝试开发iOS版，他只是为了练习他的Xcode技巧。一个朋友在市场推广和分析方面提供帮助。还有一个朋友的朋友，碰巧是Android开发，开始构建Android版本。&lt;/p&gt;
+&lt;p&gt;即使是我所工作的公司，&lt;a class="link" href="http://grapefruit.ro/" target="_blank" rel="noopener"
+&gt;Grapefruit&lt;/a&gt;也支持我。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22There%27s&amp;#43;no&amp;#43;shame&amp;#43;in&amp;#43;admitting&amp;#43;you&amp;#43;feel&amp;#43;overwhelmed%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;承认自己不知所措一点也不可耻&lt;/a&gt;，请求帮助没有任何坏处。&lt;/p&gt;
+&lt;p&gt;或许你是个优秀的设计师或开发者，但你并不是&lt;a class="link" href="http://blog.invisionapp.com/becoming-a-designer-who-codes/" target="_blank" rel="noopener"
+&gt;独角兽&lt;/a&gt;。那是不存在的。&lt;/p&gt;
+&lt;h2 id="5-学会推广"&gt;5. 学会推广
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22There%27s&amp;#43;more&amp;#43;to&amp;#43;promotion&amp;#43;than&amp;#43;paid&amp;#43;ads.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;推广不只是购买广告。&lt;/a&gt;有一件事我从一开始就错了：依赖广告推广。它们有用，但触及不到适合的用户。&lt;/p&gt;
+&lt;p&gt;纠正方向后，我开始学习Google Analytics的更多高级功能。我更深入了解我的用户——他们从哪来，对什么感兴趣。我在社交媒体上计划发布文章，追踪转化。我学到了如果想更容易登上&lt;a class="link" href="http://designernews.co/" target="_blank" rel="noopener"
+&gt;DesignerNews&lt;/a&gt;，你就得&lt;a class="link" href="https://medium.com/@hvost/how-much-traffic-i-got-from-designer-news-after-being-on-top-for-24h-8afc1933d009#.e5wogmoty" target="_blank" rel="noopener"
+&gt;在美国西部标准时间上午9点发布&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-06/06-19/side-project-4.jpg" title="Lessons learned from building a side project"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-19/side-project-4.jpg?ver=1"
+loading="lazy"
+alt="推广给正确的用户群"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;推广给正确的用户群。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="6-耐心是种美德"&gt;6. 耐心是种美德
+&lt;/h2&gt;&lt;p&gt;关于最终结果我浮想联翩——我总在午后想象这个产品会是什么样，如何发展。然后我才意识到，我甚至都没有发布推特介绍这个项目，也没有收集&lt;a class="link" href="http://blog.invisionapp.com/get-better-qualitative-data-on-your-user-experience-with-microfeedback/" target="_blank" rel="noopener"
+&gt;反馈&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;每次我发推特介绍它……结果什么也没发生。没有访客，没有转发，什么也没有。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Don%27t&amp;#43;build&amp;#43;something&amp;#43;because&amp;#43;you&amp;#43;want&amp;#43;it&amp;#43;to&amp;#43;go&amp;#43;viral.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;不要纯粹为了病毒式传播制作某个东西。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我知道，一个项目的成功非常微妙且极度依赖时机，但并非不可能。我刚开始发布了少量推特、点赞，在许多群组里交流。起初没有什么活跃度和回应，但我坚持做着。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-06/06-19/ios-cookbook-ux.jpg" title="Lessons learned from building a side project"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-19/ios-cookbook-ux.jpg?ver=1"
+loading="lazy"
+alt="UX Recipe iOS应用两屏截图左侧显示侧边栏导航右侧显示按字母排序的食谱列表"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;偶尔会有增长的动因。这个项目被&lt;a class="link" href="http://producthunt.com/" target="_blank" rel="noopener"
+&gt;Product Hunt&lt;/a&gt;、&lt;a class="link" href="http://sidebar.io/" target="_blank" rel="noopener"
+&gt;Sidebar&lt;/a&gt;收录了，还被&lt;a class="link" href="http://smashingmagazine.com/" target="_blank" rel="noopener"
+&gt;Smashing Magazine&lt;/a&gt;分享了。从那时起，其他网站也开始推广它。&lt;/p&gt;
+&lt;h2 id="7-聆听权衡和响应"&gt;7. 聆听、权衡和响应
+&lt;/h2&gt;&lt;p&gt;发布项目并不是终点——它只是把你置于未知面前。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-06/06-19/side-trello.jpg" title="Lessons learned from building a side project"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-19/side-trello.jpg?ver=1"
+loading="lazy"
+alt="Trello看板UX Recipe项目分为Planning Research Exploration Information Architecture四个列表"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我使用Trello来保存所有反馈和创意灵感，把它们归成几类：&lt;strong&gt;至关重要&lt;/strong&gt;、&lt;strong&gt;要做的&lt;/strong&gt;、&lt;strong&gt;最好有&lt;/strong&gt;、&lt;strong&gt;不需要&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;我还混合使用各种工具来追踪用户行为和模式。我用了&lt;a class="link" href="https://www.google.com/analytics" target="_blank" rel="noopener"
+&gt;Google Analytics&lt;/a&gt;、&lt;a class="link" href="https://www.hotjar.com/" target="_blank" rel="noopener"
+&gt;Hotjar&lt;/a&gt;和&lt;a class="link" href="http://fabric.io/" target="_blank" rel="noopener"
+&gt;Fabric&lt;/a&gt;。用户开始报告bug和错误了，所以我得扮演服务支持的角色。当你发布了一个项目——如果全凭自己的话——你会发现自己原来还会这么多技能。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-06/06-19/side-project-3.jpg" title="Lessons learned from building a side project"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-19/side-project-3.jpg?ver=1"
+loading="lazy"
+alt="基于数据的评估与改进"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;基于数据的评估与改进。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="8-留心竞争者"&gt;8. 留心竞争者
+&lt;/h2&gt;&lt;p&gt;有句话说，&lt;em&gt;你不是一个人&lt;/em&gt;——所以你得了解竞争对手。我常常关注其他清单类的工具如何进化。我对于别人的类似尝试或新功能时刻保持好奇。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Emphasize&amp;#43;the&amp;#43;value&amp;#43;proposition&amp;#43;you&amp;#43;offer.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesign-side-projects%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“强调你的价值主张。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="9-卡住时不要停滞不前"&gt;9. 卡住时，不要停滞不前
+&lt;/h2&gt;&lt;p&gt;UX Recipe的网页版原型发布、访问量增长之后，一切归于寂静，很长一段时间什么也没发生。更新越来越少，我觉得很安逸。几个月以来，我都仅仅依靠推荐来获取访客。&lt;/p&gt;
+&lt;p&gt;直到我开始规划iOS应用时，事情才继续开始发展。随着&lt;a class="link" href="http://pxdotpt.com/uxrecipe" target="_blank" rel="noopener"
+&gt;iOS应用的发布&lt;/a&gt;，就经常会提交更新。只要有动力和活跃度，大大小小的更新就源源不断。iOS应用的发布也激发我启动Android版。我再次预先规划、制定路线，向自己保证不要再无疾而终。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-06/06-19/ios-calculator-ux.jpg" title="Lessons learned from building a side project"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-19/ios-calculator-ux.jpg?ver=1"
+loading="lazy"
+alt="UX Recipe iOS应用两屏截图左侧展示工具选择列表右侧展示成本估算结果导出界面"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="10-业余时间很特殊"&gt;10. 业余时间很特殊
+&lt;/h2&gt;&lt;p&gt;只要你没有放弃正式工作，业余项目永远都是业余项目。你并不会全职投入——这让我花了一阵子才适应。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我是怎么应对的？&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;预先规划周末日程&lt;/li&gt;
+&lt;li&gt;安排工作日的夜晚&lt;/li&gt;
+&lt;li&gt;组织黑客马拉松完成复杂的功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;通过这种方式，我迫使自己形成定期的工作节奏，依据频率和复杂度来安排更新。例如，我周一至周五更新内容。周末我只处理新功能。只要UX Recipe仍是业余项目，我就得如此妥协。&lt;/p&gt;
+&lt;h2 id="保持交流"&gt;保持交流
+&lt;/h2&gt;&lt;p&gt;你是否也在经营业余项目？有没有什么诀窍可以分享？欢迎与我沟通！可以在Tweet中联系&lt;a class="link" href="https://twitter.com/invisionapp" target="_blank" rel="noopener"
+&gt;@invisionapp&lt;/a&gt;和&lt;a class="link" href="https://twitter.com/alecsandru" target="_blank" rel="noopener"
+&gt;@alecsandru&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://blog.invisionapp.com/design-side-projects/" target="_blank" rel="noopener"
+&gt;http://blog.invisionapp.com/design-side-projects/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://blog.invisionapp.com/author/alecsandru-grigoriu-lead-ux-designer-at-grapefruit/" target="_blank" rel="noopener"
+&gt;Alecsandru Grigoriu, Lead UX Designer at Grapefruit&lt;/a&gt;
+Alecsandru is Lead UX Designer at &lt;a class="link" href="http://www.grapefruit.ro/" target="_blank" rel="noopener"
+&gt;Grapefruit&lt;/a&gt;, a user experience agency from Romania. He teaches HCI laboratory classes as an assistant at the Faculty of Computer Science. In his free time he tinkers at his project, UX Recipe, and listens to The Killers all day long.
+&lt;a class="link" href="https://twitter.com/alecsandru" target="_blank" rel="noopener"
+&gt;Follow me on Twitter&lt;/a&gt;&lt;/p&gt;</description></item><item><title>11名顶尖设计师的职业忠告</title><link>https://victor42.eth.limo/post/3487/</link><pubDate>Sun, 13 Mar 2016 12:07:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3487/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第125期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/11-top-designers.jpg"
+loading="lazy"
+alt="11位用户体验设计师的黑白头像拼图，其中第一位留着夸张的黑色假胡子"
+&gt;&lt;/p&gt;
+&lt;p&gt;优秀的设计师活到老学到老。&lt;/p&gt;
+&lt;p&gt;在&lt;a class="link" href="http://springboard.com" target="_blank" rel="noopener"
+&gt;Springboard&lt;/a&gt;，我们把用户体验和数据科学方面的导师与学员相互组队，这对于聆听前辈的建议有重大意义。&lt;/p&gt;
+&lt;p&gt;我们整合了许多顶尖从业者的建议，用来编写我们的&lt;a class="link" href="https://www.springboard.com/guide-to-ux-design-careers/" target="_blank" rel="noopener"
+&gt;用户体验职业指南&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;因此，我们采访了11位了不起的用户体验设计师，问他们从何处获得灵感，有什么用户体验方面的建议要给其他从业者。&lt;/p&gt;
+&lt;p&gt;我们与&lt;a class="link" href="https://www.uxpin.com/" target="_blank" rel="noopener"
+&gt;UXPin&lt;/a&gt;团队合作，为你带来他们的深刻见解。&lt;/p&gt;
+&lt;h2 id="1-paul-boag"&gt;1. &lt;a class="link" href="https://twitter.com/boagworld" target="_blank" rel="noopener"
+&gt;Paul Boag&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Paul是网页设计机构&lt;a class="link" href="http://headscape.co.uk/" target="_blank" rel="noopener"
+&gt;Headscape&lt;/a&gt;的联合创始人（他们的客户包括Nestle、Macmillan和一些英国的大学），他在互联网行业已经工作了20年以上，同时是一名多产的作者和演讲者。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image052.png"
+loading="lazy"
+alt="Paul Boag 的黑白头像照，戴黑框眼镜，头顶微秃，面带微笑"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;我最喜欢的设计是原版的&lt;a class="link" href="http://www.theverge.com/2013/3/29/4160028/harry-beck-designer-of-iconic-london-underground-map" target="_blank" rel="noopener"
+&gt;伦敦地铁图&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;它打破常规，具有非凡的独创性。它抛弃了按照真实比例表现距离和位置的惯例。破除这些约束后，就能够为一个复杂的网络创造出一种简洁的表现形式。于我而言，这就是优秀设计的全部——从另一个角度看待复杂，然后将其简化。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image11.png"
+loading="lazy"
+alt="Harry Beck 设计的伦敦地铁图，各线路以红绿蓝等颜色区分，呈放射状网络布局"
+&gt;&lt;/p&gt;
+&lt;h3 id="职业建议"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;老实说，我会避免给当年的我提任何建议，因为我知道自己听不进去！&lt;/p&gt;
+&lt;p&gt;即使我给出建议，若没有亲身体验和探索，还是无法收获这些价值。犯错是学习任何事物的最佳方法，所以我不会剥夺年轻的自己这样的机会。温斯顿丘吉尔说过：“成功就是不断失败，而不丧失热情。”&lt;/p&gt;
+&lt;p&gt;不要听别人的，自己犯错跌倒，起身再来过。&lt;/p&gt;
+&lt;h2 id="2-eva-kaniasty"&gt;2. &lt;a class="link" href="https://twitter.com/kaniasty" target="_blank" rel="noopener"
+&gt;Eva Kaniasty&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Eva在波士顿经营着自己的公司（&lt;a class="link" href="http://www.redpillux.com/" target="_blank" rel="noopener"
+&gt;Red Pill UX&lt;/a&gt;），会定期举办&lt;a class="link" href="http://www.upaboston.org/" target="_blank" rel="noopener"
+&gt;UXPA&lt;/a&gt;，她在其中担任会长。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image14.png"
+loading="lazy"
+alt="Eva Kaniasty 的黑白头像照，棕色中长发，面带微笑，背景为浅色花纹墙面"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-1"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;我最近发现了&lt;a class="link" href="https://en.duolingo.com/" target="_blank" rel="noopener"
+&gt;Duolingo&lt;/a&gt;，一个在线语言学习平台。&lt;/p&gt;
+&lt;p&gt;我有一万个喜爱它用户体验的理由……它界面非常简单，欢乐动人。许多应用都试图融合游戏化和社区元素，因为这么做非常酷炫，结果往往给人画蛇添足的感觉。Duolingo在游戏元素上却运用地恰到好处，多种多样的课程令用户欲罢不能。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image12-1024x662.png"
+loading="lazy"
+alt="Duolingo 语言学习应用截图，绿色猫头鹰吉祥物戴学士帽，弹出&amp;#34;Take a test to jump ahead&amp;#34;对话框"
+&gt;&lt;/p&gt;
+&lt;p&gt;我还喜欢它的沉浸式语言学习部分，用户在此协作翻译。作为语言学习的固有阶段，记忆和背诵是相当枯燥的，很显然Duolingo的员工们经过了深思熟虑，试图简化这项挑战。&lt;/p&gt;
+&lt;p&gt;我时常感觉我们已经达到了某个阶段，应该重视用户应用的革新，能看到如此新颖绝妙的产品真是太棒了。&lt;/p&gt;
+&lt;h3 id="职业建议-1"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;要知道，在用户体验这样的协作型职业中，人比技能更重要。如果你在研究和设计方面有天赋，你总能及时掌握相应技能。但是，人际关系决定着你职业生涯的成败。&lt;/p&gt;
+&lt;p&gt;当我第一次转行进入科技行业时，我知道只有少数人在做着同样的事情。然后我去Bentley University学习人机工程专业，这向我敞开了一个全新的世界。当然，其中绝大部分都是学习，但最终积累的人脉也同样有价值。&lt;/p&gt;
+&lt;p&gt;如今，我通过本地协会UX Professionals Association继续投身这行业。这个协会则愈发重要了，我开始开展独立咨询业务。尽可能多地结识同样热衷于用户体验的人，请他们提出建议。&lt;/p&gt;
+&lt;h2 id="3-mike-kus"&gt;3. &lt;a class="link" href="https://twitter.com/mikekus" target="_blank" rel="noopener"
+&gt;Mike Kus&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Mike从平面设计起家，然后转行做网页设计，与Twitter、Microsoft和Mailchimp这些公司合作过，创造形式与功能兼具的用户体验。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image018.png"
+loading="lazy"
+alt="Mike Kus 的黑白头像照，深色短发，眼神向上看，背景为圆形装饰图案"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-2"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://hipopotamstudio.pl" target="_blank" rel="noopener"
+&gt;Hipopotam Studio&lt;/a&gt;，我喜欢这个网站的界面，满满的创意和趣味。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image13-1024x525.png"
+loading="lazy"
+alt="Hipopotam Studio 网站的像素风格截图，展示复古像素化的厨房用具和食物图标设计"
+&gt;&lt;/p&gt;
+&lt;h3 id="职业建议-2"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;学会把UI潮流和实用的UI设计惯例区分开。因为就算某个趋势正在广泛运用，也不代表它就是最佳方案。&lt;/p&gt;
+&lt;h2 id="4-jack-zerby"&gt;4. &lt;a class="link" href="https://twitter.com/jackzerby" target="_blank" rel="noopener"
+&gt;Jack Zerby&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Jack是&lt;a class="link" href="http://flavors.me/" target="_blank" rel="noopener"
+&gt;Flavors.me&lt;/a&gt;和&lt;a class="link" href="http://goodsie.com/" target="_blank" rel="noopener"
+&gt;Goodsie&lt;/a&gt;的联合创始人，之前也当过&lt;a class="link" href="https://vimeo.com/" target="_blank" rel="noopener"
+&gt;Vimeo&lt;/a&gt;的设计总监。他说自己深受父亲的影响，当他高中时第一次启动Photoshop，就被设计深深吸引。如今，&lt;a class="link" href="https://thisisworkshop.com/" target="_blank" rel="noopener"
+&gt;Workshop&lt;/a&gt;中能看到他的身影——一个有干货的青年企业家养成计划。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image15.png"
+loading="lazy"
+alt="Jack Zerby 的黑白头像照，短发，面部微侧，眼神看向右上方"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-3"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;近来我最喜欢的产品体验，来自于&lt;a class="link" href="https://play.google.com/store/apps/details?id=net.sharewire.parkmobilev2&amp;amp;hl=en" target="_blank" rel="noopener"
+&gt;应用ParkMobile&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;不用准备零钱、等待找零，只要按照停车计时表支付就行了。我现在只需要输入&lt;a class="link" href="http://parkitnyc.com/wp-content/uploads/2011/08/image_parkmobile_meter-279x300.png" target="_blank" rel="noopener"
+&gt;计时表&lt;/a&gt;上的数字，设定想要停的时长，然后付款。时间快到时还会短信通知我，如果需要我还能追加停车费。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image18.png"
+loading="lazy"
+alt="ParkMobile 停车计时应用截图，显示剩余时间00:15:50，绿色顶部导航栏含停车、会话、区域地图等功能"
+&gt;&lt;/p&gt;
+&lt;p&gt;流畅无障碍。&lt;/p&gt;
+&lt;h3 id="职业建议-3"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;要时刻考虑最终结果，还有用户或顾客所处的情景。他们要完成什么任务，身处什么样的情景。&lt;/p&gt;
+&lt;p&gt;例如，我想在车上安装一个自行车支架，我进入了制造商的网站。我的目标就是尽快成功装上支架，然后上路。在这个情景中，我站在车外的骄阳下，孩子们正在大哭，因为他们现在就想去公园。&lt;/p&gt;
+&lt;p&gt;设计时心中要有这样的考量，要了解用户。就像要达到成功的营销目的，就要理解他们的痛点、问题、失望，然后用他们的口吻与之交流。&lt;/p&gt;
+&lt;p&gt;不要想当然，成为自大的牺牲品（我们往往如此）。&lt;/p&gt;
+&lt;h2 id="5-laura-klein"&gt;5. &lt;a class="link" href="https://twitter.com/lauraklein" target="_blank" rel="noopener"
+&gt;Laura Klein&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Laura在硅谷当了超过15年的工程师和设计师。她的目标就是帮助初创企业了解他们的顾客，让他们加速创造出更好的产品。她写的&lt;a class="link" href="http://www.amazon.com/UX-Lean-Startups-Experience-Research/dp/1449334911" target="_blank" rel="noopener"
+&gt;书&lt;/a&gt;和她的著名设计博客&lt;a class="link" href="http://usersknow.blogspot.com/" target="_blank" rel="noopener"
+&gt;Users Know&lt;/a&gt;教导产品的创造者，在研究和设计方面应该做哪些工作。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image062.png"
+loading="lazy"
+alt="Laura Klein 的黑白头像照，深色卷发，佩戴项链，面带微笑看向镜头"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-4"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;我们只会注意到令人厌烦的设计，我想这就是用户体验设计师的诅咒。也可能只有我是这样。不论怎样，我一直都十分热爱那些简单的设计，与生活高度融合，以至于我不会注意到。&lt;/p&gt;
+&lt;h3 id="职业建议-4"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;你需要两名导师。&lt;/p&gt;
+&lt;p&gt;首先是某位在你关注的领域中有影响力的前辈。他们能帮助你树立观念，告诉你需要哪些技能，才能被他们那样的人录用。&lt;/p&gt;
+&lt;p&gt;另一位导师应该要比你年长几岁。他们会告诉你要如何准备，来应对即将到来的工作。我不清楚如今科技行业新人的生活状态，但从事了几年的人会有深刻的见解。&lt;/p&gt;
+&lt;p&gt;所以你需要两个人：一个帮助你得到下一份工作，另一个帮助你做好这份工作。&lt;/p&gt;
+&lt;h2 id="6-joshua-garity"&gt;6. &lt;a class="link" href="https://twitter.com/iamlucid" target="_blank" rel="noopener"
+&gt;Joshua Garity&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Joshua可谓是设计心理学家和品牌战略家，他与Wendy&amp;rsquo;s和纽约时报这样的公司合作过，帮助他们与顾客建立连接，提高他们的收入。可以在&lt;a class="link" href="http://www.joshuagarity.com/" target="_blank" rel="noopener"
+&gt;他的博客&lt;/a&gt;、&lt;a class="link" href="https://twitter.com/iamlucid" target="_blank" rel="noopener"
+&gt;Twitter&lt;/a&gt;和他经营的公司&lt;a class="link" href="http://www.candorem.com/" target="_blank" rel="noopener"
+&gt;Candorem&lt;/a&gt;看到他的相关言论。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image17.png"
+loading="lazy"
+alt="Joshua Garity 的黑白头像照，短发上翘，脸上贴着夸张的黑色假胡子贴纸"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-5"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;用户体验围绕着我们，它早已延伸到数字网络之外。从交互设计场景和具体媒介或平台的角度看，用户体验作为一种标志，一定会被看见。&lt;/p&gt;
+&lt;p&gt;举个例子，来看看我们通常意义上的汽车。&lt;/p&gt;
+&lt;p&gt;假定我们在车里多数时间都是在驾驶。当我们驾驶时，主要精力都会放在前方道路上，至少我希望如此。保持车道，不超速，留意其他车、行人或动物。然后我们加入了收音机和空调。视线哪怕是短暂偏离道路看向别处，都可能对路上的每个人造成严重危害。那么，汽车制造商设计控制台时，为什么还要考虑这个？其中许多都有强大功能，众多选项、按钮、旋钮甚至触摸屏，用来控制温度或电台。&lt;/p&gt;
+&lt;p&gt;如果用户体验关乎交互情景，那我们就得着眼于简化体验，保障用户主要注意力不受负面干扰。&lt;/p&gt;
+&lt;p&gt;好的设计能引导用户，无需多想。困惑是最大的敌人。&lt;/p&gt;
+&lt;h3 id="职业建议-5"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;永不知足，活在当下。不要被某个标签或理想定死了。向所有人和事物寻求答案，即使他们与当前问题看似毫不相干。你渴望的一切成就都能实现。&lt;/p&gt;
+&lt;h2 id="7-kevin-m-hoffman"&gt;7. &lt;a class="link" href="https://twitter.com/kevinmhoffman" target="_blank" rel="noopener"
+&gt;Kevin M. Hoffman&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;在Seven Heads Design，Kevin“致力于解决你自己都没意识到的问题”——不仅仅包括人与电脑的交互，也包括人与人之间。他的客户有哈佛大学、任天堂和MTV。可以在他的&lt;a class="link" href="http://kevinmhoffman.com/" target="_blank" rel="noopener"
+&gt;网站&lt;/a&gt;和&lt;a class="link" href="https://twitter.com/kevinmhoffman" target="_blank" rel="noopener"
+&gt;Twitter&lt;/a&gt;上找到他。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image044.png"
+loading="lazy"
+alt="Kevin M. Hoffman 的黑白头像照，头顶微秃，露齿大笑，下巴有稀疏胡须"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-6"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;我非常喜欢原版Android、或者说“Google Play”版Android的整体体验，最近更是爱上了Android Wear。&lt;/p&gt;
+&lt;p&gt;我尝试使用Android已经有一段时间了，那时候“&lt;a class="link" href="http://www.android.com/kitkat/" target="_blank" rel="noopener"
+&gt;Kit Kat&lt;/a&gt;”版本的软件和Nexus 5刚刚出来，从那以后我就没有换回去过。我觉得许多界面的设计都非常棒，但我最喜欢的还是它的预期和&lt;a class="link" href="http://microinteractions.com/" target="_blank" rel="noopener"
+&gt;微交互&lt;/a&gt;部分，比如通知的几种操作方式，还有与日程需求的无缝整合。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image035.jpg"
+loading="lazy"
+alt="Android 手机多任务切换界面截图，展示 Google Play Music、电话和 Chrome 三个应用的卡片式预览"
+&gt;&lt;/p&gt;
+&lt;p&gt;我第一次意识到，原来要告知别人我会议要迟到一会儿，两次点击就可以了，我当时觉得“哇！这太有用了。”最近，我在试用Android Wear手表，它只用了5天就完全自然地融入了我的生活。现在，我只要时常看看手表，基本能从社交信息中抽身了，不用从口袋掏出手机查看和操作通知。&lt;/p&gt;
+&lt;p&gt;我也非常期盼Android Auto。我们能看到下一版iOS是什么样子，但我想我暂时不会换回去了。&lt;/p&gt;
+&lt;h3 id="职业建议-6"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;“嘿，年轻时的我！&lt;/p&gt;
+&lt;p&gt;你会花些时间构思长期目标，这是很好的练习。你也会思考理想的工作、雇主、生活方式、家庭，等等。但在现实中，追寻这些事情难以令你满足，绝不能坐等它们到来。&lt;/p&gt;
+&lt;p&gt;要过好眼下的生活。&lt;/p&gt;
+&lt;p&gt;最大的乐趣就在现实生活中，有时候会面对一些微小（有时不小）的抉择，是还是否。你的目标应当是更善于做决策，对你的人生产生巨大影响，而不是某个特定理想。&lt;/p&gt;
+&lt;p&gt;还要尽量明白一点，自我怀疑虽然使你谦卑，但没有其他好处了。别对自己太认真了。多做练习，小伙子，看你把今天的我变成了什么样？还有，不要滥用‘还有’这个词。”&lt;/p&gt;
+&lt;h2 id="8-lis-hubert"&gt;8. &lt;a class="link" href="https://twitter.com/lishubert" target="_blank" rel="noopener"
+&gt;Lis Hubert&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Lis和许多大大小小的公司合作过，共同创造科技产品——比如espnw.com和nba.com，永远地改变了人们的生活。她同时也是&lt;a class="link" href="http://futureinsights.com/" target="_blank" rel="noopener"
+&gt;Future Insights&lt;/a&gt;大会的咨询委员会成员。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image101.jpg"
+loading="lazy"
+alt="Lis Hubert 的黑白头像照，深色长发，穿白色衬衫，佩戴领夹麦克风，表情严肃"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-7"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;我近来最大的启发，来自于大城市的公共空间设计，例如我居住的纽约。&lt;/p&gt;
+&lt;p&gt;不容忽视的是，不仅像Central Park这样的大空间设计得非常棒，而且目力所及之处的小空间都极其便捷。我发现自己沉迷于观察人们使用公园、运动场和球场的方式。我向这个生态系统寻求灵感，是因为如果要使这些地方如此成功，设计师必须以如此庞大、复杂的人群的体验为目标，让他们享受此地，而这是一个眼花缭乱的拥挤场所。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image16.png"
+loading="lazy"
+alt="纽约曼哈顿街道仰拍照片，世界贸易中心一号楼高耸入云，两侧是古典砖石建筑"
+&gt;&lt;/p&gt;
+&lt;p&gt;这点于我而言，就是建筑的用户体验设计。让人们在此穿梭，看他们在空间中怎样做决策，最终达到令用户、场地主人和设计师都满意的预期结果。&lt;/p&gt;
+&lt;h3 id="职业建议-7"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;冷静，初学者们。&lt;/p&gt;
+&lt;p&gt;在我们这个行业中，我们非常了解自己工作的重要性，也希望其他所有人都了解和“理解”。所以我们总是竭尽全力想让大家领会其意义。&lt;/p&gt;
+&lt;p&gt;当然，结果会令人心力憔悴垂头丧气。但我意识到，如此努力地向外行灌输我们的知识，并没那么重要。据我了解，公司、科技团队、或其他任何人，能否“领悟”我们工作的最深层意义，真的无关紧要。&lt;/p&gt;
+&lt;p&gt;最重要的，就对自己掌控范围内的事充满热情。尽你的职责（有必要就多做一点），让热情绽放，享受你的征途。&lt;/p&gt;
+&lt;h2 id="9-matt-hamm"&gt;9. &lt;a class="link" href="https://twitter.com/matthamm" target="_blank" rel="noopener"
+&gt;Matt Hamm&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Matt是英国一家工作室&lt;a class="link" href="http://www.supereightstudio.com" target="_blank" rel="noopener"
+&gt;Supereight Studio&lt;/a&gt;的联合创始人，从1998年起就开始在网络上做设计了。可以在&lt;a class="link" href="http://www.matthamm.com/portfolio.php" target="_blank" rel="noopener"
+&gt;这里&lt;/a&gt;看到它他的作品，或者来&lt;a class="link" href="http://www.twitter.com/matthamm" target="_blank" rel="noopener"
+&gt;Twitter&lt;/a&gt;看看他的相关言论。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image024.png"
+loading="lazy"
+alt="Matt Hamm 的黑白头像照，戴编织帽和眼镜，与一个卷发小女孩亲密合影，两人都笑容灿烂"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-8"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;Dropbox在用户体验方面持续领先——使用非常顺畅。&lt;/p&gt;
+&lt;p&gt;优秀的用户体验设计应当是隐形的。Dropbox许多地方令我印象深刻：欢迎界面的体验，注重细节，独立思考而非照搬设计模式，使它完全符合直觉。&lt;/p&gt;
+&lt;h3 id="职业建议-8"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;把一切文档化！&lt;/p&gt;
+&lt;p&gt;精心整理一份用户体验设计参考文档，以供浏览，整理过程中就能帮助你学习和解决问题。记得也要写下真实世界的体验，这些模式也可以纳入文档。&lt;/p&gt;
+&lt;h2 id="10-pavel-macek"&gt;10. &lt;a class="link" href="https://twitter.com/pavel_macek" target="_blank" rel="noopener"
+&gt;Pavel Macek&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Pavel目前是&lt;a class="link" href="http://slack.com" target="_blank" rel="noopener"
+&gt;Slack&lt;/a&gt;的一名产品设计师，他说自己“非常在乎别人”，这也体现在了他的工作中——设计和构建大众喜爱的东西。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image19.png"
+loading="lazy"
+alt="Pavel Macek 的黑白头像照，戴灰色针织帽，在室内工作室环境中自拍"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-9"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;对我来说，用户体验设计的一个绝佳案例就是Technics SL-1200型唱机转盘，它已经卖了35年，没有做过什么大调整。而且依然在DJ、制作人和音乐家群体中广受欢迎。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image072-1024x697.png"
+loading="lazy"
+alt="Technics SL-1200 黑胶唱机特写，银色机身，黑色唱片正在旋转，唱臂搭在唱片上，红色指示灯亮起"
+&gt;&lt;/p&gt;
+&lt;p&gt;它展现了最佳的功能设计，还结合了体贴到位的设计细节。我认为用户体验设计师总是会忽略他们的部分职责，那就是确保设计执行到位，这才是最终决定产品成败的因素。&lt;/p&gt;
+&lt;h3 id="职业建议-9"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;不要在设计方法论和设计模式中迷失自我。学习设计方式、拥有严格的设计流程固然重要，但出发点往往非常简单：我在为谁设计？他想要达成什么目的？如何帮助他达成目标？&lt;/p&gt;
+&lt;p&gt;然后就只需要不断迭代，研究哪些有用、哪些没用。&lt;/p&gt;
+&lt;h2 id="11-robert-fabricant"&gt;11. &lt;a class="link" href="https://twitter.com/fabtweet" target="_blank" rel="noopener"
+&gt;Robert Fabricant&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Robert专门从事医疗保健和社会创新方面的设计。最近他发起了&lt;a class="link" href="http://www.poptech.org/project_m" target="_blank" rel="noopener"
+&gt;Masiluleke项目&lt;/a&gt;，在南非开创了运用移动互联网技术对抗艾滋病毒的先河。他之前在名扬四海的设计机构&lt;a class="link" href="http://www.frogdesign.com/" target="_blank" rel="noopener"
+&gt;frog design&lt;/a&gt;就职。他还&lt;a class="link" href="http://about.tisch.nyu.edu/object/FabricantR.html" target="_blank" rel="noopener"
+&gt;开课&lt;/a&gt;、演讲和&lt;a class="link" href="http://www.fastcodesign.com/user/robert-fabricant" target="_blank" rel="noopener"
+&gt;写作&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image091.jpg"
+loading="lazy"
+alt="Robert Fabricant 的黑白演讲照，戴细框眼镜，短发，穿深色西装外套，仰头望向斜上方"
+&gt;&lt;/p&gt;
+&lt;h3 id="设计启迪-10"&gt;设计启迪
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.fastcodesign.com/1665022/why-does-interaction-design-matter-lets-look-at-the-evolving-subway-experience" target="_blank" rel="noopener"
+&gt;纽约地铁系统&lt;/a&gt;给我带来持续不断的灵感、激励和挑战，这是一种惊人的多层面用户体验。&lt;/p&gt;
+&lt;p&gt;我乘坐地铁已经（至少）45年了。如果不是生活在它当中，并且生活相当长的时间，你就不可能真正了解和欣赏某种体验的价值。&lt;/p&gt;
+&lt;p&gt;有太多我们赞美的用户体验设计稍纵即逝——我们手机里安装的应用可能待不了几个月。而地铁就在这儿，咫尺间、人潮流动、机器运转，都能反映它的进步。这种设计是一项缓慢而艰巨的工程。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-11/image009-1024x602.png"
+loading="lazy"
+alt="纽约地铁站台照片，一列地铁列车高速驶过形成运动模糊，一名男子站在站台中央，上方有指向纽约理工学院的指示牌"
+&gt;&lt;/p&gt;
+&lt;p&gt;但变化是永恒的。作为纽约的居民，很少有比地铁更值得“学习”的系统了。但这种体验在何处开始，何时结束？它并不只限于站台、车厢和闸机范围内。&lt;/p&gt;
+&lt;p&gt;近几年，地铁系统已经成为一种实验平台，既有授权许可的项目，也有即兴创作。最近，巨大的触摸显示屏开始出现在Union Square站。第一次看人们操作它们，揭开了一种崭新的体验，将这座伟大城市（没错，这就是我的家乡）的居民们连接起来，着实令人着迷。&lt;/p&gt;
+&lt;p&gt;作为用户体验设计师，我们应当在大尺度上思考和创造体验。还有什么比一座城市更合适？在这里，数据和流动性相互交错，我们得以不断探索（和欣赏）自己与周边人的体验的交集。&lt;/p&gt;
+&lt;h3 id="职业建议-10"&gt;职业建议
+&lt;/h3&gt;&lt;p&gt;我很喜欢和设计师们谈论第一次展示作品的时刻，希望人们探索、体验、喜欢（但愿如此）你的设计。&lt;/p&gt;
+&lt;p&gt;在这个时刻，甚至在别人被这件作品吸引之前，你都会对它带着某种偏好。就像古语说的“茅塞顿开”。你忽然看到（并了解到）有太多事情超出了你的理解、计划和直觉。&lt;/p&gt;
+&lt;p&gt;这些时刻很宝贵——极其宝贵——同时也令设计师感到羞耻，无论你经验多么丰富。&lt;/p&gt;
+&lt;p&gt;设计在比较中才显露其价值，在项目中尽可能多地创造这样的时刻。你需要的并不是同意！&lt;/p&gt;
+&lt;p&gt;在&lt;a class="link" href="http://www.frogdesign.com/" target="_blank" rel="noopener"
+&gt;frog&lt;/a&gt;工作了13年，我很庆幸能在不同的团队中一再上演那种情形——与设计师群体近距离接触。&lt;/p&gt;
+&lt;p&gt;要衡量质量，一直以来都只能靠作品的反馈——看它能给用户带来多大的吸引、愉悦和帮助。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.ixda.org/resources/robert-fabricant-behavior-our-medium" target="_blank" rel="noopener"
+&gt;行为是我们的媒介&lt;/a&gt;，牢记这一点。&lt;/p&gt;
+&lt;h2 id="更多用户体验建议"&gt;更多用户体验建议
+&lt;/h2&gt;&lt;p&gt;需要更多用户体验的最佳实践，请阅读免费的电子文集&lt;a class="link" href="https://studio.uxpin.com/ebooks/free-ui-ux-design-trends-2015-2016-ebook-bundle/" target="_blank" rel="noopener"
+&gt;2016具有决定性的用户体验设计趋势&lt;/a&gt;。它有超过350页的建议，和300多种移动端、网页和用户体验技巧。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;末尾，我在此把《2016具有决定性的用户体验设计趋势》下载下来了，有需要的朋友可以通过下面的链接下载：&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://pan.baidu.com/s/1pKtdWb5" target="_blank" rel="noopener"
+&gt;http://pan.baidu.com/s/1pKtdWb5&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://studio.uxpin.com/blog/11-top-designers-give-11-pieces-of-realistic-ux-advice/" target="_blank" rel="noopener"
+&gt;https://studio.uxpin.com/blog/11-top-designers-give-11-pieces-of-realistic-ux-advice/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Roger Huang
+Roger Huang handles Growth &amp;amp; Marketing for &lt;a class="link" href="http://www.springboard.com/" target="_blank" rel="noopener"
+&gt;Springboard&lt;/a&gt;. He was previously the Editor-in-Chief at code(love) and a contributing author to The Next Web.&lt;/p&gt;</description></item><item><title>保持创造力的5种方式</title><link>https://victor42.eth.limo/post/3467/</link><pubDate>Sun, 01 Nov 2015 22:20:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3467/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第108期]&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="遵循这些建议找到你才思枯竭的原因寻找自我提升的策略geekmentalhelp"&gt;遵循这些建议，找到你才思枯竭的原因，寻找自我提升的策略——geekmentalhelp。
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2014/09/net256essay/main.jpg"
+loading="lazy"
+alt="设计师创意灵感来源与创造力保持策略的视觉表达"
+&gt;&lt;/p&gt;
+&lt;p&gt;*&lt;a class="link" href="http://geekmentalhelp.com/" target="_blank" rel="noopener"
+&gt;Geek Mental Help Week&lt;/a&gt;*是一系列为期一周的文章、博客、会谈、播客和线上活动，围绕心理健康问题和如何帮助人们。在这里，设计总监Hannah Donovan揭示了一些方法，她以此避免才思枯竭，使自己保持进步。&lt;/p&gt;
+&lt;p&gt;同样住在我34楼公寓的热带鸟再一次吵醒了我，当然，它住在外面。香港的湿热气候已经包裹了整个清晨，我的手机开始嗡嗡作响。“虽然很不情愿在你工作之余打扰，不过可否请你帮我做一个项目？”&lt;/p&gt;
+&lt;p&gt;我的长期合作伙伴Matthew Ogle需要一名设计师。但设计师是我好几个月前的身份了。&lt;/p&gt;
+&lt;p&gt;我才思枯竭了。我去工作，尝试打开创意的水龙头，但什么也出不来。这不是一天两天了，已经持续了许多星期。于是，在临近2011年的几个月前，我辞掉了Last.fm的工作，打包好行李，并不知道即将去向何方。设计——我唯一想到的方向，我唯一赖以谋生的手段——已经干涸枯竭了。&lt;/p&gt;
+&lt;p&gt;作为“创造者”（无论是设计、开发、产品设计、写作或是其他什么，这些我们谋生的技能），你会发现我们最重要的技能之一，就是好好保持我们创造力。但现在，我在盯着这条信息好一会儿，脑袋却塞住了，不仅在考虑如何回复，也不知道接下来该怎么做。&lt;/p&gt;
+&lt;p&gt;“好啊”，我回复，“什么项目？”&lt;/p&gt;
+&lt;p&gt;然后我意识到只有一条路可以逃脱困境——继续创作。当然，我也得寻找新的道路，但那也是创作生涯要承担的责任。从那以后，我不仅仅走出了困境，也重新设计了我创作的方式。以下是我所发现的最有用的办法。&lt;/p&gt;
+&lt;h3 id="01-学会停下脚步"&gt;01. 学会停下脚步
+&lt;/h3&gt;&lt;p&gt;如果你在真实媒介上创作，很容易学会应该何时收手。因为如果作品“完成”后你还继续作画，反而会毁了它。这样的错误会耗费大量时间与材料，你不会轻易忘记这点。&lt;/p&gt;
+&lt;p&gt;但是数字设计在这方面更加包容：有很强的诱惑力促使你不断微调下去。很容易就没有结束的概念。&lt;/p&gt;
+&lt;p&gt;了结旧事物，才能为新事物开辟空间。在我的观念中，如果你不“完成”一个创意，它就会变得很臃肿。它打破了“产生创意——创作——创意完成”的循环。如果你感觉卡住了，可能是有太多的创意在游荡。&lt;/p&gt;
+&lt;h3 id="02-允许丑陋的创意"&gt;02. 允许丑陋的创意
+&lt;/h3&gt;&lt;p&gt;我为粗糙的草图道歉过。设计师身上天生就承载了对美的期望。当然，创意与美在现实中则免不了有许多丑陋。去年我听说Jason Santa Maria在New Adventures中宣称：“创意都倾向于丑陋”——它们鼓励大家参与和协作。&lt;/p&gt;
+&lt;p&gt;我现在就不会为粗糙而道歉了。我让同事们忽视设计的粗糙，关注核心概念，向他们保证成品会是美好的。&lt;/p&gt;
+&lt;p&gt;对于任何事情，过早产生高期望会使得项目极度难以启动。它会带来可怕的一张白纸无从下手的感觉。虽然我保留了设计生涯中的所有手绘本，但面对新的手绘本总会感到恐慌。于是我在第一页上信手涂鸦，降低自己的期望。然后翻过去，开始正式工作。&lt;/p&gt;
+&lt;p&gt;如果不知从何下手，不要担心初次的尝试难看。实际上，就应该怀着它可能会很丑的想法。越快把它画出来，你或你的同事们就能越早想到创意来改善它，你则会更受启发。&lt;/p&gt;
+&lt;h3 id="03-行动起来做什么都可以"&gt;03. 行动起来，做什么都可以
+&lt;/h3&gt;&lt;p&gt;有一项常见的误解，认为“创造”是某种魔法般的过程，灵光一闪，创意凭空出现给你启发。这几乎和魔法药粉一样不切实际。&lt;/p&gt;
+&lt;p&gt;有好几次，我不得不向失望的记者解释，故事剧本并非Matt和我忽然想到了现在这个项目的灵感，我的处境其实是花了超过5年时间沉浸在Last.fm的音乐产业中，实验许多备受争议的创意，然后将它们融入其中。&lt;/p&gt;
+&lt;p&gt;若想让创意成为一道耀眼的闪电，首先你要使天空黯淡阴郁、耐人寻味。采取某种行动——无论大小都行——把一切都搅动起来。&lt;/p&gt;
+&lt;h3 id="04-拥抱意外发现"&gt;04. 拥抱意外发现
+&lt;/h3&gt;&lt;p&gt;理应如此，我们的行业非常重视流程——最佳的习惯能帮助我们打造最棒的产品。这些既定模式有时真让人感到厌倦。敏捷开发、长期运行、固定的晨间咖啡等等。这些模式有些无趣，但没关系，创造力还是很有趣，我们需要日常程序来使自己保持状态。&lt;/p&gt;
+&lt;p&gt;但创意类工作也需要非常规的输入——我们的生活需要惊喜。人们很容易陷入一步步的常规流程，忘了产生意外惊喜的模式。记得上一次你花时间寻找意外惊喜是什么时候吗？无论是独自一人还是和你的团队一起？常规流程模式与意外惊喜模式都十分重要，每个人在两者之间都有一个平衡点。&lt;/p&gt;
+&lt;p&gt;真正让我对于创造保持兴奋的，正是脱离常规、迈出这创意的一步，这胜过其他一切。尽管我从事全职工作，我也会做许多副业。比如印刷品设计，我接触这个媒介尚不满六年。&lt;/p&gt;
+&lt;p&gt;这些项目与我的主线工作没有什么关系，当然，也正是这种“不相干”的媒介让我再次对工作充满激情。尝试运用自己的技能，切换到另一种模式或语言中，看看会发生什么。&lt;/p&gt;
+&lt;h3 id="05-自我表达"&gt;05. 自我表达
+&lt;/h3&gt;&lt;p&gt;虽然这些技巧帮助我走出低谷，但什么样的环境最容易引发这个问题呢？科技行业——特别是创业公司——最容易产生这种对创造力有害的环境。&lt;/p&gt;
+&lt;p&gt;当然，很明显的长时间高强度工作是一个原因。但对我产生最大的负面影响的因素，是我自认为在为自己工作，但实则不然，然后会逐渐屈从于这种同质化的科技行业文化。&lt;/p&gt;
+&lt;p&gt;不像在创意机构中工作，在那里人人都知道他们在为别人而创造，创业心态会让人对这一点视而不见。只要人们在用你的产品，你就是在为别人而创造。或许你对自己的事业激情满满，但责任使得你无法遵从于自己的异想天开。你还是需要纯粹的个人项目和副业。&lt;/p&gt;
+&lt;p&gt;我工作中的同质化文化扼杀了我许多的个人表达（比方说时尚，一项重要的个人视觉输入），我反而让自己去适应它。如此回应或许是我所做的最糟糕的事情了。自我表达能激发自己灵感，灵感又促使我想要表达。我扼杀了一条良性循环道路。&lt;/p&gt;
+&lt;p&gt;如果这些听起来都似曾相识，要仔细想想你究竟在为谁而创造；拥抱行业中的多样化；整理那些能够避免和克服才思枯竭的技巧，分享出来。若非如此，我们则无法帮助到别人。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://www.creativebloq.com/web-design/geek-mental-help-week-5-ways-keep-your-creative-tap-turned-101412827" target="_blank" rel="noopener"
+&gt;http://www.creativebloq.com/web-design/geek-mental-help-week-5-ways-keep-your-creative-tap-turned-101412827&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://blog.hannahdonovan.com/" target="_blank" rel="noopener"
+&gt;Hannah Donovan&lt;/a&gt;
+Hannah Donovan is co-founder and design director of new music service This Is My Jam, and prior to that led design at Last.fm. This article originally appeared in &lt;a class="link" href="http://www.myfavouritemagazines.co.uk/design/net-magazine-subscription/" target="_blank" rel="noopener"
+&gt;net magazine&lt;/a&gt; issue 256.&lt;/p&gt;</description></item><item><title>译文背后的故事</title><link>https://victor42.eth.limo/post/3420/</link><pubDate>Sat, 24 Jan 2015 10:44:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3420/</guid><description>&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-01/01-24/1.jpg"
+loading="lazy"
+alt="复古打字机特写，金属圆键排列整齐，深色机身带有磨损痕迹，象征翻译工作的文字打磨过程"
+&gt;&lt;/p&gt;
+&lt;p&gt;我默默地翻译着文章，除此之外，个人网站越来越少出现其他内容。可能业余时间都用来睡懒觉了。既然这样，唯一能讲的故事，就只剩翻译背后的故事了。&lt;/p&gt;
+&lt;p&gt;从2013年7月开始，心血来潮翻译了第一篇文章，就爱上翻译这件事。和设计一样，它也是一种创造。但是来得更纯粹，抛去了设备、媒介、载体的考量，只剩语言和思想。日积月累，从中收获了很多，设计水品、英文水品都有提升。还有一些意外收获，诸如眼界、人脉、思考、坚持。&lt;/p&gt;
+&lt;p&gt;今天，我给大家带来幕后的故事，一篇译文完整的诞生经过。&lt;/p&gt;
+&lt;h2 id="1-找原文"&gt;1. 找原文
+&lt;/h2&gt;&lt;p&gt;首先，这一切的前提就是科学上网。国外设计网站图多、速度慢，直连的话简直就是在浪费绳命。另外，翻译过程中用到的一些小工具，也需要科学上网支持。&lt;/p&gt;
+&lt;p&gt;我找优秀原文有几个固定地址，多是人尽皆知的知名网站。虽然来源挺狭窄，但他们家的原文质量都比较高，我一个人翻也足够了，在此分享给大家：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://medium.com/" target="_blank" rel="noopener"
+&gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://designmodo.com/" target="_blank" rel="noopener"
+&gt;designmodo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/" target="_blank" rel="noopener"
+&gt;webdesignerdepot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://blog.invisionapp.com/" target="_blank" rel="noopener"
+&gt;Invisionapp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.creativebloq.com/net-magazine" target="_blank" rel="noopener"
+&gt;creativebloq&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://abduzeedo.com/" target="_blank" rel="noopener"
+&gt;Abduzeedo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;怎样的原文算优秀，首先自己要能从中学到东西。有些文章虽然概念好、题材火爆，但讲得极其空洞。我以前也发过这样的文章，比如&lt;a class="link" href="http://victor42.eth.limo/post/3392" target="_blank" rel="noopener"
+&gt;别在自命不凡了，设计师&lt;/a&gt;。发出来后觉得太敷衍了，很对不起读者们，在此向大家道歉。&lt;/p&gt;
+&lt;p&gt;翻译前还是要确认一下有没有别人译过，除非那人真的译得很烂。这里，我们的第一个工具要亮相了——&lt;a class="link" href="https://chrome.google.com/webstore/detail/search-by-image-by-google/dajedkncpodkggklbegccjpmnglmnflm" target="_blank" rel="noopener"
+&gt;google图片搜索插件&lt;/a&gt;。很不幸，第一个就要科学上网。&lt;/p&gt;
+&lt;p&gt;设计类文章有个好处，里面最不缺的就是图片。找到一篇心仪的原文，用这个工具随意搜索其中两三张图片。如果有别人翻译过，通常都能搜到。&lt;/p&gt;
+&lt;h2 id="2-原文转成markdown"&gt;2. 原文转成markdown
+&lt;/h2&gt;&lt;p&gt;我一直用&lt;a class="link" href="http://wowubuntu.com/markdown/" target="_blank" rel="noopener"
+&gt;markdown&lt;/a&gt;来写作，不论翻译还是个人日志。markdown不是一种工具，也不是一种格式。它去除了所有样式，是内容最原本最朴实的形态。这是一种能够让写作流程标准化的东西。同时，也能给你最纯净和专注的体验。&lt;/p&gt;
+&lt;p&gt;但是原文不会给我markdown格式，都是富文本。用浏览器开发人员工具一看源代码，嚯！各种style属性，各种span、div，甚至有很多html5标签，比如figure、section。手动删掉那些div、span标签会让人想掀桌，普通的markdown转换工具又无法处理。于是我在别人的基础上改进了一下，基本满足需求，偶尔会产生几个空行而已。也分享出来给有需要的朋友。&lt;/p&gt;
+&lt;p&gt;工具地址：&lt;a class="link" href="http://greenzorro.github.io/something-to-markdown/" target="_blank" rel="noopener"
+&gt;something- to-markdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转好了markdown，要找个趁手的编辑器。在mac上我目前用的是&lt;a class="link" href="http://25.io/mou/" target="_blank" rel="noopener"
+&gt;Mou&lt;/a&gt;，在windows上感觉没有哪款客户端好用，最后选了个网页版工具&lt;a class="link" href="https://stackedit.io/editor" target="_blank" rel="noopener"
+&gt;stackedit&lt;/a&gt;，用着也挺顺手。在iPhone和iPad上，我用的是&lt;a class="link" href="http://writeapp.net" target="_blank" rel="noopener"
+&gt;Write&lt;/a&gt;。【现在mac和iOS上都已经改用&lt;a class="link" href="http://bywordapp.com/" target="_blank" rel="noopener"
+&gt;byword&lt;/a&gt;了。】&lt;/p&gt;
+&lt;h2 id="3-翻译"&gt;3. 翻译
+&lt;/h2&gt;&lt;p&gt;翻译其实要进行两遍，第一遍确保不遗漏重要信息，第二遍润色。&lt;/p&gt;
+&lt;h3 id="不必逐字翻译"&gt;不必逐字翻译
+&lt;/h3&gt;&lt;p&gt;优先忠实原文，但不必每个词的意思都表达出来。we, and, just, an, if等等这些词的含义，有时我会省略或者扭曲一下，并不会破坏作者要传达的信息。&lt;/p&gt;
+&lt;p&gt;比如这一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How can you take advantage of the trend?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;文章讲的是网页设计中的一种趋势。这里的you翻译出来似乎有点累赘：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你可以如何利用这项趋势？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在汉语中，这种时候往往是省略主语的。所以不翻就可以了：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如何利用这一趋势？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="勤查词典"&gt;勤查词典
+&lt;/h3&gt;&lt;p&gt;查字典要勤快，即使是我熟悉的词，感到翻译卡住了马上查。因为我并不能保证这里就是我熟悉的意思。&lt;/p&gt;
+&lt;p&gt;其实查词应该先查英英释义，有些词用中文无法解释，一看英文解释，就恍然大悟，某个巧妙且准确的成语便可能浮上心头。&lt;/p&gt;
+&lt;p&gt;看看这篇&lt;a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/" target="_blank" rel="noopener"
+&gt;讲网页排版趋势的文章&lt;/a&gt;，有个词很有难度：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But in this &lt;strong&gt;niche&lt;/strong&gt; the designs adapt in such a way such that they completely fill the screen and do not produce scroll bars.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个niche是什么鬼！？一查词典是壁龛、合适的职业，文不对题嘛。查了下英英释义：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;a position particularly well suited to the person who occupies it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;讲的也是合适的职业，但是忽然就明白了作者的意思。他想表达的是这个案例非常适合这种设计方式。所以在想到更传神的表达之前，这个niche，我们可以把它译作“绝佳案例”。&lt;/p&gt;
+&lt;p&gt;看看，这么一大串意思，英文可以用一个词表达出来，真是神奇。&lt;/p&gt;
+&lt;h3 id="较真"&gt;较真
+&lt;/h3&gt;&lt;p&gt;对于难翻译的词我非常较真。词典查不到，本着人肉搜索的精神刨根问底。Google这个词或短语，看其他地方怎么用，即便是再读另一篇原文，也要弄清楚。&lt;/p&gt;
+&lt;p&gt;比如portrait和landscape，第一次遇到这两个词的时候，找了半个小时，才弄明白是指竖屏和横屏。&lt;/p&gt;
+&lt;p&gt;再举一例，还是&lt;a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/" target="_blank" rel="noopener"
+&gt;刚才那篇&lt;/a&gt;，里面提到有一类趋势，叫做No Chrome。那这个No Chrome要怎么翻译？没有铬？没有谷歌浏览器？显然都不合适。&lt;/p&gt;
+&lt;p&gt;词典没用，这时候就必须靠Google大法。通过搜索No Chrome，找到&lt;a class="link" href="http://www.zdnet.com/article/no-chrome-movement/" target="_blank" rel="noopener"
+&gt;另一篇文章&lt;/a&gt;，其中有关键的一句“No more Chrome”，显然是同一个意思。于是耐着性子开始读这篇文章，发现它讲的是网页设计中一个去界面化的现象。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;People feel they are interacting directly with the data.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用户直接与数据进行互动。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;回来看手头的文章，发现正是这个意思。没有容器，没有界面，直接展示数据，案例网站的图片也能印证这一点。&lt;/p&gt;
+&lt;p&gt;至于为什么是No Chrome，想必是因为Chrome在国外就已经是浏览器和web界面的代名词了，毕竟他们几乎不用360、搜狗这样的外壳浏览器。问题迎刃而解，原来它真的是没有谷歌浏览器的意思。但翻译可不能这么翻，No Chrome应该翻译为&lt;strong&gt;去界面化&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id="结合专业知识"&gt;结合专业知识
+&lt;/h3&gt;&lt;p&gt;既然是翻译设计文章，在疑难词句上，优先考虑结合专业知识，回忆一些相关的行业信息。这样就可以根据自己工作经验来猜测。&lt;/p&gt;
+&lt;p&gt;感谢@Gaoyounger提醒，其实那个portrait和landscape就是AI中新建文档时常用的纵向和横向比。所以，日常软件应该尽量装英文版，很有帮助。&lt;/p&gt;
+&lt;p&gt;还有之前的no chrome。回想一下ios7刚发布时候，官方反复强调的“内容为主”，着重演示了safari浏览器的全屏效果，这也是一种暗示。&lt;/p&gt;
+&lt;h3 id="临时发挥"&gt;临时发挥
+&lt;/h3&gt;&lt;p&gt;有些词确实找不到相应的汉语词，这种情况往往是短语，里面每个单词都认识，但凑在一块好像就没有意义。这就说明汉语文化中根本没这个概念，这时候我会自己发挥一下，用其中某个词直译过来组词，揣摩作者的意思。&lt;/p&gt;
+&lt;p&gt;同一篇文章中有如下句子：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This go-to pattern consisted of a header, footer, sidebar and content area.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个go-to就完全查不到，较真也没用，就是查不到。&lt;/p&gt;
+&lt;p&gt;首先想到C语言里有goto语句，是一种打破常规顺序直达某处的语法。而go to在英文中就是去的意思。“Go to hell！去死吧！”，有点快去、直接去的意思。所以这里就YY一下，翻译成“直截了当”。&lt;/p&gt;
+&lt;h3 id="通过上下文锁定含义"&gt;通过上下文锁定含义
+&lt;/h3&gt;&lt;p&gt;有时一个词有很多种相近的意思，似乎每种都说得通。这时候我就会打个标记，继续往下读。通常读完一整段，这个词的含义就清晰了。&lt;/p&gt;
+&lt;p&gt;比如这篇&lt;a class="link" href="https://medium.com/adventures-in-consumer-technology/redesigning-soundcloud-d52b4baf17a4" target="_blank" rel="noopener"
+&gt;SoundCloud再设计&lt;/a&gt;，其中有一段的小标题是“The Stream”。stream有很多意思，流动、潮流。在用户体验中可以代表信息流，在音频方面也能表达流媒体的意思。这篇文章刚好讲的是音乐产品，究竟是哪个意思呢？&lt;/p&gt;
+&lt;p&gt;这种时候只能往下读了。看懂下文之后，发现作者讲的是SoundCloud信息流界面，再回来把小标题补上。&lt;/p&gt;
+&lt;h3 id="补充信息"&gt;补充信息
+&lt;/h3&gt;&lt;p&gt;适时补充信息。英文有时候是很精简的，动词当作名词用。直译过来就不通了，所以需要补上主语或宾语，让它变成一个完整的短句。&lt;/p&gt;
+&lt;p&gt;再次回到那篇&lt;a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/" target="_blank" rel="noopener"
+&gt;网页排版趋势&lt;/a&gt;，看这一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I find the focus and clarity of these sites to be refreshing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;focus and clarity of sites，网站的焦点和清晰？说不通。这时候也需要小小臆测一下，补充一点信息进去：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我发现这些网站的聚焦能力和清晰程度，令人耳目一新。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="拆分长句"&gt;拆分长句
+&lt;/h3&gt;&lt;p&gt;长句直译过来是很难读懂的，尤其是带有很长定语的从句，需要拆成多个短句来译。如果“……的……的”这样的长串定语，“的”字超过两个，我一定会把它断开。有时哪怕稍微不忠实原文，将定语形容的对象替换掉，也要保证句子易读。&lt;/p&gt;
+&lt;p&gt;有篇&lt;a class="link" href="http://designmodo.com/color-filter-websites/" target="_blank" rel="noopener"
+&gt;讨论网页中彩色滤镜效果的文章&lt;/a&gt;，开篇就是个变态长句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Who would have thought that such simple instruments as color and gradient can catalyze creativity and enormously enhance the website’s aesthetics in the modern world of advanced effects and intricate styles?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那么来细细分解一下。首先分成两部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Who would have thought&lt;/li&gt;
+&lt;li&gt;that&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;只看主谓宾，不看定状补，that后面又可以继续分：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;such simple instruments &lt;em&gt;(as color and gradient)&lt;/em&gt; can catalyze creativity and &lt;em&gt;(enormously)&lt;/em&gt; enhance the website’s aesthetics &lt;em&gt;(in the modern world of advanced effects and intricate styles)&lt;/em&gt;?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;然后就是拼拼凑凑和调整语序了：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在当今这个充斥着先进的特效和精妙风格的世界中，谁曾料到，像纯色和渐变这样简单的手法，竟能够催化出创造力，并极大提升网站的美学水准？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="沿袭原文文风"&gt;沿袭原文文风
+&lt;/h3&gt;&lt;p&gt;文风也会尽量忠实原文，偶尔出现的一些口语化的说法，翻译过来也需要口语化，贴近作者的真实表达。&lt;/p&gt;
+&lt;p&gt;在&lt;a class="link" href="https://medium.com/@pasql/transitional-interfaces-926eb80d64e3" target="_blank" rel="noopener"
+&gt;这篇讲动效的文章&lt;/a&gt;中，一张无过渡效果的案例图下方，有一句“Yikes, that’s rough…”。&lt;/p&gt;
+&lt;p&gt;这个Yikes是口语词，表示惊讶的意思。自己亲口把这句话读上几遍，尝试各种语调，似乎能体会到作者那一丝嫌恶的感情。那么这里就可以翻译得活泼一点，“我去，太挫了……”。&lt;/p&gt;
+&lt;h3 id="专有名词通常不处理"&gt;专有名词通常不处理
+&lt;/h3&gt;&lt;p&gt;专有名称建议不翻译，比如material design。之前在译言的时候，我把它直译成材料设计，读者一致反对。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2014/12/how-to-design-the-perfect-single-page-website/" target="_blank" rel="noopener"
+&gt;这篇文章&lt;/a&gt;中，有这样一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One Page Love: One Page Love is the premier one page website gallery, with more than 5000 example sites, and adding more all the time. They also feature tons of templates and other resources.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个One Page Love显然是个网站的名称，翻译成一页情要闹笑话了。&lt;/p&gt;
+&lt;h3 id="标点符号"&gt;标点符号
+&lt;/h3&gt;&lt;p&gt;注意标点符号，英文用逗号，翻译过来未必也要是逗号。英文本身句子就长，跟一大堆从句，有可能三四行连一个标点符号都没有。10几行的一段，只有3、4个逗号也是常有的事情。中文要是这样，读者就要疯了，不信体验一下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意标点符号，并不是英文用逗号，翻译过来就得是逗号，英文本身句子就长，跟一大堆从句，有可能三四行连一个标点符号都没有，10几行的一段，只有3、4个逗号也是常有的事情，中文要是这样，读者就要疯了，不信体验一下。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="4-润色"&gt;4. 润色
+&lt;/h2&gt;&lt;p&gt;文章是给中国读者看的，要符合中国人的语言表达习惯。有必要花时间再读一遍翻译稿，专门进行中文润色。当然，有自信的话，对于难度较低的文章，这步我会和翻译一起完成。&lt;/p&gt;
+&lt;h3 id="整理语序"&gt;整理语序
+&lt;/h3&gt;&lt;p&gt;有时整个句子的语序要颠倒过来，英文经常把if放在后半句，但汉语这么说就显得不太自然。&lt;/p&gt;
+&lt;h3 id="避免重复"&gt;避免重复
+&lt;/h3&gt;&lt;p&gt;一个词连续使用太多，读着就不顺畅。比如一个句子中出现太多的“响应式设计”一词，可以适当省略，或者换成“它”代指。&lt;/p&gt;
+&lt;p&gt;动词也一样，尽量避免一句中出现两个相同的动词。比如本文的翻译那章，有一句话“一篇讲网页排版趋势的文章提到有一类趋势”，其实原先是“一篇讲网页排版趋势的文章【讲】到有一类趋势”。“讲”字重复了，所以我把其中一个改成了“提”。&lt;/p&gt;
+&lt;h3 id="变通"&gt;变通
+&lt;/h3&gt;&lt;p&gt;虽然要尽量忠实原文，但是用词可以灵活一些，偶尔添加一些原文没有的意思，无伤大雅。比如这一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you survey one of the many popular galleries showcasing current web design &lt;strong&gt;you will no doubt notice that the fundamental structure for web pages is anything but fixed&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;后面半句需要动点脑筋。anything but虽然是个固定短语，意思是根本不。但是直译过来仍显生涩，需要变通一下。润色关键是表达原文的“神”，不必拘泥于“形”。&lt;/p&gt;
+&lt;p&gt;最终译成：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;毫无疑问，你会注意到网页的基本结构千变万化，根本没有固定形态。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="保持简炼"&gt;保持简炼
+&lt;/h3&gt;&lt;p&gt;还要注意去掉不必要的“是”、“的”、“了”，它们会使文章显得啰嗦。&lt;/p&gt;
+&lt;h3 id="成语"&gt;成语
+&lt;/h3&gt;&lt;p&gt;润色的另一个要点，就是成语的使用。这是汉语的精华，善用成语可以让句子简炼易读，有时还能表达得更加传神。&lt;/p&gt;
+&lt;p&gt;例如在这篇&lt;a class="link" href="http://www.creativebloq.com/ux/how-human-eye-reads-website-111413463" target="_blank" rel="noopener"
+&gt;讲述人眼阅读习惯的文章&lt;/a&gt;中，有一这样一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;which is why we hold the masters like da Vinci and Van Gogh in such high regard.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然，它可以直译成“这就是为什么我们如此高度景仰达芬奇和梵高这样的大师”，没有问题，只是不够简炼。其实一个成语就能画龙点睛：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以我们才会对达芬奇和梵高这样的大师推崇备至。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="检查错别字"&gt;检查错别字
+&lt;/h3&gt;&lt;p&gt;最后，务必确保没有错别字。&lt;/p&gt;
+&lt;h2 id="5-发布"&gt;5. 发布
+&lt;/h2&gt;&lt;p&gt;我的文章要发很多地方：个人网站、微信公众号、豆瓣小组、站酷、UI中国。另外还有优设、人人都是产品经理社区等不能自主发文的网站，貌似和我形成了某种默契，时不时会自主转载，不需要我动手（我当然不会告诉你我里头有人 →_→），不然这活我可干不了。&lt;/p&gt;
+&lt;p&gt;这时候markdown的优势就发挥得淋漓尽致了，因为它是最纯粹、不带格式的内容，便于转换成各个平台的格式。&lt;/p&gt;
+&lt;h3 id="个人网站"&gt;个人网站
+&lt;/h3&gt;&lt;p&gt;我个人网站用的是&lt;a class="link" href="https://www.farbox.com/" target="_blank" rel="noopener"
+&gt;farbox&lt;/a&gt;博客系统，本身支持markdown，数据还是存在dropbox里的。发布相当简单，把markdown文件往dropbox里一丢，状态改成已发布，时间设置一下就OK了。&lt;/p&gt;
+&lt;h3 id="微信公众号"&gt;微信公众号
+&lt;/h3&gt;&lt;p&gt;微信公众号的编辑器不支持markdown，需要用到一个chrome插件&lt;a class="link" href="https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa" target="_blank" rel="noopener"
+&gt;markdown here&lt;/a&gt;。把markdown粘贴进去，点一下插件小图标，就转成了富文本。甚至能产生微信公众号不支持的h1~h6标签。&lt;/p&gt;
+&lt;h3 id="豆瓣小组"&gt;豆瓣小组
+&lt;/h3&gt;&lt;p&gt;这个是最棘手的，豆瓣的编辑器……说它是编辑器都抬举了，它真的只是一个textarea。markdown here也不管用了，怎么办？&lt;/p&gt;
+&lt;p&gt;所以又得自己做工具了，既然有something-to-markdown，当然也可以有&lt;a class="link" href="http://greenzorro.github.io/markdown-to-something/" target="_blank" rel="noopener"
+&gt;markdown-to-something&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个工具可以把markdown转成纯文本，就是txt那种。至于图片，也有它的处理方法。虽然还是土办法，不过比纯手工上传还是要强多了。&lt;/p&gt;
+&lt;h3 id="站酷ui中国"&gt;站酷、UI中国
+&lt;/h3&gt;&lt;p&gt;这里就是常规发文流程了，比较方便。&lt;/p&gt;
+&lt;p&gt;不过在图片本地化方面我有点个人看法。我个人网站中的文章，图片地址从来都不改。一方面是出于懒，另一方面我觉得应该信任这些来源站。或许哪天我的个人网站都不存在了，他们的博客一定能继续运转下去。互联网的精神本该是开放和信任，而不是据为己有。&lt;/p&gt;
+&lt;p&gt;那么图片是放在自己的服务器可靠，还是留给他们自己管理可靠呢？&lt;/p&gt;
+&lt;h2 id="6-学习"&gt;6. 学习
+&lt;/h2&gt;&lt;p&gt;这是翻译的初衷，其实在翻译过程中，该学的都已经学到了。不过站在读者的角度读一遍文章，会发现文中哪些是干货，哪些是夸夸其谈，可以作为以后筛选优质原文的参考条件。&lt;/p&gt;
+&lt;p&gt;另外，很多文章都会旁征博引。其中有些是设计案例，有些是技术资料，有些是工具介绍。若有需要，都可以研究起来。运气好的话，还能找到另一篇优秀原文，果断收藏起来，留待以后翻译。&lt;/p&gt;
+&lt;h2 id="结语"&gt;结语
+&lt;/h2&gt;&lt;p&gt;翻译是一件很需要耐性的事情，和设计有那么一点像。你需要在自己的mind palace中纵情驰骋，和自己对话，精心雕琢一件作品。我很享受这样的过程，可能我真有一点孤僻吧。&lt;/p&gt;</description></item><item><title>别再自命不凡了，设计师</title><link>https://victor42.eth.limo/post/3392/</link><pubDate>Sun, 21 Sep 2014 21:37:57 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3392/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第58期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/08/crown@wdd2x.jpg"
+loading="lazy"
+alt="设计师自命不凡主题插画：皇冠象征设计师的傲慢态度"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计界存在一个问题。这不是薪酬水平的不平等，或者岗位的差距，也不是童工问题，但它确实是个问题。&lt;/p&gt;
+&lt;p&gt;设计师当中有一种自命不凡的流行病。有些人只沾染了一点点，体现为一种讽刺的愤世嫉俗。还有些完全是太把自己当回事了，并且对此毫不自知。&lt;/p&gt;
+&lt;p&gt;不论哪种，是时候结束这样的局面了。没错，我在呼吁这些设计师别再自命不凡&lt;/p&gt;
+&lt;p&gt;##这不是癌症研究&lt;/p&gt;
+&lt;p&gt;现在说句题外话。对于99%的网页设计师而言，我们做的东西并不会改变世界。至少不会直接改变世界。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.flickr.com/photos/nwabr/6070125533/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/08/research.jpg"
+loading="lazy"
+alt="别再自命不凡了，设计师设计中关于“在最基础的层面上我们”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在最基础的层面上，我们的工作就是让东西美观好用。当然，有时它们能产生深远影响。但这并不是在攻克癌症。&lt;/p&gt;
+&lt;p&gt;即使你为非营利组织工作，而且他们&lt;strong&gt;的确&lt;/strong&gt;致力于治疗癌症，你的设计却不是。那只是个网站而已。&lt;/p&gt;
+&lt;p&gt;这不是说优秀的网页设计一无是处，或者产生不了任何改变或影响。它肯定是可以的。但到头来，我们还是在屏幕上挪动像素而已。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;当然也有例外，不过99%的设计师基本都在此列&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;##解决这个问题&lt;/p&gt;
+&lt;p&gt;虽然很有多因素有助于解决这个自命不凡的问题，最重要的因素之一，是我们工作环境中的用语。&lt;/p&gt;
+&lt;p&gt;10年前，网页设计师就是网页设计师。&lt;em&gt;或许&lt;/em&gt;你以前是UI或UX设计师，不过更多情况你是一名网页设计师。或许有些管理团队的角色称为艺术总监、创意总监或项目经理，但这些都是可以精确描绘工作性质的职位头衔。&lt;/p&gt;
+&lt;p&gt;如今，我们有些这样的头衔：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数字市场的魔法师&lt;/li&gt;
+&lt;li&gt;社交媒体大盗&lt;/li&gt;
+&lt;li&gt;品牌战士&lt;/li&gt;
+&lt;li&gt;数码领主&lt;/li&gt;
+&lt;li&gt;移动端教官&lt;/li&gt;
+&lt;li&gt;首席幻想家&lt;/li&gt;
+&lt;li&gt;数字先知&lt;/li&gt;
+&lt;li&gt;梦想炼金师&lt;/li&gt;
+&lt;li&gt;欢乐英雄&lt;/li&gt;
+&lt;li&gt;创意登峰者&lt;/li&gt;
+&lt;li&gt;天才&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;还有些常见的例如宗师、绝地武士、传道者之类的称谓。&lt;/p&gt;
+&lt;p&gt;你并不是魔法师，你也不是大盗、战士、领主、教官、先知、炼金师、登峰者或是英雄。你或许是个天才，不过把它作为你的职位头衔就太自大了。&lt;/p&gt;
+&lt;p&gt;魔法师是使用魔法力量的人。战士是指一名士兵或斗士。领主是统治者或者封建领袖。教官是一名教师（通常指战争艺术方面）。先知是宣扬神旨意的人。炼金师将基础金属元素转变为金子。登峰者是只出现在喜马拉雅的登山运动员。宗师是精神上的领袖或导师。绝地武士能够使用原力。传道者总是想把其他人也变成基督徒。很有可能，作为设计师（或其他任何角色）的你不属于以上任何一种。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.flickr.com/photos/dennsy/8922688278/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/08/sherpa.jpg"
+loading="lazy"
+alt="这就是登峰者。你可不是"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这就是登峰者。你可不是。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;你是名设计师。你或许是艺术指导、设计总监、创意总监、UI设计师、UX设计师、信息架构师、移动设计师或是设计兼开发。但你&lt;em&gt;不是&lt;/em&gt;魔法师、战士、大盗、领主、教官、先知、炼金师、绝地武士、传道者或是英雄。实际上，你甚至也不是忍者或摇滚明星。&lt;/p&gt;
+&lt;p&gt;这也和使用这些头衔的人的专业水准有部分关系。如果你最大的网页设计项目是你亲戚的品牌，他们付给你的只是蝇头小利和免费的家庭啤酒，那你可算不上什么宗师。抱歉打碎了你的美梦。&lt;/p&gt;
+&lt;p&gt;相反，如果你是像Jeffrey Zeldman、Adelle Charles或Jakob Nielsen这样的人物，你才会想要称自己为宗师，没有人能否认。不过你会发现，这些人中并没有人使用这些古怪的职位头衔。（他们用的分别是创始人、董事长、视觉设计师、标准和用户顾问）&lt;/p&gt;
+&lt;p&gt;##为何不好&lt;/p&gt;
+&lt;p&gt;设计师自命不凡会导致他疏远其他人。在很多圈子中，设计已经被看成是一种不复杂、几乎人人能做的工作。&lt;/p&gt;
+&lt;p&gt;创造这些听起来像笑话的头衔，只是在强调这种观点。除此之外，它使我们听起来狂妄自大，不近人情。&lt;/p&gt;
+&lt;p&gt;###疏远客户&lt;/p&gt;
+&lt;p&gt;客户要找的是网页设计师。他们找的不是宗师、教官、战士或是领主。他们只要设计师。他们想要那些不会嘲笑他们不懂韵律和层级区别的人，也不会嘲笑他们不懂托儿所网站为什么不建议用红黑主题。&lt;/p&gt;
+&lt;p&gt;###疏远公众&lt;/p&gt;
+&lt;p&gt;除了客户，整个公众对设计师也有负面的认识。这点一直没有得到重视。我们被当成是像素技工，或是一堆和父母住一块儿的技术宅。&lt;/p&gt;
+&lt;p&gt;这些听起来扭捏作态的人造头衔并不能改善公众的印象。“设计总监”一词至少能引起些许敬意。“梦想炼金师”却不行。甚至都没有真正提过你究竟是干什么的。&lt;/p&gt;
+&lt;p&gt;###疏远其他设计师&lt;/p&gt;
+&lt;p&gt;有些设计师喜欢这些花头，并不是每个人都这样。你会让那些使用正常头衔、用易懂的语言描述自己工作的设计师觉得你看不起他们，不把他们当回事。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.flickr.com/photos/interdimensionalguardians/9148172010/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/08/aliens.jpg"
+loading="lazy"
+alt="别再自命不凡了，设计师设计中关于“不止这些职位头衔除”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##不止这些职位头衔&lt;/p&gt;
+&lt;p&gt;除了职位头衔外，很多设计师的全部用语都透露着自命不凡。在作品集、联系与通信中使用自大难懂的术语，让潜在的客户难以与你建立联系。&lt;/p&gt;
+&lt;p&gt;只有少数人会积极回应这种自命不凡，多数人不会，这样的代价值得吗？&lt;/p&gt;
+&lt;p&gt;##8步摆脱这种境地&lt;/p&gt;
+&lt;p&gt;自命不凡是会上瘾的。下面这些步骤能助你摆脱这种境地。本来这有12个步骤，不过应该没那么复杂，强迫别人做到这12点看起来也很自大。&lt;/p&gt;
+&lt;p&gt;###1. 承认你很自大&lt;/p&gt;
+&lt;p&gt;设计师克服自大倾向的第一步，就是意识到并承认这一点。&lt;/p&gt;
+&lt;p&gt;###2. 关注那些启发你的人&lt;/p&gt;
+&lt;p&gt;深入了解那些你仰慕的设计师。你可能会发现多数最优秀的设计师不用自大的头衔，而是用那些能够准确描述他们工作的称号。即使有些使用有趣的头衔，也是通过一种挖苦的方式，而且使用很有限。&lt;/p&gt;
+&lt;p&gt;以那些已经获得成功的设计师为榜样，那是你想要达到的境界。&lt;/p&gt;
+&lt;p&gt;###3. 用能够描述你具体工作的头衔&lt;/p&gt;
+&lt;p&gt;如果你是网页设计师，就叫自己网页设计师。如果是艺术总监，就自称艺术总监。创意总监、项目经理、设计总监和其他所有设计相关的岗位都一样。&lt;/p&gt;
+&lt;p&gt;###4. 重写文案&lt;/p&gt;
+&lt;p&gt;试想你奶奶在看你的网站，或者是某个认为翻盖手机就是高科技的人，你的文案应该怎么写。任何情况下，目的就是要写出友好易懂的文案。&lt;/p&gt;
+&lt;p&gt;###5. 为自命不凡道歉&lt;/p&gt;
+&lt;p&gt;虽然这一点有时并非必须，但意识到自己令人生厌总是件好事。&lt;/p&gt;
+&lt;p&gt;###6. 密切关注你的自命不凡&lt;/p&gt;
+&lt;p&gt;当下你已经摆脱自大的境地，并不意味着它不会反弹。所以，永远要保持警惕。&lt;/p&gt;
+&lt;p&gt;###7. 教育他人&lt;/p&gt;
+&lt;p&gt;当设计团队中有人想要用“登峰者“或“宗师”这类头衔，你要教育他们。告诉他们为何这些内部称号之外的头衔是不好的。&lt;/p&gt;
+&lt;p&gt;###8. 嘲笑它&lt;/p&gt;
+&lt;p&gt;首先，你要嘲笑这类头衔。再说一遍，这可没有攻克癌症那么伟大。如果你实在要用“绝地武士”这样的头衔，那就去用吧。要知道你会疏远他人，切记它听起来让别人觉得多么荒谬，如果这使你开心，你愿意冒这个险，那就用吧。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2014/09/the-end-of-the-pretentious-designer/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>我从6位Hike设计导师身上学到什么</title><link>https://victor42.eth.limo/post/3368/</link><pubDate>Sun, 25 May 2014 01:04:39 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3368/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第41期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;##Hike是什么？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-05/05-25/1-g6U5zwsyeQVIaou3RguYDQ.jpeg"
+loading="lazy"
+alt="Hike设计研讨会现场拼贴图：Hike赠品袋、Daniel Burka演讲、GitHub章鱼猫、Adobe标志与会场"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;从左至右：Hike赠品袋、Daniel Burka的开场演说、Github章鱼猫、Adobe大门和会场一隅&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.hikecon.com/" target="_blank" rel="noopener"
+&gt;Hike&lt;/a&gt;是个一日制设计教育研讨会，由两位非常棒的设计师与策展人，&lt;a class="link" href="https://twitter.com/jaycrimes" target="_blank" rel="noopener"
+&gt;Jason Schwartz&lt;/a&gt;和&lt;a class="link" href="https://twitter.com/LauraHelenWinn" target="_blank" rel="noopener"
+&gt;Laura Helen Winn&lt;/a&gt;创立，行业前辈在此分享见识与启发性故事，借此帮助新晋设计师开启他们的事业。&lt;/p&gt;
+&lt;p&gt;阵容非常强大，汇集了来自Google Ventures、Facebook、Dropbox、Eventbrite、Pinterest、CNN和Adaptive Path这类公司的演讲者。有些环节是同时进行的，所以我尽可能多地参加。&lt;/p&gt;
+&lt;p&gt;以下是我从Hike的6位设计导师那里所学的精华。希望他们的故事和建议给你带来的共鸣，也能像我这么多。&lt;/p&gt;
+&lt;p&gt;##六堂课&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-05/05-25/1-MTIshSY3Qp_ylhmM1-mnLw.jpeg"
+loading="lazy"
+alt="Google Ventures设计合伙人Daniel Burka肖像，分享设计如弹钢琴需不断练习的理念"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;发这条Tweet：&lt;a class="link" href="http://ctt.ec/ubmdj" target="_blank" rel="noopener"
+&gt;http://ctt.ec/ubmdj&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;###1. “设计就像演奏钢琴，需要不断练习。”——&lt;a class="link" href="http://twitter.com/@dburka" target="_blank" rel="noopener"
+&gt; Daniel Burka&lt;/a&gt;，Google Ventures设计合伙人&lt;/p&gt;
+&lt;p&gt;学钢琴时，我们用练习一词来描绘一遍遍弹奏直到熟练掌握的过程。那在设计中，得不到我们渴望的结果时，为何我们却用失败一词？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://vimeo.com/24715531" target="_blank" rel="noopener"
+&gt;Ira Glass - 鸿沟&lt;/a&gt;中雄辩式地描述过，涉足创意领域的人，当作品达不到自己的标准时，时常会感到失望——但只有不知疲倦地锤炼手艺，他们的作品才能配得上他们的雄心壮志。&lt;/p&gt;
+&lt;p&gt;Daniel勇敢承认，自己也没有真正跨越那条鸿沟，他自己仍是一件半成品。所以别再把自己的错误当作失败，何不称它为设计练习呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;行为准则：启动一个项目，并设置严格的截止期限。不论最终成品是否杰作，都是很好的练习！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-05/05-25/1-qYFK0gER-QR5r9PqIG0JbA.jpeg"
+loading="lazy"
+alt="MINE创意总监Christopher Simmons黑白肖像，强调人际关系与慷慨助人的职业哲学"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;发这条Tweet：&lt;a class="link" href="http://ctt.ec/H2gJ4" target="_blank" rel="noopener"
+&gt;http://ctt.ec/H2gJ4&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;###2. “每个人都很重要，所以确保自己也不可或缺。”——&lt;a class="link" href="http://twitter.com/@thisiscchs" target="_blank" rel="noopener"
+&gt;Christopher Simmons&lt;/a&gt;，MINE掌门人/创意总监&lt;/p&gt;
+&lt;p&gt;Chris从没在网上找过工作，但他的职业生涯已经非常成功了。他的秘密？人际关系。&lt;/p&gt;
+&lt;p&gt;慷慨大方、助人为乐、从善如流，他从未对任何事和人表现出不屑，Chris一如既往地构建着丰富的朋友、家庭、同事关系网络，大家都依靠Chris，正如他也依靠他们一样。&lt;/p&gt;
+&lt;p&gt;Chris的第一份工作中，他留到很晚，把书本按字母表顺序排列，并清理了同事键盘上的面包屑（不论是否与自己共事），只是为了使办公室非常整洁。他在公司里得到了拥戴吗？那是当然。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;行为准则：如果有人需要帮助，或者有些东西需要改进，无论有没有人明确提出要求，都要怀揣恩施之心去完成它。每次相互作用都有机会提升价值。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-05/05-25/1-ah8-IaWGpnhkC5UJjJPYsw.png"
+loading="lazy"
+alt="Dropbox产品设计师兼插画师Alice Lee肖像，讲述突破角色局限抓住设计机会的经历"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;发这条Tweet：&lt;a class="link" href="http://ctt.ec/9cb3s" target="_blank" rel="noopener"
+&gt;http://ctt.ec/9cb3s&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;###3. “不要局限于自己的角色。硬着头皮上。”——&lt;a class="link" href="http://twitter.com/byalicelee" target="_blank" rel="noopener"
+&gt; Alice Lee&lt;/a&gt;，Dropbox产品设计师/插画师&lt;/p&gt;
+&lt;p&gt;虽然在宾夕法尼亚大学商业课程主修会计专业，Alice意识到，生活应该更丰富，而不是为无趣的材料制作8×11的备忘单。&lt;/p&gt;
+&lt;p&gt;于是她第二年转向了市场专业，并以夏季产品经理实训生的身份加入了微软。虽然Alice对营销并无热情，但她询问同事，有没有设计方面的工作可以给她。她必须给经理设计一个大项目。&lt;/p&gt;
+&lt;p&gt;Alice没有让她的角色局限自己——她硬着头皮接下了令自己兴奋且迎合她设计热情的项目。在Foursquare编程序和在Path做商务实习时，她又故技重施。她没有把自己与其他事业有成的设计师比较，Alice通过创造机会突破自身角色局限，专注于提高自己的技艺，现在她在Dropbox工作！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;行为准则：背景并不重要，带着热情接受项目，硬着头皮抓住机会，即使水平还不够格。请求别人，“如果你有任何设计项目，都交给我。假如你不喜欢我的作品，没必要用它。但我想要学习。”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-05/05-25/1-5RFE6iaidDjb4NJ5GvnZEw.jpeg"
+loading="lazy"
+alt="Facebook信息设计经理Brian Singer肖像，分享通过创意项目发现意义与制造影响的心得"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;发这条Tweet：&lt;a class="link" href="http://ctt.ec/Pe9_0" target="_blank" rel="noopener"
+&gt;http://ctt.ec/Pe9_0&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;###4. “发现对你有意义的事情。并制造影响。”——&lt;a class="link" href="https://www.facebook.com/pages/someguy/108852131289?ref=sgm" target="_blank" rel="noopener"
+&gt;Brian Singer&lt;/a&gt;Facebook信息设计经理&lt;/p&gt;
+&lt;p&gt;如何从设计中致富？取决于你如何定义“富有”。Brian将其定义为成就感——一种能使他心智健全并感觉活着的创意的宣泄。咱们接着说这则隐喻，Brian是从哪找到他的“财富”呢？&lt;/p&gt;
+&lt;p&gt;它始于永不满足的好奇心、持续的观察和对事物方方面面关联的热爱。Brian频繁地启动令人着迷且颇有争议的项目。比如，他&lt;a class="link" href="http://www.iamsomeguy.com/gallery_goldfaith.html" target="_blank" rel="noopener"
+&gt;他逐字逐句浏览了圣经，并记录了“金子”和“信念”两词的出现频率&lt;/a&gt;，结果分别是427和251，令人大开眼界。还有其他很酷的项目，包括&lt;a class="link" href="http://time.com/35596/artist-secretly-takes-photos-of-people-texting-while-driving-and-puts-them-on-billboards/" target="_blank" rel="noopener"
+&gt;将驾车时发短信的人们照片制成广告牌&lt;/a&gt;，还有&lt;a class="link" href="http://www.iamsomeguy.com/1000j_exhibitions.html" target="_blank" rel="noopener"
+&gt;追寻1000本日记的旅程&lt;/a&gt;，经由每个人，每段故事，传遍全世界。&lt;/p&gt;
+&lt;p&gt;通过这些爱心工程，Brian在更大的尺度上实践了共鸣，并对人类行为积累了更深刻的见解。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;行为准则：花10分钟观察周围环境，看看有没有被忽略的问题显露出来。记录下来，让创意发酵，然后定期回顾它们。再来一点点争论，灵感就在下一秒涌现。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-05/05-25/1-GIemPkAdqme2Me3c62w5jg.png"
+loading="lazy"
+alt="CNN艺术指导Stewart Scott-Curran肖像，强调最后1%细节对运动员与用户体验的重大影响"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;发这条Tweet：&lt;a class="link" href="http://ctt.ec/GaLb8" target="_blank" rel="noopener"
+&gt;http://ctt.ec/GaLb8&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;###5. “最后的1%可能关系重大。”——&lt;a class="link" href="http://twitter.com/@stewartsc" target="_blank" rel="noopener"
+&gt;Stewart Scott-Curran&lt;/a&gt;，CNN艺术指导&lt;/p&gt;
+&lt;p&gt;Steward的话与我产生强烈共鸣，因为我们总是听到“从细节看全局”的建议，或者换句话说，不要在细节中迷失，从而失去了大局。但有时候我们忘了，某些情况下，小细节事关重大。&lt;/p&gt;
+&lt;p&gt;当Steward为2010南非世界的9支Nike队伍设计队服时，他的任务是设计尽可能轻便的衣服。整个项目的大方向已定：品牌形象与造型。唯一剩下的，就是减轻重量——一个对于观众来说无足轻重的细节，但对于运动员却至关重要。&lt;/p&gt;
+&lt;p&gt;随着最后10分钟的进球得分，运动员都已筋疲力竭，身上的重量真的能拖垮他们。&lt;a class="link" href="http://matchstic.com/blog/wp-content/uploads/2012/08/USA-AWAY1.jpg" target="_blank" rel="noopener"
+&gt;灵光一现的是：在他们队服上打孔写出他们的编号&lt;/a&gt;，这样使得材料能够呼吸，提升机动性。Steward早早规划好大局，然后致力于提升这些至关重要的小细节。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;行为准则：深入思考产品或服务的用户，来理解他们的需求，然后头脑风暴各种给他们带来重要价值的小细节。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-05/05-25/1-QYkDAl9uT_94CJVfPPdMEQ.jpeg"
+loading="lazy"
+alt="设计师兼《设计是种职责》作者Mike Monteiro黑白肖像，警示设计抉择的重大责任"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;发这条Tweet：&lt;a class="link" href="http://ctt.ec/Y3o3u" target="_blank" rel="noopener"
+&gt;http://ctt.ec/Y3o3u&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;###6. “设计是背负重大责任的能力。不要搞砸了。”——&lt;a class="link" href="http://twitter.com/@monteiro" target="_blank" rel="noopener"
+&gt; Mike Monteiro&lt;/a&gt;，“设计是种职责”的作者&lt;/p&gt;
+&lt;p&gt;我们中的大部分进入创意行业，都是因为那种欣喜若狂的感觉，能够将自己的想象变成现实——创造出昨日不存在的事物，并分享给全世界。但是创造，尤其是打造产品，包含了浩瀚银河般的复杂抉择，会因为对抗性的优先级影响到利益相关者。&lt;/p&gt;
+&lt;p&gt;那什么是抉择？所有一切：行为与无作为、通过与不通过，设计师做与不做的每件事都是一个抉择。不论是推行一项新功能，或是向其他人推行某项决定，这些抉择都会引起各种后果，有些比其他更恶劣。&lt;/p&gt;
+&lt;p&gt;Mike向我们发出挑战，作为设计师，应该成为把关者。&lt;a class="link" href="https://medium.com/the-year-of-the-looking-glass/5c48db173662" target="_blank" rel="noopener"
+&gt;不是那种背水一战时，明断是非作出最终裁决的角色。&lt;/a&gt;而是要小心谨慎阻止&lt;a class="link" href="http://online.wsj.com/news/articles/SB10000872396390444165804578008740578200224" target="_blank" rel="noopener"
+&gt;用户无意中出柜那样的灾难发生&lt;/a&gt;。创造出使人们愉悦的设计，是我们的共同目标，那么就坚守下去吧。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;行为准则：在你的设计抉择中，考虑所有可能对用户产生负面影响的极端情况。要非常小心地批准那些看似无害的功能——它们将来有可能造成巨大浩劫。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;##结语&lt;/p&gt;
+&lt;p&gt;如果你喜欢其中任何课程，给导师发tweet！他们每天从百忙中抽出时间来社区回复，那么向他们展示出你的诚意吧☺&lt;/p&gt;
+&lt;p&gt;还有，如果你参加了Hike，你最喜欢的课程是什么？给@norman_tran发送tweet分享你所学吧！时刻保持虚心，向他人学习。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://medium.com/ux-ux-human-interfaces/6dc20169c2b8" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>没读过设计院校，如何成为设计师</title><link>https://victor42.eth.limo/post/3118/</link><pubDate>Sun, 23 Feb 2014 01:09:16 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3118/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第29期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-02/02-23/0-nJgCaHm0bFIekC23.jpeg"
+loading="lazy"
+alt="一群设计师在工作坊中围坐长桌使用笔记本电脑协作学习"
+&gt;&lt;/p&gt;
+&lt;p&gt;我没有读过设计院校，却成为了设计师。我曾经想要改变职业生涯，当一名设计师，但我没有4年时间和10W美元重回学校去读。所以我决定自学。首先，我很怀疑一个人是否可以通过自学，达到足够胜任工作的水平。&lt;/p&gt;
+&lt;p&gt;如果你也有相同怀疑，答案是肯定的。&lt;/p&gt;
+&lt;p&gt;我在6个月时间内完成了自己的设计学业，&lt;a class="link" href="http://karenx.com/blog/its-scary-to-change-careers/" target="_blank" rel="noopener"
+&gt;同时还做着一份全职工作&lt;/a&gt;。那时我没觉得自己做好了准备，但还是开始应聘了——并且在一家很棒的创业公司得到了一份工作， &lt;a class="link" href="http://iamexec.com/" target="_blank" rel="noopener"
+&gt;Exec&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我承认，我还远不及许多从精英院校学习4年出来的设计奇才。但肯定足够我做好自己工作了。我的设计范围很广——网站、iPhone app、email、社交媒体，还有印刷品。&lt;/p&gt;
+&lt;p&gt;或许你想改变人生，成为一名全职设计师。或者你只是想学一点基础，支持你的创业公司或副业。&lt;/p&gt;
+&lt;p&gt;那么这是一份设计自学指南。&lt;/p&gt;
+&lt;h2 id="第1步学着观察"&gt;第1步：学着观察
+&lt;/h2&gt;&lt;p&gt;最大的错误是过早陷身Photoshop。学习Photoshop没法让你成为设计师，就像买了笔刷也不会让你成为艺术家一样。从基础开始。&lt;/p&gt;
+&lt;p&gt;首先，学习如何绘画。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;不必和一伙艺术家坐在屋子里尝试画一名裸女&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;甚至不用那么精于绘画。学一些基础，能够舒服地用钢笔绘图就行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学习绘画只需要做一件事：买一本书&lt;a class="link" href="http://www.amazon.com/You-Can-Draw-30-Days/dp/0738212415/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1371607474&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=you&amp;#43;can&amp;#43;draw&amp;#43;in&amp;#43;30&amp;#43;days" target="_blank" rel="noopener"
+&gt;《You Can Draw in 30 days》&lt;/a&gt;，每天练习半小时，坚持一个月。我看了很多绘画书籍，这本是最好的之一。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学习平面设计理论&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;从这本书&lt;a class="link" href="http://www.amazon.com/Picture-This-How-Pictures-Work/dp/1587170302/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371607522&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=picture&amp;#43;this" target="_blank" rel="noopener"
+&gt;《Picture This》&lt;/a&gt;开始。它是一本小红帽的故事书，但同时也会教你平面设计的基础&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学习色彩，&lt;a class="link" href="http://practicaltypography.com/" target="_blank" rel="noopener"
+&gt;字体&lt;/a&gt;，和使用网格设计。如果当地有平面设计的基础学习班，去参加&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;每天参加&lt;a class="link" href="http://psd.tutsplus.com/articles/web/50-totally-free-lessons-in-graphic-design-theory/" target="_blank" rel="noopener"
+&gt;这些课程&lt;/a&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学习基本的用户体验&lt;/p&gt;
+&lt;p&gt;有很多关于用户体验的书籍。从这两本快速读物开始，它们会帮你树立正确的观念：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[The Design of Everyday Things](&lt;a class="link" href="http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371607869&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=the&amp;#43;design&amp;#43;of&amp;#43;everyday&amp;#43;things" target="_blank" rel="noopener"
+&gt;http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1371607869&amp;amp;sr=1-1&amp;amp;keywords=the+design+of+everyday+things&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371607999&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=don%27t&amp;#43;make&amp;#43;me&amp;#43;think" target="_blank" rel="noopener"
+&gt;Don’t Make Me Think!&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学着写作&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;别用Lorem Ipsum之类的占位符填充你的设计稿。作为一名设计师，你的工作不只是做出漂亮的图片——你得是个优秀的沟通者。思考整个体验，仔细斟酌每个词。东西是写给人看的。不要用校刊上那些让自己显得聪明的学术调调&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;读&lt;a class="link" href="http://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371608230&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=made&amp;#43;to&amp;#43;stick" target="_blank" rel="noopener"
+&gt;Made to Stick&lt;/a&gt;，我有史以来最喜欢的书之一。它会教你如何抓住你的读者&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="http://voiceandtone.com/" target="_blank" rel="noopener"
+&gt;Voice and Tone&lt;/a&gt;是个很不错的网站，里面都是如何与用户沟通的案例。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学会否定自己的作品&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;这是整个指南中最困难的一&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;准备好否定每件自己的作品。准备好粗暴地毙掉你先前的宝贝设计。越快拥抱这一点，你的作品会越好。当你意识到自己的作品不够好，消灭它。再来一次&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;要有另一双眼睛。拿着你的作品去找那些关心设计的人，获得反馈。一个也不认识？结交一些设计师朋友——参加设计师&lt;a class="link" href="http://meetup.com/" target="_blank" rel="noopener"
+&gt;聚会&lt;/a&gt;和活动&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;还有那些不关心设计的人。向一些潜在用户展示你的作品，请他们试用你的网站或者APP。别怕找陌生人——我有一回利用飞机延误，让航站楼里的每个人试用了我正在设计的app。他们中的很多人都正无聊着，很乐意帮忙，然后我得到了一些很棒的可用性反馈&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;听。真正的聆听。不要去争论。如果你想从某人那里得到反馈，他们付出了时间与注意力来帮你的忙。不要用争论来报复他们的帮助。感谢他们并提问，而不是与之理论。以后再决定是否采纳他们的反馈。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="第2步学习使用photoshop和illustrator"&gt;第2步：学习使用Photoshop和Illustrator
+&lt;/h2&gt;&lt;p&gt;万岁！现在你有相当牢固的基础了——视觉与用户体验。可以开始学习Photoshop了。实际上，我建议从Illustrator开始学，然后再转移至Photoshop。Illustrator是设计师用来制作LOGO与图标的工具。InDesign擅长制作印刷品设计，比如传单与名片。&lt;/p&gt;
+&lt;p&gt;学习Illustrator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;可以通过大量的书籍、在线教程和当面课程学习Illustrator。选择最适合你的方式。下面这几本书对于学习Illustrator基础尤其有帮助&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.amazon.com/Adobe-Illustrator-CS6-Classroom-Book/dp/032182248X/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371608559&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=adobe&amp;#43;illustrator&amp;#43;classroom&amp;#43;in&amp;#43;a&amp;#43;book" target="_blank" rel="noopener"
+&gt;Adobe Illustrator Classroom in a Book&lt;/a&gt;——它挺枯燥的，但如果你学习了至少一半，你的Illustrator将掌握得非常好&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.amazon.com/Vector-Basic-Training-Systematic-Precision/dp/0321749596/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371608619&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=Vector&amp;#43;basic&amp;#43;training" target="_blank" rel="noopener"
+&gt;Vector Basic Training&lt;/a&gt;——这本书教你如何在Illustrator里绘制美观的东西&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接下来是有趣的部分！关注在线教程，你能做的东西会让你印象深刻。其中我最喜欢这两个——一个&lt;a class="link" href="http://vector.tutsplus.com/tutorials/text-effects/creating-an-environmentally-friendly-green-type-treatment/" target="_blank" rel="noopener"
+&gt;logo&lt;/a&gt;和一副&lt;a class="link" href="http://vector.tutsplus.com/tutorials/illustration/how-to-create-a-landscape-wallpaper-for-your-desktop/" target="_blank" rel="noopener"
+&gt;风景画&lt;/a&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学习Photoshop&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;有成千上万的的教程。大部分都一文不值。还好有一些确实质量很高的教程网站。&lt;a class="link" href="https://tutsplus.com/" target="_blank" rel="noopener"
+&gt;TutsPlus&lt;/a&gt;的&lt;a class="link" href="http://psd.tutsplus.com/" target="_blank" rel="noopener"
+&gt;PSDTuts&lt;/a&gt;就是其中之一&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这是一个很棒的&lt;a class="link" href="http://psd.tutsplus.com/tutorials/interface-tutorials/mobile-ui-how-to-redesign-the-spendometer-iphone-app-part-1/" target="_blank" rel="noopener"
+&gt;制作iPhone应用的photoshop教程&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这是一个很棒的&lt;a class="link" href="http://webdesign.tutsplus.com/tutorials/basics-create-a-clean-magazine-blog-theme-day-1-design/" target="_blank" rel="noopener"
+&gt;制作网站效果图的photoshop教程&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;每天挤出一两个小时来学习这些教程，你的进步速度绝对令人难忘。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="第3步学一些专长"&gt;第3步：学一些专长
+&lt;/h2&gt;&lt;p&gt;你是想设计移动app？网站？还是信息图表？多多探索，然后选择你最感兴趣的，让自己更加熟练。&lt;/p&gt;
+&lt;p&gt;学习Logo设计&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;学会做出还过得去的logo：&lt;a class="link" href="http://www.amazon.com/Logo-Design-Love-Creating-Identities/dp/0321660765/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1371614766&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=logo&amp;#43;design&amp;#43;love" target="_blank" rel="noopener"
+&gt;Logo Design Love&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不过你还会希望在logo上更进一步。学习创作统一的品牌形象——从网站到名片。看看这本书，&lt;a class="link" href="http://www.amazon.com/Designing-Brand-Identity-Essential-Branding/dp/1118099206/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371615083&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=designing&amp;#43;brand&amp;#43;identity" target="_blank" rel="noopener"
+&gt;Designing Brand Identity&lt;/a&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学习移动app设计&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;从&lt;a class="link" href="http://psd.tutsplus.com/tutorials/interface-tutorials/mobile-ui-how-to-redesign-the-spendometer-iphone-app-part-1/" target="_blank" rel="noopener"
+&gt;这个教程&lt;/a&gt;入手，开始你的移动app视觉设计历程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;读一读这本全面且深思熟虑的iPhone设计书：&lt;a class="link" href="http://www.amazon.com/Tapworthy-Designing-Great-iPhone-Apps/dp/1449381650/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1371619592&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=tapworthy" target="_blank" rel="noopener"
+&gt;Tapworthy&lt;/a&gt;。它会教你如何设计出不仅美观而且易用的app&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;认真研究你手机上的app。评价它们。哪些好用哪些不好用？&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学习网页设计&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;阅读&lt;a class="link" href="http://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1371615719&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=don%27t&amp;#43;make&amp;#43;me&amp;#43;think" target="_blank" rel="noopener"
+&gt;Don’t Make Me Think&lt;/a&gt;来学习如何制作让人容易使用和浏览的网站&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果你希望让网站看起来更棒，读一读&lt;a class="link" href="http://www.amazon.com/Principles-Beautiful-Web-Design/dp/098057689X/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371615763&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=principles&amp;#43;of&amp;#43;beautiful&amp;#43;web&amp;#43;design" target="_blank" rel="noopener"
+&gt;The Principles of Beautiful Web Design&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将你觉得漂亮的网页设计列一份清单。注意他们的共同点。&lt;a class="link" href="http://siteinspire.com/" target="_blank" rel="noopener"
+&gt;SiteInspire&lt;/a&gt;上有一些经典案例。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下来要面对一个令人纠结的问题，作为一名设计师你是否需要掌握HTML/CSS：这取决于你的工作。掌握它肯定能让你在职场上拥有优势。即使你不想成为网页开发者，它也能帮你了解一些基础。你就能知道什么是可实现的，什么不行。&lt;/p&gt;
+&lt;p&gt;这里有些不错的HTML与CSS学习资源。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="http://webdesign.tutsplus.com/" target="_blank" rel="noopener"
+&gt;Web Design Tuts&lt;/a&gt;是免费教程中我的最爱&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;我最爱的付费教程是&lt;a class="link" href="http://teamtreehouse.com/" target="_blank" rel="noopener"
+&gt;Treehouse&lt;/a&gt;（真的很实惠，每个月25美元）。如果你从零起步，需要有人给你清楚全面地解释，为Treehouse的教程大手笔支付吧。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="第4步创建作品集"&gt;第4步：创建作品集
+&lt;/h2&gt;&lt;p&gt;你用不着去精英设计院校来成为一个设计师。但你需要一个可靠的作品集。&lt;/p&gt;
+&lt;p&gt;第一次着手时，要如何建立作品集呢？幸好你未必需要参与真正的项目、接触真正的客户来建立作品集。虚构一些自己的副业。这里有些点子：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在T恤上设计一些简单的创意&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;寻找一些设计很糟糕的网站，重新设计它们&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;想到一个iPhone app点子？做出它的效果图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在&lt;a class="link" href="http://startupweekend.org/" target="_blank" rel="noopener"
+&gt;Startup Weekend&lt;/a&gt;上加入一个团队，在周末项目中担任设计师&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;加入&lt;a class="link" href="http://99designs.com/" target="_blank" rel="noopener"
+&gt;99 designs contest&lt;/a&gt;来练习设计，作为一份简历&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过&lt;a class="link" href="http://www.amazon.com/Creative-Workshop-Challenges-Sharpen-Design/dp/1600617972/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1371616567&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=creative&amp;#43;workshop" target="_blank" rel="noopener"
+&gt;Creative Workshop&lt;/a&gt;这本书来做平面设计练习&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;找到当地的非营利组织，免费提供设计服务。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要抵制住把每件作品放进作品集的诱惑。这是仅仅展示你最优秀作品的地方。&lt;/p&gt;
+&lt;p&gt;最开始就是借鉴，借鉴，再借鉴。不用担心原创性——以后会有的，当你对自己的手艺更满意时。学一门乐器的时候，你总是先学着演奏别人去曲子，然后才谱写自己的。在设计中也一样。&lt;a class="link" href="http://www.amazon.com/Steal-Like-Artist-Things-Creative/dp/0761169253/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1371616653&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=steal&amp;#43;like&amp;#43;an&amp;#43;artist" target="_blank" rel="noopener"
+&gt;像艺术家那样抄袭&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;去&lt;a class="link" href="http://dribbble.com/" target="_blank" rel="noopener"
+&gt;Dribbble&lt;/a&gt;从一些顶尖设计师那里寻找灵感。从&lt;a class="link" href="http://pttrns.com/" target="_blank" rel="noopener"
+&gt;pttrns&lt;/a&gt;获取iOS设计灵感，从&lt;a class="link" href="http://www.siteinspire.com/" target="_blank" rel="noopener"
+&gt;siteinspire&lt;/a&gt;寻找网页的。&lt;/p&gt;
+&lt;h2 id="第5步找到一份设计工作"&gt;第5步：找到一份设计工作
+&lt;/h2&gt;&lt;p&gt;当我第一次开始学习设计，我去了一个设计师招聘会。走进一间房间，里面坐满了经验比我丰富的设计师——5年、10年、15年工作经验。所有人都在找工作。情形很吓人。自学上路的我就在那里，很清楚地知道，自己是要与这些经验丰富的设计师竞争。&lt;/p&gt;
+&lt;p&gt;仅仅一年之后，我得到了一份设计师工作。与很多其他设计师相比，我的关键优势在于：我知道如何与开发者协作。&lt;/p&gt;
+&lt;p&gt;增进你就业能力的最重要因素，是能够和开发者一起工作。学习一些交互设计。学一些基础的HTML与CSS。科技行业的设计师（交互设计师、网页设计师、app设计师）都是稀缺人才，而且薪资可观。那正是我现在从事的工作。&lt;/p&gt;
+&lt;p&gt;如果你没有与开发者共同工作的经验，去体验。去&lt;a class="link" href="http://startupweekend.org/" target="_blank" rel="noopener"
+&gt;Startup Weekend&lt;/a&gt;，参加黑客马拉松，或者在&lt;a class="link" href="http://collabfinder.com/" target="_blank" rel="noopener"
+&gt;合作项目网站&lt;/a&gt;找到一名开发者。&lt;/p&gt;
+&lt;p&gt;做一个个人网站，把你的作品集作为核心内容展示。&lt;/p&gt;
+&lt;p&gt;出去创造一些奇遇——告诉每个人你在寻找设计工作。你永远不会知道，谁会认识什么人能帮上忙。&lt;/p&gt;
+&lt;p&gt;研究你感兴趣的公司与机构。在LinkedIn上搜寻那些公司的人，与他们建立深入联系，询问信息。得到工作的最好方式是关系。如果你没什么人际关系，&lt;a class="link" href="http://karenx.com/blog/how-to-get-a-job-when-you-have-no-connections/" target="_blank" rel="noopener"
+&gt;还有很多其他方式为自己建立优势&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id="找到了工作之后继续学习"&gt;找到了工作之后，继续学习
+&lt;/h2&gt;&lt;p&gt;我在Exec待了一年，现在在工作上已经学了很多。我寻找那些比我有天赋的设计师，向他们学习。寻找设计课程（好的在线课程有&lt;a class="link" href="http://www.skillshare.com/classes?school=design" target="_blank" rel="noopener"
+&gt;Skillshare&lt;/a&gt;、&lt;a class="link" href="https://generalassemb.ly/" target="_blank" rel="noopener"
+&gt;General Assembly&lt;/a&gt;、&lt;a class="link" href="http://teamtreehouse.com/" target="_blank" rel="noopener"
+&gt;Treehouse&lt;/a&gt;和&lt;a class="link" href="https://tutsplus.com/" target="_blank" rel="noopener"
+&gt;TutsPlus&lt;/a&gt;）。做一些副业项目。在书店的设计专区认真钻研。还有那么多可以学习和进步的空间。&lt;/p&gt;
+&lt;p&gt;时刻打磨你的技能，而且&lt;a class="link" href="http://danceinayear.com/" target="_blank" rel="noopener"
+&gt;学无止境&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;有疑问？和@&lt;a class="link" href="http://twitter.com/karenxcheng" target="_blank" rel="noopener"
+&gt;karenxcheng&lt;/a&gt;打个招呼吧。如果你很认真的想学习设计，并希望每天练习，你或许会对我运营的一项激励实验感兴趣：&lt;a class="link" href="http://giveit100.com/" target="_blank" rel="noopener"
+&gt;100&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;“没有人告诉新手这些事情，我希望当时有人能告诉我。所有我们这些从事创意工作的人，选择它是因为我们有好的品味。但也有条鸿沟，你在头两年做出的东西，可能没那么好。你觉得它会更好的，它有潜力，结果却没有如你所愿。但是你的品味，你在设计领域中的成绩，仍然起着至关重要的作用。你的品味导致你的作品让自己失望。很多人没有熬过这阶段，就放弃了。我认识的大多数从事有趣、有创意工作的人，花了很多年才度过这个阶段。我们知道，在自己的作品中，并没有我们所希望赋予的那些特质。这些我们都经历过。而如果你才刚入门，或是仍然处在这一阶段，你得知道这很正常，你能做的最重要的事情，就是创作大量的作品。这需要时间。需要时间也很正常。你得杀出一条自己的路。”——Ira Glass&lt;/p&gt;
+&lt;p&gt;作者注：本文最初发布在&lt;a class="link" href="http://karenx.com/" target="_blank" rel="noopener"
+&gt;Karen的博客&lt;/a&gt;。经过修订和校正后，发布到Medium上。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://medium.com/what-i-learned-today/bad8cdb67068" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>设计师的自我提升</title><link>https://victor42.eth.limo/post/3080/</link><pubDate>Sun, 09 Feb 2014 13:45:47 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3080/</guid><description>&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-02/02-09/1.jpg"
+loading="lazy"
+alt="金发女孩跃起触摸空中肥皂泡，寓意设计师突破瓶颈"
+&gt;&lt;/p&gt;
+&lt;p&gt;过去一年感触良多，深深体会到作为设计师的不易，一度觉得自己的水平没多大长进，有些低落。同时也收获了一些至关重要的情报，都是关于自我提升的。今年将是付诸实施的一年，争取通过努力打破瓶颈。当然，我很乐意将它们与所有热爱设计的朋友分享：&lt;/p&gt;
+&lt;h3 id="1-分享精神"&gt;1. 分享精神
+&lt;/h3&gt;&lt;p&gt;分享本身就是自我提升的第一步，阐述自己所学是整理与回顾的过程。虽然无法从中直接获得新技能与水平的提升，却能让一味赶路的自己停下脚步，慢慢吸收其中精华。这时候，我们需要化身为一头牛，默默的反刍。&lt;/p&gt;
+&lt;p&gt;有朋友在博客上问我如何培养色彩感觉，提升自己的配色能力。我一时间也不知道如何回答，色彩这种东西最玄乎。最后还是憋出了一个回答，我建议她多留意生活中的颜色，食品化妆品包装、菜谱-Food、路人的衣服、平面广告，下意识地去回想自己见过的这些事物，这时候所有细节都变得模糊，只记得几种主色，配色的精髓就显现出来了。另外也要多看摄影作品和单色系设计，道理也一样。回答完后我感到很意外，这些方法我自己用过吗？仔细想想还是用过的，只是刚刚才意识到。&lt;/p&gt;
+&lt;p&gt;于是，在回答别人问题的同时，也为自己总结出了一则重要的设计师技巧。分享所得的收获，往往是些很抽象或者细枝末节的东西，这都是在书本与教程中不会出现的，万万不可错过。&lt;/p&gt;
+&lt;h3 id="2-低头做设计抬头交朋友"&gt;2. 低头做设计，抬头交朋友
+&lt;/h3&gt;&lt;p&gt;我话不多，但不是内向的入。这说明我有结交朋友的能力，却缺乏扩大朋友圈的意愿。现有的朋友和我关系都很好，我也热衷于继续维持，并不怎么愿意主动认识新朋友，但这对设计师是相当不利的。设计师的能力，不是闭门造车，而是要走进别人的生活。设计师需要交流，尤其是与同行。&lt;/p&gt;
+&lt;p&gt;自从之前那篇&lt;a class="link" href="http://victor42.eth.limo/2874" target="_blank" rel="noopener"
+&gt;《我如何成为了一名设计师》&lt;/a&gt;反响强烈，我的博客再也不是互联网中的一座信息孤岛。很多素未谋面的设计师与设计爱好者通过各种途经找到我，与我交流心得，咨询专业问题，探讨职业规划，找我做项目，拉我入伙创业，还有只为寻求鼓励的毕业生。手足无措之余，我心里暖洋洋的。工作三年了，一直都在小团队里孤军奋战，第一次找到了设计大家庭，找到了组织。不同于某个社区或论坛，这是一群活生生的人。持续接触下来，发现每个人有不凡的经历和满腔热忱。最重要都是，大家都是很好的人，值得交朋友。&lt;/p&gt;
+&lt;p&gt;好好经营自己的设计同行圈子，且不说交流获得的海量信息，光是这相互鼓励的氛围，就足以催人继续奋进了。&lt;/p&gt;
+&lt;h3 id="3-隔行如隔山但别怕爬山"&gt;3. 隔行如隔山，但别怕爬山
+&lt;/h3&gt;&lt;p&gt;我做过半年的平面，然后一直做网站到现在，我可以很自信地说出各类网站的标准结构、主流显示器分辨率、浏览器内核、各种常用灰色的色值，可脚步就止于此吗？&lt;/p&gt;
+&lt;p&gt;当然不能困死在这里，如今轰轰烈烈的移动互联网大潮怎能少得了我。很早就给自己博客做了个手机版，虽然当时还没摆脱PC的思维，却让我了解到移动互联网完全是另一片天地。千变万化的屏幕尺寸，与web端截然不同的度量单位，以触摸为核心的交互方式，里面都大有学问。为了适配苹果设备的Retina屏，甚至需要将背景图做成两倍大小，再用CSS压缩回一倍。这些细节，不深入研究是不会知道的。&lt;/p&gt;
+&lt;p&gt;而设计一词的含义也在变得更广，APP中无处不在的动画效果成为设计的必要元素之一，按下按钮的震动反馈与音效，也是设计师需要考虑的，设计已经完全超越了视觉的局限。&lt;/p&gt;
+&lt;p&gt;接触的媒介越多，设计的含义就变得越广泛。没有色彩的电纸书界面该怎么设计？智能电视操作界面与PC软件有什么不同？盲人手机又该怎么操作？擦亮眼睛，设计的冰山在水面以下的部分，轰然出现在眼前。&lt;/p&gt;
+&lt;h3 id="4-训练毅力培养习惯"&gt;4. 训练毅力，培养习惯
+&lt;/h3&gt;&lt;p&gt;我大学里也一度沉迷游戏，没日没夜地玩魔兽世界，将近两年时间花在那上面。虽然玩游戏也有很多收获，对于优秀游戏的理解之类，不过要取得那些收获，昏天暗地玩三个月足矣。客户端装装删删好几回，最后终于和魔兽世界say goodbye了，尽管那也是一段美好时光。&lt;/p&gt;
+&lt;p&gt;如果改掉一个习惯都如此艰难，养成习惯就更像天方夜谭了，为此需要一些下意识的行为来训练自己的毅力。&lt;/p&gt;
+&lt;p&gt;从学生时代到现在，我唯一一件坚持下来的事情就是写东西，生活琐事、影评，也记录一些光怪陆离的梦境。或许它让我了解了培养习惯的重要性，不论这个习惯对自己有没有实际帮助，养成习惯本身就能强化人的毅力。&lt;/p&gt;
+&lt;p&gt;我决定要做点有意义的事情，长期性的，什么都好。无意间想到一个绝妙的主意，我开始每周翻译一篇国外的设计文章，还为此专门开了微信公众号“我”，用来集中记录和传播。我热爱英文，正苦于没有途径让我长期接触。我从事设计，国外的设计文章对提升自己很有帮助。我喜欢码字，翻译的过程本身就是二次创作，顺便还能充实我的博客内容。于是，这一石三鸟的习惯，我已经坚持7个月了。如果还有什么其他长期的事情要做，我已经自信满满了。&lt;/p&gt;
+&lt;h3 id="5-快乐至上"&gt;5. 快乐至上
+&lt;/h3&gt;&lt;p&gt;以上都只能间接提升设计师的水平，而这一条，则直接关系到作品质量。不快乐的设计师，很难在作品中感染其他人，自身水平也鲜有突破。这点我深有体会，因为我经历过几份非常不快乐的工作。&lt;/p&gt;
+&lt;p&gt;由于我掌握了一点点的前端技术，工作过的也基本都是创业型团队，很自然就一个顶两个用了。不过专业的前端远比设计难招，工作中代码的成份越来越多，后来发展到公司另招了设计师，让我专门负责切页面了。前端技术倒是突飞猛进，但这不是我的目的。这也怪我不懂拒绝，不过已经这样了，我的心态严重受到影响。疯狂加班导致的身体酸痛，还有想尽快摆脱这种状态的烦躁，让我身心俱疲，没有心思再专心学习设计。最后全都以闪电辞职收场，从头开始。&lt;/p&gt;
+&lt;p&gt;心情好的时候，设计师的大脑都是极品飞车，神奇的点子甚至会惊艳到自己，有点闲工夫就能折腾出各种有趣的玩意。聚会海报、简单的手工活、概念设计，多多练习才是提升自我的关键。&lt;/p&gt;
+&lt;h3 id="结语"&gt;结语
+&lt;/h3&gt;&lt;p&gt;可见，要当好设计师是多不容易的事情。不过它的魅力就在于，力克艰难险阻后看见的那道破晓光芒。这很像骇客帝国里的一幕，救世主尼欧驾着飞船飞向机械帝国，在机械章鱼的围攻下，他冲破云层，看见温暖光明的天际线。&lt;/p&gt;
+&lt;p&gt;所以为了各自心中的阳光，2014，设计师们，火力全开吧！&lt;/p&gt;</description></item><item><title>我如何成为了一名设计师</title><link>https://victor42.eth.limo/post/2874/</link><pubDate>Fri, 01 Nov 2013 14:59:42 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2874/</guid><description>&lt;p&gt;由于电子专业出身，经常会被问到为何以及如何成为了设计师。面试时被问到，总有千万种合理答案，因为他们问的是why。被朋友问到时，却瞬间词穷，因为他们想知道的是how。近日&lt;a class="link" href="http://weibo.com/ccccsp" target="_blank" rel="noopener"
+&gt;优设小编&lt;/a&gt;也问了我这个问题，一时间答不上来，于是有了这半正式的约稿，至少能给自己一个交代&lt;/p&gt;
+&lt;p&gt;不过我要先提示一下，本文不是教程，没法教你如何成为设计师，它仅仅代表我的个人经历与感受&lt;/p&gt;
+&lt;p&gt;相信大多数同龄人和我一样，自己的人生到了大学才真正开启。小时候被问及长大想做什么，十多年后才有时间来认真回答这个问题。然而理想是一回事，上大学却是另一回事。选择电子专业的理由颇有戏剧性，因为我不爱自己生活的城市。逃离它有个最直接的途径——外地二流大学的三流专业。于是，填志愿问题变成选择定居城市，顿时好选多了&lt;/p&gt;
+&lt;p&gt;电子专业比我想像中枯燥，至少第一年我有过认真学习的念头。种种迹象表明，这个成天与电容电阻电路板打交道的专业，不适合我这种右半脑生物。在转英语专业失败后，我决定无论如何要做点什么&lt;/p&gt;
+&lt;p&gt;图书馆里什么书都有，在看完几本小说后，人生的第一个转折点来了——我拿起了一本广告学杂志。现在回想起来，广告营销绝对是相当一部分懵懂青年的救命稻草，因为它听起来够励志、够鸡血、够个人英雄主义。可是我却走偏了，渐渐对那些巧妙的营销策划产生反感，注意力都集中在漂亮的广告图片上，这或许是我第一次注意到“设计”一词的存在&lt;/p&gt;
+&lt;p&gt;所以photoshop成了必经之路，好在我以前自学过，上手容易些。可是我还是掉坑里了，我花了大半年的时间看视频、找教程、学各种photoshop特效，却连个书籍封面都设计不好&lt;/p&gt;
+&lt;p&gt;大二开始找了家平面设计公司学习，就是在这里，我才真正上道儿了。简单学了几种软件之后，我被要求设计一张名片。结果可想而知，但部分细节得到了认可，那些无关ps特效，而是来自对优秀设计案例的模仿。设计的入门阶段，模仿至关重要，老板后来的指导也印证了这一点。很长一段时间，我都在翻阅和模仿各种传单、画册、楼书，这也直接导致配色与构图成为我的强项。毕业那年，老板说我已经有平面专业大四的水平了，现在回想起来，确实没有夸大&lt;/p&gt;
+&lt;p&gt;所以我勉强算是平面出身了，而且和设计专业的同学们拉平了起跑线。但这些转眼就都成为浮云，第一份正式工作让我意识到，一般的科班毕业生水平，根本无法胜任大部分设计岗位。一本8页的企业宣传册，我来回折腾了一个月，最终还是靠有经验的设计师同事帮忙搞定的。同时，企业网站的开发工作量很大，于是我被派去给公司的前端打下手，前端技术的入门也由此开始&lt;/p&gt;
+&lt;p&gt;在工作中学东西是非常高效的，边做边学，两个月时间熟悉了html和css，能做出不带动画效果的页面。之后的经历证明，前端技术相当实用，建议设计师同行们偷偷学起来，至少了解其原理。为什么是偷偷，我们稍候再讲。自此，公司终于找到了留下我的用处，我开始负责日常新闻专题页面的制作，起初是设计师前辈设计，我来制作。渐渐自己也能做出合格的专题页了，工作终于趋于稳定&lt;/p&gt;
+&lt;p&gt;有段时间比较闲，被派去广告部做宣传册，第一回给客户做设计，而且是政府部门，你懂的。我无法直接与需求方沟通，加班、改稿数不胜数。接口人是个说话非常难听的急性子，不巧的是他竟然以前还学过设计，所以我整整被指手画脚冷嘲热讽了两个月，自己都不知道是怎么熬过来的。虽然最终注定不会和这家伙成为朋友，不过还是从他那里学到了一些设计技巧。还有一点：别发没必要的火&lt;/p&gt;
+&lt;p&gt;辗转换过多份工作，却一直没离开过互联网，中间还穿插着好几次个人网站的建设与改版，能够额外提升设计与前端开发水平，也有机会从更高角度来看待产品。到目前为止，工作都以网页设计为主，有时还兼任前端。然而身兼两职并非什么光荣的事情，反而是恶性循环的开始，这点我很久以后才明白，想要扭转已经阻力重重了&lt;/p&gt;
+&lt;p&gt;术业有专攻，设计与开发本就是两种不同的思维方式，频繁在两种模式间切换，会影响工作效率。而有限的时间精力分散到这两部分中，产出也相应减少了，每次换工作看着干瘪的作品集就能体会到。所以前端技术要学，但千万要偷偷地学，不要在工作中展露出来，除非你在自己创业初期。这话肯定有人不爱听，但是设计师朋友们，作为技术型工种，个人的成长绝对比公司业务更重要&lt;/p&gt;
+&lt;p&gt;有这些就是优秀的设计师了吗？在进入一家pc软件公司前我都不曾怀疑过。第一次接触软件产品，其功能逻辑的复杂程度非一般网站可比，功能性的东西远远多过于内容展示，4个界面竟然衍生出了几十个PSD文件。幸运的是我从头到尾主导了整个产品的设计，不幸的是它最终由于公司大裁员，无力开发上线了&lt;/p&gt;
+&lt;p&gt;这段经历让我重新思考了设计师的定义，或者说分类。按我的理解，设计也能分化出两种思维方式：内容思维与产品思维。笼统的说，印刷品、banner、活动专题页和一部分企业网站属于前者，社交产品、电商平台、管理系统、大部分APP等属于后者。两者有重叠，但前者偏重视觉效果，后者偏重易用性。优秀的设计师当然应该两者兼备，但对于我这个已经被前端技术“扭曲”的人来说，后者无非是比较好的切入点。这不意味着路要越走越窄，广泛涉猎是必须的，掌握各领域的设计动向，平面、网页、UI，来者不拒&lt;/p&gt;
+&lt;p&gt;发展方向开始变得清晰明确，随着科技深入人们生活，产品思维的重要性会直线上升。作为一名设计师，用户体验已经变成必修课，它在产品中发挥的作用是贯穿始终的。这方面的学习渠道并不系统，重要的是保持对于科技与生活的热爱，还有不将就的态度&lt;/p&gt;
+&lt;p&gt;本文结束前，还有一个最根本的问题没有回答，我究竟喜欢设计吗？嗯……我敢说，至少是我了解的职业中最喜欢的。发散思维、寻找灵感的阶段最为有趣，确定方向、一气呵成时最有成就感。尽管工作越久，越难察觉自己的进步，但有时回头看自己的作品，又会忽然惊喜自己当时就能做出那样的设计&lt;/p&gt;
+&lt;p&gt;一朝为设计师，便是终身的选择，即使哪天我不再从事设计，也无法置身事外&lt;/p&gt;
+&lt;p&gt;因为，它已变成我的世界观&lt;/p&gt;</description></item><item><title>草原之歌</title><link>https://victor42.eth.limo/post/2566/</link><pubDate>Fri, 21 Jun 2013 12:08:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2566/</guid><description>&lt;p&gt;&lt;em&gt;把很早写的小说翻出来重写了一遍，不知道为什么，阅历在增加，反而想不出这样的故事了&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;当整个家族一字排开望着夕阳时，气氛庄严无趣。我斜了一眼身旁的妈妈，默默倒退出去。两边长龙般的汤姆森瞪羚队列望不到尽头，族里最快的赛托从一头跑到另一头要多久呢？不过这个任务终究不能交给他，他速度太快难以控制，若是一角扎中了大人的屁股，他就要挨揍了。当然这也不关我事，我只是忌惮他的赛式嚎叫。每次他一叫唤，总能听见远方野猪群里传来回应。我弓起身子打算自己试试，又马上泄了气，我都还没成年，怎么可能一口气跑那么远。&lt;/p&gt;
+&lt;p&gt;夏日傍晚，草原明亮依旧，我把屁股留给夕阳。有个浅浅的影子总跟着我，我看见自己的轮廓投在一块平滑的岩石上。我动了动嘴唇，影子也动了起来，好像在咀嚼那块岩石。我走上一座草坡，影子倏地变长，触到远处的一棵树。树的旁边，是更多棵树。那就是大人们说的森林了。我无法相信我们的草原也有尽头，但这黑压压的森林显然已经不是我们的领地。族长警告过我们，不要踏入森林一步。我机警地盯着这些高大的树木，如果每棵树相当于我们的一棵草，那住在里面的羚羊一定很大只。&lt;/p&gt;
+&lt;p&gt;“米娅！”妈妈轻轻跺着脚唤我回到队列中，“看着这边，你要学会尊重太阳，妈妈在教你生存之道！虔诚一点，你就能听见草原之歌。”&lt;/p&gt;
+&lt;p&gt;“否则会怎样？听见草原之歌又有什么用呢？”我不情愿地回到队伍中，什么草原之歌我真的一点也听不见，只有聒噪的虫鸣响彻耳畔。我开始观察妈妈的两只角，其中一只有点残缺，看起来短些。这个故事妈妈讲过不止一遍了：小时候喝水，那只角卡在石缝中，拔出来便断了一截。&lt;/p&gt;
+&lt;p&gt;“什么太阳……什么歌……”我低头用角拨动面前枯黄的草叶，惊惶飞起的蚱蜢四散奔逃。有一只傻蚱蜢飞到我脸上，还安然自得地趴着。我们大眼瞪小眼好一会儿，我看见它在用带钩爪的足挠自己脑袋，完全不知道妈妈在旁边唠叨什么。&lt;/p&gt;
+&lt;p&gt;“米娅，在听么？”&lt;/p&gt;
+&lt;p&gt;“嗯！”我一甩头，蚱蜢扑腾几下飞远了，不偏不倚正朝着落日的方向，一对微红的翅膀在巨大的夕阳中晶莹透亮。我用耳朵在妈妈脖子上舒服地蹭了一下，踮脚靠着妈妈。太阳落山真好，这个无聊的仪式快快结束，马上就可以看见星空了。&lt;/p&gt;
+&lt;p&gt;天边只剩一条窄窄的金色光芒，那边肯定是草原的另一头。觅食归来的狒狒们吼声此起彼伏，尽管不堪入耳，但也许能帮我们吓跑游荡的鬣狗。其实鬣狗根本追不着我们，连我这种未成年的都追不上。倒是一种浑身斑点的大猫经常追赶我们，它是唯一速度能与我们较量的动物。妈妈要我格外小心这种叫猎豹的猛兽，他们会来这里找吃的。但是他们非常讨厌，把我们赶跑了，面对遍地嫩草，却碰都不碰一下，这种动物脑子到底怎么长的？&lt;/p&gt;
+&lt;p&gt;我最喜欢午夜的星空，整个草原沉沉入睡，这是另一个世界，只属于我的世界。妈妈在睡梦中扇着耳朵驱赶蚊虫，而我的一天才真正开始。迷人的夜空令我舍不得移开视线，我喜欢仰着脖子原地打转，让满天繁星把我转晕，然后倒地。如果还有谁没睡，一定会看见有只瞪羚在独自重复这诡异的动作。&lt;/p&gt;
+&lt;p&gt;“嗷！”我脚下的这声哀嚎简直响彻云霄，只怕月亮要吓得掉下地平线去。羚羊群中无数只角立了起来，我心里委屈，这祸闯的太莫名其妙了。低头一瞧顿时明白，我的脚下，正是赛托那短短的小尾巴，他面目狰狞地盯着我。这个小伙子长的倒是秀气，可惜和他那锣鼓嗓门毫不相称。现在想想，大人们的八卦都还是合情合理的——赛托胆小，所以嗓门洪亮；怕死，所以健步如飞。看着他那张脸由狰狞变成惊恐，我不禁笑出声来。大人们却齐刷刷地把脸转过去，趴下睡了，像什么都没发生过。我环视一圈，忽然视线对上赛托的妈妈，她躲在谁的脖子后面窥视。被我发觉便挤出一个意味深长的微笑，迅速转身躺下。&lt;/p&gt;
+&lt;p&gt;“真安静。”&lt;/p&gt;
+&lt;p&gt;“嘿……你的脚！”赛托咬牙切齿。&lt;/p&gt;
+&lt;p&gt;原来我还踩在他尾巴上，羚羊的尾巴就那么短，被我踩中也算是中奖了：“噢……对不起。”&lt;/p&gt;
+&lt;p&gt;我刚抬起脚，赛托刹那间蹦了老高，像争抢飞虫的牛蛙。他飞奔出羚羊群，痛苦不堪地上窜下跳。我望了一眼沉寂的草原，追了出去。&lt;/p&gt;
+&lt;p&gt;跨出羚羊群时，身后草丛已经沙沙响成一片，也夹杂着大人们的窃窃私语。我缓缓回过头去，又是一片寂静，大半夜的玩什么捉迷藏啊！&lt;/p&gt;
+&lt;p&gt;“也就是说猎豹是不吃草的？”&lt;/p&gt;
+&lt;p&gt;“当然，他是吃我们的！”&lt;/p&gt;
+&lt;p&gt;“妈妈都没告诉过我！”我彻底打消了去要回草场的主意。&lt;/p&gt;
+&lt;p&gt;“不会错，不会错的……”赛托忽然把头低了下去。&lt;/p&gt;
+&lt;p&gt;“怎么啦？”我绕到赛托跟前，正要俯身去看他的脸。一束纤细的光芒从他脸颊滑落，在空中一闪而过消失在草丛中。&lt;/p&gt;
+&lt;p&gt;“我看见它追上我妈，咬断她的脖子……”赛托面如死灰，“我就藏在不远处的岩石后面，现在的妈妈把我养大。”&lt;/p&gt;
+&lt;p&gt;如果这是真相……好吧，这就是真相。我沉默了，广袤草原，夜风微凉。我们一前一后走上那个草坡，黑压压的森林，比夜空还沉寂。我找到了扯开话题的办法，“你去过远处那片森林吗？”&lt;/p&gt;
+&lt;p&gt;“那里很危险，里面住着人类。”&lt;/p&gt;
+&lt;p&gt;“人类？吃草的吗？”&lt;/p&gt;
+&lt;p&gt;“有些大人见过，他们也说不清人类是吃什么的，甚至没看见过人类进食。但是人类会杀掉其他动物，也包括我们。”&lt;/p&gt;
+&lt;p&gt;“呃……那是什么？”黑压压的森林里似乎有幽暗的火光。&lt;/p&gt;
+&lt;p&gt;“我们快回去，那一定是人类。他们不用打雷就能让木头和草烧起来。”&lt;/p&gt;
+&lt;p&gt;这回我彻底见识了赛托的速度，这个怕死的废物，不出几步就把我远远甩在后面，还有没有一点绅士风度啊？我害怕人类会追上来，头也不敢回，惊得飞虫四散奔逃。我记起妈妈教我逃命时要保持灵活跳跃，随时准备转向，以此甩掉直线奔跑迅速的猎豹，躲避人类应该也一样。我努力扭动着身体，跳跃前进，不经意间的回头让我安心许多——除了缓慢旋转的星空，周遭漆黑一片，人类根本就没有追来。&lt;/p&gt;
+&lt;p&gt;心有余悸地回到羚羊群中，天还没亮，星星却似乎都黯淡了点。大人们都醒着，像是遇见什么值得庆贺的事情，对我微笑颔首。怕死的赛托躲在他妈妈身后，已经沉沉的睡着了。&lt;/p&gt;
+&lt;p&gt;“米娅，不能在这喝水！”&lt;/p&gt;
+&lt;p&gt;“妈妈，我很渴，走不动了。”&lt;/p&gt;
+&lt;p&gt;“这里有鳄鱼，我们要从上游渡过这条河去新的草场。”&lt;/p&gt;
+&lt;p&gt;“角马和斑马都在这里喝水呢。”我向河岸靠近了几步，整个瞪羚家族从我身后跑过，很快我们就远远落下了。&lt;/p&gt;
+&lt;p&gt;“米娅，不能去！”妈妈飞身跃过来挡在我面前，“妈妈爱你。”此刻我已逼近河岸，妈妈一条腿浸没在河里。&lt;/p&gt;
+&lt;p&gt;“走吧，米娅，我们跟上。” 妈妈的脸永远那么严肃，从来都只会命令我。她折断的角又在视野中晃动，我看得出神，甚至忘了回答。&lt;/p&gt;
+&lt;p&gt;河里忽然炸开，漂浮在河面的树干猛然扑向岸边，许多角马和斑马发出最后一声嘶鸣，剩下的只有翻滚的河水。鳄鱼的血盆大口滴着涎液，把他们逐个拖进水里，猎物很快就不再动弹。&lt;/p&gt;
+&lt;p&gt;我觉得自己快石化了。&lt;/p&gt;
+&lt;p&gt;妈妈在朝水中缓慢退去，那双不对称的角疯狂摇摆，“跑啊！米娅，跑！”&lt;/p&gt;
+&lt;p&gt;我彻底石化了。&lt;/p&gt;
+&lt;p&gt;她很快也变成了一团水花，我倒退几步，看着那片水域重归平静，河面红得好像着了火。妈妈忽然挣扎着从水中跃出，让我看到了一眼那残缺的角，马上又被拖入水中，溅起的血水洒在我脸上，湿湿的。&lt;/p&gt;
+&lt;p&gt;我却一句话也说不出来，视线模糊，脸上还湿湿的。&lt;/p&gt;
+&lt;p&gt;“米娅，起来，你得好好感谢太阳。”有只舌头在舔我的脸，感觉湿湿的。&lt;/p&gt;
+&lt;p&gt;湿湿的。&lt;/p&gt;
+&lt;p&gt;我猛地跳起来，妈妈活生生站在我面前。我上前靠着妈妈，踮起脚把脸贴在她背上，一轮朝阳正从妈妈两只角的中央升起。&lt;/p&gt;
+&lt;p&gt;“还记得昨天是从哪跑回来的吗？”&lt;/p&gt;
+&lt;p&gt;我怎么可能记得，由于害怕素未谋面的人类，误打误撞回来的。&lt;/p&gt;
+&lt;p&gt;“是仁爱的太阳救了你，米娅。”妈妈指了指左边，那是我昨天经过的地方。汤姆森瞪羚目力很好，远远望去，那边赫然躺着一群狮子。&lt;/p&gt;
+&lt;p&gt;“谢谢太阳！”这声喊出我前所未有的响亮，妈妈笑了，无比灿烂。但我要说的是，谢谢太阳，把妈妈还给我。&lt;/p&gt;
+&lt;p&gt;枯黄的草叶不合我们口味，贴着地面寻找嫩草也着实费劲。我抬头伸了个懒腰，整个家族都紧密聚集在一起。这是防范敌人攻击的有效方法，猎豹通常只攻击外层落单的羚羊。&lt;/p&gt;
+&lt;p&gt;循着那稀有的嫩草香，一对又一对羚羊角在我两侧倒退。回头看见妈妈似乎和赛托的妈妈在谈论着什么很开心的事情，脑袋却撞在岩石上。我本打算绕过去，岩石后面忽然窜出三只年幼的土拨鼠。土拨鼠完全无视面前这个大家伙，后肢站立眺望远方。啮齿动物特有的三瓣嘴微微抽动着，嘴唇一动，胡须随之摇摆。中间的抬起前腿在脸上抹，动作很快，然后将两只小爪子捧到面前舔。&lt;/p&gt;
+&lt;p&gt;我和这三个小家伙近在咫尺，他们黝黑的眸子里开始反射鲜亮的光芒，顺着他们的目光看去——太阳已经完全升起，他们也在听草原之歌吗？&lt;/p&gt;
+&lt;p&gt;“草原之歌唱的是什么呢？”我向前一步，在他们跟前趴下。&lt;/p&gt;
+&lt;p&gt;这举动让他们呆了一阵，然后瞬间消失在岩缝中。&lt;/p&gt;
+&lt;p&gt;原来他们比赛托胆子还小，我顿时开心起来。绕到岩石后方，果然有个鼠洞。洞口压着小石块。我低头用两只角抵住岩石，岩石嵌得很深，推不动，我费了好大劲才用角把它撬开。&lt;/p&gt;
+&lt;p&gt;洞穴里昏昏沉沉，我什么也看不清楚。夕阳缓缓升起，里面开始明朗起来，一只母鼠躺在中央。我的入侵吓了她一跳，却没有起身防卫，只是动了动嘴角的胡须。现在已经能看清那三个小家伙了，他们缩在母亲身后瑟瑟发抖，向我投来哀求的眼神。&lt;/p&gt;
+&lt;p&gt;洞穴中似乎还有其他活物，我转了个角度，发现阴暗的角落中还趴着一只蝎子。蝎子的尾巴和身体整个被撕成两截，一只钳子还在条件反射地抽搐。蝎子暗红的甲壳在这方寸间宛如一道死亡契约，反射着森冷的光泽。母鼠试图挣扎着站起，却最终还是倒了下去，身体僵直。我这才发现，她的脖子肿了好大一块。&lt;/p&gt;
+&lt;p&gt;“妈妈！”我开始向羚羊群走去，不知道妈妈有没有办法帮助这三个可怜孩子。&lt;/p&gt;
+&lt;p&gt;妈妈听见我的呼喊，高举起头颅。我又看见了那只亲切的断角，妈妈看我的眼神却不太寻常。她愣了一会儿，然后发了狂似的撞开赛托的妈妈，一跃而起飞出羚羊群，朝我这边扑来。&lt;/p&gt;
+&lt;p&gt;“跑啊！米娅，跑！”&lt;/p&gt;
+&lt;p&gt;我不敢回头，原来我已经离族群很远了。我弓起腿，用尽全身力气高高弹起。我离地的一瞬间，一只有力的爪子轰然落下，上面遍布斑点！&lt;/p&gt;
+&lt;p&gt;“妈呀！这怪物怎么来的？一点声音都没有啊！”砰砰的心跳震得我四肢颤抖，但我仍在没命地狂奔，这是我们的生存本能。猎豹会如何进食？像我们吃草一样直接咬下去吗？像咬赛托的妈妈那样？危急关头我脑中却挥之不去都是这些想法。其实我知道，对于他们也许仅仅是饿上一顿。而对于我，或许再也看不到那璀璨星空了。妈妈教给我的技巧我时刻牢记着：直跑，跳跃，空中转向，落地，直跑……&lt;/p&gt;
+&lt;p&gt;煞白的云彩、蜡黄的草叶，在高速奔跑中一团模糊。现在我满脑子只有斑点，黄黑相间的斑点，斑点中伸出的利爪，还有呼啸掠过的风。我好像隐约听见什么，是妈妈在喊我么？妈妈在喊什么？&lt;/p&gt;
+&lt;p&gt;妈妈的声音逐渐远去，最后近乎缥缈。我希望这是一场梦，难道不能像昨晚那样吗？妈妈快叫醒我。&lt;/p&gt;
+&lt;p&gt;我一刻不敢松懈，熟练的动作在我脚下盘起了风，斑点下的犀利锋芒始终都没触到我。坚持住，我知道豹的体力快要接近极限了。我甚至将动作简化为跳跃，转向，跳跃……&lt;/p&gt;
+&lt;p&gt;剧烈晃动的视野渐渐暗沉下来，我终于看清楚了，这里竟是草原的尽头。面前就是那可怖的密林了，但我宁可相信利爪划出的气流仍在我身后盘旋。我在那个熟悉的草坡上狠踏一脚，两只角划出曲线擦过一截树枝，我栽进完全陌生的环境。&lt;/p&gt;
+&lt;p&gt;在森林里又跑了一阵子，才意识到猎豹在这不可能追上我，树林里根本不存在笔直的路线。我腿一软，趴了下去，身后没有了晃眼的斑点。这让我安心许多，或许猎豹根本就没追出这么远。遍地都是草，为什么他们偏要吃汤姆森瞪羚？&lt;/p&gt;
+&lt;p&gt;我大口喘着粗气，天空在森林里只剩下零星的几个光斑，偏偏天色又开始变暗。现在是正午时分，流光四溢的太阳被浓云遮挡得严严实实，草原的暴雨就是这样。没有了太阳，迷失在森林里将是多么可怕的事情。&lt;/p&gt;
+&lt;p&gt;踉踉跄跄站起来，森林仿佛是和草原一样大的世界，或许更大。我，只是一只羚羊而已。&lt;/p&gt;
+&lt;p&gt;我想起了妈妈。猎豹追我太远，妈妈和族群一定也远远跑开了吧。当然，还有那个跑的最快的赛托。&lt;/p&gt;
+&lt;p&gt;我想回家。&lt;/p&gt;
+&lt;p&gt;这一次暴雨并没吓到我。以往雷雨时，草原上空电光火石，远方的巨响仿佛要掀起整个大地。那时我会在妈妈身躯下躲雨，两只不安分的角常常戳到妈妈的肚皮。妈妈会弯下脖子，轻轻舔舐我额头。暖暖的舌头和冰凉的雨水，那种感觉我永远铭记在心。&lt;/p&gt;
+&lt;p&gt;此时此刻，妈妈也会感到身边少了谁的体温吗？我甩干湿透的毛发，根本无济于事。雨水源源不断打在脊背，像是要坚决浸入骨髓。现在我该怎么办？森林里还有危险的人类，他们会不会也悄无声息扑上来，这次却不再有人提醒我了。我望着急坠的雨滴，干涸大地像块海绵，雨水打在松软的土壤上，立刻就溶了进去，不留一丝痕迹。我也会这样消失吗？这样不声不响地消失吗？雨水从我的角淌进眼眶，转一圈再流向脸颊，脸上的雨水却是温热的。&lt;/p&gt;
+&lt;p&gt;“妈妈！妈妈！妈妈！”我绝望地高声呼喊。一声声愈发无力，我快要被这下着雨的地狱吞没。地下涌出的潮气凉嗖嗖的，我索性闭上眼，这是梦，我要醒来。&lt;/p&gt;
+&lt;p&gt;“米娅……”&lt;/p&gt;
+&lt;p&gt;微弱而熟悉的声音，忽远忽近。&lt;/p&gt;
+&lt;p&gt;妈妈，我会听话的，再也不会去有鳄鱼的河边。&lt;/p&gt;
+&lt;p&gt;妈妈，我会听话的，有一天我会听见草原之歌。&lt;/p&gt;
+&lt;p&gt;“米娅……”&lt;/p&gt;
+&lt;p&gt;不对，这不是梦，妈妈的呢喃就在我耳根！&lt;/p&gt;
+&lt;p&gt;我径直扑进妈妈怀里，她呼吸微弱，像野火烧过的枯草，轻轻触碰就会化为灰烬。我把脖子贴在妈妈肚皮上，冰凉彻骨。&lt;/p&gt;
+&lt;p&gt;我惊叫着跳开，妈妈失去平衡瘫在地上。整条后腿血如泉涌，利爪撕开的伤口狰狞可怖，妈妈竟然同猎豹搏斗过了。雨水落进伤口，却带出更多鲜血，血染的足迹在大雨中晕开。雨滴击落一片枯叶，贴在妈妈脸颊，我注意到妈妈另一只角也断了一截。&lt;/p&gt;
+&lt;p&gt;是啊，我早该想到的。&lt;/p&gt;
+&lt;p&gt;殷红足迹延伸的方向，一个迅疾的身影正高速接近。若是猎豹敢再追来，我决不离开半步。&lt;/p&gt;
+&lt;p&gt;影子靠近了，黑暗中看清楚他的轮廓，头上有两只角。&lt;/p&gt;
+&lt;p&gt;“来，我带你出去！”是赛托。&lt;/p&gt;
+&lt;p&gt;“妈妈，站起来呀。”一个响雷却盖过了我的声音。&lt;/p&gt;
+&lt;p&gt;面对卧地不起的妈妈，赛托摇摇头：“米娅，跟紧我，我知道怎么出去。”&lt;/p&gt;
+&lt;p&gt;“我不走。”我趴下依在妈妈身上，她已经完全晕过去了。&lt;/p&gt;
+&lt;p&gt;“知道你刚才的尖叫声多响吗？我看见有狼在靠近。”&lt;/p&gt;
+&lt;p&gt;“我不走！”&lt;/p&gt;
+&lt;p&gt;“狼群追不上我们的，不能等了！”赛托一溜烟消失了，我真不知道要不要感谢这个孬种。&lt;/p&gt;
+&lt;p&gt;狼群……真的会来吗？也许现在给我两个心脏都不够跳。茫然环顾四周，看不见狼的身影。遮天蔽日的乌云就像没有星星的夜空，有没有狼在周围，有什么区别？&lt;/p&gt;
+&lt;p&gt;不远处一声炸雷吸引了我的注意，但细听这并不像雷声。草原的雷声低沉雄厚，这声音听起来却是那么尖锐刺耳。随后出现的火光吓了我一跳，一团明亮的火焰，它在移动。&lt;/p&gt;
+&lt;p&gt;人类到底会有多可怕呢？还有狼群，我已经能闻到他们的腥臭。其实都没有差别，还有什么更可怕的，一起来吧。我就呆在这，哪儿也不去！&lt;/p&gt;
+&lt;p&gt;脑海中闪过那只残缺的角，不，现在是一对残缺的角。&lt;/p&gt;
+&lt;p&gt;他靠近了，人类是我见过最奇怪的动物。他们只有头上有毛发，全身裹着一层松松垮垮的皮肤，这些蜥蜴皮般的东西细看似乎不属于身体。人类可以像土拨鼠一样后肢站立，甚至能这样行走。而他握着的东西更加恐怖，那是一根木棒，顶端跳动着火焰。火焰疯狂舞动，像决斗的河马。而这个人类肩上，还扛着一条死去的狼。狼的瞳孔反射火苗，狰狞的利齿对着我滴血。&lt;/p&gt;
+&lt;p&gt;现在，这个可怕的生物正在走向我们。&lt;/p&gt;
+&lt;p&gt;他舞动火棍向我挥来。我尖叫着躲回树后，妈妈仍昏迷不醒。人类真的能操纵火焰的力量！&lt;/p&gt;
+&lt;p&gt;妈妈已经在他脚边了，我几次想绕到他背后，都被那团火逼退回来。他俯下身，前肢伸进皮囊中找寻什么。我一蹬腿，鼓起勇气扑了上去，他身上另一支木棒却发出震天的巨响，就是那种尖锐刺耳的响雷，我慌忙退下。天哪，这到底是什么。&lt;/p&gt;
+&lt;p&gt;他掏出一件木器，从里头倒出些混浊的液体洒在妈妈的伤腿上。那种液体有股果子熟透的香气，他把火把伸向妈妈，忽然妈妈的后腿着起火来。&lt;/p&gt;
+&lt;p&gt;我顾不上火焰与响雷冲过去，妈妈的身体在痛苦抽搐，吃力地睁开了眼睛。这次人类却没有阻拦我，现在这都不重要了，我要拿这团火怎么办？我用角去拨它，热浪灼得我双眼刺痛，火焰却忽然减弱，最终熄灭了。&lt;/p&gt;
+&lt;p&gt;我救了妈妈，我成功了！抬头一看，人类已带着火光已经渐行渐远。&lt;/p&gt;
+&lt;p&gt;雨势越来越猖狂，我已经无法看清十棵树以外的东西了。但我能清楚听见，狼群的呼应就在我们四面八方回荡，好像地狱传来的绝望哀鸣。我跪下舔了舔妈妈的耳朵，妈妈认真听了一会儿，努力昂起脖子，声音还仍然细若游丝：“米娅！快跑，回草原去。”&lt;/p&gt;
+&lt;p&gt;“妈妈！”我撕破嗓子喊了一声，狼早已循着血腥气包围了我们，根本不用压低声音了。&lt;/p&gt;
+&lt;p&gt;大雨中有种声音可以清晰辨认，那是我们瞪羚蹄子撞击地面的声音。这个声音正逐渐贴近我们，我甩去浑身的雨水泥水和血水，左顾右盼。是赛托，他怎么还能冲进来？&lt;/p&gt;
+&lt;p&gt;“还不能走？”赛托机警地盯着四周。&lt;/p&gt;
+&lt;p&gt;忽然，他跳了起来，跨过妈妈倒在地上的身体，森林深处奔去。&lt;/p&gt;
+&lt;p&gt;“你干什么！”&lt;/p&gt;
+&lt;p&gt;赛托没入无尽的黑暗中，没有回音，狼群的声音却在远去，其中夹杂着一串节奏轻盈的小碎步。&lt;/p&gt;
+&lt;p&gt;“妈妈，站起来，我们出去！”我要钻到妈妈肚皮下把她托起来，即便徒劳也必须一试。&lt;/p&gt;
+&lt;p&gt;幽鸣再次响起，狼是聪明的生物。攻势开始了，我听见数不清的沙沙声，狼群与灌木摩擦出死亡的交响。想象着那些狰狞的面孔和尖牙利齿，让我不寒而栗。妈妈仍然瘫卧着，刚才腿上的那把火令她痛苦不堪。我眼睛异常干涩，最危急的时刻，反而流不出泪了，只能眼睁睁看着自己被撕成碎片。&lt;/p&gt;
+&lt;p&gt;又是一声炸雷！刺耳的那种。一只狼嚎叫起来，这应该是捕猎的号令吧？我绝望中只顾着尖叫，那凄惨的嘶鸣，我自己听了都觉得心酸。而妈妈的身体剧烈颤抖，我努力用脖子推她，妈妈别担心，我要把你推出森林。&lt;/p&gt;
+&lt;p&gt;等待多时却不见狼群出现，接二连三几声响雷后，狼的嚎叫反倒越来越远了。我战战兢兢地回过头看，一只狼张着嘴倒在血泊中，眼睛还未闭上，恶狠狠盯着这边。&lt;/p&gt;
+&lt;p&gt;而不远处，闪动的火光时隐时现。&lt;/p&gt;
+&lt;p&gt;大雨把狼血冲到了我们跟前，肉食动物的血带有浓烈的腥味。他的同伴不见踪影，人类难道在帮助我们？&lt;/p&gt;
+&lt;p&gt;片刻的安宁。&lt;/p&gt;
+&lt;p&gt;狼群坚韧顽强，他们很快就又再次聚集过来，那些喉咙中发出的声音令人毛骨悚然。虚脱的妈妈却始终未能站起来，浓云仿佛直接压在了我的脖颈，我快喘不过气。妈妈带血的足迹已经被雨水冲掉了。没有太阳，没有方向，我们无处可逃。&lt;/p&gt;
+&lt;p&gt;“妈妈……”&lt;/p&gt;
+&lt;p&gt;接下来该说什么呢？妈妈动弹不得，你说过尊重太阳会得到回报，现在太阳在哪？&lt;/p&gt;
+&lt;p&gt;忽然眼前一阵眩晕，森林中一切都有了颜色。我甩甩头，望向草原的方向——太阳，是太阳！真耀眼呢！乌云在天边裂开一条缝，缝隙中，万丈光芒汹涌澎湃。身上渐渐暖和起来，暴雨戛然而止，整个森林晶莹璀璨，那是挂在树叶上的水珠。&lt;/p&gt;
+&lt;p&gt;妈妈挣扎着爬起来，却没站稳。我看见妈妈滑倒的那一刻，伤腿颤抖得厉害，我咬下一片树叶开始擦拭伤口。树叶吸饱血液很快就蔫了，缩成一团暗红的球。伤口却已经不再流血，烧伤封住了破损的表皮。我吐掉树叶，伸出舌头小心翼翼舔舐。妈妈蹬了蹬这条伤腿，缓缓站立起来。很稳，像这森林里的参天巨木。&lt;/p&gt;
+&lt;p&gt;妈妈站起来了。&lt;/p&gt;
+&lt;p&gt;浓黑的云仿佛被阳光吹散，在天边缩成一个点，最后消失。夕阳光辉穿梭林间，投下无数透明光束，久久不散的水雾在光束中游离。古木映上橙红色的光芒，让我想起秋日水中倒影，温暖而宁静。鸟类振翅声此起彼伏，羽毛甩落水滴轻敲灌木丛，叮咚悦耳。阳光普照中，叶子鲜嫩通透，琳琅满目都是这盈润的亮片。枝干咯吱作响，整个森林正在苏醒，这是它伸懒腰的声音。&lt;/p&gt;
+&lt;p&gt;妈妈脸色仍然惨白，不过已经活动自如了。&lt;/p&gt;
+&lt;p&gt;“米娅，我们回家。”她的声音淡淡的，却像蕴藏着无穷的力量。&lt;/p&gt;
+&lt;p&gt;狼群在向森林边缘移动，眼看猎物不再坐以待毙，便要截断我们的去路。我仍然心中忐忑，妈妈却分明没把狼群当回事，领着我向草原奔去。越靠近草原，光线就越明亮，视野中晃动着都是金色的光芒。那些狰狞的面孔也多了起来，我们撞进了狼群的口袋。&lt;/p&gt;
+&lt;p&gt;“从现在起，千万要跟紧我！”&lt;/p&gt;
+&lt;p&gt;妈妈丝毫不乱，一个箭步迎着狼群狂奔而去。黑暗中跃出一只灰斑的头狼，拦住去路。它仰天长啸，伺机而动的狼群顷刻扑了上来。它自己也纵身一跃，直取妈妈的脖子！我听见妈妈轻哼一声高高跃起，前脚凌空砸在头狼的脑袋上，头骨碎裂的声音让我浑身发麻。妈妈踩着头狼仍在抽搐的尸体绝尘而去，我紧随其后。转眼间我们便轻松突围，那些矮小肮脏的身影都被甩在身后。前方不远就是森林边界，论速度，狼根本就不是我们的对手，更别说离开了他们的地盘。&lt;/p&gt;
+&lt;p&gt;粗重的喉音仍在背后穷追不舍，我们奔跑跳跃，在树缝间闪烁。高高跃出边界线的那一刻，阳光似乎将我轻轻托起，我从未发觉自己能如此轻盈，充满了生命的力量。这次，我真的听见了草原之歌，那歌声只有两句，悠远低沉，却是极其温柔的声音：&lt;/p&gt;
+&lt;p&gt;“米娅，我们回家。”&lt;/p&gt;
+&lt;p&gt;另一句却不曾听过。&lt;/p&gt;
+&lt;p&gt;“妈妈，我们回家。”&lt;/p&gt;
+&lt;p&gt;雨后夜空群星璀璨，赛托独自趴在一块空地休息。他小腿上有一道不起眼的齿痕，我忽然觉得自己从来没有真正认识过他。&lt;/p&gt;
+&lt;p&gt;妈妈睡得很香，背脊有规律地起伏着。&lt;/p&gt;
+&lt;p&gt;赛托的妈妈醒着，饶有兴致陪我观察着星空。&lt;/p&gt;
+&lt;p&gt;“小米娅在看什么呢？”&lt;/p&gt;
+&lt;p&gt;“我在想天上那么多星星，会比地上的羚羊还多吗？”&lt;/p&gt;
+&lt;p&gt;“这可是有学问的，其实天上的每颗星星，都是一只羚羊的灵魂。”&lt;/p&gt;
+&lt;p&gt;“那您的星星是哪一颗？”&lt;/p&gt;
+&lt;p&gt;“喏，看见那边有一片空旷的区域吗？里面第二亮的就是我。”&lt;/p&gt;
+&lt;p&gt;“咦？那第一的呢？”&lt;/p&gt;
+&lt;p&gt;“那是赛托，”她激动起来，“他的星星这几天特别耀眼。”&lt;/p&gt;
+&lt;p&gt;“我妈妈的星星是哪颗呢？”&lt;/p&gt;
+&lt;p&gt;“这个小米娅要自己找，我只能提示。”&lt;/p&gt;
+&lt;p&gt;这满天的小精灵都在眨眼睛，我怎么能找到那一颗啊？我胡乱将天空的星星连着线，构成的图案都奇形怪状。忽然我发现，有几颗明亮的星连起来能构成一只羚羊脑袋，还顶着两只细细的角。妈妈的星星一定在其中。&lt;/p&gt;
+&lt;p&gt;“那边那颗，带点蓝色的？”我选了羚羊的左眼，那是羚羊星座中最亮的一颗。&lt;/p&gt;
+&lt;p&gt;“不不不，比这还要亮呢。”&lt;/p&gt;
+&lt;p&gt;“那颗！”我指向整个天空最亮的。&lt;/p&gt;
+&lt;p&gt;“还要更亮喔，不过现在那颗星小米娅还看不到。”&lt;/p&gt;
+&lt;p&gt;比那颗还要亮……现在还看不到……我知道了，妈妈的星，是太阳！&lt;/p&gt;
+&lt;p&gt;一定是太阳。&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on Victor42</title><link>https://victor42.eth.limo/tags/android/</link><description>Recent content in Android on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 25 Sep 2016 00:00:08 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Android电视应用：Amazon Fire TV版TVPlayer设计</title><link>https://victor42.eth.limo/post/3523/</link><pubDate>Sun, 25 Sep 2016 00:00:08 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3523/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第148期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0-F1yr5kRsBHZ2vNWK.jpg"
+loading="lazy"
+alt="TVPlayer品牌Logo，紫色到蓝色渐变圆环内嵌紫蓝双色V形箭头，下方黑色TVPlayer文字"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设计&lt;/strong&gt;和研发、推广一道，是移动应用的成功要诀之一。定义用户操作应用的方式，与应用的功能和高效的盈利模式同等重要。而且，当涉及到&lt;strong&gt;为电视这样的新交互模式设计界面&lt;/strong&gt;，许多在智能手机和平板上有效的模式，都需要重新思考，如何利用大屏幕和遥控带来的输入模式。&lt;/p&gt;
+&lt;h2 id="fire-tv上的tvplayer"&gt;Fire TV上的TVPlayer
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0-C6I2Hu2HtWFTIPO7.png"
+loading="lazy"
+alt="TVPlayer手机版界面，顶部Home和Channels蓝色标签栏，主图展示戴墨镜女性配Music标签，底部BBC ONE到5频道图标"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个任务并没有吓到&lt;strong&gt;TVPlayer&lt;/strong&gt;的开发者们，这是全英国在Fire TV和Fire TV Stick上最成功的电视应用之一。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TVPlayer是一款Android原生流媒体应用，可以让你在Amazon和Android设备上免费观看电视直播&lt;/strong&gt;，它掌握了英国许多收视率最高的频道。TVPlayer在2014年作为Fire TV的一部分同时发布，它的成功一直延续至2015年、2016年。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simplestream&lt;/strong&gt;，TVPlayer背后的研发与设计团队，接受了打造电视优先体验的艰巨任务。&lt;/p&gt;
+&lt;p&gt;我们采访了运营总监&lt;strong&gt;Lewis Arthur&lt;/strong&gt;和Simplestream的Android开发&lt;strong&gt;Michael Jordan&lt;/strong&gt;，请他们分享Fire TV应用设计过程中的真知灼见，下面是他们的分享。&lt;/p&gt;
+&lt;h2 id="设计过程从手机到电视"&gt;设计过程：从手机到电视
+&lt;/h2&gt;&lt;p&gt;在登陆Fire TV前，TVPlayer已经可以在Fire Tablets和Android设备的Amazon Appstore中下载。移动端版本的设计师，将关注点聚焦于&lt;strong&gt;可用性与内容的易达性&lt;/strong&gt;。他们在欢迎界面采用了&lt;strong&gt;大胆醒目的图片&lt;/strong&gt;布局，主标签内有可滚动的直播电视频道列表。设计师决定坚持“浅色”主题，为了使内容突出，也保持各平台的主题一致。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0-AncB4Dlaqvw7nWvV.png"
+loading="lazy"
+alt="TVPlayer手机版与平板版界面对比，左侧手机竖屏显示频道列表，右侧平板横屏展示更大图片卡片布局"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0-WBoJB2UYacca0TzG.png"
+loading="lazy"
+alt="TVPlayer平板版Channels界面，列表展示BBC ONE到Dave各频道当前节目名称和时间段"
+&gt;&lt;/p&gt;
+&lt;p&gt;当进行&lt;strong&gt;平板端的支持&lt;/strong&gt;时，设计师需要重新思考，更好地利用大屏幕。&lt;strong&gt;主体布局&lt;/strong&gt;有所改动，在主界面上直接为用户&lt;strong&gt;呈现更多内容&lt;/strong&gt;。这是个很好的策略，既能吸引用户注意，并且为多种相关内容提供快捷入口。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0-s8YaswLN8cFMLkEi.png"
+loading="lazy"
+alt="TVPlayer平板版主界面，Music、FashionTV、TruTV、Community、Kids等频道大图卡片栅格排列，底部频道图标栏"
+&gt;&lt;/p&gt;
+&lt;p&gt;至于&lt;strong&gt;第一版Fire TV应用&lt;/strong&gt;，主界面需要呈现新的面貌。电视的设计，与手机平板的界面和用户体验设计有两大不同，这都来源于TV自身的天性：它有&lt;strong&gt;巨大的显示器&lt;/strong&gt;，也不提供&lt;strong&gt;触摸式界面&lt;/strong&gt;，因为所有的操作都发生在遥控器上。&lt;/p&gt;
+&lt;p&gt;Simplestream在第一版Fire TV应用的主界面上，&lt;strong&gt;尽数使用了大胆醒目的图片&lt;/strong&gt;。“主页”、“正在直播”和“频道”标签&lt;strong&gt;都移到左边&lt;/strong&gt;，&lt;strong&gt;字号成倍放大&lt;/strong&gt;，使得从远处看也清晰可辨。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0-uER5i3hZGQnhcnw4.png"
+loading="lazy"
+alt="TVPlayer第一版Fire TV界面，左侧Home、Channels、On Now蓝色导航栏，右侧Entertainment、News、Kids等频道大图"
+&gt;&lt;/p&gt;
+&lt;p&gt;第一版Fire TV应用主界面，感觉像平板端那样清爽，栅格布局中承载各类主要频道。&lt;/p&gt;
+&lt;h2 id="为fire-tv开发简单而迅速4周就从移动端迁移到电视"&gt;为Fire TV开发简单而迅速：4周就从移动端迁移到电视
+&lt;/h2&gt;&lt;p&gt;当我们询问Simplestream团队，从移动版到第一版Fire TV应用&lt;strong&gt;花了多长时间&lt;/strong&gt;，他们告诉我们&lt;strong&gt;大约4周&lt;/strong&gt;。由于Fire TV是一款完全成熟的Android设备，搭载了基于Android Lollipop的&lt;a class="link" href="https://developer.amazon.com/public/solutions/devices/fire-tv/overview/developing-apps-and-games-for-amazon-fire-tv" target="_blank" rel="noopener"
+&gt;Fire OS 5&lt;/a&gt;，改版迅速而流畅：&lt;strong&gt;移动端和电视版的核心组件相同&lt;/strong&gt;，保持界面与应用底层结构分离，能让开发者&lt;strong&gt;拥有足够的灵活性快速迭代&lt;/strong&gt;，在几周内成就完整的电视应用。&lt;/p&gt;
+&lt;h2 id="fire-tv的界面革新"&gt;Fire TV的界面革新
+&lt;/h2&gt;&lt;p&gt;这款Fire TV应用发布一年多以后，从应用数据中收集了足够的用户操作反馈，TVPlayer开发者与设计师们决定，是时候为Fire TV应用创造一套&lt;strong&gt;新界面&lt;/strong&gt;了。目的在于使应用更加高效，为电视用户提供最佳的内容呈现形式，同时在应用中加入新功能。&lt;/p&gt;
+&lt;p&gt;新的一版加入了按月订阅的应用内购——包含免费与付费内容，使应用更多样化。Simplestream的设计师进行了&lt;strong&gt;深入的竞品分析，理解流媒体应用设计当前的趋势&lt;/strong&gt;，掌握了如何设计统一一致的界面，甚至是&lt;strong&gt;跨越多平台与设备&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0--AkSc_NnXYNLbKrf.jpg"
+loading="lazy"
+alt="TVPlayer新版Fire TV深色主题界面，Live TV标签下展示BBC News、BBC Two、ITV等频道节目缩略图和时间信息"
+&gt;&lt;/p&gt;
+&lt;h2 id="选用合适的配色方案确保应用对眼睛友好"&gt;选用合适的配色方案，确保应用对眼睛友好
+&lt;/h2&gt;&lt;p&gt;首先，设计师决定探索Fire TV的&lt;strong&gt;深色配色方案&lt;/strong&gt;。在设计上一版Fire TV应用时就做出了个决策，不过在这版界面更新中更进一步，把多数UI组件都加深了。&lt;strong&gt;深色主题主要是为了防止浏览内容时眼睛疲劳&lt;/strong&gt;，因此能创造更轻松的用户体验。这对于应用的启动界面尤其重要，把它改成黑色，避免“亮瞎眼”。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;让用户的眼睛免于疲劳。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;设计电视应用时，&lt;strong&gt;浅色与亮色的主题需要慎重考虑&lt;/strong&gt;，因为多数可能的使用场景都发生在夜晚，没有自然光，因此&lt;strong&gt;明亮的界面会损害用户体验&lt;/strong&gt;，久而久之导致应用被抛弃。通过色彩来&lt;strong&gt;展现品牌&lt;/strong&gt;也非常重要。对于TVPlayer，&lt;strong&gt;蓝色作为高亮色彩&lt;/strong&gt;，相比前一版，更有助于保持多平台的&lt;strong&gt;品牌一致性&lt;/strong&gt;。蓝色表示免费内容，而粉色表示付费内容。&lt;/p&gt;
+&lt;h2 id="通过viewpager进行内容翻页"&gt;通过ViewPager进行内容翻页
+&lt;/h2&gt;&lt;p&gt;TVPlayer的开发者们想要一套&lt;strong&gt;极具表现力&lt;/strong&gt;的界面，但也希望保持&lt;strong&gt;品牌辨识度&lt;/strong&gt;，并提供独一无二的用户体验。因此他们决定不遵循标准的&lt;a class="link" href="http://developer.android.com/tools/support-library/features.html#v17-leanback" target="_blank" rel="noopener"
+&gt;Android Leanback界面&lt;/a&gt;，他们建立了自己的&lt;strong&gt;布局与导航系统&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;TVPlayer的&lt;strong&gt;主体布局&lt;/strong&gt;对&lt;a class="link" href="http://developer.android.com/training/animation/screen-slide.html" target="_blank" rel="noopener"
+&gt;ViewPager&lt;/a&gt;组件进行了自定义。ViewPager是一种布局管理组件，可以在多页内容中轻松左右翻页。在TVPlayer中，通过&lt;strong&gt;ViewPager的自定义运用&lt;/strong&gt;，实现了水平滚动翻页切换节目与频道，每一页都包含一系列自定义视图。&lt;/p&gt;
+&lt;h2 id="内容的快速入口增强粘性"&gt;内容的快速入口增强粘性
+&lt;/h2&gt;&lt;p&gt;上一版中创建的网格视图得到了改进，&lt;strong&gt;每项有更大的间距&lt;/strong&gt;，并且&lt;strong&gt;用水平滚动替代了垂直滚动&lt;/strong&gt;。同时也引入了快速内容导航：用户可以选中&lt;strong&gt;翻页导航指示器&lt;/strong&gt;，在页面间快速滚动。翻页导航指示器与ViewPager相关联，决定了当前展现什么页面，下一页是什么。快速滚动意味着用户能更快触达更多内容，因此有助于增强用户粘性、加强记忆。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0-yEy2wOan57S_ShDy.PNG"
+loading="lazy"
+alt="TVPlayer翻页导航指示器特写，Live TV和Channels标签下方蓝色高亮方块与灰色方块组成的页面切换指示条"
+&gt;&lt;/p&gt;
+&lt;h2 id="马赛克式界面内容的快速入口更加商业化"&gt;马赛克式界面：内容的快速入口，更加商业化
+&lt;/h2&gt;&lt;p&gt;最终的结果是&lt;strong&gt;马赛克式界面&lt;/strong&gt;，能快速到达各个频道。自定义Android视图和Adapter的使用，让开发者&lt;strong&gt;能在一个界面中完全掌控和融合免费与付费内容&lt;/strong&gt;，改善了通向&lt;strong&gt;应用内购&lt;/strong&gt;的高级内容入口，因此也创造了更多收入。TVPlayer从第一版完全免费的形式，变为&lt;strong&gt;包含付费内容的新版本&lt;/strong&gt;。保持了干净的用户界面，将界面背后的逻辑与核心应用组件分离开，使得这次改版轻松而迅速，也保证了快速迭代来创造&lt;strong&gt;优秀的用户体验&lt;/strong&gt;和&lt;strong&gt;加强商业化&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-09/09-21/0-iHns9GwlNwn2BGyU.jpg"
+loading="lazy"
+alt="TVPlayer马赛克式频道界面，深色背景上BBC ONE到TLC等十五个频道彩色Logo卡片栅格排列，FREE和PLUS标签区分免费与付费"
+&gt;&lt;/p&gt;
+&lt;h2 id="马上开始创造amazon-fire-tv应用吧"&gt;马上开始创造Amazon Fire TV应用吧！
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Amazon Fire TV&lt;/strong&gt;和&lt;strong&gt;Fire TV Stick&lt;/strong&gt;给你提供了绝佳的机会，让你的Android或HTML5应用能触达更多用户。只要遵循Amazon Appstore的开发者文档，把Android移动应用迁移到Fire TV上非常简单！这些链接会非常有用：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://developer.amazon.com/public/solutions/devices/fire-tv/overview/developing-apps-and-games-for-amazon-fire-tv" target="_blank" rel="noopener"
+&gt;Amazon Fire TV：把应用和游戏带到客厅，触达更多用户&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://developer.amazon.com/public/solutions/devices/fire-tv/overview/getting-started-developing-apps-and-games-for-amazon-fire-tv" target="_blank" rel="noopener"
+&gt;Amazon Fire TV应用与游戏开发入门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://developer.amazon.com/public/solutions/devices/fire-tv/overview/developing-apps-and-games-for-amazon-fire-tv" target="_blank" rel="noopener"
+&gt;为Amazon Fire TV开发应用与游戏&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/amazon-appstore/designing-native-android-apps-for-tv-how-tvplayer-designed-for-amazon-fire-tv-79c3801b60e7#.sinhtvmbx" target="_blank" rel="noopener"
+&gt;https://medium.com/amazon-appstore/designing-native-android-apps-for-tv-how-tvplayer-designed-for-amazon-fire-tv-79c3801b60e7#.sinhtvmbx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://medium.com/@Mariuxtheone" target="_blank" rel="noopener"
+&gt;Mario Viviani&lt;/a&gt;
+Technology Evangelist, Amazon Appstore&lt;/p&gt;</description></item><item><title>主流Android分辨率简报</title><link>https://victor42.eth.limo/post/3208/</link><pubDate>Sat, 29 Mar 2014 23:23:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3208/</guid><description>&lt;p&gt;Android设备的碎片化众所周知，分辨率、长宽比千变万化，让设计师与开发者头疼不已。由于工作需要，我对其简略分析了一下，希望对自己与广大设计师和开发者们的工作有帮助。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-03/03-29/1.jpg"
+loading="lazy"
+alt="主流 Android 设备屏幕分辨率与长宽比分析信息图，展示市场占有率对比数据"
+&gt;&lt;/p&gt;</description></item><item><title>三款Android手机地图界面对比</title><link>https://victor42.eth.limo/post/2610/</link><pubDate>Tue, 09 Jul 2013 18:46:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2610/</guid><description>&lt;p&gt;由于工作需要，涉及到手机地图类的产品UI设计。凭经验设计的同时，也需要学习现有成熟产品，并进行研究对比。今天就把Android平台上的三款较主流的地图软件拿来对比，主要为研究它们界面优劣。三款地图产品分别为：高德地图 v5.1.2 、百度地图 v5.1.0 、 谷歌地图 v6.14.4 ，图片默认按照高德-百度-谷歌的顺序排列&lt;/p&gt;
+&lt;h3 id="1-启动界面"&gt;1. 启动界面
+&lt;/h3&gt;&lt;p&gt;这里的启动界面不是使用提示，而是每次打开的欢迎页&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/1.jpg"
+loading="lazy"
+alt="高德地图启动欢迎页，蓝色天空背景中展示品牌标识和slogan"
+&gt;&lt;/p&gt;
+&lt;p&gt;只有高德地图有欢迎页，百度和谷歌打开直接进入地图界面。欢迎页能够强调品牌，并且能概括产品设计语言。在这个作用上，高德的欢迎图片还是有效的，能够概括高德地图界面清新明亮的设计风格。但是每次打开地图的这个等待过程，也在考验用户耐心，有利有弊&lt;/p&gt;
+&lt;h3 id="2-地图界面"&gt;2. 地图界面
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/2.jpg"
+loading="lazy"
+alt="百度地图首页显示杭州市区道路网和当前位置标记"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/3.jpg"
+loading="lazy"
+alt="Google Maps首页显示杭州城区街道、河流与当前位置标记"
+&gt;&lt;/p&gt;
+&lt;p&gt;可以看到高德与百度的界面布局比较类似，高德更加轻便，用色也基于白色，框体与按钮都更大，显得更加清新。百度的地图底部多了一条功能栏，后面我们会发现，这条功能栏确实能够体现百度地图的色彩语言，浅灰色、微妙的渐变，使得百度的界面风格比高德偏重一些&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/4.jpg"
+loading="lazy"
+alt="高德地图搜索页面，白色卡片上显示历史记录和周边分类"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的风格就大相径庭，半透明元素，大量使用深黑色背景。相比之下，谷歌的渐变与阴影效果使用最少，界面最为扁平&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/5.jpg"
+loading="lazy"
+alt="百度地图搜索页面，顶部搜索框下方展示多个周边分类图标"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/6.jpg"
+loading="lazy"
+alt="Google Maps搜索页面显示搜索历史列表和推荐地点项"
+&gt;&lt;/p&gt;
+&lt;p&gt;打开图层界面时，高德会有个黑色蒙层，这是我个人比较倾向的做法，可以把用户注意力集中在他操作的区域。百度的这几个选项，布局上应该有更合理的方式。这5个项虽然三个是单选项，两个是勾选框，逻辑不同，展现形式未尝不可统一&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/7.jpg"
+loading="lazy"
+alt="高德地图导航模式界面，底部显示路线信息和操作按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌把图层功能列入底部菜单中了，打开是个挺干净的列表，图标表义也比较准确&lt;/p&gt;
+&lt;h3 id="3-更多菜单"&gt;3. 更多菜单
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/8.jpg"
+loading="lazy"
+alt="高德地图Android客户端侧边栏功能菜单截图，包含周边、导航、离线地图及工具箱选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的菜单从右侧滑出，这部分的设计和整体风格相去甚远，却也很有效地将它独立出来&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/9.jpg"
+loading="lazy"
+alt="百度地图导航模式界面，底部有功能栏和地图操作按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个界面中，百度底部菜单的渐变就显得很碍事了，菜单部分出现好几种深浅不一的灰色，有明显的杂乱感&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/10.jpg"
+loading="lazy"
+alt="Google Maps导航模式界面，点击底部菜单按钮展开功能列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的更多菜单只能通过手机的硬件menu键调出，功能较少，使用频率又低，文字列表足矣&lt;/p&gt;
+&lt;h3 id="4-搜索页"&gt;4. 搜索页
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/11.jpg"
+loading="lazy"
+alt="高德地图路线规划页面，显示起点终点输入框和历史记录"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/12.jpg"
+loading="lazy"
+alt="百度地图路线规划页面，顶部有起点终点输入框和搜索按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的搜索页，把周边信息与历史记录一起列出来，采用白色背景的卡片式设计。这种灰色背景加白色卡片的设计，是高德重要的视觉语言&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/13.jpg"
+loading="lazy"
+alt="Google Maps路线规划页面，显示起点终点输入和历史记录列表"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/14.jpg"
+loading="lazy"
+alt="高德地图公交查询结果页面，列表显示多条公交线路方案"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度搜索界面相比就沉重一些，大片的灰色。为了给输入法腾出半个屏幕，百度把周边信息与历史记录分开成了3个tab页，左右滑动切换。值得称赞的是周边信息的图标，简单却非常具象，事物的关键特点抓得很准&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/15.jpg"
+loading="lazy"
+alt="百度地图公交查询页面，显示路线方案列表和筛选标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的做法则完全不同，没有新开一个页面，而是直接显示了搜索历史列表，周边信息这里没有显示。这点很符合谷歌产品一贯的设计理念，较少的界面层级，减少分散注意力的内容&lt;/p&gt;
+&lt;p&gt;接下来我们在搜索框里输入点什么&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/16.jpg"
+loading="lazy"
+alt="Google Maps公交查询页面，显示驾车、公交和步行选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/17.jpg"
+loading="lazy"
+alt="高德地图实时路况页面，显示杭州市区道路的拥堵情况"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德和百度相同，会在新页面显示推荐的搜索结果，高德只显示标题，百度还多显示一行地址。界面设计方面，高德用色明亮，内容少，显得更加大方。百度边框和线条使用更多，有点拥挤，重复出现的关键词都淡化了，这点值得学习&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/18.jpg"
+loading="lazy"
+alt="百度地图实时路况页面，显示杭州城区道路的拥堵状况"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌还是保持了界面的一致性，和刚才的界面几乎一样，没有时钟标记的项目是推荐结果，与搜索历史区分开了&lt;/p&gt;
+&lt;h3 id="5-搜索结果"&gt;5. 搜索结果
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/19.jpg"
+loading="lazy"
+alt="Google Maps实时路况页面，显示城市道路和交通信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/20.jpg"
+loading="lazy"
+alt="高德地图卫星图层显示杭州城区的建筑物和道路布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的地点信息采用底部信息栏的方式展现，并且切换地点时，信息栏内容会有个左右滑动的效果，体验不错。地点的标记有轻微的立体感，比较Q。列表界面再次体现了卡片式设计的优势，视觉上有宽敞的感觉。按钮样式全都纯白背景，仅靠一条浅灰色边框与背景区分，识别度相应降低了，但也更加耐看，尤其在列表界面中，不会夺去文字标题的视觉焦点&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/21.jpg"
+loading="lazy"
+alt="百度地图卫星图层展示杭州城区的建筑物和道路网络"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/22.jpg"
+loading="lazy"
+alt="高德地图3D建筑视图，展示杭州城区的立体建筑效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度由于底部有菜单栏，地点信息只能悬浮在地点上方，无论从视线移动或是点击操作上，都更加便捷，当然，也牺牲了内容的扩展性。地点标记是扁平样式，可以看到几个标叠在一起的时候，就看不出彼此界限了。界面整体颜色基调偏灰，百度在按钮的设计上，都一致采用了轻微的灰色渐变，按钮尺寸小。在列表页面中，地点图片与评分功能的加入，使得列表页的构图难度加大，通栏+分隔线的设计较为紧凑，美观度有所下降&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/23.jpg"
+loading="lazy"
+alt="百度地图3D建筑视图，展示杭州城区的立体建筑效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/24.jpg"
+loading="lazy"
+alt="Google Maps 3D建筑视图，展示城市建筑的立体效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的底部菜单内容是可变的，在初始界面点搜索，搜索便会从菜单上消失。在这个界面中，整个变成了列表按钮。这就是谷歌的逻辑，只给用户他们目前需要的东西，其他的都藏起来。谷歌的地点标记是我个人最喜欢的，比较修长，标记点挤在一起也清晰可辨。列表页中保留了搜索框，其实更多是充当了标题栏的作用，让用户知道搜的是什么。列表页也给每个地点配了图，只是由于天知地知的原因，清一色都是默认图片。其实谷歌的列表页布局和百度基本相同，但是背景色比较明亮，分隔线很淡，没有明显的按钮，都使得它阅读起来更轻松&lt;/p&gt;
+&lt;h3 id="6-地点详情"&gt;6. 地点详情
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/25.jpg"
+loading="lazy"
+alt="高德地图室内地图显示建筑物内部的楼层和商铺布局"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/26.jpg"
+loading="lazy"
+alt="百度地图室内地图展示建筑物内部楼层和商铺分布"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/27.jpg"
+loading="lazy"
+alt="Google Maps室内地图展示建筑物内部结构和商铺布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的地点详情页，内容很多，却清晰严谨。只是展现方式比较单一，给人感觉是个纯信息展示页面，缺少互动元素&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/28.jpg"
+loading="lazy"
+alt="高德地图POI详情页显示韩村银泰店的评分、地址和电话信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/29.jpg"
+loading="lazy"
+alt="百度地图POI详情页显示银泰百货武林店的评分和地址信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/30.jpg"
+loading="lazy"
+alt="Google Maps POI详情页显示地点信息、电话和官方网站链接"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度的详情页用了一张图片作为背景，也开放了上传图片的入口，内容丰富多了，展现形式也比较多样化。用户在这个页面不仅是个信息接收者，也可以制造大量信息：照片、点评、印象、分享，都表现出了百度地图占据互联网入口的雄心。“大家印象”一栏的设计也很合理，把内容语义直观地体现在了颜色上。在信息结构复杂、信息量大的地方，处理好信息的层级与主次是头等大事，再加入一些图形化表达，能够起到事半功倍的作用。不过百度的这个页面仍然略显沉重，在空间狭小的手机屏幕上，同时使用色块与线框，很容易造成繁复的效果&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/31.jpg"
+loading="lazy"
+alt="高德地图收藏夹页面显示已保存地点列表和详细信息"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的这个页面信息就很少了，还把照片单独放了一个tab页，内容处理起来可以更加灵活。单色的设计很巧妙，异于大家常用的1像素宽分隔线，这种厚重带颜色的分隔线很醒目，通过亮色与留白来划分内容区域，使得界面非常宽敞&lt;/p&gt;
+&lt;p&gt;上面这些是通过搜索得到的特殊地点，我们长按地图空白处，能够得到普通地点信息&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/32.jpg"
+loading="lazy"
+alt="百度地图收藏夹页面显示已收藏地点和地址信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/33.jpg"
+loading="lazy"
+alt="Google Maps收藏夹页面显示保存的地点和地址信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/34.jpg"
+loading="lazy"
+alt="高德地图历史记录页面显示最近的搜索地点和时间"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的优势在这里体现出来了，卡片式设计同时也体现了一种模块化的思维，在不同的界面中可以创造出统一的视觉效果。反观百度，任意产生的地点无法提供图片，而且风格与之前的完全不同，令人困惑。谷歌的也挺不错，去掉了图标与蓝色分隔线，却仍然保留了统一的风格，这其中功劳得益于谷歌界面对于留白的使用，使得留白也成为风格的一部分&lt;/p&gt;
+&lt;h3 id="7-交通路线"&gt;7. 交通路线
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/35.jpg"
+loading="lazy"
+alt="百度地图历史记录页面显示最近的搜索和查询记录"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/36.jpg"
+loading="lazy"
+alt="Google Maps历史记录页面显示最近的搜索地点和查询"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的这个界面设计得挺有实验精神，摆脱了传统输入框样式，红蓝两条细线用得很妙，非常抓眼球。输入框的尺寸也是最大的，通栏设计很宽敞。相比之下，百度的这个界面一眼望去，各种尺寸的按钮遍布输入框区域，线框一层包一层，臃肿不堪&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/37.jpg"
+loading="lazy"
+alt="高德地图驾车路线规划页面，显示路线偏好和方案列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌把交通工具选择放到下面来了，非常值得赞许，要知道4.3英寸的屏幕上，把手伸到屏幕顶端去点一个小小的按钮是多么痛苦。界面很简单，中规中矩&lt;/p&gt;
+&lt;p&gt;然后我们看看搜索的结果&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/38.jpg"
+loading="lazy"
+alt="百度地图路线规划页面，显示驾车路线偏好和选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/39.jpg"
+loading="lazy"
+alt="Google Maps路线规划页面，显示公共交通方案和时间"
+&gt;&lt;/p&gt;
+&lt;p&gt;关于出行偏好的设置，个人认为高德的做法比较合适。打开新页面，用户的注意力会回页面的上半部分，应该让用户先注意到偏好选项，而不是浏览完了列表才发现可以按偏好筛选。百度的起点终点在这里有些多此一举，我自己亲手选的地点，我还会不知道吗？而且用户也不会注意这个提示，他注意力都到列表上去了。视觉上仍然是卡片式与列表式的对比，高德的序号使用了倾斜的字体，有画龙点睛的效果，页面因此活络起来&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/40.jpg"
+loading="lazy"
+alt="高德地图公交路线详情页，显示换乘站点和时间轴"
+&gt;&lt;/p&gt;
+&lt;p&gt;这回谷歌的界面算是三个中最糟糕的。起点终点占了那么大一片区域，而这往往是用户直接忽略的信息。方案列表有点意思，把时间放这么大，车次却缩小放第二排。虽说用户关心的最本质是时间，最直接因素却是车次，这里替用户思考得有些过了。毕竟除时间外，公交车还有路况、舒适度等很多隐性因素，这些只有熟悉线路的用户才知道，却往往是比时间还重要的选择依据。不过整个换乘过程表达地很直观，步行、公交、地铁，一看图标便知&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/41.jpg"
+loading="lazy"
+alt="百度地图公交路线详情页，显示换乘信息和时间节点"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/42.jpg"
+loading="lazy"
+alt="Google Maps公交路线详情页，显示换乘站点和时间信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/43.jpg"
+loading="lazy"
+alt="高德地图驾车导航界面，显示路线、转向提示和路况"
+&gt;&lt;/p&gt;
+&lt;p&gt;方案的详情页，各家都严格保持着列表的风格，需要着重一提的是高德与谷歌的时间轴（我暂时这么称呼）。有先后顺序的列表内容，尽管也可以像百度这样来展示，如果用竖线“串”起来，就能更直观地表达出时间这一抽象概念。高德的做法是最常见的思路，时间轴上的点，同时也是很好的内容划分标记，每出现一个点，意味着开始一个新步骤。谷歌的这个设计则更胜一筹，让时间轴本身具有意义。用户在习惯了实线虚线、红色蓝色的意义之后，从形状、颜色中获知信息的时间明显短于图标&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/44.jpg"
+loading="lazy"
+alt="百度地图驾车导航界面，显示路线、转向提示和路况"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/45.jpg"
+loading="lazy"
+alt="Google Maps驾车导航界面，显示路线、转向提示和路况"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/46.jpg"
+loading="lazy"
+alt="高德地图周边搜索页面，显示分类图标和附近服务列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;路线图页面，都大同小异，更多是地图界面的比较。谷歌的时间轴中的色彩语言，可以在这里发挥余热，看颜色便知是什么交通工具，高德与百度只能把图标放置在各个节点上&lt;/p&gt;
+&lt;h3 id="8-周边信息"&gt;8. 周边信息
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/47.jpg"
+loading="lazy"
+alt="百度地图周边雷达页面，绿色雷达图显示附近服务分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德地图的周边功能入口较深，要从更多菜单中进入。不知道是否只有我这么感觉，左边的图标部分，很像缺少图片的默认头像&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/48.jpg"
+loading="lazy"
+alt="Google Maps周边搜索页面显示附近地点和分类选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/49.jpg"
+loading="lazy"
+alt="高德地图周边搜索页面，顶部显示分类和附近服务列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度对O2O入口的野心在这里就能看出来，周边信息的入口，竟然有3个。左图是菜单中的入口，布局与高德相同，不过与高德一比较，说实话阴沉死板不止一点点。右图是通过点击地图上当前所在地点进入，这个界面与百度整体风格差异很大，有点活动专题的感觉，吸引力强于纯粹的信息列表&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/50.jpg"
+loading="lazy"
+alt="百度地图周边雷达扫描界面，绿色雷达显示附近服务分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;这是百度周边雷达，一个APP级的功能，可以直接在桌面生成快捷方式，并且越过地图界面直接启动。界面简洁直观，不过数字偏小，绿色的背景光让图标与文字难以辨认&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/51.jpg"
+loading="lazy"
+alt="Google Maps周边搜索页面显示地点列表和分类选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌在周边信息上没有下多少功夫，应该说在功夫网内没下多少功夫。尽管信息少得可怜，这个页面在视觉上仍可圈可点。从之前一系列的界面可以看出，谷歌地图大量应用了半透明元素，顶部那一小块地图背景算是个投机取巧的例子。多试几次才发现，这其实只是张固定图片，却给用户产生一种地图就在背后的错觉，用户知道自己没有离开刚才的界面，对这个新开页面的敌意必然要降低不少&lt;/p&gt;
+&lt;h3 id="9-设置和关于"&gt;9. 设置和关于
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/52.jpg"
+loading="lazy"
+alt="高德地图分享位置页面，显示地点详情和分享选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/53.jpg"
+loading="lazy"
+alt="百度地图地点详情页显示位置信息和分享选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;文字列表类的界面其实没什么可说，不需要承担让产品形象出彩的任务，延续既有视觉风格就好&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/54.jpg"
+loading="lazy"
+alt="Google Maps地点详情页显示位置信息和分享功能"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/55.jpg"
+loading="lazy"
+alt="高德地图图层切换页面，显示地图类型和视图选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度特喜欢在大标题下面加小字，这种形式的目的不是为了美观，只是为了多展示信息。在这个界面，既然标题就能说清楚，相同的意思何必再重复写一行？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/56.jpg"
+loading="lazy"
+alt="百度地图图层切换页面，显示地图类型和视图选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/57.jpg"
+loading="lazy"
+alt="Google Maps图层切换页面显示地图类型和视图选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;至于谷歌，这个就是原生Android的holo风格啦&lt;/p&gt;
+&lt;h3 id="10-导航"&gt;10. 导航
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/58.jpg"
+loading="lazy"
+alt="高德地图交通方式选择页面，显示驾车、公交和步行选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/59.jpg"
+loading="lazy"
+alt="百度地图交通方式选择页面，显示驾车、公交和步行选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的导航在墙内似乎不可用，这里就不参与比较了。之前对比过公交路线的界面，这两个也差不多。高德可以直接在这里添加途经点，还能设置驾车偏好，百度只有导航开始才能设置&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/60.jpg"
+loading="lazy"
+alt="Google Maps交通方式选择页面显示驾车、公交和步行选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/61.jpg"
+loading="lazy"
+alt="高德地图步行导航界面，显示路线、转向提示和当前位置"
+&gt;&lt;/p&gt;
+&lt;p&gt;这两个界面也和公交的类似，两者也都在路线上标注了路况。这里顺带提一下高德这种底部信息栏的设计，扩展性很强，信息栏往上滑，又能开辟一块巨大的信息展示空间&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/62.jpg"
+loading="lazy"
+alt="百度地图步行导航界面，显示路线、转向提示和当前位置"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/63.jpg"
+loading="lazy"
+alt="Google Maps步行导航界面，显示路线、转向提示和当前位置"
+&gt;&lt;/p&gt;
+&lt;p&gt;进入导航之后，高德左侧的这个路况还是很实用的，只是我没明白灰色代表什么，没有数据？这里仍然要吐槽一下百度，同样是行程公里数与所需时间，像高德这样简单列出来不行么？字够大够清晰就好了。百度的字那么小，中文字还要特意再缩小，又放在那么狭窄的地方，旁边两个图标也并没有让它更好辨认，这不是故意找茬么？&lt;/p&gt;
+&lt;p&gt;地图APP属于随手打开完成任务即关闭的产品，讲究简单高效。如何在匆匆几眼与寥寥几次点击中胜过对手产品，自然是莫大的挑战。反复研究现有产品，总能为手头的工作找到灵感 →_→&lt;/p&gt;</description></item></channel></rss>

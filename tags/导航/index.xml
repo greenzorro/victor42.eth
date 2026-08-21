@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>导航 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%AF%BC%E8%88%AA/</link><description>Recent content in 导航 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 30 Oct 2016 16:12:56 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%AF%BC%E8%88%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>移动端用户体验：底部导航</title><link>https://victor42.eth.limo/post/3527/</link><pubDate>Sun, 30 Oct 2016 16:12:56 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3527/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第151期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-KZ7WJkL39AiWnM9Gk8cAlQ.jpeg"
+loading="lazy"
+alt="iPhone白色机身斜放展示财务管理应用界面，底部绿色导航栏含Revenue、Transactions、Overview、Settings四个图标标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://www.behance.net/gallery/Animated-sliding-tab-bar/7528101" target="_blank" rel="noopener"
+&gt;Behance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;设计师都知道，设计不只是为了好看。设计也决定用户如何&lt;em&gt;融入&lt;/em&gt;一个产品，无论是网站还是app。这是一种交谈。*导航就是一种交谈。*因为如果用户不明白使用方式，你的网站或app再漂亮都没用。&lt;/p&gt;
+&lt;h2 id="为什么底部导航如此重要"&gt;为什么底部导航如此重要？
+&lt;/h2&gt;&lt;p&gt;Steven Hoober在他的&lt;a class="link" href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank" rel="noopener"
+&gt;关于移动设备使用状况的研究&lt;/a&gt;中发现，49%的人依靠&lt;em&gt;一根手指&lt;/em&gt;完成手机上的操作。在下图中，手机屏幕上的画面表示大致的触摸范围，不同颜色表示用户能用拇指在屏幕上触及的区域。绿色表示轻易触及；黄色表示需要伸长手指；红色表示需要用户改变持握方式。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/0-LGs-zf1C4Ht4svsF.png"
+loading="lazy"
+alt="两只手分别以左右手持握智能手机的线稿插图，屏幕用绿色黄色红色标注拇指可触及的舒适区域范围"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片表示单手操作智能手机的舒适程度。图片来源：&lt;a class="link" href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank" rel="noopener"
+&gt;uxmatters&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;**把最重要最常用的操作放在屏幕底部非常重要，**因为它们能用一只手指轻松触及。&lt;/p&gt;
+&lt;h3 id="标签栏"&gt;标签栏
+&lt;/h3&gt;&lt;p&gt;许多应用遵循这一规律，将&lt;em&gt;底部导航&lt;/em&gt;（又称作标签栏）作为最重要的app功能。Facebook的核心功能一触即达，能够在不同功能中迅速切换。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-d55w8RiaAGkt2UvdpK5OvQ.png"
+loading="lazy"
+alt="Facebook iOS版底部标签栏特写，含News Feed蓝色选中状态及Requests、Messages、Notifications、More四个灰色图标"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Facebook的iOS底部标签栏。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="底部导航设计的3个关键"&gt;底部导航设计的3个关键
+&lt;/h2&gt;&lt;p&gt;导航通常是搭载用户的交通工具。底部导航应该承载重要性等同的&lt;em&gt;顶级目的地&lt;/em&gt;。这些目的地需要在app的任何地方留有直接的入口。&lt;/p&gt;
+&lt;p&gt;优秀的底部导航设计遵循以下3条定律：&lt;/p&gt;
+&lt;h2 id="1-只显示最重要的目的地"&gt;1. 只显示最重要的目的地
+&lt;/h2&gt;&lt;p&gt;在底部导航中使用&lt;em&gt;3到5&lt;/em&gt;个顶级目的地。如果少于3个，请考虑使用标签代替。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-B9m8qRpUEZYD4F_0SA6kLw.jpeg"
+loading="lazy"
+alt="Android底部导航栏对比图，左侧红框标注两个标签项Recents和Favorites，右侧绿框标注三个标签项含Nearby"
+&gt;&lt;/p&gt;
+&lt;p&gt;底部导航&lt;em&gt;避免使用5个以上&lt;/em&gt;，因为点击目标相互会过于接近。在标签栏放置过多的项目，让人们难以点中他们的目标。每多展示一个标签，app的复杂性就增加一分。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-6Is4BT1OKgWVRkrSdBQcTA.jpeg"
+loading="lazy"
+alt="Android底部导航栏含六个图标项，从左到右依次为视频、音乐、Books书本、日历、游戏手柄和公文包图标"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果顶级目的地确实有5个以上，不要用底部导航来承载这些入口，请考虑放在其他位置。&lt;/p&gt;
+&lt;h3 id="避免内容滚动"&gt;避免内容滚动
+&lt;/h3&gt;&lt;p&gt;小屏幕上显而易见的解决方式，就是部分隐藏式的导航——不必担心屏幕空间的局限，把标签项放入滚动的标签栏即可。但是滚动的内容&lt;em&gt;效率低下&lt;/em&gt;，因为你得滑动一下才能看到想要的选项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-bkHSqELDmKmeOLexUOOFVw.gif"
+loading="lazy"
+alt="Rookie Cam应用动态演示，底部工具栏图标横向滚动展示裁剪、旋转、亮度等编辑功能，部分图标被遮挡"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;iOS版&lt;a class="link" href="https://itunes.apple.com/app/rookie-photo-editor/id799406905" target="_blank" rel="noopener"
+&gt;Rookie Cam&lt;/a&gt; app中就存在“看不见就想不到”的问题。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="2-表达出当前位置"&gt;2. 表达出当前位置
+&lt;/h2&gt;&lt;p&gt;没有表达当前位置，可能是app菜单中最普遍的错误。“我在哪里？”是用户需要回答的基本问题之一，这是顺利操作的前提。&lt;/p&gt;
+&lt;p&gt;用户应该在没有任何外部引导的情况下，一眼就看出如何从A前往B。应该提供&lt;em&gt;适当的视觉线索&lt;/em&gt;（图标、标签和颜色），操作就不需要任何说明了。&lt;/p&gt;
+&lt;h3 id="图标"&gt;图标
+&lt;/h3&gt;&lt;p&gt;正因为底部导航操作以图标方式展现，它们所表达的内容应该要适合通过图标来表达。有些用户熟知的通用图标，通常这些都表示搜索、邮件、打印等功能。不幸的是，“通用”图标很少。app的设计师常常用图标来代表一些非常难以分辨的功能。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-AjlvWHiXjxwuHbdCSA_DVQ.png"
+loading="lazy"
+alt="黑色背景上四个白色线框图标，从左到右依次为圆形、六边形、放大镜和三点省略号，无文字标签难以辨识功能"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;老版本的Bloom.fm应用Android版。真是相当难理解用户当前所处位置。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;我在这篇文章&lt;a class="link" href="https://uxplanet.org/icons-as-part-of-an-awesome-user-experience-e468e16b206b#.nbjf2tz7o" target="_blank" rel="noopener"
+&gt;《图标是优秀用户体验的一部分》&lt;/a&gt;中强调了这个问题。&lt;/p&gt;
+&lt;h3 id="颜色"&gt;颜色
+&lt;/h3&gt;&lt;p&gt;避免在底部标签栏使用不同颜色的图标和文字标签。应当&lt;em&gt;使用app的主色&lt;/em&gt;来表示视觉焦点。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-Et8v3bA25LSsSc2l61OsvA.jpeg"
+loading="lazy"
+alt="Android底部导航栏颜色对比，左侧红框内图标和文字使用蓝绿红多种颜色，右侧绿框内统一使用深青色主色调"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;左图：不同颜色的图标让app看起来像是圣诞树。右图：应该只用主色。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;遵循一条简单的法则——用app的主色来提亮当前的底部导航项（包括图标和文字标签）。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-YT7qQhVp2JB9z0iGtd1B6g.png"
+loading="lazy"
+alt="Twitter iOS版底部导航栏，Timelines、Notifications为灰色，Messages为蓝色选中状态带信封图标，Me为人物剪影"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;iOS版Twitter的底部菜单栏。Messages是当前选中项。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果底部导航栏有背景色，就要用黑白的图标和文字标签。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-8eEkSGJLqQeoquAzNJ0kiQ.jpeg"
+loading="lazy"
+alt="Android深青色背景底部导航栏对比，左侧红框内图标使用青橙白多色，右侧绿框内统一使用白色单色图标和文字"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;左图：避免使用彩色图标和彩色背景的组合。右图：使用黑白图形。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="文字标签"&gt;文字标签
+&lt;/h3&gt;&lt;p&gt;文字标签要为导航图标提供&lt;em&gt;简短有意义的描述&lt;/em&gt;。不要用太长的标签，因为它们不能截断或换行。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-cEJqW6n9A7eWVf7HfyeZWw.jpeg"
+loading="lazy"
+alt="三组Android底部导航栏对比，分别展示Crowd Favorites文字换行、Crowd Favori截断省略和Crowd Favorites Meals字体缩小的问题"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;避免换行、截断和缩小文字标签。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;菜单元素要易于浏览。用户要能理解他点击某个元素时会发生什么。&lt;/p&gt;
+&lt;h3 id="点击尺寸"&gt;点击尺寸
+&lt;/h3&gt;&lt;p&gt;&lt;em&gt;目标区域足够大，才易于点击&lt;/em&gt;。将界面宽度按操作项的数量等分，计算每个底部导航操作项的宽度。或者，把所有底部导航项的宽度设为最宽。&lt;/p&gt;
+&lt;p&gt;Android规范建议按照下图的尺寸设计移动端的底部导航栏。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-Wztcb149mWIooBzkeg4Kow.png"
+loading="lazy"
+alt="Material Design底部导航栏尺寸规范图，粉色标注线显示导航栏高度56dp、图标24dp、文字标签间距等具体数值"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;移动端的固定导航栏。单位是逻辑像素（dp）。来源：Material Design。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="标签栏的小红点"&gt;标签栏的小红点
+&lt;/h3&gt;&lt;p&gt;可以在标签栏显示小红点，表示有相关的新信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-B7gU36PRo7TyamxXkFtXnA.png"
+loading="lazy"
+alt="App Store底部导航栏含Featured、Top Charts、Near Me、Search和Updates五个标签，Updates图标右上角有红色数字2角标"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;可以用低调的方式给标签栏图标加上小红点。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="3-让导航不言自明"&gt;3. 让导航不言自明
+&lt;/h2&gt;&lt;p&gt;优秀的导航应该感觉像一只隐形的手，在操作途中指引用户。毕竟，如果用户都无法找到，那最酷的功能和最有吸引人的内容都没用。&lt;/p&gt;
+&lt;h3 id="表现"&gt;表现
+&lt;/h3&gt;&lt;p&gt;每个底部导航图标&lt;em&gt;都要通向某个目的地&lt;/em&gt;。而不能是打开菜单或其他弹出窗口。点按底部导航图标应该直接通向相应界面，或者刷新当前激活的界面。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-SiIwMULz6BIH_QNrkSQo5w.gif"
+loading="lazy"
+alt="iOS照片应用动态演示，底部导航栏在Photos蓝色选中、Shared和Albums三个标签间切换，界面内容随之淡入淡出过渡"
+&gt;&lt;/p&gt;
+&lt;p&gt;不要用标签栏提供控制项，用来操作当前界面或app模式中的元素。如果需要提供操作项，请改用工具栏。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-HTJII_nZOV_9TzbpvIm0Gg.png"
+loading="lazy"
+alt="iOS顶部工具栏含Inbox(13)标题、上下箭头、旗帜、文件夹、垃圾桶、回复和编辑七个蓝色图标按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;iOS的工具栏&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="保持统一"&gt;保持统一
+&lt;/h3&gt;&lt;p&gt;尽可能&lt;em&gt;在每种情况下都显示标签栏&lt;/em&gt;。这样能给用户一种视觉上可靠的感觉。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;不要因为功能不可用就移除某个标签&lt;/em&gt;。如果你在某些情况下移除一个标签，其他情况确保留，就会让你的app界面感觉不可靠、难以预料。最佳解决方案是保证所有标签都是可用的，然后解释为什么某个标签没有内容。例如，如果用户没有离线文件，Dropbox里的Offline标签会显示一个界面，教你如何添加。这个功能就是&lt;a class="link" href="https://uxplanet.org/empty-state-mobile-app-nice-to-have-essential-f11c29f01f3#.x5iwgmo40" target="_blank" rel="noopener"
+&gt;空状态&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-djnf36jd9NnOyKHktnQP9A.png"
+loading="lazy"
+alt="Dropbox离线文件空状态界面，顶部标题Offline Files，中间插画展示文件盒被鸟叼走，底部导航栏Offline蓝色选中"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Dropbox应用的空状态界面。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="隐藏标签栏"&gt;隐藏标签栏
+&lt;/h3&gt;&lt;p&gt;如果界面里是滚动的信息流，标签栏可以在滚动查看更多内容时隐藏，向下滑动尝试回顶部时再显示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-oN4qwzfoyuIDqPOmSrDQbg.gif"
+loading="lazy"
+alt="Android应用动态演示，内容列表向上滚动时底部导航栏逐渐隐藏，向下滚动回顶部时导航栏重新滑入显示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;底部导航栏可以根据滚动，动态显示和隐藏。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="视觉愉悦"&gt;视觉愉悦
+&lt;/h3&gt;&lt;p&gt;避免使用横向滑动的动效来切换界面。激活和未激活的界面，切换过渡效果应该使用&lt;em&gt;叠加渐隐效果&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-UB9nYamoOKsGwhxX5YSQsA.gif"
+loading="lazy"
+alt="Material Design动态演示，底部导航栏Movies&amp;TV选中状态下，内容卡片从Countryside Vet切换到Town of Golds的叠加渐隐过渡效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;叠加渐隐动画。来源：&lt;a class="link" href="https://www.google.com/design/spec/components/bottom-navigation.html#bottom-navigation-behavior" target="_blank" rel="noopener"
+&gt;Material Design&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;底部导航应该：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;可见且结构合理&lt;/strong&gt;（使用&lt;em&gt;3到5个顶级目的地&lt;/em&gt;，并且&lt;em&gt;避免可滚动内容&lt;/em&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;清晰&lt;/strong&gt;（导航栏元素要易于浏览，点击区域要足够大，&lt;em&gt;方便操作&lt;/em&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简单&lt;/strong&gt;（保证每个导航图标都通向合适的目的地，而且通过底部导航要能够触达所有元素）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://uxplanet.org/perfect-bottom-navigation-for-mobile-app-effabbb98c0f#.3z87f9p1s" target="_blank" rel="noopener"
+&gt;https://uxplanet.org/perfect-bottom-navigation-for-mobile-app-effabbb98c0f#.3z87f9p1s&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://uxplanet.org/@101" target="_blank" rel="noopener"
+&gt;Nick Babich&lt;/a&gt;
+I’m a software developer, tech enthusiast and UI/UX lover.
+&lt;a class="link" href="http://babich.biz/" target="_blank" rel="noopener"
+&gt;http://babich.biz&lt;/a&gt;&lt;/p&gt;</description></item><item><title>用户体验设计中的分步导航</title><link>https://victor42.eth.limo/post/3500/</link><pubDate>Sun, 08 May 2016 13:21:45 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3500/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第132期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://babich.biz" target="_blank" rel="noopener"
+&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-GFi2yx6Asod8m_S0VgxKEw.png"
+loading="lazy"
+alt="电商结账流程的四步分步导航进度指示器，已完成购物车和个人信息步骤，当前处于配送详情步骤"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设计大型电商网站或者复杂的在线服务时，你很可能需要设计一套系统，来梳理顺序与结构。把它设计得简单直观，让用户顺利通过，是提升转化率的关键。沿途所有的挫败都可能导致他们离开，去选择其他的产品。&lt;/p&gt;
+&lt;p&gt;易用的分步流程有助于用户避免挫败，成功地完成主要任务。本文中，我们来了解分步导航的各种形式，看如何使用它们。&lt;/p&gt;
+&lt;h2 id="分步导航是什么"&gt;分步导航是什么？
+&lt;/h2&gt;&lt;p&gt;分步导航（或者说分步指示器）将一系列的过程分解成多个合理的步骤。它引导用户通过一些步骤最终完成一项复杂的任务。好的分步导航应当告知用户以下信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他们已经完成了哪些步骤（或任务），最好要有适当的视觉反馈&lt;/li&gt;
+&lt;li&gt;现在处在哪一步（用户当前在整个流程中的位置）&lt;/li&gt;
+&lt;li&gt;还有哪些步骤，多少步（最好都要有清晰的名称）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/music_pause.png"
+loading="lazy"
+alt="用数字编号表示分步导航流程的示意图，展示步骤编号如何清晰表达整个任务过程"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;分步导航通过步骤编号表达出整个过程&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;有3大理由应该使用分步流程：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;合理地将数据输入分组&lt;/li&gt;
+&lt;li&gt;为用户建立明确的期望&lt;/li&gt;
+&lt;li&gt;在复杂的过程中追踪整个流程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="为什么有效"&gt;为什么有效？
+&lt;/h2&gt;&lt;p&gt;分步导航清晰地指明了完成任务的路径。研究表明，它给用户以明确的概念，完成最终目标需要多少步，能够显著降低放弃的概率。从心理学角度来看，这颇具意义。如果你知道完成这个过程需要多少步，你就更容易完成它。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-PaMe4m7zD3Wn3iU52gD99w.png"
+loading="lazy"
+alt="多步注册账号表单界面，纵向排列三个步骤，第一步处于激活状态并显示表单区域和继续按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;分步注册账号&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;分块展现内容，便于用户浏览，有助于他们理解。实际上，分块其实就是在有意创造视觉分隔的内容单元，在整体环境中有它的意义。&lt;/p&gt;
+&lt;h2 id="分步导航的使用"&gt;分步导航的使用
+&lt;/h2&gt;&lt;p&gt;分步导航可以用在许多种情景中。下面3个领域最常见。&lt;/p&gt;
+&lt;h3 id="在线下单"&gt;在线下单
+&lt;/h3&gt;&lt;p&gt;目前为止，分步导航最广泛的使用案例，就是与在线购买相结合，因为这个任务可以很自然地分割成多个步骤。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-xs783YU_DNhwwvRZogK8_w.png"
+loading="lazy"
+alt="在线结账流程的两种分步导航设计：上方为带编号圆点的水平进度条，下方为箭头形状的步骤指示器，当前均处于配送步骤"
+&gt;&lt;/p&gt;
+&lt;h3 id="多步表单"&gt;多步表单
+&lt;/h3&gt;&lt;p&gt;如果表单需要用户填写许多信息，最好将它分成多步。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-WkOB1_1RWZDLNShE5wwWDQ.png"
+loading="lazy"
+alt="多步表单设计示例，使用箭头形状的步骤指示器展示创建竞赛的四个步骤，当前处于第一步竞赛简介"
+&gt;&lt;/p&gt;
+&lt;h3 id="引导页"&gt;引导页
+&lt;/h3&gt;&lt;p&gt;分步导航也可以用来引导用户了解一个应用或服务的功能。如果步骤不多，也可以使用小圆点来表示（就像下图Dropbox的例子）。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-YpLrEgS1vVA2BgUkyrImNQ.png"
+loading="lazy"
+alt="Dropbox应用引导页的三个手机屏幕截图，展示照片备份、跨设备访问和注册功能，底部用小圆点表示当前步骤"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Dropbox的引导页&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="分步导航设计最佳实践"&gt;分步导航设计最佳实践
+&lt;/h2&gt;&lt;p&gt;创建优秀的分步导航，并没有通用的方案。但有一点是肯定的——你时刻要考虑用户如何与该系统交互。简单说，就是要把流程步骤设计得尽可能简单清晰，不要让用户困惑。&lt;/p&gt;
+&lt;h3 id="设定用户的期望"&gt;设定用户的期望
+&lt;/h3&gt;&lt;p&gt;当用户要进行一项复杂的任务时，重要的是事先营造他们的期望，告诉他们需要多少时间和精力。如果用户认为这个任务只要2分钟，但实际上花了10分钟，这个体验就很糟糕。&lt;/p&gt;
+&lt;p&gt;提供简单的描述，能够帮助用户为复杂的任务做好准备。这也很有助于估计完成任务所需的时间，尤其当这些步骤并不均等时（例如有些步骤比其他的更长）。&lt;/p&gt;
+&lt;h3 id="建立合理的流程"&gt;建立合理的流程
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;显示流动的方向。最好使用箭头来强调方向，因为线条本身并没有提供“流程”的含义。
+&lt;img src="http://babich.biz/content/images/2016/04/1-dhnLZ5Nd7Fi94ND0J5Du9Q.png"
+loading="lazy"
+alt="用箭头连接步骤圆点来强调流程方向的示意图，绿色对勾表示已完成步骤，灰色圆圈表示未完成步骤"
+&gt;&lt;/li&gt;
+&lt;li&gt;结合图形与文字描述其中步骤。要让用户清楚步骤的顺序。
+&lt;img src="http://babich.biz/content/images/2016/04/1-WTpRvGDLG4Z14DgDZBXKiw.png"
+loading="lazy"
+alt="结合数字序号和文字标签的分步导航设计，展示创建广告的三个步骤：选择广告系列设置、创建广告组、创建广告"
+&gt;&lt;/li&gt;
+&lt;li&gt;过程不要太长。3-5步就足够了。&lt;/li&gt;
+&lt;li&gt;使用数字序号描述步骤，指示用户当前所处的步骤（例如第3步、第5步）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="让用户清楚自己当前位置"&gt;让用户清楚自己当前位置
+&lt;/h3&gt;&lt;p&gt;“我进行到哪儿了？”这是导航需要用户回答的基本问题之一。所以优秀的分步导航设计，最关键的就是保持用户了解当前所处位置。这能够提升连续性，因为用户知道当前位置与之前步骤和后续步骤之间的关系。&lt;/p&gt;
+&lt;p&gt;要为流程设计一套良好的视觉展现。用户依赖导航元素中的这些视觉线索来回答这个至关重要的问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-xd4mMs-efIcgVlB64ryZvw.jpeg"
+loading="lazy"
+alt="视觉化的分步进度指示器设计，上方显示三步进度条，下方展示已完成步骤带绿色对勾、当前步骤高亮的状态变化效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Dribbble&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;状态的变化要清晰，&lt;a class="link" href="http://babich.biz/accessible-interface-design/" target="_blank" rel="noopener"
+&gt;告诉用户当前的步骤不只是改个颜色&lt;/a&gt;。适合的图形和文字标签，能帮助用户理解菜单项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-e_m6QWku9fNT-CGVMkZl1g.png"
+loading="lazy"
+alt="分步导航中的异常错误状态标签，自定义渠道步骤显示红色警告三角形和警示信息，提示用户当前步骤存在问题"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;异常标签的错误状态&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="避免多层分步导航"&gt;避免多层分步导航
+&lt;/h3&gt;&lt;p&gt;避免在一个页面上多次使用，或者嵌套使用分步导航。这会导致界面的混乱。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-5AjSCpe2lJXAGOQ-J9KVpw.png"
+loading="lazy"
+alt="嵌套使用分步导航的错误示例，页面同时包含顶部水平三步进度条和下方纵向三步表单，红色叉号标记表示这种设计会导致界面混乱"
+&gt;&lt;/p&gt;
+&lt;h3 id="显示出流程反馈"&gt;显示出流程反馈
+&lt;/h3&gt;&lt;p&gt;分步导航可以在每步保存后，短暂显示反馈信息。只应该在步骤间有较长延迟时使用这种反馈。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-WHoC-T422Peib8L_41sTwQ.gif"
+loading="lazy"
+alt="分步导航在步骤保存后短暂显示反馈信息的动效演示，展示三步进度条和表单区域之间的状态切换动画"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这个分步指示器在步骤保存后，短暂显示了反馈信息。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="移动应用中的分步导航"&gt;移动应用中的分步导航
+&lt;/h3&gt;&lt;p&gt;因为横向空间有限，在移动应用和网页上，纵向分步导航也许是不错的方案。不过要确保每步内容是响应式的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/04/1-yv_pve6g7kQ3uiD3D6ZdvQ.png"
+loading="lazy"
+alt="移动应用中的纵向分步导航设计，在小屏幕上垂直排列四个步骤，第二步处于激活状态并显示表单内容和操作按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;小屏幕上使用纵向分步设计。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;把分步导航设计得简单易懂、低调含蓄，也别忽视它们的视觉表现，应当在视觉上吸引和引导用户。“用户至上”。记住我们不是在为设计师而设计，我们为普通用户设计。最终，优秀的分步导航能让用户停留，完成任务，并且让你的网站和应用留下正面的印象。&lt;/p&gt;
+&lt;p&gt;感谢阅读！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://babich.biz/progress-trackers-in-ux-design/" target="_blank" rel="noopener"
+&gt;http://babich.biz/progress-trackers-in-ux-design/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://babich.biz/author/nick/" target="_blank" rel="noopener"
+&gt;Nick Babich&lt;/a&gt;
+I’m a software developer, tech enthusiast and UI/UX lover.
+&lt;a class="link" href="mailto:nick@babich.biz" &gt;nick@babich.biz&lt;/a&gt;&lt;/p&gt;</description></item><item><title>全新的导航形式：全屏菜单</title><link>https://victor42.eth.limo/post/3446/</link><pubDate>Sun, 28 Jun 2015 12:51:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3446/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第92期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/9-Impossible-Bureau.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“与其他用户界面细节一”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;与其他用户界面细节一样，菜单的设计也在随着当今的潮流改变。一些变化能带来积极的效果，改善用户体验，还有一些却会破坏有利的形象。追随潮流是件棘手的事，尤其是在菜单上。&lt;/p&gt;
+&lt;p&gt;比如，隐藏式菜单和极简式导航栏最近正处于风口浪尖。但是，它们并不适用于所有网站。相比之下，全屏菜单多数时候几乎都适用于所有项目。后者正在汇聚人气，因为它灵活易变，能够提升而非破坏用户体验。它在不经意间呈现了很多数据，整洁地排布文字与多媒体内容。当然，这使得主页又多了一层点击，但有时为了更好的用户体验，应该做这样的牺牲。&lt;/p&gt;
+&lt;p&gt;今天我们进行一场头脑风暴，来看20个新颖绝妙的&lt;strong&gt;全屏导航网页设计&lt;/strong&gt;案例。&lt;/p&gt;
+&lt;h2 id="全屏菜单案例"&gt;全屏菜单案例
+&lt;/h2&gt;&lt;h3 id="maecia"&gt;Maecia
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/1-Maecia.jpg"
+loading="lazy"
+alt="全新的导航形式：全屏菜单的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;Maecia采用了讨人喜爱的蒸汽朋克外观，增添了一分独特的精细和机械感。基于图片的导航占据整个屏幕，与动态主页和主题高度吻合。&lt;/p&gt;
+&lt;h3 id="olcese"&gt;Olcese
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.cotonificioolcese.it" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/2-Olcese.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“有好几个菜单便于用户”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Olcese有好几个菜单，便于用户更彻底地探索这个网站，同时也强化了品牌识别。基于图片的网格式全屏导航中，充满了有趣的照片、漂亮的图表和令人愉快的效果。这些元素的结合扮演着至关重要的角色。&lt;/p&gt;
+&lt;h3 id="moeko-abe"&gt;Moeko ABE
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://abemoeko.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/3-Moeko-ABE.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“摄影师的在线作品集还”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;摄影师的在线作品集还能是什么样？以照片为核心的主页明亮耀眼，导航运用了多媒体，为这位艺术家高调代言。菜单在整个页面投下柔和的阴影，呈现出美丽的照片链接。&lt;/p&gt;
+&lt;h3 id="conference-awwwards"&gt;Conference Awwwards
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://conference.awwwards.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/4-Conference-Awwwards.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“颇具开创性的主页一流”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;颇具开创性的主页，一流的HTML/CSS/JS动画立刻引人注目，让人印象深刻。简单的导航占据了整个屏幕，视觉聚焦于导航链接。这是非常合理的方案。&lt;/p&gt;
+&lt;h3 id="drygital"&gt;Drygital
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://drygital.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/5-Drygital.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的主菜单流露出欢乐积”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Drygital的主菜单流露出欢乐积极的情感。华丽鲜艳的渐变背景，非常有利于展现亮白色的导航。一如往常，菜单覆盖了整个主页。不过得益于半透明的背景，用户可以在着陆页欣赏一段视频。&lt;/p&gt;
+&lt;h3 id="alemans-design"&gt;Aleman’s Design
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.alemansdesign.it/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/6-Alemans-Design.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“有着无缝式的导航与整”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aleman’s Design有着无缝式的导航，与整个场景搭配良好，对美感有重大贡献。这个团队采用了非同寻常的方案，利用动画背景来强调菜单项。&lt;/p&gt;
+&lt;h3 id="mas-industries"&gt;Mas Industries
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://mas-industries.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/7-Mas-Industries.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的特点是基于图片的全”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mas Industries的特点是基于图片的全屏导航菜单，它从“汉堡”菜单中优美地展开。对金属部件的完美渲染散逸着冰冷严肃的氛围。虽然前景与背景的反差很弱，但另一方面，这种方案对系列设计有强调作用。&lt;/p&gt;
+&lt;h3 id="danne-olsson"&gt;Danne Olsson
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.danneolsson.se/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/8-Danne-Olsson.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“壮观的照片背景映入”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;壮观的照片背景，映入Danne Olsson的用户的眼帘，充满自然意象。为了弱化如此吸引眼球的核心元素，将视线引向更简单朴实的导航，他采用了很直接的解决方法，将全屏菜单与纯色背景相结合。&lt;/p&gt;
+&lt;h3 id="impossible-bureau"&gt;Impossible Bureau
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.impossible-bureau.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/9-Impossible-Bureau.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“在这里主导航将首页划”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在这里，主导航将首页划分为4列，让网站的主要部分充满全屏。为了使外观鲜活明亮，不至于让主页看起来黑暗阴沉，每个链接都带有美丽的渐变背景，还有绝佳的字体和配图。&lt;/p&gt;
+&lt;h3 id="voisins"&gt;Voisins
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://voisinschameran.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/10-Voisins.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的主页是个庞大的导航”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Voisins的主页是个庞大的导航体系，有两个菜单组成。其中之一如我们所料，迎合了当今网页设计趋势，通过“汉堡”菜单触发。另一个则占据全屏，可以更高效地处理视频链接。&lt;/p&gt;
+&lt;h3 id="fornace-studio"&gt;Fornace Studio
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.fornacestudio.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/11-Fornace-Studio.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“采用了一种非常规方案”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fornace Studio采用了一种非常规方案，主菜单由小小的导航图标触发显示。它从一个特别的角度滑入，模糊并覆盖整个主页，立刻吸引了用户的注意力。&lt;/p&gt;
+&lt;h3 id="webgriffe"&gt;Webgriffe
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.webgriffe.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/12-Webgriffe.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的设计很精细文案极细”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Webgriffe的设计很精细，文案、极细的雅致字体、幽灵按钮、强烈而现代的图形和趣的背景，共同构成了视觉焦点。菜单与主题的配合非常好。&lt;/p&gt;
+&lt;h3 id="moma"&gt;Moma
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.moma.org/interactives/exhibitions/2014/matisse/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/13-Moma.jpg"
+loading="lazy"
+alt="Moma官方网站的Moma页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;全屏导航让用户很自然地点击首页的图片，进入主菜单中的其他功能。这个方案相当整洁优雅，完全适用。&lt;/p&gt;
+&lt;h3 id="giaco-morelli"&gt;Giaco Morelli
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.giacomorelli.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/14-Giaco-Morelli.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“和上一例类似这个全屏”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;和上一例类似，这个全屏菜单带有轻微的半透明背景。厚实圆润的字体转移了访客的注意力，从迷人的交互式主页，转向网站更重要的部分。&lt;/p&gt;
+&lt;h3 id="gianluca-bocchi"&gt;Gianluca Bocchi
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.gianlucabocchi.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/15-Gianluca-Bocchi.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“虽然极简式设计缺乏丰”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;虽然极简式设计缺乏丰富的装饰，但这家画廊的官网散发着典雅、精美的艺术气息。在这里，第一印象尤为重要，庄严的菜单巧妙含蓄地将着陆页分成3部分。&lt;/p&gt;
+&lt;h3 id="elliot-lepers"&gt;Elliot Lepers
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://getelliot.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/16-Elliot-Lepers.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“有着全屏式轮播一列列”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Elliot Lepers有着全屏式轮播，一列列呈现信息。尽管这并非菜单的传统形式，但它是纯正的导航，使其得以充分运用。&lt;/p&gt;
+&lt;h3 id="fahrenheit"&gt;Fahrenheit
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="https://www.fahrenheit.io/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/17-Fahrenheit.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的菜单由个基本的链接”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fahrenheit的菜单由4个基本的链接构成，这适用于多数小型在线作品集。尽管如此，这个团队仍然在其中倾注心血，将整个页面让给导航列表，证明了它的重要性。&lt;/p&gt;
+&lt;h3 id="n3rd"&gt;N3RD
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.n3rd.co.uk/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/18-N3RD.jpg"
+loading="lazy"
+alt="N3rd官方网站的N3RD页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;首页就是个导航页面。最棒的一点是，这个团队应该不会担心平板和移动端的变化，因为这个方案全平台适用。简单而优雅，尽管相当原始。&lt;/p&gt;
+&lt;h3 id="ivxvixviii"&gt;ivxvixviii
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://ivxvixviii.io/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/19-ivxvixviii.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“有着相当精致的几何体”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ivxvixviii有着相当精致的几何体，壮丽的图片和微妙的效果丰富了造型。精巧独特的导航足以激发兴趣，迫使用户深入其中。&lt;/p&gt;
+&lt;h3 id="the-colors-of-motion"&gt;The Colors of Motion
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://thecolorsofmotion.com/films" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/20-The-Colors-of-Motion.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“这个网站的特色是奇异”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个网站的特色是奇异的无字导航，一眼看去使人迷惑。设计师采用了打破常规的方案。在这种方式中，菜单与名称相结合，支撑着整个主题。&lt;/p&gt;
+&lt;h3 id="结论"&gt;结论
+&lt;/h3&gt;&lt;p&gt;受趋势影响，导航可以采用不同形式。全屏菜单是种双赢的做法，可以解决很多网页设计的问题。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/full-screen-menus/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Nataly Birch
+I&amp;rsquo;m an internet entrepreneur and an amateur web designer and developer from Sevastopol. In my spare time I read books, play board games and volleyball.&lt;/p&gt;</description></item><item><title>解决汉堡图标问题</title><link>https://victor42.eth.limo/post/3375/</link><pubDate>Sun, 29 Jun 2014 10:12:41 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3375/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第46期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/featured23@wdd2x.jpg"
+loading="lazy"
+alt="真实汉堡美食照片作为汉堡菜单图标话题的视觉隐喻"
+&gt;&lt;/p&gt;
+&lt;p&gt;汉堡图标，也就是三条小横线，一直以来被用于表示指向菜单的链接，是当今网页中最具争议的技巧之一。据说设计师们都讨厌它；客户们也恨之入骨。那为什么它却无所不在？&lt;/p&gt;
+&lt;p&gt;汉堡图标可以轻易缩放，它可以精确吻合像素网格。它原本是表达列表的图标，被强行冠上了如今的角色，但既然菜单就是一列选项，这样使用它从含义上来说是正确的。&lt;/p&gt;
+&lt;p&gt;在这个课题上，有数不尽的争论、A/B型测试、博客宣泄、用户研究，但这些研究几乎都在关注app设计。当汉堡图标用于网页设计时，它表现出了更大的问题。&lt;/p&gt;
+&lt;p&gt;##汉堡图标的问题&lt;/p&gt;
+&lt;p&gt;有很多设计师质疑汉堡图标本身的价值。它频繁作为iOS风格图标出现，虽然在Apple采用它之前，就已经被这么用了。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.world-of-swiss.com/en" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/swiss.jpg"
+loading="lazy"
+alt="解决汉堡图标问题设计中关于“事实上关于它是不是可”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.hugeinc.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/hugeinc.jpg"
+loading="lazy"
+alt="解决汉堡图标问题设计中关于“事实上关于它是不是可”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;事实上，关于它是不是可用的菜单图标，有大量相互矛盾的证据。有些设计师主张，年轻人能轻松认出这个图标，其他人则表示年纪大的若有上网经历，也可以辨认出来。这项证据中，我们只能得出唯一一个结论，可用性测试结果是不确定的，相似的测试常常得出相互矛盾的结果。&lt;/p&gt;
+&lt;p&gt;大家普遍接受一点，用户不会把汉堡图标当作单一链接，很可能是因为它被设计成一组链接，而非单个链接的样子。支撑它的是环绕周围的边框，或是一块背景色，使它看起来更像一个按钮，我敢说，再拟物一些可以增加点击量。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://futureinsightslive.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/futureinsights.jpg"
+loading="lazy"
+alt="解决汉堡图标问题设计中关于“汉堡图标还有更多问题”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##汉堡图标还有更多问题&lt;/p&gt;
+&lt;p&gt;除却图标本身不说，使用它的方式也充斥着问题。&lt;/p&gt;
+&lt;p&gt;首先，可能也是最明显的，汉堡图标给导航增加了额外的操作；原本一次点击就可以到达具体页面，现在需要两次。根据网页设计师的经验，3次点击要能抵达（任何地方），目前为止，导航问题并没有解决，汉堡图标这种技巧，只是把一个问题变成了另一个问题。当然，这不仅仅是汉堡图标的问题，它也是所有这种风格导航的问题。你可以用“菜单”两字代替汉堡图标，阻碍仍然存在，区别只是汉堡图标没法用在其他地方。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://middle-earth.thehobbit.com/map" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/hobbit.jpg"
+loading="lazy"
+alt="解决汉堡图标问题设计中关于“官方网站的网页页面版”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.jam3.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/jam3.jpg"
+loading="lazy"
+alt="Jam3官方网站的网页页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;汉堡图标同时也隐藏了它的内容。从用户体验的观点来看，用户不应该为了解自己能做什么，而做出任何动作。“分享到Twitter”或“付款”这些操作若不是近在眼前，太容易被用户忽略。用户根本不会去找他们不知道的链接。&lt;/p&gt;
+&lt;p&gt;最后，汉堡图标隐藏了网站的当前状态，还有用户所在的位置。菜单中的按下状态为用户提供了前后关联信息，而汉堡图标则使它变得隐晦。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.london-se.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/london-se.jpg"
+loading="lazy"
+alt="解决汉堡图标问题设计中关于“汉堡图标能做好什么鉴”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##汉堡图标能做好什么？&lt;/p&gt;
+&lt;p&gt;鉴于汉堡图标被普遍厌恶，还导致一连串问题，为何它还随处可见呢？&lt;/p&gt;
+&lt;p&gt;以我的经验，原因当然在特定的年龄层里，汉堡图标近年来已经深得辨识度的精髓。驳斥它的研究往往是一年前或更早的，而一年对于互联网来说可是很长时间。&lt;/p&gt;
+&lt;p&gt;事实上，链接图标远比“链接”或“分享”更易辨识，但决定性的形式尚未显现出来。而汉堡图标却在各种不同设计中都保持了统一。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://olympicstory.com/#!intro" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/olympicstory.jpg"
+loading="lazy"
+alt="解决汉堡图标问题设计中关于“最重要的是汉堡图标保”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最重要的是，汉堡图标保持了它的初衷：它为我们节省了大量宝贵的屏幕空间资源。假如客户给你多如牛毛的东西，都要加到菜单中，那么把它们移除屏幕并给出链接，就是简单粗暴却非常有效的办法，可以为客户同样想要的内容腾出空间。&lt;/p&gt;
+&lt;p&gt;我得说汉堡图标在这个问题上，比其他解决方案都好，但也不尽然。还是应该说，汉堡图标没有其他解决方案那么糟糕。&lt;/p&gt;
+&lt;p&gt;##问题的根源&lt;/p&gt;
+&lt;p&gt;汉堡图标得到采用，还是因为设计师（更多时候是客户）没有完全遵循移动优先的设计方法。他们想要一个“常规”站点，却把它硬塞进外孙女的手机中。&lt;/p&gt;
+&lt;p&gt;汉堡图标的反对者往往用“菜单”二字代替它，他们这么做完全不得要领。不论是否形似，汉堡图标如今已经达到了它的含义，但用户理解这个按钮是干什么的，并没有解决最大的问题，它隐藏了导航，隐藏了用户的选择，这是相当严重的自残。&lt;/p&gt;
+&lt;p&gt;简单说，汉堡图标是一种象征，象征着我们在一心一意全方位拥抱移动优先的道路上，集体失败了。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.ponomusic.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/pono.jpg"
+loading="lazy"
+alt="Ponomusic的网页界面设计展示效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://mccollcenter.org/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/06/mccollcenter.jpg"
+loading="lazy"
+alt="解决汉堡图标问题设计中关于“更好的解决办法为了解”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##更好的解决办法&lt;/p&gt;
+&lt;p&gt;为了解决汉堡图标的问题，我们得接受一个现实，我们以往所知的网页已经不再管用了。移动网页的崛起，远非减少几栏、去掉一些沉重的图片文件这么简单。&lt;/p&gt;
+&lt;p&gt;不同于旧时代的网页，移动网页采用了一种不同的方式。移动网页生在专注于app的环境中，用户希望传统网页也有类似的时尚体验。&lt;/p&gt;
+&lt;p&gt;很著名的例子，Facebook的app将他们的汉堡图标改成了标签栏，结果显示转化率得到了提升。然而Facebook除了更换菜单设计，还做了意义重大得多的事情。近来他们发布了Messenger，了不起的地方在于，他们已经有了功能完善受人欢迎的app，他们本可以将信息功能整合进去。Facebook却拆分了这些功能，使每个app专注于自己的角色，便得到了两个简单的app，而非一个复杂的app。缩减功能导致了菜单项的减少，就不那么需要汉堡菜单了。&lt;/p&gt;
+&lt;p&gt;优秀的app都极为专注，他们通过远比网页严苛的用户测试进化。要打造app一样的体验，我们得简化网站，再简化，然后再多简化一点点。如果有必要，将建筑结构打散成可管理的小片，近似于迷你站点。当我们为用户展现一组简单的选择，复杂菜单的问题再也不会出现了。&lt;/p&gt;
+&lt;p&gt;使用汉堡图标就像在伤口上扎绷带：虽然把它包起来了，下面的伤口仍在。&lt;/p&gt;
+&lt;p&gt;我们只有完全拥抱移动优先的方式，不仅将它用于设计，也用于我们的内容和信息结构，汉堡菜单才会成为历史。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;焦点图/缩略图用了Mononc’ Paul的&lt;a class="link" href="https://www.flickr.com/photos/themensp/2497263474" target="_blank" rel="noopener"
+&gt;汉堡图片&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2014/06/how-to-solve-the-hamburger-icon-problem/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>入门:移动APP中的各种导航</title><link>https://victor42.eth.limo/post/3328/</link><pubDate>Sun, 11 May 2014 13:25:16 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3328/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第39期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Univit-UI/13711535" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Univit-UI-by-Mohammed-Alyousfi-Alex-Casabo.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“即使是移动应用界面”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;即使是移动应用界面的原型设计，导航的形式也可以多种多样。尽管尺寸小，又必须紧凑排列大量数据，它们似乎受到了紧密的约束，但依然有着形形色色的选择。&lt;/p&gt;
+&lt;p&gt;人们曾经一度只会考虑一种形式——流行且广泛使用的&lt;a class="link" href="http://designmodo.com/vertical-side-menu-mobile-apps/" target="_blank" rel="noopener"
+&gt;垂直导航，即侧边栏&lt;/a&gt;。尽管如此，还有其他可以提升用户体验的形式，会让用户浏览你的APP变成小菜一碟。&lt;/p&gt;
+&lt;h2 id="列表型菜单"&gt;列表型菜单
+&lt;/h2&gt;&lt;p&gt;让我们从一种基于列表的标准型导航开始论述，它在移动APP作者中得到广泛使用。这种解决方式建议逐一展示链接，让用户遵循从上到下的常规流程。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/GIF-Aimation/13418581" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/GIF-Aimation-by-Sergey-Valiukh.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的动画设计只是一件概”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sergey Valiukh的GIF动画设计只是一件概念设计，却完美地反映出列表型导航的实用性。结合了多种色彩和精细的线形图标，还有稍显粗重的字体，让用户轻松浏览APP，并且不会感到屏幕局限导致的不适。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Elevatr/10461719" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Elevatr-by-Fueled.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的是一个时尚的帮助企”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fueled的Elevatr是一个时尚的APP，帮助企业家管理和跟进商业会议。主屏的特点是彩虹色的菜单，清晰地逐行展现出控制面板的各个项目。背景图受到坐标纸的启发，与这种菜单完美搭配。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/HabitClock-App/10793005" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/HabitClock-App-by-Kutan-URAL.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的是个简洁且有视觉感”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kutan URAL 的HabitClock App是个简洁且有视觉感染力的APP，帮助你管理早晨的闹钟。尽管屏幕上的重点是顶部和底部的控制面板，但列表型导航（同时也是非常棒的通知工具）才是吸引注意力的核心。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Instagrab-for-iOS/10213537" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Instagrab-for-iOS-by-Davis-Yeung.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“横条状的布局方式用来”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;横条状的布局方式，用来展现简易侧滑菜单上的一系列链接，这是多数设计师的人气选择，也是Davis Yeung设计的iOS版Instagrab主要组成。通常每一项都配有一枚易懂的小图标，很好地区分每个链接。&lt;/p&gt;
+&lt;h2 id="矩阵或网格型菜单"&gt;矩阵或网格型菜单
+&lt;/h2&gt;&lt;p&gt;占据全屏的网格型导航有助于强调导航，使它清晰易懂、显而易见。当你需要展示很多链接时，这种方式也很管用，一系列同样的网格，有效地将每一项与其他区分开来。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/vectra-branding/15209033" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/vectra-branding-by-Michal-Galubinski-and-thoke-design.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的有着不容忽视的导航”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Michal Galubinskiand thoke design的Vectra，有着不容忽视的导航。设计师不仅把菜单的6个项目伸展至全屏，还利用了巨大的扁平风格图标，很明显是为了大部分在线用户考虑。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Arrivo-Mobile-App/13950767" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Arrivo-Mobile-App.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的移动设计巧妙地在严”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Marco La Mantia &amp;amp; Simone Lippolis的移动APP设计，Arrivo，巧妙地在严格的方形网格中组织大量数据。每个格子都扮演着功能性的作用；因为它不仅仅是显示数据，也让你通过底部滑出的一个小型控制面板调整它。颜色选择也非常明智，因为热烈的背景色调有助于有效地分配内容和区分网格。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/GIF-Abracadabra-App/13691641" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Abracadabra-App-by-Sergey-Valiukh.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“这个肯定是依照心中”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abracadabra，这个APP肯定是依照Sergey Valiukh心中的复古风格来设计的，让这个APP有种明显的年代感。在此，设计师干练地将屏幕划分成6个相等的网格，非常易于浏览。扁平风格图标结合粗重的非正式字体，有助于提升易用性。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/T-R-A-V-E-R-S-E/8769919" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/T-R-A-V-E-R-S-E-by-Willis.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“手绘风贯穿了设计”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;手绘风贯穿了Willis设计的T R A V E R S E的每一个界面。这个APP基于明亮的单色背景和线形图标，因此主菜单看不到任何分隔线，却做到了井然有序，使得用户相当轻松顺手地浏览这款APP。&lt;/p&gt;
+&lt;h2 id="底部菜单"&gt;底部菜单
+&lt;/h2&gt;&lt;p&gt;底部菜单主要是作为导航的辅助，用来区分内部的功能区块或独立组件。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Badoo-concept/15040411" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Badoo-concept-by-Jakub-Antalik.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的概念设计有着位于屏”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jakub Antalík的Badoo概念设计有着位于屏幕底部的导航。它也包含了一组扩展菜单，每一项都有它自己的控制面板。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Animated-sliding-tab-bar/7528101" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Animated-sliding-tab-bar-by-Virgil-Pana.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“设计的动态滑动标签为”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Virgil Pana设计的动态滑动标签，为重度信息展示型应用提出了一个完美的解决方法，能够包含大量统计数据，或者通过图表展现数据，并仍然保持简洁。常规大小的菜单从屏幕底部滑出，显示出一个小型控制中心。&lt;/p&gt;
+&lt;h2 id="顶部菜单"&gt;顶部菜单
+&lt;/h2&gt;&lt;p&gt;既然我们习惯于从上到下浏览手机屏幕，放在屏幕顶部自然有一定优势。标签页和每个控制中心独有的图标，是这种布局最重要的代表。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Horner/14630571" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Horner-by-Cuneyt-SEN.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的包含了可隐藏菜单不”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cüneyt ŞEN的Horner包含了可隐藏菜单，不过它能很妙地从顶部出现。由于明亮的颜色和有关联性的巨大图标，它与整个界面内容形成了鲜明对比。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Discovery-Channel/7900623" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Discovery-Channel.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“设计的将所有的基本导”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Enes Danış设计的Discovery Channel将所有的基本导航和二级导航放在顶部，通过固定的位置来打消用户的困惑。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Air-flow-calculation-app-for-Bettertec/15130263" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Air-flow-calculation-app-for-Bettertec-by-HAMZAQUE-Designs.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“为设计的气流计算巧妙”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HAMZAQUE Designs为Bettertec设计的气流计算APP，巧妙地运用了占据顶部的标签页。此外，它们被设计成黑白对比的色调，和屏幕中其余部分相同。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/11853341/Shario-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Shario-App-by-MING-LabsPierrick-Calvez.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的透露着简洁的矢量风”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MING Labs&amp;amp;Pierrick Calvez的Shario APP，透露着简洁的矢量风格概念。整个导航通过顶部的几个按钮运转起来。&lt;/p&gt;
+&lt;h2 id="展开式菜单"&gt;展开式菜单
+&lt;/h2&gt;&lt;p&gt;对于处理大信息量APP和喜欢创作简洁紧凑界面的设计师而言，展开式菜单确实是一项至宝。这种方案允许你把菜单图标放在任何地方，不过它通常是在左上角。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/MuSeek/15159455" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/MuSeek-by-Al-Power.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的是个音乐需要为用户”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Al Powerd的MuSeek是个音乐APP，需要为用户提供大量可视化信息：专辑封面、描述、歌曲名称、曲目列表等等，所以没有空间来放置全屏菜单。在这个例子中，左上角的小图标就是一根救命稻草，平滑地展现出一列相当巨大的菜单。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Univit-UI/13711535" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Univit-UI-by-Mohammed-Alyousfi-Alex-Casabo.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的设计这是一款优雅”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mohammed Alyousfi &amp;amp; Àlex Casabò的Univit UI设计，这是一款优雅的扁平风格APP，使用了一个标准的滑出菜单，通过简单的滑动操作触发。菜单采用了易懂且时尚的轮廓型图标，比各自的标题都大许多。这种方式使得菜单可以很自然地在设计中发挥作用，同时也提供更好的用户体验。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/SVOY-app-design/8548355" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/SVOY-app-design-by-Alexandre-Efimov.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“设计的基于一套艳丽”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alexandre Efimov设计的SVOY APP基于一套艳丽的配色方案，与深色的背景有效搭配。设计师让菜单从左侧展开。吸引眼球且逼真的折叠动画，也给设计增添了一些趣味。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Idokp-weather-app-redesign/10536853" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Idokep-by-Attila-Szabo.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的又是展开式菜单的一”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Attila Szabó的Időkép又是展开式菜单的一个变种设计，利用几乎占据满屏的梦幻般“拉窗帘”效果来显示菜单本身。&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;每种方案都有自己的优势与劣势，这就是为什么每个项目都提倡它独有的导航类型，可以有效地应对任务，并对用户体验有帮助。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/mobile-app-navigations/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

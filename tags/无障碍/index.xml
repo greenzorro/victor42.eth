@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>无障碍 on Victor42</title><link>https://victor42.eth.limo/tags/%E6%97%A0%E9%9A%9C%E7%A2%8D/</link><description>Recent content in 无障碍 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 09 Jul 2017 01:08:45 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E6%97%A0%E9%9A%9C%E7%A2%8D/index.xml" rel="self" type="application/rss+xml"/><item><title>老年用户的体验思考</title><link>https://victor42.eth.limo/post/3559/</link><pubDate>Sun, 09 Jul 2017 01:08:45 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3559/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第177期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-07/07-08/ux-design-senior-user.jpg"
+loading="lazy"
+alt="老年夫妇在家中共同使用笔记本电脑和平板电脑，专注地看着屏幕"
+&gt;&lt;/p&gt;
+&lt;p&gt;吸引老年人作为用户群体的一部分，这曾经被认为是互联网世界中最后需要考虑的事情。但是，这种罕见的情况正在成为现实，我们见证了老年用户群体持续不断的增长，他们经常登录、注册和订阅。Statista的记录显示，光是在美国境内，2016年就有&lt;a class="link" href="https://www.statista.com/statistics/266587/percentage-of-internet-users-by-age-groups-in-the-us/" target="_blank" rel="noopener"
+&gt;64%的老年人&lt;/a&gt;在线，这个数字在2013年的时候只有4%。&lt;/p&gt;
+&lt;p&gt;尽管数量在增长，老年用户群体在人口统计学中，仍然属于用户体验的不毛之地。如果用户体验从业者不将老年用户纳入考虑，就会疏远这个整个群体，把他们从在线体验中排除出去：这情况可不乐观。&lt;/p&gt;
+&lt;p&gt;通过加大UI元素、使用颜色强调重要内容、进行适当的用户测试，遵循这些最佳实践，可以做到为老年用户定制网页设计。&lt;/p&gt;
+&lt;h2 id="保证界面适合阅读"&gt;保证界面适合阅读
+&lt;/h2&gt;&lt;h3 id="文字越大越好"&gt;文字：越大越好
+&lt;/h3&gt;&lt;p&gt;首先要考虑文字和屏幕本身的尺寸，确保用户界面清晰可辨。不像我们UX设计师，并非每个用户都有高分辨率的显示器，未必对眼睛友好。对于60岁以上的用户，小号文字真的会让人抓狂。如果你想要定位老年用户群体，界面正文字号不要小于12磅。&lt;/p&gt;
+&lt;p&gt;有时候用户会选择调节浏览器本身的字号。但是多数时候，这样只是放大了整个页面，这就会产生功能和显示问题。要避免让用户去手动设置字号。&lt;/p&gt;
+&lt;p&gt;而且，要把信息分解为更小的部分，&lt;a class="link" href="https://www.justinmind.com/blog/minimalism-in-interactive-design-dreaming-of-a-white-space-xmas/?utm_source=UsabilityGeekSeniorWebUsersWhitespacepost&amp;amp;utm_medium=UgWebUsersWhitespace" target="_blank" rel="noopener"
+&gt;通过留白分隔&lt;/a&gt;，就不会在局促的空间里塞进大量文字，使用户感到眼花缭乱。&lt;/p&gt;
+&lt;h3 id="调节颜色和对比度达到最佳可见性"&gt;调节颜色和对比度达到最佳可见性
+&lt;/h3&gt;&lt;p&gt;当设计师忽略&lt;a class="link" href="http://usabilitygeek.com/traffic-lights-ux-smart-color/" target="_blank" rel="noopener"
+&gt;颜色规范时&lt;/a&gt;，用户体验就会崩塌。界面中的颜色和对比度帮助用户确定哪些元素对应哪些任务，掌握自己当前处在网站的什么位置，并且知道哪个词语可以通向特定的页面。比如说，不带链接的文字就要避免使用蓝色——深蓝色是&lt;a class="link" href="http://usabilitygeek.com/hyperlink-usability-guidelines-usable-links" target="_blank" rel="noopener"
+&gt;网页链接约定俗成的标准用色&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;而且，如果未访问和已访问的链接在颜色上没有区别，他们可能很难回到之前去过的地方。这对所有用户都有影响。不过，老年用户更难记住自己访问过网站的哪些部分，可能会浪费时间反复操作，然后又回到原点。&lt;/p&gt;
+&lt;h3 id="使用用户熟悉的语言"&gt;使用用户熟悉的语言
+&lt;/h3&gt;&lt;p&gt;Nielsen Norman Group的Jakob Nielsen&lt;a class="link" href="https://www.nngroup.com/articles/usability-for-senior-citizens/" target="_blank" rel="noopener"
+&gt;指出&lt;/a&gt;，不是所有设计师都会阅读自己设计出来的网页，因此就不会去思考人们阅读它所需的努力。&lt;/p&gt;
+&lt;p&gt;为老年用户设计网页时，要考虑展现信息的方式，他们听力不佳或者视觉损伤。&lt;a class="link" href="https://www.w3.org/" target="_blank" rel="noopener"
+&gt;WCAG提醒我们&lt;/a&gt;，内容必须可被感知，具有特殊障碍的用户仍然要能获取到这些信息。如果视频或音频的内容对于试听障碍者的体验至关重要，就要额外提供副标题或字幕。提供朗读功能，对于需要别人把文字读出来的用户至关重要。你可以尝试使用一个文字转语音（TTS）程序软件，&lt;a class="link" href="https://www.ivona.com/" target="_blank" rel="noopener"
+&gt;比如说Ivona&lt;/a&gt;（它很快会成为Amazon Polly）。&lt;/p&gt;
+&lt;p&gt;还有，要知道语音学、俚语和双关语对于特定年龄的群体是一项挑战。俚语会破坏用户体验，所以得确保文案迎合受众。避免使用那些会让用户迷惑的行话，坚持使用能够准确表达含义的语言。&lt;a class="link" href="https://www.dorisandbertie.com/goodcopybadcopy/2017/01/20/empathy-mapping-get-inside-head-reader" target="_blank" rel="noopener"
+&gt;同理心地图&lt;/a&gt;可以帮助你写出对特定目标群体有效的内容。&lt;/p&gt;
+&lt;h3 id="易于点击"&gt;易于点击
+&lt;/h3&gt;&lt;p&gt;55-65岁的年龄段，手眼协调和运动机能开始衰退，这就使得操作用户界面变得更加困难。对于运动机能逐渐衰退的用户，&lt;a class="link" href="http://webaim.org/articles/motor/motordisabilities" target="_blank" rel="noopener"
+&gt;鼠标是一个特别的问题&lt;/a&gt;，因为点击界面目标、在界面元素间移动、响应屏幕上的某个目标，都十分困难。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.smashingmagazine.com/2015/02/designing-digital-technology-for-the-elderly/" target="_blank" rel="noopener"
+&gt;按Smashing Magazine的Ollie Campbell所说的&lt;/a&gt;，要应对这种障碍，就要确保可点击的UI元素足够大（对角线长度至少11mm），并且与其他元素之间距离要足够大（至少2mm）。你也可以尽量减少鼠标点击，如有必要，可以只留一个可点击的元素。&lt;/p&gt;
+&lt;p&gt;对于运动机能损伤的用户，滚动条同样会导致可用性问题。按住细长的滚动条并执行滚动操作非常困难。而且，对于有阅读障碍的用户，滚动会影响他们的体验，因为在界面移动之后，他们要持续不断地重新找回之前阅读文字的位置。&lt;/p&gt;
+&lt;p&gt;简化滚动条——无论是外观还是感受。给用户多一些选择（点击滚动条箭头、点击页面自身的可拖动区域、拖动滑块、使用鼠标滚轮、或者使用键盘的上下键）。不过总而言之，还是尽可能避免产生滚动吧。&lt;/p&gt;
+&lt;p&gt;所幸的是，电脑键盘和移动触摸屏能帮助老年用户跟上时代。因为手指点按的机能退化得比其他机能要晚，许多老年用户更擅长使用电脑键盘和触摸屏。&lt;/p&gt;
+&lt;h3 id="使ui模式易于记忆帮助认知"&gt;使UI模式易于记忆，帮助认知
+&lt;/h3&gt;&lt;p&gt;对于任何想要通过UI来完成任务的用户，他们都需要尽可能快和简单地从A点（入口）到达B点（任务完成）。所以清晰的UI导航如此重要。&lt;/p&gt;
+&lt;p&gt;但对于老年人，UI导航系统还需要更直接地为用户流程提供方便。为什么？虽然我们的长期程序性记忆（记住如何做某件事）能力不容易随年龄增长改变，但我们的注意力在衰退，短期的情景记忆会受损。这就意味着，我们学习新概念的能力会有极限，比方说学习操作一套为年轻人设计的新界面。&lt;/p&gt;
+&lt;p&gt;应该尝试使用标准的图标和导航模式，例如顶部通栏，能够一眼看到所有选项，或者&lt;a class="link" href="http://usabilitygeek.com/12-effective-guidelines-for-breadcrumb-usability-and-seo/" target="_blank" rel="noopener"
+&gt;面包屑导航来引导用户&lt;/a&gt;通过几次点击前往特定的位置。这有助于用户习惯各功能所在位置，还有如何在网站上找到它们。&lt;/p&gt;
+&lt;p&gt;不要隐藏重要信息。保留面包屑导航来引导用户前往网站的相关区域。&lt;/p&gt;
+&lt;p&gt;还有，要避免出现非必要的链接。这么做可以增加用户的信任，鼓励他们点击链接，前往网站或应用中的重要位置。&lt;/p&gt;
+&lt;h3 id="了解你的用户基础"&gt;了解你的用户基础
+&lt;/h3&gt;&lt;p&gt;要使用户体验更愉快，应该要有一套捕捉目标用户需求的框架。但是，不同的用户成长在不同的科技年代，设计师们永远无法取悦所有年龄层的用户。&lt;/p&gt;
+&lt;p&gt;怎么解决？做用户测试。&lt;/p&gt;
+&lt;p&gt;即使设计师们遵循这些为老年用户设计的准则，但真正了解某人如何操作网站的唯一方法，就是做测试。对于老年用户，考虑使用边想边说的方法做&lt;a class="link" href="http://usabilitygeek.com/benefits-of-merging-quantitative-and-qualitative-data-in-ux-studies/" target="_blank" rel="noopener"
+&gt;定性分析&lt;/a&gt;，通过测试，你能看到受试者屏幕上发生的一切。这有助于增进你对于用户认知过程和物理限制的理解，并且确定UI系统的哪些部分需要再调整。&lt;/p&gt;
+&lt;p&gt;老年用户最大的一个痛点是难以看清和阅读屏幕内容。视觉或听觉障碍，意味着某些老年人要非常费劲地解读网站和移动设备上的内容。通过对你的界面设计进行真人测试，发现真实问题，你就会更准确的知道解决方案效果如何。&lt;/p&gt;
+&lt;p&gt;考虑使用原型工具来进行用户测试，&lt;a class="link" href="https://www.justinmind.com/" target="_blank" rel="noopener"
+&gt;例如Justinmind&lt;/a&gt;，可以实时演示你的设计。这能让你获得即时反馈，知道为何和如何解决设计上的问题——这是定性用户测试背后的原则。&lt;/p&gt;
+&lt;p&gt;而且，为什不再更进一步呢：把老年人受试者加入到设计过程中，让老年用户掌控自己的在线体验。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;老年用户群仍然有巨大的增长潜力。但就像其他任何用户群体一样，老年用户需要我们设计出符合他们需求的体验。随年龄而产生的局限意味着，数字科技中一些常规的吸引用户手段对老年用户不管用。&lt;/p&gt;
+&lt;p&gt;识别出老年用户的这些糟糕体验，可以避免设计师在设计中犯这些错误。用户测试是很安全的方式，确保你的用户得到他们所需的东西。把老年用户纳入到界面设计过程中，用户体验绝不会差。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;作者信息：Emily Grace Adiseshiah&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://usabilitygeek.com/ux-design-thinking-senior-citizen-user/" target="_blank" rel="noopener"
+&gt;http://usabilitygeek.com/ux-design-thinking-senior-citizen-user/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>提升色盲用户的体验</title><link>https://victor42.eth.limo/post/3509/</link><pubDate>Sun, 03 Jul 2016 00:02:52 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3509/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第138期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;据Colour Blind Awareness的统计，&lt;a class="link" href="http://www.colourblindawareness.org/colour-blindness/" target="_blank" rel="noopener"
+&gt;总人口的4.5%是色盲&lt;/a&gt;。如果你的用户多数是男性，则这个比例还要上升到8%。人们常常忘了为色盲设计，因为多数设计师&lt;em&gt;不是&lt;/em&gt;色盲。本文中，我们提出13条建议来改善色盲用户的体验——这些对视觉正常的用户同样有益。&lt;/p&gt;
+&lt;h2 id="色盲是什么"&gt;色盲是什么？
+&lt;/h2&gt;&lt;p&gt;有&lt;a class="link" href="http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/" target="_blank" rel="noopener"
+&gt;许多种类&lt;/a&gt;的色盲，但最终都能分成这几类：无法清晰辨认颜色、色彩混杂、无法区分特定颜色。&lt;/p&gt;
+&lt;p&gt;这些问题在特定环境中愈发严重，比如浏览网站。这包括低分辨率显示器、糟糕的光线、小移动端屏幕、远离大屏幕电视而坐。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;仅仅&lt;/em&gt;依靠色彩建立可读性和可见性，会让网站难以使用，最终影响了阅读和销售。&lt;/p&gt;
+&lt;p&gt;尽管下面这些建议并不全面，它们确实涵盖了色盲用户浏览网站时遇到的主要问题。&lt;/p&gt;
+&lt;h2 id="1-文字可读性"&gt;1. 文字可读性
+&lt;/h2&gt;&lt;p&gt;要确保文字容易阅读，它就应该遵循可读性规范，结合字色、背景色和字号：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“WCAG 2.0的AA级标准要求，普通字号的对比率要达到4.5:1，大字号的对比率要达到3:1（大字号是指14磅的加粗或加大文字，或者18磅及以上字号）”
+——&lt;a class="link" href="http://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener"
+&gt;WebAim色彩对比检查器&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面列举了一些颜色和字号组合，有的达到标准，有的没有：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-contrast-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/text-contrast-preview-opt.png"
+loading="lazy"
+alt="这表明了颜色和字号的组合形成了怎样的反差对比。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这表明了颜色和字号的组合形成了怎样的反差对比。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-contrast-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="2-背景图上的文字"&gt;2. 背景图上的文字
+&lt;/h2&gt;&lt;p&gt;背景图上的文字处理起来很微妙，因为图片局部或整张图都可能无法与文字形成足够的反差。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-preview-opt.jpg"
+loading="lazy"
+alt="背景照片上直接叠加白色文字导致可读性不足的网页示例"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;文字没有蒙层，直接覆盖在图片上。(图片来源：&lt;a class="link" href="https://unsplash.com/photos/N_Y88TWmGwA" target="_blank" rel="noopener"
+&gt;Jay Wennington&lt;/a&gt;) (&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-bad-large-opt.jpg" target="_blank" rel="noopener"
+&gt;View large version&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;降低背景透明度能够增强反差，让文字更容易阅读。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-preview-opt.jpg"
+loading="lazy"
+alt="背景图添加深色蒙层后白色文字反差更清晰的网页示例"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;文字覆盖在带有蒙层的图片上。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/text-overlay-good-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;或者，你可以给文字选择一个可靠的颜色，或者加上投影，其他任何符合品牌规范的方法都行。&lt;/p&gt;
+&lt;h2 id="3-颜色过滤器选择器和色盘"&gt;3. 颜色过滤器、选择器和色盘
+&lt;/h2&gt;&lt;p&gt;下图展示了&lt;a class="link" href="https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;amp;field-keywords=t&amp;#43;shirts" target="_blank" rel="noopener"
+&gt;Amazon的颜色过滤器&lt;/a&gt;，可以看到普通人与红绿色盲（分不清红色与绿色）的视觉效果。如果没有描述文字，就不可能从这么多选项中作出区分。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/amazon-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/amazon-preview-opt.jpg"
+loading="lazy"
+alt="不带标签的颜色过滤器，在红绿色盲看来是完全没法用的。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;不带标签的颜色过滤器，在红绿色盲看来是完全没法用的。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/amazon-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;在用户鼠标悬停时，Amazon展示了描述文字，但移动端上没有这一操作。&lt;/p&gt;
+&lt;p&gt;在下图中，&lt;a class="link" href="http://www.gap.co.uk/" target="_blank" rel="noopener"
+&gt;Gap&lt;/a&gt;在每个色彩旁边加上了文字标签，问题得以解决。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gap-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/gap-preview-opt.jpg"
+loading="lazy"
+alt="带有标签的色彩选择器，红绿色盲使用起来很轻松。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;带有标签的色彩选择器，红绿色盲使用起来很轻松。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gap-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这刚好也对正常视觉的人有益。例如，黑色与藏蓝在屏幕上很难区分。文字标签能让人免于猜测。&lt;/p&gt;
+&lt;h2 id="4-缺乏有效描述的照片"&gt;4. 缺乏有效描述的照片
+&lt;/h2&gt;&lt;p&gt;下图展示了&lt;a class="link" href="http://www.superdry.com/mens/t-shirts/details/55971/pt-classics-vintage-logo-t-shirt" target="_blank" rel="noopener"
+&gt;SuperDry&lt;/a&gt;网站上售卖的一件T恤。它的描述是“树叶纹理”，这太模棱两可了，因为树叶可以有许多颜色（绿色、黄色、棕色等等）。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/superdry-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/superdry-preview-opt.jpg"
+loading="lazy"
+alt="SuperDry商品页中仅用树叶纹理描述颜色的T恤图片示例"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;色盲难以了解这件SuperDry T恤是什么颜色。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/superdry-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Jaspe&lt;/em&gt;（其实应该是“jaspé”）是指随机的斑点或纹理，所以应该加上这样的特殊说明：“灰绿色树叶纹理”。&lt;/p&gt;
+&lt;h2 id="5-链接的辨识度"&gt;5. 链接的辨识度
+&lt;/h2&gt;&lt;p&gt;链接应该容易被发现，不必依赖颜色。下图模拟了全色色盲（看不到颜色）浏览&lt;a class="link" href="https://gds.blog.gov.uk/" target="_blank" rel="noopener"
+&gt;UK Government Digital Service (GDS)网站&lt;/a&gt;所见到的画面。许多链接都难以察觉。例如你有没有注意到“GDS team, User research”（标题下方）是链接？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gds-screenshot-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/gds-screenshot-preview-opt.jpg"
+loading="lazy"
+alt="GDS博客在全色色盲眼中的样子。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GDS博客在全色色盲眼中的样子。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gds-screenshot-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;要发现一个链接，用户只能鼠标悬停，等待指针变成一个手形。在移动端，他们只能点按文字，希望它触发页面请求。&lt;/p&gt;
+&lt;p&gt;上面带有图标的链接更容易察觉。而那些没有图标的，加一条下划线是个好方法，GDS在文章正文部分正是这么做的：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gds2-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/gds2-preview-opt.jpg"
+loading="lazy"
+alt="带下划线的链接更容易被全色色盲察觉。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;带下划线的链接更容易被全色色盲察觉。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/gds2-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="6-色彩组合"&gt;6. 色彩组合
+&lt;/h2&gt;&lt;p&gt;在现实世界，你无法控制色彩的组合排列：红色的苹果可能掉进绿色的草丛里。但是，我们&lt;em&gt;可以&lt;/em&gt;控制网页设计中使用的颜色。下面这些色彩组合应当尽量避免：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;绿色/红色&lt;/li&gt;
+&lt;li&gt;绿色/棕色&lt;/li&gt;
+&lt;li&gt;蓝色/紫色&lt;/li&gt;
+&lt;li&gt;绿色/蓝色&lt;/li&gt;
+&lt;li&gt;浅绿色/黄色&lt;/li&gt;
+&lt;li&gt;蓝色/灰色&lt;/li&gt;
+&lt;li&gt;绿色/灰色&lt;/li&gt;
+&lt;li&gt;绿色/黑色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/combinations-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/combinations-preview-opt.png"
+loading="lazy"
+alt="色盲眼中的色彩组合。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;色盲眼中的色彩组合。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/combinations-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="7-表单的默认文字"&gt;7. 表单的默认文字
+&lt;/h2&gt;&lt;p&gt;没有标签，只用框内的默认文字提示，这是个问题，因为默认文字通常缺乏足够的对比度。&lt;a class="link" href="https://appleid.apple.com/account" target="_blank" rel="noopener"
+&gt;Apple&lt;/a&gt;的注册表单就有这样的问题，请看下图：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/apple-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/apple-preview-opt.jpg"
+loading="lazy"
+alt="Apple的注册表单使用了不带标签的文字提示。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Apple的注册表单使用了不带标签的文字提示。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/apple-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;不建议增强对比度，因为那样就难以区分默认提示和用户输入的文字。&lt;/p&gt;
+&lt;p&gt;最好还是使用标签——毕竟是&lt;a class="link" href="https://www.christianheilmann.com/2015/12/04/a-quick-reminder-on-how-and-why-to-use-labels-in-forms-to-make-them-more-accessible/" target="_blank" rel="noopener"
+&gt;最佳实践&lt;/a&gt;——对比要鲜明，下图中的&lt;a class="link" href="http://www.made.com" target="_blank" rel="noopener"
+&gt;Made.com&lt;/a&gt;正是这么做的：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/label-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/label-preview-opt.jpg"
+loading="lazy"
+alt="Made.com使用了对比度强烈的标签。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Made.com使用了对比度强烈的标签。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/label-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="8-主按钮"&gt;8. 主按钮
+&lt;/h2&gt;&lt;p&gt;通常情况下，只有主按钮使用颜色来表现，&lt;a class="link" href="https://www.argos.co.uk" target="_blank" rel="noopener"
+&gt;Argos&lt;/a&gt;在它的登录页面就是这么做的：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/argos-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/argos-preview-opt.jpg"
+loading="lazy"
+alt="Argos的登录界面依靠颜色来强调主按钮。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Argos的登录界面依靠颜色来强调主按钮。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/argos-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;其实应该考虑通过尺寸、位置、粗细、对比度、边框、图标和任何其他手段来辅助——只要在品牌指南的范畴内。例如，&lt;a class="link" href="http://kidly.co.uk" target="_blank" rel="noopener"
+&gt;Kidly&lt;/a&gt;就运用了尺寸、颜色和图标来凸显：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/kidly-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/kidly-preview-opt.jpg"
+loading="lazy"
+alt="Kidly用了尺寸、颜色和图标来强调主按钮。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Kidly用了尺寸、颜色和图标来强调主按钮。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/kidly-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="9-警告消息"&gt;9. 警告消息
+&lt;/h2&gt;&lt;p&gt;成功和错误的消息通常各自选用绿色和红色。多数色盲没有全色色盲的烦恼，自然能够把不同的信息与不同颜色联系起来。但是，使用比如“成功”这样的前置文案，或者用我喜欢的图标形式，就能更快更轻松地阅读，就像下图这样：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/messaging-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/messaging-preview-opt.jpg"
+loading="lazy"
+alt="带有前置文案和图标的警告消息。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;带有前置文案和图标的警告消息。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/messaging-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="10-表单必填项"&gt;10. 表单必填项
+&lt;/h2&gt;&lt;p&gt;Denoting这种用颜色表示的必填项有问题，因为有些人可能看不出区别。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/required-large-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/required-preview-opt.jpg"
+loading="lazy"
+alt="Denoting的必填项用颜色表示。()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Denoting的必填项用颜色表示。(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/messaging-large-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;其实应该考虑这些方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;给必填项加上星号&lt;/li&gt;
+&lt;li&gt;更好的方法，给必填项加上“必填”&lt;/li&gt;
+&lt;li&gt;如果可能的话，把所有选填项都去掉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="11-图表"&gt;11. 图表
+&lt;/h2&gt;&lt;p&gt;颜色经常用来区分图表中不同的指标。下图显示了不同视觉能力的人看到的样子。右边的图表对色盲做了优化。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_normal-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/graphs_normal-preview-opt.png"
+loading="lazy"
+alt="正常视觉者眼中的图表()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;正常视觉者眼中的图表(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_normal-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_protan-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/graphs_protan-preview-opt.png"
+loading="lazy"
+alt="红绿色盲眼中的图表()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;红绿色盲眼中的图表(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_protan-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_achrom-large-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-07/07-03/graphs_achrom-preview-opt.png"
+loading="lazy"
+alt="全色色盲眼中的图表()"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;全色色盲眼中的图表(&lt;a class="link" href="https://cdn.victor42.work/posts/2016-07/07-03/graphs_achrom-large-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;使用纹理，并且尽可能加上每个指标的文字，能让图表更易理解。如果文字不合适——通常是小尺寸饼状图的情况——用一个字母就足够了。&lt;/p&gt;
+&lt;h2 id="12-缩放"&gt;12. 缩放
+&lt;/h2&gt;&lt;p&gt;浏览器有一项易用功能，让人根据需要尽可能放大页面。这点能提升易读性，在移动设备上尤其有帮助。&lt;/p&gt;
+&lt;p&gt;不幸的是，&lt;a class="link" href="https://developer.mozilla.org/en/docs/Mozilla/Mobile/Viewport_meta_tag" target="_blank" rel="noopener"
+&gt;Viewport Meta标签&lt;/a&gt;可以禁用缩放，这也是个问题。比如，对于色彩对比度而言，字号可能过小了——放大则能有效增大字号，让文字更易阅读。所以不要禁用网站的缩放。&lt;/p&gt;
+&lt;h2 id="13-相对字号"&gt;13. 相对字号
+&lt;/h2&gt;&lt;p&gt;和前一点类似，浏览器提供了放大字号的功能（并不是放大整个页面），也是为了提升可读性。但是，如果字号被指定为绝对单位时，例如像素，有些浏览器会禁用这个功能。应该使用相对字号单位，例如em，确保所有浏览器都能提供这个功能。&lt;/p&gt;
+&lt;h2 id="工具"&gt;工具
+&lt;/h2&gt;&lt;p&gt;有许多工具能帮助你为色盲群体设计：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.checkmycolours.com/" target="_blank" rel="noopener"
+&gt;Check My Colours&lt;/a&gt;：如果你有现成的网站，可以输入URL获得反馈，告诉你哪里需要改善。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener"
+&gt;WebAim的色彩对比度检查器&lt;/a&gt;：提供两种颜色，看它们是否符合易用性规范。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://chrome.google.com/webstore/detail/i-want-to-see-like-the-o/jebeedfnielkcjlcokhiobodkjjpbjia?hl=en-GB" target="_blank" rel="noopener"
+&gt;I Want To See Like The ColorBlind&lt;/a&gt;：在Chrome中对网页应用色盲模式滤镜。&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://colororacle.org/" target="_blank" rel="noopener"
+&gt;Color Oracle&lt;/a&gt;：Windows、Mac和Linux平台的一款色盲模拟器，展示常见的视觉障碍人士看到的画面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;本文中的建议并不全面，它们并非要应用到每个场合中。但是，它们确实涵盖了色盲用户浏览网站时遇到的主要问题。&lt;/p&gt;
+&lt;p&gt;更重要的是要消化这些原则，这样才能将它们融入到你的设计中。最终，网页并不是仅仅为了好看——而是要易于每个人使用，包括色盲人士。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://www.smashingmagazine.com/2016/06/improving-ux-for-color-blind-users/" target="_blank" rel="noopener"
+&gt;https://www.smashingmagazine.com/2016/06/improving-ux-for-color-blind-users/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://www.smashingmagazine.com/author/adamsilver/?rel=author" target="_blank" rel="noopener"
+&gt;Adam Silver&lt;/a&gt;
+&lt;a class="link" href="http://adamsilver.io/" target="_blank" rel="noopener"
+&gt;Adam Silver&lt;/a&gt; helps people and companies make the web simple and human. He specialises in UX, Front-end engineering and Strategy. Oh, and he&amp;rsquo;s also the author of &lt;a class="link" href="http://maintainablecss.com/" target="_blank" rel="noopener"
+&gt;MaintainableCSS&lt;/a&gt; which is about writing modular, scalable and maintainable CSS.&lt;/p&gt;</description></item></channel></rss>

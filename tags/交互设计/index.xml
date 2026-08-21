@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>交互设计 on Victor42</title><link>https://victor42.eth.limo/tags/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1/</link><description>Recent content in 交互设计 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 23 Aug 2015 12:53:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml"/><item><title>交互设计的5个常见错误</title><link>https://victor42.eth.limo/post/3458/</link><pubDate>Sun, 23 Aug 2015 12:53:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3458/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第100期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://rflx.bjornborg.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/9.jpg"
+loading="lazy"
+alt="Bjornborg 品牌网站滚动交互效果展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/interaction-design/" target="_blank" rel="noopener"
+&gt;交互设计&lt;/a&gt;从来都不容易。它包括了用户行为的深度分析，和一丝不苟的规划。随着新技术和交互设计模式的出现，事情并不会变容易。&lt;/p&gt;
+&lt;p&gt;艳丽的图片、顺畅的鼠标悬停效果和意外的动画，不再那么容易引起用户注意了。但难题却没有解决——如何创造令人愉快的用户体验，让用户面带笑容完成转化？如果你对常见的设计陷阱有所警觉，就能更少犯错。&lt;/p&gt;
+&lt;p&gt;为了方便——可能也为了让你知道你不是独自一人——以下总结了最常见的&lt;strong&gt;交互设计误区&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id="1-铺天盖地的创新"&gt;1. 铺天盖地的创新
+&lt;/h2&gt;&lt;p&gt;网页设计师都非常有创造力。我们希望通过作品来表达自我。我们总是在寻求创新的设计方法来脱颖而出。但是，当涉及到交互设计时，创新并不总是好事。甚至会给你的网站带来坏的影响。用户渴望熟悉的事物，他们总是会遵循一些特定的操作方式。&lt;/p&gt;
+&lt;p&gt;Randy J. Hunt，Etsy的创意总监和&lt;a class="link" href="http://www.amazon.com/gp/product/0321929039/ref%3Das_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0321929039&amp;amp;linkCode=as2&amp;amp;tag=vocabinet-20" target="_blank" rel="noopener"
+&gt;Product Design for the Web&lt;/a&gt;作者，清晰地陈述过：“嘿，设计师：别再TM自作聪明了。”在文章中，他&lt;a class="link" href="http://www.fastcodesign.com/3021554/innovation-by-design/hey-designers-stop-trying-to-be-so-damned-clever" target="_blank" rel="noopener"
+&gt;详细解释了&lt;/a&gt;为什么别在网页设计上过分热衷创新。&lt;/p&gt;
+&lt;p&gt;以Iotorama网站为例。它挺漂亮，音乐深情，但是看着满屏幕移动的球，用户不知所措。不要误解我的意思，这个项目非常出色，超级有创造力！我喜欢这个大胆的创意，但它一点也不直观。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.iotorama.io" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/1.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“还有一个例子项目背后”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还有一个例子。&lt;a class="link" href="http://www.irwinmitchell.com/safety-on-the-slopes.html" target="_blank" rel="noopener"
+&gt;Safety on the Slopes&lt;/a&gt;项目背后的创作者想到一个巧妙的交互式图形，用来警告用户冬季运动的危险。非常创新，同时也很直观、有趣、令人印象深刻。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.irwinmitchell.com/safety-on-the-slopes.html" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/2.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“令人困惑的导航不要自”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="2-令人困惑的导航"&gt;2. 令人困惑的导航
+&lt;/h2&gt;&lt;p&gt;“&lt;em&gt;不要自作聪明&lt;/em&gt;”的准则也可以沿用到导航上。有些设计师试图使用折衷的名称来寻求新颖。比如Chijoff网站就让用户不知道他们究竟提供什么，如何聘请他们。需要看上好一阵子，才能理解“&lt;em&gt;共同创造&lt;/em&gt;”页面实际上就等同于“&lt;em&gt;服务&lt;/em&gt;”。甚至还有，通读整页后用户仍然不知道该怎么做……页面末尾只有个小注册表单用来获取最新的行业新闻和提示！在“联系”页面也没有表单，只有邮编和邮箱地址。使人们联络或聘用他们非常困难。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.chijoffco.com/co-create" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/3.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“你能猜出在网站中”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;你能猜出“Universe”在&lt;a class="link" href="http://www.maisonmargiela.com/" target="_blank" rel="noopener"
+&gt;Maison Margiela&lt;/a&gt;网站中是什么意思吗？实际上它链接到他们的Facebook主页。谁能想到？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.maisonmargiela.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/5.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“相反看看的网站它的创”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;相反，看看legworkstudio的网站。它的创意与超凡令人震撼。导航非常清晰不含糊。用户绝对不会迷路。&lt;/p&gt;
+&lt;h2 id="3-杂乱无章"&gt;3. 杂乱无章
+&lt;/h2&gt;&lt;p&gt;有一段时期，网站都试图把一切可能的东西摆上台面。那些日子已经一去不复返，但是很多网站仍然在犯这个错误。看看这个在线商城：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://flipkart.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/6.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“设计师试图坚持一种单”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设计师试图坚持一种单色配色，但是大量颜色不同的色块、logo和字体，在这个页面上就足够让用户步履蹒跚。搜索框有着醒目的文案：“那么，今天你想要什么？”，但整个布局的外观和感觉非常过时。&lt;/p&gt;
+&lt;p&gt;EBay是主要在在线零售商之一，在这点上做得不错。没有用产品图片、促销和各种行动召唤塞满整个页面，而是保持它干净简洁，强调他们确实希望用户首先关注的东西，并附上清晰的提示，接下来该怎么做。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://ebay.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/7.jpg"
+loading="lazy"
+alt="eBay商城干净简洁的网页首页面版式设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="4-注意对比大哥"&gt;4. 注意对比，大哥！
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://designmodo.com/contrast-meaning/" target="_blank" rel="noopener"
+&gt;对比&lt;/a&gt;是创造视觉层级、吸引用户注意特定元素的最重要的方式之一。在网页设计中，对比不仅仅意味着颜色使用，也包括尺寸、形状和位置。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://modernthemes.net" target="_blank" rel="noopener"
+&gt;这个网站&lt;/a&gt;是最简单生动的例子。他们做到了统一一致，但整体背景和按钮并不够吸引人，尤其是在订购按钮上。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/8.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“相比来看这个颜色选用”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;相比来看&lt;a class="link" href="http://rflx.bjornborg.com" target="_blank" rel="noopener"
+&gt;这个&lt;/a&gt;。颜色选用很接近，但结果却完全不同。而且，创新的滚动效果，流畅地介绍了产品的新功能——反光材料。很酷，对吧？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://rflx.bjornborg.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/9.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“忽视表单样式表单设计”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="5-忽视表单样式"&gt;5. 忽视表单样式
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://designmodo.com/ux-tips-registration-forms/" target="_blank" rel="noopener"
+&gt;表单设计&lt;/a&gt;是用户体验最基本的部分。每个网站都有一个目标——无论是树立榜样、直接售卖产品或是提供信息。不幸的是，许多网站有着光鲜的首页，却宁可用长表单和复杂的验证码来使用户厌烦致死。除非用户有强烈的先导动机，否则他们就会离开。&lt;/p&gt;
+&lt;p&gt;有了&lt;a class="link" href="http://www.psd2html.com/js-custom-forms/" target="_blank" rel="noopener"
+&gt;JCF&lt;/a&gt;这样的有效的跨浏览器的解决方案，是时候忘记那些丑陋的默认表单元素了，转向一种更加沉浸的用户体验吧。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.dkkma.com/contact/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/10.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“另一件气人的事是表单”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;另一件气人的事，是表单要求太多信息，或者没通过完善测试。例如&lt;a class="link" href="http://sketchybusiness.io/" target="_blank" rel="noopener"
+&gt;sketchybusiness.io&lt;/a&gt;的表单高亮显示了所有的空白框，甚至包括非必填项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/11.jpg"
+loading="lazy"
+alt="交互设计的5个常见错误设计中关于“如果你看了的表单你绝”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果你看了&lt;a class="link" href="http://mostlyserious.io/" target="_blank" rel="noopener"
+&gt;mostlyserious.io&lt;/a&gt;的表单，你绝对会喜欢它的鼠标悬停和按钮按下状态。而且，“别害羞”的提示文案增加了一丝亲切幽默的感觉。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://mostlyserious.io/get-started/#start-project" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/08/12.jpg"
+loading="lazy"
+alt="Mostlyserious联系表单中的友好悬停与按钮状态"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="最后"&gt;最后……
+&lt;/h3&gt;&lt;p&gt;不要懒于测试！对你重要的对于顾客未必重要。他们在哪里遇到问题卡住？是导航、奇特的视觉差滚动效果、还是长时间加载的视频？用户测试的最大好处之一，是你可以通过用户的视角来观察，关注他们的需求、做出改进。不要抑制你的创造力。要牢记网站访客可能会感到困惑和沮丧。&lt;/p&gt;
+&lt;p&gt;你见过最糟的交互设计错误是什么？可以在评论中分享你的想法和故事。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://designmodo.com/5-interaction-design-mistakes/" target="_blank" rel="noopener"
+&gt;http://designmodo.com/5-interaction-design-mistakes/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://designmodo.com/author/lisnyak/" target="_blank" rel="noopener"
+&gt;Anna Lisnyak&lt;/a&gt;
+Anna Lisnyak is the Art Director at &lt;a class="link" href="http://www.psd2html.com/" target="_blank" rel="noopener"
+&gt;PSD2HTML.com&lt;/a&gt;, the leading PSD to HTML and web development company. With over 8 years of graphic design experience, Anna is an avid reader and blogger. She has an exceptional eye for details and enjoys everything related to typography, web and UI/UX design.&lt;/p&gt;</description></item><item><title>热门移动端输入交互</title><link>https://victor42.eth.limo/post/3449/</link><pubDate>Sun, 12 Jul 2015 12:43:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3449/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第94期]&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="深入了解时下最热门应用的设计模式"&gt;深入了解时下最热门应用的设计模式
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;本文中，&lt;a class="link" href="http://uxpin.com/" target="_blank" rel="noopener"
+&gt;UXPin – 用户体验设计应用&lt;/a&gt;的Chris Bank会讨论用户输入设计模式的重要性，还有来自时下最热门移动应用的具体案例——更多案例和超过45种移动端设计模式，都在UXPin的免费电子书&lt;a class="link" href="http://uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;《2014移动UI设计模式》&lt;/a&gt;中有提到。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;任何移动应用，若没有用户起初和持续不断的输入，就什么也不会发生。因此，移动产品设计师、开发者和产品经理要了解最佳的输入方式，这点至关重要。尽管移动应用——还有使用它们的用户——通常都很独特，但仍有很多通用模式（新旧都有）用来解决这一特殊问题。&lt;/p&gt;
+&lt;h2 id="用户输入设计的6项目标"&gt;用户输入设计的6项目标
+&lt;/h2&gt;&lt;p&gt;深入探讨这些模式之前，理解用户输入设计的6项主要目标非常重要——我把它们列在下面：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;选择一种适合的输入和数据录入方式&lt;/li&gt;
+&lt;li&gt;减少输入的工作量&lt;/li&gt;
+&lt;li&gt;设计有吸引力的数据录入界面&lt;/li&gt;
+&lt;li&gt;通过验证检查来减少输入错误&lt;/li&gt;
+&lt;li&gt;设计必填项说明&lt;/li&gt;
+&lt;li&gt;开发有效的输入控件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="模式总览"&gt;模式总览
+&lt;/h2&gt;&lt;p&gt;记住上面几项目标，以下设计模式，在本文中都有详细讨论，在我们的电子书&lt;a class="link" href="http://uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;《2014移动UI设计模式》&lt;/a&gt;中还有更深入的探讨：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;智能键盘&lt;/li&gt;
+&lt;li&gt;默认值和自动补全&lt;/li&gt;
+&lt;li&gt;直接进入（或者说“快速登录”）&lt;/li&gt;
+&lt;li&gt;操作栏&lt;/li&gt;
+&lt;li&gt;社交账号登录&lt;/li&gt;
+&lt;li&gt;大按钮&lt;/li&gt;
+&lt;li&gt;滑动操作&lt;/li&gt;
+&lt;li&gt;通知&lt;/li&gt;
+&lt;li&gt;隐藏式控件&lt;/li&gt;
+&lt;li&gt;扩展式输入框&lt;/li&gt;
+&lt;li&gt;撤销&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="1-智能键盘"&gt;1. 智能键盘
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Smart-Keyboards.jpg"
+loading="lazy"
+alt="Facebook Paper, Android通讯录"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Facebook Paper, Android通讯录&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想要快速键入信息。&lt;/p&gt;
+&lt;h3 id="解决方案"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;用户点按进入应用某个输入区块，在他们键入时要提供与数据相关的键盘。这样免去他们在字母与数字键盘间切换，不用寻找所需的按钮，或者多一步操作来激活键盘。这不仅为了用户方便，也可作为一种指示，注明用户应该输入什么类型的数据。因此移动平台的输入框可以高亮显示，这增加了灵活性，决定了哪些按钮应该突出显示。&lt;/p&gt;
+&lt;p&gt;例如，在通讯录或拨号器里输入手机号码时，用户并不需要完整键盘。点按这些输入框时，会弹出数字键盘，而非完整键盘。去掉了令人分心的不必要的按钮，流程更加顺畅。类似的，点按浏览器地址栏，会弹出一个略有改动的键盘，“/”和“.com”按钮就显示在空格键旁边，而非隐藏于符号内。深入了解系统提供的这些智能键盘类型，你的UI可以根据用户当前的操作而调整。&lt;/p&gt;
+&lt;h2 id="2-默认值和自动补全"&gt;2. 默认值和自动补全
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Default-Values-Autocomplete.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Skype, Flightboard&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-1"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想要快速完成操作。&lt;/p&gt;
+&lt;h3 id="解决方案-1"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;向用户提供预置的默认值，或者基于之前输入的数据生成的快速选项。由此预测常用选项，让用户更容易进行信息录入。这可以和实用的自动补全进行搭配，就像Google Play商店的搜索那样，加快速度，显著提升用户体验。这种模式尤其适用于用户输入的标准化，并预知问题的发生。以Skype为例，自动在电话号码前加上国家码前缀。这在用户的角度是有意义的，因为他们通常并不习惯输入这些信息，但它在这个环境中很重要，因为Skype是个国际呼叫应用。&lt;/p&gt;
+&lt;p&gt;另一种方式是保存用户上次输入的信息，当用户输入或搜索时，展现这些最近使用的选项。例如，Flightboard在搜索框下面列出了之前使用过的地理位置，让用户免于再次输入。多数地图或导航应用也采用了这种模式，搜索方位时自动输入用户当前位置，减少用户点按次数。因为这是最常发生的情况。&lt;/p&gt;
+&lt;h2 id="直接进入或者说快速登录"&gt;直接进入（或者说“快速登录”）
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/wunderlist.jpg"
+loading="lazy"
+alt="热门移动端输入交互的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Wunderlist&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-2"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想在做决定前尝试一下。&lt;/p&gt;
+&lt;h3 id="解决方案-2"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;很多应用允许用户直接进入，其他什么也不用做——甚至包括注册或登录。&lt;/p&gt;
+&lt;p&gt;记住，用户同时只能做一件事，他们没有足够时间尝试每个新产品。随着应用越来越细分化，在培育用户之前，找到高质量用户或领袖用户愈发重要——他们可能会讨厌你的产品，或者迅速意识到这不是他们要的。向用户索要账号注册信息比较困难，低的注册转化率会与注册用户数相互抵消。从积极方面来看，让用户直接体验产品，他们更容易被吸引，这取决于首次体验时能探索多深。这比引导页的UI模式更有效，我们会在下次讲到那些。因为它直接呈现在用户面前，而不是告诉用户如何使用。&lt;/p&gt;
+&lt;p&gt;推迟注册对于Carousel或Duolingo这样的应用就不起作用，它们依赖用户数据来运转。但像Wunderlist或Houzz这样应用可以让用户直接进来，在注册前先使用这个应用。通常，注册只是增加了额外的好处，使它更具吸引力，比如Wunderlist的跨设备同步，或是在Houzz中创建灵感集。推迟注册不一定总是好的，不过“注册前尝试”是个提升应用吸引力的好办法。&lt;/p&gt;
+&lt;h2 id="4-操作栏"&gt;4. 操作栏
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Action-Bars.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Facebook Paper, Behance&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-3"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户需要常用操作的快捷入口。&lt;/p&gt;
+&lt;h3 id="解决方案-3"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;在应用的操作栏（用iOS术语叫“toolbar”）提供重要操作的快速入口。尽管导航栏主宰着网页和早期的移动应用设计，其他一些模式的使用，诸如抽屉菜单、滑动侧边栏、链接集合、按钮变换、垂直的基于内容的导航等，造就了更简洁的应用界面，让人关注主要和次要操作项，忽略副导航。这些应用的常用操作，就是搜索、分享和创建新内容。固定菜单不仅让用户更加熟悉UI，也去除了杂乱，聚焦于用户相关的重要操作。&lt;/p&gt;
+&lt;h2 id="5-社交账号登录"&gt;5. 社交账号登录
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Social-Login.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Beats Music, Flipboard&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-4"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想要更简单的注册和登录方式&lt;/p&gt;
+&lt;h3 id="解决方案-4"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;整合社交媒体注册可以让用户通过已有账号登录。这意味着他们要少操心一组用户名/密码，同时你也不必太担心密码安全。Facebook、Twitter和Google是最主要的OAuth登录提供方，你可以依据平台和目标用户，整合其中所有或部分到应用中，用户不必再设置一个未来可能不会用到的独立账号。使用这种登录注册模式也能为你提供用户的一些基本数据（他们使用时自动输入的数据），不强迫他们在刚刚下载的陌生应用中输入详细信息，始终保持注册流程的简捷。这个简单的功能可以极大提升用户体验，毫无疑问这种模式是众望所归。&lt;/p&gt;
+&lt;h2 id="6-大按钮"&gt;6. 大按钮
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Huge-Buttons.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tinder, Shazam&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-5"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想立刻知道他们该采取哪个操作。&lt;/p&gt;
+&lt;h3 id="解决方案-5"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;理想的触摸屏点按尺寸可能是72像素，但某些应用比如Tinder，给出了巨大的按钮。你就清楚知道该怎么做。无论何时、正在做什么，你都能迅速操作——即使你没有在看，也很难忽略这些大块的按钮。这在相对简单的应用中尤其有价值，其中用户只有有限的操作，因此就更有理由在各种环境中使它更容易。以Shazam为例，旨在看电视或听音乐时使用，它确实只有这一个功能。在这种令人分心的多任务状态下，巨大的按钮是非常棒的改善。&lt;/p&gt;
+&lt;h2 id="7-滑动操作"&gt;7. 滑动操作
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Swiping-for-Actions-.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Carousel&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-6"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想关注具体内容。&lt;/p&gt;
+&lt;h3 id="解决方案-6"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;允许内容滑出或移出屏幕。这给用户提供了非常直观的信息处理方式。例如Google Now的“卡片”，当你不需要时可以滑动删除，清除杂乱。类似的，Tinder的个人资料也可以右滑或左滑来表示赞同或否定。这种模式与我们之前在导航模式中讨论的滑动视图不同。此处，滑动操作被当做一种操作，而非纯粹浏览。有些应用结合了这两种滑动模式，例如Carousel，滑到一边可以浏览大量照片，同时上滑或下滑操作可以分享或隐藏。Mailbox使左右滑动操作在邮件客户端中发扬光大，通过相应的左滑和右滑操作，你可以将邮件分别标记为已读或稍后处理。在Secret中，发现新操作与探索新菜单的方式相同。在一条秘密上左滑表示喜欢。&lt;/p&gt;
+&lt;h2 id="8-通知"&gt;8. 通知
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Notifications.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;LinkedIn, Facebook&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-7"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想知道新动态或操作，他们要瞄一眼&lt;/p&gt;
+&lt;h3 id="解决方案-7"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;在视觉上通过高亮来标记新内容。这种模式有很多方式。例如，iOS引领的带数字的小红点，如今很多其他应用中也能看到，例如LinkedIn、Facebook或Quora。Twitter也这样处理通知按钮，不过在时间轴图标上方也有个小点，用一种更微妙的方式来表示新动态。另一种表现通知的方式，是在应用中滑出一条banner来显示新动态。Facebook应用也这么做了，当信息流中有新项目时显示一个小弹出提示。&lt;/p&gt;
+&lt;h2 id="9-隐藏式控件"&gt;9. 隐藏式控件
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Discoverable-Controls.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Secret&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-8"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户要在应用中快速激活次要控件，还有那些只与特定区域或内容相关的控件。&lt;/p&gt;
+&lt;h3 id="解决方案-8"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;清理杂乱，让用户只在需要时发现特定操作。这些隐形的控件可以通过各种手势来触发——滑动、点按、双击、长按等等。（这些我们在手势模式中讨论过）。这让你可以将这些东西置于屏幕外，节省宝贵的屏幕空间。以Secret为例，就使用手势代替了可见的控件。右滑触发操作菜单，这是我们之前提过的抽屉的极简版。创建内容时，用户可以水平滑动或在背景上垂直滑动来改变颜色与模式，如果用了图片，还能改变亮度、饱和度与模糊度。没有其他控件来控制这些——也不应该有。这种UI设计模式如此直观和干净，你一定会看到更多此类交互。Pinterest也使用手势来代替按钮的应用。长按图片会显示采集或评论按钮，拖动弹出控件到按钮上执行。&lt;/p&gt;
+&lt;p&gt;Uber是这种设计模式的又一个案例。选择座驾类型后，通过点按滑动按钮，Uber会在预订座驾和费用估算间切换。这是简单却重要的UI设计模式，我每次试着呼叫座驾，又不想被Uber的溢价剥削时，都会为此会心一笑。Snapchat和Facebook Messenger中，在任何朋友上左滑，都能及时触发相应功能。&lt;/p&gt;
+&lt;h2 id="10-扩展式输入框"&gt;10. 扩展式输入框
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Expandable-Inputs.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;YouTube&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-9"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想专注于内容，不愿为了控件牺牲屏幕空间。&lt;/p&gt;
+&lt;h3 id="解决方案-9"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;将控件设计成点按展开式的。这能在用户不需要时隐藏多数控件。例如YouTube和Facebook把搜索栏藏在一个图标里面，用户点按时搜索栏才展开，节省了屏幕空间。&lt;/p&gt;
+&lt;h2 id="11-撤销"&gt;11. 撤销
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Undo.jpg"
+loading="lazy"
+alt="国外优秀设计官方网站的撤销页面版式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Gmail, Chrome&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-10"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户希望没有阻碍地快速操作（比如对话框），但要有还原意外操作的选项。&lt;/p&gt;
+&lt;h3 id="解决方案-10"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;提供一个简便的方法让用户撤销操作，不要在操作前提醒他们确认。有些由于意外或匆忙而产生的操作，会导致不便或数据损失，例如删除邮件或编辑文字。用户可能在不知道结果的情况下会完成一项操作，宽容的UI会让他们尝试，这更加友好有吸引力。撤销功能对高级用户也很有用，他们会赞赏这种操控感。UI不会在操作过程中反复阻拦他们，询问是否确定。确认对话框用来解释当前状况时很有用，但用户真正看见操作结果后才能理解其中含义。为避免如此，最好去掉它们，并提供一种弥补错误的防护措施。&lt;/p&gt;
+&lt;h2 id="获取用户的输入"&gt;获取用户的输入
+&lt;/h2&gt;&lt;p&gt;追踪有用户输入的地方，看他们是否注意到那些输入框，是否经常使用输入控件，他们从应用中的什么界面进入，将要前往哪里（也就是使用流程）等等。持续改变排列、顺序、尺寸，调整这些控件，让用户更多执行你希望的操作。当然，还要深入考虑，用户在输入时是如何在使用你的移动应用——确保设计应用时没有忽略明显的要点。&lt;/p&gt;
+&lt;p&gt;要深入了解热门公司如何运用新的和现有输入设计模式，学习超过45种其他的模式，请看UXPin的新电子书，&lt;a class="link" href="http://uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;《2014移动UI设计模式》&lt;/a&gt;。取其精华去其糟粕——要进行适当调整来解决实际问题，当然最重要的也是解决用户的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/mobile-ui-design-patterns-cover.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“原文链接”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/user-input-patterns-mobile/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Chris Bank
+Chris Bank has more than a decade of product and marketing experience in tech, leading several companies to acquisition. He currently leads growth at &lt;a class="link" href="http://uxpin.com/" target="_blank" rel="noopener"
+&gt;UXPin&lt;/a&gt;, a leading wireframing and prototyping web platform. You can connect with him on &lt;a class="link" href="http://www.mr-bank.com/" target="_blank" rel="noopener"
+&gt;his website&lt;/a&gt; and &lt;a class="link" href="https://twitter.com/sbanker" target="_blank" rel="noopener"
+&gt;Twitter&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>时间感知对交互设计的影响</title><link>https://victor42.eth.limo/post/3442/</link><pubDate>Sun, 31 May 2015 15:48:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3442/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第88期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/Users-will-stop-Searching-for-Something-after-3-Clicks.jpg"
+loading="lazy"
+alt="时间感知对交互设计的影响的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;a class="link" href="http://designmodo.com/interaction-design/" target="_blank" rel="noopener"
+&gt;交互设计&lt;/a&gt;中如何加以利用时间？它是可控的吗？&lt;/p&gt;
+&lt;p&gt;元素的时间控制难以描述，但我们都能感觉得到，从令人厌烦的等待加载，到令人愉快的轻松穿梭于页面间。时间控制的范围很广，大到可感受到的时间增量，小到区区毫秒。单独看似乎没有意义，但无论如何，它积累起来就能影响用户的看法。&lt;/p&gt;
+&lt;p&gt;本文中我们讨论的内容涵盖一切随时间变化的元素：视频、音频、动画等等。我们会从时间为何重要讲起，然后讨论时间控制的要素，还有如何改善它们，之后我们会探索快速和简洁如何发挥作用。&lt;/p&gt;
+&lt;h2 id="时间为何重要"&gt;时间为何重要
+&lt;/h2&gt;&lt;p&gt;时间是个难以掌控的概念，因为它的范围如此广阔。就像一个电子的大小，相对于我们银河系几乎无法察觉。一毫秒的跨度也一样，相比一个千年，根本感受不到。&lt;/p&gt;
+&lt;p&gt;但是数字世界的时间与人类的时间不同。几秒的差距，就决定了体验是令人沮丧还是令人愉悦。我们可以把它归为基本的人类心理学：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;**记忆与注意力是有限的——**正如我们在&lt;a class="link" href="http://www.uxpin.com/interaction-design-best-practices-2.html" target="_blank" rel="noopener"
+&gt;交互设计最佳实践&lt;/a&gt;中描述的，设计师应当评估界面的认知负荷。否则，用户会苦于短暂记忆导致的信息丢失，使他们沮丧。&lt;/li&gt;
+&lt;li&gt;**人们必须感到一切尽在掌控——**没有人愿意受科技的支配。正如我们&lt;a class="link" href="http://blog.uxpin.com/6069/bad-ux-makes-users-blame/" target="_blank" rel="noopener"
+&gt;最新的博文&lt;/a&gt;中陈述的，有些人仍然把计算机作为黑盒子对待。让人等待的电子产品，会给人一种不够格的傲慢印象。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;用户的操作是有节奏的。在用户体验领域，时间的度是以&lt;a class="link" href="http://www.nngroup.com/articles/powers-of-10-time-scales-in-ux/" target="_blank" rel="noopener"
+&gt;10的量级&lt;/a&gt;来丈量的。用户判断是否值得在一个网站花费时间，只需要0.05秒。如果它们决定留下，通常会在2-4分之内离开。&lt;/p&gt;
+&lt;p&gt;无论目标是更新你的&lt;strong&gt;Facebook&lt;/strong&gt;信息流，或是在&lt;strong&gt;Amazon&lt;/strong&gt;上对比购买产品，每项体验都可以分解为一系列的交互，交互操作之间的耗时对用户体验会产生复合影响。&lt;/p&gt;
+&lt;h2 id="交互设计中的时间要素"&gt;交互设计中的时间要素
+&lt;/h2&gt;&lt;p&gt;那时间和交互设计具体有什么关系？设计顾问David Malouf相信，&lt;a class="link" href="http://boxesandarrows.com/foundations-of-interaction-design/" target="_blank" rel="noopener"
+&gt;时间把交互设计与其他用户体验学科区分开来&lt;/a&gt;。时间远非线性的过程，因为随时间流逝所有交互都会发生。Malouf建议，我们可以具体从3个不同角度来检验时间：步调、响应和环境。&lt;/p&gt;
+&lt;h3 id="1-步调"&gt;1. 步调
+&lt;/h3&gt;&lt;p&gt;在设计方面，步调与固定时间内完成的事情息息相关。你马上就会想到，“那么用户完成的事情当然越多越好”，但这未必正确。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/HicksLaw.png"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源席克定律根据经验”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://static.squarespace.com/static/508cadf6e4b01df297a041ac/t/5164cb60e4b0dc29aed76de5/1365560161624/HicksLaw.png?format=750w" target="_blank" rel="noopener"
+&gt;席克定律&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;根据经验，操作流程远比可用的操作数量重要。&lt;a class="link" href="http://www.smashingmagazine.com/2012/02/23/redefining-hicks-law/" target="_blank" rel="noopener"
+&gt;席克定律&lt;/a&gt;说到，过多的界面元素实际上阻碍决策（因此也影响目标的完成）。&lt;/p&gt;
+&lt;p&gt;想一想，比如有一组庞大的注册表单，和另一组分成多页面的小表单，两者信息相同，会有怎样的区别。长表单会花费更少的时间，但一系列小表单似乎更容易掌控，对用户也不那么复杂。&lt;/p&gt;
+&lt;p&gt;下面的例子来自&lt;strong&gt;LinkedIn&lt;/strong&gt;，结合表单引导和进度条是个很不错的策略，改善了体验的步调。创建一套专业档案所需的冗长过程被分为4个可掌控的步骤。用户也能看到它们的进度到了什么地步，这会激励他们继续进行。步调与效率关系不大，更多是用户是否对体验感到舒适——不会使他们负担过重，也不会减慢它们的速度。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/linkedin.jpg"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源表单引导响应”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://ui-patterns.com/patterns/Wizard/examples/1469" target="_blank" rel="noopener"
+&gt;LinkedIn表单引导&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="2-响应"&gt;2. 响应
+&lt;/h3&gt;&lt;p&gt;产品的反应时间与用户的掌控程度直接相关。Jakob Nielsen说过，电子产品&lt;a class="link" href="http://www.nngroup.com/articles/too-fast-ux/" target="_blank" rel="noopener"
+&gt;最重要的3个响应时间范围&lt;/a&gt;是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;**1秒——直接控制——**用户感觉他们在直接操纵这个系统，就像使用真实的工具一样。除了结果的视觉呈现外，不需要任何反馈。&lt;/li&gt;
+&lt;li&gt;**1秒——间接控制——**用户会注意到延迟，但在网站的体验中仍然感觉尽在掌握。比如对于加载新页面，这个延迟是可以接受的。&lt;/li&gt;
+&lt;li&gt;**10秒——部分控制——**用户的注意力已经转移，操作流程中断。反馈对于减少半途而废至关重要，这就是加载界面如此流行的原因。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;响应时间中的延迟必须与任务的重要性相称。例如，加载云端面板，5秒是可以接受的。但是触发一个下拉菜单就不可忍受了。延迟越长，用户与界面之间的关系就越趋于分裂。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/responsive.png"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源环境”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="https://www.uxpin.com/?utm_source=Interaction%2520Design%2520Best%2520Practices%2520V2&amp;amp;utm_medium=ebook&amp;amp;utm_campaign=Interaction%2520Design%2520Best%2520Practices%2520V2" target="_blank" rel="noopener"
+&gt;UXPin&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="3-环境"&gt;3. 环境
+&lt;/h3&gt;&lt;p&gt;如何、何时、何地，甚至为何使用一个应用，都对时间感知有所影响。&lt;/p&gt;
+&lt;p&gt;比如，网站的平均停留为2-4分钟，尽管&lt;a class="link" href="http://www.nngroup.com/articles/long-sales-cycles-online/" target="_blank" rel="noopener"
+&gt;电商销售流程的平均要持续28分钟&lt;/a&gt;（这甚至都没有考虑销售的品类——买一辆车可得花上几个月）。同样的，那些在商场购物会通过移动设备比价的人，比坐在家中沙发里购物的人更重视速度。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/time-place-and-context-for-a-hypothetical-knowledge-worker.png"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源理解企业中移动运”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://rippleffectgroup.com/2012/06/25/understanding-time-place-and-context-for-mobile-computing-in-the-enterprise/" target="_blank" rel="noopener"
+&gt;理解企业中移动运算的时间、地点与环境&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果你发现用户过早离开你的网站，你就得修改链接文案了。你还可以检查页面的视觉层级（颜色、对比、字体），确保重要的信息得到了强调。&lt;/p&gt;
+&lt;p&gt;但是，这些吸引眼球的方法，在单独一页沉浸式内容中或许有违直觉，例如博客。这种情况下，你最好善加利用留白来强调内容（就像&lt;strong&gt;Medium&lt;/strong&gt;那样）。同一个获取注意力的策略，依据网站类型的不同，会产生两种不同的效果——这都取决于环境。&lt;/p&gt;
+&lt;h2 id="越快越好在某种程度上"&gt;越快越好……在某种程度上
+&lt;/h2&gt;&lt;p&gt;讨论一个界面的步调时，我们提到过&lt;a class="link" href="http://www.nngroup.com/articles/too-fast-ux/" target="_blank" rel="noopener"
+&gt;并非总是越快越好&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;坦言之，绝大多数时间相关的可用性问题，都由于系统反应太慢。但是，也有些情况速度太快反而不好。通常，速度&lt;em&gt;太&lt;/em&gt;快的界面会导致两个问题：错过信息，或是用户跟不上。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/FourSquare.jpg"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源用户错过信息”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://milesskorpen.com/wp-content/uploads/2014/06/FourSquare-620x201.jpg" target="_blank" rel="noopener"
+&gt;FourSquare&lt;/a&gt;_&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="1-用户错过信息"&gt;1. 用户错过信息
+&lt;/h3&gt;&lt;p&gt;信息变化太快时，用户只要看一眼屏幕的其他地方，就会错过它。这些通常适用于&lt;em&gt;并非&lt;/em&gt;由用户触发的意外操作，而且通常这个变化离相关操作越远，越容易被忽略。有简单的补救方法可以将注意力引向这些变化，通过恰当处理的动画效果（我们稍后会讨论）。&lt;/p&gt;
+&lt;p&gt;我们可以把&lt;strong&gt;西门子&lt;/strong&gt;作为界面速度过快的例子。此例中，向用户展示了如下页面，然后询问他们是否发现了西门子有洗衣机的特别促销。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/autof.png"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源正如的联合创始人”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://www.nngroup.com/articles/auto-forwarding/" target="_blank" rel="noopener"
+&gt;Auto Forwarding&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;正如Jakob Nielsen，Nielsen-Norman Group的联合创始人所&lt;a class="link" href="http://www.nngroup.com/articles/auto-forwarding/" target="_blank" rel="noopener"
+&gt;描述的&lt;/a&gt;，即使页面顶部以巨大文字展示了促销信息，用户还是没看到。为什么会发生这种事情？因为轮播图（其实更像手风琴效果）每5秒自动切换一张。每次屏幕切换，唯一的指示器就是右侧的边栏——它通常都被忽略了，因为这两个行动召唤看起来像是banner（从而引发了&lt;a class="link" href="http://www.nngroup.com/articles/banner-blindness-old-and-new-findings/" target="_blank" rel="noopener"
+&gt;banner盲区&lt;/a&gt;）。&lt;/p&gt;
+&lt;h3 id="2-用户跟不上"&gt;2. 用户跟不上
+&lt;/h3&gt;&lt;p&gt;即使用户注意到屏幕上快速切换的动画，也未必能理解。这通常发生在轮播图、旋转体和其他自动切换功能中——用户被图片激起了好奇心，当他们把鼠标移上去，它已经变成了另一张不怎么有吸引力的图。&lt;/p&gt;
+&lt;p&gt;可以发现，先前西门子的案例就是糟糕的用户体验决策的综合体。无论如何，5秒的轮播图是其中最糟糕的。因为它占屏幕主导地位，轮播图立刻就能吸引用户注意。但是这个轮播图每5秒改变一次，使用户迷失方向，并没有清晰表达出促销信息。用户并没有触发这个操作，于是为了努力赢回用户体验的控制权，他们对用户体验的其他不足更加敏感（比如糟糕的文案）。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/carousel.png"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源应该使用轮播图吗”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=0CCAQFjAA&amp;amp;url=http%3A%2F%2Fshouldiuseacarousel.com%2F&amp;amp;ei=uuPsVLHpBo62oQSziIL4CQ&amp;amp;usg=AFQjCNGxEVtQCnKuj1pReVD6bX3osJXFnw&amp;amp;bvm=bv.86956481,d.cGU" target="_blank" rel="noopener"
+&gt;应该使用轮播图吗？&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;实际上，最好是摈弃自动切换的轮播图，因为它们&lt;a class="link" href="http://blog.market8.net/b2b-web-design-and-inbound-marketing-blog/why-automatic-carousels-suck-and-must-be-eliminated-from-your-homepage" target="_blank" rel="noopener"
+&gt;最擅长分散注意力，最让人沮丧&lt;/a&gt;。目标与轮播图内容无关的用户，会发现它令人分心。真正需要了解其内容的用户，又无法及时反应。&lt;/p&gt;
+&lt;p&gt;对于非母语用户，响应问题更严重。年纪越大，或越不熟悉科技产品，越难以使用。要确保你的界面反应不至于太快，这些建议很有帮助：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;让用户手动控制&lt;/strong&gt;——屏幕上的快速变化，必须限制为由用户的操作触发。否则，这就违反了&lt;a class="link" href="http://www.uxpassion.com/blog/principle-of-least-astonishment/" target="_blank" rel="noopener"
+&gt;最少意外原则&lt;/a&gt;，这是指用户通常都不喜欢突发事件。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;用动画来减慢速度&lt;/strong&gt;——用800毫秒到1秒之间的动画来表现屏幕上的变化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;给每个轮播图留出足够的时间&lt;/strong&gt;——如果你必须用自动切换的轮播图，要大声朗读其中文案，然后所花时间再乘以2.5。这就是每张轮播图应该停留的时间。还有当鼠标指在轮播图上，要确保切换暂停。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;记住，交互设计中，感知到的就是真实的。令人愉快的等待，远比推着用户列队前进要好。&lt;/p&gt;
+&lt;h2 id="点击要简单而非快速"&gt;点击要简单，而非快速
+&lt;/h2&gt;&lt;p&gt;既然提到速度，很有必要纠正另一个普遍的设计误区，3次点击原则——这个原则指出，用户通过3次及以内的点击，应该要能查看网站的任何内容。对于这个3次点击原则的最佳描述，可以说“&lt;a class="link" href="http://www.uie.com/articles/three_click_rule/" target="_blank" rel="noopener"
+&gt;意图是好的，但造成了误导&lt;/a&gt;”。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/Users-will-stop-Searching-for-Something-after-3-Clicks.jpg"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源你仍在信守的个用”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://www.stunningmesh.com/2014/12/5-lies-user-experiences-probably-still-believe/" target="_blank" rel="noopener"
+&gt;你仍在信守的5个用户体验谎言&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hubspot&lt;/strong&gt;的前用户体验总监，Joshua Porter创作的&lt;a class="link" href="http://www.uie.com/images/satisfaction_task_length_color.gif" target="_blank" rel="noopener"
+&gt;这张图表&lt;/a&gt;表明，点击次数与用户的满意程度并不存在确切的关联。其中的教训是，设计师应当少考虑让用户尽&lt;em&gt;快&lt;/em&gt;完成任务，多考虑让用户尽可能&lt;em&gt;容易&lt;/em&gt;地完成任务——目的不同，是界面设计存在差异的依据。&lt;/p&gt;
+&lt;p&gt;为了进一步印证我们的观点，看看这张图表。它遵循了3次点击原则，因为任何页面确实可以通过3次点击到达，但这种模式真的提升了可用性吗？它其实损害了可用性，因为用户得从过多的导航中过滤出他们的选择。而且，当他们到达新页面，他们需要再次从众多选项中过滤。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/oracle.png"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源看看上面的网站当”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://www.oracle.com/" target="_blank" rel="noopener"
+&gt;Oracle&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;看看上面的&lt;strong&gt;Oracle&lt;/strong&gt;网站。当然，你可以在3次点击内进入任何产品类目（例如数据库或Java），但你真的想这么做吗？&lt;/p&gt;
+&lt;p&gt;相反，我们建议遵循&lt;a class="link" href="http://grundyhome.com/blog/archives/2009/01/31/breaking-the-law-the-3-click-rule/" target="_blank" rel="noopener"
+&gt;1次点击原则&lt;/a&gt;：每一项交互都让用户离目标更接近一步。这种策略有助于缩减顶级导航的项目数量，而不会使用户迷惑。它有助于让人关注探索的&lt;em&gt;体验&lt;/em&gt;，而非探索路径本身。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/welcome.png"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源打开了我的帐号页”的视觉设计与界面展示"
+&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://www.chase.com/" target="_blank" rel="noopener"
+&gt;Chase&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;打开了我的帐号页面。我看见一个行动召唤，&lt;em&gt;Ultimate Rewards&lt;/em&gt;，我点击了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/rewards.jpg"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源进入了奖励页面我”的视觉设计与界面展示"
+&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://www.chase.com/" target="_blank" rel="noopener"
+&gt;Chase&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;进入了奖励页面。我看见选项_Use Points_和_Earn Points_。我点了_Use Points_。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/next-page.png"
+loading="lazy"
+alt="时间感知对交互设计的影响的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://www.chase.com/" target="_blank" rel="noopener"
+&gt;Chase&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;当来到点数兑换页面，我能看到有多少点数可用，有多数可以兑换。我选定了数量，兑换现金，然后达成了目标。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/points.png"
+loading="lazy"
+alt="时间感知对交互设计的影响设计中关于“来源这需要次以上的点”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="http://www.chase.com/" target="_blank" rel="noopener"
+&gt;Chase&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这需要3次以上的点击，但每次点击都只花很少的精力。而且每次点击都让用户在通向目标的道路上更进一步。现在，如果你仍然坚持3次点击原则，你可能会把顶级导航其中一项设为“使用奖励”。点击次数当然减少了，但这种扁平式的策略实际上会展现过多的项目，难以同时筛选过滤。因此为了更短的点击路径，牺牲了可用性。&lt;/p&gt;
+&lt;p&gt;我们想要强调3次点击原则背后的精神：点击应该尽可能简单和直观。并非确保用户在网站上所花的时间最少，而是值得的。&lt;/p&gt;
+&lt;h3 id="总结"&gt;总结
+&lt;/h3&gt;&lt;p&gt;提到交互设计，一秒的延迟就能左右成功与失败。如果用户体验太慢，人们会感到沮丧。如果太快，人们会错过重要信息（或者不明白它的意思）。理解人类对于时间的认知、速度（和轮播图）的限制，还有直接点击的重要性。&lt;/p&gt;
+&lt;p&gt;如果有疑问，记住这条简单的可用性原则：清晰就会顺畅，顺畅就会快。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/time-interaction-design/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://designmodo.com/author/jerrycao/" target="_blank" rel="noopener"
+&gt;Jerry Cao&lt;/a&gt;
+Jerry Cao is a content strategist at UXPin — &lt;a class="link" href="http://www.uxpin.com/" target="_blank" rel="noopener"
+&gt;the wireframing and prototyping app&lt;/a&gt; — where he develops in-app and online content for the wireframing and prototyping platform.&lt;/p&gt;</description></item><item><title>交互设计三大法则</title><link>https://victor42.eth.limo/post/3440/</link><pubDate>Sun, 24 May 2015 00:03:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3440/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第87期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static1.squarespace.com/static/4ea1db0dd09ac4c7fce2d997/t/544f19a0e4b03cb72feca276/1414470054859/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg"
+loading="lazy"
+alt="国外优秀设计官方网站的网页页面版式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;科幻作家艾萨克·阿西莫夫在他的&lt;em&gt;机器人&lt;/em&gt;系列故事中创造了“机器人学三大法则”。这些法则被永久性地植入每个机器人，作为防止灾难、保护人类的最后一道保险。我很好奇，我们最后一道保险是什么？对于交互设计师而言，三大法则又是什么？&lt;/p&gt;
+&lt;p&gt;用户对于界面的感知，离不开它的形式、内容和行为。就像工业与平面设计师专注于形式那样，交互设计师将行为作为最重要的元素来考虑。要通过设计来左右用户的体验，首先要考虑我们的三大法则，界面的行为如何表现，它对用户的行为产生什么影响。它们必须得作为稳固的基础，在它之上构建其他交互设计原则。幸运的是，我将要运用的三大法则早已有人提出——三大法则的主人，Mac电脑项目背后的大脑，Jef Raskin。他在他的著作&lt;a class="link" href="http://www.amazon.com/gp/product/0201379376?ie=UTF8&amp;amp;camp=213733&amp;amp;creative=393185&amp;amp;creativeASIN=0201379376&amp;amp;linkCode=shr&amp;amp;tag=httpuxdiogeco-20&amp;amp;=books&amp;amp;qid=1370915538&amp;amp;sr=1-1&amp;amp;keywords=the&amp;#43;human&amp;#43;interface" target="_blank" rel="noopener"
+&gt;&lt;em&gt;The Humane Interface&lt;/em&gt;&lt;/a&gt;的某一页中写下了这三条铁律，本书在交互设计中的地位接近圣经。细细品读，你会发现现代最流行的用户界面，都采用了这本里程碑式的著作中的概念与技巧，其中也包括微软和苹果的设备。&lt;/p&gt;
+&lt;h2 id="第一法则"&gt;第一法则
+&lt;/h2&gt;&lt;p&gt;善加利用阿西莫夫的三大法则本身，Raskin写道“交互设计第一法则应该是：&lt;em&gt;&lt;strong&gt;电脑不应该妨碍你的工作，或由于不作为而使你的工作受到损害&lt;/strong&gt;&lt;/em&gt;”[1]。我们都应该牢记，电脑是一件用来完成任务的工具；最终目标不可能或极少情况下是使用软件本身。因此，我们可以一致同意，在电脑上最恶劣的体验就是让工作蒙受损失。唯一一件比丢失已完成的工作更糟的，是丢失无法精确还原的数据，比如创意类的工作。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static1.squarespace.com/static/4ea1db0dd09ac4c7fce2d997/t/51fac345e4b07e1682eb97d2/1375388485785/"
+loading="lazy"
+alt="交互设计三大法则的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;当你键入&lt;/em&gt;时，应用应当如实反映数据，并尽可能防止你丢失工作。可能你会觉得这只是工程师该考虑的。开发者应该确保他们的软件有防护措施和冗余，来防止数据丢失（还有一些潜在bug），不是吗？实际上，数据保护与工作保存也是界面设计的任务，作为设计师必须预先行动——通过用户研究——发现用户会如何损失工作，或是不得不重复工作。这就意味着要加入一些保护，比如强大的撤销功能和破坏性操作保护，来防止无意的数据丢失。很棒的一个例子就是GitHub仓库的删除对话框，它确实发挥作用，不同于其他确认对话框，它强迫你输入仓库名称才能继续。这个技巧很聪明，在删除过程中迫使用户的注意力集中到仓库名上。安全措施防止用户习惯性的操作导致损失。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static1.squarespace.com/static/4ea1db0dd09ac4c7fce2d997/t/521d568ce4b06c048992c944/1377654415176/Screen-Shot-2013-06-11-at-12.21.00-AM.png"
+loading="lazy"
+alt="GitHub删除确认对话框"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GitHub删除确认对话框。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;第一法则也适用于保存用户的工作相关与内容本身。比如，要选择一系列项目进行操作（比如说文件），需要大量的精力。因此，建议在工作流程中保留选中状态，将它们保存在一个可以撤销的操作列表中。类似的，如果界面允许用户对元素进行自定义或排序，这些排序或自定义都应该保存下来。&lt;/p&gt;
+&lt;p&gt;为什么Apple的Time Machine和自动保存，还有Dropbox的历史版本这么棒，就因为遵守了第一“法则”。它们承认人类会犯错这个事实，尽管用户可能会触发一个破坏工作或数据的操作，那并非他们的意图。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static1.squarespace.com/static/4ea1db0dd09ac4c7fce2d997/t/521d58c1e4b04aa483257d4b/1377654978068/HT4753-Auto_Save_Versions_Summary-001-en.png"
+loading="lazy"
+alt="Apple的“浏览所有版本”功能非常棒"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Apple的“浏览所有版本”功能非常棒。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="第二法则"&gt;第二法则
+&lt;/h2&gt;&lt;p&gt;Raskin继续写道，好的第二法则应该是“&lt;em&gt;&lt;strong&gt;电脑不该浪费时间，或要求你做非必要的工作&lt;/strong&gt;&lt;/em&gt;”[2]。很常见的情况，用户肩负众多任务，因为人工执行一项任务比编写一个系统让它自动执行简单的多。这些情况下，如果技术允许，&lt;em&gt;电脑应该承担起这些工作&lt;/em&gt;。比如迫使用户选择信用卡的类型，虽然从卡号就可以推断出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static1.squarespace.com/static/4ea1db0dd09ac4c7fce2d997/t/521d59b2e4b01563390384d1/1377655223351/Screen&amp;#43;Shot&amp;#43;2013-08-27&amp;#43;at&amp;#43;9.59.28&amp;#43;PM.png"
+loading="lazy"
+alt="Stripe就做对了，自动检测信用卡的类型"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Stripe就做对了，自动检测信用卡的类型。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;用户学习一套新的界面或系统数据模型，所花的时间与精力也要纳入考虑，要与总工作量取得平衡。用效率较低的方式执行一项操作，或许比学习一种高效的新方式再操作工作量少。用户只原意与少量界面进行交互。至于其他，稍加牺牲效率，换取更加直观的操作或许是值得的。&lt;/p&gt;
+&lt;p&gt;假设某种状况下你需要迫使用户改变他们自己的思维模式，这时需要谨慎。因为这项设计抉择会影响用户的内容结构（通常出于技术要求），而非让他们自己决定如何组织信息，或是使用他们熟悉的结构。优秀的界面以用户最想要最易懂的形式展现信息系统。以多数银行希望你存钱的方式为例。通常，你需要把钱分几个账户存，或是存在一个账户上，然后自己判断哪些不该花。Simple用了另一个方案。相比强迫用户思考存款的运转方式（比如在银行账户中），Simple让你简单通过“目的”设置任意数量的钱，这些数目与之后的交易一起，都在“可使用”余额的追踪下。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static1.squarespace.com/static/4ea1db0dd09ac4c7fce2d997/t/521d5a6ae4b06773c216c03b/1377655407403/Screen&amp;#43;Shot&amp;#43;2013-08-27&amp;#43;at&amp;#43;10.02.47&amp;#43;PM.png"
+loading="lazy"
+alt="Simple的“可使用”能辨认出人们确切的用钱方式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Simple的“可使用”能辨认出人们确切的用钱方式。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="第三法则"&gt;第三法则
+&lt;/h2&gt;&lt;p&gt;我相信，Raskin的书余下的所有部分，讲的就是第三法则。他说界面应该是&lt;strong&gt;人道主义的&lt;/strong&gt;；它应当“&lt;em&gt;响应人类的需要，并且体谅人类的弱点&lt;/em&gt;”[3]。这是整部&lt;a class="link" href="http://www.ted.com/talks/david_kelley_on_human_centered_design.html" target="_blank" rel="noopener"
+&gt;以用户为中心的设计&lt;/a&gt;的核心定律，由此得到其他的交互设计原则。好的交互设计永远都会尊重人脑和身体的局限。它有必要对我们的本能物理反应和文化价值保持敏感。&lt;/p&gt;
+&lt;p&gt;让界面变得人道主义的一个例子，是围绕人们&lt;strong&gt;同时只能注意一件事情&lt;/strong&gt;进行设计。比如，键盘大写锁定键上的指示灯。它本身并不是个好的解决方法，无法避免误触开启大写锁定模式，因为用户按下时，关注点通常不在按键上。Mac的密码输入就处理得很好，它在输入框内提供了视觉指示，表明大写锁定被开启了，用户此时就在看输入框。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static1.squarespace.com/static/4ea1db0dd09ac4c7fce2d997/t/521d5cf2e4b038637b3b043e/1377656052703/Screen&amp;#43;Shot&amp;#43;2013-08-27&amp;#43;at&amp;#43;10.13.04&amp;#43;PM.png"
+loading="lazy"
+alt="大写锁定的信息就在你需要的地方"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;大写锁定的信息就在你需要的地方。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;“响应用户需求”的一个例子，是在他们进行操作或执行工作流程时，持续展示用户关心的内容（注意：他们关心的是目的，而不是你的应用）。看看Amazon，它自动显示你查看的镜头是否匹配你近期购买的相机。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://static1.squarespace.com/static/4ea1db0dd09ac4c7fce2d997/t/544f16fce4b0fb9ceface316/1414469373043/Amazon%27s&amp;#43;camera&amp;#43;lens&amp;#43;compatibility&amp;#43;widget"
+loading="lazy"
+alt="Amazon的相机镜头匹配组件"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Amazon的相机镜头匹配组件。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;最后一条“定律”是交互设计定律的精髓。在今天的世界，要知道设计界面非常重要的一点就是人道主义，从认知的格式塔原则和平面设计原则，到相关的文化心理学。我们的工作永无止境。随着时间流逝，技术前景和我们的文化环境在缓慢改变，我们将颠簸前行，继续演进我们的设计与设计流程。&lt;/p&gt;
+&lt;p&gt;无论如何，这三条定律是我不断回溯的基本准则，它们再三成为成功的界面的试金石。在你决策界面的外观和行为时，牢记它们很有帮助，不论你最终设计的美学样式如何。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;电脑不应该妨碍你的工作，或由于不作为而使你的工作受到损害。&lt;/li&gt;
+&lt;li&gt;电脑不该浪费时间，或要求你做非必要的工作。&lt;/li&gt;
+&lt;li&gt;界面应该是&lt;strong&gt;人道主义的&lt;/strong&gt;；它应当响应人类的需要，并且体谅人类的弱点。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;另：可以关注我的Twitter&lt;a class="link" href="https://twitter.com/intent/user?screen_name=uxdiogenes" target="_blank" rel="noopener"
+&gt;@uxdiogenes&lt;/a&gt;，&lt;a class="link" href="https://medium.com/@uxdiogenes" target="_blank" rel="noopener"
+&gt;我的Medium文章&lt;/a&gt;，或者&lt;a class="link" href="http://uxdiogenes.com/?format=rss" target="_blank" rel="noopener"
+&gt;订阅我的博客RSS&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="https://diogenes.squarespace.com/blog/the-three-laws-of-interaction-design" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Diogenes Brito
+A craftsman of order and clarity. Product Designer &lt;a class="link" href="http://twitter.com/SlackHQ" target="_blank" rel="noopener"
+&gt;@SlackHQ&lt;/a&gt; (slack.com). Formerly a designer and engineer &lt;a class="link" href="http://twitter.com/Squarespace" target="_blank" rel="noopener"
+&gt;@Squarespace&lt;/a&gt;, UX &lt;a class="link" href="http://twitter.com/LinkedIn" target="_blank" rel="noopener"
+&gt;@LinkedIn&lt;/a&gt;. &lt;a class="link" href="http://uxdiogenes.com/" target="_blank" rel="noopener"
+&gt;http://uxdiogenes.com&lt;/a&gt;&lt;/p&gt;</description></item><item><title>交互设计中的5项视觉指导原则</title><link>https://victor42.eth.limo/post/3431/</link><pubDate>Sun, 29 Mar 2015 22:49:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3431/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第80期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/imagecache/v2_article_image/articles/article/2015/02/visual-interaction-prime.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则：关于来自的通过本文向我们的视觉展示图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;来自UXPin的Jerry Cao，通过本文向我们解释了如何保持视觉与交互的协调。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我不想贬低文字的重要性，但也不想忽视视觉。两者是同等重要的交互设计元素。文字就是交互，但那些视觉元素（比如图标、菜单、图像等）才是用户实际上操作的东西。虽然有些可用性专家会提及Craigslist甚至Amazon，作为丑陋但可用（而且受欢迎）的网站案例。但毫无疑问，美感总会有所帮助。&lt;/p&gt;
+&lt;p&gt;情感是用户体验的关键：视觉设计优秀的网站能使用户放松，提升可信度和易用性。考虑到多数用户注意力短暂，认知往往成为事实：如果视觉做得很糟糕，用户不会费神去深入研究你的交互设计。&lt;/p&gt;
+&lt;p&gt;让我们来细说视觉的重要性，因为它关系到交互，保证了清晰的方向指引和一致性。&lt;/p&gt;
+&lt;h3 id="01-尊重视觉的主导地位"&gt;01. 尊重视觉的主导地位
+&lt;/h3&gt;&lt;p&gt;我们从案例展示开始。看看下面的文字：&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/yellow1.jpg"
+loading="lazy"
+alt="红色的&amp;#34;黄色&amp;#34;二字演示视觉外观如何取代文字真实含义"
+&gt;&lt;/p&gt;
+&lt;p&gt;很显然，我们都知道“黄色”一词所指的颜色。但当多数人看到它时，他们理解到的可能只有红色。文字的外观取代了它的真正含义。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/david2.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则设计中关于“信息图专家表明我们大”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;信息图专家David McCandless表明，我们大部分的脑力资源都花在了视觉上。&lt;/p&gt;
+&lt;p&gt;作为人类，视觉是我们的主要感观。但是其他动物更多依赖听觉与嗅觉，我们是视觉主导的生物。正如数据记者兼信息图专家David McCandless在&lt;a class="link" href="http://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization?language=en" target="_blank" rel="noopener"
+&gt;一场引人入胜的TED演讲&lt;/a&gt;中提到的，我们会调动全部感观，但多数的脑力都花在了视觉上——虽然我们很难察觉。他用计算机进行了类比……&lt;/p&gt;
+&lt;p&gt;“视觉是感观中最迅速的。它和计算机网络的速度相同。之后是触觉，相当于一个U盘的速度。然后才是听觉与嗅觉，约等于硬盘的速度。&lt;/p&gt;
+&lt;p&gt;“后面才是可怜的味觉，运算速度几乎近似便携式计算器。角落里那个小方块，百分之0.7，那就是我们实际了解的量。所以你的很多感观——绝大多数感观都是视觉上的，它蜂拥而来——你却浑然不觉。”&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/anderson1.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则设计中关于“视觉影响行为也影响体”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;视觉影响行为，也影响体验，Stephen P. Anderson说。&lt;/p&gt;
+&lt;p&gt;但是对于交互设计这意味着什么？它意味着你对产品做出的每一项视觉上的决策，都对交互有极大的影响，即使是在不知不觉间。&lt;/p&gt;
+&lt;p&gt;产品设计顾问&lt;a class="link" href="http://www.creativebloq.com/design/stephen-p-anderson-giving-form-ideas-6135570" target="_blank" rel="noopener"
+&gt;Stephen P. Anderson&lt;/a&gt;指出，视觉影响的不只是体验，也会影响用户的行为。&lt;/p&gt;
+&lt;p&gt;这就是说好的视觉设计可以提升销量，提高注册量和转化率，激发某些特定的用户行为。看看下面这两个表单：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;表单A&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/form1.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则设计中关于“表单”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;表单B&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/formb.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则设计中关于“记住交互设计的目标”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;记住，交互设计的目标之一就是让用户尽可能少地思考。你认为哪个更有利于销售？哪个视觉上看更舒服？&lt;/p&gt;
+&lt;p&gt;第一例中，那密集恐惧症般的间距和过量的文字，让用户望而却步。第二例则色彩丰富、优美，看起来更简洁（尽管用户都得输入这些信息）。&lt;/p&gt;
+&lt;p&gt;由于交互设计就是要创造人们想用的东西，有吸引力的事物更激发人的渴求，因此更能发挥作用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/spice1.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则设计中关于“图片和导航在这个在线”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;图片和导航在这个在线香料商店中相互协调。&lt;/p&gt;
+&lt;p&gt;不过除了吸引人的交互，优美的设计也提供了一层额外的理解。看看上面这个&lt;a class="link" href="https://oldtownspiceshop.com/" target="_blank" rel="noopener"
+&gt;Old Town Spice Shop&lt;/a&gt;案例，你会发现这个网站的橱柜式布局立刻暗示了这家公司的意图和香料产品。&lt;/p&gt;
+&lt;p&gt;尽管你可能会质疑，用户先看到橱柜还是“Spices”和“Extracts”这些文字。毫无疑问的是，两者相互协调。&lt;/p&gt;
+&lt;h3 id="02-提供清晰的方向与指引"&gt;02. 提供清晰的方向与指引
+&lt;/h3&gt;&lt;p&gt;用户不会漫无目的浏览网站。人们通常都有个大体概念他们要去哪，但还需要一些指引和线索。他们会在脑海中创建地图，既然我们刚刚提到人是视觉生物，那么就需要一些视觉路标来指路。&lt;/p&gt;
+&lt;p&gt;某种程度而言，你的导航要像GPS那样。用户需要了解他们当前位置，哪些路线是可行的，下一步该怎么做。&lt;/p&gt;
+&lt;p&gt;面包屑导航是满足上述3项需求的最直接的方式。就像下面的&lt;a class="link" href="http://www.newegg.com/" target="_blank" rel="noopener"
+&gt;Newegg&lt;/a&gt; 这种常见的UI模式，这种方式给用户留下了清晰的视觉踪迹，来追踪他们的访问过程。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/newegg.jpg"
+loading="lazy"
+alt="Newegg电商网站面包屑导航UI模式界面示例"
+&gt;&lt;/p&gt;
+&lt;p&gt;但面包屑导航应该作为备选方式，因为对于页面间的点击跳转，它们在视觉上并不直观。它们多用于层级复杂的网站，比如电商网站，简单的网站不需要它。如果对此持疑，回顾你的网站地图，看看加入面包屑导航能不能提升易用性，或者只是添乱。&lt;/p&gt;
+&lt;p&gt;面包屑导航、链接——还有菜单、搜索框和可点击的图标——都是基于视觉的手段，让你建立方向和指引。谈到主导航时，你需要让它给人留下强烈的视觉印象。&lt;/p&gt;
+&lt;p&gt;如果要学习更多导航的最佳实践，请看我们的免费电子书&lt;a class="link" href="http://www.uxpin.com/web-ui-design-best-practices.html" target="_blank" rel="noopener"
+&gt;Web UI Design Best Practices&lt;/a&gt;，还有这本&lt;a class="link" href="http://www.smashingmagazine.com/2014/09/18/efficiently-simplifying-navigation-interaction-design/" target="_blank" rel="noopener"
+&gt;5-part series&lt;/a&gt;，讲的是交互设计中对导航的简化。&lt;/p&gt;
+&lt;h3 id="03-确保视觉统一"&gt;03. 确保视觉统一
+&lt;/h3&gt;&lt;p&gt;一致性在交互设计的所有方面都非常重要，不只是视觉。无论如何，视觉上的不一致是非常醒目的（看看&lt;a class="link" href="http://www.theworldsworstwebsiteever.com/" target="_blank" rel="noopener"
+&gt;世上最糟糕的网站&lt;/a&gt;），见证一下设计的地狱。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/worst1.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则设计中关于“有些事是不该做的一致”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;有些事是不该做的。&lt;/p&gt;
+&lt;p&gt;一致性展现了网站在设计和排列方面的逻辑，创造更加令人愉悦的体验（我们都知道，开心的用户是会回头的）。&lt;/p&gt;
+&lt;p&gt;我们之前提过，人们更喜欢统一是因为它增加了可预知性（降低学习成本）。如果你的界面容易学习，它也会更容易使用。人们不喜欢令人不快的惊喜，正如&lt;a class="link" href="http://en.wikipedia.org/wiki/Principle_of_least_astonishment" target="_blank" rel="noopener"
+&gt;惊讶最小化原则&lt;/a&gt;中所说：&lt;/p&gt;
+&lt;p&gt;不一致引发的问题，是它增加了“认知负荷”。Nielson Norman Group的用户体验专家，Kathryn Whitenton，在&lt;a class="link" href="http://www.nngroup.com/articles/minimize-cognitive-load/" target="_blank" rel="noopener"
+&gt;热议博文&lt;/a&gt;中解释过，认知负荷是用户在使用产品时需要思考的量。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一致性展现了网站在设计和排列方面的逻辑。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;每项不一致都迫使用户停下脚步，来处理此处不同所表达的含义，它为何不同，又是如何影响他们的行为。因此，不一致的地方越少，交互越顺畅，体验越好。不一致的现象几乎无处不在：UX Matters的Michael Zuschlag有一张&lt;a class="link" href="http://www.uxmatters.com/mt/archives/2010/07/achieving-and-balancing-consistency-in-user-interface-design.php" target="_blank" rel="noopener"
+&gt;有用的图表&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;例如，单选按钮在界面某部分只允许单选，那么它在其他部分就不应该多选。文案也该如此，既然在某个部分用了“保存”作为名称，在其他部分里就不该称作“储存”。如果某张图片触发了一个弹窗，那它在别处就不该打开新窗口。时刻要问自己，“我希望用户如何操作？”&lt;/p&gt;
+&lt;h3 id="04-将ui设计模式作为基准"&gt;04. 将UI设计模式作为基准
+&lt;/h3&gt;&lt;p&gt;UI设计模式，可以理解为特定情况的最佳设计实践。既然用户已经熟悉各种设计模式，使用它们降低了界面的学习曲线。常见的UI模式包括旋转木马、相关链接、幻灯片……还有更多（可以从&lt;a class="link" href="http://ui-patterns.com/patterns" target="_blank" rel="noopener"
+&gt;这个网站&lt;/a&gt;看到，它致力于给它们分门别类）。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/netflix.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则设计中关于“用了相关内容模式来帮”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Netflix用了相关内容模式，来帮你找到其他可能感兴趣的节目。&lt;/p&gt;
+&lt;p&gt;比如，Netflix使用了“相关内容”UI模式，帮助用户找到其他可能感兴趣的电影或节目。由于内容是智能生成的，用户交互感觉更像是有人在推荐有用的内容。这并不是一项开创性的设计，但它是个快速有效的解决方案，让你的界面鲜活起来。&lt;/p&gt;
+&lt;p&gt;当然，UI模式并非即插即用的模块，你还是得基于网站的外观与感觉为它们特殊定制。&lt;/p&gt;
+&lt;p&gt;要为产品寻找正确的模式，你可以查看各种模式库，通过它们的分类来浏览各种模式，比如“导航”或“输入框”。今年，我们发布了两个单独的UI模式系列（还有财富榜500强企业的使用案例分析）：&lt;a class="link" href="http://www.uxpin.com/web-design-patterns.html" target="_blank" rel="noopener"
+&gt;2014网页UI设计模式&lt;/a&gt;和&lt;a class="link" href="http://www.uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;2014移动UI设计模式&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id="05-通过风格指南创建一致性"&gt;05. 通过风格指南创建一致性
+&lt;/h3&gt;&lt;p&gt;虽然UI模式有助于提升熟悉感，风格指南才能确保全站统一。&lt;/p&gt;
+&lt;p&gt;风格指南是一部手册，列出了产品的特殊偏好，这些部分很难记忆——比如全站内容的尺寸和字体、主导航的主色与辅助色的颜色梯度、按钮点击状态的表现，等等。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2015/02/yelp1.jpg"
+loading="lazy"
+alt="交互设计中的5项视觉指导原则设计中关于“来这里看看的风格指南”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;来这里&lt;a class="link" href="http://www.yelp.co.uk/styleguide" title="www.yelp.co.uk/styleguide"
+target="_blank" rel="noopener"
+&gt;www.yelp.co.uk/styleguide&lt;/a&gt;看看Yelp的风格指南。&lt;/p&gt;
+&lt;p&gt;在&lt;a class="link" href="http://UXPin.com" target="_blank" rel="noopener"
+&gt;UXPin&lt;/a&gt;，更新网站时我们会创建风格指南。这能帮助我们估计出额外的工作量，因为我们可以把带有技术细节的截图添加到公司内部wiki中。正如我们在&lt;a class="link" href="http://www.uxpin.com/guide-to-mockups.html" target="_blank" rel="noopener"
+&gt;从风格指南到效果图&lt;/a&gt;中描述的，这种“拼拼凑凑”的方法对于简易的风格指南非常有效，可以分享给整个公司。&lt;/p&gt;
+&lt;p&gt;我们在&lt;a class="link" href="http://www.uxpin.com/web-ui-design-best-practices.html" target="_blank" rel="noopener"
+&gt;网页UI设计最佳实践&lt;/a&gt;中充分讨论了风格指南，包括如何制定、需要包含什么。要了解关于风格指南的更多案例，请看以下几项绝佳资源：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.starbucks.com/static/reference/styleguide/" target="_blank" rel="noopener"
+&gt;Starbucks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://ux.mailchimp.com/patterns" target="_blank" rel="noopener"
+&gt;MailChimp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.yelp.com/styleguide" target="_blank" rel="noopener"
+&gt;Yelp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.bbc.co.uk/gel" target="_blank" rel="noopener"
+&gt;BBC Gel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要深入学习交互设计中的一致性，请看这篇&lt;a class="link" href="http://www.uxbooth.com/articles/consistency-key-to-a-better-user-experience/" target="_blank" rel="noopener"
+&gt;全领域创建用户体验一致性&lt;/a&gt;，还有这篇&lt;a class="link" href="http://akendi.com/blog/the-three-sides-of-interaction-consistency/" target="_blank" rel="noopener"
+&gt;系统、平台和现实世界的统一&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id="精华总结"&gt;精华总结
+&lt;/h3&gt;&lt;p&gt;人们上网时，他们说自己在“看”网站，而不是与它“互动”，尽管后者更准确。我们严重依赖视觉，视觉引导我们建立观念、解决问题，我们所相信的会引导我们的行为。由于交互设计如此贴近用户体验，通过视觉打造最佳的用户体验，虽然间接，但确信无疑促成了更好的交互。&lt;/p&gt;
+&lt;p&gt;要深入学习，可以下载这本电子书&lt;a class="link" href="http://www.uxpin.com/interaction-design-best-practices-tangibles.html" target="_blank" rel="noopener"
+&gt;Interaction Design Best Practices: Words, Visuals, Space&lt;/a&gt;。视觉案例研究包含了30多家公司，其中有Google、AirBnB、Facebook、Yahoo。还有一些专家的建议，比如Stephen P. Anderson、Jared Spool等等。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.creativebloq.com/netmag/5-rules-visual-direction-interaction-design-31514304" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Jerry Cao
+Jerry Cao is a content strategist at &lt;a class="link" href="http://www.uxpin.com/" target="_blank" rel="noopener"
+&gt;UXPin&lt;/a&gt; — the wireframing and prototyping app — where he develops in-app and online content for the wireframing and prototyping platform. To learn how to use mockups of all types and fidelities, check out &lt;a class="link" href="http://www.uxpin.com/guide-to-mockups.html" target="_blank" rel="noopener"
+&gt;The Guide to Mockups&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

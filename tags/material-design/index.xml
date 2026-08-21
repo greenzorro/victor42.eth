@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Material Design on Victor42</title><link>https://victor42.eth.limo/tags/material-design/</link><description>Recent content in Material Design on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 02 Aug 2015 00:04:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/material-design/index.xml" rel="self" type="application/rss+xml"/><item><title>Material Design只是独辟蹊径，并未全面胜出</title><link>https://victor42.eth.limo/post/3453/</link><pubDate>Sun, 02 Aug 2015 00:04:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3453/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第97期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-IgmrVCbleu-evmmRd666tg.jpeg"
+loading="lazy"
+alt="安卓系统质感设计规范的官方主视觉插画"
+&gt;&lt;/p&gt;
+&lt;p&gt;Material Design发布之时，Google在设计领域做出的努力令我印象深刻。在这方面Apple一度遥遥领先。这种局面结束了。记得我以前总抱怨Android设计的那套不统一、缺乏文档、缺乏吸引力的暗色主题，还有模棱两可的汉堡菜单的滥用。Material Design解决了其中很多问题。如今它提供了一套统一的设计语言，更明亮、色彩丰富，并且背后有深思熟虑的设计指南作为坚实支撑。&lt;/p&gt;
+&lt;p&gt;但是尽管它色彩漂亮，卡片的使用提供了强烈的纵深感与操纵感。我时常扪心自问，这真的像许多设计师说的那样，比Apple的iOS设计优秀吗？我要发表一下我的看法，我觉得它只是独辟蹊径，并未全面胜出。&lt;/p&gt;
+&lt;h2 id="与ios的相似点"&gt;与iOS的相似点
+&lt;/h2&gt;&lt;p&gt;我们从iOS的3项核心原则说起：&lt;strong&gt;清晰&lt;/strong&gt;、&lt;strong&gt;遵从&lt;/strong&gt;和&lt;strong&gt;深度&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;清晰&lt;/strong&gt;是指文字易读、图标明显、对比强烈。&lt;strong&gt;清晰&lt;/strong&gt;的定义,对于不同平台是特定的。对于iOS和Android用户而言，什么是清晰的取决于他们熟悉什么。iOS用户可以立刻辨认的图标，Android用户或许不行，反之亦然。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-VIkd5NsktZXoejQhQ5zLww.png"
+loading="lazy"
+alt="苹果与安卓界面关于深度与模糊的对比示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;深度&lt;/strong&gt;是两大平台共有的另一项原则。但它们用不同的方式表达这一概念。iOS提倡&lt;strong&gt;模糊&lt;/strong&gt;和&lt;strong&gt;渐变&lt;/strong&gt;，Android却强调&lt;strong&gt;投影&lt;/strong&gt;和&lt;strong&gt;纸张&lt;/strong&gt;的概念。&lt;/p&gt;
+&lt;h3 id="拟物20"&gt;拟物2.0
+&lt;/h3&gt;&lt;p&gt;虽然都这么说，两大平台都用了重要的方式重现了现实世界。它们通过模糊、投影，还有符合物理规律与空间关系的动画呈现一种&lt;em&gt;拟物化&lt;/em&gt;。拟物设计使用熟悉的隐喻，有助于引入新概念，但是过度细致的纹理和立体效果绝对是自取灭亡。作为用户，由于科技对我们而言已经不那么陌生，我们已经不适应拟物设计了。皮质日历和黑胶唱片，在这个时代已经比不上数码概念了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设计的数字化，使得陈旧的概念显得过时且莫名其妙。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-pZ3K06ZJoFIa3bsy8cDxwQ.png"
+loading="lazy"
+alt="苹果具有皮革与纸张纹理的拟物化日历界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;没有人再用这样的日历了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-jQ_Ua6XKAB3VhaswYlWJPA.png"
+loading="lazy"
+alt="多彩半透明毛玻璃效果的苹果控制中心界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;这两种设计语言都有各自的弱点。&lt;/p&gt;
+&lt;p&gt;例如，多层模糊相互叠加，有种割裂感。而且，有点太鲜艳了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-056C3gBMDvzbGNdvUK1i0Q.png"
+loading="lazy"
+alt="圆形手表屏幕中卡片信息展示的界面示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;卡片的概念在圆形屏幕上看起来截然不同。卡片占据了整个宽度。文字的对齐方式感觉不协调，因为有很多不必要的留白。在圆形屏幕上，列表也难以使用，因为边角处隐藏了重要内容。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-aaQlu1sRK8ODngXiLz6hJw.jpeg"
+loading="lazy"
+alt="专为圆形智能手表设计的多种精美表盘界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;不过这些&lt;a class="link" href="https://dribbble.com/shots/1748347-Moto-360-Watch-Faces/attachments/283437" target="_blank" rel="noopener"
+&gt;Android Wear&lt;/a&gt;界面看起来非常棒。真的给人一种专为圆形屏幕设计的感觉。&lt;/p&gt;
+&lt;h2 id="内容在material-designs中并非核心"&gt;内容在Material Designs中并非核心
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;顺从&lt;/strong&gt;是这两者的差异所在。iOS完全是内容优先，而Android使用卡片的概念来使内容显得更&lt;strong&gt;有触感&lt;/strong&gt;，尽管这样会在左右两侧损失一些重要的屏幕空间。眼花缭乱的色彩也盖过了内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;华丽&lt;/strong&gt;隐藏了内容，阻碍了交互。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-QnQdq8ss2wbDCQJO108bVg.jpeg"
+loading="lazy"
+alt="质感设计在网页端多设备上的响应式布局效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;色彩、导航和行动召唤有强烈的聚焦作用。（这就是新的&lt;a class="link" href="http://www.getmdl.io" target="_blank" rel="noopener"
+&gt;Material Design Lite&lt;/a&gt;，为网页而生）&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-smW9Rz1JMernVpbr1p2Mpg.png"
+loading="lazy"
+alt="苹果音乐设计在苹果全平台设备上的运行效果图"
+&gt;&lt;/p&gt;
+&lt;p&gt;相反在iOS中，关注点更多在内容上。界面的颜色更加中性、符合情境（它们会根据内容变化）。鲜明的色彩尽量少使用，通常都用于操作项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-IBrjUJRaLZwdMop5Dfr_pw.png"
+loading="lazy"
+alt="苹果与谷歌音乐网页设计风格对比示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://apple.com/music/" target="_blank" rel="noopener"
+&gt;Apple Music&lt;/a&gt;与&lt;a class="link" href="http://google.com/music" target="_blank" rel="noopener"
+&gt;Google Music&lt;/a&gt;的简单对比显示了Material Design使用了更多亮色和插画。对于Apple Music，唯一使用的亮色就是“立即试用”按钮。&lt;/p&gt;
+&lt;h2 id="标签栏-vs-汉堡菜单"&gt;标签栏 VS 汉堡菜单
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-8i7QwVzou7rZ2gGzfxtB7w.jpeg"
+loading="lazy"
+alt="苹果手机版官网中使用汉堡菜单按钮的界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;关于是否应该使用汉堡菜单，争议由来已久。距离结束尚遥遥无期。尽管Apple在设计中很少使用。&lt;/p&gt;
+&lt;p&gt;但至少可以这么说，自从Material Design &lt;a class="link" href="https://www.google.com/design/spec/patterns/navigation.html" target="_blank" rel="noopener"
+&gt;鼓励使用&lt;/a&gt;之后，我们通常更多在Android上见到它们。&lt;/p&gt;
+&lt;p&gt;iOS更偏好标签栏作为导航。有趣的是，LukeW指出&lt;a class="link" href="http://www.lukew.com/ff/entry.asp?1945" target="_blank" rel="noopener"
+&gt;明显的就是更好的&lt;/a&gt;。Facebook的iOS版改用了标签栏后，用户粘性有了重大改善。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-22mkZEyfXxrgDtZGaiIspw.png"
+loading="lazy"
+alt="谷歌收件箱手机应用使用汉堡菜单的列表界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.google.com/inbox/" target="_blank" rel="noopener"
+&gt;Google Inbox&lt;/a&gt;使用了汉堡菜单。&lt;/p&gt;
+&lt;p&gt;但有些时候汉堡菜单是个好主意，比如最重要的内容就在主页上。汉堡菜单内的选项必须只能是次要的，例如设置和登出。&lt;/p&gt;
+&lt;h2 id="色彩运用"&gt;色彩运用
+&lt;/h2&gt;&lt;p&gt;Material Design突出地使用颜色。当然，它们非常漂亮。Flat UI配色方案也是。我们都知道，柔和色在各种状况下效果都很好，不像CSS或Xcode中那些耀眼的默认色彩。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-vcFohzMITdzC727iEA-0aA.png"
+loading="lazy"
+alt="三种主流扁平化设计风格的配色调色板对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/ColorImagesText.html#//apple_ref/doc/uid/TP40006556-CH58-SW1" target="_blank" rel="noopener"
+&gt;iOS配色&lt;/a&gt;（左），&lt;a class="link" href="https://flatuicolors.com" target="_blank" rel="noopener"
+&gt;Flat UI&lt;/a&gt;（中），&lt;a class="link" href="https://www.materialpalette.com" target="_blank" rel="noopener"
+&gt;Material Design Palette&lt;/a&gt;（右）&lt;/p&gt;
+&lt;p&gt;不过Material Design在页头中使用那些色彩，有时甚至盖过了内容。许多颜色竞相展现时，其他元素的重要性便降低了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1--S1FOw02f-sY3mkx49vFVQ.png"
+loading="lazy"
+alt="质感设计指南网页中大面积高饱和度页头展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.google.com/design/spec/material-design/introduction.html#" target="_blank" rel="noopener"
+&gt;页头&lt;/a&gt;是可以操作的吗，因为它有颜色？应该改用图片来表现我的产品吗？“Goals”这个标题为什么和链接颜色相同？&lt;/p&gt;
+&lt;p&gt;色彩确实有含义，但这些含义很有限（例如红色意味着警报，黄色意味着警示等等）。颜色也能传达品牌，但是品牌不应该占据界面的中心。实际上，应用图标是最适合呈现品牌的地方。除非你确定要在页头使用一种单色，不然就该想想更富表现力的方式。用某种方式确切表现你的应用。&lt;/p&gt;
+&lt;p&gt;同样的，这对Android有意义，iOS则否。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果一图胜千言，一种颜色只胜十言。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="各平台定制-vs-全平台通用"&gt;各平台定制 VS 全平台通用
+&lt;/h2&gt;&lt;p&gt;不得不承认，我曾经认为一套设计语言统一全平台是最好的方法。但不幸的是，这会导致用iOS的设计语言来设计Android应用。从我的观点来看，它确实有意义，但最终对用户是不友好的。Android用户就是不熟悉iOS。&lt;/p&gt;
+&lt;p&gt;Material Design统一全平台的目标是个勇敢的尝试，是我所见过的在这方面做得最好的。但这真的是最好的方式吗？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-k13le7SswwLnXec3XDZZBg.jpeg"
+loading="lazy"
+alt="质感设计规范网页卡片布局与排版细节图"
+&gt;&lt;/p&gt;
+&lt;p&gt;网页上真的需要华丽吗？卡片适合小屏幕吗？&lt;/p&gt;
+&lt;p&gt;卡片的概念，在Android wear上，有时还是圆形的屏幕，真的起作用吗？给人感觉这套设计语言并没有优先考虑设备。相反，像是事后聪明。&lt;/p&gt;
+&lt;p&gt;看看Apple Watch，它的设计完全为了手表而&lt;a class="link" href="http://www.wired.com/2015/04/the-apple-watch/" target="_blank" rel="noopener"
+&gt;重新思考过&lt;/a&gt;。这就意味着会有新的UI范例要考虑，尤其对于按压、数字表冠、手腕检测和黑色屏幕边缘。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-EgcBgdCWEsPnvBl5AYmySg.png"
+loading="lazy"
+alt="苹果智能手表外观与屏幕界面的渲染图"
+&gt;&lt;/p&gt;
+&lt;h2 id="material-design定义更清晰"&gt;Material Design定义更清晰
+&lt;/h2&gt;&lt;p&gt;从材质如何操作和选用，到色彩如何结合，一切都在指南中有详细解释。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-0Z0sCyVy8GGfXjrZc5p-uQ.png"
+loading="lazy"
+alt="质感设计中关于不同元素层级高度的规范图"
+&gt;&lt;/p&gt;
+&lt;p&gt;每种设计元素应该如何选用，来创造统一的构造和投影。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-i7EdIpyfwGdocgRpl1wnhQ.png"
+loading="lazy"
+alt="质感设计指南中色彩搭配正确与错误的对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;有一套特定的配色方案和颜色的组合方式。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-vJFuQrjj_FmCTr0F8I16mw.png"
+loading="lazy"
+alt="谷歌质感设计官方提供的通用系统图标集"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Material Design甚至还提供了&lt;a class="link" href="http://www.google.com/design/icons/" target="_blank" rel="noopener"
+&gt;一整套系统图标&lt;/a&gt;&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;有一套严格的风格指南，好处是不容易出差错。就像&lt;a class="link" href="http://getbootstrap.com" target="_blank" rel="noopener"
+&gt;Bootstrap&lt;/a&gt;。它提供了一套统一且方便的体系。坏处是它限制了创造力，会让多数应用同质化。&lt;/p&gt;
+&lt;h2 id="material-design的闪光点"&gt;Material Design的闪光点
+&lt;/h2&gt;&lt;p&gt;不要误会我，还有很多地方Material Design做得很好。只是似乎每个设计师都没有认真考虑其缺点，就高唱赞歌。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设计规则从来都在不断变化，将人们的生活推向时代前沿。只要我们的生活在变化，设计也会改变。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;例如，他们新的&lt;a class="link" href="https://www.google.com/design/" target="_blank" rel="noopener"
+&gt;设计&lt;/a&gt;细则是一流的。在多个设计议题上都作出了指导，让你在Material Design的领域之外也有所收获。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-g19JfEXzo43tt535BQbYOw.png"
+loading="lazy"
+alt="质感设计指南中关于红色与粉色调色板的展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Material Design中的&lt;a class="link" href="https://www.google.com/design/spec/style/color.html" target="_blank" rel="noopener"
+&gt;颜色&lt;/a&gt;和&lt;a class="link" href="https://www.google.com/design/spec/animation/authentic-motion.html" target="_blank" rel="noopener"
+&gt;动画&lt;/a&gt;指南确实让人印象深刻。&lt;/p&gt;
+&lt;p&gt;卡片的概念在整个平台表现很好。它可伸缩且模块化。当然也适用于网页——在移动浪潮来临前，设计师们已经使用了很久了。但我相信屏幕越小，它越没用。&lt;/p&gt;
+&lt;p&gt;之前我提过，柔和色并非一项新事物。但是&lt;a class="link" href="https://dribbble.com/search?q=flat&amp;#43;ui" target="_blank" rel="noopener"
+&gt;Flat UI trend&lt;/a&gt;和Material Design都很推崇它。我们正在返璞归真，创造协调的色彩和漂亮的字体。这是件好事。我们越了解设计的基础，就能更好地塑造上层的设计。&lt;/p&gt;
+&lt;p&gt;Material Design的动画优雅，讨人喜欢，尽管不像人们理解的那么革新。在iOS7之前，过渡式的界面仍然是个非常新鲜的概念。很高兴看到两套规范都推崇更加顺滑、渐进式的动画，来逐渐引导用户，而非通过骤然变化来引人注意。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-02/1-wMRs1E7yCnCSyuWo-lFG4Q.gif"
+loading="lazy"
+alt="质感设计中用于引导用户操作的过渡动效图"
+&gt;&lt;/p&gt;
+&lt;p&gt;Material Design中&lt;a class="link" href="https://www.google.com/design/spec/animation/meaningful-transitions.html#" target="_blank" rel="noopener"
+&gt;有意义的动画&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id="没有完美的设计语言"&gt;没有完美的设计语言
+&lt;/h2&gt;&lt;p&gt;永远不会有完美的设计语言和模版。本文的目的不是为了批判其中之一，而是从优势与弱点的角度来审视。设计就是为了某个目的选择最适合的方式。那么继续前进吧，持续实验来找出最适合你产品的那个。别忘了考虑人们所用的设备。&lt;/p&gt;
+&lt;p&gt;我经常写一些关于iOS、&lt;a class="link" href="http://blog.mengto.com/how-to-design-for-android-devices/" target="_blank" rel="noopener"
+&gt;Android&lt;/a&gt;和&lt;a class="link" href="http://designcode.io" target="_blank" rel="noopener"
+&gt;代码&lt;/a&gt;的文章。你可以在Twitter上通过&lt;a class="link" href="https://twitter.com/mengto" target="_blank" rel="noopener"
+&gt;@MengTo&lt;/a&gt;找到我。感谢阅读！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="https://medium.com/android-news/material-design-is-different-not-better-87909af6ffe1" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://medium.com/@mengto" target="_blank" rel="noopener"
+&gt;Meng To&lt;/a&gt;
+I design, code and write. @mengto&lt;/p&gt;</description></item><item><title>Material design无需照搬Google</title><link>https://victor42.eth.limo/post/3437/</link><pubDate>Sun, 03 May 2015 12:21:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3437/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第84期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/03/blog-hero.png"
+loading="lazy"
+alt="Material Design 风格的邮件应用界面截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;最近，我们决定替换一下我们常备的邮件app原型，换成更迷人、跟上时代的东西——其中考虑采用了Google的material design原则。&lt;/p&gt;
+&lt;p&gt;但我们注意到&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22many&amp;#43;designs&amp;#43;following&amp;#43;Google%27s&amp;#43;guidelines&amp;#43;end&amp;#43;up&amp;#43;looking%2C&amp;#43;well&amp;#43;...&amp;#43;like&amp;#43;Google.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesigning-in-the-material-style-without-just-copying-google%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;很多设计师遵循Google的规范，最后……结果做成了Google&lt;/a&gt;。聪明的品牌会沿袭Google的风格，但对于想要跟上设计趋势&lt;em&gt;同时&lt;/em&gt;保持自身品牌力量的公司而言，这就不太好了。&lt;/p&gt;
+&lt;p&gt;设计新的邮件app原型时，我们深入考虑了这个问题。我们要确坚持material design基于触摸、用动效表达意义、大胆地表达意图的核心原则，但不能完全复制Google Now或是Inbox。&lt;/p&gt;
+&lt;p&gt;我们想在此从两给方面分享构建这套界面的收获：其一，分享我们关于material风格的思考和设计。其二，分享界面本身——你可以从文末获取到。&lt;/p&gt;
+&lt;h2 id="颜色"&gt;颜色
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/04/Sign-In.png" title="Designing in the material style—without just copying Google"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/04/Sign-In.png"
+loading="lazy"
+alt="Material design无需照搬Google设计中关于"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google一直以它大胆的主色运用著名，从他们无处不在的logo，到山景城园区的户外陈设皆是如此。Material通过辅助色、基于饱和度的色谱扩展了它的配色，但仍然专注于运用大片的扁平色彩，并没有使用长年主宰网页设计的渐变色。&lt;/p&gt;
+&lt;p&gt;尽管关于设计趋势的讨论，都倾向于将渐变、投影和拟物化融为一体，&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22material&amp;#43;design&amp;#43;encourages&amp;#43;dramatic&amp;#43;shadows&amp;#43;to&amp;#43;reference&amp;#43;back&amp;#43;to&amp;#43;the&amp;#43;tactile&amp;#43;realities...%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesigning-in-the-material-style-without-just-copying-google%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;material design鼓励使用引人注目的阴影，回归现实中的触觉反馈。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;于是，我们向用户展现了引人注目的渐变色，以示区分——包括app主图标中的条纹。构成这种渐变的色彩来源于material的配色，但我们以一种Google没有的方式进行混合。然后我们给悬浮操作按钮加了一定程度的透明。不过在信封的翻折处仍然有浓厚的阴影。&lt;/p&gt;
+&lt;p&gt;由于&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22material&amp;#43;design&amp;#43;requires&amp;#43;bold%2C&amp;#43;high&amp;#43;contrast%2C&amp;#43;and&amp;#43;deeply&amp;#43;pigmented&amp;#43;colors%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesigning-in-the-material-style-without-just-copying-google%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;material design需要明亮、高对比度、浓烈的颜色&lt;/a&gt;，使用宽泛的配色来填充设计，极具诱惑力。但颜色不必强烈反差来满足material的标准、达成目的——只要意图鲜明就可以了。&lt;/p&gt;
+&lt;p&gt;我们的邮件app最后用了相对简单、接近的配色，采用投影和渐变来区别于Google，&lt;em&gt;同时&lt;/em&gt;创造并传达其意义。&lt;/p&gt;
+&lt;h2 id="字体"&gt;字体
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/04/Sign-Up.png" title="Designing in the material style—without just copying Google"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/04/Sign-Up.png"
+loading="lazy"
+alt="Material design无需照搬Google设计中关于"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google显然具有运用字体传播品牌的力量。通过创造和统一使用他们的Android预留字体，Droid Sans和Serif，如今则是Roboto和Noto，他们不仅创造了清晰的界面，也强调了品牌。他们还（聪明地）更进一步，坚持在网页上也使用Roboto资源，比如&lt;a class="link" href="http://play.google.com" target="_blank" rel="noopener"
+&gt;Play&lt;/a&gt;商店、&lt;a class="link" href="http://www.google.com/design/spec/material-design/introduction.html" target="_blank" rel="noopener"
+&gt;material design官方网站&lt;/a&gt;、和&lt;a class="link" href="http://www.android.com/versions/lollipop-5-0/" target="_blank" rel="noopener"
+&gt;Android版本网站&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我们要一套简洁、现代的外观，类似于Roboto——但不尽然。&lt;a class="link" href="http://www.google.com/fonts/" target="_blank" rel="noopener"
+&gt;Google Fonts上对的Roboto描述&lt;/a&gt; 表现了他们试图让它适用于所有人——他们用了少量词句描述，比如混搭、人文主义&lt;em&gt;还有&lt;/em&gt;几何学。&lt;/p&gt;
+&lt;p&gt;于是我们选了Avenir字体，另一种跨界字体，它源于无装饰的Futura字体，但融入了更多人文主义曲线。不像Roboto或Apple的挚爱Helvetica，它&lt;em&gt;不是&lt;/em&gt;混搭字体。&lt;/p&gt;
+&lt;p&gt;我们也用过人文主义的Open Sans字体，我们的品牌字体之一。不过这没什么意义，我们不想过分强调自己的品牌。&lt;/p&gt;
+&lt;h2 id="交互与动画"&gt;交互与动画
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/04/Interaction.gif" title="Designing in the material style—without just copying Google"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/04/Interaction.gif"
+loading="lazy"
+alt="Material design无需照搬Google设计中关于"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;交互、动效和动画可以给用户带来大量的反馈信息。通过过渡效果，让他们知道任务已完成，表达出app的层级结构。这些都不需要逐一写成文字。&lt;/p&gt;
+&lt;p&gt;Google的动画效果能给人启发，让人思考事物相互间如何关联与转变，UI元素如何帮助用户接受与登录，界面元素如何取悦用户（而非令他们分心）。&lt;/p&gt;
+&lt;p&gt;但要确保它最终确有启发性。谨慎考量&lt;em&gt;你的app&lt;/em&gt;的&lt;em&gt;最佳&lt;/em&gt;交互隐喻。Google的纸墨隐喻难以抗拒，这点无可否认。通过它让你的用户理解app的行为、工作原理和各元素间的关联，只有这样，它才是正确的选择。&lt;/p&gt;
+&lt;p&gt;交互效果与动画要对你的app有意义，有助于融入Android（或iOS）生态系统，能够打造最佳的用户体验。时刻围绕自己的平台很需要精力——这就是为什么我们在设置中的iOS开关、切换项上稍微卡住了一会儿，为了保持material的感觉。&lt;/p&gt;
+&lt;h2 id="请随意取用"&gt;请随意取用
+&lt;/h2&gt;&lt;p&gt;设计这套新原型，教会我们很多。我们希望这个Sketch文件也能给你同样多的信息。它总共有23给界面，包括登录。&lt;a class="link" href="https://s3.amazonaws.com/www-assets.invisionapp.com/Mail-app-UI-kit.sketch" target="_blank" rel="noopener"
+&gt;马上下载吧&lt;/a&gt;，完全免费！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/designing-in-the-material-style-without-just-copying-google/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+John Moore Williams
+I&amp;rsquo;m the Director of Content Strategy here at InVision. Nice to meet you.
+&lt;a class="link" href="https://twitter.com/johnamwill" target="_blank" rel="noopener"
+&gt;Follow me on Twitter&lt;/a&gt;&lt;/p&gt;</description></item><item><title>material design学习笔记</title><link>https://victor42.eth.limo/post/3416/</link><pubDate>Sun, 28 Dec 2014 12:36:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3416/</guid><description>&lt;p&gt;&lt;strong&gt;图多，耗费流量7.6MB，请在WIFI下打开&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-1.png"
+loading="lazy"
+alt="Material Design多设备响应式展示图"
+&gt;&lt;/p&gt;
+&lt;p&gt;自从material design发布以来，我就在一直收集相关素材与资源，研究别人的作品。这套设计风格非常鲜明，带有浓郁的Google式严谨和理性哲学，深得我心。实际上，光是研究素材和别人作品，就能发现一些明显的规律，做出几分相似的设计。这样半吊子的状态一直保持到现在，最近有时间通读一遍官方的设计指南，终于有了深入的理解。在&lt;a class="link" href="http://lydiabox.com/" target="_blank" rel="noopener"
+&gt;朋友的项目&lt;/a&gt;中实践了一番，虽然很抱歉拿朋友开刀，不过他对整体效果似乎还算满意。&lt;/p&gt;
+&lt;p&gt;material design的设计规范细致入微，需要消化好一阵子。越读越感受到它的妙处，假如每个细节都严格遵照material design的思想来设计，哪怕你不是设计人员，你的产品也一定不会难用和难看。当然，作为设计师，要求就更高了。设计文档本身，就提供了一种很好的方式，帮你从各个角度思考和构建自己产品的规范。但在这之前，先要好好整理一下学习笔记。要打破规矩，必先掌握规矩。&lt;/p&gt;
+&lt;p&gt;由于只是笔记，我会写得尽量简单。并且省略掉一些我认为设计师都已经掌握的信息。想要深入了解material design，还是建议有空通读一遍官方文档。不过，牢记以下要点，基本能做到90%了。实际上，Google官方的应用也有不遵照规范的地方，不能太拘泥于条条框框。&lt;/p&gt;
+&lt;p&gt;##1. 核心思想&lt;/p&gt;
+&lt;p&gt;material design的核心思想，就是把物理世界的体验带进屏幕。去掉现实中的杂质和随机性，保留其最原始纯净的形态、空间关系、变化与过渡，配合虚拟世界的灵活特性，还原最贴近真实的体验，达到简洁与直观的效果。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-2.png"
+loading="lazy"
+alt="Material Design跨设备自适应布局示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;material design是最重视跨平台体验的一套设计语言。由于规范严格细致，保证它在各个平台使用体验高度一致。不过目前还只有Google自家的服务这么做，毕竟其他平台有自己的规范与风格。&lt;/p&gt;
+&lt;p&gt;##2. 材质与空间&lt;/p&gt;
+&lt;p&gt;###材质&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-1.gif"
+loading="lazy"
+alt="Material Design卡片阴影层次示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;material design中，最重要的信息载体就是魔法纸片。纸片层叠、合并、分离，拥有现实中的厚度、惯性和反馈，同时拥有液体的一些特性，能够自由伸展变形。&lt;/p&gt;
+&lt;p&gt;这些是纸片的魔法特性，真实纸片所不具备的能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;纸片可以伸缩、改变形状&lt;/li&gt;
+&lt;li&gt;纸片变形时可以裁剪内容，比如纸片缩小时，内容大小不变，而是隐藏超出部分&lt;/li&gt;
+&lt;li&gt;多张纸片可以拼接成一张&lt;/li&gt;
+&lt;li&gt;一张纸片可以分裂成多张&lt;/li&gt;
+&lt;li&gt;纸片可以在任何位置凭空出现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不过，魔法纸片有些效果是禁止的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一项操作不能同时触发两张纸片的反馈&lt;/li&gt;
+&lt;li&gt;层叠的纸片，海报高度不能相同&lt;/li&gt;
+&lt;li&gt;纸片不能互相穿透&lt;/li&gt;
+&lt;li&gt;纸片不能弯折&lt;/li&gt;
+&lt;li&gt;纸片不能产生透视，必须平行于屏幕&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###空间&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-3.png"
+loading="lazy"
+alt="设备坐标轴与动画方向示意图设计展示图稿"
+&gt;&lt;/p&gt;
+&lt;p&gt;material design引入了z轴的概念，z轴垂直于屏幕，用来表现元素的层叠关系。z值（海拔高度）越高，元素离界面底层（水平面）越远，投影越重。这里有一个前提，所有的元素的厚度都是1dp。&lt;/p&gt;
+&lt;p&gt;所有元素都有默认的海拔高度，对它进行操作会抬升它的海拔高度，操作结束后，它应该落回默认海拔高度。同一种元素，同样的操作，抬升的高度是一致的。&lt;/p&gt;
+&lt;p&gt;注意：这不止是设计中的概念，开发人员确实可以通过一个值来控制元素的海拔高度和投影。&lt;/p&gt;
+&lt;p&gt;##3. 动画&lt;/p&gt;
+&lt;p&gt;material design重视动画效果，它反复强调一点：动画不只是装饰，它有含义，能表达元素、界面之间的关系，具备功能上的作用。&lt;/p&gt;
+&lt;p&gt;###easing&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-2.gif"
+loading="lazy"
+alt="Material Design动画缓动曲线图"
+&gt;&lt;/p&gt;
+&lt;p&gt;动画要贴近真实世界，就要重视easing。物理世界中的运动和变化都是有加速和减速过程的，忽然开始、忽然停止的匀速动画显得机械而不真实。考虑动画的easing，要先考虑它在现实世界中的运动规律。&lt;/p&gt;
+&lt;p&gt;###水波反馈&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-3.gif"
+loading="lazy"
+alt="Material Design列表展开交互效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-4.gif"
+loading="lazy"
+alt="Material Design卡片堆叠视觉效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-5.gif"
+loading="lazy"
+alt="Material Design应用顶部工具栏设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;所有可点击的元素，都应该有这样的反馈效果。通过这个动画，将点击的位置与所操作的元素关联起来，体现了material design动画的功能性。&lt;/p&gt;
+&lt;p&gt;###转场效果&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-6.gif"
+loading="lazy"
+alt="Material Design音乐播放器界面示例"
+&gt;&lt;/p&gt;
+&lt;p&gt;通过过渡动画，表达界面之间的空间与层级关系，并且跨界面传递信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-7.gif"
+loading="lazy"
+alt="Material Design卡片阴影层级示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;从父界面进入子界面，需要抬升子元素的海拔高度，并展开至整个屏幕，反之亦然。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-8.gif"
+loading="lazy"
+alt="Material Design步骤进度指示器"
+&gt;&lt;/p&gt;
+&lt;p&gt;多个相似元素，动画的设计要有先后次序，起到引导视线的作用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-9.gif"
+loading="lazy"
+alt="Material Design加载状态动画效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;相似元素的运动，要符合统一的规律。&lt;/p&gt;
+&lt;p&gt;###细节动画&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-10.gif"
+loading="lazy"
+alt="Material Design四宫格功能图标"
+&gt;&lt;/p&gt;
+&lt;p&gt;通过图标的变化和一些细节来达到令人愉悦的效果。&lt;/p&gt;
+&lt;p&gt;##4. 颜色&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-4.png"
+loading="lazy"
+alt="Material Design主色调靛蓝色色板"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-5.png"
+loading="lazy"
+alt="Material Design强调色粉色色板"
+&gt;&lt;/p&gt;
+&lt;p&gt;颜色不宜过多。选取一种主色、一种辅助色（非必需），在此基础上进行明度、饱和度变化，构成配色方案。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-6.png"
+loading="lazy"
+alt="Material Design项目优先级设置界面"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-7.png"
+loading="lazy"
+alt="Material Design黑色配色方案色板"
+&gt;&lt;/p&gt;
+&lt;p&gt;Appbar背景使用主色，状态栏背景使用深一级的主色或20%透明度的纯黑。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-8.png"
+loading="lazy"
+alt="Material Design白色配色方案色板"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-9.png"
+loading="lazy"
+alt="Material Design信封图标设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;小面积需要高亮显示的地方使用辅助色。&lt;/p&gt;
+&lt;p&gt;其余颜色通过纯黑#000000与纯白#ffffff的透明度变化来展现（包括图标和分隔线），而且透明度限定了几个值。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-10.png"
+loading="lazy"
+alt="Material Design邮件应用图标"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-11.png"
+loading="lazy"
+alt="Material Design方形圆角图标规范"
+&gt;&lt;/p&gt;
+&lt;p&gt;黑色：[87% 普通文字] [54% 减淡文字] [26% 禁用状态/提示文字] [12% 分隔线]
+白色：[100% 普通文字] [70% 减淡文字] [30% 禁用状态/提示文字] [12% 分隔线]&lt;/p&gt;
+&lt;p&gt;##5. 图标&lt;/p&gt;
+&lt;p&gt;###桌面图标&lt;/p&gt;
+&lt;p&gt;桌面图标尺寸是48dp X 48dp。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-12.png"
+loading="lazy"
+alt="Material Design圆形图标规范"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-13.png"
+loading="lazy"
+alt="Material Design浮动操作按钮设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;桌面图标建议模仿现实中的折纸效果，通过扁平色彩表现空间和光影。注意避免以下问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不要给彩色元素加投影&lt;/li&gt;
+&lt;li&gt;层叠不要超过两层&lt;/li&gt;
+&lt;li&gt;折角不要放在左上角&lt;/li&gt;
+&lt;li&gt;带投影的元素要完整展现，不能被图标边缘裁剪&lt;/li&gt;
+&lt;li&gt;如果有折痕，放在图片中央，并且最多只有一条&lt;/li&gt;
+&lt;li&gt;带折叠效果的图标，表面不要有图案&lt;/li&gt;
+&lt;li&gt;不能透视、弯曲&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-14.png"
+loading="lazy"
+alt="Material Design底部导航栏设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-15.png"
+loading="lazy"
+alt="Material Design标签页切换效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-16.png"
+loading="lazy"
+alt="Material Design对话框弹窗设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-17.png"
+loading="lazy"
+alt="Material Design菜单下拉效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;常规形状可以遵循几套固定栅格设计。&lt;/p&gt;
+&lt;p&gt;###小图标&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-18.png"
+loading="lazy"
+alt="Material Design搜索框交互设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;优先使用material design默认图标。设计小图标时，使用最简练的图形来表达，图形不要带空间感。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-19.png"
+loading="lazy"
+alt="Material Design表单输入框设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-20.png"
+loading="lazy"
+alt="Material Design开关按钮设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;小图标尺寸是24dp X 24dp。图形限制在中央20dp X 20dp区域内。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-21.png"
+loading="lazy"
+alt="Material Design复选框样式"
+&gt;&lt;/p&gt;
+&lt;p&gt;小图标同样有栅格系统。线条、空隙尽量保持2dp宽，圆角半径2dp。特殊情况相应调整。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-22.png"
+loading="lazy"
+alt="Material Design单选按钮样式"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-23.png"
+loading="lazy"
+alt="Material Design进度条设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;小图标的颜色使用纯黑与纯白，通过透明度调整：&lt;/p&gt;
+&lt;p&gt;黑色：[54% 正常状态] [26% 禁用状态]
+白色：[100% 正常状态] [30% 禁用状态]&lt;/p&gt;
+&lt;p&gt;##6. 图片&lt;/p&gt;
+&lt;p&gt;###选用图片&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-24.png"
+loading="lazy"
+alt="采用真实歌手照片作为主色调提取背景的卡片设计示例（Yuna "
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-25.png"
+loading="lazy"
+alt="Material Design选择器弹窗设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;描述具体事物，优先使用照片。然后可以考虑使用插画。&lt;/p&gt;
+&lt;p&gt;###图片上的文字&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-26.png"
+loading="lazy"
+alt="包含用户头像、邮箱与主要功能列表的抽屉侧边栏（Navigat"
+&gt;&lt;/p&gt;
+&lt;p&gt;图片上的文字，需要淡淡的遮罩确保其可读性。深色的遮罩透明度在20%-40%之间，浅色的遮罩透明度在40%-60%之间。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-27.png"
+loading="lazy"
+alt="Material Design时间选择器界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;对于带有文字的大幅图片，遮罩文字区域，不要遮住整张图片。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-28.png"
+loading="lazy"
+alt="带半透明蓝色遮罩与悬浮响应按钮（FAB）的个人名片详情页面布"
+&gt;&lt;/p&gt;
+&lt;p&gt;可以使用半透明的主色盖住图片。&lt;/p&gt;
+&lt;p&gt;###提取颜色&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-29.png"
+loading="lazy"
+alt="音乐播放器“正在播放”界面，展示以专辑封面主色调提取并自动匹"
+&gt;&lt;/p&gt;
+&lt;p&gt;Android L可以从图片中提取主色，运用在其他UI元素上。&lt;/p&gt;
+&lt;p&gt;###图片加载过程&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-30.png"
+loading="lazy"
+alt="Material Design日期选择器界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;图片的加载过程非常讲究，透明度、曝光度、饱和度3个指标依次变化，效果相当细腻。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-11.gif"
+loading="lazy"
+alt="Material Design列表项滑动删除效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;##7. 文字&lt;/p&gt;
+&lt;p&gt;###字体&lt;/p&gt;
+&lt;p&gt;英文字体使用Roboto，中文字体使用Noto。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-31.png"
+loading="lazy"
+alt="Material Design侧边导航抽屉设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;Roboto有6种字重：Thin, Light, Regular, Medium, Bold 和 Black。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-32.png"
+loading="lazy"
+alt="Material Design底部工作表设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;Noto有7种字重：Thin, Light, DemiLight, Regular, Medium, Bold 和 Black。&lt;/p&gt;
+&lt;p&gt;###文字排版&lt;/p&gt;
+&lt;p&gt;常用字号：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;12sp 小字提示&lt;/li&gt;
+&lt;li&gt;14sp（桌面端13sp） 正文/按钮文字&lt;/li&gt;
+&lt;li&gt;16sp（桌面端15sp） 小标题&lt;/li&gt;
+&lt;li&gt;20sp Appbar文字&lt;/li&gt;
+&lt;li&gt;24sp 大标题&lt;/li&gt;
+&lt;li&gt;34sp/45sp/56sp/112sp 超大号文字&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;长篇幅正文，每行建议60字符（英文）左右。短文本，建议每行30字符（英文）左右。&lt;/p&gt;
+&lt;p&gt;##8. 布局&lt;/p&gt;
+&lt;p&gt;所有可操作元素最小点击区域尺寸：48dp X 48dp。&lt;/p&gt;
+&lt;p&gt;栅格系统的最小单位是8dp，一切距离、尺寸都应该是8dp的整数倍。以下是一些常见的尺寸与距离：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;顶部状态栏高度：24dp&lt;/li&gt;
+&lt;li&gt;Appbar最小高度：56dp&lt;/li&gt;
+&lt;li&gt;底部导航栏高度：48dp&lt;/li&gt;
+&lt;li&gt;悬浮按钮尺寸：56x56dp/40x40dp&lt;/li&gt;
+&lt;li&gt;用户头像尺寸：64x64dp/40x40dp&lt;/li&gt;
+&lt;li&gt;小图标点击区域：48x48dp&lt;/li&gt;
+&lt;li&gt;侧边抽屉到屏幕右边的距离：56dp&lt;/li&gt;
+&lt;li&gt;卡片间距：8dp&lt;/li&gt;
+&lt;li&gt;分隔线上下留白：8dp&lt;/li&gt;
+&lt;li&gt;大多元素的留白距离：16dp&lt;/li&gt;
+&lt;li&gt;屏幕左右对齐基线：16dp&lt;/li&gt;
+&lt;li&gt;文字左侧对齐基线：72dp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-33.png"
+loading="lazy"
+alt="Material Design提示框Snackbar设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;另外注意56dp这个数字，许多尺寸可变的控件，比如对话框、菜单等，宽度都可以按56的整数倍来设计。&lt;/p&gt;
+&lt;p&gt;还有非常多规范，不详细列举，遵循8dp栅格很容易找到适合的尺寸与距离。平板与PC上留白更多，距离与尺寸要相应增大。&lt;/p&gt;
+&lt;p&gt;##9. 组件&lt;/p&gt;
+&lt;p&gt;###Bottom sheets&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-34.png"
+loading="lazy"
+alt="Material Design chips标签组件设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-35.png"
+loading="lazy"
+alt="Material Design步进器组件设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;通常以列表形式出现，支持上下滚动。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-36.png"
+loading="lazy"
+alt="Material Design分页器设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-37.png"
+loading="lazy"
+alt="Material Design徽章通知设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-38.png"
+loading="lazy"
+alt="Material Design图片网格布局设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;也可以是网格式的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-39.png"
+loading="lazy"
+alt="Material Design卡片详情展开动画"
+&gt;&lt;/p&gt;
+&lt;p&gt;###Buttons&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-40.png"
+loading="lazy"
+alt="Material Design列表项点击效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-41.png"
+loading="lazy"
+alt="Material Design底部导航交互示例"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-42.png"
+loading="lazy"
+alt="Material Design顶部应用栏设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;按钮分为悬浮按钮、凸起按钮和扁平按钮3种。重要性如下递减：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-43.png"
+loading="lazy"
+alt="Material Design工具栏展开效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;最重要且随处用到的操作，建议使用悬浮按钮。信息较多时，选用凸起按钮可以有效突出重要操作，但注意纸片不要叠太多层。扁平按钮适合用在简单的界面，例如对话框中。&lt;/p&gt;
+&lt;p&gt;使用悬浮按钮要遵循以下规则：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;建议只用一个悬浮按钮&lt;/li&gt;
+&lt;li&gt;悬浮按钮可以贴在纸片边缘或者接缝处，但不要贴在对话框、侧边抽屉和菜单的边缘&lt;/li&gt;
+&lt;li&gt;悬浮按钮不能被其他元素盖住，也不能挡住其他按钮&lt;/li&gt;
+&lt;li&gt;列表滚动至底部时，悬浮按钮应该隐藏，防止它挡住列表项&lt;/li&gt;
+&lt;li&gt;悬浮按钮的位置不能随意摆放，可以贴着左右两边的对齐基线&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-44.png"
+loading="lazy"
+alt="Material Design底部导航菜单"
+&gt;&lt;/p&gt;
+&lt;p&gt;悬浮按钮通常触发正向的操作，添加、创建、收藏之类。不能触发负面、破坏性或不重要的操作，也不应该有数字角标。下图就是悬浮按钮的错误使用：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-45.png"
+loading="lazy"
+alt="不同功能和状态下的圆形图标与带通知数字徽章的悬浮动作按钮设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;悬浮按钮有两种尺寸：56x56dp/40x40dp&lt;/p&gt;
+&lt;p&gt;###Cards&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-46.png"
+loading="lazy"
+alt="Material Design悬浮按钮展开菜单"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-47.png"
+loading="lazy"
+alt="Material Design卡片滑动操作"
+&gt;&lt;/p&gt;
+&lt;p&gt;即使在同一个列表中，卡片的内容和布局方式也可以不一样。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-48.png"
+loading="lazy"
+alt="Material Design列表展开详情"
+&gt;&lt;/p&gt;
+&lt;p&gt;卡片统一带有2dp的圆角。&lt;/p&gt;
+&lt;p&gt;在以下情况考虑使用卡片：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;同时展现多种不同内容&lt;/li&gt;
+&lt;li&gt;卡片内容之间不需要进行比较&lt;/li&gt;
+&lt;li&gt;包含了长度不确定的内容，比如评论&lt;/li&gt;
+&lt;li&gt;包含丰富的内容与操作项，比如赞、滚动条、评论&lt;/li&gt;
+&lt;li&gt;本该是列表，但文字超过3行&lt;/li&gt;
+&lt;li&gt;本该是网格，但需要展现更多文字&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-49.png"
+loading="lazy"
+alt="Material Design页面转场动画"
+&gt;&lt;/p&gt;
+&lt;p&gt;卡片最多有两块操作区域。辅助操作区至多包含两个操作项，更多操作需要使用下拉菜单。其余部分都是主操作区。&lt;/p&gt;
+&lt;p&gt;###Chips&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-50.png"
+loading="lazy"
+alt="Material Design下拉刷新效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-51.png"
+loading="lazy"
+alt="Material Design加载更多动画"
+&gt;&lt;/p&gt;
+&lt;p&gt;狭小空间内表现复杂信息的一个组件，比如日期、联系人选择器。&lt;/p&gt;
+&lt;p&gt;###Dialogs&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-52.png"
+loading="lazy"
+alt="Material Design空状态页面设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;对话框包含标题、内容和操作项。点击对话框外的区域，不会关闭对话框。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-53.png"
+loading="lazy"
+alt="Material Design错误状态页面"
+&gt;&lt;/p&gt;
+&lt;p&gt;通常情况，避免出现滚动条。空间不足时允许滚动，滚动条建议默认显示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-54.png"
+loading="lazy"
+alt="Material Design成功状态提示"
+&gt;&lt;/p&gt;
+&lt;p&gt;对话框中，取消类操作项放在左边，引起变化的操作项放在右边。要写明操作项的具体效果，不要只写“是”和“否”。标题文字要明确，即使不读正文内容也能知道在干什么，标题不要用“确定吗”这样的含糊措辞。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-55.png"
+loading="lazy"
+alt="Material Design网络异常提示"
+&gt;&lt;/p&gt;
+&lt;p&gt;在对话框中改变内容，不会提交数据，点击确定后，才会发生变化。&lt;/p&gt;
+&lt;p&gt;对话框上方不能再层叠对话框。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-56.png"
+loading="lazy"
+alt="Material Design搜索界面设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;还有一种简易对话框，不带操作项。点击列表内容触发相应操作，并关闭对话框。点击简易对话框外面，对话框会关闭，操作取消。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-57.png"
+loading="lazy"
+alt="Material Design筛选排序界面"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-58.png"
+loading="lazy"
+alt="Material Design多选操作界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;对话框可以是全屏式的，全屏对话框上方可以再层叠对话框。左图是一个普通界面，其中的任何改动立即生效。右图是全屏对话框，其中任何改动，要点击保存后才生效，点击X取消。&lt;/p&gt;
+&lt;p&gt;全屏对话框右上角的操作项，可以是诸如保存、发送、添加、分享、更新、创建之类的操作，不要使用完成、OK、关闭这样的含糊措辞。&lt;/p&gt;
+&lt;p&gt;只有必填项都填了，右上角的操作项才变为可点击状态。&lt;/p&gt;
+&lt;p&gt;内容发生了改变，点左上角的X，需要有个确认对话框，提示是否忽略修改。内容没有发生改变，点左上角的X，直接退出全屏对话框。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-59.png"
+loading="lazy"
+alt="Material Design批量编辑模式"
+&gt;&lt;/p&gt;
+&lt;p&gt;对话框的四周留白比较大，通常是24dp。&lt;/p&gt;
+&lt;p&gt;###Dividers&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-60.png"
+loading="lazy"
+alt="Material Design图片预览界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;列表中有头像、图片等元素时，使用内嵌分隔线，左端与文字对齐。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-61.png"
+loading="lazy"
+alt="Material Design视频播放控件"
+&gt;&lt;/p&gt;
+&lt;p&gt;没有头像、图标等元素时，需要用通栏分隔线。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-62.png"
+loading="lazy"
+alt="Material Design音频播放控件"
+&gt;&lt;/p&gt;
+&lt;p&gt;图片本身就起到划定区域的作用，相册列表不需要分隔线。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-63.png"
+loading="lazy"
+alt="Material Design相机拍照界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;谨慎使用分隔线，留白和小标题也能起到分隔作用。能用留白的地方，优先使用留白。分隔线的层级高于留白。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-64.png"
+loading="lazy"
+alt="Material Design图片裁剪界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;通栏分隔线的层级高于内嵌分隔线。&lt;/p&gt;
+&lt;p&gt;###Grids&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-65.png"
+loading="lazy"
+alt="Material Design文件上传进度"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-66.png"
+loading="lazy"
+alt="Material Design下载管理界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;网格由单元格构成，单元格中的瓦片用来承载内容。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-67.png"
+loading="lazy"
+alt="Material Design分享弹窗设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;瓦片可以横跨多个单元格。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-68.png"
+loading="lazy"
+alt="Material Design收藏操作反馈"
+&gt;&lt;/p&gt;
+&lt;p&gt;瓦片包含主操作区和副操作区，副操作区的位置可以在上下左右4个角落。在同一个网格中，主、副操作区的内容与位置要保持一致。两者的操作都应该直接生效，不能触发菜单。&lt;/p&gt;
+&lt;p&gt;网格只能垂直滚动。单个瓦片不支持滑动手势，也不鼓励使用拖放操作。&lt;/p&gt;
+&lt;p&gt;网格中的单元格间距是2dp或8dp。&lt;/p&gt;
+&lt;p&gt;###Lists&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-69.png"
+loading="lazy"
+alt="Material Design点赞动画效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-70.png"
+loading="lazy"
+alt="Material Design评论输入界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;列表由行构成，行内包含瓦片。如果列表项内容文字超过3行，请改用卡片。如果列表项的主要区别在于图片，请改用网格。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-71.png"
+loading="lazy"
+alt="Material Design回复列表设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;列表包含主操作区与副操作区。副操作区位于列表右侧，其余都是主操作区。在同一个列表中，主、副操作区的内容与位置要保持一致。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-72.png"
+loading="lazy"
+alt="Material Design通知中心界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;在同一个列表中，滑动手势操作保持一致。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-73.png"
+loading="lazy"
+alt="Material Design消息列表设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;主操作区与副操作区的图标或图形元素是列表控制项，列表的控制项可以是勾选框、开关、拖动排序、展开/收起等操作，也可以包含快捷键提示、二级菜单等提示信息。&lt;/p&gt;
+&lt;p&gt;###Menus&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-74.png"
+loading="lazy"
+alt="Material Design联系人列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;顺序固定的菜单，操作频繁的选项放在上面。顺序可变的菜单，可以把之前用过的选项排在前面，动态排序。菜单尽量不要超过2级。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-75.png"
+loading="lazy"
+alt="Material Design个人资料页面"
+&gt;&lt;/p&gt;
+&lt;p&gt;当前不可用的选项要显示出来，让用户知道在特定条件可以触发这些操作。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-76.png"
+loading="lazy"
+alt="Material Design设置页面设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;菜单原地展开，盖住当前选项，当前选项应该成为菜单的第一项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-77.png"
+loading="lazy"
+alt="Material Design主题切换效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-78.png"
+loading="lazy"
+alt="Material Design夜间模式界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;菜单的当前选项，始终与当前选项水平对齐。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-79.png"
+loading="lazy"
+alt="Material Design字体大小设置"
+&gt;&lt;/p&gt;
+&lt;p&gt;靠近屏幕边缘时，位置可适当错开。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-80.png"
+loading="lazy"
+alt="Material Design语言切换设置"
+&gt;&lt;/p&gt;
+&lt;p&gt;菜单过长时，需要显示滚动条。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-81.png"
+loading="lazy"
+alt="Material Design隐私设置页面"
+&gt;&lt;/p&gt;
+&lt;p&gt;菜单从当前选项固定位置展开，不要跟随点击位置改变。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-82.png"
+loading="lazy"
+alt="Material Design安全设置页面"
+&gt;&lt;/p&gt;
+&lt;p&gt;菜单到上下留出8dp距离。&lt;/p&gt;
+&lt;p&gt;###Pickers&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-83.png"
+loading="lazy"
+alt="Material Design登录界面设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-84.png"
+loading="lazy"
+alt="Material Design注册界面设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;日期和时间选择器是固定组件，在小屏幕设备中，通常以对话框形式展现。&lt;/p&gt;
+&lt;p&gt;###Progress &amp;amp; activity&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-12.gif"
+loading="lazy"
+alt="Material Design密码重置界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;线形进度条只出现在纸片的边缘。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-13.gif"
+loading="lazy"
+alt="Material Design验证码输入界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;环形进度条也分时间已知和时间未知两种。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-14.gif"
+loading="lazy"
+alt="Material Design地图定位界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;环形进度条可以用在悬浮按钮上。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-15.gif"
+loading="lazy"
+alt="Material Design位置搜索界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;加载详细信息时，也可以使用进度条。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/b-16.gif"
+loading="lazy"
+alt="Material Design路线规划界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;下拉刷新的动画比较特殊，列表不动，出现一张带有环形进度条的纸片。&lt;/p&gt;
+&lt;p&gt;###Sliders&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-85.png"
+loading="lazy"
+alt="Material Design导航界面设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;滑块左右两边可以放置图标。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-86.png"
+loading="lazy"
+alt="Material Design街景查看界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;或是可编辑文本框。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-87.png"
+loading="lazy"
+alt="Material Design地点详情页面"
+&gt;&lt;/p&gt;
+&lt;p&gt;非连续的滑块，需要标出具体数值。&lt;/p&gt;
+&lt;p&gt;###Snackbars &amp;amp; toasts&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-88.png"
+loading="lazy"
+alt="Material Design评分评论界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;Snackbars至多包含一个操作项，不能包含图标。不能出现一个以上的Snackbars。&lt;/p&gt;
+&lt;p&gt;Snackbars在移动设备上，出现在底部。在PC上，应该悬浮在屏幕左下角。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-89.png"
+loading="lazy"
+alt="Material Design收藏地点列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;不一定要用户响应的提示，可以使用Snackbars。非常重要的提示，必须用户来决定的，应该用对话框。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-90.png"
+loading="lazy"
+alt="Material Design历史记录界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;Snackbars不能遮挡住悬浮按钮，悬浮按钮要上移让出位置。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-91.png"
+loading="lazy"
+alt="Material Design附近搜索界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;Snackbars的留白比较大，24dp。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-92.png"
+loading="lazy"
+alt="Material Design分类浏览界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;toasts和Snackbars类似，样式和位置可以自定义，建议遵循Snackbars的规则设计。&lt;/p&gt;
+&lt;p&gt;###Subheaders&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-93.png"
+loading="lazy"
+alt="Material Design推荐列表设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;小标题是列表或网格中的特殊瓦片，描述列表内容的分类、排序等信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-94.png"
+loading="lazy"
+alt="Material Design热门排行界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;滚动时，如果列表较长，小标题会固定在顶部，直到下一个小标题将它顶上去。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-95.png"
+loading="lazy"
+alt="Material Design最新内容列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;存在浮动按钮时，小标题要让出位置，与文字对齐。&lt;/p&gt;
+&lt;p&gt;###Switches&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-96.png"
+loading="lazy"
+alt="Material Design trending话题"
+&gt;&lt;/p&gt;
+&lt;p&gt;必须所有选项保持可见时，才用Radio button。不然可以使用下拉菜单，节省空间。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-97.png"
+loading="lazy"
+alt="Material Design关注列表设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;在同一个列表中有多项开关，建议使用Checkbox。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-98.png"
+loading="lazy"
+alt="Material Design粉丝列表界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;单个开关项建议使用Switch。&lt;/p&gt;
+&lt;p&gt;###Tabs&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-99.png"
+loading="lazy"
+alt="Material Design动态流设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;tab只用来展现不同类型的内容，不能当导航菜单使用。tab至少2项，至多6项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-100.png"
+loading="lazy"
+alt="Material Design发现页面设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;超出6项，tab需要变为滚动式，左右翻页。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-101.png"
+loading="lazy"
+alt="Material Design搜索建议界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;tab文字要显示完整，字号保持一致，不能折行，文字与图标不能混用。&lt;/p&gt;
+&lt;p&gt;tab选中项的下划线高度是2dp。&lt;/p&gt;
+&lt;p&gt;###Text fields&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-102.png"
+loading="lazy"
+alt="Material Design历史搜索记录"
+&gt;&lt;/p&gt;
+&lt;p&gt;简单一根横线就能代表输入框，可以带图标。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-103.png"
+loading="lazy"
+alt="Material Design热门搜索榜单"
+&gt;&lt;/p&gt;
+&lt;p&gt;激活状态和错误状态，横线的宽度变为2dp，颜色改变。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-104.png"
+loading="lazy"
+alt="单行输入框组件的尺寸与间距规范，定义了48dp的高度及16d"
+&gt;&lt;/p&gt;
+&lt;p&gt;输入框点击区域高度至少48dp，但横线并不在点击区域的底部，还有8dp距离。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-105.png"
+loading="lazy"
+alt="文本输入框在常规、聚焦、有输入内容及禁用（Disabled）"
+&gt;&lt;/p&gt;
+&lt;p&gt;输入框提示文字，可以在输入内容后，缩小停留在输入框左上角。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-106.png"
+loading="lazy"
+alt="带标签的双行文本输入框组件尺寸规范，总高度为72dp且包含各"
+&gt;&lt;/p&gt;
+&lt;p&gt;整个点击区域增高，提示文字也是点击区域的一部分。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-107.png"
+loading="lazy"
+alt="Material Design语音搜索界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;通栏输入框是没有横线的，这种情况下通常有分隔线将输入框隔开。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-108.png"
+loading="lazy"
+alt="Material Design扫码界面设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-109.png"
+loading="lazy"
+alt="Material Design二维码生成界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;右下角可以加入字数统计。字数统计不要默认显示，字数接近上限时再显示出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-110.png"
+loading="lazy"
+alt="Material Design日程日历界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;通栏输入框也可以有字数统计，单行的字数统计显示在同一行右侧。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-111.png"
+loading="lazy"
+alt="Material Design待办事项列表"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-112.png"
+loading="lazy"
+alt="Material Design提醒设置界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;错误提示显示在输入框的左下方。默认提示文本可以转换为错误提示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-113.png"
+loading="lazy"
+alt="Material Design闹钟设置界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;字数限制与错误提示都会使点击区域增高。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-114.png"
+loading="lazy"
+alt="Material Design计时器界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;同时有多个输入框错误时，顶部要有一个全局的错误提示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-115.png"
+loading="lazy"
+alt="Material Design秒表界面设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-116.png"
+loading="lazy"
+alt="Material Design世界时钟界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;输入框尽量带有自动补全功能。&lt;/p&gt;
+&lt;p&gt;###Tooltips&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-117.png"
+loading="lazy"
+alt="Material Design天气预报界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;提示只用在小图标上，文字不需要提示。鼠标悬停、获得焦点、手指长按都可以触发提示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-118.png"
+loading="lazy"
+alt="Material Design天气详情页面"
+&gt;&lt;/p&gt;
+&lt;p&gt;上图是错误例子。提示不能包含富文本，不需要三角箭头。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-119.png"
+loading="lazy"
+alt="Material Design空气质量指数"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-120.png"
+loading="lazy"
+alt="Material Design穿衣建议界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;触摸提示（左）和鼠标提示（右）的尺寸是不同的，背景都带有90%的透明度。&lt;/p&gt;
+&lt;p&gt;###Navigation drawer&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-121.png"
+loading="lazy"
+alt="Material Design日出日落时间"
+&gt;&lt;/p&gt;
+&lt;p&gt;侧边抽屉从左侧滑出，占据整个屏幕高度，遵循普通列表的布局规则。手机端的侧边抽屉距离屏幕右侧56dp。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-122.png"
+loading="lazy"
+alt="Material Design日历月视图设计"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-123.png"
+loading="lazy"
+alt="Material Design日历周视图设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;侧边抽屉支持滚动。如果内容过长，设置和帮助反馈可以固定在底部。抽屉收起时，会保留之前的滚动位置。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-124.png"
+loading="lazy"
+alt="Material Design日历日视图设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;列表较短不需要滚动时，设置和帮助反馈跟随在列表后面。&lt;/p&gt;
+&lt;p&gt;##10. 设置界面&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-125.png"
+loading="lazy"
+alt="Material Design事件详情页面"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-126.png"
+loading="lazy"
+alt="Material Design事件编辑界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;设置和帮助反馈通常放在侧边抽屉中。如果没有侧边抽屉，则放在Appbar的下拉菜单底部。&lt;/p&gt;
+&lt;p&gt;设置界面只能包含设置项，诸如关于、反馈之类的界面，入口应该放在其他地方。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-127.png"
+loading="lazy"
+alt="Material Design重复设置界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;设置项使用通栏分隔线来分组。7项以下不必分组。如果某项独立一组，考虑把它放在顶部（重要）或放在底部的“其他”一栏中（不重要）。设置项较多时尝试合并，比如把两个相关的勾选项合并成一个多选项。设置项非常多时，使用子界面。&lt;/p&gt;
+&lt;p&gt;##11. 易用性&lt;/p&gt;
+&lt;p&gt;###无障碍设计&lt;/p&gt;
+&lt;p&gt;material design很重视用户的广度，应该尽量照顾到残障人士的体验。设计时考虑以下使用场景：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;没有声音&lt;/li&gt;
+&lt;li&gt;没有色彩&lt;/li&gt;
+&lt;li&gt;手机开启了高对比度模式&lt;/li&gt;
+&lt;li&gt;手机画面放大&lt;/li&gt;
+&lt;li&gt;没有视觉信息，使用屏幕阅读器&lt;/li&gt;
+&lt;li&gt;只能通过语音控制&lt;/li&gt;
+&lt;li&gt;以上多项结合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;并注意以下问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;无鼠标、纯键盘操作。鼠标悬停显示信息，也要通过其他方式展现。&lt;/li&gt;
+&lt;li&gt;考虑大字号情况下的使用体验。&lt;/li&gt;
+&lt;li&gt;不要只通过颜色表达某些信息。&lt;/li&gt;
+&lt;li&gt;音频信息也要提供文字或其他视觉呈现。&lt;/li&gt;
+&lt;li&gt;为图片和视频提供备用的文字信息。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###本地化&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/a-128.png"
+loading="lazy"
+alt="Material Design提醒方式设置"
+&gt;&lt;/p&gt;
+&lt;p&gt;为阿拉伯语、希伯来语、波斯语用户设计相反的界面，他们的书写和阅读习惯是从右到左的。&lt;/p&gt;
+&lt;p&gt;##12. 资源（需要科学上网）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0B08MbvYZK1iNT0dFWFBjdTNKaXM/color_swatches.zip" target="_blank" rel="noopener"
+&gt;配色方案&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7V2s1ay1rTmM0dG8/Layout_Mobile_Whiteframe.ai" target="_blank" rel="noopener"
+&gt;界面模板：手机&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7U2hHWS1kS1JjT0k/Layout_Tablet_Whiteframe.ai" target="_blank" rel="noopener"
+&gt;界面模板：平板&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7UHpjdlh5bUd6Z2c/Layout_Desktop_Whiteframe.ai" target="_blank" rel="noopener"
+&gt;界面模板：桌面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7SUJUS0dQVktmSXc/whiteframes.ai" target="_blank" rel="noopener"
+&gt;界面模板：线框图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0B08MbvYZK1iNZGNoWmJqVEhQYTQ/RobotoTTF.zip" target="_blank" rel="noopener"
+&gt;英文字体Roboto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0B6VCDMjD5_VAbXZ5WWxPRDhSVUU/RobotoSpecimenBooklet.pdf" target="_blank" rel="noopener"
+&gt;Roboto介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.google.com/get/noto/pkgs/NotoSansCJKSC-hinted.zip" target="_blank" rel="noopener"
+&gt;中文字体Noto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7MGtzS0lpeFZUYmc/stickersheet_general.psd" target="_blank" rel="noopener"
+&gt;组件集psd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7WDR5Q25OcXVuU28/stickersheet_general.ai" target="_blank" rel="noopener"
+&gt;组件集ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7Q3FVZ0FnM18yTHM/stickersheet_general.sketch" target="_blank" rel="noopener"
+&gt;组件集sketch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0B08MbvYZK1iNUzJ4c1VXWDYzbTA/material-design-icons-1.0.1.zip" target="_blank" rel="noopener"
+&gt;系统图标&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;##实践&lt;/p&gt;
+&lt;p&gt;最后，展示一下朋友的项目——&lt;a class="link" href="http://lydiabox.com/" target="_blank" rel="noopener"
+&gt;云集&lt;/a&gt;的部分界面。这是一款浏览器，也是一个html5应用平台。功能结构不算复杂，但也有它的特殊性。非常适合用来理解material design，并尝试做一些变通。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/c-1.jpg"
+loading="lazy"
+alt="Material Design日历同步设置"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/c-2.jpg"
+loading="lazy"
+alt="Material Design备份恢复界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/c-3.jpg"
+loading="lazy"
+alt="Material Design数据导出界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/c-4.jpg"
+loading="lazy"
+alt="Material Design数据导入界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/c-5.jpg"
+loading="lazy"
+alt="Material Design帮助中心页面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-12/12-25/c-6.jpg"
+loading="lazy"
+alt="Material Design关于页面设计"
+&gt;&lt;/p&gt;</description></item><item><title>Material Design组件中的学问</title><link>https://victor42.eth.limo/post/3399/</link><pubDate>Sun, 26 Oct 2014 10:03:41 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3399/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第61期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;假如你通读了Google的&lt;a class="link" href="http://designmodo.com/material-design-documentation/" target="_blank" rel="noopener"
+&gt;material design文档&lt;/a&gt;，就会知道它有多么广博，多么重视细节。通读整篇文档，可以让你学会很多东西。其中最重要的教训之一，是创建&lt;strong&gt;综合视觉风格指南&lt;/strong&gt;是可行的。无论如何这都不容易，但并非不可能，尤其是对于谷歌那些错综复杂的产品阵列而言。&lt;/p&gt;
+&lt;p&gt;如果想学习视觉设计相关知识，你就应该深入了解material design如何处理个别元素或组件。这份文档列举了18种不同的设计元素，从按钮到菜单再到标签页。那么，通过分析它们，能学到什么？&lt;/p&gt;
+&lt;p&gt;##接受变化&lt;/p&gt;
+&lt;p&gt;仅按钮而言就有很多规则。material design有3种不同类型的按钮：漂浮式、浮雕式和扁平式。material design有多种多样的界面，一种单一的按钮难以满足需要。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/11.jpg"
+loading="lazy"
+alt="Material Design组件中的学问：关于在所有这些各式界面中的视觉展示图"
+&gt;&lt;/p&gt;
+&lt;p&gt;在所有这些各式界面中，也无法仅凭记忆使它们保持统一。然而，material design包含3种不同类型的按钮，是为了最大限度地利用设计。这些备选方案，是为了应对那些常规设计不好使的情况。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“选择主按钮的类型，取决于按钮的重要性、屏幕中容器的数量、还有整个屏幕的整体布局。”&lt;/em&gt;——&lt;a class="link" href="https://www.google.com/design/spec/components/buttons.html#buttons-usage" target="_blank" rel="noopener"
+&gt;按钮的使用&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/21.jpg"
+loading="lazy"
+alt="Material Design组件中的学问：“选择主按钮的类型，取决于按钮的重要性、屏幕中容器的数量、还有整个屏幕的整体布局。”——"
+&gt;&lt;/p&gt;
+&lt;p&gt;有些按钮指的南很明确，还有一些比较模糊。总而言之，这部指南是经过深思熟虑的。它有明确的细节，讲述如何使用或避免使用按钮，有助于设计师的工作。这正是整部指南的美妙之处；设计决策则交给设计师来决断。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/31.jpg"
+loading="lazy"
+alt="Material Design组件中的学问的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;##重视经常遭到忽视的元素&lt;/p&gt;
+&lt;p&gt;你设计界面的时候，会经常考虑弹出窗口或警告组件吗？Material design文档专门有一章节讲的是对话框。设计师可不会经常从这些框框入手。但是，当用到时，它们仍然是设计的一部分，需要处理。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/41.jpg"
+loading="lazy"
+alt="Material Design组件中的学问的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;关于对话框部分的指南非常详尽。他们概述了应该使用哪种按钮，还有原因。也清楚地剖析了对话框，讲得广泛且深入。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“当每个标签的文字都不超出按钮的最大宽度，例如常用的确定/取消按钮，这时我们推荐使用并排按钮。”&lt;/em&gt;——&lt;a class="link" href="https://www.google.com/design/spec/components/dialogs.html" target="_blank" rel="noopener"
+&gt;对话框&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“当文字标签超出按钮最大宽度，你可以使用堆叠式按钮来容纳文字。”&lt;/em&gt;——&lt;a class="link" href="https://www.google.com/design/spec/components/dialogs.html" target="_blank" rel="noopener"
+&gt;对话框&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/51.jpg"
+loading="lazy"
+alt="Material Design组件中的学问：“当文字标签超出按钮最大宽度，你可以使用堆叠式按钮来容纳文字。”——"
+&gt;&lt;/p&gt;
+&lt;p&gt;指南中详细介绍了对话框应该包含的内容种类和操作。它所延伸触及的各种细节令人着迷，非常有趣，因为这是经常被忽视的元素。这也证明了要创造一套强大的风格指南和设计语言，没有什么元素是微不足道的。&lt;/p&gt;
+&lt;p&gt;##一切关乎可见性&lt;/p&gt;
+&lt;p&gt;这份文档中充分强调了可见性。创造一套全新、统一的设计语言，其目的在于提供跨浏览器/设备的可见性。一部高质量的风格指南能够在设计语言中体现可见性，如此才能创造一套高质量的设计指南。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“标签页提供了显示相关内容分组的可见性。一个标签简明扼要地描述了它的相关内容分组。”&lt;/em&gt;——&lt;a class="link" href="https://www.google.com/design/spec/components/tabs.html" target="_blank" rel="noopener"
+&gt;标签页&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Material design文档中描述标签页的方式简直精彩绝伦。Material design并没有把标签页当作导航的一种，而是把它们作为一种额外的浏览内容的方式。看到这些特殊元素有所限制，例如标签页，真使人眼前一亮。很高兴能了解到，material design的设计师们除了样式之外，也深入思考了各元素的功能性，确保它不被误用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/61.jpg"
+loading="lazy"
+alt="Material Design组件中的学问：国外优秀设计官方网站的网页页面版式布1"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果各不同元素的功能得到了清晰的定义，那么这些元素将只会用于特定的途径。反过来，这一点也有助于塑造可见性。如果一种元素重用于多种场合，它就会使用户困惑；这对用户而言是不清晰明了也是不公平的。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“标签页简化了应用的浏览、切换不同视图或功能、浏览分类数据。”&lt;/em&gt;——&lt;a class="link" href="https://www.google.com/design/spec/components/tabs.html" target="_blank" rel="noopener"
+&gt;标签页&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##打造属于自己的元素&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“点心柜作为一种小型弹出窗口，出现在移动设备屏幕底部和桌面的左下方，为某项操作提供了轻量级的反馈。它们居于所有元素之上，包括悬浮操作按钮。”&lt;/em&gt;——&lt;a class="link" href="https://www.google.com/design/spec/components/snackbars-and-toasts.html" target="_blank" rel="noopener"
+&gt;点心柜与吐司&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“吐司和点心柜很像，但不包含操作性，并且不能被滑出屏幕。”&lt;/em&gt;——&lt;a class="link" href="https://www.google.com/design/spec/components/snackbars-and-toasts.html" target="_blank" rel="noopener"
+&gt;点心柜与吐司&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Metarial design文档有一个章节很有趣，介绍了叫做“点心柜和吐司”的组件。这是种不常听闻的设计术语；点心柜和吐司是我们已知的设计元素。如果你阅读了上面的引述，再看看下面的图片，你就会意识到，点心柜和吐司的概念是一种简单的弹出通知。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/7.jpg"
+loading="lazy"
+alt="Material Design组件中的学问：关于不过这里的学问更大给的视觉展示图"
+&gt;&lt;/p&gt;
+&lt;p&gt;不过这里的学问更大。Material design给各种弹出窗口分了类。设计语言需要这么做，于是就这么做了。点心柜与吐司和对话框很像，但有所不同；因此，他们被区分开了。Material design将它们分开，是因为需要他们承担不同的功能。创造新元素没有问题。就像material design的每一种其他元素一样，点心柜和吐司也有特定的指南——使用示例、尺寸标注和配色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/81.jpg"
+loading="lazy"
+alt="Material Design组件中的学问的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;通常我们会忘记，这些元素不能用于各种不同场合或新途径。仅仅是为弹出窗口定义两种功能，如此简单的事情竟也大有作用，真是有趣。别忘了革新我们的设计，包括那些被视作过时的元素、你希望它消失却依然存在的元素。在小细节上进行创新是非常好的，因为它们对后面的设计会产生重大影响。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/10/9.jpg"
+loading="lazy"
+alt="Material Design组件中的学问：国外优秀设计官方网站的网页页面版式布2"
+&gt;&lt;/p&gt;
+&lt;p&gt;###你与Material Design&lt;/p&gt;
+&lt;p&gt;通读&lt;a class="link" href="http://designmodo.com/material-design-documentation/" target="_blank" rel="noopener"
+&gt;material design文档&lt;/a&gt;，告诉我们你从中学到了什么。令人惊讶的是，梳理一部如此简明的文档，竟能学到这么多设计知识。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/material-design-components/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Material Design设计文档的4条训示</title><link>https://victor42.eth.limo/post/3387/</link><pubDate>Sun, 07 Sep 2014 18:42:02 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3387/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第56期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/material-design/" target="_blank" rel="noopener"
+&gt;Material Design&lt;/a&gt;是Google打造的一套新的视觉语言，用来统一它的多种产品。Google发布material design的概念时，同时发布了一些文档，满足人们对于他们视觉指南的好奇心。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.google.com/design/spec/material-design/introduction.html" target="_blank" rel="noopener"
+&gt;Material Design文档&lt;/a&gt;是一套关于如何进行设计的优质资源。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/cover.jpg"
+loading="lazy"
+alt="Material Design设计文档的4条训示设计中关于“的文档尤其适合那些想”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Google的文档，尤其适合那些想要向行业引领者学习创建视觉美学的设计新手。同时也让经验丰富的设计师了解Google的思想。这是一份编排精良、经过深思熟虑的文档，为我们带来了Google的设计师们的领悟。这份文档包含了大量的训示。我已经通读一遍，在此想向你分享一些其中的干货。&lt;/p&gt;
+&lt;p&gt;##通过动效来建立有意义的关联&lt;/p&gt;
+&lt;p&gt;Material Design大量强调设计中的动效和动画。重要原因之一，是它可以让用户清楚看到自己的操作如何对界面产生影响。Google举了个向相册添加图片的例子。如果你看看下面的这个例子就会注意到，上方覆盖的层有淡入淡出效果。出于两个目的：清晰与愉悦。首先，它建立了一种视觉层级，用户认为它在界面的上方。尽管这是技术上实现，并非真实的，因为界面并不分层；但它使用户以一种更简单的方法理解界面。这就是清晰。&lt;/p&gt;
+&lt;p&gt;将它与第二个无过渡、界面突然出现的效果相比。它显得很突兀——这就是建议使用淡入淡出的第二个原因——它也没有建立任何视觉上的认知。新的界面突然出现，用户的操作和界面的视觉变化有何关联，它没有给出任何解释。错失了一个愉悦用户的机会。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/wp-content/uploads/2014/09/a.webm?_=1" target="_blank" rel="noopener"
+&gt;With transition&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/wp-content/uploads/2014/09/b.webm?_=2" target="_blank" rel="noopener"
+&gt;Without transition&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“避免生硬的切换。生硬的切换很突兀，让用户花大量精力理解其中的过渡。”&lt;a class="link" href="http://www.google.com/design/spec/animation/meaningful-transitions.html#meaningful-transitions-visual-continuity" target="_blank" rel="noopener"
+&gt;视觉的连贯性&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;##密切关注字体&lt;/p&gt;
+&lt;p&gt;Material Design指南有大篇幅的字体章节。很明显，其中精髓是要我们注意字体运用，尽可能提供最佳的阅读体验。这可以提升整体的体验。如此众多的设计关注按钮这样的UI细节，但是有多少真正兼顾了字体的？这可是我们很少提及的东西。这字体的这个章节中，你可以看到Google的设计师为其付出了多少努力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/typography.jpg"
+loading="lazy"
+alt="“与背景颜色相同的文字难以阅读，这点很好很理解。不太明显的一点是，反差太大的字体使人眼花缭乱，不易阅读。这点在深色背景上尤为显著。”"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“与背景颜色相同的文字难以阅读，这点很好很理解。不太明显的一点是，反差太大的字体使人眼花缭乱，不易阅读。这点在深色背景上尤为显著。”&lt;/em&gt;&lt;a class="link" href="http://www.google.com/design/spec/style/typography.html" target="_blank" rel="noopener"
+&gt;标准样式&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;像行高和颜色这类是需要特别定义的，为了尽可能给用户带来最佳体验。Roboto字体甚至也被重新定义了，来跨平台提升它的易读性。而且，一段文字呈现的方式至关重大，因为缺口和隔断使得阅读更困难。注意去除这些隔断文字，这大有帮助。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/material-design-typography.jpg"
+loading="lazy"
+alt="Material Design设计文档的4条训示设计中关于“运用色彩多数人对的第”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;##运用色彩&lt;/p&gt;
+&lt;p&gt;多数人对Material Design的第一印象，是它大胆明亮的配色方案。看看色彩章节，你会发现有这么多种颜色。这一点非常棒，有以下几点原因。首先，大胆的用色可以给Google的界面赋予个性化。创建一套非常妙的配色方案没什么不妥。这是一次很好的改变，因为iOS7问世时，它的主色是浅灰色系。而且，Google建立这套色彩指南的方式非常清晰，是使用颜色的极佳参考。&lt;/p&gt;
+&lt;p&gt;面对现实，当有太多色调可供选择时，颜色的确可以很吓人。虽然Google提供了广阔的颜色选择范围，它也提供了如何使用的指南。Google开篇显而易见地陈述了：限制你的颜色选择，有需要时使用多种深浅变化，并且明智地使用辅助色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/material-color.jpg"
+loading="lazy"
+alt="“我们非常鼓励在界面中大面积、大胆地运用色彩。界面中不同元素承担配色的不同部分。工具栏和更大的色块会使用主色。这是APP的主要颜色。状态栏使用更深色调的主色。”"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“我们非常鼓励在界面中大面积、大胆地运用色彩。界面中不同元素承担配色的不同部分。工具栏和更大的色块会使用主色。这是APP的主要颜色。状态栏使用更深色调的主色。” &lt;a class="link" href="http://www.google.com/design/spec/style/color.html#color-ui-color-application" target="_blank" rel="noopener"
+&gt;UI配色应用&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;##全部都归结为易用性&lt;/p&gt;
+&lt;p&gt;Material Design文档的最后章节似乎有着至高的重要性。易用性与可用性章节提及了大量问题，设计师在设计APP或界面时需要全面考虑。这章的作用在于，提醒你设计无论如何都要易用。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“当所有人——不论残疾与否——都能够浏览、理解和使用一个产品来完成他们的目标时，这个产品就是可用的。真正成功的产品，对于尽可能广的用户群体都是可用的。”&lt;a class="link" href="http://www.google.com/design/spec/usability/accessibility.html" target="_blank" rel="noopener"
+&gt;可用性&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这份文档向你提出了几个严肃的问题，你的产品没有声音、色彩或者屏幕时，如何做到可用。一个残疾用户能轻松使用你的产品吗？&lt;/p&gt;
+&lt;p&gt;文档的这一章探讨了导航、易读性、用户和反馈的一些细节，让你清楚了解你的产品的关注点应该在哪里。如果你通读一遍，你会发现刚才指出的那些问题显而易见，例如确保最小屏幕元素点击区域是48×48像素，不至于太小，使一般的人类手指可以对它进行操作。有一些则更具体，比如确保链接都有恰当且有意义的标题。&lt;/p&gt;
+&lt;p&gt;*“**让链接有意义。*&lt;em&gt;每个链接的指向是否清晰？类似“点击这里”这样的常见链接文字，并不能解释链接指向何处。把目的地放入链接自身当中。对于“点击这里”有个更好的解决办法，是使用具体的链接，比如“设备选项”。有些无障碍模式让用户只看到链接，忽略其他内容，为了使导航更加有效。”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;随着科技产品用户人数的激增，关注易用性至关重要。看到material design文档贡献了一整章来探讨易用性和可用性，真是大快人心，它提醒我们，产品——不论是什么——对所有类型的用户都要是可用的。&lt;/p&gt;
+&lt;p&gt;###结论&lt;/p&gt;
+&lt;p&gt;我支持你深入研究&lt;a class="link" href="http://www.google.com/design/spec/material-design/introduction.html" target="_blank" rel="noopener"
+&gt;Material Design文档&lt;/a&gt;，这是免费的在线文档。其中有非常棒的建议和干货。对于设计新手和有兴趣学习界面设计的人来说，它是一件学习工具。对于经验丰富的、想要先睹为快行业引领者设计思维的设计师而言，它也在刷新着他们的理解。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/material-design-documentation/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Material Design的精髓</title><link>https://victor42.eth.limo/post/3377/</link><pubDate>Sun, 13 Jul 2014 11:42:07 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3377/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第48期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;简单而言，&lt;a class="link" href="http://www.google.com/design/" target="_blank" rel="noopener"
+&gt;Google推出了Material Design&lt;/a&gt;，来统一Google各平台上的用户体验。另外，通过技术手段，使用户界面更简洁、易懂和直观，这项统一化举措旨在提升整体的用户体验。&lt;/p&gt;
+&lt;p&gt;##告诉我，何为Google？&lt;/p&gt;
+&lt;p&gt;Google是家非常大的公司，包含了搜索引擎、浏览器、笔记本电脑、操作系统、眼镜、手表和多种科技。对于一家名下拥有这么多科技产品的公司而言，只有使得各种设备和交互的体验保持同步，才是唯一有意义的事情。Material Design远非一套新UI；它是整个Google的（崭新）体验。&lt;/p&gt;
+&lt;p&gt;参考: &lt;a class="link" href="http://designmodo.com/interactive-mobile-design/" target="_blank" rel="noopener"
+&gt;移动端交互设计的当务之急&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/material-design.jpg"
+loading="lazy"
+alt="Material Design的精髓设计中关于“的重要一环是用户与各”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Material Design的重要一环，是用户与各种科技产品交互的方式，这种方式使他们以无缝的流程进行交互。比如你正在写一封电子邮件，尚未完成时，你就从电脑旁走开了，它还开在那里。你能在手表、手机或平板上继续写作，无需担心将它存为草稿，同步，找到它，再从你停止的地方继续。再举个例子：你刚刚到家，首先弹出的电子邮件来自你的朋友和家人，而不是工作邮件，因为Google的技术知道，家庭时间中，不该用工作来烦你。这些技术与UI没有关系。Material Design说的是Google如何通过使技术更聪明，来改善你的生活。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Material Design的UI&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;既然Material Design会成为Google界面的主旋律，很有必要了解他们是如何开始打造它的。打造Material Design的重要部分，就是真实世界。Google搜索部门的设计主管Jon Wiley告诉&lt;a class="link" href="http://www.fastcodesign.com/3032463/what-is-google" target="_blank" rel="noopener"
+&gt;Fast Company&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“当你创造时，你继承了千百年来的专业知识。但软件设计才刚刚起步。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;单单这条陈述，意味着创造Material Design的UI过程中，他们想要打造非常杰出、令人难以置信的东西。不论如何，他们需要一些严肃的调研，来得出什么能给Material Design带来这样的设计影响力。Wiley又解释道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“我们退后了一步。我们看着所有的软件，提出疑问，这是由什么做成的？”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;卡片式影响设计&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google想要把他们对真实世界的理解，带入到数字世界中。你可能记得，Apple因为试图通过拟物化设计来达成这一点而声名狼藉；在Google眼中，&lt;a class="link" href="http://designmodo.com/skeuomorphism-ui-design/" target="_blank" rel="noopener"
+&gt;拟物主义&lt;/a&gt;在正轨上，但已经无法超越。Material Design中没有花哨的纹理，UI干净而简洁。对于Material Design而言，拟物主义过于浮夸。但是，卡片式设计是怎么融入的呢？&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/layering.png"
+loading="lazy"
+alt="Material Design的精髓设计中关于“卡片式是成就的重要部”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;卡片式是成就Material Design的重要部分。希望尽可能使数字世界接近真实世界的Google设计师们，将UI元素一层层堆叠起来——就像卡片纸一样。这没有什么新鲜的，很多设计师都这么干。但是，Google多迈了一步，使用了阴影来使得UI表现得真像卡片纸一样。保留真实世界对于Google设计师非常重要；真实世界与物理规律成了参考要点。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/layers.png"
+loading="lazy"
+alt="Material Design的精髓设计中关于“研究真实世界非常关注”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究真实世界&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google非常关注纸张，将它作为影响设计的基本。Google Android部门的设计主管Matias Duarte向Fast Company解释道，Material Design目的在于改善像素点的形式，使它不只是具有颜色，而是通过响应触摸改变形状和纵深，来影响你的屏幕。为了将最逼真的体验带入数字世界，他们研究真实的纸张。设计师们制作了多层纸质图标，来观察阴影是如何投射的。尽管真实的纸张无法像Material DesignUI中的卡片纸那样变形和操作，总之它有助于研究。毕竟，Material Design在设计社区中有进展。更重要的是，发布时，它会成为Google设计的一个重要部分。即便是Material Design没有取得进展，它仍然对于检验你的设计至关重要，因为它对用户有冲击力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/icons.jpg"
+loading="lazy"
+alt="Material Design的精髓设计中关于“力求数字化的物理规律”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;力求数字化的物理规律&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Material Design的一项重要原则，就是在数字王国中打造仿真的物理感受。这是为了给用户创造某种感觉和关联，影响他们观看屏幕、看待各种应用交互与运行的方式。由于物理规律并不作用于数字世界，很有必要展示出某种关联。这么做的理由相当简单：为了打造“直觉”应用设计，不得已为之。一个应用或者网站，或是它们中的某个部件，都不符合自然的直觉，设计师们不得不依靠惯例。否则，应用和网站就难以使用。Material Design旨在于UI中创造一种视觉关联，因此用户可以更轻易地建立直觉感受。关键还在于，意识到他们希望迎合某种关系，这就是为何实际UI会有微妙的动画、阴影和颜色，来使得与Material Design的互动更加有趣。&lt;/p&gt;
+&lt;p&gt;##Material Design的精髓是什么&lt;/p&gt;
+&lt;p&gt;总而言之，Google将要通过Material Design，统一它各种产品与科技的体验。Material Design的基本是能够在多设备中支持无缝信息流动，并使得科技更加聪明。想一想与电子邮件打交道是多么烦人，有各种各样单独的电子邮件应用；有些应用无法跨平台。文件分享、拍照、甚至消息也是这样。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/materialdesign-goals.png"
+loading="lazy"
+alt="Material Design的精髓设计中关于“如果你的电视手表手机”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果你的电视、手表、手机或汽车之间实现了同步，于你而言就轻松多了。作为用户，你不需要担心信息或文件是否同步到另一个设备，在家也不会被工作邮件轰炸，反之亦然，昨晚发你的图片也不会在你工作时弹出。&lt;/p&gt;
+&lt;p&gt;Material Design远不止优雅的UI（不管它实际看起来有多优雅）。Google当下的所作所为，其中的干货就是他们在追求整体体验。最重要的是，他们在试图提升人们使用科技的方式，并使它更简单和优秀。&lt;/p&gt;
+&lt;p&gt;##结论&lt;/p&gt;
+&lt;p&gt;Google，伟大的巨人，宣布他们将要在多平台推行Material Design。仔细想想，他们有如此众多的科技产品，只有提供统一的交互体验才有意义。你觉得Material Design如何？你觉得统一和提升Google产品的用户体验是个好举措吗？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/material-design/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

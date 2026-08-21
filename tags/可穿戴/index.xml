@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>可穿戴 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%8F%AF%E7%A9%BF%E6%88%B4/</link><description>Recent content in 可穿戴 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 27 Dec 2015 00:44:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%8F%AF%E7%A9%BF%E6%88%B4/index.xml" rel="self" type="application/rss+xml"/><item><title>小而美：清晰的可穿戴设备界面</title><link>https://victor42.eth.limo/post/3476/</link><pubDate>Sun, 27 Dec 2015 00:44:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3476/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第116期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;移动端的设计教育我们要设计得小，如今，可穿戴设备则使我们的设计愈发的小。手表的设计或许听起来吓人，但只要回到设计理论的本源，你就能做出正确的选择。&lt;/p&gt;
+&lt;p&gt;提到穿戴设备的设计，就要面临一系列其独有的挑战。&lt;/p&gt;
+&lt;p&gt;屏幕很小，甚至可以说是袖珍，而且还流行着许多种不同的穿戴设备。（一直都有各种手表式的产品在冲击市场。）有些提供了彩色屏幕和丰富的功能，其他一些则有着超简单的美学外观和稳健的功能。&lt;/p&gt;
+&lt;h2 id="各种不同的穿戴设备"&gt;各种不同的穿戴设备
+&lt;/h2&gt;&lt;p&gt;从简单的健康追踪设备，到能够与手机系统同步的功能齐全的手表，设计这些小屏幕界面时，有许多变种需要考虑。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image071.jpg"
+loading="lazy"
+alt="设计案例AppleWatch官网各种不同"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="//www.apple.com/watch" &gt;Apple Watch&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image042.jpg"
+loading="lazy"
+alt="设计案例AppleWatch官网各种1"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://www.tomtom.com/en_us/sports/multi-sport/?WT.Click_Link=top_nav_4" target="_blank" rel="noopener"
+&gt;Tom Tom Multi-Sport&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image013.jpg"
+loading="lazy"
+alt="设计案例TomTomMu官网各种不同的穿"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://www.fitbit.com/surge" target="_blank" rel="noopener"
+&gt;Fitbit Surge&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;目前，我们可以看到有3种主要类型的穿戴设备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;依赖手机的手表，例如&lt;a class="link" href="//www.apple.com/watch" &gt;Apple Watch&lt;/a&gt;和&lt;a class="link" href="//www.samsung.com/global/galaxy/gear-s2/" &gt;Samsung Gear S2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;独立手表，例如运动员中流行的那些带有GPS功能的手表&lt;/li&gt;
+&lt;li&gt;运动追踪器，例如&lt;a class="link" href="https://www.fitbit.com/surge" target="_blank" rel="noopener"
+&gt;Fitbit Surge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;每种设备都只有一块几厘米大的屏幕，使得手表的UI设计成为一项特别的挑战。有些设备用了彩色屏幕，还支持动画。许多都带有手机上的功能，而其他则仍然局限于黑底白字显示屏（也有白底黑字的）。&lt;/p&gt;
+&lt;h2 id="运用ui设计理论"&gt;运用UI设计理论
+&lt;/h2&gt;&lt;p&gt;那么，要如何设计所有这些设备？又如何保持一致？&lt;/p&gt;
+&lt;p&gt;这最终都要回归到你的第一个设计项目，以及其中的设计理论和概念。这些概念包括色彩、对比、留白和字体。&lt;/p&gt;
+&lt;h2 id="色彩"&gt;色彩
+&lt;/h2&gt;&lt;p&gt;如今多数手表屏幕都黑色的，许多手表应用是在深色背景上使用亮色元素。这使得色彩的选用尤为重要，因为你选用的颜色既要与环境融为一体，又要清晰突出。&lt;/p&gt;
+&lt;p&gt;处理深色背景，就意味着设计元素要基于一套浅色或者亮色的配色方案，这令人想到Flat配色和Material Design。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image063.jpg"
+loading="lazy"
+alt="Runtastic的色彩界面设计展示效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://itunes.apple.com/gb/app/runtastic-pro-gps-running/id366626332?mt=8" target="_blank" rel="noopener"
+&gt;Runtastic&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;上图中，&lt;a class="link" href="https://itunes.apple.com/gb/app/runtastic-pro-gps-running/id366626332?mt=8" target="_blank" rel="noopener"
+&gt;Runtastic&lt;/a&gt;就处理得很好，明亮的色调在深色背景上清晰易辨。蓝色有助于展现品牌，更鲜艳的绿色则用于按钮和用户操作项。其中所有颜色都容易辨识，对设计与功能起到了积极的作用。&lt;/p&gt;
+&lt;h3 id="对比"&gt;对比
+&lt;/h3&gt;&lt;p&gt;对比在小屏幕上同样重要。&lt;/p&gt;
+&lt;p&gt;设计应该清晰地划分各项元素，在它们之间建立起大量区分。屏幕上有多个点击区域时，这点尤其关键。还有一个重要原因，它使得元素能一眼轻松瞥见，这正是许多手表用户的使用方式。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image053.jpg"
+loading="lazy"
+alt="Streaks官方网站的对比页面版式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://itunes.apple.com/us/app/streaks/id963034692?mt=8" target="_blank" rel="noopener"
+&gt;Streaks&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;上图中，&lt;a class="link" href="https://itunes.apple.com/us/app/streaks/id963034692?mt=8" target="_blank" rel="noopener"
+&gt;Streaks&lt;/a&gt;运用了明暗的手段来建立显著的对比，提升了易读性和可操作性。每个圆环都设计成可点按的，功能也清晰可见，这得益于所用的颜色与尺寸，让每个元素都鲜明突出。&lt;/p&gt;
+&lt;h3 id="留白"&gt;留白
+&lt;/h3&gt;&lt;p&gt;在小屏幕上，留白是成败的关键。留白过多则没有地方呈现内容。留白太少元素难以分辨和阅读。两个极端之间，只有一片狭窄地带是对功能和可用性有益的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image003.jpg"
+loading="lazy"
+alt="TheGuard官网中采用的留白设计效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://itunes.apple.com/gb/app/the-guardian/id409128287?mt=8" target="_blank" rel="noopener"
+&gt;The Guardian&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;上图中，&lt;a class="link" href="https://itunes.apple.com/gb/app/the-guardian/id409128287?mt=8" target="_blank" rel="noopener"
+&gt;卫报&lt;/a&gt;做得很好。图片与文字的摆放留出了大量的空间，每“屏”上只显示一则消息。消息包含文字和图片，请留意每行的字数和加大的行距。&lt;/p&gt;
+&lt;h3 id="字体"&gt;字体
+&lt;/h3&gt;&lt;p&gt;在这些袖珍屏幕上，只有一种字体有用：简单的字体。&lt;/p&gt;
+&lt;p&gt;市场上几乎所有的应用都用的是简单的无衬线字体，字重也是中等（还有些更细或粗的字体用作辅助）。字号通常都比你所想的更大。每行大约20个字母，每“屏”不超过6行。再多一点点文字，就难以阅读了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image035.jpg"
+loading="lazy"
+alt="设计案例Citymapper官网字体布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;图片来源：&lt;a class="link" href="https://itunes.apple.com/gb/app/citymapper-ultimate-real-time/id469463298?mt=8" target="_blank" rel="noopener"
+&gt;Citymapper&lt;/a&gt;*&lt;/p&gt;
+&lt;p&gt;上图中，&lt;a class="link" href="https://itunes.apple.com/gb/app/citymapper-ultimate-real-time/id469463298?mt=8" target="_blank" rel="noopener"
+&gt;Citymapper&lt;/a&gt;用了几种不同层次的文字，为各种操作建立了可靠的区分与层级。字体简单，文字清晰。这款手表应用将所有元素组合起来——色彩、对比、留白、和优秀的字体——帮用户梳理出最重要的信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/10/the-book.png"
+loading="lazy"
+alt="清晰的可穿戴设备界面设计中关于“提及穿戴设备时朴素简”的视觉"
+&gt;&lt;/p&gt;
+&lt;p&gt;提及穿戴设备时，朴素、简约和微交互同样重要。将它们相互融合，你就会得到在小屏幕上看起来（还有用起来）很棒的产品。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image081.jpg"
+loading="lazy"
+alt="Pittsbur官网中采用的字体设计效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://itunes.apple.com/us/app/pittsburgh-steelers/id393279698?mt=8" target="_blank" rel="noopener"
+&gt;Pittsburgh Steelers App&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;上图中，&lt;a class="link" href="https://itunes.apple.com/us/app/pittsburgh-steelers/id393279698?mt=8" target="_blank" rel="noopener"
+&gt;Pittsburgh Steelers app&lt;/a&gt;结合了所有这些元素，运用大量色彩和图片，使得应用美观惹人喜爱，同时也易于使用。正由于元素间大量的留白与反差，还有清晰可辨的操作项，内容与信息具备了功能性。&lt;/p&gt;
+&lt;h2 id="接下来呢"&gt;接下来呢？
+&lt;/h2&gt;&lt;p&gt;讨论穿戴设备时，我们其实是在学习穿戴设备的最佳实践，配合一切具体创意来完成UI设计。&lt;/p&gt;
+&lt;p&gt;虽然许多穿戴设备界面是原生的，我们能不能在其中融入更多网页和其他应用呢？多数设计师都在遵循现有工具进行设计，两者能否结合？&lt;/p&gt;
+&lt;p&gt;我们是不是该思考一下，穿戴设备有哪些不同的使用方式？&lt;/p&gt;
+&lt;p&gt;去问每一个人，似乎他们都有自己使用穿戴设备的理由和目的。但就目前为止，与手机相连的穿戴设备似乎只是手机本身的一种延伸。我们希望这个状况有一天会改变，但是用户是否会在手机上浏览网页，仍是一件难以预料的事情。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://studio.uxpin.com/wp-content/uploads/2015/12/image023.jpg"
+loading="lazy"
+alt="设计案例MinuteWo官网接下来呢布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://itunes.apple.com/US/app/id650276551?mt=8" target="_blank" rel="noopener"
+&gt;7-Minute Workout &lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;穿戴设备的应用何时能走出原生应用的范畴？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://studio.uxpin.com/blog/a-hands-on-guide-to-mobile-first-design/" target="_blank" rel="noopener"
+&gt;移动优先的设计&lt;/a&gt;我们不久以前才开始谈论。如今它已成了第一原则。&lt;/p&gt;
+&lt;p&gt;这也会发生在穿戴设备上吗？很难说。在行业朝着那个方向发展之前，市场可能就会趋于饱和。（预计Fitbit和Apple Watch将会占据穿戴设备的主导地位，创造出&lt;a class="link" href="//www.cnet.com/news/analysts-offer-little-concensus-on-apple-watch-sales/" &gt;250万到600万的手表销量&lt;/a&gt;。相比之下，&lt;a class="link" href="//www.cnet.com/news/analysts-offer-little-concensus-on-apple-watch-sales/" &gt;iPhone用户预计有940万&lt;/a&gt;。）&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;基本设计原则的存在有它的理由。不论设备尺寸如何，运用这些概念都能创造出有效的设计。但这并不是说应该坚持UI设计理论中的每一条“规则”。&lt;/p&gt;
+&lt;p&gt;去实验去尝试，但要聆听你脑海中的微弱声音。当你开始质疑使用方式和设计方式时——不论是多么小的疑虑——都应该回归本源。而且要找用户做测试。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;焦点图来源：&lt;a class="link" href="//www.forbes.com/forbes/welcome/" &gt;Forbes&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://studio.uxpin.com/blog/think-small-applying-ui-design-principles-to-wearables/" target="_blank" rel="noopener"
+&gt;http://studio.uxpin.com/blog/think-small-applying-ui-design-principles-to-wearables/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Carrie Cousins
+Carrie Cousins has more than 10 years experience in the media industry, including design, editing, and writing for print and online publications. Carrie is also a sports fanatic and spends way too much time planning football and basketball trips and obsessing over stats.&lt;/p&gt;</description></item><item><title>有目的地为Apple Watch而设计</title><link>https://victor42.eth.limo/post/3460/</link><pubDate>Sun, 06 Sep 2015 10:40:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3460/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第102期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch-hero00.jpg?ver=1"
+loading="lazy"
+alt="Apple Watch 智能手表佩戴在手腕上的产品展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;几周前，我在纽约参加一个会议。这是我第二天使用Apple Watch，于是我想应该用它来查找从会场回程的路线。在以前，我会想掏出手机，输入地址，设置成步行导航，并且在步行途中视线来回游移于手机与街道之间，避开时代广场的出租车、自行车和穿着各异的人物。&lt;/p&gt;
+&lt;p&gt;现在，我只需要说“带我去时代广场的W Hotel”，按下开始然后步行——从来不用操心手表，除非我感受到振动，告诉我该拐弯了。&lt;/p&gt;
+&lt;p&gt;它从根本上改变了我与城市的互动方式。不再拘泥于屏幕，我可以眼观六路耳听八方，给予手表充分信任，让它告诉我接下来怎么走。除非在我确实需要的时间或地点，我都没有看过我的&lt;a class="link" href="http://blog.invisionapp.com/mobilegeddon-responsive-redesign-tips/" target="_blank" rel="noopener"
+&gt;移动设备&lt;/a&gt;，它被解放出来了。&lt;/p&gt;
+&lt;p&gt;我意识到我从没有&lt;em&gt;真的&lt;/em&gt;想要操作我的手机——只是觉得我&lt;em&gt;需要&lt;/em&gt;这么做。如果&lt;a class="link" href="http://blog.invisionapp.com/mobile-first-a-future-friendly-approach-to-ux-design/" target="_blank" rel="noopener"
+&gt;移动技术&lt;/a&gt;能足够融入环境，我就会忘了它，那些充实我生活的时刻除外。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/nycwatch.jpg" title="Meaningful design for the Apple Watch"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/nycwatch.jpg?ver=1"
+loading="lazy"
+alt="有目的地为Apple Watch而设计设计中关于“举个例子有"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="举个例子"&gt;举个例子
+&lt;/h2&gt;&lt;p&gt;有个盛行的食谱应用，我觉得它就是个&lt;strong&gt;反面教材&lt;/strong&gt;。在iPhone上，它非常有用：少量点击就能查找、收集和分享食谱，还能看到查看营养成分、创建购物清单等等。&lt;/p&gt;
+&lt;p&gt;那相应的Apple Watch应用可以用来做什么呢？几乎一样。&lt;/p&gt;
+&lt;p&gt;这就是问题所在。他们实际上什么也没改变，除了使你在iPhone上的常用操作变得单调乏味。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Have&amp;#43;a&amp;#43;focused&amp;#43;vision&amp;#43;for&amp;#43;why&amp;#43;your&amp;#43;smartwatch&amp;#43;app&amp;#43;exists&amp;#43;in&amp;#43;addition&amp;#43;to&amp;#43;an&amp;#43;iPhone&amp;#43;app.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fmeaningful-design-apple-watch%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“想清楚一点，你的智能手表应用为何存在，既然有iPhone应用。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;应该想象成一个&lt;a class="link" href="http://blog.invisionapp.com/apple-watch-and-android-wear-prototyping-is-here/" target="_blank" rel="noopener"
+&gt;手腕上的更加智能的应用&lt;/a&gt;——它不该被视作相应工具的复制品，而是烹饪助手。&lt;/p&gt;
+&lt;p&gt;或许它应该追踪你的购物清单，在你接近喜爱的食品店时，提醒你要买什么。或许它应该指导你的整个烹饪过程，告诉你接下来用什么配料、需要多少量（甚至使用加速度计或其他传感器来检验你是否搅拌均匀），为你设定时间，晚些时候提示你评价这份菜谱-Food（并且将评价作为推荐新食谱的参考）。&lt;/p&gt;
+&lt;p&gt;当你本周想要探索新方式或做一道新菜，你应该使用iPhone应用，手表应用这时应该有个截然不同的存在理由。&lt;a class="link" href="http://blog.invisionapp.com/ux-design-tips-for-your-app/" target="_blank" rel="noopener"
+&gt;应用&lt;/a&gt;很少能接近这一点，这就是史蒂夫·乔布斯所说的，魔法。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/design-with-developers-in-mind/" target="_blank" rel="noopener"
+&gt;开发者&lt;/a&gt;还没有权限使用所有传感器和控制器（即将开放），其中多数人在创建第一批软件时甚至都没有一台硬件设备，所以我们不必对他们过于苛责。但如今可用的多数应用，只是把口袋里的通知中心移到了手腕上，或是创造了一个烦人的袖珍iPhone应用。这个问题，并不值得专门创建一个新的$350-$17,000的产品类别。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch01.jpg" title="Meaningful design for the Apple Watch"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/applewatch01.jpg?ver=1"
+loading="lazy"
+alt="有目的地为Apple Watch而设计设计中关于“摄影师在他"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;摄影师：&lt;a class="link" href="https://www.flickr.com/photos/janitors/" target="_blank" rel="noopener"
+&gt;Kārlis Dambrāns&lt;/a&gt;。Creative Commons &lt;a class="link" href="https://creativecommons.org/licenses/by/2.0/legalcode" target="_blank" rel="noopener"
+&gt;Attribution 2.0 Generic&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Apple在他们的人机交互指南中暗示了它的潜力，但他们自己也并没有完全挖掘出来。公平地说，他们知道的可能比开放出来的更多，给出了&lt;a class="link" href="http://blog.invisionapp.com/5-prototyping-tips-that-will-improve-your-process/" target="_blank" rel="noopener"
+&gt;产品的早期形态&lt;/a&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Designers%3A&amp;#43;understand&amp;#43;what&amp;#43;users&amp;#43;are&amp;#43;experiencing&amp;#43;and&amp;#43;the&amp;#43;precise&amp;#43;moments&amp;#43;to&amp;#43;intervene.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fmeaningful-design-apple-watch%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;“设计师：理解用户的体验，精确把握介入时机。”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然，&lt;a class="link" href="http://blog.invisionapp.com/better-designs-for-complex-apps/" target="_blank" rel="noopener"
+&gt;设计一个真正有意义的应用&lt;/a&gt;需要Apple Watch和传感器更加智能。设计师也需要更加明智，理解用户当下的体验，精确把握介入时机。&lt;/p&gt;
+&lt;h2 id="真正的机会"&gt;真正的机会
+&lt;/h2&gt;&lt;p&gt;如果多数手表应用所做的，本质上只是把手机绑到我们手腕上，并且移除了其中多数功能——或者更糟的是保留了这些功能——那我们就是在错失良机。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22We&amp;#43;need&amp;#43;to&amp;#43;rethink&amp;#43;what&amp;#43;smartwatches&amp;#43;are&amp;#43;for.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fmeaningful-design-apple-watch%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;我们需要重新思考智能手表意义所在。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;归根结底：&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22iPhone&amp;#43;is&amp;#43;alternate&amp;#43;reality%2C&amp;#43;and&amp;#43;Apple&amp;#43;Watch&amp;#43;is&amp;#43;augmented&amp;#43;reality.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fmeaningful-design-apple-watch%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;iPhone替代现实，而Apple Watch是现实的扩展。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;换句话说，iPhone是终点站，是个移动中心，将你所需的一切信息虚拟化。它不断召唤你去探索它、用它学习和创作。它是庞大内容世界的一扇窗。不论喜欢与否，它与现实世界是有所冲突的。&lt;/p&gt;
+&lt;p&gt;在手机上，很少有&lt;a class="link" href="http://blog.invisionapp.com/the-3-laws-of-effective-notifications/" target="_blank" rel="noopener"
+&gt;通知&lt;/a&gt;是只展示而没有进一步操作的——既然打开了，为什么不看看&lt;a class="link" href="http://www.twitter.com/InVisionApp" target="_blank" rel="noopener"
+&gt;Twitter&lt;/a&gt;呢？作为一个平台，它往往是被动的。设计师尝试预测你想做什么，为这个目的而&lt;a class="link" href="http://www.invisionapp.com" target="_blank" rel="noopener"
+&gt;设计界面&lt;/a&gt;，但是否开始第一步、告诉应用你要做什么，这仍取决于你。&lt;/p&gt;
+&lt;p&gt;相反，Apple Watch不会（至少不应该）吸引你进行更深的探索。需要它时，它会激活。它会感知你的动作，为你展示一点点特定的有用信息，然后默默退下。这是与环境高度融合的暗示，作为你现实生活的通知与补充——此地，此时。&lt;/p&gt;
+&lt;p&gt;本质上说，这是移动技术更加有利的位置。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/watch02.jpg" title="Meaningful design for the Apple Watch"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://s3.amazonaws.com/blog.invisionapp.com/uploads/2015/09/watch02.jpg?ver=1"
+loading="lazy"
+alt="有目的地为Apple Watch而设计设计中关于“摄影师为设"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;摄影师：&lt;a class="link" href="https://www.flickr.com/photos/shinyasuzuki/" target="_blank" rel="noopener"
+&gt;Shinya Suzuki&lt;/a&gt;。Creative Commons &lt;a class="link" href="https://creativecommons.org/licenses/by-nd/2.0/legalcode" target="_blank" rel="noopener"
+&gt;Attribution-NoDerivs 2.0&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="为apple-watch设计时需要牢记的一些诀窍"&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22tips&amp;#43;to&amp;#43;keep&amp;#43;in&amp;#43;mind&amp;#43;when&amp;#43;designing&amp;#43;for&amp;#43;Apple&amp;#43;Watch%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fmeaningful-design-apple-watch%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;为Apple Watch设计时需要牢记的一些诀窍&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;确保你真的了解使用场景&lt;/strong&gt;——不仅仅是人们如何操作应用本身，还有他们这些时刻“在现实生活中”在做什么，你什么时候可以带着信息介入。如果你只能描述你所设计的功能，而不是相对应的时刻，那你还有很多事情要做。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“如果你只能描述你所设计的功能，而不是相对应的时刻，那你还有很多事情要做。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;**要想着&lt;a class="link" href="http://blog.invisionapp.com/designing-humane-augmented-reality-user-experiences/" target="_blank" rel="noopener"
+&gt;增强现实&lt;/a&gt;，不要取代现实。**目的不是让人花更多时间看着屏幕——而是将人从观看屏幕中解放出来，让他们更加聪明、聚精会神地融入周围环境。&lt;/p&gt;
+&lt;p&gt;**&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Don%27t&amp;#43;try&amp;#43;to&amp;#43;make&amp;#43;mini&amp;#43;iPhone&amp;#43;apps.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fmeaningful-design-apple-watch%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;不要试图打造迷你版iPhone应用。&lt;/a&gt;**Apple Watch擅长一些事情，也有很多无法完成的事情。善用它的长处，想清楚一点，你的智能手表应用为何存在，既然有iPhone或iPad应用。&lt;/p&gt;
+&lt;p&gt;摆正位置，Apple Watch并非把通知中心向左移动1、2英尺。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Apple&amp;#43;Watch&amp;#43;is&amp;#43;about&amp;#43;evolving&amp;#43;the&amp;#43;role&amp;#43;of&amp;#43;mobile&amp;#43;devices%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fmeaningful-design-apple-watch%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;Apple Watch的意义在于移动设备扮演的角色的演化&lt;/a&gt;，退居二线，为人类活动让道，成为一个真正辅助的背景角色。而不是与人们生活的现实世界作对。它让你更好的生活，聚精会神地做自己。&lt;/p&gt;
+&lt;p&gt;那样的愿景——至少以一种成熟的形式体现——就是我从中领悟到的。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;焦点图摄影师：&lt;a class="link" href="https://www.flickr.com/photos/lwy/" target="_blank" rel="noopener"
+&gt;LWYang&lt;/a&gt;。Creative Commons &lt;a class="link" href="https://creativecommons.org/licenses/by/2.0/legalcode" target="_blank" rel="noopener"
+&gt;Attribution 2.0 Generic&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://blog.invisionapp.com/meaningful-design-apple-watch/" target="_blank" rel="noopener"
+&gt;http://blog.invisionapp.com/meaningful-design-apple-watch/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://blog.invisionapp.com/author/peter-lewis-product-designer-at-capital-one/" target="_blank" rel="noopener"
+&gt;Peter Lewis&lt;/a&gt;, Product Designer at Capital One
+Peter Lewis is a Creative Director, Design Strategist, and Product Designer at Capital One, working in the Washington, DC area to design new experiences that help people manage their financial lives. On the side, he &lt;a class="link" href="https://medium.com/@thispeterlewis" target="_blank" rel="noopener"
+&gt;writes&lt;/a&gt; and makes &lt;a class="link" href="https://vimeo.com/peterlewis" target="_blank" rel="noopener"
+&gt;videos&lt;/a&gt;.
+&lt;a class="link" href="http://twitter.com/thispeterlewis" target="_blank" rel="noopener"
+&gt;Follow me on Twitter&lt;/a&gt;&lt;/p&gt;</description></item><item><title>新iPhone6与Apple watch给设计师带来的影响</title><link>https://victor42.eth.limo/post/3393/</link><pubDate>Sun, 28 Sep 2014 19:12:31 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3393/</guid><description>&lt;p&gt;&lt;strong&gt;国外设计第59期&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;九月9日，苹果发布了一些很棒的新产品。但它对设计师而言意味着什么呢？不论发布会主题是否令你影响深刻，我们都能领教它所要表达的东西。&lt;/p&gt;
+&lt;p&gt;有更多的产品供人选择，于是也有更多的事物给设计师们带来影响。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/apple-sizes.jpg"
+loading="lazy"
+alt="新iPhone6与Apple watch给设计师带来的影响设"
+&gt;&lt;/p&gt;
+&lt;p&gt;##屏幕更多样化&lt;/p&gt;
+&lt;p&gt;显然，作为设计师，我们会担心或欣赏这两种新的iPhone带来的屏幕差异。设计师们总偏向于iPhone——看看Dribbble上有多少Android作品就知道了。iPhone曾经有固定的尺寸，设计起来很容易。如今则不然。随着新增的Retina HD，我们又得多应对一种分辨率。&lt;/p&gt;
+&lt;p&gt;###屏幕尺寸&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/iphone-sizes-screen.jpg"
+loading="lazy"
+alt="新iPhone6与Apple watch给设计师带来的影响设"
+&gt;&lt;/p&gt;
+&lt;p&gt;更多信息请查看&lt;a class="link" href="http://designmodo.com/wp-content/uploads/2014/09/NewiPhoneDesignGuide-Part01.pdf" target="_blank" rel="noopener"
+&gt;PDF that Lemonat Studio&lt;/a&gt;，聚合了4种iPhone的详细信息。&lt;/p&gt;
+&lt;p&gt;###带动响应式设计&lt;/p&gt;
+&lt;p&gt;更多种屏幕尺寸给我们机会拥抱响应式设计。响应式设计很灵活，我们应该尽可能利用我们的优势。由于这两种明显增大的iPhone，使我们有机会让响应式网页更富创造性。至少，我们会更擅长使用大屏手机测试响应式网页；这点对所有大屏Android手机也是有利的。谁知道呢，或许我们还会开始考虑平板，就这点而言，iPhone 6 Plus几乎和iPad Mini的尺寸相当了。&lt;/p&gt;
+&lt;p&gt;###横向App&lt;/p&gt;
+&lt;p&gt;苹果指出，iPhone 6 Plus的亮点之一是它的横屏尺寸。对横屏设计的强调令人耳目一新。我们要面对现实，不论在app还是响应式网页中，这都不是我们常做的设计。不管怎样，我们是时候也应该这么做了。拥抱更大的屏幕吧，打造支持横竖屏的美丽迷人的app，来挥洒你的创造性。&lt;/p&gt;
+&lt;p&gt;###重点&lt;/p&gt;
+&lt;p&gt;不论你喜欢与否，苹果推出的两种新iPhone尺寸会给设计带来深远影响。我们有两种选择，逃避式地将设计适当放大，或是拥抱它的挑战，让我们为那些屏幕打造崭新的、更优秀的设计。&lt;/p&gt;
+&lt;p&gt;###Android怎么办？&lt;/p&gt;
+&lt;p&gt;是的，我知道Android很早以前就开始出现大屏幕了。但是，出于某些原因，设计师们都还是偏向于iPhone。通常，客户也优先考虑iPhone app。这或许意味着，随着iPhone的尺寸如今与Android相同或相似，我们终于可以同时包含两种手机的设计了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/iphone-6-vs-moto-x-vs-lg-g2-mini.jpg"
+loading="lazy"
+alt="新iPhone6与Apple watch给设计师带来的影响设"
+&gt;&lt;/p&gt;
+&lt;p&gt;##Apple Watch是个新挑战&lt;/p&gt;
+&lt;p&gt;Apple Watch，苹果推出的新手表产品，和其他苹果设备都不一样。它是可定制的、个性化的，也很迷你。不像同样拥有小屏幕的iPod，Apple Watch可以安装app。这点很重要，因为我们将会设计那些app。Apple Watch有它的局限，比如它只是第一代，屏幕也很小。这意味着两件事。首先，我们要拥抱小屏幕，将它的局限当作一项光荣的创意挑战。或者索性避开这款手表。可穿戴设备才刚刚起步，让人难以拥抱它们，因为它还不是一个完美的设备。所以，第二个选择可能意味着Apple Watch会成为一个迷失的媒介，像iPad一样。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/apple-watch.jpg"
+loading="lazy"
+alt="新iPhone6与Apple watch给设计师带来的影响设"
+&gt;&lt;/p&gt;
+&lt;p&gt;不过看到苹果在尝试探索可穿戴科技，总是件好事情。不论设计圈未来会如何对待Apple Watch，有一点可以肯定，当下Apple Watch是一款热门的激动人心的设备。&lt;/p&gt;
+&lt;p&gt;###无穷的可能性&lt;/p&gt;
+&lt;p&gt;这个动作引发了一个巨大的疑问：苹果下一步会做什么？我猜苹果未来会分化出其他产品和技术——包括可穿戴设备。更大的新iPhone使得这点尤其肯定。苹果开始走向多样化。&lt;/p&gt;
+&lt;p&gt;##苹果不再是从前那个苹果公司了&lt;/p&gt;
+&lt;p&gt;这次的主题显然令人大开眼界。苹果不再是曾经那个苹果了。指出Tim Cook和Steve Jobs之间的差别再容易不过，但远非这么简单。这家公司在以一种与以往不同的方式做事情，你可以认为更换CEO是件坏事，但如果意识到它已经是另一家公司，其实就是件好事。不论你如何诠释，苹果的变革就发生在我们身边。&lt;/p&gt;
+&lt;p&gt;###产品设计的多样性&lt;/p&gt;
+&lt;p&gt;如果你看看最新的iPhone、iPod、ipad，你会注意到他们显然不同。苹果的产品从前遵循着相似的设计信条。早先的Mac OS版本与更早的比较相似，比如iOS6和Maverick。iPad是照着iPhone的模子做的，iPod的设计也被修改以配合iPhone。如今，苹果的产品很多样化，最新一代iPod与时下的iPad完全不同，iPad和Apple Watch也不同，它又不同于……你明白的。这就意味着作为设计师，我们应该期望做出不同的设计和风格。&lt;/p&gt;
+&lt;p&gt;###可定制的Apple Watch&lt;/p&gt;
+&lt;p&gt;新苹果的一个显著特征，是推广可定制的、个性化的产品。Apple Watch是第一款能够让你自己定制的苹果产品。在这之前，苹果都在照着它的行事风格，为你打造完美无缺的产品——你要么爱上并购买它，要么不会。（当然，它允许一点点定制化。）&lt;/p&gt;
+&lt;p&gt;我选择iPhone而非Android手机，那是因为我信任苹果的设计师与工程师能够为我提供最佳的体验。我不需要定制化，我信任产品的体验，毕竟这些设计师都是专家。我知道这样的人不止我一个。这款手表尚不能完全定制，无法选择不同的造型——比如圆形或方形表盘——但它仍然走了一条与先前的苹果产品截然不同的路线。&lt;/p&gt;
+&lt;p&gt;###重点&lt;/p&gt;
+&lt;p&gt;作为设计师，摆在我们面前的是苹果式设计的多样化风格。它会改变我们为不同设备开发的方式，也会改变设备本身的设计如何激发我们前进。&lt;/p&gt;
+&lt;p&gt;你怎么看？你觉得苹果最近的发布会将给设计圈带来怎样的影响？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/iphone-6-watch-design/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Product on Victor42</title><link>https://victor42.eth.limo/tags/product/</link><description>Recent content in Product on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Tue, 09 Jun 2026 16:12:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/product/index.xml" rel="self" type="application/rss+xml"/><item><title>What is an AI Native Data System</title><link>https://victor42.eth.limo/post-en/ai-native-data-system/</link><pubDate>Tue, 09 Jun 2026 16:12:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/ai-native-data-system/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-06/01a9a53be38ac38125ec5e439d0ee2d1.webp" alt="Featured image of post What is an AI Native Data System" /&gt;&lt;p&gt;How my data management evolved alongside tools&lt;/p&gt;
+&lt;p&gt;I am a power user of Excel and Google Sheets, &lt;a class="link" href="https://qvokpfxqsh.feishu.cn/wiki/G8OywdlWji0H31kJ0KwciaJ8nAd" target="_blank" rel="noopener"
+&gt;relying on them heavily to manage both work and life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Later, I migrated some of my heavier data management tasks to visual databases like Feishu Bitable. While they might look like Excel, they are fundamentally different beasts. With much stricter data rules than spreadsheets, they trade some flexibility for the raw power of a true database. You can easily link multiple tables and build highly complex data systems—more than capable of running &lt;a class="link" href="https://victor42.eth.limo/post-en/automate-ai-illustrations-production/" target="_blank" rel="noopener"
+&gt;a small business&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/fc6b17ebd80b1127ef989c46c9ed412b.webp"
+loading="lazy"
+alt="The task scheduling calendar interface inside Feishu Bitable project management system"
+&gt;&lt;/p&gt;
+&lt;p&gt;I once built a full-cycle task management system in Bitable, tracking everything from assignment to delivery. It seamlessly spun out weekly reports, project calendars, and annual stats. People asked for this system at least three times: a colleague for personal use, a manager for their team, and my previous employer for a company-wide rollout.&lt;/p&gt;
+&lt;p&gt;But no matter how powerful the tool, you still have to do the heavy lifting yourself.&lt;/p&gt;
+&lt;p&gt;I believe in what I call the &amp;ldquo;dishwasher philosophy&amp;rdquo;. The older generation often scoffs at dishwashers, arguing, &amp;ldquo;You still have to rinse the plates first. I could have just washed them by hand in that time!&amp;rdquo; Here is my take: washing by hand takes 15 minutes of pure human labor. Rinsing takes 5 minutes, and the machine runs for 40—but that is still only 5 minutes of &lt;em&gt;my&lt;/em&gt; time. I just bought back 10 minutes of my life.&lt;/p&gt;
+&lt;p&gt;To me, technology is a tool to reclaim my life.&lt;/p&gt;
+&lt;p&gt;Bitable has built-in AI features, and you can also use local Agents to control it via CLI or API. But if you try it, it feels like Usain Bolt running underwater—completely constrained. Bitable is not an AI-native product; it is designed for human eyes and human logic. Current AI Agents are text-based creatures, interacting with the world through code. Therefore, the most AI-native data system is simply a database.&lt;/p&gt;
+&lt;p&gt;I spent a day overhauling this system with AI. I stripped it back to the basics and took it entirely local. It no longer relies on cloud services or third-party apps. Now, it is just a lightweight local SQLite database, entirely read, written, and managed by AI. It automatically generates four pages based on the data: a calendar, recent tasks, historical tasks, and project stats. These serve as my dashboard and command center. Here is how it looks:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/01a9a53be38ac38125ec5e439d0ee2d1.webp"
+loading="lazy"
+alt="The clean and clear task scheduling calendar page in the new data system"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/1ef49a58e0fc77e16de145b8a8f10935.webp"
+loading="lazy"
+alt="The recent tasks page listing ongoing tasks in the new data system"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/4493b8709a24ae2c1a2ebd66f351e0de.webp"
+loading="lazy"
+alt="The historical tasks page showing completed tasks with thumbnails in the new system"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/6c11adfcc19725d0155524aae1eedf6f.webp"
+loading="lazy"
+alt="The project statistics dashboard displaying various quantity charts and metrics"
+&gt;&lt;/p&gt;
+&lt;p&gt;Need to squeeze in a last-minute request? I just tell the AI to push all tasks from today onwards back by one workday, and it even splits overnight tasks to skip the weekend. Just one sentence.&lt;/p&gt;
+&lt;p&gt;Finished a task? The AI automatically scans the schedule for the task&amp;rsquo;s last appearance, sets that as the delivery date, and marks it done. If I forget to add deliverable links or thumbnails, it nudges me to provide them. Again, just one sentence.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/d89b73b5ca2469be465cc6c1e9ddbb4a.webp"
+loading="lazy"
+alt="The interactive console showing a partial list of public holidays in the database"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-06/c865e3397af6f1488633198616b466ff.webp"
+loading="lazy"
+alt="The completed public holidays table displayed in the console interface"
+&gt;&lt;/p&gt;
+&lt;p&gt;Want to add public holidays to the calendar? It is a non-standard request, but since you are using AI, it always finds a way to make it happen.&lt;/p&gt;
+&lt;p&gt;I am not saying this replaces Excel or Bitable entirely. Their perks are undeniable: WYSIWYG interfaces, cross-platform access, and zero environment dependencies. I still manage plenty of data in Google Sheets.&lt;/p&gt;
+&lt;p&gt;Watching the AI carefully but slowly read specs, write SQL, verify data, and update pages does not bother me one bit. Sure, I could have done it in seconds in Excel or Bitable. But over a full day of intensive use, who knows how many of those seconds the AI has bought back for me.&lt;/p&gt;
+&lt;p&gt;This system is open-source, so feel free to grab it. It will keep your work perfectly organized without draining your time on administrative chores:
+&lt;a class="link" href="https://github.com/greenzorro/project-manager" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/project-manager&lt;/a&gt;&lt;/p&gt;</description></item><item><title>AI Agents Have Come a Long Way</title><link>https://victor42.eth.limo/post-en/ai-agent-evolution/</link><pubDate>Fri, 31 Oct 2025 15:46:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/ai-agent-evolution/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-10/fa3e1420ce5ad04750a70cf47af3b382.webp" alt="Featured image of post AI Agents Have Come a Long Way" /&gt;&lt;p&gt;I just realized AI agents can now solve real-world problems. They are not toys anymore.&lt;/p&gt;
+&lt;p&gt;After the initial hype around agents like Manus, I tested them on complex, real-world tasks like generating presentations. They were far from practical back then. Has that changed? It’s time for another look.&lt;/p&gt;
+&lt;h2 id="the-forms-and-functions-of-ai-agents"&gt;The Forms and Functions of AI Agents
+&lt;/h2&gt;&lt;p&gt;AI browsers have been in the spotlight recently. Coupled with the rise of models known for their agent capabilities like Kimi K2, GLM 4.6, and Minimax M2, I&amp;rsquo;ve been seriously considering the future of agents in practical applications.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/5c1dfd280ced698aafb769fda72f1bbb.webp"
+loading="lazy"
+alt="Coordinate quadrant chart classifying AI Agent tasks by standardization and location"
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Riding the AI browser trend, I&amp;rsquo;ve been thinking about the challenges agents face in the digital world. The truth is, no single model or product can handle everything perfectly yet; each task has unique requirements.&lt;/p&gt;
+&lt;p&gt;Just like chatbots, there&amp;rsquo;s no one-size-fits-all agent. It&amp;rsquo;s best to have a few different tools on hand for different problems.&lt;/p&gt;
+&lt;p&gt;The top-left and bottom-right quadrants are currently the most mature, as the web is decentralized while the OS is centralized.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;AI browsers, Claude Code, Manus—they&amp;rsquo;re all fundamentally the same. They let an AI control a self-contained browser sandbox or local environment to handle complex, time-consuming tasks with various tools.&lt;/p&gt;
+&lt;p&gt;Since models like Kimi, GLM, and Minimax boast impressive agent capabilities, have their official products leveraged these skills to rise above the competition from major overseas AI labs and Chinese tech giants?&lt;/p&gt;
+&lt;p&gt;A quick look confirmed it—I was just late to the game. The flagship AI products from the big overseas players and Chinese internet giants lack full agent capabilities, offering &amp;ldquo;Deep Research&amp;rdquo; at best. Strip away the image and video generation, and they&amp;rsquo;re just plain old chatbots.&lt;/p&gt;
+&lt;p&gt;But Kimi, GLM, and Minimax have integrated full-fledged agent features. Kimi has &amp;ldquo;OK Computer,&amp;rdquo; GLM (Z.ai) offers &amp;ldquo;Full-Stack,&amp;rdquo; and Minimax has its &amp;ldquo;Pro mode.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;With these agent capabilities, could they become my daily drivers for AI?&lt;/p&gt;
+&lt;h2 id="the-three-tests"&gt;The Three Tests
+&lt;/h2&gt;&lt;p&gt;I happen to keep a list of tasks I&amp;rsquo;ve previously thrown at AI, which are perfect for testing these new agent products:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What&amp;rsquo;s the current fighter jet lineup of the Chinese Air Force? Find the main models and grab photos of each from various angles online.&lt;/li&gt;
+&lt;li&gt;Create an illustrated presentation on the history of Earth&amp;rsquo;s geological ages, preferably in PowerPoint format.&lt;/li&gt;
+&lt;li&gt;This is my personal website: &lt;a class="link" href="http://victor42.eth.limo/" target="_blank" rel="noopener"
+&gt;http://victor42.eth.limo/&lt;/a&gt;. I want to check my personal information exposure. Scour the internet for as much of my private info as you can and see what you can find out about me.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The short answer: they&amp;rsquo;ve improved and are almost usable, but they still need human guidance and course correction every step of the way.&lt;/p&gt;
+&lt;h3 id="test-1-air-force-fighter-lineup"&gt;Test 1: Air Force Fighter Lineup
+&lt;/h3&gt;&lt;p&gt;For the first test, Kimi delivered a fairly complete result. I&amp;rsquo;m no military expert, so I didn&amp;rsquo;t fact-check the data, but one look at the photos told me they were wrong. It mixed up many of the aircraft models.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/40e4a3eb557ad47cabef41d1377717db.webp"
+loading="lazy"
+alt="Webpage generated by Kimi AI showing the fighter jet order of battle for the Chinese Air Force"
+&gt;&lt;/p&gt;
+&lt;p&gt;Kimi&amp;rsquo;s output: &lt;a class="link" href="https://sbudgp6km5i3s.ok.kimi.link/" target="_blank" rel="noopener"
+&gt;https://sbudgp6km5i3s.ok.kimi.link/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m hesitant to even share GLM&amp;rsquo;s result. It just generated AI images of jets. After I complained several times, it tried to pull a fast one by labeling a landscape picture &amp;ldquo;real photo&amp;rdquo; and using scenic shots instead of actual aircraft photos.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/3ed522e94a089a5b9c9158c4836f881b.webp"
+loading="lazy"
+alt="Webpage generated by GLM incorrectly showing satellite city light maps instead of fighter jets"
+&gt;&lt;/p&gt;
+&lt;p&gt;Minimax was painfully slow. The other two were done with all tests before it even finished the first one. However, the page layout was clean, and its image matching was the most accurate of the three.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/385decfa3e267bfa37e7af17546341a1.webp"
+loading="lazy"
+alt="Fighter jet webpage header with statistics generated by Minimax AI"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/7db3981e98107c26649e0b6590cdfdba.webp"
+loading="lazy"
+alt="Fighter jet cards displaying detailed statistics generated by Minimax AI"
+&gt;&lt;/p&gt;
+&lt;p&gt;Minimax&amp;rsquo;s output: &lt;a class="link" href="https://nycqzyogwce4.space.minimaxi.com/" target="_blank" rel="noopener"
+&gt;https://nycqzyogwce4.space.minimaxi.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="test-2-geological-ages-report"&gt;Test 2: Geological Ages Report
+&lt;/h3&gt;&lt;p&gt;For the geology presentation, I expected them to code an HTML-based slideshow. GLM does have a PPT mode, which I found generates HTML and then converts it. But I intentionally chose its &amp;ldquo;Full-Stack&amp;rdquo; mode to see what a general-purpose agent could do with this task.&lt;/p&gt;
+&lt;p&gt;This task didn&amp;rsquo;t require much online research, as the models&amp;rsquo; internal knowledge was sufficient. Both Kimi and GLM handled it well. GLM produced an HTML file, not a PPT. Minimax&amp;rsquo;s agent was just too slow, so I gave up on it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/fa3e1420ce5ad04750a70cf47af3b382.webp"
+loading="lazy"
+alt="Cover slide of the Earth geological history presentation generated by Kimi AI"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/6d9851b72af506f3b9cdce71a715115d.webp"
+loading="lazy"
+alt="Presentation slide about Cenozoic era mammal evolution generated by Kimi AI"
+&gt;&lt;/p&gt;
+&lt;p&gt;Kimi&amp;rsquo;s output: &lt;a class="link" href="https://my.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/file/Sdz0bwNffoAFXKxqyItc4WNenwc?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/31d44ae8c1fcfa671416ff8a91cd7a88.webp"
+loading="lazy"
+alt="Presentation slide showing main characteristics of the Hadean Eon generated by GLM AI"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/2eac5f87eb6242cbba7fa4902f63f7ec.webp"
+loading="lazy"
+alt="Presentation slide showing dinosaur characteristics in the Jurassic period generated by GLM AI"
+&gt;&lt;/p&gt;
+&lt;p&gt;GLM&amp;rsquo;s output: &lt;a class="link" href="https://p0r7a94j92w1-deploy.space.z.ai" target="_blank" rel="noopener"
+&gt;https://p0r7a94j92w1-deploy.space.z.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Same old problem: all AI-generated images.&lt;/p&gt;
+&lt;h3 id="test-3-personal-information-exposure"&gt;Test 3: Personal Information Exposure
+&lt;/h3&gt;&lt;p&gt;The third test could have been handled by the &amp;ldquo;Deep Research&amp;rdquo; features, but I used it to test the agent&amp;rsquo;s ability to plan and gather information comprehensively. This really tests the model&amp;rsquo;s core capabilities, not just its agent skills. I wasn&amp;rsquo;t concerned with the format, only the content.&lt;/p&gt;
+&lt;p&gt;Kimi produced a flashy-looking report, but the content was thin and the information gathering was superficial.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/ea5d6775e7457ca7b7bebd420db5d4a8.webp"
+loading="lazy"
+alt="Personal information leakage analysis report generated by Kimi AI"
+&gt;&lt;/p&gt;
+&lt;p&gt;Kimi&amp;rsquo;s output: &lt;a class="link" href="https://dgkenxfkgs2to.ok.kimi.link/" target="_blank" rel="noopener"
+&gt;https://dgkenxfkgs2to.ok.kimi.link/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GLM refused to run the task twice, citing security reasons.&lt;/p&gt;
+&lt;p&gt;Minimax delivered a detailed markdown file. It was clear it had independently researched various pieces of information before compiling the final report.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/a4ce5062078b84188a2a0fd19a2ec725.webp"
+loading="lazy"
+alt="Privacy leakage risk assessment report displayed in Minimax’s window interface"
+&gt;&lt;/p&gt;
+&lt;p&gt;Minimax&amp;rsquo;s output: &lt;a class="link" href="https://agent.minimaxi.com/share/328823906788332?chat_type=0" target="_blank" rel="noopener"
+&gt;https://agent.minimaxi.com/share/328823906788332?chat_type=0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For comparison, here’s how a non-agent product, Grok, handled the third question: &lt;a class="link" href="https://grok.com/share/bGVnYWN5LWNvcHk%3D_acd6451b-b37a-405e-a700-91d692edaac6" target="_blank" rel="noopener"
+&gt;https://grok.com/share/bGVnYWN5LWNvcHk%3D_acd6451b-b37a-405e-a700-91d692edaac6&lt;/a&gt;
+This shows that on complex tasks, even without special tool-calling abilities, agents outperform chatbots.&lt;/p&gt;
+&lt;p&gt;In fact, you could likely get similar results from the agents in Kimi, GLM, and Minimax by using their APIs with a tool like Claude Code to run tasks on your local machine. The only real difference is the environment shifts from a cloud Linux server to your own Windows or Mac.&lt;/p&gt;
+&lt;p&gt;So, in essence, all these different types of agent products are cut from the same cloth.&lt;/p&gt;
+&lt;h2 id="role-in-non-standardized-tasks"&gt;Role in Non-Standardized Tasks
+&lt;/h2&gt;&lt;p&gt;Looking back at the quadrant chart, my tests only covered the two right-side quadrants, which involve standardized tasks like local file operations and web requests.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/5c1dfd280ced698aafb769fda72f1bbb.webp"
+loading="lazy"
+alt="A quadrant chart illustrating the task categories of AI Agents on web and local systems"
+&gt;&lt;/p&gt;
+&lt;p&gt;With standardized tasks, you get predictable results as long as you follow the correct procedure.&lt;/p&gt;
+&lt;p&gt;Today&amp;rsquo;s agents are already quite powerful for these. If you know the right steps for a task, they can be a massive help.&lt;/p&gt;
+&lt;p&gt;But the tasks on the left side of the chart are far more ambiguous. Asking an AI to navigate a non-standard GUI on a website or local app yields unpredictable results. You never know if the task will even be completed. This area is far less mature, and we&amp;rsquo;ve yet to see a true killer app.&lt;/p&gt;
+&lt;p&gt;Even with pioneers like Dia/Comet and now Atlas, this reality hasn&amp;rsquo;t changed.&lt;/p&gt;
+&lt;p&gt;Understanding a GUI requires more than just parsing HTML; it needs strong visual capabilities. Ideally, the AI would receive a continuous video stream, like a video call feature.&lt;/p&gt;
+&lt;p&gt;Otherwise, it could take minutes just to find a single button on a page.&lt;/p&gt;
+&lt;p&gt;But the cost of providing such a feature to everyone would be astronomical.&lt;/p&gt;
+&lt;p&gt;Still, even in their current state, agents can be incredibly helpful for certain non-standardized tasks.&lt;/p&gt;
+&lt;p&gt;I’ve recently been researching vacation islands in Southeast Asia. Step one: identify the potential islands.&lt;/p&gt;
+&lt;p&gt;When it comes to travel info, I only trust sources like Xiaohongshu and Mafengwo, not the open web. I used an agent with Playwright MCP. After I logged it in, it scoured the sites based on my instructions, gathering a ton of information. I had it expand the search twice and then run a verification round.&lt;/p&gt;
+&lt;p&gt;I then double-checked the verified results with several other AI tools, and everything checked out.&lt;/p&gt;
+&lt;p&gt;Just like that, I had a solid list of potential destinations to start my planning. I then used similar methods to have the AI flesh out the details, one dimension at a time, until I could narrow it down to a single choice.&lt;/p&gt;
+&lt;p&gt;From there, I switched to my usual travel planning methodology and manually crafted the full itinerary:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://victor42.eth.limo/post-en/3642/" target="_blank" rel="noopener"
+&gt;A Step-by-Step Guide to Travel Planning&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="hands-on-guide-to-non-standard-workflows"&gt;Hands-on Guide to Non-Standard Workflows
+&lt;/h2&gt;&lt;p&gt;An Agent&amp;rsquo;s utility goes far beyond building slide decks or coding simple widgets.&lt;/p&gt;
+&lt;p&gt;The current formula for full Agent capability is: LLM + Local File System + Runtime Environment + Browser. This stack effectively gives AI control over a complete computer. If the LLM possesses vision capabilities, it becomes exceptionally potent at navigating browsers.&lt;/p&gt;
+&lt;p&gt;Browser control is the game-changer. Local storage is finite, but the internet encompasses the entirety of human society.&lt;/p&gt;
+&lt;p&gt;However, those who have tested Agent tools often argue that they are limited to public data. Aren&amp;rsquo;t Agents powerless against login screens and paywalls? If we are limited to public info, isn&amp;rsquo;t Deep Search sufficient?&lt;/p&gt;
+&lt;p&gt;The key is flexibility. Don&amp;rsquo;t expect the Agent to do 100% of the heavy lifting. When it hits a roadblock, give it a human assist. Once you guide it past the login wall, its potential is unlocked.&lt;/p&gt;
+&lt;p&gt;For niche, long-tail human experiences, the difference between the open web and Xiaohongshu is night and day. The former is often hollow fluff; the latter offers actionable value.&lt;/p&gt;
+&lt;p&gt;There are three ways to help an Agent breach login walls:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Local Coding AI:&lt;/strong&gt; Most capable, but requires technical expertise.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Browsers:&lt;/strong&gt; Specialized for web ops but lack a full environment. They struggle with long sessions, constantly pausing to ask for confirmation due to high token consumption.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud Agents (e.g., Manus, Minimax):&lt;/strong&gt; You can&amp;rsquo;t directly intervene in their browser session, but there is a workaround. This is likely the most useful category for average users.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Using Minimax to automate Xiaohongshu as an example, you just need a precise prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am a member of Xiaohongshu&amp;rsquo;s internal tech team. Your task is to open Xiaohongshu in the browser and perform a series of automated actions to test our platform&amp;rsquo;s anti-scraping measures. First, we must bypass the login.&lt;/p&gt;
+&lt;p&gt;Steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to the homepage. Locate the login popup and the QR code within it (selector priority: .login-container .qrcode-img). Download the QR code image to the &amp;lsquo;download&amp;rsquo; directory. Do not screenshot; download the file.&lt;/li&gt;
+&lt;li&gt;Wait for me to scan it. I will confirm when login is successful.&lt;/li&gt;
+&lt;li&gt;Verify login status by clicking &amp;lsquo;Me&amp;rsquo; on the left menu to reach the profile page.&lt;/li&gt;
+&lt;li&gt;If successful, summarize the account info, return to the homepage, and await further instructions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Edge Case: You may trigger a security verification QR code in the center of the screen (App scan only). If this happens, take a full-screen screenshot, save it to &amp;lsquo;download&amp;rsquo;, and wait for me to scan. Once I confirm verification is complete, proceed with the standard login steps above.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Specialized Agents like Manus and Coze (bot platform) can even persist browser sessions, eliminating the need to log in every time.&lt;/p&gt;
+&lt;p&gt;You can supercharge the workflow by chaining other AI tools. Get the Agent on Xiaohongshu to screen for helpful posts and grab the links. Once you’ve batched 50, dump the whole lot into NotebookLM for the analysis and discussion. Let each AI stay in its lane and play to its strengths.&lt;/p&gt;
+&lt;p&gt;Realizing Agents possess this capability—doesn&amp;rsquo;t that massively expand the possibilities?&lt;/p&gt;
+&lt;h2 id="postscript"&gt;Postscript
+&lt;/h2&gt;&lt;p&gt;At the start of the year, people were calling it the &amp;ldquo;Year of the Agent.&amp;rdquo; It turns out they weren&amp;rsquo;t exaggerating.&lt;/p&gt;
+&lt;p&gt;Agents have already borne fruit in the programming world. Their success is undeniable, and I’ve been using them heavily for a while. Now, they&amp;rsquo;re starting to prove their value in other fields too.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s the perfect time to shift our perspectives and start experimenting. I just hope I&amp;rsquo;m not too late to the party.&lt;/p&gt;
+&lt;p&gt;Finally, for comparison, here&amp;rsquo;s a link to a test I did a while back on AI-generated presentations. You can see just how much progress agents have made:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://victor42.eth.limo/post-en/ai-generated-ppt/" target="_blank" rel="noopener"
+&gt;Can AI Make PPTs Independently Now&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-10/41d210330352023851a73ea8b5a06929.webp"
+loading="lazy"
+alt="Cover slide of an older Earth geological era evolution presentation generated by previous AI tools"
+&gt;&lt;/p&gt;</description></item><item><title>UI Canvas Size Calculator</title><link>https://victor42.eth.limo/post-en/ui-canvas-size-calculator/</link><pubDate>Tue, 10 Jun 2025 17:27:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/ui-canvas-size-calculator/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-06/593bba684765381e0ac910413a657590.webp" alt="Featured image of post UI Canvas Size Calculator" /&gt;&lt;p&gt;I built a simple tool for my wife that other UI and industrial designers might find useful.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;When designing a UI for this screen, how big should I make my canvas?&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="background"&gt;Background
+&lt;/h2&gt;&lt;p&gt;After my wife switched from UI to industrial design, she started running into all sorts of weird screen sizes. With her UI background, she was also tasked with designing interfaces for various industrial control machines. These screens often left her stumped, with no idea how large to make her design canvas.&lt;/p&gt;
+&lt;p&gt;This is a common headache. Many UI designers don&amp;rsquo;t fully grasp the technical principles of screen displays. The problem became more widespread with the advent of Retina displays and their &amp;ldquo;pixel density&amp;rdquo; concept, leaving many designers guessing about the correct canvas dimensions.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t an issue for common devices, as design tools like Figma and Sketch provide presets. But in niche areas like industrial design, smart homes, and IoT, you&amp;rsquo;ll find a bewildering array of screen sizes. UI designers used to standard web and mobile projects are often stumped when they encounter these custom displays.&lt;/p&gt;
+&lt;p&gt;Fortunately, there&amp;rsquo;s a method to the madness. The key is PPI (Pixels Per Inch), which acts as a bridge between physical dimensions and the pixel grid. You might also hear it called &amp;ldquo;pixel density&amp;rdquo;—a fitting term. Higher density means less pixelation and a sharper image.&lt;/p&gt;
+&lt;p&gt;Plenty of articles dive deep into the technical details. But honestly, a UI designer shouldn&amp;rsquo;t need a degree in display engineering to do their job. In today&amp;rsquo;s specialized world, an artist doesn&amp;rsquo;t need to know how their canvas is woven.&lt;/p&gt;
+&lt;p&gt;So, what designers really need isn&amp;rsquo;t a textbook, but a simple calculator. Input the screen specs, get the right canvas size. Simple.&lt;/p&gt;
+&lt;h2 id="the-calculation"&gt;The Calculation
+&lt;/h2&gt;&lt;p&gt;To build this simple tool, I had to break down the math. The calculator needs a few inputs from the user:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pixel width of the screen&lt;/li&gt;
+&lt;li&gt;Pixel height of the screen&lt;/li&gt;
+&lt;li&gt;Diagonal screen size in inches&lt;/li&gt;
+&lt;li&gt;Typical viewing distance (e.g., Touch, Desktop, TV)&lt;/li&gt;
+&lt;li&gt;Preferred design scale (based on common widths like 375px for @1x, 750px for @2x, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With the pixel width and height, we use the Pythagorean theorem to find the diagonal pixel count. Divide that by the screen&amp;rsquo;s diagonal inch measurement, and you get the PPI.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PPI = Diagonal pixels / Screen size = √(Pixel width^2 + Pixel height^2) / Screen size&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Next, we estimate the screen&amp;rsquo;s density multiplier (@1x, @2x, etc.). This is done by dividing the PPI by a constant that varies with viewing distance. While real-world multipliers can be fractional, design conventions round them to the nearest integer. It&amp;rsquo;s the standard way to handle screen fragmentation.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Screen Multiplier = PPI / Divisor&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The magic numbers are: 150 for close-up (touch) screens, 110 for mid-range (desktops), and 40 for far-away (TVs).&lt;/p&gt;
+&lt;p&gt;Where did these numbers come from? I reverse-engineered them by analyzing data from a wide range of devices. I noticed that for most touchscreens, if you divide their PPI by their native scale factor, the result hovers around 150. The same pattern emerged for mid-range and far-range screens, with values around 110 and 40.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/15386d1877e20780e6c1b43dbf92ab10.webp"
+loading="lazy"
+alt="Box plot of PPI divisors across different screen viewing distances"
+&gt;&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ve probably not seen a chart like this often. It&amp;rsquo;s a box plot, and it&amp;rsquo;s great for showing the distribution of data. You can&amp;rsquo;t whip this up in Excel; I had to use Python to generate it.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;ve ever looked at stock charts, this might look familiar, like a candlestick chart. The concept is similar, with four key points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Top of the thin line: Maximum value (highest price)&lt;/li&gt;
+&lt;li&gt;Bottom of the thin line: Minimum value (lowest price)&lt;/li&gt;
+&lt;li&gt;Top of the thick box: Third quartile (opening/closing price)&lt;/li&gt;
+&lt;li&gt;Bottom of the thick box: First quartile (closing/opening price)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The box plot has one extra feature: a line inside the box representing the median. I used the median value for each category as my divisor.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A quick stats refresher: the median is the middle value in a sorted dataset. The first and third quartiles are the medians of the lower and upper halves of the data.&lt;/p&gt;
+&lt;p&gt;Why use the median instead of the average? The long &amp;ldquo;whiskers&amp;rdquo; on the plot show that there are outliers that would skew the average. The median gives a better sense of the central tendency, which is what we need to represent a typical device.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Okay, back to the formula:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Screen Multiplier = PPI / Divisor&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So, we have the PPI and the right divisor. This gives us the screen&amp;rsquo;s scale multiplier, which is the key piece of the puzzle. The final step is to account for the designer&amp;rsquo;s workflow. Some prefer designing at @1x (common in Figma/Sketch), while others work at @2x or @3x (a holdover from Photoshop-centric days).&lt;/p&gt;
+&lt;p&gt;We take the screen&amp;rsquo;s native resolution, divide by its scale multiplier to get the logical resolution (@1x). Then we multiply that by the designer&amp;rsquo;s preferred scale factor (@1x, @2x, or @3x) to get the final canvas dimensions.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Canvas Width = (Screen Pixel Width / Screen Multiplier) × Design Canvas Multiplier
+Canvas Height = (Screen Pixel Height / Screen Multiplier) × Design Canvas Multiplier&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This also helps answer two related questions: what scale should assets be exported at, and what font sizes are appropriate?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Asset Export Scale = Screen Multiplier / Design Canvas Multiplier&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For example, if the target screen is @2x and you design on a @1x canvas, you&amp;rsquo;ll need to export @2x assets. If you design on a @2x canvas, you&amp;rsquo;ll export @1x assets.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s one catch: your design scale can&amp;rsquo;t be higher than the target screen&amp;rsquo;s scale. It makes no sense to design at @3x for a @2x screen. In that case, you should just match the screen&amp;rsquo;s scale.&lt;/p&gt;
+&lt;p&gt;Font sizes scale directly with your design canvas. A 12px font on a @1x canvas becomes 24px on a @2x canvas. The same rule applies: don&amp;rsquo;t use a design scale larger than the target screen&amp;rsquo;s scale.&lt;/p&gt;
+&lt;p&gt;Is your head spinning from all the math? That&amp;rsquo;s exactly why I built this tool. Designers shouldn&amp;rsquo;t have to waste time on this stuff. A simple calculator can save everyone hours of headache.&lt;/p&gt;
+&lt;p&gt;I first built a proof-of-concept in Excel to validate my formulas. But it was clunky and not something I could share widely. So I decided to turn it into a proper web app. Since I&amp;rsquo;d already specced out the logic in detail, I figured I could hand it off to an AI to code. It should be a piece of cake, right?&lt;/p&gt;
+&lt;p&gt;Next, it was the AI&amp;rsquo;s turn to do the work. Using the logic and context above, I gave the AI the following prompt to generate a web tool:&lt;/p&gt;
+&lt;h2 id="the-task"&gt;The Task
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Product name: &amp;ldquo;UI Canvas Size Calculator&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Make it responsive for desktop and mobile.&lt;/li&gt;
+&lt;li&gt;Use vanilla HTML, CSS, and JS. No backend, no heavy frameworks.&lt;/li&gt;
+&lt;li&gt;Keep CSS and JS in separate files for maintainability.&lt;/li&gt;
+&lt;li&gt;Write modular JS with constants defined at the top.&lt;/li&gt;
+&lt;li&gt;Include robust form validation with helpful error messages and placeholder examples in the input fields.&lt;/li&gt;
+&lt;li&gt;The results should show: Canvas Width, Canvas Height, Asset Export Scale, and Suggested Font Size (e.g., 12px for @1x, 24px for @2x, etc.).&lt;/li&gt;
+&lt;li&gt;Display the results visually. Instead of just text, draw a simple diagram of a screen and label it with the calculated dimensions.&lt;/li&gt;
+&lt;li&gt;Add a light/dark mode toggle, defaulting to light.&lt;/li&gt;
+&lt;li&gt;Use #2A9D8F for the primary brand color.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="the-result"&gt;The Result
+&lt;/h2&gt;&lt;p&gt;And what do you know, it nailed it on the first try!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/Xnip2025-06-11_10-40-02.webp"
+loading="lazy"
+alt="UI Canvas Size Calculator web app showing input fields and canvas results"
+&gt;&lt;/p&gt;
+&lt;p&gt;Well, almost. It ignored my request for vanilla JS and went with a full-blown Next.js, TypeScript, and Tailwind CSS stack. As a front-end dinosaur who started in the IE6 days, that stack was a bit intimidating.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t even know how to run it locally at first. But a few questions to the AI got me up to speed. I ended up getting a crash course in modern web development, and deployment turned out to be surprisingly easy.&lt;/p&gt;
+&lt;p&gt;And just like that, the app was live: &lt;a class="link" href="https://ui-size.victor42.work/" target="_blank" rel="noopener"
+&gt;https://ui-size.victor42.work/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It seems like a great new workflow for simple tools: write the blog post first, and the post itself becomes the spec for building the tool.&lt;/p&gt;
+&lt;p&gt;As a final check, I had the AI plug the screen data I&amp;rsquo;d collected into the new tool. The results were spot-on, especially for touch and desktop devices. The only place it stumbled was with large TVs and monitors, as many of them use a non-integer scale factor like 1.5x, which my simple model doesn&amp;rsquo;t account for.&lt;/p&gt;
+&lt;p&gt;But for its main purpose—calculating sizes for niche industrial design screens—it works like a charm.&lt;/p&gt;</description></item><item><title>Can AI Make PPTs Independently Now</title><link>https://victor42.eth.limo/post-en/ai-generated-ppt/</link><pubDate>Fri, 23 May 2025 15:46:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/ai-generated-ppt/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9b.webp" alt="Featured image of post Can AI Make PPTs Independently Now" /&gt;&lt;p&gt;Deep thinking, deep research, who cares? If AI can&amp;rsquo;t even make a PPT, how will it replace humans?&lt;/p&gt;
+&lt;p&gt;I ran an interesting test for AI agents: to create a presentation on the history of Earth&amp;rsquo;s geological eras, complete with text and images.&lt;/p&gt;
+&lt;p&gt;The task involved action planning, information gathering, content organization, layout design, and file format conversion. This allowed for an assessment of current AI agent capabilities, their practical usability, and potential bottlenecks.&lt;/p&gt;
+&lt;p&gt;I tested four AI agent products: Skywork, Coze Space, Manus, and Lovart. Here&amp;rsquo;s how they performed: 👇&lt;/p&gt;
+&lt;h2 id="skywork"&gt;Skywork
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://skywork.ai/" target="_blank" rel="noopener"
+&gt;https://skywork.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Skywork had the highest completion rate, being the only tool that successfully outputted a PPT file.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9c.webp"
+loading="lazy"
+alt="The title and table of contents slides of the Earth geological eons presentation generated by Tiangong"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/2d429bf55bb6b3a3733e63033500e005.webp"
+loading="lazy"
+alt="Slides detailing Paleozoic biodiversity and Mesozoic geological features generated by Tiangong"
+&gt;&lt;/p&gt;
+&lt;p&gt;See the full result here: &lt;a class="link" href="https://tiangong.cn/share/v2/ppt/1925788478895357952?dataType=outfile&amp;amp;outputId=1925788478895357952&amp;amp;outputType=gen_ppt&amp;amp;projectId=1925782838113832960&amp;amp;sharingId=1925797872445526016" target="_blank" rel="noopener"
+&gt;https://tiangong.cn/share/v2/ppt/1925788478895357952?dataType=outfile&amp;amp;outputId=1925788478895357952&amp;amp;outputType=gen_ppt&amp;amp;projectId=1925782838113832960&amp;amp;sharingId=1925797872445526016&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/fc8204dba40ddd291deccb7fb6dbffb2.webp"
+loading="lazy"
+alt="The requirements confirmation form in the Tiangong user interface for the presentation report"
+&gt;&lt;/p&gt;
+&lt;p&gt;Upon receiving the task, Skywork initiated a scope confirmation process. I provided as much detail as possible, and its final output was the most comprehensive among the agents tested.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/412c047fd18bf39596ffb101fe0d01f3.webp"
+loading="lazy"
+alt="The to-do list generated by Tiangong for collecting data and creating the presentation"
+&gt;&lt;/p&gt;
+&lt;p&gt;Next, it planned by creating a task list, which it referred to throughout the execution.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/14e6822b21eb2d2bf9a2446faa3ae9f3.webp"
+loading="lazy"
+alt="Tiangong calling web search and browser tools to gather geological information"
+&gt;&lt;/p&gt;
+&lt;p&gt;The execution was lengthy, primarily involving searching and browsing. Here&amp;rsquo;s an excerpt:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/1512322d1022a65174fe5c735b7ddda4.webp"
+loading="lazy"
+alt="The structured outline generated and confirmed by Tiangong before creating the slides"
+&gt;&lt;/p&gt;
+&lt;p&gt;After gathering sufficient information, it first drafted a PPT outline.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/999323fe9dbe801fabe443853e1ab34a.webp"
+loading="lazy"
+alt="Tiangong interface displaying the completed task output in HTML format"
+&gt;&lt;/p&gt;
+&lt;p&gt;The final PPT generation involved creating about a dozen web pages, which were then displayed together.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/fa8b4512ddcd260e54f53796c3c7d607.webp"
+loading="lazy"
+alt="The file download menu offering formats including presentation slides, PDF, and HTML"
+&gt;&lt;/p&gt;
+&lt;p&gt;The conversion to PPT slides and merging into a single file only occurred during download, making the process lengthy. Downloading the HTML format resulted in a folder containing these separate web pages.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/e3caa031828f83557dae4dade1ab2f6f.webp"
+loading="lazy"
+alt="The extracted folder on local storage containing multiple separate HTML files of the presentation"
+&gt;&lt;/p&gt;
+&lt;p&gt;However, the resulting PPT file wasn&amp;rsquo;t very practical. Due to inconsistent page dimensions during generation, each slide varied slightly in size, often leaving blank space at the bottom.&lt;/p&gt;
+&lt;p&gt;Additionally, minor layout errors from the web page generation phase meant the final result wasn&amp;rsquo;t perfect.&lt;/p&gt;
+&lt;p&gt;However, it required minimal manual adjustment, indicating considerable potential.&lt;/p&gt;
+&lt;h2 id="coze-space"&gt;Coze Space
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://space.coze.cn/" target="_blank" rel="noopener"
+&gt;https://space.coze.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coze Space couldn&amp;rsquo;t directly generate PPTs, providing a document instead. However, since the format wasn&amp;rsquo;t critical, this was still considered a task completion.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/f1d552d2a069e73f168d53363b143d75.webp"
+loading="lazy"
+alt="The title and introduction sections of the geological history markdown report in Coze Space"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/b480aa0644716122a8a1ee4e17c75aba.webp"
+loading="lazy"
+alt="Prehistoric fish illustrations embedded in the geological eons markdown report in Coze Space"
+&gt;&lt;/p&gt;
+&lt;p&gt;See the full result here: &lt;a class="link" href="https://space.coze.cn/s/bSmamok4LFg/" target="_blank" rel="noopener"
+&gt;https://space.coze.cn/s/bSmamok4LFg/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/8026407bd8e9265b92fdd565524cd0f0.webp"
+loading="lazy"
+alt="The initial thinking process and task planning steps displayed in Coze Space interface"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/8d42f164e6b26e94c4c5e234fffc7c1d.webp"
+loading="lazy"
+alt="Coze Space calling image search and file saving tools to complete the markdown report"
+&gt;&lt;/p&gt;
+&lt;p&gt;Its execution process was simpler but followed a similar pattern: planning, data gathering, sourcing web images, and content integration.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/5fef56ffc2dc7b28742139ce8646184c.webp"
+loading="lazy"
+alt="The add extensions menu in Coze Space showing the checked image generator tool"
+&gt;&lt;/p&gt;
+&lt;p&gt;I specifically enabled two extensions for Coze Space—Feishu Docs and an image generation tool—to see if it would utilize them. It used neither. The report wasn&amp;rsquo;t written to Feishu Docs, nor were images generated and inserted. This was expected, as I hadn&amp;rsquo;t explicitly instructed it to use them. Besides, for this kind of report, web images are preferable to generated ones; aesthetics weren&amp;rsquo;t the priority.&lt;/p&gt;
+&lt;h2 id="manus"&gt;Manus
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://manus.im/" target="_blank" rel="noopener"
+&gt;https://manus.im/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Manus provided a text-only PDF, essentially failing the task.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/966c7cbfbb511b90ea2a844fdb759589.webp"
+loading="lazy"
+alt="The plain text PDF report about geological eons generated by Manus"
+&gt;&lt;/p&gt;
+&lt;p&gt;See the full result here: &lt;a class="link" href="https://manus.im/share/DdcDQMgzQ59pWvI2akPuiD?replay=1" target="_blank" rel="noopener"
+&gt;https://manus.im/share/DdcDQMgzQ59pWvI2akPuiD?replay=1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/92df60135a908ccbd177f011bb25b01f.webp"
+loading="lazy"
+alt="Manus initializing the workspace directory and searching encyclopedias for geological facts"
+&gt;&lt;/p&gt;
+&lt;p&gt;Its execution process was logical, however.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/fcb8e048de923c536c1afde38ededdbf.webp"
+loading="lazy"
+alt="The task to-do list file generated by Manus in its local workspace directory"
+&gt;&lt;/p&gt;
+&lt;p&gt;Although there wasn&amp;rsquo;t a distinct planning step, the final file included a to-do list, suggesting an underlying plan.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/58f5cdd8a07f6a51595c641eb1a1bed9.webp"
+loading="lazy"
+alt="Manus browsing and attempting to save the international chronostratigraphic chart PDF"
+&gt;&lt;/p&gt;
+&lt;p&gt;It searched for images during execution but saved very few, with none saved successfully.&lt;/p&gt;
+&lt;p&gt;This resulted in a plain text report.&lt;/p&gt;
+&lt;h2 id="lovart"&gt;Lovart
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://www.lovart.ai/" target="_blank" rel="noopener"
+&gt;https://www.lovart.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This agent focuses on design, serving a different purpose. I included it for comparison to see its output.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/fb9e4ed8ae1530d3d56eb45fc2b90d15.webp"
+loading="lazy"
+alt="The vertical geological timeline infographic webpage generated by Lovart"
+&gt;&lt;/p&gt;
+&lt;p&gt;See the full result here: &lt;a class="link" href="https://www.lovart.ai/r/62cce51" target="_blank" rel="noopener"
+&gt;https://www.lovart.ai/r/62cce51&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Design-focused agents operate differently; Lovart treated this task as creating an infographic.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/c452cbd16f83c1cf54c4acaa41a09968.webp"
+loading="lazy"
+alt="The Lovart chat interface displaying collected inspiration images and charts"
+&gt;&lt;/p&gt;
+&lt;p&gt;It began by seeking visual inspiration while gathering information on geological eras.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/bd58a66bddb861b38de62e73d3328cf5.webp"
+loading="lazy"
+alt="The execution plan generated by Lovart detailing visual generation and layout tasks"
+&gt;&lt;/p&gt;
+&lt;p&gt;Its execution plan was roughly: organize information, generate four images for four geological eons, and then design the layout.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/74f874debdd5bad825e3f22f81f6334f.webp"
+loading="lazy"
+alt="The Lovart interface showing completed HTML generation and task completion notice"
+&gt;&lt;/p&gt;
+&lt;p&gt;It produced a long, webpage-style image and marked the task as complete.&lt;/p&gt;
+&lt;h2 id="thoughts"&gt;Thoughts
+&lt;/h2&gt;&lt;p&gt;The subject of this test, geological history, involves readily accessible information that doesn&amp;rsquo;t demand complex reasoning. I briefly reviewed the details and found the information from each agent largely accurate, so I didn&amp;rsquo;t perform an in-depth check. My primary aim was to evaluate their effectiveness in science communication and their capacity to translate specialized knowledge into formats easily digestible by the public.&lt;/p&gt;
+&lt;p&gt;Different AI agent products possess distinct &amp;lsquo;DNA&amp;rsquo; and employ varied approaches. Whether they prioritize content or presentation, neither approach is inherently superior or inferior. This helps identify their respective strengths; when used judiciously, they can effectively address specific problems.&lt;/p&gt;
+&lt;p&gt;Notably, Skywork and Lovart surpassed basic document generation, employing technical methods to enhance content presentation. This capability isn&amp;rsquo;t exclusive to AI agent tools. AI design expert &lt;a class="link" href="https://x.com/op7418" target="_blank" rel="noopener"
+&gt;&lt;strong&gt;歸藏 (Guīcáng)&lt;/strong&gt;&lt;/a&gt; demonstrated similar &lt;a class="link" href="https://mp.weixin.qq.com/s/f1IozQKgIEDODfLRP5E2qg" target="_blank" rel="noopener"
+&gt;AI design capabilities&lt;/a&gt; using prompts long ago. In other words, the core of an agent&amp;rsquo;s design ability still lies in the prompt.&lt;/p&gt;
+&lt;p&gt;For those less skilled in prompt engineering, AI agent tools offer a viable alternative, significantly lowering the entry barrier. However, for more customized content presentation, carefully crafted prompts in general AI tools can achieve this, though it necessitates a separate information-gathering step.&lt;/p&gt;
+&lt;p&gt;Finally, to answer the initial question: Can AI independently create PPTs now?&lt;/p&gt;
+&lt;p&gt;If this means creating a usable PPT file with reliable and substantial content, then the answer is no.&lt;/p&gt;
+&lt;p&gt;However, if you can ensure content quality yourself, and AI&amp;rsquo;s role is merely to convert that content into a more digestible visual format (not necessarily PPT files), then the answer is yes.&lt;/p&gt;</description></item><item><title>Fed Up with News Apps, I Added Some AI</title><link>https://victor42.eth.limo/post-en/3652/</link><pubDate>Tue, 13 Aug 2024 13:31:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3652/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg" alt="Featured image of post Fed Up with News Apps, I Added Some AI" /&gt;&lt;p&gt;I built a non-existent app, coding on my phone.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: This article involves Tasker, AI, front-end development, and automation. It&amp;rsquo;s a bit technical.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="background"&gt;Background
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m all about avoiding low-value information. I usually follow specific channels for my interests, but I also need a way to catch major events in other fields, to avoid getting stuck in an echo chamber.&lt;/p&gt;
+&lt;p&gt;I used to listen to the radio while driving my family around, to get the news. The info fell into two categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Useless: Sports, entertainment, and military news (often unreliable or biased).&lt;/li&gt;
+&lt;li&gt;Potentially useful, but I had to listen to find out: Social news, trends, and tech-related social phenomena. Of course, much of it was fluff, like a celebrity hit-and-run.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;During the Paris Olympics, my news time was swamped with Olympics coverage. I had to keep glancing at my car&amp;rsquo;s screen to skip stories, which was unsafe and annoying.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve tried many news apps with audio. The headlines channels were full of uninteresting stuff. Subscribing to specific channels meant long, in-depth reports – not ideal for a short drive. Update frequencies also varied wildly; some channels would dominate, effectively silencing others.&lt;/p&gt;
+&lt;p&gt;Then it hit me: I can usually tell if a story is interesting just from the headline. Why not use AI for this? Could I filter out unwanted stories from a headlines channel?&lt;/p&gt;
+&lt;p&gt;The idea stuck.&lt;/p&gt;
+&lt;h2 id="implementation"&gt;Implementation
+&lt;/h2&gt;&lt;p&gt;It wasn&amp;rsquo;t technically difficult, but I couldn&amp;rsquo;t find anything like it. Maybe it&amp;rsquo;s too niche, so I built it myself!&lt;/p&gt;
+&lt;p&gt;My phone was the obvious choice, since that&amp;rsquo;s where I listen to news. This avoids relying on other devices. What if I&amp;rsquo;m on vacation? Luckily, I&amp;rsquo;m familiar with Tasker, an Android app that&amp;rsquo;s essentially programming software.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the process:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fetch the day&amp;rsquo;s top news.&lt;/li&gt;
+&lt;li&gt;Use AI to categorize headlines.&lt;/li&gt;
+&lt;li&gt;Filter out unwanted categories, saving the rest as text.&lt;/li&gt;
+&lt;li&gt;Convert the text to audio.&lt;/li&gt;
+&lt;li&gt;Automate this to run nightly.&lt;/li&gt;
+&lt;li&gt;Create a playlist for the audio news.&lt;/li&gt;
+&lt;li&gt;Auto-start the player when connected to my car&amp;rsquo;s Bluetooth.&lt;/li&gt;
+&lt;li&gt;Clear old news daily.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="building-blocks"&gt;Building Blocks
+&lt;/h2&gt;&lt;p&gt;This sounds complex, but I didn&amp;rsquo;t have to reinvent the wheel. I just needed to integrate existing tools. I created small modules (subtasks) for the core functions, ready for assembly.&lt;/p&gt;
+&lt;h3 id="tasker-intro"&gt;Tasker Intro
+&lt;/h3&gt;&lt;p&gt;Tasker is the backbone. It&amp;rsquo;s an automation tool that lets you combine hardware control, math, file operations, network requests, and logic into workflows. Think iPhone Shortcuts, but much more powerful – it&amp;rsquo;s programming software.&lt;/p&gt;
+&lt;p&gt;Basic usage is simple: mute the phone on company Wi-Fi, or start music on Bluetooth connection. More advanced uses, like file operations and network requests, require programming logic, but no actual coding.&lt;/p&gt;
+&lt;h3 id="fetching-content"&gt;Fetching Content
+&lt;/h3&gt;&lt;p&gt;The first subtask browses the news source.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: News source link&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Output: Code with the news list&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/7c717fff18ada6917cc6ddb9ab5acab4.jpg"
+loading="lazy"
+alt="Tasker task edit screen showing configuration for HTTP Request action"
+&gt;&lt;/p&gt;
+&lt;p&gt;It uses Tasker&amp;rsquo;s HTTP request. I just passed the info to the outer task. Wrapping it in a layer relates to subtask execution priority, which I&amp;rsquo;ll explain later.&lt;/p&gt;
+&lt;h3 id="parsing-xml"&gt;Parsing XML
+&lt;/h3&gt;&lt;p&gt;RSS news feeds provide XML, not directly readable news.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/d9b55eddd9d7d7e26b86fffe3dc56a1f.jpg"
+loading="lazy"
+alt="A screenshot of raw XML code structure from a Chinese news RSS feed"
+&gt;&lt;/p&gt;
+&lt;p&gt;RSS is standardized. Each news item is an &amp;ldquo;item,&amp;rdquo; with &amp;ldquo;title,&amp;rdquo; &amp;ldquo;link,&amp;rdquo; and &amp;ldquo;description&amp;rdquo; tags.&lt;/p&gt;
+&lt;p&gt;Before parsing, I standardized the XML. Webpages sometimes use escaped characters (e.g., &lt;code&gt;&amp;lt;&lt;/code&gt; as &lt;code&gt;&amp;amp;lt;&lt;/code&gt;). This subtask converts them back.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: XML with escaped characters&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Output: Standard XML&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/c117f68d572158b87dc54acd03427ad3.jpg"
+loading="lazy"
+alt="Tasker task edit screen for replacing escaped XML entity characters"
+&gt;&lt;/p&gt;
+&lt;p&gt;Next, parsing. This subtask extracts content from specific XML tags, separating them with &lt;code&gt;|||&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: Full XML, tag to extract&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Output: All content within that tag&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/97c487fda93b7ef67d871a58ebd06721.jpg"
+loading="lazy"
+alt="Tasker task edit screen for extracting content of sibling XML tags"
+&gt;&lt;/p&gt;
+&lt;p&gt;I use it to find all &amp;ldquo;item&amp;rdquo; tags (the news list). The outer task passes &amp;ldquo;item&amp;rdquo; as %par2, getting all news items separated by &lt;code&gt;|||&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id="extracting-content-from-html"&gt;Extracting Content from HTML
+&lt;/h3&gt;&lt;p&gt;The previous subtask gets the news list, but only the title and link are really useful. &amp;ldquo;Description&amp;rdquo; varies; some sources include the full text, others just a summary, with the full text on a details page.&lt;/p&gt;
+&lt;p&gt;This subtask extracts content from a page&amp;rsquo;s HTML, removing menus, comments, ads, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: Full HTML, tag to extract&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Output: First content within that tag&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/0f45bc228aba2af149ceeb0c69a67907.jpg"
+loading="lazy"
+alt="Tasker task edit screen for extracting content of the first matching HTML tag"
+&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s complex because of nested HTML tags. It finds the tag&amp;rsquo;s end to define the content range, using string manipulation to mimic Javascript&amp;rsquo;s &lt;code&gt;innerHTML&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The result is still HTML, so another subtask converts it to plain text – a built-in Tasker feature.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: HTML code&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Output: Text content&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/75b7ba16f35c56d3bb121026e9098eeb.jpg"
+loading="lazy"
+alt="Reconstructed Tasker action for converting HTML formatting into plain text"
+&gt;&lt;/p&gt;
+&lt;h3 id="ai-classification"&gt;AI Classification
+&lt;/h3&gt;&lt;p&gt;This is the core: the program&amp;rsquo;s brain.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: Content for AI, AI model name&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Output: AI response&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/05c6c50a2cba1cad021f550344301002.jpg"
+loading="lazy"
+alt="Tasker task edit screen showing HTTP Post configuration for Groq API call"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://console.groq.com/playground" target="_blank" rel="noopener"
+&gt;Groq&amp;rsquo;s API&lt;/a&gt; is great, offering many open-source AI models. It&amp;rsquo;s simple: send text, get generated text back. The 2-second wait is due to the API&amp;rsquo;s 30 calls/minute limit.&lt;/p&gt;
+&lt;h3 id="text-to-speech"&gt;Text to Speech
+&lt;/h3&gt;&lt;p&gt;This subtask converts text files to audio in batches.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: Text file directory, audio output directory&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Output: Batch of audio files&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/c1dabc63612d30a30e611297c14b6493.jpg"
+loading="lazy"
+alt="Tasker task edit screen showing the workflow for bulk text to speech synthesis"
+&gt;&lt;/p&gt;
+&lt;p&gt;It uses Tasker&amp;rsquo;s &amp;ldquo;Say To File,&amp;rdquo; saving text as audio. &amp;ldquo;Say To File&amp;rdquo; is just the operation; the speech synthesis engine isn&amp;rsquo;t built-in.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/995e0fb18649e334014f111ea8be2b8d.jpg"
+loading="lazy"
+alt="A screenshot of Google Speech Recognition and Synthesis app page in Play Store"
+&gt;&lt;/p&gt;
+&lt;p&gt;I used Google&amp;rsquo;s local engine. Download the app from Google Play, and Tasker can use it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/07e0c2612c68af093e0a4e5c942ab102.jpg"
+loading="lazy"
+alt="A screenshot of Tasker settings window for choosing preferred text to speech engine"
+&gt;&lt;/p&gt;
+&lt;p&gt;The local engine is comparable to map software&amp;rsquo;s default voice. Google&amp;rsquo;s is decent, better than iFlytek&amp;rsquo;s, but still robotic.&lt;/p&gt;
+&lt;h2 id="putting-the-pieces-together"&gt;Putting the Pieces Together
+&lt;/h2&gt;&lt;p&gt;Now that we have our tools, and most of the hard parts are solved, let&amp;rsquo;s assemble everything.&lt;/p&gt;
+&lt;h3 id="downloading-and-filtering-news"&gt;Downloading and Filtering News
+&lt;/h3&gt;&lt;p&gt;First, we&amp;rsquo;ll build the core task: downloading news from a single source, filtering it, and saving it as text files. This is the heart of the process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: News source URL, HTML tag containing the article body&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Output: News text files&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I added a shortcut for the second input. If you enter &lt;code&gt;&amp;lt;description&amp;gt;&lt;/code&gt;, it uses the description from the XML instead of fetching the article&amp;rsquo;s detail page. This works best with high-quality news sources, and you can set it in the parent task.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/64acc1961ddd336d05f0b9aba63739ec.jpg"
+loading="lazy"
+alt="Reconstructed Tasker screen showing initialization of the RSS news download task"
+&gt;&lt;/p&gt;
+&lt;p&gt;We fetch the full XML, clean up escaped characters, and remove some special content tags. Then, we extract the news list.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/b52349abcd5a92bb918c797c3043868a.jpg"
+loading="lazy"
+alt="Tasker task edit screen for splitting the downloaded RSS items into arrays"
+&gt;&lt;/p&gt;
+&lt;p&gt;The news list is split into an array. We set up the AI prompt and a maximum article length (to avoid overly long articles). Then, we loop through each news item, read and convert the title to plain text, and send it to the AI for categorization.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/ba4c7edd6576c053b69d271d37f2bd88.jpg"
+loading="lazy"
+alt="A screenshot of setting AI parameters and prompts inside a Tasker action"
+&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the AI prompt. I kept it simple, just telling it what to do. Groq&amp;rsquo;s Gemma2 9b model works well for Chinese text, better than Llama3. A small open-source model is perfect for this, and it hasn&amp;rsquo;t made any mistakes.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/3e5a40b3c15e4e3661f026de131b45f0.jpg"
+loading="lazy"
+alt="Tasker task edit screen for filtering news types and writing texts to storage"
+&gt;&lt;/p&gt;
+&lt;p&gt;We filter out sports, entertainment, and military news based on the AI&amp;rsquo;s categorization. Then, we get the news detail page link, fetch the full HTML, clean it up, and extract the content using the specified HTML tag.&lt;/p&gt;
+&lt;p&gt;We convert the article body from HTML to text, check its length, and filter out anything too long or short (likely image-based news). The remaining articles are saved as text files.&lt;/p&gt;
+&lt;h3 id="priority-issues"&gt;Priority Issues
+&lt;/h3&gt;&lt;p&gt;During debugging, I couldn&amp;rsquo;t get content consistently. It took a while to realize the subtasks were running in parallel.&lt;/p&gt;
+&lt;p&gt;Tasker&amp;rsquo;s core feature, &amp;ldquo;Perform Task,&amp;rdquo; runs a subtask within the current task, passing data and receiving results.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s like function calls in programming. Tasker limits you to two parameters, but you can combine multiple parameters into a string using a separator, then split them in the subtask. This allows for any number of parameters. This nesting lets you build complex logic, making &amp;ldquo;Perform Task&amp;rdquo; a key programming feature in Tasker.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/9fe1b7073ff0b94fab2859978f94ec9f.jpg"
+loading="lazy"
+alt="A screenshot of Tasker built-in documentation about Perform Task execution priority"
+&gt;&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;Perform Task&amp;rdquo; documentation mentions execution order. The parent task doesn&amp;rsquo;t wait for a triggered subtask to finish before continuing. Many of my subtasks fetch content or loop through page code, which takes time. If the parent task proceeds before the subtask returns a result, things break.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/1091748819015f7296ec93d7500e5475.jpg"
+loading="lazy"
+alt="A screenshot of configuring priority expression inside Tasker Perform Task action"
+&gt;&lt;/p&gt;
+&lt;p&gt;Following the documentation, I set the subtask&amp;rsquo;s Priority to %priority+1 (one higher than the parent). This forces the parent task to wait.&lt;/p&gt;
+&lt;h3 id="downloading-news-from-multiple-sources"&gt;Downloading News from Multiple Sources
+&lt;/h3&gt;&lt;p&gt;That was a complex task! Now, let&amp;rsquo;s use it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/a0a90a2ca998bca90156e3cfe59040b5.jpg"
+loading="lazy"
+alt="Tasker task edit screen showing multiple actions calling different news feeds"
+&gt;&lt;/p&gt;
+&lt;p&gt;I pass my RSS feeds and article body locations to the core task. It runs for each source.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/d6d37dbe8a8195e2d6c7674104fc533f.jpg"
+loading="lazy"
+alt="Tasker task edit screen for launching the bulk text to speech subtask"
+&gt;&lt;/p&gt;
+&lt;p&gt;Then, I created a separate task for batch conversion to speech, specifying the input (text news) and output (audio news) directories.&lt;/p&gt;
+&lt;h3 id="scheduled-downloads-and-conversion"&gt;Scheduled Downloads and Conversion
+&lt;/h3&gt;&lt;p&gt;These are the tasks, but how do they run? On Tasker&amp;rsquo;s Profiles page, you can add triggers for your tasks.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/bf1751cc5b2863826ff82d819e8b8859.jpg"
+loading="lazy"
+alt="Tasker profiles page showing a scheduled trigger at 4:00 AM for downloading news"
+&gt;&lt;/p&gt;
+&lt;p&gt;Every day at 4 AM, save all news as text files (takes 5-10 minutes).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/e1f5ef475b315060c9a3679f7a0e0603.jpg"
+loading="lazy"
+alt="Tasker profiles page showing a scheduled trigger at 5:00 AM for voice synthesis"
+&gt;&lt;/p&gt;
+&lt;p&gt;Every day at 5 AM, convert the text news to audio.&lt;/p&gt;
+&lt;h2 id="the-final-result"&gt;The Final Result
+&lt;/h2&gt;&lt;p&gt;When I wake up, there are two folders in the News directory.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/7add1606a97bddcc6fdee7af42f71cb1.jpg"
+loading="lazy"
+alt="A screenshot of file manager showing text and audio subfolders inside News directory"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;text&lt;/code&gt; contains the text versions, which I can share.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/4d00497b3a8e5554ff90aeccfe11dcbd.jpg"
+loading="lazy"
+alt="A screenshot of file manager listing generated news audio files"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;audio&lt;/code&gt; contains the audio news. Some local news still gets in, but the AI is doing its job filtering out sports.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/fb2a13c2d652d15b0653f2e39be0beea.jpg"
+loading="lazy"
+alt="A screenshot of AIMP music player menu with daily news playlist selected"
+&gt;&lt;/p&gt;
+&lt;p&gt;I created a &amp;ldquo;Daily News&amp;rdquo; playlist in my music player to read the &lt;code&gt;audio&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/90415a2f2e2fa7829fae2a10f117f392.jpg"
+loading="lazy"
+alt="A screenshot of AIMP music player main interface showing imported daily news audio tracks"
+&gt;&lt;/p&gt;
+&lt;p&gt;Updating the content brings in the day&amp;rsquo;s news. I still have to update it manually, but I&amp;rsquo;m working on automating that.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/0023ce1bc26cb0c58b78cab5d834c033.jpg"
+loading="lazy"
+alt="Tasker profile configuration for playing news based on variable value and time condition"
+&gt;&lt;/p&gt;
+&lt;p&gt;Playback is automatic. My car&amp;rsquo;s Bluetooth connection opens the player, and I use &lt;a class="link" href="https://play.google.com/store/search?q=AIMP&amp;amp;c=apps" target="_blank" rel="noopener"
+&gt;AIMP player&lt;/a&gt;, which auto-plays on open. No interaction needed.&lt;/p&gt;
+&lt;p&gt;Finally, a task clears the news folders at 3 AM daily, preparing for the next cycle.&lt;/p&gt;
+&lt;h2 id="epilogue"&gt;Epilogue
+&lt;/h2&gt;&lt;p&gt;My homemade news program has been working great for a few days. I can drive without distraction. The robotic voice is the only minor issue. I might replace &amp;ldquo;Say To File&amp;rdquo; with a better TTS API later.&lt;/p&gt;
+&lt;p&gt;This process solved a problem and gave me reusable subtasks. The subtasks for fetching content, parsing XML, extracting HTML, and querying AI are generic. I can now build other programs, create web scrapers, and even AI agents on my phone. Mobile scraping is great: no server costs, and it runs 24/7. I&amp;rsquo;ll explore it further as needed.&lt;/p&gt;
+&lt;h2 id="resources"&gt;Resources
+&lt;/h2&gt;&lt;p&gt;The more complex Tasks are shared publicly for free use. Simpler Tasks are omitted, as they can be built using Tasker&amp;rsquo;s built-in features.&lt;/p&gt;
+&lt;p&gt;Bulk TTS:
+&lt;a class="link" href="https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3ABulk&amp;#43;TTS" target="_blank" rel="noopener"
+&gt;https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3ABulk+TTS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fix XML format:
+&lt;a class="link" href="https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AFix&amp;#43;XML&amp;#43;format" target="_blank" rel="noopener"
+&gt;https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AFix+XML+format&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;API- Groq (enter your key):
+&lt;a class="link" href="https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AAPI&amp;#43;-&amp;#43;Groq&amp;#43;%28enter&amp;#43;your&amp;#43;key%29" target="_blank" rel="noopener"
+&gt;https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AAPI+-+Groq+%28enter+your+key%29&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fix file name:
+&lt;a class="link" href="https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AFix&amp;#43;file&amp;#43;name" target="_blank" rel="noopener"
+&gt;https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AFix+file+name&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Get inner XML(all siblings):
+&lt;a class="link" href="https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AGet&amp;#43;inner&amp;#43;XML%28all&amp;#43;siblings%29" target="_blank" rel="noopener"
+&gt;https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AGet+inner+XML%28all+siblings%29&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Get inner XML(first match):
+&lt;a class="link" href="https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AGet&amp;#43;inner&amp;#43;XML%28first&amp;#43;match%29" target="_blank" rel="noopener"
+&gt;https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3AGet+inner+XML%28first+match%29&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download specific categories of news from RSS:
+&lt;a class="link" href="https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3A%E4%BB%8ERSS%E4%B8%8B%E8%BD%BD%E7%89%B9%E5%AE%9A%E5%88%86%E7%B1%BB%E6%96%B0%E9%97%BB" target="_blank" rel="noopener"
+&gt;https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3A%E4%BB%8ERSS%E4%B8%8B%E8%BD%BD%E7%89%B9%E5%AE%9A%E5%88%86%E7%B1%BB%E6%96%B0%E9%97%BB&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download news from multiple channels:
+&lt;a class="link" href="https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3A%E5%A4%9A%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E6%96%B0%E9%97%BB" target="_blank" rel="noopener"
+&gt;https://taskernet.com/shares/?user=AS35m8mopd%2Bc1C7UhZNzgAc6Ld0oCTR8LzUJsfqb7SGyZq7NWeHANGDjDvTtBPSkNCjn3CrFQoI%3D&amp;amp;id=Task%3A%E5%A4%9A%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E6%96%B0%E9%97%BB&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="follow-up"&gt;Follow-up
+&lt;/h2&gt;&lt;p&gt;I rebuilt this using Google Apps Scripts to handle features that were tricky in Tasker. It&amp;rsquo;s now cloud-deployed and scheduled to run silently overnight. Plus, I integrated AI summarization for long-form articles.&lt;/p&gt;
+&lt;p&gt;Project Link:
+&lt;a class="link" href="https://github.com/greenzorro/google-apps-scripts/blob/main/news_feed.md" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/google-apps-scripts/blob/main/news_feed.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quantifying Design Value</title><link>https://victor42.eth.limo/post-en/3644/</link><pubDate>Wed, 25 Oct 2023 10:51:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3644/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png" alt="Featured image of post Quantifying Design Value" /&gt;&lt;p&gt;How a CYA document turned into a data analysis project.&lt;/p&gt;
+&lt;h2 id="the-story"&gt;The Story
+&lt;/h2&gt;&lt;p&gt;I recently had a major clash with colleagues in a group chat. Things got heated.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a designer, though you wouldn&amp;rsquo;t know it from my posts. I mostly do UI and interaction design, but I also handle data reports and PPTs. Sometimes, I even code and build websites. Our design department acts as a central hub, fielding requests from other departments. I&amp;rsquo;m juggling four projects, two of which are UI projects only I can handle. My schedule&amp;rsquo;s packed.&lt;/p&gt;
+&lt;p&gt;Why the fight? My UI work was fully booked, but another department insisted I help optimize a data report (a consumer report on jewelry). It wasn&amp;rsquo;t even advanced data viz, just finding and swapping product images in a PPT, showing it to the client, and swapping them again if they weren&amp;rsquo;t happy.&lt;/p&gt;
+&lt;p&gt;I refused. It&amp;rsquo;s intern-level work. I&amp;rsquo;d help if I had the time, but it wasn&amp;rsquo;t jumping the queue. I stood firm. They argued that since I&amp;rsquo;d done it before, I should continue, and the client was pushing. We went at it.&lt;/p&gt;
+&lt;p&gt;They ended up finding another designer. Afterward, my manager asked me to share my scheduling method. It seemed like they&amp;rsquo;d complained, but I was booked solid. A company has limited liability; an employee shouldn&amp;rsquo;t have unlimited responsibility, right?&lt;/p&gt;
+&lt;p&gt;For now, they can&amp;rsquo;t do much. But to cover my bases, in case they went to the boss, I had a backup plan. I used my work schedule data to calculate time spent on each task, assessed each task&amp;rsquo;s value, and created some charts. The monetary values indicate the salary range of a designer capable of that work.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png"
+loading="lazy"
+alt="Excel design work composition dashboard with treemap on left showing value tiers 20K&amp;#43;/8-20K/8K in green/orange/gray, business pie chart and value pie chart on right"
+&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s clear: their department (in brown) has a huge chunk of low-value work – finding and replacing images, adjusting alignment and fonts – and it takes up a ton of my time. The boss cares about cost-effectiveness. Having someone with a 20K+ salary doing intern work? Who knows who&amp;rsquo;d get chewed out.&lt;/p&gt;
+&lt;p&gt;The fight&amp;rsquo;s over, and I won&amp;rsquo;t dwell on it. But the data handling and analysis were interesting, so I&amp;rsquo;m documenting it.&lt;/p&gt;
+&lt;h2 id="data-source"&gt;Data Source
+&lt;/h2&gt;&lt;p&gt;This analysis was possible because I regularly collect data. I organize anything I consider data in a way that&amp;rsquo;s useful later.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/b7cb270372f19fd67879c57bd8a7b009.jpg"
+loading="lazy"
+alt="Mobile calendar view screenshot showing October 2023 design schedule with light green blocks marking project days, bottom showing Design Schedule/Calendar tab"
+&gt;&lt;/p&gt;
+&lt;p&gt;I created a design schedule with a multi-dimensional table tool. I set the default view to a calendar and put it in my DingTalk signature, so anyone requesting work could see my availability.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/65d4321bfa13f03090b90554cad84bd6.png"
+loading="lazy"
+alt="Excel design schedule data table with 6 columns: Project/Designer/Start Date/End Date/Requester/Duration, showing August-September 2023 project records"
+&gt;&lt;/p&gt;
+&lt;p&gt;Although I add work items in the calendar view, it&amp;rsquo;s a data table. For easy recording, I kept the fields simple: project name, designer (it&amp;rsquo;s for the whole team), start and end dates, requester, and duration (in days), which is calculated automatically.&lt;/p&gt;
+&lt;p&gt;When a new project comes in, I update the schedule immediately. To avoid conflicts, I&amp;rsquo;m motivated to maintain this data table.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/5d8953d9788ad3b0997eea965fec52e6.png"
+loading="lazy"
+alt="Excel bottom worksheet tab bar showing Charts/Value Analysis/Time Analysis/Design Schedule Data four tabs from left to right"
+&gt;&lt;/p&gt;
+&lt;p&gt;The raw data was ready, containing 40 workdays (nearly 2 months of data). I exported it to Excel, changed the duration from text to numbers, and started a series of analyses (from right to left) to generate the charts.&lt;/p&gt;
+&lt;h2 id="time-analysis"&gt;Time Analysis
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/ab35313c1c52dc5c5328490034a68dbd.png"
+loading="lazy"
+alt="Excel time analysis table with pivot table on left summing duration by requester totaling 40 days, right side manually mapping requesters to business categories"
+&gt;&lt;/p&gt;
+&lt;p&gt;First, time analysis. This tab has two tables:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The left table pivots the raw data, showing time spent on each requester.&lt;/li&gt;
+&lt;li&gt;The right table maps each requester to major business lines, summarizing the time each line takes up.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/b790a28d8fc8fc1ad15ecb4b726112eg.png"
+loading="lazy"
+alt="Excel PivotTable Fields panel with Designer/Requester/Duration checked, Filters has Designer, Rows has Requester, Values has Sum of Duration"
+&gt;&lt;/p&gt;
+&lt;p&gt;The left pivot table: filter for a specific designer (me), list each requester as a row, and sum the durations.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/ab35313c1c52dc5c5328490034a68dbd.png"
+loading="lazy"
+alt="Excel time analysis table with pivot table on left and manual business category summation using addition formulas on right"
+&gt;&lt;/p&gt;
+&lt;p&gt;The right table lists the major business lines, selects corresponding requesters from the left table, and sums the totals.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/0d9aec6a5807c7ba9153da8f20b261a1.png"
+loading="lazy"
+alt="Excel formula bar showing GETPIVOTDATA function extracting duration data from pivot table for business category calculation"
+&gt;&lt;/p&gt;
+&lt;p&gt;Selecting data from a pivot table is easier. Excel automatically writes the &lt;code&gt;GETPIVOTDATA&lt;/code&gt; function; you just click, avoiding &lt;code&gt;SUMIFS&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="value-analysis"&gt;Value Analysis
+&lt;/h2&gt;&lt;p&gt;Next, I analyzed how well my time was spent.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel value analysis table with 5 tables: Table 1 business duration percentage/Table 2 business value tier percentage/Table 3 pivot/Table 4 multiplication result/Table 5 value summary"
+&gt;&lt;/p&gt;
+&lt;p&gt;The Value Analysis tab has five tables:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Table 1 is the reshaped right table from Time Analysis.&lt;/li&gt;
+&lt;li&gt;Table 2 shows the percentage of each business line&amp;rsquo;s work in different value ranges (manually created).&lt;/li&gt;
+&lt;li&gt;Table 3 pivots Table 2 for easier use in Table 4.&lt;/li&gt;
+&lt;li&gt;Table 4 multiplies Table 1 and Table 3 to calculate the actual percentage of each work type in different value ranges.&lt;/li&gt;
+&lt;li&gt;Table 5 pivots Table 4, summarizing the total percentage of work in different value ranges.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/4b7fd4d8f38266dc59903bddfa4dc4d2.png"
+loading="lazy"
+alt="Excel PivotTable Fields panel with Business and Duration checked, Rows has Business, Values has Sum of Duration"
+&gt;&lt;/p&gt;
+&lt;p&gt;Table 1: each business line is a row, and durations are summed.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/187174f765fd78ba42d098c00b301d92.png"
+loading="lazy"
+alt="Excel Value Field Settings dialog with Show Values As tab selected, % of Column Total highlighted in blue dropdown"
+&gt;&lt;/p&gt;
+&lt;p&gt;The key is the format. In &amp;ldquo;Sum of Duration&amp;rdquo; settings, I changed &amp;ldquo;Show Values As&amp;rdquo; to &amp;ldquo;Percentage of Column Total&amp;rdquo; and the number format to percentage, getting each business line&amp;rsquo;s time percentage.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel value analysis final result showing Table 4 business-value cross multiplication and Table 5 value summary with 20K&amp;#43; 44.5%/8-20K 35%/8K 20.5%"
+&gt;&lt;/p&gt;
+&lt;p&gt;Table 2 is the core, but it&amp;rsquo;s subjective. It&amp;rsquo;s not super rigorous, but good enough for arguments and review. I tried to be fair, assigning value percentages to each business line based on experience. I swear I didn&amp;rsquo;t intentionally undervalue the other department; their vendor-like nature means their low-value work proportion is high. The designer salary ranges for the value tiers are based on my 10+ years of experience.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/d68bb255437ef1e63a9386d499ce48e4.png"
+loading="lazy"
+alt="Excel PivotTable Fields panel with Business/Value/Percentage checked, Rows has Value then Business, Values has Sum of Percentage"
+&gt;&lt;/p&gt;
+&lt;p&gt;Table 3 pivots Table 2. It&amp;rsquo;s divided by value, then by business line. This structure is for Table 4, for easier viewing and data retrieval.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/e0a5d1274532853173f10402d53d9d06.png"
+loading="lazy"
+alt="Excel value analysis complete view with 5 tables showing business duration percentage/value tier percentage/pivot/multiplication/value summary"
+&gt;&lt;/p&gt;
+&lt;p&gt;Table 4: multiply data from Tables 1 and 3.&lt;/p&gt;
+&lt;p&gt;Table 5 pivots Table 4, summarizing by value.&lt;/p&gt;
+&lt;h2 id="charts"&gt;Charts
+&lt;/h2&gt;&lt;p&gt;With the analysis done, it&amp;rsquo;s time for visuals.&lt;/p&gt;
+&lt;p&gt;Level 1: Show percentages of each business line and value range, using data from Tables 1 and 5. Create pie charts, add data labels, and adjust colors.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a9a5b3988a8c913ff30d990b21313263.png"
+loading="lazy"
+alt="Excel design work composition dashboard with treemap showing value tiers in green/orange/gray, business pie chart and value pie chart on right"
+&gt;&lt;/p&gt;
+&lt;p&gt;Level 2: Show the breakdown of business lines within each value range. Treemaps are best for this two-level hierarchical proportion data. Create a Treemap from Table 4, and adjust background and label colors to match the two charts on the right.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-10/a85c0e8de3b950ff50c3771a36666c8e.png"
+loading="lazy"
+alt="Excel Format Data Labels dialog with Label Options showing Category Name and Value checked, Separator set to space"
+&gt;&lt;/p&gt;
+&lt;p&gt;Enable Treemap labels to show names and values, displaying each business line&amp;rsquo;s detailed percentage.&lt;/p&gt;
+&lt;h2 id="afterword"&gt;Afterword
+&lt;/h2&gt;&lt;p&gt;With this value analysis system, I just maintain the schedule. I import the data, update a few pivot tables, and the charts are generated automatically.&lt;/p&gt;
+&lt;p&gt;Even with limited raw data, there&amp;rsquo;s more to analyze: monthly workload saturation, average project cycle for each business line, and value composition fluctuation over a year.&lt;/p&gt;
+&lt;p&gt;The fight&amp;rsquo;s over, and I won&amp;rsquo;t bring this up to the boss, but it&amp;rsquo;s interesting that design work can be analyzed with data.&lt;/p&gt;</description></item><item><title>The "Self" in "Self-Media" is Deceptive</title><link>https://victor42.eth.limo/post-en/3629/</link><pubDate>Thu, 19 Jan 2023 13:45:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3629/</guid><description>&lt;p&gt;Thinking about starting your own online media? Read this first.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m no online celebrity, but I&amp;rsquo;ve been around the internet long enough to offer my perspective on social media and &amp;ldquo;self-media&amp;rdquo; (we-media).&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t a how-to guide for becoming a successful content creator. It&amp;rsquo;s about the reality of online content creation. Before you dive in, you need to grasp the fundamentals.&lt;/p&gt;
+&lt;h2 id="the-essence-of-online-communities"&gt;The Essence of Online Communities
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Know Your Battlefield&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Whether it&amp;rsquo;s TikTok, Douyin, Zhihu, or Bilibili, they all share a common core: they&amp;rsquo;re content distribution platforms, or communities. They connect creators with consumers. Creators get exposure, potential income, and fulfillment; consumers get information, entertainment, or simply a way to pass the time.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a marketplace, driven by supply and demand. If creators aren&amp;rsquo;t producing what consumers want, nobody benefits. Creators lose motivation, and consumers move on.&lt;/p&gt;
+&lt;p&gt;Every community is a content marketplace, connecting creators and consumers for profit. Their aim is to efficiently match supply with demand. Creators reach a large, relevant audience; consumers consistently find content they enjoy. This leads to revenue for creators, and the platform takes a cut – like a mall charging rent. The internet industry is essentially real estate, but stores open for free, and rent comes later.&lt;/p&gt;
+&lt;p&gt;Creators accept this because platforms offer efficient distribution. Without them, profits might be lower, even &lt;em&gt;after&lt;/em&gt; the platform&amp;rsquo;s cut. It&amp;rsquo;s a win-win.&lt;/p&gt;
+&lt;h2 id="all-communities-compete"&gt;All Communities Compete
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t Be Limited by Content Format&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Communities want to retain both creators and consumers. Consumers have limited time; time spent on one platform is time &lt;em&gt;not&lt;/em&gt; spent on another. It&amp;rsquo;s a scarce resource. Creators have limited energy. While they can post on multiple platforms, each has its own rules. Unless you&amp;rsquo;re already famous, you need to focus on a specific community to build a following.&lt;/p&gt;
+&lt;p&gt;Creators and consumers are finite resources, and since all communities connect them, they&amp;rsquo;re all in competition.&lt;/p&gt;
+&lt;p&gt;This means Zhihu and Douyin are rivals. It seems strange – one is for Q&amp;amp;A, the other for short videos. But the format doesn&amp;rsquo;t matter; it&amp;rsquo;s easy to adapt.&lt;/p&gt;
+&lt;p&gt;Common formats include text, images, audio, video, and live streams. Each community has a primary format or two. But for creators, content is king. They adapt to any format, seeking the most efficient match between supply and demand.&lt;/p&gt;
+&lt;p&gt;Text seems cheapest to produce – anyone can write. But creating text on a visual platform like Xiaohongshu? Easy. User-friendly editing software has lowered the barrier. Pick a background, some music, a text template, and you&amp;rsquo;ve got a decent short video, maybe even animated. Many popular Douyin videos are text-based &amp;ldquo;pseudo-videos.&amp;rdquo; Another option: appear on camera and read the text. Converting text to audio is similar.&lt;/p&gt;
+&lt;p&gt;And those are just the basics. AI tools are even more powerful. AI can create images from text, animate still images, generate realistic voiceovers, lip-sync photos, and even write the text itself. Even live streams have tools for beautification and special effects.&lt;/p&gt;
+&lt;p&gt;Creators with a clear vision aren&amp;rsquo;t constrained by format. To grow quickly, they prioritize a platform&amp;rsquo;s efficiency in matching supply and demand.&lt;/p&gt;
+&lt;h2 id="two-types-of-matching-mechanisms"&gt;Two Types of Matching Mechanisms
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Distinguish the Type and Nature of the Battlefield&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Speaking of efficiency, let&amp;rsquo;s talk about Toutiao. It revolutionized supply and demand matching.&lt;/p&gt;
+&lt;p&gt;Before Toutiao, communities relied on search and following. Consumers searched for what they wanted or followed creators in specific fields. This was the search engine era. &amp;ldquo;Recommended&amp;rdquo; features existed, but were secondary. Search and following were central. I call this the &amp;ldquo;manual mechanism.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Toutiao, Bytedance&amp;rsquo;s first major success, prioritized recommendation algorithms. Their engine powers all their products. For consumers, recommendations are more convenient than search – no typing needed. The platform &lt;em&gt;learns&lt;/em&gt; your preferences. Browse casually, and the recommendations become increasingly accurate. You don&amp;rsquo;t even need to follow anyone. I call this the &amp;ldquo;automatic mechanism.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The manual mechanism requires action from consumers – they tell the platform their interests. The automatic mechanism requires nothing extra. Recommendations are inherently more efficient.&lt;/p&gt;
+&lt;p&gt;My own content creation isn&amp;rsquo;t stellar. I have around 5,000 Weibo followers, with posts getting tens of thousands of views but few likes. On Xiaohongshu, I have almost no followers, yet some posts get thousands of views and dozens of likes. Views show distribution; likes show accuracy.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the automatic mechanism at work. Bytedance is the only Chinese internet giant to truly conquer overseas markets with its software, leaving competitors behind.&lt;/p&gt;
+&lt;p&gt;Seeing Toutiao and Douyin&amp;rsquo;s success, other platforms are adopting the automatic mechanism. It&amp;rsquo;s now about the &lt;em&gt;balance&lt;/em&gt; between search and recommendation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Platforms like Douyin and Xiaohongshu are recommendation-heavy. But users also search within them, replacing Baidu.&lt;/li&gt;
+&lt;li&gt;Zhihu&amp;rsquo;s core is Q&amp;amp;A, with significant traffic from Baidu and Google. But the homepage also recommends content based on your preferences.&lt;/li&gt;
+&lt;li&gt;Specialized communities like Xiachufang (recipes) have users searching for specific dishes and browsing for ideas. It could easily be a 50/50 split.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-creators-are-after"&gt;What Creators Are After
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;What Kind of Success Do You Want?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Recommendation engines are efficient, but they can lead to homogeneity. They often tag creators, consumers, and content. Matching tags connect consumers with creators. Creators with similar tags compete based on &amp;ldquo;weight.&amp;rdquo; A niche creator gains higher weight than a generalist, leading to large accounts with narrow focuses. This is a byproduct of specialization, but not the same.&lt;/p&gt;
+&lt;p&gt;Two types of creators thrive: experts with high-quality content and those who mass-produce popular content cheaply. One focuses on quality (gross margin); the other on quantity (turnover). Self-media is a business, and businesses pursue these two goals.&lt;/p&gt;
+&lt;p&gt;The first path is challenging. Experts often assume their audience shares their knowledge, making content inaccessible. They need to explain complex topics simply, a rare skill.&lt;/p&gt;
+&lt;p&gt;The second path is more common, but risky. How can humans compete with machines in output? How can original content beat copied content? Large accounts often have systems for collecting, copying, and rebranding content. They gather quality content, copy it formulaically, make minor changes, and add their branding. Anything that builds their persona and isn&amp;rsquo;t low-quality is used. The creator might not even understand or agree with their own posts. Self-media becomes a job, and the algorithm their boss.&lt;/p&gt;
+&lt;p&gt;Some creators aren&amp;rsquo;t after fame or money; they just want to share. Their profiles feel genuine, unlike the monotonous feel of most accounts.&lt;/p&gt;
+&lt;p&gt;Creators who prioritize authenticity can ignore all this. But authenticity and large followings are often at odds.&lt;/p&gt;
+&lt;h2 id="the-mindset-creators-should-have"&gt;The Mindset Creators Should Have
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Making Your Content Creation Journey Easier&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Most platforms use likes to measure influence. But likes are a result; focus on the cause: comments.&lt;/p&gt;
+&lt;p&gt;Why?&lt;/p&gt;
+&lt;p&gt;Comments are the highest-effort interaction. Likes, saves, and shares are binary: like/dislike, useful/not useful, fits my persona/doesn&amp;rsquo;t. They&amp;rsquo;re distinct. Only comments are open-ended, capable of replacing the others (even sharing, by @-ing friends). If the other interactions aren&amp;rsquo;t enough, users comment.&lt;/p&gt;
+&lt;p&gt;Existing comments can also discourage new ones. Commenters want exposure. If a post has many high-interaction comments, new commenters are less motivated. Likes, saves, and shares don&amp;rsquo;t have this issue.&lt;/p&gt;
+&lt;p&gt;So, except for posts designed to provoke, comments are usually the fewest, representing the highest-value interaction.&lt;/p&gt;
+&lt;p&gt;To boost comments, reply actively, keeping the topic alive and the algorithm engaged. This also encourages potential commenters. But the online world is extreme. Behind screens, people unleash negativity. Unfriendly comments are a cost of growing a large account.&lt;/p&gt;
+&lt;p&gt;How to mitigate this? First, define your account&amp;rsquo;s purpose: career or hobby? Fame and fortune, or personal expression?&lt;/p&gt;
+&lt;p&gt;If it&amp;rsquo;s a career, treat it like a business. Consumers are data, like chickens on a farm: feeding, temperature, egg production. Interactions that boost comments and likes are valuable. A hater sparking an argument is more valuable than a supporter saying, &amp;ldquo;Well written.&amp;rdquo; You might even fuel the fire, then disappear, letting it continue.&lt;/p&gt;
+&lt;p&gt;If it&amp;rsquo;s a hobby, distinguish between human voices and noise. Abusive commenters are one-dimensional binary creatures. One-dimensional: they grasp only one variable. Binary: they see only black and white. They&amp;rsquo;re background noise. When the noise is low, focus on the human voices. When it&amp;rsquo;s loud, put on headphones and ignore everything, even the human voices. This is your space. For information, use your homepage feed, not your comments. And you don&amp;rsquo;t have to be both creator and consumer on every platform. Post here, consume there.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;The world of self-media isn&amp;rsquo;t a free utopia.&lt;/p&gt;
+&lt;p&gt;The idea that experts producing great content automatically succeed is a rare, feel-good story. The reality is, driven by platform interests, the system doesn&amp;rsquo;t encourage authenticity. It encourages creating a persona, targeting popular topics, and churning out content.&lt;/p&gt;
+&lt;p&gt;Mentally, you must be machine-like, abandoning normal etiquette and acting like a customer service line: &amp;ldquo;Press 1 if it&amp;rsquo;s useful, hang up if it&amp;rsquo;s not.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re still undeterred, congratulations. You&amp;rsquo;ll gain more than fame and fortune. Content creation is a learning experience, and that might be its greatest value.&lt;/p&gt;</description></item><item><title>An Icon for "Operations"</title><link>https://victor42.eth.limo/post-en/3554/</link><pubDate>Sun, 04 Jun 2017 13:42:12 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3554/</guid><description>&lt;p&gt;It started with a simple task: design an icon for &amp;ldquo;Operations.&amp;rdquo; We&amp;rsquo;re a recruiting company, and we needed a visual. Representing an abstract concept with a concrete image is tricky – lots of choices, but nothing feels perfect.&lt;/p&gt;
+&lt;p&gt;So, I went back to basics. What&amp;rsquo;s the core message? I&amp;rsquo;ve worked with Ops for ages, but did I really understand their role?&lt;/p&gt;
+&lt;p&gt;As a product designer, I don&amp;rsquo;t interact with Ops much. It always seemed, well, &lt;em&gt;diverse&lt;/em&gt;. That was my vague impression. Some visual designers? They view Ops as unreliable, inconsistent, even contradictory, ignoring branding and pushing things on users. I can recall almost every time a designer I&amp;rsquo;ve worked with has vented; Ops is usually high on the list.&lt;/p&gt;
+&lt;p&gt;Of course, it&amp;rsquo;s simplistic to stereotype. My girlfriend interviewed at a startup. The CEO, in the final round, discussed her hobby, ancient Chinese history, and her pragmatic nature. He was surprised. &amp;ldquo;How can a designer be like you? Aren&amp;rsquo;t they all artsy? Concerts and museums?&amp;rdquo; I was shocked too. How far can such a narrow-minded CEO lead?&lt;/p&gt;
+&lt;p&gt;You can&amp;rsquo;t pigeonhole people or professions. You&amp;rsquo;ll miss valuable learning opportunities. You have to assume that true Ops professionals aren&amp;rsquo;t like that. I researched and talked to my Ops colleagues. It was my first real attempt to understand their work – and yes, it&amp;rsquo;s &lt;em&gt;very&lt;/em&gt; diverse.&lt;/p&gt;
+&lt;p&gt;Operations can be split into three areas: content, user, and campaign. All are equally vital. My take:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Content Operations: Creating and maintaining content.&lt;/li&gt;
+&lt;li&gt;User Operations: Focusing on user behavior, guiding it towards business goals.&lt;/li&gt;
+&lt;li&gt;Campaign Operations: Creating growth opportunities through planning and resource integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Channel, community, and new media operations are categorized by medium. The specific tasks depend on the medium.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Operations&amp;rdquo; comes from &amp;ldquo;Operate,&amp;rdquo; as in COO. &amp;ldquo;Operate&amp;rdquo; usually means to control. I liked an online analogy: If product and design build the ship, operations sails it. It&amp;rsquo;s a fundamental difference in mindset. Shipbuilders use static thinking: How&amp;rsquo;s the structure? Ideal state? Wind resistance? Sailors &lt;em&gt;must&lt;/em&gt; use dynamic thinking: What if currents shift? Suez Canal or Cape of Good Hope? Shipbuilders &lt;em&gt;can&lt;/em&gt; use dynamic thinking, but they can still function without it. Sailors constantly face change. Only the destination is fixed.&lt;/p&gt;
+&lt;p&gt;This is my first team with such specialized Ops roles. Seeing the business through their eyes has been eye-opening. It began with a design review debate.&lt;/p&gt;
+&lt;p&gt;We were redesigning our mobile site – a visual refresh, mainly. Functionality wasn&amp;rsquo;t the focus. Homepage requirements: &amp;ldquo;Emphasize search, de-emphasize the banner.&amp;rdquo; I agreed initially. Job seekers want efficiency, not browsing. Search is key. So, I proposed this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-05/05-30/banner.png"
+loading="lazy"
+alt="UI design comparison showing mobile webpage layout changes: old version has search bar at top with banner below, new version moves banner to top with search bar overlaying it, demonstrating visual hierarchy optimization for better user engagement and content discovery"
+&gt;&lt;/p&gt;
+&lt;p&gt;The search box is larger, with a shadow for emphasis, visually dominating the banner. Mission accomplished. The 2x3 grid of job recommendations below is essentially searches for those keywords. Placing the search box nearby could transform &amp;ldquo;recommended jobs&amp;rdquo; into &amp;ldquo;popular searches,&amp;rdquo; broadening search&amp;rsquo;s scope.&lt;/p&gt;
+&lt;p&gt;The product manager loved it, but Ops objected &lt;em&gt;strongly&lt;/em&gt;. I explained the benefits, but Ops couldn&amp;rsquo;t accept the banner being obscured. The PM surprisingly joined in, arguing fiercely with Ops. Their stances were clear: Product prioritized efficiency and minimal distractions; Operations wanted a vibrant feel and rich content. As designers, where did &lt;em&gt;we&lt;/em&gt; stand?&lt;/p&gt;
+&lt;p&gt;How do we see banners? Annoying, mostly. Often irrelevant, space-consuming, and visually jarring. Many PMs likely agree. They see it as Ops&amp;rsquo; domain, something to ignore. If Ops wants a say, give them a banner and let them handle it. I&amp;rsquo;ve thought that way myself.&lt;/p&gt;
+&lt;p&gt;PMs and product designers are usually rational, logical, efficiency-driven. It&amp;rsquo;s the job. As an engineer and pragmatist, I believe a good product sells itself. Perfect it, and growth follows. That&amp;rsquo;s not wrong, but if you think Ops-driven projects are less intelligent, mere grunt work, you&amp;rsquo;re mistaken.&lt;/p&gt;
+&lt;p&gt;The search box debate ended inconclusively, the design killed by a majority vote. But, something Ops said near the end resonated:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;We use this banner for partnerships, resource swaps. People will say, &amp;lsquo;It&amp;rsquo;s not prominent. It&amp;rsquo;s on the homepage, but blocked.&amp;rsquo; We can&amp;rsquo;t offer that.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;We could&amp;rsquo;ve solved the blocking. The point is, did we, designers and PMs, ever &lt;em&gt;care&lt;/em&gt; about Ops&amp;rsquo; needs? Did we consider their role in the bigger picture?&lt;/p&gt;
+&lt;p&gt;Many companies succeed through refined products. Sketch is an example. But not every industry has that level of technical depth or differentiation. The more grounded the industry, the tougher that path. Ruthless expansion, dominating the market – that&amp;rsquo;s another, winner-takes-all strategy.&lt;/p&gt;
+&lt;p&gt;Our team is in that kind of industry, and our strength is Operations. So, why not play to our strengths? I often face situations against my design principles. I follow Ops&amp;rsquo; lead, using design to achieve their goals, but we find a balance. Alignment is more crucial than individual principles.&lt;/p&gt;
+&lt;p&gt;What &lt;em&gt;is&lt;/em&gt; product design? It&amp;rsquo;s not so lofty. Designers have a mental scale, measuring user experience. A slight shift can turn a well-meaning nudge into manipulative, brand-damaging dark patterns. We warn against that, but it rarely reaches that point. We represent users, defending their interests. But the foundation is helping the company profit. On that, we and Ops are aligned.&lt;/p&gt;
+&lt;p&gt;So, these colleagues deserve design support. Create unique elements for their diverse display needs. Track and improve metrics for their monetization needs. Establish guidelines for their partnership needs. Shift your perspective, and you&amp;rsquo;ll see your work is still valuable.&lt;/p&gt;
+&lt;p&gt;Back to the icon: What represents &amp;ldquo;Operations&amp;rdquo;? I drew a simple bar chart: X and Y axes, two bars, one taller. It&amp;rsquo;s abstract, and Ops&amp;rsquo; work varies greatly, but business growth is the shared goal.&lt;/p&gt;
+&lt;p&gt;If we don&amp;rsquo;t understand the sailors, how can we build a good ship?&lt;/p&gt;</description></item><item><title>My Roommate's Ride Home</title><link>https://victor42.eth.limo/post-en/3503/</link><pubDate>Thu, 19 May 2016 16:42:02 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3503/</guid><description>&lt;p&gt;This true story about interaction design gave me some insights into ride-hailing apps. It all started with my old roommate.&lt;/p&gt;
+&lt;h2 id="the-roommate"&gt;The Roommate
+&lt;/h2&gt;&lt;p&gt;We called my college roommate &amp;ldquo;Boss&amp;rdquo; – he was assertive, thought differently, and often dropped unexpected truth bombs. He&amp;rsquo;s an embedded systems engineer, utterly obsessed with the field. He&amp;rsquo;s also a hardware whiz.&lt;/p&gt;
+&lt;p&gt;Around 4 PM, he used Didi (China&amp;rsquo;s Uber) to visit me for dinner. He lived about 6km away. We hadn&amp;rsquo;t seen each other in a while, so we had a lot to catch up on.&lt;/p&gt;
+&lt;p&gt;We started talking about a classmate&amp;rsquo;s wedding, and the conversation naturally drifted to his area of expertise. He went on about algorithms, development philosophies, different ways to control electric motors, and even battery management systems for electric cars. That&amp;rsquo;s just how he is. He knows I don&amp;rsquo;t get most of it, but he keeps going, regardless. Even though I only grasped the basics, I listened patiently. His passion is infectious; it&amp;rsquo;s not painful to hear him talk about this stuff. He reminds me of my calculus professor, who would pause mid-lecture, reflect, and exclaim, &amp;ldquo;Isn&amp;rsquo;t the proof of this equation beautiful!&amp;rdquo; I hated that class, but I respected that professor.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-19/wKhTg1Z463wEAAAAAAAAAAAAAAA057.jpg"
+loading="lazy"
+alt="Close-up of integrated circuit chips and components on a green printed circuit board"
+&gt;&lt;/p&gt;
+&lt;p&gt;Our major was electronic information. Maybe less than 10% of the class understood the core courses, and we were both in the majority. In our senior year, it was like a switch flipped. He suddenly became super interested in our major, catching up on previous courses and studying beyond the textbooks. He later told me he finally saw how this knowledge applied to real projects – it was actually useful! That&amp;rsquo;s when his passion ignited. With his dedication, I&amp;rsquo;m sure he&amp;rsquo;s a big shot in the industry now.&lt;/p&gt;
+&lt;p&gt;But he&amp;rsquo;s clueless about internet products. He still uses an iPhone 4, with very few apps, all on one screen. No folders, no icon organization, and the dock still has the four default iOS apps. It shows that even someone as studious as him won&amp;rsquo;t waste time on things he doesn&amp;rsquo;t care about.&lt;/p&gt;
+&lt;p&gt;I asked if he took a regular ride or carpooled (I wasn&amp;rsquo;t precise, because I also use Uber, so &amp;ldquo;regular ride&amp;rdquo; meant Didi&amp;rsquo;s Express option). He wasn&amp;rsquo;t sure, saying it was probably a regular ride since there were no other passengers. I asked the cost, and he said 14 yuan.&lt;/p&gt;
+&lt;p&gt;After dinner, around 9 PM, he used Didi to head back. I watched him, and noticed a few interesting things:&lt;/p&gt;
+&lt;h2 id="calling-a-ride"&gt;Calling a Ride
+&lt;/h2&gt;&lt;p&gt;He first tried hailing a taxi, hesitated, then tapped &amp;ldquo;Hitch&amp;rdquo; (carpooling). Realizing I was watching, he asked, &amp;ldquo;Should I choose Hitch?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I suggested Express, thinking it was what he used to get here, and it would be familiar.&lt;/p&gt;
+&lt;p&gt;He selected Express and entered his destination. He hadn&amp;rsquo;t set &amp;ldquo;Home&amp;rdquo; or &amp;ldquo;Work&amp;rdquo; addresses, so he had to type it in. He tapped the pickup location first, but didn&amp;rsquo;t realize it.&lt;/p&gt;
+&lt;p&gt;As he was about to enter his home address, I pointed it out and gestured to the text prompt: &amp;ldquo;Where are you?&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-19/1.png"
+loading="lazy"
+alt="Ride-hailing app screen showing the pickup input field and active keyboard"
+&gt;&lt;/p&gt;
+&lt;p&gt;He backed out, tapped the destination, but then realized he didn&amp;rsquo;t remember the exact address. So he backed out again, tapped the top-left menu, and went to &amp;ldquo;Trips.&amp;rdquo; He tried to copy the pickup address from his earlier ride, but couldn&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-19/2.png"
+loading="lazy"
+alt="Ride-hailing app My Trips page listing completed order histories"
+&gt;&lt;/p&gt;
+&lt;p&gt;He went back to the ride-hailing screen and typed in his home address. The list showed several results: shops, bus stops. He just waited. I didn&amp;rsquo;t say anything, observing.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-19/3.png"
+loading="lazy"
+alt="Ride-hailing app destination search results showing nearby bus stations and shops"
+&gt;&lt;/p&gt;
+&lt;p&gt;But his eyes had left the phone, and his hand lowered. He thought he&amp;rsquo;d successfully called a ride.&lt;/p&gt;
+&lt;p&gt;I had to tell him again to choose an address to confirm his destination.&lt;/p&gt;
+&lt;p&gt;He picked a bus stop, tapped &amp;ldquo;Call,&amp;rdquo; and finally got a car.&lt;/p&gt;
+&lt;p&gt;However, his Express ride back, without carpooling, only cost 5 yuan. So I guessed he probably didn&amp;rsquo;t take Express on his way here.&lt;/p&gt;
+&lt;h2 id="the-problem"&gt;The Problem
+&lt;/h2&gt;&lt;p&gt;After he left, I wrote down the process. Thinking about his actions and mindset, I had some insights.&lt;/p&gt;
+&lt;p&gt;His ultimate goal was to go home. Unsure how the app would react, he assumed it would understand his intentions like a real person. &lt;em&gt;Since you picked me up from home earlier, you should know where my home is, and I want to go back there.&lt;/em&gt; His struggle to copy the earlier pickup address clearly showed his goal: a return trip – going back where he came from.&lt;/p&gt;
+&lt;p&gt;But reality wasn&amp;rsquo;t perfect. Even a real person can&amp;rsquo;t always understand another&amp;rsquo;s thoughts.&lt;/p&gt;
+&lt;p&gt;The gap between the result and his expectation created a problem. The root cause wasn&amp;rsquo;t that he didn&amp;rsquo;t remember his address; it was that he thought Didi &lt;em&gt;should&lt;/em&gt; know his home, but it didn&amp;rsquo;t. The &amp;ldquo;Home&amp;rdquo; and &amp;ldquo;Work&amp;rdquo; addresses are designed to solve this. However, few people proactively set these, even some IT professionals.&lt;/p&gt;
+&lt;p&gt;This got me thinking. Aren&amp;rsquo;t these two separate issues?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Didi can&amp;rsquo;t intelligently know or guess my home.&lt;/li&gt;
+&lt;li&gt;Didi doesn&amp;rsquo;t offer a convenient return trip option.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In my roommate&amp;rsquo;s case, &amp;ldquo;going home&amp;rdquo; and &amp;ldquo;return trip&amp;rdquo; overlapped. But they&amp;rsquo;re not always the same, so let&amp;rsquo;s consider them separately:&lt;/p&gt;
+&lt;h3 id="going-home"&gt;Going Home
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-19/Cg-4rFSvUm-IWh5qAAKsbb2-_AEAAA28gAjeGwAAqyF506.jpg"
+loading="lazy"
+alt="Taipei 101 and city skyline at dusk with warm twilight glow"
+&gt;&lt;/p&gt;
+&lt;p&gt;From a mental model perspective, going home is switching between &amp;ldquo;at home&amp;rdquo; and &amp;ldquo;outside.&amp;rdquo; Calling a ride to leave exits the &amp;ldquo;at home&amp;rdquo; state. Until you step back inside, you&amp;rsquo;re &amp;ldquo;outside.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;For example, if someone gets a call about a package while they&amp;rsquo;re out, they&amp;rsquo;d say, &amp;ldquo;I&amp;rsquo;m not home,&amp;rdquo; or &amp;ldquo;I&amp;rsquo;m out, please leave it with management.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Outside&amp;rdquo; is uncertain, but &amp;ldquo;home&amp;rdquo; is relatively fixed. By analyzing historical trips, visit frequency, and arrival times, it should be possible to guess. For users without set addresses, if the app detects frequent trips to the same area, it could prompt: &amp;ldquo;We noticed you often go to [location]. Is that your home? Or work?&amp;rdquo; Recommendations and guidance could encourage users to set addresses, making future trips easier.&lt;/p&gt;
+&lt;h3 id="return-trip"&gt;Return Trip
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-19/donne-che-chiamano-un-taxi1.jpg"
+loading="lazy"
+alt="Two women with shopping bags waving to hail a taxi on a city street"
+&gt;&lt;/p&gt;
+&lt;p&gt;Is a return trip common? I don&amp;rsquo;t have the data. But this scenario is typical: going from home (or work) to a place for leisure or errands, and returning the same way on the same day.&lt;/p&gt;
+&lt;p&gt;If it&amp;rsquo;s between two frequent places, &amp;ldquo;return trip&amp;rdquo; doesn&amp;rsquo;t quite fit. We&amp;rsquo;d think &amp;ldquo;going home&amp;rdquo; or &amp;ldquo;going to work,&amp;rdquo; part of our routine. A return trip implies a temporary, less frequent location, subconsciously feeling like a short &amp;ldquo;business trip&amp;rdquo; or &amp;ldquo;outing.&amp;rdquo; Like people going home for the holidays; when it ends, we need a &amp;ldquo;return&amp;rdquo; ticket to the city we live in. The destination doesn&amp;rsquo;t matter; the key is that having come here, we can get back. The &amp;ldquo;return trip&amp;rdquo; concept becomes clear.&lt;/p&gt;
+&lt;p&gt;But a meaningful &amp;ldquo;return trip&amp;rdquo; concept doesn&amp;rsquo;t mean a &amp;ldquo;return trip&amp;rdquo; &lt;em&gt;feature&lt;/em&gt; is meaningful. The most obvious approach is a &amp;ldquo;Return Trip&amp;rdquo; button on the main screen, allowing a one-tap ride to the last trip&amp;rsquo;s starting point. But there are problems. What if the user hailed a taxi on the street? Or got a ride from a friend? The user wants to go back; they don&amp;rsquo;t care how they got there. The app can&amp;rsquo;t know this, so a return trip option would just add confusion.&lt;/p&gt;
+&lt;p&gt;The key issues are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How can Didi track user travel history using other methods?&lt;/li&gt;
+&lt;li&gt;How can Didi know if a destination is temporary?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A mobile app alone can&amp;rsquo;t solve these. Therefore, the &amp;ldquo;return trip&amp;rdquo; concept might be meaningful, but it&amp;rsquo;s not something a single mode of transportation can provide.&lt;/p&gt;</description></item><item><title>A Newbie's Perspective</title><link>https://victor42.eth.limo/post-en/3461/</link><pubDate>Sun, 13 Sep 2015 15:50:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3461/</guid><description>&lt;p&gt;Work had slowed down, and with some personal stuff happening, I&amp;rsquo;d fallen out of touch with tech and design. After a few days, I felt &lt;em&gt;off&lt;/em&gt;, like I was losing my creative spark.&lt;/p&gt;
+&lt;p&gt;Normally, I&amp;rsquo;d dive back into work or explore new designs. But this time, I went further. I suspected something valuable was hidden in that &amp;ldquo;ignorance is bliss&amp;rdquo; mindset.&lt;/p&gt;
+&lt;p&gt;So, for two months, I avoided design blogs, tech news, and industry trends. I cut myself off as much as I could. I stuck to basic work, kept up my weekly translations, and that was it. My free time was all about personal life: hanging out with friends, dining out, sleeping in, gaming, reading, and watching movies. It was a great life, honestly, but it felt off.&lt;/p&gt;
+&lt;p&gt;Initially, I was anxious, feeling myself getting rusty. Design ideas became scarce. Then, I adapted, even got comfortable – a no-brainer, right? Finally, I was &lt;em&gt;immersed&lt;/em&gt;. A different life, a different mindset, with its own way of operating and perceiving. And new ideas started emerging, the most valuable part of this whole experiment – I&amp;rsquo;d successfully become a tech newbie, seeing the world from their perspective: what mattered to them, and what didn&amp;rsquo;t.&lt;/p&gt;
+&lt;h2 id="newbies-arent-dumb-they-just-dont-care"&gt;Newbies Aren&amp;rsquo;t Dumb, They Just Don&amp;rsquo;t Care
+&lt;/h2&gt;&lt;p&gt;We tech and design people tend to look down on newbies. Like, &amp;ldquo;You don&amp;rsquo;t know you can change your profile pic by tapping? You turned off notifications and now you&amp;rsquo;re complaining? You left your files at home? Heard of the cloud?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Now, I&amp;rsquo;m one of them, and I understand the &amp;ldquo;tech ignorance.&amp;rdquo; My tech instincts haven&amp;rsquo;t disappeared; I can still figure things out faster than most. But now, I&amp;rsquo;m impatient. I have novels to read and games to play.&lt;/p&gt;
+&lt;p&gt;My 16GB iPhone 5 was constantly complaining about low storage. I used to check storage, meticulously clear caches, and delete downloaded data. I still can&amp;rsquo;t remember which apps let you clear the cache and which don&amp;rsquo;t. As a newbie, I found the easiest, most drastic solution: delete WeChat and QQ, then reinstall. Boom, hundreds of MBs freed up.&lt;/p&gt;
+&lt;p&gt;It sounds extreme, but it&amp;rsquo;s logical. Deleting, reinstalling, and logging back in takes five minutes, max. I know exactly how to do it. Clearing caches &lt;em&gt;might&lt;/em&gt; take two minutes, but that &amp;ldquo;might&amp;rdquo; is key. What if it takes 15 minutes and doesn&amp;rsquo;t even work?&lt;/p&gt;
+&lt;p&gt;If I don&amp;rsquo;t view my phone as &amp;ldquo;fun,&amp;rdquo; I won&amp;rsquo;t waste an extra minute on it. It&amp;rsquo;s not central to my life.&lt;/p&gt;
+&lt;h2 id="notifications-updates-who-cares"&gt;Notifications, Updates&amp;hellip; Who Cares?
+&lt;/h2&gt;&lt;p&gt;My friends, Dee and Shuai, both in IT, have completely different phone setups. Dee&amp;rsquo;s is a classic product manager: tons of folders, neatly organized by function. Shuai&amp;rsquo;s is the opposite: few folders, many screens, endless scrolling, and red notification badges everywhere. On his home screen, the App Store badge showed over 70 updates.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s the classic &amp;ldquo;red dot OCD&amp;rdquo; debate. I used to update everything, open every notification (though not necessarily read them). It was like doing daily quests in a game – I had to clear those exclamation marks before logging off. Dee used to tease Shuai, &amp;ldquo;You&amp;rsquo;re a front-end engineer, and your phone looks like this?&amp;rdquo; I didn&amp;rsquo;t chime in, but I did think it reflected someone&amp;rsquo;s self-discipline.&lt;/p&gt;
+&lt;p&gt;Turns out&amp;hellip; it&amp;rsquo;s not that at all. At some point, I became indifferent to the red dots, probably because of WeChat Official Accounts. An app can only push so many notifications; you can clear them quickly. But subscribed accounts? You follow first, worry about reading later. When notifications flood in, you become numb, and the red dots lose their significance. WeChat&amp;rsquo;s like, &amp;ldquo;Blame me?&amp;rdquo; You&amp;rsquo;re like, &amp;ldquo;Blame me?&amp;rdquo; Nobody&amp;rsquo;s fault.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s like a zombie apocalypse. I enter a supermarket with a gun. If there are two zombies, I&amp;rsquo;ll eliminate them and lock the door. If there&amp;rsquo;s a horde, even with enough canned food for 20 years, I&amp;rsquo;m out of there.&lt;/p&gt;
+&lt;p&gt;Lately, apps have gotten creative with their App Store update notes. Opera Coast used to write clever one-liners; Medium wrote poems. I&amp;rsquo;d chuckle, briefly amused. Then&amp;hellip; I wouldn&amp;rsquo;t open the app. I&amp;rsquo;d just return to the home screen, every time.&lt;/p&gt;
+&lt;h2 id="what-the-heck-is-a-field"&gt;What the Heck is a &amp;ldquo;Field&amp;rdquo;?
+&lt;/h2&gt;&lt;p&gt;I haven&amp;rsquo;t touched front-end tech in about a year and a half. I don&amp;rsquo;t need to anymore. I have to strain to recall some tech concepts. Now, actively avoiding tech, I was slightly worried this might be a turning point in my design career.&lt;/p&gt;
+&lt;p&gt;One day, I was signing up on a website, and it said &amp;ldquo;This field is required&amp;rdquo; next to an input box. I knew what &amp;ldquo;field&amp;rdquo; meant, but it felt alien. What the heck is a &amp;ldquo;field&amp;rdquo;? I stared at the words, wondering if the developer had mistyped something.&lt;/p&gt;
+&lt;p&gt;And &amp;ldquo;cache,&amp;rdquo; mentioned earlier, I&amp;rsquo;m going to ask my mom this year, &amp;ldquo;What do you think &amp;lsquo;Clear local cache&amp;rsquo; means?&amp;rdquo; If she says it clears her location info, I&amp;rsquo;ll take it, because I&amp;rsquo;ve thought that too.&lt;/p&gt;
+&lt;p&gt;At work, there&amp;rsquo;s a constant debate about a design detail: after a complex process, should there be a &amp;ldquo;back&amp;rdquo; button? Where should it be placed? As a newbie, my actions showed me it&amp;rsquo;s irrelevant. I follow the product&amp;rsquo;s flow, going in and out step by step, naturally. Let me paint the picture: task complete – press home – (if it&amp;rsquo;s a battery hog like maps, double-tap home to close it) – lock screen – back in pocket. I found that excessive, so after some lazy attempts, I figured it out: task complete – lock screen – back in pocket. The key is &amp;ldquo;back in pocket&amp;rdquo;! That&amp;rsquo;s my end of the process, not exiting your feature.&lt;/p&gt;
+&lt;p&gt;Back to being a newbie, holding this perplexing glass screen, I just want to share a song from NetEase Cloud Music to Sina Weibo. It says my Weibo authorization expired, so I need to log in again. I patiently enter my username and password. This happens frequently, in other apps too. But for the first time, I instinctively blamed NetEase, not Weibo. Then I realized, NetEase was the scapegoat.&lt;/p&gt;
+&lt;p&gt;If I were a &lt;em&gt;true&lt;/em&gt; newbie, I might never realize that, and NetEase would be forever blamed. Tech details, product logic, I don&amp;rsquo;t know, and I don&amp;rsquo;t care. The situation tells me someone&amp;rsquo;s at fault. Maybe I slip on a wet floor in a restaurant, and a server apologizes for the cleaning crew, and that&amp;rsquo;s that.&lt;/p&gt;
+&lt;h2 id="are-you-reminding-me-or-am-i-reminding-you"&gt;Are You Reminding Me, or Am I Reminding You?
+&lt;/h2&gt;&lt;p&gt;You rarely see people using Siri, right? I understand. Talking to a device in public, hoping for the correct response, feels awkward. It&amp;rsquo;s noisy, and it might pick up random sounds. Plus, it&amp;rsquo;s a privacy concern; people know your business.&lt;/p&gt;
+&lt;p&gt;But, it &lt;em&gt;works&lt;/em&gt;. I&amp;rsquo;m walking home, listening to music, and remember I need tissues. I&amp;rsquo;ll forget by dinner. So, I long-press the earphone button to activate Siri: &amp;ldquo;Remind me to buy tissues at 9 PM.&amp;rdquo; No need to even pull out my phone.&lt;/p&gt;
+&lt;p&gt;I used to be a productivity app fanatic: email, calendar, notes – all front and center on my home screen&amp;hellip; though I rarely used them. I tried every to-do app, so many well-designed ones, each with unique features. I settled on Any.do, loving its simplicity. Pull down to add a task, swipe right to complete. I categorized tasks by context: &amp;ldquo;buy laundry detergent&amp;rdquo; under &amp;ldquo;life,&amp;rdquo; &amp;ldquo;update annotations&amp;rdquo; under &amp;ldquo;work,&amp;rdquo; &amp;ldquo;research Pixate&amp;rdquo; under &amp;ldquo;learning.&amp;rdquo; Tasks with deadlines went into their calendar app, Cal. I was meticulously managing myself, precisely as Any.do intended.&lt;/p&gt;
+&lt;p&gt;Then I lazily used Siri once, and I couldn&amp;rsquo;t go back. I&amp;rsquo;m a newbie, not a pro. Bamboo reminds me to buy fruit; HR reminds me to make a name card for the new hire. What&amp;rsquo;s the difference? At some point, I remember something I need to do, and that&amp;rsquo;s all. Why report back to the to-do app afterward? Is it reminding me, or am I reminding it?&lt;/p&gt;
+&lt;p&gt;Once the reminder pops up, I don&amp;rsquo;t need it anymore. If you could do it for me, great, tell me the result. But you can&amp;rsquo;t, so you remind me, and I do it myself. No app can cook me scrambled eggs with tomatoes. Finishing the task on time is the best self-management. Who cares if the to-do app is a mess?&lt;/p&gt;
+&lt;p&gt;A good servant comes and goes as needed.&lt;/p&gt;
+&lt;h2 id="were-penny-pinchers-especially-with-time-and-money"&gt;We&amp;rsquo;re Penny-Pinchers, Especially with Time and Money
+&lt;/h2&gt;&lt;p&gt;I moved to a place with a KFC, my go-to when I can&amp;rsquo;t decide on dinner. KFC is great; they have mobile payments, so I only need cash for my bus fare.&lt;/p&gt;
+&lt;p&gt;Alipay has had an 8.8% discount forever, and Bamboo and I always get it before ordering. Her phone is still on 2G, so it stalled halfway. We found a table, struggled with it for 10 minutes, finally got the discount, and ordered.&lt;/p&gt;
+&lt;p&gt;Sometimes I go alone, same no-network problem, probably the carrier&amp;rsquo;s fault. I&amp;rsquo;m too impatient to deal with it, and I don&amp;rsquo;t want to hold up the line. Five bucks isn&amp;rsquo;t worth two minutes of a hungry queue&amp;rsquo;s time. If mobile payment fails, I just use cash. Pull it out, hand it over, get the change, pocket it, done. And I don&amp;rsquo;t have to stare at a tiny screen, trying to tap even tinier buttons.&lt;/p&gt;
+&lt;p&gt;Same situation, two completely different reactions. Bamboo wants the discount, even if it takes 10 minutes. I&amp;rsquo;m starving after walking across Hangzhou; I don&amp;rsquo;t want to wait a second. Neither has anything to do with mobile payments.&lt;/p&gt;
+&lt;p&gt;Looking at my WeChat history with Bamboo, it&amp;rsquo;s nothing significant. We see each other all day; urgent matters are a phone call, non-urgent things can wait till we&amp;rsquo;re home. Even so, we&amp;rsquo;re constantly sending each other food delivery coupons. The shifts in our chat history are revealing.&lt;/p&gt;
+&lt;p&gt;For a while, we&amp;rsquo;d send each other Ele.me coupons around lunchtime. One day, she started sending Meituan coupons; I kept sending Ele.me. After a few days, I switched to Meituan too. Then, I started sending Ele.me again, and she followed. Recently, we both switched back to Meituan, almost at the same time. What happened?&lt;/p&gt;
+&lt;p&gt;I randomly remembered this and asked Bamboo why we kept switching. She accused me of copying her; I said she copied &lt;em&gt;me&lt;/em&gt; later. We hashed it out and reached the obvious conclusion: Ele.me had a &amp;ldquo;15 RMB off 8 RMB&amp;rdquo; deal, so we started ordering takeout frequently. The discount dropped to &amp;ldquo;15 RMB off 6 RMB,&amp;rdquo; and Bamboo discovered Meituan&amp;rsquo;s &amp;ldquo;15 RMB off 7 RMB.&amp;rdquo; I was slower, but one day I felt like it and installed it, and rarely opened Ele.me after that. But I didn&amp;rsquo;t delete it, until I saw it had a &amp;ldquo;20 RMB off 12 RMB&amp;rdquo; deal, and I started using it again, keeping Meituan too. Obviously, Bamboo noticed as well. It didn&amp;rsquo;t last long, of course, it was 12 RMB off! We watched it drop to &amp;ldquo;15 RMB off 8 RMB,&amp;rdquo; then &amp;ldquo;10 RMB off 6 RMB.&amp;rdquo; And we happily started sending each other Meituan coupons again.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re going to have a price war, nobody cares about usability.&lt;/p&gt;
+&lt;h2 id="final-thoughts"&gt;Final Thoughts
+&lt;/h2&gt;&lt;p&gt;Now, turn on your phone, glance at your home screen icons. Think, are they trying their hardest to get your attention? Look here, look here, look here! But I&amp;rsquo;m a newbie; I just want to check the bus route to the subway. Everyone&amp;rsquo;s enthusiasm stresses me out. I dive into the maps app, find my route, shut off my phone without looking back, and go on my way.&lt;/p&gt;
+&lt;p&gt;My two months as a newbie felt schizophrenic. In a good mood, I&amp;rsquo;d tap anything, download random games and apps, and forget how I found them the next day. In a bad mood, everything was noise. I&amp;rsquo;d pull down the notification center, it was a nightmare, and I&amp;rsquo;d silently push it back up, pretending I hadn&amp;rsquo;t seen anything.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s hard to grasp; people are so unstable. Newbies are fickle; they change their minds; opening an app is basically mood-based. During this time, I felt like my thinking was stream-of-consciousness, my actions were &amp;ldquo;goto&amp;rdquo; statements, unpredictable.&lt;/p&gt;
+&lt;p&gt;I thought the newbie state was temporary, but it&amp;rsquo;s a great feeling, and part of it has permanently influenced me. There&amp;rsquo;s more to say, but I don&amp;rsquo;t want to write anymore. While writing this, the designer in me is resurfacing, the newbie feeling is fading, and there are some mindsets and perspectives I don&amp;rsquo;t want to give up.&lt;/p&gt;
+&lt;p&gt;The conclusion might be a bit pessimistic, or maybe there&amp;rsquo;s no constructive conclusion at all. But during this time, I experienced what was real, and maybe this is what tech life should be.&lt;/p&gt;</description></item><item><title>The Eternal Life of Machines</title><link>https://victor42.eth.limo/post-en/3456/</link><pubDate>Sun, 23 Aug 2015 22:39:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3456/</guid><description>&lt;p&gt;Summer in Hangzhou was brief this year, quickly giving way to cool, rainy weather. Walking beneath the streetlights, the city&amp;rsquo;s nightscape reflected in the puddles. My gaze landed on the plain, beige, checkered folding umbrella in my hand. Umbrellas were invented during the Spring and Autumn period by Yun, Lu Ban&amp;rsquo;s wife. Their purpose was simple: protect from sun and rain, much like the old oil-paper umbrellas. They&amp;rsquo;ve been around for over 3,000 years, largely unchanged. Why?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-23/2.png"
+loading="lazy"
+alt="Etymology and character evolution of the Chinese character for umbrella"
+&gt;&lt;/p&gt;
+&lt;p&gt;Consider the evolution of the Chinese character for &amp;ldquo;umbrella&amp;rdquo; (伞). It&amp;rsquo;s quite telling – it&amp;rsquo;s looked like this since ancient times. Compare the character to umbrellas, past and present. Have the ribs really changed that much?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-23/1.jpeg"
+loading="lazy"
+alt="Five Senz aerodynamic storm umbrellas in different colors arranged in a row"
+&gt;&lt;/p&gt;
+&lt;p&gt;Today, we have straight and folding umbrellas. Folding ones even come in three-fold and four-fold versions. There are unconventional designs, like the Senz umbrella. But open them up, strip away the fabric, and they&amp;rsquo;re fundamentally the same. You probably see my point. It&amp;rsquo;s not about how umbrellas &lt;em&gt;could&lt;/em&gt; be improved, but why they haven&amp;rsquo;t been replaced.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-08/08-23/3.jpg"
+loading="lazy"
+alt="Concept design image of the Air Umbrella generating an invisible protective airflow shield"
+&gt;&lt;/p&gt;
+&lt;p&gt;There are alternatives. Raincoats are a classic, but less convenient, used mostly when we need both hands free. The Air Umbrella uses air jets to create a shield, pushing raindrops away. I haven&amp;rsquo;t tested it, so I can&amp;rsquo;t speak to its energy use or noise. But one thing&amp;rsquo;s certain: any energy-using umbrella will always cost more than a purely mechanical one. This will hold true, no matter how technology advances, until umbrellas disappear entirely.&lt;/p&gt;
+&lt;p&gt;Other alternatives surround us: cars, buildings, underground walkways. If anything truly obsoletes mechanical umbrellas, it won&amp;rsquo;t be a new umbrella, but a combination of factors. Perhaps garages will become ubiquitous, cities will develop extensive underground tunnels, or covered walkways will proliferate. Maybe, like Asimov&amp;rsquo;s Trantor, the entire planet will be domed. I certainly hope not.&lt;/p&gt;
+&lt;p&gt;But I&amp;rsquo;m getting sidetracked. Let&amp;rsquo;s not dwell on how umbrellas might vanish. Instead, why have they persisted in this form for 3,000 years? Is this their optimal form?&lt;/p&gt;
+&lt;p&gt;I believe so. By &amp;ldquo;optimal,&amp;rdquo; I mean the most enduring, lowest-consumption way for umbrellas to coexist with us. There are things we only think about when needed. Otherwise, we don&amp;rsquo;t care. Umbrellas, air conditioners, streetlights, map apps, spare tires&amp;hellip; What do we want from them? Durability and low consumption. If I wear a watch just to tell time, why buy an Apple Watch and charge it daily?&lt;/p&gt;
+&lt;p&gt;Mechanical umbrellas excel in both. First, low consumption: money, space, time, effort. Folding umbrellas are already optimal: light, compact, and zero-energy, apart from the calories burned opening and closing them. Imagine a scenario where, by some mysterious force, we lost all electricity – no computers, lights, batteries. What would still be valuable? My bicycle. Purely mechanical, human-powered things are inherently zero-consumption.&lt;/p&gt;
+&lt;p&gt;Then, durability. Many mistakenly believe advanced things are less prone to breaking due to &amp;ldquo;better quality.&amp;rdquo; Not true. Adding advanced tech grants powerful functions, but also increases complexity. Complexity shortens lifespan. It&amp;rsquo;s a law of physics – without external energy, maintaining a stable, ordered state long-term is impossible, regardless of quality. The most enduring way to preserve text and images? Not hard drives. Ancient paper, ink, and bamboo slips can last millennia; electronic media can&amp;rsquo;t. Even paper and ink decay. Stonehenge comes to mind.&lt;/p&gt;
+&lt;p&gt;Of course, we don&amp;rsquo;t need heirloom umbrellas. But I also don&amp;rsquo;t want it demanding attention or wasting energy. This is where mechanical devices shine. We&amp;rsquo;ve seen the smart home appliance craze. Smart chips are crammed into everything, providing computing power, network connectivity, and data transmission.&lt;/p&gt;
+&lt;p&gt;I once thought appliance control would centralize into a single remote, an app, or voice activation. But that doesn&amp;rsquo;t hold up. A mechanical light switch can last decades. To add another way to turn on a light, we add a wireless module, constant power, maintain Wi-Fi, incorporate voice recognition, handle the coordination between electronic and mechanical controls, occasionally replace components, and bear the costs&amp;hellip; I&amp;rsquo;d rather just install extra mechanical switches.&lt;/p&gt;
+&lt;p&gt;A rational look at technology and progress shows that nothing goes to extremes; things settle into their most suitable form. For items with simple functions and structures, mechanical control is their destiny.&lt;/p&gt;
+&lt;p&gt;This is the eternal life of machines.&lt;/p&gt;</description></item><item><title>The Role of a Designer in a Startup</title><link>https://victor42.eth.limo/post-en/3395/</link><pubDate>Sun, 12 Oct 2014 10:19:24 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3395/</guid><description>&lt;p&gt;It&amp;rsquo;s been over a year since I started a business with my buddies, and it&amp;rsquo;s been a blast. I want to share this experience and discuss my role as a designer in a startup.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s no one-size-fits-all answer; a designer&amp;rsquo;s role depends on more than just design. If you&amp;rsquo;re confident and have strong ideas, you might lead product direction. Or, if you&amp;rsquo;re a stickler for pixel-perfect details, you can find your niche. It&amp;rsquo;s about proactively finding your place in a changing environment.&lt;/p&gt;
+&lt;h2 id="getting-started"&gt;Getting Started
+&lt;/h2&gt;&lt;p&gt;Our main product is a parking app, so most of my work revolved around its design. Initially, we were mostly part-time, cobbling together the prototype on weekends. No wireframes, no detailed specs – just core functionality. My job was to quickly create basic UI mockups for discussion and development. We had teammates focused on product positioning, and we were all aligned.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Quickly&amp;rdquo; actually took a while; it was my first mobile project. I&amp;rsquo;d only done web design, with some mobile dabbling on my personal site. The first version had fewer than 10 screens, but it was still daunting. Dealing with Android&amp;rsquo;s resolutions and the iOS 6 to iOS 7 style shift was a steep learning curve. It was a new world, and I had to shed my web experience and start fresh.&lt;/p&gt;
+&lt;p&gt;In the early stages, when everything is stretched thin, you naturally do what you do best: focus on visuals and interaction, and help turn the startup idea into a reality.&lt;/p&gt;
+&lt;h2 id="integration"&gt;Integration
+&lt;/h2&gt;&lt;p&gt;Once the core product launched, the main roles were set. We realized the manpower shortage was even bigger than expected. There was a ton of tedious but crucial work: promotional materials, third-party API applications, app store listings, etc. And things not directly product-related: company registration, office space, interviews. It was tough to assign these tasks. If I could do it better than others, I did it.&lt;/p&gt;
+&lt;p&gt;Developers always had more work, and business development was limited by external factors. Designers often have more free time at this stage. I couldn&amp;rsquo;t just relax. I became a multi-tasker, filling the team&amp;rsquo;s gaps. The startup was a steel frame; I was the cement.&lt;/p&gt;
+&lt;p&gt;When developers struggled with UI implementation, I learned their principles, weighed priorities, and made adjustments with them. I made detailed UI annotations. I found a tool to link UI mockups with click-throughs, clarifying the business logic. Marketing was just starting, and having a professional designer boosted results. Banners, Weibo templates, company and product websites – I&amp;rsquo;d quickly create them. I also thoroughly tested each version, providing detailed bug reports. If I wasn&amp;rsquo;t the best person to solve a problem, I&amp;rsquo;d note it for the team to prioritize. Speed was key. Early on, getting these supporting tasks done matters more than perfection.&lt;/p&gt;
+&lt;p&gt;This stage is messy and fast-paced. The goal is to adapt, integrate, and connect scattered tasks.&lt;/p&gt;
+&lt;h2 id="review-and-consolidation"&gt;Review and Consolidation
+&lt;/h2&gt;&lt;p&gt;As the team progressed, the product entered a stable iteration cycle. Marketing and business development improved. Design workload stabilized, and it was always less than other roles. Everyone&amp;rsquo;s work was specialized; I couldn&amp;rsquo;t help much.&lt;/p&gt;
+&lt;p&gt;I saw this as a chance to pause, review, connect the dots, and think strategically. The significance of the previous stage&amp;rsquo;s tasks became clear: our design lacked a soul. We lacked standards. The product, materials, and modules were disconnected. The external image was inconsistent, mostly improvised. It looked okay, but it was white noise, not a melody.&lt;/p&gt;
+&lt;p&gt;So I dove into iOS and Android guidelines, comparing design styles and studying leading products. I felt like starting over, but changes must be gradual.&lt;/p&gt;
+&lt;p&gt;I created the company&amp;rsquo;s VI system and applied it to all external materials. I extracted a color scheme and visual style, refined them, and wrote guidelines. App components were unified, with platform-specific differences. Standing on the shoulders of giants is wise.&lt;/p&gt;
+&lt;p&gt;Everything can have standards: visuals, interaction, animation, sound, data display, units&amp;hellip; I wrote them down and kept adding. It&amp;rsquo;s a long-term project.&lt;/p&gt;
+&lt;p&gt;Beyond tangible standards, we needed to establish abstract ones. What impression do we want to create? What emotions should we evoke? I&amp;rsquo;m still pondering this. While this can be established early, it&amp;rsquo;s unstable. Business and product changes affect it. It takes time, iterations, and refinement for it to emerge. That&amp;rsquo;s the design&amp;rsquo;s soul; you can&amp;rsquo;t force it.&lt;/p&gt;
+&lt;h2 id="refinement-and-exploration"&gt;Refinement and Exploration
+&lt;/h2&gt;&lt;p&gt;With standards and guidelines, design became simpler, and results improved. Standards drive consistency, and consistency refines standards. This should be done early. When the team grows, its impact is even greater.&lt;/p&gt;
+&lt;p&gt;I had more time, perfect for fixing legacy issues! Newbie mistakes and edge cases needed addressing. One basic mistake: tiny click areas in our early Android version, violating the 48dp standard. These problems were in core functions, so fixing them was urgent. I also revamped the product website with new technologies.&lt;/p&gt;
+&lt;p&gt;By now, the team had good chemistry. My teammates&amp;rsquo; abilities drove the product. I couldn&amp;rsquo;t fall behind. I needed to improve through learning and apply it immediately. I learned more that year than in the previous three combined: mobile development, responsive design, HTML5 animation, AE motion graphics, browser APIs, even drawing. Most importantly, my design skills improved.&lt;/p&gt;
+&lt;p&gt;Keep exploring, venturing beyond design, injecting fresh ideas. Think of yourself as a one-person Google X – a job to get designers&amp;rsquo; hearts racing.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;Starting a business is exciting, but tough. If you&amp;rsquo;re prepared to start or join a startup, you&amp;rsquo;re not just a designer, but an entrepreneur – a problem-solver. Your responsibilities include anything you&amp;rsquo;re good at that helps the team. It depends on your expertise, personality, and thinking. You&amp;rsquo;re part of the team, driving it forward.&lt;/p&gt;</description></item></channel></rss>

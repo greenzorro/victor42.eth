@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Excel on Victor42</title><link>https://victor42.eth.limo/tags/excel/</link><description>Recent content in Excel on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 13 Jun 2024 14:05:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/excel/index.xml" rel="self" type="application/rss+xml"/><item><title>Turning Photoshop into a Machine Gun with Excel</title><link>https://victor42.eth.limo/post-en/3650/</link><pubDate>Thu, 13 Jun 2024 14:05:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3650/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg" alt="Featured image of post Turning Photoshop into a Machine Gun with Excel" /&gt;&lt;p&gt;How a designer with Excel skills saved his company a bundle.&lt;/p&gt;
+&lt;p&gt;I heard Marketing was tearing their hair out. The boss greenlit the new course cover design, and now they needed to update all 800+ existing covers. It wasn&amp;rsquo;t a simple find-and-replace; there were tons of small differences. Marketing has only one designer, and they were slammed. Doing it in-house? No way. Outsourcing would cost 20 RMB per image, totaling 16,000 RMB – a budget buster.&lt;/p&gt;
+&lt;p&gt;Bingo! 16,000 RMB? My ears perked up. I love automation. A data geek who knows Photoshop? This was my moment. People talk about the &amp;ldquo;value of design.&amp;rdquo; But what &lt;em&gt;is&lt;/em&gt; your value? How do you put a number on it? Saving the company a designer&amp;rsquo;s monthly salary in half a day? That&amp;rsquo;s real value. Plus, it&amp;rsquo;d be great for my year-end review. I jumped on the task.&lt;/p&gt;
+&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/d257445c788894aad2f9c9d25333d834.jpg"
+loading="lazy"
+alt="Pink-orange course cover template with orange rounded tag showing Product Operations at top, large text How to Create Potential Hit Products in center, smaller text New Product Development below, grid texture and geometric decorations in background"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is the template the marketing designer created. No use criticizing – the boss wanted this style. Simple. The basic need was also simple: replace three text areas and generate 800+ images.&lt;/p&gt;
+&lt;p&gt;Most designers would think, &amp;ldquo;Piece of cake! Define some variables in Photoshop, create an Excel sheet, and batch export.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;If you &lt;em&gt;don&amp;rsquo;t&lt;/em&gt; know how to batch output with Excel and Photoshop, check out this tutorial: &lt;a class="link" href="https://zhuanlan.zhihu.com/p/33725280" target="_blank" rel="noopener"
+&gt;https://zhuanlan.zhihu.com/p/33725280&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Yeah&amp;hellip; that&amp;rsquo;s the gist. If it were &lt;em&gt;that&lt;/em&gt; easy, you could just follow the tutorial, and this article would be done.&lt;/p&gt;
+&lt;p&gt;But, once I saw the template, I realized it was much trickier. The variations were crazy:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg"
+loading="lazy"
+alt="Grid of ten course covers with different color schemes and themes, including Product Operations/Sports Academy/Taobao New Merchant/Tmall New Merchant/Education Academy/Home Academy/FMCG Academy/Enterprise Academy/Digital Academy/Fashion Academy, each with category-colored tag at top"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/2f196e8210e1f43dae80cd978031cf36.jpg"
+loading="lazy"
+alt="Three course category label designs stacked vertically: orange Product Operations label, orange Taobao New Merchant label, pink Tmall New Merchant label, all with rounded rectangle backgrounds"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/0a0c12d573ee7d0f2958cd0baee914fc.jpg"
+loading="lazy"
+alt="Title layout comparison: top Taobao New Merchant cover shows two-line title Name Max 8 Characters and Line 2 Content 1, bottom Tmall New Merchant cover shows single-line title Name Max 8 Characters 1, each with description text placeholder below"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/f60e4590c7b4551a14e93c37b5396f8d.jpg"
+loading="lazy"
+alt="Two bottom bar design slices: top blue background with monitor icon showing Max 5 Characters, bottom pink background with folder icon showing Max 5 Characters, demonstrating different category decoration styles"
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Over a dozen course categories, some with unique backgrounds, others sharing.&lt;/li&gt;
+&lt;li&gt;The top category wasn&amp;rsquo;t always text. Two (Taobao and Tmall) used logos – images.&lt;/li&gt;
+&lt;li&gt;Course titles: one or two lines. Single-line titles needed vertical centering.&lt;/li&gt;
+&lt;li&gt;Text color changed with the background – a tinted shade, not pure black.&lt;/li&gt;
+&lt;li&gt;The bottom description text wasn&amp;rsquo;t always there. If missing, its decorative box had to go too.&lt;/li&gt;
+&lt;li&gt;The box&amp;rsquo;s line color also changed, matching the text but brighter.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Think. Could you handle this with Photoshop variables? Sure, you could make a dozen PSDs. But I wanted just &lt;em&gt;one&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Yes, it was possible.&lt;/p&gt;
+&lt;p&gt;But it needed a designer who was also an Excel expert.&lt;/p&gt;
+&lt;h2 id="designing-the-excel-data-model"&gt;Designing the Excel Data Model
+&lt;/h2&gt;&lt;p&gt;The complexity meant I needed to think about the data model first.&lt;/p&gt;
+&lt;p&gt;Programmers might laugh. &amp;ldquo;Data model? For a simple image?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t @ me! I&amp;rsquo;m just using the idea. Look, if you just want to finish, anything goes. But for top efficiency, you need a data model mindset. What&amp;rsquo;s that? The operations team fills in the least info, and I do the least work per export. This was ongoing, so I needed low marginal costs. The initial setup could be complex; that cost was less important.&lt;/p&gt;
+&lt;p&gt;So, what columns did we need?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Course Category&lt;/li&gt;
+&lt;li&gt;Course Title&lt;/li&gt;
+&lt;li&gt;Description&lt;/li&gt;
+&lt;li&gt;Background Image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Obvious ones. Adding the variations, the real list was:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg"
+loading="lazy"
+alt="Excel fact table screenshot with 12 columns: Filename/Category/Title Line 1/Title Line 2/Description/Taobao/Tmall/Single Line/Two Lines/Has Description/Background Image/Foreground Color, showing data for Rule Interpretation/Product Operations/Content Live categories"
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Filename: Controls the output filename, arranged logically.&lt;/li&gt;
+&lt;li&gt;categories: The dozen-ish categories, shown at the top, determining the template.&lt;/li&gt;
+&lt;li&gt;Title Line 1: Titles can be one or two lines, split for manual line breaks.&lt;/li&gt;
+&lt;li&gt;Title Line 2: Optional; if blank, it&amp;rsquo;s a single-line title.&lt;/li&gt;
+&lt;li&gt;Description: The optional keywords, determining if the box below is shown.&lt;/li&gt;
+&lt;li&gt;Taobao: Yes/no, toggles the Taobao logo, based on Category.&lt;/li&gt;
+&lt;li&gt;Tmall: Yes/no, toggles the Tmall logo, based on Category.&lt;/li&gt;
+&lt;li&gt;Single Line: Yes/no, controls the single-line title layer, based on Title Line 2.&lt;/li&gt;
+&lt;li&gt;Two Lines: Yes/no, controls Title Line 1 and 2 layers, based on Title Line 2.&lt;/li&gt;
+&lt;li&gt;Has Description: Yes/no, controls the description box, based on Description.&lt;/li&gt;
+&lt;li&gt;Background Image: Path for the background image.&lt;/li&gt;
+&lt;li&gt;Foreground Color: Path for the color image, used for title text color.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/f0990a616f2f602bcdd42a44bb01df9e.jpg"
+loading="lazy"
+alt="Photoshop layers panel screenshot from top to bottom: Foreground Color layer/Text Group folder containing Description/Title Line 2/Title Line 1/Title Single Line text layers/Hue-Saturation adjustment layer/Foreground Color layer"
+&gt;&lt;/p&gt;
+&lt;p&gt;Explanation: I had three title layers. One for single-line, two for two-line titles.&lt;/p&gt;
+&lt;p&gt;Giving this to operations would be brutal. Most could be calculated. Operations only needed: Category, Title Line 1, Title Line 2, and Description. I made an online spreadsheet with just those four and sent it out. We had 5-6 people working, each taking categories. They finished fast.&lt;/p&gt;
+&lt;p&gt;The hard part was mine: calculating the rest, all needed for Photoshop. None could be skipped. Category was key. It determined the logos, background, text color, and filename sorting. So, I made a separate Category table, a dimension table, where each category was like a product. The image content table was the fact table, like an order. Category name was the dimension table&amp;rsquo;s primary key, a foreign key in the fact table, pulling in category info. One fact table (CSV) and one dimension table – a simple star schema, or maybe &amp;ldquo;Earth-Moon schema&amp;rdquo;?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/6d4da5705eb81be2c0eee26a2cf600a7.jpg"
+loading="lazy"
+alt="Excel dimension table screenshot with 5 columns: Category/id/Filename/Background Image/Foreground Color, listing 18 categories including Rule Interpretation/User Operations/Product Operations with corresponding template file paths"
+&gt;&lt;/p&gt;
+&lt;p&gt;These concepts are from data modeling and databases. Simply, it&amp;rsquo;s defining attributes on Category. Anything in a category would auto-read the background, color, etc., based on the name. This matched the requirements.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a536f153f4837dc8de1937558ca0482d.jpg"
+loading="lazy"
+alt="Excel consolidated table screenshot with 5 columns: Sequence/Category Name/Title Line 1/Title Line 2/Keywords, showing operations-entered data for Rule Interpretation/Product Operations/Content Live/Taobao New Merchant/Tmall New Merchant/Fashion Academy categories"
+&gt;&lt;/p&gt;
+&lt;p&gt;All the operations data (4 columns) was now in my Excel. I referenced it, added the calculated columns, and formed a complete table. I updated, saved as CSV, and gave it to Photoshop.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg"
+loading="lazy"
+alt="Excel fact table complete configuration screenshot with 12 columns showing automatically calculated cover metadata through formulas"
+&gt;&lt;/p&gt;
+&lt;p&gt;These calculated columns tested my Excel skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vlookup&lt;/code&gt; was crucial for looking up category attributes.&lt;/li&gt;
+&lt;li&gt;Filenames needed text concatenation. I could combine them freely, deciding the output order.&lt;/li&gt;
+&lt;li&gt;I used string replacement to remove spaces in titles, ensuring centering even with accidental spaces.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;IF&lt;/code&gt; checked for empty values, preventing 0 on empty rows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are easy for Excel users, so I won&amp;rsquo;t detail them.&lt;/p&gt;
+&lt;h2 id="merging-tables-with-power-query"&gt;Merging Tables with Power Query
+&lt;/h2&gt;&lt;p&gt;But, two questions remained:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How did operations&amp;rsquo; data get into my Excel?&lt;/li&gt;
+&lt;li&gt;How do I update it?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/800867584af30783c478924a6db86fdd.jpg"
+loading="lazy"
+alt="Excel online collection form screenshot with 4 columns: Category Name/Title Line 1/Title Line 2/Keywords, bottom tab bar showing General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise worksheets"
+&gt;&lt;/p&gt;
+&lt;p&gt;First: The online spreadsheet let people work independently and update in real-time. My table was local because I needed Excel&amp;rsquo;s Power Query for merging, which most online spreadsheets lack.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/521925ce776cc959e7698c66e0969042.jpg"
+loading="lazy"
+alt="macOS Finder folder screenshot showing 8 items: Cover Template.psb/Cover Content.xlsx/Cover Content Collection.xlsx/Workbook 7.csv/Template-Background folder/Template-Foreground folder/JPG folder/PSD folder"
+&gt;&lt;/p&gt;
+&lt;p&gt;For each batch, I downloaded the online spreadsheet (&lt;code&gt;Course Cover Content Collection.xlsx&lt;/code&gt;) to the same directory as my table (&lt;code&gt;Course Cover Content.xlsx&lt;/code&gt;). The data link would stay as long as the location didn&amp;rsquo;t change.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/2878de8a5b1e67e4846803c6e585a9b3.jpg"
+loading="lazy"
+alt="Excel Data menu screenshot with red box highlighting Get Data Power Query button, next to Refresh All/Queries &amp; Connections/Properties/Workbook Links options"
+&gt;&lt;/p&gt;
+&lt;p&gt;I used Power Query from the &amp;ldquo;Data&amp;rdquo; menu. Think of it as a visual SQL. It reads data from local tables, web pages, databases, and Azure, and cleans, transforms, and aggregates it. I used its local table reading.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/be21ed673a8ff88073305b48f847fefd.jpg"
+loading="lazy"
+alt="Power Query editor screenshot with 10 queries listed on left: General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise/Merged, center table showing Category Name/Title Line 1/Title Line 2/Keywords data, right Query Settings showing Source/Navigation1/Changed Type/Promoted Headers steps"
+&gt;&lt;/p&gt;
+&lt;p&gt;The Power Query interface is both familiar and strange to basic Excel users. Familiar: &amp;ldquo;Tables!&amp;rdquo; Strange: &amp;ldquo;What&amp;rsquo;s all this?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Understanding Power Query: It does three things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Specifies the data source.&lt;/li&gt;
+&lt;li&gt;Sets rules and conditions.&lt;/li&gt;
+&lt;li&gt;Executes and loads data, one request per sheet.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/af1dc0620c1d62b971ac405eddbb55cc.jpg"
+loading="lazy"
+alt="Power Query editor left panel screenshot showing Queries[10] title with General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise/Merged 10 query items listed below"
+&gt;&lt;/p&gt;
+&lt;p&gt;Step two is crucial. The left list is a series of requests, executed in order.&lt;/p&gt;
+&lt;p&gt;Each needs &amp;ldquo;Use First Row as Headers&amp;rdquo; and removal of empty values.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/69054b9e157cd497d0ede7fa9d85a547.jpg"
+loading="lazy"
+alt="Power Query editor toolbar screenshot with red box highlighting Append Queries button under Combine dropdown, next to Close &amp; Load/Get Data/Enter Data buttons"
+&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not just filtering and sorting. I used its table merging. Operations&amp;rsquo; data was scattered. I couldn&amp;rsquo;t copy-paste, right? I queried each sheet, then created an append request, combining tables with the same format, like SQL&amp;rsquo;s &lt;code&gt;CROSS JOIN&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/137c056d4946b2367dc3259518c0e5dd.jpg"
+loading="lazy"
+alt="Power Query Append dialog with title Append, Three or more tables option selected, left Available Tables list showing General/New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise, right Tables to Append list with New Merchant/Fashion/FMCG/Digital/Home/Sports/Education/Enterprise selected"
+&gt;&lt;/p&gt;
+&lt;p&gt;Its merge query is also useful, like SQL&amp;rsquo;s &lt;code&gt;JOIN&lt;/code&gt; and &lt;code&gt;LEFT JOIN&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/66b4091f7dfc0ebf0448baf72b6509c0.jpg"
+loading="lazy"
+alt="Power Query editor toolbar screenshot with red box highlighting Close &amp; Load button in top-left Close area, next to Get Data/Enter Data/Options buttons"
+&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Close&amp;rdquo; (actually save) made a bunch of sheets appear. I deleted unneeded ones. I added a sequence number for filename sorting.&lt;/p&gt;
+&lt;p&gt;All operations data was now in.&lt;/p&gt;
+&lt;p&gt;Second question: updating?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/e56e2966a217111a4a10f15db546dd42.jpg"
+loading="lazy"
+alt="Excel Data menu screenshot with red box highlighting Refresh All button in Queries &amp; Connections area, next to Get Data Power Query/Properties/Workbook Links options"
+&gt;&lt;/p&gt;
+&lt;p&gt;New batch? Download, overwrite, open the data table, &amp;ldquo;Data&amp;rdquo; menu, &amp;ldquo;Refresh.&amp;rdquo; Simple.&lt;/p&gt;
+&lt;p&gt;Why compare to SQL? It records query &lt;em&gt;conditions&lt;/em&gt;, not results. Results are shown, but it&amp;rsquo;s a preview. It records requests and re-queries on &amp;ldquo;Refresh.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;After complex initial setup, the pipeline was set. Use was simple: download, overwrite, refresh, save as CSV – Photoshop&amp;rsquo;s data file.&lt;/p&gt;
+&lt;h2 id="batch-image-generation-in-photoshop"&gt;Batch Image Generation in Photoshop
+&lt;/h2&gt;&lt;p&gt;Photoshop had five steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Organize/rename layers.&lt;/li&gt;
+&lt;li&gt;Define variables.&lt;/li&gt;
+&lt;li&gt;Import data.&lt;/li&gt;
+&lt;li&gt;Batch export PSDs.&lt;/li&gt;
+&lt;li&gt;Batch convert to JPGs.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="1-organize-and-rename-layers"&gt;1. Organize and Rename Layers
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/531b776b93a3a94233d9c2842edd7612.jpg"
+loading="lazy"
+alt="Photoshop layers panel complete screenshot with 14 layers from top to bottom: Foreground Color/Text Group folder with Description/Title Line 2/Title Line 1/Title Single Line/Hue-Saturation 1/Foreground Color/Description Background-Colored/Description Background-White/Tmall New Merchant/Taobao New Merchant/Category/Background Image/Filename"
+&gt;&lt;/p&gt;
+&lt;p&gt;Not hard. Merge, reorder. Name layers according to table headers for easier variable definition.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Filename&amp;rdquo; is special; it&amp;rsquo;s not visible. I created it manually. Style doesn&amp;rsquo;t matter. Hide it.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Foreground Color&amp;rdquo; needed special handling. Variables can&amp;rsquo;t directly change text color. For background-based changes: group the text, create a solid color layer, and use a clipping mask. This gives unified control.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a9a688b8e6f7b88860fa0b00a4b79c1b.jpg"
+loading="lazy"
+alt="Photoshop Hue/Saturation adjustment panel screenshot showing Custom preset, Master range selected, Hue slider at 0, Saturation slider at &amp;#43;100, Lightness slider at &amp;#43;50, with before/after color comparison bars at bottom"
+&gt;&lt;/p&gt;
+&lt;p&gt;The box&amp;rsquo;s line color? Related to text, but not the same. Add a Hue/Saturation layer for the lines, increasing saturation and brightness. Brown becomes orange, dark green becomes grass green&amp;hellip; This needs color theory and Photoshop knowledge.&lt;/p&gt;
+&lt;h3 id="2-define-variables-for-layers"&gt;2. Define Variables for Layers
+&lt;/h3&gt;&lt;p&gt;No step-by-step; the linked tutorial covers it. I&amp;rsquo;ll discuss tricky points.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/ea2af0bf27f4c74c49db871f5c2b7296.jpg"
+loading="lazy"
+alt="Photoshop Variables dialog screenshot with Background Image layer selected, Pixel Replacement checked with name Background Image and method Consistent, bottom description text reads Specify layer variables to control visibility, replace text strings or replace pixels"
+&gt;&lt;/p&gt;
+&lt;p&gt;Common use: &amp;ldquo;Text Replacement.&amp;rdquo; Non-text layers become &amp;ldquo;Pixel Replacement&amp;rdquo; – image change. Background is replaced this way.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/5be7d1ed67cc798dc3a2925f3e07cc84.jpg"
+loading="lazy"
+alt="10 solid color foreground image thumbnails in 2-row grid: top row 1-General/2-Taobao/2-Tmall/3-Fashion/3-Home/3-FMCG in dark brown/dark purple/dark red warm tones, bottom row 3-Enterprise/3-Digital/3-Education/3-Sports in dark blue/dark green cool tones"
+&gt;&lt;/p&gt;
+&lt;p&gt;Foreground color is similar. Prepare color images, define the clipping mask as a variable, select based on category.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/46b0372dc8bd46ffed011eae85e6bb28.jpg"
+loading="lazy"
+alt="Excel table screenshot showing Taobao/Tmall/Single Line/Two Lines/Has Description 5 boolean columns, all rows show FALSE for Taobao and Tmall, FALSE for Single Line, TRUE for Two Lines, alternating TRUE/FALSE for Has Description"
+&gt;&lt;/p&gt;
+&lt;p&gt;Visibility variables are useful. TRUE/FALSE control display. Can be used with text/pixel replacement. Description text: text replacement changes content, visibility controls display.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a740f3312e02a860493537f9e78b80c0.jpg"
+loading="lazy"
+alt="Photoshop Variables dialog with Description layer selected, Visibility checked with name Has Description linking Description Background-Colored and Description Background-White layers, plus Text Replacement checked with name Description"
+&gt;&lt;/p&gt;
+&lt;p&gt;These first two steps, though tedious, are one-time.&lt;/p&gt;
+&lt;h3 id="3-import-data-sets"&gt;3. Import Data Sets
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/e1fbcc63e3a13d31e181c8a1f12db265.jpg"
+loading="lazy"
+alt="Photoshop Variables dialog Data Set panel showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1, variable list showing Two Lines/Category/Foreground Color/Single Line/Tmall/Description/Filename with values and layers, red box highlighting Import button on right"
+&gt;&lt;/p&gt;
+&lt;p&gt;Switch to the Data Sets panel and import the prepared CSV file.&lt;/p&gt;
+&lt;p&gt;Two common errors occur during import: redundant or mismatched column headers, and empty cells.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/6c7cabdd58fab84c63dfefdfeb4ad16a.jpg"
+loading="lazy"
+alt="Excel table screenshot showing Title Line 2 and Description columns, Description column has NULL values in some cells marking empty cells like Hit Product 3/Line 2 Content 3/Line 2 Content 2 rows"
+&gt;&lt;/p&gt;
+&lt;p&gt;Photoshop Data Sets do not support empty cells. When constructing the data table, fill empty cells with &lt;code&gt;NULL&lt;/code&gt; and configure visibility logic to hide those layers automatically.&lt;/p&gt;
+&lt;h3 id="4-batch-export-psds"&gt;4. Batch Export PSDs
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg"
+loading="lazy"
+alt="Photoshop File menu screenshot with Export submenu expanded, highlighting Data Sets as Files option, above Quick Export as JPG/Export As/Export Preferences options"
+&gt;&lt;/p&gt;
+&lt;p&gt;Exporting requires no complex tricks: navigate to &lt;strong&gt;File &amp;gt; Export &amp;gt; Data Sets as Files&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg"
+loading="lazy"
+alt="Photoshop Export Data Sets as Files dialog with folder path selected, Data Sets set to All Data Sets, filename using only Data Set Name with no suffix, name example showing 1-Rule Interpretation-1-Name Max 8 Characters Hit Product 1.psd"
+&gt;&lt;/p&gt;
+&lt;p&gt;In this step, define your export filename format. Using &amp;ldquo;Data Set Name&amp;rdquo; reads directly from the first column of the CSV, which is why placing custom filenames in the first column is advantageous.&lt;/p&gt;
+&lt;h3 id="5-batch-psd-to-jpg-conversion"&gt;5. Batch PSD to JPG Conversion
+&lt;/h3&gt;&lt;p&gt;Photoshop exports individual PSD files. To deliver final JPG assets, run a batch conversion.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg"
+loading="lazy"
+alt="Photoshop Actions panel screenshot showing [A] save jpg action set with Open/Save/Close three steps, each with checkbox and play button"
+&gt;&lt;/p&gt;
+&lt;p&gt;Record a three-step Photoshop action: Open PSD, Save as JPG, and Close. Then run &lt;strong&gt;File &amp;gt; Automate &amp;gt; Batch&lt;/strong&gt; across the entire PSD folder.&lt;/p&gt;
+&lt;p&gt;My downloadable Photoshop action set includes a ready-to-use &amp;ldquo;Save as JPG&amp;rdquo; action linked at the end of this post.&lt;/p&gt;
+&lt;h2 id="one-more-table"&gt;One More Table
+&lt;/h2&gt;&lt;p&gt;Is the work finished? The immediate assignment is complete, but the most important step remains: tracking business value.&lt;/p&gt;
+&lt;p&gt;These 800+ cover images (worth 16,000 RMB) represent only the initial batch. As new course offerings launch continuously, there will be subsequent batches. It is prudent to measure how much money this automated pipeline saves the organization over a year—and make that tangible value visible to leadership.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg"
+loading="lazy"
+alt="Summary data table screenshot tracking date, image count, and monetary value produced across monthly cohorts"
+&gt;&lt;/p&gt;
+&lt;p&gt;So, a statistics table, a &amp;ldquo;bragging table.&amp;rdquo; Let&amp;rsquo;s call it &amp;ldquo;Rock and Roll Table.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I could even make a chart, showing monthly/quarterly/seasonal value. Subtract from my salary to show my cost – hiring me is a steal! Data is there; whether I do it is TBD.&lt;/p&gt;
+&lt;h2 id="epilogue"&gt;Epilogue
+&lt;/h2&gt;&lt;p&gt;This was cost-effective. Half a day for initial setup. Negligible time after; I ran it during lunch.&lt;/p&gt;
+&lt;p&gt;This is my strength. I don&amp;rsquo;t reinvent wheels, but I assemble them well.&lt;/p&gt;
+&lt;p&gt;After setup, I met with operations. Marketing explained the four columns. No one found it hard. Operations thought I used AI. For non-tech people, anything amazing is AI. AI is the silver bullet. It&amp;rsquo;s funny; I&amp;rsquo;m used to it.&lt;/p&gt;
+&lt;p&gt;Finally, resources. Try it yourself:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://zhuanlan.zhihu.com/p/33725280" target="_blank" rel="noopener"
+&gt;PS+Excel Batch Output Basic Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://cloud.victor42.work/share/%e6%89%b9%e9%87%8f%e7%94%9f%e6%88%90%e5%b0%81%e9%9d%a2%e5%9b%be%e5%b7%a5%e4%bd%9c%e6%b5%81.zip" target="_blank" rel="noopener"
+&gt;Workflow Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/SK0UdUPphoFBZpxJpEJcbZIsnRf?from=from_copylink" target="_blank" rel="noopener"
+&gt;PS Action Set (click the table of contents to jump)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Important Update&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I have since developed a more automated programmatic solution for this workflow, which only requires a Python environment.&lt;/p&gt;
+&lt;p&gt;Details: &lt;a class="link" href="https://github.com/greenzorro/excel-ps-batch-export" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/excel-ps-batch-export&lt;/a&gt;&lt;/p&gt;</description></item><item><title>我用Excel把PS变成了一挺重机枪</title><link>https://victor42.eth.limo/post/3650/</link><pubDate>Thu, 13 Jun 2024 14:05:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3650/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg" alt="Featured image of post 我用Excel把PS变成了一挺重机枪" /&gt;&lt;p&gt;一个精通Excel的设计师给公司省钱的故事。&lt;/p&gt;
+&lt;p&gt;听说隔壁市场部正在头疼，新版课程封面图设计被老板认可了，接下来要把平台上现有封面图全部更新掉。总共800多张图，不是那种简单替换文字就可以的，有很多细微的变化。市场部就一个设计师，忙着呢，自己做不现实。外包出去一张20就是16000，预算不够。&lt;/p&gt;
+&lt;p&gt;诶！一听到这值16000，我就来劲了。我最擅长自动化，数据狂魔加上PS技巧，这事儿整个部门也就只有我能干了。你们不是喜欢说设计价值吗？你的价值是什么？怎么量化你的设计产出？花半天时间，给公司省下一个设计师一整个月工资，够不够价值？就冲这绝佳的年底汇报材料，果断把活抢下来。&lt;/p&gt;
+&lt;h2 id="需求"&gt;需求
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/d257445c788894aad2f9c9d25333d834.jpg"
+loading="lazy"
+alt="粉橘色调课程封面模板，顶部橙色圆角标签写商品运营，中央大字怎么做出来潜力爆款的新品，下方小字新品研发的，背景为网格纹理与几何装饰"
+&gt;&lt;/p&gt;
+&lt;p&gt;市场部设计师做出来的模板长这样。就别对设计指点江山了，反正这效果是老板点名要的，简单直接没毛病。具体需求说起来也简单，把图上三处文字替换成真实内容，输出800多张图。&lt;/p&gt;
+&lt;p&gt;看到模板，很多设计师会觉得这很简单啊，PS变量定义，建个Excel批量输出就完事儿了。&lt;/p&gt;
+&lt;p&gt;还不会Excel+PS批量输出的设计师，有兴趣请看这篇：&lt;a class="link" href="https://zhuanlan.zhihu.com/p/33725280" target="_blank" rel="noopener"
+&gt;https://zhuanlan.zhihu.com/p/33725280&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;嗯……思路是这样没错，如果真这么简单，照着教程做就可以了，全文完。&lt;/p&gt;
+&lt;p&gt;但是，所有模板拿到手后，发现事情远没那么简单，各种变数超乎想象：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/927f0f7ac6f154b4027673e30b629be2.jpg"
+loading="lazy"
+alt="十张不同配色与主题的课程封面网格展示，包含商品运营/运动学院/淘宝新商/天猫新商/文教学院/家享学院/快消学院/企服学院/数码学院/服饰学院等分类，每张封面顶部有对应颜色的分类标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/2f196e8210e1f43dae80cd978031cf36.jpg"
+loading="lazy"
+alt="三种课程分类标签设计对比，从上到下依次为橙色商品运营标签/橙色淘宝新商标签/粉红色天猫新商标签，均为圆角矩形背景"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/0a0c12d573ee7d0f2958cd0baee914fc.jpg"
+loading="lazy"
+alt="课程封面标题排版对比，上方淘宝新商封面展示双行标题名称一行最多8字和第二行内容1，下方天猫新商封面展示单行标题名称一行最多8个字1，底部各有描述文字占位"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/f60e4590c7b4551a14e93c37b5396f8d.jpg"
+loading="lazy"
+alt="两款底栏文字设计切片对比，上方蓝色背景配电脑显示器图标显示最多5个字，下方粉色背景配文件夹图标显示最多5个字，展示不同分类的装饰框样式"
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;课程分了十几类，有些分类有独特的背景图，有些分类共用一张背景图。&lt;/li&gt;
+&lt;li&gt;顶部的课程分类不全是文字，有两个特殊分类（淘宝和天猫）用的是两者的Logo字形，这只能用图片来实现。&lt;/li&gt;
+&lt;li&gt;课程名称有的一行、有的两行，一行的时候要垂直居中。&lt;/li&gt;
+&lt;li&gt;图里文字颜色随背景图变化，并不是纯黑，而是略微偏向于背景色。&lt;/li&gt;
+&lt;li&gt;最下面的描述小字不一定都有，有的空缺，连带着小字底下的装饰框也得拿掉。&lt;/li&gt;
+&lt;li&gt;装饰框的线条颜色也随背景色变，和文字同色系，但鲜艳很多。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;现在先停下来想想，用PS变量定义还能应付吗？十几个分类出十几个PSD，当然也能实现。但是我不想导出十几次，只用一个PSD，这事儿能搞吗？&lt;/p&gt;
+&lt;p&gt;能。&lt;/p&gt;
+&lt;p&gt;这就需要设计师同时也是Excel高手了。&lt;/p&gt;
+&lt;h2 id="excel数据模型设计"&gt;Excel数据模型设计
+&lt;/h2&gt;&lt;p&gt;既然这事这么复杂，先思考一下数据模型吧。&lt;/p&gt;
+&lt;p&gt;程序员看到这怕是要笑出声来，你一个小破图这么点信息，还数据模型？&lt;/p&gt;
+&lt;p&gt;轻喷啊大侠，我这不是借用一下思路嘛。但是话说回来，如果只想把事干成，条条大路通罗马；如果想达到最高的效率，那真的要用数据模型的思路来规划。怎样算最高的效率？运营填最少的信息，我每次导出做最少的操作。这个出图流程会长期运转，要保持边际成本最低。至于第一次的配置操作，复杂点问题不大，初始成本不那么重要。&lt;/p&gt;
+&lt;p&gt;那么我们的表里有哪些列呢？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;课程分类&lt;/li&gt;
+&lt;li&gt;课程名称&lt;/li&gt;
+&lt;li&gt;描述&lt;/li&gt;
+&lt;li&gt;背景图&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这几个是最显而易见的。加上需求里那一堆变数，实际需要的列有这么多：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg"
+loading="lazy"
+alt="Excel事实表截图，包含文件名/分类/标题第1行/标题第2行/描述/淘宝/天猫/单行/两行/有描述/背景图/前景色共12列，展示规则解读/货品运营/内容直播等分类的封面数据"
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;文件名：用来控制最终输出的文件名，按照合理、便于查找的顺序排列&lt;/li&gt;
+&lt;li&gt;分类：那十几个分类，既以文字形式显示在顶部，也决定着模板的整体外观&lt;/li&gt;
+&lt;li&gt;标题第1行：标题有的一行有的两行，拆开处理，满足了运营手动控制断行位置的需求&lt;/li&gt;
+&lt;li&gt;标题第2行：第2行是可选的，不填就当作单行标题&lt;/li&gt;
+&lt;li&gt;描述：时有时无的关键词，既以文字形式出现，也决定了它底下的装饰框是否显示&lt;/li&gt;
+&lt;li&gt;淘宝：是或否的布尔值，作为”淘宝“分类的Logo图显示开关，由分类列决定&lt;/li&gt;
+&lt;li&gt;天猫：是或否的布尔值，作为”天猫“分类的Logo图显示开关，由分类列决定&lt;/li&gt;
+&lt;li&gt;单行：是或否的布尔值，控制单行标题图层是否显示，由标题第2行是否为空决定&lt;/li&gt;
+&lt;li&gt;两行：是或否的布尔值，控制第1行和第2行标题图层是否显示，由标题第2行是否为空决定&lt;/li&gt;
+&lt;li&gt;有描述：是或否的布尔值，控制描述装饰框是否显示，由描述是否为空决定&lt;/li&gt;
+&lt;li&gt;背景图：模板背景图对应的文件路径&lt;/li&gt;
+&lt;li&gt;前景色：前景色图片对应的文件路径，这是一张纯色图，用来给标题文字上不同的色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/f0990a616f2f602bcdd42a44bb01df9e.jpg"
+loading="lazy"
+alt="Photoshop图层面板截图，从上到下依次为前景色图层/文字组文件夹含描述/标题第2行/标题第1行/标题单行四个文本图层/色相饱和度调整图层/前景色图层"
+&gt;&lt;/p&gt;
+&lt;p&gt;这里要解释一下，我标题实际上有3个图层，单行标题是一个图层，第1行标题和第2行标题是另外2个图层，用于两行标题的情况。&lt;/p&gt;
+&lt;p&gt;这样一堆信息丢给运营填的话，估计会挨打。其中大多数都可以计算得出，真正需要运营填写的只有分类、标题第1行、标题第2行、描述。把仅有这4列的表做成在线表格，散出去给运营填。没错，我们有5、6个运营在做这事，每人领了几个分类，这样吭哧吭哧填起来也快得很。&lt;/p&gt;
+&lt;p&gt;现在复杂的部分留给我自己了，怎样把其余的列算出来，这些都是要给PS用的，一列也不能少。略微一想就会发现，分类是关键。分类决定了淘宝、天猫Logo是否展示，决定了背景图用哪张，决定了文字是什么颜色，还决定了输出文件名的排序。所以应该为分类单独开一个表，作为维度表，一个分类就好比一种商品。记录图片内容的表，就是事实表，这就像商品的一条订单记录。分类名是分类表的主键，作为外键在事实表里出现，把分类的各种信息带过去。一张事实表（导出csv）、一张维度表，这应该是最简陋的星形结构了，或许可以叫”地月结构“？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/6d4da5705eb81be2c0eee26a2cf600a7.jpg"
+loading="lazy"
+alt="Excel维度表截图，包含分类/id/文件名/背景图/前景色5列，列出规则解读/用户运营/货品运营等18个分类对应的模板背景图和前景色文件路径"
+&gt;&lt;/p&gt;
+&lt;p&gt;上面这段许多概念属于数据模型与数据库领域。简单说就是把许多属性定义在分类上。只要属于某个分类，就自动根据分类名读出对应的背景图、前景色等属性。实际需求也正是如此。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a536f153f4837dc8de1937558ca0482d.jpg"
+loading="lazy"
+alt="Excel合并表截图，包含顺序/板块名称/标题第1行/标题第2行/关键词5列，展示规则解读/货品运营/内容直播/淘宝新商/天猫新商/服饰学院等分类的运营填写数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在，运营填好的全部数据（4列）已经在我的Excel文件里了，把它引用到隔壁的事实表里，根据PS的需要加上各个运算列，构成完整的数据表。每次使用时更新数据，保存成csv格式，交给PS处理。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/3edc562bdfee2fb96d5271d682185f6b.jpg"
+loading="lazy"
+alt="Excel事实表完整配置截图，包含文件名/分类/标题第1行/标题第2行/描述/淘宝/天猫/单行/两行/有描述/背景图/前景色共12列，展示通过公式自动计算的封面元数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;这些运算列就考验Excel公式的运用了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;由于要去分类表里查它的各种属性，用好vlookup是关键。&lt;/li&gt;
+&lt;li&gt;文件名则需要文本拼接，想拼成什么样都可以，随心所欲决定输出图片文件的排序。&lt;/li&gt;
+&lt;li&gt;我在两个标题列里贴心地用字符串替换公式做了去空格功能，即使运营不小心多敲了个空格，也不会导致标题位置跑偏，精准居中。&lt;/li&gt;
+&lt;li&gt;到处都用了IF来判断空值，防止在空行上产生0。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些对熟悉Excel的人并不难，就不展开了。&lt;/p&gt;
+&lt;h2 id="power-query合并表格"&gt;Power Query合并表格
+&lt;/h2&gt;&lt;p&gt;但是，上面似乎遗漏了2个问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;运营填好的数据是如何进到我Excel里来的？&lt;/li&gt;
+&lt;li&gt;运营再给一批新数据，怎么更新进来？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/800867584af30783c478924a6db86fdd.jpg"
+loading="lazy"
+alt="Excel在线收集表截图，包含板块名称/标题第1行/标题第2行/关键词4列，底部标签栏显示通识/新商/服饰/快消/数码/家享/运动/文教/企服等多个工作表"
+&gt;&lt;/p&gt;
+&lt;p&gt;先来解决第1个。之前散出去给运营填的是在线表格，每人领其中几页，互不影响，且能实时更新。而我的数据表是一个本地Excel文件，因为要用到Excel强大的Power Query功能来合并表格，大多数在线表格产品没有这种能力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/521925ce776cc959e7698c66e0969042.jpg"
+loading="lazy"
+alt="macOS Finder文件夹截图，显示封面图模板.psb/封面图内容.xlsx/封面图内容收集.xlsx/工作簿7.csv/模板-背景图文件夹/模板-前景色文件夹/JPG文件夹/PSD文件夹共8个项目"
+&gt;&lt;/p&gt;
+&lt;p&gt;每当要输出一批图，首先要把在线表格以Excel文件的形式下载下来（封面图内容收集.xlsx），放到和我数据表（封面图内容.xlsx）同一个目录下。只要文件位置不动，这层数据读取的关联关系就能一直保持下去。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/2878de8a5b1e67e4846803c6e585a9b3.jpg"
+loading="lazy"
+alt="Excel数据菜单截图，红框标注获取数据Power Query按钮，旁边有全部刷新/查询与连接/属性/工作簿链接等选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;在数据表中使用“数据”菜单里的Power Query。这个功能可以理解为一种图形化界面的SQL，它可以从本地表格、网页、本地数据库、Azure云上读取数据，并进一步清洗、转换、聚合。我这里用到的是它从本地表格读取数据的能力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/be21ed673a8ff88073305b48f847fefd.jpg"
+loading="lazy"
+alt="Power Query编辑器截图，左侧查询列表显示通识/新商/服饰/快消/数码/家享/运动/文教/企服/合并共10个查询，中间表格展示板块名称/标题第1行/标题第2行/关键词数据，右侧查询设置显示源/导航1/已更改列类型/已提升标题步骤"
+&gt;&lt;/p&gt;
+&lt;p&gt;Power Query的界面对于只用Excel基础功能的人应该既熟悉又陌生。熟悉的是，“哇这里也有表格耶”；陌生的是，“其他这些都是什么玩意”。&lt;/p&gt;
+&lt;p&gt;怎么理解Power Query呢？它做了3件事：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先指定了数据源，外部数据从哪来&lt;/li&gt;
+&lt;li&gt;然后让我设定查询的规则和条件&lt;/li&gt;
+&lt;li&gt;最后执行这些查询请求，把我要的数据加载到当前Excel文件中，一个请求加载一页&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/af1dc0620c1d62b971ac405eddbb55cc.jpg"
+loading="lazy"
+alt="Power Query编辑器左侧查询列表截图，显示查询[10]标题，下方依次为通识/新商/服饰/快消/数码/家享/运动/文教/企服/合并共10个查询项"
+&gt;&lt;/p&gt;
+&lt;p&gt;其中最核心是第2步。界面左侧列表就是一个个的查询请求，它会按顺序执行下来。&lt;/p&gt;
+&lt;p&gt;每个请求里要“将第一行用作标题”，并且在筛选条件里去掉空值。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/69054b9e157cd497d0ede7fa9d85a547.jpg"
+loading="lazy"
+alt="Power Query编辑器工具栏截图，红框标注追加查询按钮，位于合并查询下拉菜单下方，旁边有关闭并上传/获取数据/输入数据等按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;查询操作不止是基本的筛选排序，我这里用到了它的合并表格的能力。从运营那收过来的数据分散在很多页表里，总不能一个个手动复制黏贴吧？我把运营的每页表都查询出来，最后再建一个追加查询请求，它可以把格式完全相同的表合成一张，相当于SQL的CROSS JOIN。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/137c056d4946b2367dc3259518c0e5dd.jpg"
+loading="lazy"
+alt="Power Query追加查询配置窗口，标题为追加，选择三个或更多表选项，左侧可用表列表显示通识/新商/服饰/快消/数码/家享/运动/文教/企服，右侧要追加的表已选中新商/服饰/快消/数码/家享/运动/文教/企服"
+&gt;&lt;/p&gt;
+&lt;p&gt;顺道提一下，它的合并查询也非常有用，能实现SQL里JOIN和LEFT JOIN的效果。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/66b4091f7dfc0ebf0448baf72b6509c0.jpg"
+loading="lazy"
+alt="Power Query编辑器工具栏截图，红框标注关闭并上传按钮，位于左上角关闭区域，旁边有获取数据/输入数据/选项等按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;点了关闭（其实作用是保存）按钮后，我的Excel文件里就刷刷刷多出许多页，不需要的可以删掉，留下有用的。我再合并好的表左侧加了一列序号，用来给文件名排序。&lt;/p&gt;
+&lt;p&gt;这样，运营填的数据就全部进到我的Excel文件里来了。&lt;/p&gt;
+&lt;p&gt;现在来解决第2个问题，怎么更新数据？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/e56e2966a217111a4a10f15db546dd42.jpg"
+loading="lazy"
+alt="Excel数据菜单截图，红框标注全部刷新按钮，位于查询与连接区域，旁边有获取数据Power Query/属性/工作簿链接等选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果运营提交了一批新的封面图内容过来，我只要下载下来放到老地方覆盖一下。再打开数据表，进入“数据”菜单，点刷新。就这么简单，数据就更新了。&lt;/p&gt;
+&lt;p&gt;为什么把Power Query比作SQL呢，因为它记录和复用的是我的查询条件，而不是查出来的结果。查询结果虽然也显示出来了，但那只是预览，让我方便修改查询条件。实际上它是把我的查询请求记录在Excel文件中，每次点刷新，就重新查询一遍。&lt;/p&gt;
+&lt;p&gt;现在，经过了一系列看似复杂的首次配置，数据处理的管道已经建立起来了。后续使用变得异常简单：下载、覆盖、刷新、保存为csv，就变成PS需要的数据文件了。&lt;/p&gt;
+&lt;h2 id="ps批量出图"&gt;PS批量出图
+&lt;/h2&gt;&lt;p&gt;到了PS这一步，要做5件事：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;整理和重命名图层&lt;/li&gt;
+&lt;li&gt;为图层定义变量&lt;/li&gt;
+&lt;li&gt;导入数据组&lt;/li&gt;
+&lt;li&gt;批量导出psd&lt;/li&gt;
+&lt;li&gt;批量psd转jpg&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="1-整理和重命名图层"&gt;1. 整理和重命名图层
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/531b776b93a3a94233d9c2842edd7612.jpg"
+loading="lazy"
+alt="Photoshop图层面板完整截图，从上到下依次为前景色/文字组文件夹含描述/标题第2行/标题第1行/标题单行/色相饱和度1/前景色/描述背景-有色/描述背景-白/天猫新商/淘宝新商/分类/背景图/文件名共14个图层"
+&gt;&lt;/p&gt;
+&lt;p&gt;第1步没什么技术含量，图层该合并的合并，顺序该调整的调整。为了后面定义变量方便，建议把图层按照数据表表头来命名。&lt;/p&gt;
+&lt;p&gt;文件名这个图层很特殊，它不体现在图上。拿到的psd模板里没有，需要手动新建，样式随意，反正不显示。把它藏在背景图图层的底下，或者移到画布外面。&lt;/p&gt;
+&lt;p&gt;前景色这个图层也需要特殊处理。变量定义无法直接改变文字颜色，怎么实现随背景变化？把需要上色的文字编组，新建一个纯色图层，使用剪贴蒙板作用在这个组上，这就实现了统一控制文本颜色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a9a688b8e6f7b88860fa0b00a4b79c1b.jpg"
+loading="lazy"
+alt="Photoshop色相/饱和度调节面板截图，预设显示自定，应用范围为全图，色相滑块为0，饱和度滑块为&amp;#43;100，明度滑块为&amp;#43;50，底部显示调整前后的颜色对比条"
+&gt;&lt;/p&gt;
+&lt;p&gt;装饰框的线条颜色也会变，还记得吗？此处的颜色和文字颜色有关联，但又不一样。它们之间的关联是什么？在前景色的基础上，为这两根线条专门加一个色相/饱和度调整图层，把它的饱和度和明度调高就行。比如棕色加浓提亮就变橙色，墨绿加浓提亮就变草绿……这个技巧需要对色彩原理和PS调色有比较深刻的理解。&lt;/p&gt;
+&lt;h3 id="2-为图层定义变量"&gt;2. 为图层定义变量
+&lt;/h3&gt;&lt;p&gt;第2步变量定义的基础技巧，这里就不手把手教学了，开篇引用的教程里都有讲。这里主要讲几个难点的处理。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/ea2af0bf27f4c74c49db871f5c2b7296.jpg"
+loading="lazy"
+alt="Photoshop变量定义窗口截图，图层选择背景图，变量类型勾选像素替换，名称设为背景图，方法选择一致，底部说明文字为指定图层的变量以控制其可见性，替换文本字符串或替换像素"
+&gt;&lt;/p&gt;
+&lt;p&gt;变量定义功能最常用的是替换文字，用到的是其中的文本替换这个选项。当变量图层不是文本时，它就会变为像素替换，也就是换图。背景图通过这种方式替换。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/5be7d1ed67cc798dc3a2925f3e07cc84.jpg"
+loading="lazy"
+alt="10张纯色前景色图片缩略图网格，分为两行排列，第一行1-通识/2-淘宝/2-天猫/3-服饰/3-家享/3-快消为深棕/深褐/深紫/深红等暖色调，第二行3-企服/3-数码/3-文教/3-运动为深蓝/深绿等冷色调"
+&gt;&lt;/p&gt;
+&lt;p&gt;前景色也一样，为每种文字颜色准备相应的纯色图片，把上一步创建的剪贴模板图层定义为变量，根据课程分类选用相应颜色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/46b0372dc8bd46ffed011eae85e6bb28.jpg"
+loading="lazy"
+alt="Excel表格截图，显示淘宝/天猫/单行/两行/有描述5列布尔值，所有行淘宝和天猫均为FALSE，单行为FALSE，两行为TRUE，有描述在TRUE和FALSE之间交替"
+&gt;&lt;/p&gt;
+&lt;p&gt;可见性变量常被忽视，但非常有用。表格里这些TRUE和FALSE的列，就是通过可见性来控制图层的显示隐藏。可见性变量还可以和文本替换或像素替换同时使用。比如底部描述小字，文本替换改变它的内容，可见性则控制它显示隐藏。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/a740f3312e02a860493537f9e78b80c0.jpg"
+loading="lazy"
+alt="Photoshop变量定义窗口截图，图层选择描述，变量类型同时勾选可见性名称为有描述并链接描述背景-有色和描述背景-白两个图层，以及文本替换名称为描述"
+&gt;&lt;/p&gt;
+&lt;p&gt;前两步的工作虽然繁琐，但都是一次性的，在后续的使用中不必重复。&lt;/p&gt;
+&lt;h3 id="3-导入数据组"&gt;3. 导入数据组
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/e1fbcc63e3a13d31e181c8a1f12db265.jpg"
+loading="lazy"
+alt="Photoshop变量窗口数据组面板截图，数据组显示1-规则解读-1-名称一行最多8字爆款的新品1，变量列表显示两行/分类/前景色/单行/天猫/描述/文件名及其对应值和图层，右侧红框标注导入按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;切换到导入面板，把准备好的csv文件导进来就是了。&lt;/p&gt;
+&lt;p&gt;导入常见的错误有两种，一种是有多余的列或名称对不上的列，需要检查。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/6c7cabdd58fab84c63dfefdfeb4ad16a.jpg"
+loading="lazy"
+alt="Excel表格截图，显示标题第2行和描述两列数据，描述列中部分单元格填充NULL值用于标记空单元格，如爆款的新品3/第二行内容3/第二行内容2等行"
+&gt;&lt;/p&gt;
+&lt;p&gt;另一种是有的行里有空单元格。是的，PS导入数据组不支持空单元格，所以我在制作数据表的时候把空单元格内容都改成了NULL。这些NULL显示出来会破坏图片效果，所以可能为空的列都要做可见性判断，适时隐藏。&lt;/p&gt;
+&lt;h3 id="4-批量导出psd"&gt;4. 批量导出psd
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/d92857c1843b212c5205b9d0582f88b2.jpg"
+loading="lazy"
+alt="Photoshop文件菜单截图，展开导出子菜单，高亮显示数据组作为文件选项，上方有快速导出为JPG/导出为/导出首选项等选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;导出没什么技巧，这么操作就是了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/7dceeaca255670e1437a37b68e773e31.jpg"
+loading="lazy"
+alt="Photoshop将数据组作为文件导出窗口截图，存储选项选择文件夹路径，数据组选择所有数据组，文件命名仅使用数据组名称加无后缀，名称示例显示1-规则解读-1-名称一行最多8字爆款的新品1.psd"
+&gt;&lt;/p&gt;
+&lt;p&gt;在这一步你可以自己定义导出的文件名格式。这么多可选的项里，真正有用的只有数据组名称，只有这一项能在文件名上留下对运营有帮助的信息。数据组名称读取的是csv文件第一列的内容，这就是我为什么把文件名这一列放在最前面，以实现对输出图片文件名的自由定制。&lt;/p&gt;
+&lt;h3 id="5-批量psd转jpg"&gt;5. 批量psd转jpg
+&lt;/h3&gt;&lt;p&gt;PS数据组导出的都是psd文件，交付出去的得是jpg文件，还要再转换一道。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/c36d844e7381a77f1c02718a560fe9f8.jpg"
+loading="lazy"
+alt="Photoshop动作面板截图，显示[A] save jpg动作集，包含打开/存储/关闭三个步骤，每个步骤前有勾选框和播放按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;录一个简单的PS动作，打开psd，存储为jpg，关闭。就这么3步，把整个psd文件夹用批处理跑一遍就行了。&lt;/p&gt;
+&lt;p&gt;我自制的动作集里有现成的存为jpg动作，可在文末提供的链接里下载。&lt;/p&gt;
+&lt;h2 id="还差一张表"&gt;还差一张表
+&lt;/h2&gt;&lt;p&gt;好了，活干完了吗？只能说任务完成了，事情还没完，还差一张最重要的表。&lt;/p&gt;
+&lt;p&gt;这价值16000的800多张封面图，只是第1批。公司还会不停出新课程的，还会有第2批、第3批……我难道不该了解一下，自己的举手之劳一年下来给公司省了多少钱吗？即使我不想知道，也非常有必要让老板知道。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg"
+loading="lazy"
+alt="数据统计表截图，包含日期/封面图数量/价值3列，第1行2024-06-01显示800张封面图价值16000元，第2-7行2024-07-01至2024-12-01价值均为0元，用于记录每月产出价值"
+&gt;&lt;/p&gt;
+&lt;p&gt;所以还要有这样一张数据统计表，邀功表。当然，不要起这么露骨的名字，取个谐音，叫摇滚表好了。&lt;/p&gt;
+&lt;p&gt;我要是再卷一点的话，还可以基于这张表生成个柱状图，每月、每个Q、每季度的输出价值。用我的月工资减去这些产值，直观展现出每个月我的实际用人成本，雇了就是赚到。要不要这么卷到时候再看吧，反正数据是沉淀了。&lt;/p&gt;
+&lt;h2 id="后记"&gt;后记
+&lt;/h2&gt;&lt;p&gt;这个活抢过来性价比极高。总共就费我半天时间，做了点工作流的初次配置，后续花费的时间可以忽略不计，午餐时间挂机跑一跑就好了。&lt;/p&gt;
+&lt;p&gt;这就是我的本事，我不爱造轮子，但我极其擅长组装轮子。&lt;/p&gt;
+&lt;p&gt;流程跑通后，和运营开了个会。市场部向他们讲解了提供内容的规范要求，也就那4列在线表格，没谁觉得难。运营们都以为我这是AI输出的。对于非技术人员，好像不可思议的事情都是AI干的，AI是silver bullet。有意思，这种偏见我已经习以为常了。&lt;/p&gt;
+&lt;p&gt;最后放上相关的文件和资源，有兴趣可以自己下载动手试试：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://zhuanlan.zhihu.com/p/33725280" target="_blank" rel="noopener"
+&gt;PS+Excel批量输出基础教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://cloud.victor42.work/share/%e6%89%b9%e9%87%8f%e7%94%9f%e6%88%90%e5%b0%81%e9%9d%a2%e5%9b%be%e5%b7%a5%e4%bd%9c%e6%b5%81.zip" target="_blank" rel="noopener"
+&gt;工作流文件包&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/SK0UdUPphoFBZpxJpEJcbZIsnRf?from=from_copylink" target="_blank" rel="noopener"
+&gt;PS动作合集（点目录跳转）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;重要更新&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这一套工作流程，我后来又开发了自动化程度更高的程序方案，只需要有一套Python运行环境。&lt;/p&gt;
+&lt;p&gt;详见：&lt;a class="link" href="https://github.com/greenzorro/excel-ps-batch-export" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/excel-ps-batch-export&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Building a Custom Child Growth Curve in Excel</title><link>https://victor42.eth.limo/post-en/3641/</link><pubDate>Thu, 03 Aug 2023 14:30:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3641/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg" alt="Featured image of post Building a Custom Child Growth Curve in Excel" /&gt;&lt;p&gt;I&amp;rsquo;m an Excel geek. After reading this, you might think we use different Excels.&lt;/p&gt;
+&lt;p&gt;This is about how I used Excel, data visualization, AI, statistics, and formulas to create a custom growth chart. I&amp;rsquo;ll explain everything clearly, even the basics.&lt;/p&gt;
+&lt;p&gt;Many parents use apps to track their baby&amp;rsquo;s height and weight. I only used that one feature. Installing a large app just for that felt wasteful. It was a perfect chance to use my Excel skills. It&amp;rsquo;s just data analysis, right? Excel can handle it!&lt;/p&gt;
+&lt;h2 id="system-planning"&gt;System Planning
+&lt;/h2&gt;&lt;p&gt;First, I needed a plan. Let&amp;rsquo;s see how growth curves work in parenting apps.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/4b1f944ddce86b103a4d13f3d87cc292.jpg"
+loading="lazy"
+alt="Baobaoshu app weight curve page, x-axis shows age from 8 to 14 months, y-axis shows weight kg from 4 to 44, displaying 3%/25%/50%/75%/97% reference lines with green data points near 50% line"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is a growth curve from Baobaoshu (BabyTree). The 50% line is the median. If my baby&amp;rsquo;s height (or weight) is on this line, about half of babies are taller (or heavier) and half are shorter (or lighter). The 75% and 97% lines mean the height (or weight) exceeds 75% and 97% of babies of the same age. The 25% and 3% lines work similarly. This shows my baby&amp;rsquo;s growth compared to others.&lt;/p&gt;
+&lt;p&gt;I wanted a similar tool to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Record my baby&amp;rsquo;s height and weight.&lt;/li&gt;
+&lt;li&gt;Query the normal height and weight range for each month.&lt;/li&gt;
+&lt;li&gt;Show how much my baby&amp;rsquo;s measurements deviate from the norm.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A chart or curve didn&amp;rsquo;t matter. The key was the third point: calculating and displaying the deviation intuitively. A diverging bar chart seemed suitable:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/51645a0d58eb8f178201bf94e5759ab0.jpg"
+loading="lazy"
+alt="Diverging bar chart Birth Rate by Years, center shows years 1940-2010, left orange bars show birth rate for mothers aged 20-25, right blue bars show birth rate for mothers aged 30-35"
+&gt;&lt;/p&gt;
+&lt;p&gt;This chart compares two data sets in the same dimension.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/e448352c2994787d901a185b08c8d234.jpg"
+loading="lazy"
+alt="R language Diverging Bars example showing mtcars dataset car mileage deviation from average, green Above Average to right, red Below Average to left"
+&gt;&lt;/p&gt;
+&lt;p&gt;For one data set, it shows direction and distance from a benchmark, often for positive and negative values.&lt;/p&gt;
+&lt;p&gt;This was perfect. I&amp;rsquo;d use the median as the benchmark, showing if my daughter&amp;rsquo;s height (or weight) was above or below it. The bar length would show the deviation. To simplify, I used symbols: a minus for below, a plus for above, with more symbols meaning greater deviation. Seeing &amp;ldquo;+++&amp;rdquo; or &amp;ldquo;&amp;mdash;-&amp;rdquo; would signal a need to check her growth trend.&lt;/p&gt;
+&lt;h2 id="preparing-the-data"&gt;Preparing the Data
+&lt;/h2&gt;&lt;p&gt;With a goal, I started working. First, the first two capabilities:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Record height and weight.&lt;/li&gt;
+&lt;li&gt;Query normal ranges.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="babys-growth-data"&gt;Baby&amp;rsquo;s Growth Data
+&lt;/h3&gt;&lt;p&gt;My baby&amp;rsquo;s data was in the Baobaoshu app (dates are omitted to protect my daughter&amp;rsquo;s birthday):&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/235b2773b1b549f5fd1e0f7c0109a66e.jpg"
+loading="lazy"
+alt="Baobaoshu app child growth record list screenshot showing 1yr3mo17d/1yr2mo16d/1yr1d/11mo15d/9mo25d records with height cm/weight kg/head circumference cm data"
+&gt;&lt;/p&gt;
+&lt;p&gt;Baobaoshu doesn&amp;rsquo;t export data. Manual entry was an option, but there had to be a better way.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/129e9d7d3955d9993665691008c1ed88.jpg"
+loading="lazy"
+alt="Google Play Store ScreenMaster Screenshot Markup app page, by Blossgraph, 4.5 stars 77.6K reviews, 5M&amp;#43; downloads"
+&gt;&lt;/p&gt;
+&lt;p&gt;I took screenshots of the records and used an Android app, Screen Master, to stitch them into one long image.&lt;/p&gt;
+&lt;p&gt;Then, I used Baimiao OCR (&lt;a class="link" href="https://web.baimiaoapp.com/" target="_blank" rel="noopener"
+&gt;https://web.baimiaoapp.com/&lt;/a&gt;) to extract the text:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/406e2e8b96b201bcd2c1dc7f81b6ca28.jpg"
+loading="lazy"
+alt="Baimiao OCR web page screenshot, left Origin Photo shows Baobaoshu growth record screenshot, right Results shows extracted text with date/height/weight/head circumference data mixed together"
+&gt;&lt;/p&gt;
+&lt;p&gt;The format was messy, but AI can handle that.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/804e5aee1ef71590beb2ce89bce6c424.jpg"
+loading="lazy"
+alt="ChatGPT conversation screenshot, user prompt requests converting OCR content to table format with date as index in first column and information in second column separated by spaces"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/8d39c1dc3fbfcf00e004039bbd048a6c.jpg"
+loading="lazy"
+alt="ChatGPT output table screenshot with Date and Information columns, Information column contains mixed age/weight/height/weight/head circumference data"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/b8eb3273e39b3b1bd4f907e3b3be96ce.jpg"
+loading="lazy"
+alt="ChatGPT conversation screenshot, user prompt requests changing date column to M/D/YYYY format"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/a9d0f842c04bd04b253d65f8f1859aae.jpg"
+loading="lazy"
+alt="ChatGPT conversation screenshot, user prompt requests removing age-related text like years/months/days from information column"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/ec608ab8c15ca818cd40b3a43f3efc6b.jpg"
+loading="lazy"
+alt="ChatGPT conversation screenshot, user prompt requests splitting information column into height/weight/head circumference columns, kg data to weight column, cm data to height column, second cm data to head circumference column"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/288d76243237d4eb503a3277996cf976.jpg"
+loading="lazy"
+alt="ChatGPT conversation screenshot, user prompt requests moving units to column headers, keeping only numeric values in columns, and removing nutrition supplement notes from head circumference column"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/375eb891054588a05fca2c0829970791.jpg"
+loading="lazy"
+alt="ChatGPT output cleaned table screenshot with Date/Height cm/Weight kg/Head Circumference cm four columns, date column blurred, numeric columns contain only numbers"
+&gt;&lt;/p&gt;
+&lt;p&gt;Done! I just copied it to Excel. Day age, month age, and age were automatically calculated by subtracting my daughter&amp;rsquo;s birthday from the recording date.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/46d9b3e18b0c825b6cd33a70f32a6b75.jpg"
+loading="lazy"
+alt="Excel child growth record table screenshot with Date/Day Age/Month Age/Age/Height cm/Weight kg six columns, date column blurred, day age from 0 to 151, month age from 0 to 5"
+&gt;&lt;/p&gt;
+&lt;h3 id="normal-range-standards"&gt;Normal Range Standards
+&lt;/h3&gt;&lt;p&gt;Reference values are on the National Health Commission&amp;rsquo;s website. The 2022 standard, WS/T 423—2022, is the same source as Baobaoshu:
+&lt;a class="link" href="http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf" target="_blank" rel="noopener"
+&gt;http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The data was in this format:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/344c3b29e936a24e30101cc5f27f1488.jpg"
+loading="lazy"
+alt="National Health Commission weight standard deviation table for girls under 7 years, with Age/-3SD/-2SD/-1SD/Median/&amp;#43;1SD/&amp;#43;2SD/&amp;#43;3SD eight columns, from 0 months to 2 years 6 months"
+&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll explain this table. We&amp;rsquo;ve covered the median. The key is &amp;ldquo;SD,&amp;rdquo; or Standard Deviation. It&amp;rsquo;s a basic statistical term. First, we need to understand normal distribution. The Health Commission&amp;rsquo;s statistics use a large sample size, measuring many children. Height and weight are random and, with a large enough sample, normally distributed around the average (or median, which is very close). A normal distribution looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg"
+loading="lazy"
+alt="Normal distribution bell curve, x-axis labeled μ-3σ to μ&amp;#43;3σ, y-axis shows probability density, marking 68.26%/95.44%/99.72% three standard deviation interval percentages"
+&gt;&lt;/p&gt;
+&lt;p&gt;The horizontal axis is height (or weight), and the vertical axis is the number of children. The center dashed line is the median. Most children are near the median. Fewer children are at the extremes.&lt;/p&gt;
+&lt;p&gt;Now back to standard deviation. We will not discuss formulas or calculations; what matters is the relationship between standard deviation and normal distribution.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg"
+loading="lazy"
+alt="Normal distribution bell curve, x-axis labeled μ-3σ to μ&amp;#43;3σ, y-axis shows probability density, marking 68.26%/95.44%/99.72% three standard deviation interval percentages"
+&gt;&lt;/p&gt;
+&lt;p&gt;Standard deviation appears on the normal distribution curve as the distance between adjacent vertical dashed lines, which are equally spaced. It is like a ruler for the normal distribution. It tells us the proportion of data within a range. For example, 68% of children are within one standard deviation above and below the median; 95% are within two.&lt;/p&gt;
+&lt;p&gt;Standard deviation is a key property of normal distribution. Proportions for 1, 2, and 3 standard deviations are always 68%, 95%, and 99.7%. Knowing the average (or median) and standard deviation lets us find any data point&amp;rsquo;s position.&lt;/p&gt;
+&lt;p&gt;I copied the table to Excel and converted all ages to months:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/f3531f73796d53d8ffbdc8780b0177ab.jpg"
+loading="lazy"
+alt="Excel growth reference table screenshot with Month Age/Weight -3SD to &amp;#43;3SD/Height -3SD to &amp;#43;3SD 17 columns, month age from 0 to 33 listing standard deviation values"
+&gt;&lt;/p&gt;
+&lt;p&gt;The table shows the median and values at 1, 2, and 3 standard deviations above and below it. This helps me see where my daughter&amp;rsquo;s measurements fall and how much they deviate.&lt;/p&gt;
+&lt;h2 id="drawing-the-curve"&gt;Drawing the Curve
+&lt;/h2&gt;&lt;p&gt;Now, the hard part: showing how much my baby&amp;rsquo;s measurements deviate from the normal range. This requires real Excel skills.&lt;/p&gt;
+&lt;p&gt;I had two tables: my baby&amp;rsquo;s data and the reference ranges. I needed to add deviation columns, query the reference table, calculate the deviation, and show it with plus and minus signs. Minuses would be right-aligned in the left column, and pluses left-aligned in the right, creating a simplified diverging bar chart.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/45fffc7570cacc97388e354a71345ff4.jpg"
+loading="lazy"
+alt="Excel growth record table screenshot with Date/Day Age/Month Age/Age/Height cm/Height Deviation/Weight kg/Weight Deviation eight columns, deviation columns pending fill"
+&gt;&lt;/p&gt;
+&lt;h3 id="matching-the-reference-month"&gt;Matching the Reference Month
+&lt;/h3&gt;&lt;p&gt;In theory, this is simple: use VLOOKUP to match the month, then nested IFs to compare and output symbols.&lt;/p&gt;
+&lt;p&gt;But the National Health Commission table has gaps:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/5c73a637afedb7ab9c0b2aefb5cc7feb.jpg"
+loading="lazy"
+alt="Excel growth reference table screenshot with red boxes highlighting 24/27/30/33 month age rows, showing data every 3 months after 2 years, creating month age gaps"
+&gt;&lt;/p&gt;
+&lt;p&gt;From 2 years old, data is provided every 3 months. This is reasonable, as growth slows. But it affects querying. At 25 months, a direct VLOOKUP finds nothing.&lt;/p&gt;
+&lt;p&gt;One workaround is to manually complete the reference table, adding missing months and using values from younger months (e.g., using 24-month values for 25 and 26 months).&lt;/p&gt;
+&lt;p&gt;But I wanted intelligent matching!&lt;/p&gt;
+&lt;p&gt;So, I added a hidden column to find the corresponding reference month for each row.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/301413489ba78fc5a651e39f21d3ae30.jpg"
+loading="lazy"
+alt="Excel growth record table screenshot with red box highlighting new Reference Month Age column, showing month age 25 matches 24, month age 30 matches 30, implementing downward matching to reference table"
+&gt;&lt;/p&gt;
+&lt;p&gt;The formula for this column is:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(A2),&amp;#34;&amp;#34;,INDEX(&amp;#39;Growth_Reference&amp;#39;!A$3:A$46,COUNTIFS(&amp;#39;Growth_Reference&amp;#39;!A$3:A$46,&amp;#34;&amp;lt;=&amp;#34;&amp;amp;C2),0))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In plain English, the formula checks if the date is blank. If so, the cell is empty. Otherwise, it counts rows in the reference table with months less than or equal to the baby&amp;rsquo;s age, effectively &amp;ldquo;matching down.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Before two years, the baby&amp;rsquo;s age matches the reference age. I tested this; a 25-month record will match the 24-month reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/fc8aef6e656e32053bdb2919ec2700b6.jpg"
+loading="lazy"
+alt="Excel table screenshot showing #REF! error, month age 25 row reference month age shows 24, red box highlights that row, demonstrating formula reference error case"
+&gt;&lt;/p&gt;
+&lt;h3 id="calculating-deviation"&gt;Calculating Deviation
+&lt;/h3&gt;&lt;p&gt;The reference month column handles mismatches, so we can calculate deviations.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;height below average&amp;rdquo; column formula serves as an example:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(F2),&amp;#34;&amp;#34;,IF(F2&amp;gt;VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,12),&amp;#34;&amp;#34;,IF(F2=VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,12),&amp;#34;=&amp;#34;,REPT(&amp;#34;-&amp;#34;,5-RANK(F2,{F2,VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,9)},1)))))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Okay, this formula looks insane. Let&amp;rsquo;s break it down, layer by layer, starting from the outside:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Layer 1&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(F2),&amp;#34;&amp;#34;,IF(F2&amp;gt;VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,12),&amp;#34;&amp;#34;,IF(F2=VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,12),&amp;#34;=&amp;#34;,Layer 2)))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This part first checks if the height column (F2) is empty. If so, this cell is also empty. Otherwise, it compares F2 with the corresponding median height from the reference table. If F2 is greater than the median, the cell remains blank (as this column only shows negative deviations). If F2 equals the median, it displays &amp;ldquo;=&amp;rdquo;. If F2 is less than the median, the second layer calculates the number of &amp;ldquo;-&amp;rdquo; signs to output.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Layer 2&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;REPT(&amp;#34;-&amp;#34;,Layer 3)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I initially planned to use nested IF statements to determine the number of minus signs, but that seemed a bit silly. Here&amp;rsquo;s a simpler approach: The REPT function can repeat a string a specified number of times. Now, the problem is passed to the third layer: calculating the number of minus signs to output.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Layer 3&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;5-RANK(F2,{F2,VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,9)},1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here&amp;rsquo;s a hidden gem in Excel: array constants. We often use ranges in formulas, which are implicitly arrays. But did you know you can create arrays manually, like in programming, using curly braces &lt;code&gt;{}&lt;/code&gt;? For instance, &lt;code&gt;{1,2,3,4}&lt;/code&gt; in a formula is the same as:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/9d271467e501fa6968180d9823103a40.jpg"
+loading="lazy"
+alt="Excel cell auto-fill screenshot, column A shows 0 to 9 number sequence, blue fill handle at bottom-right of A5 cell, demonstrating drag-to-fill feature"
+&gt;&lt;/p&gt;
+&lt;p&gt;Array constants are far more flexible. You can combine seemingly unrelated data. Just look at what&amp;rsquo;s inside the &lt;code&gt;{}&lt;/code&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{F2,VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;Growth_Reference&amp;#39;!A$3:O$46,9)}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/914ce9b22412179eaa9415e224c6d770.jpg"
+loading="lazy"
+alt="Excel growth reference table screenshot with red box highlighting -3SD/-2SD/-1SD three columns of height data, values from 44.7 to 61 increasing, used for array formula reference"
+&gt;&lt;/p&gt;
+&lt;p&gt;This array combines my baby&amp;rsquo;s height (F2) with the heights at -1, -2, and -3 standard deviations from the mean.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;RANK(F2,Array,1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Next, &lt;code&gt;RANK&lt;/code&gt; sorts my baby&amp;rsquo;s height among those four values, ascending. Subtracting the rank from 5 gives the number of minus signs. Why 5? Think it through based on different scenarios, and it&amp;rsquo;ll become clear.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/e71ea17395838cdb234236768730de02.jpg"
+loading="lazy"
+alt="Excel growth record table screenshot with red boxes highlighting Height Deviation and Weight Deviation columns, showing –/-/=/&amp;#43;/&amp;#43;&amp;#43; symbols indicating deviation degree"
+&gt;&lt;/p&gt;
+&lt;p&gt;I used a similar approach for the other three deviation columns. It works perfectly. The number of symbols indicates the standard deviation range. 95% of children fall within two standard deviations, so two symbols are fine. All good so far!&lt;/p&gt;
+&lt;h3 id="data-visualization"&gt;Data Visualization
+&lt;/h3&gt;&lt;p&gt;For data visualization, I need to highlight key data. The plus and minus signs are basic.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t need fancy graphics. To flag outliers, I just replaced the pluses and minuses with distinct symbols and added simple conditional formatting for background colors. That&amp;rsquo;s enough for me.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/c45040a172c150fd67749caeb6549102.jpg"
+loading="lazy"
+alt="Excel Conditional Formatting Rules Manager screenshot showing conditional formatting rules for Height Deviation and Weight Deviation columns, 3 symbols yellow background, 4 symbols red background"
+&gt;&lt;/p&gt;
+&lt;p&gt;Three symbols mean the measurements are outside the 95% range – I use yellow. Four symbols mean outside 99.7% – I use red. I manually adjusted a few extreme values for demonstration:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg"
+loading="lazy"
+alt="Excel growth record table final result screenshot with conditional formatting applied to Height Deviation and Weight Deviation columns, yellow highlights 3 symbols, red highlights 4 symbols, intuitively showing deviation degree"
+&gt;&lt;/p&gt;
+&lt;h2 id="wrap-up"&gt;Wrap-up
+&lt;/h2&gt;&lt;p&gt;Finished! Time to uninstall that parenting app. I happily clicked the &amp;ldquo;x&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;There are many growth trackers, but building my own is uniquely satisfying. I learned about arrays, &lt;code&gt;REPT&lt;/code&gt;, and &lt;code&gt;RANK&lt;/code&gt; on the fly – a great experience. The initial planning was the most interesting. Once started, it took just an hour.&lt;/p&gt;
+&lt;p&gt;It shows the power of combining knowledge, tools, and techniques. Improvise, adapt, overcome.&lt;/p&gt;
+&lt;p&gt;I should mention I prefer Google Sheets. Replicating this in Excel might require tweaks, but the formulas are similar.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;[2024.1.18 Update]
+I&amp;rsquo;ve received requests for the spreadsheet. Converting to Excel had issues: Excel doesn&amp;rsquo;t support array constants as a &lt;code&gt;RANK&lt;/code&gt; range, and you can&amp;rsquo;t reference other cells within them. Doing this in Excel is harder, likely needing many nested &lt;code&gt;IF&lt;/code&gt;s. I recommend Feishu sheets or Google Sheets.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve made boy/girl versions available.&lt;/p&gt;
+&lt;p&gt;Boy version:
+&lt;a class="link" href="https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Girl version:
+&lt;a class="link" href="https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Excel自制儿童生长曲线</title><link>https://victor42.eth.limo/post/3641/</link><pubDate>Thu, 03 Aug 2023 14:30:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3641/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg" alt="Featured image of post Excel自制儿童生长曲线" /&gt;&lt;p&gt;Excel狂魔上线，看完你会觉得我们可能用的不是同一个Excel&lt;/p&gt;
+&lt;p&gt;一篇把Excel玩出花来的折腾笔记，涉及数据可视化、AI工具、统计学、Excel公式。不用担心，我会以数据小白的角度来写，最基础的概念我都会解释。&lt;/p&gt;
+&lt;p&gt;不少宝爸宝妈使用育儿App来记录宝贝的生长，追踪身高体重变化。实际上，育儿App那么多功能，我也就用这一项，就为这个就要在手机上装个大几百Mb的App，这让我动了卸载的念头。我也不是真缺这几百Mb，只是忽然意识到，这也是个练手的好机会。不就是个数据分析工具嘛，我万能的Excel会搞不定？&lt;/p&gt;
+&lt;h2 id="系统规划"&gt;系统规划
+&lt;/h2&gt;&lt;p&gt;动手前，想清楚这事情该怎么做。首先来看看育儿App的生长曲线是怎么回事。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/4b1f944ddce86b103a4d13f3d87cc292.jpg"
+loading="lazy"
+alt="宝宝树App体重曲线页面，横轴为月龄从8个月到14个月，纵轴为体重kg从4到44，显示3%/25%/50%/75%/97%五条参考线，绿色数据点沿50%线附近分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;这是宝宝树的儿童生长曲线。中间的50%线是中位数，如果我宝贝的身高（体重）刚好落在这条线上，说明这个月龄比她高（重）的宝贝和比她矮（轻）的宝贝人数大概一样多。往上的75%线和97%线，表示这个位置身高（体重）超过75%和97%的同龄宝贝，往下的25%和3%同理。看宝贝的数据点落在什么位置，大概就知道她生长状况相对整体如何。&lt;/p&gt;
+&lt;p&gt;我要的也是一个类似的分析工具，它应该具有以下能力：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;能记录宝贝每次测得的身高体重&lt;/li&gt;
+&lt;li&gt;能查询各月龄的身高体重正常范围&lt;/li&gt;
+&lt;li&gt;能清晰表达我宝贝各月龄身高体重偏离正常范围的程度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;至于这东西是不是个图表、有没有曲线，不重要。重要的是第3点，它的计算能力，能衡量偏离程度，并用一种直观的方式表示出来。这一点我认真构思了一下，觉得比较适合的表现形式是有两个方向的条形图，类似这种：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/51645a0d58eb8f178201bf94e5759ab0.jpg"
+loading="lazy"
+alt="双向条形图Birth Rate by Years，中间为年份1940-2010，左侧橙色条表示20-25岁母亲生育率，右侧蓝色条表示30-35岁母亲生育率"
+&gt;&lt;/p&gt;
+&lt;p&gt;这类图表叫做diverging bar chart，不知道中文叫什么。它可以把两组数据在同一个维度上两两对比。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/e448352c2994787d901a185b08c8d234.jpg"
+loading="lazy"
+alt="R语言Diverging Bars示例图，展示mtcars数据集汽车油耗与均值偏差，绿色Above Average向右，红色Below Average向左"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果只用来表达一组数据，它反映的就是该数据围绕某个基准值的方向及距离，最常见是表达正负。&lt;/p&gt;
+&lt;p&gt;这很适合用来表示我宝贝的生长数据，以参考值的中等水平作为基准值，表现女儿的身高（体重）是偏低了还是偏高。至于偏离基准值多远，图表用柱子长短来表达，柱子长短的差异有时不是那么明显，我觉得应该进一步简化，只使用符号。低于基准值用减号，高于基准值用加号，偏离越多符号就越多，这样当我看到三、四个加号（+++）减号（&amp;mdash;-）时，就知道宝贝的生长趋势该引起重视了。&lt;/p&gt;
+&lt;h2 id="准备数据"&gt;准备数据
+&lt;/h2&gt;&lt;p&gt;有了具体目标，该开始干活了。先实现前2项能力：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;能记录宝贝每次测得的身高体重&lt;/li&gt;
+&lt;li&gt;能查询各月龄的身高体重正常范围&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="宝贝生长数据"&gt;宝贝生长数据
+&lt;/h3&gt;&lt;p&gt;宝贝的身高体重数据存在宝宝树App里，形式如图（月龄的左边还有一行日期，不想暴露女儿生日，没截进来）：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/235b2773b1b549f5fd1e0f7c0109a66e.jpg"
+loading="lazy"
+alt="宝宝树App儿童生长记录列表截图，显示1岁3个月17天/1岁2个月16天/1岁1天/11个月15天/9个月25天等记录，包含身高cm/体重kg/头围cm数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;宝宝树没有数据导出功能。虽然我可以一条条手动输入到Excel，但难道不该用聪明点的办法吗？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/129e9d7d3955d9993665691008c1ed88.jpg"
+loading="lazy"
+alt="Google Play商店ScreenMaster Screenshot Markup应用页面，Blossgraph开发，4.5星77.6K评价，5M&amp;#43;下载量"
+&gt;&lt;/p&gt;
+&lt;p&gt;我先把宝宝树里的记录一屏一屏截下来，用了一个叫Screen Master的Android应用拼成长图。&lt;/p&gt;
+&lt;p&gt;然后使用白描OCR工具（&lt;a class="link" href="https://web.baimiaoapp.com/" target="_blank" rel="noopener"
+&gt;https://web.baimiaoapp.com/&lt;/a&gt;）从长图中识别出文字，得到如下右侧结果：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/406e2e8b96b201bcd2c1dc7f81b6ca28.jpg"
+loading="lazy"
+alt="白描OCR网页端截图，左侧Origin Photo显示宝宝树生长记录截图，右侧Results显示识别出的文字内容，日期/身高/体重/头围数据混排"
+&gt;&lt;/p&gt;
+&lt;p&gt;这样格式错乱混在一起，乍看没法用。但在AI时代，这都不是事儿。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/804e5aee1ef71590beb2ce89bce6c424.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求将OCR识别内容改成表格形式，以日期为索引值首列，日期后面信息填入第2列以空格分隔"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/8d39c1dc3fbfcf00e004039bbd048a6c.jpg"
+loading="lazy"
+alt="ChatGPT输出表格截图，日期列和信息列两列，信息列包含年龄/体重/身高/体重/头围等混合数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/b8eb3273e39b3b1bd4f907e3b3be96ce.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把日期列改成M/D/YYYY的格式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/a9d0f842c04bd04b253d65f8f1859aae.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把信息列里的几岁几个月几天这样的信息删掉"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/ec608ab8c15ca818cd40b3a43f3efc6b.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把信息列拆分成身高/体重/头围三列，kg单位数据填入体重列，cm单位数据填入身高列，第二个cm数据填入头围列"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/288d76243237d4eb503a3277996cf976.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把每列的单位写到表头里，列内容只保留数值，同时把头围列里的补充营养提示删掉"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/375eb891054588a05fca2c0829970791.jpg"
+loading="lazy"
+alt="ChatGPT输出清洗后表格截图，包含日期/身高cm/体重kg/头围cm四列，日期列模糊处理，数值列仅保留数字"
+&gt;&lt;/p&gt;
+&lt;p&gt;搞定！复制到Excel即可。补充一下，表里的日龄、月龄、年龄是用记录日期减去女儿生日得到的，自动计算无需手填。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/46d9b3e18b0c825b6cd33a70f32a6b75.jpg"
+loading="lazy"
+alt="Excel儿童生长记录表截图，包含日期/日龄/月龄/年龄/身高cm/体重kg六列，日期列模糊处理，日龄从0到151，月龄从0到5"
+&gt;&lt;/p&gt;
+&lt;h3 id="正常范围标准"&gt;正常范围标准
+&lt;/h3&gt;&lt;p&gt;各月龄的身高体重参考值，在卫健委的网站可以找到。2022年发布的标准，还蛮新的，编号是WS/T 423—2022，跟宝宝树同一个数据源：
+&lt;a class="link" href="http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf" target="_blank" rel="noopener"
+&gt;http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;里面找到了格式如下的数据，正是我要的：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/344c3b29e936a24e30101cc5f27f1488.jpg"
+loading="lazy"
+alt="卫健委7岁以下女童年龄别体重标准差数值表，包含年龄/-3SD/-2SD/-1SD/中位数/&amp;#43;1SD/&amp;#43;2SD/&amp;#43;3SD八列，从0月到2岁6月逐行列出"
+&gt;&lt;/p&gt;
+&lt;p&gt;稍微解释下这个表格的意思。中位数前面讲过，这里最关键的是看懂这个“SD”，Standard Deviation，标准差。这是个非常基础的统计学术语，在解释标准差之前，我们需要先了解正态分布。要知道，卫健委统计的儿童身高体重，样本量一定是非常大的，也就是说测量了很多很多儿童的身高体重。身高体重这种随机产生的数据，只要样本量够大，每个儿童的数值就会围绕平均数（这里它用的是中位数，与平均数应该很接近）呈正态分布。这是正态分布的样子：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg"
+loading="lazy"
+alt="正态分布钟形曲线图，横轴标注μ-3σ到μ&amp;#43;3σ，纵轴为概率密度，标注68.26%/95.44%/99.72%三个标准差区间占比"
+&gt;&lt;/p&gt;
+&lt;p&gt;横向是身高（体重）的值，由小到大，纵向是该身高（体重）对应的儿童人数。中央的垂直虚线代表中位数，绝大多数儿童的数据落在中位数附近，说明还是中等水平的儿童最多。越往两边去，人数越少，说明身高（体重）值特别低或者特别高的人很少，情况越极端，人数越少。&lt;/p&gt;
+&lt;p&gt;现在说回标准差。我们不谈公式，不做计算，不必关心它怎么来的，我们关心的是标准差和正态分布的关系。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg"
+loading="lazy"
+alt="正态分布钟形曲线图，横轴标注μ-3σ到μ&amp;#43;3σ，纵轴为概率密度，标注68.26%/95.44%/99.72%三个标准差区间占比"
+&gt;&lt;/p&gt;
+&lt;p&gt;标准差体现在正态分布图上，就是每两根垂直虚线间的距离，这些虚线是等距的。怎么理解标准差？它是正态分布的一把标尺，通过标准差，我们可以准确知道某个范围内的数据占总数的比例。比如我们可以说，有68%的儿童，身高（体重）在中位数上下一个标准差范围内。有95%的儿童，身高（体重）在上下两个标准差范围内。&lt;/p&gt;
+&lt;p&gt;要注意它名字里有“标准”二字，这两个字可不是随便说说的。标准差是正态分布的一个独特性质，不同的数据集算出的标准差数值可能不一样，但比例却是一致的。只要是正态分布，它1个、2个、3个标准差范围对应的占比就一定是68%、95%、99.7%，这就是神奇的地方。生活中各种各样的随机数据，都会呈现正态分布。所以只要我们知道了平均值（或中位数）和标准差，就可以知道手上任何一个数据在整体中所处的位置。&lt;/p&gt;
+&lt;p&gt;现在，回来处理数据，把卫健委表格复制到Excel，年龄全部折算成月龄：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/f3531f73796d53d8ffbdc8780b0177ab.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，包含月龄/体重-3SD到&amp;#43;3SD/身高-3SD到&amp;#43;3SD共17列，月龄从0到33逐行列出标准差数值"
+&gt;&lt;/p&gt;
+&lt;p&gt;表格里列出了每个月龄儿童身高（体重）中位数是多少，低于和高于中位数1、2、3个标准差位置的数值分别是多少。这就是我要的判断依据，知道女儿的身高（体重）在同龄宝贝里处于什么位置，相对于中等水平偏离得严不严重。&lt;/p&gt;
+&lt;h2 id="绘制曲线"&gt;绘制曲线
+&lt;/h2&gt;&lt;p&gt;接下来，要啃硬骨头了，来实现第3个能力，“表达我宝贝在相应月龄身高体重偏离正常范围多少”，这是实打实的Excel技巧。&lt;/p&gt;
+&lt;p&gt;现在我的Excel里有两张表格，一张记录着我宝贝各月龄的数据表，一张列出各月龄的正常值范围的参照表。我要做的是在宝贝数据表里新增几列偏离列，在里面查询参照表，得出偏离程度，以加减号的形式表现出来。减号写在左列，靠右对齐；加号写在右列，靠左对齐。这就实现了简化版diverging bar chart。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/45fffc7570cacc97388e354a71345ff4.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，包含日期/日龄/月龄/年龄/身高cm/身高偏离/体重kg/体重偏离八列，偏离列待填充"
+&gt;&lt;/p&gt;
+&lt;h3 id="匹配对照月龄"&gt;匹配对照月龄
+&lt;/h3&gt;&lt;p&gt;这个事情想想是不难，不就是拿vlookup去查嘛，月龄对上，然后一堆If嵌套对比数值大小，输出符号，肯定能搞定。&lt;/p&gt;
+&lt;p&gt;一动手发现没那么简单，因为卫健委表格的月龄有断档：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/5c73a637afedb7ab9c0b2aefb5cc7feb.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，红框标注24/27/30/33月龄行，显示2岁后每3个月才有一行数据，存在月龄断档"
+&gt;&lt;/p&gt;
+&lt;p&gt;它从2周岁开始，每3个月才出一行数据。这很合理，宝贝过了2周岁后，生长确实没有婴儿时那么快了，没必要那么频繁去追踪。但这影响到我的查询方法，如果我在宝贝25月龄的时候记录身高体重，直接用vlookup去查，什么也匹配不到，后续的计算便无从谈起。&lt;/p&gt;
+&lt;p&gt;此时有个土办法，规整数据，手动补全参照表。把缺失的月龄加上，用更小月龄的参照值来填充。比如把25、26月龄的参照标准都填成24月龄的。&lt;/p&gt;
+&lt;p&gt;但这是练手项目啊，拒绝土办法。我要在宝贝数据表里实现智能匹配！&lt;/p&gt;
+&lt;p&gt;于是再增加一个隐藏列，用来计算每行的月龄对应参照表里多大月龄。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/301413489ba78fc5a651e39f21d3ae30.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，红框标注新增的对照月龄列，显示月龄25时匹配24，月龄30时匹配30，实现向下匹配参照表"
+&gt;&lt;/p&gt;
+&lt;p&gt;这一列的公式如下：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(A2),&amp;#34;&amp;#34;,INDEX(&amp;#39;生长对照表&amp;#39;!A$3:A$46,COUNTIFS(&amp;#39;生长对照表&amp;#39;!A$3:A$46,&amp;#34;&amp;lt;=&amp;#34;&amp;amp;C2),0))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;翻译成人话是：先查日期列是不是空的，它空我也空。如果不是，就去参照表里数一数比宝贝月龄小或者相等的有多少行，这就实现了向下匹配。&lt;/p&gt;
+&lt;p&gt;在2周岁以前，月龄与对照月龄一定是相同的。我手动测试了一下，25月龄时如果有记录，它会匹配24月龄作为参照。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/fc8aef6e656e32053bdb2919ec2700b6.jpg"
+loading="lazy"
+alt="Excel表格截图显示#REF!错误，月龄25行对照月龄显示24，红框标注该行，演示公式引用错误情况"
+&gt;&lt;/p&gt;
+&lt;h3 id="计算偏离程度"&gt;计算偏离程度
+&lt;/h3&gt;&lt;p&gt;有了对照月龄列，不担心参照表匹配不上，现在可以放心在偏离列里做计算了。&lt;/p&gt;
+&lt;p&gt;以身高偏低列的公式为例：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(F2),&amp;#34;&amp;#34;,IF(F2&amp;gt;VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;&amp;#34;,IF(F2=VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;=&amp;#34;,REPT(&amp;#34;-&amp;#34;,5-RANK(F2,{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)},1)))))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;啊……这个公式就有点丧心病狂了，我要先拆解一下再翻译。从外向里看，分为3层：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第1层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(F2),&amp;#34;&amp;#34;,IF(F2&amp;gt;VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;&amp;#34;,IF(F2=VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;=&amp;#34;,第2层)))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这部分先看身高列是不是空的，它空我也空。如果不是，就开始把它与参照表对比，查出对应的身高中位数是多少。如果高于中位数，这列留空（这列专填减号）；如果等于中位数，写个等号“=”；如果低于中位数，就进入第二层，输出一定数量的减号。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第2层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;REPT(&amp;#34;-&amp;#34;,第3层)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;原本是打算用一层又一层的 If 条件判断来决定输出几个减号，后来想想这方法也有点傻。这就是简单的方法，Rept函数可以把一个字符串重复输出一定次数。现在问题甩给第3层，计算要输出减号的数量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第3层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;5-RANK(F2,{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)},1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此处用到一个Excel隐藏技巧：数组。Excel公式里引用一个范围，这就构成一个数组，我们大多数时候就是这么用的。但你知道吗？可以像编程软件那样，在Excel里手动创建数组，关键就是这个大括号 &lt;code&gt;{}&lt;/code&gt; 。比如 &lt;code&gt;{1,2,3,4}&lt;/code&gt; 在Excel公式里就等效于这个：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/9d271467e501fa6968180d9823103a40.jpg"
+loading="lazy"
+alt="Excel单元格自动填充截图，A列显示0到9数字序列，蓝色填充柄在A5单元格右下角，演示拖拽填充功能"
+&gt;&lt;/p&gt;
+&lt;p&gt;但数组的用法更灵活，可以手动把八竿子打不到一块的数据凑在一起。单看 &lt;code&gt;{}&lt;/code&gt; 里的内容：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/914ce9b22412179eaa9415e224c6d770.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，红框标注-3SD/-2SD/-1SD三列身高数据，数值从44.7到61递增，用于数组公式引用"
+&gt;&lt;/p&gt;
+&lt;p&gt;我这个数组，把宝贝的身高（F2）和-1、-2、-3个标准差的身高值放在一个数组里。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;RANK(F2,数组,1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后用Rank函数做个排序，得出宝贝身高在这4个数值里从小到大排第几。最后再用5减去这个数字，就得到减号的数量。至于为什么是用5减，这是个数学问题，不展开，但分情况想想就很容易理解了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/e71ea17395838cdb234236768730de02.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，红框标注身高偏离和体重偏离两列，显示–/-/=/&amp;#43;/&amp;#43;&amp;#43;等符号表示偏离程度"
+&gt;&lt;/p&gt;
+&lt;p&gt;用类似原理，改出另外3个偏离列的公式，效果立竿见影。几个符号表示宝贝的数值在几个标准差范围内。根据正态分布的特征，95%的儿童生长数据都在2个标准差范围内，所以看到2个符号时，我没什么需要担心的，目前为止宝贝一切正常。&lt;/p&gt;
+&lt;h3 id="数据可视化"&gt;数据可视化
+&lt;/h3&gt;&lt;p&gt;既然要做数据可视化，就要让值得留意的数据更显眼，一目了然。加减号的效果稍微糙了点。&lt;/p&gt;
+&lt;p&gt;其实用不着多复杂的图形设计、高级渐变色之类的。要突出异常值，只需要用区别足够明显的符号代替加减号，再简单写个条件格式，用背景色区分就能达到目的，我自己用足够了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/c45040a172c150fd67749caeb6549102.jpg"
+loading="lazy"
+alt="Excel条件格式规则管理器截图，显示身高偏离和体重偏离列的条件格式规则，3个符号黄色背景，4个符号红色背景"
+&gt;&lt;/p&gt;
+&lt;p&gt;3个符号它代表宝贝的数值低于或高于95%的同龄儿童，需要引起重视了，用黄色。4个符号表示低于或高于99.7%的同龄儿童，用红色。我手动改了几个极端值出来，实际效果如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg"
+loading="lazy"
+alt="Excel生长记录表最终效果截图，身高偏离和体重偏离列应用条件格式，黄色高亮3个符号，红色高亮4个符号，直观显示偏离程度"
+&gt;&lt;/p&gt;
+&lt;h2 id="后记"&gt;后记
+&lt;/h2&gt;&lt;p&gt;搞定，收工！现在可以把育儿App卸了，愉快按下叉叉按钮。&lt;/p&gt;
+&lt;p&gt;这类生长记录小工具，我相信有很多现成的，但自己创造的乐趣是它们无法替代的。像其中的数组、Rept函数、Rank函数，都是现学现用，收获很大。这里面最有意思的部分其实是前期的规划构思，真正动起手来，整个过程1小时就搞定了。&lt;/p&gt;
+&lt;p&gt;它印证了多种知识、工具、技巧相互组合的威力。见招拆招，总能有效解决问题。&lt;/p&gt;
+&lt;p&gt;最后说明一下，我们用的真的不是同一个Excel，我更喜欢用Google Sheets。如果想要在Excel里重复我的实验，未必能成功。可能少数细节要变通一下，但两者的公式和用法是高度一致的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;【2024.1.18 更新】
+有些朋友想要表格文件，我亲自尝试了下，转成Excel后部分公式无法正常工作了。因为Excel并不支持把数组常量作为rank的引用范围，而且数组常量里也无法引用其他单元格。所以Office的Excel做这个会相对麻烦，估计得一堆if嵌套了，还是建议大家有条件就用飞书表格或Google Sheets。&lt;/p&gt;
+&lt;p&gt;我把这个表格做了两个可供取用的版本（男宝/女宝）：&lt;/p&gt;
+&lt;p&gt;男宝版：&lt;br&gt;
+&lt;a class="link" href="https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;女宝版：&lt;br&gt;
+&lt;a class="link" href="https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

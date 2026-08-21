@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IPhone on Victor42</title><link>https://victor42.eth.limo/tags/iphone/</link><description>Recent content in IPhone on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 08 Oct 2014 18:08:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/iphone/index.xml" rel="self" type="application/rss+xml"/><item><title>一张图告诉你 iPhone 6 (plus) 多难搞</title><link>https://victor42.eth.limo/post/3394/</link><pubDate>Wed, 08 Oct 2014 18:08:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3394/</guid><description>&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-10/10-08/1.jpg"
+loading="lazy"
+alt="iPhone与Android屏幕规格对比图，左侧5/5s、6、6&amp;#43;三款机型，右侧hdpi、xhdpi、xxhdpi三档，下方列出倍率、物理像素和逻辑像素数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然从屏幕长宽比来看，16:9可以说是手机界的共识，可不要高兴得太早，有个更大的坑在等着我们。&lt;/p&gt;
+&lt;p&gt;iPhone 6 (plus)的问世让我们不得不重新考虑，iPhone的UI要怎么做？画布设多大？&lt;/p&gt;
+&lt;p&gt;根据以往Android的经验，尽管屏幕物理尺寸多如牛毛，但是除以相应的倍率，得到的逻辑像素比较统一，不同屏幕上显示的信息量是一样的。少数另类也是即将淘汰的老旧设备，稍稍偏小一点，设计时酌情考虑即可。&lt;/p&gt;
+&lt;p&gt;现在iPhone的情况似乎有点不妙，物理尺寸除以倍率，真是一种一个样啊！不同的逻辑像素意味着屏幕的信息量不一样，而且可以差很大。对比5s和6+的逻辑像素，真的差很远。这会导致5s上刚刚好的设计，在6+上显得太空旷；6+上刚刚好的设计，5s上一定变老人机。&lt;/p&gt;
+&lt;p&gt;与此相比，多切一套图真不算什么。真正的挑战，是一套设计已经不够了。当然我们可以为大屏的6+单独设计。但5s和6即使倍率相同，逻辑像素也不一样。这意味着我们要在一套设计中处处考虑大小两种屏幕尺寸。&lt;/p&gt;
+&lt;p&gt;所以iOS8的更新意义重大，开发若再像以前那样靠绝对坐标来做UI布局，一定是无法兼顾两者的，自适应布局是唯一的出路。我们需要尽快转变观念，像网页设计那样来做App的UI布局。况且6和6+还提倡横屏模式，响应式设计是大势所趋。&lt;/p&gt;</description></item><item><title>新iPhone6与Apple watch给设计师带来的影响</title><link>https://victor42.eth.limo/post/3393/</link><pubDate>Sun, 28 Sep 2014 19:12:31 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3393/</guid><description>&lt;p&gt;&lt;strong&gt;国外设计第59期&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;九月9日，苹果发布了一些很棒的新产品。但它对设计师而言意味着什么呢？不论发布会主题是否令你影响深刻，我们都能领教它所要表达的东西。&lt;/p&gt;
+&lt;p&gt;有更多的产品供人选择，于是也有更多的事物给设计师们带来影响。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/apple-sizes.jpg"
+loading="lazy"
+alt="新iPhone6与Apple watch给设计师带来的影响设"
+&gt;&lt;/p&gt;
+&lt;p&gt;##屏幕更多样化&lt;/p&gt;
+&lt;p&gt;显然，作为设计师，我们会担心或欣赏这两种新的iPhone带来的屏幕差异。设计师们总偏向于iPhone——看看Dribbble上有多少Android作品就知道了。iPhone曾经有固定的尺寸，设计起来很容易。如今则不然。随着新增的Retina HD，我们又得多应对一种分辨率。&lt;/p&gt;
+&lt;p&gt;###屏幕尺寸&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/iphone-sizes-screen.jpg"
+loading="lazy"
+alt="新iPhone6与Apple watch给设计师带来的影响设"
+&gt;&lt;/p&gt;
+&lt;p&gt;更多信息请查看&lt;a class="link" href="http://designmodo.com/wp-content/uploads/2014/09/NewiPhoneDesignGuide-Part01.pdf" target="_blank" rel="noopener"
+&gt;PDF that Lemonat Studio&lt;/a&gt;，聚合了4种iPhone的详细信息。&lt;/p&gt;
+&lt;p&gt;###带动响应式设计&lt;/p&gt;
+&lt;p&gt;更多种屏幕尺寸给我们机会拥抱响应式设计。响应式设计很灵活，我们应该尽可能利用我们的优势。由于这两种明显增大的iPhone，使我们有机会让响应式网页更富创造性。至少，我们会更擅长使用大屏手机测试响应式网页；这点对所有大屏Android手机也是有利的。谁知道呢，或许我们还会开始考虑平板，就这点而言，iPhone 6 Plus几乎和iPad Mini的尺寸相当了。&lt;/p&gt;
+&lt;p&gt;###横向App&lt;/p&gt;
+&lt;p&gt;苹果指出，iPhone 6 Plus的亮点之一是它的横屏尺寸。对横屏设计的强调令人耳目一新。我们要面对现实，不论在app还是响应式网页中，这都不是我们常做的设计。不管怎样，我们是时候也应该这么做了。拥抱更大的屏幕吧，打造支持横竖屏的美丽迷人的app，来挥洒你的创造性。&lt;/p&gt;
+&lt;p&gt;###重点&lt;/p&gt;
+&lt;p&gt;不论你喜欢与否，苹果推出的两种新iPhone尺寸会给设计带来深远影响。我们有两种选择，逃避式地将设计适当放大，或是拥抱它的挑战，让我们为那些屏幕打造崭新的、更优秀的设计。&lt;/p&gt;
+&lt;p&gt;###Android怎么办？&lt;/p&gt;
+&lt;p&gt;是的，我知道Android很早以前就开始出现大屏幕了。但是，出于某些原因，设计师们都还是偏向于iPhone。通常，客户也优先考虑iPhone app。这或许意味着，随着iPhone的尺寸如今与Android相同或相似，我们终于可以同时包含两种手机的设计了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/iphone-6-vs-moto-x-vs-lg-g2-mini.jpg"
+loading="lazy"
+alt="新iPhone6与Apple watch给设计师带来的影响设"
+&gt;&lt;/p&gt;
+&lt;p&gt;##Apple Watch是个新挑战&lt;/p&gt;
+&lt;p&gt;Apple Watch，苹果推出的新手表产品，和其他苹果设备都不一样。它是可定制的、个性化的，也很迷你。不像同样拥有小屏幕的iPod，Apple Watch可以安装app。这点很重要，因为我们将会设计那些app。Apple Watch有它的局限，比如它只是第一代，屏幕也很小。这意味着两件事。首先，我们要拥抱小屏幕，将它的局限当作一项光荣的创意挑战。或者索性避开这款手表。可穿戴设备才刚刚起步，让人难以拥抱它们，因为它还不是一个完美的设备。所以，第二个选择可能意味着Apple Watch会成为一个迷失的媒介，像iPad一样。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/apple-watch.jpg"
+loading="lazy"
+alt="新iPhone6与Apple watch给设计师带来的影响设"
+&gt;&lt;/p&gt;
+&lt;p&gt;不过看到苹果在尝试探索可穿戴科技，总是件好事情。不论设计圈未来会如何对待Apple Watch，有一点可以肯定，当下Apple Watch是一款热门的激动人心的设备。&lt;/p&gt;
+&lt;p&gt;###无穷的可能性&lt;/p&gt;
+&lt;p&gt;这个动作引发了一个巨大的疑问：苹果下一步会做什么？我猜苹果未来会分化出其他产品和技术——包括可穿戴设备。更大的新iPhone使得这点尤其肯定。苹果开始走向多样化。&lt;/p&gt;
+&lt;p&gt;##苹果不再是从前那个苹果公司了&lt;/p&gt;
+&lt;p&gt;这次的主题显然令人大开眼界。苹果不再是曾经那个苹果了。指出Tim Cook和Steve Jobs之间的差别再容易不过，但远非这么简单。这家公司在以一种与以往不同的方式做事情，你可以认为更换CEO是件坏事，但如果意识到它已经是另一家公司，其实就是件好事。不论你如何诠释，苹果的变革就发生在我们身边。&lt;/p&gt;
+&lt;p&gt;###产品设计的多样性&lt;/p&gt;
+&lt;p&gt;如果你看看最新的iPhone、iPod、ipad，你会注意到他们显然不同。苹果的产品从前遵循着相似的设计信条。早先的Mac OS版本与更早的比较相似，比如iOS6和Maverick。iPad是照着iPhone的模子做的，iPod的设计也被修改以配合iPhone。如今，苹果的产品很多样化，最新一代iPod与时下的iPad完全不同，iPad和Apple Watch也不同，它又不同于……你明白的。这就意味着作为设计师，我们应该期望做出不同的设计和风格。&lt;/p&gt;
+&lt;p&gt;###可定制的Apple Watch&lt;/p&gt;
+&lt;p&gt;新苹果的一个显著特征，是推广可定制的、个性化的产品。Apple Watch是第一款能够让你自己定制的苹果产品。在这之前，苹果都在照着它的行事风格，为你打造完美无缺的产品——你要么爱上并购买它，要么不会。（当然，它允许一点点定制化。）&lt;/p&gt;
+&lt;p&gt;我选择iPhone而非Android手机，那是因为我信任苹果的设计师与工程师能够为我提供最佳的体验。我不需要定制化，我信任产品的体验，毕竟这些设计师都是专家。我知道这样的人不止我一个。这款手表尚不能完全定制，无法选择不同的造型——比如圆形或方形表盘——但它仍然走了一条与先前的苹果产品截然不同的路线。&lt;/p&gt;
+&lt;p&gt;###重点&lt;/p&gt;
+&lt;p&gt;作为设计师，摆在我们面前的是苹果式设计的多样化风格。它会改变我们为不同设备开发的方式，也会改变设备本身的设计如何激发我们前进。&lt;/p&gt;
+&lt;p&gt;你怎么看？你觉得苹果最近的发布会将给设计圈带来怎样的影响？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/iphone-6-watch-design/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>iPhone6的创意概念设计</title><link>https://victor42.eth.limo/post/2781/</link><pubDate>Sun, 08 Sep 2013 21:49:36 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2781/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第9期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1207855-Stats-iOS-7-style" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/12.jpg"
+loading="lazy"
+alt="iPhone 6概念设计Stats应用iOS 7模糊背景数据统计界面.wrap-around屏幕设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;随着几个月前iOS7的亮相和iMac的全新产品设计问世，我们可以瞥见今年秋季苹果新产品线的冰山一角。尽管很多设计师对于&lt;a class="link" href="http://designmodo.com/new-apple-not-flat/" target="_blank" rel="noopener"
+&gt;新iOS设计&lt;/a&gt;表示愤怒，实际上我也是，有些设计师已经开始拥抱它并将它推向一个新的高度。我的意思是，他们已经接受了新的iOS设计风格并且进行了改进。不管怎么说，这还不是所有，他们也创造了iPhone 6的概念设计，让整个概念设计走得更远&lt;/p&gt;
+&lt;p&gt;我们都焦急期待着苹果将在9月发布会上展示什么，就像一直以来，设计师们都会创造他们期望看到的产品原型。这些iPhone 6概念是其中一部分。不管怎么说，这些特别的设计都值得一谈&lt;/p&gt;
+&lt;p&gt;简而言之，我觉得它们都是漂亮的界面设计，囊括了新的苹果设计风格来打造惊人的外观。它们有着欢乐且丰富的配色、纤细的字体和新iPhone界面下有趣的使用体验&lt;/p&gt;
+&lt;h2 id="新iphone"&gt;新iPhone
+&lt;/h2&gt;&lt;p&gt;那么新iPhone的概念设计有什么不同？嗯……最重要的一点，是你会注意到它看起来很像iPhone 5但是屏幕边缘包裹手机。个人感觉这看起来相当优雅，但从可用性角度来看，在实际设备上可能没那么好用，不过那只是我自己的用户体验主张&lt;/p&gt;
+&lt;p&gt;接下来这些例子中可以看出，一些设计师把这部分空间用作社交媒体的小按钮，其他人就只是把漂亮的界面背景延伸到上面。这种边缘延伸相当唯美，虽然这个细长尴尬的空间看起来难以加入更多实用功能&lt;/p&gt;
+&lt;h2 id="案例集锦"&gt;案例集锦
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1188123-Adventurous-Reader-Mobile-Site-WIP" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/1.jpg"
+loading="lazy"
+alt="iPhone 6环绕屏阅读器应用红色暖调配色扁平化iOS7界面设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第一个界面非常高雅，这得益于它温暖的红色调配色。上层界面的背景图非常有趣，充分利用了不同色彩间的戏剧性效果。视线事实上直接被吸引过去了。总体上这个界面没有太多内容，因为它除了一个简单的三角形图标、一行标题和一个确认按钮之外就没什么了&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1194385-twitter-prototype-Iphone-6-Wrap-Around-Screen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/2.jpg"
+loading="lazy"
+alt="iPhone 6环绕屏Twitter应用iOS7扁平化原生风格界面概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个Twitter界面看起来是多么不同！不过它确实遵从了iOS 7的设计风格。因为虽然可以看出Twitter app的功能还是一样，新的皮肤让它看起来像是苹果设计的原生app。但它不是个糟糕的设计，我喜欢那些小说明箭头，附加了一种强烈的设计感，你觉得呢？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1195581-iOS7-Lockscreen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/3.jpg"
+loading="lazy"
+alt="iPhone 6概念版iOS7星空背景锁屏界面纤细字体设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是新iOS7锁屏界面在iPhone 6概念版中的精彩演绎。尽管这回界面与新iOS的设计非常接近，让人看到了华丽纤细的字体。但这个星空背景和以此著称的苹果设计主题实在太贴切了&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1191824-Translucent-Infinity-screen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/4.jpg"
+loading="lazy"
+alt="iPhone 6半透明无限屏彩色渐变背景锁屏天气界面iOS7概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是我个人最喜欢的一个，因为这彩色的背景。它简直可以用辉煌灿烂形容。这也是个锁屏界面，可以看到当前天气。事实上图标设计和字体极其相称。但鲜艳的背景色才是引人注目的焦点。这些颜色令人欲罢不能&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1191163-Messaging-App-Friends-w-iPhone-6" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/5.jpg"
+loading="lazy"
+alt="iPhone 6消息通讯应用好友列表iOS7扁平设计风格环绕屏概念"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我不得不说，我欣赏这个消息界面设计，因为它是那么直白切题，真了不起。虽然和iOS7中展现的有少许不同，它仍然遵从了新的扁平iOS7设计。这件作品和影响了新iOS设计风格的扁平设计大潮结合地恰到好处&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1190633-iPhone-6-Infinity" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/6.jpg"
+loading="lazy"
+alt="iPhone 6 Infinity极简锁屏界面上滑解锁大字体iOS7概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这有另一款极简却美妙的锁屏界面。当然，又是一张令我们神魂颠倒的精彩背景图。但如果你整个看下来，你会发现它巨大的字体，还有新的iPhone解锁方式——上滑，而非右滑。这个创意来自通知中心的下滑动作，解锁功能于是颠倒过来&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1190794-Fun-with-freebies" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/7.jpg"
+loading="lazy"
+alt="iPhone 6蓝色调扁平锁屏界面上滑解锁长阴影设计iOS7风格"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;与这系列中其他大部分锁屏界面不同，这款用了扁平的背景，非常棒。这件作品实际上是前一个的回应，能看到同样华丽的上滑解锁功能。不管怎么说，我都觉得这件设计非常赞，因为蓝色调显得如此高贵，也因为它包含了iOS7亮相以来在Dribbble上盛行的长阴影设计趋势。这个结合干净利索&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1199240-Weather" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/8.jpg"
+loading="lazy"
+alt="iPhone 6天气应用扁平化长阴影图标厚实风格iOS7概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;又是长阴影和天气。这个app扁平地很迷人。没有iOS7典型的纤细字体和图标，这件设计使用细温度字体，其他所有地方却都用了厚实的图标。这个对比非常有趣，因为这两者间的平衡恰到好处。实际上这个天气app设计还有很多内容，但它执行良好，一点也不显得杂乱&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1191957-Square-Register-Infinity-Screen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/9.jpg"
+loading="lazy"
+alt="Square Register支付应用iOS7风格计算器界面明亮简洁环绕屏概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Square的产品设计和界面设计都相当漂亮。这件Square App的概念设计iOS7风格执行地很到位。这其实就是个想象中的计算器应用，但它看起来很棒。你觉得吗？它看起来集明亮、现代、简洁和优雅于一身&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1198705-Your-trip-app" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/10.jpg"
+loading="lazy"
+alt="旅行分享应用深色木炭灰配红色对比配色iPhone 6环绕屏iOS7概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是个相当优雅的旅行app概念设计，可以让你分享旅行地点给朋友。我喜欢这件设计的地方，是在大部分iOS7设计都使用亮色时，它大胆地采用了深色配色，令人耳目一新。木炭灰与红色的强烈对比让人爱不释手。而且白色的小小高亮元素简直是神来之笔&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1207855-Stats-iOS-7-style" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/09/12.jpg"
+loading="lazy"
+alt="Stats数据统计应用iOS7模糊背景白色半透明图表环绕屏iPhone 6概念设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最后一件作品展示了讨喜的模糊背景——沿袭iOS7的作风，自从它拥抱模糊背景的界面设计之后。它主体部分有一堆看似单一的白色图表，用了不同的透明度来展现。它们灰白混搭，看上去组织良好，一点也不显得杂乱&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/iphone-6-concepts/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

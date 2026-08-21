@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IOS on Victor42</title><link>https://victor42.eth.limo/tags/ios/</link><description>Recent content in IOS on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 05 Apr 2015 12:32:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>Apple Watch设计入门</title><link>https://victor42.eth.limo/post/3433/</link><pubDate>Sun, 05 Apr 2015 12:32:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3433/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第81期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个月晚些时候，众望所归的&lt;a class="link" href="http://www.apple.com/watch/" target="_blank" rel="noopener"
+&gt;Apple Watch&lt;/a&gt;会带来成千上万的手表应用，冲击应用市场，吸引你的注意。由于屏幕尺寸更小，又始终戴在手腕上，交互方式也有所不同。要在Apple Watch上创造一个美观、舒适的体验，需要新的设计方式。本文将带你入门。&lt;/p&gt;
+&lt;p&gt;本文中，你将学习如何通过一些基础理论和准则，&lt;strong&gt;为Apple Watch设计应用&lt;/strong&gt;，借此初探可穿戴设备设计。&lt;/p&gt;
+&lt;h2 id="应用结构"&gt;应用结构
+&lt;/h2&gt;&lt;p&gt;Apple Watch应用有3部分：&lt;strong&gt;WatchKit App&lt;/strong&gt;、&lt;strong&gt;Glance&lt;/strong&gt;界面和&lt;strong&gt;通知&lt;/strong&gt;。每种都有不同的目的，面临不同的设计挑战。&lt;/p&gt;
+&lt;h3 id="watchkit-app"&gt;WatchKit App
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/1-watchkit-app.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“是查看应用数据”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;WatchKit App是查看应用数据或与之交互的主要手段。它通常从手表主屏进入，但也可以从Glance或通知进入。&lt;/p&gt;
+&lt;p&gt;很重要的一点，要知道WatchKit App&lt;strong&gt;只有&lt;/strong&gt;两种类型的导航——&lt;strong&gt;层级式&lt;/strong&gt;和&lt;strong&gt;页面式&lt;/strong&gt;。虽然iOS应用可以编写出自定义导航，但WatchKit App限制很严格，目前并不支持。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/2-hierarchical.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“层级式非常适合相对复”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;层级式&lt;/strong&gt;非常适合相对复杂的应用，类似很多现存iPhone应用，用户在其中需要进行一系列的选择，然后到达结束界面。牢记Apple预期用户在10秒内突击使用手表，所以别在手表上照搬现成应用，应该将它升华。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/3-page-based.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“页面式通过横向滑动让”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;页面式&lt;/strong&gt;通过横向滑动，让用户在多个页面间穿梭。如果各页数据并不依赖其他页面，这种导航方式更佳。&lt;/p&gt;
+&lt;p&gt;开始设计时，想清楚什么数据对用户最重要，相互关系如何，然后选择最适于体现数据的导航结构。&lt;/p&gt;
+&lt;h3 id="glance"&gt;Glance
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/4-glance.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“是一系列可浏览的内容”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Glance&lt;/strong&gt;是一系列可浏览的内容，基于时间或环境，穿戴者从最喜欢的应用中挑选而出。在Apple Watch上上滑可以触发Glance，然后可以水平滑动。Glance不是必须的，所以并非所有应用都具有，或者需要。&lt;/p&gt;
+&lt;p&gt;Glance被限制在无法滚动的一屏中，所以你得把最有用、最重要的信息展现在屏幕上，可以通过颜色、不同字号和图片来在视觉上区别你的Glance。在Glance上点击任何地方，会打开手表应用。所以要避免在其中包含按钮、滑块和菜单这样的操作项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/5-glance-templates.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“最后基于一些模版所以”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;最后，Glance基于一些模版。所以你的设计要选择一种最能体现数据意义的形式。Apple提供了一系列模版，适用于上半屏和下半屏。&lt;/p&gt;
+&lt;h3 id="通知"&gt;通知
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/6-notifications.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“应用有两种通知状态分”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Apple Watch应用有&lt;strong&gt;两种通知状态&lt;/strong&gt;，分别叫做short-look和long-look界面。用户首次收到通知时，short-look通知会出现，持续较短一段时间。用户可以降低手腕忽略通知，也可以抬起手腕或点击short-look通知，进入long-look查看详细信息和功能。&lt;/p&gt;
+&lt;p&gt;由于手表始终戴在手腕上，你得对通知有所限制，只推送最有用的信息。如果你持续被不重要的消息打断，那是很令人厌烦的。最好的通知会使用用户的环境信息——比如位置、时间或活动——来提供实时、相关的信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/7-short-look.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“界面包含应用图标应用”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;short-look界面包含应用图标、应用名称和通知的标题。由于标题是你唯一能控制的东西，它需要为通知的内容提供简短的提示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/8-long-look.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“所有应用的界面结构都”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;所有应用的long-look界面结构都是一样的。顶部显示应用图标和名称（也可以自定义这一条的颜色），底部是忽略按钮。中间是定制内容，至多4个自定义操作按钮。&lt;/p&gt;
+&lt;h2 id="交互方式"&gt;交互方式
+&lt;/h2&gt;&lt;p&gt;除了手机上那些我们熟悉的日常手势——点击和滑动，Apple Watch提供了两种新的交互方式：&lt;/p&gt;
+&lt;h3 id="滚轮"&gt;滚轮
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/9-digital-crown.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“应用可以通过滚轮来滚”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;应用可以通过滚轮来滚动，不会像手指滑动那样挡住屏幕。滚轮尤其适用于长页面的滚动。&lt;/p&gt;
+&lt;h3 id="按压"&gt;按压
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/10-force-touch.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“的屏幕可以区分点击”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Apple Watch的屏幕可以区分点击和按压。就像鼠标的右键单击一样，按下可以显示当前界面的菜单，其中包含至多4项相关内容。&lt;/p&gt;
+&lt;p&gt;双指缩放这样的多点触控手势在手表上是没有的。&lt;/p&gt;
+&lt;h2 id="布局"&gt;布局
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/11-layout.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“有两种尺寸和小屏幕尺”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Apple Watch有两种尺寸——33mm和43mm。小屏幕尺寸是340x272像素，大屏幕是390x312像素。手表的一大特点是retina屏，就像iPhone那样，你要提供两倍分辨率大小的图片。&lt;/p&gt;
+&lt;p&gt;你不必提供不同尺寸的图片（虽然可以这么做），也不必设计两套不同的布局。因为Apple使用相对尺寸和距离，图片和组件会缩放充满可用空间。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/12-full-width.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“设计应用时建议用黑色”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计应用时，Apple建议用黑色背景来配合外框。相比浅色，深色与亮色的搭配更好。由于外框提供了额外的边距，占满可用空间、按满屏宽度设计非常重要。&lt;/p&gt;
+&lt;p&gt;至于按钮，Apple也建议满屏宽。不过，如果你有并列按钮，应该用图标代替文字。一行中不建议包含3个及以上按钮，因为屏幕太小。同一屏中的按钮应该高度相同，以保持视觉一致性。&lt;/p&gt;
+&lt;h2 id="颜色"&gt;颜色
+&lt;/h2&gt;&lt;p&gt;由于是在深色背景上设计，你得在应用中使用明亮、高对比度的颜色。颜色也可以作为你应用品牌的一部分。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/13-key-color.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“每个应用可以定义一”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;每个应用可以定义一个“主色”，它会显示在状态栏的标题和通知的应用名称上。还可以自定义long-look通知的顶栏颜色。&lt;/p&gt;
+&lt;h2 id="动画"&gt;动画
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/14-dm-zoom.gif"
+loading="lazy"
+alt="国外优秀设计官方网站的动画页面版式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;美观、细致的动画可以提升用户体验，使应用更迷人、更具诱惑力，令人过目不忘。设计手表上的动画时，要确保它足够迅速，而且确有其目的。如果动画阻滞了用户获取他们所需的信息，则会损害用户体验。&lt;/p&gt;
+&lt;p&gt;在Apple Watch上创作动画时，你可不能给工程师一张GIF图，然后让他动态实现。你得提供每一帧的独立静态图片，来制作更快速和流畅的动画集成。最佳方式是将你的动画文件导入After Effects或Photoshop，提取出独立的每一帧。&lt;/p&gt;
+&lt;h2 id="context-menu"&gt;Context menu
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/15-context-menu.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“至多显示个操作项它表”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Context menu至多显示4个操作项，它表现为一个带有标签的圆形图片。点击某个操作项或屏幕上的任意位置，菜单收起。设计Context menu时无需考虑颜色。就像iOS应用的标签栏图标一样，Context menu的图标是模版内置图片，颜色仅仅定义了图标的形状。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/16-menu-image-sizes.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“对于你得给每个图标提”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;对于Context menu，你得给每个图标提供两种大小的图片。在42mm的手表上，图标的线宽通常比38mm版多1像素。&lt;/p&gt;
+&lt;h2 id="字体"&gt;字体
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/17-font.jpg"
+loading="lazy"
+alt="国外优秀设计官方网站的字体页面版式布1"
+&gt;&lt;/p&gt;
+&lt;p&gt;Apple开发了一套无衬线字体，叫做&lt;strong&gt;San Francisco&lt;/strong&gt;，为Apple Watch的易读性做过专门处理，包含23种变化。虽然你也可以用自定义字体，Apple建议使用内置文字样式，因为它们是专为小屏幕设计的。&lt;/p&gt;
+&lt;p&gt;使用Apple系统字体的另一项好处，是标签过长时文字会自动缩放。随着字号增大，字间距会减少。如果要指定字号，那么San Francisco字体建议使用19点或更小字号。San Francisco的Display字体应该用于20点或更大的字号。&lt;/p&gt;
+&lt;h2 id="应用图标"&gt;应用图标
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/18-home-icons.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“像主屏图标一样也需”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;像iOS主屏图标一样，Apple Watch也需要一个应用图标。和iPhone不同，iPhone以方形显示应用图标和名称，Apple Watch是圆的，不包含标签。这就使你的图标必须比iOS应用图标更容易辨识和熟悉，同时表达出它的作用。&lt;/p&gt;
+&lt;p&gt;为这么小的屏幕设计应用图标时，简洁为先。在炫目的应用图标海洋中，图标是用户打开应用前首先看到的东西，所以你得通过优美的图标设计留下良好的第一印象。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/19-app-icon-size.jpg"
+loading="lazy"
+alt="Apple Watch设计入门设计中关于“设计不同尺寸的图标来”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计不同尺寸的图标，来适配两种手表尺寸和各个展现图标的界面。系统会自动为图标加上圆形蒙版，所以图标应该依据Apple提供的指南做成方形图片。&lt;/p&gt;
+&lt;p&gt;可以下载这个好用的&lt;a class="link" href="http://appicontemplate.com/watch" target="_blank" rel="noopener"
+&gt;Apple Watch图标模版&lt;/a&gt;来生成图标。&lt;/p&gt;
+&lt;h2 id="基础之外"&gt;基础之外
+&lt;/h2&gt;&lt;p&gt;Apple Watch为用户提供了一种不唐突的数据获取方式，这对他们至关重要。通过理解一款应用的结构、交互方式和最佳设计原则，我们可以在Apple Watch上打造更加美观、讨人喜爱的体验。&lt;/p&gt;
+&lt;p&gt;要深入学习入门，请看&lt;a class="link" href="https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/WatchHumanInterfaceGuidelines/index.html" target="_blank" rel="noopener"
+&gt;Apple Watch人机交互指南&lt;/a&gt;，并且下载&lt;a class="link" href="https://developer.apple.com/watchkit/" target="_blank" rel="noopener"
+&gt;Apple Watch设计资源&lt;/a&gt;，里面有一系列模型、参考、模版和字体。&lt;/p&gt;
+&lt;p&gt;关于讨人喜爱的可穿戴设备体验设计，更多细节、窍门和资源请看&lt;a class="link" href="http://www.designforwearables.com/" target="_blank" rel="noopener"
+&gt;为可穿戴设备而设计&lt;/a&gt;。这是一门免费课程，让你一步一步经历Apple Watch的应用设计。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/design-apple-watch/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://designmodo.com/author/kenny/" target="_blank" rel="noopener"
+&gt;Kenny Chen&lt;/a&gt;
+Kenny Chen is a UX Designer from Los Angeles passionate about creating better experiences through thoughtful design. He curates &lt;a class="link" href="http://www.uxdesignweekly.com/" target="_blank" rel="noopener"
+&gt;UX Design Weekly&lt;/a&gt;, a hand-picked list of the best user experience design links each week. Follow him on Twitter at &lt;a class="link" href="https://twitter.com/kennycheny" target="_blank" rel="noopener"
+&gt;@kennycheny&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>iOS系统默认字体对照表</title><link>https://victor42.eth.limo/post/3270/</link><pubDate>Sat, 19 Apr 2014 20:17:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3270/</guid><description>&lt;p&gt;工作中需要对比iOS系统默认字体，于是拖着开发同学写了一段代码逐个输出，再自己稍作调整修饰，在此分享出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-19/1.png"
+loading="lazy"
+alt="iOS 系统默认字体对照表，左列为中文样例文字，右列为字体名称"
+&gt;&lt;/p&gt;</description></item><item><title>轻松打造iOS7风格图标</title><link>https://victor42.eth.limo/post/2938/</link><pubDate>Sun, 24 Nov 2013 10:29:38 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2938/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第19期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1138524-Reminder-Icon" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/11.-icondesign.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“随着近年来的发布很多”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;随着近年来&lt;a class="link" href="http://designmodo.com/new-apple-not-flat/" target="_blank" rel="noopener"
+&gt;iOS7的发布&lt;/a&gt;，很多网站和APP都忙于改头换面，来适配这套全新的扁平纤细的&lt;a class="link" href="http://designmodo.com/ios-7-design-guide/" target="_blank" rel="noopener"
+&gt;iOS设计风格&lt;/a&gt;。设计好图标是件棘手的事情，尤其当你要设计一整套时，而设计线条式图标本身又是另一项挑战。&lt;/p&gt;
+&lt;p&gt;下面，我为你准备了一系列指南，能帮你通过简单的步骤打造iOS7风格的图标。&lt;/p&gt;
+&lt;h2 id="目标是什么"&gt;目标是什么？
+&lt;/h2&gt;&lt;p&gt;凡事分轻重缓急，你设计的图标或图标集是用于你的APP吗（这里的APP也指网站）？对于这部指南来说，都无所谓。因为无论如何你都应当遵循下面这些步骤。既然对这一点明确无疑，我们来关注首要任务——研究。&lt;/p&gt;
+&lt;h2 id="研究别人是怎么做的"&gt;研究别人是怎么做的
+&lt;/h2&gt;&lt;p&gt;研究是一项需要预先完成的基本任务。这很明显，也相对沉闷，你的每项工作都应该从研究开始。不过，在图标设计中，还有些特别的东西需要了解。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1109303-iOS-7-Safari-Icon-and-grid" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/1.-ios-7-safari-icon.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“首先看看别人怎么做”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1182482-budicon-tester" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/2.-budicon-tester.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“首先看看别人怎么做”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;首先，看看别人怎么做。有助于了解当下潮流趋势，还有相关的设计守则。最重要的是，这能给你灵感！观察各种神奇的图标作品能助你发现其中的创意闪光，当你准备画手稿时，就能产生好点子。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1035246-iPhone-Flat-UI-Concept" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/3.-iphone-flat-ui.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“既然这个指南是针对”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;既然这个指南是针对iOS7的，研究苹果的做法也不失为一个好主意。观察它的图标，无论是主屏图标（比如信息），还是app中的图标（比如时钟应用中的）。看看苹果的iOS7设计准则，你就知道他们建议你怎么做。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1216382-100-Free-Vector-Icons" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/4.-tilt-2.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“着手画点什么”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1109175-iOS-7-Icon-Guides-PS" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/5.-7appicon-shot.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“着手画点什么既然你已”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="着手画点什么"&gt;着手画点什么
+&lt;/h2&gt;&lt;p&gt;既然你已经充分了解别人的做法，也深受启发，是时候将你的想法付诸于纸上了。在创作过程中，手稿也是一项基本步骤，因为它让你仔细思考各个创意，使大脑快速进行头脑风暴产生新想法。当你画了一些简单的手稿，并将它们都罗列在眼前，正确的方向立刻就显现出来。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/648915-icon-set" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/6.-iconset-hd.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“手绘草稿最关键的一点”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1226080-icon-pattern-sketch" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/7.-postachio-icons.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“手绘草稿最关键的一点”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;手绘草稿最关键的一点，不求数量多，而是要多样化。你画了上百个相同的东西一点用也没有。如果你有三个不同概念，那就有用和深刻得多。只要你保持手绘稿千变万化，就会有好结果。广泛收集灵感有助于找到合适类型的图标，并确定应该朝哪个方向前进。除此之外，看看这些各式各样的草稿，能帮你更容易找出残次品。当你无法确定正确方向，却能肯定其中哪些不会再深入下去时，这个办法相当于管用。&lt;/p&gt;
+&lt;h2 id="绘制实际图标"&gt;绘制实际图标
+&lt;/h2&gt;&lt;p&gt;我可以肯定，在完成了这些手绘稿之后，你或你的团队已经有所偏好了。无论你选出了其中具体某一个，还是几个不同方案来竞争，该把它们绘制出来了。首先要建立你的栅格系统。如果是创建主屏图标，那你应该遵循苹果提供的新iOS7设计准则。这类PSD模版网上随处可见。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1280065-iOS-7-Icon-Set-PSD-Sketch-V4" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/8.-ios-7-icon-set.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“我的建议是尽你所能把”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1169185-Subway-iOS-7-Style-Icon-Set" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/9.-subway_ios7.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“我的建议是尽你所能把”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我的建议是尽你所能把这些不同图标都应用于栅格系统，不过先用常规做法来绘制图标。以后再回来修改细节和做统一化处理，反正你收工前还得再做调整。对我而言这很有效。全部绘制完成后，回头来确保它们都吻合栅格，并具有统一的风格——比如它们采用尖角还是圆角？同时，你也希望确认这个图标是否符合整体设计的风格，图标与app搭配吗？主屏图标能体现app的设计吗？&lt;/p&gt;
+&lt;h2 id="修饰图标"&gt;修饰图标
+&lt;/h2&gt;&lt;p&gt;对于iOS7风格图标设计，我有几句话说。我知道iOS7提倡纤细线条的图标设计。但这也不是必须的，尤其对于主屏图标来说。不采用细线条，而采用饱满图形的大有人在，但它们和iOS7的整体风格也相当吻合。我不觉得细线条是唯一准则，你不用也没问题，尤其当你的产品设计不适合甚至根本就不采用它们时。别管它就好。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1016855-Flat-Design-Icons-Set-Vol1" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/10.-dribbble.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“结论”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1138524-Reminder-Icon" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/11.-icondesign.jpg"
+loading="lazy"
+alt="轻松打造iOS7风格图标设计中关于“结论创作图标不是什么”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;创作iOS7图标不是什么难事。就此而言，我设计它们时，就像做其他类型的设计和图标一样。关于iOS7最重要的一方面就是风格，循着苹果的脚步，你也能轻松做到。关于这套新设计风格，有一点值得一提：为iOS7设计比拟物化设计要容易多了。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/guide-ios7-icons/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>iOS7设计指南:轻松上手</title><link>https://victor42.eth.limo/post/2832/</link><pubDate>Sun, 13 Oct 2013 02:11:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2832/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第14期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;苹果的新iOS我们已经上手好几周了，准备好为它而设计吗？&lt;/p&gt;
+&lt;p&gt;如果你已经有一个运行于此平台的APP，你可能打算为新iOS而设计，或者在旧版上做一些必要调整&lt;/p&gt;
+&lt;p&gt;不论哪种，你都希望为新界面而设计，确保你的APP与用户在苹果设备上的体验相吻合&lt;/p&gt;
+&lt;p&gt;那么如何做到这点？&lt;/p&gt;
+&lt;h2 id="扁平更加扁平"&gt;扁平，更加扁平
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://www.apple.com/ios/what-is/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/ios7.jpg"
+loading="lazy"
+alt="Apple的扁平更加扁平界面设计展示效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;苹果的iOS7秉承着&lt;a class="link" href="http://designmodo.com/flat-design-principles/" target="_blank" rel="noopener"
+&gt;扁平&lt;/a&gt;的设计理念，尽管它不是完全的扁平化&lt;/p&gt;
+&lt;p&gt;那么就秉着“较扁平”来规划设计你APP或移动站点&lt;/p&gt;
+&lt;p&gt;所有的那些曾经辉煌的&lt;a class="link" href="http://designmodo.com/skeuomorphism-ui-design/" target="_blank" rel="noopener"
+&gt;拟物化风格&lt;/a&gt;图标与效果，一去不复返了。如今的潮流是单色块、多色文字和大量留白&lt;/p&gt;
+&lt;p&gt;苹果为iOS7制订的设计准则鼓励简洁设计与易用性。但是设计准则并没有着重介绍我们即将讨论的关于扁平化设计的规范。我们能在这些新设计的APP（包括苹果自身样式）中看出一些与扁平设计特征相违背的东西&lt;/p&gt;
+&lt;p&gt;比如说颜色，iOS7包含了相当一部分柔和色调和半透明效果。扁平设计通常使用明亮、高对比度的颜色&lt;/p&gt;
+&lt;p&gt;你所见到的按键和按钮也没有设计成扁平样式。例如键盘，每个字母都包含在一个带阴影效果的按钮中。这些微妙的效果是新界面的显著特征&lt;/p&gt;
+&lt;h2 id="重视字体"&gt;重视字体
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/Focus-on-Type.jpg"
+loading="lazy"
+alt="轻松上手设计中关于“字体是设计的关键大多”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;字体是iOS7设计的关键&lt;/p&gt;
+&lt;p&gt;大多操作都是点击文字，而非按钮（有时是图标）&lt;/p&gt;
+&lt;p&gt;苹果的默认字体是Helvetica Nenu，一种纤细简单的文字。但那不是你的唯一选择&lt;/p&gt;
+&lt;p&gt;iOS7中的字号稍微加大了，主要由于它的用途。而且文字间的层级至关重要。利用颜色和不同粗细，来保持文字布局和UI元素清晰易懂&lt;/p&gt;
+&lt;p&gt;可是从哪入手？&lt;/p&gt;
+&lt;p&gt;选好并获得字体的使用许可后，将苹果的默认字体规格说明作为设计准则着手开始&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;导航栏标题：Medium, 34像&lt;/li&gt;
+&lt;li&gt;按钮和表头：Light, 34像&lt;/li&gt;
+&lt;li&gt;表格标签：Regular, 28像&lt;/li&gt;
+&lt;li&gt;Tab页图标标签：Regular, 20像素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="无边界"&gt;无边界
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/Go-Borderless.jpg"
+loading="lazy"
+alt="轻松上手设计中关于“关于中文字作为按钮我”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;关于iOS7中文字作为按钮，我们已经讨论了不少。不过还能再深入。多数界面设计是无边界的&lt;/p&gt;
+&lt;p&gt;看看日历——日期没有网格线。看看Safari中的可点击区域——没有明确的按钮。再看看时钟和内置天气app——网格线也消失了&lt;/p&gt;
+&lt;p&gt;取而代之的是留白。但不要误解。网格也仍然存在（并且很明确），只是划分“格子”的分隔线被去除了&lt;/p&gt;
+&lt;p&gt;像这样去掉线条，创造了更开阔的空间。极简风格和额外的留白能让用户看见并感觉到按钮和网格的存在，却不会让他们拘泥于其中&lt;/p&gt;
+&lt;p&gt;所以如果用到方块、按钮、边框，并决定何时使用它们——举棋不定时，去掉就好&lt;/p&gt;
+&lt;h2 id="考虑使用视差效果"&gt;考虑使用视差效果
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/Consider-Parallax.jpg"
+loading="lazy"
+alt="轻松上手设计中关于“设计中的一项重要的新”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;iOS7设计中的一项重要的新特征就是动画。这个系统中使用到的动画效果，比苹果以往发布的任何系统都来得复杂&lt;/p&gt;
+&lt;p&gt;好好利用它&lt;/p&gt;
+&lt;p&gt;考虑新颖且与众不同的方式来让你APP中的物体移动，并与其他物体互动。视觉差滚动（垂直方向甚至水平方向）是一个你以前从未使用过的方案&lt;/p&gt;
+&lt;p&gt;记住，苹果这次发布所兜售的理念，大多都关乎用户体验。牢记它并将其贯穿整个项目&lt;/p&gt;
+&lt;h2 id="分层创造层次感"&gt;分层创造层次感
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/Build-Depth-Using-Layers.jpg"
+loading="lazy"
+alt="轻松上手设计中关于“苹果给设计师们的最后”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/Take-Care-with-Your-Icon.jpg"
+loading="lazy"
+alt="轻松上手设计中关于“苹果给设计师们的最后”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;苹果给设计师们的最后一项工具，是一种在iOS7中创建和操纵层次感的方式。早期版本中，层次感通过拟物化效果来实现。iOS7中，层次感是分层的产物&lt;/p&gt;
+&lt;p&gt;以主屏幕作为例子。打开一个文件夹。它停留在屏幕中央，并没有占据全部空间&lt;/p&gt;
+&lt;p&gt;这层也包含了半透明效果。从你设备的底部滑出菜单。你的视线能够穿透它。你屏幕上的颜色和主风格就在那里，只不过带上了半透明的模糊效果（除非你在设置中选择了“增加对比度”选项）。通知中心、Siri、甚至主界面上的通话按钮处都一样&lt;/p&gt;
+&lt;p&gt;想想如何将这些效果用在你的APP设计中。对你选择的配色方案和基调有影响吗？制作按钮、图标和提示时它能起到作用吗？&lt;/p&gt;
+&lt;p&gt;如何创造出适当的模糊效果？在Adobe Photoshop中，10像素的高斯模糊大致可行&lt;/p&gt;
+&lt;h2 id="精心处理你的图标"&gt;精心处理你的图标
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/10/app-icon-template.jpg"
+loading="lazy"
+alt="轻松上手设计中关于“设计图标和本身一样重”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计APP图标和APP本身一样重要。它同样需要遵循苹果的iOS7设计准则&lt;/p&gt;
+&lt;p&gt;外形都很相似，但它有些新的特征，包括一套为图标本身的设计制订的特殊栅格系统&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://appicontemplate.com/ios7" target="_blank" rel="noopener"
+&gt;Pixelresort&lt;/a&gt;的Michael Flarup制作了一个非常棒的图标模板，迅速创建苹果标准图标变得信手拈来&lt;/p&gt;
+&lt;h2 id="谨记"&gt;谨记
+&lt;/h2&gt;&lt;p&gt;为iOS7而设计时（全新设计或重新设计），苹果也有三条准则需要牢记&lt;/p&gt;
+&lt;p&gt;新APP需要遵循Appstore的这些规则&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;记得为现有APP更新图标以匹配新界面。规格：iPhone版120×120像素，iPad版152像&lt;/li&gt;
+&lt;li&gt;启动图要包含状态栏区&lt;/li&gt;
+&lt;li&gt;所有设计都要支持视网膜屏和iPhone5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;现在我们已经看过了为iOS7设计所需要准备的东西，可以着手开始了&lt;/p&gt;
+&lt;p&gt;如果你需要更多设计准则的说明，苹果为设计师和开发者提供了&lt;a class="link" href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TransitionGuide/Scoping.html#//apple_ref/doc/uid/TP40013174-CH7-SW1" target="_blank" rel="noopener"
+&gt;过渡指南&lt;/a&gt;和&lt;a class="link" href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/" target="_blank" rel="noopener"
+&gt;文档&lt;/a&gt;，来解释他们团队的设计理念&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/ios-7-design-guide/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

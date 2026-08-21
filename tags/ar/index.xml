@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AR on Victor42</title><link>https://victor42.eth.limo/tags/ar/</link><description>Recent content in AR on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 07 Jun 2015 00:36:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>人性化的增强现实用户体验</title><link>https://victor42.eth.limo/post/3443/</link><pubDate>Sun, 07 Jun 2015 00:36:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3443/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第89期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从醒来的那一刻，我们就被广告包围了：它出现在我们的咖啡杯上、电视上，回家路上也充斥我们眼前。但我们总能关掉它，将它逐出视线。&lt;/p&gt;
+&lt;p&gt;增强现实（AR）是一种新方式，将数字化的体验呈现在我们的虚拟世界。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/06/1_AR.png" title="Designing humane augmented reality user experiences"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-07/1.png"
+loading="lazy"
+alt="咖啡包装在增强现实中叠加产地风味和价格信息"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如今的生活与增强现实下的生活，区别就在于你可以避开广告。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22With&amp;#43;AR%2C&amp;#43;there%27s&amp;#43;no&amp;#43;such&amp;#43;thing&amp;#43;as&amp;#43;breaks&amp;#43;or&amp;#43;boundaries%E2%80%94unless&amp;#43;we&amp;#43;set&amp;#43;them%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesigning-humane-augmented-reality-user-experiences%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;有了增强现实，就再也没有阻隔与界限——除非我们人为设定&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id="向过去学习"&gt;向过去学习
+&lt;/h2&gt;&lt;p&gt;让我们回到21世纪初：网站都是&lt;a class="link" href="http://www.thefwa.com/site/roth-time" target="_blank" rel="noopener"
+&gt;800x600&lt;/a&gt;尺寸，用&lt;a class="link" href="http://www.w3schools.com/Html/html_tables.asp" target="_blank" rel="noopener"
+&gt;table&lt;/a&gt;构建。一种新的广告形式正在酝酿，它将成为自&lt;em&gt;Ally McBeal&lt;/em&gt;的跳舞婴儿以来，互联网上最招人烦的东西。&lt;/p&gt;
+&lt;p&gt;弹窗广告。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/06/2_popups.png" title="Designing humane augmented reality user experiences"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/06/2_popups.png?ver=1"
+loading="lazy"
+alt="人性化的增强现实用户体验设计中关于“弹窗采用了最直截了当”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;弹窗采用了最直截了当的方式，通过占据人的视野来夺取注意力。提到自动播放音频的弹窗时，一位&lt;a class="link" href="http://www.nngroup.com/articles/most-hated-advertising-techniques/" target="_blank" rel="noopener"
+&gt;Nielsen研究的测试用户写道&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;“如果有什么比弹窗还糟糕的，那就是这个了。我讨厌这种广告。极度讨厌。”&lt;/p&gt;
+&lt;p&gt;随着我们掌握如何在增强现实的维度中传递信息，事情就开始变得棘手。但是这次，&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22let%27s&amp;#43;ditch&amp;#43;pop-ups&amp;#43;and&amp;#43;clumsy&amp;#43;advertising&amp;#43;in&amp;#43;favor&amp;#43;of&amp;#43;great&amp;#43;user&amp;#43;experience%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesigning-humane-augmented-reality-user-experiences%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;让我们为了用户体验，抛弃弹窗和笨重的广告吧&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;如何触达增强现实的使用者，而不使他厌恶：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;学习用户的社交节奏，作出响应&lt;/li&gt;
+&lt;li&gt;有选择加入，而非全部加入&lt;/li&gt;
+&lt;li&gt;收集行为线索，解读兴趣&lt;/li&gt;
+&lt;li&gt;采用影响程度低的方式，比如消息推送&lt;/li&gt;
+&lt;li&gt;基于真实世界，构建实体的广告模型，例如户外广告&lt;/li&gt;
+&lt;li&gt;大胆探索新的沟通模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/06/3_routine_1.png" title="Designing humane augmented reality user experiences"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/06/3_routine_1.png?ver=1"
+loading="lazy"
+alt="大胆探索新的沟通模式"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="用户设定社交活动的度量"&gt;用户设定社交活动的度量
+&lt;/h2&gt;&lt;p&gt;我的社交节奏类似这样：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;早晨：独自工作&lt;/li&gt;
+&lt;li&gt;下午：探索、与人交谈&lt;/li&gt;
+&lt;li&gt;晚上：与家人共度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;增强现实应当补充与改善社交节奏，不必时常调整参数就更好了。&lt;/p&gt;
+&lt;p&gt;在我想象中，增强现实应该是这样改善社交节奏的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;早晨：优先展现邮件和Slack、Basecamp这类应用，同时关闭娱乐与广告频道&lt;/li&gt;
+&lt;li&gt;下午：打开社交开关，让我与朋友连线，提供宽泛的娱乐与广告内容&lt;/li&gt;
+&lt;li&gt;晚上：切换回家庭优先模式：交流、安排日程，写下买一加仑牛奶的便签&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/06/3_routine_2.png" title="Designing humane augmented reality user experiences"
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/06/3_routine_2.png?ver=1"
+loading="lazy"
+alt="晚上：切换回家庭优先模式：交流、安排日程，写下买一加仑牛奶的便签"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="广告有选择进入"&gt;广告有选择进入
+&lt;/h2&gt;&lt;p&gt;你正在线购买一双鞋，结账过程中，商家问你是否可以给你发送邮件和文字通知，并且愿不愿意下载他们的应用。你可以选择接受，或叫他们走开。&lt;/p&gt;
+&lt;p&gt;同样的模式也适用于增强现实，但是触发方式可能不同。我们看看增强现实设备可能会如何收集行为线索，解读兴趣。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/06/4_stages.png" title="Designing humane augmented reality user experiences"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-07/2.png"
+loading="lazy"
+alt="增强现实广告从发现关注接受到体验的用户选择流程"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;发现&lt;/strong&gt;
+增强现实设备可以通过观察你的行为，呈现你的感兴趣程度。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关注&lt;/strong&gt;
+你在一则增强现实内容上逗留了一定时长。设备将之解读为感兴趣，于是提供额外的内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;接受&lt;/strong&gt;
+你采取行动接受这些内容。它可以是一个手势、语音指令，或是眨眼。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;体验&lt;/strong&gt;
+内容在你周围展开，切换现实世界的体验。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;退出&lt;/strong&gt;
+退回最初状态。&lt;/p&gt;
+&lt;p&gt;增强现实世界会和当前世界一样，但有一些额外信息。再举2例来说明它可能的形态。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 通知推送&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;接受通知推送时，有3种典型选择：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;忽略它，任它消失&lt;/li&gt;
+&lt;li&gt;关闭后续通知推送&lt;/li&gt;
+&lt;li&gt;查看详情&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/06/5_push_example.png" title="Designing humane augmented reality user experiences"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-07/3.png"
+loading="lazy"
+alt="Pizza Friday场景中增强现实推送通知的低干扰交互示例"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;推送的时间与注意力成本相对较低，不像弹窗，它对用户是可选的。可选这一点至关重要。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 户外广告&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;你走在充斥着海报的墙边。其中一张吸引了你的眼球，你走近查看详情。这是种古老却仍然有效的交互方式，因为它很简单。在广告的世界中，这就是户外广告（OOH）。&lt;/p&gt;
+&lt;p&gt;OOH存在于高人流量的区域，有各种形式，例如广告牌、售货亭、海报和交通工具表面。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/06/6_ooh_example.png" title="Designing humane augmented reality user experiences"
+target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2015-06/06-07/4.png"
+loading="lazy"
+alt="机场候机区户外广告在增强现实中扩展服务信息"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2条将增强现实用于户外广告的论点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;广告图像能被机器视野识别&lt;/li&gt;
+&lt;li&gt;增强现实可以强化户外广告，或使它在用户的头戴设备中唯一定制。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;有人会设定增强现实的界限。可能也会有某些无广告的行政区。或许建筑会向增强现实广告收费，也可能它会受制于言论自由。现在预测为时过早，但我相信未来会更加多彩而活跃。&lt;/p&gt;
+&lt;p&gt;设计和开发新应用时，要探索新的交互模式——不要在新时代来临之际，继续沿用陈旧的方式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/designing-humane-augmented-reality-user-experiences/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Matt Sundstrom, ‎Associate Creative Director at Instrument
+Matt Sundstrom is in love with the future, drawing, and user experience. Find him at Instrument, an independent digital creative agency that launches brands, products, campaigns, and interactive experiences for every screen — located in verdant Portland, OR.
+&lt;a class="link" href="http://twitter.com/mattink" target="_blank" rel="noopener"
+&gt;Follow me on Twitter&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

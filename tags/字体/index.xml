@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>字体 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%AD%97%E4%BD%93/</link><description>Recent content in 字体 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 27 Sep 2015 12:42:00 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%AD%97%E4%BD%93/index.xml" rel="self" type="application/rss+xml"/><item><title>苹果旧金山字体的秘密</title><link>https://victor42.eth.limo/post/3463/</link><pubDate>Sun, 27 Sep 2015 12:42:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3463/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第104期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-8lz2kG3qEW3R1y_K7owIKg.png"
+loading="lazy"
+alt="旧金山字体设计图，展示字母构造线条与&amp;#34;San Francisco&amp;#34;字样"
+&gt;&lt;/p&gt;
+&lt;p&gt;iOS 9如今已公开发布。带来了一些细微的变化，但iOS 9的系统字体变成了苹果新推出的旧金山字体，代替了之前用的Helvetica Neue。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-UwLp_VMFpsAYj68i5vt23g.png"
+loading="lazy"
+alt="使用旧系统字体的苹果手机桌面应用图标界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-eE-EmcHdfGoDkC38WT7spA.png"
+loading="lazy"
+alt="使用全新旧金山字体的苹果手机应用桌面界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Helvetica（左），旧金山字体（右）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;旧金山字体之前已经用于Apple Watch中，如今则成为苹果全平台的统一字体：Apple Watch、iPhone、iPad和Mac。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-BCVj4bmI5AFebdzjcLJ_-Q.jpeg"
+loading="lazy"
+alt="苹果智能手表表盘上展示的旧金山系统字体"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Apple Watch&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;从第一台iPhone起，苹果就将Helvetica当作系统字体。而且从10.10 Yosemite开始，Mac OS X系统的字体也从Lucida Grande改为了Helvetica。苹果为何抛弃Helvetica？它是全世界最著名最受欢迎的字体。&lt;/p&gt;
+&lt;h3 id="小字号helvetica太纤弱"&gt;小字号Helvetica太纤弱
+&lt;/h3&gt;&lt;p&gt;据说&lt;strong&gt;Helvetica不适合小字号使用&lt;/strong&gt;。当Mac OS X Yosemite系统字体改为Helvetica，许多设计师声称Helvetica并不合适。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-Fey8t4dtRW6Xqg9AZpODcQ.jpeg"
+loading="lazy"
+alt="关于经典无衬线字体缺点评价的文章插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“&lt;a class="link" href="http://spiekermann.com/en/helvetica-sucks/" target="_blank" rel="noopener"
+&gt;Helvetica糟糕透了&lt;/a&gt;”，Erik Spiekermann说&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果你输入小字号的Helvetica文字，你会发现易读性很低，显得模糊。有些文字交叠在一起，难以辨识。据说苹果设计出旧金山字体正是为了让小号文字在Apple Watch上更易读。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-uo26XLxSqZMyA1t1G-UIfA.png"
+loading="lazy"
+alt="小号字母交叠在一起的易读性细节对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;小号字母交叠在一起&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;但如今，小屏幕设备分辨率比印刷品还高，iPhone中的文字并不像Apple Watch那么小。为什么苹果把iOS、Mac OS X的系统字体都改了，而不是只用于Apple Watch？&lt;/p&gt;
+&lt;h3 id="旧金山字体不仅仅是一款字体"&gt;旧金山字体不仅仅是一款字体
+&lt;/h3&gt;&lt;p&gt;旧金山字体拥有许多高度易读的特征。实际上&lt;strong&gt;Apple Watch和iOS/Mac上的旧金山字体并不相同&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;字体族“SF”用于iOS/Mac，而“SF Compact”用于Apple Watch。在“o”、“e”这类圆形字母上可以看出区别。SF compact的竖线比SF更平坦。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-SCx2lbqcnM4jMpSQ2olOBw.png"
+loading="lazy"
+alt="展示旧金山字体变体中圆形字母特征对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-OdM26YyzIuskDEpz9I1-8g.png"
+loading="lazy"
+alt="通过抽象几何图形展示字型纹理差异的对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;SF与SF Compact&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这点差异使得SF Compact的文字有更大的字距，从而使Apple Watch这样的小设备有较高的易读性。&lt;/p&gt;
+&lt;p&gt;而且，SF与SF Compact被划分为两套子字体族，分别称作“Text”和“Display”。这就是苹果所谓的“视觉尺寸”。Text字体用于更小的文字，Display字体更大。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-WvvGsRFtBJxR9dsPZtkYpw.png"
+loading="lazy"
+alt="旧金山字体分支结构及视觉尺寸分类图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;旧金山字体族&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;正如我之前提过的，Helvetica这种非自然（或者说无衬线）字体，两个邻近字母会“交叠”在一起，像“a”、“e”、“s”这种字母在小字号时看起来很相似。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-eGGNVN_gPTPa_G-7S2mNDg.png"
+loading="lazy"
+alt="通过字母负空间与字间距展示排版细节的图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-9QhKLWfFhxtG1q9HJ2iAkg.png"
+loading="lazy"
+alt="旧金山字体中不同系列字形轮廓差异的对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Display与Text字体&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;用于小号字的旧金山Text字体，被设计成比Display字体有着更大的字距。Text字体的字怀也更大，为了小屏幕的易读性。&lt;/p&gt;
+&lt;h3 id="旧金山字体是动态的"&gt;旧金山字体是动态的
+&lt;/h3&gt;&lt;p&gt;旧金山字体的一大特点是它动态组织文字。系统会随着字号自动切换Display/Text字体。明确地说，20pt正是这个界限。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-nVe340s-tcSO23BLoK5Gbg.png"
+loading="lazy"
+alt="旧金山字体中按字号大小自动分级切换示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;设计师与开发者不用操心该用哪种字体。比如给UILabel设置系统默认字体，系统就会为你选择合适的文字。&lt;/p&gt;
+&lt;p&gt;旧金山字体有一点让我印象很深，就是它的冒号（:）的显示方式。一般情况，冒号会刚好放置在基线上，所以放在数字之间时，它并非垂直居中的。而旧金山字体中，会自动将它垂直居中对齐。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-aAS54HnB_5ccx1nX4vUokg.gif"
+loading="lazy"
+alt="旧金山字体中数字间冒号自动垂直居中的动效"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;垂直居中的冒号&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="旧金山字体是为数字时代而生的字体"&gt;旧金山字体是为数字时代而生的字体
+&lt;/h3&gt;&lt;p&gt;如你所见，旧金山字体经过了精心的设计，为了使任何字号、任何设备都易于阅读。&lt;/p&gt;
+&lt;p&gt;被旧金山字体所替代的Helvetica，1957年诞生于瑞士，那时尚没有电子设备。即使今天，Helvetica也被许多公司作为企业字体广泛运用，毫无疑问，未来它会被当作一款伟大的经典字体使用。&lt;/p&gt;
+&lt;p&gt;另一方面，旧金山字体是一款现代字体。它会根据环境动态改变文字。这是数字时代的一种“数字原住民”字体。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-HdqnqAE66UcrS9WyJzwLYg.png"
+loading="lazy"
+alt="旧金山字体中包含的多档不同粗细字重的展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-XTdr_vcmeW9rdjkmyks2hA.png"
+loading="lazy"
+alt="旧金山斜体在不同斜度与字重下的线条展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-pacoLYFCLd9ZHMA-29gkPA.png"
+loading="lazy"
+alt="旧金山字体中字母与数字在不同字重下的样式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-nfaws3Jnf9Lml-v4TwAQ9w.png"
+loading="lazy"
+alt="大写字母A在不同粗细字重下的细节对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-09/09-27/1-0G2ny36cb4e5CLVbow5AdQ.png"
+loading="lazy"
+alt="旧金山字体英文大小写字母与数字的完整样张"
+&gt;&lt;/p&gt;
+&lt;p&gt;→ &lt;a class="link" href="https://developer.apple.com/fonts/" target="_blank" rel="noopener"
+&gt;字体 —苹果开发者中心&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/@mach/the-secret-of-san-francisco-fonts-4b5295d9a745" target="_blank" rel="noopener"
+&gt;https://medium.com/@mach/the-secret-of-san-francisco-fonts-4b5295d9a745&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://medium.com/@mach" target="_blank" rel="noopener"
+&gt;Akinori Machino&lt;/a&gt;
+traveling around the world, seeking next challenge&lt;/p&gt;</description></item><item><title>移动端字体7准则</title><link>https://victor42.eth.limo/post/3423/</link><pubDate>Sun, 08 Feb 2015 00:13:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3423/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第75期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/02/featured1.jpg"
+loading="lazy"
+alt="移动设备屏幕上的文字排版与字体易读性展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;可能你听过这说法，好的字体是隐形的，不过更准确来说，应该是好的字体让阅读行为毫不费力。&lt;/p&gt;
+&lt;p&gt;当视线掠过一行文字时，它是跳跃前进的，我们称之为扫视。你读的不是字母，甚至不是词语，而是文字某部分的影像，大脑会补上它预期的内容。如果超出大脑预料，它会促使眼睛回去核实假设十分正确。通过在字里行间创造平顺的视觉流动，好的字体极度减轻了眼睛的负担。&lt;/p&gt;
+&lt;p&gt;对任何字体工作者而言，在移动设备上要面临与生俱来的挑战：空间有限，环境光通常比较微弱。不过将已经用于web端的技巧稍加调整，我们就可以提升移动设备的易读性。&lt;/p&gt;
+&lt;h2 id="1-留足空间"&gt;1. 留足空间
+&lt;/h2&gt;&lt;p&gt;与普遍观点恰好相反，字体并非屏幕上弯弯曲曲的线条排列；它主要在于周围和相互间的空间。&lt;/p&gt;
+&lt;p&gt;字母本身对字体的影响，与构成它的空间相比，要小得多。&lt;/p&gt;
+&lt;p&gt;要理解这一点，了解字体从何而来很有帮助：字母o（还有b、c、p等等）中间的圆孔被称作“凹槽”。在最原始的印刷机上，铅字由金属雕刻而成，这些凹槽来自雕刻成型、排列在盘中的金属活字。第一个字体设计师所处理的模具，实际上&lt;em&gt;并不能&lt;/em&gt;用于印刷。字母本身对字体的影响，与构成它的空间相比，要小得多。&lt;/p&gt;
+&lt;p&gt;谈到层次时，我们通常指的是h1到p，有时候还会到h6。但另外还有一种层次在影响着行或段落的视觉流，这是特殊的层次：字母间距小于字间距，字间距小于行间距，以此类推。&lt;/p&gt;
+&lt;p&gt;要在移动端创造最佳易读性，尤其要注意这些特殊层次，这些格式塔式的词语、行、段落的文字组合，在自然光环境下同样至关重要。&lt;/p&gt;
+&lt;h2 id="2-行宽"&gt;2. 行宽
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;行宽&lt;/em&gt;是一行文字的长度。或者确切的说，是一行文字的理想长度，因为很难让每一行都精确吻合。&lt;/p&gt;
+&lt;p&gt;众所周知，舒适阅读的理想行宽是65个字符左右。行宽产生的物理长度，取决于字体的设计、字间距（见下文）和你使用的具体文字。本文开篇的65个字符（译者注：此处请参见英文原文），用PT Serif字体是26.875em宽，用Open Sans是28.4375em宽，用Ubuntu字体是27.3125em宽。如果再加入斜体、大小写和一大堆其他字体细节，还会有更大的差异。&lt;/p&gt;
+&lt;p&gt;在桌面端浏览器中，65个字符很难触及边缘，但在移动设备上，65个字符（如果至少大到看得清）会超出浏览器的边界。所以，在移动设备上，你必须得缩减行宽。&lt;/p&gt;
+&lt;p&gt;移动端并没有普遍认可的行宽标准。不过传统上，报纸或杂志上每一个窄列都会趋向于39个字符。鉴于这个理想行宽已经经历了数个世纪的考验，它在移动端字体上也运转良好。&lt;/p&gt;
+&lt;h2 id="3-宽松行距紧凑行距"&gt;3. 宽松行距、紧凑行距
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;行距&lt;/em&gt;是行之间的空间，行距太紧凑，会让视线难以从行尾扫视到下一行首。行距太宽松，字间距会开始形成队列，产生了我们通常意义上的&lt;em&gt;河流&lt;/em&gt;，阻断了行的视觉流。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/02/leading.jpg"
+loading="lazy"
+alt="移动端字体7准则：从左至右：理想行距、太紧凑、太宽松"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;从左至右：理想行距、太紧凑、太宽松。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;行距的标准通常是1.4em，但以我的经验，这对于屏幕来说太紧凑了：在屏幕上表现良好的字体都有一个关键特征——大的凹槽，大凹槽需要更大一些的行距来保持空间层次。&lt;/p&gt;
+&lt;p&gt;反过来，更短的行宽需要更小的行距。所以你可能需要将桌面端的行距设得宽松点，同时记得将移动端的设置得紧凑些。&lt;/p&gt;
+&lt;h2 id="4-找到最佳状态"&gt;4. 找到最佳状态
+&lt;/h2&gt;&lt;p&gt;所有字体至少都有一种最佳状态，在屏幕上展现最佳的尺寸，还有在浏览器中最能保持字形的抗锯齿选项。&lt;/p&gt;
+&lt;p&gt;最佳状态下，多数笔画通常都能排列在像素网格中——像素字体，如果你还记得的话，那些字体&lt;em&gt;仅仅&lt;/em&gt;在字号调整到最佳状态下才有效。&lt;/p&gt;
+&lt;p&gt;将字体设为最佳状态能形成更强烈的对比。为移动端设计时，对比尤其重要，因为户外的强光可能分散注意。&lt;/p&gt;
+&lt;p&gt;你会发现，微调行距会使每行脱离完美像素匹配。我觉得，在移动设备屏幕上，对比的重要性胜过行距。所以如果你不得不在行距上妥协，来保持每行契合像素网格，那就这么做吧。&lt;/p&gt;
+&lt;p&gt;通常设计师通过基线网格来排列文字。但在移动设备上，我们需要使用&lt;em&gt;x高度&lt;/em&gt;来代替（x高度顾名思义，就是小写字母x的高度）。从易读性研究中，我们知道大脑识别的是文字顶部，而不是底部。所以要成就更加平顺的视觉流，我们要确保字符顶部最契合像素网格。&lt;/p&gt;
+&lt;h2 id="5-不要忽视起伏边"&gt;5. 不要忽视起伏边
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;起伏边&lt;/em&gt;是一段文字的边缘。你读的多数内容是居左对齐的（至少对于拉丁语系而言），导致&lt;em&gt;右边沿参差不齐&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;当视线从行尾跳至下一行首时，大脑最好要能判断出下一次跳跃的角度和距离。把每次跳跃都想象成跑过跳板，如果间距保持一致，就会快很多。因此，文字左侧边缘应该是平的，每行从同一个地方开始（对于从右至左的语言，恰好相反）。&lt;/p&gt;
+&lt;p&gt;因此你绝不应该将两三行以上的文字居中对齐。&lt;/p&gt;
+&lt;p&gt;通常文字会设置成两端对齐，这意味着每行文字所占空间相等，所以两侧都不会有起伏边。我怀疑两端对齐的流行和响应式设计有关，它教设计师们以块状形态思考。两端对齐的文字产生的留白不统一。最糟的情况会导致一行中只有几个字，相当不协调。更窄的行宽会加重两端对齐的问题，所以两端对齐的文字在移动端是难以阅读的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/02/alignment.jpg"
+loading="lazy"
+alt="移动端字体7准则：从左至右：左对齐、居中对其、两端对齐"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;从左至右：左对齐、居中对其、两端对齐。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果整洁真的非常重要，那么使用连字符号来让起伏边更平滑，绝不能在移动端使用两端对齐。&lt;/p&gt;
+&lt;p&gt;文字右侧是起伏边在移动端还有一项额外好处：人们通常在易分心的场合阅读文字，读者视线频繁地从文字上移开——查看站名，或是接电话。起伏边创造了一个随机形状，让右撇子的视线可以通过重读最少的文字，回到刚才的位置。&lt;/p&gt;
+&lt;h2 id="6-减少反差"&gt;6. 减少反差
+&lt;/h2&gt;&lt;p&gt;增强文字与背景对比的同时，我们也要减少不同层次文字间的反差。&lt;/p&gt;
+&lt;p&gt;在移动端，实际可见的文字更少，所以反差被放大了。&lt;/p&gt;
+&lt;p&gt;其原因是我们的大脑基于环境来判断重要性。在桌面端，标题可能是正文字号的两倍甚至三倍，因为屏幕上有更多文字，所以这是有效的。在移动端，实际可见的文字更少，所以反差被放大了。&lt;/p&gt;
+&lt;p&gt;多数设计师使用斐波那契数列式的字号组合。在移动端，应该缩小比率来减少字号间的反差。比如，如果你使用黄金比例1.618与字号相乘。在移动端，应该用更小的比例1.382来替代。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/02/scale.jpg"
+loading="lazy"
+alt="移动端字体7准则：桌面端屏幕比移动端容许更夸张的字号缩放"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;桌面端屏幕比移动端容许更夸张的字号缩放。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="7-按比例调整字间距"&gt;7. 按比例调整字间距
+&lt;/h2&gt;&lt;p&gt;为移动端调整字号时，我们要意识到&lt;em&gt;字间距&lt;/em&gt;发生了必要的变化。&lt;/p&gt;
+&lt;p&gt;（先说一句，不应该调整固有字距。固有字距是两个字母相互组合时的距离，使它们的间距与其他字母间距在视觉上统一。创作字体时，就纳入了固有字距的考量，这个过程可能要花上数月。如果你选用了一款专业的字体，它的固有字距就是合适的，如果你觉得不对，请换一个字体。）&lt;/p&gt;
+&lt;p&gt;字间距并不是固有字距。字间距是字体中应用在所有字符上的间距。通常你也不应该调整字间距。&lt;/p&gt;
+&lt;p&gt;大字号是个例外，拿标题和小号文字（比如脚注）举例。大号文字需要减少字间距，小号文字需要增加字间距。前者是考虑到分组，后者则是为了增强对比。如果你在调整标题，或是用了通常字间距紧密的艺术字体，缩小时可能就需要把字间距放开一点。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;字体是一门工艺，设计师终其一生都在精心打磨。的确如此，因为每个文字、每种字体和每项技术都带来了新的挑战。没有一成不变的普适规律。&lt;/p&gt;
+&lt;p&gt;假如你追求易读性，要牢记三条原则：行内的视觉流要平顺，空间层级要清晰，要有足够的对比。这尤其适用于移动端页面。&lt;/p&gt;
+&lt;p&gt;没有不可撼动的规则，全凭你双眼决断。不过本文的指南可以作为理想的出发点，让你在移动设备上优美地排列文字。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2015/02/7-simple-rules-for-mobile-typography/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2015年至关重要的4种排版趋势</title><link>https://victor42.eth.limo/post/3421/</link><pubDate>Sun, 25 Jan 2015 14:01:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3421/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第73期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/featured10.jpg"
+loading="lazy"
+alt="2015年网页排版设计趋势展示：分割屏幕、去界面化、模块化网格与一屏内布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;近十年来，互联网已经发生了翻天覆地的变化，然而它其实一点也没变。如果看看10年前，我们会发现大批网站都有一套通行的排版模式。页头、页脚、侧边栏和内容区域，构成了这种直截了当的布局。这是人们预期中的网页排版。同时期Macromedia Flash的兴起，引领其他排版方式进入了一个新的时代。布局不必再拘泥于固定格式。当然，随着FLASH的衰退，这种方式也稍稍淡出……我说稍稍，是因为它如今又卷土重来了。&lt;/p&gt;
+&lt;p&gt;假如你研究一个流行的作品集网站，里面展示了当今的网页设计。毫无疑问，你会注意到网页的基本结构千变万化，根本没有固定形态。它可以伸缩变化成任何所需的东西。我认为这是响应式网页设计带来的最棒的副产品。事实上，新的准则，就是根本没有固定准则。&lt;/p&gt;
+&lt;p&gt;综上所述，我们能观察发现几种重大的排版设计趋势，能够代表我所理解的非常规布局。说它们非常规，是因为它们并不严格遵循某种准则或既定体系。但这种趋势的例子，即使没有几百，我也能找出几十个，归入这几类中。&lt;/p&gt;
+&lt;p&gt;本文中，你会看到有趣的非常规排版趋势大杂烩，希望它能给你带来启发，帮助你构思网页设计的基本结构。我们这就深入了解一下……&lt;/p&gt;
+&lt;p&gt;##分割屏幕&lt;/p&gt;
+&lt;p&gt;在这类中，我们精选的网站都用了垂直分隔线来分割屏幕。可能这么做有很多原因，通过研究大量此类案例，我发现主要有两点。&lt;/p&gt;
+&lt;p&gt;原因之一，有时候在一套设计中，的确存在两个同等重要的主体元素。网页设计的通常方法，是按照重要性给内容排序。然后重要性会体现在设计的层次和结构上。但是假如你就是要推广两样东西呢？这种方式，可以让你突出两者，并让用户迅速在其中做出选择。&lt;/p&gt;
+&lt;p&gt;原因之二，有时你要表现出一种重要的两重性。以Eight and Four网站为例。他们在此要表达的是，他们的核心竞争力来自植根数字领域，还有多才多艺的员工。这两点成就了他们。通过屏幕分割来表现这一点，是种令人愉快的方式。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://eightandfour.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/161.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Eightand官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://carelpiethein.com/en/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/01.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Carelpie官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.deweyspizza.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/03.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Deweyspi官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://fian.my.id/marka/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/07.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：My官方网站的网页页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://pomopizzeria.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/18.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Pomopizz官网中采用的网页设计1"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##去界面化！&lt;/p&gt;
+&lt;p&gt;网页设计中的主要元素之一，就是容器元素：方块、边框、形状和所有类型的容器，用于将内容从页面中分离开。想象一个古板的页头，元素刚好容纳其中，与内容分隔开。如今的一项普遍趋势，就是去除所有这些额外的界面元素。&lt;/p&gt;
+&lt;p&gt;这是种极简主义的方式，但它更进一步，带来一些有趣的转变。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.br-time.jp/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/02.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Brtime官方网站的网页页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在这个例子中，他们把页头和页尾的概念统统去掉了。反而更像一个交互式杂货摊。从左向右的排列，就基本完成了内容层次的排布，有助于让排版更加直观。用于分隔导航和内容的界面就不需要了。取而代之的是漂亮的产品惊艳全场。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://foreword.io/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/131.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Foreword官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可以发现，移除任何感官上的页头和页尾后，内容得到了极大的强调。你会先看到公司名称，然后是关于他们经营内容（和场所）的清晰描述，而不是先看到页头。之后才是主导航。让用户浏览之前先重点强调品牌，这个方式太棒了！它造就了优美的视觉流程。有趣的是，当你滚动页面时，页头和界面才出现。美观且有效的排版，这种模式的运用颇具启迪性。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.harvardartmuseums.org/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/151.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Harvarda官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.voiceshavepower.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/20.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Voicesha官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://drurybuildings.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/171.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Drurybui官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##基于模块或网格&lt;/p&gt;
+&lt;p&gt;接下来这些排版方式，建立在模块化或类似网格的结构上。在这些设计中，每个模块都力图根据屏幕尺寸伸缩调整。实际上这并不是什么新的方式，不过响应式网页设计让它变得更加有用。它暗示了一种自适应布局模式，可以像搭积木一样，由各种模块组件创建而成。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.teambadcompanyrowing.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/04.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Teambadc官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个案例完美地诠释了这一点。整个设计都是响应式的。随着屏幕尺寸变化，每个模块都改变尺寸来适应空间。均匀划分屏幕使得设计更易于适应。他们还（在大屏幕尺寸中）引入一些元素来打破模块界限的束缚，这是画龙点睛之笔。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://madagascar.dreamworks.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/19.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：设计案例Dreamworks官网网页布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个案例更加激进。当然，它也包含了模块化的方式，让他们能够根据需要轻松增减内容。但此处还有一个重要的设计元素在发挥作用，之前的案例是没有的。模块通过尺寸变化，来反映其重要程度和在各层级中的地位。这类模块化的布局方式存在一种风险，它使每样东西尺寸都相同，这意味着无法强调任何事物。相反，这个案例还是清晰地突出了主要元素。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://plfixtures.info/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/08.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：设计案例Plfixtures官网网页布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://guide.residence-mixte.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/05.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Residenc官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://tevko.github.io/practice/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/06.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Github官方网站的网页页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##一屏以内&lt;/p&gt;
+&lt;p&gt;最后，还有一些网站采用这样的方式，让设计完全在一屏内展现。这是响应式设计的一个分支，因为它会适应屏幕尺寸。不过在这个绝佳案例中，整个设计的适应方式完完全全吻合屏幕，没有产生滚动条。没有滚动，意味着内容必须极度聚焦，而且要建立清晰的内容层次。我发现这些网站的聚焦能力和清晰程度，令人耳目一新。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://hatchcollective.co.uk/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/09.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Hatchcol官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.shamballajewels.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/10.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Shamball官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.erikfischer.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/11.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Erikfisc官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://twinpics.itrocksstudio.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/12.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Itrockss官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://nikolaylechev.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/01/141.jpg"
+loading="lazy"
+alt="2015年至关重要的4种排版趋势：Nikolayl官网中采用的网页设计效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##结论&lt;/p&gt;
+&lt;p&gt;虽然我把这几种趋势分开讲，但其实他们都表现为积木块的形式。这些积木可以通过很多不同方式组合。事实上，本文中展示的很多案例，都可以放在我们讨论过的其他几个分类中。现代网页的布局如此多样化，而且确实合乎使用，造就了如此激动人心的互联网媒体。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>为网页文字的可读性而设计</title><link>https://victor42.eth.limo/post/3388/</link><pubDate>Sun, 14 Sep 2014 00:01:53 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3388/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第57期]&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;可读性：“阅读的状态或质量，是一种影响印刷品持续阅读难易程度的属性。”——dictionary.com&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;文字可以是优美的、简单的、狂放的、有趣的、激动人心的，还有很多其他种类。它能激起情绪，帮助用户理解你所要传达的讯息。字体有很多种，但有一点是共通的——它必须具有可读性。&lt;/p&gt;
+&lt;p&gt;这是一个时常被遗忘的因素。设计师们往太狭小的空间填入太多信息，或是选用了外观胜过可读性的字体。但重点是：如果字体无法阅读，你的设计就无法完全生效。&lt;/p&gt;
+&lt;p&gt;尽管有些耸人听闻，但它几乎是普适规律。你会问：&lt;em&gt;“作为艺术元素的那些字体怎么说？”&lt;/em&gt; 不可阅读的字体在这类设计中确实能发挥作用，但是，仅限于与可读的文字搭配使用。&lt;/p&gt;
+&lt;p&gt;###在狭窄空间体现可读性&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.fastcompany.com/3034588/second-shift/how-i-taught-my-6-year-old-to-use-the-internet-and-not-let-google-take-her-allo" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/fast-company.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“尽管有些耸人听闻但它”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://typographica.org/on-typography/happy-birthday-mr-typographica/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/typographica.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“什么使得文字能够阅读”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://medium.com/@thibault_imbert/baking-is-engineering-eb2721ff410b" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/medium.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“什么使得文字能够阅读”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;什么使得文字能够阅读呢？它实际上是很多因素共同作用的结果，包括行长度、行距、字体样式、外边距和内边距，还有颜色和对比度。&lt;/p&gt;
+&lt;p&gt;每一个元素，都影响着屏幕阅读的难易程度。这每一种元素，都是设计师能够操控的。记住，本文中谈论的这些元素，是指网站主体部分的文字，此处文字的可读性可以说是首要考虑因素。（别处文字的标准相对宽松许多，只要主体部分高度可读。）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;行长度：每行的字符个数对于整体的可读性起着主要作用。如果文字段落非常宽，那是很吓人的，难以阅读。同理，每行文字太短也不行，会给读者的眼睛带来压力，造成混乱。&lt;/li&gt;
+&lt;li&gt;行距：每行文字间的间距也同样重要。看看这篇文章，如果每行文字都与上下两行粘在一起，你就无法理解这些句子。&lt;/li&gt;
+&lt;li&gt;字体样式：字体的样式也会影响可读性。简洁的衬线字体和无衬线字体是最具可读性、最易浏览的，而那些华丽的手书和新奇字体则最难破译。&lt;/li&gt;
+&lt;li&gt;外边距和内边距：和行距一样，元素周边和之间的空隙也影响着用户阅读文字本身。&lt;/li&gt;
+&lt;li&gt;颜色与对比度：文字颜色与相应背景也至关重要。如果在绿色背景上写绿色文字，就难以阅读了。设计师选择浅色字深色背景，或是深色字浅色背景，都是有原因的。对比使得字符容易阅读。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###不同屏幕上的可读性&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.ebony.com/news-views/no-more-requiems-a-protest-for-michael-brown-and-my-son-403#axzz3BK7z7Y8W" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/ebony.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“外边距和内边距和行距”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.latimes.com/local/cityhall/la-me-streetcar-cost-20140903-story.html" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/latimes.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“那如何创造最易读的文”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.newsweek.com/introducingbitcoin-poker-266405" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/newsweek1.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“那如何创造最易读的文”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;那如何创造最易读的文字？如果是正文文字，有一些基本准则规定每行的字数——每种设备不同—— 有助于打造最佳的可读性。&lt;/p&gt;
+&lt;p&gt;从何开始呢？最佳行长度有助于帮你确定文字段落的大小。可以这样：确定正文部分的宽度——通常可以假定分成桌面、平板、手机三种尺寸。然后调整文字大小到理想的单行字数。&lt;/p&gt;
+&lt;p&gt;虽然还有其他因素在起作用，这些准则是很好的入手点。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;桌面：每行55到75个英文字符，包括空格；理想状态是每行65个字符&lt;/li&gt;
+&lt;li&gt;移动设备：每行35到50个字符&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;将最佳的单行字数与绝佳的行距相结合，可以提升可读性。通常，行距最好是按照正文字体字号的百分比来定义，也可以定义为固定值或是em。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;桌面：字号的1.5倍&lt;/li&gt;
+&lt;li&gt;移动设备：字号的1.75至2倍&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你想找个工具来简化所有这些工作，试试&lt;a class="link" href="http://www.pearsonified.com/typography/" target="_blank" rel="noopener"
+&gt;黄金比例文字计数器 &lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;###可读性的其他提示&lt;/p&gt;
+&lt;p&gt;要打造可读的排版，正文以外的文字也大有关联。使用标题、无序列表、段落间的额外间距和颜色，也能提升整体可读性（标题则有助于浏览整个网站）。&lt;/p&gt;
+&lt;p&gt;考虑使用如下元素增进文字层级，创造更完整、更易读的网页设计。记得要把这些元素“设计”成独特的字体、字号和颜色，并要在正文中保持协调。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;标题&lt;/li&gt;
+&lt;li&gt;链接&lt;/li&gt;
+&lt;li&gt;粗体或斜体字&lt;/li&gt;
+&lt;li&gt;无序或有序列表&lt;/li&gt;
+&lt;li&gt;图像元素，例如照片&lt;/li&gt;
+&lt;li&gt;说明文字&lt;/li&gt;
+&lt;li&gt;引用文字&lt;/li&gt;
+&lt;li&gt;在各元素中混合使用衬线字体和无衬线字体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;##10种易读的字体&lt;/p&gt;
+&lt;p&gt;没有一篇讨论可读性的文章不推荐字体的。下面有10种高度可读——并且相当流行——的字体供你选择建立网站。&lt;/p&gt;
+&lt;p&gt;###无衬线字体&lt;/p&gt;
+&lt;h4 id="open-sans"&gt;Open Sans
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="https://www.google.com/fonts/specimen/Open&amp;#43;Sans" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/open-sans.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“官方网站的网页页面版”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="lato"&gt;Lato
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="https://www.google.com/fonts/specimen/Lato" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/lato.jpg"
+loading="lazy"
+alt="Google官方网站的网页页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="exo"&gt;Exo
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://www.google.com/fonts/specimen/Exo" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/exo.jpg"
+loading="lazy"
+alt="Google官方网站的网页页面版式布1"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="nobile"&gt;Nobile
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="https://www.google.com/fonts/specimen/Nobile" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/nobile.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“官方网站的网页页面版”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="droid-sans"&gt;Droid Sans
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://www.google.com/fonts/specimen/Droid&amp;#43;Sans" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/droid-sans.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“衬线字体”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;###衬线字体&lt;/p&gt;
+&lt;h4 id="arvo"&gt;Arvo
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://www.google.com/fonts/specimen/Arvo" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/arvo.jpg"
+loading="lazy"
+alt="Google官方网站的网页页面版式布2"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="old-standard-tt"&gt;Old Standard TT
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://www.google.com/fonts/specimen/Old&amp;#43;Standard&amp;#43;TT" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/old-standard.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“官方网站的网页页面版”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="abril-fatface"&gt;Abril Fatface
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://www.google.com/fonts/specimen/Abril&amp;#43;Fatface" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/abril.jpg"
+loading="lazy"
+alt="Abril Fatface"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="vollkorn"&gt;Vollkorn
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://www.google.com/fonts/specimen/Vollkorn" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/vollkorn.jpg"
+loading="lazy"
+alt="Vollkorn"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="josefin-slab"&gt;Josefin Slab
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="http://www.google.com/fonts/specimen/Josefin&amp;#43;Slab" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/josefin.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“可读性清单设计案例官”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##可读性清单&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://5by5agency.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/5by.jpg"
+loading="lazy"
+alt="设计案例5by5agency官网网页布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.louderthanten.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/louder.jpg"
+loading="lazy"
+alt="为网页文字的可读性而设计设计中关于“网站排版与字体可读性”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.iconpr.com.au/about" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/09/icon.jpg"
+loading="lazy"
+alt="Icon PR 网站排版与字体可读性设计展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;既然你已经有了好点子，决定下个设计项目中要使用什么字体和样式，你确定能以一种完全可读的方式将它们组合起来吗？下面是一列清单，供你规划字体的设计。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主体部分字号够大吗？在每种设备上，它是否达到最佳的行长度？&lt;/li&gt;
+&lt;li&gt;每行文字间是否有足够的间距？&lt;/li&gt;
+&lt;li&gt;文字与页面边界和其他元素之间有没有足够的空间？&lt;/li&gt;
+&lt;li&gt;正文文字颜色与背景对比反差够强烈吗？&lt;/li&gt;
+&lt;li&gt;每个新段落之间是否有额外的空隙？&lt;/li&gt;
+&lt;li&gt;标题和其他元素与正文文字不同吗？&lt;/li&gt;
+&lt;li&gt;有没有使用其他元素（无序列表、粗体字等）分解大段文字？&lt;/li&gt;
+&lt;li&gt;正文文字是否使用了易读的字体（建议选用一种衬线或无衬线字体）？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###结论&lt;/p&gt;
+&lt;p&gt;可读性是设计中至关重要的组成部分。如果无法阅读和理解页面上的内容，对于用户而言，它就完全不相关也不重要。&lt;/p&gt;
+&lt;p&gt;如何在设计项目中规划可读性？你有没有其他通往成功的技巧？在评论中与我们分享吧。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/text-readability/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>改善文字的层级关系</title><link>https://victor42.eth.limo/post/3370/</link><pubDate>Sun, 01 Jun 2014 10:12:55 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3370/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第42期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文字层级经常在交互设计中被忽视。无论如何，要建立一套成功的用户流程，在项目流程之初就得将文字纳入考虑。&lt;/p&gt;
+&lt;p&gt;文字层级在沟通中扮演着重要角色，将用户引向期望中的结果，还能改善用户体验。网页应用总有繁复的文字层级，区分不够鲜明。各级文字相互较劲，使用户不知所措、迷失其中。&lt;/p&gt;
+&lt;p&gt;新闻头条应用&lt;a class="link" href="https://www.inside.com/all" target="_blank" rel="noopener"
+&gt;Inside.com&lt;/a&gt;就是个很好的例子，反映了不清晰的文字层级如何影响用户体验。在&lt;a class="link" href="https://www.inside.com/all" target="_blank" rel="noopener"
+&gt;“all updates”&lt;/a&gt;中，新闻逐条展示。每条包含了7个文字层级（下图）。分类名（1）、标题（2）、标题链接（3）、正文链接（4）、正文（5）、网站链接（6）、发布时间（7），由于没有被清晰地区分开，它们全都在争相吸引用户注意。这种模棱两可的层级，使每则故事都不易阅读，阻滞了用户交互流程。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-06/06-01/1-wEeg4TfGzt0_LshR8lAucg.jpeg"
+loading="lazy"
+alt="Inside新闻列表中七个文字层级互相竞争的界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;假如花更多心思在文字层级上，Inside.com会受益良多&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;为了更好地区分文字的层级，你需要对用户希望如何剖析信息有所了解。在缺乏可用性测试的情况下，我可以假设用户第一眼会看到标题，然后阅读正文，接下来如果他们感兴趣，则会点击网站链接。&lt;/p&gt;
+&lt;p&gt;很快，我重新设计了第一篇文章，优化了文字的层级。增大了标题的字号，将它剥离出正文，把正文改为中灰色，将网站链接放在正文下方，并加大了行高，增加易读性。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-06/06-01/1-uXiDWuzPCKUDzPv-gSvXMg.jpeg"
+loading="lazy"
+alt="重新设计后突出标题正文和来源链接的新闻列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;快速重设计&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这些改变有助于区分文字层级，随后便提升了用户体验。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-06/06-01/1-jUFyzIwlmKBnC91cFO9vmg.jpeg"
+loading="lazy"
+alt="新闻列表文字层级优化前后的可读性对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;前后对比&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;从结构的角度看，还能使整体层级更加清晰。记住文字只是一种元素（尽管通常是最重要的），对导航条、图片位置、文章排列进行重新设计，也能提升用户体验。&lt;a class="link" href="https://medium.com/designed-thought/e3fae297c5bf" target="_blank" rel="noopener"
+&gt;我们下次会讲到……&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果喜欢这篇文章，请点击下方绿色的“推荐”按钮，并关注&lt;a class="link" href="https://medium.com/designed-thought" target="_blank" rel="noopener"
+&gt;Designed Thought Collection&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://andrewcoyle.com/" target="_blank" rel="noopener"
+&gt;欢迎来访&lt;/a&gt;，我的&lt;a class="link" href="https://twitter.com/CoyleAndrew" target="_blank" rel="noopener"
+&gt;Twitter&lt;/a&gt;、 &lt;a class="link" href="https://dribbble.com/AndrewCoyleDesign" target="_blank" rel="noopener"
+&gt;Dribbble&lt;/a&gt;、&lt;a class="link" href="https://www.behance.net/andrewcoyle" target="_blank" rel="noopener"
+&gt;Behance&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://medium.com/designed-thought/creating-better-typographic-hierarchy-1148a46b2fc" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>iOS系统默认字体对照表</title><link>https://victor42.eth.limo/post/3270/</link><pubDate>Sat, 19 Apr 2014 20:17:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3270/</guid><description>&lt;p&gt;工作中需要对比iOS系统默认字体，于是拖着开发同学写了一段代码逐个输出，再自己稍作调整修饰，在此分享出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-19/1.png"
+loading="lazy"
+alt="iOS 系统默认字体对照表，左列为中文样例文字，右列为字体名称"
+&gt;&lt;/p&gt;</description></item><item><title>8个优秀的移动APP字体运用案例</title><link>https://victor42.eth.limo/post/3147/</link><pubDate>Sun, 09 Mar 2014 16:35:38 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3147/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第31期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我有个小小的心得可以分享给你——好的字体等于成熟的设计。直至几年前，网页设计师们都还没有对&lt;a class="link" href="http://designmodo.com/typography-basics/" target="_blank" rel="noopener"
+&gt;字体&lt;/a&gt;表现出足够的关注。如今这个领域已日趋成熟——字体繁荣发展，成为一股巨大的设计潮流。&lt;/p&gt;
+&lt;p&gt;好的字体在文本的易读性上起了决定作用，却不止于此，它也传递出设计师分享的意图。它是整个用户体验的重要部分。从另一方面讲，缺乏好的字体，是整个产品不专业的表现。文字是主要界面的基础元素——如果它设计得很糟，为何还要深入下去？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/responsive-design-vs-mobile-website-vs-app/" target="_blank" rel="noopener"
+&gt;本地应用&lt;/a&gt;第一年在iOS和Android平台上的发展，简直惨不忍睹。似乎大多设计师和开发者根本没有考虑过字体问题。它不受重视，显得很突兀。所用的那些令人生厌的字体毫无品味。真是一场设计的噩梦。&lt;/p&gt;
+&lt;p&gt;如今，移动端设计已经远远超越早期的水平，这个领域成熟的迹象已经显露。字体是它最形象的例子。主流应用中的大多字体可以用“得体”来形容。无论是Facebook、Mailbox或是Twitter——文字清晰，字体看上去至少还不错。更有趣的是——2013年，我们看到越来越多移动应用在字体的使用上，表现出了震撼的效果。Ultravisual、WillCall、Hotel tonight就是几个很棒的案例。&lt;/p&gt;
+&lt;p&gt;可以肯定的是，在2014年，这股趋势将会形成更加强大的力量。&lt;/p&gt;
+&lt;p&gt;不能再忽视APP中的字体了。移动端的设计已经成熟。&lt;/p&gt;
+&lt;p&gt;Citroen Lifestyle, iOS&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.citroen.com.br/lifestyle/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/1-Citroen.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“不能再忽视中的字体”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fancred, iOS&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://fancred.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/2-Fancred.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“官方网站的网页页面版”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fifa, iOS, Android&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.fifa.com/mobile/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/3-Fifa.jpg"
+loading="lazy"
+alt="Fifa官方网站的网页页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Foodie Recipes, iOS&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.foodie.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/4-Foodie.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“官方网站的网页页面版”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hotel Tonight, iOS, Android&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.hoteltonight.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/5-Hotel-Tonight.jpg"
+loading="lazy"
+alt="Hotel Tonight"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;National Geographic City Guide, iOS&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/6-National-Geographic.jpg"
+loading="lazy"
+alt="National Geographic"
+&gt;&lt;/p&gt;
+&lt;p&gt;Ultravisual, iOS&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.ultravisual.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/7-Ultravisual.jpg"
+loading="lazy"
+alt="Ultravisual"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Willcall, iOS, Android&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.getwillcall.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/8-Wilcall.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“原文链接”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://mobiledesigntrends.com/2014.html" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/footer.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“原文链接”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/typography-mobile-apps/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

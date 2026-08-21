@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>设计规范 on Victor42</title><link>https://victor42.eth.limo/tags/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/</link><description>Recent content in 设计规范 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Sun, 26 Jun 2016 11:24:43 +0000</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/index.xml" rel="self" type="application/rss+xml"/><item><title>风格指南里该有什么，如何执行？</title><link>https://victor42.eth.limo/post/3508/</link><pubDate>Sun, 26 Jun 2016 11:24:43 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3508/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第137期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每个网站都需要一套风格指南。原因很简单，如果想要在整个项目中贯彻一致性，让所有人达成共识，风格指南的价值是无可估量的。&lt;/p&gt;
+&lt;p&gt;既然如此，我们先把它放在一旁，指南中究竟应该包含哪些东西？如何确保团队成员遵守规则，让视觉表现保持一致？那就更复杂了。这就是我们今天的话题。&lt;/p&gt;
+&lt;h2 id="品牌综述"&gt;品牌综述
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-26/uber-1.jpg"
+loading="lazy"
+alt="Uber品牌风格指南页面：展示品牌故事与城市天际线插图的现代设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果你从没创建过风格指南，那可能令人望而生畏。新手可以先找一套自己喜欢的指南来学习——MailChimp是最优秀的风格指南之一，它还&lt;a class="link" href="http://styleguide.mailchimp.com/" target="_blank" rel="noopener"
+&gt;开放给了整个设计行业&lt;/a&gt;——可以将它作为着手开始的示例。&lt;/p&gt;
+&lt;p&gt;多数风格指南包含两部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;版权指南&lt;/li&gt;
+&lt;li&gt;视觉指南&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;风格指南的每块都同样重要，它们是整个指南的一部分。融合所有元素来构建完整的品牌特征。每个品牌、公司和网站都有所不同。要选择一套在文案和视觉方面适合的语言风格和样式，但这也和整个用户群有关。&lt;/p&gt;
+&lt;p&gt;建立品牌特征时要兼顾用户和股东，这是他们想要和期望的品牌吗？他们能把它与品牌联系起来吗？他们会想与之互动吗？&lt;/p&gt;
+&lt;h2 id="语言和语调"&gt;语言和语调
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://mailchimp.com/about/brand-assets/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-26/mailc.jpg"
+loading="lazy"
+alt="MailChimp品牌指南页面：展示Logo样式与吉祥物Freddie的视觉规范"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我们最关注风格指南的视觉方面，但语言和语调非常重要。品牌特征有一部分是你如何与用户“交谈”。交谈方式是正式的还是随意的？是详细的还是简洁的？&lt;/p&gt;
+&lt;p&gt;要用与网站类似的语言风格来撰写风格指南。这有助于让团队理解期望的效果，并且展现出语言风格对品牌特征有何贡献。&lt;/p&gt;
+&lt;p&gt;应该从你做起，把语言和语调用在每一处沟通中。回顾&lt;a class="link" href="http://mailchimp.com/about/brand-assets/" target="_blank" rel="noopener"
+&gt;MailChimp&lt;/a&gt;的大纲，总体了解品牌语调。留意这家公司如何谈论它的吉祥物，比如：“Freddie是我们的吉祥物。我们不会把它和logo结合使用。Freddie永远都面向右边，并且总是挤眉弄眼。”&lt;/p&gt;
+&lt;h2 id="规则和运用"&gt;“规则”和运用
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://brandguide.tamu.edu/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-26/tamu.jpg"
+loading="lazy"
+alt="Texas A&amp;M大学品牌指南页面：展示品牌色彩、字体和模板规范"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;风格指南应该是你的设计“剧本”。（这是不是比“规则”听起来更友好？）&lt;/p&gt;
+&lt;p&gt;它应当以一种易于理解的方式，描述如何、何时使用字体、颜色和其他所有类型的设计元素。下面是它所包含的清单项：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;配色方案，包含色值和可接受的深浅变化&lt;/li&gt;
+&lt;li&gt;字体方案，包括所有字重、字号、行距和用法&lt;/li&gt;
+&lt;li&gt;Logo，包括尺寸和位置的规范&lt;/li&gt;
+&lt;li&gt;图标或元素样式（这包含了从按钮到社交媒体分享图标等各种元素的处理）&lt;/li&gt;
+&lt;li&gt;拼写，文字选择和文案风格（应当遵循怎样的文字规范？APA、AP、还是其他？）&lt;/li&gt;
+&lt;li&gt;照片指南，包括色彩、剪裁和视觉表现&lt;/li&gt;
+&lt;li&gt;SEO信息，包括备选文字和关键词&lt;/li&gt;
+&lt;li&gt;栅格系统（用于网页和印刷）&lt;/li&gt;
+&lt;li&gt;留白的考虑（设计应该宽松还是紧凑）&lt;/li&gt;
+&lt;li&gt;联系（一个让团队成员能够提问和查看说明的地方）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="简单明确的概念"&gt;简单明确的概念
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://trello.com/about/branding" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-26/trello.jpg"
+loading="lazy"
+alt="Trello品牌资产页面：展示各种品牌Logo和吉祥物元素"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最难的部分来了。你得综合上面所有信息，浓缩成简单、明确、可执行的概念。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设计风格指南时，对于内容不要过度设计。这是一份视觉参考；要以视觉参考的方式来设计。&lt;/li&gt;
+&lt;li&gt;相关项目分到同一页，以供快速查阅：一页讲色彩，另一页讲字体，一页讲照片，等等。&lt;/li&gt;
+&lt;li&gt;提供外观的案例。如果可以用图解释问题，就不要用文字。&lt;/li&gt;
+&lt;li&gt;提供有用的细节标注。比如配色方案，应该使用RGB（或HEX）和CMYK模式，以使颜色在各处的运用保持一致。&lt;/li&gt;
+&lt;li&gt;从设计中拆分出各部分，展示各种元素的使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="片段与示例"&gt;片段与示例
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://inkbotdesign.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-26/handdy.jpg"
+loading="lazy"
+alt="Handly Apps网站界面：展示电脑与手机上的应用截图和品牌宣传"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;无论你的风格指南是印刷的、数字的，还是网页文档，都应当配上使用方式。其中有个要素极其有用，品牌的示例和反例。它能轻易强调你所希望的品牌视觉效果。&lt;/p&gt;
+&lt;p&gt;然后，整理一套方便查找的目录。为所有团队成员建立样式库（或一系列通用元素，这取决于你用的软件）。把文件存在一个大家能够访问的公共位置，这样就能相对容易地修改。&lt;/p&gt;
+&lt;p&gt;为项目中的每个人提供一系列的云端软件（包括链接、用户名和其他基本信息）。确保所有字体包、logo和图片文件放在常用位置，并且每个人都知道它们在哪。（在别处留一份备份，以防有人在原件上修改和保存。）&lt;/p&gt;
+&lt;p&gt;编写一套标准代码片段，能轻松复制粘贴到项目中。不必每次都重新创造。通用元素应该存放在一个共享位置，每个人都能打开。&lt;/p&gt;
+&lt;p&gt;这部分最后一点，就是要记得更新。一切都在变化——它们也是。&lt;a class="link" href="https://www.smashingmagazine.com/2016/05/creating-a-living-style-guide-case-study/" target="_blank" rel="noopener"
+&gt;Smashing Magazine&lt;/a&gt;有一篇精彩的案例研究，描绘了一套“活的风格指南”。&lt;/p&gt;
+&lt;h2 id="执行风格指南"&gt;执行风格指南
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://brand.jquery.org/" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-26/jquery.jpg"
+loading="lazy"
+alt="jQuery品牌指南页面：展示Logo、配色方案和排版规范"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最后，最大的问题是：“如何让人们遵循这套规则？”如果你按照上面的方式设计这套指南，就已经很好解决这个问题了，尤其是简单明确的概念。&lt;/p&gt;
+&lt;p&gt;指南要容易学习和使用（就像你的网站）。语言要简练，不要事无巨细交代，这样大家就愿意遵守规范。&lt;/p&gt;
+&lt;p&gt;它应当是一本指南书，为具体设计留下了充足的空间和灵活性。&lt;a class="link" href="https://designshack.net/articles/graphics/designing-with-constraints-thinking-inside-the-box/" target="_blank" rel="noopener"
+&gt;设计一系列约束&lt;/a&gt;能够帮助团队成员释放他们的创造力，同时创造出符合你品牌的作品。风格指南也要有个主人。这个人要负责审批更新和改变，要能回答设计决策上的问题。这个“主人”可以是一个人，也可以是一个团队，取决于你公司的大小。&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;你是否已经拥有一套风格指南了？或者需要新建立一套？这是一项每年都应该进行的工程，这样能让指南时刻保持最新。（如果你的旧规范还在，就不能怪团队成员）&lt;/p&gt;
+&lt;p&gt;你有没有设计或见过优秀的风格指南？我对这些非常感兴趣，很想看一看。你可以在Twitter上联系我，或者给我发邮件。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://designshack.net/articles/business-articles/what-needs-to-be-in-your-style-guide-and-how-do-you-enforce-it/" target="_blank" rel="noopener"
+&gt;https://designshack.net/articles/business-articles/what-needs-to-be-in-your-style-guide-and-how-do-you-enforce-it/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://designshack.net/author/carriecousins/" target="_blank" rel="noopener"
+&gt;CARRIE COUSINS&lt;/a&gt;
+Carrie is the chief writer at Design Shack, with years of experience in web and graphic design. Sports fanatic. Information junkie. Designer. True-believer in karma.&lt;/p&gt;</description></item><item><title>品牌为何需要设计指南？如何创建？</title><link>https://victor42.eth.limo/post/3382/</link><pubDate>Sun, 17 Aug 2014 21:21:03 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3382/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第53期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/07/logo1.jpg"
+loading="lazy"
+alt="国外优秀设计官方网站的网页页面版式布4"
+&gt;&lt;/p&gt;
+&lt;p&gt;很多设计师与创意工作者都忽视了品牌设计指南的作用（有些人也称其为品牌宝典，或其中的一部分）——它给出了一系列清晰的准则，规定了线上线下的市场推广材料应该长什么样。&lt;/p&gt;
+&lt;p&gt;风格指南可以为你节约时间与金钱，减少遭遇的挫折，使市场推广材料更易于维护和创造。把它当作一套标注详尽的衍生品；它提供了如何实施的相关说明，有时甚至能让你深入了解其中缘由。&lt;/p&gt;
+&lt;p&gt;果你不怎么确信你服务的每个品牌与公司都需要它，或者不确定如何创建，请往下读……&lt;/p&gt;
+&lt;h2 id="为何每个品牌都应该有设计指南"&gt;为何每个品牌都应该有设计指南
+&lt;/h2&gt;&lt;p&gt;对于小公司或只有一个设计师的公司而言，设计指南似乎并无必要。但说真的，每个品牌都应当有风格和品牌指南，来确保他们产品的每种视觉元素统一一致。&lt;/p&gt;
+&lt;p&gt;先拿只有一个设计师的情况来说。如果你是你们公司项目中唯一的设计师。你设计他们的logo、名片和所需的其他所有市场推广材料。你对所有的元素都心中有数。&lt;/p&gt;
+&lt;p&gt;现在，一年后，公司规模扩大了两倍，突然他们需要再雇一个设计师来分担你的工作。这下好玩了，你得凭记忆教这个新人品牌的设计指南。其中包括很多过去一年内你根本没有考虑过的事情。&lt;/p&gt;
+&lt;p&gt;当然，如果什么重要的东西没有传达，他们会指责你没有教好新员工。&lt;/p&gt;
+&lt;p&gt;如果你可以给出一份设计指南，包含了他们所需的一切：颜色、logo尺寸和放置、字体使用等，事情就相当简单了。&lt;/p&gt;
+&lt;p&gt;又或者说你是为多个客户服务的自由职业者。一份设计指南可以使你轻松回到数月或数年前完成的作品中，而不必梳理旧文件来了解用了具体哪种字体，或是具体颜色的十六进制色值是什么。相反，你可以拖入一个文件，就能瞬间看到你所需的一切。&lt;/p&gt;
+&lt;p&gt;设计指南可以确保你的作品不会被一些新的、水平欠佳的设计师糟蹋了，他们并不理解你的设计如何发挥作用。你最不想看到的，是你精心设计的logo被缩得太小，或是与其他元素靠的太近，实际上这损耗了它的影响力（更糟的是，元素间的留白彻底被打乱了）。&lt;/p&gt;
+&lt;p&gt;为每个你服务的品牌创建设计指南，可以使你的工作更轻松，也让你的作品更加统一（使得所有图片显得更专业）。初入一个项目时，创建一套基础的设计指南并不怎么耗时间，却能省去你大量的工作，使你在这过程中避免无尽的挫败。&lt;/p&gt;
+&lt;p&gt;##基础元素&lt;/p&gt;
+&lt;p&gt;每套设计指南都会有细微差别，因为它取决于品牌有多复杂，可能需要多少种市场推广材料。不过有些基本的元素几乎在每套设计指南中都会出现。&lt;/p&gt;
+&lt;h3 id="字体"&gt;字体
+&lt;/h3&gt;&lt;p&gt;每个品牌的市场推广材料中都应该使用统一的字体，无论线上线下。列出这些字体，配上例子和字符集，这点尤为重要。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/07/fonts.jpg"
+loading="lazy"
+alt="字体"
+&gt;&lt;/p&gt;
+&lt;p&gt;别忘了除了字体使用之外，你可能还得指定标题、照片说明等文字的字号。指定字体族中禁用的特殊样式和字重也是个好主意，连字或备用字符该不该用，诸如此类。&lt;/p&gt;
+&lt;p&gt;###颜色&lt;/p&gt;
+&lt;p&gt;品牌使用的颜色应当尽可能详细。这意味着不仅要提供网页使用的十六进制色值，还要有等价的CMYK甚至Pantone色值用于印刷。不是所有颜色都能完美无缺地在网页和印刷间转换，所以指定优先级是个好主意，这样不会导致最终颜色和你原先的颜色差别太大。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/07/colors.jpg"
+loading="lazy"
+alt="颜色"
+&gt;&lt;/p&gt;
+&lt;p&gt;很多十六进制RGB色域直接转换时，若不进行人工调整，会在CMYK模式中发生剧烈的变化（某些蓝色通常会变灰暗，红色会偏橙色或粉色等等）。花时间确认和纠正每个色域，这样可以得到尽可能好的结果。还要确保检查颜色的印刷效果，而不仅仅是屏幕上。&lt;/p&gt;
+&lt;p&gt;###Logo尺寸与位置&lt;/p&gt;
+&lt;p&gt;通常，多数logo太小会失去其展示效果。你可以设计一个备用logo（通常是简化版）用于小尺寸，或者就定义一个logo展示的最小尺寸。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/07/logo1.jpg"
+loading="lazy"
+alt="国外优秀设计官方网站的字体页面版式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;还要指定logo周围需要多少留白，以保证不影响它的效果。指定logo能否以其他颜色形式呈现（尤其灰度模式），还有它是否只能用在中性背景色上，还是彩色的背景也可以。还要指定logo能否放在边框中，这种情况周围要有多少留白。&lt;/p&gt;
+&lt;p&gt;###图标或其他图形&lt;/p&gt;
+&lt;p&gt;如果还有独有的特殊图标（或图标集），或者通用的特殊图片，那么指南中得指定这些东西。包含一个指向该图标集的链接，因为图标名并不唯一，容易搞混。&lt;/p&gt;
+&lt;p&gt;你还需要指定是否只能用某种特定的类型或样式的图片。比如，你可能会指定所有图片都需要包含某种特定颜色，或者都要加上复古的滤镜效果，或者都得是黑白的。&lt;/p&gt;
+&lt;p&gt;###文案写作指南&lt;/p&gt;
+&lt;p&gt;尽管并非每套设计指南都会需要文案撰写说明，如果你的品牌想努力表现出一种特定的写作风格时，这是个好办法。&lt;/p&gt;
+&lt;p&gt;可能有些特殊词句会包括在内，同时可能还有些其他词句应该不惜一切避免使用（有时候因为他们与竞争对手有紧密关联）。指明这些非常重要。&lt;/p&gt;
+&lt;p&gt;可能还有一条，文案应当积极向上，或者要专业，或利用对特定人群有吸引力的语言。&lt;/p&gt;
+&lt;p&gt;###网页的特有元素&lt;/p&gt;
+&lt;p&gt;尽管有很多元素通行于印刷品和网页间，还是有些网页特有元素，印刷品上是找不到的，网站中却普遍存在。&lt;/p&gt;
+&lt;p&gt;这包括按钮样式和层级、表单样式呈现之类。若没有一套清晰的规则可以遵循，要使这些东西在多个页面（甚至多个网站）保持统一，会是一项重大的挑战。
+###还要考虑其他元素&lt;/p&gt;
+&lt;p&gt;你可能还要考虑为下面这些东西增加指南：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;品牌历史、愿景和个性化信息。这些在品牌宝典中很常见，可能在标准的设计指南中不多见。&lt;/li&gt;
+&lt;li&gt;社交媒体指南，包括应该分享的文章类型，还有各种品牌元素应该如何用于各社交网站。&lt;/li&gt;
+&lt;li&gt;网站中的设计布局和栅格系统标准，有时印刷广告中也有。&lt;/li&gt;
+&lt;li&gt;其他材料的指南，比如宣传册或名片。&lt;/li&gt;
+&lt;li&gt;所有元素的使用样例。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你想看一些有启发性的设计风格指南案例，看看我们去年秋季发布的&lt;a class="link" href="http://www.webdesignerdepot.com/2013/11/20-inspiring-branding-guides/" target="_blank" rel="noopener"
+&gt;20套启发性的品牌指南&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;##设计指南该有多长？&lt;/p&gt;
+&lt;p&gt;设计指南的长度可以从一个页面到几十页，取决于品牌的复杂度，还有市场推广材料的种类。&lt;/p&gt;
+&lt;p&gt;如果是极简的网站，只有一个logo设计、明确的字体和用色，没有线下的材料，单页的设计指南勉强是够了。&lt;/p&gt;
+&lt;p&gt;但是，一个拥有众多部门、涉及诸多市场的巨型跨国企业，广告横跨众多媒体，就需要类似一本书来阐明所有用法。&lt;/p&gt;
+&lt;p&gt;不论哪种，你的设计指南只需要包含必要元素，但是要精确传达品牌视觉风格等信息。&lt;/p&gt;
+&lt;p&gt;##一份活文档&lt;/p&gt;
+&lt;p&gt;你的设计指南不是一块石头。品牌是会进化的。会有新logo出现。网站会进行重设计。市场推广材料会更新。重要的是确保设计指南随着其他更新一并更新。
+&lt;a class="link" href="http://brandingmanual.com/middlecap/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/07/middlecap.jpg"
+loading="lazy"
+alt="品牌为何需要设计指南？如何创建？设计中关于“设计指南也有助于确保”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设计指南也有助于确保品牌以一种无缝的方式升级，尽量不会疏远你的用户。看品牌升级进展到哪里了，可以指出其自然进化的方向，好过鲜明的反差。&lt;/p&gt;
+&lt;p&gt;虽然设计指南应该具有流动性，会随时间变化，但还是要能查阅旧版本的设计指南。而且要确保你对设计指南做出的任何更改都是经过深思熟虑的，而不是无视现存设计指南的借口。&lt;/p&gt;
+&lt;p&gt;因为设计指南会随时间变化，确保每个需要的人都能获得最新版本，这非常重要。由于要更改指南的日期与版本，将文件放在云端服务器或其他中心位置是个好主意。&lt;/p&gt;
+&lt;p&gt;##整合设计指南&lt;/p&gt;
+&lt;p&gt;设计指南中的元素可以整合进网站中。包括CSS文件开头的注释，大概描述一下颜色和所用字体，可以确保你遵循设计指南。&lt;/p&gt;
+&lt;p&gt;一套完整的设计指南，对于任何可能使用它的人来说应该要简单易用。让人可以通过公司服务器或云端服务器访问也是个不错的办法。你可以在CSS文件中包含一个链接，或是通过其他方法（除非它有密码保护或是放在内部服务器上，不然实际上都应该允许公众访问）。&lt;/p&gt;
+&lt;p&gt;##内部还是公开文档？&lt;/p&gt;
+&lt;p&gt;越来越多公司向公众开放了它们的设计指南。它的意义在于：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;让需要它的人（设计师）可以轻松获得这些信息。你可以给他们一个链接，而不用发邮件或是提供密码。&lt;/li&gt;
+&lt;li&gt;使品牌更加透明。&lt;/li&gt;
+&lt;li&gt;如果你的品牌有新闻媒体报道时，它会很有用，因为记者可以获得关于如何使用你们logo的信息等等。而不用等你的公关部门（或个人）回复他们。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;当然，如果你决定公开你的设计规范，你就得保证它设计精良，和其他任何销售和市场推广材料一样。这会增加创建设计指南的成本和时间，使得修改它也更加困难。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://brandingmanual.com/wellabove/7313-on-backgrounds/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2014/07/wellabove.jpg"
+loading="lazy"
+alt="品牌为何需要设计指南？如何创建？设计中关于“公开的设计指南也让其”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;公开的设计指南也让其他品牌抄袭你变的容易。但你做什么都无法阻止别人这么做（除非法律途径），设计指南确实使这一点更容易。它为品牌抄袭者减少了步骤。&lt;/p&gt;
+&lt;p&gt;不过，一旦你对自己品牌和业务有信心，这一点对是否公开没多大影响。&lt;/p&gt;
+&lt;p&gt;将它作为内部文件，更新和修改会更方便，对于初创公司非常重要。指南本身也不需要“设计”，让它尽可能保持功能性。当你的设计师工作负担很重，这么做是有巨大好处的。&lt;/p&gt;
+&lt;p&gt;设计指南的要点，是为所有人简化和加速设计过程。确保它具备这个作用，不论公开与否。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2014/08/why-your-brand-needs-a-style-guide-and-how-to-create-one/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>为网站和应用创建设计指南与标准</title><link>https://victor42.eth.limo/post/3346/</link><pubDate>Sun, 18 May 2014 11:36:15 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3346/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第40期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;尽管做法不尽相同，一组指南总是所有项目最重要的起点之一。&lt;/p&gt;
+&lt;p&gt;为每个项目创建指南（即使它原本没有）可以&lt;a class="link" href="http://designmodo.com/photoshop-improve-workflow/" target="_blank" rel="noopener"
+&gt;优化你的工作流程&lt;/a&gt;，也能使你的设计保持统一，并有望采取正确的开发方式。&lt;/p&gt;
+&lt;p&gt;这的确是设计师的责任。你不能怪开发者没有你那样的像素眼。你得指导他们。&lt;/p&gt;
+&lt;p&gt;从创建3种主要类型的文档开始。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;样式指南&lt;/li&gt;
+&lt;li&gt;组件文档&lt;/li&gt;
+&lt;li&gt;页面标注&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这套流程不推荐兼任前端开发的设计师采用。如果是这种情况，你需要多做一步，通过代码写出的风格指南和组件，创建一个单独的平台。你甚至会想在第二步就开始编写代码，省去剩余的步骤。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://getbootstrap.com/" target="_blank" rel="noopener"
+&gt;Bootstrap&lt;/a&gt;和&lt;a class="link" href="http://purecss.io/" target="_blank" rel="noopener"
+&gt;Purecss&lt;/a&gt;就是两个知名的例子。确实，它们是完整的前端框架，或许比你正在进行的项目更庞大，不过你应该理解了吧？&lt;/p&gt;
+&lt;h2 id="1-样式指南"&gt;1. 样式指南
+&lt;/h2&gt;&lt;p&gt;样式指南明确了一个设计项目中每个元素的样式。它基本上是开发者最普遍的样式手册。在这个文档中，颜色、字体、表格、列表项、图标使用、分隔线和其他元素都有详尽的定义。一旦你创建好并设立了每种元素的相应规范，就可以拖放使用了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/05/Styleguides.jpg"
+loading="lazy"
+alt="提示：为元素命名。尽管开发者最终可能会用不同的class名，当谈论某个元素时也会非常有用。比如说，你给一个有渐变色导航栏的网站设计了不同主题。说#主配色 - #第二配色总比说这些颜色的名字好"
+&gt;&lt;/p&gt;
+&lt;p&gt;*提示：为元素命名。尽管开发者最终可能会用不同的class名，当谈论某个元素时也会非常有用。比如说，你给一个有渐变色导航栏的网站设计了不同主题。说#主配色 - #第二配色总比说这些颜色的名字好。&lt;/p&gt;
+&lt;h2 id="2-组件文档"&gt;2. 组件文档
+&lt;/h2&gt;&lt;p&gt;在许多方面，这个文档与样式指南完全相同，却是另一个层次的东西。组件是指类似于登录框、轮播图、旋转木马、页头、页尾等等。&lt;/p&gt;
+&lt;p&gt;这不同于通常意义的样式指南，这个文档有助于在整个设计过程中保持一致性。它能使开发者更轻易地辨认出重复的元素，使流程加速。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/05/Components-document.jpg"
+loading="lazy"
+alt="为网站和应用创建设计指南与标准设计中关于“从上面可以看出在设计”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;从上面可以看出，在设计响应式项目时，将每个元素的“表现”包含进来是有好处的。再说，通常开发们不会关注这些事情（也不该由他们来关注）。&lt;/p&gt;
+&lt;p&gt;相信我，若你不强调一下CTA文字在移动端要居中显示，他们就不会注意。&lt;/p&gt;
+&lt;p&gt;一旦完成，拖放这些组件，确保从一开始就定下规范，防止最终样品陷入无休无止的调整：内边距、颜色和字号。&lt;/p&gt;
+&lt;p&gt;*提示：&lt;em&gt;&lt;a class="link" href="http://viget.com/inspire/smart-ways-to-use-adobe-photoshops-smart-objects" target="_blank" rel="noopener"
+&gt;将组件导出成独立的.psb文件&lt;/a&gt;&lt;/em&gt;。这么做有个很大优势，你的客户决定改稿时，你只需要更新特定的几个.psb文件。确实很节省时间。&lt;/p&gt;
+&lt;h2 id="3-标注文档"&gt;3. 标注文档
+&lt;/h2&gt;&lt;p&gt;最后一步是页面标注。既然已经定好了元素和组件的样式。唯一剩下的就是引用这些组件，定义外边距（名称和间距）。&lt;/p&gt;
+&lt;p&gt;像下面这样将其分解真的很有帮助，我们之前把这种方法用在adidas网上商城和同等规模的平台上：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分别导出多个页面用到的组件。&lt;/li&gt;
+&lt;li&gt;导出页面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;两种导出方式中，我都用了3套_&lt;a class="link" href="http://designmodo.com/photoshop-improve-workflow/" target="_blank" rel="noopener"
+&gt;图层复合&lt;/a&gt;_，可以轻松完成导出：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Popup_Normal.jpg&lt;/li&gt;
+&lt;li&gt;Popup_Naming.jpg&lt;/li&gt;
+&lt;li&gt;Popup_Spacing.jpg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/05/Spec-documents.jpg"
+loading="lazy"
+alt="为网站和应用创建设计指南与标准设计中关于“我知道这一切看起来很”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;我知道这一切看起来很辛苦，但作为交互设计师，它至关重要。&lt;/p&gt;
+&lt;p&gt;所幸，有些很棒的插件可以帮你节省一些时间。&lt;a class="link" href="http://www.wuwacorp.com/specking/" target="_blank" rel="noopener"
+&gt;specKing&lt;/a&gt;就是其中之一。这个工具可以标注之前提到的所有东西，不过我更爱用它来标注间距和标签。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/05/specKing.jpg"
+loading="lazy"
+alt="为网站和应用创建设计指南与标准设计中关于“原文链接”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/create-guidelines/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
