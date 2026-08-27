@@ -19,9 +19,9 @@ Don't expect AI models to solve everything. Top-tier AIs are strong, especially 
 
 ![Google search results page with MaxAI.me plugin panel on right, red box highlighting Claude AI icon, left side showing Baidu Zhidao and Zhihu results about mango pit black threads, right Sources area listing 6 sources](https://cdn.victor42.work/posts/2023-10/f15d29bfa9fed427105aaaeb120ba45b.png)
 
-Consider this question about mango embryo roots – a perfect example of long-tail knowledge. I tested Claude, GPT-3.5, and Bard. Bard, with internet access, outperformed Claude and GPT-3.5. The trick was telling Bard to "search the web," letting it find the right info.
+Consider this question about mango embryo roots - a perfect example of long-tail knowledge. I tested Claude, GPT-3.5, and Bard. Bard, with internet access, outperformed Claude and GPT-3.5. The trick was telling Bard to "search the web," letting it find the right info.
 
-Could Claude and GPT-3.5 do the same – forget their built-in knowledge and summarize human-generated long-tail knowledge? They don't officially have web access, but there's a workaround: the Maxai extension.
+Could Claude and GPT-3.5 do the same - forget their built-in knowledge and summarize human-generated long-tail knowledge? They don't officially have web access, but there's a workaround: the Maxai extension.
 
 [https://chrome.google.com/webstore/detail/maxaime-use-chatgpt-ai-an/mhnlakgilnojmhinhkckjpncpbhabphi](https://chrome.google.com/webstore/detail/maxaime-use-chatgpt-ai-an/mhnlakgilnojmhinhkckjpncpbhabphi)
 
@@ -37,6 +37,6 @@ The results with Claude and GPT-3.5 improved significantly.
 
 The extension pulls the top 6 search results and feeds the titles and snippets to the AI. It *doesn't* provide the full text. So, the AI gets a filtered, limited view. This explains why Claude and GPT-3.5 still fell short of Bard on some queries (I tested this). Bard likely accesses web data differently.
 
-AI models are fundamentally about language – in the broadest sense. They process *everything* through language, unlike our sensory experience. It's impressive how much they understand, given this approach.
+AI models are fundamentally about language - in the broadest sense. They process *everything* through language, unlike our sensory experience. It's impressive how much they understand, given this approach.
 
 But AI won't solve everything, not even GPT-500. It's a common misunderstanding among managers excited by AI's potential. To leverage AI, we must connect it to the real world. Training data is finite, but its potential to perceive the world is vast. Web access is a crucial first step, but it's only the beginning. Multimodal capabilities will shape the future.

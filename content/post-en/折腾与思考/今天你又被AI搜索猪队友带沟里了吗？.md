@@ -21,7 +21,7 @@ It's not that the questions are hard. The trick is how the AI goes about searchi
 
 ### What kind of fish is "Guyanyu"?
 
-It's a type of edible flatfish. This is a trick question – "Guyanyu" is a colloquial, shortened name used in fish markets, not the scientific one.
+It's a type of edible flatfish. This is a trick question - "Guyanyu" is a colloquial, shortened name used in fish markets, not the scientific one.
 
 AI finds useful info, but also noise:
 

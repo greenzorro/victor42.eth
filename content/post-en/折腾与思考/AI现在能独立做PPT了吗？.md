@@ -81,7 +81,7 @@ Its execution process was simpler but followed a similar pattern: planning, data
 
 ![The add extensions menu in Coze Space showing the checked image generator tool](https://cdn.victor42.work/posts/2025-05/5fef56ffc2dc7b28742139ce8646184c.webp)
 
-I specifically enabled two extensions for Coze Space—Feishu Docs and an image generation tool—to see if it would utilize them. It used neither. The report wasn't written to Feishu Docs, nor were images generated and inserted. This was expected, as I hadn't explicitly instructed it to use them. Besides, for this kind of report, web images are preferable to generated ones; aesthetics weren't the priority.
+I specifically enabled two extensions for Coze Space - Feishu Docs and an image generation tool - to see if it would utilize them. It used neither. The report wasn't written to Feishu Docs, nor were images generated and inserted. This was expected, as I hadn't explicitly instructed it to use them. Besides, for this kind of report, web images are preferable to generated ones; aesthetics weren't the priority.
 
 ## Manus
 

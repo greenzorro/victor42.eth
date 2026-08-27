@@ -53,7 +53,7 @@ And just like that, the article is done and ready to be published.
 
 ## Final Thoughts
 
-This approach lets me deepen my own understanding—ensuring the content is something I've truly learned—while freeing me from the tedious work of fine-tuning sentences.
+This approach lets me deepen my own understanding - ensuring the content is something I've truly learned - while freeing me from the tedious work of fine-tuning sentences.
 
 During an [AI workshop](https://victor42.eth.limo/post-en/do-you-really-know-ai/) with former colleagues, someone asked what I use AI for most. My answer: "Learning."
 
@@ -81,7 +81,7 @@ I rarely revisit most of them. Some things stick, others are forgotten. But the 
 
 In the age of AI, this notebook has become a goldmine. By feeding my TILs into a knowledge base, I can instantly retrieve specific details, bringing dormant knowledge back to life.
 
-But that doesn't mean I've outsourced my memory. The brain isn't for storing atomic facts; it's for recognizing the patterns that connect them. To find those patterns, you first need to process a lot of facts. If you let an AI do the summarizing, you're memorizing conclusions without context—they won't stick. Why else would authors write entire books to explain ideas that fit into a single paragraph?
+But that doesn't mean I've outsourced my memory. The brain isn't for storing atomic facts; it's for recognizing the patterns that connect them. To find those patterns, you first need to process a lot of facts. If you let an AI do the summarizing, you're memorizing conclusions without context - they won't stick. Why else would authors write entire books to explain ideas that fit into a single paragraph?
 
 So, back to writing. Once you have a standardized workflow, the most important part is asking good questions. Get that right, and the rest falls into place.
 

@@ -33,7 +33,7 @@ Google Gemini was the only one to get it right, actually connecting similar name
 > *   "Gaoyandie" (高眼鲽, Gāo yǎn diè): This is another possibility, as "Gu" and "Gao" have similar pronunciations. "Gaoyandie" is also a member of the Pleuronectiformes order. Their eyes are located on the upper side of the body, but they don't protrude like those of "Guyanyu." "Gaoyandie" are mainly distributed in the deep sea areas of the North Pacific. They are larger than "Guyanyu" and have higher economic value.
 > Both species are commonly consumed sea fish, and both have one eye on the upper side of their body. The specific type of fish depends on the context or local customs.
 
-Perplexity (using Claude 3 Sonnet) and Poe's Web search (using GPT-3.5), both designed for web searching, missed the mark. They're optimized for search, so they ignored my instruction to look for similar names. When "Guyanyu" didn't turn up anything, they just started inventing facts – no better than before.
+Perplexity (using Claude 3 Sonnet) and Poe's Web search (using GPT-3.5), both designed for web searching, missed the mark. They're optimized for search, so they ignored my instruction to look for similar names. When "Guyanyu" didn't turn up anything, they just started inventing facts - no better than before.
 
 **Perplexity**
 
@@ -114,6 +114,6 @@ Finally, Claude 3 Sonnet, without web access, gave it a shot. It considered simi
 
 For information-consulting AIs, reasoning and search are key. But are they enough? How they work *together* matters.
 
-This example suggests that letting the AI decide *when* and *how* to search, based on its reasoning, is more adaptable. However, current search-focused AIs treat reasoning and searching as separate. They search once, then reason based on the results – a one-two punch that can't handle these tricky situations. Even Perplexity, a dedicated search AI, only adds a pre-search intent analysis. Either its analysis lacks the necessary logic, or it's limited to a single search per turn, leaving it stuck.
+This example suggests that letting the AI decide *when* and *how* to search, based on its reasoning, is more adaptable. However, current search-focused AIs treat reasoning and searching as separate. They search once, then reason based on the results - a one-two punch that can't handle these tricky situations. Even Perplexity, a dedicated search AI, only adds a pre-search intent analysis. Either its analysis lacks the necessary logic, or it's limited to a single search per turn, leaving it stuck.
 
 My AI biologist is still a work in progress, especially with edge cases, but it's getting there. The takeaway isn't the prompt itself, or which AI is best, but the sheer complexity of natural language. Truly understanding all its nuances and variations? That's a long road ahead for AI.

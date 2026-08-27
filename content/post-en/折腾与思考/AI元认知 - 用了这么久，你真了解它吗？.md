@@ -33,7 +33,7 @@ Drawing on AI principles, I offered an analogy: Imagine AI as a writer or painte
 
 This sage possesses an incredible wealth of knowledge. If you could converse with this sage in their dungeon, their vast knowledge might mislead you into believing they possess equivalent intelligence, fostering unrealistic expectations and trust.
 
-However, true wisdom comes not just from books but from experience—the proverbial "traveling ten thousand miles." This dungeon-bound sage has no physical world experience; they've never felt a tree or heard a bird's song. While their extensive knowledge allows them to articulate concepts accurately, they lack the rich, three-dimensional understanding humans gain from real-world interaction.
+However, true wisdom comes not just from books but from experience - the proverbial "traveling ten thousand miles." This dungeon-bound sage has no physical world experience; they've never felt a tree or heard a bird's song. While their extensive knowledge allows them to articulate concepts accurately, they lack the rich, three-dimensional understanding humans gain from real-world interaction.
 
 It's akin to a child's incomplete grasp of death.
 
@@ -93,7 +93,7 @@ Behind the scenes, the AI might receive something like this:
 >
 > Assistant says:
 
-The phrase "You are a helpful assistant..." is a "system prompt"—hardcoded instructions invisible to you.
+The phrase "You are a helpful assistant..." is a "system prompt" - hardcoded instructions invisible to you.
 
 So, it's not just answering a question; it's continuing a scripted interaction between a user and an assistant. It predicts and appends what an assistant would likely say.
 
@@ -119,9 +119,9 @@ Consider the classic system prompt: "You are a helpful assistant."
 
 ![A screenshot of Cambridge Dictionary entry for helpful showing its definition willing to help](https://cdn.victor42.work/posts/2025-05/421edc7a9ebe6cf69aa23245d5d0ea01.webp)
 
-The Cambridge Dictionary defines "helpful," emphasizing "willing to help." The common Chinese translation, "有帮助" (yǒu bāngzhù – literally "to have help" or "to be useful"), somewhat narrows the original meaning, emphasizing passive utility. A "helpful" hammer is useful when I need to hammer nails.
+The Cambridge Dictionary defines "helpful," emphasizing "willing to help." The common Chinese translation, "有帮助" (yǒu bāngzhù - literally "to have help" or "to be useful"), somewhat narrows the original meaning, emphasizing passive utility. A "helpful" hammer is useful when I need to hammer nails.
 
-But "helpful" also implies an active "willingness to help"—a desire to assist. This suggests an entity, if not living then at least intelligent, that wants to assist. The system prompt frames the AI as wanting—indeed, *needing*—to help the user.
+But "helpful" also implies an active "willingness to help" - a desire to assist. This suggests an entity, if not living then at least intelligent, that wants to assist. The system prompt frames the AI as wanting - indeed, *needing* - to help the user.
 
 Given this directive, providing an answer, even an incorrect one, takes precedence over rigor. Furthermore, if AI had human-like self-awareness, it would perceive itself as completing a narrative: an eager-to-help assistant interacts with a user. Its task is to generate the assistant's lines.
 
@@ -170,7 +170,7 @@ Clearly, AI isn't a panacea. Real-world problems consist of multiple sub-tasks. 
 
 As AI models improve, they can reliably handle more stages. Skilled AI users, understanding different models' strengths and weaknesses, can further expand AI's role.
 
-In complex tasks, AI can assist at multiple stages. This can create a "Human – AI – Human – AI" relay. If a task is impossible without AI, its value is clear. If you *can* do the AI's part manually, weigh the trade-offs. Is it a frequent, repetitive task? Can AI reduce manual effort?
+In complex tasks, AI can assist at multiple stages. This can create a "Human - AI - Human - AI" relay. If a task is impossible without AI, its value is clear. If you *can* do the AI's part manually, weigh the trade-offs. Is it a frequent, repetitive task? Can AI reduce manual effort?
 
 For an in-depth example, see my article: [Selling AI Art From First Order to Calling It Quits](https://victor42.eth.limo/post-en/automate-ai-illustrations-production/)
 

@@ -25,11 +25,11 @@ AI browsers have been in the spotlight recently. Coupled with the rise of models
 >
 > The top-left and bottom-right quadrants are currently the most mature, as the web is decentralized while the OS is centralized.
 
-AI browsers, Claude Code, Manus—they're all fundamentally the same. They let an AI control a self-contained browser sandbox or local environment to handle complex, time-consuming tasks with various tools.
+AI browsers, Claude Code, Manus - they're all fundamentally the same. They let an AI control a self-contained browser sandbox or local environment to handle complex, time-consuming tasks with various tools.
 
 Since models like Kimi, GLM, and Minimax boast impressive agent capabilities, have their official products leveraged these skills to rise above the competition from major overseas AI labs and Chinese tech giants?
 
-A quick look confirmed it—I was just late to the game. The flagship AI products from the big overseas players and Chinese internet giants lack full agent capabilities, offering "Deep Research" at best. Strip away the image and video generation, and they're just plain old chatbots.
+A quick look confirmed it - I was just late to the game. The flagship AI products from the big overseas players and Chinese internet giants lack full agent capabilities, offering "Deep Research" at best. Strip away the image and video generation, and they're just plain old chatbots.
 
 But Kimi, GLM, and Minimax have integrated full-fledged agent features. Kimi has "OK Computer," GLM (Z.ai) offers "Full-Stack," and Minimax has its "Pro mode."
 
@@ -180,7 +180,7 @@ Specialized Agents like Manus and Coze (bot platform) can even persist browser s
 
 You can supercharge the workflow by chaining other AI tools. Get the Agent on Xiaohongshu to screen for helpful posts and grab the links. Once you’ve batched 50, dump the whole lot into NotebookLM for the analysis and discussion. Let each AI stay in its lane and play to its strengths.
 
-Realizing Agents possess this capability—doesn't that massively expand the possibilities?
+Realizing Agents possess this capability - doesn't that massively expand the possibilities?
 
 ## Postscript
 

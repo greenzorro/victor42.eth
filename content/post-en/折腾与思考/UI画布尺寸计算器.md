@@ -21,7 +21,7 @@ This is a common headache. Many UI designers don't fully grasp the technical pri
 
 This isn't an issue for common devices, as design tools like Figma and Sketch provide presets. But in niche areas like industrial design, smart homes, and IoT, you'll find a bewildering array of screen sizes. UI designers used to standard web and mobile projects are often stumped when they encounter these custom displays.
 
-Fortunately, there's a method to the madness. The key is PPI (Pixels Per Inch), which acts as a bridge between physical dimensions and the pixel grid. You might also hear it called "pixel density"—a fitting term. Higher density means less pixelation and a sharper image.
+Fortunately, there's a method to the madness. The key is PPI (Pixels Per Inch), which acts as a bridge between physical dimensions and the pixel grid. You might also hear it called "pixel density" - a fitting term. Higher density means less pixelation and a sharper image.
 
 Plenty of articles dive deep into the technical details. But honestly, a UI designer shouldn't need a degree in display engineering to do their job. In today's specialized world, an artist doesn't need to know how their canvas is woven.
 
@@ -122,4 +122,4 @@ It seems like a great new workflow for simple tools: write the blog post first, 
 
 As a final check, I had the AI plug the screen data I'd collected into the new tool. The results were spot-on, especially for touch and desktop devices. The only place it stumbled was with large TVs and monitors, as many of them use a non-integer scale factor like 1.5x, which my simple model doesn't account for.
 
-But for its main purpose—calculating sizes for niche industrial design screens—it works like a charm. 
+But for its main purpose - calculating sizes for niche industrial design screens - it works like a charm. 

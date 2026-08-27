@@ -86,7 +86,7 @@ Done! I just copied it to Excel. Day age, month age, and age were automatically 
 
 ### Normal Range Standards
 
-Reference values are on the National Health Commission's website. The 2022 standard, WS/T 423—2022, is the same source as Baobaoshu:
+Reference values are on the National Health Commission's website. The 2022 standard, WS/T 423 - 2022, is the same source as Baobaoshu:
 [http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf](http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf)
 
 The data was in this format:
@@ -217,7 +217,7 @@ I don't need fancy graphics. To flag outliers, I just replaced the pluses and mi
 
 ![Excel Conditional Formatting Rules Manager screenshot showing conditional formatting rules for Height Deviation and Weight Deviation columns, 3 symbols yellow background, 4 symbols red background](https://cdn.victor42.work/posts/2023-08/c45040a172c150fd67749caeb6549102.jpg)
 
-Three symbols mean the measurements are outside the 95% range – I use yellow. Four symbols mean outside 99.7% – I use red. I manually adjusted a few extreme values for demonstration:
+Three symbols mean the measurements are outside the 95% range - I use yellow. Four symbols mean outside 99.7% - I use red. I manually adjusted a few extreme values for demonstration:
 
 ![Excel growth record table final result screenshot with conditional formatting applied to Height Deviation and Weight Deviation columns, yellow highlights 3 symbols, red highlights 4 symbols, intuitively showing deviation degree](https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg)
 
@@ -225,7 +225,7 @@ Three symbols mean the measurements are outside the 95% range – I use yellow. 
 
 Finished! Time to uninstall that parenting app. I happily clicked the "x".
 
-There are many growth trackers, but building my own is uniquely satisfying. I learned about arrays, `REPT`, and `RANK` on the fly – a great experience. The initial planning was the most interesting. Once started, it took just an hour.
+There are many growth trackers, but building my own is uniquely satisfying. I learned about arrays, `REPT`, and `RANK` on the fly - a great experience. The initial planning was the most interesting. Once started, it took just an hour.
 
 It shows the power of combining knowledge, tools, and techniques. Improvise, adapt, overcome.
 

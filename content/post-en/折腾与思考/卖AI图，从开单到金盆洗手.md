@@ -23,11 +23,11 @@ The project is now complete. Before diving in, here's my main takeaway: AI won't
 
 ## The Opportunity
 
-In April 2025, a friend tipped me off to a gig: AI-generated children's illustrations. The volume was massive—around ten thousand images monthly. My friend's quote suggested that even handling 2,000 images could be highly profitable if I had the capacity.
+In April 2025, a friend tipped me off to a gig: AI-generated children's illustrations. The volume was massive - around ten thousand images monthly. My friend's quote suggested that even handling 2,000 images could be highly profitable if I had the capacity.
 
 The high volume was the main draw.
 
-My specialty is untangling complex processes and automating them. I break down tasks, then use Python, prompt engineering, Excel, and other tools to build efficient pipelines—essentially becoming a one-man production line.
+My specialty is untangling complex processes and automating them. I break down tasks, then use Python, prompt engineering, Excel, and other tools to build efficient pipelines - essentially becoming a one-man production line.
 
 In short, I industrialize processes.
 
@@ -79,11 +79,11 @@ AI image generation is resource-intensive. My i7 Windows laptop (over 7,000 RMB)
 
 ![Side-by-side brand logos of Replicate and RunComfy AI cloud GPU computing platforms](https://cdn.victor42.work/posts/2025-05/6b5e8f6f5c09ef4fc1957a61d0c9e7e1.webp)
 
-The hardcore route—buying cloud machines and storage—was too complex for my 'half-baked' developer skills. I opted for simpler platforms: [Replicate](https://replicate.com/) and [Runcomfy](https://www.runcomfy.com/). I just needed to use their APIs, avoiding machine configuration hassles.
+The hardcore route - buying cloud machines and storage - was too complex for my 'half-baked' developer skills. I opted for simpler platforms: [Replicate](https://replicate.com/) and [Runcomfy](https://www.runcomfy.com/). I just needed to use their APIs, avoiding machine configuration hassles.
 
 ![Replicate model page for flux-dev-lora showing commercial-use pricing at $0.032 per image](https://cdn.victor42.work/posts/2025-05/5fac174ef96e1fe4a297ab6365c802e7.webp)
 
-Replicate offers the [Flux dev LoRA model](https://replicate.com/black-forest-labs/flux-dev-lora). Input prompts and parameters, run it, and get an image—simple. For a custom LoRA, I'd train it, upload it (Hugging Face/Civitai), and call it via URL. It costs about 0.2 RMB per image.
+Replicate offers the [Flux dev LoRA model](https://replicate.com/black-forest-labs/flux-dev-lora). Input prompts and parameters, run it, and get an image - simple. For a custom LoRA, I'd train it, upload it (Hugging Face/Civitai), and call it via URL. It costs about 0.2 RMB per image.
 
 ![ComfyUI TTP Tile image tiling and upscaling workflow node configuration screenshot](https://cdn.victor42.work/posts/2025-05/3117969428b59e24d262d922b13bdc61.webp)
 
@@ -103,7 +103,7 @@ Before taking orders, I completed two trial rounds.
 
 ### Trial Drafts, Client Approval
 
-For the first trial, using the client's style references, I created illustrations in two styles—watercolor and flat—depicting a boy in a park reaching for a flower, with his mom quickly stopping him.
+For the first trial, using the client's style references, I created illustrations in two styles - watercolor and flat - depicting a boy in a park reaching for a flower, with his mom quickly stopping him.
 
 The client approved a style similar to this (watercolor left, flat right). Ignore the limb issues (I generated these later); focus on the style:
 
@@ -215,7 +215,7 @@ The manual touch-up workflows included **Text-to-Image Inpainting, Image-to-Imag
 
 ![ComfyUI workflow with image input preprocessing and Flux redux image-to-image generation pipeline](https://cdn.victor42.work/posts/2025-05/d61012dafe242e5c5c8a12f9061b1e11.webp)
 
-**Image-to-Image (Redrawing/Style Transfer)** uses Flux dev and Flux redux to create a similar-looking "copy" with different details. Adding my style LoRA transforms photos into illustrations, preserving original features. Useful for social media "content spinning"—modifying online images to appear original and avoid plagiarism.
+**Image-to-Image (Redrawing/Style Transfer)** uses Flux dev and Flux redux to create a similar-looking "copy" with different details. Adding my style LoRA transforms photos into illustrations, preserving original features. Useful for social media "content spinning" - modifying online images to appear original and avoid plagiarism.
 
 All these modules are in my [Flux Versatile Workflow](https://github.com/greenzorro/comfyui-workflow-versatile).
 
@@ -244,7 +244,7 @@ Once built, I reran the second trial tasks through the system smoothly. My invol
 
 This setup seems complex, but manual work is minimal. Image selection takes time; other steps are just a button press, then I'm AFK.
 
-Crucially, the process is the same for 100 or 2,000 images. For large, urgent volumes, I can use faster (slightly costlier) cloud machines—still negligible compared to illustrator costs.
+Crucially, the process is the same for 100 or 2,000 images. For large, urgent volumes, I can use faster (slightly costlier) cloud machines - still negligible compared to illustrator costs.
 
 ### 🔮 Tech Share
 
@@ -382,7 +382,7 @@ runcomfy_utils.py
 
 For the children's book project, I added a business logic layer to the base Runcomfy functions. We standardized on two main workflows: one for image generation and one for upscaling.
 
-This new utility function takes specific parameters—like the prompt, image to upscale, or denoising value—instead of an entire workflow. However, it still processes illustrations one by one.
+This new utility function takes specific parameters - like the prompt, image to upscale, or denoising value - instead of an entire workflow. However, it still processes illustrations one by one.
 
 ```
     """Generates flat-style images via a RunComfy workflow.
@@ -417,11 +417,11 @@ This new utility function takes specific parameters—like the prompt, image to 
 ```
 *Docstring for the upscaling function.*
 
-Programs 1 and 2, the higher-level applications, also incorporate instance management. They check for an active compute instance before generating images—using it if available, or starting a new one. The instance then automatically shuts down after use to control costs.
+Programs 1 and 2, the higher-level applications, also incorporate instance management. They check for an active compute instance before generating images - using it if available, or starting a new one. The instance then automatically shuts down after use to control costs.
 
 ![A spreadsheet log recording AI illustration script execution times, machine tiers, and GPU costs](https://cdn.victor42.work/posts/2025-05/c46f347622627b3db3c345f09790da49.webp)
 
-Additionally, I built a statistics feature into these programs to calculate run costs based on instance type, price, and runtime. Run logs are consistently written to a spreadsheet. Data on instance costs and revenue from the multi-dimensional table are imported into a dedicated financial sheet. Adding other expenses—illustrator fees, Volcano Engine DeepSeek, and StepFun API costs—allows for easy profit calculation.
+Additionally, I built a statistics feature into these programs to calculate run costs based on instance type, price, and runtime. Run logs are consistently written to a spreadsheet. Data on instance costs and revenue from the multi-dimensional table are imported into a dedicated financial sheet. Adding other expenses - illustrator fees, Volcano Engine DeepSeek, and StepFun API costs - allows for easy profit calculation.
 
 My programming skills are average, but with AI's help, building this system was surprisingly straightforward.
 
@@ -456,7 +456,7 @@ For the "flat" style, the client envisioned something very specific, not typical
 
 These subtle stylistic features were beyond Lora's training capabilities but achievable through Photoshop post-processing. The traditional approach involves finding watercolor or pencil-textured PS brushes and lightly brushing over the image with semi-transparent white. However, I aimed for automation, which meant standardizing the process, even at the cost of some quality.
 
-Essentially, this involved overlaying a texture. Textures are inherently random—some parts more transparent, others more opaque, like viewing the ground through patchy clouds from an airplane. Different random patterns in the texture create different brushstroke effects. I just needed to create these two textures to automate their application across all images.
+Essentially, this involved overlaying a texture. Textures are inherently random - some parts more transparent, others more opaque, like viewing the ground through patchy clouds from an airplane. Different random patterns in the texture create different brushstroke effects. I just needed to create these two textures to automate their application across all images.
 
 ![A comparison of two textures for overlaying: watercolor paper on the left and diagonal pencil brushstrokes on the right](https://cdn.victor42.work/posts/2025-05/5e5e34bfd741edd3e214b22e159c43e8.webp)
 
@@ -588,7 +588,7 @@ Key Techniques: **Doubao local inpainting, Content-Aware Fill, Cutout Filter**
 
 ![An AI-generated cartoon illustration of a traffic officer in a foreign-style uniform at a crosswalk](https://cdn.victor42.work/posts/2025-05/db5aa83baa17fb0a76780ca9fbcf9ee2.webp)
 
-This illustration's difficulty stemmed from cultural differences. Flux, trained by a German team, clearly lacks Chinese clothing elements in its data. Prompting for a traffic officer directing traffic yielded a foreign-style uniform—unacceptable for a children's book.
+This illustration's difficulty stemmed from cultural differences. Flux, trained by a German team, clearly lacks Chinese clothing elements in its data. Prompting for a traffic officer directing traffic yielded a foreign-style uniform - unacceptable for a children's book.
 
 Using text-to-image local inpainting (denoising 1) to request a blue short-sleeved Chinese traffic police shirt resulted in:
 
@@ -598,7 +598,7 @@ This is a Liblib restriction against generating content with potential legal ris
 
 ![An AI-generated cartoon of the traffic officer wearing a plain light blue short-sleeved shirt and blue trousers](https://cdn.victor42.work/posts/2025-05/1e5a122d6b5b91b43baaa2b43876f9be.webp)
 
-Removing police-related terms, however, just produced an ordinary blue shirt, not a police uniform—a catch-22.
+Removing police-related terms, however, just produced an ordinary blue shirt, not a police uniform - a catch-22.
 
 ![An illustration generated by Doubao AI showing the traffic officer wearing a realistic Chinese police uniform with a tie and epaulets](https://cdn.victor42.work/posts/2025-05/2529da2758620d3dfeab11761351e3a8.webp)
 
@@ -634,7 +634,7 @@ This illustration also pushed Flux's limits. It clearly hadn't seen many jump ro
 
 ![The original illustration of a boy jumping rope with both feet flat but looking artificially suspended](https://cdn.victor42.work/posts/2025-05/bf930d87fa1154fe17e4f2013413ac7e.webp)
 
-No worries—if the pose is right, the rope can be added. This image had the most potential. A quick PS sketch of a jump rope started to look plausible.
+No worries - if the pose is right, the rope can be added. This image had the most potential. A quick PS sketch of a jump rope started to look plausible.
 
 ![ComfyUI workflow showing input image with one leg erased and the generated output with leg inpainted](https://cdn.victor42.work/posts/2025-05/0bdd32c6089ae401973dd5a61ed22352.webp)
 
@@ -740,7 +740,7 @@ Denoising set to 1 corrected the style.
 
 ![ComfyUI workflow showing a masked area replaced with a modern red plastic basin](https://cdn.victor42.work/posts/2025-05/7540b49eb356dfb07dc5a09ff20f38e9.webp)
 
-The basin was too old-fashioned; replaced with a modern one. (Basin too deep, hand missing—fixable later.) Other minor issues resolved with simple patching.
+The basin was too old-fashioned; replaced with a modern one. (Basin too deep, hand missing - fixable later.) Other minor issues resolved with simple patching.
 
 This image has fewer problems than the client's version. A typical issue not present here was the rag's shape.
 
@@ -762,7 +762,7 @@ After this order, I assessed the revision volume and time spent, and decided to 
 
 All things considered, the business lacked sufficient leverage. Better to quit while ahead.
 
-This complex image generation workflow—conception, building, debugging—took two weeks. But it wasn't wasted. Minor modifications can adapt it for other uses, ready for reactivation.
+This complex image generation workflow - conception, building, debugging - took two weeks. But it wasn't wasted. Minor modifications can adapt it for other uses, ready for reactivation.
 
 ## Epilogue
 

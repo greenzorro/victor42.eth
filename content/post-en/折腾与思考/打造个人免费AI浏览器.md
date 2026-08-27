@@ -25,7 +25,7 @@ For example, I gave it this command:
 
 The results are accurate and reliable because they come from curated sources rather than the messy open web. This research serves as a perfect starting point for trip planning.
 
-The advantage of this setup over various "AI Browser" products is the ability to operate both the browser and local files simultaneously. Local files are your world; the browser is the whole world. Connecting them opens up massive possibilities. Many routine jobs involve repeatedly uploading or entering data into backend systems—perfect tasks to delegate to AI.
+The advantage of this setup over various "AI Browser" products is the ability to operate both the browser and local files simultaneously. Local files are your world; the browser is the whole world. Connecting them opens up massive possibilities. Many routine jobs involve repeatedly uploading or entering data into backend systems - perfect tasks to delegate to AI.
 
 No need to install a new browser. Add AI powers directly to the Chrome/Edge you already use. For users who don't know coding or how to bypass firewalls, this is the optimal solution.
 
@@ -53,7 +53,7 @@ Ignore the code on the page. The download button is there and will automatically
 
 ### Step 3: Install AI
 
-This step involves the intimidating command line. You have to get over this mental block because actual usage happens here too. Once you get used to it, you'll feel like Neo in *The Matrix*—your colleagues won't have a clue what magic you're using. Plus, once past this, you get to watch the AI configure itself.
+This step involves the intimidating command line. You have to get over this mental block because actual usage happens here too. Once you get used to it, you'll feel like Neo in *The Matrix* - your colleagues won't have a clue what magic you're using. Plus, once past this, you get to watch the AI configure itself.
 
 Launching the command line varies by OS:
 
@@ -74,7 +74,7 @@ You'll see a spinning cursor. When you see something like "added 6 packages in 3
 
 Once the AI is installed, let's use it to finish the rest.
 
-Type `qwen` in the command line and hit Enter. The first launch asks for authentication—choose the free option. It will open your browser to log in via Qwen. Once done, switch back to the command line.
+Type `qwen` in the command line and hit Enter. The first launch asks for authentication - choose the free option. It will open your browser to log in via Qwen. Once done, switch back to the command line.
 
 ![A screenshot of Qwen-Code CLI interactive shell interface upon startup](https://cdn.victor42.work/posts/2026-01/349ddc382bb465351b79d929d8ecbcd0.webp)
 
@@ -162,7 +162,7 @@ Open the command line, type `qwen`.
 
 ![A screenshot of browser tab grouped under playwriter and the debugging banner](https://cdn.victor42.work/posts/2026-01/9c37079da9ef6a93e32a435f7801ef72.webp)
 
-Open a webpage, click the cursor-like plugin icon. The page will be framed in a "playwriter" tab group—this is the AI's playground.
+Open a webpage, click the cursor-like plugin icon. The page will be framed in a "playwriter" tab group - this is the AI's playground.
 
 Send this to the AI:
 
@@ -180,7 +180,7 @@ Click the icon again to disconnect.
 
 One last trick. Complex pages (like travel booking sites with dynamic loading) can baffle the AI. Simple, "ugly" internal system pages are often easier for it.
 
-If the AI succeeds—even partially—ask it to review the session:
+If the AI succeeds - even partially - ask it to review the session:
 
 ```markdown
 Review the operation. Compile "Goal", "Key Steps", "Pitfalls", and "Solutions" into a Markdown file named "AI Browser Manual.md" on the Desktop.

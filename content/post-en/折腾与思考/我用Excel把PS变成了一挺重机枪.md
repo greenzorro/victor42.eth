@@ -11,7 +11,7 @@ translationKey: '3650'
 
 How a designer with Excel skills saved his company a bundle.
 
-I heard Marketing was tearing their hair out. The boss greenlit the new course cover design, and now they needed to update all 800+ existing covers. It wasn't a simple find-and-replace; there were tons of small differences.  Marketing has only one designer, and they were slammed. Doing it in-house? No way. Outsourcing would cost 20 RMB per image, totaling 16,000 RMB – a budget buster.
+I heard Marketing was tearing their hair out. The boss greenlit the new course cover design, and now they needed to update all 800+ existing covers. It wasn't a simple find-and-replace; there were tons of small differences.  Marketing has only one designer, and they were slammed. Doing it in-house? No way. Outsourcing would cost 20 RMB per image, totaling 16,000 RMB - a budget buster.
 
 Bingo! 16,000 RMB? My ears perked up. I love automation. A data geek who knows Photoshop?  This was my moment. People talk about the "value of design." But what *is* your value? How do you put a number on it?  Saving the company a designer's monthly salary in half a day? That's real value.  Plus, it'd be great for my year-end review. I jumped on the task.
 
@@ -19,7 +19,7 @@ Bingo! 16,000 RMB? My ears perked up. I love automation. A data geek who knows P
 
 ![Pink-orange course cover template with orange rounded tag showing Product Operations at top, large text How to Create Potential Hit Products in center, smaller text New Product Development below, grid texture and geometric decorations in background](https://cdn.victor42.work/posts/2024-06/d257445c788894aad2f9c9d25333d834.jpg)
 
-This is the template the marketing designer created. No use criticizing – the boss wanted this style. Simple. The basic need was also simple: replace three text areas and generate 800+ images.
+This is the template the marketing designer created. No use criticizing - the boss wanted this style. Simple. The basic need was also simple: replace three text areas and generate 800+ images.
 
 Most designers would think, "Piece of cake! Define some variables in Photoshop, create an Excel sheet, and batch export."
 
@@ -38,9 +38,9 @@ But, once I saw the template, I realized it was much trickier. The variations we
 ![Two bottom bar design slices: top blue background with monitor icon showing Max 5 Characters, bottom pink background with folder icon showing Max 5 Characters, demonstrating different category decoration styles](https://cdn.victor42.work/posts/2024-06/f60e4590c7b4551a14e93c37b5396f8d.jpg)
 
 1.  Over a dozen course categories, some with unique backgrounds, others sharing.
-2.  The top category wasn't always text. Two (Taobao and Tmall) used logos – images.
+2.  The top category wasn't always text. Two (Taobao and Tmall) used logos - images.
 3.  Course titles: one or two lines. Single-line titles needed vertical centering.
-4.  Text color changed with the background – a tinted shade, not pure black.
+4.  Text color changed with the background - a tinted shade, not pure black.
 5.  The bottom description text wasn't always there. If missing, its decorative box had to go too.
 6.  The box's line color also changed, matching the text but brighter.
 
@@ -88,7 +88,7 @@ Explanation: I had three title layers. One for single-line, two for two-line tit
 
 Giving this to operations would be brutal. Most could be calculated. Operations only needed: Category, Title Line 1, Title Line 2, and Description. I made an online spreadsheet with just those four and sent it out. We had 5-6 people working, each taking categories. They finished fast.
 
-The hard part was mine: calculating the rest, all needed for Photoshop. None could be skipped. Category was key. It determined the logos, background, text color, and filename sorting. So, I made a separate Category table, a dimension table, where each category was like a product. The image content table was the fact table, like an order. Category name was the dimension table's primary key, a foreign key in the fact table, pulling in category info. One fact table (CSV) and one dimension table – a simple star schema, or maybe "Earth-Moon schema"?
+The hard part was mine: calculating the rest, all needed for Photoshop. None could be skipped. Category was key. It determined the logos, background, text color, and filename sorting. So, I made a separate Category table, a dimension table, where each category was like a product. The image content table was the fact table, like an order. Category name was the dimension table's primary key, a foreign key in the fact table, pulling in category info. One fact table (CSV) and one dimension table - a simple star schema, or maybe "Earth-Moon schema"?
 
 ![Excel dimension table screenshot with 5 columns: Category/id/Filename/Background Image/Foreground Color, listing 18 categories including Rule Interpretation/User Operations/Product Operations with corresponding template file paths](https://cdn.victor42.work/posts/2024-06/6d4da5705eb81be2c0eee26a2cf600a7.jpg)
 
@@ -166,7 +166,7 @@ New batch? Download, overwrite, open the data table, "Data" menu, "Refresh." Sim
 
 Why compare to SQL? It records query *conditions*, not results. Results are shown, but it's a preview. It records requests and re-queries on "Refresh."
 
-After complex initial setup, the pipeline was set. Use was simple: download, overwrite, refresh, save as CSV – Photoshop's data file.
+After complex initial setup, the pipeline was set. Use was simple: download, overwrite, refresh, save as CSV - Photoshop's data file.
 
 ## Batch Image Generation in Photoshop
 
@@ -198,7 +198,7 @@ No step-by-step; the linked tutorial covers it. I'll discuss tricky points.
 
 ![Photoshop Variables dialog screenshot with Background Image layer selected, Pixel Replacement checked with name Background Image and method Consistent, bottom description text reads Specify layer variables to control visibility, replace text strings or replace pixels](https://cdn.victor42.work/posts/2024-06/ea2af0bf27f4c74c49db871f5c2b7296.jpg)
 
-Common use: "Text Replacement." Non-text layers become "Pixel Replacement" – image change. Background is replaced this way.
+Common use: "Text Replacement." Non-text layers become "Pixel Replacement" - image change. Background is replaced this way.
 
 ![10 solid color foreground image thumbnails in 2-row grid: top row 1-General/2-Taobao/2-Tmall/3-Fashion/3-Home/3-FMCG in dark brown/dark purple/dark red warm tones, bottom row 3-Enterprise/3-Digital/3-Education/3-Sports in dark blue/dark green cool tones](https://cdn.victor42.work/posts/2024-06/5be7d1ed67cc798dc3a2925f3e07cc84.jpg)
 
@@ -248,13 +248,13 @@ My downloadable Photoshop action set includes a ready-to-use "Save as JPG" actio
 
 Is the work finished? The immediate assignment is complete, but the most important step remains: tracking business value.
 
-These 800+ cover images (worth 16,000 RMB) represent only the initial batch. As new course offerings launch continuously, there will be subsequent batches. It is prudent to measure how much money this automated pipeline saves the organization over a year—and make that tangible value visible to leadership.
+These 800+ cover images (worth 16,000 RMB) represent only the initial batch. As new course offerings launch continuously, there will be subsequent batches. It is prudent to measure how much money this automated pipeline saves the organization over a year - and make that tangible value visible to leadership.
 
 ![Summary data table screenshot tracking date, image count, and monetary value produced across monthly cohorts](https://cdn.victor42.work/posts/2024-06/fa9ce9f2b382b99c6cad7125d176799b.jpg)
 
 So, a statistics table, a "bragging table." Let's call it "Rock and Roll Table."
 
-I could even make a chart, showing monthly/quarterly/seasonal value. Subtract from my salary to show my cost – hiring me is a steal! Data is there; whether I do it is TBD.
+I could even make a chart, showing monthly/quarterly/seasonal value. Subtract from my salary to show my cost - hiring me is a steal! Data is there; whether I do it is TBD.
 
 ## Epilogue
 

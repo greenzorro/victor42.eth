@@ -24,7 +24,7 @@ I used to listen to the radio while driving my family around, to get the news. T
 
 During the Paris Olympics, my news time was swamped with Olympics coverage. I had to keep glancing at my car's screen to skip stories, which was unsafe and annoying.
 
-I've tried many news apps with audio. The headlines channels were full of uninteresting stuff. Subscribing to specific channels meant long, in-depth reports – not ideal for a short drive. Update frequencies also varied wildly; some channels would dominate, effectively silencing others.
+I've tried many news apps with audio. The headlines channels were full of uninteresting stuff. Subscribing to specific channels meant long, in-depth reports - not ideal for a short drive. Update frequencies also varied wildly; some channels would dominate, effectively silencing others.
 
 Then it hit me: I can usually tell if a story is interesting just from the headline. Why not use AI for this? Could I filter out unwanted stories from a headlines channel?
 
@@ -53,7 +53,7 @@ This sounds complex, but I didn't have to reinvent the wheel. I just needed to i
 
 ### Tasker Intro
 
-Tasker is the backbone. It's an automation tool that lets you combine hardware control, math, file operations, network requests, and logic into workflows. Think iPhone Shortcuts, but much more powerful – it's programming software.
+Tasker is the backbone. It's an automation tool that lets you combine hardware control, math, file operations, network requests, and logic into workflows. Think iPhone Shortcuts, but much more powerful - it's programming software.
 
 Basic usage is simple: mute the phone on company Wi-Fi, or start music on Bluetooth connection. More advanced uses, like file operations and network requests, require programming logic, but no actual coding.
 
@@ -105,7 +105,7 @@ This subtask extracts content from a page's HTML, removing menus, comments, ads,
 
 It's complex because of nested HTML tags. It finds the tag's end to define the content range, using string manipulation to mimic Javascript's `innerHTML`.
 
-The result is still HTML, so another subtask converts it to plain text – a built-in Tasker feature.
+The result is still HTML, so another subtask converts it to plain text - a built-in Tasker feature.
 
 **Input: HTML code**  
 **Output: Text content**
