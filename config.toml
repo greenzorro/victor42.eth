@@ -51,6 +51,10 @@ subtitle = "科学、纪录片、博物馆爱好者；Excel狂魔；蹩脚开发
 [params.footer]
 since = 2011
 
+# 文章配置
+[params.article]
+math = true
+
 # 小部件配置
 [params.widgets]
   homepage = [
