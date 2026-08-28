@@ -287,6 +287,8 @@ tags: ["舟山", "朱家尖", "亲子旅行", "自驾游", "海岛旅行", "浙�
 - 支持sitemap_exclude参数控制页面
 - 动态priority计算
 - 首页priority=1.0，其他页面默认0.5
+- lastmod 取自内容文件最近一次 git 提交时间（`enableGitInfo = true`），编辑文章即刷新 sitemap 与 dateModified 信号；`scripts/indexnow_check.py` 依赖此信号判断"最近修改"
+- 构建环境必须关闭 `core.quotepath`（`git config core.quotepath false`，两个 workflow 已内置此步骤，本地构建需自行设置）：Hugo 解析 `git log` 输出时不处理路径转义，默认 quotepath 下中文路径拿不到 GitInfo，lastmod 会静默回退为 front matter 的发布日期
 
 #### 5.3.4 Image Sitemap配置
 
@@ -418,6 +420,7 @@ relativeURLs = true             # 使用相对URL
 languageCode = 'en-us'
 defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true           # 支持中文
+enableGitInfo = true            # 页面lastmod取自最近一次git提交时间
 
 # 主题模块
 [module]

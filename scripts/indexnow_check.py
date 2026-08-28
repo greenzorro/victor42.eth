@@ -13,6 +13,7 @@ HOST = "victor42.eth.limo"
 INDEXNOW_KEY = "bdc0773d573d420db7b46ef67e2329eb"
 KEY_LOCATION = f"https://{HOST}/{INDEXNOW_KEY}.txt"
 # Check files modified within this time window (e.g., last 24 hours)
+# lastmod 信号由构建端 enableGitInfo 提供（内容文件的 git 提交时间），依赖构建环境关闭 core.quotepath
 TIME_WINDOW_HOURS = 24
 # =================================================
 
