@@ -3,6 +3,8 @@
 baseURL = "https://victor42.eth.limo"
 title = 'Victor42'
 # 取消publishDir，让Hugo使用默认的public目录
+# 用git提交时间作为页面lastmod，让sitemap反映真实修改时间（SEO与IndexNow依赖此信号）
+enableGitInfo = true
 
 # 主题配置 (Hugo Modules)
 # 使用相对路径适配GitHub Pages预览和4EVERLAND生产环境

@@ -23,6 +23,10 @@ jobs:
           submodules: false
           fetch-depth: 0
 
+      # GitInfo 依赖 git log 输出解析，quotepath 默认转义非 ASCII 路径会导致中文路径的 lastmod 全部失效
+      - name: Disable git quotepath for GitInfo
+        run: git config core.quotepath false
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
