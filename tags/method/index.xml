@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Method on Victor42</title><link>https://victor42.eth.limo/tags/method/</link><description>Recent content in Method on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 27 Aug 2026 19:06:07 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/method/index.xml" rel="self" type="application/rss+xml"/><item><title>Six-Lens Poem Reading and the Story Behind It</title><link>https://victor42.eth.limo/post-en/poem-six-lens-skill/</link><pubDate>Thu, 30 Jul 2026 18:19:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/poem-six-lens-skill/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-07/65210270dc4641a4b7cf3d1fcf88bc92.webp" alt="Featured image of post Six-Lens Poem Reading and the Story Behind It" /&gt;&lt;p&gt;Skills have flooded the workplace. This is the first one I am publishing.&lt;/p&gt;
+&lt;h2 id="it-started-with-nonsense"&gt;It Started with Nonsense
+&lt;/h2&gt;&lt;p&gt;A friend sent me this image, calling it an authentic Wu Daozi. I looked and looked and could not spot the forgery. It must be real.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-07/56587deced0651714a0189b183258acf.webp"
+loading="lazy"
+alt="Ink painting of a drone carrying lychees, with calligraphy rewriting Du Mu and a Tang Wu Daozi attribution"
+&gt;&lt;/p&gt;
+&lt;p&gt;I replied at once:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nothing wrong here. He was a man of that age. He saw it with his own eyes. Du Mu came later - what is he fantasizing about? Gates opening one after another? Did those gates even need to open? Just because Wu Daozi has some random Cantonese accent, why should posterity refuse him? The tragedy of history.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Joke aside, once that poem came up - &lt;em&gt;Passing the Huaqing Palace&lt;/em&gt;, the first of three quatrains - I thought again of this year’s &lt;a class="link" href="https://victor42.eth.limo/post-en/trip-to-xi-an/" target="_blank" rel="noopener"
+&gt;trip to Xi’an&lt;/a&gt;. I had given a full day to the Mausoleum of the First Qin Emperor, and never made it to the neighboring Lishan Garden or Huaqing Palace, the very stage of this poem.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;长安回望绣成堆，
+山顶千门次第开。
+一骑红尘妃子笑，
+无人知是荔枝来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Picture the scenes line by line, from far to near, from urgency to ease: it has the feel of a camera moving through a film. A classic that still reaches us today has its reasons.&lt;/p&gt;
+&lt;p&gt;So I had AI dig up sources and background from every angle. The back-and-forth ran long. I asked a lot of questions and kept pushing for fact-checks. Near and far, open and hidden, piece by piece the material locked onto my mental map of Chang’an and the Tang. It was rich.&lt;/p&gt;
+&lt;p&gt;But if every poem that sparks my curiosity means another half-day of Q&amp;amp;A, will that kill the urge to explore? That is when I decided to find out whether there is a fuller, more standard way to read a poem - and to build one for myself.&lt;/p&gt;
+&lt;h2 id="minkowski-and-the-literary-light-cone"&gt;Minkowski and the Literary Light Cone
+&lt;/h2&gt;&lt;p&gt;Set poetic artistry aside for a moment. As a carrier of information, a poem should at least have time, place, and person. From the broad age down to the moment of writing, time has a thread. Geography too runs from large to small, converging on the space and scene the poem holds, enriching its background and even its subject. The human factor needs no argument: the author’s life path often dominates what the poem does.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-07/65210270dc4641a4b7cf3d1fcf88bc92.webp"
+loading="lazy"
+alt="Minkowski spacetime diagram with future and past light cones meeting at an observer origin labeled in Chinese"
+&gt;&lt;/p&gt;
+&lt;p&gt;What rose in my mind then was a Minkowski spacetime diagram. A great work is, at bottom, a spacetime event. That stretches the concept a bit, but the author’s time and space - and all the information they bring - really do meet at the origin.&lt;/p&gt;
+&lt;p&gt;I call this metaphor the literary light cone. Before a great work is born, it is already like this. Information inside the cone helps shape the work; information outside never reaches the author. That is why every work is unique, stamped with a person and a spacetime.&lt;/p&gt;
+&lt;p&gt;AI reminded me I was too fixed on the physical world and ignoring the conceptual one. The cone needs another factor: literary tradition - what shaped the author’s thought and style, how that uniqueness compares with contemporaries, and what it did to later literature.&lt;/p&gt;
+&lt;p&gt;Literature itself becomes a bridge between past and future. In a future the author never reaches, there is not only influence on later writing, but also later readings of this work. Readings shift with the temper of an age and what society needs. That is how the work’s life continues. As long as someone is still reading it, it is immortal.&lt;/p&gt;
+&lt;p&gt;Finally, pull back from past and future. Set all outside influence aside and look only at the work itself. A literary reading of the text alone can stand apart from the rest. It is the origin of the whole literary light cone.&lt;/p&gt;
+&lt;p&gt;To read a poem is to start from that origin and follow the threads - convergence in the past, divergence into the future.&lt;/p&gt;
+&lt;h2 id="how-the-six-lens-poem-reading-skill-was-born"&gt;How the Six-Lens Poem Reading Skill Was Born
+&lt;/h2&gt;&lt;p&gt;From that picture, a method seemed to surface: dig back through era, geography, biography, and literary tradition; look forward to later literary influence and later readings; and, in place, unfold the poem’s own literary qualities.&lt;/p&gt;
+&lt;p&gt;Once the idea was clear, building the Skill was easier than expected. I polished it back and forth, testing poems of every kind - Tang and Song, lyric and discursive, famous and obscure, even anonymous Han yuefu. Plenty of problems showed up. I kept pushing AI to reason from first principles and revise the Skill’s rules. On a few ultra-niche pieces it still misfires, but in most cases it beats simply saying “help me interpret XXX.”&lt;/p&gt;
+&lt;p&gt;Here is how the Skill works:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gather widely from six angles - &lt;strong&gt;Era (世), Place (地), Person (人), Craft (文), Tradition (统), Reception (受)&lt;/strong&gt; - dig layer by layer, and sort each angle on its own.&lt;/li&gt;
+&lt;li&gt;Fold the four past-cone factors - &lt;strong&gt;Era, Place, Person, Tradition&lt;/strong&gt; - into a timeline table that ends at the origin.&lt;/li&gt;
+&lt;li&gt;Run an obsessive, exhaustive fact-check: fix errors, add detail.&lt;/li&gt;
+&lt;li&gt;Output in the required format the two main parts - &lt;strong&gt;Six-Lens Reading&lt;/strong&gt; and &lt;strong&gt;Convergence Timeline&lt;/strong&gt; - plus a little supporting material.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The hardest problem was still hallucination. When sources run dry, AI invents facts, and can even warp a poem’s emotional color. Most of the work on this Skill went into fighting that. Step 3 became an extremely strict anti-hallucination gate.&lt;/p&gt;
+&lt;p&gt;A note on how I build Skills. If a task is not open-ended, has a clear deliverable, and that deliverable’s quality can be judged in plain language, you should refine the Skill in a loop:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Start with a one-off task. Point out problems as it works so it learns your preferences and goals. Then have it write the first version of the Skill for itself.&lt;/li&gt;
+&lt;li&gt;Run the task with that Skill. More problems will show. Keep pointing them out and iterating the Skill.&lt;/li&gt;
+&lt;li&gt;After a few rounds, ask whether it can now draft a rubric for judging quality. It usually can. Have it produce one, save it as a document, and use it for verification.&lt;/li&gt;
+&lt;li&gt;Iteration speeds up. Spin up a sub-agent that knows only the Skill. The main agent scores the sub-agent’s work against the rubric it wrote, flags issues, and confirms them with you one by one. You will find Skill bugs and rubric bugs; keep iterating both.&lt;/li&gt;
+&lt;li&gt;After one such pass, ask whether this can be a repeating loop. It usually says yes. Have it write the loop rules down and follow them.&lt;/li&gt;
+&lt;li&gt;Then each round needs only two things from you: judge the issues it found, and order the next round.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I have built more complex Skills this way - seven or eight code files, a dozen-plus docs. The Skill contents are a black box to me; I never read them. I only watch inputs and outputs. Still, I stably get what I want. When a loop cannot fix something, you step in, learn enough of the logic, and nudge it toward likely failure modes.&lt;/p&gt;
+&lt;p&gt;Frontier models today have no glaring capability gaps. What they lack is your preferences and goals - the stuff in your head, not in the training data. In building this kind of loop, once it really knows those, it has a strong shot at doing the job well. Even the anti-hallucination mechanisms in the Skill were mostly invented by AI under my insistence and refusals.&lt;/p&gt;
+&lt;p&gt;Honestly, of the six angles - Era, Place, Person, Craft, Tradition, Reception - the last three were ones AI pushed me to add. Together they make this Six-Lens Poem Reading method.&lt;/p&gt;
+&lt;h2 id="using-the-six-lens-poem-reading-skill"&gt;Using the Six-Lens Poem Reading Skill
+&lt;/h2&gt;&lt;p&gt;Download the Skill here:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://skills.victor42.work/poem-six-lens/" target="_blank" rel="noopener"
+&gt;https://skills.victor42.work/poem-six-lens/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Three sample readings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/O4CydaX8XoLbRNxgwiAc3sjfnqh?from=from_copylink" target="_blank" rel="noopener"
+&gt;Six-Lens Poem Reading: 乐游原&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/EaRsdTSYUoxiXexT7soc8WVrnNg?from=from_copylink" target="_blank" rel="noopener"
+&gt;Six-Lens Poem Reading: 使至塞上&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/IKhodsSbuohcpYxRALZc9EgynD8?from=from_copylink" target="_blank" rel="noopener"
+&gt;Six-Lens Poem Reading: 清平乐·村居&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One caution: treat the timeline like the light cone. It only strings events in time. You cannot claim direct cause between them, but you can sense the subtle stacking of many factors that finally sparks. Like leaving work one day and suddenly wanting a detour for teppanyaki - if there is a reason, it probably was not born that day.&lt;/p&gt;
+&lt;p&gt;The Skill has flaws too. With so many angle shifts, AI reading those complex links easily falls into its own jargon haze. But if you truly care about the poem and stay with it, you will respect the information density.&lt;/p&gt;
+&lt;p&gt;One more warning: the Skill triggers a burst of web searches in a short window. In a cloud sandbox it often gets blocked. Prefer a local agent.&lt;/p&gt;
+&lt;p&gt;That is enough AI talk. I built this Skill to enjoy classical poetry - to serve real life. Even a die-hard STEM geek like me can feel the beauty in these poems; a thousand years of transmission is not an accident. If a poem truly interests you, Six-Lens Poem Reading should only be a starting point. The distant spacetime behind it is something you can explore with AI.&lt;/p&gt;</description></item><item><title>Where Will Our Generation's Last Words Be Written?</title><link>https://victor42.eth.limo/post-en/3653/</link><pubDate>Tue, 20 Aug 2024 14:23:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3653/</guid><description>&lt;p&gt;No, I&amp;rsquo;m fine. I&amp;rsquo;m only 35. This is a technical discussion.&lt;/p&gt;
+&lt;p&gt;In my &lt;a class="link" href="https://victor42.eth.limo/post-en/3652/" target="_blank" rel="noopener"
+&gt;previous post&lt;/a&gt; about AI-filtered news, some readers noticed a phone automation: &amp;ldquo;Send location to wife if I miss her call.&amp;rdquo; The comments were funny, but the idea is serious. While getting kidnapped is unlikely, unexpected things happen. It&amp;rsquo;s rational to prepare. We can record crucial information our families would need and ensure they receive it.&lt;/p&gt;
+&lt;p&gt;As an average office worker, I&amp;rsquo;m not managing a family business or company shares. I just need to list my assets and debts, leaving clues for recovery.&lt;/p&gt;
+&lt;p&gt;This boils down to three questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Where to store the info?&lt;/li&gt;
+&lt;li&gt;When and how to send it?&lt;/li&gt;
+&lt;li&gt;How to keep it secure?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Tackling these in order proved difficult. Existing solutions lacked either automation or security. I even checked dedicated apps, but their data security was dubious. Rethinking the order (2, 1, 3), I realized a calendar app is ideal.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/ca91f7cba9e630d53033d7ef0d1253e2.jpg"
+loading="lazy"
+alt="A custom notification pop-up in calendar app configuring email reminder"
+&gt;&lt;/p&gt;
+&lt;p&gt;I created a recurring monthly event with email reminders.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/62579ed37df278f49d5021b071a10c2c.jpg"
+loading="lazy"
+alt="A screenshot of automatic forwarding filter rule configured in Gmail settings"
+&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s set to email me. I then configured a filter in my email to forward it to my wife&amp;rsquo;s primary email if the body contains a specific keyword, like one at the start of my message.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/ab7f8b818ec04f4effe2bd9a11090dda.jpg"
+loading="lazy"
+alt="A calendar event details screen showing recurring settings and description"
+&gt;&lt;/p&gt;
+&lt;p&gt;The message itself is in the event notes. I list my assets: investments, savings, insurance, and usernames. For security, I omit passwords, only including the ID or phone number needed for a reset. I also list debts, primarily the mortgage, including the payment card, amount, and a reminder to keep it current.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/928065980cc3f8d0bc56f2ab9a441044.jpg"
+loading="lazy"
+alt="A calendar month view showing scheduled events and reminders"
+&gt;&lt;/p&gt;
+&lt;p&gt;But this would email my wife monthly - not exactly &amp;ldquo;last words.&amp;rdquo; So, I set up a second recurring event a day earlier, reminding me to delete the &amp;ldquo;last words&amp;rdquo; event - just that occurrence, not the series. This &amp;ldquo;negative trigger,&amp;rdquo; inspired by the Swordholder in &lt;em&gt;The Three-Body Problem&lt;/em&gt;, is activated by &lt;em&gt;inaction&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This prevents monthly emails and keeps the information out of my wife&amp;rsquo;s inbox, reducing the risk of leaks. Her data security habits aren&amp;rsquo;t as strong as mine. For added security, I created a separate, dedicated calendar account just for this, never used for sign-ups or other emails.&lt;/p&gt;
+&lt;p&gt;Naturally, I&amp;rsquo;ll inform my wife about this, if only to ensure she doesn&amp;rsquo;t change her main email.&lt;/p&gt;</description></item><item><title>A Step-by-Step Guide to Travel Planning</title><link>https://victor42.eth.limo/post-en/3642/</link><pubDate>Fri, 15 Sep 2023 17:32:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3642/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-09/5ef58770aad9ed92e0535b0b357bd3fb.jpg" alt="Featured image of post A Step-by-Step Guide to Travel Planning" /&gt;&lt;p&gt;You&amp;rsquo;ve probably never seen anyone break down travel planning quite like this.&lt;/p&gt;
+&lt;p&gt;Most people travel, but few plan meticulously. Accommodation, food, transport, tickets - it&amp;rsquo;s all interconnected. One change can throw everything off. This complexity discourages many from detailed planning. They book flights and hotels and wing it. But beneath the apparent spontaneity lies potential chaos.&lt;/p&gt;
+&lt;p&gt;As summer turns to fall, the weather&amp;rsquo;s perfect for travel. I&amp;rsquo;ve been deep in trip planning lately, which got me thinking: how do you &lt;em&gt;systematically&lt;/em&gt; plan a trip? With a solid framework, travel planning becomes straightforward, turning a jumbled mess into a smooth process. Follow this, and you can create travel plans quickly and easily, without losing flexibility.&lt;/p&gt;
+&lt;h2 id="breaking-down-the-elements"&gt;Breaking Down the Elements
+&lt;/h2&gt;&lt;p&gt;Before I share the method, let&amp;rsquo;s start with the underlying logic.&lt;/p&gt;
+&lt;p&gt;Travel aims for enjoyment, but it&amp;rsquo;s still &lt;em&gt;physical&lt;/em&gt;. Real-world needs apply. Coordinating these needs is the &lt;em&gt;reason&lt;/em&gt; for a travel plan. The key to simplifying it all is almost too simple:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can only be in one place at a time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We&amp;rsquo;re bound by 3D space and 1D time. Your body must be &lt;em&gt;somewhere&lt;/em&gt;, and you can&amp;rsquo;t be in two places at once. Time, too, marches on.&lt;/p&gt;
+&lt;p&gt;Therefore, planning a trip boils down to filling each moment with a location.&lt;/p&gt;
+&lt;p&gt;Obvious so far, but here&amp;rsquo;s where it gets useful:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/5594b69da68ee4d0143a0c262a81109a.jpg"
+loading="lazy"
+alt="Travel plan mind map first level with black Travel Plan node branching to green Time/blue Location/yellow Items"
+&gt;&lt;/p&gt;
+&lt;p&gt;Travel elements break down into time, location, and items. Time and location define your environment. You are the trip&amp;rsquo;s subject. You know &lt;em&gt;you&lt;/em&gt;; what needs planning are your extensions (your stuff) - items.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/5ef58770aad9ed92e0535b0b357bd3fb.jpg"
+loading="lazy"
+alt="Full travel plan mind map with Time split into Days-Nights/Daily Itinerary, Location split into Intercity Transport/City Transport/Attractions/Hotels/Restaurants, Attractions split into Potential/Confirmed"
+&gt;&lt;/p&gt;
+&lt;p&gt;We further break down time and location, laying out all the trip&amp;rsquo;s elements. I&amp;rsquo;ve separated &amp;ldquo;potential destinations&amp;rdquo; and &amp;ldquo;confirmed destinations&amp;rdquo; because sometimes destinations are limited by other factors, requiring choices. It&amp;rsquo;s not crucial, but it helps.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/64480a4e44e37823a98713594b5e59e5.jpg"
+loading="lazy"
+alt="Linear flow of 9 travel planning leaf nodes: Days-Nights/Daily Itinerary/Intercity Transport/City Transport/Potential Attractions/Confirmed Attractions/Hotels/Restaurants/Items"
+&gt;&lt;/p&gt;
+&lt;p&gt;With the elements atomized, the question is: which ones do you decide first, and in what order?&lt;/p&gt;
+&lt;h2 id="reassembling-the-elements"&gt;Reassembling the Elements
+&lt;/h2&gt;&lt;p&gt;The breakdown is fixed, but reassembly needs your input. What&amp;rsquo;s the trip&amp;rsquo;s purpose? To see something you&amp;rsquo;ve dreamed of, even if it&amp;rsquo;s a hassle? Or to simply relax and enjoy? Even with the same goal, focusing on efficiency versus total enjoyment leads to different travel styles.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve identified two planning models based on my experience. I use different approaches depending on the situation.&lt;/p&gt;
+&lt;h3 id="a-sightseeing-mode"&gt;A. Sightseeing Mode
+&lt;/h3&gt;&lt;p&gt;Sightseeing mode prioritizes efficiency.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Efficiency = Total Happiness / Total Time = (Happiness at Destinations + Happiness in Transit) / Total Time&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here, destinations provide the most happiness per unit of time, while transit provides less, or even negative, happiness. If you enjoy transit equally, you likely prefer the other mode, discussed later.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Destinations&amp;rdquo; aren&amp;rsquo;t just tourist spots. In Sightseeing Mode, an enjoyable journey, like a scenic coastal drive, is a destination, not transit. Typical &amp;ldquo;transit&amp;rdquo; is things like city subways or waiting in lines.&lt;/p&gt;
+&lt;p&gt;Minimizing transit time boosts efficiency. If teleportation existed, you&amp;rsquo;d skip the commute. High efficiency means the trip was &amp;ldquo;worth it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/22794c641275b0e281926adf36373be0.jpg"
+loading="lazy"
+alt="Sightseeing Mode flowchart for working professionals: Intercity Transport/City Transport/Potential Attractions lead to Days-Nights, then Confirmed Attractions, leading to Hotels/Restaurants/Items, converging to Daily Itinerary"
+&gt;&lt;/p&gt;
+&lt;p&gt;Planning order for Sightseeing Mode:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Consider &lt;strong&gt;getting to and from the destination city&lt;/strong&gt;, &lt;strong&gt;in-city transport&lt;/strong&gt;, and &lt;strong&gt;places worth seeing&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Decide &lt;strong&gt;how many days and nights&lt;/strong&gt; to spend. This is limited by transport (train/flight schedules) and your vacation time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Confirm destinations&lt;/strong&gt;. Based on trip duration, decide if you can visit all potential destinations or need to prioritize. City transport is a constraint; some spots might be inaccessible or too time-consuming without suitable transport.&lt;/li&gt;
+&lt;li&gt;Book &lt;strong&gt;hotels&lt;/strong&gt; and create a &lt;strong&gt;packing list&lt;/strong&gt;. Research to find a conveniently located hotel. Trip length is crucial for hotel booking. Your packing list depends on destinations; hiking gear differs from beach gear.&lt;/li&gt;
+&lt;li&gt;Find &lt;strong&gt;restaurants or commercial areas&lt;/strong&gt;. This can be skipped in big cities or if you&amp;rsquo;re not a foodie. It&amp;rsquo;s necessary when traveling with my toddler, who needs regular, specific meals. If there are busy areas near destinations (for lunch/dinner) or the hotel (for dinner), focus on those. If it&amp;rsquo;s remote, you need a concrete dining plan, like takeout or packed food.&lt;/li&gt;
+&lt;li&gt;Plan the &lt;strong&gt;daily itinerary&lt;/strong&gt;: It&amp;rsquo;s almost done by now. This step is about adjusting the order, balancing morning and afternoon time, and ensuring a good overall pace.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/67bbcb6affbea7659a7463b347c9a713.jpg"
+loading="lazy"
+alt="Retired Sightseeing Mode flowchart: Days-Nights not constrained by Intercity Transport, Potential Attractions directly lead to Confirmed Attractions, allowing all destinations to be visited"
+&gt;&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a Sightseeing Mode variation. Unlike the &amp;ldquo;9-to-5&amp;rdquo; version, those with ample time needn&amp;rsquo;t choose destinations due to time. They can visit everywhere, simply extending the trip. Other aspects are similar.&lt;/p&gt;
+&lt;h3 id="b-vacation-mode"&gt;B. Vacation Mode
+&lt;/h3&gt;&lt;p&gt;Vacation Mode prioritizes total enjoyment.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Total Happiness = Efficiency x Total Time&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here, you first maximize efficiency, minimizing unpleasantness. With constant happiness ensured, only time affects the total. If 3 days aren&amp;rsquo;t enough, try 5; if 5 aren&amp;rsquo;t enough, try 7, until you&amp;rsquo;re content.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/179aac36050e91835b7362e50ab828ff.jpg"
+loading="lazy"
+alt="Vacation Mode flowchart: Intercity Transport/City Transport/Days-Nights/Items all lead to Hotels, Hotels lead to Potential Attractions and Restaurants, Confirmed Attractions and Daily Itinerary are optional dashed-line steps"
+&gt;&lt;/p&gt;
+&lt;p&gt;Planning order for Vacation Mode:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Consider &lt;strong&gt;getting to and from the destination city&lt;/strong&gt;, &lt;strong&gt;in-city transport&lt;/strong&gt;, and &lt;strong&gt;how many days and nights&lt;/strong&gt; to spend.&lt;/li&gt;
+&lt;li&gt;Book &lt;strong&gt;hotels&lt;/strong&gt;. Find a hotel with great views or amenities, considering distance to transport hubs and in-city transport options. Public transport versus driving greatly impacts hotel choice.&lt;/li&gt;
+&lt;li&gt;List &lt;strong&gt;potential destinations&lt;/strong&gt; and research local &lt;strong&gt;restaurants&lt;/strong&gt;. Which easily accessible destinations are worth visiting? Any local delicacies you&amp;rsquo;re keen on? Research those.&lt;/li&gt;
+&lt;li&gt;Create a &lt;strong&gt;packing list&lt;/strong&gt;. Items have no constraints, so consider this anytime.&lt;/li&gt;
+&lt;li&gt;Planning is essentially done. Just await departure.&lt;/li&gt;
+&lt;li&gt;For a more detailed plan, select destinations and combine them with preferred restaurants and areas to create a daily itinerary.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="differences-between-the-two-modes"&gt;Differences Between the Two Modes
+&lt;/h3&gt;&lt;p&gt;The modes seem distinct, but there are blurry areas. You might not be a &amp;ldquo;special forces&amp;rdquo; traveler or someone who just enjoys sleeping in a new city. Where do you fit?&lt;/p&gt;
+&lt;p&gt;The modes can produce identical itineraries, but the &lt;em&gt;source&lt;/em&gt; of happiness differs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sightseeing Mode&amp;rsquo;s happiness comes from the physical world: &lt;em&gt;locations&lt;/em&gt;. The more you explore, the greater the happiness. This mode accepts some transit unhappiness, compensated by destination happiness.&lt;/li&gt;
+&lt;li&gt;Vacation Mode&amp;rsquo;s happiness comes from the mental world: &lt;em&gt;time&lt;/em&gt;. As fatigue and boredom build, marginal happiness decreases. To maintain happiness, this mode allows changing activities and destinations anytime.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here&amp;rsquo;s an analogy: Imagine a day at Disneyland. How would the modes differ? It&amp;rsquo;s not hard.&lt;/p&gt;
+&lt;p&gt;If a trip offers great destination happiness (for Sightseeing Mode) and a well-paced itinerary keeps Vacation Mode constantly happy, both are satisfied, but their &lt;em&gt;reasons&lt;/em&gt; differ.&lt;/p&gt;
+&lt;p&gt;If there are two attractions, one hard to reach but immensely joyful, the other easily accessible but mildly amusing, Sightseeing Mode chooses the former, Vacation Mode the latter.&lt;/p&gt;
+&lt;p&gt;Where does your happiness mainly come from? Or, where do you &lt;em&gt;want&lt;/em&gt; it to come from on this trip?&lt;/p&gt;
+&lt;p&gt;These modes aren&amp;rsquo;t definitive. Everyone has preferences. The key is to lay out the elements, connect them, and draw your own travel planning flowchart. Use it repeatedly. You&amp;rsquo;ll find travel planning isn&amp;rsquo;t so hard. As you get better, you&amp;rsquo;ll travel more, increasing your overall happiness.&lt;/p&gt;
+&lt;h2 id="putting-it-into-practice"&gt;Putting It into Practice
+&lt;/h2&gt;&lt;p&gt;Theory&amp;rsquo;s fine, but let&amp;rsquo;s apply this framework to a real trip, using the more involved Sightseeing Mode.&lt;/p&gt;
+&lt;p&gt;In April 2021, during the Qingming Festival, I road-tripped to Dunhuang with family and friends - four of us in total. I handled the itinerary, and everyone enjoyed it. Even two years later, we all consider it our most memorable trip. Here&amp;rsquo;s the travelogue: &lt;a class="link" href="https://victor42.eth.limo/post-en/3596/" target="_blank" rel="noopener"
+&gt;https://victor42.eth.limo/post-en/3596/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The travelogue shows the result. I&amp;rsquo;m sharing the planning process, which used the &amp;ldquo;9-to-5&amp;rdquo; Sightseeing Mode.&lt;/p&gt;
+&lt;h3 id="prerequisites-and-potential-destinations"&gt;Prerequisites and Potential Destinations
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/f753e47db6b6a3c4285b767b884152bf.jpg"
+loading="lazy"
+alt="Travel planning flowchart highlighting Intercity Transport/City Transport/Potential Attractions as initial tasks in color, rest grayed out"
+&gt;&lt;/p&gt;
+&lt;p&gt;Flying round-trip from Hangzhou to Dunhuang, with a 3-day Qingming holiday and 2 days of annual leave, flying was the only viable intercity option. So, I booked flights immediately.&lt;/p&gt;
+&lt;p&gt;The best I could manage, even using all 5 days, was a 5-day, 4-night itinerary. We&amp;rsquo;d leave early on day one, have half a day for sightseeing; sleep in on day five, and head straight back, arriving home at night. That left 3.5 days for actual exploration.&lt;/p&gt;
+&lt;p&gt;Dunhuang, a desert city, is susceptible to sandstorms, and many attractions are outside the city. Renting a car locally made sense, so I arranged that too.&lt;/p&gt;
+&lt;p&gt;For potential destinations, I quickly researched online and listed these:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Recommended Destinations&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yumen Pass&lt;/li&gt;
+&lt;li&gt;Yangguan Pass&lt;/li&gt;
+&lt;li&gt;Mogao Caves&lt;/li&gt;
+&lt;li&gt;Encore Dunhuang performance&lt;/li&gt;
+&lt;li&gt;Singing Sands Mountain and Crescent Spring&lt;/li&gt;
+&lt;li&gt;Yardang National Geopark (temporarily closed)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other Destinations&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Leiyin Temple (near Singing Sands Mountain and Crescent Spring)&lt;/li&gt;
+&lt;li&gt;Dunhuang Museum&lt;/li&gt;
+&lt;li&gt;White Horse Pagoda (near Dunhuang Museum)&lt;/li&gt;
+&lt;li&gt;Western Thousand Buddha Caves&lt;/li&gt;
+&lt;li&gt;Dunhuang Film City&lt;/li&gt;
+&lt;li&gt;Dunhuang Grand Show (near Singing Sands Mountain and Crescent Spring)&lt;/li&gt;
+&lt;li&gt;Silk Road Flower Rain performance&lt;/li&gt;
+&lt;li&gt;Yulin Caves&lt;/li&gt;
+&lt;li&gt;Suoyang City&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="finalizing-the-destinations"&gt;Finalizing the Destinations
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/063b2f77e058c1a6ee4018bc31d650de.jpg"
+loading="lazy"
+alt="Travel planning flowchart highlighting Confirmed Attractions node in blue, rest grayed out, showing its position in the workflow"
+&gt;&lt;/p&gt;
+&lt;p&gt;I checked the map and grouped potential destinations geographically. A useful tip: search for each on a map app and add it to your favorites. Zooming out shows a cluster of stars, clarifying how to group them. Just select the ones you want.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;East Line&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Mogao Caves&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Encore Dunhuang performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;West Line&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Yumen Pass&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Yangguan Pass&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Western Thousand Buddha Caves&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Yardang National Geopark (temporarily closed)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Dunhuang Film City&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;South of the City&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Singing Sands Mountain and Crescent Spring&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Leiyin Temple&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Dunhuang Grand Show&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Guazhou Line&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Yulin Caves&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Suoyang City&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Downtown&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Dunhuang Museum&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; White Horse Pagoda&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Shazhou Ancient City&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Silk Road Flower Rain performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grouping helps significantly with the daily itinerary, essentially one group per day. But I held off on the itinerary, needing a crucial element: the hotel.&lt;/p&gt;
+&lt;h3 id="hotel-and-detailed-itinerary"&gt;Hotel and Detailed Itinerary
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/a14de957432f0840953cb0940a8e155a.jpg"
+loading="lazy"
+alt="Travel planning flowchart highlighting Hotels/Restaurants/Daily Itinerary nodes in blue and green, rest grayed out"
+&gt;&lt;/p&gt;
+&lt;h4 id="hotel"&gt;Hotel
+&lt;/h4&gt;&lt;p&gt;Hotels should be central, near attractions, downtown, or transport hubs. Within that area, I weighed facilities and value. I chose a hotel in downtown Dunhuang, close to the night market and shopping, and was very pleased.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/870683e4161c3e4e74732f1b301847f5.jpg"
+loading="lazy"
+alt="Ctrip app Dunhuang hotel map view screenshot showing 56 hotels with price tags from 191 to 1488 yuan, date filter 09-29 to 10-01"
+&gt;&lt;/p&gt;
+&lt;p&gt;Tip for finding hotels: use the map mode in the Ctrip app. It displays Dunhuang hotels, showing the cheapest room&amp;rsquo;s price.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/087bd581b7bdb1d505d652f904678188.jpg"
+loading="lazy"
+alt="Ctrip app hotel filter page screenshot with Non-smoking Room checked, showing Free Parking/Pet Friendly/Parking/Laundry Room facility filters"
+&gt;&lt;/p&gt;
+&lt;p&gt;The filter function is key. Hotel details are standardized, so filtering quickly narrows options. For instance, with kids, I&amp;rsquo;d select a non-smoking room. Applying the filter removes many irrelevant hotels from the map.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re using a computer, it&amp;rsquo;s even easier. I&amp;rsquo;ve developed a browser extension that lets you compare multiple Ctrip hotels side-by-side. It gathers ratings, negative review rates, room types, floor area, window details, bed sizes, and smoking policies into a single Excel sheet, allowing you to compare everything at a glance and make your choice quickly.&lt;/p&gt;
+&lt;p&gt;Feel free to use it: &lt;a class="link" href="https://github.com/greenzorro/hotel-comparer" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/hotel-comparer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The hotel was now booked.&lt;/p&gt;
+&lt;h4 id="restaurants"&gt;Restaurants
+&lt;/h4&gt;&lt;p&gt;I scouted restaurants near attractions or the hotel. That&amp;rsquo;s how I handled it for Dunhuang. I didn&amp;rsquo;t have kids then, and adults are flexible with food, so I skipped a detailed food guide.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/2b0ab0f7c0e01c080c4c26980f83fd9a.jpg"
+loading="lazy"
+alt="Dianping app Dunhuang food map screenshot showing restaurants like Jingyuan Gaoliu Lamb/Ji Hui Hand-grabbed Lamb/Donkey Dad Noodles with ratings and prices"
+&gt;&lt;/p&gt;
+&lt;p&gt;Like finding hotels, use the map search in the Dianping app. It shows Dunhuang&amp;rsquo;s food scene. Locate yourself, zoom in, and you&amp;rsquo;ll see nearby restaurants. Note: use the app; the mini-program lacks this. Meituan&amp;rsquo;s app works, but it&amp;rsquo;s slower.&lt;/p&gt;
+&lt;p&gt;Without a food guide, distance is crucial when finding food on the go. Map mode is very efficient.&lt;/p&gt;
+&lt;h4 id="daily-itinerary"&gt;Daily Itinerary
+&lt;/h4&gt;&lt;p&gt;The daily itinerary simply combines the hotel, attractions, and restaurants/shops, considering time. No new work here. The key is estimating visit durations to avoid over- or under-scheduling.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/d827653d704d8c7430a4dcd1a12c2730.jpg"
+loading="lazy"
+alt="Feishu Docs D2 and D3 itinerary planning showing D2 West Line attractions Western Thousand Buddha Caves/Yumen Pass/Yangguan Pass/Dunhuang Film City, D3 Mogao Caves 4hrs plus Encore Dunhuang 1.5hrs"
+&gt;&lt;/p&gt;
+&lt;p&gt;Note: for popular attractions, like the Forbidden City, book tickets in advance.&lt;/p&gt;
+&lt;h3 id="packing-list"&gt;Packing List
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/ac92554aa849cd99b8407ddc04113296.jpg"
+loading="lazy"
+alt="Travel planning flowchart highlighting Items node in yellow, rest grayed out, showing Items independent position in workflow"
+&gt;&lt;/p&gt;
+&lt;p&gt;The packing list is separate, not tied to time or place. Once attractions are set, consider it anytime. I usually do it last.&lt;/p&gt;
+&lt;p&gt;I love Excel. Anything data-related, I use Excel, including travel items. It&amp;rsquo;s overkill for solo adult travel, but forgetting one baby item can be disastrous, so careful checking is essential.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/cd2b78eae10081341b2cc3ef04b1979a.jpg"
+loading="lazy"
+alt="Excel family travel packing checklist with Category/Item/To Bring/To Pack/Packed/Brought 6 columns, 5 categories: Baby Food/Baby Hygiene/Baby Clothing/Baby Misc/Adult"
+&gt;&lt;/p&gt;
+&lt;p&gt;Why 4 columns? It&amp;rsquo;s a thorough checking system, from left to right:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;To Bring:&lt;/strong&gt; This spreadsheet is reusable, accumulating over time. It includes items for all seasons and activities. Before each trip, I select from this column.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;To Pack:&lt;/strong&gt; Items are either carry-on or checked. Leaving carry-ons at the hotel defeats their purpose (like diapers - I&amp;rsquo;ve learned the hard way). Use Excel&amp;rsquo;s filter on the first column, select items for this trip, then decide which are carry-on, checking them in the second column.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Packed:&lt;/strong&gt; Start packing, prioritizing carry-ons. Refer to the second column and check this one for packed items.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brought:&lt;/strong&gt; With carry-ons mostly packed, filter the third column, showing unpacked items. These are either unpacked carry-ons or checked luggage items. Continue packing. You can skip checking columns 3 and 4 if you&amp;rsquo;re organized.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Packing List: &lt;a class="link" href="https://my.feishu.cn/wiki/R7EAwcYX1ikNlukteCdcVhdinhb?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/R7EAwcYX1ikNlukteCdcVhdinhb?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="travel-plan-document"&gt;Travel Plan Document
+&lt;/h2&gt;&lt;p&gt;By following this workflow, your trip is planned out clearly - it’s not rocket science. However, up to this point, it’s all just mental planning. You need a proper &amp;ldquo;container&amp;rdquo; for this web of information, both for your own review and to share with your travel companions.&lt;/p&gt;
+&lt;p&gt;I have a travel itinerary template I’ve used for years. It’s essentially a series of fill-in-the-blank questions; once you plug the information into the right spots, your guidebook is complete.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/eedcf81640a1b16d68b6a60e6a4d14e6.jpg"
+loading="lazy"
+alt="Feishu Docs travel guide outline with Itinerary D1-D5/Packing Checklist/Tips/Potential Attractions/Travelogue &amp; References 5 modules"
+&gt;&lt;/p&gt;
+&lt;p&gt;The document is divided into several modules: Itinerary, Packing List, Tips, Candidate Attractions, and References. The first three are for you and your group; the last two are backend notes for your own use while planning. There’s a divider between them - once the plan is finalized, just delete the bottom half and share it with your group.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;&lt;br&gt;
+Inter-city Transport: Mode of transport.
+Local Transport: Mode of transport.
+Accommodation: Hotel name &amp;amp; nearby attractions/districts (if any).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;First, the itinerary starts with an overview - this is the core foundation of the entire plan. The critical constraints - inter-city transport, local transport, trip duration, and accommodation - are all condensed into this short paragraph. Once these are nailed down, you won&amp;rsquo;t drop the ball on the basics, even if you haven&amp;rsquo;t planned the specific daily sightseeing yet.&lt;/p&gt;
+&lt;p&gt;For multi-city trips, I expand it like this for better visibility:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Time: Month/Day - Month/Day (X Days, X Nights)&lt;/strong&gt;&lt;br&gt;
+Inter-city Transport: Day X fly to [Place], Day X fly to [Place]&amp;hellip;
+Local Transport: [City] Metro + Taxi, [City] Walk&amp;hellip;
+Accommodation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dates (X Nights) at [City, Hotel]. Notes on location/attractions.&lt;/li&gt;
+&lt;li&gt;Dates (X Nights) at [City, Hotel]. Notes on location/attractions.&lt;/li&gt;
+&lt;li&gt;Dates (X Nights) at [City, Hotel]. Notes on location/attractions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;However, expanding it this way requires extreme caution because the dates are all interconnected. If you miss an edit and book tickets or hotels based on a typo, it’s a recipe for disaster. The cost of changing flights or overseas hotel bookings can be painful.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/Xnip2025-11-24_13-50-24.webp"
+loading="lazy"
+alt="Excel transport-accommodation itinerary planner with Start Date/End Date/City/Arrival Mode/Departure Mode/City Transport/Nights/Hotel/Notes 9 columns, showing Bangkok/Phuket/Phi Phi/Hong Kong multi-city trip"
+&gt;&lt;/p&gt;
+&lt;p&gt;For tasks like this, the human brain isn&amp;rsquo;t as reliable as code. So, I built a spreadsheet tool. You fill in the table, and it auto-generates the itinerary overview, ensuring zero errors. You can simply copy it from the spreadsheet and paste it into your document:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Inter-city Transport: 17th fly to Bangkok, 19th fly to Phuket, 22nd ferry to Phi Phi Don, 27th ferry to Phuket, 28th fly to Hong Kong, 31st fly home.
+Local Transport: Bangkok Metro + Taxi, Phuket Bus + Taxi, Phi Phi Walk, Hong Kong Walk + Metro.
+Accommodation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;17-19 (2 Nights) at Bangkok Asia Hotel. Near Siam Center, convenient location.&lt;/li&gt;
+&lt;li&gt;19-22 (3 Nights) at Phuket Sugar Marina Hotel -POP- Kata Beach. Near Kata Beach.&lt;/li&gt;
+&lt;li&gt;22-27 (5 Nights) at Phi Phi The Cliff at PP. Tonsai Pier area, convenient but quiet.&lt;/li&gt;
+&lt;li&gt;27-28 (1 Night) at Phuket Nai Yang Beach Resort &amp;amp; Spa. Near Nai Yang Beach, close to airport.&lt;/li&gt;
+&lt;li&gt;28-31 (3 Nights) at Hong Kong Metropark Hotel Mongkok. Mongkok area, bustling commercial district.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Transport &amp;amp; Accommodation Planning Tool:&lt;/strong&gt; &lt;a class="link" href="https://my.feishu.cn/wiki/IbkAwYIi6ieFcbkuIjuckpJlnQb?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/IbkAwYIi6ieFcbkuIjuckpJlnQb?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/eedcf81640a1b16d68b6a60e6a4d14e6.jpg"
+loading="lazy"
+alt="Feishu Docs travel guide outline with Itinerary D1-D5/Packing Checklist/Tips/Potential Attractions/Travelogue &amp; References 5 modules"
+&gt;&lt;/p&gt;
+&lt;p&gt;Back to the template. I&amp;rsquo;ve already covered the Packing List. &lt;strong&gt;Tips&lt;/strong&gt; and &lt;strong&gt;References&lt;/strong&gt; are sections I haven&amp;rsquo;t mentioned yet. These are basically notes - valuable info recorded for the group (Tips) and for your own research (References).&lt;/p&gt;
+&lt;p&gt;The blank template and filled-out examples both live on the public travel-guide site. Blank template entry below; for a filled-out example, see the Dunhuang road-trip guide (compare it against the template structure). If you&amp;rsquo;re planning a trip to Dunhuang this spring, you can use that guide as a reference.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Travel Template:&lt;/strong&gt; &lt;a class="link" href="https://travel.victor42.work/" target="_blank" rel="noopener"
+&gt;https://travel.victor42.work/&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Dunhuang Road Trip Guide:&lt;/strong&gt; &lt;a class="link" href="https://travel.victor42.work/trip/dunhuang-self-drive/" target="_blank" rel="noopener"
+&gt;https://travel.victor42.work/trip/dunhuang-self-drive/&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;My Travel Guides Collection:&lt;/strong&gt; &lt;a class="link" href="https://travel.victor42.work/" target="_blank" rel="noopener"
+&gt;https://travel.victor42.work/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="planning-flights-for-complex-trips"&gt;Planning Flights for Complex Trips
+&lt;/h2&gt;&lt;p&gt;Ever get stuck right at the beginning trying to sort out travel between multiple cities? It can be a real headache. This is especially true when you&amp;rsquo;re trying to find the best deals for a complex itinerary during peak holidays, like National Day or Spring Festival, when flight prices go wild.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/Xnip2025-11-13_11-21-36.webp"
+loading="lazy"
+alt="Excel multi-leg flight price comparison table with Date/Fly/Notes/Hangzhou-Bangkok/Bangkok-Phuket/Phuket-Bangkok/Bangkok-Hangzhou columns, yellow for lowest price, red/green for price swings"
+&gt;&lt;/p&gt;
+&lt;p&gt;I built a spreadsheet tool to tackle this. Here’s how it works:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Dates&lt;/strong&gt;: List your potential travel dates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fares&lt;/strong&gt;: Look up and record the lowest fare for each day.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fill&lt;/strong&gt;: Just fill in the white columns; the gray ones will auto-calculate.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indicators&lt;/strong&gt;: Yellow marks the cheapest fare for a leg. Red or green shows a big price swing from the day before (defaults to 15%, but you can change it).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Confirm&lt;/strong&gt;: When you&amp;rsquo;ve picked a flight, check its box to keep track.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Step 2 takes the most time, but AI can speed it up. AI browsers like Comet and Atlas or AI agents like Manus and Minimax can handle it, but your standard chatbot can&amp;rsquo;t. You&amp;rsquo;ll need some decent prompting skills, or you might get incomplete or no data at all. Honestly, since this is something you only do a couple of times a year, doing it manually is still the most reliable approach.&lt;/p&gt;
+&lt;p&gt;The sheet supports up to 8 flight legs, plenty even for a multi-city European tour. Then again, if you have enough time for a month-long, multi-city journey, you probably aren&amp;rsquo;t too worried about penny-pinching on flights, haha.&lt;/p&gt;
+&lt;p&gt;Flight Planning Sheet: &lt;a class="link" href="https://my.feishu.cn/wiki/SIbUw5N3ci79d2kySNqcItRHnYd?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/SIbUw5N3ci79d2kySNqcItRHnYd?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="travel-expense-tracking"&gt;Travel Expense Tracking
+&lt;/h2&gt;&lt;p&gt;Finally, expense tracking. Skip this if you don&amp;rsquo;t track expenses.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/3d367b5c87195d840767ecc6e9739016.jpg"
+loading="lazy"
+alt="Excel travel expense tracker for 4 people totaling 22976 yuan at 5744 per person, categories: Intercity Transport 38.13%/City Transport 14.64%/Accommodation 9.14%/Activities 30.35%/Food 7.74%"
+&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m sharing an Excel spreadsheet that calculates expense percentages and per capita costs, useful for splitting bills with friends.&lt;/p&gt;
+&lt;p&gt;Travel Expense Tracking Template: &lt;a class="link" href="https://my.feishu.cn/wiki/Q76ywiamqiBKeTkTxhrcBW4MnVd?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/Q76ywiamqiBKeTkTxhrcBW4MnVd?from=from_copylink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Port Mindset - From Automated Tasks to a Way of Life</title><link>https://victor42.eth.limo/post-en/3627/</link><pubDate>Thu, 12 Jan 2023 23:52:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3627/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-01/chuttersnap-xewrfLD8emE-unsplash.jpg" alt="Featured image of post Port Mindset - From Automated Tasks to a Way of Life" /&gt;&lt;p&gt;Inspired by ports, a new perspective on how things and thoughts flow in life.&lt;/p&gt;
+&lt;p&gt;This is a rather abstract and rambling article, discussing a somewhat metaphysical topic. It touches upon information automation techniques, ponders the philosophy of life, and explores the methodology of methods. If you have the time, you&amp;rsquo;re welcome to read on.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Daily life and work involve a lot of trivial matters, which are irregular both logically and chronologically.&lt;/p&gt;
+&lt;p&gt;A typical scenario: You&amp;rsquo;re researching something on your computer, with a bunch of web pages open, relevant and irrelevant ones all piled up, and you&amp;rsquo;ve downloaded a few PDFs. Then a colleague sends you a file and discusses it with you. After the discussion, you give them some feedback, taking several screenshots to illustrate your points. It&amp;rsquo;s almost time to get off work, so you close your laptop and head home. The materials generated from these tasks remain on your computer, waiting for you to clean them up someday.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/25483758823_4ef46dc7e1_o.jpg"
+loading="lazy"
+alt="Screenshot of cluttered computer desktop with blue starry sky background, hundreds of file and folder icons densely arranged including PDFs/games/documents/shortcuts"
+&gt;&lt;/p&gt;
+&lt;p&gt;Most people I know are pretty laid-back, just letting things be. The consequence is a computer desktop full of files. When that &amp;ldquo;someday&amp;rdquo; finally arrives, they&amp;rsquo;ve forgotten what these materials are, whether they&amp;rsquo;re useful, and whether they can be deleted. If they don&amp;rsquo;t clean up, they&amp;rsquo;ll be searching through a haystack every day. If they do, they have to recall the origin of each file, delete the useless ones, and save the useful ones, which is quite time-consuming.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-21-44.jpg"
+loading="lazy"
+alt="To-do completion screen screenshot with orange-yellow hot air balloon illustration on white background, text below reads All tasks for today are completed! Enjoy your empty inbox."
+&gt;&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s another type, the organized ones, like those who always keep their email inbox empty. They believe in &amp;ldquo;a stitch in time saves nine&amp;rdquo; and are incredibly efficient. They remember even the most trivial things, using to-do lists or sticky notes, and handle them all as soon as they have time. They spend time now to save more time in the future. They feel genuine joy at the moment they clear their daily tasks.&lt;/p&gt;
+&lt;p&gt;I might lean towards the organized type, but not to that extreme. I&amp;rsquo;ve tried managing trivial matters with the latter method. Things were well-organized, but it made me very tired. I was in a state of slight anxiety until everything was done, which seemed detrimental to my mental health.&lt;/p&gt;
+&lt;p&gt;Instead of extreme organization, I believe that relaxation and a happy mood are more worthwhile goals. It is on this premise that we should try to establish order as much as possible. Until one day, during self-reflection, I realized that I had unknowingly established another operating mechanism, managing all aspects of life with a mindset similar to that of a seaport. And this is what this article is about.&lt;/p&gt;
+&lt;h2 id="principles-of-the-port-mindset"&gt;Principles of the Port Mindset
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/chuttersnap-xewrfLD8emE-unsplash.jpg"
+loading="lazy"
+alt="Aerial night photo of busy shipping port, thousands of containers densely stacked, multiple yellow gantry cranes operating, lights illuminating the entire port area"
+&gt;&lt;/p&gt;
+&lt;p&gt;Let me explain a few shipping terms first:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Demurrage and Detention:&lt;/strong&gt; In the shipping industry, shipping companies and port companies are independent. When your goods are shipped across the ocean to a port, the shipping company usually allows you to continue occupying the container for free for a few days, which is the demurrage period. Your goods are stacked somewhere in the port, and the port company also allows you to stack them for free for a few days, giving you time to find a truck to take them away, which is the detention period.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Demurrage and Detention Charges:&lt;/strong&gt; These are the opposites of the previous two terms. When your goods occupy the container for too long, the shipping company will charge you demurrage. When your goods are stacked in the port for too long, the port company will also charge you detention fees. This constraint mechanism prevents you from treating valuable transportation resources as warehouses and occupying them indefinitely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The port mindset has two core principles:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Everything in the world is dynamic.&lt;/strong&gt; Everything goes through an intermediate state from start to finish. Conceptually, accept the existence of this intermediate state. In action, proactively create buffer zones for loading and unloading in all aspects of life, temporarily storing electronic files, online content, physical objects, and even knowledge and ideas, to accommodate this intermediate state. Instead of mentally denying or ignoring the existence of the intermediate state, resulting in a lack of management of the intermediate state. When things come up, if they are not dealt with immediately, they are either forgotten in an instant or piled up.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Not everything needs a beginning and an end.&lt;/strong&gt; Important things are handled on the spot at the port, and after handling, they are transferred to where they should go. Unimportant things will expose their insignificance after staying in the port for a while, and they will be destroyed on the spot. Time works magic, and the port is where the magic happens. Give it some time, and it will return you to peace.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After all, haste makes waste.&lt;/p&gt;
+&lt;p&gt;Using the port mindset to manage things facilitates scheduling and avoids omissions. More importantly, it has psychological significance. Because you know that these miscellaneous things have a formal temporary storage place, you can safely accept them staying here for a while. You won&amp;rsquo;t always be thinking about something undone (if you are the organized type), so you won&amp;rsquo;t feel anxious.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/3wg83jbos.jpg"
+loading="lazy"
+alt="Top-bottom comparison image, top shows express packages piled up outdoors, bottom shows scrap metal heap piled up, demonstrating consequences of buffer zone being used as garbage dump"
+&gt;&lt;/p&gt;
+&lt;p&gt;But for the laid-back type, even if a buffer zone is established, it will be used as a garbage dump.&lt;/p&gt;
+&lt;p&gt;This is not to belittle anyone. These tendencies aren&amp;rsquo;t fixed and must be considered in relation to specific matters. Everyone values different things. You might be laid-back about one thing but meticulous about another. Most people&amp;rsquo;s computers are a mess because they don&amp;rsquo;t think the digital world is important. Their order is established elsewhere, such as in their social circles. Similarly, things I don&amp;rsquo;t value will also be used as a garbage dump by me.&lt;/p&gt;
+&lt;p&gt;Back to the topic, how to avoid the garbage dump problem? It is to establish a constraint mechanism like a port to prevent the buffer zone from expanding uncontrollably, which is very crucial.&lt;/p&gt;
+&lt;p&gt;In terms of digital materials, there are many automated methods to clean up files and materials that have stayed too long, which will be discussed later. In terms of physical objects, you can force yourself to organize in time by limiting the capacity of the buffer zone. In terms of knowledge and ideas, time plays the most important filtering role.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/RE3HTxG.jpg"
+loading="lazy"
+alt="Microsoft To Do app interface screenshot, left tablet shows Work/Home/Groceries category lists, right phone shows Groceries list with Milk/Apples/Frozen pizza items"
+&gt;&lt;/p&gt;
+&lt;p&gt;By the way, let&amp;rsquo;s talk about the difference between to-do lists and the port mindset:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Different nature:
+&lt;ul&gt;
+&lt;li&gt;To-do lists are just a tool. It is a specific software that you need to install and master its usage.&lt;/li&gt;
+&lt;li&gt;The port mindset is a concept and attitude. Any place where information and materials are input can be regarded as a port. If you identify your computer desktop as a port, then it is. Nothing has changed, but you will have a new understanding of the desktop, seeing it as a distribution center for files. Many people do this, but they don&amp;rsquo;t realize it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Different things stored:
+&lt;ul&gt;
+&lt;li&gt;To-do lists only store concepts. They abstract every event in the digital and real world into a line of text and list them together for centralized management. But the specific materials related to the event are still in place. To-do lists are not good at managing files and materials.&lt;/li&gt;
+&lt;li&gt;Ports store specific materials. They are some real locations, a folder on the computer, or a small paper bag at the door of the house. In the port, you can directly handle the corresponding things on the spot. Therefore, there is more than one port, but with some automated methods, there won&amp;rsquo;t be too many, and there won&amp;rsquo;t be a problem of scattering everywhere.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Different workload:
+&lt;ul&gt;
+&lt;li&gt;Using to-do lists increases workload. Things are still there, still waiting for you to deal with. Your task is only postponed, not reduced at all. It&amp;rsquo;s even heavier, because you have to make an extra note in the software, and then check it off. For the matter itself, this recording behavior is extra and redundant.&lt;/li&gt;
+&lt;li&gt;The purpose of the port mindset is to reduce workload. It is an upgrade and transformation of the places you are already familiar with. Here, you will naturally deal with important things in time, without reminders; unimportant things, or things that have been dealt with, let them disappear by themselves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="digital-ports"&gt;Digital Ports
+&lt;/h2&gt;&lt;p&gt;In terms of digital materials, the essence of the port lies in the constraint mechanism, using a series of automated methods to clear away materials that have stayed too long. This demurrage and detention fee is much more expensive than a real port. It&amp;rsquo;s not a fine, but the direct destruction of overdue goods.&lt;/p&gt;
+&lt;p&gt;This seemingly dangerous destruction mechanism can first urge you to deal with it in time. More often, it can also be used in reverse: just let it be, let it clean up the materials for you, and truly liberate you.&lt;/p&gt;
+&lt;p&gt;The specific implementation of automated methods is just a brief introduction. These can be learned through public information. Tools change over time, but concepts stand the test of time. This article mainly shows what these methods can do and how to form a constraint mechanism.&lt;/p&gt;
+&lt;h3 id="mobile-file-port"&gt;Mobile File Port
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144709.jpg"
+loading="lazy"
+alt="Android phone File Manager screenshot, red circle highlights 0#FilePort folder with 3 items, below lists 0#Music/0#Resilio/Alarms/alipay/amap folders"
+&gt;&lt;/p&gt;
+&lt;p&gt;I have a special folder on my phone, which is a distribution center for mobile files. I named it File Port. Things downloaded by different apps on the phone are stored in different places. Most apps are stored in the &amp;ldquo;Download&amp;rdquo; folder, WeChat is stored in its own location, Baidu Cloud has another place, and many content production software also output to their respective folders.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-144251.jpg"
+loading="lazy"
+alt="Tasker automation app settings screenshot showing three toggles: Auto move download directory/Auto move WeChat download directory/Auto move audio output directory, all enabled"
+&gt;&lt;/p&gt;
+&lt;p&gt;I use an automation app called Tasker to centralize them. Once there are new files in these locations, they are all moved to the File Port.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-144325.jpg"
+loading="lazy"
+alt="Tasker automation app settings screenshot showing Daily cleanup specific directory toggle enabled, time set to 3:00AM to execute cleanup specific directory task"
+&gt;&lt;/p&gt;
+&lt;p&gt;Tasker can also implement automatic cleanup. I have set some rules. Every night, Tasker will delete files that have been in the File Port for more than 7 days. My File Port can always remain relatively clean, files are easy to find, and it also saves storage space on the phone.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144823.jpg"
+loading="lazy"
+alt="Tasker task edit interface screenshot, title Cleanup specific directory, red circle highlights Variable Set step, parameter 1 set to %PathFilePort, parameter 2 set to 604800 seconds i.e. 7 days"
+&gt;&lt;/p&gt;
+&lt;p&gt;In this way, I need to deal with the things in the File Port within 7 days. But this is more than enough for me. Usually, I deal with them in one or two days, and then I don&amp;rsquo;t have to clean up myself. The useful ones are moved away, and the useless ones are waiting to be automatically deleted.&lt;/p&gt;
+&lt;p&gt;I have an Android phone. This capability may only be available on Android phones. I&amp;rsquo;m not sure about Apple. I don&amp;rsquo;t know if the openness of the system has improved over the years, probably not.&lt;/p&gt;
+&lt;h3 id="call-recording-port"&gt;Call Recording Port
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-145049.jpg"
+loading="lazy"
+alt="Android phone File Manager screenshot showing PhoneRecord folder with call recording file list, each file in aac format, size from 99KB to 689KB, dates from 2022"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is also a capability only available on Android phones. I record all calls and store them in the system-designated folder for future reference. But most of them are advertising calls that hang up within 5 seconds. There is no need to keep these. Too many recording files are inconvenient for future searches.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144905.jpg"
+loading="lazy"
+alt="Tasker task edit interface screenshot, red circle highlights Variable Set step, parameter 1 set to %PathCallRecord, parameter 2 set to 100000 bytes i.e. 100KB, for cleaning small files"
+&gt;&lt;/p&gt;
+&lt;p&gt;Tasker can implement cleanup by file size. I have set some rules. Every night, Tasker will delete files smaller than 100kB in the Call Recording Port, which filters out the truly useful recordings.&lt;/p&gt;
+&lt;p&gt;With some sync disks, these recordings can be synchronized to the computer or network disk, and then stored for a long time.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-145129.jpg"
+loading="lazy"
+alt="Dropsync folder pair settings screenshot, Remote folder set to /archive/电话录音, Local folder set to [Internal storage]/Record/PhoneRecord, sync method Two-way"
+&gt;&lt;/p&gt;
+&lt;p&gt;I use a third-party client of Dropbox, Dropsync, to synchronize mobile folders with the network disk, which even the official client can&amp;rsquo;t do.&lt;/p&gt;
+&lt;p&gt;The constraint mechanism of this port is relatively implicit. There are not many useful calls. Even if you make calls non-stop, there is a ceiling of 24 hours a day. It will not expand indefinitely. Time itself is the constraint mechanism. Therefore, you can rest assured to let it accumulate as a backup.&lt;/p&gt;
+&lt;h3 id="computer-file-port"&gt;Computer File Port
+&lt;/h3&gt;&lt;p&gt;This is similar to the mobile file port. But the advantage of the computer is that almost all software downloads are placed in the system&amp;rsquo;s download folder. I use the download folder as a port and deal with things directly here, eliminating the process of centralization. And my desktop never has any files on it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-52-38.jpg"
+loading="lazy"
+alt="Windows 11 desktop screenshot with Saturn ring wallpaper background, only Recycle Bin icon on desktop, taskbar shows Edge/File Manager/Mail apps"
+&gt;&lt;/p&gt;
+&lt;p&gt;Then there are some ways to achieve similar effects to the mobile file port. Windows can use File Juggler; I have it clean up files from 18 hours ago. Mac can use the system&amp;rsquo;s built-in Automator + Calendar; I have it empty the download folder at 9:30 am every day. In short, the purpose is to clear it daily.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-54-02.jpg"
+loading="lazy"
+alt="File Juggler auto cleanup rule settings screenshot, Description is Empty download, Monitor monitors download folder, If condition is Date modified Older than 18 Hours ago, Then action is Send file to recycle"
+&gt;&lt;/p&gt;
+&lt;p&gt;The scope of cleaning is different from the mobile file port, but the constraint mechanism is the same. There are many more files processed on the computer every day than on the mobile phone. Only daily cleaning can maintain the port in a relatively high state of order.&lt;/p&gt;
+&lt;p&gt;I am used to dealing with temporarily generated materials in the download folder. After finishing the day, the results and intermediate products - the useful ones are stored, and the useless ones are left alone. As for things that cannot be dealt with in a day, implying they&amp;rsquo;re of higher importance, I will transfer them to a formal folder to deal with, a bit like project initiation.&lt;/p&gt;
+&lt;h3 id="screenshot-port"&gt;Screenshot Port
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-56-00.jpg"
+loading="lazy"
+alt="PC WeChat File Transfer Assistant chat window screenshot, red box highlights scissors screenshot button in bottom toolbar"
+&gt;&lt;/p&gt;
+&lt;p&gt;Maybe most people use chat software for screenshots on the computer, without installing additional tools, but there&amp;rsquo;s a disadvantage: there is no record of historical screenshots. Sometimes you need to use a screenshot taken a few days ago; you have to go to the chat history to find it, or try to reproduce the scene of the screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-57-15.jpg"
+loading="lazy"
+alt="Snipaste screenshot tool preferences interface screenshot, Output tab with Auto Save checked enabled, Path set to D:/Resilio/screenshots/Snipaste_$yyyy-MM-dd_HH-mm-ss.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;I prefer to use screenshot tools like Snipaste, which do not rely on chat software. In addition to rich image annotation functions, more importantly, each screenshot can be saved to the folder I specify and can be reused.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-58-56.jpg"
+loading="lazy"
+alt="Resilio Sync screenshot comparison, left Sync Home Pro shows screenshots folder status normal 1/3 online users, right phone Folders interface shows screenshots folder Peers: 1"
+&gt;&lt;/p&gt;
+&lt;p&gt;Personal computers, work computers, and mobile phones have their own folders for storing screenshots. Since screenshots sometimes involve sensitive information, I don&amp;rsquo;t want to use a network disk to synchronize them. I use Resilio, which has no cloud, to associate them. The screenshots of the 3 devices are centralized; each device has a copy, and point-to-point synchronization is maintained.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144849.jpg"
+loading="lazy"
+alt="Tasker task edit interface screenshot, red circle highlights Variable Set step, parameter 1 set to %PathSyncScreenshots, parameter 2 set to 604800 seconds i.e. 7 days, for cleaning expired screenshots"
+&gt;&lt;/p&gt;
+&lt;p&gt;Screenshots, especially screen recordings, still take up space, and old screenshots have no retention value. I have set some rules. Every night, Tasker will delete screenshots that have been in the Screenshot Port for more than 7 days. Since it can be synchronized, the ones on other devices are also deleted.&lt;/p&gt;
+&lt;p&gt;This port not only has a constraint mechanism, but also doesn&amp;rsquo;t need to be maintained. I take screenshots as usual, I can retrieve recent screenshots, and I can limit the number of pictures to a controllable range, so I don&amp;rsquo;t have to search through a haystack.&lt;/p&gt;
+&lt;h3 id="browser-tab-port"&gt;Browser Tab Port
+&lt;/h3&gt;&lt;p&gt;Observing others using browsers, I found that most people belong to the &amp;ldquo;open only, no close&amp;rdquo; type. They often use the browser tab bar like this, and then close all the next day and start over:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_15-00-47.jpg"
+loading="lazy"
+alt="Browser tab bar screenshot showing about 20 densely packed tabs including Google Search/Gmail/YouTube/Documents icons"
+&gt;&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t have this problem originally. I closed tabs very frequently, consciously closing tabs that were used in time. But this also has drawbacks: it takes up my time and interrupts my tasks. The common situation is that I click on a web page and open a new tab, and the original web page is useless. For a tab hoarder like me, I have to immediately close the original one. Even using shortcut keys Ctrl/Cmd+Shift+Tab and then Ctrl/Cmd+W, which is faster than the mouse, is also quite troublesome.&lt;/p&gt;
+&lt;p&gt;Why not try to regard the browser as a port? Tabs are also digital materials, and they can also be managed with the port mindset. This trial was really great! I can also open only, no close, and not do those cleaning things.&lt;/p&gt;
+&lt;p&gt;This requires a browser plugin called Tab Wrangler, which can be installed in browsers that support the Chrome app store. I have set some rules. Tabs that have not been moved for more than 12 hours will be automatically closed by the plugin. When I wake up the next day, the browser is clean by itself. As for the tabs to be processed the next day, I only need to use the browser&amp;rsquo;s pin function; pinned tabs will not be cleaned up by the plugin.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_15-02-18.jpg"
+loading="lazy"
+alt="Tab Wrangler browser plugin settings interface screenshot, Close inactive tabs if over 720 minutes 0 seconds, Auto close tabs only when more than 5 tabs opened, Remember up to 100 closed tabs"
+&gt;&lt;/p&gt;
+&lt;p&gt;The constraint mechanism of the browser tab port is very similar to the computer file port: daily cleaning. Useful tabs, actively save; most of them are useless, no additional processing is required.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;My digital world ports seem numerous, but they are basically upgrades and transformations of existing locations, do not change the original usage habits, there is nothing to remember. The call recording port and the screenshot port don&amp;rsquo;t even need to be managed; they all run silently.&lt;/p&gt;
+&lt;h2 id="physical-world-ports"&gt;Physical World Ports
+&lt;/h2&gt;&lt;p&gt;Can the port mindset be extended beyond the digital world to reduce the burden of life?&lt;/p&gt;
+&lt;p&gt;Absolutely. For many people, this is a matter of course: opening up a dedicated space to store items to be processed or sorted, and regularly cleaning to prevent excessive accumulation. Everyone is actually doing this, but they haven&amp;rsquo;t theorized it.&lt;/p&gt;
+&lt;p&gt;For example, during Double Eleven, the packages at home are bursting and there is no time to unpack them. Isn&amp;rsquo;t it just piled up at the door? At this time, this small space next to the shoe cabinet becomes a port, and some are unpacked every day when there is time.&lt;/p&gt;
+&lt;p&gt;Another example is the desk of the company&amp;rsquo;s finance department, with neat stacks of A4 paper on the desktop. This stack is for archiving after verification, and that stack is the reimbursement forms submitted by everyone. This is also a port, a distribution center for documents.&lt;/p&gt;
+&lt;p&gt;Therefore, there is actually nothing to say about establishing a port in the physical world. Everyone has already mastered this ability.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/IMG_20230112_103422.jpg"
+loading="lazy"
+alt="White paper bag hanging on hook behind door, with handwritten Inbox text and envelope icon on it, for storing time-sensitive paper documents"
+&gt;&lt;/p&gt;
+&lt;p&gt;However, my home still has a special small port, which can be shown. I found a paper bag of suitable size, labeled &amp;ldquo;Inbox,&amp;rdquo; and hung it at the door to store time-sensitive paper documents.&lt;/p&gt;
+&lt;p&gt;What are &amp;ldquo;time-sensitive paper documents&amp;rdquo;? For example, a one-year car insurance contract, medical records required to apply for special additional deductions for personal income tax, or paper catering invoices collected for friends. These are all useful for a certain period of time, and after that, they become waste paper and do not need to be kept for a long time.&lt;/p&gt;
+&lt;p&gt;In the digital age, there are fewer and fewer such documents at home, but not completely absent, which is the troublesome part. If they are classified and placed with long-term materials, they are often forgotten to be cleaned up and accumulate more and more; if they are placed in a conspicuous place, some materials have a long validity period, and after being placed for half a year, they become backing paper. Can you still remember where it is?&lt;/p&gt;
+&lt;p&gt;At this time, a port should be opened for them. The constraint mechanism of the port in the physical world basically depends on the size of the space. The space opened up should not be too large, otherwise it will become a warehouse; it should not be too small, otherwise it will not be able to turn around. This requires a period of experimentation to find the right size.&lt;/p&gt;
+&lt;p&gt;In short, open up space for the intermediate state of the physical world and create a habitat. It is better to dredge than to block.&lt;/p&gt;
+&lt;h2 id="financial-world-ports"&gt;Financial World Ports
+&lt;/h2&gt;&lt;p&gt;The object of the financial world is money. Of course, no penny is useless and can be destroyed, so the main problem here is the scheduling of funds.&lt;/p&gt;
+&lt;p&gt;I have many bank cards. Savings, financial management and daily expenses mainly rely on China Merchants Bank. Mortgage loans are deducted from China Construction Bank. There are also salary cards from various companies I have worked for. Funds are scattered everywhere, difficult to manage and count. Monthly income, mortgage repayment, and transfers are also very annoying. Is it possible to have a financial port for centralized scheduling?&lt;/p&gt;
+&lt;p&gt;Most domestic banks have a fund collection function, and it is cross-bank. Search in the corresponding bank app to find it. It can associate two cards from different banks, set rules to automatically schedule funds in the two cards.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-150344.jpg"
+loading="lazy"
+alt="China Merchants Bank app fund collection settings screenshot showing two rules: Daily minimum balance collection from CITIC Bank to CMB, Daily smart collection from CCB minimum 5000 yuan maximum 20000 yuan to CMB"
+&gt;&lt;/p&gt;
+&lt;p&gt;Through fund collection, every day China Merchants Bank will transfer all the funds from the CITIC Bank salary card, leaving only 20 yuan balance to keep it active. At the same time, China Merchants Bank will ensure that there is at least 5000 balance in the China Construction Bank mortgage card every day for repayment. If it is not enough, it will transfer money. If the CCB card has a balance of more than 20,000 due to other people&amp;rsquo;s transfers, it will collect the excess.&lt;/p&gt;
+&lt;p&gt;In this way, this China Merchants Bank card becomes my financial port. Funds are concentrated here to the maximum extent and then used for financial management. Even if there are other bank cards in the future, and there are other forms of capital transactions, they can also be scheduled through here.&lt;/p&gt;
+&lt;h2 id="thought-world-ports"&gt;Thought World Ports
+&lt;/h2&gt;&lt;p&gt;Furthermore, does the port mindset have a place in the world of thought?&lt;/p&gt;
+&lt;p&gt;Yes. Here, it has no physical form, no folders, no small paper bags. What needs to be done is to change your attitude towards information.&lt;/p&gt;
+&lt;p&gt;Information is divided into 3 categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Events:&lt;/strong&gt; Something happened, you know it; this is an event. Due to the minimal long-term impact on the whole society, it is more of a talking point at the moment and has no value afterward. For example, in 2018, the movie &amp;ldquo;Dunkirk&amp;rdquo; won the 90th Academy Award.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Knowledge:&lt;/strong&gt; You have learned a principle or a historical event; this is knowledge. This principle is very basic, not affected by human society, and plays a long-term role. Or this historical event has a major and long-term impact on the world, and you understand its causes and consequences. For example, the 2011 Fukushima nuclear accident changed the attitudes and policies of countries around the world towards nuclear power.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opinions:&lt;/strong&gt; You have a certain view or attitude towards something; this is an opinion. Your opinion only exists in your heart. Everyone has different opinions on this matter. People with the same and opposite views as you even quarrel for a long time. For example, you think that the south of China should also have central heating in winter like the north.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Events are objective and short-term; knowledge is objective and long-term; opinions are subjective.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The information you receive daily from various channels is shaping and changing your thought world. A big problem today is that all 3 types of information are unreliable. Events are often false and spread by hearsay; knowledge is often wrong and misleading for profit; opinions are often extreme and force people to choose camps. Let such information shape or invade your thought world, and you will be ruined.&lt;/p&gt;
+&lt;p&gt;But accepting information is unavoidable and cannot be complacent. A huge amount of information comes every day. Accept it, you may eat too much garbage; verify it, how can you verify so much information?&lt;/p&gt;
+&lt;p&gt;Therefore, it is very meaningful to establish a port for the thought world. To establish this port is to accept the existence of the intermediate state of information in concept. In layman&amp;rsquo;s terms, it is to have a state of &amp;ldquo;Well, I have heard of it; I don&amp;rsquo;t know if it is true or false; I haven&amp;rsquo;t verified it yet.&amp;rdquo; If you see a piece of news or a popular science article, and your brain immediately wants to express your opinion, wants to scold the person in the news, or wants to forward this popular science to the family group, it means that the port of thought has not been established.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t directly put the information you receive every day into your memory as facts, but let it stay in this &amp;ldquo;I have heard of it&amp;rdquo; port for a few days. In these few days, important things that are related to you, you will naturally recall, will verify, understand more details, form your own understanding and attitude, and finally officially incorporate them into your thought world. Those unimportant ones will no longer appear in your mind, and time will help you destroy them. Even if you think of it again someday, its state will become: &amp;ldquo;Well, I have heard of it; I don&amp;rsquo;t know if it is true or false; it is not important; I am too lazy to verify.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Remember principle two of the port mindset? Not everything needs a beginning and an end. Forgetting is the constraint mechanism of the thought port.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;From digital materials to the physical world, and then from the physical world to thought, the port mindset allows people to change themselves and actively fit into this changing and flowing world. Perhaps because it is close to the real way things work, people feel more relaxed and natural.&lt;/p&gt;
+&lt;p&gt;So what role does this abstract &amp;ldquo;port mindset&amp;rdquo; play in life? How to imagine these virtual ports?&lt;/p&gt;
+&lt;p&gt;The picture in my mind is: The port is a brave pass; it fights against chaos and disorder and leaves order to the land behind that needs to be protected. That land is your life, your time, your thoughts.&lt;/p&gt;</description></item><item><title>When Efficiency Obsesses Over Housework...</title><link>https://victor42.eth.limo/post-en/3620/</link><pubDate>Mon, 19 Sep 2022 12:30:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3620/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2022-09/number-two-symbol-neon-sign-vector-neon-blue-number-black-background-learning-numbers-serial-num_104045-2029.jpg" alt="Featured image of post When Efficiency Obsesses Over Housework..." /&gt;&lt;p&gt;A serious thought about housework and a set of memory methods.&lt;/p&gt;
+&lt;p&gt;Since having a kid, my housework starts after 9:30 pm. When chores pile up, my mind races, and I forget things. I&amp;rsquo;ll think I&amp;rsquo;m done, ready to relax, only to remember laundry. After hanging clothes, I sit, then remember the trash. As an efficiency nut, this is unacceptable. After some late-night pondering, I realized housework can be streamlined. It just needs some imagination and memory tricks.&lt;/p&gt;
+&lt;p&gt;Two problems arise when things get hectic: 1. Forgetting tasks; 2. Poor prioritization, leading to bottlenecks.&lt;/p&gt;
+&lt;h2 id="avoiding-omissions"&gt;Avoiding Omissions
+&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s tackle forgetting. Why does it happen? Our brains struggle with unrelated items. Interruptions add to the memory load. You have to remember your original task &lt;em&gt;and&lt;/em&gt; the interruption. After a few, you&amp;rsquo;re lost. This memory is linear, like a chain - break one link, and it&amp;rsquo;s broken.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-09/a3dob-xm5if.jpg"
+loading="lazy"
+alt="Mobile To-Do app screenshot crossed out with large red X, showing Reply email from John/Meet Joe/Swift Programming Course/Doing laundry tasks and Things to buy/Social categories"
+&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The faintest ink is better than the best memory?&amp;rdquo; Not here. Jotting notes on your phone is inefficient. Information detours through your fingers, phone, screen, and eyes. It&amp;rsquo;s slow. Your brain is faster. Bioelectrical signals are lightning-fast compared to fumbling with a phone. Plus, wet hands and housework don&amp;rsquo;t mix with phones.&lt;/p&gt;
+&lt;p&gt;Too much to remember? Create connections. Categorize. Understand each task, find common ground, and group them. This seems like &lt;em&gt;more&lt;/em&gt; information, but it shifts the structure from linear to tree-like. It&amp;rsquo;s more robust, easier to recall. You only need the trunk; the branches (specific tasks) follow.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-09/number-two-symbol-neon-sign-vector-neon-blue-number-black-background-learning-numbers-serial-num_104045-2029.jpg"
+loading="lazy"
+alt="Neon number 2 sign glowing with blue and purple light in dark, mounted on dark blue cylindrical base, deep purple gradient background"
+&gt;&lt;/p&gt;
+&lt;p&gt;Commonalities in chores? Location is intuitive. Our brains excel at concrete images. You know your home. Standing in the living room, you know where everything is. Use this perspective. Two tasks in the kitchen? Imagine a neon &amp;ldquo;2&amp;rdquo; there. Three on the balcony? A neon &amp;ldquo;3.&amp;rdquo; You&amp;rsquo;ll remember the specifics upon entering the space.&lt;/p&gt;
+&lt;p&gt;For the abstract-minded, or those in smaller homes, categorize differently. Daily chores boil down to: washing dishes, clothes, and yourself. Infrequent tasks become &amp;ldquo;other.&amp;rdquo; Imagine a table, neon numbers - same principle.&lt;/p&gt;
+&lt;p&gt;Specificity boosts memory. Engage more senses. If a kitchen task is added, the &amp;ldquo;2&amp;rdquo; flashes and &amp;ldquo;dings&amp;rdquo; to &amp;ldquo;3.&amp;rdquo; Balcony tasks done? The &amp;ldquo;3&amp;rdquo; &amp;ldquo;sizzles&amp;rdquo; out, sparking.&lt;/p&gt;
+&lt;p&gt;How to recall specifics? Before adding to the number, mentally check: Is the item visible? If yes, great. If not, interrupt yourself, go place it in plain sight. It&amp;rsquo;s a real-life &amp;ldquo;snooze.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Remembering the &lt;em&gt;number&lt;/em&gt; is key. Even if you forget the task, you know &lt;em&gt;something&amp;rsquo;s&lt;/em&gt; missing. Let the number hang there; you&amp;rsquo;ll likely remember.&lt;/p&gt;
+&lt;h2 id="scheduling"&gt;Scheduling
+&lt;/h2&gt;&lt;p&gt;The second problem, bottlenecks, often involves waiting for machines.&lt;/p&gt;
+&lt;p&gt;If everything were manual, this wouldn&amp;rsquo;t matter. Total time&amp;rsquo;s the same. But I need to wait for the washer before the next load, the dishwasher before prepping veggies, the sterilizer before the next batch of bottles.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-09/ad6mo-foqs6.jpg"
+loading="lazy"
+alt="Glowing neon clock with yellow-orange outer ring and blue inner face with tick marks, hands pointing to approximately 3 o’clock position"
+&gt;&lt;/p&gt;
+&lt;p&gt;Cooks know this. Juggling appliances requires mental timing. Apply this to housework. Add a ticking clock to the neon number&amp;rsquo;s corner. If a machine&amp;rsquo;s running in that space (or category), a clock appears.&lt;/p&gt;
+&lt;p&gt;Now, sequence matters. Prioritize starting the machines, &lt;em&gt;then&lt;/em&gt; tackle manual tasks.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;Using this, I visualize the neon numbers from my living room. Like a game, I start the clocks, then clear the numbers. It cuts down on forgetfulness, boosts efficiency, and even makes chores a bit fun.&lt;/p&gt;</description></item></channel></rss>

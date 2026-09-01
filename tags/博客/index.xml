@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>翻译项目停刊公告</title><link>https://victor42.eth.limo/post/3564/</link><pubDate>Tue, 08 Aug 2017 00:37:45 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3564/</guid><description>&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-08/08-08/gcJQ63.jpg"
+loading="lazy"
+alt="写有告别文字的闪光装饰卡片象征翻译项目停刊"
+&gt;&lt;/p&gt;
+&lt;p&gt;翻译项目到目前为止已经180期了，在这个时候宣布停刊，应该会让大家深感意外，但于我自己却是一件好事。&lt;/p&gt;
+&lt;p&gt;大概翻了翻之前的译文，第一篇是2013年7月14日，不知不觉4年过去了。从最早翻译设计风格动向，之后出现了一些无病呻吟的假大空内容，再关注了一阵子各种交互设计模式，直到最近一年，更多是在研究人与行为。整个过程，是我个人成长的一种见证。&lt;/p&gt;
+&lt;p&gt;翻译项目的初衷是为了让自己坚持学习，这段时间来，目的确实达到了。坚持阅读国外设计文章，让我从多角度了解平时未必能遇到、想到的方方面面，也因此认识了不少才华横溢的同行。这是很有价值的一件事情，如果你新入行，可以尝试做一做。&lt;/p&gt;
+&lt;p&gt;但是，没有任何事情能让人永远从中受益。一件事情坚持做下去，边际收益总会在某个时刻开始递减。现在，我感觉这份坚持带来的收益已经降低到了临界值。从这些零散的知识片段中，我已经很难再得到重大收获了。我需要学习更系统的知识，也需要拓宽视野，从设计和科技领域之外获得新的启发，开拓新的思想疆界。&lt;/p&gt;
+&lt;p&gt;因此，我思考了很久，最终决定停掉翻译项目。腾出更多时间来观察生活，探索经济、商业、心理、自然科学、历史人文，或者仅仅是给女朋友做一顿海鲜大餐。与这些事情相比，继续翻译带来的回报已经不值一提了。既然如此，我需要勇敢地向习惯发起挑战，做出改变。&lt;/p&gt;
+&lt;p&gt;必须要感谢支持了4年的读者朋友们，许多ID我都记得，从第一年一路跟到了今天。这是个纯粹的个人项目，如果有设计师朋友从中得到收获，那都是在成指数级地肯定这些译文的价值，证明付出确实值得。&lt;/p&gt;
+&lt;p&gt;最后，这并不是告别，停掉的仅仅是翻译。我仍然出没于设计行业，仍然会偶尔发布一些原创的设计思考，当然，产量可能会低得令人发指。欢迎大家继续关注，更欢迎大家果断取关。停刊的改变不仅仅之于我，也之于每一个人。借此机会思考一下，自己目前的学习方式、获取信息的渠道，还可以变得更好、更有效吗？&lt;/p&gt;</description></item><item><title>博客与写作工具</title><link>https://victor42.eth.limo/post/3490/</link><pubDate>Thu, 24 Mar 2016 00:09:07 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3490/</guid><description>&lt;p&gt;广告文如期而至，今天来介绍一下我使用的markdown写作工具——&lt;a class="link" href="http://markeditor.com/app/markeditor" target="_blank" rel="noopener"
+&gt;MarkEditor&lt;/a&gt;。作为书写工具，对我而言最重要的意义就是博客写作。大家不妨先听我唠叨一段我博客的历史，然后你们会明白我的选择。小小透露一下，文末有&lt;strong&gt;限时优惠&lt;/strong&gt;噢！&lt;/p&gt;
+&lt;h2 id="无聊是第一生产力"&gt;无聊是第一生产力
+&lt;/h2&gt;&lt;p&gt;这个博客的诞生，完全不是出于什么人生大计，纯粹就是无聊。早在大学期间，我就开始写点小日记，记录一些鸡毛蒜皮的小事，今天又骑车去哪逛了一圈、期末高数又挂了之类（哎我为什么要说又呢）。内容的形式逐渐分化，开始产生一些固定栏目：旅游照片、生活趣事集锦、影评书评、梦中神奇经历、还写过几篇矫情的微型小说。如今这些都原封不动保留着，偶尔翻一翻，也算见证一下当时的青葱岁月。直到大学毕业，我都是直接在博客平台里写，用的是哪家门户已经不记得了，反正纯粹是当作私人日记本在用，访客寥寥。&lt;/p&gt;
+&lt;h2 id="免不了要走上折腾的道路"&gt;免不了要走上折腾的道路
+&lt;/h2&gt;&lt;p&gt;毕业一年左右，朋友们说，作为设计师，怎能没有个人网站呢。那时的做法很偷懒，找个相册网站，把作品往上面一扔，博客那边再加个主导航外链。朋友说这也太low了，既然你会点前端，搭个wordpress啊。找了一圈模版，发现都不太符合我的要求。以博客为主的，作品展示效果不好；以作品为主的，文章往往藏得很深。作品反映的是身为设计师的我，而文章更接近完整的我，不能喧宾夺主。&lt;/p&gt;
+&lt;p&gt;没办法，只好自己卷起袖管改代码，在朋友的指导下理解了域名、空间、独立博客之间的关系，第一个独立博客搭起来了。我还清楚记得第一版的样子，首页有一张大大的海星特写，背后是沙滩与海洋。从中取了天蓝、明黄和咖啡色，作为博客的主要配色。遗憾的是当时没有备份意识，早期的几版博客模版都被彻底覆盖了，什么也没留下。只能找到最后一版wordpress博客的主页，贴出来供大家吐吐槽：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/cola.png"
+loading="lazy"
+alt="可乐橙早期WordPress博客首页截图，展示绿色导航栏、文章列表预览与深色页脚"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/page_about.png"
+loading="lazy"
+alt="设计师可乐橙个人网站旧版“关于我”页面，包含时光轴、技能树及友人评价"
+&gt;&lt;/p&gt;
+&lt;h2 id="不能忘了写作是初衷"&gt;不能忘了，写作是初衷
+&lt;/h2&gt;&lt;p&gt;模板一套又一套地改，从别人的独立博客学到了许多技术知识。这些博客往往有个特点，翻它早期的文章，可以看到一些生活和感悟，后来就逐渐变成纯技术博客了。&lt;/p&gt;
+&lt;p&gt;我不想那样。&lt;/p&gt;
+&lt;p&gt;我花了太多心思在文章的展示上，却从没重视过写作的过程。台前与幕后，写博客的初衷是什么？让别人看得开心，还是自己写得开心。如果非要选一个，我觉得是后者。失去兴趣的写作，无论如何也不可能坚持将近10年。技术博客之所以改变方向，也必然是博主的兴趣转移到了技术上，兴趣使然，自己喜欢就好。&lt;/p&gt;
+&lt;h2 id="尊重写作本身"&gt;尊重写作本身
+&lt;/h2&gt;&lt;p&gt;虽然爱好和意志力有不可否认的作用，但一个舒适的写作环境也有积极的意义。和文字打了这么多年的交道，却忽略了一个显而易见的问题：为什么非得用这个来写？相当长一段时间里，我只在两个地方码字：Word和wordpress，只能说它们名字起得好，直击本质，让人潜意识觉得不需要其他的选择。&lt;/p&gt;
+&lt;p&gt;当然了，并非真的不需要。&lt;/p&gt;
+&lt;p&gt;最理想的写作环境是一整套体验，需要各方面的支持。手边要有一杯温水，喝水的间隙时常能产生灵感；背后要有一个厚度适中的靠垫；要有舒缓心神的音乐，或者大自然的声音；最好还能有微凉的轻风让人保持清醒；当然，专业的写作工具也是必须的，让人只关心内容，不必去想大标题用24号还是21号、宋体还是黑体。&lt;/p&gt;
+&lt;p&gt;Markdown就是这样一种格式，可塑性强，放之四海皆准。除此之外，编辑器更加功不可没。把写作想象成庄园里的午后，与某位远方来客喝茶闲谈，那编辑器就要起到侍从的作用。它得通晓十八般武艺，“手机拍照插入文中”、“生成图片分享全文”这样的事情，肯定不能劳烦你亲自动手。同时又要保持缄默，按下全屏快捷键，世界只剩思想，其他一概遁入阴影，等待召唤。&lt;/p&gt;
+&lt;h2 id="markeditor"&gt;MarkEditor
+&lt;/h2&gt;&lt;p&gt;能够做到召之即来挥之即去的写作工具已不在少数，但在多才多艺方面，&lt;a class="link" href="http://markeditor.com/app/markeditor" target="_blank" rel="noopener"
+&gt;MarkEditor&lt;/a&gt;绝对算是个中翘楚。功能强大的意义在于，不必写作中途费一番周折上传图片，也不必为了回顾某个章节翻遍整篇长文。因为做这些事情，思绪会被打断，这并非简洁前卫的UI能够弥补。若要追求流畅的写作体验，该简洁的其实是输入内容的过程，并不是编辑器的功能。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/Welcome_to_MarkEditor.png"
+loading="lazy"
+alt="桌面端Markdown写作编辑器MarkEditor软件界面与文档排版样式效果截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;这就是MarkEditor的第一印象，相较于它丰富的功能，界面已经极其克制和朴素了。你可以不去管那些附加功能，放手开始写作，一样的简单清净。你也可以仔细探索一番，发掘它的无穷潜力。MarkEditor的自由化程度极高，众多小功能都不是花瓶玩物，而是些杀手级的功能。有没有想过？链接能直接生成二维码图片，插入文中。下面列举一些让我感到惊喜的功能，逐一演示：&lt;/p&gt;
+&lt;h3 id="工作目录"&gt;工作目录
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%8f%af%e4%b9%90%e6%a9%99%e7%9a%84%e5%b7%a5%e4%bd%9c%e7%9b%ae%e5%bd%95.png"
+loading="lazy"
+alt="MarkEditor工作目录设置窗口，展示经典树型文件管理器与Markdown模板配置选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;许多Markdown编辑器都只能设置一个工作目录。MarkEditor可以设置几个常用工作路径，通过快捷键召唤出工作目录窗口。同时处理多份文档时极其有用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%86%99%e4%bd%9c%e7%9b%ae%e5%bd%95.png"
+loading="lazy"
+alt="MarkEditor文件列表以简洁风格展示按周命名的周报Markdown文件，右侧为文档编辑区"
+&gt;&lt;/p&gt;
+&lt;p&gt;值得一提的是，每个工作目录还有些选项能独立设置。我的博客文件夹有多个日志分类，我可以把目录设成树状结构展示，能够操作整个目录下的文章和图片。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%91%a8%e6%8a%a5.png"
+loading="lazy"
+alt="MarkEditor简洁风格文件列表展示按日期命名的周报文档，右侧显示工作事项清单"
+&gt;&lt;/p&gt;
+&lt;p&gt;而用来写工作周报的目录只有一层，就比较适合简洁风格，只显示文章，忽略其他文件类型。&lt;/p&gt;
+&lt;h3 id="生成二维码"&gt;生成二维码
+&lt;/h3&gt;&lt;p&gt;文章中需要插入二维码，便于PC端读者浏览某个H5页面。以往碰到这种情况是很头疼的，切出去打开浏览器，用chrome插件或某个网页工具来生成，然后再下载、插入文中。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e6%8f%92%e5%85%a5%e4%ba%8c%e7%bb%b4%e7%a0%81.png"
+loading="lazy"
+alt="MarkEditor插入二维码弹窗，输入网址文本框与尺寸设置（360像素）及确认按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;MarkEditor考虑了这种情况，快捷键呼出二维码窗口，粘贴内容，直接就能生成了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e4%ba%8c%e7%bb%b4%e7%a0%81.png"
+loading="lazy"
+alt="MarkEditor文档预览中嵌入的大型二维码图片，左侧为文件目录树结构"
+&gt;&lt;/p&gt;
+&lt;h3 id="临时插入手机照片"&gt;临时插入手机照片
+&lt;/h3&gt;&lt;p&gt;窗台上飞来一只漂亮的鸟，想拍下来发到博客上，又要大动干戈一番。要设法把照片同步到电脑上，再拖到文章中。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e6%8f%92%e5%85%a5%e6%9d%a5%e8%87%aa%e4%bd%a0%e7%a7%bb%e5%8a%a8%e8%ae%be%e5%a4%87%e4%b8%ad%e7%9a%84%e5%9b%be%e7%89%87.png"
+loading="lazy"
+alt="MarkEditor移动端图片上传界面，显示局域网二维码扫描地址与允许上传勾选框"
+&gt;&lt;/p&gt;
+&lt;p&gt;在这里就要方便不少，激活插图窗口，手机扫个码，拍照上传，完事。当然还可以从相册选取图片。&lt;/p&gt;
+&lt;p&gt;![iPhone照片选择界面，提供拍照、从相册选取和更多选项三个图片插入方式](&lt;a class="link" href="https://cdn.victor42.work/posts/2016-03/03-23/2016-03-23" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2016-03/03-23/2016-03-23&lt;/a&gt; 15.35.04.png)&lt;/p&gt;
+&lt;h3 id="改变图片尺寸"&gt;改变图片尺寸
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e8%b0%83%e6%95%b4%e5%9b%be%e7%89%87%e5%a4%a7%e5%b0%8f_%e5%92%8c_Dropbox_documents_MarkEditor%e7%ae%80%e4%bb%8b_md_%e5%92%8c_pic__%e5%b0%8f%e5%9b%be.png"
+loading="lazy"
+alt="MarkEditor图片缩放功能弹窗，展示缩放率滑块与最宽最高像素设置输入框"
+&gt;&lt;/p&gt;
+&lt;p&gt;插入文中的图片可以很方便地再手动缩小尺寸，拖动一个滑块就行，MarkEditor官网的介绍视频中有这个操作，给我极其深刻印象深刻。&lt;/p&gt;
+&lt;h3 id="打字机式滚动"&gt;打字机式滚动
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e6%89%93%e5%ad%97%e6%9c%ba.png"
+loading="lazy"
+alt="MarkEditor打字机式滚动功能演示，编辑区文档内容随光标自动居中滚动"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个功能虽然不是独家，却还是不多见的。每回车一次，就会滚动画面，让光标所在行移到屏幕中央。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/depositphotos_58981925-merry-christmas-typewritten-in-a-paper-sheet-on-a-typewriter-wi.jpg"
+loading="lazy"
+alt="复古打字机俯拍特写，双手正在敲击键盘，纸卷上印有Merry Christmas字样"
+&gt;&lt;/p&gt;
+&lt;p&gt;很像打字机，这是对眼睛最大的善意。&lt;/p&gt;
+&lt;h3 id="文章内容索引"&gt;文章内容索引
+&lt;/h3&gt;&lt;p&gt;长文会有比较复杂的结构，主副标题能多达3级甚至4级。如果要回顾之前某个章节的内容，做个呼应，这时翻滚动条也要翻半天。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e7%9b%ae%e5%bd%95.png"
+loading="lazy"
+alt="MarkEditor文章内容索引侧边栏，以多级标题大纲形式展示文档章节结构"
+&gt;&lt;/p&gt;
+&lt;p&gt;文章内容索引就能很好地解决这个问题，这是天然的大纲结构，便于查找的同时，也能帮助自己梳理逻辑。&lt;/p&gt;
+&lt;h3 id="生成长图"&gt;生成长图
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%af%bc%e5%87%ba%e5%9b%be%e7%89%87.png"
+loading="lazy"
+alt="MarkEditor导出菜单展示PDF、图片、HTML等多种导出格式选项及右键上下文菜单"
+&gt;&lt;/p&gt;
+&lt;p&gt;发长微博时这个就特别有用了。如你所见，除了长图，还可以导出成许多其他形式，用于不同的场合。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%8f%af%e4%b9%90%e6%a9%99%e8%af%91%e6%96%87%e8%83%8c%e5%90%8e%e7%9a%84%e6%95%85%e4%ba%8b.png"
+loading="lazy"
+alt="MarkEditor长图导出效果，展示文章排版后的移动端阅读样式与文字层级"
+&gt;&lt;/p&gt;
+&lt;p&gt;长微博图片对移动端做了优化，清晰美观大方。&lt;/p&gt;
+&lt;h3 id="历史版本"&gt;历史版本
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%8e%86%e5%8f%b2%e7%89%88%e6%9c%ac.png"
+loading="lazy"
+alt="MarkEditor历史版本对比界面，左侧时间轴列出各版本，右侧红绿高亮显示文本差异"
+&gt;&lt;/p&gt;
+&lt;p&gt;自带历史版本功能，如果你不用dropbox或坚果云，那这个功能意义重大。而且这个历史版本可比dropbox的详细多了，能看到历史版本与当前版本的具体差异，代码对比功能的妙用。&lt;/p&gt;
+&lt;h3 id="灵活的自定义皮肤"&gt;灵活的自定义皮肤
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e7%9a%ae%e8%82%a4.png"
+loading="lazy"
+alt="MarkEditor设置窗口中的自定义皮肤配色表，展示字体颜色、背景色等CSS属性参数"
+&gt;&lt;/p&gt;
+&lt;p&gt;MarkEditor有意思的地方是直接把UI的配色表放出来了，几乎所有能看到的元素，都可以改颜色。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%a4%9c%e9%97%b4.png"
+loading="lazy"
+alt="MarkEditor夜间模式主题效果，深色背景配绿色链接与紫色图片的自定义配色"
+&gt;&lt;/p&gt;
+&lt;p&gt;我就自己改了个夜间模式主题，绿色链接，紫色图片，标题和正文的颜色略微改柔和了一点。如果你喜欢，可以在下面链接中复制我的配色表。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://pan.baidu.com/s/1kUbUYb1" target="_blank" rel="noopener"
+&gt;http://pan.baidu.com/s/1kUbUYb1&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="todo-list"&gt;Todo list
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/todo.png"
+loading="lazy"
+alt="MarkEditor无序列表作为Todo清单使用，已完成项带删除线，待办项正常显示"
+&gt;&lt;/p&gt;
+&lt;p&gt;无序列表还能当Todo list用，鼠标点击直接标记完成/未完成，我平时工作就是用的这个来记录一些临时需求。&lt;/p&gt;
+&lt;h3 id="同步到第三方云服务商"&gt;同步到第三方云服务商
+&lt;/h3&gt;&lt;p&gt;这是个重磅功能，也是解决图片存储问题的关键所在，真正把图片存储和写作集中到一个地方了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/%e5%90%8c%e6%ad%a5.png"
+loading="lazy"
+alt="MarkEditor同步到第三方云服务商设置窗口，展示七牛、Amazon S3等选项与AccessKey配置"
+&gt;&lt;/p&gt;
+&lt;p&gt;图片可以同步到第三方云服务商，例如七牛、亚马逊云，也可以同步到Farbox自家服务器。文章发布之后，图片自动转为相应的云端地址。除了写文章，你什么都不用做。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;这款写作工具还有大量待发掘的高级功能，比如可以自定义markdown的转译语法，怎么用就取决于你的想象力了。MarkEditor与同门产品&lt;a class="link" href="https://www.farbox.com/" target="_blank" rel="noopener"
+&gt;Farbox&lt;/a&gt;配合，会让博客的管理非常省心。&lt;/p&gt;
+&lt;p&gt;如果要为MarkEditor找一个关键词，我觉得应该是：自由。把整个博客都放在自己的硬盘上，能获得最大限度的自由。无论是博客还是编辑器本身，都能灵活调整迎合自己的习惯与喜好。&lt;/p&gt;
+&lt;p&gt;在重要且常用的工具上，定制化程度高的产品有它无可替代的优势。一番悉心调教后，它会成为你最得力的助手。&lt;/p&gt;
+&lt;p&gt;还有最亲民的一点，&lt;strong&gt;它也提供windows版&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;最后附上MarkEditor的官网，可以先下载体验一下，其中部分功能需要购买才能激活：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://markeditor.com/app/markeditor" target="_blank" rel="noopener"
+&gt;http://markeditor.com/app/markeditor&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="优惠购买优惠已结束"&gt;优惠购买【优惠已结束】
+&lt;/h2&gt;&lt;p&gt;终于到发福利的时刻啦，我向MarkEditor作者讨来了独家优惠。首先请关注微信公众号【可乐橙】，并发送“优惠”2字。使用优惠码购买，前3名享受3折优惠，前30名5折，之后到2016-3-28都是7折。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-23/Buy_a_License.png"
+loading="lazy"
+alt="Markdown写作软件MarkEditor许可证购买表单，包含Email、优惠券码（PromoCode）输入栏与支付宝购买按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;点击购买按钮后，会看到实际购买价格。**一定记得填入优惠码噢！！因为License激活后是无法退款的。**要是一激动原价买下了，我也无能为力。&lt;/p&gt;
+&lt;p&gt;¯\_( ツ )_/¯&lt;/p&gt;</description></item><item><title>记一次有意义的宕机</title><link>https://victor42.eth.limo/post/3488/</link><pubDate>Tue, 15 Mar 2016 20:00:16 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3488/</guid><description>&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-15/cover.png"
+loading="lazy"
+alt="404 页面插画提示博客宕机时走错了位置"
+&gt;&lt;/p&gt;
+&lt;p&gt;或许有朋友注意到了，我的博客昨晚宕机了。从下午5点左右开始，博客里只剩下几篇很老的文章，再后来就彻底打不开了，一直持续到第二天凌晨3点左右才恢复。对于我这样一个个人网站而言，这种程度的故障其实没什么大不了的，真的不值得大惊小怪。&lt;/p&gt;
+&lt;p&gt;背后的原因呢，其实就是我“手贱”，但整个过程还挺波折，很值得一说。&lt;/p&gt;
+&lt;p&gt;起初，是我使用的markdown编辑器MarkEditor发布了新版本，认真看了软件官网的介绍视频，才发现原来近半年的几次版本更新中，我错过了许多新功能。关于MarkEditor，我之后会专门写一篇文章来介绍（没错，那会是一篇来自真实用户的广告文），在此就不深入了。反正有提醒就更新嘛，更新完了还是按照以前的习惯用，也不知道更新了些什么，谁不是呢？作为设计师与产品人，自己必须长期不懈压制这种本能，但同时又万万不能忘记它的存在，多么矛盾的处境。&lt;/p&gt;
+&lt;p&gt;好了，新版本上手了，各种新功能一个个试过来。除了从各方面提高写作效率之外，还能把整个写作文件夹同步到第三方云服务商，整体刷新了我对这款软件的认识。它诞生之初，&lt;a class="link" href="http://weibo.com/farbox" target="_blank" rel="noopener"
+&gt;软件作者&lt;/a&gt;就邀请我试用过。作为Farbox客户端的同门师弟，当时MarkEditor给我的感觉，像是把Farbox的写作部分抽离出来，成为一个脱离博客系统独立存在的写作工具，是一个子集。现在看来，则是完全超越且意在取而代之的存在。&lt;/p&gt;
+&lt;p&gt;探索的过程很有趣，有大量的Aha moment，一边学着使用这些新功能，一边思考如果要享受这些便利，自己的写作方式需要做哪些调整。既然开始想了，就会一发不可收拾，马上开始着手改变和优化自己的写作流程。举个例子，你肯定无法想象我之前文章插图的方法有多原始，我会把图片按年月日分目录放，再把这个目录结构搬到七牛云上。这应该是以前用wordpress留下的习惯，虽然麻烦，但有它的好处。自己租空间搭建wordpress网站的时候，一来方便用FTP管理，再就是大大减少图片重名导致的麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-15/03-11.png"
+loading="lazy"
+alt="Dropbox 中按年份和日期整理的博客图片目录截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;然而七牛云上要实现同样的目录结构，则是靠手工添加前缀。它也有自己的图形化上传工具，不过一直懒于研究。所以就长期这么蠢蠢地手动填日期前缀、上传图片，再一张张复制url贴回文章里。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-15/%e4%b8%83%e7%89%9b%e4%ba%91_-_%e5%86%85%e5%ae%b9%e7%ae%a1%e7%90%86.png"
+loading="lazy"
+alt="七牛云内容管理页面中手动填写图片路径前缀的截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;新版的MarkEditor开始支持同步到第三方云服务商，而且是像Git那样，整个写作目录原封不动同步过去，增删改不用再去云端管理了。我要做的，就是在写作目录里准备好图片的目录结构，把文章插图集中整理。写作时，复制图片的云端地址插入文章中，发布前整体同步一下就好。这么一对比，以前的插图方式简直不能忍啊！&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-03/03-15/%e5%85%a8%e5%b1%8f%e5%b9%9516_3_15_18_07.png"
+loading="lazy"
+alt="MarkEditor 中复制 Markdown 图片引用并同步博客目录的界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;我把之前所有的文章插图都搬到博客目录里来了，一下子来了4000多张图片。dropbox开始同步了（我的Farbox是用dropbox同步的），估计要进行好一阵子。然后忽然觉得目录结构不该这么安排，应该多设一层以备将来有其他用途。所以又建了个文件夹，把图片目录整个移了进去。但仔细想想还是不对，如果是其他用途，为什么还要放到毫不相干的博客系统里来呢？应该把写作和发布博客当作两件事来看待，写作和插图的目录应该放到博客目录外面去。于是4000多个文件又被我移走了。&lt;/p&gt;
+&lt;p&gt;一来二去，dropbox和Farbox之间的同步机制抓狂了。出现了一个BUG，导致博客指向了我调试用的测试站点，所以大家只看到几篇很老的文章。而测试站点则变成了一个空站点，什么也没有。&lt;/p&gt;
+&lt;p&gt;这是个大问题啊，我得马上解决。先把测试站点整个删除试试，发现不管用，dropbox的同步还在进行，估计添加文件的那一次同步都还没完成。我这么一极端操作，不知道导致了什么冲突结果。那一不做二不休，只能删彻底一点，把我的主站也删了，再迅速重新搭建一遍。所以你会看到我的网站彻底打不开了，同时我也发现Farbox账号下还有一个无名字的空站点，怎么删都删不掉。很显然，这就是那个正在同步的家伙，看来彻底被我玩坏了。&lt;/p&gt;
+&lt;p&gt;只好求助Farbox作者，他建议我借此机会换个方式，用Farbox自己的服务器来半自动同步，把dropbox的同步从账户里去掉，解除授权。全自动的同步虽然方便，但可控性差，出了问题难以迅速响应解决，就像这次一样。&lt;/p&gt;
+&lt;p&gt;是啊，一味追求便捷流畅的我们，有没有站在这个角度考虑过呢？回到正题，现在把Farbox和dropbox两边的同步绑定都解除，重新搭建站点，用编辑器里的同步功能来同步。问题到这里其实已经解决了，不过我大半个晚上都在做实验。把文件往里面加了又删，删了又加，一次次反复同步，观察同步记录。这才完全理解整个同步的过程，还有博客和编辑器之间的关系。&lt;/p&gt;
+&lt;p&gt;多亏这次手贱宕机，让我有机会重新思考自己的写作方式，重新认识自己日夜使用的写作工具。就像小时候学电脑一样，被我弄坏过无数次，找人来修，修好又被弄坏。然后……我才成了大学里的维修队长 →_→&lt;/p&gt;
+&lt;p&gt;破坏与重建，也是一种理解事物的方式。草原上的一道天雷，卷起漫天大火，然后万物重获新生。&lt;/p&gt;</description></item><item><title>译文背后的故事</title><link>https://victor42.eth.limo/post/3420/</link><pubDate>Sat, 24 Jan 2015 10:44:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3420/</guid><description>&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-01/01-24/1.jpg"
+loading="lazy"
+alt="复古打字机特写，金属圆键排列整齐，深色机身带有磨损痕迹，象征翻译工作的文字打磨过程"
+&gt;&lt;/p&gt;
+&lt;p&gt;我默默地翻译着文章，除此之外，个人网站越来越少出现其他内容。可能业余时间都用来睡懒觉了。既然这样，唯一能讲的故事，就只剩翻译背后的故事了。&lt;/p&gt;
+&lt;p&gt;从2013年7月开始，心血来潮翻译了第一篇文章，就爱上翻译这件事。和设计一样，它也是一种创造。但是来得更纯粹，抛去了设备、媒介、载体的考量，只剩语言和思想。日积月累，从中收获了很多，设计水品、英文水品都有提升。还有一些意外收获，诸如眼界、人脉、思考、坚持。&lt;/p&gt;
+&lt;p&gt;今天，我给大家带来幕后的故事，一篇译文完整的诞生经过。&lt;/p&gt;
+&lt;h2 id="1-找原文"&gt;1. 找原文
+&lt;/h2&gt;&lt;p&gt;首先，这一切的前提就是科学上网。国外设计网站图多、速度慢，直连的话简直就是在浪费绳命。另外，翻译过程中用到的一些小工具，也需要科学上网支持。&lt;/p&gt;
+&lt;p&gt;我找优秀原文有几个固定地址，多是人尽皆知的知名网站。虽然来源挺狭窄，但他们家的原文质量都比较高，我一个人翻也足够了，在此分享给大家：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://medium.com/" target="_blank" rel="noopener"
+&gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://designmodo.com/" target="_blank" rel="noopener"
+&gt;designmodo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/" target="_blank" rel="noopener"
+&gt;webdesignerdepot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://blog.invisionapp.com/" target="_blank" rel="noopener"
+&gt;Invisionapp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.creativebloq.com/net-magazine" target="_blank" rel="noopener"
+&gt;creativebloq&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://abduzeedo.com/" target="_blank" rel="noopener"
+&gt;Abduzeedo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;怎样的原文算优秀，首先自己要能从中学到东西。有些文章虽然概念好、题材火爆，但讲得极其空洞。我以前也发过这样的文章，比如&lt;a class="link" href="http://victor42.eth.limo/post/3392" target="_blank" rel="noopener"
+&gt;别在自命不凡了，设计师&lt;/a&gt;。发出来后觉得太敷衍了，很对不起读者们，在此向大家道歉。&lt;/p&gt;
+&lt;p&gt;翻译前还是要确认一下有没有别人译过，除非那人真的译得很烂。这里，我们的第一个工具要亮相了——&lt;a class="link" href="https://chrome.google.com/webstore/detail/search-by-image-by-google/dajedkncpodkggklbegccjpmnglmnflm" target="_blank" rel="noopener"
+&gt;google图片搜索插件&lt;/a&gt;。很不幸，第一个就要科学上网。&lt;/p&gt;
+&lt;p&gt;设计类文章有个好处，里面最不缺的就是图片。找到一篇心仪的原文，用这个工具随意搜索其中两三张图片。如果有别人翻译过，通常都能搜到。&lt;/p&gt;
+&lt;h2 id="2-原文转成markdown"&gt;2. 原文转成markdown
+&lt;/h2&gt;&lt;p&gt;我一直用&lt;a class="link" href="http://wowubuntu.com/markdown/" target="_blank" rel="noopener"
+&gt;markdown&lt;/a&gt;来写作，不论翻译还是个人日志。markdown不是一种工具，也不是一种格式。它去除了所有样式，是内容最原本最朴实的形态。这是一种能够让写作流程标准化的东西。同时，也能给你最纯净和专注的体验。&lt;/p&gt;
+&lt;p&gt;但是原文不会给我markdown格式，都是富文本。用浏览器开发人员工具一看源代码，嚯！各种style属性，各种span、div，甚至有很多html5标签，比如figure、section。手动删掉那些div、span标签会让人想掀桌，普通的markdown转换工具又无法处理。于是我在别人的基础上改进了一下，基本满足需求，偶尔会产生几个空行而已。也分享出来给有需要的朋友。&lt;/p&gt;
+&lt;p&gt;工具地址：&lt;a class="link" href="http://greenzorro.github.io/something-to-markdown/" target="_blank" rel="noopener"
+&gt;something- to-markdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转好了markdown，要找个趁手的编辑器。在mac上我目前用的是&lt;a class="link" href="http://25.io/mou/" target="_blank" rel="noopener"
+&gt;Mou&lt;/a&gt;，在windows上感觉没有哪款客户端好用，最后选了个网页版工具&lt;a class="link" href="https://stackedit.io/editor" target="_blank" rel="noopener"
+&gt;stackedit&lt;/a&gt;，用着也挺顺手。在iPhone和iPad上，我用的是&lt;a class="link" href="http://writeapp.net" target="_blank" rel="noopener"
+&gt;Write&lt;/a&gt;。【现在mac和iOS上都已经改用&lt;a class="link" href="http://bywordapp.com/" target="_blank" rel="noopener"
+&gt;byword&lt;/a&gt;了。】&lt;/p&gt;
+&lt;h2 id="3-翻译"&gt;3. 翻译
+&lt;/h2&gt;&lt;p&gt;翻译其实要进行两遍，第一遍确保不遗漏重要信息，第二遍润色。&lt;/p&gt;
+&lt;h3 id="不必逐字翻译"&gt;不必逐字翻译
+&lt;/h3&gt;&lt;p&gt;优先忠实原文，但不必每个词的意思都表达出来。we, and, just, an, if等等这些词的含义，有时我会省略或者扭曲一下，并不会破坏作者要传达的信息。&lt;/p&gt;
+&lt;p&gt;比如这一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How can you take advantage of the trend?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;文章讲的是网页设计中的一种趋势。这里的you翻译出来似乎有点累赘：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你可以如何利用这项趋势？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在汉语中，这种时候往往是省略主语的。所以不翻就可以了：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如何利用这一趋势？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="勤查词典"&gt;勤查词典
+&lt;/h3&gt;&lt;p&gt;查字典要勤快，即使是我熟悉的词，感到翻译卡住了马上查。因为我并不能保证这里就是我熟悉的意思。&lt;/p&gt;
+&lt;p&gt;其实查词应该先查英英释义，有些词用中文无法解释，一看英文解释，就恍然大悟，某个巧妙且准确的成语便可能浮上心头。&lt;/p&gt;
+&lt;p&gt;看看这篇&lt;a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/" target="_blank" rel="noopener"
+&gt;讲网页排版趋势的文章&lt;/a&gt;，有个词很有难度：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But in this &lt;strong&gt;niche&lt;/strong&gt; the designs adapt in such a way such that they completely fill the screen and do not produce scroll bars.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个niche是什么鬼！？一查词典是壁龛、合适的职业，文不对题嘛。查了下英英释义：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;a position particularly well suited to the person who occupies it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;讲的也是合适的职业，但是忽然就明白了作者的意思。他想表达的是这个案例非常适合这种设计方式。所以在想到更传神的表达之前，这个niche，我们可以把它译作“绝佳案例”。&lt;/p&gt;
+&lt;p&gt;看看，这么一大串意思，英文可以用一个词表达出来，真是神奇。&lt;/p&gt;
+&lt;h3 id="较真"&gt;较真
+&lt;/h3&gt;&lt;p&gt;对于难翻译的词我非常较真。词典查不到，本着人肉搜索的精神刨根问底。Google这个词或短语，看其他地方怎么用，即便是再读另一篇原文，也要弄清楚。&lt;/p&gt;
+&lt;p&gt;比如portrait和landscape，第一次遇到这两个词的时候，找了半个小时，才弄明白是指竖屏和横屏。&lt;/p&gt;
+&lt;p&gt;再举一例，还是&lt;a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/" target="_blank" rel="noopener"
+&gt;刚才那篇&lt;/a&gt;，里面提到有一类趋势，叫做No Chrome。那这个No Chrome要怎么翻译？没有铬？没有谷歌浏览器？显然都不合适。&lt;/p&gt;
+&lt;p&gt;词典没用，这时候就必须靠Google大法。通过搜索No Chrome，找到&lt;a class="link" href="http://www.zdnet.com/article/no-chrome-movement/" target="_blank" rel="noopener"
+&gt;另一篇文章&lt;/a&gt;，其中有关键的一句“No more Chrome”，显然是同一个意思。于是耐着性子开始读这篇文章，发现它讲的是网页设计中一个去界面化的现象。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;People feel they are interacting directly with the data.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用户直接与数据进行互动。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;回来看手头的文章，发现正是这个意思。没有容器，没有界面，直接展示数据，案例网站的图片也能印证这一点。&lt;/p&gt;
+&lt;p&gt;至于为什么是No Chrome，想必是因为Chrome在国外就已经是浏览器和web界面的代名词了，毕竟他们几乎不用360、搜狗这样的外壳浏览器。问题迎刃而解，原来它真的是没有谷歌浏览器的意思。但翻译可不能这么翻，No Chrome应该翻译为&lt;strong&gt;去界面化&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id="结合专业知识"&gt;结合专业知识
+&lt;/h3&gt;&lt;p&gt;既然是翻译设计文章，在疑难词句上，优先考虑结合专业知识，回忆一些相关的行业信息。这样就可以根据自己工作经验来猜测。&lt;/p&gt;
+&lt;p&gt;感谢@Gaoyounger提醒，其实那个portrait和landscape就是AI中新建文档时常用的纵向和横向比。所以，日常软件应该尽量装英文版，很有帮助。&lt;/p&gt;
+&lt;p&gt;还有之前的no chrome。回想一下ios7刚发布时候，官方反复强调的“内容为主”，着重演示了safari浏览器的全屏效果，这也是一种暗示。&lt;/p&gt;
+&lt;h3 id="临时发挥"&gt;临时发挥
+&lt;/h3&gt;&lt;p&gt;有些词确实找不到相应的汉语词，这种情况往往是短语，里面每个单词都认识，但凑在一块好像就没有意义。这就说明汉语文化中根本没这个概念，这时候我会自己发挥一下，用其中某个词直译过来组词，揣摩作者的意思。&lt;/p&gt;
+&lt;p&gt;同一篇文章中有如下句子：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This go-to pattern consisted of a header, footer, sidebar and content area.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个go-to就完全查不到，较真也没用，就是查不到。&lt;/p&gt;
+&lt;p&gt;首先想到C语言里有goto语句，是一种打破常规顺序直达某处的语法。而go to在英文中就是去的意思。“Go to hell！去死吧！”，有点快去、直接去的意思。所以这里就YY一下，翻译成“直截了当”。&lt;/p&gt;
+&lt;h3 id="通过上下文锁定含义"&gt;通过上下文锁定含义
+&lt;/h3&gt;&lt;p&gt;有时一个词有很多种相近的意思，似乎每种都说得通。这时候我就会打个标记，继续往下读。通常读完一整段，这个词的含义就清晰了。&lt;/p&gt;
+&lt;p&gt;比如这篇&lt;a class="link" href="https://medium.com/adventures-in-consumer-technology/redesigning-soundcloud-d52b4baf17a4" target="_blank" rel="noopener"
+&gt;SoundCloud再设计&lt;/a&gt;，其中有一段的小标题是“The Stream”。stream有很多意思，流动、潮流。在用户体验中可以代表信息流，在音频方面也能表达流媒体的意思。这篇文章刚好讲的是音乐产品，究竟是哪个意思呢？&lt;/p&gt;
+&lt;p&gt;这种时候只能往下读了。看懂下文之后，发现作者讲的是SoundCloud信息流界面，再回来把小标题补上。&lt;/p&gt;
+&lt;h3 id="补充信息"&gt;补充信息
+&lt;/h3&gt;&lt;p&gt;适时补充信息。英文有时候是很精简的，动词当作名词用。直译过来就不通了，所以需要补上主语或宾语，让它变成一个完整的短句。&lt;/p&gt;
+&lt;p&gt;再次回到那篇&lt;a class="link" href="http://www.webdesignerdepot.com/2015/01/4-essential-layout-trends-for-2015/" target="_blank" rel="noopener"
+&gt;网页排版趋势&lt;/a&gt;，看这一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I find the focus and clarity of these sites to be refreshing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;focus and clarity of sites，网站的焦点和清晰？说不通。这时候也需要小小臆测一下，补充一点信息进去：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我发现这些网站的聚焦能力和清晰程度，令人耳目一新。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="拆分长句"&gt;拆分长句
+&lt;/h3&gt;&lt;p&gt;长句直译过来是很难读懂的，尤其是带有很长定语的从句，需要拆成多个短句来译。如果“……的……的”这样的长串定语，“的”字超过两个，我一定会把它断开。有时哪怕稍微不忠实原文，将定语形容的对象替换掉，也要保证句子易读。&lt;/p&gt;
+&lt;p&gt;有篇&lt;a class="link" href="http://designmodo.com/color-filter-websites/" target="_blank" rel="noopener"
+&gt;讨论网页中彩色滤镜效果的文章&lt;/a&gt;，开篇就是个变态长句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Who would have thought that such simple instruments as color and gradient can catalyze creativity and enormously enhance the website’s aesthetics in the modern world of advanced effects and intricate styles?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那么来细细分解一下。首先分成两部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Who would have thought&lt;/li&gt;
+&lt;li&gt;that&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;只看主谓宾，不看定状补，that后面又可以继续分：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;such simple instruments &lt;em&gt;(as color and gradient)&lt;/em&gt; can catalyze creativity and &lt;em&gt;(enormously)&lt;/em&gt; enhance the website’s aesthetics &lt;em&gt;(in the modern world of advanced effects and intricate styles)&lt;/em&gt;?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;然后就是拼拼凑凑和调整语序了：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在当今这个充斥着先进的特效和精妙风格的世界中，谁曾料到，像纯色和渐变这样简单的手法，竟能够催化出创造力，并极大提升网站的美学水准？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="沿袭原文文风"&gt;沿袭原文文风
+&lt;/h3&gt;&lt;p&gt;文风也会尽量忠实原文，偶尔出现的一些口语化的说法，翻译过来也需要口语化，贴近作者的真实表达。&lt;/p&gt;
+&lt;p&gt;在&lt;a class="link" href="https://medium.com/@pasql/transitional-interfaces-926eb80d64e3" target="_blank" rel="noopener"
+&gt;这篇讲动效的文章&lt;/a&gt;中，一张无过渡效果的案例图下方，有一句“Yikes, that’s rough…”。&lt;/p&gt;
+&lt;p&gt;这个Yikes是口语词，表示惊讶的意思。自己亲口把这句话读上几遍，尝试各种语调，似乎能体会到作者那一丝嫌恶的感情。那么这里就可以翻译得活泼一点，“我去，太挫了……”。&lt;/p&gt;
+&lt;h3 id="专有名词通常不处理"&gt;专有名词通常不处理
+&lt;/h3&gt;&lt;p&gt;专有名称建议不翻译，比如material design。之前在译言的时候，我把它直译成材料设计，读者一致反对。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2014/12/how-to-design-the-perfect-single-page-website/" target="_blank" rel="noopener"
+&gt;这篇文章&lt;/a&gt;中，有这样一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One Page Love: One Page Love is the premier one page website gallery, with more than 5000 example sites, and adding more all the time. They also feature tons of templates and other resources.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个One Page Love显然是个网站的名称，翻译成一页情要闹笑话了。&lt;/p&gt;
+&lt;h3 id="标点符号"&gt;标点符号
+&lt;/h3&gt;&lt;p&gt;注意标点符号，英文用逗号，翻译过来未必也要是逗号。英文本身句子就长，跟一大堆从句，有可能三四行连一个标点符号都没有。10几行的一段，只有3、4个逗号也是常有的事情。中文要是这样，读者就要疯了，不信体验一下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意标点符号，并不是英文用逗号，翻译过来就得是逗号，英文本身句子就长，跟一大堆从句，有可能三四行连一个标点符号都没有，10几行的一段，只有3、4个逗号也是常有的事情，中文要是这样，读者就要疯了，不信体验一下。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="4-润色"&gt;4. 润色
+&lt;/h2&gt;&lt;p&gt;文章是给中国读者看的，要符合中国人的语言表达习惯。有必要花时间再读一遍翻译稿，专门进行中文润色。当然，有自信的话，对于难度较低的文章，这步我会和翻译一起完成。&lt;/p&gt;
+&lt;h3 id="整理语序"&gt;整理语序
+&lt;/h3&gt;&lt;p&gt;有时整个句子的语序要颠倒过来，英文经常把if放在后半句，但汉语这么说就显得不太自然。&lt;/p&gt;
+&lt;h3 id="避免重复"&gt;避免重复
+&lt;/h3&gt;&lt;p&gt;一个词连续使用太多，读着就不顺畅。比如一个句子中出现太多的“响应式设计”一词，可以适当省略，或者换成“它”代指。&lt;/p&gt;
+&lt;p&gt;动词也一样，尽量避免一句中出现两个相同的动词。比如本文的翻译那章，有一句话“一篇讲网页排版趋势的文章提到有一类趋势”，其实原先是“一篇讲网页排版趋势的文章【讲】到有一类趋势”。“讲”字重复了，所以我把其中一个改成了“提”。&lt;/p&gt;
+&lt;h3 id="变通"&gt;变通
+&lt;/h3&gt;&lt;p&gt;虽然要尽量忠实原文，但是用词可以灵活一些，偶尔添加一些原文没有的意思，无伤大雅。比如这一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you survey one of the many popular galleries showcasing current web design &lt;strong&gt;you will no doubt notice that the fundamental structure for web pages is anything but fixed&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;后面半句需要动点脑筋。anything but虽然是个固定短语，意思是根本不。但是直译过来仍显生涩，需要变通一下。润色关键是表达原文的“神”，不必拘泥于“形”。&lt;/p&gt;
+&lt;p&gt;最终译成：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;毫无疑问，你会注意到网页的基本结构千变万化，根本没有固定形态。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="保持简炼"&gt;保持简炼
+&lt;/h3&gt;&lt;p&gt;还要注意去掉不必要的“是”、“的”、“了”，它们会使文章显得啰嗦。&lt;/p&gt;
+&lt;h3 id="成语"&gt;成语
+&lt;/h3&gt;&lt;p&gt;润色的另一个要点，就是成语的使用。这是汉语的精华，善用成语可以让句子简炼易读，有时还能表达得更加传神。&lt;/p&gt;
+&lt;p&gt;例如在这篇&lt;a class="link" href="http://www.creativebloq.com/ux/how-human-eye-reads-website-111413463" target="_blank" rel="noopener"
+&gt;讲述人眼阅读习惯的文章&lt;/a&gt;中，有一这样一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;which is why we hold the masters like da Vinci and Van Gogh in such high regard.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然，它可以直译成“这就是为什么我们如此高度景仰达芬奇和梵高这样的大师”，没有问题，只是不够简炼。其实一个成语就能画龙点睛：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以我们才会对达芬奇和梵高这样的大师推崇备至。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="检查错别字"&gt;检查错别字
+&lt;/h3&gt;&lt;p&gt;最后，务必确保没有错别字。&lt;/p&gt;
+&lt;h2 id="5-发布"&gt;5. 发布
+&lt;/h2&gt;&lt;p&gt;我的文章要发很多地方：个人网站、微信公众号、豆瓣小组、站酷、UI中国。另外还有优设、人人都是产品经理社区等不能自主发文的网站，貌似和我形成了某种默契，时不时会自主转载，不需要我动手（我当然不会告诉你我里头有人 →_→），不然这活我可干不了。&lt;/p&gt;
+&lt;p&gt;这时候markdown的优势就发挥得淋漓尽致了，因为它是最纯粹、不带格式的内容，便于转换成各个平台的格式。&lt;/p&gt;
+&lt;h3 id="个人网站"&gt;个人网站
+&lt;/h3&gt;&lt;p&gt;我个人网站用的是&lt;a class="link" href="https://www.farbox.com/" target="_blank" rel="noopener"
+&gt;farbox&lt;/a&gt;博客系统，本身支持markdown，数据还是存在dropbox里的。发布相当简单，把markdown文件往dropbox里一丢，状态改成已发布，时间设置一下就OK了。&lt;/p&gt;
+&lt;h3 id="微信公众号"&gt;微信公众号
+&lt;/h3&gt;&lt;p&gt;微信公众号的编辑器不支持markdown，需要用到一个chrome插件&lt;a class="link" href="https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa" target="_blank" rel="noopener"
+&gt;markdown here&lt;/a&gt;。把markdown粘贴进去，点一下插件小图标，就转成了富文本。甚至能产生微信公众号不支持的h1~h6标签。&lt;/p&gt;
+&lt;h3 id="豆瓣小组"&gt;豆瓣小组
+&lt;/h3&gt;&lt;p&gt;这个是最棘手的，豆瓣的编辑器……说它是编辑器都抬举了，它真的只是一个textarea。markdown here也不管用了，怎么办？&lt;/p&gt;
+&lt;p&gt;所以又得自己做工具了，既然有something-to-markdown，当然也可以有&lt;a class="link" href="http://greenzorro.github.io/markdown-to-something/" target="_blank" rel="noopener"
+&gt;markdown-to-something&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个工具可以把markdown转成纯文本，就是txt那种。至于图片，也有它的处理方法。虽然还是土办法，不过比纯手工上传还是要强多了。&lt;/p&gt;
+&lt;h3 id="站酷ui中国"&gt;站酷、UI中国
+&lt;/h3&gt;&lt;p&gt;这里就是常规发文流程了，比较方便。&lt;/p&gt;
+&lt;p&gt;不过在图片本地化方面我有点个人看法。我个人网站中的文章，图片地址从来都不改。一方面是出于懒，另一方面我觉得应该信任这些来源站。或许哪天我的个人网站都不存在了，他们的博客一定能继续运转下去。互联网的精神本该是开放和信任，而不是据为己有。&lt;/p&gt;
+&lt;p&gt;那么图片是放在自己的服务器可靠，还是留给他们自己管理可靠呢？&lt;/p&gt;
+&lt;h2 id="6-学习"&gt;6. 学习
+&lt;/h2&gt;&lt;p&gt;这是翻译的初衷，其实在翻译过程中，该学的都已经学到了。不过站在读者的角度读一遍文章，会发现文中哪些是干货，哪些是夸夸其谈，可以作为以后筛选优质原文的参考条件。&lt;/p&gt;
+&lt;p&gt;另外，很多文章都会旁征博引。其中有些是设计案例，有些是技术资料，有些是工具介绍。若有需要，都可以研究起来。运气好的话，还能找到另一篇优秀原文，果断收藏起来，留待以后翻译。&lt;/p&gt;
+&lt;h2 id="结语"&gt;结语
+&lt;/h2&gt;&lt;p&gt;翻译是一件很需要耐性的事情，和设计有那么一点像。你需要在自己的mind palace中纵情驰骋，和自己对话，精心雕琢一件作品。我很享受这样的过程，可能我真有一点孤僻吧。&lt;/p&gt;</description></item><item><title>选择哪种博客？</title><link>https://victor42.eth.limo/post/3367/</link><pubDate>Wed, 21 May 2014 21:04:39 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3367/</guid><description>&lt;p&gt;上周末做了很多事情，一切都围绕博客展开。起初是&lt;a class="link" href="http://www.cai-cai.me/" target="_blank" rel="noopener"
+&gt;@caicai&lt;/a&gt;同学推荐了两套博客系统给我，ghost与farbox。在此特别感谢一下他，一位年轻有为的设计师兼产品人。&lt;/p&gt;
+&lt;p&gt;稍作了解之后，顿时觉得自己太缺乏匠人精神，怎么就能忍受Wordpress这么久呢？博客经营了这许多年，Wordpress逐渐演变成了一个臃肿的cms，编辑器的体验也不尽人意。看来即使身为互联网人，严重依赖某个产品后，一样会无力抽身，哪怕它已经罄竹难书。&lt;/p&gt;
+&lt;p&gt;既然意识到这点，再不做点改变，就太对不起我的职业与行业了。果断装起了ghost，进后台一看才知道什么叫简洁和极致，而且很重要的一点，它让我学会了&lt;a class="link" href="http://wowubuntu.com/markdown/" target="_blank" rel="noopener"
+&gt;markdown&lt;/a&gt;语言。通俗一点的说，这是一门用来写文章的语言，不是给开发者用的，却非常适合有html基础的博客作者。&lt;/p&gt;
+&lt;p&gt;安装ghost的过程中遇到了一些问题，反复阅读和研究官方文档，终于成功跑起来之后，我又忽然改主意了。怎能不了解同类产品就草草选择呢！？这是我的强迫症。简单搜索了一下，在知乎上找到了一条&lt;a class="link" href="http://www.zhihu.com/question/21981094" target="_blank" rel="noopener"
+&gt;非常靠谱的答案&lt;/a&gt;，其中列举的各种博客系统，多数都闻所未闻啊。其实人家在各自领域知名度已经很高了，只是我信息太闭塞而已。&lt;/p&gt;
+&lt;p&gt;花整个周日查阅资料对比它们的原理和优势劣势，进行了一番不算太深入的研究。我毕竟没有深厚的技术背景，对于一些语言效率层面的优劣没有概念。但从产品逻辑来看，根据我的理解，可以将它们分为4类：&lt;/p&gt;
+&lt;h2 id="博客平台"&gt;博客平台
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://medium.com/" target="_blank" rel="noopener"
+&gt;medium&lt;/a&gt;和&lt;a class="link" href="http://jianshu.io/" target="_blank" rel="noopener"
+&gt;简书&lt;/a&gt;就是典型的博客平台，当然广泛来说tumblr、Lofter和各大门户旗下的博客都算这一类。这种没什么可展开说的，你所需要的就是注册一个账号，用它们的编辑器专注写作。这类博客上手都很简单，比拼的就是产品设计与社会化程度。&lt;/p&gt;
+&lt;h2 id="传统独立博客"&gt;传统独立博客
+&lt;/h2&gt;&lt;p&gt;以&lt;a class="link" href="http://wordpress.com/" target="_blank" rel="noopener"
+&gt;wordpress&lt;/a&gt;和&lt;a class="link" href="https://ghost.org/" target="_blank" rel="noopener"
+&gt;ghost&lt;/a&gt;为代表。尽管ghost背负着颠覆wordpress的使命，也引入了新的概念与设计，它在根本上仍然是同一类型的产品。主要用法还是靠用户自己搞定域名、服务器，博客代码、数据库、图片库都放在服务器上，写作过程也鼓励在后台系统进行。典型的中央集权型产品。&lt;/p&gt;
+&lt;h2 id="云博客"&gt;云博客
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://www.farbox.com/" target="_blank" rel="noopener"
+&gt;farbox&lt;/a&gt;、&lt;a class="link" href="http://www.site44.com/" target="_blank" rel="noopener"
+&gt;site44&lt;/a&gt;、&lt;a class="link" href="http://postach.io/" target="_blank" rel="noopener"
+&gt;postach&lt;/a&gt;是这类的典型。这里要强调一下，此处的“云”，不是被反复炒作的虚无概念。在我看来，光有个能储存文件的网盘，那不叫云。要有完善的API、开放的心态，不能有太强的控制欲，能够解放各种第三方服务，使它们专注于用户端，不用操心数据与内容，这才是真正的云。&lt;/p&gt;
+&lt;p&gt;dropbox和evernote在这方面非常够格，这3款博客产品就是基于这样的云服务。以farbox为例，另外两个道理类似。farbox已经彻底脱胎于博客这一概念了。想像一下，dropbox里的一个文件就是一篇文章，把它们放在特定的文件夹中，这些文件就自动发布在你的博客网站上了，听起来相当激动人心。写文章，保存，然后就完成了，这才是最自然的写作方式。&lt;/p&gt;
+&lt;p&gt;这类博客让我思考了一个问题，博客的本质是什么？我觉得它可以拆成两部分：写作与展示。那么这三个博客系统都只负责展示，数据的产生与存储撒手不管。放开了内容的控制权，让展示的归展示，写作的归写作。用户也可以自由选择更喜欢的写作方式。&lt;/p&gt;
+&lt;h2 id="github博客"&gt;github博客
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="http://jekyllrb.com/" target="_blank" rel="noopener"
+&gt;jekyll&lt;/a&gt;、&lt;a class="link" href="http://octopress.org/" target="_blank" rel="noopener"
+&gt;Octopress&lt;/a&gt;、&lt;a class="link" href="http://hexo.io/index.html" target="_blank" rel="noopener"
+&gt;hexo&lt;/a&gt;属于此类。这个分类乍看是另一维度的，而且严格来说它其实应该归为云博客。但它的确相当有影响力，带有浓郁的技术气质，自成一派，可以单独拿出来讲。&lt;/p&gt;
+&lt;p&gt;开发者们应知道github pages，可以将各种静态内容以网页的形式搭载在github服务器上，而这个服务器对于公众是免费的。这3者的作用，就是将github静态内容整合成一个完整的博客网站。什么？静态怎么行？那作为一个纯粹的博客，有什么不是静态的呢？&lt;/p&gt;
+&lt;p&gt;在写作与内容分离方面，github博客与云博客殊途同归。用户需要用自己的方式，将博客内容放到github服务器上。由于github博客都用markdown语言来写作，专业的markdown编辑器反倒是更好的选择，胜过那些效仿word的网页文本编辑器。知乎回答中的&lt;a class="link" href="http://marboo.biz/" target="_blank" rel="noopener"
+&gt;marboo&lt;/a&gt;、&lt;a class="link" href="http://logdown.com/" target="_blank" rel="noopener"
+&gt;Logdown&lt;/a&gt;、&lt;a class="link" href="http://prose.io/" target="_blank" rel="noopener"
+&gt;Prose&lt;/a&gt;就是这种编辑器（好吧，开发者来抗议了，marboo并不是编辑器，而是管理工具，抱歉），甚至直接与github服务器关联，真正使博客做到了“专注于写作”。&lt;/p&gt;
+&lt;p&gt;经过一番考虑，我最终决定使用farbox。这就开始一点点从wordpress搬过去，对farbox有兴趣的朋友，可以&lt;a class="link" href="http://colachan.farbox.com/" target="_blank" rel="noopener"
+&gt;来这看看效果&lt;/a&gt;，即使是默认模板，也是相当清爽怡人的。甚至还能把照片放在特定文件夹里，自动生成&lt;a class="link" href="http://colachan.farbox.com/album/" target="_blank" rel="noopener"
+&gt;相册&lt;/a&gt;。至于&lt;a class="link" href="http://colachan.farbox.com/about" target="_blank" rel="noopener"
+&gt;独立页面&lt;/a&gt;，更是不在话下。&lt;/p&gt;
+&lt;p&gt;大致研究了farbox的模板文件后，又发现新大陆。原来还有&lt;a class="link" href="http://jade-lang.com/" target="_blank" rel="noopener"
+&gt;jade&lt;/a&gt;这么简洁的模板语言，它有一点类似于&lt;a class="link" href="https://code.google.com/p/zen-coding/" target="_blank" rel="noopener"
+&gt;zen coding&lt;/a&gt;，却不尽相同。zen coding可以理解为一种简化的写法，最终生成的仍然是HTML。jade却可以作为实实在在的代码，从服务端下载到本地，在本地转化为标准HTML，可以提高网页加载速度。不过，这种语言在代码效率和可移植性上存在不少争议，这方面我没什么发言权。既然farbox用它作为模版语言，博客又是个人项目，那就学一下吧！&lt;/p&gt;
+&lt;p&gt;除此之外，要完整搭起这个新博客，还有SASS和响应式在前面等着我。信息量还不小，要消化一阵子。不论如何，接触新事物总是好事，因为变化使人成长。&lt;/p&gt;</description></item><item><title>博客改版小结</title><link>https://victor42.eth.limo/post/2555/</link><pubDate>Sun, 23 Jun 2013 00:23:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2555/</guid><description>&lt;p&gt;找每次换工作的间隙，我总要折腾一遍博客。除了有闲功夫，也是希望提升自己的作品质量。这么一个简单的纯信息展示类网站，我已经改过数不清次版了。我还记得第一版个人博客用了一张巨大花哨的海星图片作为背景，文字淡到看不清，颜色用了不下5种。直到上一版，本博客才第一次能称得上一件合格的产品，在那之前，只是一味在设计花哨的首页而已&lt;/p&gt;
+&lt;p&gt;不管怎么说，这算是我最早的一件互联网产品。我对于视觉设计与用户体验的理解，有相当一部分来源于这个产品的反复折腾，同时也逐渐形成自己的设计风格与理念。我在其中所扮演的角色，涵盖了产品经理、交互、视觉、开发、运营，更能让我从不同的角度考虑产品，虽然做不到那么专业&lt;/p&gt;
+&lt;p&gt;上一版的视觉语言可以用这么几条来概括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;扁平设计，纯白背景&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;无边框，大空隙&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;以草绿与橙色为主色，提亮关键信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;圆作为视觉符号广泛使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/1.jpg"
+loading="lazy"
+alt="博客改版前后对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;此次改版仍然延续了之前的部分视觉语言，重点在于优化了关键信息的展现方式，并且重新设计了几张特殊页面。主色略有变化，用砖红代替了纯度较高的橙色，可以令色调更加轻松缓和。圆的运用也不到位，使用过多略感凌乱，改为圆角方形，立马就有点APP化的感觉了&lt;/p&gt;
+&lt;p&gt;主导航的动画效果是个亮点，稍稍改变形状，继续保留。其实这里做了一个很细微的视觉差滚动，滚动条往下滚时，LOGO会加速向上移动。导航按钮后方的轴线，也会略微下移，变成悬浮导航的背景阴影&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/2.jpg"
+loading="lazy"
+alt="新博客首页设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;文章标题信息我不爽很久了，标题和时间在一头，评论数和分类在另一头，谁会这么来回两头看啊？（说得好像这个不是出自我手似的……）当时的考虑是，整个页面的宽度显示文字段落，看着太累，我把文字区域宽度限制在650像素，那空出来的部分放点什么呢？于是就有了这两个突兀的圆&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/3.jpg"
+loading="lazy"
+alt="博客导航结构优化"
+&gt;&lt;/p&gt;
+&lt;p&gt;的确，当美观与实用性冲突的时候，一味追求视觉效果，很容易做出愚蠢的产品。实际上，冲突，不代表两者不可兼得。改换思路，大胆抛弃曾经引以为豪的小把戏，从实用性出发，总能找到同样美观的解决方法&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/4.jpg"
+loading="lazy"
+alt="博客响应式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;header和footer是这次首页改版的重头戏，header的搜索与二维码使用频率很低，应该扔到底部去，至于登陆注册入口，只对我本人有用，果断隐藏。这样header就干干净净只剩个LOGO了，很好&lt;/p&gt;
+&lt;p&gt;footer内容多起来了，可以考虑用较重的色调与内容区域区分开。个人的外站链接、友链、搜索和版权信息都加大。显示器分辨率越来越高，网页设计也不该再拘泥于12、14像素字的尺寸。其实这个思想早已被大量国外网站实践过，放在这里的确适用&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/5.jpg"
+loading="lazy"
+alt="博客加载速度优化"
+&gt;&lt;/p&gt;
+&lt;p&gt;真正改变大的，不是首页，而是两个与求职密切相关的特殊页面：作品和关于我&lt;/p&gt;
+&lt;p&gt;旧版作品页已经看不到了，简单说是图片墙形式。类似于&lt;a class="link" href="http://songtaste.com/" target="_blank" rel="noopener"
+&gt;songtaste首页&lt;/a&gt;，只是图片较大。点击小图弹出浮层显示大图，在大图界面中可以直接前后翻页&lt;/p&gt;
+&lt;p&gt;实际浏览中，没人会打开关闭再打开关闭，使用者打开了大图界面，就会直接通过翻页浏览所有作品。而且设计作品涉及不同领域，每个领域的作品也有时间和类别区分，我设定的图片顺序是有它意义在的。既然如此，整这个图片墙干什么呢？这个作品页面其实更应该看作一部幻灯片，那么给个播放按钮就行啦，详细的内容，都靠图片说话&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/6.jpg"
+loading="lazy"
+alt="博客主题配色"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/7.jpg"
+loading="lazy"
+alt="博客字体选择"
+&gt;&lt;/p&gt;
+&lt;p&gt;关于我之前非常简陋，有一小段基本信息，接下来就是朋友熟人的评价，都是纯文字列表展示，大量文字可没谁有耐心看下去。数据类尽量都图形化，其他内容也需要合理组织起来。整理过后，各种内容就一目了然了&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/8.jpg"
+loading="lazy"
+alt="博客评论系统"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-06/06-23/9.jpg"
+loading="lazy"
+alt="博客分类归档"
+&gt;&lt;/p&gt;
+&lt;p&gt;博客类产品，最关键的就是图片与文字信息展示，展现方式是否合理，直接决定了读者的阅读耐心。与此相比，装饰性的设计，真没那么重要&lt;/p&gt;</description></item></channel></rss>

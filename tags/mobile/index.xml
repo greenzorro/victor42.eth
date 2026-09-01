@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mobile on Victor42</title><link>https://victor42.eth.limo/tags/mobile/</link><description>Recent content in Mobile on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic Knowledge of Mobile Dimensions</title><link>https://victor42.eth.limo/post-en/3435/</link><pubDate>Sun, 19 Apr 2015 19:55:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3435/</guid><description>&lt;p&gt;If you&amp;rsquo;re new to mobile design and development, you&amp;rsquo;ve likely struggled with dimensions. This guide breaks down the basics for beginners.&lt;/p&gt;
+&lt;h2 id="the-situation"&gt;The Situation
+&lt;/h2&gt;&lt;p&gt;Mobile screens come in many sizes. Fragmentation, especially on Android, is a challenge. You&amp;rsquo;ll encounter resolutions like 480x800, 480x854, 540x960, 720x1280, 1080x1920, and even 2K screens. iPhones have joined the fragmentation party: 640x960, 640x1136, 750x1334, 1242x2208.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t panic. Most apps and sites display well across screens. There&amp;rsquo;s a method to the madness.&lt;/p&gt;
+&lt;h2 id="pixel-density"&gt;Pixel Density
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/1.jpg"
+loading="lazy"
+alt="Macro shot of RGB pixel grid on an LCD screen displaying text"
+&gt;&lt;/p&gt;
+&lt;p&gt;Screens are made of tiny pixels. The resolutions mentioned above are the screen&amp;rsquo;s actual pixel dimensions. A 480x800 screen has 800 rows and 480 columns of pixels. Each pixel emits colored light to create images. However, a phone&amp;rsquo;s physical size doesn&amp;rsquo;t scale proportionally with its pixel dimensions. For example, the iPhone 3GS (320x480 pixels) and iPhone 4S (640x960 pixels) are both 3.5 inches, but the 4S has double the pixels.&lt;/p&gt;
+&lt;p&gt;This is where pixel density (PPI, or pixels per inch) comes in. It bridges the digital and physical worlds.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/2.png"
+loading="lazy"
+alt="PPI conceptual diagram illustrating a 9x9 pixel grid in a 1x1 inch area"
+&gt;&lt;/p&gt;
+&lt;p&gt;PPI is the number of pixels in one inch. An inch is a fixed length (2.54 cm). Higher PPI means a sharper display. Retina screens are clearer because their PPI is doubled.&lt;/p&gt;
+&lt;h2 id="scaling-and-logical-pixels"&gt;Scaling and Logical Pixels
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/3.png"
+loading="lazy"
+alt="UI size comparison of iPhone 3GS and 4S without scaling factors applied"
+&gt;&lt;/p&gt;
+&lt;p&gt;Consider the iPhone 3GS and 4S again. Imagine an email list. If designed like a PC webpage, the 3GS might show 4-5 rows, the 4S 9-10, with each row being very wide. But the phones are the same size! If displayed this way, content legible on the 3GS would be tiny on the 4S.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/5.png"
+loading="lazy"
+alt="Diagram comparing logical pixels and physical pixels in iPhone 3GS and 4S"
+&gt;&lt;/p&gt;
+&lt;p&gt;In reality, they look similar. Retina screens use 2x2 pixels to represent 1 pixel. A 44-pixel-high top bar on a regular screen uses 88 pixels on a Retina screen, making it appear twice as large, matching the 3GS&amp;rsquo;s appearance but with greater clarity.&lt;/p&gt;
+&lt;p&gt;Older iOS apps often had &amp;ldquo;@2x&amp;rdquo; and non-&amp;quot;@2x&amp;quot; versions of images. iOS automatically chose the correct one; Android works similarly.&lt;/p&gt;
+&lt;p&gt;Apple used the regular screen as a baseline, with a 2x scaling factor for Retina screens (3x for iPhone 6 Plus). Dividing actual pixels by the scaling factor gives you logical pixel dimensions. Screens with the same logical pixels display content similarly.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/6.png"
+loading="lazy"
+alt="Scaling factors of three common Android screen resolutions to logical pixels"
+&gt;&lt;/p&gt;
+&lt;p&gt;Android&amp;rsquo;s approach is similar but more involved. Due to the wide range of Android screen sizes, Android groups devices by pixel density, assigning scaling factors to each group for visual consistency. iOS and Android handle PPI calculations for us.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/4.png"
+loading="lazy"
+alt="Official Android screen size and density classification matrix table"
+&gt;&lt;/p&gt;
+&lt;p&gt;Screens around 120 PPI are classified as ldpi, around 160 as mdpi, and so on. Scaling factors are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ldpi [0.75x]&lt;/li&gt;
+&lt;li&gt;mdpi [1x]&lt;/li&gt;
+&lt;li&gt;hdpi [1.5x]&lt;/li&gt;
+&lt;li&gt;xhdpi [2x]&lt;/li&gt;
+&lt;li&gt;xxhdpi [3x]&lt;/li&gt;
+&lt;li&gt;xxxhdpi [4x]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;iPhone scaling factors are simpler. But with many Android phones, how do we categorize them? Here&amp;rsquo;s a table (Umeng data, Oct 2014 - Mar 2015):&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/7.png"
+loading="lazy"
+alt="Umeng statistics bar chart of mainstream Android resolutions from 2014 to 2015"
+&gt;&lt;/p&gt;
+&lt;p&gt;Based on the market then, we can categorize phone resolutions (this isn&amp;rsquo;t exhaustive, but was relevant for about a year):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ldpi: Nearly extinct.&lt;/li&gt;
+&lt;li&gt;mdpi [320x480]: (Under 5% market share; new phones won&amp;rsquo;t use this; screens are usually tiny).&lt;/li&gt;
+&lt;li&gt;hdpi [480x800, 480x854, 540x960]: (Older/current low-end phones, screens around 3.5/4.7-5.0 inches).&lt;/li&gt;
+&lt;li&gt;xhdpi [720x1280]: (Older mid-range/current low-to-mid-range phones, screens around 4.7-5.0/5.0-5.5 inches).&lt;/li&gt;
+&lt;li&gt;xxhdpi [1080x1920]: (Older high-end/current mid-to-high-end phones, screens usually above 5.0 inches).&lt;/li&gt;
+&lt;li&gt;xxxhdpi [1440x2560]: (A few 2K phones, e.g., Google Nexus 6).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;mdpi (1x) is the baseline. Devices with different densities are multiplied by their scaling factor to achieve a similar visual effect.&lt;/p&gt;
+&lt;p&gt;However, Android logical pixel dimensions aren&amp;rsquo;t uniform. For example, 480x800 (hdpi) and 1080x1920 (xxhdpi) have logical dimensions of 320x533 and 360x640, respectively. The latter is wider and taller, displaying more. So, even with scaling, displays on various Android devices aren&amp;rsquo;t perfectly identical.&lt;/p&gt;
+&lt;h2 id="units"&gt;Units
+&lt;/h2&gt;&lt;p&gt;Logical pixel dimensions determine how things look. iOS and Android use units for these: &amp;ldquo;pt&amp;rdquo; (points) for iOS, and &amp;ldquo;dp&amp;rdquo; (density-independent pixels) for Android. They&amp;rsquo;re essentially the same.&lt;/p&gt;
+&lt;p&gt;Conversion between units depends on the scaling factor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1x: 1pt = 1dp = 1px (mdpi, iPhone 3GS)&lt;/li&gt;
+&lt;li&gt;1.5x: 1pt = 1dp = 1.5px (hdpi)&lt;/li&gt;
+&lt;li&gt;2x: 1pt = 1dp = 2px (xhdpi, iPhone 4S/5/6)&lt;/li&gt;
+&lt;li&gt;3x: 1pt = 1dp = 3px (xxhdpi, iPhone 6 Plus)&lt;/li&gt;
+&lt;li&gt;4x: 1pt = 1dp = 4px (xxxhdpi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We should think in logical pixels. Some Android designers use 1080x1920 canvases, others 720x1280, leading to inconsistent UI element sizes. The minimum tappable area on Android is 48x48dp. On xhdpi, a button should be at least 96x96px; on xxhdpi, 144x144px.&lt;/p&gt;
+&lt;p&gt;Regardless of canvas size, design for the baseline, and developers need logical pixel dimensions. For clarity, use logical pixels in specs and discussions. Avoid saying, &amp;ldquo;The tab bar is 96 pixels high, designed for xhdpi.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id="what-about-web"&gt;What about Web?
+&lt;/h2&gt;&lt;p&gt;The absolute unit for mobile web is still &amp;ldquo;px&amp;rdquo; in code, but the principle is the same. Pixel density affects all apps, including browsers. Front-end tech can leverage this. One line of code lets the browser render the page using the app&amp;rsquo;s scaling method.&lt;/p&gt;
+&lt;p&gt;Use this test page &lt;a class="link" href="http://greenzorro.github.io/demo/basic/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%96%AD%E7%82%B9.html" target="_blank" rel="noopener"
+&gt;http://greenzorro.github.io/demo/basic/响应式断点.html&lt;/a&gt; to check your device&amp;rsquo;s logical width.&lt;/p&gt;
+&lt;p&gt;The iPhone 5S (640x1136, scaling factor 2) is seen by the browser as 320x568 (baseline). Design and develop using logical pixels. You&amp;rsquo;ll need to prepare 2x images and scale them down to 1x in code for sharpness.&lt;/p&gt;
+&lt;h2 id="practical-application"&gt;Practical Application
+&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s how to set up your canvas for iOS, Android, and Web. First, a Photoshop tip:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/8.png"
+loading="lazy"
+alt="Photoshop Units and Rulers settings dialog with rulers and type set to Points"
+&gt;&lt;/p&gt;
+&lt;p&gt;Think in logical pixels. In Photoshop, set &amp;ldquo;Units &amp;amp; Rulers&amp;rdquo; to &amp;ldquo;Points&amp;rdquo; (&amp;ldquo;pt&amp;rdquo;). Use this for iOS, Android, or Web. Remember platform-specific unit names (pt, dp).&lt;/p&gt;
+&lt;p&gt;Adjust scaling with DPI (actually PPI) in Image Size. Screen designs use 72 DPI; print uses 300. Why?&lt;/p&gt;
+&lt;p&gt;300 DPI relates to the human eye&amp;rsquo;s resolving power. More pixels per inch (DPI) means greater clarity. 300 DPI creates realism; 10 DPI would look like a mosaic.&lt;/p&gt;
+&lt;p&gt;72 DPI has historical roots. Early Macs had 72 DPI displays. Setting Photoshop to 72 DPI matched on-screen and print sizes. 72 DPI became a standard.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/9.png"
+loading="lazy"
+alt="Photoshop Image Size dialog setting resolution to 144 DPI for 2x scale rendering"
+&gt;&lt;/p&gt;
+&lt;p&gt;To adjust scaling: 72 DPI is 1x. 144 DPI (72 x 2) is a 2x scaling factor.&lt;/p&gt;
+&lt;p&gt;Canvas settings:&lt;/p&gt;
+&lt;h3 id="iphone"&gt;iPhone
+&lt;/h3&gt;&lt;p&gt;iPhone sizes vary (in logical pixels). For one design covering all iPhones, choose a moderate size.&lt;/p&gt;
+&lt;p&gt;iPhone 5/5S (2x scaling, 320x568 logical pixels) is common. iPhone 6 (2x, 375x667) is gaining popularity.&lt;/p&gt;
+&lt;p&gt;Designing for either accommodates the 4S and doesn&amp;rsquo;t look too empty on the 6 Plus.&lt;/p&gt;
+&lt;p&gt;For the 6 Plus, 3x images are scaled from 2x, so ensure bitmaps stay sharp.&lt;/p&gt;
+&lt;h3 id="android"&gt;Android
+&lt;/h3&gt;&lt;p&gt;Android fragmentation is manageable. Logical dimensions are more unified: 360x640. Choose a scaling factor. For xhdpi, DPI is 144 (72 x 2). For xxhdpi, it&amp;rsquo;s 216 (72 x 3).&lt;/p&gt;
+&lt;p&gt;Older 480px-width devices will show less content. Keep important content near the top/middle.&lt;/p&gt;
+&lt;p&gt;These devices are fading. Those in use are likely feature phones; user experience is less critical. It&amp;rsquo;s okay to disregard them.&lt;/p&gt;
+&lt;h3 id="web"&gt;Web
+&lt;/h3&gt;&lt;p&gt;There&amp;rsquo;s no single standard. A common approach is designing for the iPhone 5 (2x, 320x568).&lt;/p&gt;
+&lt;p&gt;This is practical: 2x screens are common on iOS and Android, and it&amp;rsquo;s the smallest 2x size, leading to smaller images and faster loading. The downside: images might not be perfectly sharp on 3x devices.&lt;/p&gt;
+&lt;p&gt;For image quality over speed, design for the iPhone 6 Plus (3x, 414x736).&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;Mobile dimensions are more complex than PC, with scaling being key. But scaling brings different sizes to a common level, allowing one design to adapt. This makes it easier to understand.&lt;/p&gt;</description></item></channel></rss>

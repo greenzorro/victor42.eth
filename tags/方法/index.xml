@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>方法 on Victor42</title><link>https://victor42.eth.limo/tags/%E6%96%B9%E6%B3%95/</link><description>Recent content in 方法 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Mon, 24 Aug 2026 19:21:16 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>六合读诗与幕后故事</title><link>https://victor42.eth.limo/post/poem-six-lens-skill/</link><pubDate>Thu, 30 Jul 2026 18:19:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/poem-six-lens-skill/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2026-07/65210270dc4641a4b7cf3d1fcf88bc92.webp" alt="Featured image of post 六合读诗与幕后故事" /&gt;&lt;p&gt;Skill在职场已经泛滥成灾了，我才首次公开我的Skill。&lt;/p&gt;
+&lt;h2 id="从一段胡说八道开始"&gt;从一段胡说八道开始
+&lt;/h2&gt;&lt;p&gt;朋友发来这么一张图：说是吴道子的真迹，我左看右看也没看出哪里造假了，应该是真的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-07/56587deced0651714a0189b183258acf.webp"
+loading="lazy"
+alt="水墨画中无人机吊着荔枝，旁题一骑红尘妃子笑与无人机系荔枝来，落款唐吴道子作"
+&gt;&lt;/p&gt;
+&lt;p&gt;我一看，回复道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;没毛病，他就是那个年代的人，他亲眼见到的。杜牧个后世人，YY个什么劲，还次第开，那门用得着开吗？就因为吴道子有点不知道哪来的广东口音，后世人凭什么不认。历史的悲哀。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;玩笑归玩笑，既然提到了这首《过华清宫绝句三首·其一》，我又回味起了今年的那次&lt;a class="link" href="https://victor42.eth.limo/post/trip-to-xi-an/" target="_blank" rel="noopener"
+&gt;西安旅行&lt;/a&gt;。当时安排了一整天给秦始皇陵，隔壁的丽山园和华清宫就没来得及去，这首诗的主场正是那里。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;长安回望绣成堆，
+山顶千门次第开。
+一骑红尘妃子笑，
+无人知是荔枝来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;认真想象这首诗的画面，一句句细品，由远及近，由急到缓，有种电影镜头版的质感。千古名篇能传到今天，自有不凡之处。&lt;/p&gt;
+&lt;p&gt;于是让AI从各个角度查询资料、了解背景。讨论过程来回拉锯了很久，我问了大量问题，反复让AI做事实核查。远的近的，明的暗的，种种信息逐渐对接上我对长安和唐朝的认知框架，收获满满。&lt;/p&gt;
+&lt;p&gt;但如果将来再满足我对另一首诗的好奇心，还要这样来回问答小半天，会不会打击我探索的积极性？至此，我下决心搞清楚，解读一首诗有没有比较全面和标准方法，我得给自己来一套。&lt;/p&gt;
+&lt;h2 id="闵可夫斯基和文学光锥"&gt;闵可夫斯基和文学光锥
+&lt;/h2&gt;&lt;p&gt;诗词的艺术性暂且放一边，它作为一种信息传递的载体，时间、地点、人物三要素总该有吧。从宏大的时代背景，到写作那一刻，时间层面一定有它的脉络。地理的因素也是由大到小，逐渐汇聚到诗中所载的空间和现场，丰富了诗的背景甚至主体。人的因素更不必说了，作者的人生轨迹在诗中的作用显而易见，往往占主导地位。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2026-07/65210270dc4641a4b7cf3d1fcf88bc92.webp"
+loading="lazy"
+alt="闵可夫斯基时空图示意：时间纵轴与空间平面交汇于观测者原点，上下为未来与过去光锥"
+&gt;&lt;/p&gt;
+&lt;p&gt;想到这里，我脑子里的画面竟然是闵可夫斯基时空图，伟大的作品本质是一个时空事件。虽然有点偷换概念，但作者所处的时间、空间，它们带来的全部信息确实在原点位置交汇。&lt;/p&gt;
+&lt;p&gt;我把这个比喻称为文学光锥，伟大的作品在诞生的那一刻前就是如此。光锥内的信息帮助塑造了作品，而光锥外的信息影响不到作者，这使得任何作品都有独特性，带有他个人和所处时空的独特印记。&lt;/p&gt;
+&lt;p&gt;在AI的提醒下，我意识到我过于关注物理世界，忽略了概念世界。光锥里还需要补一个因素：文学传统，作者的文学思想和风格受到了哪些影响，与同时代的作者相比产生了哪些独特性，又对后世的文学有什么样的影响。&lt;/p&gt;
+&lt;p&gt;就这样，文学本身成为了一座桥梁，连接了过去和未来。在作者到不了的未来，不仅有他对后世文学的影响，也有后世人对他这份作品的解读。解读也是会变化的，会根据时代风貌和社会需要解读出不同的含义，这是这份作品生命的延续。只要还有人在解读它，它就是不朽的。&lt;/p&gt;
+&lt;p&gt;最后，从过去和未来逐渐收回来，抛开所有外部影响，只看这份作品本身。对它本身文学性的解读可以独立于其他因素之外，是整个文学光锥的原点。&lt;/p&gt;
+&lt;p&gt;我们读诗，就是要从原点出发，顺藤摸瓜看清过去的收敛与未来的发散。&lt;/p&gt;
+&lt;h2 id="六合读诗skill的诞生"&gt;六合读诗Skill的诞生
+&lt;/h2&gt;&lt;p&gt;顺着这个画面，解读一首诗的方法似乎浮出水面了：从时代、地理、生平、文学传统向前追溯深挖所有相关信息，也向后调查它对后世文学的影响和后人的解读，同时原地展开这首诗本身的文学性特质。&lt;/p&gt;
+&lt;p&gt;想法有了，Skill的诞生比想象中容易。来回打磨，用各种题材的诗词去测试它，唐代的宋代的，抒情的说理的，知名的小众的，甚至连作者佚名的汉乐府诗也试过了。暴露出不少问题，反复让AI从第一性原理思考解法，调整Skill的规则。可能遇到一些极小众的诗词时，还会发挥失常，但绝大多数情况下，比直接跟AI说“帮我解读XXX”质量高多了。&lt;/p&gt;
+&lt;p&gt;这个Skill的工作方式是这样的：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;从 &lt;strong&gt;世（时代）、地（地理）、人（生平）、文（文学性）、统（文化传统）、受（后人解读）&lt;/strong&gt; 六个角度广泛收集信息，逐层深挖，每个角度分别梳理。&lt;/li&gt;
+&lt;li&gt;把 &lt;strong&gt;世、地、人、统&lt;/strong&gt; 四个过去光锥的因素整理成时间线，列成表格，表格终点指向原点。&lt;/li&gt;
+&lt;li&gt;进行丧心病狂的穷尽式事实核查，纠正错误，补充更多细节。&lt;/li&gt;
+&lt;li&gt;按要求的格式输出 &lt;strong&gt;六合解读&lt;/strong&gt; 和 &lt;strong&gt;收敛时间线&lt;/strong&gt; 两大主要部分，以及少量补充信息。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这其中遇到过的最大的问题还是幻觉，AI容易在一些查不到具体资料时编造事实，甚至把一首诗的情感色彩都说歪了。制作这个Skill，最多的精力花在了和幻觉斗争上，最终把第3步逼成了一道极其严苛的防幻觉核查关卡。&lt;/p&gt;
+&lt;p&gt;这里分享一点我做Skill的心得。如果一个任务不是开放性的，有明确的产出物，而且产出物的品质有衡量标准，这标准用自然语言能说得清楚。你就应该通过循环来打磨这个Skill：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一开始是给AI个一次性任务，指出它完成过程中的各种问题，它会了解你的偏好和目标。这时候就可以指挥它自己给自己写第一版Skill。&lt;/li&gt;
+&lt;li&gt;然后再让它用这Skill来执行任务，一般还会有各种问题，继续指出来，让它迭代Skill。&lt;/li&gt;
+&lt;li&gt;反复几次后，你问它，你现在能不能自己制定出一套评判标准，来评判任务完成质量。它大概率会说可以，那就让它产一套，把标准沉淀成文档存好，用来验证。&lt;/li&gt;
+&lt;li&gt;接下来打磨速度就可以大大加快了。让它开子代理来执行任务，子代理是什么都不知道的，它只知道这个Skill的内容。主代理拿着它自己写的标准来衡量子代理的工作，让它判断有哪些问题，和你逐一确认。确认过程中既会发现Skill的问题，也可能发现评判标准的问题，让它继续迭代。&lt;/li&gt;
+&lt;li&gt;这样一轮下来，再跟它说，这是不是可以构成一个循环，反复迭代？它大概率也会说可以。你就让它把循环的规则也沉淀为文档，照着执行。&lt;/li&gt;
+&lt;li&gt;最后，每一轮迭代就只需要做两件事：评价它发现的问题，以及命令新开一轮迭代。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我做过一些比较复杂的skill，里面7、8个代码文件，十几个文档，就是用这种方式循环出来的。Skill的内容对我来说完全是个黑盒，我一眼都没看过，我只关注输入和输出。但无论如何，最后稳定得到了我要的结果。当然，如果有它反复循环都解决不了的问题，就需要你向前一步，了解相关的执行逻辑，提示它可能的问题方向。&lt;/p&gt;
+&lt;p&gt;前沿的AI模型到今天，能力已经没有明显的短板了。它缺的只是你的偏好和目标，这是装在你脑子里的东西，它的训练数据里没有。在打造这种迭代循环的过程中，只要它充分了解你的偏好和目标，就大有希望把事情做好。甚至Skill里那些防幻觉的机制，大多是在我的坚持和否定下，AI自己想出来的。&lt;/p&gt;
+&lt;p&gt;老实说，世、地、人、文、统、受这6个角度，后3个都是AI提醒我补上的。共同构成了这套“六合读诗”。&lt;/p&gt;
+&lt;h2 id="使用六合读诗skill"&gt;使用六合读诗Skill
+&lt;/h2&gt;&lt;p&gt;Skill可以在此下载：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://skills.victor42.work/poem-six-lens/" target="_blank" rel="noopener"
+&gt;https://skills.victor42.work/poem-six-lens/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;它的3首解读示例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/O4CydaX8XoLbRNxgwiAc3sjfnqh?from=from_copylink" target="_blank" rel="noopener"
+&gt;六合读诗：乐游原&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/EaRsdTSYUoxiXexT7soc8WVrnNg?from=from_copylink" target="_blank" rel="noopener"
+&gt;六合读诗：使至塞上&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://my.feishu.cn/docx/IKhodsSbuohcpYxRALZc9EgynD8?from=from_copylink" target="_blank" rel="noopener"
+&gt;六合读诗：清平乐·村居&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;需要注意的是，看待时间线，也要像看待光锥一样，它仅仅是把事件在时间上串起来了。你不能说它们相互间一定有直接因果关系，但你能意会那种多重因素微妙叠加、累积而成的迸发。就像你有一天下班，就莫名想绕路去吃一家铁板烧，如果真有原因，大概率也不在当天。&lt;/p&gt;
+&lt;p&gt;当然，这个Skill缺点也不是没有。由于角度多重变换，AI在解读这其中复杂联系时，很容易陷入它的某种自嗨中，导致黑话连篇。但如果对这首诗真的感兴趣，耐着性子看下去，那信息密度你是会认可的。&lt;/p&gt;
+&lt;p&gt;还有一点要提醒的是，这个Skill会短时间触发大量网络搜索，在云端沙盒里用，容易被拦。推荐在本地Agent里用。&lt;/p&gt;
+&lt;p&gt;AI的东西到此为止，做这个Skill还是为了欣赏古诗词，是为现实生活服务的。古诗词中的美，连我这种Geek到死的理科生都能感受到，流传千年自有它的道理。真的对一首诗词感兴趣，六合读诗应该只是一个起点，背后的遥远时空，你可以带着AI一起探索。&lt;/p&gt;</description></item><item><title>操控记忆</title><link>https://victor42.eth.limo/post/memory-enhancement/</link><pubDate>Tue, 03 Jun 2025 12:53:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/memory-enhancement/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-06/inception-263477293847592384.jpg" alt="Featured image of post 操控记忆" /&gt;&lt;p&gt;掌握方法，普通人秒变记忆力大师。&lt;/p&gt;
+&lt;p&gt;这是以前在公司内部做过一次设计分享，其实和设计关系不大，末尾那点属于硬蹭了。&lt;/p&gt;
+&lt;p&gt;¯\&lt;em&gt;( ツ )&lt;/em&gt;/¯&lt;/p&gt;
+&lt;p&gt;把PPT整理成文章，分享出来。&lt;/p&gt;
+&lt;h2 id="记忆挑战"&gt;记忆挑战
+&lt;/h2&gt;&lt;p&gt;发现自己的记忆潜力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/d62428dd2690a20896f6da480b5b7941.webp"
+loading="lazy"
+alt="记忆挑战幻灯片封面展示数字网格背景"
+&gt;&lt;/p&gt;
+&lt;h3 id="两组随机数"&gt;两组随机数
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/c88e4452c9e4ed2512569eafae3f01eb.webp"
+loading="lazy"
+alt="记忆挑战幻灯片标题页两组随机数"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/8b772b9d247a32f163498a4b282521f4.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示7位随机数2518280"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/64718a22bac98c8eaddff347ac150411.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示7位随机数中2和8用蓝红色标注"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/14f5a1e904a4dd46817b0d1f092681d3.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五线谱状数字规律图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/4b986aaeab65d7d68e175d2a8a3e4f7e.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五线谱数字折线形成骆驼形状"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/7ad50cfe75874b922167a4ad5a8fa4d9.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示8位随机数97034728"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/02049e06255d5ed8c063391563bee7a0.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五言七言九言诗对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/c1e3bb59cc5d5f850975fdb32ae87022.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示明代杨慎九言诗梅花诗"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/3ab9ad48213869b8fc65ba909d6c4755.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示三国演义片头曲画面"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/2ca590aaca7fd44000e49078182df3dc.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五言七言九言诗九言被红叉划掉"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/3543354f63d313132a779944db2fa696.webp"
+loading="lazy"
+alt="记忆挑战幻灯片再次展示8位随机数97034728"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/cf9a395d1b83b99ecfe81c5f68e85c10.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示键盘数字小键盘区域将数字拆成4&amp;#43;4"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/b99577bffedef02eed527d07eea66ac4.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示数字键盘上用红色箭头连接数字形成形状"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/2619fe137ad8159c0ad22ce427988bf6.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示数字键盘上红色蓝色箭头形成瘸腿N形状"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/9130301ed49ebd920484d278846a61bb.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示数字键盘和两个形状说明记数字变成记形状"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/d236b5f11d13c9741e802934c6ac04d3.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示文字这是3个月前的数字和随机数当密码比生日安全"
+&gt;&lt;/p&gt;
+&lt;h3 id="五次中东战争年份"&gt;五次中东战争年份
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/649e6f118c2cd3faa3b0a1a90c1440b5.webp"
+loading="lazy"
+alt="记忆挑战幻灯片标题页五次中东战争"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/1d2a51536200dd813449a8bf8bf8111d.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五次中东战争年份1948至1982"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/08c179c567db5bd95909a250e659fcef.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五个年份中19变淡后两位加粗"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/7f30d18e8a93a13e7d3a29352853b59c.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五个年份十位数4至8用红色标注递增"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/8bebbd7c3dc0b83febbc4a27e202a8ec.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五个年份中个位和十位最大数字8出现在头尾"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/c4a3fe1de4fbb111b5b2d1e3c33c126e.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示牛角面包图片两头标注8"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/13a30885b5e5fd30fa831a640312dd0d.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示牛角面包下方数字尺4至8"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/7cc2b96618bc41bdec4b847f3854423e.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示牛角面包和红色弧线标注后四位个位数"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/422e1db31b1853aa72c6419dc5df541e.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示牛角面包和加减数标注很有规律"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/5dab8dc2985852bf1b01a716ae5c2b59.webp"
+loading="lazy"
+alt="记忆挑战幻灯片展示五个年份变成牛角面包和4个加减数"
+&gt;&lt;/p&gt;
+&lt;h2 id="记忆力是什么"&gt;记忆力是什么
+&lt;/h2&gt;&lt;p&gt;不是一种单一的能力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/41203ddd43f3c0212285dc9b224bdccd.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示软木板上红色图钉固定黄色便签纸灯泡图案"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/9a1b40e0ceffba4f2ba1afc796334440.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示大脑分区图标注各叶功能"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/55505ae11c7712ac4ebd138a97dbf67b.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示视觉处理过程视网膜到枕叶神经信号传递"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/e53594b0da4abaf733cb9529b87bdd61.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示苹果图片和神经元网络标注球形红色光滑属性"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/df0bdbb5498394b11e1677e0f6c1157c.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示猴子图片和神经元网络标注棕色像人毛茸茸属性"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/2133b1bbe1664f871aba020a6dbdbe11.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示神经元网络图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/f74eff3c34512052d3041cc494f4daae.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示猴子图片和神经元网络标注属性"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/2600af70f77a60cbb5ebae9a619fa69e.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示神经元网络图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/93c87b47f6156b65f7c7c08d88338cc0.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示猴子图片和神经元网络标注反复激活就记住了"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/4ec5dbf96710f519b10b28c1c41b413e.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示猴子图片等于神经元网络三个灯泡亮起"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/764c15852889e60e2dfff1e5a63d234f.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示猴子图片等于神经元网络多个灯泡白线连接"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/deeb007aadefd8d0b4cdd66da5d0245f.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示猴子图片等于神经元网络多个灯泡红线连接"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/0b0b5d115992545d09ed8815b9ec1220.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示记忆力不是单一能力公式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/1b8e87a41caa5ce6a4d71fdea3d9065b.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示公式中专注力标注因人而异因场景而异"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/0b3fb3c06208699ee9f5c8b44217af00.webp"
+loading="lazy"
+alt="记忆力是什么幻灯片展示公式中联想力标注可以锻炼专注力标注因人而异"
+&gt;&lt;/p&gt;
+&lt;h2 id="提高记忆力"&gt;提高记忆力
+&lt;/h2&gt;&lt;p&gt;原理一点也不难。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/740b2494a76401e21f6096a2d3d65736.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示古希腊圆形剧场记忆宫殿素描图"
+&gt;&lt;/p&gt;
+&lt;h3 id="调动感官"&gt;调动感官
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/e234486fd422be56ccdd352b7c08c914.webp"
+loading="lazy"
+alt="提高记忆力幻灯片标题页"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/aa5539697b98e9e37bd08e44da140ec0.webp"
+loading="lazy"
+alt="调动感官幻灯片标题页"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/272e7784148c45582a569c86f3e0ab61.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示5大感官儿童照片"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/439c0b08efa8c2f1bb7aa1edc25aca56.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示五感接受外部信息占比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;补充一点：较前沿的量子生物学研究表明，嗅觉可能也是一种物理感官。嗅觉系统感应的并不是化学分子结构，而是分子键的振动频率。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/6cefb8344072e3a725c76aec9a6a4bcd.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示阿富汗战争孤儿照片讲述嗅觉故事"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/8729cebe45a06256d235b072c413ada9.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示单词Fundamental和中文释义"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/cb5d3f5ee1b420f9abd191a2f1a975c4.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示红色文字方的馒头"
+&gt;&lt;/p&gt;
+&lt;p&gt;下面，来运用感官完成一个记忆任务。我小时候就是这么背这个单词的：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/2ce870103028764e7c39d5ad788876e2.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示方的馒头为中心五感辐射图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/f549f1222326591549a89ce2d0ddb2a2.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示砖墙图片解释为什么是基本的重要的必要的"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/25d0da273f850e4d74ce60d9d15d0b94.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示砖墙图片解释为什么是基本的重要的必要的"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/00f63fd48ffb20a5bbc152579116caa8.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示Fundamental和没什么好羞耻这就是大脑的工作方式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/84ed3fdd8e462794d6acce841d1971c6.webp"
+loading="lazy"
+alt="记忆宫殿幻灯片标题页"
+&gt;&lt;/p&gt;
+&lt;h3 id="记忆宫殿"&gt;记忆宫殿
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/12b887ce95e0194443008f6482eb80ad.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示神探夏洛克Mind Palace场景"
+&gt;&lt;/p&gt;
+&lt;p&gt;第一次听说这个词，是在《神探夏洛克》里。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/ae428b0de18e8e98d8da4dc8482f908e.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示卧室照片标注10个红色圆圈编号"
+&gt;&lt;/p&gt;
+&lt;p&gt;假设这是你最熟悉的自家卧室的样子。你要记10件事，先在房间里找到10个具体的位置。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/3225197087251c3a278f83a84226c739.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示卧室中放置各种荒诞图像的记忆宫殿"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/d6b7540448a1adea70b6bcd42d2d4179.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示文字记忆宫殿也可以是虚拟场景中国历史年代速记法"
+&gt;&lt;/p&gt;
+&lt;p&gt;这样的方法看似复杂，我日常生活中真的会用。我会这样记忆家务琐事，防止遗漏：&lt;a class="link" href="https://victor42.eth.limo/post/3620/" target="_blank" rel="noopener"
+&gt;当效率魔爪伸向家务领域……&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/795d87706f4bd47f118e11435d410a9a.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示超级马里奥游戏画面底部中国历史朝代时间轴"
+&gt;&lt;/p&gt;
+&lt;p&gt;历史故事和脉络容易记，但冷冰冰的历史年份却很难记。而记住年份好处很多，当我研究一些全球的历史事件时，我能知道当时的中国大概处在什么时代，对整个世界的历史格局有一个整体的认识。&lt;/p&gt;
+&lt;p&gt;比如很多人会吃惊于一个事实：爱因斯坦提出狭义相对论时，中国仍在清朝。广义相对论提出时，距离清朝正式灭亡才3年。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/bd4caf402f560ba5d2d16ce28f9fbebc.webp"
+loading="lazy"
+alt="提高记忆力幻灯片展示手绘浙江省行政区划简化地图"
+&gt;&lt;/p&gt;
+&lt;p&gt;汉朝公元前后各200年左右，像是个对称图形。马里奥一步大概跳300年，但元朝时为了踩蘑菇提前落下了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/952e891cf43d30ae6c1370c2cdd8bf9f.webp"
+loading="lazy"
+alt="设计干预记忆幻灯片展示男人坐椅子上头顶书本纸张飞舞"
+&gt;&lt;/p&gt;
+&lt;p&gt;有一天上班午休，闲来无事看浙江省地图看了半小时，然后就画出了我自己的简化版浙江地图。从此我对浙江省各地级市的方位了如指掌。&lt;/p&gt;
+&lt;h2 id="设计干预记忆"&gt;设计干预记忆
+&lt;/h2&gt;&lt;p&gt;不止提高自己的记忆力，还能提升别人的。&lt;/p&gt;
+&lt;p&gt;啊，尬蹭的部分开始了。谁让分享主题最好要和设计有关系呢。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/bbfcdd20052ac165424663f6ef3b3ef1.webp"
+loading="lazy"
+alt="设计干预记忆幻灯片展示Mac垃圾桶图标丰富感官"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/1b98b763e5c33d729d7ca87c1da72fb4.webp"
+loading="lazy"
+alt="设计干预记忆幻灯片展示高德地图App截图绑定原有记忆"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/f1413046dde5a9dac8c22f608b9aa49d.webp"
+loading="lazy"
+alt="设计干预记忆幻灯片展示Panda Cheese广告创造荒诞"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/11594c7570cab9f993e2c067e5706a37.webp"
+loading="lazy"
+alt="设计干预记忆幻灯片展示Panda Cheese广告创造荒诞"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/45caad19beea4820b84fc4fa04e27b7d.webp"
+loading="lazy"
+alt="设计干预记忆幻灯片展示盗梦空间陀螺设计把你的信息塞进别人的脑子里"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.bilibili.com/video/BV1Px411K7fo/" target="_blank" rel="noopener"
+&gt;熊猫奶酪的广告&lt;/a&gt;，看一遍记一辈子。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/4b0482002f70f252b19089b304300e22.webp"
+loading="lazy"
+alt="设计干预记忆幻灯片展示谢谢"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-06/7667211e06ba5f1f7480cc86d21efff3.webp"
+loading="lazy"
+alt="设计干预记忆幻灯片展示谢谢"
+&gt;&lt;/p&gt;</description></item><item><title>我们这代人的遗言会写在哪里？</title><link>https://victor42.eth.limo/post/3653/</link><pubDate>Tue, 20 Aug 2024 14:23:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3653/</guid><description>&lt;p&gt;不是，我没事，我今年才35，这是技术探讨。&lt;/p&gt;
+&lt;p&gt;之前&lt;a class="link" href="https://victor42.eth.limo/post/3652/" target="_blank" rel="noopener"
+&gt;AI过滤新闻&lt;/a&gt;的那篇里，有朋友发现我手机上有个自动任务“漏接老婆电话发送地理位置”，评论区非常欢乐。其实我说的是实话，虽然被人“千里跨国逮去噶腰子”可能性很小，但谁知道会不会遇到别的意外呢？如果放下传统观念里对死亡的忌讳，带着理性正视它的存在，至少可以提前做点准备，把一些只有自己知道、但有必要告诉家人的信息记录下来，并适时传递出去。&lt;/p&gt;
+&lt;p&gt;作为一个没什么建树的普通中年社畜，并不涉及家族产业传承、企业股权转让。我能为家人做的，只是把我现有的财产和负债盘点一下，留下线索，方便家人找回来。&lt;/p&gt;
+&lt;p&gt;这涉及3个问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;信息存在哪里？&lt;/li&gt;
+&lt;li&gt;什么时候以什么方式发出去？&lt;/li&gt;
+&lt;li&gt;能不能保证信息安全？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果按顺序来考虑这3个问题，很难找到令人满意的方案，要么不够自动化，要么不够安全。我甚至都找过有没有专门干这个的App，但在数据安全方面并不令人放心。偶然一天，我按照2、1、3的顺序思考，发现日历App就是一个绝佳的遗言记录和发送工具。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/ca91f7cba9e630d53033d7ef0d1253e2.jpg"
+loading="lazy"
+alt="日历应用中设置邮件提醒的自定义通知窗口"
+&gt;&lt;/p&gt;
+&lt;p&gt;设置一个循环事项，每月触发一次，提醒方式设置为邮件。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/62579ed37df278f49d5021b071a10c2c.jpg"
+loading="lazy"
+alt="电子邮箱中设置的邮件自动转发过滤规则"
+&gt;&lt;/p&gt;
+&lt;p&gt;它默认会发邮件给我自己，我到邮箱里设置一个过滤规则，只要正文包含了遗言开头的特定内容，就转发到我老婆的常用邮箱。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/ab7f8b818ec04f4effe2bd9a11090dda.jpg"
+loading="lazy"
+alt="日历事项详情中记录的留言描述与提醒"
+&gt;&lt;/p&gt;
+&lt;p&gt;遗言内容就写在该事项的备注里，写明我所有财产散落在哪些地方：投资账户、储蓄账户、保险账户分别有哪些，用户名是什么，出于数据安全考虑，密码不能留，只写下凭什么证件或手机号可以重置。债务也记录一下，主要是房贷，哪张卡还的，每月多少，及时续上别断了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-08/928065980cc3f8d0bc56f2ab9a441044.jpg"
+loading="lazy"
+alt="手机日历月视图中设置的日程事项提醒"
+&gt;&lt;/p&gt;
+&lt;p&gt;但这个循环事项每个月都会发邮件给我老婆，我要写的是遗言，又不是打工人月报。这时只能麻烦一下自己，提前一天再设置另一个循环事项，提醒自己把遗言事项删除。删的时候只删本次，别把整个循环删了。这个技巧叫负触发，从《三体》执剑人那学来的，某项活动终止了才触发。&lt;/p&gt;
+&lt;p&gt;这样既避免了每月打扰，也防止邮件发出去长期躺在老婆邮箱里，造成可能的数据泄漏和财产损失。毕竟她的数据安全意识没我好。对于我自己，为了数据安全，也不能把遗言记在日常的日历账户上。我专门注册了一个安全级别更高的账户，它从不用来注册账号、接收邮件，只用来做这件事。&lt;/p&gt;
+&lt;p&gt;当然，一整套设置下来，还是得和老婆说一声，至少让她别乱换常用邮箱。&lt;/p&gt;</description></item><item><title>手把手教你制作旅行攻略</title><link>https://victor42.eth.limo/post/3642/</link><pubDate>Fri, 15 Sep 2023 17:32:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3642/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-09/5ef58770aad9ed92e0535b0b357bd3fb.jpg" alt="Featured image of post 手把手教你制作旅行攻略" /&gt;&lt;p&gt;你可能没见过谁把旅行这事想这么明白。&lt;/p&gt;
+&lt;p&gt;旅游的经历基本上大家都有，旅行前亲自做攻略的人则不多。住宿、用餐、交通、购票……各种要素彼此交织，甚至可以说相互咬死，一个变数很可能打乱整个计划，是个复杂的系统工程。这导致许多人对旅行前的细致规划望而却步，更多是订了机酒火车说走就走。但你看到的是他们即刻启程的洒脱，看不到的是状况频出的窘迫。&lt;/p&gt;
+&lt;p&gt;夏末初秋，天气逐渐宜人。最近密集制作旅行攻略，顺带思考了方法的方法：如何系统性地做旅行规划。在一个万能的思考框架里，旅行攻略的规划变得很容易，从一项解线团的无头绪任务，变成了一套有明确顺序的流水线工序。按这套流程轻松快速制作旅行攻略，行程顺利不卡壳，也保留了随性与洒脱。&lt;/p&gt;
+&lt;h2 id="要素分解"&gt;要素分解
+&lt;/h2&gt;&lt;p&gt;在分享方法之前，先从头推导一遍，讲讲这套方法的逻辑基础。&lt;/p&gt;
+&lt;p&gt;尽管旅行的目的是追求一种精神与物质的混合享受，但你毕竟是肉身出行，物质世界的问题与需要，总要得到解决与满足。协调好物质世界的各种要素，是旅行攻略存在的意义。以此为前提，解开线团的关键，简单得近乎一句废话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人在一个时间只能出现在一个地点。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;人是生活在三维空间、一维时间的物种。无论你愿不愿意，你的肉身一定得存在于某个地点，而且无法分身。另一方面，无论你愿不愿意，时间总是向前流逝，既不会倒流，也无法跳过。&lt;/p&gt;
+&lt;p&gt;那么，做攻略的实质，就是要在旅行的这期间，把每个时间都填上相应的空间。&lt;/p&gt;
+&lt;p&gt;到目前为止，仍然都是废话。但废话马上就要开始发挥作用了：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/5594b69da68ee4d0143a0c262a81109a.jpg"
+loading="lazy"
+alt="旅行计划思维导图第一层，黑色旅行计划节点向下分出三个子节点：绿色时间/蓝色地点/黄色物品"
+&gt;&lt;/p&gt;
+&lt;p&gt;旅行的要素可以初步分为时间、地点、物品。其中时间地点共同构成了你每个瞬间所处的环境，人则是旅行的主体。当然，人是谁你再清楚不过了，需要规划的只有人的延伸（附属物），这就是物品了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/5ef58770aad9ed92e0535b0b357bd3fb.jpg"
+loading="lazy"
+alt="旅行计划思维导图完整展开，时间分为几天几夜和每日行程，地点分为跨市交通/市内交通/景点/酒店/餐馆，景点再分为候选景点和确定景点"
+&gt;&lt;/p&gt;
+&lt;p&gt;我们把时间地点进一步分解再分解，一次旅行所要考虑的要素就都摆在面前了。其中特意把景点分成了候选景点和确定景点，因为在某些情况下，景点受限于其他条件，需要进行一轮筛选。非必要、但可以简化问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/64480a4e44e37823a98713594b5e59e5.jpg"
+loading="lazy"
+alt="旅行计划9个叶子节点线性排列流程图，从左到右依次为几天几夜/每日行程/跨市交通/市内交通/候选景点/确定景点/酒店/餐馆/物品"
+&gt;&lt;/p&gt;
+&lt;p&gt;旅行的要素原子化后，问题就化解成了：我该先考虑（确定）哪些，按什么顺序来？&lt;/p&gt;
+&lt;h2 id="要素重组"&gt;要素重组
+&lt;/h2&gt;&lt;p&gt;以上分解过程是固定套路，要素的重组就需要你自己参与了。此行的目的是什么？是想要不辞辛劳见识向往的事物？还是只想用轻松愉快的身心填满这段时间？同样是为了获得快乐，关注效率还是总量，会得到截然不同的旅行模式。&lt;/p&gt;
+&lt;p&gt;我以自己的经验，排出了2类规划旅行要素的模式。不同情况我会采用不同的策略。&lt;/p&gt;
+&lt;h3 id="a-游览模式"&gt;A. 游览模式
+&lt;/h3&gt;&lt;p&gt;游览模式关注效率。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;效率 = 快乐总量 / 总时长 = (目标地点快乐总量+中途快乐总量) / 总时长&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在这种模式下，目标地点在单位时间里带来的快乐最多，中途则一定少于目标地点，甚至可能为负。如果你觉得中途的快乐也一样多，不是你错了，而是你喜欢另一个模式，我们后面再讲。&lt;/p&gt;
+&lt;p&gt;需要解释一下，并不只有传统意义上的景点才算目标地点。对于游览模式而言，如果一段路途能带来巨大快乐，比如自驾海滨公路，也应该算作目标地点而非中途。典型的中途，应该是指在大城市挤地铁、热门景点进场排队这类情况。&lt;/p&gt;
+&lt;p&gt;减少中途时间的占比，就能提高获得快乐的效率。如果有瞬移技术，你肯定巴不得把通勤全免了。效率高，换成大白话说，就是这趟玩得值。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/22794c641275b0e281926adf36373be0.jpg"
+loading="lazy"
+alt="社畜游览模式旅行计划有向图，跨市交通/市内交通/候选景点指向几天几夜，再指向确定景点，确定景点指向酒店/餐馆/物品，最终汇聚到每日行程"
+&gt;&lt;/p&gt;
+&lt;p&gt;游览模式的规划顺序：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;考虑怎么&lt;strong&gt;往返目标城市&lt;/strong&gt;，在&lt;strong&gt;目标城市用什么交通工具&lt;/strong&gt;，此行&lt;strong&gt;有哪些值得一看的地方&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;决定玩&lt;strong&gt;几天几夜&lt;/strong&gt;。几天几夜不是随心所欲定的，受限于往返目标城市的方式，比如高铁飞机不是什么时段都有班次，也受限于你的假期长短。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;确定景点&lt;/strong&gt;。根据几天几夜，你才能知道候选景点是否都去得了，去不了的话需要取舍。这时候，目标城市的交通方式是个制约因素，有些交通不便的景点，如果没有合适的交通工具，要么去不了，要么所花时间超出可接受范围。&lt;/li&gt;
+&lt;li&gt;定&lt;strong&gt;酒店&lt;/strong&gt;，列&lt;strong&gt;随行物品清单&lt;/strong&gt;。研究地图，找一个去各景点相对方便的酒店。当然，付房费的时候，你一定用得到几天几夜。另一方面，物品受景点影响，登山有登山的装备，下海有下海的衣服。&lt;/li&gt;
+&lt;li&gt;找&lt;strong&gt;餐馆或商圈&lt;/strong&gt;。在大城市玩，或对吃没要求，可以忽略。有些情况下有必要提前考虑，比如像我，带着话都还说不好的宝贝出门，要按时吃饭，还挑食物和口味。景点附近（中饭或晚饭）或酒店附近（晚饭）若有繁华的商圈，锁定商圈即可。若比较荒凉，就真的要考虑具体的用餐方案了，外卖或提前打包也是解决办法。&lt;/li&gt;
+&lt;li&gt;定&lt;strong&gt;每日行程&lt;/strong&gt;：考虑前几步的过程中，行程其实已经差不多出来了。这一步主要是调节先后顺序，合理分配较短的上午时间和较长的下午时间，让整个行程张弛有度。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/67bbcb6affbea7659a7463b347c9a713.jpg"
+loading="lazy"
+alt="退休游览模式旅行计划有向图，与社畜版区别在于几天几夜不再受跨市交通制约，候选景点可直接指向确定景点，时间充裕可全部游览"
+&gt;&lt;/p&gt;
+&lt;p&gt;游览模式有另一个变种。与社畜版不同的是，时间充裕的人，不必因为几天几夜的制约而被迫在候选景点里做取舍，他们可以把想去的地方都去个遍，大不了拉长时间。其他方面则基本相同。&lt;/p&gt;
+&lt;h3 id="b-度假模式"&gt;B. 度假模式
+&lt;/h3&gt;&lt;p&gt;度假模式关注总量。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;快乐总量 = 效率 x 总时长&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在这种模式下，首先会尽可能把效率拉满，不快乐的事情能少做就少做，不快乐的地方能少去就少去。保证时时刻刻都是快乐的，那么总量的影响因素就只剩时长了。3天不够休5天，5天不够休7天，直到快乐总量能够令你满足。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/179aac36050e91835b7362e50ab828ff.jpg"
+loading="lazy"
+alt="度假模式旅行计划有向图，跨市交通/市内交通/几天几夜/物品同时指向酒店，酒店指向候选景点和餐馆，确定景点和每日行程为虚线可选步骤"
+&gt;&lt;/p&gt;
+&lt;p&gt;度假模式的规划顺序：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;考虑怎么&lt;strong&gt;往返目标城市&lt;/strong&gt;，在&lt;strong&gt;目标城市用什么交通工具&lt;/strong&gt;，此行&lt;strong&gt;玩几天几夜&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;定&lt;strong&gt;酒店&lt;/strong&gt;。找个风景宜人或者设施齐全的酒店，需要考虑到交通枢纽的距离和市内通勤方式。公共交通还是自驾，对酒店的选择影响尤其大。&lt;/li&gt;
+&lt;li&gt;列出&lt;strong&gt;候选景点&lt;/strong&gt;，了解当地&lt;strong&gt;餐馆&lt;/strong&gt;。酒店出发能方便抵达的景点里，有哪些值得逛一逛消磨时间。当地有没有特别感兴趣的美食，有的话稍微做点美食攻略。&lt;/li&gt;
+&lt;li&gt;列&lt;strong&gt;随行物品清单&lt;/strong&gt;。物品基本没有任何制约条件，也不影响其他要素，什么时候考虑都可以。&lt;/li&gt;
+&lt;li&gt;规划基本就到此为止了，坐等出发。&lt;/li&gt;
+&lt;li&gt;实在想安排得细致一些，再从候选景点里选一些出来，和心仪的餐馆商圈串起来，构成每日行程。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="两种模式的区别"&gt;两种模式的区别
+&lt;/h3&gt;&lt;p&gt;两种模式看起来泾渭分明，但细想似乎存在一些模糊的中间地带。你可能会说，自己既不是特种兵玩法，也不爱换个城市睡懒觉，应该算什么？&lt;/p&gt;
+&lt;p&gt;的确，两种模式有可能排出一模一样的行程，但快乐的来源有本质区别：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;游览模式的快乐来自物理世界，来自地点。对目标地点的探索和体验越充分，快乐越多。游览模式可以接受旅行中有部分不快乐的时间，因为在快乐的时间段里可以大量赚回来。&lt;/li&gt;
+&lt;li&gt;度假模式的快乐来自精神世界，来自时间。随着身体的疲惫与路途的无聊持续累积，带来的边际快乐逐渐减少。为保持总是快乐的状态，度假模式可以随时停止当前活动，更换目标。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有个很好的类比，让你直观感受两者差别：想象一下，同样是迪士尼玩一天，两种模式玩法会有什么不同？这题不难回答。&lt;/p&gt;
+&lt;p&gt;如果一趟旅行中，目标地点能给前者带来巨大快乐，节奏得当的行程安排也让后者持续保持快乐状态，双方都会对旅行感到满意，但他们快乐的点不一样。&lt;/p&gt;
+&lt;p&gt;如果有两个景点，第一个费尽周折但可以获得巨大快乐，第二个唾手可得也有点小趣味，游览模式会选择第一个，度假模式则会选择第二个。&lt;/p&gt;
+&lt;p&gt;你的快乐更多来自哪里？或者说，你希望这趟旅行的快乐更多来自哪里？&lt;/p&gt;
+&lt;p&gt;两种模式并非旅行攻略的标准答案，人对于各要素的安排都有自己的偏好。关键在于，把各要素摆在面前，连线，画一张属于自己的旅行攻略规划思路。然后在接下来几十年内反复使用，你会发现，旅行攻略思考起来也没有多难。随着制作攻略逐渐熟练，你的旅行的次数也会显著增加，人生的快乐总量也随之增加。&lt;/p&gt;
+&lt;h2 id="实际运用"&gt;实际运用
+&lt;/h2&gt;&lt;p&gt;纸上谈兵结束，下面来看看这种思考框架的实际运用，以相对复杂的游览模式为例。&lt;/p&gt;
+&lt;p&gt;2021年4月，清明假期，带上家人和朋友，一行4人去敦煌自驾。攻略是我做的，大家对行程安排都比较满意。两年后谈起来，都觉得那是目前为止最难忘的一次旅行。游记在此：&lt;a class="link" href="https://victor42.eth.limo/post/3596/" target="_blank" rel="noopener"
+&gt;https://victor42.eth.limo/post/3596/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;游记只是结果，这里要分享的是准备旅行攻略的幕后过程。当时我用的是社畜游览模式。&lt;/p&gt;
+&lt;h3 id="前提条件与候选景点"&gt;前提条件与候选景点
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/f753e47db6b6a3c4285b767b884152bf.jpg"
+loading="lazy"
+alt="旅行计划步骤有向图高亮显示跨市交通/市内交通/候选景点三个先导任务节点，其余节点为灰色"
+&gt;&lt;/p&gt;
+&lt;p&gt;从杭州出发往返敦煌，清明3天假期再加2天年假，作为社畜，跨市交通除飞机别无选择。立马就把机票给订了。&lt;/p&gt;
+&lt;p&gt;5天假期即使全部投入，只能排出一个5天4夜的行程。而且是第1天一早出发，能玩半天；第5天睡个懒觉直接返程，夜晚到家。实际游玩时间3天半。&lt;/p&gt;
+&lt;p&gt;敦煌是沙漠城市，遇到沙尘暴概率高，景点多不在市内，当地租车是非常好的选择。顺手再把租车给搞定了。&lt;/p&gt;
+&lt;p&gt;至于候选景点，网上稍作了解，先列出来：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐景点&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;玉门关&lt;/li&gt;
+&lt;li&gt;阳关&lt;/li&gt;
+&lt;li&gt;莫高窟&lt;/li&gt;
+&lt;li&gt;又见敦煌演出&lt;/li&gt;
+&lt;li&gt;鸣沙山月牙泉&lt;/li&gt;
+&lt;li&gt;雅丹魔鬼城（暂停开放）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;其他景点&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;雷音寺（近鸣沙山月牙泉）&lt;/li&gt;
+&lt;li&gt;敦煌博物馆&lt;/li&gt;
+&lt;li&gt;白马塔（近敦煌博物馆）&lt;/li&gt;
+&lt;li&gt;西千佛洞&lt;/li&gt;
+&lt;li&gt;敦煌影视古城&lt;/li&gt;
+&lt;li&gt;敦煌盛典演出（近鸣沙山月牙泉）&lt;/li&gt;
+&lt;li&gt;丝路花语演出&lt;/li&gt;
+&lt;li&gt;榆林窟&lt;/li&gt;
+&lt;li&gt;锁阳城&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="确定景点"&gt;确定景点
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/063b2f77e058c1a6ee4018bc31d650de.jpg"
+loading="lazy"
+alt="旅行计划步骤有向图高亮显示确定景点节点为蓝色，其余节点为灰色，展示确定景点在流程中的位置"
+&gt;&lt;/p&gt;
+&lt;p&gt;观察地图，把候选景点根据地理位置分组。这里有个好办法是在地图软件上把它们逐个搜出来，添加收藏。完了把地图一缩小，看着满屏小星星，大概就知道如何分组了。想去的打勾即可。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;东线&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 莫高窟&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 又见敦煌演出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;西线&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 玉门关&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 阳关&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 西千佛洞&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 雅丹魔鬼城（暂停开放）&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 敦煌影视古城&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;城南&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 鸣沙山月牙泉&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 雷音寺&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 敦煌盛典演出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;瓜州线&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 榆林窟&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 锁阳城&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;市区&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 敦煌博物馆&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 白马塔&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 沙州故城&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 丝路花语演出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;分组对后续安排每日行程有很大帮助，基本就是一天一组。但此时不急着考虑行程，因为还缺一块重要拼图：酒店。&lt;/p&gt;
+&lt;h3 id="酒店与具体行程"&gt;酒店与具体行程
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/a14de957432f0840953cb0940a8e155a.jpg"
+loading="lazy"
+alt="旅行计划步骤有向图高亮显示酒店/餐馆/每日行程三个节点为蓝色和绿色，其余节点为灰色"
+&gt;&lt;/p&gt;
+&lt;h4 id="酒店"&gt;酒店
+&lt;/h4&gt;&lt;p&gt;酒店通常在各景点的中间地带选，要么紧挨景点或闹市区，要么紧挨交通枢纽。在此范围内再考虑设施条件和性价比。最终选择了敦煌闹市区的一家酒店，靠近夜市和商场，整体很满意。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/870683e4161c3e4e74732f1b301847f5.jpg"
+loading="lazy"
+alt="携程App敦煌酒店地图模式截图，地图上显示56家酒店价格标签从191元到1488元不等，顶部显示09-29至10-01日期筛选"
+&gt;&lt;/p&gt;
+&lt;p&gt;找酒店有个技巧，可以用好携程App的地图模式。这是敦煌市区的酒店，显示出它们最便宜的房型价格。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/087bd581b7bdb1d505d652f904678188.jpg"
+loading="lazy"
+alt="携程App酒店筛选页面截图，设施区域勾选禁烟房选项，显示免费停车/允许携带宠物/停车场/洗衣房等设施筛选标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;筛选功能也非常重要，酒店设施的相关信息是高度标准化的，筛选能帮你快速缩小选择范围。比如带娃出行，我会选无烟房。筛选条件一加，许多没必要看的酒店就从地图上消失了。&lt;/p&gt;
+&lt;p&gt;如果你有电脑可用，那太好了。我开发了一个浏览器插件，可用帮你对比多个携程酒店，把评分、差评率、房型、面积、窗户、床尺寸、吸烟信息一股脑灌到同一个Excel里，直观对比，快速选定。&lt;/p&gt;
+&lt;p&gt;欢迎取用：&lt;a class="link" href="https://github.com/greenzorro/hotel-comparer" target="_blank" rel="noopener"
+&gt;https://github.com/greenzorro/hotel-comparer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;现在，酒店也订好了。&lt;/p&gt;
+&lt;h4 id="餐馆"&gt;餐馆
+&lt;/h4&gt;&lt;p&gt;根据景点和酒店找餐馆，要么景点附近，要么酒店附近，敦煌之行基本就是这么安排的。那时候我还没小孩，大人吃饭都很佛系，没有专门做美食攻略。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/2b0ab0f7c0e01c080c4c26980f83fd9a.jpg"
+loading="lazy"
+alt="大众点评App敦煌美食地图截图，显示靖远尕六美味羊羔肉/国辉手抓羊羔肉/驴爸爸拉条子等餐馆位置及评分价格"
+&gt;&lt;/p&gt;
+&lt;p&gt;和找酒店类似，用好大众点评App的地图搜索功能。这是敦煌市区的美食地图，定位到你附近，放到足够大，就能看到周边每家餐馆。注意，一定要App，小程序没有这功能。美团App也行，但比较卡顿。&lt;/p&gt;
+&lt;p&gt;在没做美食攻略的情况下，临时找地方吃饭，距离是非常重要的制约因素。通过地图模式来找，效率非常高。&lt;/p&gt;
+&lt;h4 id="每日行程"&gt;每日行程
+&lt;/h4&gt;&lt;p&gt;安排每日行程，无非是把酒店、景点、餐馆/商圈在时间上做排列组合，没什么新工作要做。这一步需要花点心思的是，了解每个景点大致的游玩时间，避免行程太满或太空。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/d827653d704d8c7430a4dcd1a12c2730.jpg"
+loading="lazy"
+alt="飞书文档D2和D3行程规划，D2西线景点西千佛洞/玉门关/阳关/敦煌影视古城，D3莫高窟4小时加又见敦煌演出1.5小时"
+&gt;&lt;/p&gt;
+&lt;p&gt;需要注意的是，目标景点如果有非常热门的，像故宫博物院这种级别的，提前把门票买了。&lt;/p&gt;
+&lt;h3 id="随行物品清单"&gt;随行物品清单
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/ac92554aa849cd99b8407ddc04113296.jpg"
+loading="lazy"
+alt="旅行计划步骤有向图高亮显示物品节点为黄色，其余节点为灰色，展示物品在流程中的独立位置"
+&gt;&lt;/p&gt;
+&lt;p&gt;随行物品相对独立，与时间和地点关联不大。只要景点确定了，什么时候考虑都行，我倾向于放在最后考虑。&lt;/p&gt;
+&lt;p&gt;我是个Excel狂魔，任何能视作数据的东西，我都会优先用Excel来处理，旅行物品也不例外。成年人自己出行没必要搞这么复杂，但小宝贝的东西少带一样都可能惹来大麻烦，出行前必须仔细检查。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/cd2b78eae10081341b2cc3ef04b1979a.jpg"
+loading="lazy"
+alt="Excel亲子旅行行李检查清单，包含分类/物品/要带/要装包/已装包/已带6列，分宝贝吃喝/宝贝清洁/宝贝服装/宝贝其他/大人5大类"
+&gt;&lt;/p&gt;
+&lt;p&gt;为什么要分4列，其实从左到右是一个严谨的检查流程，下面逐一解释：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;要带&lt;/strong&gt;：这个表格并不是一次性的，而是长期积累下来反复使用。这一列的物品，有冬天的有夏天的，有爬山的有玩水的，曾经出游带过的都加进来。每次出游前，先从这列中决定此行要带哪些。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;要装包&lt;/strong&gt;：旅行物品分为两类，随身和不随身。如果把需要随身的物品留在酒店，带了也是白带，比如宝贝的纸尿裤，我自己就吃过这种亏。用Excel的筛选功能，给第1列加筛选条件，筛出此行需要的物品，从中决定要随身带的，在第2列打勾。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;已装包&lt;/strong&gt;：正式开始收拾行李，优先收拾随身物品。对照第2列，收拾好的在此列打勾。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;已带&lt;/strong&gt;：随身物品收拾得差不多了，给第3列加筛选条件，过滤掉已装包的。剩下的要么是还没收拾的随身物品，要么是装行李箱的物品，继续收拾即可。只要你能弄得清楚，34列的勾不打也不要紧。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;随行物品清单：&lt;a class="link" href="https://my.feishu.cn/wiki/R7EAwcYX1ikNlukteCdcVhdinhb?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/R7EAwcYX1ikNlukteCdcVhdinhb?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="攻略文档"&gt;攻略文档
+&lt;/h2&gt;&lt;p&gt;以上一套流程下来，旅行就规划得明明白白，并没有多复杂。但上面这些仅仅是思考和规划过程，基本都发生在脑子里。还需要一个地方承载这些错综复杂的信息，供自己回顾，也便于分享给同行人。&lt;/p&gt;
+&lt;p&gt;我还有一套长期使用的旅行攻略文档模板。整个模板基本就是一系列的填空题，把信息填到相应位置上，旅行攻略就成型了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/eedcf81640a1b16d68b6a60e6a4d14e6.jpg"
+loading="lazy"
+alt="飞书文档旅行攻略大纲目录，包含行程D1-D5/行李检查清单/小提示/候选景点/游记&amp;攻略参考5个模块"
+&gt;&lt;/p&gt;
+&lt;p&gt;文档分为几大模块：行程、行李检查清单、小提示、候选景点、游记&amp;amp;攻略参考。前3块是写给自己和同行人看的；后2块是攻略制作过程中的辅助信息，写给自己看的。两部分之间插入了分隔线，攻略制作完成，把后面部分删掉就可以分享给同行人了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;时间：x月x日-x月x日（x天x晚）&lt;/strong&gt;&lt;br&gt;
+跨市交通：跨市交通方式。&lt;br&gt;
+市内交通：市内交通方式。&lt;br&gt;
+住宿：酒店名称与临近景点或商圈（如有）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;首先，行程开头有个概览，是整个旅行计划的核心和基础。最关键的约束因素，跨市交通、市内交通、几天几夜、住宿，全部浓缩在这开头一小段。这些敲定了，具体游玩行程哪怕完全不规划，也不会犯什么掉链子的大错。&lt;/p&gt;
+&lt;p&gt;对于跨多城的旅行，我会把它展开为如下形式，更加直观：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;时间：x月x日-x月x日（x天x晚）&lt;/strong&gt;&lt;br&gt;
+跨市交通：x日飞机到xx，x日飞机到xx，x日飞机到xx，x日飞机返程。&lt;br&gt;
+市内交通：xx市地铁+打车，xx市公交+打车，xx市步行。&lt;br&gt;
+住宿：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;x-x日（x晚）住xx市 xx酒店。此处写下酒店临近景点或商圈（如有）。&lt;/li&gt;
+&lt;li&gt;x-x日（x晚）住xx市 xx酒店。此处写下酒店临近景点或商圈（如有）。&lt;/li&gt;
+&lt;li&gt;x-x日（x晚）住xx市 xx酒店。此处写下酒店临近景点或商圈（如有）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;但展开成这样需要非常小心，这里面有许多时间上的联动关系。漏改任何一处，对照着错误的行程安排去买机票火车票、订酒店，会变得不幸。尤其机票和海外酒店的退改会造成重大损失。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/Xnip2025-11-24_13-50-24.webp"
+loading="lazy"
+alt="Excel交通住宿行程联动表，包含开始日期/结束日期/所在城市/抵达方式/离开方式/市内交通/住几晚/酒店/酒店备注9列，展示曼谷/普吉岛/皮皮岛/香港多城行程"
+&gt;&lt;/p&gt;
+&lt;p&gt;这种任务，人脑就是没有程序可靠。为此，我还做了另一个表格计算工具，照着表格填，然后用表格来自动生成这一段行程概览，保证不漏不错。上面的表格内容，可以自动生成如下概览，从表格里复制出来，以纯文本形式贴到攻略文档即可：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;跨市交通：17日飞机到曼谷，19日飞机到普吉岛，22日游船到皮皮岛，27日游船到普吉岛，28日飞机到香港，31日飞机返程。&lt;br&gt;
+市内交通：曼谷地铁+打车，普吉岛公交+打车，皮皮岛步行，香港步行+地铁。&lt;br&gt;
+住宿：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;17-19日（2晚）住曼谷 Asia Hotel Bangkok。暹罗中心附近，商业繁华交通方便。&lt;/li&gt;
+&lt;li&gt;19-22日（3晚）住普吉岛 Sugar Marina Hotel -POP- Kata Beach。卡塔海滩附近。&lt;/li&gt;
+&lt;li&gt;22-27日（5晚）住皮皮岛 The Cliff at PP。通塞码头区域，交通方便，相对安静。&lt;/li&gt;
+&lt;li&gt;27-28日（1晚）住普吉岛 Nai Yang Beach Resort &amp;amp; Spa。奈扬海滩附近，离机场近。&lt;/li&gt;
+&lt;li&gt;28-31日（3晚）住香港 香港旺角维景酒店。旺角一带，商业繁华。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;交通住宿规划工具：&lt;a class="link" href="https://my.feishu.cn/wiki/IbkAwYIi6ieFcbkuIjuckpJlnQb?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/IbkAwYIi6ieFcbkuIjuckpJlnQb?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/eedcf81640a1b16d68b6a60e6a4d14e6.jpg"
+loading="lazy"
+alt="飞书文档旅行攻略模板中包含的大纲目录"
+&gt;&lt;/p&gt;
+&lt;p&gt;再回到攻略文档模板，行李检查清单前面已经讲过了。&lt;strong&gt;小提示&lt;/strong&gt;和&lt;strong&gt;游记&amp;amp;攻略参考&lt;/strong&gt;是之前没提到的内容。这两块本质上是备注，给大家看的备注和给自己看的备注，有价值的信息记录在此。&lt;/p&gt;
+&lt;p&gt;攻略文档模板和填好的样例都放在公开的旅行攻略站。空白模板入口如下；完整样例可看敦煌自驾攻略（对照模板结构）。如果有计划在春季去敦煌，甚至可以直接参考。&lt;/p&gt;
+&lt;p&gt;旅行攻略模板：&lt;a class="link" href="https://travel.victor42.work/" target="_blank" rel="noopener"
+&gt;https://travel.victor42.work/&lt;/a&gt;&lt;br&gt;
+敦煌自驾攻略：&lt;a class="link" href="https://travel.victor42.work/trip/dunhuang-self-drive/" target="_blank" rel="noopener"
+&gt;https://travel.victor42.work/trip/dunhuang-self-drive/&lt;/a&gt;
+我的旅行攻略集：&lt;a class="link" href="https://travel.victor42.work/" target="_blank" rel="noopener"
+&gt;https://travel.victor42.work/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="复杂行程的航班规划"&gt;复杂行程的航班规划
+&lt;/h2&gt;&lt;p&gt;有一种情况，一开头就会碰壁，单单跨市交通这一项就感觉理不清楚。&lt;/p&gt;
+&lt;p&gt;这就是在国庆、春节这种机票价格短期大幅波动的时期，复杂行程如何买机票最划算。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/Xnip2025-11-13_11-21-36.webp"
+loading="lazy"
+alt="Excel复杂航线机票比价表，包含日期/乘机/备注/杭州-曼谷/曼谷-普吉/普吉-曼谷/曼谷-杭州等多段航程票价，黄色标注最低价，红绿色标注涨跌"
+&gt;&lt;/p&gt;
+&lt;p&gt;为此我也专门做了个表格工具，用法很简单：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;日期列写上计划出行的日期范围。&lt;/li&gt;
+&lt;li&gt;查询并记下各日最低票价。&lt;/li&gt;
+&lt;li&gt;只填白列，灰列会自动计算。&lt;/li&gt;
+&lt;li&gt;黄色表示该程最低价，红/绿表示票价较前日大幅涨跌（默认15%，可在最右设置）。&lt;/li&gt;
+&lt;li&gt;确定乘机方案后在乘机列打勾备忘。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其中第2步耗时较多，可以用AI代劳。用Comet、Atlas这种AI浏览器，或者用Manus、Minimax这种AI智能体产品，一般的聊天对话AI不行。这有点考验提示词，否则容易获取不到数据或不完整。但考虑到这种事情一年也就几次，建议还是手动收集数据吧，最可靠。&lt;/p&gt;
+&lt;p&gt;最多支持8段航程，哪怕是欧洲旅行辗转多城，也足够了。 如果你真的有那么多的时间，去那么多地方，旅途一个多月，可能你并不需要比价哈哈哈。&lt;/p&gt;
+&lt;p&gt;航班规划表：&lt;a class="link" href="https://my.feishu.cn/wiki/SIbUw5N3ci79d2kySNqcItRHnYd?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/SIbUw5N3ci79d2kySNqcItRHnYd?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="旅行记账"&gt;旅行记账
+&lt;/h2&gt;&lt;p&gt;关于旅行另一件事是记账，没这个习惯的话就略过不看吧。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-09/3d367b5c87195d840767ecc6e9739016.jpg"
+loading="lazy"
+alt="Excel旅行记账表，4人总计22976元人均5744元，分类包含跨市交通38.13%/市内交通14.64%/住宿9.14%/游玩30.35%/餐饮7.74%"
+&gt;&lt;/p&gt;
+&lt;p&gt;这里主要是分享一张自制的Excel表格，可以方便地算出各类支出占比和人均花费，在朋友AA出游的情况下很有用。&lt;/p&gt;
+&lt;p&gt;旅行记账模板：&lt;a class="link" href="https://my.feishu.cn/wiki/Q76ywiamqiBKeTkTxhrcBW4MnVd?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/Q76ywiamqiBKeTkTxhrcBW4MnVd?from=from_copylink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>港口思维：从自动化任务到一种生活方式</title><link>https://victor42.eth.limo/post/3627/</link><pubDate>Thu, 12 Jan 2023 23:52:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3627/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-01/chuttersnap-xewrfLD8emE-unsplash.jpg" alt="Featured image of post 港口思维：从自动化任务到一种生活方式" /&gt;&lt;p&gt;从港口获得启发，重新看待生活事物与思想的流转方式。&lt;/p&gt;
+&lt;p&gt;这是一篇主题很抽象、话题很散乱的文章，讨论的是一个比较形而上的问题。既涉及一些信息自动化技巧，也思考一下生活哲学，方法的方法。如果有这个闲工夫，欢迎读下去。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;日常生活与工作有大量繁杂琐碎的小事，这些事情无论是在逻辑上还是时间上都没有规律。&lt;/p&gt;
+&lt;p&gt;一个典型的情况是：你正在电脑上研究某个问题，页面开了一大堆，有关的无关的都堆在一起，还下载了几个PDF。这时同事给你发了个文件，围绕文件内容跟你一番讨论。讨论过后，你要给他一些看法，你截了好几张图加以说明。完事也差不多该下班了，你合上电脑，起身回家。刚才几件事情产生的资料就留在了电脑上，等待你将来某天去清理。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/25483758823_4ef46dc7e1_o.jpg"
+loading="lazy"
+alt="摆满各种杂乱图标的电脑桌面截图，蓝色星空背景上密密麻麻排列着数百个文件和文件夹图标，包括PDF/游戏/文档/快捷方式等"
+&gt;&lt;/p&gt;
+&lt;p&gt;我认识的多数人属于随性派，就直接由它去了，后果就是满是文件的电脑桌面。当那个“将来某天”真正到来时，已经不记得这些资料是什么、有没有用、能不能清理掉。不清理吧，每天都大海捞针；清理吧，要逐一回忆这些资料的来历，没用的删掉，有用的还得存好，相当费时。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-21-44.jpg"
+loading="lazy"
+alt="待办完成界面截图，白色背景上显示橙黄色热气球插画，下方文字今天的任务已全部完成！尽情享受空的收件箱。"
+&gt;&lt;/p&gt;
+&lt;p&gt;也有另一类秩序派，就是那种时刻要保持邮箱收件箱空着的人，他们信仰今日事今日毕，效率奇高。再琐碎的事情，也会用某种方式记住，例如待办清单或便利贴，一有时间就全部处理掉。花当下的时间，以节省未来更多时间。清掉当天任务的那一刻，他们会感到由衷的喜悦。&lt;/p&gt;
+&lt;p&gt;我可能有点偏向秩序派，不过没到那个程度。我尝试过用后者的方法管理生活琐事，事情是井井有条了，却会把人搞得很累。在做完所有事之前，都处在一种微微焦虑的状态，这似乎对心理健康不利。&lt;/p&gt;
+&lt;p&gt;比起极致的井井有条，我认为轻松与愉快的心情才是更值得追求的目标，在这一前提下再来尽可能建立秩序。直到某一天，我在自我反思时意识到，自己不知不觉间已经建立了另一套运转机制，在用一种类似于海运港口的思路管理生活的方方面面，而这正是本文要分享的。&lt;/p&gt;
+&lt;h2 id="港口思维的原理"&gt;港口思维的原理
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/chuttersnap-xewrfLD8emE-unsplash.jpg"
+loading="lazy"
+alt="夜幕下繁忙海运港口俯拍照片，密密麻麻堆叠着数千个集装箱，多台黄色桥式起重机正在作业，灯光照亮整个港区"
+&gt;&lt;/p&gt;
+&lt;p&gt;这里先解释几个海运术语：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;免箱期和免堆期&lt;/strong&gt;：在海运行业，船舶公司和港口公司是相互独立的。当你的货物跨越大洋送到某个港口后，船舶公司通常会允许你继续免费占用集装箱几天，这是免箱期。而你的货物堆放在港口的某个地方，港口公司也会允许你免费堆放几天，让你有时间找车来把货物拉走，这是免堆期。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;滞箱费和滞港费&lt;/strong&gt;：与前两个名词相对。当你的货物占用集装箱太久，船舶公司就会向你收滞箱费。当你的货物在港口堆放太久，港口公司也会向你收滞港费。这样的约束机制可以避免你把宝贵的运输资源当成仓库，无限期占用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;港口思维，有两大核心原则：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;世间万物是动态的&lt;/strong&gt;。每件事从开始到结束，会经历一个中间状态。在观念上，接受这个中间状态的存在。在行动上，主动在生活各方面打造一个个装卸货的缓冲区，临时存放电子文件、网络内容、实体物品、甚至知识观念，用来容纳这个中间状态。而不是在心理上否认或忽视中间状态的存在，以至于缺乏对中间状态的管理，事情来了，如不立即处理得到结果，则转瞬即忘，或堆积如山。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;并非所有事都要有始有终&lt;/strong&gt;。重要的事，在港口就地处理，处理完要转移走，让它去该去的地方。不重要的事，在港口待一会儿就会暴露它的无足轻重，让它就地销毁。时间会魔法，港口就是施展魔法的地方，给一点时间，它能还你清静。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;毕竟，事缓则圆。&lt;/p&gt;
+&lt;p&gt;用港口思维来管理事物，便于调度，避免遗漏。更重要的是此举的心理意义，因为你清楚这些杂七杂八的事情有了正式的暂存地，就可以安然接受它们在这里待上一阵子，不会总惦记着有什么事没做（如果你是秩序派），因此内心毫无焦虑。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/3wg83jbos.jpg"
+loading="lazy"
+alt="上下对比图，上方为快递包裹堆积如山的场景，下方为废金属垃圾场堆积如山的场景，展示缓冲区被用成垃圾场的后果"
+&gt;&lt;/p&gt;
+&lt;p&gt;但对于随性派，即使建立了缓冲区，缓冲区也会被用成垃圾场。&lt;/p&gt;
+&lt;p&gt;这里不是要贬低某一类人，两类人不是固定的，必须对具体事情而言。每个人看重的事不同，你在这件事上是随性派，在另一件事上可能就会变成秩序派。多数人的电脑一团混乱，因为他们并不认为数字世界有多重要，他们的秩序建立在其他地方，比如社交圈子。同样，我不重视的东西，也会被我用成垃圾场。&lt;/p&gt;
+&lt;p&gt;回到正题，如何避免垃圾场问题？就是要像港口一样，建立约束机制，避免缓冲区无节制膨胀，这非常关键。&lt;/p&gt;
+&lt;p&gt;在数字资料方面，有许多自动化的手段，可以把停留时间太长的文件和资料清理掉，具体后面会讲。在实体物品方面，可以通过限定缓冲区空间容量，来迫使自己及时整理。在知识观念方面，则是时间在发挥最重要的过滤作用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/RE3HTxG.jpg"
+loading="lazy"
+alt="Microsoft To Do待办软件界面截图，左侧平板显示Work/Home/Groceries等分类列表，右侧手机显示Groceries清单含Milk/Apples/Frozen pizza等项目"
+&gt;&lt;/p&gt;
+&lt;p&gt;顺便提一下待办清单与港口思维的区别：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;性质不同：
+&lt;ul&gt;
+&lt;li&gt;待办清单只是一种工具。它是某个具体的软件，你需要安装这个工具、掌握它的用法。&lt;/li&gt;
+&lt;li&gt;港口思维是一种观念态度。任何信息和资料输入的地方都可以看作是港口。如果你认定电脑的桌面是港口，那它就是了。什么也没变，只是你会对桌面有新的理解，把它看成是文件的集散地。许多人就是这么做的，只是没意识到。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;存放的东西不同：
+&lt;ul&gt;
+&lt;li&gt;待办清单存放的只是概念。它把数字世界、现实世界的每件事抽象成一行字，列到一起集中管理。但事情相关的具体资料仍然在原地，待办清单不太擅长管理文件资料。&lt;/li&gt;
+&lt;li&gt;港口存放的是具体的资料。它是一些真实存在的位置，电脑上某个文件夹，或家门口的一个小纸袋，在港口可以直接就地处理相应的事情。因此港口有不止一个，但配合一些自动化手段，也不至于太多，不会有散落各处的问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;工作量不同：
+&lt;ul&gt;
+&lt;li&gt;使用待办清单会增加工作量。事情还在那，还在等着你处理。你的任务只是推迟了，一点也没有减轻。甚至还加重了，因为你还要额外去软件里记上一笔，完了还得打个钩。对于事情本身，这个记录行为是额外的、多余的。&lt;/li&gt;
+&lt;li&gt;港口思维的目的是减少工作量。它是对你已经熟悉的场所升级改造。在这里，重要的事，你自然会及时处理，无需提醒；不重要的，或者已经处理完的，让它自己消失。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="数字世界的港口"&gt;数字世界的港口
+&lt;/h2&gt;&lt;p&gt;在数字资料方面，港口的精髓在于约束机制，用一系列自动化手段把停留太久的资料清除掉。这个滞箱费和滞港费比真正的港口要昂贵得多，不是罚钱，而是把超时货物直接销毁掉。&lt;/p&gt;
+&lt;p&gt;这种看似危险的破坏机制，首先能督促你及时处理。更多时候也能反过来用，就由它去，让它替你清理资料，真正使你得到解放。&lt;/p&gt;
+&lt;p&gt;自动化手段的具体实现点到为止，这些都可以通过公开资料学会。工具会随时间而变迁，观念才经得起时间考验，本文主要展示一下这些手段能做到什么，如何形成约束机制。&lt;/p&gt;
+&lt;h3 id="手机文件港"&gt;手机文件港
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144709.jpg"
+loading="lazy"
+alt="安卓手机文件管理器截图，红圈标注0#FilePort文件夹含3个项目，下方列出0#Music/0#Resilio/Alarms/alipay/amap等文件夹"
+&gt;&lt;/p&gt;
+&lt;p&gt;我手机上有一个特殊的文件夹，是手机文件集散地，我给它命名就叫文件港。手机上不同应用下载的东西会被存到不同的地方，多数应用会存到“下载”文件夹，微信则会存到它特有的位置，百度云又另有一处，还有许多内容生产类软件也会输出到各自的文件夹。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-144251.jpg"
+loading="lazy"
+alt="Tasker自动化应用设置截图，显示三个开关：自动转移下载目录/自动转移微信下载目录/自动转移音频输出目录，均处于开启状态"
+&gt;&lt;/p&gt;
+&lt;p&gt;我通过一个叫Tasker的自动化应用，把它们集中起来，这些位置一有新文件出现，统统移动到文件港。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-144325.jpg"
+loading="lazy"
+alt="Tasker自动化应用设置截图，显示每日清理特定目录开关处于开启状态，时间设置为凌晨3:00AM执行清理特定目录任务"
+&gt;&lt;/p&gt;
+&lt;p&gt;Tasker还可以实现自动清理。我制定了一些规则，每天深夜，Tasker会把文件港里待了7天以上的文件删掉。我的文件港始终能保持相对清爽，文件容易找，也节省手机存储空间。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144823.jpg"
+loading="lazy"
+alt="Tasker任务编辑界面截图，标题清理特定目录，红圈标注Variable Set步骤，参数1设为%PathFilePort，参数2设为604800秒即7天"
+&gt;&lt;/p&gt;
+&lt;p&gt;这样一来，我需要在7天内把文件港里的事情处理完。不过这对我来说绰绰有余，通常我一两天就处理好了，然后也不用亲自善后，有用的移走，没用的等着自动删除。&lt;/p&gt;
+&lt;p&gt;我的是安卓手机，这个能力也许只有安卓手机具备。苹果不太确定，不知道这些年系统开放性有没有改善，很可能没有。&lt;/p&gt;
+&lt;h3 id="电话录音港"&gt;电话录音港
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-145049.jpg"
+loading="lazy"
+alt="安卓手机文件管理器截图，显示PhoneRecord文件夹内电话录音文件列表，每个文件为aac格式，大小从99KB到689KB不等，日期从2022年到2022年"
+&gt;&lt;/p&gt;
+&lt;p&gt;这也是只有安卓手机具备的能力，我会对所有电话录音，存到系统指定的文件夹里，以备不时之需。但是绝大多数是5秒内就挂掉的广告电话，这些没必要留着，录音文件太多不方便将来查找。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144905.jpg"
+loading="lazy"
+alt="Tasker任务编辑界面截图，红圈标注Variable Set步骤，参数1设为%PathCallRecord，参数2设为100000字节即100KB，用于清理小文件"
+&gt;&lt;/p&gt;
+&lt;p&gt;Tasker可以实现按文件大小来清理。我制定了一些规则，每天深夜，Tasker会把电话录音港里小于100kB的文件删掉，这就把真正有用的录音筛选出来了。&lt;/p&gt;
+&lt;p&gt;再配合一些同步盘，这些录音就能同步到电脑上，或者网盘里，进而长期保存。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-145129.jpg"
+loading="lazy"
+alt="Dropsync文件夹配对设置截图，Remote folder设为/archive/电话录音，Local folder设为[Internal storage]/Record/PhoneRecord，同步方法为Two-way双向同步"
+&gt;&lt;/p&gt;
+&lt;p&gt;我用了Dropbox的一个第三方客户端，Dropsync，实现了手机文件夹与网盘同步，这点连官方客户端都做不到。&lt;/p&gt;
+&lt;p&gt;这个港口的约束机制比较隐性。有用的电话本就不多，即便一刻不停地打电话，也有个一天24小时的天花板在，不会无止境膨胀，时间本身就是约束机制。因此可以放心就让它这么累积，作为备份。&lt;/p&gt;
+&lt;h3 id="电脑文件港"&gt;电脑文件港
+&lt;/h3&gt;&lt;p&gt;这个和手机文件港道理类似。但电脑有个好处，几乎所有软件下载都会放在系统的下载文件夹。我把下载文件夹当做港口，直接在这里处理事情，免去了集中的过程。而我的桌面从不放任何文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-52-38.jpg"
+loading="lazy"
+alt="Windows 11桌面截图，土星环壁纸背景，桌面上仅保留回收站一个图标，任务栏显示Edge/文件管理器/邮件等应用"
+&gt;&lt;/p&gt;
+&lt;p&gt;然后也有一些办法可以实现类似手机文件港的效果。Windows可以用File Juggler，我会让它清理掉18小时前的文件。Mac可以用系统自带的Automator+日历，我让它每天上午9点30把下载文件夹清空。总之，目的就是要日清。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-54-02.jpg"
+loading="lazy"
+alt="File Juggler自动清理规则设置截图，Description为Empty download，Monitor监控下载文件夹，If条件为Date modified Older than 18 Hours ago，Then动作为Send file to recycle"
+&gt;&lt;/p&gt;
+&lt;p&gt;清理的范围不同于手机文件港，但约束机制同理。电脑上每日处理的文件比手机多多了，日清才能把港口维持在一个秩序较高的状态。&lt;/p&gt;
+&lt;p&gt;我已习惯于在下载文件夹里处理临时产生的资料。当天处理完，结果和中间产物，有用的存起来，没用的随它去。至于一天都处理不完的事情，重要性也低不到哪去，我会转移到正式的文件夹去处理，有点项目立项的味道。&lt;/p&gt;
+&lt;h3 id="屏幕截图港"&gt;屏幕截图港
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-56-00.jpg"
+loading="lazy"
+alt="微信电脑端文件传输助手聊天窗口截图，红框标注底部工具栏中的剪刀截图按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;可能大多数人在电脑上截图用的是聊天软件，不用额外安装工具，但有个缺点，历史截图没有记录。有时候几天前截过的图要再用一次，就不得不去聊天记录里翻找，或者想办法重现当时截图的现场。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-57-15.jpg"
+loading="lazy"
+alt="Snipaste截图工具偏好设置界面截图，Output选项卡下Auto Save勾选开启，Path设为D:/Resilio/screenshots/Snipaste_$yyyy-MM-dd_HH-mm-ss.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;我更倾向于使用Snipaste这样的截图工具，不必依赖聊天软件，除了丰富的图片标注功能外，更重要的是每张截图都能保存到我指定的文件夹，可重复使用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_14-58-56.jpg"
+loading="lazy"
+alt="Resilio Sync截图对比，左侧Sync Home Pro显示screenshots文件夹状态正常1/3在线用户，右侧手机Folders界面显示screenshots文件夹Peers: 1"
+&gt;&lt;/p&gt;
+&lt;p&gt;个人电脑、工作电脑、手机有各自存放截图的文件夹。由于截图有时涉及敏感信息，我不想用网盘来同步，就用了没有云端的Resilio把它们关联起来，3台设备的截图就集中到了一起，每台设备都有一份，点对点保持同步。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112_144849.jpg"
+loading="lazy"
+alt="Tasker任务编辑界面截图，红圈标注Variable Set步骤，参数1设为%PathSyncScreenshots，参数2设为604800秒即7天，用于清理过期截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;截图，尤其是录屏，还是很占空间的，久远的截图也没有保留价值。我制定了一些规则，每天深夜，Tasker会把屏幕截图港里待了7天以上的截图删掉。由于能同步，其他设备上的也一起删掉了。&lt;/p&gt;
+&lt;p&gt;这个港口不仅有约束机制，还不需要费心思维护。截图我就照常截，既能找回近期的截图，还能把图片数量限制在一个可控范围，找起来不至于大海捞针。&lt;/p&gt;
+&lt;h3 id="浏览器标签页港"&gt;浏览器标签页港
+&lt;/h3&gt;&lt;p&gt;观察别人使用浏览器，发现大多数人属于“只开不关”型，常常把浏览器标签栏用成这样，然后第二天再全部关闭，从头来过：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_15-00-47.jpg"
+loading="lazy"
+alt="浏览器标签栏截图，显示密密麻麻挤满约20个标签页，包括Google搜索/Gmail/YouTube/文档等网站图标"
+&gt;&lt;/p&gt;
+&lt;p&gt;我原本没有这个问题，我关标签页关得很勤，有意识地及时把用完的标签页关掉。但这样也有弊端，会占用我的时间，还打断我的任务。常见的情况是，我点击网页，打开了一个新标签页，原先那个网页就没用了。像我这种标签页洁癖，就要立刻去把原先那个叉掉，即使用快捷键Ctrl/Cmd+Shift+Tab然后Ctrl/Cmd+W，比鼠标快一点，但也挺费劲。&lt;/p&gt;
+&lt;p&gt;要不试着把浏览器也看作港口呢？标签页也是数字资料，一样可以用港口思维来管理。这一试，真香，我也可以只开不关，不做那些擦屁股的事情。&lt;/p&gt;
+&lt;p&gt;这要用到一个叫Tab Wrangler的浏览器插件，支持Chrome应用商店的浏览器都可以安装。我制定了一些规则，超过12小时没动过的标签页，插件会自动把它关掉。第二天一觉起来，浏览器自己就干净了。至于要留到第二天处理的标签页，我只需要用浏览器的固定功能，固定的标签页不会被插件清理掉。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Snipaste_2023-01-12_15-02-18.jpg"
+loading="lazy"
+alt="Tab Wrangler浏览器插件设置界面截图，关闭不活动的标签页如果超过720分钟0秒，自动关闭标签页仅当已打开超过5个标签页，记住最多100个已关闭的标签页"
+&gt;&lt;/p&gt;
+&lt;p&gt;浏览器标签页港的约束机制和电脑文件港很像，日清。有用的标签页，主动保存一下；绝大多数都是没用的，不需任何额外处理。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我的数字世界港口看似众多，但基本都是对已有位置的升级改造，不改变原先的使用习惯，没什么要记住的。电话录音港和屏幕截图港甚至都不需要花精力管理，全静默运转。&lt;/p&gt;
+&lt;h2 id="物理世界的港口"&gt;物理世界的港口
+&lt;/h2&gt;&lt;p&gt;港口思维能不能再推广到数字世界之外，减轻生活负担呢？&lt;/p&gt;
+&lt;p&gt;完全没问题。这对很多人来说是自然而然的事情，开辟一个专用空间，用来存放待处理或分拣的物品，定期清理防止过度堆积。大家其实已经在这么做了，只是没有把它理论化。&lt;/p&gt;
+&lt;p&gt;比如双十一期间，家里包裹爆棚来不及拆，不就是先堆在门口吗？此时鞋柜旁的这个小空间就成了一个港口，每天有空就来拆一些。&lt;/p&gt;
+&lt;p&gt;又比如公司财务的办公桌，桌面上整整齐齐几摞A4纸。这摞是核对过待归档的，那摞是大家提交来的报销单。这也是港口，是文件的集散地。&lt;/p&gt;
+&lt;p&gt;所以，在物理世界建立港口其实没什么好讲的，这个能力所有人都已经掌握了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/IMG_20230112_103422.jpg"
+loading="lazy"
+alt="门后挂钩上挂着白色纸袋，纸袋上贴有手写Inbox字样和信封图标，用于存放有时效性的纸质文件"
+&gt;&lt;/p&gt;
+&lt;p&gt;不过我家还是有一个特别的小港口，可以展示一下。找了个大小合适的纸袋，贴上“Inbox”字样挂在门口，用来存放有时效性的纸质文件。&lt;/p&gt;
+&lt;p&gt;什么叫“有时效性的纸质文件”？比如一年期的车险合同，申请个税专项附加扣除所需的医疗记录，或者帮朋友收集的纸质餐饮发票。这些都是在一定时期内有用，过了就变废纸，不必长期保存的文件。&lt;/p&gt;
+&lt;p&gt;在数字化时代，家里这样的文件越来越少，但又不至于完全没有，这就是麻烦的地方。如果分门别类和长期资料放在一起，常常忘了清理，越积越多；如果就找个显眼地方放着，有些资料有效期还挺长，放了大半年后变成了垫纸，还能想得起来它在哪？&lt;/p&gt;
+&lt;p&gt;这时候，就该给它们开辟一个港口。物理世界的港口，约束机制基本只能靠空间尺寸。开辟的空间不宜太大，否则会变成仓库；也不宜太小，周转不过来。这需要一段时间的尝试，才能找到合适的尺寸。&lt;/p&gt;
+&lt;p&gt;总之，为物理世界的中间状态开辟空间，创造栖身之所。堵不如疏。&lt;/p&gt;
+&lt;h2 id="金融世界的港口"&gt;金融世界的港口
+&lt;/h2&gt;&lt;p&gt;金融世界处理的对象是钱。当然，没有哪一分钱是没用的、可以销毁的，所以这里主要解决的是资金的调度问题。&lt;/p&gt;
+&lt;p&gt;我有许多张银行卡，积蓄、理财和日常开销主要靠招商银行，还房贷是从建设银行扣款，还有就职过的各家公司的工资卡。资金散落各处，难以管理和统计，每月入账工资、还房贷，转账转来转去也很烦人，是不是也能有一个资金的港口来集中调度呢？&lt;/p&gt;
+&lt;p&gt;国内多数银行都有资金归集功能，而且是跨行的哦，去对应的银行App里搜一搜就能找到。它可以把两张不同银行的卡关联起来，设置规则全自动调度两张卡里的资金。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-01/Screenshot_20230112-150344.jpg"
+loading="lazy"
+alt="招商银行App资金归集设置截图，显示两条规则：每日保底归集中信银行到招商银行，每日智能归集建设银行最低5000元最高20000元到招商银行"
+&gt;&lt;/p&gt;
+&lt;p&gt;通过资金归集，每天招商银行会把中信银行工资卡里的资金都转过来，只留20块余额保持活跃。同时，招商银行每天会确保建设银行房贷卡里至少有5000余额用来还贷，不够了会打钱过去，而如果建行卡因为别人转账余额超过20000，则会把多出的部分收过来。&lt;/p&gt;
+&lt;p&gt;如此，这张招行卡就变成了我的金融港口。资金最大限度集中到这里，然后用于理财。即使将来还有其他银行卡，有其他形式的资金往来，也能通过这边来调度。&lt;/p&gt;
+&lt;h2 id="思想世界的港口"&gt;思想世界的港口
+&lt;/h2&gt;&lt;p&gt;更进一步，港口思维在思想世界有没有用武之地？&lt;/p&gt;
+&lt;p&gt;有的。在这里，它没有任何实体形式，没有文件夹，没有小纸袋，需要做的是改变你对信息的态度。&lt;/p&gt;
+&lt;p&gt;信息分为3类：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;事件&lt;/strong&gt;：一件事它发生了，你知道了，这是事件。由于对全社会的长期影响微乎其微，当下更多作为谈资，过后便没有价值了。比如2018年电影《敦刻尔克》获得第90届奥斯卡金像奖。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;知识&lt;/strong&gt;：你学到了一个原理或者历史事件，这是知识。这个原理很基本，不受人类社会左右，长期发挥作用。或者这个历史事件对全世界影响重大且久远，你弄明白了它的前因后果。比如2011年福岛核事故改变了世界各国对核电的态度和政策。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;观点&lt;/strong&gt;：你对一个事物有某种看法或态度，这是观点。你的观点只存在于你的内心，对这个事物，大家见仁见智各有看法。与你看法相同和相左的两批人甚至长期争吵不休。比如你觉得中国南方也应该像北方那样冬天集中供暖。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;事件是客观的、短期的；知识是客观的、长期的；观点是主观的。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;你日常从各种渠道接收到的信息，都在塑造和改变你的思想世界。今天一个很大的问题是，这3类信息都不可靠。事件往往是虚假的、以讹传讹的；知识往往是错误的、趋利而误导人的；观点往往是偏激的、逼着人选阵营的。任由这样的信息塑造，或者说入侵你的思想世界，你人就废了。&lt;/p&gt;
+&lt;p&gt;但接受信息无可避免，不能固步自封。每天海量的信息扑面而来，接受吧，可能吃下了太多垃圾；去验证吧，那么多信息哪里验证得过来。&lt;/p&gt;
+&lt;p&gt;所以，为思想世界建立一座港口，意义非凡。建立这座港口，就是要在观念上接受信息中间状态的存在。通俗说，就是要有一个“嗯，我听说过，不知道真假，还没验证”的状态。如果你看到一则新闻、一篇科普，大脑立马就想着要表态，想痛骂新闻当事人，或者想把这科普转发到家族群，说明思想的港口还没建立起来。&lt;/p&gt;
+&lt;p&gt;每天接收到的信息，不要直接当作事实放进记忆里，而是让它在这个“我听说过”的港口停留几天。在这几天里，足够重要的、与你息息相关事情，你自然会回忆起来，会去验证，了解它更多细节，形成自己的理解和态度，最终正式纳入你的思想世界。那些不重要的，不会再在你脑海里出现了，时间帮你把它们销毁了。即使将来某天再想起，它的状态也会变成：“嗯，我听说过，不知道真假，不重要，懒得验证”。&lt;/p&gt;
+&lt;p&gt;还记得港口思维的原则二吗？并非所有事都要有始有终。遗忘，就是思想港口的约束机制。&lt;/p&gt;
+&lt;h2 id="结语"&gt;结语
+&lt;/h2&gt;&lt;p&gt;从数字资料到物理世界，再从物理世界到思想，港口思维让人改变自身，主动贴合这个变幻流动着的世界。也许是因为贴近事物真实的运转方式，人反而感到更加轻松自然。&lt;/p&gt;
+&lt;p&gt;那这个抽象的“港口思维”到底在生活中起什么作用？怎么去想象这些虚拟的港口？&lt;/p&gt;
+&lt;p&gt;我脑海中的画面是：港口是一座座勇敢的关隘，它奋力对抗着混乱和无序，把秩序留给后方那些需要保护的土地。那些土地就是你的生活、你的时间、你的思想。&lt;/p&gt;</description></item><item><title>当效率魔爪伸向家务领域……</title><link>https://victor42.eth.limo/post/3620/</link><pubDate>Mon, 19 Sep 2022 12:30:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3620/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2022-09/number-two-symbol-neon-sign-vector-neon-blue-number-black-background-learning-numbers-serial-num_104045-2029.jpg" alt="Featured image of post 当效率魔爪伸向家务领域……" /&gt;&lt;p&gt;一个关于做家务的严谨思考，以及一套没事找事的记忆方法。&lt;/p&gt;
+&lt;p&gt;带娃之后，基本是晚上9点半之后集中做一天的家务。事情多起来时，经常做一件想到另一件，然后忘这忘那。以为事情做完了，终于可以坐下来喝口水，忽然想起洗衣机还有衣服没晾。晾完衣服回来，坐没多久，又想到垃圾该倒了。作为一个追求效率的狂人，必然不能忍受。一番深夜思考，发现家务琐事也可以有章法，安排得井井有条。这只需要一点点想象力和记忆技巧。&lt;/p&gt;
+&lt;p&gt;当事情堆积起来时，主要会产生2个问题：1、会忘，漏做一些事情；2、优先次序安排不好，做到一半卡住，某件事没结束导致其他事进行不下去。&lt;/p&gt;
+&lt;h2 id="避免遗漏"&gt;避免遗漏
+&lt;/h2&gt;&lt;p&gt;先来看第1个问题。为什么会忘？因为脑子记不住一大堆没有关联的事项。如果还经常被打断，每打断一次就增加了一层记忆负担。你得记住做什么的时候被打断了，否则做完了就回不去。接连被打断两三次后，肯定记不住最开始做的事情。这种记忆方式是线形的，像一个链条，每件事只和后一件事关联，任何一环的记忆断了，链条就断了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-09/a3dob-xm5if.jpg"
+loading="lazy"
+alt="手机待办软件界面截图被红色大叉否定，显示Reply email from John/Meet Joe/Swift Programming Course/Doing laundry等任务列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;好记性不如烂笔头？这句话在这里可不管用。家务事的场合，显然不适合掏出手机，在Todo应用里记上一笔。信息通过手指一顿点按进入手机内存，然后再经过屏幕和眼睛回到你脑子里，这效率简直低得令人发指。最高效的方法必然是直接用脑子记，脑子里的生物电信号以光速传输一下，难道不比手臂手指做机械功快得多？况且，做家务的手经常是湿漉漉的，这是使用手机的一大障碍。&lt;/p&gt;
+&lt;p&gt;可是事情太多记不住啊，怎么解决？没有关联，我们就创造关联。有个非常有效的方式是归类。这个过程需要你先理解每件事情，找到它们之间的共同点，才能根据共同点来归类。这似乎还增加了信息量，但信息结构由线性变成了树状，记忆更加牢固，便于顺藤摸瓜回想。而且需要记住的只是树的主干，具体事项的枝杈，在想到主干时自然会回忆起来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-09/number-two-symbol-neon-sign-vector-neon-blue-number-black-background-learning-numbers-serial-num_104045-2029.jpg"
+loading="lazy"
+alt="暗处发着蓝色与紫色亮光的霓虹灯数字2，底座为深蓝色圆柱形，背景为深紫色渐变"
+&gt;&lt;/p&gt;
+&lt;p&gt;那么多家务琐事，能有什么共性？最直观地，可以根据空间来分类。相比记忆抽象概念，人的大脑更擅长记忆具象的画面。自己家的环境你最熟悉，站在客厅里，你闭着眼睛都知道厨房在哪边，向卫生间望过去会看到什么，阳台的中央位置大致在哪。你就可以把客厅的这个观察视角作为想象和记忆的主画面。当厨房里有2件事要做时，你就想象厨房当中悬浮着一个霓虹灯构成的数字2。阳台有3件事要做，那边就漂浮着一个霓虹灯数字3。然后就不用记具体的事情了，你进入这个空间，自然会想起来。&lt;/p&gt;
+&lt;p&gt;对于抽象能力比较强、或者出租屋没有分那么多个空间的朋友，也可以换个方式来分类。日常家务无非就那么几类：洗吃的、洗穿的、洗自己。不属于这3类的事情，往往发生频率不那么高，就算作“其他”吧。想象墙上空白处有个表格，霓虹灯数字挂在表格里，道理也是一样的。&lt;/p&gt;
+&lt;p&gt;这种想象越具体，记得越牢。加入其他感官有奇效，调动感官越多，记忆效果指数增强。比如厨房新增了1件事，数字2闪烁几下，“噔”的一声跳成了3。又比如阳台的事情一口气做完了，数字3“嗞”地熄灭了，旁边还冒出几个电火花。&lt;/p&gt;
+&lt;p&gt;那如何确保通过数字能想起具体事项呢？想到某件事，数字+1前，脑海里快速一过遍，需要处理的物品在不在醒目位置？走进这个空间能不能一眼看到？能看到，非常好，什么都不用做，到时你会想起来。看不到，中断手上的事，快速走进这个空间，先把它放到能看见的位置。这就是现实版的“稍后处理”。&lt;/p&gt;
+&lt;p&gt;记数量有个很大优势在于，如果忘了具体事情，至少能意识到自己忘了。让数字继续在那挂着，先做做别的事，大概率还能想起来。&lt;/p&gt;
+&lt;h2 id="安排时间"&gt;安排时间
+&lt;/h2&gt;&lt;p&gt;第2个问题，事情做到一半卡住进行不下去，这往往发生在人等机器的情况。&lt;/p&gt;
+&lt;p&gt;如果所有事都是人工完成，那完全不存在这个问题，先做哪个总时长都是一样的。但总有一些时候，我得等洗衣机，这批洗完才能洗下批。我也要等洗碗机，这批碗洗完了，才能把第二天的蔬菜放进去开洗菜模式。还有消毒锅，等上一批奶瓶消毒完了，我要把刚用过的辅食碗放进去，再蒸一锅。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-09/ad6mo-foqs6.jpg"
+loading="lazy"
+alt="发着黄色与蓝色亮光的圆形霓虹灯时钟，外圈为橙黄色霓虹灯，内圈为蓝色霓虹灯刻度，指针指向约3点位置"
+&gt;&lt;/p&gt;
+&lt;p&gt;下厨的朋友很熟悉这种情况，一人操作电饭煲、高压锅、空气炸锅，脑子里必须安排好时间，才能尽快做出一桌菜。这个技巧同样可以推广到所有家务事，结合之前的霓虹灯画面，我们再在数字的右下角增加一个嘀嗒走的小时钟。只要某个空间（或者表格）里有机器正在替你做事，数字旁就出现小时钟。&lt;/p&gt;
+&lt;p&gt;现在，就有个顺序因素要考虑了。优先保证每个空间的小时钟都走起来，再去做需要人工处理的事情。&lt;/p&gt;
+&lt;h2 id="结语"&gt;结语
+&lt;/h2&gt;&lt;p&gt;使用这套记忆管理方法，我每天做家务时，脑子里时刻记着客厅视角的霓虹灯数字场景。像玩游戏一样，尽可能让每个空间的小时钟（如有）走起来，然后一个个数字给它掐灭了。减少遗忘、提高效率的同时，也给单调的日常劳动增加一点小小趣味。&lt;/p&gt;</description></item></channel></rss>
