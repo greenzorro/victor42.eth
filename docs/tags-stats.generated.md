@@ -4,15 +4,15 @@
 
 ## Summary
 
-- Articles scanned: 525
-- Articles with tags: 525
-- Unique tags: 332
-- Total tag assignments: 2009
-- Average tags per article: 3.83
+- Articles scanned: 527
+- Articles with tags: 527
+- Unique tags: 333
+- Total tag assignments: 2014
+- Average tags per article: 3.82
 - Glossary tags (CN): 236
 - Glossary tags (EN): 114
 - Used tags missing from glossary (CN): 0
-- Used tags missing from glossary (EN): 0
+- Used tags missing from glossary (EN): 1
 - Glossary tags unused in content (CN): 8
 - Glossary tags unused in content (EN): 2
 
@@ -20,9 +20,9 @@
 
 | Articles per tag | Unique tag count |
 | --- | --- |
-| 1 | 140 |
-| 2 | 59 |
-| 3 | 28 |
+| 1 | 142 |
+| 2 | 57 |
+| 3 | 29 |
 | 4-5 | 31 |
 | 6-10 | 30 |
 | 11-20 | 19 |
@@ -34,8 +34,8 @@
 
 | Tags on article | Article count |
 | --- | --- |
-| 2 | 114 |
-| 3 | 137 |
+| 2 | 115 |
+| 3 | 138 |
 | 4 | 126 |
 | 5 | 73 |
 | 6 | 34 |
@@ -64,10 +64,10 @@
 | `散文` | 29 | 折腾与思考-Geek: 14, 苟且与远方-Life: 13, 梦境与幻想-Dream: 2 |
 | `文字游戏` | 28 | 神经病-Humor: 28 |
 | `游戏` | 27 | 神经病-Humor: 19, 苟且与远方-Life: 3, 设计译文-Design: 3, 梦境与幻想-Dream: 2 |
+| `历史` | 26 | 折腾与思考-Geek: 14, 苟且与远方-Life: 10, 设计译文-Design: 2 |
 | `哲学` | 26 | 折腾与思考-Geek: 11, 苟且与远方-Life: 11, 梦境与幻想-Dream: 4 |
 | `梦` | 26 | 梦境与幻想-Dream: 21, 神经病-Humor: 4, 苟且与远方-Life: 1 |
 | `Science` | 26 | 折腾与思考-Geek: 26 |
-| `历史` | 25 | 折腾与思考-Geek: 13, 苟且与远方-Life: 10, 设计译文-Design: 2 |
 | `Technology` | 25 | 折腾与思考-Geek: 24, 苟且与远方-Life: 1 |
 | `Education` | 24 | 折腾与思考-Geek: 18, 苟且与远方-Life: 6 |
 | `社会` | 22 | 折腾与思考-Geek: 10, 苟且与远方-Life: 10, 梦境与幻想-Dream: 2 |
@@ -78,9 +78,9 @@
 | `烹饪` | 17 | 苟且与远方-Life: 16, 折腾与思考-Geek: 1 |
 | `育儿` | 16 | 苟且与远方-Life: 13, 神经病-Humor: 2, 折腾与思考-Geek: 1 |
 | `Design` | 16 | 折腾与思考-Geek: 16 |
+| `History` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `Daily Life` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `短篇小说` | 15 | 梦境与幻想-Dream: 15 |
-| `History` | 15 | 折腾与思考-Geek: 9, 苟且与远方-Life: 6 |
 | `音乐` | 14 | 苟且与远方-Life: 8, 神经病-Humor: 5, 梦境与幻想-Dream: 1 |
 | `Tutorial` | 14 | 折腾与思考-Geek: 14 |
 | `工具` | 13 | 折腾与思考-Geek: 11, 设计译文-Design: 2 |
@@ -131,6 +131,7 @@
 | `Fan Fiction` | `content/post-en/梦境与幻想/大雄拯救世界.md` | Nobita Saves the World |
 | `Fantasy` | `content/post-en/梦境与幻想/木精灵.md` | Wood Elves |
 | `Finance` | `content/post-en/折腾与思考/年化收益率的陷阱.md` | The Annualized Return Trap |
+| `Forest` | `content/post-en/梦境与幻想/木精灵.md` | Wood Elves |
 | `Future of Humanity` | `content/post-en/梦境与幻想/42秒.md` | 42 Seconds |
 | `Gaming` | `content/post-en/苟且与远方/魔兽世界的陈年往事.md` | Old Tales from World of Warcraft |
 | `Horror` | `content/post-en/梦境与幻想/降福灵童.md` | The Blessed Child |
@@ -148,6 +149,7 @@
 | `Programming` | `content/post-en/折腾与思考/自制《失控》活系统.md` | Building a Living System Inspired by Out of Control |
 | `Prompt Engineering` | `content/post-en/折腾与思考/AI生物学家.md` | My AI Biologist |
 | `Psychology` | `content/post-en/折腾与思考/一个图标背后的心理暗示.md` | The Psychology Behind an Icon |
+| `Rainforest` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | A Relaxing 6-Day 5-Night Spring Trip to Jinghong, Xishuangbanna |
 | `Robot` | `content/post-en/梦境与幻想/机器人的权利.md` | The Rights of Robots |
 | `Rural` | `content/post-en/梦境与幻想/降福灵童.md` | The Blessed Child |
 | `Savanna` | `content/post-en/梦境与幻想/草原之歌.md` | Song of the Grassland |
@@ -162,8 +164,8 @@
 | `Writing` | `content/post-en/折腾与思考/AI输出高质量科普文.md` | How I Use AI to Write High-Quality Popular Science Articles |
 | `Xi'an` | `content/post-en/苟且与远方/西安初夏休闲6天5夜.md` | A Relaxing 6-Day 5-Night Early Summer Trip to Xi an |
 | `Xinjiang` | `content/post-en/苟且与远方/新疆自然风光与民族文化旅行指南.md` | A Travel Guide to Xinjiang Natural Scenery and Ethnic Culture |
-| `Xishuangbanna` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | A Relaxing 6-Day 5-Night Spring Trip to Jinghong Xishuangbanna |
-| `Yunnan` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | A Relaxing 6-Day 5-Night Spring Trip to Jinghong Xishuangbanna |
+| `Xishuangbanna` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | A Relaxing 6-Day 5-Night Spring Trip to Jinghong, Xishuangbanna |
+| `Yunnan` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | A Relaxing 6-Day 5-Night Spring Trip to Jinghong, Xishuangbanna |
 | `上海` | `content/post/苟且与远方/山雨欲来风满楼.md` | 山雨欲来风满楼 |
 | `专访` | `content/post/折腾与思考/UI中国专访.md` | UI中国专访 |
 | `中东` | `content/post/折腾与思考/中东乱局80年：从以色列建国到加沙战争及后续.md` | 中东乱局80年：从以色列建国到加沙战争及后续 |
@@ -250,7 +252,7 @@ None.
 
 ### Used tags missing from glossary (English)
 
-None.
+- `Rainforest`
 
 ### Glossary tags unused in content (Chinese)
 
