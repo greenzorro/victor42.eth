@@ -671,6 +671,12 @@ Each tag appears once. When different categories reuse the same tag, update the 
 - **Don't use**: metaphorical "vision"
 - **Synonyms/retired**: TBD — appears once, context narrow; revisit when a second article arrives
 
+### `Weihai`
+- **Definition**: Weihai as a destination
+- **Use**: travelogues centered on Weihai
+- **Don't use**: articles that merely mention Weihai
+- **Synonyms/retired**: —
+
 ### `World of Warcraft`
 - **Definition**: World of Warcraft game and lore
 - **Use**: articles substantively about WoW

@@ -4,13 +4,13 @@
 
 ## Summary
 
-- Articles scanned: 527
-- Articles with tags: 527
-- Unique tags: 333
-- Total tag assignments: 2014
-- Average tags per article: 3.82
-- Glossary tags (CN): 236
-- Glossary tags (EN): 114
+- Articles scanned: 529
+- Articles with tags: 529
+- Unique tags: 335
+- Total tag assignments: 2024
+- Average tags per article: 3.83
+- Glossary tags (CN): 237
+- Glossary tags (EN): 115
 - Used tags missing from glossary (CN): 0
 - Used tags missing from glossary (EN): 1
 - Glossary tags unused in content (CN): 8
@@ -20,12 +20,12 @@
 
 | Articles per tag | Unique tag count |
 | --- | --- |
-| 1 | 142 |
-| 2 | 57 |
-| 3 | 29 |
+| 1 | 144 |
+| 2 | 56 |
+| 3 | 30 |
 | 4-5 | 31 |
-| 6-10 | 30 |
-| 11-20 | 19 |
+| 6-10 | 29 |
+| 11-20 | 20 |
 | 21-50 | 20 |
 | 51-100 | 4 |
 | 101+ | 1 |
@@ -36,9 +36,9 @@
 | --- | --- |
 | 2 | 115 |
 | 3 | 138 |
-| 4 | 126 |
+| 4 | 127 |
 | 5 | 73 |
-| 6 | 34 |
+| 6 | 35 |
 | 7 | 31 |
 | 8 | 10 |
 
@@ -52,19 +52,19 @@
 | `AI` | 53 | 折腾与思考-Geek: 42, 神经病-Humor: 4, 苟且与远方-Life: 4, 梦境与幻想-Dream: 3 |
 | `设计师` | 51 | 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
 | `科技` | 44 | 折腾与思考-Geek: 36, 神经病-Humor: 5, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
+| `美食` | 44 | 苟且与远方-Life: 29, 神经病-Humor: 14, 梦境与幻想-Dream: 1 |
 | `职场` | 43 | 折腾与思考-Geek: 12, 设计译文-Design: 12, 神经病-Humor: 11, 苟且与远方-Life: 8 |
-| `美食` | 43 | 苟且与远方-Life: 28, 神经病-Humor: 14, 梦境与幻想-Dream: 1 |
 | `日常` | 42 | 神经病-Humor: 25, 折腾与思考-Geek: 15, 苟且与远方-Life: 2 |
 | `教育` | 38 | 折腾与思考-Geek: 24, 苟且与远方-Life: 12, 梦境与幻想-Dream: 1, 设计译文-Design: 1 |
 | `科普` | 37 | 折腾与思考-Geek: 37 |
-| `旅行` | 36 | 苟且与远方-Life: 26, 神经病-Humor: 5, 梦境与幻想-Dream: 4, 折腾与思考-Geek: 1 |
+| `旅行` | 37 | 苟且与远方-Life: 27, 神经病-Humor: 5, 梦境与幻想-Dream: 4, 折腾与思考-Geek: 1 |
 | `网页设计` | 36 | 设计译文-Design: 36 |
 | `产品` | 35 | 折腾与思考-Geek: 24, 设计译文-Design: 11 |
 | `615` | 32 | 神经病-Humor: 26, 苟且与远方-Life: 6 |
 | `散文` | 29 | 折腾与思考-Geek: 14, 苟且与远方-Life: 13, 梦境与幻想-Dream: 2 |
 | `文字游戏` | 28 | 神经病-Humor: 28 |
+| `历史` | 27 | 折腾与思考-Geek: 14, 苟且与远方-Life: 11, 设计译文-Design: 2 |
 | `游戏` | 27 | 神经病-Humor: 19, 苟且与远方-Life: 3, 设计译文-Design: 3, 梦境与幻想-Dream: 2 |
-| `历史` | 26 | 折腾与思考-Geek: 14, 苟且与远方-Life: 10, 设计译文-Design: 2 |
 | `哲学` | 26 | 折腾与思考-Geek: 11, 苟且与远方-Life: 11, 梦境与幻想-Dream: 4 |
 | `梦` | 26 | 梦境与幻想-Dream: 21, 神经病-Humor: 4, 苟且与远方-Life: 1 |
 | `Science` | 26 | 折腾与思考-Geek: 26 |
@@ -76,9 +76,9 @@
 | `自然` | 17 | 苟且与远方-Life: 13, 梦境与幻想-Dream: 3, 折腾与思考-Geek: 1 |
 | `科幻` | 17 | 梦境与幻想-Dream: 12, 苟且与远方-Life: 3, 折腾与思考-Geek: 2 |
 | `烹饪` | 17 | 苟且与远方-Life: 16, 折腾与思考-Geek: 1 |
+| `History` | 17 | 折腾与思考-Geek: 10, 苟且与远方-Life: 7 |
 | `育儿` | 16 | 苟且与远方-Life: 13, 神经病-Humor: 2, 折腾与思考-Geek: 1 |
 | `Design` | 16 | 折腾与思考-Geek: 16 |
-| `History` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `Daily Life` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `短篇小说` | 15 | 梦境与幻想-Dream: 15 |
 | `音乐` | 14 | 苟且与远方-Life: 8, 神经病-Humor: 5, 梦境与幻想-Dream: 1 |
@@ -90,11 +90,11 @@
 | `建筑` | 12 | 苟且与远方-Life: 6, 神经病-Humor: 2, 设计译文-Design: 2, 折腾与思考-Geek: 1 |
 | `Product` | 12 | 折腾与思考-Geek: 12 |
 | `Career` | 12 | 折腾与思考-Geek: 10, 苟且与远方-Life: 2 |
+| `Travel` | 11 | 苟且与远方-Life: 10, 折腾与思考-Geek: 1 |
 | `科学` | 10 | 折腾与思考-Geek: 9, 苟且与远方-Life: 1 |
 | `大学` | 10 | 苟且与远方-Life: 6, 神经病-Humor: 3, 梦境与幻想-Dream: 1 |
 | `Essay` | 10 | 折腾与思考-Geek: 8, 苟且与远方-Life: 2 |
 | `Society` | 10 | 折腾与思考-Geek: 7, 苟且与远方-Life: 2, 梦境与幻想-Dream: 1 |
-| `Travel` | 10 | 苟且与远方-Life: 9, 折腾与思考-Geek: 1 |
 | `动画` | 9 | 设计译文-Design: 8, 折腾与思考-Geek: 1 |
 
 ## Single-use Tags
@@ -159,6 +159,7 @@
 | `Statistics` | `content/post-en/折腾与思考/Excel自制儿童生长曲线.md` | Building a Custom Child Growth Curve in Excel |
 | `Suzhou` | `content/post-en/苟且与远方/苏州园林的一点功课.md` | A Bit of Homework on Suzhou Gardens |
 | `Vision` | `content/post-en/折腾与思考/关于分辨颜色的视觉实验.md` | A Visual Experiment on Distinguishing Colors |
+| `Weihai` | `content/post-en/苟且与远方/威海初秋看海玩沙6天5夜.md` | A 6-Day 5-Night Early Autumn Beach Trip to Weihai |
 | `Windows` | `content/post/折腾与思考/win8小试.md` | win8小试 |
 | `World of Warcraft` | `content/post-en/苟且与远方/魔兽世界的陈年往事.md` | Old Tales from World of Warcraft |
 | `Writing` | `content/post-en/折腾与思考/AI输出高质量科普文.md` | How I Use AI to Write High-Quality Popular Science Articles |
@@ -189,6 +190,7 @@
 | `哆啦A梦` | `content/post/梦境与幻想/大雄拯救世界.md` | 大雄拯救世界 |
 | `哥特` | `content/post/梦境与幻想/威廉古堡的谜案.md` | 威廉古堡的谜案 |
 | `天罚` | `content/post/梦境与幻想/天罚纪元的平凡一天.md` | 天罚纪元的平凡一天 |
+| `威海` | `content/post/苟且与远方/威海初秋看海玩沙6天5夜.md` | 威海初秋看海玩沙6天5夜 |
 | `宁夏` | `content/post/苟且与远方/蒙西宁夏国庆小众自驾6天5夜.md` | 蒙西宁夏国庆小众自驾6天5夜 |
 | `宁波` | `content/post/苟且与远方/酱油打到了宁波.md` | 酱油打到了宁波 |
 | `寓言` | `content/post/梦境与幻想/蚂蚁楚门秀.md` | 蚂蚁楚门秀 |
