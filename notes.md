@@ -42,6 +42,7 @@ victor42.eth/
 │   └── scss/
 │       └── variables.scss      # Stack主题变量
 ├── content/                    # 内容
+│   ├── page/                   # 关于、归档等单页
 │   ├── post/                   # 中文文章
 │   │   ├── 苟且与远方/
 │   │   ├── 梦境与幻想/
@@ -93,6 +94,8 @@ victor42.eth/
 **资源**:
 - `assets/scss/variables.scss`: 主题变量
 - `static/css/custom-override.css`: 样式覆盖
+- `assets/icons/`: 菜单与社交 SVG，约定见 5.5.5
+- `content/page/about/index.md`: 关于页（文字社交链接与侧边栏同源）
 
 ---
 
@@ -409,6 +412,24 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 - 嵌套菜单CSS规则覆盖
 - 三列布局（宽屏）vs 单列（移动端）
 
+#### 5.5.5 社交媒体链接与图标
+
+侧边栏社交图标来自 `config.toml` 的 `[[menu.social]]`，由 `layouts/partials/sidebar/left.html` 按 `weight` 升序渲染。`params.icon` 对应 `assets/icons/<icon>.svg`；`layouts/partials/helper/icon.html` 用 `resources.GetMatch` 读取，文件不存在则构建失败。
+
+当前入口（weight 1→5）：
+
+| name | url | icon |
+|------|-----|------|
+| X | https://x.com/victor_cheng_42 | brand-x |
+| 知乎 | https://www.zhihu.com/people/victor_42 | brand-zhihu |
+| Medium | https://medium.com/@victor_42 | brand-medium |
+| 马蜂窝 | https://www.mafengwo.cn/u/47038662.html | brand-mafengwo |
+| GitHub | https://github.com/greenzorro | brand-github |
+
+品牌 SVG：X / 知乎 / Medium / GitHub 使用 Tabler Icons outline（`@tabler/icons` 的 `brand-*`）。马蜂窝在 Tabler 无对应图标，使用仓库内自定义 SVG。
+
+关于页 `content/page/about/index.md` 用同一组主页的文字链接，顺序与侧边栏一致，并额外包含 `mailto:hi@victor42.work`。
+
 ## 6. 核心配置
 
 ### 6.1 config.toml 关键配置
@@ -484,6 +505,8 @@ tag = "tags"
 
 # Google Analytics
 GoogleAnalytics = "G-H0F3NJJ4RT"
+
+# 社交入口 [[menu.social]]：侧边栏图标与 URL，约定见 5.5.5
 ```
 
 ### 6.2 go.mod 依赖
@@ -548,5 +571,5 @@ assets/
 
 **自定义样式说明**:
 - `static/css/custom-override.css`: Stack主题样式覆盖
-- `assets/icons/`: SVG图标目录
-- 主题资源通过Hugo Modules从Stack主题复制
+- `assets/icons/`: 项目本地 SVG；社交品牌图标约定见 5.5.5
+- 主题资源通过 Hugo Modules 从 Stack 主题合并，同名文件以项目 `assets/` 为准

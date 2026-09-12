@@ -103,7 +103,8 @@ local = false
     weight = -20
     params = { newTab = false, icon = "user" }
 
-# 社交媒体链接（通过menu配置 - Stack v3.32.0要求）
+# 社交媒体链接（Stack v3.32.0 用 [[menu.social]]）
+# params.icon 对应 assets/icons/<icon>.svg；Tabler 无该品牌时才放自定义 SVG
 [[menu.social]]
 name = "X"
 url = "https://x.com/victor_cheng_42"
@@ -119,16 +120,23 @@ weight = 2
 icon = "brand-zhihu"
 
 [[menu.social]]
+name = "Medium"
+url = "https://medium.com/@victor_42"
+weight = 3
+[menu.social.params]
+icon = "brand-medium"
+
+[[menu.social]]
 name = "马蜂窝"
 url = "https://www.mafengwo.cn/u/47038662.html"
-weight = 3
+weight = 4
 [menu.social.params]
 icon = "brand-mafengwo"
 
 [[menu.social]]
 name = "GitHub"
 url = "https://github.com/greenzorro"
-weight = 4
+weight = 5
 [menu.social.params]
 icon = "brand-github"
 
