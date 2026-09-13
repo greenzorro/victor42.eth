@@ -416,17 +416,20 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 
 侧边栏社交图标来自 `config.toml` 的 `[[menu.social]]`，由 `layouts/partials/sidebar/left.html` 按 `weight` 升序渲染。`params.icon` 对应 `assets/icons/<icon>.svg`；`layouts/partials/helper/icon.html` 用 `resources.GetMatch` 读取，文件不存在则构建失败。
 
-当前入口（weight 1→5）：
+当前入口（weight 0→5）：
 
 | name | url | icon |
 |------|-----|------|
+| 公众号 | https://victor42.eth.limo/wechat-official-account/ | brand-wechat |
 | X | https://x.com/victor_cheng_42 | brand-x |
 | 知乎 | https://www.zhihu.com/people/victor_42 | brand-zhihu |
 | Medium | https://medium.com/@victor_42 | brand-medium |
 | 马蜂窝 | https://www.mafengwo.cn/u/47038662.html | brand-mafengwo |
 | GitHub | https://github.com/greenzorro | brand-github |
 
-品牌 SVG：X / 知乎 / Medium / GitHub 使用 Tabler Icons outline（`@tabler/icons` 的 `brand-*`）。马蜂窝在 Tabler 无对应图标，使用仓库内自定义 SVG。
+品牌 SVG：公众号 / X / 知乎 / Medium / GitHub 使用 Tabler Icons outline（`@tabler/icons` 的 `brand-*`）。马蜂窝在 Tabler 无对应图标，使用仓库内自定义 SVG。
+
+公众号指向站内静态页 `static/wechat-official-account/index.html`，线上路径 `/wechat-official-account/`。
 
 关于页 `content/page/about/index.md` 用同一组主页的文字链接，顺序与侧边栏一致，并额外包含 `mailto:hi@victor42.work`。
 
@@ -560,6 +563,8 @@ layouts/
 static/
 ├── css/
 │   └── custom-override.css     # 自定义样式、语言切换、标签、文章页脚
+├── wechat-official-account/
+│   └── index.html              # 公众号二维码独立页
 ├── favicon.ico                 # 站点图标
 └── robots.txt                  # 搜索引擎爬虫配置
 

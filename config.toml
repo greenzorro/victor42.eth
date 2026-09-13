@@ -106,6 +106,13 @@ local = false
 # 社交媒体链接（Stack v3.32.0 用 [[menu.social]]）
 # params.icon 对应 assets/icons/<icon>.svg；Tabler 无该品牌时才放自定义 SVG
 [[menu.social]]
+name = "公众号"
+url = "https://victor42.eth.limo/wechat-official-account/"
+weight = 0
+[menu.social.params]
+icon = "brand-wechat"
+
+[[menu.social]]
 name = "X"
 url = "https://x.com/victor_cheng_42"
 weight = 1
