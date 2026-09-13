@@ -17,7 +17,7 @@ menu:
 
 **Victor**，职业是UI/UX设计师，现居杭州。至于42，是个神奇数字小尾巴，科幻迷会懂。
 
-社交媒体：[公众号](https://victor42.eth.limo/wechat-official-account/) | [X](https://x.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/victor_42) | [Medium](https://medium.com/@victor_42) | [马蜂窝](https://www.mafengwo.cn/u/47038662.html) | [Github](https://github.com/greenzorro) | [邮件](mailto:hi@victor42.work)
+社交媒体：[公众号](/wechat-official-account/) | [X](https://x.com/victor_cheng_42) | [知乎](https://www.zhihu.com/people/victor_42) | [Medium](https://medium.com/@victor_42) | [马蜂窝](https://www.mafengwo.cn/u/47038662.html) | [Github](https://github.com/greenzorro) | [邮件](mailto:hi@victor42.work)
 
 [>> 设计作品传送门 <<](https://www.behance.net/greenzorro)（陈年老图久未更新，设计水平也不咋地，不看也罢）
 

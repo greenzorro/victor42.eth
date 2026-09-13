@@ -420,7 +420,7 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 
 | name | url | icon |
 |------|-----|------|
-| 公众号 | https://victor42.eth.limo/wechat-official-account/ | brand-wechat |
+| 公众号 | /wechat-official-account/ | brand-wechat |
 | X | https://x.com/victor_cheng_42 | brand-x |
 | 知乎 | https://www.zhihu.com/people/victor_42 | brand-zhihu |
 | Medium | https://medium.com/@victor_42 | brand-medium |
