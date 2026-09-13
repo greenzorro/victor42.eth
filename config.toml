@@ -108,42 +108,42 @@ local = false
 [[menu.social]]
 name = "公众号"
 url = "/wechat-official-account/"
-weight = 0
+weight = 1
 [menu.social.params]
 icon = "brand-wechat"
 
 [[menu.social]]
 name = "X"
 url = "https://x.com/victor_cheng_42"
-weight = 1
+weight = 2
 [menu.social.params]
 icon = "brand-x"
 
 [[menu.social]]
 name = "知乎"
 url = "https://www.zhihu.com/people/victor_42"
-weight = 2
+weight = 3
 [menu.social.params]
 icon = "brand-zhihu"
 
 [[menu.social]]
 name = "Medium"
 url = "https://medium.com/@victor_42"
-weight = 3
+weight = 4
 [menu.social.params]
 icon = "brand-medium"
 
 [[menu.social]]
 name = "马蜂窝"
 url = "https://www.mafengwo.cn/u/47038662.html"
-weight = 4
+weight = 5
 [menu.social.params]
 icon = "brand-mafengwo"
 
 [[menu.social]]
 name = "GitHub"
 url = "https://github.com/greenzorro"
-weight = 5
+weight = 6
 [menu.social.params]
 icon = "brand-github"
 

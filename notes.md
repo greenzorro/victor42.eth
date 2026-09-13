@@ -414,9 +414,9 @@ require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0
 
 #### 5.5.5 社交媒体链接与图标
 
-侧边栏社交图标来自 `config.toml` 的 `[[menu.social]]`，由 `layouts/partials/sidebar/left.html` 按 `weight` 升序渲染。`params.icon` 对应 `assets/icons/<icon>.svg`；`layouts/partials/helper/icon.html` 用 `resources.GetMatch` 读取，文件不存在则构建失败。
+侧边栏社交图标来自 `config.toml` 的 `[[menu.social]]`，由 `layouts/partials/sidebar/left.html` 按 `weight` 升序渲染。`weight` 从 1 起编；`0` 会被 Hugo 当成未设置，排到末尾。`params.icon` 对应 `assets/icons/<icon>.svg`；`layouts/partials/helper/icon.html` 用 `resources.GetMatch` 读取，文件不存在则构建失败。
 
-当前入口（weight 0→5）：
+当前入口（weight 1→6）：
 
 | name | url | icon |
 |------|-----|------|
