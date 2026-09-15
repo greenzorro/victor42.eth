@@ -1,0 +1,2049 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移动端 on Victor42</title><link>https://victor42.eth.limo/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</link><description>Recent content in 移动端 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>移动应用弹窗设计指南</title><link>https://victor42.eth.limo/post/3563/</link><pubDate>Sun, 06 Aug 2017 00:04:33 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3563/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第180期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-08/08-05/mobile-app-popups-header.jpg"
+loading="lazy"
+alt="手持白色智能手机模型屏幕显示蓝色弹窗的蓝色背景图"
+&gt;&lt;/p&gt;
+&lt;p&gt;弹窗、对话框，随你怎么称呼，这些小窗口出现在屏幕上从来都不是理所当然。虽然它们是你应用中一些相对较“小”的元素，却扮演着影响用户体验的重要角色。&lt;/p&gt;
+&lt;p&gt;一方面，它们可以帮助用户度过应用内的旅程。另一方面，处理不当时，它们也会使用户感到挫败。&lt;/p&gt;
+&lt;p&gt;有幸的是，弹窗比较成熟，容易实现。用适当的手段和规范可以轻易改善它们。我们这篇文章要讨论的就是这个。&lt;/p&gt;
+&lt;p&gt;由于并非所有弹窗形式都相同，我们把它分解为5种常见类型，并且总结了每一种的优化“准则”。遵循这些指南，你一定可以使你的弹窗更好地达成目标。&lt;/p&gt;
+&lt;h2 id="推荐给朋友和为应用打分弹窗"&gt;“推荐给朋友”和“为应用打分”弹窗
+&lt;/h2&gt;&lt;p&gt;你当然希望用户量增长、提升好评率、增加病毒式传播的可能。谁不想呢？但是你要了解，多数用户不会向朋友推荐你的应用，或者给它打分，除非他们觉得这么做会得到有价值的回报。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-08/08-05/mobile-app-popups-1-uber.jpg"
+loading="lazy"
+alt="Uber应用通过推荐好友解锁免费乘车奖励的弹窗"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Uber的奖励弹窗&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;“但是，推荐给朋友是如此简单轻松的任务啊！为什么用户不会大发慈悲，帮助一款小软件成长呢？”很不幸，现实没有这么简单。&lt;/p&gt;
+&lt;p&gt;注意我们刚才用的词是“任务”。这就是多数用户看待“推荐给朋友”和“为应用打分”的方式——&lt;strong&gt;看成任务&lt;/strong&gt;。&lt;a class="link" href="https://www.psychologytoday.com/blog/stronger-the-broken-places/201510/honoring-the-rule-reciprocation" target="_blank" rel="noopener"
+&gt;互换原则&lt;/a&gt;就在此时发挥作用。大概来说，就是你得给予用户某些东西，然后才能向他们索取。可以是通勤应用中的免费出行，或者是某种总体价值和乐趣。最好对这些弹窗使用&lt;a class="link" href="http://usabilitygeek.com/introduction-a-b-testing/" target="_blank" rel="noopener"
+&gt;A/B测试&lt;/a&gt;，让它们以不同时机出现在&lt;a class="link" href="http://usabilitygeek.com/customer-journey-maps-create-technique/" target="_blank" rel="noopener"
+&gt;用户旅程&lt;/a&gt;的不同位置。这能让你更好地获得重要的统计数据，了解最终应该在何时何地放置弹窗。&lt;/p&gt;
+&lt;p&gt;同时也一定要确保，从你的应用中转到App store、社交媒体频道、或消息平台的过程尽可能流畅。获得一个推荐链接对于用户真的是“简单”的事情吗？在Wi-Fi和移动网络环境下，整个流程的运转有何差别？有许多重要因素需要考虑。花时间分析和优化这两种弹窗，你肯定能收获更高满意度、活跃度和更多新用户。&lt;/p&gt;
+&lt;p&gt;记住，“[聪明地]索取，你才会有回报。”&lt;/p&gt;
+&lt;h2 id="推送通知弹窗"&gt;“推送通知”弹窗
+&lt;/h2&gt;&lt;p&gt;推送通知是一个超有价值的手段，能使用户保持投入、反复使用。对许多用户来说，推送通知已经成为了他操作一款应用的主要媒介。不必再打开应用，用户通过推送通知满足他们大部分需求。于是，获取和保持向用户发送通知的权利，应该是用户粘性与留存策略中的一个重要方面。&lt;/p&gt;
+&lt;p&gt;在Android系统中，方式很直接：推送权限请求会作为AndroidManifest.xml的一部分，用户在安装前会看到所有需要获取的权限。&lt;/p&gt;
+&lt;p&gt;在iOS上就是另一回事了。iOS的权限弹窗必须由应用内的代码触发，会向你的用户展示一个这样的弹窗：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-08/08-05/mobile-app-popups-2-xtremepush.jpg"
+loading="lazy"
+alt="Uber应用请求发送推送通知的iOS系统权限弹窗"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://xtremepush.com/" target="_blank" rel="noopener"
+&gt;Xtremepush.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果用户点按了“不允许”选项，对你来说就相当于玩完儿了。除非用户手动进入权限设置，否则拒绝权限是不可逆转的。所以让你的用户按下“允许”权限至关重要。&lt;/p&gt;
+&lt;p&gt;我们推荐两种方式，来尽可能保有最多的通知推送许可：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;尝试创造一个你自己的、应用自带的权限弹窗，让你评估用户接受推送通通知的意愿。这会让你更加理解用户的行为和偏好，把权限获取留到某个用户真的愿意点“允许”的时机。&lt;/li&gt;
+&lt;li&gt;仅仅在在你认为最相关和最有说服力的时候请求权限。在此时此地，真的有需要获取通知权限吗？在权限请求提示中，借助当前环境清晰地向用户作出解释。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="数据权限弹窗"&gt;数据权限弹窗
+&lt;/h2&gt;&lt;p&gt;推送通知权限和数据获取对话框一脉相承。同样，对于这些特殊弹窗的用户体验，我们都是在讨论iOS应用。数据权限弹窗包含对位置、日历、联系人信息、提醒事项和相册的请求。移动开发者必须小心翼翼，因为请求数据权限不是一系列勾选框那么简单。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-08/08-05/mobile-app-popups-3-apple.jpg"
+loading="lazy"
+alt="苹果地图请求访问当前位置的数据权限弹窗示例"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;来源：&lt;a class="link" href="https://developer.apple.com/" target="_blank" rel="noopener"
+&gt;Developer.apple.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;苹果在他们的&lt;a class="link" href="https://developer.apple.com/ios/human-interface-guidelines/interaction/requesting-permission/" target="_blank" rel="noopener"
+&gt;权限请求指南&lt;/a&gt;中提到：“虽然人们赞赏移动应用获取个人信息所带来的便捷，但他们也希望能掌控自己的私密数据。例如，人们喜欢自动给照片标记上地理位置，或者找到附近的朋友，但他们也想要一个能关闭此功能的选项。”&lt;/p&gt;
+&lt;p&gt;要使这类弹窗保持相关、显而易见。别设计一个请求用户地理位置的计算器——别这么做。&lt;/p&gt;
+&lt;p&gt;使用苹果在弹窗中提供的文字位置，描述你的应用为何需要这些信息，即使你自己认为原因显而易见。在某些特定的、相关的用户操作之后，再请求适合的权限，也是一个好方法。比如说，用户使用你的应用创建了一段视频，并且想要分享给朋友。只要用户点了“在Facebook上分享视频”按钮，这就是弹窗请求用户社交媒体账号权限的绝佳时机。用户更容易接受权限，因为它提供了清楚的解释，“要想达成A，必须先完成B”。&lt;/p&gt;
+&lt;p&gt;想要深入研究，请看我们的一篇文章，讨论如何使&lt;a class="link" href="https://pm.appsee.com/2016/09/30/how-to-make-your-in-app-permissions-less-scary-for-your-users/" target="_blank" rel="noopener"
+&gt;数据权限不那么令用户望而生畏&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id="错误弹窗"&gt;“错误”弹窗
+&lt;/h2&gt;&lt;p&gt;除了向用户索取权限，弹窗也是开发者向用户表达信息的一种重要手段。尤其是关系到应用内的错误。&lt;/p&gt;
+&lt;p&gt;世事无常，总有错误出现。错误中的错误是最不该发生的。这么说是什么意思？就是说你的弹窗不能让用户感到迷惑，使得已经发生错误雪上加霜。&lt;/p&gt;
+&lt;p&gt;我们来举个例子，比如用户的收货地址写得不合逻辑，所以当他们在支付时就会发生“错误”。如果你的弹窗里写着：“发生了错误：支付无法完成”，用户就不得不试图猜测错误的原因。相反，你应当利用这个时刻告诉用户为什么错误会发生，收货地址中具体哪一项需要更正。必须要了解，用户任何的猜测和挫败，可能被一个弹窗放大，最终影响潜在的转化。&lt;/p&gt;
+&lt;p&gt;而且，对于那些需要用户操作的错误，我们不仅仅告诉用户错误发生、该做什么，还需要引导他们前往相关的操作界面。坚持使用清晰的措辞来准确表明操作（抹掉、撤销、前往的我个人信息界面），而不是使用模糊的文案，例如“是”或“否”。&lt;/p&gt;
+&lt;p&gt;如果应用中发生了技术性错误，你可以利用弹窗来触达用户，告诉他们你正在努力解决问题。这给你的应用增加了一丝人性，同时向用户表明你在乎他们的个人体验。&lt;/p&gt;
+&lt;p&gt;想了解“反馈”类弹窗的更多秘诀，&lt;a class="link" href="https://uxplanet.org/5-essential-ux-rules-for-dialog-design-4de258c22116" target="_blank" rel="noopener"
+&gt;我们建议你读Nick Babich的这篇文章&lt;/a&gt;，讨论对话框设计的5条重要原则。&lt;/p&gt;
+&lt;h2 id="挥洒你的才华"&gt;挥洒你的才华
+&lt;/h2&gt;&lt;p&gt;我们不是要粉饰任何事情。最终有些用户仍然会看到这样的弹窗：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-08/08-05/mobile-app-popups-4-osxdaily.jpg"
+loading="lazy"
+alt="讽刺移动应用强行索要评分的烦人弹窗示例图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="http://osxdaily.com/" target="_blank" rel="noopener"
+&gt;OSXdaily.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;**但也并非人人如此。**你有能力轻松改善弹窗，让使用与转化增长。首先，要确保你拥有一个移动应用数据分析平台，例如这个，&lt;a class="link" href="https://www.appsee.com/" target="_blank" rel="noopener"
+&gt;Appsee&lt;/a&gt;，能使你监控它们的表现和用户体验效果。这些洞见可以让你自信满满地迭代、测试和验证。弹窗可能名声不怎么样，但利用深思熟虑的策略，它们会给你的移动应用带来重大转机。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;作者信息：Hannah Levenson&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://usabilitygeek.com/mobile-app-pop-up-guidelines/" target="_blank" rel="noopener"
+&gt;http://usabilitygeek.com/mobile-app-pop-up-guidelines/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>出色的移动端用户验证</title><link>https://victor42.eth.limo/post/3543/</link><pubDate>Sun, 05 Mar 2017 13:55:02 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3543/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第165期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;减少注册和登录的痛苦&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-04/1-MAQ8KbsT2tQmUnk8rBNc2w.png"
+loading="lazy"
+alt="移动端用户验证登录界面设计主题图，展示注册登录流程的UX优化方向"
+&gt;&lt;/p&gt;
+&lt;p&gt;处理用户验证通常是事后诸葛亮，我们总指望它有用，但很少深入思考它。它应该足够简单，但事实是，无论对于用户还是运营产品的公司，都像是在自找麻烦。登录失败、忘记密码和冗长的交互。&lt;/p&gt;
+&lt;p&gt;登录界面是你的应用中最常展示的界面之一。客观地说，75%的人都在登录时重置过密码，废弃了之前的密码（&lt;a class="link" href="https://articles.uie.com/three_hund_million_button/" target="_blank" rel="noopener"
+&gt;来源&lt;/a&gt;）。在企业内网登录中，忘记密码是帮助台每天处理的头号问题（&lt;a class="link" href="https://www.nngroup.com/reports/intranet-portals-experiences-real-life-projects/" target="_blank" rel="noopener"
+&gt;来源&lt;/a&gt;）。通过清晰的表述和设计良好的流程，能极大的减少这些问题的数量。&lt;/p&gt;
+&lt;p&gt;要提升用户验证的体验，降低服务成本，增加转化率，有几件事情要好好考虑。&lt;/p&gt;
+&lt;h2 id="清晰说明规则"&gt;清晰说明规则
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-04/1-7PYuvBzlVGISq_6uAmNZXA.png"
+loading="lazy"
+alt="亚马逊与阿里速卖通密码规则对比，展示清晰表述密码要求的重要性"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;亚马逊和阿里速卖通的例子&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;避免使用模糊的规则，表述清楚。不要等到错误验证来警告用户，密码至少要6位。强调密码的最短限制是有意义的，但也不要太复杂。有实际意义的密码，比随机组合的字符更有用。&lt;/p&gt;
+&lt;h2 id="显示密码"&gt;显示密码
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-04/1-ZqgtrdcRMdgF444CGenrsQ.png"
+loading="lazy"
+alt="亚马逊密码显示功能设计，输入框下方实时显示完整密码增强用户信心"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;亚马逊的例子&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;可以考虑让密码可见。这对用户登录和注册有帮助。不用再次输入确认，用密码输入框来切换显示隐藏，帮助用户确认首次输入是否正确。显示和隐藏的功能可以用一个小图标、一行文字标签、或者勾选框来表示。亚马逊对此做了些小变化，把隐藏字符保留在输入框里，在下方显示完整密码。增强了用户的信心，减少焦虑，表达出密码被妥善处理的事实。&lt;/p&gt;
+&lt;h2 id="忘记密码的处理"&gt;忘记密码的处理
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-04/1-BQA7t2VRJrsVw0Zm98twww.png"
+loading="lazy"
+alt="Slack与Trello忘记密码处理方案对比，展示发送登录链接替代重置密码的设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Slack和Trello的例子&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;没人愿意重置密码，除非登录失败或者账号被盗。这么看来，如何帮助用户在不重置密码的情况下登录进去呢？发送一个短链接，允许用户不重置密码而直接登录。提示：利用好细微文案，但要和整体的语调保持一致。&lt;/p&gt;
+&lt;h2 id="无密码登录"&gt;无密码登录
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-04/1-pwsX-Ehsdg5daxjERwhWaA.png"
+loading="lazy"
+alt="Medium邮箱无密码登录与App Store指纹支付验证方式对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Medium和App Store的例子&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;密码总是很麻烦，所以还有个办法是根本不用密码。要么使用外部验证手段，例如社交媒体账号登录，或者利用指纹识别。比如说，在App Store里购买一直都是用指纹的。&lt;/p&gt;
+&lt;h2 id="两步验证"&gt;两步验证
+&lt;/h2&gt;&lt;p&gt;有时候你希望增加一层安全措施。不过要确保用户在一段时间内不会再被打扰到。把它作为一种额外手段，不要为了用户的利益这样打扰他们。提示：如果想要用户启用两步验证，可以给予某种奖励——Mailchimp对于启用此功能的账号，给予了10%的优惠。&lt;/p&gt;
+&lt;h2 id="移动端登录"&gt;移动端登录
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-04/1-9lTf8eGWAtQ24N4uDYSNZw.png"
+loading="lazy"
+alt="Mailchimp短信验证登录与Instagram移动端登录界面设计对比"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Mailchimp和Instagram的例子&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;虽然以上原则可以用在各种设备中，但移动设备还有一些特殊的用法。如果能确定用户正在使用手机，可以发送短信或者推送消息，这招非常神奇，能够迅速带用户前往目的地——应用内的某个地方。&lt;/p&gt;
+&lt;h2 id="pin码和数字密码"&gt;PIN码和数字密码
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-04/1-7lYlVThj9PLmGXKeLckf0g.png"
+loading="lazy"
+alt="iOS锁屏数字密码键盘界面，展示简化验证方式的移动端设计方案"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;iOS锁屏界面的例子&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果不需要完整密码，可以采用数字密码。通过数字键盘来输入。&lt;/p&gt;
+&lt;h2 id="其他验证方式"&gt;其他验证方式
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-03/03-04/1-KdDnuvDW_j2I2gTQYjn06A.png"
+loading="lazy"
+alt="Android锁屏图案验证界面，展示连接点阵画图的替代验证方式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Android锁屏界面的例子&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;还有其他的用户验证方式。连接网格中的点阵画出图形，或者点击屏幕中的特定该区域。&lt;/p&gt;
+&lt;h2 id="必要时才让用户输入用户名"&gt;必要时才让用户输入用户名
+&lt;/h2&gt;&lt;p&gt;如果要依赖账号体系，请考虑使用有邮箱地址。不要光为了验证而索要用户名。即使是社区网站，用户也会使用Twitter或Facebook账号登录。&lt;/p&gt;
+&lt;p&gt;无论采用哪种方式，都要考虑使用场景。只耗费最少的精力，不要把事情搞复杂，尽可能让用户感到没有障碍。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://uxplanet.org/nailing-the-ux-of-authentication-on-mobile-2b69ceab26df#.msjlacij2" target="_blank" rel="noopener"
+&gt;https://uxplanet.org/nailing-the-ux-of-authentication-on-mobile-2b69ceab26df#.msjlacij2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://twitter.com/kovlex" target="_blank" rel="noopener"
+&gt;Levi Kovacs&lt;/a&gt;
+The missing UI controls for your next mobile project &lt;a class="link" href="https://mobiscroll.com/" target="_blank" rel="noopener"
+&gt;https://mobiscroll.com&lt;/a&gt;&lt;/p&gt;</description></item><item><title>如何表达App的隐藏手势操作</title><link>https://victor42.eth.limo/post/3538/</link><pubDate>Sun, 22 Jan 2017 22:03:37 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3538/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第161期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/1-raN6DpE52jAdYaEc-zsu3A.png"
+loading="lazy"
+alt="如何表达App的隐藏手势操作的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;手势操作，是通过手指轻微移动来让用户操作应用。触屏界面提供了许多自然的手势，比如点按、滑动、双指缩放。但这些交互方式不像UI控件，通常对于用户是不可见的。除非用户事先了解手势存在，否则他们并不会尝试使用。&lt;/p&gt;
+&lt;p&gt;如何加入隐藏手势呢？好在有许多视觉层面的交互设计技巧，可以让用户了解这些手势。&lt;/p&gt;
+&lt;h2 id="首次打开时的教程和引导页"&gt;首次打开时的教程和引导页
+&lt;/h2&gt;&lt;p&gt;在手势为主的应用中，教程和引导页相当常见。许多情况下，在应用中加入教程意味着向用户说明、解释界面。但是，UI教程并不是阐述应用核心功能的最简洁方式。这种方式存在两个问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果你要给产品准备说明书，就说明与用户的沟通还不到位，因为他们可不希望使用前还要读说明书。&lt;/li&gt;
+&lt;li&gt;另一个问题在于，用户不得不记住所有这些新的用法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;举个例子，Clear应用一开始会展示7页教程，用户得耐心阅读所有信息，尝试记在脑海中。这个设计很糟糕，因为它需要用户在真正开始使用之前就付出精力。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/1-2.png"
+loading="lazy"
+alt="Clear 应用用多页教程讲解点按滑动和长按排序手势"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Clear的教程&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;避免使用强制性的多步引导，要试图在操作所处环境中教育用户（这时候用户真正需要相应功能）。几经迭代后，教程可以变成更加平缓的暗示。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;关注单个操作，而不是试图在界面中解释每一个操作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以Android版YouTube的手势操作指引为例：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/2-2.png"
+loading="lazy"
+alt="Android 版 YouTube 在情境中提示拖拽展开和滑动关闭手势"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Android版Youtube&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这个应用有用到手势操作，但并不是通过教程的方式教育用户。它反而是在新用户首次触发时进行了暗示，每次只介绍一处，而且只在用户进入相关功能时才触发。&lt;/p&gt;
+&lt;h2 id="如何在情境中教育用户"&gt;如何在情境中教育用户
+&lt;/h2&gt;&lt;p&gt;在情境中教育的技巧，能帮助用户以一种从未尝试过的方式操作某个元素或界面。这种技巧通常包含&lt;em&gt;轻微的视觉提示&lt;/em&gt;和&lt;em&gt;微妙的动画&lt;/em&gt;。&lt;/p&gt;
+&lt;h3 id="纯文本指令"&gt;纯文本指令
+&lt;/h3&gt;&lt;p&gt;这个技巧主要依靠纯文本指令，促使用户执行某个手势操作，并且简明地描述这个操作的结果。&lt;/p&gt;
+&lt;p&gt;**注意：**说明文字要非常简短——文字越短，用户越可能会阅读，然后才能遵照它的指引。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/3-1.gif"
+loading="lazy"
+alt="Material Design 用简短文字提示向右滑动关闭卡片的隐藏手势"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="提示动效"&gt;提示动效
+&lt;/h3&gt;&lt;p&gt;提示动效（或者动画暗示）表现了执行操作时具体手势的效果预览。例如，Pudding Monsters游戏的诀窍就是完全依靠手势操作，但是用户不必过多猜测就能掌握基本玩法。动画传达了功能方面的信息——用动画来展现一个具体场景，用户立马明白该怎么做。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/4-1.gif"
+loading="lazy"
+alt="Pudding Monsters 通过提示动效展示拖动物体的手势操作方法"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;提示动效展现了如何操作一个元素。来源：Pudding Monsters&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="内容的暗示"&gt;内容的暗示
+&lt;/h3&gt;&lt;p&gt;内容暗示是一种微妙的视觉线索，表明了操作的可能。下面这个例子展示了卡片的内容暗示——当前卡片的下方还有其他卡片，这显然表明它是可以滑动的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-01/01-18/5-1.gif"
+loading="lazy"
+alt="商品卡片堆叠露出下层内容暗示用户可以滑动浏览"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;展现出导航功能。来源：Barthelemy Chalvet&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;总之，在移动或网页应用中展现手势操作方式，并没有万能的方案。不过在教育用户操作界面时，我比较推崇通过内容暗示、&lt;a class="link" href="http://babich.biz/design-patterns-progressive-disclosure-for-mobile-apps/" target="_blank" rel="noopener"
+&gt;渐进式提示&lt;/a&gt;和微妙的动画，在具体情景中教育用户。教程和引导页应该只作为最后手段。&lt;/p&gt;
+&lt;p&gt;感谢阅读！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://babich.biz/how-to-communicate-hidden-gestures-in-mobile-app/" target="_blank" rel="noopener"
+&gt;http://babich.biz/how-to-communicate-hidden-gestures-in-mobile-app/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="http://babich.biz/author/nick/" target="_blank" rel="noopener"
+&gt;Nick Babich&lt;/a&gt;&lt;/p&gt;</description></item><item><title>移动用户体验设计：错误状态</title><link>https://victor42.eth.limo/post/3534/</link><pubDate>Sun, 18 Dec 2016 10:38:15 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3534/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第157期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-UuKf1FDEJp3bF96aY3KEqg.png"
+loading="lazy"
+alt="手机屏幕显示红色错误状态，白色X图标与Error文字警示用户操作失败"
+&gt;&lt;/p&gt;
+&lt;p&gt;*“错误”时有发生。*在App与生活中都会发生。有时是因为我们犯了错误，有时是系统错误。无论错误原因是什么，它们——还有解决方式——对用户体验影响深远。但它往往不被重视，草草处理错误、组织混乱的错误信息会使用户沮丧，最终抛弃你的应用。相反，处理得当的错误提示，能把失败变为惊喜。&lt;/p&gt;
+&lt;p&gt;本文中，我们会讨论如何优化app的设计，来尽力防止用户错误，并建立良好的错误信息。&lt;/p&gt;
+&lt;h3 id="错误是什么"&gt;错误是什么？
+&lt;/h3&gt;&lt;p&gt;错误（或者说错误状态）发生在app未能完成某个预期操作时，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;app不理解&lt;em&gt;用户的输入&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;app出错了&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;用户试图同时进行两个&lt;em&gt;矛盾的操作&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;无论是谁引起的，每一种错误对于用户而言，都会成为&lt;em&gt;一种阻碍&lt;/em&gt;。好在，设计良好的错误处理能减少这种阻碍。&lt;/p&gt;
+&lt;h3 id="预防用户错误"&gt;预防用户错误
+&lt;/h3&gt;&lt;p&gt;设计过app的同学，应该很熟悉各种限制条件。例如网络状况差的情况下，很难填写表单，而且几乎没法同步数据。要考虑到这些限制，设计更易使用的app，将错误减到最少。换句话说，应该提供建议、加上限制、保持灵活，&lt;em&gt;第一时间预防用户犯错&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-Bao-o4hhAfCyRI2dYVoVgA.png"
+loading="lazy"
+alt="Twitter发布推文界面，字数统计显示-142超限，超出部分文字红色高亮警示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Twitter因推文的字数限制而出名，他们会在用户达到字数上限之前提出警示。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="让错误信息统一有效"&gt;让错误信息统一有效
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="https://uxplanet.org/golden-rules-of-user-interface-design-19282aeb06b#.klnla5vhp" target="_blank" rel="noopener"
+&gt;10条可用性启迪&lt;/a&gt;中建议，要清晰优雅地表达出错误信息。有效的错误提示应该提供如下信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;明确表达发生了什么&lt;/li&gt;
+&lt;li&gt;描述用户应该如何应对&lt;/li&gt;
+&lt;li&gt;尽可能多地保留用户输入的信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="用户输入错误"&gt;用户输入错误
+&lt;/h2&gt;&lt;p&gt;用户输入信息验证的意义在于&lt;em&gt;与用户交流&lt;/em&gt;，并&lt;em&gt;引导他们&lt;/em&gt;克服困难，应对不确定。&lt;/p&gt;
+&lt;p&gt;输入验证的首要原则是：“出现错误时告知他们！”简单说，优秀的表单验证由3个重要元素组成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;在适当时机和位置&lt;/strong&gt;告知错误&lt;/li&gt;
+&lt;li&gt;为错误信息选择&lt;strong&gt;合适的颜色&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;用简明的语言&lt;/strong&gt;描述错误&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所有这些都有一个主要目标——&lt;em&gt;避免困惑&lt;/em&gt;。&lt;/p&gt;
+&lt;h3 id="适当的时机和位置行内验证"&gt;适当的时机和位置（行内验证）
+&lt;/h3&gt;&lt;p&gt;用户并不喜欢填完一个长表单并提交之后，才发现哪里填错了。告知输入信息正确与否的恰当时机，正是在输入之后。实时验证就该出场了。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;实时行内验证&lt;/em&gt;会立刻对用户输入作出提醒。如果使用行内表单验证，就会清晰标明有错误的输入项，发生错误时，提交按钮也会置灰。用户不必等到点击提交按钮才看到错误，他们能更早改正错误。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-tw6K5aeB9_pN18LavoXJRg.png"
+loading="lazy"
+alt="添加支付方式表单对比，左侧提交后弹窗报错无上下文，右侧行内实时验证红色下划线提示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Google&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;下面是几个行内表单验证的案例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;不匹配的内容&lt;/strong&gt;
+&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-6E8sYEoUFm4NngNNiKL3SQ.png"
+loading="lazy"
+alt="创建账户表单行内验证，用户名stephsm下方红色提示&amp;#34;That name is already being used&amp;#34;"
+&gt;
+&lt;em&gt;提交之前检测出的错误。图片来源：Material Design&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;超过或不满规定字数&lt;/strong&gt;
+&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-cJpnSCjTu075jizlqVVRCQ.png"
+loading="lazy"
+alt="标题输入框字数统计超限，输入51字符超过50限制，红色数字51/50警示用户"
+&gt;
+&lt;em&gt;带有字数统计的输入框与错误提示。图片来源：Material Design&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="合适的颜色直观的设计"&gt;合适的颜色（直观的设计）
+&lt;/h3&gt;&lt;p&gt;*颜色是设计验证信息的最佳手段。*因为它能引发本能作用，红色的错误信息和黄色的警告信息非常有效。错误文字应当易于阅读，与背景有足够的反差，让人能注意到。但&lt;a class="link" href="https://uxplanet.org/accessible-interface-design-3c59ee3ec730#.budh6j6jf" target="_blank" rel="noopener"
+&gt;要确保界面中的颜色适用于所有用户&lt;/a&gt;，这是优秀视觉设计的重要因素。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-owGg_C9TWciu1XUFw1CG2g.png"
+loading="lazy"
+alt="支付信息表单验证前后对比，右侧卡号与日期字段红色下划线标注错误并提示修正"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;让人注意到提示信息。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="简明的信息发生了什么"&gt;简明的信息（发生了什么）
+&lt;/h3&gt;&lt;p&gt;确保错误信息是写给人看的。要实现这一点，就得用用户的语言来说话，避免使用技术术语，用用户的词汇来表达一切。验证信息要清晰陈述以下内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;什么&lt;/em&gt;出错了，&lt;em&gt;为什么&lt;/em&gt;。&lt;/li&gt;
+&lt;li&gt;用户接下来该做什么来解决错误。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-TAG0vOk8piVU66HeOAsYfg.png"
+loading="lazy"
+alt="创建事件日期错误提示对比，左侧模糊提示Specified date is incorrect，右侧明确提示Date occurs in the past"
+&gt;&lt;/p&gt;
+&lt;p&gt;【图注：左图中的错误提示为，“输入日期错误”；右图中的错误提示为，“这是个过去的日期”。】&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;典型的错误会直接说“信息不正确”，没有告诉用户它为什么错了（是数据类型错误？还是已经被占用了？）。确保信息清晰明确。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="应用的错误"&gt;应用的错误
+&lt;/h2&gt;&lt;p&gt;应用也会发生错误，&lt;em&gt;它不受用户输入影响&lt;/em&gt;。这种情况下，用户会遭遇意料之外的状态。显示错误时，要解释一下用户为什么一无所获，如何摆脱当前处境。&lt;/p&gt;
+&lt;h3 id="同步错误加载错误"&gt;同步错误/加载错误
+&lt;/h3&gt;&lt;p&gt;当同步或链接断开，或者内容加载失败时，应该告知用户。&lt;em&gt;要预先告诉他们&lt;/em&gt;。由于没有数据，可以使用&lt;a class="link" href="https://uxplanet.org/empty-state-mobile-app-nice-to-have-essential-f11c29f01f3#.63h6e1d5g" target="_blank" rel="noopener"
+&gt;空状态&lt;/a&gt;填补空隙。可悲事实是，许多空状态看起来……&lt;em&gt;真的是空的&lt;/em&gt;。下面的例子中，错误界面只说“发生了错误”，没有提供一点有用的信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-flCJh0D4pHW_MvN4WRwRxw.png"
+loading="lazy"
+alt="Spotify空状态错误界面，黑色背景中央感叹号图标与An error occurred文字缺乏有用信息"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这个空状态界面是个死胡同。图片来源：Spotify&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;把错误提示想象成&lt;em&gt;与用户的一场对话&lt;/em&gt;。在遭遇失败时，用友好且&lt;em&gt;有意义&lt;/em&gt;的空状态来沟通。提供基本所需的信息来帮助用户，鼓励他们解决问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-ydkY2tT5WIKUUH6KE6Te3w.png"
+loading="lazy"
+alt="Azendoo断网空状态插画，人物孤岛椰树小船场景配文Keep calm light a fire and pull to refresh"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;走丢了，失去连接，就像置身于荒岛？可以跟随建议，保持冷静，点起篝火，持续刷新。图片来源：Azendoo&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;在适当时机，提供链接&lt;em&gt;或按钮&lt;/em&gt;帮助用户完成任务。但要提供你所能做到的操作。如果明知道会失败，就不要放出“再试一次”这样的选项。&lt;/p&gt;
+&lt;h3 id="不要展示原始错误信息"&gt;不要展示原始错误信息
+&lt;/h3&gt;&lt;p&gt;下面这个例子中的消息非常晦涩吓人。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-tU5KLghqq1IyHwTnz6NU4g.png"
+loading="lazy"
+alt="iOS Photos应用弹出原始错误信息WDGeneralNetworkError error 500，技术术语用户无法理解"
+&gt;&lt;/p&gt;
+&lt;p&gt;【图注：操作无法完成。(WDGeneralNetworkError error 500.)】&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这种错误信息，是由开发者写给另一名开发者看的。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;不要假设人们知道提示信息的来龙去脉，或者指望他们是技术专家，要用简单的语言告诉人们哪里出错了。如何用人话来解释这些错误？把它写下来，那就是你的错误提示文案。&lt;/p&gt;
+&lt;h2 id="不匹配的状态错误"&gt;不匹配的状态错误
+&lt;/h2&gt;&lt;p&gt;用户试图执行冲突操作时，会引发不匹配的状态错误，例如在飞行模式下拨电话，或者离线状态播放在线视频。应该清晰表明他们所处状态，避免他们陷入这般境地。简单说，&lt;em&gt;就是不要让用户执行无法完成的任务&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-12/12-14/1-9lkGBJpD_AYXeTAGkFjnVA.png"
+loading="lazy"
+alt="Work files文件列表底部横幅提示管理员已禁用截屏功能并提供SETTINGS设置链接"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;清晰表明错误的原因和出处。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;*从不出现的错误信息才是最好的。*最佳方式是引导用户向正确方向前进，第一时间预防错误发生。但当错误确实发生时，设计精良的错误处理，不仅能教育用户按你预期的方式使用app，还能防止用户感到茫然。&lt;/p&gt;
+&lt;p&gt;感谢阅读！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://uxplanet.org/mobile-ux-design-user-errors-1ad1f5d664f9#.fzcsdis0n" target="_blank" rel="noopener"
+&gt;https://uxplanet.org/mobile-ux-design-user-errors-1ad1f5d664f9#.fzcsdis0n&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://uxplanet.org/@101" target="_blank" rel="noopener"
+&gt;Nick Babich&lt;/a&gt;
+I’m a software developer, tech enthusiast and UI/UX lover. &lt;a class="link" href="http://babich.biz/" target="_blank" rel="noopener"
+&gt;http://babich.biz&lt;/a&gt;&lt;/p&gt;</description></item><item><title>移动端用户体验：底部导航</title><link>https://victor42.eth.limo/post/3527/</link><pubDate>Sun, 30 Oct 2016 16:12:56 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3527/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第151期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-KZ7WJkL39AiWnM9Gk8cAlQ.jpeg"
+loading="lazy"
+alt="iPhone白色机身斜放展示财务管理应用界面，底部绿色导航栏含Revenue、Transactions、Overview、Settings四个图标标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://www.behance.net/gallery/Animated-sliding-tab-bar/7528101" target="_blank" rel="noopener"
+&gt;Behance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;设计师都知道，设计不只是为了好看。设计也决定用户如何&lt;em&gt;融入&lt;/em&gt;一个产品，无论是网站还是app。这是一种交谈。*导航就是一种交谈。*因为如果用户不明白使用方式，你的网站或app再漂亮都没用。&lt;/p&gt;
+&lt;h2 id="为什么底部导航如此重要"&gt;为什么底部导航如此重要？
+&lt;/h2&gt;&lt;p&gt;Steven Hoober在他的&lt;a class="link" href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank" rel="noopener"
+&gt;关于移动设备使用状况的研究&lt;/a&gt;中发现，49%的人依靠&lt;em&gt;一根手指&lt;/em&gt;完成手机上的操作。在下图中，手机屏幕上的画面表示大致的触摸范围，不同颜色表示用户能用拇指在屏幕上触及的区域。绿色表示轻易触及；黄色表示需要伸长手指；红色表示需要用户改变持握方式。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/0-LGs-zf1C4Ht4svsF.png"
+loading="lazy"
+alt="两只手分别以左右手持握智能手机的线稿插图，屏幕用绿色黄色红色标注拇指可触及的舒适区域范围"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片表示单手操作智能手机的舒适程度。图片来源：&lt;a class="link" href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank" rel="noopener"
+&gt;uxmatters&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;**把最重要最常用的操作放在屏幕底部非常重要，**因为它们能用一只手指轻松触及。&lt;/p&gt;
+&lt;h3 id="标签栏"&gt;标签栏
+&lt;/h3&gt;&lt;p&gt;许多应用遵循这一规律，将&lt;em&gt;底部导航&lt;/em&gt;（又称作标签栏）作为最重要的app功能。Facebook的核心功能一触即达，能够在不同功能中迅速切换。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-d55w8RiaAGkt2UvdpK5OvQ.png"
+loading="lazy"
+alt="Facebook iOS版底部标签栏特写，含News Feed蓝色选中状态及Requests、Messages、Notifications、More四个灰色图标"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Facebook的iOS底部标签栏。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="底部导航设计的3个关键"&gt;底部导航设计的3个关键
+&lt;/h2&gt;&lt;p&gt;导航通常是搭载用户的交通工具。底部导航应该承载重要性等同的&lt;em&gt;顶级目的地&lt;/em&gt;。这些目的地需要在app的任何地方留有直接的入口。&lt;/p&gt;
+&lt;p&gt;优秀的底部导航设计遵循以下3条定律：&lt;/p&gt;
+&lt;h2 id="1-只显示最重要的目的地"&gt;1. 只显示最重要的目的地
+&lt;/h2&gt;&lt;p&gt;在底部导航中使用&lt;em&gt;3到5&lt;/em&gt;个顶级目的地。如果少于3个，请考虑使用标签代替。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-B9m8qRpUEZYD4F_0SA6kLw.jpeg"
+loading="lazy"
+alt="Android底部导航栏对比图，左侧红框标注两个标签项Recents和Favorites，右侧绿框标注三个标签项含Nearby"
+&gt;&lt;/p&gt;
+&lt;p&gt;底部导航&lt;em&gt;避免使用5个以上&lt;/em&gt;，因为点击目标相互会过于接近。在标签栏放置过多的项目，让人们难以点中他们的目标。每多展示一个标签，app的复杂性就增加一分。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-6Is4BT1OKgWVRkrSdBQcTA.jpeg"
+loading="lazy"
+alt="Android底部导航栏含六个图标项，从左到右依次为视频、音乐、Books书本、日历、游戏手柄和公文包图标"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果顶级目的地确实有5个以上，不要用底部导航来承载这些入口，请考虑放在其他位置。&lt;/p&gt;
+&lt;h3 id="避免内容滚动"&gt;避免内容滚动
+&lt;/h3&gt;&lt;p&gt;小屏幕上显而易见的解决方式，就是部分隐藏式的导航——不必担心屏幕空间的局限，把标签项放入滚动的标签栏即可。但是滚动的内容&lt;em&gt;效率低下&lt;/em&gt;，因为你得滑动一下才能看到想要的选项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-bkHSqELDmKmeOLexUOOFVw.gif"
+loading="lazy"
+alt="Rookie Cam应用动态演示，底部工具栏图标横向滚动展示裁剪、旋转、亮度等编辑功能，部分图标被遮挡"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;iOS版&lt;a class="link" href="https://itunes.apple.com/app/rookie-photo-editor/id799406905" target="_blank" rel="noopener"
+&gt;Rookie Cam&lt;/a&gt; app中就存在“看不见就想不到”的问题。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="2-表达出当前位置"&gt;2. 表达出当前位置
+&lt;/h2&gt;&lt;p&gt;没有表达当前位置，可能是app菜单中最普遍的错误。“我在哪里？”是用户需要回答的基本问题之一，这是顺利操作的前提。&lt;/p&gt;
+&lt;p&gt;用户应该在没有任何外部引导的情况下，一眼就看出如何从A前往B。应该提供&lt;em&gt;适当的视觉线索&lt;/em&gt;（图标、标签和颜色），操作就不需要任何说明了。&lt;/p&gt;
+&lt;h3 id="图标"&gt;图标
+&lt;/h3&gt;&lt;p&gt;正因为底部导航操作以图标方式展现，它们所表达的内容应该要适合通过图标来表达。有些用户熟知的通用图标，通常这些都表示搜索、邮件、打印等功能。不幸的是，“通用”图标很少。app的设计师常常用图标来代表一些非常难以分辨的功能。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-AjlvWHiXjxwuHbdCSA_DVQ.png"
+loading="lazy"
+alt="黑色背景上四个白色线框图标，从左到右依次为圆形、六边形、放大镜和三点省略号，无文字标签难以辨识功能"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;老版本的Bloom.fm应用Android版。真是相当难理解用户当前所处位置。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;我在这篇文章&lt;a class="link" href="https://uxplanet.org/icons-as-part-of-an-awesome-user-experience-e468e16b206b#.nbjf2tz7o" target="_blank" rel="noopener"
+&gt;《图标是优秀用户体验的一部分》&lt;/a&gt;中强调了这个问题。&lt;/p&gt;
+&lt;h3 id="颜色"&gt;颜色
+&lt;/h3&gt;&lt;p&gt;避免在底部标签栏使用不同颜色的图标和文字标签。应当&lt;em&gt;使用app的主色&lt;/em&gt;来表示视觉焦点。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-Et8v3bA25LSsSc2l61OsvA.jpeg"
+loading="lazy"
+alt="Android底部导航栏颜色对比，左侧红框内图标和文字使用蓝绿红多种颜色，右侧绿框内统一使用深青色主色调"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;左图：不同颜色的图标让app看起来像是圣诞树。右图：应该只用主色。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;遵循一条简单的法则——用app的主色来提亮当前的底部导航项（包括图标和文字标签）。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-YT7qQhVp2JB9z0iGtd1B6g.png"
+loading="lazy"
+alt="Twitter iOS版底部导航栏，Timelines、Notifications为灰色，Messages为蓝色选中状态带信封图标，Me为人物剪影"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;iOS版Twitter的底部菜单栏。Messages是当前选中项。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果底部导航栏有背景色，就要用黑白的图标和文字标签。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-8eEkSGJLqQeoquAzNJ0kiQ.jpeg"
+loading="lazy"
+alt="Android深青色背景底部导航栏对比，左侧红框内图标使用青橙白多色，右侧绿框内统一使用白色单色图标和文字"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;左图：避免使用彩色图标和彩色背景的组合。右图：使用黑白图形。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="文字标签"&gt;文字标签
+&lt;/h3&gt;&lt;p&gt;文字标签要为导航图标提供&lt;em&gt;简短有意义的描述&lt;/em&gt;。不要用太长的标签，因为它们不能截断或换行。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-cEJqW6n9A7eWVf7HfyeZWw.jpeg"
+loading="lazy"
+alt="三组Android底部导航栏对比，分别展示Crowd Favorites文字换行、Crowd Favori截断省略和Crowd Favorites Meals字体缩小的问题"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;避免换行、截断和缩小文字标签。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;菜单元素要易于浏览。用户要能理解他点击某个元素时会发生什么。&lt;/p&gt;
+&lt;h3 id="点击尺寸"&gt;点击尺寸
+&lt;/h3&gt;&lt;p&gt;&lt;em&gt;目标区域足够大，才易于点击&lt;/em&gt;。将界面宽度按操作项的数量等分，计算每个底部导航操作项的宽度。或者，把所有底部导航项的宽度设为最宽。&lt;/p&gt;
+&lt;p&gt;Android规范建议按照下图的尺寸设计移动端的底部导航栏。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-Wztcb149mWIooBzkeg4Kow.png"
+loading="lazy"
+alt="Material Design底部导航栏尺寸规范图，粉色标注线显示导航栏高度56dp、图标24dp、文字标签间距等具体数值"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;移动端的固定导航栏。单位是逻辑像素（dp）。来源：Material Design。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="标签栏的小红点"&gt;标签栏的小红点
+&lt;/h3&gt;&lt;p&gt;可以在标签栏显示小红点，表示有相关的新信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-B7gU36PRo7TyamxXkFtXnA.png"
+loading="lazy"
+alt="App Store底部导航栏含Featured、Top Charts、Near Me、Search和Updates五个标签，Updates图标右上角有红色数字2角标"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;可以用低调的方式给标签栏图标加上小红点。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="3-让导航不言自明"&gt;3. 让导航不言自明
+&lt;/h2&gt;&lt;p&gt;优秀的导航应该感觉像一只隐形的手，在操作途中指引用户。毕竟，如果用户都无法找到，那最酷的功能和最有吸引人的内容都没用。&lt;/p&gt;
+&lt;h3 id="表现"&gt;表现
+&lt;/h3&gt;&lt;p&gt;每个底部导航图标&lt;em&gt;都要通向某个目的地&lt;/em&gt;。而不能是打开菜单或其他弹出窗口。点按底部导航图标应该直接通向相应界面，或者刷新当前激活的界面。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-SiIwMULz6BIH_QNrkSQo5w.gif"
+loading="lazy"
+alt="iOS照片应用动态演示，底部导航栏在Photos蓝色选中、Shared和Albums三个标签间切换，界面内容随之淡入淡出过渡"
+&gt;&lt;/p&gt;
+&lt;p&gt;不要用标签栏提供控制项，用来操作当前界面或app模式中的元素。如果需要提供操作项，请改用工具栏。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-HTJII_nZOV_9TzbpvIm0Gg.png"
+loading="lazy"
+alt="iOS顶部工具栏含Inbox(13)标题、上下箭头、旗帜、文件夹、垃圾桶、回复和编辑七个蓝色图标按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;iOS的工具栏&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="保持统一"&gt;保持统一
+&lt;/h3&gt;&lt;p&gt;尽可能&lt;em&gt;在每种情况下都显示标签栏&lt;/em&gt;。这样能给用户一种视觉上可靠的感觉。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;不要因为功能不可用就移除某个标签&lt;/em&gt;。如果你在某些情况下移除一个标签，其他情况确保留，就会让你的app界面感觉不可靠、难以预料。最佳解决方案是保证所有标签都是可用的，然后解释为什么某个标签没有内容。例如，如果用户没有离线文件，Dropbox里的Offline标签会显示一个界面，教你如何添加。这个功能就是&lt;a class="link" href="https://uxplanet.org/empty-state-mobile-app-nice-to-have-essential-f11c29f01f3#.x5iwgmo40" target="_blank" rel="noopener"
+&gt;空状态&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-djnf36jd9NnOyKHktnQP9A.png"
+loading="lazy"
+alt="Dropbox离线文件空状态界面，顶部标题Offline Files，中间插画展示文件盒被鸟叼走，底部导航栏Offline蓝色选中"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Dropbox应用的空状态界面。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="隐藏标签栏"&gt;隐藏标签栏
+&lt;/h3&gt;&lt;p&gt;如果界面里是滚动的信息流，标签栏可以在滚动查看更多内容时隐藏，向下滑动尝试回顶部时再显示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-oN4qwzfoyuIDqPOmSrDQbg.gif"
+loading="lazy"
+alt="Android应用动态演示，内容列表向上滚动时底部导航栏逐渐隐藏，向下滚动回顶部时导航栏重新滑入显示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;底部导航栏可以根据滚动，动态显示和隐藏。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="视觉愉悦"&gt;视觉愉悦
+&lt;/h3&gt;&lt;p&gt;避免使用横向滑动的动效来切换界面。激活和未激活的界面，切换过渡效果应该使用&lt;em&gt;叠加渐隐效果&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-10/10-27/1-UB9nYamoOKsGwhxX5YSQsA.gif"
+loading="lazy"
+alt="Material Design动态演示，底部导航栏Movies&amp;TV选中状态下，内容卡片从Countryside Vet切换到Town of Golds的叠加渐隐过渡效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;叠加渐隐动画。来源：&lt;a class="link" href="https://www.google.com/design/spec/components/bottom-navigation.html#bottom-navigation-behavior" target="_blank" rel="noopener"
+&gt;Material Design&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;底部导航应该：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;可见且结构合理&lt;/strong&gt;（使用&lt;em&gt;3到5个顶级目的地&lt;/em&gt;，并且&lt;em&gt;避免可滚动内容&lt;/em&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;清晰&lt;/strong&gt;（导航栏元素要易于浏览，点击区域要足够大，&lt;em&gt;方便操作&lt;/em&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简单&lt;/strong&gt;（保证每个导航图标都通向合适的目的地，而且通过底部导航要能够触达所有元素）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://uxplanet.org/perfect-bottom-navigation-for-mobile-app-effabbb98c0f#.3z87f9p1s" target="_blank" rel="noopener"
+&gt;https://uxplanet.org/perfect-bottom-navigation-for-mobile-app-effabbb98c0f#.3z87f9p1s&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://uxplanet.org/@101" target="_blank" rel="noopener"
+&gt;Nick Babich&lt;/a&gt;
+I’m a software developer, tech enthusiast and UI/UX lover.
+&lt;a class="link" href="http://babich.biz/" target="_blank" rel="noopener"
+&gt;http://babich.biz&lt;/a&gt;&lt;/p&gt;</description></item><item><title>移动端用户体验：获取用户权限的正确方式</title><link>https://victor42.eth.limo/post/3506/</link><pubDate>Sun, 05 Jun 2016 00:26:06 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3506/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第135期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/1-I9wnGD5Epz5XDMZevmeZ6Q.png"
+loading="lazy"
+alt="移动应用权限请求设计主题图，展示手机权限弹窗与用户体验策略概念"
+&gt;&lt;/p&gt;
+&lt;p&gt;你知道吗？平均每个应用在安装3天内就会流失&lt;a class="link" href="http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/" target="_blank" rel="noopener"
+&gt;80%&lt;/a&gt;的活跃用户。多数人下载一个应用，打开一次，然后就卸载了。这是因为用户尝试许多应用，在接下来几天内决定要卸载其中哪些。&lt;/p&gt;
+&lt;p&gt;是应用品质低劣导致用户这样的行为吗？不尽然，但一款应用的&lt;em&gt;首次交互&lt;/em&gt;，在树立整体印象方面扮演重要角色（无论印象好与坏）。用户打开一款新应用时，最不想看到的，就是一大串弹框请求获取权限。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;应用想要获取您的位置&lt;/li&gt;
+&lt;li&gt;应用想要获取您的联系人&lt;/li&gt;
+&lt;li&gt;应用想要获取您的相机权限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种操作在用户体验上会造成极其负面的影响，往往导致应用被抛弃。应用要在索要权限之前与用户沟通，这样才能使用户保持投入。本文可以帮助你避开索取权限时的常见陷阱，让你步入正轨。&lt;/p&gt;
+&lt;h2 id="建立一套策略"&gt;建立一套策略
+&lt;/h2&gt;&lt;p&gt;说到请求权限，最糟糕的就是在没有任何通知与解释的情况下，用权限请求对用户狂轰滥炸。&lt;em&gt;过早&lt;/em&gt;或者&lt;em&gt;一次获取太多权限&lt;/em&gt;是常见的错误。然而，许多应用仍然如此——成为了用户打开应用首先看到的东西。例如，Gmail的Inbox甚至在引导页之前就开始索取权限，没有任何信息和上下文说明。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/1-kcb4Cu1M8O1t5ckvAv3SjQ.png"
+loading="lazy"
+alt="Gmail Inbox应用在引导页之前弹出权限请求，缺乏上下文说明的错误示例"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Gmail的Inbox&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;发送权限请求时，你当然希望所有用户都接受。要达成这个目的，就应当建立一套&lt;em&gt;权限策略&lt;/em&gt;。权限策略取决于你所请求的权限类型的&lt;em&gt;明确&lt;/em&gt;与&lt;em&gt;重要&lt;/em&gt;程度。非常重要的权限应当预先请求，次要权限可以在情景中再请求。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-06/06-03/1-GajVCKnu8gSgxY1Cz-yrZA.png"
+loading="lazy"
+alt="谷歌设计规范中四种常见的权限请求模式示意"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;权限请求模式。图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="何时向用户索要"&gt;何时向用户索要
+&lt;/h2&gt;&lt;p&gt;确定用户是否接受请求的最关键因素，是它们何时需要用到。&lt;/p&gt;
+&lt;p&gt;简单的原则：&lt;strong&gt;除非需要，否则不要请求获取权限。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="只有重要权限需要预先获取"&gt;只有重要权限需要预先获取
+&lt;/h3&gt;&lt;p&gt;对许多应用而言，获取不到数据权限会改变整个用户体验。例如，如果应用需要依赖短信服务，拒绝这项权限就导致这款应用无法使用。所幸，用户会希望消息类应用获取短信权限，所以把它前置是有意义的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/1-p4ytxcyjd_6VGdNiCBYTxw.png"
+loading="lazy"
+alt="Google环聊短信权限请求界面，消息类应用预先获取关键权限的合理示例"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Google环聊&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果某个功能的运转需要获取多个权限，&lt;em&gt;只请求相应权限，不要过头&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;**总结：**确保用户清晰理解应用是做什么的（基于应用的描述或之前的熟悉经历），只预先请求用户希望应用获取的权限。&lt;/p&gt;
+&lt;h3 id="在情境中请求权限"&gt;在情境中请求权限
+&lt;/h3&gt;&lt;p&gt;通常情况下，如果新用户一上来就体验到一连串权限请求，你就错失了一个&lt;em&gt;吸引&lt;/em&gt;用户的重要机会。应用要在情景中请求权限，并且告知用户这项权限能提供什么。因为只要用户被吸引，他们就更容易接受请求。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/1-S6_10X0PzJQZPNEAXnY3EA.jpeg"
+loading="lazy"
+alt="thinkwithgoogle情景权限请求示例，用户在相关任务中触发权限更易接受"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：thinkwithgoogle&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;**总结：**在进行相关任务时请求获取权限，用户更容易接受。&lt;/p&gt;
+&lt;h2 id="如何索要权限"&gt;如何索要权限
+&lt;/h2&gt;&lt;p&gt;应用应该清晰阐明为何需要每项权限，要提供功能的名称或详细解释。记住，&lt;em&gt;如果想要用户同意，就要礼貌地请求&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;简单的原则：&lt;strong&gt;清晰无疑说明用户将会获得什么，以此换取他们的允许。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="解释权限的益处"&gt;解释权限的益处
+&lt;/h3&gt;&lt;p&gt;对于不太明确的权限，需要教导用户这项权限包含什么。如果你的应用有引导页，可以用它来解释应用的功能，还有为何会出现意料之外的权限请求。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/1-CNm7gdwV0jI-vfZkI3HhOQ.png"
+loading="lazy"
+alt="Material Design权限解释界面，引导页中说明应用功能与权限请求原因"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Material Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;在情境中&lt;/em&gt;对权限做出解释，也是个很好的例子——它有助于增长用户兴趣，加深用户对于此权限的理解。向用户解释允许这项权限会带来的好处。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/1-KfBad7D6Q7fOtvhFPFHztg.png"
+loading="lazy"
+alt="Google地图位置权限请求，情景中解释允许权限带来的好处提升用户接受度"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Google地图&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="请求之前的教程"&gt;请求之前的教程
+&lt;/h3&gt;&lt;p&gt;可以在请求之前提供一张背景图，对权限请求做出解释。Foursquare就用了一张背景图来解释为何应用需要这项特殊权限。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/0-WN_MiV5XlVcFyemB.png"
+loading="lazy"
+alt="Foursquare权限请求前背景图解释，预先教育用户为何需要特殊权限"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Foursquare&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="在真正的请求之前预先请求"&gt;在真正的请求之前“预先”请求
+&lt;/h3&gt;&lt;p&gt;iOS的默认请求，每个功能只能触发一次。最坏的情况就是用户拒绝了系统权限，因为在iOS中要找回那个权限非常复杂。多数情况下，最好是“预先”请求用户允许，然后在放出真实的iOS权限获取提示。&lt;/p&gt;
+&lt;p&gt;Cluster就是个预先请求的例子。Cluster的流程中包含了一个情景创建界面、&lt;em&gt;一个预先请求&lt;/em&gt;、然后才是最终的权限请求。使用预先请求对话框，几乎彻底解决了Cluster的“不允许”问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/0-oj-qX0XECEPFItHd-.jpg"
+loading="lazy"
+alt="Cluster预先请求对话框，情景创建界面后的教育型权限弹窗解决不允许问题"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“预先请求”是一种预先的教育型权限对话框。图片来源：Cluster&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="在操作情景中请求权限"&gt;在操作情景中请求权限
+&lt;/h3&gt;&lt;p&gt;&lt;em&gt;用户触发的对话框&lt;/em&gt;甚至比情景创建界面更有效，因为用户盼着请求出现，更愿意允许权限获取，他们想要使用这个功能。等到需要某个功能时再请求权限。例如当用户点按Cluster中的相机时，才会触发相机的权限。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/0-up36JCb2fLtMb5bk-.jpg"
+loading="lazy"
+alt="Cluster相机权限触发示例，用户点按相机功能时才弹出权限请求而非启动时"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;在用户尝试使用这项功能时，才提醒用户允许权限。图片来源：Cluster&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="如何处理被拒绝的权限"&gt;如何处理被拒绝的权限
+&lt;/h3&gt;&lt;p&gt;由于拒绝权限可能会导致某个功能无法按照预期使用，当权限被拒绝时，应当向用户做出解释。&lt;/p&gt;
+&lt;p&gt;简单的原则：&lt;strong&gt;当权限被拒绝时应当提供反馈。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="关键权限"&gt;关键权限
+&lt;/h3&gt;&lt;p&gt;如果由于关键权限被拒绝，导致应用无法运行，要解释这项权限为何需要，提供一个链接打开设置界面，然用户开启它。&lt;/p&gt;
+&lt;p&gt;下面的例子是Google环聊界面，解释了应用正常运转所需的权限。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://babich.biz/content/images/2016/05/1-LhwiuOaDBnXibjuSOLB2Bw.png"
+loading="lazy"
+alt="Google环聊权限被拒绝后的设置引导界面，解释关键权限必要性并提供设置入口"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：Google环聊&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;显然，每个应用各不相同，但你应该思考用户何时需要获取手机各部分的数据，并且确保他们希望得到征询。用户体验的改善是不间断的。不要错失用户允许权限的良机！测试每种情况，验证哪种最适合你。&lt;/p&gt;
+&lt;p&gt;非常感谢！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="http://babich.biz/mobile-ux-design-the-right-ways-to-ask-users-for-permissions/" target="_blank" rel="noopener"
+&gt;http://babich.biz/mobile-ux-design-the-right-ways-to-ask-users-for-permissions/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://babich.biz/author/nick/" target="_blank" rel="noopener"
+&gt;Nick Babich&lt;/a&gt;&lt;/p&gt;</description></item><item><title>毁掉移动应用设计的6个想当然</title><link>https://victor42.eth.limo/post/3482/</link><pubDate>Sun, 31 Jan 2016 13:06:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3482/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第121期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;过去几年来，用户交互进化如此迅速，设计师们都快跟不上了——导致在创建移动应用时，从其他媒介（甚至陈旧的应用设计）中照搬交互设计技巧。&lt;/p&gt;
+&lt;p&gt;其实重要的是要记住：交互模式和设计要随着媒介的改变而变化。&lt;/p&gt;
+&lt;p&gt;这种思想的第一阶段，可见于鼠标键盘的台式电脑过渡到触摸屏的过程中（Apple新推出的&lt;a class="link" href="http://www.apple.com/iphone-6s/3d-touch/" target="_blank" rel="noopener"
+&gt;3D Touch&lt;/a&gt;就是个更加精细的例子）。从全新的交互模式，到微小的交互细节和趋势，每种新的设备、环境、模式和手势，都带来了机遇和陷阱。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/image056.png"
+loading="lazy"
+alt="Apple官方网站的网页页面版式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;照片来源：&lt;a class="link" href="http://www.apple.com/iphone-6s/3d-touch/" target="_blank" rel="noopener"
+&gt;Apple&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;光是了解它们就要费一番功夫——更别说为它们设计了——下面是一些设计移动应用时应当避免的想当然。&lt;/p&gt;
+&lt;h2 id="1-用户总是需要创建账号"&gt;1. 用户总是需要创建账号
+&lt;/h2&gt;&lt;p&gt;他们不需要，许多时候他们不想、也没有必要。&lt;/p&gt;
+&lt;p&gt;作为开发者，除非将用户固化到数据库中，否则很容易把他们拒之门外。但从用户的角度看，这不是光彩之举。&lt;/p&gt;
+&lt;p&gt;凭什么要先注册，才能知道里面有什么？这个过程劳神费力，必须得物有所值。&lt;/p&gt;
+&lt;p&gt;相反，用户数据可以离线储存，当用户最终决定创建账号时转移到账户中。或者，可以考虑使用“访客”或“试用”模式，开放核心功能（比如下面的&lt;a class="link" href="https://www.wunderlist.com/" target="_blank" rel="noopener"
+&gt;Wunderlist&lt;/a&gt;），展现应用的功能，但是功能有限，或者带有水印。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/image027.png"
+loading="lazy"
+alt="设计案例Wunderlist官网用户总是"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;照片来源：&lt;a class="link" href="https://www.wunderlist.com/" target="_blank" rel="noopener"
+&gt;Wunderlist&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;一旦证明了你的应用有价值，用户毫无疑问会决定注册。在那之前，就有点过分要求了。&lt;/p&gt;
+&lt;h2 id="2-用户需要一套教程告诉他们你的应用有多棒"&gt;2. 用户需要一套教程，告诉他们你的应用有多棒
+&lt;/h2&gt;&lt;p&gt;让用户使用，借此展现你的应用有多棒。解释它有多好是非常无力的。而且，用户通常都会跳过并忘记引导页。&lt;/p&gt;
+&lt;p&gt;浏览了所有说明的用户，并不太理解整个引导页设计。&lt;/p&gt;
+&lt;p&gt;如果你一定需要用户使用全部注意力，一步一步浏览引导（有些应用确实如此），那就要尽可能短，并且凭借帮助菜单来呈现。这就有意义多了，即使在用户用了一段时间以后。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-22-at-5.21.22-PM.png"
+loading="lazy"
+alt="照片来源"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;照片来源：&lt;a class="link" href="http://blog.uxcam.com/10-apps-with-great-user-onboarding/" target="_blank" rel="noopener"
+&gt;UXCam&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="3-不要假设某种方式能适应所有应用"&gt;3. 不要假设某种方式能适应所有应用
+&lt;/h2&gt;&lt;p&gt;即使是常见的&lt;a class="link" href="https://studio.uxpin.com/ebooks/mobile-design-patterns/" target="_blank" rel="noopener"
+&gt;交互模式&lt;/a&gt;，也应该根据你应用的特定环境来评估。&lt;/p&gt;
+&lt;p&gt;有个常见的例子，地址输入框里的“省份”下拉选项。由于省份名可以写作几种不同形式，标准的预定义内容下拉菜单有它的合理意义。在这桌面端或许是可接受的（尽管这尚存争议），但对于移动端可用性而言，下拉菜单是最糟糕的选择。&lt;/p&gt;
+&lt;p&gt;应用的交互也是强调品牌的绝好机会。如今的应用中，有些非常难忘的品牌“瞬间”，例如从启动图进入信息流时的Twitter小鸟，Snapchat的个人资料图片动画，还有Hopper的加载图片（详见第5条）。&lt;/p&gt;
+&lt;p&gt;关键是我们不该迷信久经考验的方法，那不是使我们应用出彩的唯一方式。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/image01.gif"
+loading="lazy"
+alt="设计案例国外优秀设计官网不要假设某种方式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://dribbble.com/TeamHopper" target="_blank" rel="noopener"
+&gt;Hopper应用&lt;/a&gt;的加载界面。&lt;/p&gt;
+&lt;h2 id="4-应用设计和响应式网页设计是一回事"&gt;4. 应用设计和响应式网页设计是一回事
+&lt;/h2&gt;&lt;p&gt;虽然&lt;a class="link" href="https://studio.uxpin.com/ebooks/responsive-web-design-best-practices/" target="_blank" rel="noopener"
+&gt;响应式设计&lt;/a&gt;近似于&lt;a class="link" href="https://studio.uxpin.com/ebooks/mobile-ui-ux-design-trends-2015-2016/" target="_blank" rel="noopener"
+&gt;移动应用设计&lt;/a&gt;，但为任何设备设计，与为独立应用设计，有天壤之别。&lt;/p&gt;
+&lt;p&gt;用户在移动应用中期望特定的交互模式和界面元素。&lt;/p&gt;
+&lt;p&gt;例如，在iOS应用左上角通常有个“返回”按钮，用来返回前一个界面。在网页浏览器中，网站本身就不需要返回按钮了；它通常都被省略掉，因为那和浏览器本身太像了。&lt;/p&gt;
+&lt;p&gt;虽然这是很基本且显而易见的例子，从菜单和表单，到“弹窗”和字体大小，一切都有细微差别。我们在网页中的设计，在移动应用中往往显得有点尴尬或粗糙——并非必定是哪里错了，而是它本就不同。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/image037-576x1024.png"
+loading="lazy"
+alt="设计案例TDBankiO官网应用和响应式"
+&gt; &lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/image046-576x1024.png"
+loading="lazy"
+alt="设计案例TDBankiO官网应用和响1"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图片来源：&lt;a class="link" href="https://itunes.apple.com/us/app/td-bank-us/id382107453?mt=8" target="_blank" rel="noopener"
+&gt;TD Bank iOS应用&lt;/a&gt;的登录和&lt;a class="link" href="https://itunes.apple.com/us/app/linkedin/id288429040?mt=8" target="_blank" rel="noopener"
+&gt;LinkedIn iOS应用&lt;/a&gt;的登录&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;比较一下TD Bank iOS版和LinkedIn iOS版的登录界面。&lt;/p&gt;
+&lt;p&gt;在TD Bank iOS应用中，你会发现他们主要的UI元素做成了应用的样子，左上角有返回按钮，底部还能看到一栏菜单（与iOS的模式一致）。却没有像应用那样，为登录框本身（和其他页面内容）设计样式。输入框上有默认的iOS圆角和阴影，勾选框非常小，链接带有下划线，UI中甚至还带有版权公告。缺乏应用独有的感觉。&lt;/p&gt;
+&lt;p&gt;相反，LinkedIn iOS应用&lt;em&gt;的确&lt;/em&gt;感觉像是个应用，尽管不是因为哪个特定的设计或界面元素。而是因为他们没有把网页打包成应用。他们为应用而设计，而非移动端网页——我们能看出区别。&lt;/p&gt;
+&lt;h2 id="5-加载小转盘是表达加载中和思考中的正确方式"&gt;5. “加载小转盘”是表达加载中和思考中的正确方式
+&lt;/h2&gt;&lt;p&gt;默认的加载图标（例如iOS的小转盘，从中心点发散出的灰色线条）似乎有负面的暗示。&lt;/p&gt;
+&lt;p&gt;它们不仅出现的不是时候，也作为移动操作系统的一种功能，指示一切事物的状态。从设备开机，到连接wifi出现问题，或是应用加载缓慢。&lt;/p&gt;
+&lt;p&gt;正因如此，人们讨厌看到孤零零的一个转盘，没有任何指示信息或时间进度。&lt;/p&gt;
+&lt;p&gt;相反，应该尝试让加载感觉更自然——甚至将它隐藏。一种方式是通过占位元素来暗示内容，Facebook就这样呈现时间轴的加载状态。你还可以利用这个机会，在加载指示器和信息上发挥创意，例如在界面上加入一些奇思妙想，或者强调品牌。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/image081-576x1024.png"
+loading="lazy"
+alt="设计案例Facebook官网加载小转盘是"
+&gt;&lt;/p&gt;
+&lt;p&gt;照片来源：&lt;a class="link" href="http://itunes.apple.com/us/app/facebook/id284882215?mt=8" target="_blank" rel="noopener"
+&gt;Facebook iOS app&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="6-用户首次使用时会盲目地允许通知"&gt;6. 用户首次使用时，会盲目地允许通知
+&lt;/h2&gt;&lt;p&gt;绝不能依赖操作系统默认的“允许通知”对话框。这个无脑设计会绊倒无数移动端设计师。首先，它并没有说得足够清楚&lt;em&gt;为什么&lt;/em&gt;应用需要获取权限，让它能随时随地侵犯用户隐私。&lt;/p&gt;
+&lt;p&gt;相反，应该在应用中设计一个自定义的“允许通知”界面。&lt;/p&gt;
+&lt;p&gt;永远都要告诉用户你的通知有多么重要（尽可能给他们展示例子），并且向他们保证不会有不必要的垃圾信息轰炸。&lt;/p&gt;
+&lt;p&gt;一旦用户理解了应用通知的价值，谨慎提供原生的、基于系统的弹窗——他们会立刻看见，不会把事情搞得一团糟。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/image009-576x1024.png"
+loading="lazy"
+alt="设计案例Peach官网用户首次使用时会盲"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;照片来源：&lt;a class="link" href="http://peach.cool/" target="_blank" rel="noopener"
+&gt;http://peach.cool/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;一款广泛宣传的新近应用&lt;a class="link" href="http://peach.cool/" target="_blank" rel="noopener"
+&gt;Peach&lt;/a&gt;就做得很完美。&lt;/p&gt;
+&lt;p&gt;它第一个“允许通知”对话框看起来很像真正iOS系统对话框（但并不是），他们解释了“为什么”需要通知，消除了疑虑。用户点击“允许”之后，就会看到真正的iOS系统对话框（相比之下，这个没用多了）。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://studio.uxpin.com/wp-content/uploads/2016/01/image071-576x1024.png"
+loading="lazy"
+alt="设计案例Peach官网用户首次使用时1"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;照片来源：&lt;a class="link" href="http://peach.cool/" target="_blank" rel="noopener"
+&gt;http://peach.cool/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="7还有更多"&gt;7（还有更多）
+&lt;/h2&gt;&lt;p&gt;人们对应用界面的期望更多了，标准正在水涨船高。&lt;/p&gt;
+&lt;p&gt;对于基于应用的公司，不当地忽视细节会损害应用的接受度——甚至会破坏你与用户的关系。&lt;/p&gt;
+&lt;p&gt;以上6个想当然还只是开始。如果想要继续深入，要学着留心和避免日常的假定。小心不要想当然以为自己知道什么界面最适合——始终都要努力寻找最佳方案。&lt;/p&gt;
+&lt;p&gt;想要学习更多关于用户体验设计的最佳实践，请看&lt;a class="link" href="https://studio.uxpin.com/ebooks/free-ui-ux-design-trends-2015-2016-ebook-bundle/" target="_blank" rel="noopener"
+&gt;《2016决定性的用户体验设计电子书集合》&lt;/a&gt;。这个集合里包含了350多页和超过300个移动端设计、用户体验设计、网页设计的案例。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://studio.uxpin.com/blog/6-assumptions-that-kill-your-mobile-app-design/" target="_blank" rel="noopener"
+&gt;https://studio.uxpin.com/blog/6-assumptions-that-kill-your-mobile-app-design/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Drew Thomas
+Drew Thomas is the chief creative officer and a co-founder of &lt;a class="link" href="http://www.brolik.com/" target="_blank" rel="noopener"
+&gt;Brolik&lt;/a&gt;, a Philadelphia digital design agency. While Brolik is his focus, he also considers himself a “maker” and tinkers with all kinds of side projects, both digital and physical.&lt;/p&gt;</description></item><item><title>移动端设计模式的误用</title><link>https://victor42.eth.limo/post/3469/</link><pubDate>Sun, 15 Nov 2015 08:49:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3469/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第110期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果你是一名经验丰富的设计师，你一定会认同一点，受他人启发并不是在抄袭UI设计。这是一种最佳的研究实践。它也要运用各种设计模式，也要遵循设计规范，也需要确保选择用户熟悉的模式来建立可用的界面。&lt;/p&gt;
+&lt;p&gt;有些人可能会说，死守规范和模仿他人会扼杀创造力，终将有一天，所有应用都长一个样。但从用户体验的角度我注意到另一个问题。习惯于最佳实例可能会让你盲从Google/Facebook/Instagram/还有你最喜欢的应用，误以为他们的设计目标与你的相同，你却未对此产生质疑。下面是一些被认为（或是曾经被认为）是最佳实例的模式，但未必如你初见时所认为的那么好。&lt;/p&gt;
+&lt;h3 id="1-隐藏式导航"&gt;1. 隐藏式导航
+&lt;/h3&gt;&lt;p&gt;至少有五十万篇关于汉堡菜单的文章，多数都是设计师写的，为此展开激烈争辩。如果你对此一无所知，可以读读&lt;a class="link" href="http://techcrunch.com/2014/05/24/before-the-hamburger-button-kills-you/" target="_blank" rel="noopener"
+&gt;这篇&lt;/a&gt;或者&lt;a class="link" href="http://deep.design/the-hamburger-menu/" target="_blank" rel="noopener"
+&gt;这篇&lt;/a&gt;。但简而言之，讨论点并不是这个图标本身，而是&lt;a class="link" href="https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/" target="_blank" rel="noopener"
+&gt;将导航隐藏在&lt;/a&gt;一个图标中。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-qui26I1HGnNFb5tf03ja3A.png"
+loading="lazy"
+alt="智能手机界面中隐藏导航栏的汉堡菜单"
+&gt;&lt;/p&gt;
+&lt;p&gt;侧滑菜单非常灵活，使用也方便。&lt;/p&gt;
+&lt;p&gt;这个解决方案对于设计师很有诱惑力，方便快捷：你不用操心有限的屏幕空间，把整个导航塞进默认隐藏的滚动层里就可以了。&lt;/p&gt;
+&lt;p&gt;但是，&lt;a class="link" href="http://www.lukew.com/ff/entry.asp?1945" target="_blank" rel="noopener"
+&gt;实验显示&lt;/a&gt;，用一种更加可见的方式展示菜单项，能够提升活跃度、用户满意度、甚至收入。这就是为何&lt;a class="link" href="https://twitter.com/lukew/status/562298343217299457" target="_blank" rel="noopener"
+&gt;所有&lt;/a&gt; &lt;a class="link" href="https://twitter.com/lukew/status/629306816925601792" target="_blank" rel="noopener"
+&gt;大&lt;/a&gt; &lt;a class="link" href="https://twitter.com/lukew/status/623708092190949377" target="_blank" rel="noopener"
+&gt;公司&lt;/a&gt;都在舍弃汉堡菜单，让最重要的导航项持续可见。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-HxvIr5FvQREUlRPOW6DjZA.png"
+loading="lazy"
+alt="视频软件展示菜单可见性演进的设计对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;YouTube导航的变革，Luke Wroblewski注&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果你的导航很复杂，将其隐藏并不是友好的移动端做法。为它排个主次才是。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="2-图标到处都是图标"&gt;2. 图标，到处都是图标
+&lt;/h3&gt;&lt;p&gt;由于屏幕空间有限，另一个看似无需动脑的节省空间的方法，就是把文字尽可能都换成图标。象形图标占用更少空间，也不需要翻译，毕竟人们对这些都很熟悉，对吧？而且&lt;em&gt;其他应用都在这么做&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;脑中带着这样的假定，应用的设计师有时就会把功能藏在一些难以辨识的图标里面。例如这个，在Instagram中你可以通过这个图标直接发送消息，你能猜到吗？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-WJul2IqwxPjJSZjV410Kew.png"
+loading="lazy"
+alt="社交软件中代表发送消息的抽象图标按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;或者假设你从没用过Google Translate，点下面这个图标你觉得会是什么功能？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-EN1VhczvRDU-_ZgSxGDDrA.png"
+loading="lazy"
+alt="翻译软件中表示手写输入功能的抽象图标"
+&gt;&lt;/p&gt;
+&lt;p&gt;有个常见的错误，就是假定用户都熟悉这些象形图，或者愿意花时间探索和学习它们的含义。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-WfFfK2vgkJZpAt_X3mtqag.png"
+loading="lazy"
+alt="移动应用中含义模糊且难以辨识的标签栏"
+&gt;&lt;/p&gt;
+&lt;p&gt;Bloom.fm难以理解的标签栏。&lt;/p&gt;
+&lt;p&gt;如果你认为在图标上加上悬浮气泡会让它更易用，那你就错了。即使你是Foursquare，用户无论如何都需要学习使用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-S2F9LXkCwzwhh49Kx4S1oA.png"
+loading="lazy"
+alt="应用界面中为解释图标含义添加的提示框"
+&gt;&lt;/p&gt;
+&lt;p&gt;Swarm中的图标提示。&lt;/p&gt;
+&lt;p&gt;这不是说根本不应该用图标。 &lt;a class="link" href="https://www.usertesting.com/blog/2015/08/04/user-friendly-ui-icons/" target="_blank" rel="noopener"
+&gt;有许多人们相当熟悉的图标&lt;/a&gt;，其中多数都表现一些常用功能，例如搜索、播放视频、邮件、设置等等。（但用户仍然会感到不确定，例如，点击心型图标时究竟会发生什么。）&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-qpegFY61TA5vLYax2oJQVA.png"
+loading="lazy"
+alt="移动端软件中用户广泛熟知的通用图标集"
+&gt;&lt;/p&gt;
+&lt;p&gt;有些图标多数用户都认识，这些可以作为通用图标。&lt;/p&gt;
+&lt;p&gt;但是，复杂且抽象的功能总是应该带有适当的文字标签。在这种情况下，图标仍然有用，因为它们提升了菜单项的显著性，也为应用增加了一丝亲切与个性。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-mcAzk4G4KedsK4zkmccJHw.png"
+loading="lazy"
+alt="设计软件中结合图标与文字标签的导航栏"
+&gt;&lt;/p&gt;
+&lt;p&gt;Pixelmator的导航&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;基础功能用图标可以很有效地展现，但对于复杂的功能，应该带上文字标签。（如果要用图标，一定要做可用性测试。）&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="3-基于手势的导航"&gt;3. 基于手势的导航
+&lt;/h3&gt;&lt;p&gt;苹果在2007年推出iPhone时，多点触控技术成为主流焦点，用户了解到他们不仅能够在界面上点击，还可以放大、捏合和滑动。&lt;/p&gt;
+&lt;p&gt;手势在设计师群体中盛行起来，有许多应用都带有实验性的手势控制。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-er9FQTn-xNlB67IBUr_sWg.jpeg"
+loading="lazy"
+alt="极简设计应用中通过滑动手势操作的界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;Clear应用中的手势导航。&lt;/p&gt;
+&lt;p&gt;就像把导航藏在图标中替代文字标签，手势有时候对于需要节省屏幕空间的设计师而言也极具诱惑力。（“不应该有删除按钮，人们左滑就行了。或者右滑也行，这个我们来决定。”）&lt;/p&gt;
+&lt;p&gt;关于&lt;strong&gt;手势&lt;/strong&gt;要知道的第一件事情，就是它们&lt;strong&gt;总是隐藏的&lt;/strong&gt;。人们需要记住它们。就像汉堡菜单那样：如果将某个选项隐藏起来，使用它的人就会减少。&lt;/p&gt;
+&lt;p&gt;而且，手势与图标有同样的问题：有些通用手势大家都掌握了，例如点按、缩放、滚动。还有一些手势每个应用都不同，需要探索和学习。&lt;/p&gt;
+&lt;p&gt;但不幸的是，&lt;strong&gt;多数手势在不同应用中，都是非标准且不统一的&lt;/strong&gt;——这仍然是触屏界面设计相当新的一个领域。甚至简单如滑动手势，在不同邮件应用中也不一样。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-py1ZWbnmx2OOZbbwOqwcqA.png"
+loading="lazy"
+alt="苹果邮件应用中向右滑动标记未读的操作"
+&gt;&lt;/p&gt;
+&lt;p&gt;在苹果的邮件应用中右滑，会显示出标为未读选项。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-hOLUXfOAN0xi1_peJVKXag.png"
+loading="lazy"
+alt="第三方邮件应用中向右滑动归档邮件操作"
+&gt;&lt;/p&gt;
+&lt;p&gt;同样的手势在Mailbox里却是归档邮件。&lt;/p&gt;
+&lt;p&gt;还有，想一想，摇晃手机可能既是撤销（iOS）又是发送反馈（Google Maps)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不要忘了手势是隐藏式的控制，你的用户需要付出大量的精力才能记住。除非你是Tinder，那你或许可以为全世界定义右滑的意义——但也仅限于&lt;a class="link" href="http://www.apptentive.com/blog/in-app-gestures-an-interview-with-tinder/" target="_blank" rel="noopener"
+&gt;你应用中至关重要的某个概念&lt;/a&gt;。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="4-首次使用的教学引导"&gt;4. 首次使用的教学引导
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.useronboard.com/" target="_blank" rel="noopener"
+&gt;首次使用&lt;/a&gt;，最近一个火热的用户体验议题，指的是用户与应用的第一次接触。在许多例子中，这就是指显示一些教学引导层，向用户说明应用界面：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-liRpLFXuCR_tJfkVasnuog.png"
+loading="lazy"
+alt="旅游应用首次启动时展示的教学引导图层"
+&gt;&lt;/p&gt;
+&lt;p&gt;dcovery中的教学引导。&lt;/p&gt;
+&lt;p&gt;为什么这是个&lt;a class="link" href="http://jmduke.com/posts/app-smells-coach-marks-and-onboarding/" target="_blank" rel="noopener"
+&gt;糟糕的方案&lt;/a&gt;？因为多数用户会跳过你的介绍；他们只想立刻上手。即使他们注意到你的教程，通常也转瞬即忘。（尤其当界面信息太多时。）最后这点也很重要：加入教学引导并不会使界面更直观。牢记这一条：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-_0nvWssK2-ecxC5tUusfxg.jpeg"
+loading="lazy"
+alt="写有关于用户界面设计幽默名言的装饰画"
+&gt;&lt;/p&gt;
+&lt;p&gt;用户界面就像一则笑话，如果你非要解释它，就不好笑了。来源：&lt;a class="link" href="https://twitter.com/startupvitamins/status/494471640496209920" target="_blank" rel="noopener"
+&gt;Startup Vitamins&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;首次使用的流程还可以用许多其他方式来设计，或许对用户更加有用。例如Slack，用了主界面来营造环境氛围。他们做了自我介绍，重点阐述了它的&lt;em&gt;好处&lt;/em&gt;，而非界面与功能。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-O5GYkCQ7RkozduE9g6pO0w.png"
+loading="lazy"
+alt="协作软件首次启动时用于营造氛围的界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;有一种更加有互动性的方式欢迎新用户，渐进式。Duolingo没有解释应用的功能：它鼓励用户打开，在选定的语言中做一套快速测试（甚至都不用注册），因为人们在实际操作中学习最快。而且它也是一种更吸引人的方式来展现应用的&lt;em&gt;价值&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-h9HKihyqW3vm-A5tVi1IBQ.jpeg"
+loading="lazy"
+alt="语言学习应用引导新用户进行测试的界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;还记得滑动手势在Mailbox中与Apple Mail里不同么？这就是它如何渐进式引导的：用户会看到一系列引导页，在实际使用应用之前，他们要在其中试着操作每一个手势。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-xjSw-UyHLwnOs-QKRCMtsQ.png"
+loading="lazy"
+alt="移动端应用手势操作引导交互界面的设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在设计半透明层上的教学引导之前，停一停，思考一下用户首次打开的体验会是怎样。要重视环境。多数情况下，总有更好的方式来欢迎用户。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="5-有创意但不直观的空状态"&gt;5. 有创意但不直观的空状态
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://emptystat.es/" target="_blank" rel="noopener"
+&gt;空状态&lt;/a&gt;非常容易被经验不足的设计师忽略，但是，它是应用整体用户体验的重要因素。&lt;/p&gt;
+&lt;p&gt;有时候设计师把错误信息和空状态当作挥洒创意的画布。&lt;/p&gt;
+&lt;p&gt;例如Google Photos的这个空状态界面：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-gC7yEp1Z9u3KBrRplwdbmQ.png"
+loading="lazy"
+alt="相册应用中引导用户上传照片的空状态图"
+&gt;&lt;/p&gt;
+&lt;p&gt;Google Photos中的空状态。&lt;/p&gt;
+&lt;p&gt;第一眼看觉得很棒，对吧？遵循规范，层次分明，还有漂亮的插画。&lt;/p&gt;
+&lt;p&gt;但再看一眼，有一些奇怪的东西：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果都没有相片集，为什么还要一个如此突出的搜索按钮？为什么要在&lt;em&gt;空无一物&lt;/em&gt;中搜索？&lt;/li&gt;
+&lt;li&gt;第二明显的元素——插画，却显然是不可点击的（尽管许多人会试着去点）。&lt;/li&gt;
+&lt;li&gt;提示说我应该寻找顶部的“+”按钮，这太尴尬了。为什么提示本身不带有&lt;em&gt;添加&lt;/em&gt;按钮？这就像是在说“点击继续按钮继续”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上面的这个空状态并没有帮助用户理解环境：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;相片集是什么？它们有什么用？&lt;/li&gt;
+&lt;li&gt;为什么我没有相片集？&lt;/li&gt;
+&lt;li&gt;我该怎么办（我该做点什么吗）？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;说到创造力，有时候少即是多。下面的空状态在实用性方面表现就非常好。（我们暂且忽略“现在点击下方按钮”的说明。）&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-15/1-QilGqIJL--Po_UzywRu1nA.png"
+loading="lazy"
+alt="社交软件中形式极简但功能实用的空状态"
+&gt;&lt;/p&gt;
+&lt;p&gt;Lootsy的空状态。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;别忘了空状态（类似于网页的404页面）不仅仅关乎视觉美学与品牌个性。它们在可用性方面还扮演着更重要的角色。要让它们直观易懂。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="质疑一切"&gt;质疑一切
+&lt;/h3&gt;&lt;p&gt;不要误会我的意思：设计模式与最佳实例仍然是你的良师益友。但要牢记应用和用户是不同的，某种解决方案可能在一个应用中大放异彩，在你的应用中却一败涂地。这不是普适规律。而且，你永远都不会知道一个应用为什么要这样设计。&lt;/p&gt;
+&lt;p&gt;独立思考。独立设计。独立研究。&lt;/p&gt;
+&lt;p&gt;权衡、测试、验证——别怕违背规范，只要那样做更有意义。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/@kollinz/misused-mobile-ux-patterns-84d2b6930570" target="_blank" rel="noopener"
+&gt;https://medium.com/@kollinz/misused-mobile-ux-patterns-84d2b6930570&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://medium.com/@kollinz" target="_blank" rel="noopener"
+&gt;Zoltan Kollin&lt;/a&gt;
+Thinking about experiences as UX director at Ustream, co-organizer of Amuse UX Conference and co-author of &lt;a class="link" href="http://uxmyths.com/" target="_blank" rel="noopener"
+&gt;http://uxmyths.com/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>热门移动端输入交互</title><link>https://victor42.eth.limo/post/3449/</link><pubDate>Sun, 12 Jul 2015 12:43:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3449/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第94期]&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="深入了解时下最热门应用的设计模式"&gt;深入了解时下最热门应用的设计模式
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;本文中，&lt;a class="link" href="http://uxpin.com/" target="_blank" rel="noopener"
+&gt;UXPin – 用户体验设计应用&lt;/a&gt;的Chris Bank会讨论用户输入设计模式的重要性，还有来自时下最热门移动应用的具体案例——更多案例和超过45种移动端设计模式，都在UXPin的免费电子书&lt;a class="link" href="http://uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;《2014移动UI设计模式》&lt;/a&gt;中有提到。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;任何移动应用，若没有用户起初和持续不断的输入，就什么也不会发生。因此，移动产品设计师、开发者和产品经理要了解最佳的输入方式，这点至关重要。尽管移动应用——还有使用它们的用户——通常都很独特，但仍有很多通用模式（新旧都有）用来解决这一特殊问题。&lt;/p&gt;
+&lt;h2 id="用户输入设计的6项目标"&gt;用户输入设计的6项目标
+&lt;/h2&gt;&lt;p&gt;深入探讨这些模式之前，理解用户输入设计的6项主要目标非常重要——我把它们列在下面：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;选择一种适合的输入和数据录入方式&lt;/li&gt;
+&lt;li&gt;减少输入的工作量&lt;/li&gt;
+&lt;li&gt;设计有吸引力的数据录入界面&lt;/li&gt;
+&lt;li&gt;通过验证检查来减少输入错误&lt;/li&gt;
+&lt;li&gt;设计必填项说明&lt;/li&gt;
+&lt;li&gt;开发有效的输入控件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="模式总览"&gt;模式总览
+&lt;/h2&gt;&lt;p&gt;记住上面几项目标，以下设计模式，在本文中都有详细讨论，在我们的电子书&lt;a class="link" href="http://uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;《2014移动UI设计模式》&lt;/a&gt;中还有更深入的探讨：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;智能键盘&lt;/li&gt;
+&lt;li&gt;默认值和自动补全&lt;/li&gt;
+&lt;li&gt;直接进入（或者说“快速登录”）&lt;/li&gt;
+&lt;li&gt;操作栏&lt;/li&gt;
+&lt;li&gt;社交账号登录&lt;/li&gt;
+&lt;li&gt;大按钮&lt;/li&gt;
+&lt;li&gt;滑动操作&lt;/li&gt;
+&lt;li&gt;通知&lt;/li&gt;
+&lt;li&gt;隐藏式控件&lt;/li&gt;
+&lt;li&gt;扩展式输入框&lt;/li&gt;
+&lt;li&gt;撤销&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="1-智能键盘"&gt;1. 智能键盘
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Smart-Keyboards.jpg"
+loading="lazy"
+alt="Facebook Paper, Android通讯录"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Facebook Paper, Android通讯录&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想要快速键入信息。&lt;/p&gt;
+&lt;h3 id="解决方案"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;用户点按进入应用某个输入区块，在他们键入时要提供与数据相关的键盘。这样免去他们在字母与数字键盘间切换，不用寻找所需的按钮，或者多一步操作来激活键盘。这不仅为了用户方便，也可作为一种指示，注明用户应该输入什么类型的数据。因此移动平台的输入框可以高亮显示，这增加了灵活性，决定了哪些按钮应该突出显示。&lt;/p&gt;
+&lt;p&gt;例如，在通讯录或拨号器里输入手机号码时，用户并不需要完整键盘。点按这些输入框时，会弹出数字键盘，而非完整键盘。去掉了令人分心的不必要的按钮，流程更加顺畅。类似的，点按浏览器地址栏，会弹出一个略有改动的键盘，“/”和“.com”按钮就显示在空格键旁边，而非隐藏于符号内。深入了解系统提供的这些智能键盘类型，你的UI可以根据用户当前的操作而调整。&lt;/p&gt;
+&lt;h2 id="2-默认值和自动补全"&gt;2. 默认值和自动补全
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Default-Values-Autocomplete.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Skype, Flightboard&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-1"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想要快速完成操作。&lt;/p&gt;
+&lt;h3 id="解决方案-1"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;向用户提供预置的默认值，或者基于之前输入的数据生成的快速选项。由此预测常用选项，让用户更容易进行信息录入。这可以和实用的自动补全进行搭配，就像Google Play商店的搜索那样，加快速度，显著提升用户体验。这种模式尤其适用于用户输入的标准化，并预知问题的发生。以Skype为例，自动在电话号码前加上国家码前缀。这在用户的角度是有意义的，因为他们通常并不习惯输入这些信息，但它在这个环境中很重要，因为Skype是个国际呼叫应用。&lt;/p&gt;
+&lt;p&gt;另一种方式是保存用户上次输入的信息，当用户输入或搜索时，展现这些最近使用的选项。例如，Flightboard在搜索框下面列出了之前使用过的地理位置，让用户免于再次输入。多数地图或导航应用也采用了这种模式，搜索方位时自动输入用户当前位置，减少用户点按次数。因为这是最常发生的情况。&lt;/p&gt;
+&lt;h2 id="直接进入或者说快速登录"&gt;直接进入（或者说“快速登录”）
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/wunderlist.jpg"
+loading="lazy"
+alt="热门移动端输入交互的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Wunderlist&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-2"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想在做决定前尝试一下。&lt;/p&gt;
+&lt;h3 id="解决方案-2"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;很多应用允许用户直接进入，其他什么也不用做——甚至包括注册或登录。&lt;/p&gt;
+&lt;p&gt;记住，用户同时只能做一件事，他们没有足够时间尝试每个新产品。随着应用越来越细分化，在培育用户之前，找到高质量用户或领袖用户愈发重要——他们可能会讨厌你的产品，或者迅速意识到这不是他们要的。向用户索要账号注册信息比较困难，低的注册转化率会与注册用户数相互抵消。从积极方面来看，让用户直接体验产品，他们更容易被吸引，这取决于首次体验时能探索多深。这比引导页的UI模式更有效，我们会在下次讲到那些。因为它直接呈现在用户面前，而不是告诉用户如何使用。&lt;/p&gt;
+&lt;p&gt;推迟注册对于Carousel或Duolingo这样的应用就不起作用，它们依赖用户数据来运转。但像Wunderlist或Houzz这样应用可以让用户直接进来，在注册前先使用这个应用。通常，注册只是增加了额外的好处，使它更具吸引力，比如Wunderlist的跨设备同步，或是在Houzz中创建灵感集。推迟注册不一定总是好的，不过“注册前尝试”是个提升应用吸引力的好办法。&lt;/p&gt;
+&lt;h2 id="4-操作栏"&gt;4. 操作栏
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Action-Bars.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Facebook Paper, Behance&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-3"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户需要常用操作的快捷入口。&lt;/p&gt;
+&lt;h3 id="解决方案-3"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;在应用的操作栏（用iOS术语叫“toolbar”）提供重要操作的快速入口。尽管导航栏主宰着网页和早期的移动应用设计，其他一些模式的使用，诸如抽屉菜单、滑动侧边栏、链接集合、按钮变换、垂直的基于内容的导航等，造就了更简洁的应用界面，让人关注主要和次要操作项，忽略副导航。这些应用的常用操作，就是搜索、分享和创建新内容。固定菜单不仅让用户更加熟悉UI，也去除了杂乱，聚焦于用户相关的重要操作。&lt;/p&gt;
+&lt;h2 id="5-社交账号登录"&gt;5. 社交账号登录
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Social-Login.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Beats Music, Flipboard&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-4"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想要更简单的注册和登录方式&lt;/p&gt;
+&lt;h3 id="解决方案-4"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;整合社交媒体注册可以让用户通过已有账号登录。这意味着他们要少操心一组用户名/密码，同时你也不必太担心密码安全。Facebook、Twitter和Google是最主要的OAuth登录提供方，你可以依据平台和目标用户，整合其中所有或部分到应用中，用户不必再设置一个未来可能不会用到的独立账号。使用这种登录注册模式也能为你提供用户的一些基本数据（他们使用时自动输入的数据），不强迫他们在刚刚下载的陌生应用中输入详细信息，始终保持注册流程的简捷。这个简单的功能可以极大提升用户体验，毫无疑问这种模式是众望所归。&lt;/p&gt;
+&lt;h2 id="6-大按钮"&gt;6. 大按钮
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Huge-Buttons.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tinder, Shazam&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-5"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想立刻知道他们该采取哪个操作。&lt;/p&gt;
+&lt;h3 id="解决方案-5"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;理想的触摸屏点按尺寸可能是72像素，但某些应用比如Tinder，给出了巨大的按钮。你就清楚知道该怎么做。无论何时、正在做什么，你都能迅速操作——即使你没有在看，也很难忽略这些大块的按钮。这在相对简单的应用中尤其有价值，其中用户只有有限的操作，因此就更有理由在各种环境中使它更容易。以Shazam为例，旨在看电视或听音乐时使用，它确实只有这一个功能。在这种令人分心的多任务状态下，巨大的按钮是非常棒的改善。&lt;/p&gt;
+&lt;h2 id="7-滑动操作"&gt;7. 滑动操作
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Swiping-for-Actions-.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Carousel&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-6"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想关注具体内容。&lt;/p&gt;
+&lt;h3 id="解决方案-6"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;允许内容滑出或移出屏幕。这给用户提供了非常直观的信息处理方式。例如Google Now的“卡片”，当你不需要时可以滑动删除，清除杂乱。类似的，Tinder的个人资料也可以右滑或左滑来表示赞同或否定。这种模式与我们之前在导航模式中讨论的滑动视图不同。此处，滑动操作被当做一种操作，而非纯粹浏览。有些应用结合了这两种滑动模式，例如Carousel，滑到一边可以浏览大量照片，同时上滑或下滑操作可以分享或隐藏。Mailbox使左右滑动操作在邮件客户端中发扬光大，通过相应的左滑和右滑操作，你可以将邮件分别标记为已读或稍后处理。在Secret中，发现新操作与探索新菜单的方式相同。在一条秘密上左滑表示喜欢。&lt;/p&gt;
+&lt;h2 id="8-通知"&gt;8. 通知
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Notifications.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;LinkedIn, Facebook&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-7"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想知道新动态或操作，他们要瞄一眼&lt;/p&gt;
+&lt;h3 id="解决方案-7"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;在视觉上通过高亮来标记新内容。这种模式有很多方式。例如，iOS引领的带数字的小红点，如今很多其他应用中也能看到，例如LinkedIn、Facebook或Quora。Twitter也这样处理通知按钮，不过在时间轴图标上方也有个小点，用一种更微妙的方式来表示新动态。另一种表现通知的方式，是在应用中滑出一条banner来显示新动态。Facebook应用也这么做了，当信息流中有新项目时显示一个小弹出提示。&lt;/p&gt;
+&lt;h2 id="9-隐藏式控件"&gt;9. 隐藏式控件
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Discoverable-Controls.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Secret&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-8"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户要在应用中快速激活次要控件，还有那些只与特定区域或内容相关的控件。&lt;/p&gt;
+&lt;h3 id="解决方案-8"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;清理杂乱，让用户只在需要时发现特定操作。这些隐形的控件可以通过各种手势来触发——滑动、点按、双击、长按等等。（这些我们在手势模式中讨论过）。这让你可以将这些东西置于屏幕外，节省宝贵的屏幕空间。以Secret为例，就使用手势代替了可见的控件。右滑触发操作菜单，这是我们之前提过的抽屉的极简版。创建内容时，用户可以水平滑动或在背景上垂直滑动来改变颜色与模式，如果用了图片，还能改变亮度、饱和度与模糊度。没有其他控件来控制这些——也不应该有。这种UI设计模式如此直观和干净，你一定会看到更多此类交互。Pinterest也使用手势来代替按钮的应用。长按图片会显示采集或评论按钮，拖动弹出控件到按钮上执行。&lt;/p&gt;
+&lt;p&gt;Uber是这种设计模式的又一个案例。选择座驾类型后，通过点按滑动按钮，Uber会在预订座驾和费用估算间切换。这是简单却重要的UI设计模式，我每次试着呼叫座驾，又不想被Uber的溢价剥削时，都会为此会心一笑。Snapchat和Facebook Messenger中，在任何朋友上左滑，都能及时触发相应功能。&lt;/p&gt;
+&lt;h2 id="10-扩展式输入框"&gt;10. 扩展式输入框
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Expandable-Inputs.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“问题”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;YouTube&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-9"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户想专注于内容，不愿为了控件牺牲屏幕空间。&lt;/p&gt;
+&lt;h3 id="解决方案-9"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;将控件设计成点按展开式的。这能在用户不需要时隐藏多数控件。例如YouTube和Facebook把搜索栏藏在一个图标里面，用户点按时搜索栏才展开，节省了屏幕空间。&lt;/p&gt;
+&lt;h2 id="11-撤销"&gt;11. 撤销
+&lt;/h2&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/Undo.jpg"
+loading="lazy"
+alt="国外优秀设计官方网站的撤销页面版式布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Gmail, Chrome&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="问题-10"&gt;问题
+&lt;/h3&gt;&lt;p&gt;用户希望没有阻碍地快速操作（比如对话框），但要有还原意外操作的选项。&lt;/p&gt;
+&lt;h3 id="解决方案-10"&gt;解决方案
+&lt;/h3&gt;&lt;p&gt;提供一个简便的方法让用户撤销操作，不要在操作前提醒他们确认。有些由于意外或匆忙而产生的操作，会导致不便或数据损失，例如删除邮件或编辑文字。用户可能在不知道结果的情况下会完成一项操作，宽容的UI会让他们尝试，这更加友好有吸引力。撤销功能对高级用户也很有用，他们会赞赏这种操控感。UI不会在操作过程中反复阻拦他们，询问是否确定。确认对话框用来解释当前状况时很有用，但用户真正看见操作结果后才能理解其中含义。为避免如此，最好去掉它们，并提供一种弥补错误的防护措施。&lt;/p&gt;
+&lt;h2 id="获取用户的输入"&gt;获取用户的输入
+&lt;/h2&gt;&lt;p&gt;追踪有用户输入的地方，看他们是否注意到那些输入框，是否经常使用输入控件，他们从应用中的什么界面进入，将要前往哪里（也就是使用流程）等等。持续改变排列、顺序、尺寸，调整这些控件，让用户更多执行你希望的操作。当然，还要深入考虑，用户在输入时是如何在使用你的移动应用——确保设计应用时没有忽略明显的要点。&lt;/p&gt;
+&lt;p&gt;要深入了解热门公司如何运用新的和现有输入设计模式，学习超过45种其他的模式，请看UXPin的新电子书，&lt;a class="link" href="http://uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;《2014移动UI设计模式》&lt;/a&gt;。取其精华去其糟粕——要进行适当调整来解决实际问题，当然最重要的也是解决用户的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://uxpin.com/mobile-design-patterns.html" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/07/mobile-ui-design-patterns-cover.jpg"
+loading="lazy"
+alt="热门移动端输入交互设计中关于“原文链接”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/user-input-patterns-mobile/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Chris Bank
+Chris Bank has more than a decade of product and marketing experience in tech, leading several companies to acquisition. He currently leads growth at &lt;a class="link" href="http://uxpin.com/" target="_blank" rel="noopener"
+&gt;UXPin&lt;/a&gt;, a leading wireframing and prototyping web platform. You can connect with him on &lt;a class="link" href="http://www.mr-bank.com/" target="_blank" rel="noopener"
+&gt;his website&lt;/a&gt; and &lt;a class="link" href="https://twitter.com/sbanker" target="_blank" rel="noopener"
+&gt;Twitter&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>全新的导航形式：全屏菜单</title><link>https://victor42.eth.limo/post/3446/</link><pubDate>Sun, 28 Jun 2015 12:51:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3446/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第92期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/9-Impossible-Bureau.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“与其他用户界面细节一”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;与其他用户界面细节一样，菜单的设计也在随着当今的潮流改变。一些变化能带来积极的效果，改善用户体验，还有一些却会破坏有利的形象。追随潮流是件棘手的事，尤其是在菜单上。&lt;/p&gt;
+&lt;p&gt;比如，隐藏式菜单和极简式导航栏最近正处于风口浪尖。但是，它们并不适用于所有网站。相比之下，全屏菜单多数时候几乎都适用于所有项目。后者正在汇聚人气，因为它灵活易变，能够提升而非破坏用户体验。它在不经意间呈现了很多数据，整洁地排布文字与多媒体内容。当然，这使得主页又多了一层点击，但有时为了更好的用户体验，应该做这样的牺牲。&lt;/p&gt;
+&lt;p&gt;今天我们进行一场头脑风暴，来看20个新颖绝妙的&lt;strong&gt;全屏导航网页设计&lt;/strong&gt;案例。&lt;/p&gt;
+&lt;h2 id="全屏菜单案例"&gt;全屏菜单案例
+&lt;/h2&gt;&lt;h3 id="maecia"&gt;Maecia
+&lt;/h3&gt;&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/1-Maecia.jpg"
+loading="lazy"
+alt="全新的导航形式：全屏菜单的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;Maecia采用了讨人喜爱的蒸汽朋克外观，增添了一分独特的精细和机械感。基于图片的导航占据整个屏幕，与动态主页和主题高度吻合。&lt;/p&gt;
+&lt;h3 id="olcese"&gt;Olcese
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.cotonificioolcese.it" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/2-Olcese.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“有好几个菜单便于用户”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Olcese有好几个菜单，便于用户更彻底地探索这个网站，同时也强化了品牌识别。基于图片的网格式全屏导航中，充满了有趣的照片、漂亮的图表和令人愉快的效果。这些元素的结合扮演着至关重要的角色。&lt;/p&gt;
+&lt;h3 id="moeko-abe"&gt;Moeko ABE
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://abemoeko.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/3-Moeko-ABE.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“摄影师的在线作品集还”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;摄影师的在线作品集还能是什么样？以照片为核心的主页明亮耀眼，导航运用了多媒体，为这位艺术家高调代言。菜单在整个页面投下柔和的阴影，呈现出美丽的照片链接。&lt;/p&gt;
+&lt;h3 id="conference-awwwards"&gt;Conference Awwwards
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://conference.awwwards.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/4-Conference-Awwwards.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“颇具开创性的主页一流”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;颇具开创性的主页，一流的HTML/CSS/JS动画立刻引人注目，让人印象深刻。简单的导航占据了整个屏幕，视觉聚焦于导航链接。这是非常合理的方案。&lt;/p&gt;
+&lt;h3 id="drygital"&gt;Drygital
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://drygital.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/5-Drygital.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的主菜单流露出欢乐积”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Drygital的主菜单流露出欢乐积极的情感。华丽鲜艳的渐变背景，非常有利于展现亮白色的导航。一如往常，菜单覆盖了整个主页。不过得益于半透明的背景，用户可以在着陆页欣赏一段视频。&lt;/p&gt;
+&lt;h3 id="alemans-design"&gt;Aleman’s Design
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.alemansdesign.it/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/6-Alemans-Design.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“有着无缝式的导航与整”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aleman’s Design有着无缝式的导航，与整个场景搭配良好，对美感有重大贡献。这个团队采用了非同寻常的方案，利用动画背景来强调菜单项。&lt;/p&gt;
+&lt;h3 id="mas-industries"&gt;Mas Industries
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://mas-industries.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/7-Mas-Industries.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的特点是基于图片的全”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mas Industries的特点是基于图片的全屏导航菜单，它从“汉堡”菜单中优美地展开。对金属部件的完美渲染散逸着冰冷严肃的氛围。虽然前景与背景的反差很弱，但另一方面，这种方案对系列设计有强调作用。&lt;/p&gt;
+&lt;h3 id="danne-olsson"&gt;Danne Olsson
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.danneolsson.se/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/8-Danne-Olsson.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“壮观的照片背景映入”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;壮观的照片背景，映入Danne Olsson的用户的眼帘，充满自然意象。为了弱化如此吸引眼球的核心元素，将视线引向更简单朴实的导航，他采用了很直接的解决方法，将全屏菜单与纯色背景相结合。&lt;/p&gt;
+&lt;h3 id="impossible-bureau"&gt;Impossible Bureau
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.impossible-bureau.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/9-Impossible-Bureau.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“在这里主导航将首页划”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在这里，主导航将首页划分为4列，让网站的主要部分充满全屏。为了使外观鲜活明亮，不至于让主页看起来黑暗阴沉，每个链接都带有美丽的渐变背景，还有绝佳的字体和配图。&lt;/p&gt;
+&lt;h3 id="voisins"&gt;Voisins
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://voisinschameran.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/10-Voisins.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的主页是个庞大的导航”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Voisins的主页是个庞大的导航体系，有两个菜单组成。其中之一如我们所料，迎合了当今网页设计趋势，通过“汉堡”菜单触发。另一个则占据全屏，可以更高效地处理视频链接。&lt;/p&gt;
+&lt;h3 id="fornace-studio"&gt;Fornace Studio
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.fornacestudio.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/11-Fornace-Studio.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“采用了一种非常规方案”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fornace Studio采用了一种非常规方案，主菜单由小小的导航图标触发显示。它从一个特别的角度滑入，模糊并覆盖整个主页，立刻吸引了用户的注意力。&lt;/p&gt;
+&lt;h3 id="webgriffe"&gt;Webgriffe
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.webgriffe.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/12-Webgriffe.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的设计很精细文案极细”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Webgriffe的设计很精细，文案、极细的雅致字体、幽灵按钮、强烈而现代的图形和趣的背景，共同构成了视觉焦点。菜单与主题的配合非常好。&lt;/p&gt;
+&lt;h3 id="moma"&gt;Moma
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.moma.org/interactives/exhibitions/2014/matisse/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/13-Moma.jpg"
+loading="lazy"
+alt="Moma官方网站的Moma页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;全屏导航让用户很自然地点击首页的图片，进入主菜单中的其他功能。这个方案相当整洁优雅，完全适用。&lt;/p&gt;
+&lt;h3 id="giaco-morelli"&gt;Giaco Morelli
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.giacomorelli.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/14-Giaco-Morelli.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“和上一例类似这个全屏”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;和上一例类似，这个全屏菜单带有轻微的半透明背景。厚实圆润的字体转移了访客的注意力，从迷人的交互式主页，转向网站更重要的部分。&lt;/p&gt;
+&lt;h3 id="gianluca-bocchi"&gt;Gianluca Bocchi
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.gianlucabocchi.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/15-Gianluca-Bocchi.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“虽然极简式设计缺乏丰”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;虽然极简式设计缺乏丰富的装饰，但这家画廊的官网散发着典雅、精美的艺术气息。在这里，第一印象尤为重要，庄严的菜单巧妙含蓄地将着陆页分成3部分。&lt;/p&gt;
+&lt;h3 id="elliot-lepers"&gt;Elliot Lepers
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://getelliot.com" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/16-Elliot-Lepers.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“有着全屏式轮播一列列”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Elliot Lepers有着全屏式轮播，一列列呈现信息。尽管这并非菜单的传统形式，但它是纯正的导航，使其得以充分运用。&lt;/p&gt;
+&lt;h3 id="fahrenheit"&gt;Fahrenheit
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="https://www.fahrenheit.io/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/17-Fahrenheit.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“的菜单由个基本的链接”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fahrenheit的菜单由4个基本的链接构成，这适用于多数小型在线作品集。尽管如此，这个团队仍然在其中倾注心血，将整个页面让给导航列表，证明了它的重要性。&lt;/p&gt;
+&lt;h3 id="n3rd"&gt;N3RD
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://www.n3rd.co.uk/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/18-N3RD.jpg"
+loading="lazy"
+alt="N3rd官方网站的N3RD页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;首页就是个导航页面。最棒的一点是，这个团队应该不会担心平板和移动端的变化，因为这个方案全平台适用。简单而优雅，尽管相当原始。&lt;/p&gt;
+&lt;h3 id="ivxvixviii"&gt;ivxvixviii
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://ivxvixviii.io/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/19-ivxvixviii.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“有着相当精致的几何体”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ivxvixviii有着相当精致的几何体，壮丽的图片和微妙的效果丰富了造型。精巧独特的导航足以激发兴趣，迫使用户深入其中。&lt;/p&gt;
+&lt;h3 id="the-colors-of-motion"&gt;The Colors of Motion
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://thecolorsofmotion.com/films" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/05/20-The-Colors-of-Motion.jpg"
+loading="lazy"
+alt="全屏菜单设计中关于“这个网站的特色是奇异”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个网站的特色是奇异的无字导航，一眼看去使人迷惑。设计师采用了打破常规的方案。在这种方式中，菜单与名称相结合，支撑着整个主题。&lt;/p&gt;
+&lt;h3 id="结论"&gt;结论
+&lt;/h3&gt;&lt;p&gt;受趋势影响，导航可以采用不同形式。全屏菜单是种双赢的做法，可以解决很多网页设计的问题。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/full-screen-menus/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Nataly Birch
+I&amp;rsquo;m an internet entrepreneur and an amateur web designer and developer from Sevastopol. In my spare time I read books, play board games and volleyball.&lt;/p&gt;</description></item><item><title>移动端尺寸基础知识</title><link>https://victor42.eth.limo/post/3435/</link><pubDate>Sun, 19 Apr 2015 19:55:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3435/</guid><description>&lt;p&gt;初涉移动端设计和开发的同学们，基本都会在尺寸问题上纠结好一阵子才能摸到头绪。我也花了很长时间才弄明白，感觉有必要写一篇足够通俗易懂的教程来帮助大家。从原理说起，理清关于尺寸的所有细节。由于是写给初学者的，所以不要嫌我啰嗦。&lt;/p&gt;
+&lt;h2 id="现象"&gt;现象
+&lt;/h2&gt;&lt;p&gt;首先说现象，大家都知道移动端设备屏幕尺寸非常多，碎片化严重。尤其是Android，你会听到很多种分辨率：480x800, 480x854, 540x960, 720x1280, 1080x1920，而且还有传说中的2K屏。近年来iPhone的碎片化也加剧了：640x960, 640x1136, 750x1334, 1242x2208。&lt;/p&gt;
+&lt;p&gt;不要被这些尺寸吓倒。实际上大部分的app和移动端网页，在各种尺寸的屏幕上都能正常显示。说明尺寸的问题一定有解决方法，而且有规律可循。&lt;/p&gt;
+&lt;h2 id="像素密度"&gt;像素密度
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/1.jpg"
+loading="lazy"
+alt="微距镜头下液晶显示器由红绿蓝RGB三原色组成的像素栅格特写"
+&gt;&lt;/p&gt;
+&lt;p&gt;要知道，屏幕是由很多像素点组成的。之前提到那么多种分辨率，都是手机屏幕的实际像素尺寸。比如480x800的屏幕，就是由800行、480列的像素点组成的。每个点发出不同颜色的光，构成我们所看到的画面。而手机屏幕的物理尺寸，和像素尺寸是不成比例的。最典型的例子，iPhone 3gs的屏幕像素是320x480，iPhone 4s的屏幕像素是640x960。刚好两倍，然而两款手机都是3.5英寸的。&lt;/p&gt;
+&lt;p&gt;所以，我们要引入最重要的一个概念：像素密度，也就是PPI（pixels per inch）。这项指标是连接数字世界与物理世界的桥梁。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/2.png"
+loading="lazy"
+alt="1英寸乘1英寸面积内9x9网格划分的屏幕PPI像素密度原理图"
+&gt;&lt;/p&gt;
+&lt;p&gt;Pixels per inch，准确的说是每英寸的长度上排列的像素点数量。1英寸是一个固定长度，等于2.54厘米，大约是食指最末端那根指节的长度。像素密度越高，代表屏幕显示效果越精细。Retina屏比普通屏清晰很多，就是因为它的像素密度翻了一倍。&lt;/p&gt;
+&lt;h2 id="倍率与逻辑像素"&gt;倍率与逻辑像素
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/3.png"
+loading="lazy"
+alt="iPhone 3gs与4s在无缩放倍率下显示邮件列表内容的尺寸对比示意图"
+&gt;&lt;/p&gt;
+&lt;p&gt;再用iPhone 3gs和4s来举例。假设有个邮件列表界面，我们不妨按照PC端网页设计的思维来想象。3gs上大概只能显示4-5行，4s就能显示9-10行，而且每行会变得特别宽。但两款手机其实是一样大的。如果照这种方式显示，3gs上刚刚好的效果，在4s上就会小到根本看不清字。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/5.png"
+loading="lazy"
+alt="iPhone 3gs与4s显示屏上物理像素与逻辑像素的渲染机制对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;在现实中，这两者效果却是一样的。这是因为Retina屏幕把2x2个像素当1个像素使用。比如原本44像素高的顶部导航栏，在Retina屏上用了88个像素的高度来显示。导致界面元素都变成2倍大小，反而和3gs效果一样了。画质却更清晰。&lt;/p&gt;
+&lt;p&gt;在以前，iOS应用的资源图片中，同一张图通常有两个尺寸。你会看到文件名有的带@2x字样，有的不带。其中不带@2x的用在普通屏上，带@2x的用在Retina屏上。只要图片准备好，iOS会自己判断用哪张，Android道理也一样。&lt;/p&gt;
+&lt;p&gt;由此可以看出，苹果以普通屏为基准，给Retina屏定义了一个2倍的倍率（iPhone 6plus除外，它达到了3倍）。实际像素除以倍率，就得到逻辑像素尺寸。只要两个屏幕逻辑像素相同，它们的显示效果就是相同的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/6.png"
+loading="lazy"
+alt="三种常见Android分辨率折算为统一逻辑像素的倍率对比图"
+&gt;&lt;/p&gt;
+&lt;p&gt;Android的解决方法类似，但更复杂一些。因为Android屏幕尺寸实在太多，分辨率高低跨度非常大，不像苹果只有那么几款固定设备、固定尺寸。所以Android把各种设备的像素密度划成了好几个范围区间，给不同范围的设备定义了不同的倍率，来保证显示效果相近。像素密度概念虽然重要，但用不着我们自己算，iOS与Android都帮我们算好了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/4.png"
+loading="lazy"
+alt="Android官方关于屏幕尺寸与像素密度分类的对应关系表"
+&gt;&lt;/p&gt;
+&lt;p&gt;如图所示，像素密度在120左右的屏幕归为ldpi，160左右的归为mdpi，以此类推。这样，所有的Android屏幕都找到了自己的位置，并赋予了相应的倍率：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ldpi [0.75倍]&lt;/li&gt;
+&lt;li&gt;mdpi [1倍]&lt;/li&gt;
+&lt;li&gt;hdpi [1.5倍]&lt;/li&gt;
+&lt;li&gt;xhdpi [2倍]&lt;/li&gt;
+&lt;li&gt;xxhdpi [3倍]&lt;/li&gt;
+&lt;li&gt;xxxhdpi [4倍]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各型号iPhone的倍率比较简单，我们后面会讲到。那么Android手机那么多，具体怎么分？哪些手机是几倍的倍率呢？我们先看一张表，这是友盟2014年10月到2015年03月的数据：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/7.png"
+loading="lazy"
+alt="友盟统计的2014-2015年主流Android分辨率占比柱状图"
+&gt;&lt;/p&gt;
+&lt;p&gt;就目前市场状况而言，各种手机的分辨率可以这样粗略判断。虽然不全面，但至少在1年内都还有一定的参考意义：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ldpi 如今已绝迹，不用考虑&lt;/li&gt;
+&lt;li&gt;mdpi [320x480]（市场份额不足5%，新手机不会有这种倍率，屏幕通常都特别小）&lt;/li&gt;
+&lt;li&gt;hdpi [480x800、480x854、540x960]（早年的低端机，屏幕在3.5英寸档位；如今的低端机，屏幕在4.7-5.0英寸档位）&lt;/li&gt;
+&lt;li&gt;xhdpi [720x1280]（早年的中端机，屏幕在4.7-5.0英寸档位；如今的中低端机，屏幕在5.0-5.5英寸档位）&lt;/li&gt;
+&lt;li&gt;xxhdpi [1080x1920]（早年的高端机，如今的中高端机，屏幕通常都在5.0英寸以上）&lt;/li&gt;
+&lt;li&gt;xxxhdpi [1440x2560]（极少数2K屏手机，比如Google Nexus 6）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;自然地，以1倍的mdpi作为基准。像素密度更高或者更低的设备，只需乘以相应的倍率，就能得到与基准倍率近似的显示效果。&lt;/p&gt;
+&lt;p&gt;不过需要注意的是，Android设备的逻辑像素尺寸并不统一。比如两种常见的屏幕480x800和1080x1920，它们分别属于hdpi和xxhdpi。除以各自倍率1.5倍和3倍，得到逻辑像素为320x533和360x640。很显然，后者更宽更高，能显示更多内容。所以，即使有倍率的存在，各种Android设备的显示效果仍然无法做到完全一致。&lt;/p&gt;
+&lt;h2 id="单位"&gt;单位
+&lt;/h2&gt;&lt;p&gt;不难发现，真正决定显示效果的，是逻辑像素尺寸。为此，iOS和Android平台都定义了各自的逻辑像素单位。iOS的尺寸单位为pt，Android的尺寸单位为dp。说实话，两者其实是一回事。&lt;/p&gt;
+&lt;p&gt;单位之间的换算关系随倍率变化：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1倍：1pt=1dp=1px（mdpi、iPhone 3gs）&lt;/li&gt;
+&lt;li&gt;1.5倍：1pt=1dp=1.5px（hdpi）&lt;/li&gt;
+&lt;li&gt;2倍：1pt=1dp=2px（xhdpi、iPhone 4s/5/6）&lt;/li&gt;
+&lt;li&gt;3倍：1pt=1dp=3px（xxhdpi、iPhone 6 plus）&lt;/li&gt;
+&lt;li&gt;4倍：1pt=1dp=4px（xxxhdpi）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;单位决定了我们的思考方式。在设计和开发过程中，应该尽量使用逻辑像素尺寸来思考界面。设计Android应用时，有的设计师喜欢把画布设为1080x1920，有的喜欢设成720x1280。给出的界面元素尺寸就不统一了。Android的最小点击区域尺寸是48x48dp，这就意味着在xhdpi的设备上，按钮尺寸至少是96x96px。而在xxhdpi设备上，则是144x144px。&lt;/p&gt;
+&lt;p&gt;无论画布设成多大，我们设计的是基准倍率的界面样式，而且开发人员需要的单位都是逻辑像素。所以为了保证准确高效的沟通，双方都需要以逻辑像素尺寸来描述和理解界面，无论是在标注图还是在日常沟通中。不要再说“底部标签栏的高度是96像素，我是按照xhdpi做的”这样的话了。&lt;/p&gt;
+&lt;h2 id="web怎么办"&gt;Web怎么办
+&lt;/h2&gt;&lt;p&gt;移动端页面的绝对单位仍然是px，至少代码里这么写，但它的道理也和app一样。由于像素密度是设备本身的固有属性，它会影响到设备中的所有应用，包括浏览器。前端技术可以善加利用设备的像素密度，只需一行代码，浏览器便会使用app的显示方式来渲染页面。根据像素密度，按相应倍率缩放。&lt;/p&gt;
+&lt;p&gt;可以通过这个测试页面 &lt;a class="link" href="http://greenzorro.github.io/demo/basic/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%96%AD%E7%82%B9.html" target="_blank" rel="noopener"
+&gt;http://greenzorro.github.io/demo/basic/响应式断点.html&lt;/a&gt; 来看看你的移动设备屏幕宽度，这是逻辑像素宽度。&lt;/p&gt;
+&lt;p&gt;以iPhone 5s为例，屏幕的分辨率是640x1136，倍率是2。浏览器会认为屏幕的分辨率是320x568，仍然是基准倍率的尺寸。所以在制作页面时，只需要按照基准倍率来就行了。无论什么样的屏幕，倍率是多少，都按逻辑像素尺寸来设计和开发页面。只不过在准备资源图的时候，需要准备2倍大小的图，通过代码把它缩成1倍大小显示，才能保证清晰。&lt;/p&gt;
+&lt;h2 id="实际应用"&gt;实际应用
+&lt;/h2&gt;&lt;p&gt;大家最关心的还是实际运用，画布该怎么设置。我们就iOS、Android、Web三个平台来分别梳理一下。不过在这之前，我要为使用PS进行设计的朋友介绍一个小技巧。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/8.png"
+loading="lazy"
+alt="Photoshop首选项面板中将标尺和文字单位设置为点Points的界面截图"
+&gt;&lt;/p&gt;
+&lt;p&gt;之前我说过，我们要以逻辑像素尺寸来思考界面。体现到设计过程中，就是要把单位设置成逻辑像素。打开PS的首选项——单位与标尺界面，把尺寸和文字单位都改成点（Point）。这里的点也就是pt，无论设计iOS、Android还是Web应用，单位都用它。当然，各平台单位名称还是要记住的。这里我们用的只是它的原理，不用在意名称。&lt;/p&gt;
+&lt;p&gt;要调节倍率，则通过图像大小里的DPI来控制。这个DPI，其实就是PPI，像素密度。有个常识大家都知道，屏幕上的设计DPI设成72，印刷品设计DPI设成300。为什么是这两个数字？&lt;/p&gt;
+&lt;p&gt;首先说300，这和人眼的分辨能力有关。由于1英寸是固定长度，每1英寸有多少个像素点决定了画质清晰程度。之前说过，这就是像素密度，也就是DPI。DPI达到300以上，其细腻程度就会给人真实感，像真实世界中的物件。相反，DPI只有10的话，在你一个食指指节大小的长度内只有10个像素，这明显就是马赛克了。所以印刷品要设成300，才能保证清晰。&lt;/p&gt;
+&lt;p&gt;再说72，这有一定的历史原因。最早的图形设计是在mac电脑上进行的，mac本身的显示器分辨率就是72。PS中把图像DPI也设成72，就能保证屏幕上显示的尺寸和打印尺寸相同，便于设计。72的PC显示器分辨率逐渐成为一种默认的行业标准，这套规则就这么沿用下来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-04/04-17/9.png"
+loading="lazy"
+alt="Photoshop图像大小对话框中将分辨率设为144DPI实现2倍渲染的设置图"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在回到正题，我们怎么通过DPI来调节倍率？既然屏幕本身的分辨率是72，DPI设成72刚好是1倍尺寸，那设成72的两倍就是倍率为2的屏幕了，就这么简单。&lt;/p&gt;
+&lt;p&gt;下面来看看3个平台各自的画布设置：&lt;/p&gt;
+&lt;h3 id="iphone"&gt;iPhone
+&lt;/h3&gt;&lt;p&gt;iPhone的屏幕尺寸各不相同，我说的是逻辑像素尺寸，这确实是让人很头疼的事情。如果想用一套设计涵盖所有iPhone，就要选择逻辑像素折中的机型。&lt;/p&gt;
+&lt;p&gt;从市场占有率数据来看，目前最多的是iPhone5/5s的屏幕。倍率为2，逻辑像素320x568。上升势头最猛，未来有望登上第一的是iPhone 6的屏幕。倍率为2，逻辑像素375x667。&lt;/p&gt;
+&lt;p&gt;按照这两种尺寸来设计，都是比较主流的做法。可以兼顾短一些的iPhone 4s，大一点的6 plus也不会过于空旷。&lt;/p&gt;
+&lt;p&gt;不过在切图的时候要注意，由于iPhone 6 plus的3倍图是由2倍图放大而来，所以位图要注意保证清晰。&lt;/p&gt;
+&lt;h3 id="android"&gt;Android
+&lt;/h3&gt;&lt;p&gt;都说Android碎片化严重，但它现在反而比iOS好处理。因为如今的Android屏幕逻辑像素已经趋于统一了：360x640，就看你设成几倍了。想以xhdpi为准，就把DPI设成72x2=144。想以xxhdpi为准，就把DPI设成72x3=216。&lt;/p&gt;
+&lt;p&gt;对于那些比较老的低端机，宽度是480px的那批，画面确实会小一些，显示内容会更少。稍微留意一下，重要内容尽量保持在界面中上部分。&lt;/p&gt;
+&lt;p&gt;当然，这些机型不出一年就会被边缘化，基本淘汰。现在能运转的也是当作功能机在用，软件多了必卡无疑，用户体验无从谈起。不作考虑也是OK的。&lt;/p&gt;
+&lt;h3 id="web"&gt;Web
+&lt;/h3&gt;&lt;p&gt;手机端网页就没有统一标准了，比较流行的做法是按照iPhone 5的尺寸来设计。倍率2，逻辑像素320x568。&lt;/p&gt;
+&lt;p&gt;这样的做法比较实在，倍率2的屏幕无论在iOS还是Android方面都是主流，而且又是2倍屏幕中逻辑像素最小的。所以图片的尺寸可以保持在较小的水平，页面加载速度快。当然，缺点就是在倍率3的设备上看，图片不是特别清晰。&lt;/p&gt;
+&lt;p&gt;如果追求图片质量，愿意牺牲加载速度，那么可以按照最大的屏幕来设计。也就是iPhone 6 plus的尺寸，倍率3，逻辑像素414x736。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;移动端的尺寸比PC端复杂，关键就在倍率。但也正因为倍率的存在，把大大小小的屏幕拉回到同一水平线，得以保证一套设计适应各种屏幕。站在这条水平线的角度看，会发现它很好理解。&lt;/p&gt;</description></item><item><title>平板手机对移动端用户体验的影响</title><link>https://victor42.eth.limo/post/3430/</link><pubDate>Sun, 22 Mar 2015 11:55:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3430/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第79期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;还记得那些小手机大行其道的日子吗？&lt;/p&gt;
+&lt;p&gt;已经一去不复返了。&lt;/p&gt;
+&lt;p&gt;大屏智能手机已经存在了很长时间，毫无衰退的趋势。如今正是时候，回顾一下我们为移动端设计的方式，思考新一代移动设备，尤其是平板手机，给用户交互带来的变化。&lt;/p&gt;
+&lt;h2 id="平板手机是什么"&gt;平板手机是什么？
+&lt;/h2&gt;&lt;p&gt;这个词（Phablet）顾名思义：手机（phone）+平板（tablet）=平板手机（phablet）。&lt;/p&gt;
+&lt;p&gt;这些手机的尺寸超出我们的习惯认知，但又不足以被称为平板。准确的说，这些设备的屏幕尺寸通常介于5英寸和6.9英寸之间（127到180毫米）。作为对照，想一想iPhone 5s屏幕对角线是4英寸。&lt;/p&gt;
+&lt;p&gt;平板手机与普通智能机的区别就是屏幕尺寸。其他方面与普通智能机和平板是一样的。&lt;/p&gt;
+&lt;p&gt;平板手机并不新奇，虽然直到最新的iPhone 6 Plus发布前，很多人都忽视它们的存在。不过事实是，Samsung早在2011年就发布了5.3英寸的Galaxy Note，“开辟了”平板手机市场。&lt;/p&gt;
+&lt;p&gt;为什么？&lt;/p&gt;
+&lt;p&gt;研究显示，人们在移动设备上比从前消费了更多的视觉内容。手机的主要功能，通话，使用率有所下降。记住这点，就不会太惊讶于平板手机份额在2018年以前都会以36%的速度上涨，同时其他智能手机每年只上涨4%，数据来自&lt;a class="link" href="http://www.statista.com/chart/2660/smartphone-shipment-forecast/" target="_blank" rel="noopener"
+&gt;Statista&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/phablets.jpg"
+loading="lazy"
+alt="平板手机对移动端用户体验的影响设计中关于“平板手机的交互平板手”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;h2 id="平板手机的交互"&gt;平板手机的交互
+&lt;/h2&gt;&lt;p&gt;平板手机非常酷，多数消费者都愿意为这些设备丢弃原有智能机。但这些消费者甚至都不完全确定，平板手机用起来是否比普通智能机舒服。因为屏幕在变大，我们的手和手指却没有变化。所以我们要调整平板手机的交互方式。&lt;/p&gt;
+&lt;p&gt;可能你已经很熟悉这张拇指热区图，它描绘了人们持握智能手机的方式，将屏幕上难以触及的区域视觉化了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-03/03-22/1.png"
+loading="lazy"
+alt="智能手机拇指热区图：绿色为轻松触达区域、橙色为伸长手指触达区域、红色为难以触及区域"
+&gt;&lt;/p&gt;
+&lt;p&gt;Steven Hoober在他2011年的《Designing Mobile Interfaces》一书中首次使用术语“拇指热区”，将它描述为“单手使用时最舒适的触摸区域”。这项陈述是基于&lt;a class="link" href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank" rel="noopener"
+&gt;1333款智能手机的使用观察分析&lt;/a&gt;，它显示了49%的用户使用单手持握手机，这么做就要依赖大拇指来操作。这也出自这项研究。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;36%的用户用支架支撑手机，用拇指或其他手指触摸屏幕。&lt;/li&gt;
+&lt;li&gt;15%的用户双手持握手机，其中90%竖屏持握，只有10%横屏持握。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但是在平板手机上会有怎样的变化呢？用户会试着伸长手指，越过屏幕点击，还是改变握法？&lt;/p&gt;
+&lt;p&gt;根据&lt;a class="link" href="http://www.uxmatters.com/mt/archives/2014/11/the-rise-of-the-phablet-designing-for-larger-phones.php" target="_blank" rel="noopener"
+&gt;Steven Hoober最近发起的研究&lt;/a&gt;，“人们会用上另一只手，而且会频繁换手，也频繁更换握手机的姿势。”这指的是各种智能手机，包括平板手机。&lt;/p&gt;
+&lt;p&gt;不过，我们看看不同屏幕尺寸上拇指热区的自然变化，很明显用户不会单手持握试图触达屏幕每个角落，这是自我折磨。假定他们只会改变和调整持握姿势。记住这点，我们就知道用户不会困扰于大的屏幕尺寸，他们会改变姿势来持握，并舒服地与平板手机进行交互。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/zones-lineup.png"
+loading="lazy"
+alt="平板手机对移动端用户体验的影响设计中关于“这似乎是巨大的解脱但”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;这似乎是巨大的解脱，但是要考虑到很多用户使用平板手机时在进行多项任务，单手持握仍然是必要的。理想情况下，应该明智地把移动界面设计成主操作项位于拇指热区中。这样用户甚至不必切换持握姿势。&lt;/p&gt;
+&lt;p&gt;不过在现实中，这招并非时刻奏效。&lt;/p&gt;
+&lt;h2 id="如何为平板手机而设计"&gt;如何为平板手机而设计
+&lt;/h2&gt;&lt;p&gt;Samsung Galaxy Note多少算是平板手机市场的开山鼻祖，但它对改善交互的唯一帮助就是触屏笔。它能起到一定作用，不过触屏笔只能作为补充工具，不是每个人都喜欢。&lt;/p&gt;
+&lt;p&gt;在这个意义上，Apple似乎为用户的舒适度多考虑了一些。iPhone 6 Plus一发布，它们同时发布了操作系统级的“可达性”功能：轻触两下home键，iOS会把屏幕顶部下拉至用户拇指热区。这个功能当然不自然，它增加了完成任务的时间，也增加了操作步骤。但它仍然是一个其他平板手机用户所没有的选项。&lt;/p&gt;
+&lt;p&gt;Luke Wroblewski提供了另一个解决方案，将最重要的操作项置于屏幕底部。根据重要性，按从下到上的顺序排列这些操作项。我觉得这对于iOS开发者是个好办法，但对于很多Google Nexus 6这种底部有操作条的Android平板手机，可能不合适，操作条可能会与应用级的操作项起冲突。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2015/03/nexus-6.png"
+loading="lazy"
+alt="平板手机对移动端用户体验的影响设计中关于“结尾的思考平板手机绝”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;h3 id="结尾的思考"&gt;结尾的思考
+&lt;/h3&gt;&lt;p&gt;平板手机绝对重塑了我们消费数字内容的方式，影响了移动端的设计。我们需要更多确切的使用数据与相关研究，来为用户体验设计决策打基础，让大屏交互和小屏一样舒服。对于用户体验专员，真正的挑战是通过最自然、最少痛苦的交互方式，突显平板手机的长处。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/phablets-ux/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="http://designmodo.com/author/ghazaryan/" target="_blank" rel="noopener"
+&gt;Armen Ghazarian&lt;/a&gt;
+I am a UX consultant from Armenia with a big passion for sleek and usable digital products. You can always get in touch with me &lt;a class="link" href="https://twitter.com/armen_ghazaryan" target="_blank" rel="noopener"
+&gt;@armen_ghazaryan&lt;/a&gt; and &lt;a class="link" href="https://plus.google.com/117300597678395275957?rel=author" target="_blank" rel="noopener"
+&gt;Google+&lt;/a&gt; and &lt;a class="link" href="http://armenghazarian.com/" target="_blank" rel="noopener"
+&gt;Website&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>跨平台移动应用的延续性</title><link>https://victor42.eth.limo/post/3429/</link><pubDate>Sun, 15 Mar 2015 19:52:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3429/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第78期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/03/03-ipad-iphone-comparison.jpg" title="Designing mobile apps for cross-platform continuity "
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/03/03-ipad-iphone-comparison.jpg"
+loading="lazy"
+alt="跨平台移动应用的延续性设计中关于“设计一款适配多平台”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设计一款适配多平台的移动应用极具挑战。怎么知道何时采用系统原生控件、自定义，或是混合使用？在iOS和Android版StumbleUpon的改版中，用户体验团队采取了混合的方式，调整了原生的设计模式，创造独特、简洁的界面。最终打造了更快捷、更直观的体验，促进了用户的参与。&lt;/p&gt;
+&lt;p&gt;每个产品的设计流程都该如此，一切源于共鸣。&lt;/p&gt;
+&lt;h2 id="理解用户"&gt;理解用户
+&lt;/h2&gt;&lt;p&gt;要理解用户所想所做，什么能刺激他们，痛点在哪里，你得从他们的角度考虑。这使你与用户的渴望和需求协调一致，运用你所了解的，来充实每一项设计决策。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22Learning&amp;#43;from&amp;#43;real&amp;#43;people&amp;#43;hones&amp;#43;your&amp;#43;intuition&amp;#43;and&amp;#43;inspires&amp;#43;your&amp;#43;empathy.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesigning-mobile-apps-for-cross-platform-continuity%2F&amp;#43;-&amp;#43;%40ashergodfrey&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;向真实用户学习有助于磨练直觉，激发共鸣。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对于每个新功能，我们都从收集灵感开始，然后画出各处关键交互，直到方向正确。我们不仅依靠内在本能和设计知识：还通过用户调研和当前数据来丰富并修正我们的决策。&lt;/p&gt;
+&lt;p&gt;这个app体系重在无穷无尽的娱乐信息。于是我们不断自我挑战，寻找一种能让我们突显于众多竞品的设计方式。StumbleUpon的妙处在于，它揭示了互联网最棒的一面，给用户带来高质量内容，他们甚至都不知道这就是自己要找的。我们试图运用设计来诠释这种意外的发现。&lt;/p&gt;
+&lt;p&gt;向真实用户学习有助于磨练直觉，激发共鸣。&lt;/p&gt;
+&lt;h2 id="定下设计目标"&gt;定下设计目标
+&lt;/h2&gt;&lt;p&gt;在iOS和Android的改版中，我们给自己定下几个目标：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;建立跨平台的统一性&lt;/li&gt;
+&lt;li&gt;满足当前的用户群&lt;/li&gt;
+&lt;li&gt;提升整体体验，保持用户活跃&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;2014年，我们进行改版设计的过程中，Google提出了material design风格。我们设计新版iOS StumbleUpon时，仔细研究了material，考虑了一些能在两个平台通用的方式。设计Android版时，我们也吸收了material的美学与交互，打造更加优雅精良的体验。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/03/04-side-by-side-comparison-a.jpg" title="Designing mobile apps for cross-platform continuity "
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/03/04-side-by-side-comparison-a.jpg"
+loading="lazy"
+alt="跨平台移动应用的延续性设计中关于“我们在多个界面中整合”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我们在多个界面中整合了Google的卡片式设计，同时也保持了许多iOS的原生图标和界面样式。我们决定在两个app中使用相似的图标设计，但是根据各自的平台调整了风格。在iOS上坚持使用轮廓式、中空的图标，在Android上给图标加粗。&lt;/p&gt;
+&lt;p&gt;当我们开始改版Android版时，我们进行了一次视觉评审，详细列举了手机和平板的体验，用以理解大方向。全局纵览一套生态系统，有助于找出有待提升的部分，突出了平台间的差异，让我们专注于设计。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/03/06-material-diagram.jpg" title="Designing mobile apps for cross-platform continuity "
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/03/06-material-diagram.jpg"
+loading="lazy"
+alt="跨平台移动应用的延续性设计中关于“然后我们开始将模式标”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后，我们开始将UI模式标准化，来配合Google的material标准。App局部已经向material标准看齐了，其他还需要调整。我们还发现几个案例，证明动效可以展现细节交互和过渡效果。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/03/07-material-specs.jpg" title="Designing mobile apps for cross-platform continuity "
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/03/07-material-specs.jpg"
+loading="lazy"
+alt="跨平台移动应用的延续性设计中关于“关注这些问题使我们提”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;关注这些问题，使我们提升了StumbleUpon的核心体验。我们迎合material界面元素，丢弃了拟物的装饰。更粗的字体和全屏图片，帮助我们丰富了环境信息和数据，提升了Stumbling的预览体验。引入悬浮按钮，突出了从前易忽略的关键操作项。在整个app中融入悬浮卡片，不仅简化了界面，也为Android用户创造了熟悉的环境。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/03/05-side-by-side-comparison-b.jpg" title="Designing mobile apps for cross-platform continuity "
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/03/05-side-by-side-comparison-b.jpg"
+loading="lazy"
+alt="跨平台移动应用的延续性设计中关于“除了在和上都使用了卡”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;除了在iOS和Android上都使用了卡片风格，我们还通过相同的配色、品牌元素和Stumbling核心功能创造一致性。在整个设计过程中，从静态图片到交互原型，再到最终成品，我们都牢记界面元素之间的相互作用、位置和过渡效果。&lt;/p&gt;
+&lt;p&gt;在app的特有风格和两大平台的核心规范中寻求平衡，使app的视觉与功能结构更加协调。同时接受material和Apple的设计规范，让我们打造了有亲和力的体验，实用、愉悦、有意义。&lt;/p&gt;
+&lt;p&gt;两者的改版都暗藏着风险。一方面，只用平台特有的控件，可以创造出顺畅的体验。但过于依赖一个平台的设计规范——比如用iOS标准来设计Android平板app——就使其他平台上的体验产生割裂感。我们最不希望的事情，就是在界面上创作过头，疏远了现有用户，让app既难学又难用。运用设计思维来规避这些潜在问题，对我们的设计流程至关重要。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/wp-content/uploads/2015/03/08-design-team.jpg" title="Designing mobile apps for cross-platform continuity "
+target="_blank" rel="noopener"
+&gt;&lt;img src="http://blog.invisionapp.com/wp-content/uploads/2015/03/08-design-team.jpg"
+loading="lazy"
+alt="跨平台移动应用的延续性设计中关于“用户体验团队成员和乐”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;StumbleUpon用户体验团队成员：Asher Blumberg, Amy Luo, Michael Spiegel, Jennifer Fleming 和 Matthew Spangenberg&lt;/p&gt;
+&lt;p&gt;乐于持续优化创意，能使优秀的产品走向伟大。&lt;/p&gt;
+&lt;h2 id="验证我们的设计哲学"&gt;验证我们的设计哲学
+&lt;/h2&gt;&lt;p&gt;在StumbleUpon，我们有灵活的工作流程——通过快速迭代的设计与原型来验证我们的方案。对不同方案进行A/B测试，看哪个效果最佳。所以我们会持续优化设计，即使在第一版完成之后。&lt;/p&gt;
+&lt;p&gt;我们不仅制作可点击的效果图，也为它们增添动画效果，来展示界面之间的过渡，为交互增加节奏和动感。通过视觉化展现这些自定义过渡效果，我们从开发人员那边得到了重要反馈，因为有些动画的实现太耗时，会拖慢我们为期2周的设计冲刺。&lt;/p&gt;
+&lt;p&gt;尽早从工程师、设计同僚、产品经理和利益相关者那里得到反馈，有助于建立和提升创意的水准，推动产品前进。&lt;a class="link" href="https://twitter.com/intent/tweet?text=%22The&amp;#43;willingness&amp;#43;to&amp;#43;keep&amp;#43;refining&amp;#43;your&amp;#43;ideas&amp;#43;turns&amp;#43;a&amp;#43;good&amp;#43;product&amp;#43;into&amp;#43;a&amp;#43;great&amp;#43;one.%22&amp;#43;http%3A%2F%2Fblog.invisionapp.com%2Fdesigning-mobile-apps-for-cross-platform-continuity%2F&amp;#43;via&amp;#43;%40InVisionApp" target="_blank" rel="noopener"
+&gt;乐于持续优化创意，能使优秀的产品走向伟大。&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://blog.invisionapp.com/designing-mobile-apps-for-cross-platform-continuity/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+Asher Blumberg, UX Mobile Designer at StumbleUpon
+Asher is a multidisciplinary designer obsessed with creating compelling and functional experiences across mobile and web.&lt;/p&gt;</description></item><item><title>移动端字体7准则</title><link>https://victor42.eth.limo/post/3423/</link><pubDate>Sun, 08 Feb 2015 00:13:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3423/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第75期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/02/featured1.jpg"
+loading="lazy"
+alt="移动设备屏幕上的文字排版与字体易读性展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;可能你听过这说法，好的字体是隐形的，不过更准确来说，应该是好的字体让阅读行为毫不费力。&lt;/p&gt;
+&lt;p&gt;当视线掠过一行文字时，它是跳跃前进的，我们称之为扫视。你读的不是字母，甚至不是词语，而是文字某部分的影像，大脑会补上它预期的内容。如果超出大脑预料，它会促使眼睛回去核实假设十分正确。通过在字里行间创造平顺的视觉流动，好的字体极度减轻了眼睛的负担。&lt;/p&gt;
+&lt;p&gt;对任何字体工作者而言，在移动设备上要面临与生俱来的挑战：空间有限，环境光通常比较微弱。不过将已经用于web端的技巧稍加调整，我们就可以提升移动设备的易读性。&lt;/p&gt;
+&lt;h2 id="1-留足空间"&gt;1. 留足空间
+&lt;/h2&gt;&lt;p&gt;与普遍观点恰好相反，字体并非屏幕上弯弯曲曲的线条排列；它主要在于周围和相互间的空间。&lt;/p&gt;
+&lt;p&gt;字母本身对字体的影响，与构成它的空间相比，要小得多。&lt;/p&gt;
+&lt;p&gt;要理解这一点，了解字体从何而来很有帮助：字母o（还有b、c、p等等）中间的圆孔被称作“凹槽”。在最原始的印刷机上，铅字由金属雕刻而成，这些凹槽来自雕刻成型、排列在盘中的金属活字。第一个字体设计师所处理的模具，实际上&lt;em&gt;并不能&lt;/em&gt;用于印刷。字母本身对字体的影响，与构成它的空间相比，要小得多。&lt;/p&gt;
+&lt;p&gt;谈到层次时，我们通常指的是h1到p，有时候还会到h6。但另外还有一种层次在影响着行或段落的视觉流，这是特殊的层次：字母间距小于字间距，字间距小于行间距，以此类推。&lt;/p&gt;
+&lt;p&gt;要在移动端创造最佳易读性，尤其要注意这些特殊层次，这些格式塔式的词语、行、段落的文字组合，在自然光环境下同样至关重要。&lt;/p&gt;
+&lt;h2 id="2-行宽"&gt;2. 行宽
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;行宽&lt;/em&gt;是一行文字的长度。或者确切的说，是一行文字的理想长度，因为很难让每一行都精确吻合。&lt;/p&gt;
+&lt;p&gt;众所周知，舒适阅读的理想行宽是65个字符左右。行宽产生的物理长度，取决于字体的设计、字间距（见下文）和你使用的具体文字。本文开篇的65个字符（译者注：此处请参见英文原文），用PT Serif字体是26.875em宽，用Open Sans是28.4375em宽，用Ubuntu字体是27.3125em宽。如果再加入斜体、大小写和一大堆其他字体细节，还会有更大的差异。&lt;/p&gt;
+&lt;p&gt;在桌面端浏览器中，65个字符很难触及边缘，但在移动设备上，65个字符（如果至少大到看得清）会超出浏览器的边界。所以，在移动设备上，你必须得缩减行宽。&lt;/p&gt;
+&lt;p&gt;移动端并没有普遍认可的行宽标准。不过传统上，报纸或杂志上每一个窄列都会趋向于39个字符。鉴于这个理想行宽已经经历了数个世纪的考验，它在移动端字体上也运转良好。&lt;/p&gt;
+&lt;h2 id="3-宽松行距紧凑行距"&gt;3. 宽松行距、紧凑行距
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;行距&lt;/em&gt;是行之间的空间，行距太紧凑，会让视线难以从行尾扫视到下一行首。行距太宽松，字间距会开始形成队列，产生了我们通常意义上的&lt;em&gt;河流&lt;/em&gt;，阻断了行的视觉流。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/02/leading.jpg"
+loading="lazy"
+alt="移动端字体7准则：从左至右：理想行距、太紧凑、太宽松"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;从左至右：理想行距、太紧凑、太宽松。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;行距的标准通常是1.4em，但以我的经验，这对于屏幕来说太紧凑了：在屏幕上表现良好的字体都有一个关键特征——大的凹槽，大凹槽需要更大一些的行距来保持空间层次。&lt;/p&gt;
+&lt;p&gt;反过来，更短的行宽需要更小的行距。所以你可能需要将桌面端的行距设得宽松点，同时记得将移动端的设置得紧凑些。&lt;/p&gt;
+&lt;h2 id="4-找到最佳状态"&gt;4. 找到最佳状态
+&lt;/h2&gt;&lt;p&gt;所有字体至少都有一种最佳状态，在屏幕上展现最佳的尺寸，还有在浏览器中最能保持字形的抗锯齿选项。&lt;/p&gt;
+&lt;p&gt;最佳状态下，多数笔画通常都能排列在像素网格中——像素字体，如果你还记得的话，那些字体&lt;em&gt;仅仅&lt;/em&gt;在字号调整到最佳状态下才有效。&lt;/p&gt;
+&lt;p&gt;将字体设为最佳状态能形成更强烈的对比。为移动端设计时，对比尤其重要，因为户外的强光可能分散注意。&lt;/p&gt;
+&lt;p&gt;你会发现，微调行距会使每行脱离完美像素匹配。我觉得，在移动设备屏幕上，对比的重要性胜过行距。所以如果你不得不在行距上妥协，来保持每行契合像素网格，那就这么做吧。&lt;/p&gt;
+&lt;p&gt;通常设计师通过基线网格来排列文字。但在移动设备上，我们需要使用&lt;em&gt;x高度&lt;/em&gt;来代替（x高度顾名思义，就是小写字母x的高度）。从易读性研究中，我们知道大脑识别的是文字顶部，而不是底部。所以要成就更加平顺的视觉流，我们要确保字符顶部最契合像素网格。&lt;/p&gt;
+&lt;h2 id="5-不要忽视起伏边"&gt;5. 不要忽视起伏边
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;起伏边&lt;/em&gt;是一段文字的边缘。你读的多数内容是居左对齐的（至少对于拉丁语系而言），导致&lt;em&gt;右边沿参差不齐&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;当视线从行尾跳至下一行首时，大脑最好要能判断出下一次跳跃的角度和距离。把每次跳跃都想象成跑过跳板，如果间距保持一致，就会快很多。因此，文字左侧边缘应该是平的，每行从同一个地方开始（对于从右至左的语言，恰好相反）。&lt;/p&gt;
+&lt;p&gt;因此你绝不应该将两三行以上的文字居中对齐。&lt;/p&gt;
+&lt;p&gt;通常文字会设置成两端对齐，这意味着每行文字所占空间相等，所以两侧都不会有起伏边。我怀疑两端对齐的流行和响应式设计有关，它教设计师们以块状形态思考。两端对齐的文字产生的留白不统一。最糟的情况会导致一行中只有几个字，相当不协调。更窄的行宽会加重两端对齐的问题，所以两端对齐的文字在移动端是难以阅读的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/02/alignment.jpg"
+loading="lazy"
+alt="移动端字体7准则：从左至右：左对齐、居中对其、两端对齐"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;从左至右：左对齐、居中对其、两端对齐。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如果整洁真的非常重要，那么使用连字符号来让起伏边更平滑，绝不能在移动端使用两端对齐。&lt;/p&gt;
+&lt;p&gt;文字右侧是起伏边在移动端还有一项额外好处：人们通常在易分心的场合阅读文字，读者视线频繁地从文字上移开——查看站名，或是接电话。起伏边创造了一个随机形状，让右撇子的视线可以通过重读最少的文字，回到刚才的位置。&lt;/p&gt;
+&lt;h2 id="6-减少反差"&gt;6. 减少反差
+&lt;/h2&gt;&lt;p&gt;增强文字与背景对比的同时，我们也要减少不同层次文字间的反差。&lt;/p&gt;
+&lt;p&gt;在移动端，实际可见的文字更少，所以反差被放大了。&lt;/p&gt;
+&lt;p&gt;其原因是我们的大脑基于环境来判断重要性。在桌面端，标题可能是正文字号的两倍甚至三倍，因为屏幕上有更多文字，所以这是有效的。在移动端，实际可见的文字更少，所以反差被放大了。&lt;/p&gt;
+&lt;p&gt;多数设计师使用斐波那契数列式的字号组合。在移动端，应该缩小比率来减少字号间的反差。比如，如果你使用黄金比例1.618与字号相乘。在移动端，应该用更小的比例1.382来替代。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/02/scale.jpg"
+loading="lazy"
+alt="移动端字体7准则：桌面端屏幕比移动端容许更夸张的字号缩放"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;桌面端屏幕比移动端容许更夸张的字号缩放。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="7-按比例调整字间距"&gt;7. 按比例调整字间距
+&lt;/h2&gt;&lt;p&gt;为移动端调整字号时，我们要意识到&lt;em&gt;字间距&lt;/em&gt;发生了必要的变化。&lt;/p&gt;
+&lt;p&gt;（先说一句，不应该调整固有字距。固有字距是两个字母相互组合时的距离，使它们的间距与其他字母间距在视觉上统一。创作字体时，就纳入了固有字距的考量，这个过程可能要花上数月。如果你选用了一款专业的字体，它的固有字距就是合适的，如果你觉得不对，请换一个字体。）&lt;/p&gt;
+&lt;p&gt;字间距并不是固有字距。字间距是字体中应用在所有字符上的间距。通常你也不应该调整字间距。&lt;/p&gt;
+&lt;p&gt;大字号是个例外，拿标题和小号文字（比如脚注）举例。大号文字需要减少字间距，小号文字需要增加字间距。前者是考虑到分组，后者则是为了增强对比。如果你在调整标题，或是用了通常字间距紧密的艺术字体，缩小时可能就需要把字间距放开一点。&lt;/p&gt;
+&lt;h2 id="总结"&gt;总结
+&lt;/h2&gt;&lt;p&gt;字体是一门工艺，设计师终其一生都在精心打磨。的确如此，因为每个文字、每种字体和每项技术都带来了新的挑战。没有一成不变的普适规律。&lt;/p&gt;
+&lt;p&gt;假如你追求易读性，要牢记三条原则：行内的视觉流要平顺，空间层级要清晰，要有足够的对比。这尤其适用于移动端页面。&lt;/p&gt;
+&lt;p&gt;没有不可撼动的规则，全凭你双眼决断。不过本文的指南可以作为理想的出发点，让你在移动设备上优美地排列文字。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2015/02/7-simple-rules-for-mobile-typography/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>5项启迪性的移动端设计趋势</title><link>https://victor42.eth.limo/post/3417/</link><pubDate>Sun, 04 Jan 2015 10:23:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3417/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第70期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;App Store和Google Play里的app多如牛毛。很难说&lt;a class="link" href="http://designmodo.com/web-design-trends-2014/" target="_blank" rel="noopener"
+&gt;未来的趋势&lt;/a&gt;是什么，不过显然我们可以轻易选出&lt;strong&gt;当下的5种趋势并加以分析&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;看看时下的app中的颜色、创意和简单朴素，我们能从中学到一些设计移动app的技巧。&lt;/p&gt;
+&lt;p&gt;##App中的色彩&lt;/p&gt;
+&lt;p&gt;**公认的，色彩始终是设计的一部分。**不过，近来很多app将色彩当作设计的基础使用，而不只是点缀。色彩可以营造氛围，极大地影响了app的整体体验。当你把一个色彩缤纷的app和一个几乎纯白的app进行比较，就能清晰体会到这一点。通常，颜色用来树立app的个性，比如友好、有趣或优雅。&lt;/p&gt;
+&lt;p&gt;看看&lt;a class="link" href="https://itunes.apple.com/us/app/rubie-game-color-connecting/id892911975?mt=8" target="_blank" rel="noopener"
+&gt;Rubie&lt;/a&gt;、&lt;a class="link" href="https://itunes.apple.com/us/app/sky./id601181364?mt=8" target="_blank" rel="noopener"
+&gt;Sky&lt;/a&gt;、&lt;a class="link" href="https://itunes.apple.com/us/app/rise-alarm-clock/id577221529?mt=8" target="_blank" rel="noopener"
+&gt;Rise&lt;/a&gt;或&lt;a class="link" href="https://itunes.apple.com/us/app/peek-calendar-simple-minimalist/id776314791?mt=8" target="_blank" rel="noopener"
+&gt;Peek&lt;/a&gt;这样的app。设计中充斥着华丽的色调，因为色彩是设计中最显著的部分。Rubie和Peek诠释了暗色设计不一定要使用黑色和深灰色。不要自我束缚，尝试使用深紫色或深红色来创造优雅而友好的暗色调设计。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/12/11.jpg"
+loading="lazy"
+alt="5项启迪性的移动端设计趋势的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;另外，还有像Sky和Rise这样的app，它们信奉的是由鲜活色调构成的渐变。看到如此强烈的色彩在app设计中突出运用，真富有启迪性。两者看起来都如此华美壮观。难道不是吗？这一切都要归功于将色彩作为主要设计元素的运用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/12/2.jpg"
+loading="lazy"
+alt="5项启迪性的移动端设计趋势的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;##UI的简单朴素&lt;/p&gt;
+&lt;p&gt;很多app信奉&lt;strong&gt;简洁清晰的设计&lt;/strong&gt;；这么想真是令人欣慰。常年来，设计师都在为更简洁更干净的设计而奋斗，尤其是极简主义，近来的趋势显示它依然如此。&lt;/p&gt;
+&lt;p&gt;2012年，Google做了一些研究，证明了简单的网站更好。&lt;a class="link" href="http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/pubs/archive/38315.pdf" target="_blank" rel="noopener"
+&gt;点击此处&lt;/a&gt;深入阅读。总而言之，这个观点很直接。简单的网站更容易消化理解。复杂的网站需要访客付出更多认知上的努力，提供相对逊色的体验。因此，网站视觉上越简洁越好。移动app也一样。Conversion XL基于&lt;a class="link" href="http://conversionxl.com/why-simple-websites-are-scientifically-better/" target="_blank" rel="noopener"
+&gt;Google的研究&lt;/a&gt;写了一篇文章，关于简洁的网站为何有明显优势。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/12/3.jpg"
+loading="lazy"
+alt="国外优秀设计官方网站的网页页面版式布3"
+&gt;&lt;/p&gt;
+&lt;p&gt;比如Product Hunt或AirBNB。两者都提供了简洁干净的界面，慎重且适当地展现内容。Product Hunt在一个列表中展现了许多不同内容，但滚动浏览相当简单。理解内容毫无障碍。AirBNB也一样，虽然它提供的信息更多。在任何一个界面，即使是列表或消息界面，呈现给你的信息永远不会将你淹没。&lt;/p&gt;
+&lt;p&gt;##优雅而精致的氛围&lt;/p&gt;
+&lt;p&gt;有意思的是，有些app试图&lt;strong&gt;通过设计营造一种精致优雅的气氛&lt;/strong&gt;。这在网站中也不常见，在移动app中明显更加罕见。这个概念适用于酒店、酒吧或餐馆类的业务，他们想通过app创造亲密无间的感觉，就像他们的线下服务一样。不能说这种设计更好或是更糟；不过看到app尝试非典型的设计，总是不错的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/12/41.jpg"
+loading="lazy"
+alt="5项启迪性的移动端设计趋势的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://itunes.apple.com/us/app/hotel-tonight/id407690035?mt=8" target="_blank" rel="noopener"
+&gt;Hotel Tonight&lt;/a&gt;和&lt;a class="link" href="https://itunes.apple.com/us/app/litely/id850707754?mt=8" target="_blank" rel="noopener"
+&gt;Litely&lt;/a&gt;是这类设计的两个例子。两者都有着暗色的设计，展现出优雅、精致和亲切的感觉。这是种截然不同的设计风格，也正是它在支撑着这类非典型设计的app。Hotel Tonight提供的是眼下急需的酒店预订，但它把这件事处理得很时髦。谁说预订酒店一定要在枯燥的白色和浅色中完成。此外，Litely则使你忙于编辑照片，它的深色界面非常时尚。&lt;/p&gt;
+&lt;p&gt;##App创意&lt;/p&gt;
+&lt;p&gt;认真想一想，&lt;strong&gt;你用过多少称得上独特或创新的app&lt;/strong&gt;？总体来看，我们常用的app中，没有一款打破常规。或许某项服务或产品曾经很新颖、富有创意，但用了一段时间后，我们习以为常，它就一点也不新颖了，成为一种平常的存在。有些杰出而巧妙的app打破常规，应该受到赞美，它们成就了与众不同的app。&lt;/p&gt;
+&lt;p&gt;我们很难发觉，有时智能手机在妨碍我们。&lt;a class="link" href="https://itunes.apple.com/app/kimd/id850479896?mt=8" target="_blank" rel="noopener"
+&gt;Kimd&lt;/a&gt;就是个简单得不可思议的app，但它的创意想到聪明。作者Julie Chabin饱受明亮屏幕的干扰，比如观看演唱会的时候，于是她打造了一款暗淡的照片视频拍摄app。这个创意如此简单，甚至有点傻气，但它非常有效！整个现代社会都在无休止地使用智能手机，人们总是容易忘记，在某些特定场合使用智能手机是非常奇怪的举动。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/12/5.jpg"
+loading="lazy"
+alt="5项启迪性的移动端设计趋势设计中关于“另一个精彩案例”的视觉设计与界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;另一个精彩案例是&lt;a class="link" href="https://itunes.apple.com/us/app/id586239095" target="_blank" rel="noopener"
+&gt;DRAWNIMAL&lt;/a&gt;。这是个儿童app，帮助他们画画、学习字母表。同样的，这并不是第一个以此为目的的app，却是第一个如此挥洒创意的app。这个app延伸了智能手机的学习体验，它让孩子用真实的纸笔画动物，并将智能手机作为绘画体验的一部分。它为app增加了一个维度，而且并不强迫使用数码设备来学习。这个app的使用方式很特别，也正是这点成就了它的创新。&lt;/p&gt;
+&lt;p&gt;##无处不在的照片&lt;/p&gt;
+&lt;p&gt;有一点，我敢肯定你注意到了，那就是各类app对&lt;strong&gt;照片的广泛运用&lt;/strong&gt;。它们被当作内容和设计元素来使用。数码照片正在成为我们生活中不可思议的一份子；这的确是一项非常好的趋势，因为经常接触和用到自己的照片，真是件优雅的事情。在app中使用照片是一件强有力的工具。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/12/6.jpg"
+loading="lazy"
+alt="5项启迪性的移动端设计趋势的插图"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://itunes.apple.com/us/app/vsco-cam/id588013838?mt=8" target="_blank" rel="noopener"
+&gt;VSCO&lt;/a&gt;和&lt;a class="link" href="https://itunes.apple.com/us/app/steller/id785128002?mt=8" target="_blank" rel="noopener"
+&gt;Steller&lt;/a&gt;两款app就是基于照片，相当惊艳。它们都尝试利用你的摄影才能，并激励你分享。以VSCO为例，兼具照片编辑与展示/分享功能。这意味着你可以随心所欲编辑图片，并上传到自己个人资料页面。这是个严格的社区，致力于分享高质量照片。Steller则允许用户创建图片故事。长短任意，可以填充文字、视频，当然还有照片。这个小小的社区有海量图片故事供你浏览，各不相同，比如DIY教程和游记。&lt;/p&gt;
+&lt;p&gt;###你的观点？&lt;/p&gt;
+&lt;p&gt;当今移动app带来的5项启迪，就是如此。你觉得app中会掀起怎样的热潮？你觉得设计与app创意，会趋于稳健，还是更加颠覆呢？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/mobile-design-trends/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>入门:移动APP中的各种导航</title><link>https://victor42.eth.limo/post/3328/</link><pubDate>Sun, 11 May 2014 13:25:16 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3328/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第39期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Univit-UI/13711535" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Univit-UI-by-Mohammed-Alyousfi-Alex-Casabo.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“即使是移动应用界面”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;即使是移动应用界面的原型设计，导航的形式也可以多种多样。尽管尺寸小，又必须紧凑排列大量数据，它们似乎受到了紧密的约束，但依然有着形形色色的选择。&lt;/p&gt;
+&lt;p&gt;人们曾经一度只会考虑一种形式——流行且广泛使用的&lt;a class="link" href="http://designmodo.com/vertical-side-menu-mobile-apps/" target="_blank" rel="noopener"
+&gt;垂直导航，即侧边栏&lt;/a&gt;。尽管如此，还有其他可以提升用户体验的形式，会让用户浏览你的APP变成小菜一碟。&lt;/p&gt;
+&lt;h2 id="列表型菜单"&gt;列表型菜单
+&lt;/h2&gt;&lt;p&gt;让我们从一种基于列表的标准型导航开始论述，它在移动APP作者中得到广泛使用。这种解决方式建议逐一展示链接，让用户遵循从上到下的常规流程。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/GIF-Aimation/13418581" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/GIF-Aimation-by-Sergey-Valiukh.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的动画设计只是一件概”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sergey Valiukh的GIF动画设计只是一件概念设计，却完美地反映出列表型导航的实用性。结合了多种色彩和精细的线形图标，还有稍显粗重的字体，让用户轻松浏览APP，并且不会感到屏幕局限导致的不适。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Elevatr/10461719" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Elevatr-by-Fueled.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的是一个时尚的帮助企”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fueled的Elevatr是一个时尚的APP，帮助企业家管理和跟进商业会议。主屏的特点是彩虹色的菜单，清晰地逐行展现出控制面板的各个项目。背景图受到坐标纸的启发，与这种菜单完美搭配。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/HabitClock-App/10793005" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/HabitClock-App-by-Kutan-URAL.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的是个简洁且有视觉感”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kutan URAL 的HabitClock App是个简洁且有视觉感染力的APP，帮助你管理早晨的闹钟。尽管屏幕上的重点是顶部和底部的控制面板，但列表型导航（同时也是非常棒的通知工具）才是吸引注意力的核心。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Instagrab-for-iOS/10213537" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Instagrab-for-iOS-by-Davis-Yeung.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“横条状的布局方式用来”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;横条状的布局方式，用来展现简易侧滑菜单上的一系列链接，这是多数设计师的人气选择，也是Davis Yeung设计的iOS版Instagrab主要组成。通常每一项都配有一枚易懂的小图标，很好地区分每个链接。&lt;/p&gt;
+&lt;h2 id="矩阵或网格型菜单"&gt;矩阵或网格型菜单
+&lt;/h2&gt;&lt;p&gt;占据全屏的网格型导航有助于强调导航，使它清晰易懂、显而易见。当你需要展示很多链接时，这种方式也很管用，一系列同样的网格，有效地将每一项与其他区分开来。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/vectra-branding/15209033" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/vectra-branding-by-Michal-Galubinski-and-thoke-design.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的有着不容忽视的导航”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Michal Galubinskiand thoke design的Vectra，有着不容忽视的导航。设计师不仅把菜单的6个项目伸展至全屏，还利用了巨大的扁平风格图标，很明显是为了大部分在线用户考虑。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Arrivo-Mobile-App/13950767" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Arrivo-Mobile-App.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的移动设计巧妙地在严”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Marco La Mantia &amp;amp; Simone Lippolis的移动APP设计，Arrivo，巧妙地在严格的方形网格中组织大量数据。每个格子都扮演着功能性的作用；因为它不仅仅是显示数据，也让你通过底部滑出的一个小型控制面板调整它。颜色选择也非常明智，因为热烈的背景色调有助于有效地分配内容和区分网格。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/GIF-Abracadabra-App/13691641" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Abracadabra-App-by-Sergey-Valiukh.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“这个肯定是依照心中”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abracadabra，这个APP肯定是依照Sergey Valiukh心中的复古风格来设计的，让这个APP有种明显的年代感。在此，设计师干练地将屏幕划分成6个相等的网格，非常易于浏览。扁平风格图标结合粗重的非正式字体，有助于提升易用性。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/T-R-A-V-E-R-S-E/8769919" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/T-R-A-V-E-R-S-E-by-Willis.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“手绘风贯穿了设计”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;手绘风贯穿了Willis设计的T R A V E R S E的每一个界面。这个APP基于明亮的单色背景和线形图标，因此主菜单看不到任何分隔线，却做到了井然有序，使得用户相当轻松顺手地浏览这款APP。&lt;/p&gt;
+&lt;h2 id="底部菜单"&gt;底部菜单
+&lt;/h2&gt;&lt;p&gt;底部菜单主要是作为导航的辅助，用来区分内部的功能区块或独立组件。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Badoo-concept/15040411" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Badoo-concept-by-Jakub-Antalik.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的概念设计有着位于屏”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jakub Antalík的Badoo概念设计有着位于屏幕底部的导航。它也包含了一组扩展菜单，每一项都有它自己的控制面板。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Animated-sliding-tab-bar/7528101" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Animated-sliding-tab-bar-by-Virgil-Pana.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“设计的动态滑动标签为”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Virgil Pana设计的动态滑动标签，为重度信息展示型应用提出了一个完美的解决方法，能够包含大量统计数据，或者通过图表展现数据，并仍然保持简洁。常规大小的菜单从屏幕底部滑出，显示出一个小型控制中心。&lt;/p&gt;
+&lt;h2 id="顶部菜单"&gt;顶部菜单
+&lt;/h2&gt;&lt;p&gt;既然我们习惯于从上到下浏览手机屏幕，放在屏幕顶部自然有一定优势。标签页和每个控制中心独有的图标，是这种布局最重要的代表。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Horner/14630571" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Horner-by-Cuneyt-SEN.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的包含了可隐藏菜单不”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cüneyt ŞEN的Horner包含了可隐藏菜单，不过它能很妙地从顶部出现。由于明亮的颜色和有关联性的巨大图标，它与整个界面内容形成了鲜明对比。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Discovery-Channel/7900623" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Discovery-Channel.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“设计的将所有的基本导”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Enes Danış设计的Discovery Channel将所有的基本导航和二级导航放在顶部，通过固定的位置来打消用户的困惑。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Air-flow-calculation-app-for-Bettertec/15130263" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Air-flow-calculation-app-for-Bettertec-by-HAMZAQUE-Designs.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“为设计的气流计算巧妙”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HAMZAQUE Designs为Bettertec设计的气流计算APP，巧妙地运用了占据顶部的标签页。此外，它们被设计成黑白对比的色调，和屏幕中其余部分相同。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/11853341/Shario-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Shario-App-by-MING-LabsPierrick-Calvez.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的透露着简洁的矢量风”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MING Labs&amp;amp;Pierrick Calvez的Shario APP，透露着简洁的矢量风格概念。整个导航通过顶部的几个按钮运转起来。&lt;/p&gt;
+&lt;h2 id="展开式菜单"&gt;展开式菜单
+&lt;/h2&gt;&lt;p&gt;对于处理大信息量APP和喜欢创作简洁紧凑界面的设计师而言，展开式菜单确实是一项至宝。这种方案允许你把菜单图标放在任何地方，不过它通常是在左上角。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/MuSeek/15159455" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/MuSeek-by-Al-Power.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的是个音乐需要为用户”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Al Powerd的MuSeek是个音乐APP，需要为用户提供大量可视化信息：专辑封面、描述、歌曲名称、曲目列表等等，所以没有空间来放置全屏菜单。在这个例子中，左上角的小图标就是一根救命稻草，平滑地展现出一列相当巨大的菜单。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Univit-UI/13711535" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Univit-UI-by-Mohammed-Alyousfi-Alex-Casabo.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的设计这是一款优雅”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mohammed Alyousfi &amp;amp; Àlex Casabò的Univit UI设计，这是一款优雅的扁平风格APP，使用了一个标准的滑出菜单，通过简单的滑动操作触发。菜单采用了易懂且时尚的轮廓型图标，比各自的标题都大许多。这种方式使得菜单可以很自然地在设计中发挥作用，同时也提供更好的用户体验。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/SVOY-app-design/8548355" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/SVOY-app-design-by-Alexandre-Efimov.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“设计的基于一套艳丽”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alexandre Efimov设计的SVOY APP基于一套艳丽的配色方案，与深色的背景有效搭配。设计师让菜单从左侧展开。吸引眼球且逼真的折叠动画，也给设计增添了一些趣味。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.behance.net/gallery/Idokp-weather-app-redesign/10536853" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/04/Idokep-by-Attila-Szabo.jpg"
+loading="lazy"
+alt="移动APP中的各种导航设计中关于“的又是展开式菜单的一”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Attila Szabó的Időkép又是展开式菜单的一个变种设计，利用几乎占据满屏的梦幻般“拉窗帘”效果来显示菜单本身。&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;每种方案都有自己的优势与劣势，这就是为什么每个项目都提倡它独有的导航类型，可以有效地应对任务，并对用户体验有帮助。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/mobile-app-navigations/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>8个优秀的移动APP字体运用案例</title><link>https://victor42.eth.limo/post/3147/</link><pubDate>Sun, 09 Mar 2014 16:35:38 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3147/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第31期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我有个小小的心得可以分享给你——好的字体等于成熟的设计。直至几年前，网页设计师们都还没有对&lt;a class="link" href="http://designmodo.com/typography-basics/" target="_blank" rel="noopener"
+&gt;字体&lt;/a&gt;表现出足够的关注。如今这个领域已日趋成熟——字体繁荣发展，成为一股巨大的设计潮流。&lt;/p&gt;
+&lt;p&gt;好的字体在文本的易读性上起了决定作用，却不止于此，它也传递出设计师分享的意图。它是整个用户体验的重要部分。从另一方面讲，缺乏好的字体，是整个产品不专业的表现。文字是主要界面的基础元素——如果它设计得很糟，为何还要深入下去？&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/responsive-design-vs-mobile-website-vs-app/" target="_blank" rel="noopener"
+&gt;本地应用&lt;/a&gt;第一年在iOS和Android平台上的发展，简直惨不忍睹。似乎大多设计师和开发者根本没有考虑过字体问题。它不受重视，显得很突兀。所用的那些令人生厌的字体毫无品味。真是一场设计的噩梦。&lt;/p&gt;
+&lt;p&gt;如今，移动端设计已经远远超越早期的水平，这个领域成熟的迹象已经显露。字体是它最形象的例子。主流应用中的大多字体可以用“得体”来形容。无论是Facebook、Mailbox或是Twitter——文字清晰，字体看上去至少还不错。更有趣的是——2013年，我们看到越来越多移动应用在字体的使用上，表现出了震撼的效果。Ultravisual、WillCall、Hotel tonight就是几个很棒的案例。&lt;/p&gt;
+&lt;p&gt;可以肯定的是，在2014年，这股趋势将会形成更加强大的力量。&lt;/p&gt;
+&lt;p&gt;不能再忽视APP中的字体了。移动端的设计已经成熟。&lt;/p&gt;
+&lt;p&gt;Citroen Lifestyle, iOS&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.citroen.com.br/lifestyle/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/1-Citroen.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“不能再忽视中的字体”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fancred, iOS&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://fancred.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/2-Fancred.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“官方网站的网页页面版”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fifa, iOS, Android&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.fifa.com/mobile/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/3-Fifa.jpg"
+loading="lazy"
+alt="Fifa官方网站的网页页面版式布局"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Foodie Recipes, iOS&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.foodie.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/4-Foodie.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“官方网站的网页页面版”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hotel Tonight, iOS, Android&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.hoteltonight.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/5-Hotel-Tonight.jpg"
+loading="lazy"
+alt="Hotel Tonight"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;National Geographic City Guide, iOS&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/6-National-Geographic.jpg"
+loading="lazy"
+alt="National Geographic"
+&gt;&lt;/p&gt;
+&lt;p&gt;Ultravisual, iOS&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.ultravisual.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/7-Ultravisual.jpg"
+loading="lazy"
+alt="Ultravisual"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Willcall, iOS, Android&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.getwillcall.com/" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/8-Wilcall.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“原文链接”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://mobiledesigntrends.com/2014.html" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2014/02/footer.jpg"
+loading="lazy"
+alt="8个优秀的移动APP字体运用案例设计中关于“原文链接”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/typography-mobile-apps/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>活力四射的APP日历组件设计</title><link>https://victor42.eth.limo/post/2989/</link><pubDate>Sun, 15 Dec 2013 09:51:17 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2989/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第22期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1166908-Date-Select-wip" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Date-Select-wip-by-Michael-Sambora.jpg"
+loading="lazy"
+alt="暗黑主题日程安排App，包含“What is there to do?”文本输入框与带蓝色高亮时间的滑块日期选择组件"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;日历不仅仅是很多应用的一部分，也可作为占据主屏的独立组件。有一连串APP以精心绘制的历程表著称。尽管日历只是一个小小的单向功能，却起着处理日常事务的重大作用。&lt;/p&gt;
+&lt;p&gt;今天我们来谈谈设计在这方面的作为。尽管安装一个日历组件之后，得到的似乎只有一张特定的表格，包含了一组中性颜色装饰的数值，不过你还是会惊异于这些现代日历的时尚、精致与优美，有效地将自身完美呈现，并能与其他先进组件相媲美。&lt;/p&gt;
+&lt;p&gt;下面列举了一系列清新独特的日历组件设计。&lt;/p&gt;
+&lt;h2 id="移动app中的日历设计"&gt;移动APP中的日历设计
+&lt;/h2&gt;&lt;p&gt;Crab的日历设计外观干净整洁。设计师同时利用了扁平与拟物风格，增加了几分多样性、层次感，当然也有写实主义。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1008449-Calendar" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Calendar-by-crab.jpg"
+loading="lazy"
+alt="温暖沙色调手机日程日历App界面，包含每月网格视口与下方悬浮便签样式的日记待办清单"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kenny Sing的移动APP Slider设计。这位设计师也诉诸于三维效果，适当的阴影和光照使得底部看起来非常写实。木纹的标题栏、精细抛光的背景，是这个创意的有力支撑。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/898881-Mobile-App-Slider" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Mobile-App-Slider-by-Kenny-Sing.jpg"
+loading="lazy"
+alt="葡萄庄园主题活动日程App UI，展示带有活动图标（如酒杯、箱子）的弹出式日历卡片设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ethan Leon的预约日历：Month着重强调了扁平化风格，促进了设计元素的整体统一。这个APP一行行地展示数据，每行都被独特鲜活的颜色点亮。这些颜色用来给不同事件标注提醒。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1219982-Booking-Calendar-Month" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Booking-Calendar-Month-by-Ethan-Leon.jpg"
+loading="lazy"
+alt="左侧黑色工具栏与右侧白色日历面板拼接的预订App，以彩色长条滑块展示各天的任务排程"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Handsome依据iOS7风格设计的Date &amp;amp; Time Picker。日历组件看上去绝对梦幻、精致和优雅。最先映入眼帘的，是深色模糊背景、整洁的非正式字体和雪白常规图标，它们之间形成了恰到好处的平衡和强烈的对比。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1128968-iOS7-Inspired-Date-Time-Picker" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/iOS7-Inspired-Date-Time-Picker-by-Handsome.jpg"
+loading="lazy"
+alt="多色渐变毛玻璃背景的iOS 7风格日期时间选择器UI，包含每月格栅和底部的滑块时间微调条"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Marcos Paulo Pagano的日历设计。黑白红打造了一种有力度的组合，设计师以扁平风格将三者混合效果更甚。因而这个日历拥有了讨喜的商业化外观，传达了强烈的情感。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1210281-Calendar" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Calendar-by-Marcos-Paulo-Pagano.jpg"
+loading="lazy"
+alt="白框iPhone上运行的极简红黑配色日程日历App，日期21以醒目的红色圆圈高亮表示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chris Rowe设计的日程规划APP特点是其端庄的葡萄酒色主题，界面独特令人难忘。巨大的图标和小字体，配上柔和的绿色和红色，完美地吻合主题风格。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1046935-Planning-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Planning-App-by-Chris-Rowe-Jr.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的一款日历这又”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Day View——Veera Watchara设计的一款日历。这又是一款基于时尚模糊背景的现代风格日历组件。背景艳丽的粉色令人着迷，与前景的白色元素形成了非常理想的互补。使得半透明的区块和圆形部件看上去简单而惊艳。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1214829-Day-View-Calendar" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Calendar-by-Veera-Watchara.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的它基于明亮的配”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vimal Patel设计的iOS Hotel Check-In APP。它基于明亮的配色，简洁干净。洁白背景与灰色边框、常规字体很好地互补。蓝色与绿色有效地建立起视觉焦点。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/iOS-Hotel-Check-In-App/9579027" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/iOS-Hotel-Check-In-App-by-Vimal-Patel.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的日历与之前几”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jakub Antalík设计的日历APP。与之前几个不同，设计师基于深色配色方案创作了一款精致整齐的日历组件。并通过扁平风格来强调主题。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1137531-Calendar-app" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Calendar-app-by-Jakub-Antalik.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的又是一件精彩”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maxim Sorokin设计的Calendar Matches Hc Kuban又是一件精彩的作品，利用巧夺天工的渐变和模糊效果，来令作品独树一帜。照惯例，白色被选作辅助色来创造清晰的对比，对于强调和突出内容有不可替代的作用。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Hockey-Club-Kuban-mobile-app-ios7/9664835" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Calendar-Matches-Hc-Kuban-by-Maxim-Sorokin.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的设计师很成功”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NIMIUS设计的Your trip APP。设计师很成功的运用了深色系，令日历界面看起来迷人而抢眼。其中，黑和红扮演着主要角色，相反，白色用于突出强调。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1211896-Your-trip-app-02" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Your-trip-app-by-NIMIUS.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的日历组件处理得”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Roman Nurik设计的日历组件。处理得当的半透明层是这件设计的关键，给日历营造了一流的外观。尽管日历占据了几乎整个屏幕，设计师仍然给用户保留了额外的空间。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1166113-Month-Calendar-Widget" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Month-Calendar-Widget-by-Roman-Nurik.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“的日历设计这件设计作”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mani Baskar的日历设计。这件设计作品灵感来源于iOS7本身浓艳的色彩。设计师运用了不同的蓝色明暗变化来增加界面的复杂度。霓虹灯式的粉色与绿色在背景中非常突出。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/ios7-Concept-Calender-Design/10581129" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/ios7-Concept-Calender-Design-by-Mani-Baskar.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的简单日历令人立”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Brian MIller设计的简单日历APP，令人立刻感到极简主义气息。界面看起来干净、空旷、宽敞。屏幕中央的巨大数字瞬间就吸引了注意了。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1221158-Simple-Calendar-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Simple-Calendar-App-by-Brian-Miller.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“的还是件半成品蓝与黑”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Michael Sambora的Date Select APP还是件半成品。蓝与黑完美地相互作用。厚实的黑色背景让界面显得严肃，蓝色元素（尤其是带透明背景和边框的那个）营造了一种精致的感觉。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1166908-Date-Select-wip" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Date-Select-wip-by-Michael-Sambora.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“对的日历进行了再设计”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kyle Craven对iOS7的日历APP进行了再设计。简单、舒适和绝对干净几个词，很适合用来描述这件整洁的日历UI作品。柔和的红色支撑着明亮的界面，不经意间将视线吸引至选中区域。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1129981-iOS-7-Calendar-App-Redesign" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/iOS-7-Calendar-App-Redesign-by-Kyle-Craven.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“的日历设计打造惊人优”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Samuel Nudds的日历设计。打造惊人优雅设计的另一个方法，就是使用最少的颜色，它能友好地展示出日历的特征。两种色调构成的界面，有效地激活了内容，不会使用户分神。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1172464-Calendar" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Calendar-by-Samuel-Nudds.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的医疗保健有着圆”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bobby Ghoshal 设计的Stealth医疗保健APP有着圆润的外观。柔滑的线条和明亮的辅助色是这件设计的标志性特征。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1227394-Stealth-Healthcare-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Stealth-Healthcare-App-by-Bobby-Ghoshal.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的这件作品证明”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sergey Skidan设计的My Day。这件UI作品证明了metro风格如何能轻松点亮设计。轻微失焦的背景，为亮色的方形与圆形元素树立了可靠的基础。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/My-Day/9750773" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/My-Day-by-Sergey-Skidan.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“这件是对的再设计这款”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这件是Aaron Buckley对Zipcar APP的再设计。这款概念设计看起来有机而和谐。没有复杂的装饰和混合渐变，只有单色的扁平背景，极大地突出了内容，增加了可读性。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1169061-Zipcar-App-Redesigned" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/Zipcar-App-Redesigned-by-Aaron-Buckley.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“设计的这个界面采用”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tobias Negele设计的CalendarApp。这个界面采用了通用的详细页面布局，这是日历组件与生俱来的样式。巧克力色调与其余的颜色搭配良好，使界面看起来温和而文雅。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1111410-CalendarApp-Details" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/11/CalendarApp-Details-by-Tobias-Negele.jpg"
+loading="lazy"
+alt="活力四射的APP日历组件设计设计中关于“反思这些我们习以为常”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="反思"&gt;反思
+&lt;/h2&gt;&lt;p&gt;这些我们习以为常的日历组件，常常受到表格结构的束缚，有时辅以水平线条，这样的布局似乎难以令我们感到惊奇。所幸，我们错了。现代设计师们，轻易就将这些平淡无奇的日期序列，转化为精致和时尚的作品。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/calendar-widget-mobile-apps/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>活力四射的状态指示器:移动APP界面的加载动画与进度条</title><link>https://victor42.eth.limo/post/2661/</link><pubDate>Sun, 14 Jul 2013 20:42:18 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2661/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第1期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;调查显示，人们总是希望看到进度条的，尤其是在各种数据化APP中。充分理解当前状态或进度，对用户来说至关重要。另外，在需要耐心等待的时候，进度条是极为强大的工具。活力四射、有趣且漂亮令人愉快的进度条，绝对会让我们短短数秒的等待时间兴致盎然。&lt;/p&gt;
+&lt;p&gt;而且，进度条是各种多媒体播放器的基本组成，提供了退后和前进的功能。让用户不只是跟随播放，更能控制它。进度状态的图形表达对于增加用户好感起着至关重要的作用，同时也建立了优秀的人机交互界面。&lt;/p&gt;
+&lt;h2 id="带有载入动画与进度条的移动界面"&gt;带有载入动画与进度条的移动界面
+&lt;/h2&gt;&lt;p&gt;妙的背景。轻微半透明的部件、白色风格和淡粉色的注入，为APP增添几分暖意和女性化意味&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Smart-washer-app-UI/9359203" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Smart-washer-app-UI-by-Hyelim-Choi1.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：智能洗衣机App控制界面，展示带有剩余时间百分比的淡粉色环形状态指示器UI设计"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Miguel Pires 的dB-METER在中央绘制了一个明亮的仪表盘，巧妙地打破了深色硬朗背景的单调。微妙的凹槽和精准的绘制使得界面看起来非常精致&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/dB-METER/8915687" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/dB-METER-by-Miguel-Pires.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：分贝仪声音测量App UI设计，展示具有渐变色环形表盘刻度与发光数字的音量指示器"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Corey Lui 的充电动画设计看上去优雅醒目，有着令人喜爱的现实主义感染力。用绿意盎然的动画表达充电过程，吸引了所有的注意力&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1069484-Charging-Animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Charging-Animation-by-Corey-Lui.jpg"
+loading="lazy"
+alt="手机充电动画界面设计：绿色叶片元素表达充电过程"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Muhammad Farhan 的iOS7设计练习利用扁平的图形、柔和的色彩和纤细字体，清晰无疑表达了扁平风格的哲学。巨大的环形进度条占据整个界面的主要部分，使得数据看起来跃然纸上。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1112808-ios7-design-practice" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/ios7-design-practice-by-Muhammad-Farhan.jpg"
+loading="lazy"
+alt="iOS 7扁平风格界面设计练习：柔和的图形、色彩与纤细字体"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Breezy 的TICKER通过明快乐观的色系创造出温暖亲切的感觉。纯白色背景和扁平元素相互协调，为APP打造干净轻快的形象。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/TICKER/9225263" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/TICKER-by-breezy.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：极简烹饪计时App界面设计，使用明黄色环形状态指示器与底部多色进度条指示时间"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Andrew Fuller 的音乐APP使用带噪点的灰色背景、明亮的控制按钮，橙色作为主色起强调作用，都使之区别于通常音乐播放器。精细的阴影和渐变使按钮微微凸起。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Music-Player-app/8255933" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Music-app-by-Andrew-Fuller.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：拟物化橙白配色音乐播放器App UI，包含专辑封面、播放控制旋钮与弧形播放进度条"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Leigh Taylor 的Lift概念图基于深色系设计，配上炫目耀眼的亮色点缀。环形进度条很优雅，使用了间断和点状的线条来表达状态。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Lift-Early-Concepts/7236063" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Early-Concepts-by-Leigh-Taylor.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：Lift习惯追踪App界面设计，带有一个中央金属拉丝质感向上箭头的大按钮及分段环形进度指示器"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Miguel Pires 的AudioRec界面设计是拟物派的一款清新之作。两侧设计有冷光指示器，漂亮的光点给音量旋钮增添了几分趣味。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/AudioRec-UI/8948903" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/AudioRec-UI-by-Miguel-Pires.jpg"
+loading="lazy"
+alt="活力四射的状态指示器：拟物风格AUDIOREC录音机App UI界面，包含复古数码管时间显示、音频波形图和圆形音量旋钮"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maximilian 的音乐播放APP概念图有着相当扁平的风格。中央的巨大的环状进度条，同时也是唱片封面图的边框。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Musicplayer-App-Conceptional/8387015" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/MusicPlayer-App-Conceptional-by-Maximilian.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的计时器作者设计了一”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MVBen 的计时器。作者设计了一款非常棒的现实主义风格作品，中间的控制按钮与现实中的几乎无差。精致的渐变蓝进度条，在深色背景上非常醒目。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1109874-Timer" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Timer-by-MVBen.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的用了仿仪表盘的进度”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Karol Ortyl 的Statistics Screen用了仿仪表盘的进度条设计，还有附加文字来表示状态。干净的浅灰色背景与扁平图形巧妙地融合。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1089096-Statistics-Screen" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Statistics-Screen-by-Karol-Ortyl.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的全屏背景图非正式字”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Patrick N. Lewis 的Dash iOS App。全屏背景图、非正式字体和普通的白色装饰，作者很好地处理了它们之间的平衡。半透明部件构成的环形加载动画，看起来优雅简练。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1086942-Dash-iOS-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Dash-iOS-App-by-Patrick-N.-Lewis.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的另一款主要采用双色”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Corey Lui 的另一款iPhone APP主要采用双色设计（浅灰色与鲜艳的绿色），令界面外观干净且井然有序。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1083117-Another-iphone-app" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Another-iphone-app-by-Corey-Lui.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“设计作者很巧妙地处理”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dario, Morning设计。作者很巧妙地处理了黑色调、微妙的渐变和精细纹理之间的平衡。有光泽、极大的绿色环形进度条被放置在屏幕中心，用户一眼就能看见所需信息。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Dario-app-design/9243971" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Dario-app-design-by-Morning.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“设计的有很不错的格调”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ryan Littrell 设计的CLOCKWORK Timer App有很不错的metro格调。干净纯白的巨大矩形、浅蓝色的运用、细字体和整齐排布的数据，都给它创造一种井井有条的形象。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/CLOCKWORK-Timer-App/7882085" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/CLOCKWORK-Timer-App-by-Ryan-Littrell.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的音乐播放器概念图”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kiran 的iPhone音乐播放器APP概念图的界面风格以深色、重纹理为主。深色的音量滑块、金属质感按钮和控制按钮的霓虹灯背景光，给界面增添一点粗犷的感觉。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/iPhone-Music-Player-App-Concept/5627861" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/iPhone-Music-Player-App-Concept-by-Kiran.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“这张播放器界面概念图”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这张播放器界面概念图有着让人惊叹的音乐氛围。紫色与蓝色，和深至纯黑的图形与背景完美结合。柔滑高光和微妙渐变使得按钮看起来非常漂亮。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Player-UI-Concept/8214247" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Player-UI-Concept.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的是个充满正能量的设”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lucas Ramos 的Recife FM是个充满正能量的设计。明亮的橙色帆布质地、清晰明确的网格和圆形音乐控制中心，给界面创造了欢乐愉快的氛围。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Recife-FM/6116297" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Recife-FM-by-Lucas-Ramos.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“作为一款整洁美观的监”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;App Vital Watcher作为一款整洁美观的监控软件，它采用了高识别度的图标与形象符号，所用的绿色明亮鲜活。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Vital-Watcher-App/9385141" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Vital-Watcher-App.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的设计表现了时尚和精”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Suhaila Baheyeldin 的Study Timer设计表现了时尚和精致的扁平风格。主体采用灰色调，搭配珊瑚色和大号窄字体，使APP界面工整朴素。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Study-Timer/9053999" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Study-Timer-by-Suhaila-Baheyeldin.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“创作的音乐播放软件看”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BLASTAROCKS 创作的 MeloMe音乐播放软件看起来轻快、干净、非常令人愉悦。浅色背景、浅色按钮、浅灰色字体为界面创造了一种独特的优美。平顺光滑的进度条很容易抓住眼球。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/MeloMe-Music-Player-App/5730235" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/MeloMe-Music-Player-App-by-BLASTAROCKS.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的减肥设计强调功”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nikita Abramenkov 的减肥APP设计强调功能与设计上干净协调地结合。粉色与白色优美地互补，深色字体使得内容容易辨认且易于阅读。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1103074-Weight-Loss-App-Design" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Weight-Loss-App-Design-by-Nikita-Abramenkov.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的睡眠的扁平风格统计”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jeff Rauch 的睡眠APP的扁平风格统计数据十分讨喜，还有优雅的粗圆弧，向用户展示他的睡眠质量信息。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1099709-Sleeply-App-Nightly-Stat-Page" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Nightly-Stat-Page-by-Jeff-Rauch.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“设计的界面有着很重”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Artua 设计的Gym Genius APP界面有着很重的风格，大量使用光泽与渐变。圆形进度条能瞬间吸引注意力。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1089631-Gym-Genius-app-UI" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Gym-Genius-app-UI-by-Artua.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的短跑计时有着精妙”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Oktafian Angga Nugraha 的短跑计时 App有着精妙的传统金属质感界面，运用了大量有光泽的控制按钮和深蓝色元素。电子样式的字体，很好辨认，也使界面元素浑然一体&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://dribbble.com/shots/1117881-Sprinter-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Sprinter-App-by-Oktafian-Angga-Nugraha.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的公交指引中设计了一”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Martin Oberhäuser 的公交指引APP Nextr中设计了一个封闭的环形搜索图标，采用鲜活的渐变样式和动画效果&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/nextr-app-public-transportation-guidance/7121205" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/public-transportation-guidance-by-Martin-Oberhauser.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“的版采用非常规设计来”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Zahir Ramos 的Laundry Master iOS版采用非常规设计来表现进度条。结合了现实主义和动画效果，使它看起来像洗衣机的一部分&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.behance.net/gallery/Laundry-Master-App-iOS/4540475" target="_blank" rel="noopener"
+&gt;&lt;img src="http://designmodo.com/wp-content/uploads/2013/07/Laundry-Master-App-iOS-by-Zahir-Ramos.jpg"
+loading="lazy"
+alt="移动APP界面的加载动画与进度条设计中关于“反思作为一种完美的方”的视觉设计与界面展示"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="反思"&gt;反思
+&lt;/h2&gt;&lt;p&gt;作为一种完美的方式来表达正在发生的事情，进度条与载入动画是大量APP中最重要且不可或缺的部件。在界面看起来没什么变化时，它可以鼓励用户继续等待，也能展现更多额外功能。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://designmodo.com/mobile-app-loading-progress-bars/" target="_blank" rel="noopener"
+&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>评测 on Victor42</title><link>https://victor42.eth.limo/tags/%E8%AF%84%E6%B5%8B/</link><description>Recent content in 评测 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E8%AF%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>AI现在能独立做PPT了吗？</title><link>https://victor42.eth.limo/post/ai-generated-ppt/</link><pubDate>Fri, 23 May 2025 15:46:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/ai-generated-ppt/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9b.webp" alt="Featured image of post AI现在能独立做PPT了吗？" /&gt;&lt;p&gt;我不管你什么深度思考，什么深度研究，连PPT都做不了还取代人类？&lt;/p&gt;
+&lt;p&gt;一个有趣的Agent测试：做一份图文并茂的关于地球地质年代历史的分享报告。&lt;/p&gt;
+&lt;p&gt;任务涉及行动规划、资料搜集、内容组织、排版设计、文件格式转换，可以感受一下目前的智能体们大概到了什么水准，离实际可用距离还远不远，卡点在什么地方。&lt;/p&gt;
+&lt;p&gt;测试了4个Agent产品：天工、扣子空间、Manus、Lovart，结果如下 👇&lt;/p&gt;
+&lt;h2 id="天工"&gt;天工
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://www.tiangong.cn/" target="_blank" rel="noopener"
+&gt;https://www.tiangong.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;完成度最高，是唯一一个最终能输出PPT格式文件的工具。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/07cf2ceb0b1574f2e3c69b2887632c9c.webp"
+loading="lazy"
+alt="天工智能体生成的地球地质年代演示文稿"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/2d429bf55bb6b3a3733e63033500e005.webp"
+loading="lazy"
+alt="演示文稿中关于古生代与中生代的页面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;完整效果见：&lt;a class="link" href="https://tiangong.cn/share/v2/ppt/1925788478895357952?dataType=outfile&amp;amp;outputId=1925788478895357952&amp;amp;outputType=gen_ppt&amp;amp;projectId=1925782838113832960&amp;amp;sharingId=1925797872445526016" target="_blank" rel="noopener"
+&gt;https://tiangong.cn/share/v2/ppt/1925788478895357952?dataType=outfile&amp;amp;outputId=1925788478895357952&amp;amp;outputType=gen_ppt&amp;amp;projectId=1925782838113832960&amp;amp;sharingId=1925797872445526016&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/fc8204dba40ddd291deccb7fb6dbffb2.webp"
+loading="lazy"
+alt="用户在天工工具中确认补充信息表单的过程"
+&gt;&lt;/p&gt;
+&lt;p&gt;在接到任务后，它有一个确认任务范围的过程。我尽量往详细了选，它最终输出的内容是几家里最丰富的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/412c047fd18bf39596ffb101fe0d01f3.webp"
+loading="lazy"
+alt="天工智能助手在制作前制定的待办任务清单"
+&gt;&lt;/p&gt;
+&lt;p&gt;接下来有个规划过程，它给自己准备了任务清单，并在整个执行过程中不断回来检查。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/14e6822b21eb2d2bf9a2446faa3ae9f3.webp"
+loading="lazy"
+alt="智能系统调用网页搜索与网页浏览工具的过程"
+&gt;&lt;/p&gt;
+&lt;p&gt;中间的执行过程非常长，节选部分，但无外乎搜索和浏览2种行为。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/1512322d1022a65174fe5c735b7ddda4.webp"
+loading="lazy"
+alt="天工系统在生成演示文稿前确认的大纲内容"
+&gt;&lt;/p&gt;
+&lt;p&gt;信息充分收集后，它会先写PPT大纲。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/999323fe9dbe801fabe443853e1ab34a.webp"
+loading="lazy"
+alt="天工界面显示生成超文本标记语言网页结果"
+&gt;&lt;/p&gt;
+&lt;p&gt;最后生成PPT的过程，其实是先做了十几个网页，摆在一起展示。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/fa8b4512ddcd260e54f53796c3c7d607.webp"
+loading="lazy"
+alt="下载文件格式选择弹窗中提供网页及演示文稿"
+&gt;&lt;/p&gt;
+&lt;p&gt;在下载的时候，才把网页转换成一页页PPT，合并到一个文件里，所以下载要等很久。甚至如果你下载HTML格式，它下下来的是个文件夹，里面有十几个网页，分开的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/e3caa031828f83557dae4dade1ab2f6f.webp"
+loading="lazy"
+alt="电脑本地解压后的包含多个独立网页的文件夹"
+&gt;&lt;/p&gt;
+&lt;p&gt;但它合成的PPT文件实用价值不高。因为在生成每一页的时候，它没有严格控制尺寸，每页尺寸略微不同，许多页底部都出现空白。&lt;/p&gt;
+&lt;p&gt;再加上生成网页时就有少量排版错乱的地方，最终结果并不完美。&lt;/p&gt;
+&lt;p&gt;不过，需要人工调整的地方并不多，具有相当高的潜力。&lt;/p&gt;
+&lt;h2 id="扣子空间"&gt;扣子空间
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://space.coze.cn/" target="_blank" rel="noopener"
+&gt;https://space.coze.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;扣子空间不能直接生成PPT，它最终给了我一份文档。不过形式不重要，这也算完成了任务。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/f1d552d2a069e73f168d53363b143d75.webp"
+loading="lazy"
+alt="智能体空间生成的标记语言分享报告头部内容"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/b480aa0644716122a8a1ee4e17c75aba.webp"
+loading="lazy"
+alt="智能体空间分享报告正文中插入的古鱼类图片"
+&gt;&lt;/p&gt;
+&lt;p&gt;完整效果见：&lt;a class="link" href="https://space.coze.cn/s/bSmamok4LFg/" target="_blank" rel="noopener"
+&gt;https://space.coze.cn/s/bSmamok4LFg/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/8026407bd8e9265b92fdd565524cd0f0.webp"
+loading="lazy"
+alt="智能体空间在执行任务时展示的思考规划过程"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/8d42f164e6b26e94c4c5e234fffc7c1d.webp"
+loading="lazy"
+alt="智能体空间调用搜索与文件保存工具完成任务"
+&gt;&lt;/p&gt;
+&lt;p&gt;它的任务执行过程简略一些，但也类似。规划、收集资料、找网络图片、整合内容。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/5fef56ffc2dc7b28742139ce8646184c.webp"
+loading="lazy"
+alt="智能体空间添加扩展弹窗中已勾选的图像工具"
+&gt;&lt;/p&gt;
+&lt;p&gt;用扣子空间的时候，我特意为它打开了两个扩展：飞书云文档和图像生成工具，想看看它会不会用到。实际上一个都没用，它并没有把报告写到飞书文档里，也没有生成图片插入报告。这个结果符合预期，毕竟没有明确给它这样的指示。而且，在这种报告里，网图显然优于生成的图片，这不是讲究美观的时候。&lt;/p&gt;
+&lt;h2 id="manus"&gt;Manus
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://manus.im/" target="_blank" rel="noopener"
+&gt;https://manus.im/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Manus给了我一个PDF，纯文字的。任务算是失败。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/966c7cbfbb511b90ea2a844fdb759589.webp"
+loading="lazy"
+alt="智能助手最终生成的一份纯文本便携文档报告"
+&gt;&lt;/p&gt;
+&lt;p&gt;完整效果见：&lt;a class="link" href="https://manus.im/share/DdcDQMgzQ59pWvI2akPuiD?replay=1" target="_blank" rel="noopener"
+&gt;https://manus.im/share/DdcDQMgzQ59pWvI2akPuiD?replay=1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/92df60135a908ccbd177f011bb25b01f.webp"
+loading="lazy"
+alt="智能助手初始化任务执行环境并搜索百科页面"
+&gt;&lt;/p&gt;
+&lt;p&gt;它的执行过程，也合乎逻辑。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/fcb8e048de923c536c1afde38ededdbf.webp"
+loading="lazy"
+alt="智能助手本地工作目录中创建的任务待办清单"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然没有单独把任务规划作为一个步骤，但最终生成的文件里有一个待办清单，说明它是有规划的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/58f5cdd8a07f6a51595c641eb1a1bed9.webp"
+loading="lazy"
+alt="智能助手在浏览器中尝试保存年代地层表文件"
+&gt;&lt;/p&gt;
+&lt;p&gt;执行过程中也确实搜索了图片，但保存的很少，而且没有一张图片保存成功了。&lt;/p&gt;
+&lt;p&gt;导致最后输出了一份纯文字报告。&lt;/p&gt;
+&lt;h2 id="lovart"&gt;Lovart
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://www.lovart.ai/" target="_blank" rel="noopener"
+&gt;https://www.lovart.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个Agent目的不同，专注于设计，纯粹作为对比，看看它能做出什么东西。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/fb9e4ed8ae1530d3d56eb45fc2b90d15.webp"
+loading="lazy"
+alt="智能设计助手生成的垂直地质年代表图文网页"
+&gt;&lt;/p&gt;
+&lt;p&gt;完整效果见：&lt;a class="link" href="https://www.lovart.ai/r/62cce51" target="_blank" rel="noopener"
+&gt;https://www.lovart.ai/r/62cce51&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设计Agent的思考方式就是不一样，它完全把这个任务当成信息图来看待了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/c452cbd16f83c1cf54c4acaa41a09968.webp"
+loading="lazy"
+alt="智能设计助手对话窗口显示搜集到的参考图表"
+&gt;&lt;/p&gt;
+&lt;p&gt;先找点视觉灵感，同时收集地质年代相关知识。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/bd58a66bddb861b38de62e73d3328cf5.webp"
+loading="lazy"
+alt="智能设计助手的详细工作步骤与图像生成计划"
+&gt;&lt;/p&gt;
+&lt;p&gt;然后制定的执行计划大概是：整理信息、生成4张图片对应4个地质纪元、排版设计。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-05/74f874debdd5bad825e3f22f81f6334f.webp"
+loading="lazy"
+alt="智能设计助手最终生成网页及完成任务的界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;做出一个网页长图，它就交稿了。&lt;/p&gt;
+&lt;h2 id="思考"&gt;思考
+&lt;/h2&gt;&lt;p&gt;这个测试里的知识（地质历史）属于容易找又不用推理的低难度信息。我随意读了几处细节，发现各家知识基本正确，就没有深度核查。我重点想考察的是，各个Agent在科普工作中能发挥多大用处，能不能把专业知识转化成易于大众理解的表现形式。&lt;/p&gt;
+&lt;p&gt;不同的Agent产品基因不一样，做法也完全不同。偏重内容还是偏重表达，其实没有好坏之分。这恰恰让人认识到它们各自的长处，善加运用的话，的确能解决具体问题。&lt;/p&gt;
+&lt;p&gt;其中天工和Lovart脱离了文档的层面，真的在用技术手段丰富内容展现形式。其实这种能力不是Agent工具专有的，AI设计大佬 &lt;strong&gt;歸藏&lt;/strong&gt; 很早就用提示词实现了这种 &lt;a class="link" href="https://mp.weixin.qq.com/s/f1IozQKgIEDODfLRP5E2qg" target="_blank" rel="noopener"
+&gt;AI设计能力&lt;/a&gt;。或者反过来说，Agent的这种设计能力，核心还是提示词。&lt;/p&gt;
+&lt;p&gt;当然，如果玩不转提示词，用Agent工具也是很好的办法，毕竟它们极大降低了使用门槛。而如果想对内容表现形式有更多定制化要求，好好打磨属于自己的提示词，然后在通用AI工具里也能实现，只是信息收集过程需要多一步单独完成。&lt;/p&gt;
+&lt;p&gt;最后，来回答一开始的问题：AI现在能独立做PPT了吗？&lt;/p&gt;
+&lt;p&gt;如果是做出一个可以在PPT软件里打开的幻灯片文件，且内容可靠不空洞，不能。&lt;/p&gt;
+&lt;p&gt;但如果你自己有办法确保内容的品质，AI只是把内容转成更易消化的视觉化形式，不限于PPT文件，那答案是：能。&lt;/p&gt;</description></item><item><title>今天你又被AI搜索猪队友带沟里了吗？</title><link>https://victor42.eth.limo/post/ai-search/</link><pubDate>Wed, 26 Feb 2025 12:14:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/ai-search/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2025-02/84O7u4RISVmTo0al7fmLUA.jpg" alt="Featured image of post 今天你又被AI搜索猪队友带沟里了吗？" /&gt;&lt;p&gt;看完这篇，你或许可以把自己和它从沟里拉出来。&lt;/p&gt;
+&lt;p&gt;一直想要一款令人完全放心的AI搜索工具，开始以为需求很简单，拿着一批有代表性的问题一个个试，结果发现进入了AI深水区。&lt;/p&gt;
+&lt;h2 id="始于生活中的问题"&gt;始于生活中的问题
+&lt;/h2&gt;&lt;p&gt;我积累了一些生活中真实的问题作为测试题，发现大多数AI搜索都无法全部答对。&lt;/p&gt;
+&lt;p&gt;这些问题本身不难理解，关键在于AI如何展开搜索，并从中挖掘答案。&lt;/p&gt;
+&lt;h3 id="古眼鱼是什么鱼"&gt;古眼鱼是什么鱼
+&lt;/h3&gt;&lt;p&gt;正确答案是一种食用比目鱼。题目是个陷阱，它不是学名，而是民间叫法“鼓眼鱼”的简写，水产市场常见。&lt;/p&gt;
+&lt;p&gt;AI 能搜到有用资料，但也有干扰信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有的只考虑“古眼鱼”，不考虑同音字，会搜到斑鰶，这是错误信息。&lt;/li&gt;
+&lt;li&gt;有的能把“鼓眼鱼”考虑进来，但会把鼓眼鱼和斑鰶的信息混淆，当作同一物种。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;推理模型能意识到这是两种动物，但无法确定用户问的是哪一种，于是两种都列出来。&lt;/p&gt;
+&lt;p&gt;偶尔，由于鼓眼鱼资料数量占压倒多数，AI 会自作主张回答鼓眼鱼的信息，算是误打误撞答对了。&lt;/p&gt;
+&lt;h3 id="柳传志和共享单车有什么关系"&gt;柳传志和共享单车有什么关系
+&lt;/h3&gt;&lt;p&gt;其实直接关系不大，但间接关系需要经过两层：女儿柳青，柳青带领的滴滴旗下有青桔单车。&lt;/p&gt;
+&lt;p&gt;问这个问题时，我并不知道他们有什么关系，但我这么问，是想知道柳传志对共享单车影响最大的一条关系链，而不是最直接的关系。&lt;/p&gt;
+&lt;p&gt;非推理模型都把君联资本投资ofo作为答案核心，柳青这层关系要么不提，要么一带而过。&lt;/p&gt;
+&lt;p&gt;推理模型更聪明些，能意识到柳青这层关系的重要性，但只能到滴滴这一层。AI 认为滴滴业务是网约车，没有进一步搜出滴滴和青桔的关系，于是经常总结：柳传志家族在广义的出行领域有强大影响力，但和共享单车直接关系较小。&lt;/p&gt;
+&lt;h3 id="杭州古时候叫临安为什么这个名字到了今天让给了临安区"&gt;杭州古时候叫临安，为什么这个名字到了今天让给了临安区
+&lt;/h3&gt;&lt;p&gt;这曾让我困惑，其实不是“让给”，是我把先后顺序搞错了。先有临安县，再有南宋临安府。南宋把杭州叫临安府，可能受了临安县的名称启发，但这是两个地方，南宋皇城在杭州市区，不在临安。宋灭亡后，临安府变回杭州，临安县仍然叫临安。到现代撤市设区，临安并入杭州。&lt;/p&gt;
+&lt;p&gt;由于问题本身有误导性，非推理模型基本都围绕这个错误的假设来解释，比如纪念历史、继承南宋荣光等。&lt;/p&gt;
+&lt;p&gt;推理模型在这道题上表现不错，基本都能答对，能找出两个名称来历的先后顺序，并且指出问题中“让给”的说法是错误的。&lt;/p&gt;
+&lt;h3 id="上海在殖民地时期的港口吞吐量最高达到了多少与同时期最大港口相比如何"&gt;上海在殖民地时期的港口吞吐量最高达到了多少？与同时期最大港口相比如何？
+&lt;/h3&gt;&lt;p&gt;出于好奇随手一搜，我现在也不知道正确答案，但发现大部分AI搜索都答不上来。&lt;/p&gt;
+&lt;p&gt;比较可靠的一篇资料是百度百科的上海港志，里面提到上海在抗日战争爆发前夕，吞吐量达到过 1400 万吨，当时位居全球第 7。&lt;/p&gt;
+&lt;p&gt;同时期其他港口数据，要么搜不出来，要么 AI 幻觉乱答一气。倒是几个搜索量大但不太聪明的 AI 找出了一点有用数据（至少是有参考资料的）。&lt;/p&gt;
+&lt;p&gt;这些都是现实生活中的问题。我有很多疑问，从小是个“十万个为什么”，其中很多随手一搜都没有收获，这降低了我对 AI 搜索产品的信心。&lt;/p&gt;
+&lt;h2 id="问题和问题并不相同"&gt;问题和问题并不相同
+&lt;/h2&gt;&lt;p&gt;AI搜索表现混乱，有的产品在某些问题上表现好，有些则相反。我不禁思考这其中的规律：如何判断什么 AI 擅长什么样的问题？我又该如何选择 AI 搜索产品？&lt;/p&gt;
+&lt;p&gt;首先，推理模型整体优于非推理模型。但不是所有推理模型都足够聪明，gemini 2.0 flash thinking 和 kimi k1.5 就不太行。实测发现，同样的信息源，还是上面那几个问题，gemini 2.0 flash thinking 答不出来，r1 能答出来。&lt;/p&gt;
+&lt;p&gt;搜索方式对结果也有影响。&lt;/p&gt;
+&lt;p&gt;一个有意思的情况是，Grok 3 推理能力很不错，即使不开 Think，但它偏偏答不对古眼鱼那道题。点开它搜索的资料，明白了。它可能把中文问题强制先翻译一道，然后再去搜索。但遇到古眼鱼这种本身就不太对劲的中文固有名词时候，它翻译错误，斑鰶和鼓眼鱼都没有搜，可能搜的是类似于把“古”和“眼”分开翻译的词。一条有用信息也没找到，最后就开始瞎编。&lt;/p&gt;
+&lt;p&gt;搜索量也是非常重要的影响因素。&lt;/p&gt;
+&lt;p&gt;which country does Windsurf IDE come from?&lt;/p&gt;
+&lt;p&gt;来自美国。提问前我觉得很简单，应该一击即中。国外 AI 搜索产品表现都很好，甚至找出了它在加州山景城。我想让国内 AI 搜索也试试，其中 Kimi 和跃问的搜索可以搜到英文资料，我用英文提问。找出在美国不难，但它们都没找出所在城市。&lt;/p&gt;
+&lt;p&gt;细想其实不简单，介绍 Windsurf IDE 的文章哪会那么详细说出它来自哪个城市？最多就告诉你国家。想找到完整答案，AI 要先找出产品背后的公司 Codium，然后从 Codium 的官网、招聘信息、或 Product Hunt 这类网站找出所在城市。这需要推理和多步搜索！&lt;/p&gt;
+&lt;p&gt;问完这个问题，我彻底意识到，人类觉得简单的问题，对 AI 搜索来说可能是巨大的挑战。不是 AI 蠢，是人类低估了问题的复杂性。&lt;/p&gt;
+&lt;p&gt;即使我用搜索引擎找 Windsurf IDE 所在国家，也不容易一次搜索就找出城市信息。&lt;/p&gt;
+&lt;p&gt;于是想到一个粗略评估 AI 搜索的思路，把 AI 能力和搜索能力拆开，分出 4 象限：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2025-02/f80862ccfc018deba6f38d7f92109b32.jpg"
+loading="lazy"
+alt="基于推理要求与信息多寡分类的四象限图"
+&gt;&lt;/p&gt;
+&lt;p&gt;重新审视，发现：古眼鱼、柳传志和共享单车、临安地名这几题难度都被我低估了，我原本认为它们是 D 类，实际搜了才知道是 B 类。而上海港的问题，则是更棘手的 A 类。&lt;/p&gt;
+&lt;p&gt;把 A 类当 C 类，把 B 类当 D 类，问完发现 AI 回答不了，心里就有落差了。&lt;/p&gt;
+&lt;p&gt;但最麻烦的是，人类提出问题时，并不知道它属于哪一类，而且往往会低估难度。&lt;/p&gt;
+&lt;p&gt;可 AI 搜索就是工具，工具就是为人服务的不是吗？它现有水平服务得不太好，这并不是人类的错，是它们需要改进。&lt;/p&gt;
+&lt;p&gt;想要比较可靠地回答 B 类问题，像 grok 3 deep search 和 openai deep research 这样的 Agent 才是标配，必须要有能力执行多步搜索，深入挖掘关系链条，挖掘的过程中推理判断信息源可靠性，评估衡量相互冲突的信息。&lt;/p&gt;
+&lt;h2 id="充分运用-ai-搜索"&gt;充分运用 AI 搜索
+&lt;/h2&gt;&lt;p&gt;但如果什么问题都用 deep search，那也太耗时了。&lt;/p&gt;
+&lt;p&gt;引用 AI 圈子里看到的一句话：既然现在还做不到 AI 迁就人类，那就人类来迁就 AI 吧。&lt;/p&gt;
+&lt;h3 id="同时使用多个产品"&gt;同时使用多个产品
+&lt;/h3&gt;&lt;p&gt;想省时间，同时相对可靠地用 AI 搜索找到答案，就要抛弃“一个工具走天下”的想法，多费点脑力来判断问题可能在哪个象限，每个象限都有相对可靠的 AI 搜索产品，针对性地选择工具。&lt;/p&gt;
+&lt;p&gt;是的，要多费脑子，但能省时间，就看你觉得值不值得。&lt;/p&gt;
+&lt;p&gt;我们倒过来说。D 类问题最容易，是个 AI 搜索工具都能答对。&lt;/p&gt;
+&lt;p&gt;C 类问题需要搜索量大，不需要推理，只要大海捞针搜到了相应的网页，答案就出来了。典型如：&lt;/p&gt;
+&lt;p&gt;which country does Windsurf IDE come from?&lt;/p&gt;
+&lt;p&gt;在这类问题上表现比较好的反倒是 Kimi，其他搜索条目能达到 50 条的产品也不会差。你觉得比较长尾的知识可以归为这一类。&lt;/p&gt;
+&lt;p&gt;B 类问题有两种情况：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;答案就在那儿，遍地都是，但也有相当数量的干扰信息与之冲突；&lt;/li&gt;
+&lt;li&gt;答案不在核心搜索词的结果里，反而在顺带搜的词里有大量答案。典型如我之前问的那几个问题。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这类问题非高性能推理模型无法胜任，至少得上 r1、grok 3 think、o3 mini 这种水平的模型。搜索能力的要求就不高了，能搜出十几二十条资料的产品就足够了。B 类问题很容易被误认为 D 类问题，当发现回答不尽人意时，要及时意识到这一点。&lt;/p&gt;
+&lt;p&gt;最后，A 类问题，我不确定目前有没有 AI 搜索产品能稳定可靠胜任，达到让人放心、无需验证的程度。信息稀少，难为无米之炊。八成得靠人工去搜索引擎的大海里摸。如果实在要尝试用 AI 解决这类问题，必须上 deep search/research。&lt;/p&gt;
+&lt;h3 id="放弃一击即中"&gt;放弃一击即中
+&lt;/h3&gt;&lt;p&gt;话说回来，用 AI 搜索的目的是解决问题，获得答案。不能死脑筋，指望 AI 在一个回合内给你漂亮的回答。放下这个执念，办法就多了。&lt;/p&gt;
+&lt;p&gt;再回到这个问题：&lt;/p&gt;
+&lt;p&gt;which country does Windsurf IDE come from?&lt;/p&gt;
+&lt;p&gt;第一问问不出城市，想知道就再多问一句呗：&lt;/p&gt;
+&lt;p&gt;which city?&lt;/p&gt;
+&lt;p&gt;对于用推理模型的 AI 搜索，答对的概率会大大提升。用多轮对话来换推理深度，你用搜索引擎你也得这么用。&lt;/p&gt;
+&lt;p&gt;至于棘手的 A 类问题，还是那句话，人来迁就 AI 吧。&lt;/p&gt;
+&lt;p&gt;换法子多问几遍，粗略浏览 AI 搜过的信息源，从标题来人工判断是否有用。有用的手动扔到一个知识库工具里，然后用 AI 来 RAG 这个知识库，输出答案。这类工具不少，NotebookLM、腾讯的 iMa 是专门的知识库工具，或者 Perplexity 这种附带知识库功能的 AI 产品，还可以用 Cherry Studio 这样的 AI 客户端。&lt;/p&gt;
+&lt;h3 id="注意区分语言"&gt;注意区分语言
+&lt;/h3&gt;&lt;p&gt;这里又牵扯到新的因素：语言。只能搜中文资料的 AI，回答不了英文世界的细枝末节；反过来，国外的 AI 搜索产品，也答不好你家旁边公立小学的招生计划。&lt;/p&gt;
+&lt;p&gt;一个验证方法是问这个问题：&lt;/p&gt;
+&lt;p&gt;wildfire trends in CA in the last 10 years&lt;/p&gt;
+&lt;p&gt;用英文问发生在国外的事情，如果搜索结果一半以上是中文网页，那这个产品基本没有搜索英文资料的能力，只适用于中国国内的话题和常识性话题。&lt;/p&gt;
+&lt;p&gt;推理能力方面，好在国内大多数产品都接入 r1 了，推理能力有保障，所以中文世界的 AI 搜索产品反而不难挑，你只需要找一个搜索量大的，错不了。&lt;/p&gt;
+&lt;p&gt;也许还有部分人像我一样，经常要搜英文资料和国外信息。最佳方案当然是国外产品，如果不方便，国内的产品也可行，可以用英文问题去试，看它有没有搜索英文资料的能力。&lt;/p&gt;
+&lt;p&gt;最后，文中提到的所有模型和产品，都有时效性（截至2025年2月）。时过境迁，结论可能已经没有参考价值了，但理解和评估 AI 搜索产品的因素，仍然能发挥作用。&lt;/p&gt;</description></item><item><title>三款Android手机地图界面对比</title><link>https://victor42.eth.limo/post/2610/</link><pubDate>Tue, 09 Jul 2013 18:46:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/2610/</guid><description>&lt;p&gt;由于工作需要，涉及到手机地图类的产品UI设计。凭经验设计的同时，也需要学习现有成熟产品，并进行研究对比。今天就把Android平台上的三款较主流的地图软件拿来对比，主要为研究它们界面优劣。三款地图产品分别为：高德地图 v5.1.2 、百度地图 v5.1.0 、 谷歌地图 v6.14.4 ，图片默认按照高德-百度-谷歌的顺序排列&lt;/p&gt;
+&lt;h3 id="1-启动界面"&gt;1. 启动界面
+&lt;/h3&gt;&lt;p&gt;这里的启动界面不是使用提示，而是每次打开的欢迎页&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/1.jpg"
+loading="lazy"
+alt="高德地图启动欢迎页，蓝色天空背景中展示品牌标识和slogan"
+&gt;&lt;/p&gt;
+&lt;p&gt;只有高德地图有欢迎页，百度和谷歌打开直接进入地图界面。欢迎页能够强调品牌，并且能概括产品设计语言。在这个作用上，高德的欢迎图片还是有效的，能够概括高德地图界面清新明亮的设计风格。但是每次打开地图的这个等待过程，也在考验用户耐心，有利有弊&lt;/p&gt;
+&lt;h3 id="2-地图界面"&gt;2. 地图界面
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/2.jpg"
+loading="lazy"
+alt="百度地图首页显示杭州市区道路网和当前位置标记"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/3.jpg"
+loading="lazy"
+alt="Google Maps首页显示杭州城区街道、河流与当前位置标记"
+&gt;&lt;/p&gt;
+&lt;p&gt;可以看到高德与百度的界面布局比较类似，高德更加轻便，用色也基于白色，框体与按钮都更大，显得更加清新。百度的地图底部多了一条功能栏，后面我们会发现，这条功能栏确实能够体现百度地图的色彩语言，浅灰色、微妙的渐变，使得百度的界面风格比高德偏重一些&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/4.jpg"
+loading="lazy"
+alt="高德地图搜索页面，白色卡片上显示历史记录和周边分类"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的风格就大相径庭，半透明元素，大量使用深黑色背景。相比之下，谷歌的渐变与阴影效果使用最少，界面最为扁平&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/5.jpg"
+loading="lazy"
+alt="百度地图搜索页面，顶部搜索框下方展示多个周边分类图标"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/6.jpg"
+loading="lazy"
+alt="Google Maps搜索页面显示搜索历史列表和推荐地点项"
+&gt;&lt;/p&gt;
+&lt;p&gt;打开图层界面时，高德会有个黑色蒙层，这是我个人比较倾向的做法，可以把用户注意力集中在他操作的区域。百度的这几个选项，布局上应该有更合理的方式。这5个项虽然三个是单选项，两个是勾选框，逻辑不同，展现形式未尝不可统一&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/7.jpg"
+loading="lazy"
+alt="高德地图导航模式界面，底部显示路线信息和操作按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌把图层功能列入底部菜单中了，打开是个挺干净的列表，图标表义也比较准确&lt;/p&gt;
+&lt;h3 id="3-更多菜单"&gt;3. 更多菜单
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/8.jpg"
+loading="lazy"
+alt="高德地图Android客户端侧边栏功能菜单截图，包含周边、导航、离线地图及工具箱选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的菜单从右侧滑出，这部分的设计和整体风格相去甚远，却也很有效地将它独立出来&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/9.jpg"
+loading="lazy"
+alt="百度地图导航模式界面，底部有功能栏和地图操作按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;这个界面中，百度底部菜单的渐变就显得很碍事了，菜单部分出现好几种深浅不一的灰色，有明显的杂乱感&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/10.jpg"
+loading="lazy"
+alt="Google Maps导航模式界面，点击底部菜单按钮展开功能列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的更多菜单只能通过手机的硬件menu键调出，功能较少，使用频率又低，文字列表足矣&lt;/p&gt;
+&lt;h3 id="4-搜索页"&gt;4. 搜索页
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/11.jpg"
+loading="lazy"
+alt="高德地图路线规划页面，显示起点终点输入框和历史记录"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/12.jpg"
+loading="lazy"
+alt="百度地图路线规划页面，顶部有起点终点输入框和搜索按钮"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的搜索页，把周边信息与历史记录一起列出来，采用白色背景的卡片式设计。这种灰色背景加白色卡片的设计，是高德重要的视觉语言&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/13.jpg"
+loading="lazy"
+alt="Google Maps路线规划页面，显示起点终点输入和历史记录列表"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/14.jpg"
+loading="lazy"
+alt="高德地图公交查询结果页面，列表显示多条公交线路方案"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度搜索界面相比就沉重一些，大片的灰色。为了给输入法腾出半个屏幕，百度把周边信息与历史记录分开成了3个tab页，左右滑动切换。值得称赞的是周边信息的图标，简单却非常具象，事物的关键特点抓得很准&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/15.jpg"
+loading="lazy"
+alt="百度地图公交查询页面，显示路线方案列表和筛选标签"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的做法则完全不同，没有新开一个页面，而是直接显示了搜索历史列表，周边信息这里没有显示。这点很符合谷歌产品一贯的设计理念，较少的界面层级，减少分散注意力的内容&lt;/p&gt;
+&lt;p&gt;接下来我们在搜索框里输入点什么&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/16.jpg"
+loading="lazy"
+alt="Google Maps公交查询页面，显示驾车、公交和步行选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/17.jpg"
+loading="lazy"
+alt="高德地图实时路况页面，显示杭州市区道路的拥堵情况"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德和百度相同，会在新页面显示推荐的搜索结果，高德只显示标题，百度还多显示一行地址。界面设计方面，高德用色明亮，内容少，显得更加大方。百度边框和线条使用更多，有点拥挤，重复出现的关键词都淡化了，这点值得学习&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/18.jpg"
+loading="lazy"
+alt="百度地图实时路况页面，显示杭州城区道路的拥堵状况"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌还是保持了界面的一致性，和刚才的界面几乎一样，没有时钟标记的项目是推荐结果，与搜索历史区分开了&lt;/p&gt;
+&lt;h3 id="5-搜索结果"&gt;5. 搜索结果
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/19.jpg"
+loading="lazy"
+alt="Google Maps实时路况页面，显示城市道路和交通信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/20.jpg"
+loading="lazy"
+alt="高德地图卫星图层显示杭州城区的建筑物和道路布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的地点信息采用底部信息栏的方式展现，并且切换地点时，信息栏内容会有个左右滑动的效果，体验不错。地点的标记有轻微的立体感，比较Q。列表界面再次体现了卡片式设计的优势，视觉上有宽敞的感觉。按钮样式全都纯白背景，仅靠一条浅灰色边框与背景区分，识别度相应降低了，但也更加耐看，尤其在列表界面中，不会夺去文字标题的视觉焦点&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/21.jpg"
+loading="lazy"
+alt="百度地图卫星图层展示杭州城区的建筑物和道路网络"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/22.jpg"
+loading="lazy"
+alt="高德地图3D建筑视图，展示杭州城区的立体建筑效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度由于底部有菜单栏，地点信息只能悬浮在地点上方，无论从视线移动或是点击操作上，都更加便捷，当然，也牺牲了内容的扩展性。地点标记是扁平样式，可以看到几个标叠在一起的时候，就看不出彼此界限了。界面整体颜色基调偏灰，百度在按钮的设计上，都一致采用了轻微的灰色渐变，按钮尺寸小。在列表页面中，地点图片与评分功能的加入，使得列表页的构图难度加大，通栏+分隔线的设计较为紧凑，美观度有所下降&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/23.jpg"
+loading="lazy"
+alt="百度地图3D建筑视图，展示杭州城区的立体建筑效果"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/24.jpg"
+loading="lazy"
+alt="Google Maps 3D建筑视图，展示城市建筑的立体效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的底部菜单内容是可变的，在初始界面点搜索，搜索便会从菜单上消失。在这个界面中，整个变成了列表按钮。这就是谷歌的逻辑，只给用户他们目前需要的东西，其他的都藏起来。谷歌的地点标记是我个人最喜欢的，比较修长，标记点挤在一起也清晰可辨。列表页中保留了搜索框，其实更多是充当了标题栏的作用，让用户知道搜的是什么。列表页也给每个地点配了图，只是由于天知地知的原因，清一色都是默认图片。其实谷歌的列表页布局和百度基本相同，但是背景色比较明亮，分隔线很淡，没有明显的按钮，都使得它阅读起来更轻松&lt;/p&gt;
+&lt;h3 id="6-地点详情"&gt;6. 地点详情
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/25.jpg"
+loading="lazy"
+alt="高德地图室内地图显示建筑物内部的楼层和商铺布局"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/26.jpg"
+loading="lazy"
+alt="百度地图室内地图展示建筑物内部楼层和商铺分布"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/27.jpg"
+loading="lazy"
+alt="Google Maps室内地图展示建筑物内部结构和商铺布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的地点详情页，内容很多，却清晰严谨。只是展现方式比较单一，给人感觉是个纯信息展示页面，缺少互动元素&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/28.jpg"
+loading="lazy"
+alt="高德地图POI详情页显示韩村银泰店的评分、地址和电话信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/29.jpg"
+loading="lazy"
+alt="百度地图POI详情页显示银泰百货武林店的评分和地址信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/30.jpg"
+loading="lazy"
+alt="Google Maps POI详情页显示地点信息、电话和官方网站链接"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度的详情页用了一张图片作为背景，也开放了上传图片的入口，内容丰富多了，展现形式也比较多样化。用户在这个页面不仅是个信息接收者，也可以制造大量信息：照片、点评、印象、分享，都表现出了百度地图占据互联网入口的雄心。“大家印象”一栏的设计也很合理，把内容语义直观地体现在了颜色上。在信息结构复杂、信息量大的地方，处理好信息的层级与主次是头等大事，再加入一些图形化表达，能够起到事半功倍的作用。不过百度的这个页面仍然略显沉重，在空间狭小的手机屏幕上，同时使用色块与线框，很容易造成繁复的效果&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/31.jpg"
+loading="lazy"
+alt="高德地图收藏夹页面显示已保存地点列表和详细信息"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的这个页面信息就很少了，还把照片单独放了一个tab页，内容处理起来可以更加灵活。单色的设计很巧妙，异于大家常用的1像素宽分隔线，这种厚重带颜色的分隔线很醒目，通过亮色与留白来划分内容区域，使得界面非常宽敞&lt;/p&gt;
+&lt;p&gt;上面这些是通过搜索得到的特殊地点，我们长按地图空白处，能够得到普通地点信息&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/32.jpg"
+loading="lazy"
+alt="百度地图收藏夹页面显示已收藏地点和地址信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/33.jpg"
+loading="lazy"
+alt="Google Maps收藏夹页面显示保存的地点和地址信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/34.jpg"
+loading="lazy"
+alt="高德地图历史记录页面显示最近的搜索地点和时间"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的优势在这里体现出来了，卡片式设计同时也体现了一种模块化的思维，在不同的界面中可以创造出统一的视觉效果。反观百度，任意产生的地点无法提供图片，而且风格与之前的完全不同，令人困惑。谷歌的也挺不错，去掉了图标与蓝色分隔线，却仍然保留了统一的风格，这其中功劳得益于谷歌界面对于留白的使用，使得留白也成为风格的一部分&lt;/p&gt;
+&lt;h3 id="7-交通路线"&gt;7. 交通路线
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/35.jpg"
+loading="lazy"
+alt="百度地图历史记录页面显示最近的搜索和查询记录"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/36.jpg"
+loading="lazy"
+alt="Google Maps历史记录页面显示最近的搜索地点和查询"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德的这个界面设计得挺有实验精神，摆脱了传统输入框样式，红蓝两条细线用得很妙，非常抓眼球。输入框的尺寸也是最大的，通栏设计很宽敞。相比之下，百度的这个界面一眼望去，各种尺寸的按钮遍布输入框区域，线框一层包一层，臃肿不堪&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/37.jpg"
+loading="lazy"
+alt="高德地图驾车路线规划页面，显示路线偏好和方案列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌把交通工具选择放到下面来了，非常值得赞许，要知道4.3英寸的屏幕上，把手伸到屏幕顶端去点一个小小的按钮是多么痛苦。界面很简单，中规中矩&lt;/p&gt;
+&lt;p&gt;然后我们看看搜索的结果&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/38.jpg"
+loading="lazy"
+alt="百度地图路线规划页面，显示驾车路线偏好和选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/39.jpg"
+loading="lazy"
+alt="Google Maps路线规划页面，显示公共交通方案和时间"
+&gt;&lt;/p&gt;
+&lt;p&gt;关于出行偏好的设置，个人认为高德的做法比较合适。打开新页面，用户的注意力会回页面的上半部分，应该让用户先注意到偏好选项，而不是浏览完了列表才发现可以按偏好筛选。百度的起点终点在这里有些多此一举，我自己亲手选的地点，我还会不知道吗？而且用户也不会注意这个提示，他注意力都到列表上去了。视觉上仍然是卡片式与列表式的对比，高德的序号使用了倾斜的字体，有画龙点睛的效果，页面因此活络起来&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/40.jpg"
+loading="lazy"
+alt="高德地图公交路线详情页，显示换乘站点和时间轴"
+&gt;&lt;/p&gt;
+&lt;p&gt;这回谷歌的界面算是三个中最糟糕的。起点终点占了那么大一片区域，而这往往是用户直接忽略的信息。方案列表有点意思，把时间放这么大，车次却缩小放第二排。虽说用户关心的最本质是时间，最直接因素却是车次，这里替用户思考得有些过了。毕竟除时间外，公交车还有路况、舒适度等很多隐性因素，这些只有熟悉线路的用户才知道，却往往是比时间还重要的选择依据。不过整个换乘过程表达地很直观，步行、公交、地铁，一看图标便知&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/41.jpg"
+loading="lazy"
+alt="百度地图公交路线详情页，显示换乘信息和时间节点"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/42.jpg"
+loading="lazy"
+alt="Google Maps公交路线详情页，显示换乘站点和时间信息"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/43.jpg"
+loading="lazy"
+alt="高德地图驾车导航界面，显示路线、转向提示和路况"
+&gt;&lt;/p&gt;
+&lt;p&gt;方案的详情页，各家都严格保持着列表的风格，需要着重一提的是高德与谷歌的时间轴（我暂时这么称呼）。有先后顺序的列表内容，尽管也可以像百度这样来展示，如果用竖线“串”起来，就能更直观地表达出时间这一抽象概念。高德的做法是最常见的思路，时间轴上的点，同时也是很好的内容划分标记，每出现一个点，意味着开始一个新步骤。谷歌的这个设计则更胜一筹，让时间轴本身具有意义。用户在习惯了实线虚线、红色蓝色的意义之后，从形状、颜色中获知信息的时间明显短于图标&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/44.jpg"
+loading="lazy"
+alt="百度地图驾车导航界面，显示路线、转向提示和路况"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/45.jpg"
+loading="lazy"
+alt="Google Maps驾车导航界面，显示路线、转向提示和路况"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/46.jpg"
+loading="lazy"
+alt="高德地图周边搜索页面，显示分类图标和附近服务列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;路线图页面，都大同小异，更多是地图界面的比较。谷歌的时间轴中的色彩语言，可以在这里发挥余热，看颜色便知是什么交通工具，高德与百度只能把图标放置在各个节点上&lt;/p&gt;
+&lt;h3 id="8-周边信息"&gt;8. 周边信息
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/47.jpg"
+loading="lazy"
+alt="百度地图周边雷达页面，绿色雷达图显示附近服务分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;高德地图的周边功能入口较深，要从更多菜单中进入。不知道是否只有我这么感觉，左边的图标部分，很像缺少图片的默认头像&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/48.jpg"
+loading="lazy"
+alt="Google Maps周边搜索页面显示附近地点和分类选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/49.jpg"
+loading="lazy"
+alt="高德地图周边搜索页面，顶部显示分类和附近服务列表"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度对O2O入口的野心在这里就能看出来，周边信息的入口，竟然有3个。左图是菜单中的入口，布局与高德相同，不过与高德一比较，说实话阴沉死板不止一点点。右图是通过点击地图上当前所在地点进入，这个界面与百度整体风格差异很大，有点活动专题的感觉，吸引力强于纯粹的信息列表&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/50.jpg"
+loading="lazy"
+alt="百度地图周边雷达扫描界面，绿色雷达显示附近服务分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;这是百度周边雷达，一个APP级的功能，可以直接在桌面生成快捷方式，并且越过地图界面直接启动。界面简洁直观，不过数字偏小，绿色的背景光让图标与文字难以辨认&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/51.jpg"
+loading="lazy"
+alt="Google Maps周边搜索页面显示地点列表和分类选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌在周边信息上没有下多少功夫，应该说在功夫网内没下多少功夫。尽管信息少得可怜，这个页面在视觉上仍可圈可点。从之前一系列的界面可以看出，谷歌地图大量应用了半透明元素，顶部那一小块地图背景算是个投机取巧的例子。多试几次才发现，这其实只是张固定图片，却给用户产生一种地图就在背后的错觉，用户知道自己没有离开刚才的界面，对这个新开页面的敌意必然要降低不少&lt;/p&gt;
+&lt;h3 id="9-设置和关于"&gt;9. 设置和关于
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/52.jpg"
+loading="lazy"
+alt="高德地图分享位置页面，显示地点详情和分享选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/53.jpg"
+loading="lazy"
+alt="百度地图地点详情页显示位置信息和分享选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;文字列表类的界面其实没什么可说，不需要承担让产品形象出彩的任务，延续既有视觉风格就好&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/54.jpg"
+loading="lazy"
+alt="Google Maps地点详情页显示位置信息和分享功能"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/55.jpg"
+loading="lazy"
+alt="高德地图图层切换页面，显示地图类型和视图选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;百度特喜欢在大标题下面加小字，这种形式的目的不是为了美观，只是为了多展示信息。在这个界面，既然标题就能说清楚，相同的意思何必再重复写一行？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/56.jpg"
+loading="lazy"
+alt="百度地图图层切换页面，显示地图类型和视图选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/57.jpg"
+loading="lazy"
+alt="Google Maps图层切换页面显示地图类型和视图选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;至于谷歌，这个就是原生Android的holo风格啦&lt;/p&gt;
+&lt;h3 id="10-导航"&gt;10. 导航
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/58.jpg"
+loading="lazy"
+alt="高德地图交通方式选择页面，显示驾车、公交和步行选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/59.jpg"
+loading="lazy"
+alt="百度地图交通方式选择页面，显示驾车、公交和步行选项"
+&gt;&lt;/p&gt;
+&lt;p&gt;谷歌的导航在墙内似乎不可用，这里就不参与比较了。之前对比过公交路线的界面，这两个也差不多。高德可以直接在这里添加途经点，还能设置驾车偏好，百度只有导航开始才能设置&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/60.jpg"
+loading="lazy"
+alt="Google Maps交通方式选择页面显示驾车、公交和步行选项"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/61.jpg"
+loading="lazy"
+alt="高德地图步行导航界面，显示路线、转向提示和当前位置"
+&gt;&lt;/p&gt;
+&lt;p&gt;这两个界面也和公交的类似，两者也都在路线上标注了路况。这里顺带提一下高德这种底部信息栏的设计，扩展性很强，信息栏往上滑，又能开辟一块巨大的信息展示空间&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/62.jpg"
+loading="lazy"
+alt="百度地图步行导航界面，显示路线、转向提示和当前位置"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2013-07/07-09/63.jpg"
+loading="lazy"
+alt="Google Maps步行导航界面，显示路线、转向提示和当前位置"
+&gt;&lt;/p&gt;
+&lt;p&gt;进入导航之后，高德左侧的这个路况还是很实用的，只是我没明白灰色代表什么，没有数据？这里仍然要吐槽一下百度，同样是行程公里数与所需时间，像高德这样简单列出来不行么？字够大够清晰就好了。百度的字那么小，中文字还要特意再缩小，又放在那么狭窄的地方，旁边两个图标也并没有让它更好辨认，这不是故意找茬么？&lt;/p&gt;
+&lt;p&gt;地图APP属于随手打开完成任务即关闭的产品，讲究简单高效。如何在匆匆几眼与寥寥几次点击中胜过对手产品，自然是莫大的挑战。反复研究现有产品，总能为手头的工作找到灵感 →_→&lt;/p&gt;</description></item><item><title>win8小试</title><link>https://victor42.eth.limo/post/1485/</link><pubDate>Fri, 16 Mar 2012 17:28:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/1485/</guid><description>&lt;p&gt;Windows 8体验&lt;/p&gt;
+&lt;p&gt;装了个win8系统，尽管还是 ComsumerPreview 版，仍然用得不亦乐乎。我就是猎奇心重，特别是对这些科技界的新鲜玩意毫无抵抗力，下面我们来看看微软这番大动干戈究竟葫芦里卖的是什么药&lt;/p&gt;
+&lt;p&gt;首先奉上&lt;a class="link" href="http://win8e.com/xiazai/3430.html" target="_blank" rel="noopener"
+&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/1.jpg"
+loading="lazy"
+alt="Windows 8开始屏幕磁贴与应用图标整体展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;微软目前最负盛名的 win8 Metro 界面。之前看到win8的宣传介绍时，就瞬间被这界面打败了。这样简洁的线框与色块运用，简直就是专为我设计的啊！win8取消了开始菜单，取而代之就是图中的这个东西，是不是很像windows phone？没错，思路是一样的，我估计这个metro界面会是未来搭载win8系统的平板电脑桌面。而它在PC机上，却扮演着开始菜单的角色&lt;/p&gt;
+&lt;p&gt;除了界面炫丽之外，我还注意到一个小细节，请看腾讯QQ那个图标。当我点击它时，方形图标会发生一定程度的倾斜。若你试试点击图标区域的任意位置，你会发现它将根据你点击的区域，向上下左右四个不同方向倾斜。这是个仿真度很高的交互体验，绝对值得&lt;a class="link" href="http://weibo.com/oneapple" title="小帅"
+target="_blank" rel="noopener"
+&gt;@双手捧个红苹果&lt;/a&gt; 借鉴&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/2.jpg"
+loading="lazy"
+alt="Windows 8开始屏幕音乐磁贴放大选中效果"
+&gt;&lt;/p&gt;
+&lt;p&gt;Metro界面的app可以随意拖动摆放，就单单是来回拖放摆动，寻找了一个美观的布局，我就折腾了将近两个小时。职业病……这是职业病，请无视&lt;/p&gt;
+&lt;p&gt;Metro 界面上看到的众多图标，大致可以分为两类。由色块或图片构成的app，是专为win8 Metro开发的应用程序，无论是视觉风格与操作习惯都与Metro界面高度融合。而由小图标构成的app，则是windows传统桌面中的应用程序，打开这些app，将会启动windows传统桌面。我们可以注意到，Desktop在这里已经被弱化成了一个app，尽管这仍是表面文章，却已经能够看出微软颠覆的决心。有朝一日Metro软件丰富起来，PC也可以大大减少对传统桌面的依赖，只在需要打开一些专业软件时运行Desktop&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/3.jpg"
+loading="lazy"
+alt="Windows 8桌面模式、右侧边栏与传统任务栏界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;传统桌面延续了win7的Aero玻璃质感，乍看之下，除了开始菜单不见踪影，并无太大变化。鼠标指在屏幕右上角或右下角时，会出现右侧的Metro边栏。鼠标停在边栏项上，会出现左下方这块显示时间日期的区域。由于延续了win7的绝大部分设定，所以几乎不用担心软件的兼容性问题。win7的软件，放在win8的传统桌面里几乎都能运行。就我的本本来看，只有两个问题：一个叫做color7 music editor的音频编辑软件无法运行，chrome浏览器内置的adobe flash player运行不正常，无法向服务器提交数据。导致我在又拍网上传图片和登录三国杀网页版时，只能用firefox&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/4.jpg"
+loading="lazy"
+alt="Metro风格Windows 8照片应用相册库界面预览"
+&gt;&lt;/p&gt;
+&lt;p&gt;刚才说过了屏幕右上角与右下角。在win8传统桌面中，鼠标指在屏幕左上角，将会打开一个菜单，里面包含正在运行的程序——传统桌面与Metro桌面。左下角则默认是Metro界面的入口，当然也可以通过键盘上的win键进入。忽然间，我觉得左边这条东西很眼熟，难道不就是windows传统桌面的任务栏给竖起来么！再次说明了Metro是一个大于传统桌面的存在，而不仅仅是一个附属品&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/5.jpg"
+loading="lazy"
+alt="Windows 8桌面运行记事本和输入法切换界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;在切换输入法时遇到了一个问题，觉得win8的输入法好像有点错乱，也不知道如何切换。查了一下才知道，原来win7的输入法是独立于程序的，每个程序的输入法状态相对独立。在QQ中输入法状态是谷歌拼音，同时在chrome中输入法的状态可以是英文。而在win8中，所有程序（传统桌面与Metro）的输入法都是同步切换的。切换组合键由Ctrl + 空格改为win + 空格&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/6.jpg"
+loading="lazy"
+alt="Metro风格Windows 8设置应用白色齿轮图标界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;好了，吊胃口到此结束，正式进入Metro界面！这是Metro系统设置的打开界面，够简洁！Metro自带的相册、摄像头、邮件、日历等等官方应用，打开界面都如出一辙，一整块的底色加上一个居中的白色图标&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/7.jpg"
+loading="lazy"
+alt="Windows 8电脑设置锁屏个性化选项界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;Metro设置界面，简单清爽&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/8.jpg"
+loading="lazy"
+alt="Windows 8照片应用多个相册库的界面展示"
+&gt;&lt;/p&gt;
+&lt;p&gt;Metro自带图片浏览程序，很奇怪Metro程序都如何关闭，它并没有关闭按钮。在平板上，它肯定是通过某种手势来关闭的……手势！我找了一圈，发现果然是这个理儿。鼠标移到屏幕顶端，再把程序拖拽到屏幕底端，就算关闭了。win8的很多操作都是从屏幕的四个角和四条边开始的，并且我在更多地方发现了类似的操作。将平板的手势操作搬到PC上来，够炫，够概念，不过我还没习惯&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/9.jpg"
+loading="lazy"
+alt="Windows 8音乐应用收藏和专辑封面展示图"
+&gt;&lt;/p&gt;
+&lt;p&gt;Metro自带的音乐软件，视觉效果挺好，可惜少了专辑封面支持。专辑封面都是精心设计过的细节丰富的图片，色块配上图片，那样会更好看&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/10.jpg"
+loading="lazy"
+alt="Windows 8锁屏界面显示日期时间和红色珊瑚背景"
+&gt;&lt;/p&gt;
+&lt;p&gt;win8的锁屏界面，从下向上拖动解锁，进入密码输入界面。有没有想起Bing？Bing、Windows Live Messager、Hotmail、win8、Windows Phone……似乎能从这些产品中找出一丝微软的视觉偏好&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/11.jpg"
+loading="lazy"
+alt="Windows 8全部应用列表按字母排序展示图"
+&gt;&lt;/p&gt;
+&lt;p&gt;Metro的搜索功能，可以从Metro右边栏进入，或通过win + Q调出。这相当于传统桌面的F3，不过我们注意到右边还有个Store！当然，作为一个可以在平板上使用的操作系统，应用商店是必须的&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/12.jpg"
+loading="lazy"
+alt="Windows 8应用商店焦点推荐应用展示界面图"
+&gt;&lt;/p&gt;
+&lt;p&gt;同样的界面风格也出现在应用商店里，可见设计的细节固然重要，真正形成震慑力的，是视觉风格上的统一，这会是客户们常挂嘴边的“大气”么？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/13.jpg"
+loading="lazy"
+alt="Windows 8应用商店游戏分类应用列表界面图"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在win8的应用商店，实在有待丰富。games作为软件最多的分类，也只有18个游戏相关软件&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/14.jpg"
+loading="lazy"
+alt="Windows 8应用商店割绳子游戏详情与安装界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;应用程序的详细界面。这个install一按下去，软件很快就给我装好了，并出现在Metro界面的末尾。我不知道它给装到哪里去了，安装过程中也没有任何设置选项。不用想，这个store彻彻底底是为移动设备服务的，却并非没有取代windows传统软件的可能&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2012-03/03-16/15.jpg"
+loading="lazy"
+alt="Windows 8人脉应用中的QQ联系人列表界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;专为win8 Metro开发的QQ，没有广告和那些烦人的腾讯关联产品，我相信会深得小清新们的喜爱。不过目前的谷歌输入法，会在这个Metro版的QQ中失效&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不得不承认，win8确实魅力十足，颠覆性远超之前的那些windows版本。巨人转身迟缓，也许它会为微软夺回半壁江山，也许它只是用来招架苹果与谷歌，微软在这条道上能走多远，我们拭目以待&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>
