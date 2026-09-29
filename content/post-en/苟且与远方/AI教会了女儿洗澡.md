@@ -1,7 +1,7 @@
 ---
 title: How AI Taught My Daughter to Take a Bath
 description: "An AI bath-step chart printed as a coloring page and cut-out checklist turns bath time into a game that teaches a child the routine within a week."
-image:
+image: https://cdn.victor42.work/posts/2026-09/501dbf9fc0d2cf512ef8040a5c5d8f83.webp
 date: 2026-09-29 19:20:00
 categories: 苟且与远方-Life
 tags: ["AI", "Parenting"]

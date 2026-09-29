@@ -1,7 +1,7 @@
 ---
 title: AI教会了女儿洗澡
 description: "借助 AI 生成洗澡步骤图，打印成涂色卡和可剪裁的数字贴纸清单，贴在淋浴间玻璃外当作闯关游戏，帮女儿记住洗澡顺序、减少磨蹭，并分享一周实践后的效果与专注度变化。"
-image:
+image: https://cdn.victor42.work/posts/2026-09/501dbf9fc0d2cf512ef8040a5c5d8f83.webp
 date: 2026-09-29 19:20:00
 categories: 苟且与远方-Life
 tags: ["AI", "育儿"]
