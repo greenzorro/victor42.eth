@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Victor42 公众号">
+    <meta name="theme-color" content="#f5f5fa">
+    <title>公众号 · Victor42</title>
+    <link rel="shortcut icon" href="https://cdn.victor42.work/assets/favicon.ico">
+    <style>
+        :root {
+            --body-background: #f5f5fa;
+            --body-background-start: #ffffff;
+            --body-background-end: #d4d4e2;
+            --accent-color: #2A9D8F;
+            --card-background: #fff;
+            --card-text-color-main: #000;
+            --card-border-radius: 10px;
+            --shadow-l1: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+            --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
+            --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+            --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
+        }
+
+        html {
+            font-size: 62.5%;
+            min-height: 100vh;
+            background: var(--body-background);
+            background: linear-gradient(
+                to bottom right,
+                var(--body-background-start),
+                var(--body-background-end)
+            );
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: transparent;
+            font-family: var(--base-font-family);
+            font-size: 1.6rem;
+            color: var(--card-text-color-main);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        h1 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        main {
+            width: 480px;
+            max-width: 100%;
+            padding: 0;
+            overflow: hidden;
+            background: var(--card-background);
+            border-radius: var(--card-border-radius);
+            box-shadow: var(--shadow-l1);
+            line-height: 0;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Victor42 公众号</h1>
+    <main>
+        <img
+            src="https://cdn.victor42.work/assets/wechat_qr.png"
+            alt="Victor42 公众号二维码"
+            width="480"
+            height="175"
+        >
+    </main>
+</body>
+</html>
