@@ -251,7 +251,8 @@ Openclaw的记忆系统里有纯文本的文件，也有向量数据库。我如
 
 ```text
 agent-workspace/
-├── README.md                   # [只读] Agent第一时间读的文件，记忆的入口
+├── README.md                   # 门面：面向尚未接入的人 / Agent（首次配置）
+├── WAKEUP.md                   # [只读] Agent每次唤醒先读的文件，记忆的入口
 ├── .memory/                    # 记忆空间
 │   ├── 00_kernel/              # [只读] 角色设定和架构，对应Openclaw内层记忆
 │   ├── preferences/            # [读/写] 偏好与风格
@@ -265,7 +266,7 @@ agent-workspace/
 
 记忆的结构准备好了，还需要一个能让Agent更新记忆的机制，也就是我的`/learn`命令。这个命令约定了Agent按步骤学习：知识提取和抽象、净化内容规整格式、写入记忆中。
 
-Agent在读取记忆时，会怎么做呢？它一定会读取内层记忆，我还在README里要求它根据当前任务拟定合适的关键词，在记忆系统里搜索。
+Agent在读取记忆时，会怎么做呢？它一定会读取内层记忆，我还在WAKEUP.md里要求它根据当前任务拟定合适的关键词，在记忆系统里搜索。
 
 ```yaml
 ---
@@ -282,7 +283,7 @@ confidence: "high"
 
 对的，这就是这套独立记忆系统的优点，哪里都能用。让Minimax加载记忆，让它帮我做研究分析，我的分析视角可以让它记住。Claude Code本地编程时加载记忆，我的架构风格可以让它记住。这些都能在之后的任务中复用。
 
-在云端唤醒，需要用到那个长长的初始化指令。在本地唤醒，则是在AGENTS.md/CLAUDE.md里写一点快捷指令，让AI识别到这些指令就去读记忆系统的README，然后顺藤摸瓜加载记忆，唤醒身份。
+在云端唤醒，需要用到那个长长的初始化指令。在本地唤醒，则是在AGENTS.md/CLAUDE.md里写一点快捷指令，让AI识别到这些指令就去读记忆系统的WAKEUP.md，然后顺藤摸瓜加载记忆，唤醒身份。
 
 ```markdown
 ## Agent Resurrection Protocol
@@ -290,7 +291,7 @@ confidence: "high"
 **Trigger**: "Load memory", "加载记忆", "Activate Vik", "唤醒Vik", or references to `agent-workspace`.
 
 **Action**: Delegate to agent-workspace.
-  1. Locate: `BASE_PATH_CODING/agent-workspace/README.md`
+  1. Locate: `BASE_PATH_CODING/agent-workspace/WAKEUP.md`
   2. Execute the initialization sequence defined therein.
 
 ```

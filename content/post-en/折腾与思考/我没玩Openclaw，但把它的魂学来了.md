@@ -249,7 +249,8 @@ Pruning outer noise resulted in this repository layout:
 
 ```text
 agent-workspace/
-├── README.md                   # [Read-Only] Primary entry point and navigation guide
+├── README.md                   # Front door for newcomers (first-time setup)
+├── WAKEUP.md                   # [Read-Only] Primary entry point — read first on every wake-up
 ├── .memory/                    # Memory namespace
 │   ├── 00_kernel/              # [Read-Only] Identity, persona, and architectural rules
 │   ├── preferences/            # [Read/Write] User preferences and stylistic guidelines
@@ -263,7 +264,7 @@ agent-workspace/
 
 With memory layout established, I instituted a `/learn` command defining a structured learning protocol: extract core insights, sanitize formatting, and commit them to appropriate memory categories.
 
-When reading memory, agents review kernel identity files and query the repository using task-specific keywords defined in the root README:
+When reading memory, agents review kernel identity files and query the repository using task-specific keywords defined in the root WAKEUP.md:
 
 ```yaml
 ---
@@ -280,7 +281,7 @@ The `env` property isolates behaviors across environments. For example, cloud sa
 
 This portability is the key strength of an independent memory system. When Minimax analyzes research data, it preserves my analytical frameworks. When Claude Code authors software locally, it adopts my architectural conventions - reusable across all future workflows.
 
-Cloud initialization uses the setup script above. For local environments, adding a concise trigger to `AGENTS.md` or `CLAUDE.md` instructs the agent to parse `agent-workspace/README.md` and load identity context automatically:
+Cloud initialization uses the setup script above. For local environments, adding a concise trigger to `AGENTS.md` or `CLAUDE.md` instructs the agent to parse `agent-workspace/WAKEUP.md` and load identity context automatically:
 
 ```markdown
 ## Agent Resurrection Protocol
@@ -288,7 +289,7 @@ Cloud initialization uses the setup script above. For local environments, adding
 **Trigger**: "Load memory", "加载记忆", "Activate Vik", "唤醒Vik", or references to `agent-workspace`.
 
 **Action**: Delegate to agent-workspace.
-  1. Locate: `BASE_PATH_CODING/agent-workspace/README.md`
+  1. Locate: `BASE_PATH_CODING/agent-workspace/WAKEUP.md`
   2. Execute the initialization sequence defined therein.
 ```
 
