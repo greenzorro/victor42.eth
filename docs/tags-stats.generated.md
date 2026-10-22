@@ -4,15 +4,15 @@
 
 ## Summary
 
-- Articles scanned: 533
-- Articles with tags: 533
-- Unique tags: 335
-- Total tag assignments: 2034
+- Articles scanned: 534
+- Articles with tags: 534
+- Unique tags: 334
+- Total tag assignments: 2042
 - Average tags per article: 3.82
 - Glossary tags (CN): 237
 - Glossary tags (EN): 115
 - Used tags missing from glossary (CN): 0
-- Used tags missing from glossary (EN): 1
+- Used tags missing from glossary (EN): 0
 - Glossary tags unused in content (CN): 8
 - Glossary tags unused in content (EN): 2
 
@@ -20,11 +20,11 @@
 
 | Articles per tag | Unique tag count |
 | --- | --- |
-| 1 | 144 |
-| 2 | 56 |
+| 1 | 141 |
+| 2 | 57 |
 | 3 | 30 |
 | 4-5 | 28 |
-| 6-10 | 32 |
+| 6-10 | 33 |
 | 11-20 | 20 |
 | 21-50 | 20 |
 | 51-100 | 4 |
@@ -40,7 +40,7 @@
 | 5 | 73 |
 | 6 | 35 |
 | 7 | 31 |
-| 8 | 10 |
+| 8 | 11 |
 
 ## Top Tags
 
@@ -51,19 +51,19 @@
 | `UX` | 62 | 设计译文-Design: 53, 折腾与思考-Geek: 8, 苟且与远方-Life: 1 |
 | `AI` | 55 | 折腾与思考-Geek: 42, 苟且与远方-Life: 6, 神经病-Humor: 4, 梦境与幻想-Dream: 3 |
 | `设计师` | 51 | 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
+| `美食` | 45 | 苟且与远方-Life: 30, 神经病-Humor: 14, 梦境与幻想-Dream: 1 |
 | `科技` | 44 | 折腾与思考-Geek: 36, 神经病-Humor: 5, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
-| `美食` | 44 | 苟且与远方-Life: 29, 神经病-Humor: 14, 梦境与幻想-Dream: 1 |
 | `职场` | 43 | 折腾与思考-Geek: 12, 设计译文-Design: 12, 神经病-Humor: 11, 苟且与远方-Life: 8 |
 | `日常` | 42 | 神经病-Humor: 25, 折腾与思考-Geek: 15, 苟且与远方-Life: 2 |
 | `教育` | 38 | 折腾与思考-Geek: 24, 苟且与远方-Life: 12, 梦境与幻想-Dream: 1, 设计译文-Design: 1 |
+| `旅行` | 38 | 苟且与远方-Life: 28, 神经病-Humor: 5, 梦境与幻想-Dream: 4, 折腾与思考-Geek: 1 |
 | `科普` | 37 | 折腾与思考-Geek: 37 |
-| `旅行` | 37 | 苟且与远方-Life: 27, 神经病-Humor: 5, 梦境与幻想-Dream: 4, 折腾与思考-Geek: 1 |
 | `网页设计` | 36 | 设计译文-Design: 36 |
 | `产品` | 35 | 折腾与思考-Geek: 24, 设计译文-Design: 11 |
 | `615` | 32 | 神经病-Humor: 26, 苟且与远方-Life: 6 |
 | `散文` | 29 | 折腾与思考-Geek: 14, 苟且与远方-Life: 13, 梦境与幻想-Dream: 2 |
+| `历史` | 28 | 折腾与思考-Geek: 14, 苟且与远方-Life: 12, 设计译文-Design: 2 |
 | `文字游戏` | 28 | 神经病-Humor: 28 |
-| `历史` | 27 | 折腾与思考-Geek: 14, 苟且与远方-Life: 11, 设计译文-Design: 2 |
 | `游戏` | 27 | 神经病-Humor: 19, 苟且与远方-Life: 3, 设计译文-Design: 3, 梦境与幻想-Dream: 2 |
 | `哲学` | 26 | 折腾与思考-Geek: 11, 苟且与远方-Life: 11, 梦境与幻想-Dream: 4 |
 | `梦` | 26 | 梦境与幻想-Dream: 21, 神经病-Humor: 4, 苟且与远方-Life: 1 |
@@ -131,7 +131,6 @@
 | `Fan Fiction` | `content/post-en/梦境与幻想/大雄拯救世界.md` | Nobita Saves the World |
 | `Fantasy` | `content/post-en/梦境与幻想/木精灵.md` | Wood Elves |
 | `Finance` | `content/post-en/折腾与思考/年化收益率的陷阱.md` | The Annualized Return Trap |
-| `Forest` | `content/post-en/梦境与幻想/木精灵.md` | Wood Elves |
 | `Future of Humanity` | `content/post-en/梦境与幻想/42秒.md` | 42 Seconds |
 | `Gaming` | `content/post-en/苟且与远方/魔兽世界的陈年往事.md` | Old Tales from World of Warcraft |
 | `Horror` | `content/post-en/梦境与幻想/降福灵童.md` | The Blessed Child |
@@ -149,7 +148,6 @@
 | `Programming` | `content/post-en/折腾与思考/自制《失控》活系统.md` | Building a Living System Inspired by Out of Control |
 | `Prompt Engineering` | `content/post-en/折腾与思考/AI生物学家.md` | My AI Biologist |
 | `Psychology` | `content/post-en/折腾与思考/一个图标背后的心理暗示.md` | The Psychology Behind an Icon |
-| `Rainforest` | `content/post-en/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | A Relaxing 6-Day 5-Night Spring Trip to Jinghong, Xishuangbanna |
 | `Robot` | `content/post-en/梦境与幻想/机器人的权利.md` | The Rights of Robots |
 | `Rural` | `content/post-en/梦境与幻想/降福灵童.md` | The Blessed Child |
 | `Savanna` | `content/post-en/梦境与幻想/草原之歌.md` | Song of the Grassland |
@@ -170,7 +168,6 @@
 | `上海` | `content/post/苟且与远方/山雨欲来风满楼.md` | 山雨欲来风满楼 |
 | `专访` | `content/post/折腾与思考/UI中国专访.md` | UI中国专访 |
 | `中东` | `content/post/折腾与思考/中东乱局80年：从以色列建国到加沙战争及后续.md` | 中东乱局80年：从以色列建国到加沙战争及后续 |
-| `丽水` | `content/post/苟且与远方/缙云仙都初夏周末3天2晚.md` | 缙云仙都初夏周末3天2晚 |
 | `云南` | `content/post/苟且与远方/西双版纳景洪春季休闲6天5夜.md` | 西双版纳景洪春季休闲6天5夜 |
 | `五月天` | `content/post/神经病/圣诞快乐！.md` | 圣诞快乐！ |
 | `亡灵` | `content/post/梦境与幻想/空间裂隙.md` | 空间裂隙 |
@@ -254,7 +251,7 @@ None.
 
 ### Used tags missing from glossary (English)
 
-- `Rainforest`
+None.
 
 ### Glossary tags unused in content (Chinese)
 
