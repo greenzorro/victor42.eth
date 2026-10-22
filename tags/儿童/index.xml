@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>儿童 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%84%BF%E7%AB%A5/</link><description>Recent content in 儿童 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%84%BF%E7%AB%A5/index.xml" rel="self" type="application/rss+xml"/><item><title>玩乐与学习：打造虚拟玩具店</title><link>https://victor42.eth.limo/post/3557/</link><pubDate>Sun, 25 Jun 2017 01:09:27 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3557/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第175期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-06/06-24/hero3-1024x683.jpg"
+loading="lazy"
+alt="购物篮装满彩色玩具，旁边手机展示扫码支付应用界面"
+&gt;&lt;/p&gt;
+&lt;p&gt;在我们首创的新产品PlayLab的一次头脑风暴中，我们开始讨论虚拟和真实世界体验的关系。过去几年内，我们见证了许多结合虚拟与真实交互体验的产品的诞生，我们想要更深入了解儿童娱乐领域。于是我们决定开始设计现代版的“玩具店”，希望在其中实验和应用扫码技术。&lt;/p&gt;
+&lt;p&gt;我们如今用钱的方式其实很抽象，账单和硬币越来越不重要了，钱被“隐藏”进了信用卡和数字支付手段中。选择玩具店切入相对容易，因为我们的童年都对它喜爱有加，而如今作为父母，我们的孩子也同样喜爱。在这次实验中，我们出于教育的目的，决定使用硬币代替数字，将钱的概念形象化，使我们的玩具店更加具象，视觉化地表现出购物的过程中需要用到真实货币。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-06/06-24/testing-640x339.jpg"
+loading="lazy"
+alt="三个小孩在桌边玩虚拟玩具店实验，用手机扫描玩具上的二维码"
+&gt;&lt;/p&gt;
+&lt;h2 id="虚拟玩具店"&gt;虚拟玩具店
+&lt;/h2&gt;&lt;p&gt;现有玩具店的状况，多数还是依靠现金支付，我们觉得这已经有点过时了。如今，我们在杂货店购物，要么通过自助扫码支付，要么通过手机App。这个被我们称为BlipShop的实验项目，意在将自助扫码支付引入儿童娱乐领域，让玩具店变得更有趣、更让人投入。我们希望儿童通过使用购物车、杂货店等真实事物，配合数字工具，自己动手感受这种现代的购物体验。&lt;/p&gt;
+&lt;p&gt;设计BlipShop时，我们遵循以下标准：&lt;/p&gt;
+&lt;h3 id="有趣"&gt;有趣
+&lt;/h3&gt;&lt;p&gt;依据经验我们可以知道，用自助支付方式帮助儿童在杂货店内购物，能使他们更加投入，这种方式确定无疑。这一条在设计扫码流程时非常有用。当你成功地扫描一件商品后，雷达音立刻给你反馈，然后奇迹发生了，你扫描的商品忽然出现在手机里。我们尽可能多地使用声音和动画来强调用户行为导致的结果，比如将硬币投入到购物车的商品中，或者扫描一件物品。滴滴滴！&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-06/06-24/scan512px.gif"
+loading="lazy"
+alt="BlipShop 应用界面显示红色购物篮和 BlipCard 支付卡片"
+&gt;&lt;/p&gt;
+&lt;h3 id="易于理解"&gt;易于理解
+&lt;/h3&gt;&lt;p&gt;由于我们的目标群体是儿童，要尽可能减少认知负荷。我们把事物都视觉化为日程生活中的样子——硬币、信用卡、购物篮、扫描识别出的商品。建立这层关联非常重要，能把虚拟世界和真实的玩具店融合起来，易于理解。&lt;/p&gt;
+&lt;p&gt;BlipShop不需要任何的文字说明或数字就能使用。使用数字来替代硬币会将许多儿童用户排除在外。我们把钱放在屏幕的底部，最接近玩具区，让他们自己拖拽硬币，我们希望让他们感觉到硬币正在花出去。限制每次只能拖动一枚硬币，是对这个操作的一种强调，迫使他们考虑自己的选择。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-06/06-24/pay512px.gif"
+loading="lazy"
+alt="BlipShop 应用界面显示购物篮中两个玩具和 BlipCard 支付卡片"
+&gt;&lt;/p&gt;
+&lt;h3 id="开放的体验"&gt;开放的体验
+&lt;/h3&gt;&lt;p&gt;从其他儿童产品的设计经验中，我们了解到，应该让他们根据自己的意愿，自由地玩乐和探索。BlipShop没有限定任何的规则或边界，它是玩具店体验的一种有趣补充。我们很重视不去打扰娱乐过程，绝对不会意外弹出菜单，使用次数也没有限制。这是一套比游戏更专注于娱乐和探索的体验。儿童们可以随心所欲扫描新商品，从购物篮里移除商品，或者支付。只有一个界面，没有隐藏的信息，没有弹出对话框或复杂的交互流程，所有重要的功能都永远可见。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2017-06/06-24/moneyback512px.gif"
+loading="lazy"
+alt="BlipShop 应用界面显示购物篮中两个玩具和 BlipCard 支付卡片"
+&gt;&lt;/p&gt;
+&lt;h2 id="实际使用效果"&gt;实际使用效果
+&lt;/h2&gt;&lt;p&gt;我们很早就注意到，3岁左右、最年幼的那批用户，并没有太急迫地想要在店里使用BlipShop。他们太容易被新的环境分散精力，而且认为扫码的技巧很难掌握。但是我们相信，只要再接触一段时间，他们就能产生兴趣。&lt;/p&gt;
+&lt;p&gt;另一方面，4-6周岁的儿童使用BlipShop则用得不亦乐乎。他们开始在极少甚至没有说明的情况下，能够扫描并支付购买商品。他们很快就记住了店内不同商品的价格，有些甚至扫遍了店里所有商品来查看价格，确保自己了解了所有信息。最终，花光所有硬币，选择添加商品，这成了4-6周岁儿童的一种娱乐方式。这是非常好的数学练习，但并不是良好的购物习惯。&lt;/p&gt;
+&lt;p&gt;随着实验的继续，我们很快意识到，BlipShop会是一个很好的机会，能在娱乐中教育孩子金钱的概念。比如，当我们给受试者分配一些任务，我们可以观察他们如何运用我们的产品来解决实际问题：“3个冰淇淋值多少钱？”、“你能买得起多少个橡皮鸭？”。当与老师或家长一起的时候，这也很利于激发孩子大声数出这些问题的答案。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你花光了所有的硬币怎么办？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我还可以向银行借更多！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;——Edit，5周岁&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="支付"&gt;支付
+&lt;/h2&gt;&lt;p&gt;对于玩具店里的孩子，BlipShop能够成为他们喜爱的附加物，我们对此非常高兴。一次典型的场景大概能持续20分钟，孩子们会用商品塞满购物篮，然后扫码并支付。购物完成后，他们会把篮子交给父母，寻求反馈。然后他们再清空购物篮，无论是真实的还是虚拟的，开始下一轮，循环往复。刚开始，我们还担心这个App可能会令人分心，不过答案很快揭晓，我们确实创造真实有效的产品。&lt;/p&gt;
+&lt;p&gt;我们在两周内创造出了这个产品，并且很兴奋地准备继续打造类似的融合虚拟与真实的产品。往后，BlipShop会成为一套现代的支付系统。我们在幼儿园和学前班做了测试，得到一些反馈，确定了一些重要的功能。我们同时也在对BlipShop进行长期的实验，观察它在学前班环境中的长期使用情况。&lt;/p&gt;
+&lt;p&gt;最后顺便提一下：不要用真实的商品对儿童进行测试，那绝对会使他们分心！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我希望[BlipShop]能扫描所有的东西……而且钱永远花不完。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;——Selma，6周岁&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;作者信息：VIKTOR HOLTENÄS &amp;amp; BJÖRN PERSSON&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://ustwo.com/blog/play-and-learn" target="_blank" rel="noopener"
+&gt;https://ustwo.com/blog/play-and-learn&lt;/a&gt;&lt;/p&gt;</description></item><item><title>为儿童设计可不是儿戏</title><link>https://victor42.eth.limo/post/3498/</link><pubDate>Sun, 01 May 2016 00:31:09 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3498/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第131期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;或许你已经看到了：&lt;strong&gt;孩子们已经离不开平板电脑和智能手机了&lt;/strong&gt;，用他们软乎乎的小手指，在上面大胆地滑动。从机场和餐馆，到家庭甚至学校，移动设备充斥着如今的童年生活。苹果公司去年在App Store中发布了一个专属于“儿童”的分类，如今已经有超过&lt;em&gt;80,000&lt;/em&gt;个应用了。&lt;/p&gt;
+&lt;p&gt;有如此众多的儿童类应用，可能你自己也会想设计一个。“为儿童设计能有多难呢？”你可能会这么想。但是，不要被表象蒙蔽了。尽管情节简单、音调低龄化，&lt;strong&gt;但为儿童设计是一件严肃的活&lt;/strong&gt;。并不是套用成年人的内容，然后将它幼儿化。实际上，有许多理由表明，为儿童设计比为成年人设计&lt;em&gt;更加&lt;/em&gt;复杂。&lt;/p&gt;
+&lt;p&gt;本文中，我会通过下列用户体验的考量，指出如何避开常见的陷阱：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;观察玩耍过程，能够转化为对数字领域的理解&lt;/li&gt;
+&lt;li&gt;何时并且如何使用真实的产品模型&lt;/li&gt;
+&lt;li&gt;对儿童进行可用性测试的各种途径&lt;/li&gt;
+&lt;li&gt;为年幼的用户提供何种程度的可见性&lt;/li&gt;
+&lt;li&gt;如何设置一个好用的菜单&lt;/li&gt;
+&lt;li&gt;何时加入声音和视觉反馈&lt;/li&gt;
+&lt;li&gt;为什么不能忽视成年用户&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="用户研究大有帮助"&gt;用户研究大有帮助
+&lt;/h2&gt;&lt;p&gt;在Mutual Mobile，用户研究是我们设计流程中的一个关键环节。我们发现，从最初的头脑风暴阶段，到打磨最终成品，&lt;strong&gt;让用户全程参与整个设计过程的价值是无法估量的&lt;/strong&gt;，尤其你的用户还是孩子。&lt;/p&gt;
+&lt;p&gt;那么为什么为儿童设计如此困难？主要原因很简单：设计师并不是孩子。他们是成年人，充斥着成年人的生活经历、成年人的技术倾向，还有大量成年人对于孩子喜好的偏见。我们都知道，用户的情感共鸣有多么重要。这尤其适用于儿童用户。想象一下，有可能你为目标用户夜以继日创造了一个应用，但对于他们来说却太难用了。所以，在设计和开发之前，要通过一手的用户研究，切身体会用户天真烂漫的视角。&lt;/p&gt;
+&lt;p&gt;在设计的最初阶段，你的研究甚至不必加入科技因素。就只要观察儿童玩玩具的过程，我们就能了解到许多孩子们的交互方式，什么吸引他们注意，什么让他们觉得无趣。所有这些理解，都能转化为应用中的数字娱乐体验。&lt;/p&gt;
+&lt;h3 id="确定目标用户年龄范围"&gt;确定目标用户年龄范围
+&lt;/h3&gt;&lt;p&gt;在开始蜡笔和玩具兵的狂欢之前，很有必要退后一步，为你的应用&lt;strong&gt;确定目标用户年龄范围&lt;/strong&gt;。孩子成长和改变的速度远比成年人快，所以通常以最多2年的范围为间隔。想一想4岁和6岁小孩的发展阶段的区别，或者6岁和8岁的区别。比如，在某些年龄时，孩子喜欢开门见山，自己探索应用。而其他一些年龄的孩子则需要预先的说明，给他们自信，让他们继续下去。（想要了解每个年龄阶段的详细信息，请看&lt;a class="link" href="http://rosenfeldmedia.com/books/design-for-kids/" target="_blank" rel="noopener"
+&gt;Debra Gelman的《为儿童设计》&lt;/a&gt;。）&lt;/p&gt;
+&lt;h3 id="观察"&gt;观察
+&lt;/h3&gt;&lt;p&gt;一旦确定了目标年龄层，就瞄准开动吧。召集一组这个年龄层的孩子，理解他们的行为，作好记录。如果可以的话，尝试观察不同的分组类型（例如，相互认识的儿童，陌生的儿童；全是男孩，全是女孩；室内，室外，等等）虽然对于成年人而言，孩子的行为可能很傻，但这很有说服力，能够表明这些孩子会如何操作你的应用。例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这年龄层的孩子喜欢在规则内，还是更喜欢发明自己的游戏规则？&lt;/li&gt;
+&lt;li&gt;他们是很努力在尝试，还是在相互“打趣”？&lt;/li&gt;
+&lt;li&gt;男孩和女孩玩耍的方式有没有不同？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一旦对这个年龄的孩子有了概念，就要让你的观察更进一步，为你的产品创意设定相关情景。例如，如果你的应用包含了童话故事，就让孩子们扮演王子和公主。你还可以加入一些没有科技含量的物理模型，观察孩子们作何反应。&lt;/p&gt;
+&lt;p&gt;Toca Boca Tea Party就&lt;a class="link" href="http://www.newyorker.com/culture/culture-desk/how-to-make-a-great-kids-app" target="_blank" rel="noopener"
+&gt;开始于纸质模型&lt;/a&gt;，使用了茶壶、茶杯和茶匙的剪纸模型，摆放在iPad上。&lt;a class="link" href="http://pbskids.org/apps/cyberchase-shape-quest.html" target="_blank" rel="noopener"
+&gt;Cyberchase Shape Quest&lt;/a&gt;，一款操控积木的增强现实游戏，使用了类似于纸板拼图的剪纸模型来评估，这个难度对于孩子是否太高。&lt;strong&gt;孩子天生就很有创造力&lt;/strong&gt;——你往往能得到一大堆创意，指引你如何使应用更加吸引人、令人兴奋。&lt;/p&gt;
+&lt;h3 id="分享式设计"&gt;分享式设计
+&lt;/h3&gt;&lt;p&gt;分享式设计，也称作&lt;em&gt;合作设计&lt;/em&gt;，是一种有趣的理解儿童如何看待世界的绝佳方法。这包含了聚集成组的孩子（通常在6到12岁），给他们制作工具，让他们为你的产品出谋划策。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/ParticipatoryDesignLrgLrg-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-01/ParticipatoryDesignLrg-opt.jpg"
+loading="lazy"
+alt="为儿童设计可不是儿戏：孩子们使用类似的工具在Mutual Mobile总部设计应用。（）"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;孩子们使用类似的工具在Mutual Mobile总部设计应用。（&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/ParticipatoryDesignLrgLrg-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;虽然最终的设计结果，很少会直接采纳儿童的创意，这个练习能帮助设计师&lt;strong&gt;理解孩子们对这个主题有什么感觉&lt;/strong&gt;。例如，孩子们可能会设计一个机器人，帮助他们完成作业，但它需要具备怎样的人格？是个友善的、鼓励人的机器人，还是一个专制的机器人？孩子们思考的是什么特征，目的是什么？&lt;/p&gt;
+&lt;p&gt;理解这些细微差别，能让设计师在打磨产品时产生移情作用。孩子们还能创作出拼贴画、故事板，或者把练习本带回家完成，效果类似。&lt;/p&gt;
+&lt;h3 id="可用性测试"&gt;可用性测试
+&lt;/h3&gt;&lt;p&gt;随着产品设计和开发的进行，反复进行可用性测试，是开发周期的一个关键部分。像&lt;a class="link" href="https://marvelapp.com/" target="_blank" rel="noopener"
+&gt;Marvel&lt;/a&gt;和&lt;a class="link" href="http://www.pixate.com/" target="_blank" rel="noopener"
+&gt;Pixate&lt;/a&gt;这样的原型设计工具，能让你无需代码检验一些复杂的任务，例如滑动和双指缩放。像这样的手势操作尤其需要尽早、频繁测试，因为小孩运动能力没有完全开发，不能像成年人那样自如地运用手部。&lt;/p&gt;
+&lt;p&gt;对年长一些的儿童进行可用性测试时，可以使用传统的交谈方式，不过你需要更具创造力，让参与者感到兴奋。&lt;strong&gt;让孩子们“教你”如何玩这个游戏&lt;/strong&gt;，或者观察一个孩子如何教其他孩子玩。这些可用性测试的讨论是无价的，尽量仔细，处处留意。你的应用是否易用、有趣？或是无聊、令人困惑？如果是个游戏，那么不同的关卡、时间限制和奖励是否明确？结果可能完全出乎你意料。其中一个团队的设计师发现，游戏失败后出现的“伤心小猫”的声音与动画，让孩子们觉得非常有趣，他们甚至会故意输掉游戏，不停地触发一阵阵的傻笑。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/UsabilityTestingLrgLrg-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-01/UsabilityTestingLrg-opt.png"
+loading="lazy"
+alt="为儿童设计可不是儿戏：孩子正在发笑，因为我们测试的应用中包含有趣的声音和动画。（）"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;孩子正在发笑，因为我们测试的应用中包含有趣的声音和动画。（&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/UsabilityTestingLrgLrg-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;）&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="抢占先机的设计诀窍"&gt;抢占先机的设计诀窍
+&lt;/h2&gt;&lt;p&gt;虽然用户研究能够确保你创造的产品对于儿童而言足够吸引人、欢快和有用，但还是需要牢记一些设计的最佳实践，让你抢占先机。通常，其中多数诀窍都关乎如何让应用更容易被儿童理解。虽然多数孩子并不怕在一个新应用中胡乱滑动和点按，但如果应用不能符合他们的心智模型，他们很容易就会感到沮丧。&lt;/p&gt;
+&lt;h3 id="可见性"&gt;可见性
+&lt;/h3&gt;&lt;p&gt;首先，&lt;strong&gt;孩子喜欢丰富的色彩&lt;/strong&gt;，这点人尽皆知。孩子们希望他们的应用是鲜艳、吸引人的。大胆使用颜色，但要清楚明白表现出哪些元素是可交互的。随着扁平化设计的到来，一切都可点按。单独的文字（在适合的环境中）也是可点按的。成年人了解这点，但多数孩子不知道。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.smashingmagazine.com/2012/03/dads-plea-developers-ipad-apps-children/" target="_blank" rel="noopener"
+&gt;解决方法很简单：创造功能可见性&lt;/a&gt;。设计可交互元素时，使用明确的特征表明它们可以被点按。例如，按钮可以带有简单的白色边框，或者投影；可交互的背景元素，应当摇摆、闪光，或者通过其他某种方式吸引用户注意。对于更年幼的儿童，&lt;strong&gt;在不可操作的背景上使用暗淡的色彩&lt;/strong&gt;，来凸显可交互元素。Sesame Street应用（下图）就很清晰地表明了哪些物体是孩子可以操作的。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/SesameStLrgLrg-opt.jpg" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-01/SesameStLrg-opt.jpg"
+loading="lazy"
+alt="为儿童设计可不是儿戏：简单的Sesame Street Touch &amp; Learn应用。（图片来源：）（）"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;简单的Sesame Street Touch &amp;amp; Learn应用。（图片来源：&lt;a class="link" href="https://blogs.microsoft.com/firehose/2015/05/01/sesame-street-touch-learn-tv-online-cameras-and-more-on-sale-through-red-stripe-deals/" target="_blank" rel="noopener"
+&gt;Microsoft The Fire Hose&lt;/a&gt;）（&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/SesameStLrgLrg-opt.jpg" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;）&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="菜单和图片"&gt;菜单和图片
+&lt;/h3&gt;&lt;p&gt;多数儿童应用使用了&lt;strong&gt;全屏菜单&lt;/strong&gt;，帮助孩子进入不同的应用区块（单人游戏、双人游戏、积分榜，等等）。这尤其有助于儿童的浏览，保持它们简单明了至关重要。让行动指令（CTA）最具号召力，并且按钮尺寸最大，能够防止孩子迷失其中。&lt;/p&gt;
+&lt;p&gt;作为我研究的一部分，我观察过孩子们如何使用著名的教学应用——&lt;em&gt;VocabularySpellingCity&lt;/em&gt;。尽管这个应用在教师中被广泛接受，但许多孩子并不理解两步的菜单操作流程，这需要让孩子们先选择一个较大层级，然后选择游戏。孩子们被自然吸引到屏幕的右半边，那里的游戏名称使用了有趣的字体。他们会选择一个游戏，然后等待，继续等待。有个孩子甚至进入到iPad的WIFI设置中，检查有没有断网。想想看：他能去检查iPad的WIFI设置，但应用界面对他来说却太难理解。其实通过把这两步分到两个界面中，或者在选择第一步之后才激活第二步，就能轻松解决这个问题。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/VocabSpellCityLrgLrg-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-01/VocabSpellCityLrg-opt.png"
+loading="lazy"
+alt="为儿童设计可不是儿戏：VocabularySpellingCity令人困惑的菜单。（图片来源：）（）"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;VocabularySpellingCity令人困惑的菜单。（图片来源：&lt;a class="link" href="http://ipadapps4school.com/2012/12/15/vocabulary-spelling-city-for-ipad/" target="_blank" rel="noopener"
+&gt;iPad Apps for School&lt;/a&gt;）（&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/VocabSpellCityLrgLrg-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;对于菜单而言——在整个应用中——&lt;strong&gt;不要过分依赖文字&lt;/strong&gt;。你的用户可能无法阅读复杂的文字，还有许多与学校作业有关的阅读（那可不好玩）。在整个应用中加入简单的图形，是易用的保障。不过要确保对图形进行可用性测试，因为孩子们并不像成年人那样，对真实世界的物体那么熟悉。&lt;/p&gt;
+&lt;h3 id="反馈环境和声音"&gt;反馈、环境和声音
+&lt;/h3&gt;&lt;p&gt;反馈在应用中至关重要。成年人需要在遇到错误时获得反馈。任何时候，发生&lt;em&gt;任何事&lt;/em&gt;，&lt;strong&gt;孩子们都需要得到反馈&lt;/strong&gt;。以页面切换、物品移动或声音的形式加入反馈。例如，在Yuby中——我们为Union Bank创造的应用，教导孩子如何存钱和追踪消费——任何时候向账户中存款，孩子们都能听到硬币的叮当声，看到钞票从屏幕顶端飘下。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/YubyLrgLrg-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-01/YubyLrg-opt.png"
+loading="lazy"
+alt="为儿童设计可不是儿戏：甚至成年人也喜爱Yuby应用的声音和动画。（）"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;甚至成年人也喜爱Yuby应用的声音和动画。（&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/YubyLrgLrg-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;在教育类应用中，反馈尤其重要。如果孩子答错一题，不要只给个红叉叉然后继续。再给一次机会，展示出正确答案，或者解释如何得到正确答案。这似乎很简单，但不幸的是，如今的许多教育类应用，并没有把这些时刻作为教学的机会。&lt;/p&gt;
+&lt;p&gt;对于游戏，要提供符合环境的反馈，展示一些提示，告诉用户如何取得成功。愤怒的小鸟在这方面就做的非常好（并没用到任何文字就让我取得一些初期的成就）。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/AngryBirdsLrgLrg-opt.png" target="_blank" rel="noopener"
+&gt;&lt;img src="https://cdn.victor42.work/posts/2016-05/05-01/AngryBirdsLrg-opt.png"
+loading="lazy"
+alt="为儿童设计可不是儿戏：愤怒的小鸟直接演示了如何游戏，而不是通过说明来展示。（图片来源：）（）"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;愤怒的小鸟直接演示了如何游戏，而不是通过说明来展示。（图片来源：&lt;a class="link" href="http://blog.mrmeyer.com/2011/five-lessons-on-teaching-from-angry-birds-that-have-nothing-whatsoever-to-do-with-parabolas/" target="_blank" rel="noopener"
+&gt;dy/dan&lt;/a&gt;）（&lt;a class="link" href="https://cdn.victor42.work/posts/2016-05/05-01/AngryBirdsLrgLrg-opt.png" target="_blank" rel="noopener"
+&gt;查看大图&lt;/a&gt;）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;设计时&lt;strong&gt;也要考虑环境&lt;/strong&gt;。孩子们会在什么地方使用你的应用？在家、学校、或是介于之间的某个地方？如果你的应用是用在学校里的，平板电脑往往会被分享使用。你需要账号应对多用户、不同关卡的情况。为每个孩子加入用户资料的功能，带上照片或头像，轻松辨认出每个人。还要保证有保存进度的方式，让那些进行到了很远的孩子，不必无聊地重复之前的简单关卡。&lt;/p&gt;
+&lt;p&gt;还有，考虑&lt;strong&gt;声音&lt;/strong&gt;时也需要注意环境。声音是提供反馈和说明的有趣方式，但孩子们并不总是处在安静的环境中。如果孩子在吵闹的教室或机场里使用你的应用——或者他们的父母需要安静——声音真的是必须的吗？许多应用应当在静音的状态下同样易用。&lt;/p&gt;
+&lt;h3 id="别忘了成年人"&gt;别忘了成年人
+&lt;/h3&gt;&lt;p&gt;最后，虽然你应当重视儿童用户，但也不能忘了成年人！我是指家长、监护人、老师，还有其他任何需要操作这个应用的人。成年人在这个应用中扮演什么角色？他们是与孩子同等的搭档，在旁边一起玩？还是协助或监督玩耍的过程？如果出了问题他们能否解决？或者他们是另一类用户，需要考虑以上所有？例如，教师可能就需要登录应用中的一个特别的部分，查看每个学生的进展。&lt;/p&gt;
+&lt;p&gt;现在，我们可以很肯定的说，&lt;strong&gt;儿童应用所需的关怀和体贴，不会比成年人日常应用的少&lt;/strong&gt;，他们也需要得到同等的尊重。而且作为潜在的巨大收入来源，这些年幼用户的肩上承担着软件产业的未来。如果想要我们的研发产业继续进步，我们在今天就要吸引住下一代。最好的方法就是通过设计精良的应用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://www.smashingmagazine.com/2016/01/designing-apps-for-kids-is-not-childs-play/" target="_blank" rel="noopener"
+&gt;https://www.smashingmagazine.com/2016/01/designing-apps-for-kids-is-not-childs-play/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://www.smashingmagazine.com/author/beckywhite/?rel=author" target="_blank" rel="noopener"
+&gt;Becky White&lt;/a&gt;
+Becky is a Senior UX Researcher at Mutual Mobile, a mobile and IoT software agency, where she inspires, informs, and validates digital products through research. She’s worked across a variety of clients and industries, and is most passionate about designing apps for children.&lt;/p&gt;</description></item></channel></rss>

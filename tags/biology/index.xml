@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Biology on Victor42</title><link>https://victor42.eth.limo/tags/biology/</link><description>Recent content in Biology on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 27 Aug 2026 19:06:07 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/biology/index.xml" rel="self" type="application/rss+xml"/><item><title>My AI Biologist</title><link>https://victor42.eth.limo/post-en/3649/</link><pubDate>Wed, 20 Mar 2024 15:06:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3649/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg" alt="Featured image of post My AI Biologist" /&gt;&lt;p&gt;I built an AI biologist, but it got stumped by the seafood market.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg"
+loading="lazy"
+alt="Dark brown flat flounder on a round wooden plate with lettuce leaves, ice cubes, star anise, and dried red chili peppers, showing the appearance of Shandong specialty Guyanyu fish"
+&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a funny thing that happened. My family sent me some seafood, labeled &amp;ldquo;Guyanyu,&amp;rdquo; a Shandong specialty. It looked flat, obviously a flatfish, maybe a flounder. I asked several AIs about &amp;ldquo;Guyanyu,&amp;rdquo; and they all invented some nonexistent species. I figured I&amp;rsquo;d be identifying species often, so I should create an AI biologist persona prompt for more professional answers. And so I did:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your task is to act as a knowledgeable biologist. I will ask you about some creatures. You will give me a brief introduction of this species, including bio taxonomy, species range, evolution history, noticeable feature and anything else you find important. Pay extra attention to the creature names I tell you since they may be far from accurate or academical, sometimes wrong due to misuses by non-biologists. Make sure to check some possible alternative names with similar pronunciation or spelling. If you have access to the Internet, you must search the web for answer. When you find no reliable answer, search for those alternative names instead. Answer in &amp;ldquo;Simplified Chinese&amp;rdquo; regardless of the language I use.
+The first creature I’m interested in is &amp;ldquo;orca&amp;rdquo;.
+This way, the AI can help me build a basic but comprehensive understanding of a creature, covering its taxonomy, distribution, evolutionary history, and notable features. My prompt asked about orcas, and all the AIs provided satisfactory answers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The AIs initially hallucinated &amp;ldquo;Guyanyu&amp;rdquo; because, well, the name&amp;rsquo;s misleading. Colloquial names for species can be wildly inconsistent. My local grocery, for instance, caters to less savvy shoppers by using simplified characters on their signs: &amp;ldquo;里几肉&amp;rdquo; (lijirou) instead of &amp;ldquo;里脊肉&amp;rdquo; (lirou, pork tenderloin), and &amp;ldquo;卢鱼&amp;rdquo; (luyu) instead of &amp;ldquo;鲈鱼&amp;rdquo; (luyu, sea bass). This isn&amp;rsquo;t just a consumer-facing quirk; it likely happens throughout the supply chain. &amp;ldquo;Guyanyu&amp;rdquo; probably fell victim to the same issue. A quick Google search showed that in Shandong, it&amp;rsquo;s called &amp;ldquo;Guyanyu&amp;rdquo; (鼓眼鱼, bulging-eye fish). This fits the flatfish description, and sure enough, further digging confirmed it was a type of flatfish.&lt;/p&gt;
+&lt;p&gt;I wanted my AI biologist to handle these curveballs. So, the prompt&amp;rsquo;s second half stresses paying close attention to potentially inaccurate or misused names, checking for homophones and similar spellings, and using web searches to validate those possibilities.&lt;/p&gt;
+&lt;p&gt;I tested it again with &amp;ldquo;Guyanyu,&amp;rdquo; and one AI nailed it. Prompt engineering for the win!&lt;/p&gt;
+&lt;p&gt;Google Gemini was the only one to get it right, actually connecting similar names and searching for alternatives.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Guyanyu&amp;rdquo; (Gǔ yǎn yú)
+There&amp;rsquo;s no corresponding species for the name &amp;ldquo;Guyanyu&amp;rdquo; in biological taxonomy. However, based on its pronunciation and meaning, it could refer to two types of fish:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Guyanyu&amp;rdquo; (鼓眼鱼, Gǔ yǎn yú): This fish is closer to the literal meaning of &amp;ldquo;Guyanyu.&amp;rdquo; They are a type of benthic fish in the order Pleuronectiformes (flatfish), with a flat body and asymmetrical features, with one eye on the upper side. &amp;ldquo;Guyanyu&amp;rdquo; are widely distributed in the coastal waters of all continents and are also common along the coast of China. They are especially popular in Qingdao. They are commonly fried or pan-fried, resulting in a crispy exterior and tender interior.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Gaoyandie&amp;rdquo; (高眼鲽, Gāo yǎn diè): This is another possibility, as &amp;ldquo;Gu&amp;rdquo; and &amp;ldquo;Gao&amp;rdquo; have similar pronunciations. &amp;ldquo;Gaoyandie&amp;rdquo; is also a member of the Pleuronectiformes order. Their eyes are located on the upper side of the body, but they don&amp;rsquo;t protrude like those of &amp;ldquo;Guyanyu.&amp;rdquo; &amp;ldquo;Gaoyandie&amp;rdquo; are mainly distributed in the deep sea areas of the North Pacific. They are larger than &amp;ldquo;Guyanyu&amp;rdquo; and have higher economic value.
+Both species are commonly consumed sea fish, and both have one eye on the upper side of their body. The specific type of fish depends on the context or local customs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Perplexity (using Claude 3 Sonnet) and Poe&amp;rsquo;s Web search (using GPT-3.5), both designed for web searching, missed the mark. They&amp;rsquo;re optimized for search, so they ignored my instruction to look for similar names. When &amp;ldquo;Guyanyu&amp;rdquo; didn&amp;rsquo;t turn up anything, they just started inventing facts - no better than before.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Perplexity&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id="introduction-to-guyanyu"&gt;Introduction to Guyanyu
+&lt;/h2&gt;&lt;p&gt;Guyanyu (Ophthalmolepis) is an extinct genus of fish belonging to the ancient order of lungfish. They lived during the Devonian and Carboniferous periods, from 560 to 360 million years ago.&lt;/p&gt;
+&lt;h2 id="taxonomy"&gt;Taxonomy
+&lt;/h2&gt;&lt;p&gt;Guyanyu belongs to:
+Kingdom: Chordata
+Phylum: Fish
+Class: Sarcopterygii
+Order: Dipnoi
+Family: Ophthalmolepididae&lt;/p&gt;
+&lt;h2 id="distribution"&gt;Distribution
+&lt;/h2&gt;&lt;p&gt;Guyanyu fossils are widely distributed in Europe, North America, Greenland, China, and other regions. Their habitats included marine and freshwater environments.&lt;/p&gt;
+&lt;h2 id="evolutionary-history"&gt;Evolutionary History
+&lt;/h2&gt;&lt;p&gt;Guyanyu is one of the earliest lungfish groups and is considered an ancestor of modern amphibians and reptiles. They had a fish-like body but had developed primitive lungs, allowing them to survive briefly in anoxic environments. This feature enabled them to adapt to environments such as tidal zones, paving the way for later terrestrial life.&lt;/p&gt;
+&lt;h2 id="notable-features"&gt;Notable Features
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Large head with high and prominent eyes, hence the name &amp;ldquo;Guyanyu&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Low mouth position, suitable for feeding on benthic organisms&lt;/li&gt;
+&lt;li&gt;Flat body with elongated dorsal and anal fins&lt;/li&gt;
+&lt;li&gt;Possessing both internal lungs and gills, with a respiratory method between fish and amphibians&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Guyanyu fossils are of great significance for studying the transition of vertebrates from aquatic to terrestrial life.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Web search&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Guyanyu (Konosirus punctatus), also known as yellowfin gizzard shad, flat gizzard shad, air bubble fish, oil fish, and gizzard shad, is a species of fish in the family Clupeidae. It feeds on plankton and is mainly distributed in the South China Sea, East China Sea, Yellow Sea, and Bohai Sea &lt;a class="link" href="https://baike.sogou.com/v101570476.htm" target="_blank" rel="noopener"
+&gt;[2]&lt;/a&gt;. Here is some important information about Guyanyu:&lt;/p&gt;
+&lt;p&gt;Taxonomy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kingdom: Animalia&lt;/li&gt;
+&lt;li&gt;Phylum: Chordata&lt;/li&gt;
+&lt;li&gt;Subphylum: Vertebrata&lt;/li&gt;
+&lt;li&gt;Class: Actinopterygii&lt;/li&gt;
+&lt;li&gt;Order: Clupeiformes&lt;/li&gt;
+&lt;li&gt;Family: Clupeidae&lt;/li&gt;
+&lt;li&gt;Genus: Konosirus&lt;/li&gt;
+&lt;li&gt;Species: Konosirus punctatus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Characteristics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Guyanyu has a laterally compressed, elongated oval body, generally 13-16 cm in length, and does not grow large &lt;a class="link" href="https://baike.sogou.com/v101570476.htm" target="_blank" rel="noopener"
+&gt;[2]&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The dorsal side is blue-green, and the ventral side is silver-white.&lt;/li&gt;
+&lt;li&gt;It has one dorsal fin, and the last fin ray is elongated into a filament, like a long whisker.&lt;/li&gt;
+&lt;li&gt;The dorsal and caudal fins are yellow-green, the pectoral fins are light yellow-green, and the pelvic and anal fins are lighter in color.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Evolutionary History:
+There is currently no reliable information on the evolutionary history of Guyanyu.&lt;/p&gt;
+&lt;p&gt;Other Names:
+Guyanyu also has other common names, such as yellowfin gizzard shad, flat gizzard shad, air bubble fish, oil fish, and gizzard shad &lt;a class="link" href="https://baike.sogou.com/v101570476.htm" target="_blank" rel="noopener"
+&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Learn more:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.sohu.com/a/491048259_100022807" target="_blank" rel="noopener"
+&gt;The Unassuming Guyanyu Costs 30 Yuan per Jin, a Qingdao &amp;ldquo;Exclusive&amp;rdquo; Delicacy, Fragrant and Delicious When Fried&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://baike.sogou.com/v101570476.htm" target="_blank" rel="noopener"
+&gt;Guyanyu - Sogou Baike&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.163.com/dy/article/GKBO40CG0522UM59.html" target="_blank" rel="noopener"
+&gt;The Unassuming Guyanyu Costs 30 Yuan per Jin, a Qingdao &amp;ldquo;Exclusive&amp;rdquo; Delicacy, Fragrant and Delicious When Fried | Mackerel | Pomfret | Knife Fish_NetEase Subscription&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Finally, Claude 3 Sonnet, without web access, gave it a shot. It considered similar names, but not quite as I&amp;rsquo;d intended. And without the web, it couldn&amp;rsquo;t possibly answer correctly for such niche knowledge.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Okay, I will do my best to answer your question about the creature &amp;ldquo;Guyanyu&amp;rdquo; in Chinese.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Guyanyu&amp;rdquo; may refer to two different creatures:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Brownie Glass Eyed
+This is a small tropical fish belonging to the family of glass-eyed fish. They are widely distributed and can be found along the coasts of the Western Pacific and Indian Oceans. This fish is famous for its large, laterally compressed body and large eyes, and is considered one of the most primitive species in the family of glass-eyed fish. They mostly live in shallow sea areas and feed on algae and small invertebrates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lungfish
+This is an ancient lungfish animal that is considered to be a transitional link from fish to amphibians and reptiles. There are 6 existing species of lungfish, mostly distributed in Africa, South America, and Australia. They have some special structures and habits, such as being able to periodically curl up in mud pits to survive the dry season, and using lungs and skin to breathe. Lungfish are considered to have retained relatively primitive characteristics during evolution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you are referring to other creatures, please provide more detailed information, and I will try my best to search and answer your questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For information-consulting AIs, reasoning and search are key. But are they enough? How they work &lt;em&gt;together&lt;/em&gt; matters.&lt;/p&gt;
+&lt;p&gt;This example suggests that letting the AI decide &lt;em&gt;when&lt;/em&gt; and &lt;em&gt;how&lt;/em&gt; to search, based on its reasoning, is more adaptable. However, current search-focused AIs treat reasoning and searching as separate. They search once, then reason based on the results - a one-two punch that can&amp;rsquo;t handle these tricky situations. Even Perplexity, a dedicated search AI, only adds a pre-search intent analysis. Either its analysis lacks the necessary logic, or it&amp;rsquo;s limited to a single search per turn, leaving it stuck.&lt;/p&gt;
+&lt;p&gt;My AI biologist is still a work in progress, especially with edge cases, but it&amp;rsquo;s getting there. The takeaway isn&amp;rsquo;t the prompt itself, or which AI is best, but the sheer complexity of natural language. Truly understanding all its nuances and variations? That&amp;rsquo;s a long road ahead for AI.&lt;/p&gt;</description></item><item><title>How to Eat Crucian Carp Like a Pro</title><link>https://victor42.eth.limo/post-en/3618/</link><pubDate>Fri, 12 Aug 2022 17:14:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3618/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2022-08/1030021830_0_0_1920_1080_1920x0_80_0_0_2c6e125e2a3534f8cc770412475ee843.jpg" alt="Featured image of post How to Eat Crucian Carp Like a Pro" /&gt;&lt;p&gt;A step-by-step guide to eating crucian carp without getting any bones stuck.&lt;/p&gt;
+&lt;p&gt;This is a guide on eating skills, filed under Food for now.&lt;/p&gt;
+&lt;p&gt;My daughter&amp;rsquo;s not even teething, but I&amp;rsquo;m already planning to teach her expert crucian carp eating. It&amp;rsquo;s a family tradition. So, I&amp;rsquo;ve detailed how to eat crucian carp bonelessly, step-by-step.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/v2-1577d379f772963560850076d2e1638b_r.jpg"
+loading="lazy"
+alt="Close-up of cooked braised crucian carp on white plate, fish intact with reddish-brown glaze, garnished with chopped green onions"
+&gt;&lt;/p&gt;
+&lt;p&gt;People bad at eating freshwater fish often think the tiny bones in crucian carp are random. They&amp;rsquo;re not! These are intermuscular bones, providing extra swimming power. They&amp;rsquo;re neatly arranged. The solid black lines in the image show this. The skeleton isn&amp;rsquo;t a crucian carp&amp;rsquo;s, but it&amp;rsquo;s close.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/bone.jpg"
+loading="lazy"
+alt="Scientific diagram of fish lateral muscle groups with solid black lines marking intermuscular bone positions, showing spine and rib structure"
+&gt;&lt;/p&gt;
+&lt;p&gt;The spine is the core. The curved, long belly bones are like ribs, protecting organs. They&amp;rsquo;re easily removed. The shorter, straighter spine bones are hard to break, staying out of your mouth. All vertebrates share this: spine for support, ribs for protection. A snake skeleton shows this clearly.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/v2-e6ea7be67c1abe4ac14d89bcbfe95922_1440w.jpg"
+loading="lazy"
+alt="Museum skeleton specimen of a long snake showing vertebra running through trunk with numerous ribs protecting organs"
+&gt;&lt;/p&gt;
+&lt;p&gt;The troublesome bones are the intermuscular ones attached to the flesh. They&amp;rsquo;re forked, but usually have a main stem. The stem is thicker; the forks are thinner. You won&amp;rsquo;t find snowflake-shaped bones. Because of the main stem, there&amp;rsquo;s a universal method to separate them, applicable to many fish.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/b233-htwhfzs0673179.jpg"
+loading="lazy"
+alt="Close-up of five flattened scallion pancake dough rounds on metal board, green scallion pieces visible in dough"
+&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the technique: Take a bite containing bones. Don&amp;rsquo;t chomp down. Use your tongue and palate to flatten the fish, like a thin pancake. Don&amp;rsquo;t over-flatten it, as shown. The bone tips will slightly protrude, easily located by your tongue.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/pandan-swiss-roll-mykitchen101-feature-1280x720.jpg"
+loading="lazy"
+alt="Close-up of sliced green pandan Swiss roll cake on plate, green sponge cake wrapped around white cream filling in spiral pattern"
+&gt;&lt;/p&gt;
+&lt;p&gt;Roll the flattened fish with your tongue, like a Swiss roll, maintaining thickness. Bones not pointing directly at your tongue won&amp;rsquo;t prick. The main stem ensures even perpendicular bones align during rolling. You now have a fish roll with bones pointing uniformly.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/yuan_17922def90dcab62299f1ed2e4c8bd4e.jpg"
+loading="lazy"
+alt="Close-up of multiple grilled lamb skewers on metal sticks, seasoned with chili powder and cumin, served with green lettuce"
+&gt;&lt;/p&gt;
+&lt;p&gt;Push the roll forward with your tongue, aligning your front teeth with the roll&amp;rsquo;s center. Bite. Your gums are safe, and your teeth hold the bones. Like eating a skewer, scrape the flesh with your tongue. Scrape one side, flip, and repeat.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/1030021830_0_0_1920_1080_1920x0_80_0_0_2c6e125e2a3534f8cc770412475ee843.jpg"
+loading="lazy"
+alt="Close-up comparison of two fish heads, top silver-gray crucian carp with clear scales, bottom orange-yellow fish head, against green water background"
+&gt;&lt;/p&gt;
+&lt;p&gt;Success! Flesh and bones are separated. Spit out the bones.&lt;/p&gt;
+&lt;p&gt;This works mathematically: 3D line segments become 2D, then 1D. Complexity simplifies; chaos orders; it&amp;rsquo;s manageable.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/8a2abc28ab7f4e8db49f033b4dfed41e.jpg"
+loading="lazy"
+alt="Close-up of white flounder fillets on plate, boneless white flesh garnished with chopped scallions, lemon wedge on side"
+&gt;&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s my plan for teaching my daughter. Detailed, right? It might not work perfectly. &amp;ldquo;Dad, can we switch to flounder?&amp;rdquo; is a possibility.&lt;/p&gt;
+&lt;p&gt;Side note: Why are sea fish boneless? It&amp;rsquo;s about fish evolution. Fish began in the sea, lacking intermuscular bones. Later, some evolved these for power, gaining an edge. They became standard. Some entered freshwater, evolving further. Some developed elastic proteins instead of bones, becoming faster. In the ocean&amp;rsquo;s predator-prey race, these fast fish shed intermuscular bones, maximizing protein use. Thus, most sea fish are firmer. Freshwater fish, in smaller waters, evolved differently, keeping many intermuscular bones.&lt;/p&gt;
+&lt;p&gt;Chinese scientists found the gene controlling intermuscular bone growth in crucian carp. Mutating it creates boneless fish. It&amp;rsquo;s not commercial yet, so hopefully, this guide remains useful.&lt;/p&gt;</description></item><item><title>A Visual Experiment on Distinguishing Colors</title><link>https://victor42.eth.limo/post-en/3602/</link><pubDate>Fri, 13 Mar 2020 14:52:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3602/</guid><description>&lt;p&gt;Experience firsthand how your eyes switch between two modes.&lt;/p&gt;
+&lt;p&gt;Try this simple visual experiment at home.&lt;/p&gt;
+&lt;p&gt;Create a dark room by turning off the lights at night. You&amp;rsquo;ll likely have appliances with small indicator lights of various colors. For example, last night in a hotel, the smoke detector on the ceiling had a flashing red light.&lt;/p&gt;
+&lt;p&gt;After your eyes adjust to the darkness, look directly at the small light. Then, gradually shift your gaze away and observe the light with your peripheral vision until it appears white.&lt;/p&gt;
+&lt;p&gt;This happens because the retina has two types of photoreceptor cells: cone cells and rod cells. Cone cells detect color and are concentrated in the fovea centralis, affecting your central vision. Rod cells detect light intensity but not color, and are more prevalent in the periphery, influencing your peripheral vision. In the dark, as the light moves out of your central field of view, you lose the ability to distinguish its color.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a second part to the experiment. Look directly at the small light and squint. The light will eventually appear white. During this process, you&amp;rsquo;ll notice an intermediate stage where the color is ambiguous.&lt;/p&gt;
+&lt;p&gt;This is because cone cell activity is light-dependent. Squinting reduces the luminous flux reaching the retina. In a dark environment, cone cell activity decreases. When the light becomes sufficiently dim, rod cells take over completely. At this point, your vision is similar to someone with total color blindness, and you can no longer perceive color.&lt;/p&gt;</description></item></channel></rss>

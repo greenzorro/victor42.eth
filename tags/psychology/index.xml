@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Psychology on Victor42</title><link>https://victor42.eth.limo/tags/psychology/</link><description>Recent content in Psychology on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 27 Aug 2026 19:06:07 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/psychology/index.xml" rel="self" type="application/rss+xml"/><item><title>The Psychology Behind an Icon</title><link>https://victor42.eth.limo/post-en/3303/</link><pubDate>Tue, 29 Apr 2014 14:17:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3303/</guid><description>&lt;p&gt;I was designing a pull-up info panel - the kind you slide up for more details. How do you make it clear to the user? How do you show it&amp;rsquo;s draggable?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-29/1.png"
+loading="lazy"
+alt="A pull-up drawer indicator icon composed of three horizontal bars of decreasing length"
+&gt;&lt;/p&gt;
+&lt;p&gt;My first thought was this icon. Makes sense, right?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-29/2.png"
+loading="lazy"
+alt="Bottom pull-up drawer indicator icon marked with a red circle and arrow in a mobile map app interface"
+&gt;&lt;/p&gt;
+&lt;p&gt;It works in the UI. But why this shape? It&amp;rsquo;s abstract. How does it convey &amp;ldquo;drag&amp;rdquo;? I&amp;rsquo;d never considered it before.&lt;/p&gt;
+&lt;p&gt;Then it hit me: it&amp;rsquo;s based on real-world objects. Think ridges or stripes - they increase friction, making things easier to grip and slide.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-29/3.jpg"
+loading="lazy"
+alt="Close-up of a rubber anti-slip pad with ridges on the side of a computer mouse"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-29/4.jpg"
+loading="lazy"
+alt="A blue plastic bottle cap with vertical anti-slip ridges"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2014-04/04-29/5.jpg"
+loading="lazy"
+alt="An indentation with anti-slip ridges and an arrow on a remote control battery cover"
+&gt;&lt;/p&gt;
+&lt;p&gt;Mice, bottle caps, remote control backs&amp;hellip; they all use it.&lt;/p&gt;
+&lt;p&gt;It clicked! Sometimes, you need the flat &lt;em&gt;form&lt;/em&gt;, but the skeuomorphic &lt;em&gt;spirit&lt;/em&gt;.&lt;/p&gt;</description></item></channel></rss>
