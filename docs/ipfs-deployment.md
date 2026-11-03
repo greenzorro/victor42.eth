@@ -78,6 +78,7 @@ ipfs.io 与 dweb.link 已于 2026 年 9 月日落，不再接受程序化流量�
 ```text
 @ipld/car@5.4.7
 ipfs-unixfs-importer@17.1.1
+multiformats@14.0.5
 ```
 
 打包参数取 UnixFS v1 的常规组合，即 `ipfs-unixfs-importer` 的 `unixfs-v1-2025` profile：
