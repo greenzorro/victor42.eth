@@ -19,7 +19,7 @@ def main():
     print(f"FILEBASE_IPNS_CID={args.cid}")
     if network_key:
         print(f"FILEBASE_IPNS_KEY={network_key}")
-        print(f"FILEBASE_IPNS_URL=https://ipfs.io/ipns/{network_key}/")
+        print(f"FILEBASE_IPNS_URL=https://ipfs.filebase.io/ipns/{network_key}/")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,18 @@
+{
+  "name": "victor42-eth-tooling",
+  "version": "1.0.0",
+  "private": true,
+  "description": "构建工具链：把 Hugo 输出目录打包成 IPFS CAR（供 GitHub Actions 使用）",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build:car": "node scripts/build_car.mjs"
+  },
+  "dependencies": {
+    "@ipld/car": "5.4.7",
+    "ipfs-unixfs-importer": "17.1.1",
+    "multiformats": "14.0.5"
+  }
+}

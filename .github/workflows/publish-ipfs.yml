@@ -54,9 +54,13 @@ jobs:
           echo "files=$(find public -type f | wc -l)"
           du -sh public
 
+      # CAR 打包的依赖锁定在 package-lock.json
+      - name: Install CAR Build Dependencies
+        run: npm ci --omit=dev --no-audit --no-fund
+
       - name: Pack site as CAR
         id: car
-        run: scripts/build_ipfs_car.sh public dist/site.car dist/root.cid
+        run: node scripts/build_car.mjs public dist/site.car dist/root.cid
 
       - name: Pin CAR to Filebase and Run Retention
         env:

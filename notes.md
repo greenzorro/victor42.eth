@@ -61,11 +61,14 @@ victor42.eth/
 │   ├── index.imagesitemap.xml
 │   └── index.sitemap.xml
 ├── scripts/                    # 项目脚本
+├── tests/                      # pytest 用例
 ├── static/                     # 静态资源
 │   ├── css/
 │   ├── favicon.ico
 │   └── robots.txt
 ├── config.toml                 # 站点配置
+├── package.json                # CAR 打包的 Node 依赖
+├── package-lock.json           # 依赖锁定，CI 以 npm ci 安装
 ├── .gitignore                  # Git忽略规则
 └── go.mod                      # Hugo Modules
 ```
@@ -83,6 +86,8 @@ victor42.eth/
 - `docs/tags-stats.generated.md`: tags 自动统计报告
 - `scripts/`: 项目脚本
 - `scripts/generate_tags_report.py`: tags 统计报告生成脚本
+- `package.json` / `package-lock.json`: CAR 打包的 Node 依赖与锁文件，`node_modules/` 不入库
+- `tests/`: pytest 用例，覆盖 `scripts/indexnow_check.py` 与 `scripts/build_car.mjs` 的行为合同
 
 **模板**:
 - `layouts/partials/head/head.html`: 页面 head、SEO和hreflang
