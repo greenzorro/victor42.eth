@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phone on Victor42</title><link>https://victor42.eth.limo/tags/phone/</link><description>Recent content in Phone on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 27 Aug 2026 19:06:07 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/phone/index.xml" rel="self" type="application/rss+xml"/><item><title>Will Phones Ever Have 200mm Telephoto Lenses?</title><link>https://victor42.eth.limo/post-en/3647/</link><pubDate>Wed, 10 Jan 2024 17:57:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3647/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2024-01/c83b35292f0e3d9f0f44386563e93fe3.jpg" alt="Featured image of post Will Phones Ever Have 200mm Telephoto Lenses?" /&gt;&lt;p&gt;I just want to take pictures of birds with my phone.&lt;/p&gt;
+&lt;p&gt;I previously explored camera lens principles and &amp;ldquo;optical zoom&amp;rdquo; on phones: &lt;a class="link" href="https://victor42.eth.limo/post-en/3645/" target="_blank" rel="noopener"
+&gt;https://victor42.eth.limo/post-en/3645/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I noted that flagship phones typically have three cameras: a moderate focal length (20-35mm) for everyday shots, a shorter one (under 20mm) for ultra-wide-angle and macro shots, and a telephoto lens (over 50mm) for distant subjects.&lt;/p&gt;
+&lt;p&gt;So, will phones ever evolve to include 200mm or even longer lenses? Imagine photographing birds with just your phone! I&amp;rsquo;ve researched this further and have some new insights.&lt;/p&gt;
+&lt;h2 id="longer-focal-length-means-longer-lens"&gt;Longer Focal Length Means Longer Lens
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/c83b35292f0e3d9f0f44386563e93fe3.jpg"
+loading="lazy"
+alt="Exploded view of phone rear camera showing multi-layer lens assembly with convex and concave elements, blue-purple light rays passing through the lens group"
+&gt;&lt;/p&gt;
+&lt;p&gt;First, I confirmed my hunch: longer focal length means a longer lens. The core optical component is the lens assembly, made of multiple convex and concave elements.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/72a892ca40a3d1d6c9ef5c4299335f26.jpg"
+loading="lazy"
+alt="Fisheye lens optical cross-section diagram showing hemispherical multi-layer lenses on left bending 180-degree wide-angle light into parallel beams through right-side lens group to sensor"
+&gt;&lt;/p&gt;
+&lt;p&gt;A fisheye lens, for instance, uses many elements to gather light from a 180° field of view, bending it gradually into nearly parallel beams. These are then adjusted to project a clear image onto the sensor.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/7fa75384f7985d132dbb9b0d88c68074.jpg"
+loading="lazy"
+alt="Convex lens refraction diagram showing three parallel light rays passing through cyan lens converging at focal point to form inverted real image on sensor labeled in Chinese"
+&gt;&lt;/p&gt;
+&lt;p&gt;Many factors influence lens length, and the internal optics are complex - far beyond my grasp. But focal length is key. To simplify, let&amp;rsquo;s recall basic optics: treat the assembly as a single lens.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/aa08a07291c4f0939cc6808754f450c7.gif"
+loading="lazy"
+alt="Animated GIF showing three convex lens imaging cases: top shows magnified virtual image when object within focal length, middle shows magnified real image, bottom shows reduced real image when object beyond twice focal length"
+&gt;&lt;/p&gt;
+&lt;p&gt;Focal length is the distance from the lens&amp;rsquo;s center to the focal point. A lens with a given curvature &lt;em&gt;always&lt;/em&gt; has a fixed focal point. The subject is usually much farther than twice the focal length (the third case above), creating a smaller, real image on the sensor.&lt;/p&gt;
+&lt;p&gt;The imaging formula is 1/f = 1/u + 1/v (f = focal length, u = object distance, v = image distance). With fixed f, the farther the object (larger u), the closer the image forms to the focal point (v approaches f). Since u is much greater than v, the sensor sits slightly &lt;em&gt;beyond&lt;/em&gt; the focal point for a sharp image. Use a longer focal length, and the sensor must be farther away.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/095e218d0dbb2fd989bf0dae4ca3794a.jpg"
+loading="lazy"
+alt="Telephoto lens internal cross-section showing multiple blue and green lens elements arranged left to right, demonstrating complex optical structure"
+&gt;&lt;/p&gt;
+&lt;p&gt;Thus, even a simple telephoto lens, with one element, &lt;em&gt;needs&lt;/em&gt; that empty space to achieve its focal length. A complex, real-world lens also requires sufficient internal space.&lt;/p&gt;
+&lt;p&gt;This highlights the bottleneck: it&amp;rsquo;s physics. No matter how advanced technology gets, a 200mm lens can&amp;rsquo;t be as short as a 50mm one.&lt;/p&gt;
+&lt;h2 id="the-mountain-of-physical-limits"&gt;The Mountain of Physical Limits
+&lt;/h2&gt;&lt;p&gt;Smartphones started sporting multiple rear cameras a few years back: a high-res main camera plus lower-res auxiliaries. These auxiliaries generally had focal lengths under 50mm. It&amp;rsquo;s not that manufacturers haven&amp;rsquo;t considered a &amp;ldquo;birding phone&amp;rdquo; - it&amp;rsquo;s physics.&lt;/p&gt;
+&lt;p&gt;Consumers &lt;em&gt;do&lt;/em&gt; want telephoto lenses. Those who want them enough accept a price premium and a camera bump.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/18e3567737b23d1f8f58359de10d9fcb.jpg"
+loading="lazy"
+alt="Close-up of oval protruding camera bump on black phone back, metallic rim containing two lenses and flash, showing design compromise under physical constraints"
+&gt;&lt;/p&gt;
+&lt;p&gt;This is physics pushing back. Engineering yields. If a 50mm lens &lt;em&gt;needs&lt;/em&gt; a bump, a 200mm one would likely be thicker than the phone. Phone birding seems impossible.&lt;/p&gt;
+&lt;p&gt;Smartphone history shows two trends in component performance:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exponential growth: megapixels, storage.&lt;/li&gt;
+&lt;li&gt;Approximate logarithmic growth: focal length, screen size.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first hasn&amp;rsquo;t hit limits; the second approaches them asymptotically. Portability limits focal length and screen size. They &lt;em&gt;could&lt;/em&gt; grow, but the phone would become something else, exiting the mainstream.&lt;/p&gt;
+&lt;p&gt;Extending this, most physical limits (besides, say, light speed) are actually human body limits. Our bodies haven&amp;rsquo;t changed much in millennia, and civilization is built around them. Stair height, table height, traffic light colors, shower gel fragrance - all relate to the human body. Different humans would mean a different civilization.&lt;/p&gt;
+&lt;h2 id="over-the-hill"&gt;Over the Hill
+&lt;/h2&gt;&lt;p&gt;So, is phone birding truly impossible?&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s reframe: not &amp;ldquo;how to make a 200mm lens as short as a 50mm one,&amp;rdquo; but &amp;ldquo;how to &lt;em&gt;fit&lt;/em&gt; a 200mm lens &lt;em&gt;in&lt;/em&gt;?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Shortening it is impossible, but fitting it &lt;em&gt;in&lt;/em&gt;? That&amp;rsquo;s where ingenuity comes in. Limits can&amp;rsquo;t be broken, but they can be bypassed.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/71080c19f9ec357a148e22d72f39c4ae.jpg"
+loading="lazy"
+alt="Periscope lens cross-section inside phone showing yellow light entering vertically from top, refracted 90 degrees by prism, traveling horizontally through lens array to sensor"
+&gt;&lt;/p&gt;
+&lt;p&gt;I recall seeing &amp;ldquo;periscope lens&amp;rdquo; on my phone&amp;rsquo;s spec sheet. I get it now. It bends light 90 degrees, like a periscope. The lens is too long for the phone&amp;rsquo;s thickness, so clever engineers used the phone&amp;rsquo;s width!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/7888c071fa3134e49ec27ed334b2bde8.jpg"
+loading="lazy"
+alt="Close-up of circular Hasselblad camera module on phone back, silver metal ring containing two round lenses and one square periscope lens, brown leather back cover"
+&gt;&lt;/p&gt;
+&lt;p&gt;One of my phone&amp;rsquo;s cameras is square - a periscope lens hallmark. The square aperture and reflector boost light intake, compensating for the tucked-away lens.&lt;/p&gt;
+&lt;h2 id="surging-forward"&gt;Surging Forward
+&lt;/h2&gt;&lt;p&gt;This reframes innovation for me. I knew the principle, but this made it click.&lt;/p&gt;
+&lt;p&gt;Clever innovations that solve big problems deserve praise. But these specific ideas aren&amp;rsquo;t as valuable as we think. Could &lt;em&gt;only one&lt;/em&gt; person think of laying the lens down? The real challenge is committing resources to overcome the resulting hurdles.&lt;/p&gt;
+&lt;p&gt;Given time, these workarounds - bypassing limits with engineering - are inevitable. If one person misses it, another will likely propose something similar. Consumer demand, even latent, drives producers.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-01/362ba8da8f43af293e52d5d7b14dc015.jpg"
+loading="lazy"
+alt="3D NAND flash architecture diagram showing vertically stacked memory cell layers with labels for Bit Line/SGD/WL/SGS/Memory Holes/Source Plate components"
+&gt;&lt;/p&gt;
+&lt;p&gt;Semiconductor memory is cutting-edge, right? When processes approached quantum limits, some thought performance and capacity gains were over. But 3D stacking used vertical space, bypassing the limit and boosting capacity. The industry dances on the edge of limits, constantly breaking through.&lt;/p&gt;
+&lt;p&gt;What seems truly valuable is humanity&amp;rsquo;s collective innovative capacity - the flexible ability to explore, push boundaries, and maximize existing technology. A social structure that encourages, not suppresses, this is key to progress.&lt;/p&gt;</description></item><item><title>So That's How Optical Zoom Works</title><link>https://victor42.eth.limo/post-en/3645/</link><pubDate>Tue, 31 Oct 2023 10:04:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3645/</guid><description>&lt;p&gt;About focal length, aperture, and phone cameras.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I learned about cameras and phone lenses:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On professional cameras, the lens determines focal length and aperture, while the body controls shutter speed and ISO.&lt;/li&gt;
+&lt;li&gt;Aperture is written as f/x. &amp;lsquo;f&amp;rsquo; is the lens&amp;rsquo;s equivalent focal length, and &amp;lsquo;x&amp;rsquo; is a multiplier: the aperture diameter is the focal length divided by &amp;lsquo;x&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;x&amp;rsquo; is the denominator, so a smaller &amp;lsquo;x&amp;rsquo; in f/x means a larger aperture.&lt;/li&gt;
+&lt;li&gt;This notation is used because, for lenses with different focal lengths, the same &amp;lsquo;x&amp;rsquo; value yields similar exposure and bokeh. (This can likely be proven with trigonometry.)&lt;/li&gt;
+&lt;li&gt;Focal length determines the sharpest point (the focus). Aperture sets the range around that point which remains clear. A larger aperture creates a narrower clear range and more background/foreground blur, and vice versa.&lt;/li&gt;
+&lt;li&gt;Space limits phone cameras. They rarely use variable focal length or aperture. Instead, they switch between multiple lenses with fixed focal lengths and apertures.&lt;/li&gt;
+&lt;li&gt;Most flagship phones have three cameras: a moderate focal length (20-35mm) for everyday shots; a shorter one (under 20mm), ultra-wide-angle, for large scenes and macro; and a telephoto (over 50mm) for distant subjects.&lt;/li&gt;
+&lt;li&gt;The number of phone cameras won&amp;rsquo;t keep growing; there are only so many use cases.&lt;/li&gt;
+&lt;li&gt;Since phone lenses mostly have fixed focal lengths and apertures, you&amp;rsquo;re usually adjusting shutter speed and ISO. Many phones offer focal length adjustment, but it&amp;rsquo;s algorithmic; the focal length doesn&amp;rsquo;t physically change.&lt;/li&gt;
+&lt;li&gt;Phone cameras have small apertures, creating a large depth of field. Everything, near to far, is in focus. Phones can sense object distance. Setting a &amp;ldquo;virtual focal length&amp;rdquo; tells the software to blur objects outside that range, simulating a large aperture.&lt;/li&gt;
+&lt;li&gt;This simulated focal length change isn&amp;rsquo;t as good as a real physical change. The algorithm can make mistakes, especially in portrait mode. It might, for instance, blur an object in someone&amp;rsquo;s hand along with the background.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This explains my OPPO Find X6 camera&amp;rsquo;s quirks: 1x is sharp, using the 24mm main lens. 0.6x zooms out, with distorted corners, because it switches to the 15mm ultra-wide-angle lens. 2x zooms in, but image quality drops; it&amp;rsquo;s cropping the 1x image. 3x is sharp, like 1x, because it switches to the 65mm telephoto lens (same pixel count as the main lens). 6x gets blurry; it&amp;rsquo;s cropping the 3x image.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Optical zoom&amp;rdquo; is mostly a marketing term. Not mentioning it doesn&amp;rsquo;t mean it&amp;rsquo;s absent, and mentioning it doesn&amp;rsquo;t make it significant. If the telephoto lens&amp;rsquo;s focal length is several times the main lens&amp;rsquo;s, it&amp;rsquo;s called &amp;ldquo;optical zoom.&amp;rdquo;&lt;/p&gt;</description></item></channel></rss>

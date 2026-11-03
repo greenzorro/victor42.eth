@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>微交互 on Victor42</title><link>https://victor42.eth.limo/tags/%E5%BE%AE%E4%BA%A4%E4%BA%92/</link><description>Recent content in 微交互 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E5%BE%AE%E4%BA%A4%E4%BA%92/index.xml" rel="self" type="application/rss+xml"/><item><title>提升用户体验的7大微交互</title><link>https://victor42.eth.limo/post/3450/</link><pubDate>Sun, 19 Jul 2015 11:20:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3450/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第95期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads/2015/06/featured_mi.jpg"
+loading="lazy"
+alt="提升用户体验的七大微交互指南设计配图"
+&gt;&lt;/p&gt;
+&lt;p&gt;众所周知，我们总是依据封面来判断书的好坏，聪明的设计师会创造实用有吸引力的界面。潜在用户可能会被吸引，但如何一直黏住他们呢？&lt;/p&gt;
+&lt;p&gt;要试着回答这个问题，所有一切都指向&lt;em&gt;人本设计&lt;/em&gt;，其中用户是最主要的考量。以人为本：你的应用应该使用日常用语，包括情绪、口语，外观还要有一丝“诱惑力”。界面应当成为你的好朋友，时刻准备给出建议提升你的体验，让你会心一笑。&lt;/p&gt;
+&lt;p&gt;现在揭幕：是微交互在起作用。精确的说，这主要是界面附带的交互动画，使它更具表现力。优秀的动画能够：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;表达状态并提供反馈&lt;/li&gt;
+&lt;li&gt;提升直接的操纵感&lt;/li&gt;
+&lt;li&gt;将操作结果可视化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在用户体验中，关键是你如何对待用户，还有他们使用产品时的感受。极小的细节都值得加倍留心。微交互提供了用户所需的反馈，表达了当前运行状况。无论背后逻辑有多么复杂，都能使界面更亲切。&lt;/p&gt;
+&lt;h2 id="1-显示系统状态"&gt;1. 显示系统状态
+&lt;/h2&gt;&lt;p&gt;Jakob Nielsen在&lt;a class="link" href="http://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank" rel="noopener"
+&gt;可用性原则启示&lt;/a&gt;第一条中描述：让用户始终知晓当前在发生什么。用户希望立马得到回应，但总有些情况下，网站需要一点时间等待操作完成。&lt;/p&gt;
+&lt;p&gt;那么，界面就应当在背景处显示图形，反映完成百分比。或是播放声音，让用户了解当前发生的事情。这个原则也关系到文件传输：不要让用户觉得无聊，给他们看进度条。即使是不太令人愉快的通知，比如传输失败，也应该以令人喜爱的方式展现。让你的用户微笑！&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://dribbble.com/shots/1429143-Upload" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/001b.gif"
+loading="lazy"
+alt="移动应用中展示文件上传完成度进度的动效"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1853526-Download" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/001c.gif"
+loading="lazy"
+alt="移动端软件中带有动画效果的文件下载进度条"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="2-突出显示变化"&gt;2. 突出显示变化
+&lt;/h2&gt;&lt;p&gt;通常为了节省空间，应用会在需要时把某个按钮替换掉。有时我们需要展现通知，确保用户注意到了。动画可以吸引他们注意，不至于忽略你认为重要的信息。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://dribbble.com/shots/1506308-Music-Player-UI-animations-SVG-CSS3" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/002a.gif"
+loading="lazy"
+alt="音乐播放器界面中播放与暂停按钮切换的动效"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1550340-Notifications" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/002b.gif"
+loading="lazy"
+alt="移动应用中吸引用户注意的铃铛通知提醒动效"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1999539-Circle-menu" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/002c.gif"
+loading="lazy"
+alt="点击按钮展开环形操作选项的圆形菜单动画"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="3-保持前后关联"&gt;3. 保持前后关联
+&lt;/h2&gt;&lt;p&gt;在这个智能手机和小屏幕智能手表的时代，难以在屏幕上展现大量信息。有一种处理方式，是在不同页面之间保持清晰的导航。让用户理解什么东西来自何处，便能轻易回溯。有多种方式可以实现：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://dribbble.com/shots/2088943-Deals" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/003a.gif"
+loading="lazy"
+alt="移动端电商界面中商品优惠卡片点击转场动画"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/2106509-Nike-SNKRS-App" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/003b.gif"
+loading="lazy"
+alt="运动品牌鞋履展示应用中平滑的页面切换效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="4-非标准布局"&gt;4. 非标准布局
+&lt;/h2&gt;&lt;p&gt;继续之前的例子，微交互应当帮助用户理解如何操作非标准的布局，去除不必要的疑惑。照片前后滑动、滚动式图表和旋转角色都是很棒的选择：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://dribbble.com/shots/1265487-First-shot-in-Chapps-Animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/004a.gif"
+loading="lazy"
+alt="照片浏览应用中滑动手势操作过渡的交互动画"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1903238-Activity-tracking-app-dashboard-interaction" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/004b.gif"
+loading="lazy"
+alt="运动数据监测软件中图表平滑滑动的动态效果"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1519379-Pivot-Cartoon" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/004c.gif"
+loading="lazy"
+alt="动画制作工具中用于调整角色关节的交互动效"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="5-行动号召"&gt;5. 行动号召
+&lt;/h2&gt;&lt;p&gt;除了帮助用户有效地操作应用，微交互也有鼓励用户操作的能力：持续浏览、点赞或分享内容，只因为这很有吸引力，用户不舍离去：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://dribbble.com/shots/2007618-Helen-Miller" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/005a.gif"
+loading="lazy"
+alt="人物介绍页面中引导用户滑动查看详情的动画"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1961558-Twitter-share-button" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/005b.gif"
+loading="lazy"
+alt="社交媒体推特分享按钮点击展开的微交互动效"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1456699-Liking-Interaction-GIF" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/005c.gif"
+loading="lazy"
+alt="社交软件中充满趣味的心形点赞按钮点击动效"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="6-输入的视觉化"&gt;6. 输入的视觉化
+&lt;/h2&gt;&lt;p&gt;所有应用中，数据录入都是最重要的元素之一。数据录入决定了用户所得结果的质量。通常，这部分很无趣，但微交互可以使它与众不同：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://dribbble.com/shots/1341373-GIF-Pay-Charge" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/006a.gif"
+loading="lazy"
+alt="账单支付页面中数字输入过程的可视化微交互"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/2098475-Calendar-date-range-picker" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/006b.gif"
+loading="lazy"
+alt="日历组件中用于快速选择日期范围的交互动画"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1408717-App-Animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/006c.gif"
+loading="lazy"
+alt="移动端表格输入框聚焦与状态切换的动态效果"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="7-使教程生动形象"&gt;7. 使教程生动形象
+&lt;/h2&gt;&lt;p&gt;当然，在应用发布后，动画可以教育用户。它突出一些基本功能和控件，排除用户在未来的使用中的障碍。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://dribbble.com/shots/2094420-Tutorial-animation" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/007a.gif"
+loading="lazy"
+alt="新手指引中向用户演示滑动手势的教学动画"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1332390--GIF-Tour" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/007b.gif"
+loading="lazy"
+alt="应用欢迎页面中向新用户展示功能介绍的动画"
+&gt;&lt;/a&gt;
+&lt;a class="link" href="https://dribbble.com/shots/1388926-App-Intro-Tutorial-GIF" target="_blank" rel="noopener"
+&gt;&lt;img src="http://netdna.webdesignerdepot.com/uploads7/7-secrets-for-enhancing-ux-with-micro-interactions/007c.gif"
+loading="lazy"
+alt="移动端软件启动时用于功能向导的趣味动画"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;所以，如果你重视用户体验，就应该从头到尾精细打磨界面，通过微交互与动画为它增色添彩。它会为你的项目赋予生命。&lt;/p&gt;
+&lt;p&gt;注意每个细节，是使人机交互易用的成功要诀。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.webdesignerdepot.com/2015/07/7-secrets-for-enhancing-ux-with-micro-interactions/" target="_blank" rel="noopener"
+&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+DMYTRO SVARYTSEVYCH
+&lt;a class="link" href="http://united.softserveinc.com/members/352/?utm_source=guest-blog&amp;amp;utm_medium=webdesignerdepot&amp;amp;utm_campaign=ss80" target="_blank" rel="noopener"
+&gt;Dmytro Svarytsevych&lt;/a&gt; is a Design Office Director at &lt;a class="link" href="http://www.softserveinc.com/en-us/home/?utm_source=guest-blog&amp;amp;utm_medium=webdesignerdepot&amp;amp;utm_campaign=ss80" target="_blank" rel="noopener"
+&gt;SoftServe&lt;/a&gt;, and a regular contributor to the &lt;a class="link" href="http://united.softserveinc.com/home/?utm_source=guest-blog&amp;amp;utm_medium=webdesignerdepot&amp;amp;utm_campaign=ss80" target="_blank" rel="noopener"
+&gt;SoftServe United blog&lt;/a&gt;. Dmytro has been in the industry for more than 13 years, specializing in User Interface design, Interaction design, Mobile design, Information Architecture and User Experience. At SoftServe, he is responsible for all User Experience touch points, defining and integrating a company-wide User Experience Strategy to facilitate consistent and flexible expertise growth, as well as applying UX best practices and methodologies to various SoftServe projects. &lt;a class="link" href="http://www.webdesignerdepot.com/author/Dmytro-Svarytsevych" target="_blank" rel="noopener"
+&gt;More articles&lt;/a&gt; by Dmytro Svarytsevych&lt;/p&gt;</description></item></channel></rss>

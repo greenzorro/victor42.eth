@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blockchain on Victor42</title><link>https://victor42.eth.limo/tags/blockchain/</link><description>Recent content in Blockchain on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Thu, 27 Aug 2026 19:06:07 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/blockchain/index.xml" rel="self" type="application/rss+xml"/><item><title>Blockchain-Powered Blogging</title><link>https://victor42.eth.limo/post-en/3608/</link><pubDate>Sat, 19 Feb 2022 21:47:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3608/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2022-02/IPFS.jpg" alt="Featured image of post Blockchain-Powered Blogging" /&gt;&lt;p&gt;I&amp;rsquo;ve moved my blog to the blockchain. It might look like a simple theme change, but there&amp;rsquo;s a lot more going on under the hood.&lt;/p&gt;
+&lt;p&gt;During the Spring Festival, I dove into some tech projects I&amp;rsquo;d been curious about. The best way to learn is by doing - using the tech, reading the docs, and getting hands-on. This led me to move my blog to the blockchain.&lt;/p&gt;
+&lt;p&gt;And it worked! My new blog is at &lt;a class="link" href="https://victor42.eth.limo/" target="_blank" rel="noopener"
+&gt;https://victor42.eth.limo/&lt;/a&gt;. Eventually, when blockchain browsers are common, I might just use &lt;a class="link" href="https://victor42.eth/" target="_blank" rel="noopener"
+&gt;https://victor42.eth/&lt;/a&gt;, the actual address.&lt;/p&gt;
+&lt;p&gt;This is a long post, so here&amp;rsquo;s a summary of what&amp;rsquo;s covered, and the background you&amp;rsquo;ll need:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Traditional Web&lt;/strong&gt;: A basic overview of how websites are accessed. No prior knowledge needed (hopefully!). Skip this if you&amp;rsquo;re familiar with networking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ownership on the Traditional Web&lt;/strong&gt;: What a website owner does to publish, and who controls each part. No prerequisites, but easier if you own a website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Tech Explained&lt;/strong&gt;: How websites work in the blockchain world, compared to the traditional web. You&amp;rsquo;ll need a basic understanding of blockchain, Ethereum, and BitTorrent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Putting the New Tech into Practice&lt;/strong&gt;: Tools and steps to deploy your own blockchain website. You&amp;rsquo;ll need experience building traditional websites, understanding DNS, and setting up a static site on GitHub. For a blockchain domain (optional), you&amp;rsquo;ll need to understand crypto wallets, transactions, and buying Ether.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="the-traditional-web"&gt;The Traditional Web
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve been exploring ENS and IPFS, which I&amp;rsquo;ll explain later. First, let&amp;rsquo;s see how my blog worked before.&lt;/p&gt;
+&lt;p&gt;Key components include the domain name, DNS, IP address, and server. Accessing a website is like sending a package.&lt;/p&gt;
+&lt;p&gt;Imagine sending a gift to a friend at the Palace Museum. You need their address. They receive it and send you postcards in return.&lt;/p&gt;
+&lt;h3 id="domain-names"&gt;Domain Names
+&lt;/h3&gt;&lt;p&gt;My blog was previously at &lt;a class="link" href="https://victor42.eth.limo/" target="_blank" rel="noopener"
+&gt;https://victor42.eth.limo/&lt;/a&gt;. I&amp;rsquo;ll keep that domain for about six months, but I don&amp;rsquo;t plan to renew it.&lt;/p&gt;
+&lt;p&gt;A domain name is a website&amp;rsquo;s nickname, making it easy to remember. Sharing the domain lets others access your site.&lt;/p&gt;
+&lt;p&gt;A website can have multiple domains. However, a domain can only point to one website. It&amp;rsquo;s first-come, first-served.&lt;/p&gt;
+&lt;p&gt;Think of &amp;ldquo;The Palace Museum&amp;rdquo; - everyone knows it. But asking for directions in a Guangzhou dim sum restaurant might get you strange looks.&lt;/p&gt;
+&lt;p&gt;Knowing the name isn&amp;rsquo;t enough.&lt;/p&gt;
+&lt;h3 id="dns-ip-and-servers"&gt;DNS, IP, and Servers
+&lt;/h3&gt;&lt;p&gt;DNS (Domain Name System) points a domain name to an IP address.&lt;/p&gt;
+&lt;p&gt;DNS needs DNS servers to work. Think of these as large machines in a server room - just the unit, no monitor or keyboard. They&amp;rsquo;re usually controlled remotely.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/taylor-vick-M5tzZtFCOfs-unsplash.jpg"
+loading="lazy"
+alt="Close-up photograph of cloud server racks in a traditional Web2 data center, showing rows of black server cabinets with blinking indicator lights and network cables, representing the physical infrastructure that hosts websites on the conventional internet"
+&gt;&lt;/p&gt;
+&lt;p&gt;You likely encounter IP addresses with your router (e.g., 192.168.1.1). This number string is your router&amp;rsquo;s location on your home network. Typing it into your browser usually opens the router&amp;rsquo;s settings. On the internet, IP addresses can represent PCs, phones, cell towers, cameras, servers&amp;hellip;&lt;/p&gt;
+&lt;p&gt;When you visit a website, the IP usually points to a server storing the website&amp;rsquo;s code and data. Your browser uses DNS to find the IP and tells the server to send the content. The content appears in your browser.&lt;/p&gt;
+&lt;p&gt;Back to the real world, DNS servers are like people guiding you. You ask, &amp;ldquo;How do I send something to the Palace Museum?&amp;rdquo; A grocery shopper says, &amp;ldquo;Ask someone younger.&amp;rdquo; A Starbucks barista says, &amp;ldquo;Ask someone in Beijing.&amp;rdquo; A colleague from Beijing says, &amp;ldquo;It&amp;rsquo;s 4 Jingshan Front Street, Dongcheng District, Beijing.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;People who know tell you directly; others point you to someone else. This relay gets you the address, the Palace Museum, from just the name. That&amp;rsquo;s how DNS servers work. The IP is like the street address, unique without duplication. You send your gift. Your friend sends back postcards, showing the Palace Museum&amp;rsquo;s beauty (like the server sending website content).&lt;/p&gt;
+&lt;p&gt;IP addresses are unique in both directions. One address, one place.&lt;/p&gt;
+&lt;h2 id="ownership-on-the-traditional-web"&gt;Ownership on the Traditional Web
+&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s how accessing a website works. But who controls each part?&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve looked at it from the visitor&amp;rsquo;s side. Now, let&amp;rsquo;s see what a website owner does to make their site visible.&lt;/p&gt;
+&lt;h3 id="domain-names-1"&gt;Domain Names
+&lt;/h3&gt;&lt;p&gt;Let&amp;rsquo;s examine a familiar URL:&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://www.baidu.com" target="_blank" rel="noopener"
+&gt;http://www.baidu.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It has four parts:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/Domain-Explanation-2.12.2019-02.jpg"
+loading="lazy"
+alt="Educational diagram breaking down the structure of a URL, highlighting the four components of http://www.baidu.com: protocol, subdomain, main domain, and top-level domain, with arrows pointing to each section for clear visual explanation"
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;http://&lt;/li&gt;
+&lt;li&gt;www&lt;/li&gt;
+&lt;li&gt;baidu&lt;/li&gt;
+&lt;li&gt;com&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;http://&lt;/strong&gt; is the protocol (&lt;strong&gt;H&lt;/strong&gt;yper&lt;strong&gt;T&lt;/strong&gt;ext &lt;strong&gt;T&lt;/strong&gt;ransfer &lt;strong&gt;P&lt;/strong&gt;rotocol). It&amp;rsquo;s an agreement between your browser and the server on how to transmit information.&lt;/p&gt;
+&lt;p&gt;Other protocols exist. But HTTP is standard for websites, so we often omit it and just say &lt;a class="link" href="https://www.baidu.com" target="_blank" rel="noopener"
+&gt;www.baidu.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s discuss the other three parts in reverse.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/Domain-Explanation-2.12.2019-02.jpg"
+loading="lazy"
+alt="URL structure diagram with the com top-level domain section highlighted in orange, explaining that TLDs categorize websites by purpose such as company, education, or military, and are controlled by the international organization ICANN"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;com&lt;/strong&gt; is the top-level domain (TLD), categorizing websites. Examples: .com (company), .edu (education), .mil (military). Two-letter TLDs represent regions (e.g., .cn for China, .uk for Britain).&lt;/p&gt;
+&lt;p&gt;ICANN controls top-level domains. It decides which names can be TLDs. See the allowed TLDs here: &lt;a class="link" href="https://data.iana.org/TLD/tlds-alpha-by-domain.txt" target="_blank" rel="noopener"
+&gt;https://data.iana.org/TLD/tlds-alpha-by-domain.txt&lt;/a&gt;. ICANN is a non-profit, but with enough money, you might get a TLD.&lt;/p&gt;
+&lt;p&gt;Apple registered .apple (different from apple.com; it&amp;rsquo;s xxx.apple!). They could use iphone.apple, ipad.apple&amp;hellip; shorter than apple.com/iphone.&lt;/p&gt;
+&lt;p&gt;But .com is ingrained. People say it automatically. You only need the brand name, apple, and add .com. Registering .apple is mainly brand protection.&lt;/p&gt;
+&lt;p&gt;.com is so common because of commerce. Businesses register and maintain domains to build brands and drive revenue. They have more incentive than educational institutions or non-profits. So, .com became dominant, broadening its meaning.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/Domain-Explanation-2.12.2019-02.jpg"
+loading="lazy"
+alt="URL structure diagram highlighting the baidu main domain section in orange, explaining that the main domain combined with the top-level domain forms a complete address controlled by domain registrars and cloud service providers"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;baidu&lt;/strong&gt; is part of the main domain. With the TLD, it forms the complete main domain. Baidu.com means &amp;ldquo;a company called Baidu.&amp;rdquo; Baidu bought this domain and pointed it to their search engine.&lt;/p&gt;
+&lt;p&gt;Domain registrars and cloud providers control main domains, charging annually. GoDaddy is well-known internationally; in China, there&amp;rsquo;s Wanwang, Ename, Alibaba Cloud, and Tencent Cloud. You choose a domain and pay for a few years. You can use it and point it anywhere. But the service provider still owns it and can take it back.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/Domain-Explanation-2.12.2019-02.jpg"
+loading="lazy"
+alt="URL structure diagram with the www subdomain section highlighted in orange, explaining that subdomains like www represent World Wide Web and can be freely created by the main domain owner to point to different services"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;www&lt;/strong&gt; is a second-level domain, or subdomain. &lt;a class="link" href="https://www.baidu.com" target="_blank" rel="noopener"
+&gt;www.baidu.com&lt;/a&gt; and baidu.com are different.&lt;/p&gt;
+&lt;p&gt;Owning the main domain (baidu.com) lets you add subdomains through your registrar or DNS provider. For example, help.baidu.com (customer support), map.baidu.com (Baidu Maps). www points to the search engine, like the main domain.&lt;/p&gt;
+&lt;p&gt;Why the redundancy? &amp;ldquo;www&amp;rdquo; means World Wide Web. Early on, websites weren&amp;rsquo;t the internet&amp;rsquo;s core. Domains were used for email, file transfer, etc. Websites were another service. So, www indicated the official website. Later generations did the same, even without other services. People still do it, forgetting why.&lt;/p&gt;
+&lt;p&gt;Subdomains belong to the main domain. You control their usage, but the registrar owns them.&lt;/p&gt;
+&lt;p&gt;As an aside, the domain name order seems reversed. But the internet&amp;rsquo;s inventors were Western, especially English speakers. English addresses go from smallest to largest:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;#20A, 2345 Belmont Avenue, Durham, NC， 27700&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Building, street, city, state. It&amp;rsquo;s a cultural difference.&lt;/p&gt;
+&lt;h3 id="dns"&gt;DNS
+&lt;/h3&gt;&lt;p&gt;Don&amp;rsquo;t announce your domain yet. Typing it in a browser won&amp;rsquo;t work. It&amp;rsquo;s not pointed to a server. Pointing is called domain resolution.&lt;/p&gt;
+&lt;p&gt;A domain points to one website. Resolution rights are crucial. Whoever controls them decides where the domain is used.&lt;/p&gt;
+&lt;p&gt;Initially, resolution rights are with the domain provider. But specialized DNS providers offer better services (Cloudflare internationally, DNSPod in China). To use them, transfer resolution rights from the registrar to the DNS provider. Then, set the domain&amp;rsquo;s destination in the DNS provider&amp;rsquo;s interface. DNS services often have free and paid features.&lt;/p&gt;
+&lt;p&gt;The DNS provider now has resolution rights. You control where the domain points, but it&amp;rsquo;s not 100% yours. An employee or hacker could point your domain elsewhere. It&amp;rsquo;s like the fine print: final interpretation rights belong to the DNS provider.&lt;/p&gt;
+&lt;h3 id="ip-and-servers"&gt;IP and Servers
+&lt;/h3&gt;&lt;p&gt;Finally, put your website code and data on a server so the domain can point to it via DNS. Let&amp;rsquo;s assume a simple website with one server.&lt;/p&gt;
+&lt;p&gt;Rent a server from a cloud provider (Alibaba Cloud, Tencent Cloud). Servers have monthly bills based on disk space, data sent, etc.&lt;/p&gt;
+&lt;p&gt;Once the server is set up, you&amp;rsquo;ll have its IP address. Use DNS to point your domain to it. Your website is now public.&lt;/p&gt;
+&lt;p&gt;Since the server is rented, you only have usage rights. The cloud provider can shut it down or delete its contents.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/%e5%a4%a9%e5%bc%baTR261F.jpg"
+loading="lazy"
+alt="Product photograph of a Tianqiang TR261F tower server hardware unit, showing a black metal chassis with front panel drive bays and ventilation grilles, representing the type of physical server that can be self-hosted in an office"
+&gt;&lt;/p&gt;
+&lt;p&gt;Alternatively, buy a server and put it in your office. A company I worked for did this. The server and contents are completely under your control. But this needs a high-quality network. Small websites usually don&amp;rsquo;t do this.&lt;/p&gt;
+&lt;h2 id="the-new-tech-explained"&gt;The New Tech Explained
+&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s the traditional web. Now, let&amp;rsquo;s explore the new technology.&lt;/p&gt;
+&lt;h3 id="ens"&gt;ENS
+&lt;/h3&gt;&lt;p&gt;As mentioned, ICANN controls top-level domains. But many teams challenge this. They believe domains are internet infrastructure, concerning everyone, and shouldn&amp;rsquo;t be controlled by a centralized organization - not even a non-profit. They advocate blockchain smart contracts to manage domains (top-level, main, subdomains). This ensures open, transparent, and trustworthy management.&lt;/p&gt;
+&lt;p&gt;Four main blockchain projects provide domain services: HandShake (HNS), DecentraWeb (DWEB), Ethereum Name Service (ENS), and Unstoppable Domains. The first two offer top-level domain registration/trading; the latter two control some top-level domains and offer main domain registration.&lt;/p&gt;
+&lt;p&gt;![Screenshot of the ENS blockchain domain registration website search page, showing the interface where users can search for and purchase .eth domains, with a search bar and domain availability results displayed on a clean white background](&lt;a class="link" href="https://cdn.victor42.work/posts/2022-02/" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2022-02/&lt;/a&gt;截屏 2022-02-17-下午 3.26.59.jpg)&lt;/p&gt;
+&lt;p&gt;The blockchain world has strange top-level domains: .x, .eth, .coin, .wallet, .888, even emojis. These bypass ICANN. Control and ownership are recorded on the blockchain, operating by smart contract rules, not controlled by the founding teams.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/Snipaste_2022-02-19_22-53-11.jpg"
+loading="lazy"
+alt="ENS dashboard screenshot showing the blockchain ownership record details for the victor42.eth domain, displaying the wallet address that owns the domain and the registration expiration date on a dark themed interface"
+&gt;&lt;/p&gt;
+&lt;p&gt;My domain (victor42.eth) is from &lt;a class="link" href="https://ens.domains/" target="_blank" rel="noopener"
+&gt;ENS&lt;/a&gt;, an Ethereum-based service where domains end in .eth. After purchase, a smart contract records on Ethereum: &amp;ldquo;victor42.eth belongs to wallet xxxxxxxxx for 20 years.&amp;rdquo; This is recognized and protected by Ethereum. xxxxxxxxx is my Ethereum wallet address.&lt;/p&gt;
+&lt;p&gt;ENS also provides domain resolution. In the blockchain world, DNS isn&amp;rsquo;t strictly necessary. On the traditional web, DNS providers ensure security, preventing tampering. But the blockchain is inherently secure. Domain resolution becomes simpler, a feature domain service providers can easily add.&lt;/p&gt;
+&lt;p&gt;With this domain, no one can transfer it or point it elsewhere during the usage period, not even Vitalik, Ethereum&amp;rsquo;s founder. After the period, if I don&amp;rsquo;t renew, the smart contract reclaims it.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s the difference between blockchain and traditional domains? Let&amp;rsquo;s compare the traditional web and blockchain.&lt;/p&gt;
+&lt;p&gt;The traditional web transmits information. Domains are nicknames for content. WeChat Pay transmits monetary value &lt;em&gt;as information&lt;/em&gt;, requiring UnionPay to verify it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/v2-1c7c39a838509163666786299a1aaa0c_1440w.jpg"
+loading="lazy"
+alt="Comparison diagram illustrating the difference between the traditional information transmission web and the blockchain value network, showing how traditional networks require intermediaries like UnionPay while blockchain networks verify value transfer directly through cryptography"
+&gt;&lt;/p&gt;
+&lt;p&gt;The blockchain network transmits value. It&amp;rsquo;s an economic system using cryptography, verifying value transfer itself. Wallet accounts are the infrastructure. Domains nickname wallet addresses. Pointing to content is an additional function.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/Screen-Shot-2018-06-29-at-6.00.20-PM.jpg"
+loading="lazy"
+alt="Screenshot of a cryptocurrency wallet interface displaying a long hexadecimal Ethereum address, showing the complex string of characters that represents a wallet account on the blockchain network"
+&gt;&lt;/p&gt;
+&lt;p&gt;An Ethereum wallet address is hard to remember. That&amp;rsquo;s why it needs a domain.&lt;/p&gt;
+&lt;p&gt;Blockchain domains can point to a wallet and content. Entering the domain during a transfer sends it to the wallet; opening it in a browser displays the content.&lt;/p&gt;
+&lt;h3 id="ipfs"&gt;IPFS
+&lt;/h3&gt;&lt;p&gt;The previous section covered blockchain domains, which I now own and can point to a website. The next step is finding a decentralized hosting solution.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll detail the specifics later. This section explains IPFS&amp;rsquo;s technical principles. It works differently than the usual C drive, folder, subfolder structure.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re able, check out this video first (it&amp;rsquo;s more intuitive than my explanation): &lt;a class="link" href="https://www.youtube.com/watch?v=5Uj6uR3fp-U" target="_blank" rel="noopener"
+&gt;https://www.youtube.com/watch?v=5Uj6uR3fp-U&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/IPFS.jpg"
+loading="lazy"
+alt="Official logo and icon of the InterPlanetary File System (IPFS), featuring a distinctive geometric honeycomb-like network pattern in blue and white colors, representing the decentralized storage technology"
+&gt;&lt;/p&gt;
+&lt;p&gt;Despite the &amp;ldquo;IP&amp;rdquo; in its name, IPFS is unrelated to traditional IP addresses. It stands for InterPlanetary File System. Crucially, if anyone on the IPFS network deems content valuable and keeps it, no one can delete or stop its spread.&lt;/p&gt;
+&lt;p&gt;This might seem commonplace. Isn&amp;rsquo;t the traditional web similar? If a Weibo account posts something inappropriate, even after deletion, screenshots can ensure it&amp;rsquo;s not forgotten. That&amp;rsquo;s the internet&amp;rsquo;s open spirit.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/Snipaste_2022-02-19_23-09-55.jpg"
+loading="lazy"
+alt="Diagram illustrating how IPFS distributes data across multiple nodes using sharding and hash validation, showing how files are broken into pieces and stored across a decentralized network with cryptographic verification"
+&gt;&lt;/p&gt;
+&lt;p&gt;However, PR exists. Most content spreads on major platforms. If these platforms cooperate to remove content, widespread dissemination stops. PR can&amp;rsquo;t erase content globally, but it can make it invisible to most. You can still copy it to a USB, but those unaware won&amp;rsquo;t know where to find it.&lt;/p&gt;
+&lt;p&gt;But, how do pirated movies spread? Studios can&amp;rsquo;t stop them, right? Exactly. Pirated movies use distributed networks, not just the traditional web.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/18aebc5f0c14c27bc4ccc13a2a46b7b1eff939e1.jpg"
+loading="lazy"
+alt="Screenshot of a BitTorrent client window showing peer-to-peer file downloads in progress, displaying multiple seed connections and transfer speeds, illustrating the distributed network technology that inspired IPFS"
+&gt;&lt;/p&gt;
+&lt;p&gt;Downloading with Xunlei requires a BT torrent file. Xunlei uses the torrent, showing seed count. More seeds mean faster downloads; no seeds mean no download. Each seed is a device storing the content, often other downloaders. You&amp;rsquo;re not downloading from a server, but from other seeds. Blocking content requires finding and destroying all seeds - practically impossible.&lt;/p&gt;
+&lt;p&gt;IPFS uses this for file transfer, but also as a storage method. How does the network know each seed has the &lt;em&gt;same&lt;/em&gt; movie, given different versions (full, cut, original audio, dubbed)?&lt;/p&gt;
+&lt;p&gt;The answer: content separation at the file level. Different BT torrents mean different versions. This uses a &lt;em&gt;hash algorithm&lt;/em&gt;, encrypting any content into a fixed-length string, like:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;23db6982caef9e9152f1a5b2589e6ca3&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Download sites often show a file&amp;rsquo;s MD5 code (a type of hash algorithm) to verify against tampering or viruses after download.&lt;/p&gt;
+&lt;p&gt;Hash algorithms have a key feature: identical content, using the same algorithm, &lt;em&gt;always&lt;/em&gt; produces the same result, regardless of time or location. Even a tiny change (e.g., a Chinese period to an English one) drastically alters the resulting code. This one-to-one correspondence means hash algorithms provide a unique ID for any content, like a social security number.&lt;/p&gt;
+&lt;p&gt;This makes IPFS efficient. Content is distributed via its hash code. Displaying it requires retrieving the entire content from the IPFS network.&lt;/p&gt;
+&lt;p&gt;For example, NFT digital collectibles. Ownership is recorded on the blockchain (&amp;ldquo;Content xxxxxx belongs to so-and-so&amp;rdquo;). A collectible can be large (image, music, video). How can a blockchain, with small blocks, store this? It stores the &lt;em&gt;hash code&lt;/em&gt;, uniquely identifying the content, confirming ownership. ENS domains are also NFTs, but with practical uses beyond viewing.&lt;/p&gt;
+&lt;p&gt;IPFS builds its storage on this. Unlike traditional storage (retrieving by &lt;em&gt;location&lt;/em&gt;, like sending a package to a specific address), IPFS retrieves by &lt;em&gt;content&lt;/em&gt;. Knowing the content (its hash code ID) is enough. You request &amp;ldquo;content 23db6982caef9e9152f1a5b2589e6ca3,&amp;rdquo; and IPFS finds and delivers it from the closest source.&lt;/p&gt;
+&lt;p&gt;This has advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Reliability:&lt;/strong&gt; Any device with the content can transmit it. Even if major data centers are destroyed, you can still download from a neighbor via IPFS, as long as the network is up.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed:&lt;/strong&gt; It finds the closest source, ensuring fast transmission, like BT seed downloads.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resource Saving:&lt;/strong&gt; On the traditional web, the same video posted on multiple platforms (WeChat, Weibo, TikTok) is stored multiple times. IPFS theoretically needs only minimal server backups, with most storage and transmission through personal devices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tamper-proof:&lt;/strong&gt; Each piece of content has a unique code. Tampering creates a new code. The original code always leads to the original content, making it ideal for recording information age history, avoiding the &lt;a class="link" href="https://victor42.eth.limo/post-en/3584/" target="_blank" rel="noopener"
+&gt;digital dark age&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Disadvantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Unpopular content may be harder to access if few devices store it and are offline. However, uploaders can keep important content online.&lt;/li&gt;
+&lt;li&gt;IPFS is open; it can&amp;rsquo;t store private data. It&amp;rsquo;s unsuitable for personal cloud drives. Posted content is publicly visible.&lt;/li&gt;
+&lt;li&gt;Think before posting; there&amp;rsquo;s no going back. Changes generate new content, not overwrites.&lt;/li&gt;
+&lt;li&gt;Version fragmentation: Updates create new versions. Identifying the latest is addressed later.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/1_QVpq6pw2gbbtCmVybBrEuA.jpg"
+loading="lazy"
+alt="Technical comparison diagram showing the difference between IPFS content addressing and traditional network location addressing, with visual representations of how each method retrieves data from the network"
+&gt;&lt;/p&gt;
+&lt;p&gt;The name &amp;ldquo;InterPlanetary File System&amp;rdquo; isn&amp;rsquo;t just hype. If we colonize Mars, how will information transfer? Earth-Mars distance varies. Communication can take 4-24 minutes one-way, or be impossible during solar conjunction (like Tianwen-1).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/de4c7603471048a69eea26092fa89d0f.jpg"
+loading="lazy"
+alt="Scientific concept diagram showing solar conjunction interference with Mars space probes, illustrating how the sun blocks communication between Earth and Mars spacecraft during certain orbital positions"
+&gt;&lt;/p&gt;
+&lt;p&gt;With the traditional web, a Martian accessing Wikipedia on Earth would face 8+ minute delays &lt;em&gt;per page&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Why not store Wikipedia&amp;rsquo;s data on Mars? Martian colonization will be gradual. Earth&amp;rsquo;s internet holds vast data. Copying &lt;em&gt;everything&lt;/em&gt; is impractical. Only important data would be prioritized; less important data (like &lt;a class="link" href="https://baike.baidu.com/item/%E5%B7%B4%E6%96%AF%E5%85%8B%E8%AF%AD/6715189" target="_blank" rel="noopener"
+&gt;Basque&lt;/a&gt;) would remain on Earth.&lt;/p&gt;
+&lt;p&gt;With IPFS, the &lt;em&gt;first&lt;/em&gt; Martian accessing Basque still faces the delay (blame Einstein, not me). But subsequent Martians can access it directly from the first user&amp;rsquo;s device, quickly. If that first user is a linguistics professor who deems it important, they can put it on a Martian IPFS server, establishing Basque data on Mars.&lt;/p&gt;
+&lt;p&gt;IPFS itself isn&amp;rsquo;t a blockchain; it&amp;rsquo;s a network like BT downloads. The IPFS team created Filecoin, a blockchain using cryptocurrency to reward users for providing storage, maintaining IPFS and improving reliability. I won&amp;rsquo;t detail that. IPFS is crucial for the blockchain world, less so for the traditional web, so I consider it part of the former. Calling websites on IPFS &amp;ldquo;blockchain websites&amp;rdquo; isn&amp;rsquo;t perfectly accurate, but it&amp;rsquo;s simpler.&lt;/p&gt;
+&lt;h3 id="ipns"&gt;IPNS
+&lt;/h3&gt;&lt;p&gt;ENS handles domain + DNS, IPFS handles IP + server. Ready to build a blockchain website? Not quite. There&amp;rsquo;s a key issue, unique to IPFS.&lt;/p&gt;
+&lt;p&gt;Traditional storage updates by replacing content at a location. IPFS finds content via hash codes. Updates create &lt;em&gt;new&lt;/em&gt; content; the old hash code remains. How do users see the &lt;em&gt;latest&lt;/em&gt; version of a constantly updated website? Announcing new hash codes constantly is impractical.&lt;/p&gt;
+&lt;p&gt;IPFS has a built-in mechanism, IPNS (InterPlanetary Name System), similar to DNS. The &amp;ldquo;NS&amp;rdquo; is the same. It&amp;rsquo;s like a hash code, but points to different content without changing itself. Associating IPNS with IPFS content makes IPNS automatically point to the new version&amp;rsquo;s hash code after updates, like a traditional URL.&lt;/p&gt;
+&lt;p&gt;ENS domains can point to IPNS, connecting everything. The website access process is entirely within the blockchain world:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ENS domain -&amp;gt; ENS points to -&amp;gt; IPNS -&amp;gt; Latest IPFS content -&amp;gt; Website&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="putting-the-new-tech-into-practice"&gt;Putting the New Tech into Practice
+&lt;/h2&gt;&lt;p&gt;Theory is done, now for practice, which is simple.&lt;/p&gt;
+&lt;p&gt;The blockchain world has evolved beyond speculation. Many practical applications are building the next-generation network infrastructure. You can use existing applications for deployment, which is convenient.&lt;/p&gt;
+&lt;h3 id="blockchain-domains"&gt;Blockchain Domains
+&lt;/h3&gt;&lt;p&gt;Domains and storage are separate. Blockchain domains can point to traditional websites, and &lt;strong&gt;traditional domains can point to blockchain websites&lt;/strong&gt;. A blockchain domain isn&amp;rsquo;t mandatory.&lt;/p&gt;
+&lt;p&gt;This is likely the only part requiring money. You buy a domain on &lt;a class="link" href="https://ens.domains/" target="_blank" rel="noopener"
+&gt;ENS&lt;/a&gt; using Ether. Cryptocurrency trading regulations in mainland China might be a hurdle. But if you&amp;rsquo;re this far, you&amp;rsquo;ve likely bought crypto before.&lt;/p&gt;
+&lt;p&gt;If not, &lt;strong&gt;wait&lt;/strong&gt;. Understand cryptocurrency wallets (accounts, transfers) &lt;em&gt;before&lt;/em&gt; buying. Don&amp;rsquo;t use shady exchanges. Lack of understanding can lead to financial loss.&lt;/p&gt;
+&lt;p&gt;Once you understand, you&amp;rsquo;ll know how and where to buy. Bypassing the firewall and using Google is prerequisite. It&amp;rsquo;s hard to navigate within the Chinese internet.&lt;/p&gt;
+&lt;p&gt;The purchase is similar to traditional domains; no step-by-step tutorial is needed. You&amp;rsquo;ll have an Ethereum wallet with a .eth domain. Leave extra Ether for transaction fees during domain pointing setup.&lt;/p&gt;
+&lt;h3 id="fleek"&gt;Fleek
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="https://fleek.co/" target="_blank" rel="noopener"
+&gt;Fleek&lt;/a&gt; handles everything else: deploying websites on IPFS and domain pointing. It&amp;rsquo;s free for personal websites with low traffic.&lt;/p&gt;
+&lt;p&gt;Fleek has two upload methods. &amp;ldquo;Storage&amp;rdquo; is like Baidu Netdisk. Upload a file, get an IPFS-stored link:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://cdn.victor42.work/tools/ps-bulkrename.png" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/tools/ps-bulkrename.png&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;![Screenshot of the Fleek decentralized platform Storage dashboard showing uploaded assets and file management interface, where users can upload files to IPFS and get shareable links](&lt;a class="link" href="https://cdn.victor42.work/posts/2022-02/" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2022-02/&lt;/a&gt;截屏 2022-02-18-下午 4.51.35.jpg)&lt;/p&gt;
+&lt;p&gt;This is for sharing individual files, not domain binding. I use it for image hosting in blog posts.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Hosting&amp;rdquo; links to your GitHub account, reading code from a repository.&lt;/p&gt;
+&lt;p&gt;![Screenshot of the Fleek Hosting page showing the step-by-step process to link a GitHub account for decentralized website deployment on IPFS](&lt;a class="link" href="https://cdn.victor42.work/posts/2022-02/" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2022-02/&lt;/a&gt;截屏 2022-02-18-下午 4.52.01.jpg)&lt;/p&gt;
+&lt;p&gt;Then choose your static website system.&lt;/p&gt;
+&lt;p&gt;![Screenshot of the Fleek configuration page showing the selection of Hugo as the static site build framework for deploying a blockchain website on IPFS](&lt;a class="link" href="https://cdn.victor42.work/posts/2022-02/" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2022-02/&lt;/a&gt;截屏 2022-02-18-下午 4.43.25.jpg)&lt;/p&gt;
+&lt;p&gt;My previous blog used &lt;a class="link" href="https://hexo.io/" target="_blank" rel="noopener"
+&gt;Hexo&lt;/a&gt;, a good system. But its creators and users are mainly Chinese-speaking, with low international recognition. Fleek, an overseas product, doesn&amp;rsquo;t support Hexo. I chose &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+&gt;Hugo&lt;/a&gt;, rebuilt a blog on GitHub, and moved content. Hugo is also excellent. Research building websites with Hugo; it&amp;rsquo;s not blockchain-specific.&lt;/p&gt;
+&lt;p&gt;Next, choose the deployment network. The default is IPFS.&lt;/p&gt;
+&lt;p&gt;![Screenshot of the Fleek network selection page showing the choice to deploy the website on the decentralized IPFS network rather than other blockchain options](&lt;a class="link" href="https://cdn.victor42.work/posts/2022-02/" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2022-02/&lt;/a&gt;截屏 2022-02-18-下午 4.52.36.jpg)&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Internet Computer&amp;rdquo; is another option, a different blockchain for deploying services, with its own pros and cons. It&amp;rsquo;s newer and more isolated. I tried it; it&amp;rsquo;s interesting.&lt;/p&gt;
+&lt;p&gt;After these steps, the website deploys quickly. Fleek grabs content from GitHub, deploys on IPFS, and provides a subdomain. Your blockchain website is accessible.&lt;/p&gt;
+&lt;p&gt;![Screenshot of the Fleek deploy log showing a successful website build on IPFS, displaying the deployment status and the generated IPFS content hash for the blockchain website](&lt;a class="link" href="https://cdn.victor42.work/posts/2022-02/" target="_blank" rel="noopener"
+&gt;https://cdn.victor42.work/posts/2022-02/&lt;/a&gt;截屏 2022-02-18-下午 4.53.17.jpg)&lt;/p&gt;
+&lt;p&gt;Domain pointing is done in Fleek&amp;rsquo;s Domain Management. For traditional domains, it guides you on filling resolution records with your domain/DNS provider. For ENS domains, follow its instructions; it requires your Ethereum wallet and a small Ether fee.&lt;/p&gt;
+&lt;p&gt;You can also add HNS domains (a blockchain top-level domain provider). Ownership is recorded on the Bitcoin blockchain, obtainable via auction on &lt;a class="link" href="https://www.namebase.io/" target="_blank" rel="noopener"
+&gt;Namebase&lt;/a&gt; with Bitcoin. You need to generate a main domain after getting the top-level domain. I haven&amp;rsquo;t tried this.&lt;/p&gt;
+&lt;h3 id="ethlimo"&gt;eth.limo
+&lt;/h3&gt;&lt;p&gt;Your blockchain website is set up: domain, IPFS deployment, domain pointing. But with a blockchain domain, typing xxxx.eth into a browser &lt;em&gt;won&amp;rsquo;t work&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t the blockchain&amp;rsquo;s fault. Most browsers are from the traditional web era, recognizing only ICANN-approved protocols/domains. Non-HTTP protocols or domains not on ICANN&amp;rsquo;s list won&amp;rsquo;t open. There&amp;rsquo;s a gap.&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://eth.limo/" target="_blank" rel="noopener"
+&gt;eth.limo&lt;/a&gt; bridges this gap. Add .limo to your domain (e.g., &lt;a class="link" href="https://victor42.eth.limo/" target="_blank" rel="noopener"
+&gt;https://victor42.eth.limo/&lt;/a&gt;) for any browser. Blockchain-supporting browsers (like Brave) can open it without .limo. But you can&amp;rsquo;t assume all visitors have these.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a creative solution. What does eth.limo do?&lt;/p&gt;
+&lt;p&gt;victor42.eth and victor42.eth.limo are fundamentally different. victor42.eth uses .eth as the top-level domain; I own the main domain victor42. victor42.eth.limo uses .limo as the top-level domain; eth.limo is the main domain (not mine); victor42 is my subdomain.&lt;/p&gt;
+&lt;p&gt;eth.limo&amp;rsquo;s servers access the blockchain world. Accessing their subdomain, they cross the bridge, package the website&amp;rsquo;s content, and deliver it.&lt;/p&gt;
+&lt;p&gt;This diagram explains. The rows: traditional website, traditional domain + blockchain website, blockchain domain + blockchain website.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/processed-faef701d-d810-454e-bef5-5b4b69f5597a_1d9a7f02-b98e-4f64-b034-aeac075ca384.jpg"
+loading="lazy"
+alt="Multi-row flow chart comparing DNS and ENS routing paths, showing three scenarios: traditional website routing, traditional domain with blockchain website, and blockchain domain with blockchain website using IPFS"
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;DNS points the domain to the server, opening the website.&lt;/li&gt;
+&lt;li&gt;DNS points the domain to Fleek&amp;rsquo;s server; Fleek finds content on IPFS, opening the website.&lt;/li&gt;
+&lt;li&gt;Accessing the traditional domain, the delivery person accesses the blockchain domain, pointing to IPFS content, opening the website.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Red/blue lines: the traditional web/blockchain network border. Crossing it enters a new world.&lt;/p&gt;
+&lt;p&gt;eth.limo isn&amp;rsquo;t unique. &lt;a class="link" href="https://eth.link/" target="_blank" rel="noopener"
+&gt;eth.link&lt;/a&gt; is more widely used, with a more normal-looking domain name.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-02/limousinerental1518120210.jpg"
+loading="lazy"
+alt="Photograph of an ultra-long white Lincoln stretch limousine car parked outdoors, used to humorously explain the meaning of the .limo top-level domain in blockchain naming"
+&gt;&lt;/p&gt;
+&lt;p&gt;Limo refers to this. It&amp;rsquo;s still weird.&lt;/p&gt;
+&lt;p&gt;I initially used eth.link (by Cloudflare). It&amp;rsquo;s centralized, using Cloudflare&amp;rsquo;s servers. As an overseas product, it had issues in China, occasionally going down. eth.limo uses multiple servers, with multiple bridges, preventing access failures at the last mile.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s all.&lt;/p&gt;
+&lt;p&gt;ENS and IPFS show a world where new technologies are thriving. They remind us to keep exploring.&lt;/p&gt;</description></item></channel></rss>
