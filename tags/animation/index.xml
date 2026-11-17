@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Animation on Victor42</title><link>https://victor42.eth.limo/tags/animation/</link><description>Recent content in Animation on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/animation/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a Circular Progress Bar in AE</title><link>https://victor42.eth.limo/post-en/3424/</link><pubDate>Tue, 10 Feb 2015 15:16:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post-en/3424/</guid><description>&lt;p&gt;[Update: Simpler methods exist (see the end of the post). However, the techniques here are still valuable practice.]&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been using After Effects for about a year. It&amp;rsquo;s fun, useful, and easy to learn, especially with prior Flash experience. Complex UI animations are combinations of basic movements, rotations, scaling, opacity, and color changes. Online resources abound; I learned from this &lt;a class="link" href="http://v.youku.com/v_show/id_XMjMyNzk0NjQ4.html?f=5405564" target="_blank" rel="noopener"
+&gt;video series&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This circular progress bar requires a bit more thought.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/1.gif"
+loading="lazy"
+alt="The final animated circular progress bar created in After Effects"
+&gt;&lt;/p&gt;
+&lt;h2 id="the-idea"&gt;The Idea
+&lt;/h2&gt;&lt;p&gt;Circular progress bars are unique. They rotate while selectively revealing parts of the circle, which isn&amp;rsquo;t immediately straightforward.&lt;/p&gt;
+&lt;p&gt;I drew inspiration from a &lt;a class="link" href="http://greenzorro.github.io/demo/css/%E7%8E%AF%E5%BD%A2%E8%BF%9B%E5%BA%A6%E6%9D%A1.html" target="_blank" rel="noopener"
+&gt;CSS3 circular progress bar&lt;/a&gt; I created earlier. The core concept involves splitting the circle in half. The dark green (progress) is the background and remains static. Two light green semicircles cover it, rotating sequentially to reveal the progress.&lt;/p&gt;
+&lt;p&gt;To create a ring, add a smaller circle on top. AE layer masks achieve a similar effect (explained later).&lt;/p&gt;
+&lt;p&gt;AE can create a truly transparent circular progress bar, but the core principle remains: rotating two semicircles independently. See the diagram below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/2.gif"
+loading="lazy"
+alt="Demonstration gif of the rotation principle using red, blue, and purple semicircles"
+&gt;&lt;/p&gt;
+&lt;p&gt;Divide the circle into left (red) and right (blue) semicircles, restricting their visibility to their respective halves. Add a static right semicircle (purple) underneath. Let&amp;rsquo;s break it down step by step.&lt;/p&gt;
+&lt;h2 id="left-right-and-background-semicircles"&gt;Left, Right, and Background Semicircles
+&lt;/h2&gt;&lt;p&gt;First, prepare the three semicircles.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/1.png"
+loading="lazy"
+alt="Three static semicircle layers prepared in the After Effects timeline"
+&gt;&lt;/p&gt;
+&lt;p&gt;Create a 720p composition.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/2.png"
+loading="lazy"
+alt="Composition Settings panel in AE set to 1280x720 resolution"
+&gt;&lt;/p&gt;
+&lt;p&gt;Draw a 400x400 circle.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/3.png"
+loading="lazy"
+alt="Setting the ellipse path size to 400x400 in AE shape layer"
+&gt;&lt;/p&gt;
+&lt;p&gt;Set the circle&amp;rsquo;s position (not the shape layer&amp;rsquo;s) to 0, 0 for perfect centering.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/4.png"
+loading="lazy"
+alt="Centering the ellipse path by setting its position to 0,0 in AE"
+&gt;&lt;/p&gt;
+&lt;p&gt;In the same shape layer, draw a 200x400 rectangle (half the circle&amp;rsquo;s size).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/5.png"
+loading="lazy"
+alt="Creating a 200x400 rectangle path in the same shape layer"
+&gt;&lt;/p&gt;
+&lt;p&gt;Set the rectangle&amp;rsquo;s position to -100, 0 to cover the circle&amp;rsquo;s left half. This rectangle will cut out the semicircle.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/6.png"
+loading="lazy"
+alt="Positioning the rectangle at -100,0 to cover the left half of the circle"
+&gt;&lt;/p&gt;
+&lt;p&gt;Click &amp;ldquo;Add&amp;rdquo; and choose &amp;ldquo;Merge Paths&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/7.png"
+loading="lazy"
+alt="Selecting Merge Paths option from the Add menu in AE shape layer"
+&gt;&lt;/p&gt;
+&lt;p&gt;Set the mode to &amp;ldquo;Intersect&amp;rdquo; (like path operations in PS/AI).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/8.png"
+loading="lazy"
+alt="Setting the Merge Paths mode to Intersect in After Effects"
+&gt;&lt;/p&gt;
+&lt;p&gt;Group (Command/Ctrl + G) the circle, rectangle, and Merge Paths. This is our semicircle.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/9.png"
+loading="lazy"
+alt="Grouping the ellipse, rectangle, and Merge Paths inside Group 1"
+&gt;&lt;/p&gt;
+&lt;p&gt;Expand the group, copy the inner rectangle, and paste it outside the group.&lt;/p&gt;
+&lt;p&gt;This new rectangle acts as a vector mask. AE&amp;rsquo;s built-in masks rotate with the layer, which we don&amp;rsquo;t want. We need a stationary mask and a rotating semicircle. So, we use &amp;ldquo;Merge Paths&amp;rdquo; again.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/10.png"
+loading="lazy"
+alt="Adding a second rectangle and Merge Paths outside Group 1 for masking"
+&gt;&lt;/p&gt;
+&lt;p&gt;Add -&amp;gt; Merge Paths, setting the mode to &amp;ldquo;Intersect&amp;rdquo;. This creates the intersection of the new rectangle and the group.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/11.png"
+loading="lazy"
+alt="Rotating Group 1 in AE, with parts outside the mask hidden"
+&gt;&lt;/p&gt;
+&lt;p&gt;Rotating the group now shows that the area outside the rectangle is hidden.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/12.png"
+loading="lazy"
+alt="Adding a keyframe to the rotation property of Group 1"
+&gt;&lt;/p&gt;
+&lt;p&gt;Reset the rotation and add a keyframe to the group&amp;rsquo;s rotation (for later use). Press &amp;ldquo;u&amp;rdquo; to quickly access keyframed properties.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/13.png"
+loading="lazy"
+alt="Renaming the shape layer to Left Semicircle in the timeline"
+&gt;&lt;/p&gt;
+&lt;p&gt;Name this layer &amp;ldquo;Left Semicircle&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/14.png"
+loading="lazy"
+alt="Setting the outer mask rectangle position of Right Semicircle layer to 100,0"
+&gt;&lt;/p&gt;
+&lt;p&gt;Duplicate the layer (Command/Ctrl + D) for the right semicircle. Set the &lt;em&gt;outer&lt;/em&gt; rectangle&amp;rsquo;s position to 100, 0 (covering the right half). Nothing appears because the semicircle is still on the left.&lt;/p&gt;
+&lt;p&gt;To clarify: the inner circle and rectangle form the rotating semicircle. The outer rectangle is the mask. The left semicircle&amp;rsquo;s mask covers the left; the right semicircle&amp;rsquo;s mask covers the right. Together, they form a full circle.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/15.png"
+loading="lazy"
+alt="Left, Right, and Background Semicircle layers ordered in the AE timeline"
+&gt;&lt;/p&gt;
+&lt;p&gt;Duplicate the right semicircle, rename it &amp;ldquo;Background Semicircle,&amp;rdquo; and move it to the bottom. Set the &lt;em&gt;inner&lt;/em&gt; rectangle&amp;rsquo;s position to 100, 0. The circle becomes whole again.&lt;/p&gt;
+&lt;p&gt;The static assets are now ready.&lt;/p&gt;
+&lt;h2 id="creating-the-rotation-animation"&gt;Creating the Rotation Animation
+&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s animate the semicircles.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/16.png"
+loading="lazy"
+alt="AE timeline showing only rotation properties with keyframes"
+&gt;&lt;/p&gt;
+&lt;p&gt;Press &amp;ldquo;u&amp;rdquo; to show only the rotation property with the keyframe. This is the &lt;em&gt;group&amp;rsquo;s&lt;/em&gt; rotation, not the layer&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;Remove keyframes from the right and background semicircles&amp;rsquo; rotation. Keep the right semicircle&amp;rsquo;s rotation property visible.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/17.png"
+loading="lazy"
+alt="Enabling the Solo switch for Left Semicircle layer in AE"
+&gt;&lt;/p&gt;
+&lt;p&gt;Click the dot on the left semicircle layer to solo it (like Alt + clicking the layer eye in PS).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/18.png"
+loading="lazy"
+alt="Creating a 360-degree rotation animation keyframe for Left Semicircle"
+&gt;&lt;/p&gt;
+&lt;p&gt;Create a simple animation: one full rotation.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/19.png"
+loading="lazy"
+alt="Activating expression input on Right Semicircle’s rotation by Alt-clicking"
+&gt;&lt;/p&gt;
+&lt;p&gt;Important: Alt + click the right semicircle&amp;rsquo;s rotation property. An expression appears in the timeline.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/20.png"
+loading="lazy"
+alt="Linking Right Semicircle’s rotation to Left Semicircle using Pick Whip"
+&gt;&lt;/p&gt;
+&lt;p&gt;Drag the right semicircle&amp;rsquo;s rotation property&amp;rsquo;s pick whip (spiral icon) to the left semicircle&amp;rsquo;s rotation property. The expression updates.&lt;/p&gt;
+&lt;p&gt;Alt + clicking activated the expression. Dragging the pick whip links the right semicircle&amp;rsquo;s rotation to the left&amp;rsquo;s. Now, the right semicircle always follows the left.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/21.png"
+loading="lazy"
+alt="Disabling Solo switch on Left Semicircle layer to restore view"
+&gt;&lt;/p&gt;
+&lt;p&gt;Turn off solo display for the left semicircle.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/22.png"
+loading="lazy"
+alt="Red, blue, and purple colored semicircles visible in the AE canvas"
+&gt;&lt;/p&gt;
+&lt;p&gt;For clarity, fill the semicircles with different colors (for demonstration only).&lt;/p&gt;
+&lt;p&gt;Use red for the left, blue for the right, and purple for the background semicircle, matching the &amp;ldquo;Idea&amp;rdquo; section&amp;rsquo;s diagram.&lt;/p&gt;
+&lt;h2 id="finding-the-critical-frame"&gt;Finding the Critical Frame
+&lt;/h2&gt;&lt;p&gt;Play the animation. It&amp;rsquo;s incorrect: the left semicircle is visible initially. It should appear only after the right semicircle rotates halfway. The same applies to the background semicircle.&lt;/p&gt;
+&lt;p&gt;We need a specific frame where the left and background semicircles are hidden.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/23.png"
+loading="lazy"
+alt="Locating the playback head at the critical 180-degree rotation frame"
+&gt;&lt;/p&gt;
+&lt;p&gt;This critical frame is when the right semicircle reaches 180 degrees (or slightly more).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/24.png"
+loading="lazy"
+alt="Trimming the in-points of Left and Background Semicircles to the critical frame"
+&gt;&lt;/p&gt;
+&lt;p&gt;Select the left and background semicircles and trim their timelines&amp;rsquo; left ends to this frame. They won&amp;rsquo;t appear too early now.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/25.png"
+loading="lazy"
+alt="Clicking the Graph Editor button to adjust motion curves in AE"
+&gt;&lt;/p&gt;
+&lt;p&gt;Playback is now correct!&lt;/p&gt;
+&lt;p&gt;The constant-speed rotation is unnatural. Open the Graph Editor (graph icon). Select the left semicircle&amp;rsquo;s rotation to see a straight line.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/26.png"
+loading="lazy"
+alt="Converting linear keyframes to Bezier curves in Graph Editor"
+&gt;&lt;/p&gt;
+&lt;p&gt;Select the line and click the two-handled icon. The line curves, and handles appear.&lt;/p&gt;
+&lt;p&gt;The Graph Editor is simple: the horizontal axis is time; the vertical is value change. A flat curve means slow change; a steep curve means fast change.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/27.png"
+loading="lazy"
+alt="Adjusting the Bezier handle to create an ease-out speed curve"
+&gt;&lt;/p&gt;
+&lt;p&gt;For a fast-start, slow-end animation, adjust the curve like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/28.png"
+loading="lazy"
+alt="Re-aligning layer in-points based on the newly adjusted ease curve"
+&gt;&lt;/p&gt;
+&lt;p&gt;Find the critical frame again (right semicircle at 180 degrees or slightly beyond).&lt;/p&gt;
+&lt;h2 id="adding-a-mask"&gt;Adding a Mask
+&lt;/h2&gt;&lt;p&gt;The circular progress bar is done; let&amp;rsquo;s make it a ring.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/29.png"
+loading="lazy"
+alt="Right-clicking the selected layers to choose Pre-compose in AE"
+&gt;&lt;/p&gt;
+&lt;p&gt;Select all layers and Pre-compose (right-click).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/30.png"
+loading="lazy"
+alt="Confirming settings in the Pre-compose options dialog in AE"
+&gt;&lt;/p&gt;
+&lt;p&gt;The three layers merge (like a Smart Object in PS or Movie Clip in Flash).&lt;/p&gt;
+&lt;p&gt;Create a mask (Command/Ctrl + Shift + N) - AE&amp;rsquo;s built-in layer mask.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/31.png"
+loading="lazy"
+alt="Adding a full-size rectangular mask to the new pre-composition layer"
+&gt;&lt;/p&gt;
+&lt;p&gt;The mask is a rectangle. Expand the mask menu and click &amp;ldquo;Mask Path&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/32.png"
+loading="lazy"
+alt="Opening the Mask Shape settings dialog to redefine the mask bounds"
+&gt;&lt;/p&gt;
+&lt;p&gt;Set the four values (top, left, bottom, right) as shown, and check the box to make it a circle.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/33.png"
+loading="lazy"
+alt="Setting the mask coordinates and checking Reset to Ellipse option"
+&gt;&lt;/p&gt;
+&lt;p&gt;These numbers ensure the circular mask matches the progress bar&amp;rsquo;s size and position.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/34.png"
+loading="lazy"
+alt="Checking the Inverted option on the mask to hide the inner circle"
+&gt;&lt;/p&gt;
+&lt;p&gt;Check &amp;ldquo;Inverted&amp;rdquo;. The circle disappears because the mask now shows the area &lt;em&gt;outside&lt;/em&gt; it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/35.png"
+loading="lazy"
+alt="Scaling down the inverted circular mask from center to form the ring"
+&gt;&lt;/p&gt;
+&lt;p&gt;Select the mask and press Command/Ctrl + T.&lt;/p&gt;
+&lt;p&gt;Hold Command/Ctrl + Shift to scale from the center, making it slightly smaller. The ring appears.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-02/02-09/1.gif"
+loading="lazy"
+alt="The final animated circular progress bar created in After Effects"
+&gt;&lt;/p&gt;
+&lt;p&gt;Done! That&amp;rsquo;s the progress bar I wanted.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;This tutorial is lengthy, focusing on the concepts. The actual process is simple and takes about 5 minutes with practice.&lt;/p&gt;
+&lt;p&gt;For the lazy, here&amp;rsquo;s the source file: &lt;a class="link" href="http://pan.baidu.com/s/1eQxSE6A" target="_blank" rel="noopener"
+&gt;Here&amp;rsquo;s the source file&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a beginner, so this might not be the &lt;em&gt;best&lt;/em&gt; method, just &lt;em&gt;a&lt;/em&gt; method. Path animations might offer a simpler solution.&lt;/p&gt;
+&lt;p&gt;Share if you have a better method!&lt;/p&gt;
+&lt;p&gt;[Update: I received immediate feedback. &amp;ldquo;Radial Wipe&amp;rdquo; and &amp;ldquo;Trim Paths&amp;rdquo; are easier. &amp;ldquo;Radial Wipe&amp;rdquo; is a one-step solution. See the &amp;ldquo;Growing Circle&amp;rdquo; section in &lt;a class="link" href="http://www.zcool.com.cn/article/ZNDkzNDg=.html" target="_blank" rel="noopener"
+&gt;this article&lt;/a&gt;.]&lt;/p&gt;</description></item></channel></rss>

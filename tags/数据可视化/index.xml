@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据可视化 on Victor42</title><link>https://victor42.eth.limo/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/</link><description>Recent content in 数据可视化 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>Excel自制儿童生长曲线</title><link>https://victor42.eth.limo/post/3641/</link><pubDate>Thu, 03 Aug 2023 14:30:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3641/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg" alt="Featured image of post Excel自制儿童生长曲线" /&gt;&lt;p&gt;Excel狂魔上线，看完你会觉得我们可能用的不是同一个Excel&lt;/p&gt;
+&lt;p&gt;一篇把Excel玩出花来的折腾笔记，涉及数据可视化、AI工具、统计学、Excel公式。不用担心，我会以数据小白的角度来写，最基础的概念我都会解释。&lt;/p&gt;
+&lt;p&gt;不少宝爸宝妈使用育儿App来记录宝贝的生长，追踪身高体重变化。实际上，育儿App那么多功能，我也就用这一项，就为这个就要在手机上装个大几百Mb的App，这让我动了卸载的念头。我也不是真缺这几百Mb，只是忽然意识到，这也是个练手的好机会。不就是个数据分析工具嘛，我万能的Excel会搞不定？&lt;/p&gt;
+&lt;h2 id="系统规划"&gt;系统规划
+&lt;/h2&gt;&lt;p&gt;动手前，想清楚这事情该怎么做。首先来看看育儿App的生长曲线是怎么回事。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/4b1f944ddce86b103a4d13f3d87cc292.jpg"
+loading="lazy"
+alt="宝宝树App体重曲线页面，横轴为月龄从8个月到14个月，纵轴为体重kg从4到44，显示3%/25%/50%/75%/97%五条参考线，绿色数据点沿50%线附近分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;这是宝宝树的儿童生长曲线。中间的50%线是中位数，如果我宝贝的身高（体重）刚好落在这条线上，说明这个月龄比她高（重）的宝贝和比她矮（轻）的宝贝人数大概一样多。往上的75%线和97%线，表示这个位置身高（体重）超过75%和97%的同龄宝贝，往下的25%和3%同理。看宝贝的数据点落在什么位置，大概就知道她生长状况相对整体如何。&lt;/p&gt;
+&lt;p&gt;我要的也是一个类似的分析工具，它应该具有以下能力：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;能记录宝贝每次测得的身高体重&lt;/li&gt;
+&lt;li&gt;能查询各月龄的身高体重正常范围&lt;/li&gt;
+&lt;li&gt;能清晰表达我宝贝各月龄身高体重偏离正常范围的程度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;至于这东西是不是个图表、有没有曲线，不重要。重要的是第3点，它的计算能力，能衡量偏离程度，并用一种直观的方式表示出来。这一点我认真构思了一下，觉得比较适合的表现形式是有两个方向的条形图，类似这种：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/51645a0d58eb8f178201bf94e5759ab0.jpg"
+loading="lazy"
+alt="双向条形图Birth Rate by Years，中间为年份1940-2010，左侧橙色条表示20-25岁母亲生育率，右侧蓝色条表示30-35岁母亲生育率"
+&gt;&lt;/p&gt;
+&lt;p&gt;这类图表叫做diverging bar chart，不知道中文叫什么。它可以把两组数据在同一个维度上两两对比。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/e448352c2994787d901a185b08c8d234.jpg"
+loading="lazy"
+alt="R语言Diverging Bars示例图，展示mtcars数据集汽车油耗与均值偏差，绿色Above Average向右，红色Below Average向左"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果只用来表达一组数据，它反映的就是该数据围绕某个基准值的方向及距离，最常见是表达正负。&lt;/p&gt;
+&lt;p&gt;这很适合用来表示我宝贝的生长数据，以参考值的中等水平作为基准值，表现女儿的身高（体重）是偏低了还是偏高。至于偏离基准值多远，图表用柱子长短来表达，柱子长短的差异有时不是那么明显，我觉得应该进一步简化，只使用符号。低于基准值用减号，高于基准值用加号，偏离越多符号就越多，这样当我看到三、四个加号（+++）减号（&amp;mdash;-）时，就知道宝贝的生长趋势该引起重视了。&lt;/p&gt;
+&lt;h2 id="准备数据"&gt;准备数据
+&lt;/h2&gt;&lt;p&gt;有了具体目标，该开始干活了。先实现前2项能力：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;能记录宝贝每次测得的身高体重&lt;/li&gt;
+&lt;li&gt;能查询各月龄的身高体重正常范围&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="宝贝生长数据"&gt;宝贝生长数据
+&lt;/h3&gt;&lt;p&gt;宝贝的身高体重数据存在宝宝树App里，形式如图（月龄的左边还有一行日期，不想暴露女儿生日，没截进来）：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/235b2773b1b549f5fd1e0f7c0109a66e.jpg"
+loading="lazy"
+alt="宝宝树App儿童生长记录列表截图，显示1岁3个月17天/1岁2个月16天/1岁1天/11个月15天/9个月25天等记录，包含身高cm/体重kg/头围cm数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;宝宝树没有数据导出功能。虽然我可以一条条手动输入到Excel，但难道不该用聪明点的办法吗？&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/129e9d7d3955d9993665691008c1ed88.jpg"
+loading="lazy"
+alt="Google Play商店ScreenMaster Screenshot Markup应用页面，Blossgraph开发，4.5星77.6K评价，5M&amp;#43;下载量"
+&gt;&lt;/p&gt;
+&lt;p&gt;我先把宝宝树里的记录一屏一屏截下来，用了一个叫Screen Master的Android应用拼成长图。&lt;/p&gt;
+&lt;p&gt;然后使用白描OCR工具（&lt;a class="link" href="https://web.baimiaoapp.com/" target="_blank" rel="noopener"
+&gt;https://web.baimiaoapp.com/&lt;/a&gt;）从长图中识别出文字，得到如下右侧结果：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/406e2e8b96b201bcd2c1dc7f81b6ca28.jpg"
+loading="lazy"
+alt="白描OCR网页端截图，左侧Origin Photo显示宝宝树生长记录截图，右侧Results显示识别出的文字内容，日期/身高/体重/头围数据混排"
+&gt;&lt;/p&gt;
+&lt;p&gt;这样格式错乱混在一起，乍看没法用。但在AI时代，这都不是事儿。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/804e5aee1ef71590beb2ce89bce6c424.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求将OCR识别内容改成表格形式，以日期为索引值首列，日期后面信息填入第2列以空格分隔"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/8d39c1dc3fbfcf00e004039bbd048a6c.jpg"
+loading="lazy"
+alt="ChatGPT输出表格截图，日期列和信息列两列，信息列包含年龄/体重/身高/体重/头围等混合数据"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/b8eb3273e39b3b1bd4f907e3b3be96ce.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把日期列改成M/D/YYYY的格式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/a9d0f842c04bd04b253d65f8f1859aae.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把信息列里的几岁几个月几天这样的信息删掉"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/ec608ab8c15ca818cd40b3a43f3efc6b.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把信息列拆分成身高/体重/头围三列，kg单位数据填入体重列，cm单位数据填入身高列，第二个cm数据填入头围列"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/288d76243237d4eb503a3277996cf976.jpg"
+loading="lazy"
+alt="ChatGPT对话截图，用户提示词要求把每列的单位写到表头里，列内容只保留数值，同时把头围列里的补充营养提示删掉"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/375eb891054588a05fca2c0829970791.jpg"
+loading="lazy"
+alt="ChatGPT输出清洗后表格截图，包含日期/身高cm/体重kg/头围cm四列，日期列模糊处理，数值列仅保留数字"
+&gt;&lt;/p&gt;
+&lt;p&gt;搞定！复制到Excel即可。补充一下，表里的日龄、月龄、年龄是用记录日期减去女儿生日得到的，自动计算无需手填。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/46d9b3e18b0c825b6cd33a70f32a6b75.jpg"
+loading="lazy"
+alt="Excel儿童生长记录表截图，包含日期/日龄/月龄/年龄/身高cm/体重kg六列，日期列模糊处理，日龄从0到151，月龄从0到5"
+&gt;&lt;/p&gt;
+&lt;h3 id="正常范围标准"&gt;正常范围标准
+&lt;/h3&gt;&lt;p&gt;各月龄的身高体重参考值，在卫健委的网站可以找到。2022年发布的标准，还蛮新的，编号是WS/T 423—2022，跟宝宝树同一个数据源：
+&lt;a class="link" href="http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf" target="_blank" rel="noopener"
+&gt;http://www.nhc.gov.cn/fzs/s7848/202211/8b94606198e8457dafb3f8355135f1a3/files/e38068f0a62d4a1eb1bd451414444ec1.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;里面找到了格式如下的数据，正是我要的：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/344c3b29e936a24e30101cc5f27f1488.jpg"
+loading="lazy"
+alt="卫健委7岁以下女童年龄别体重标准差数值表，包含年龄/-3SD/-2SD/-1SD/中位数/&amp;#43;1SD/&amp;#43;2SD/&amp;#43;3SD八列，从0月到2岁6月逐行列出"
+&gt;&lt;/p&gt;
+&lt;p&gt;稍微解释下这个表格的意思。中位数前面讲过，这里最关键的是看懂这个“SD”，Standard Deviation，标准差。这是个非常基础的统计学术语，在解释标准差之前，我们需要先了解正态分布。要知道，卫健委统计的儿童身高体重，样本量一定是非常大的，也就是说测量了很多很多儿童的身高体重。身高体重这种随机产生的数据，只要样本量够大，每个儿童的数值就会围绕平均数（这里它用的是中位数，与平均数应该很接近）呈正态分布。这是正态分布的样子：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg"
+loading="lazy"
+alt="正态分布钟形曲线图，横轴标注μ-3σ到μ&amp;#43;3σ，纵轴为概率密度，标注68.26%/95.44%/99.72%三个标准差区间占比"
+&gt;&lt;/p&gt;
+&lt;p&gt;横向是身高（体重）的值，由小到大，纵向是该身高（体重）对应的儿童人数。中央的垂直虚线代表中位数，绝大多数儿童的数据落在中位数附近，说明还是中等水平的儿童最多。越往两边去，人数越少，说明身高（体重）值特别低或者特别高的人很少，情况越极端，人数越少。&lt;/p&gt;
+&lt;p&gt;现在说回标准差。我们不谈公式，不做计算，不必关心它怎么来的，我们关心的是标准差和正态分布的关系。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/2b2b910f2dd8817ba9f1a621ad78b6f0.jpg"
+loading="lazy"
+alt="正态分布钟形曲线图，横轴标注μ-3σ到μ&amp;#43;3σ，纵轴为概率密度，标注68.26%/95.44%/99.72%三个标准差区间占比"
+&gt;&lt;/p&gt;
+&lt;p&gt;标准差体现在正态分布图上，就是每两根垂直虚线间的距离，这些虚线是等距的。怎么理解标准差？它是正态分布的一把标尺，通过标准差，我们可以准确知道某个范围内的数据占总数的比例。比如我们可以说，有68%的儿童，身高（体重）在中位数上下一个标准差范围内。有95%的儿童，身高（体重）在上下两个标准差范围内。&lt;/p&gt;
+&lt;p&gt;要注意它名字里有“标准”二字，这两个字可不是随便说说的。标准差是正态分布的一个独特性质，不同的数据集算出的标准差数值可能不一样，但比例却是一致的。只要是正态分布，它1个、2个、3个标准差范围对应的占比就一定是68%、95%、99.7%，这就是神奇的地方。生活中各种各样的随机数据，都会呈现正态分布。所以只要我们知道了平均值（或中位数）和标准差，就可以知道手上任何一个数据在整体中所处的位置。&lt;/p&gt;
+&lt;p&gt;现在，回来处理数据，把卫健委表格复制到Excel，年龄全部折算成月龄：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/f3531f73796d53d8ffbdc8780b0177ab.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，包含月龄/体重-3SD到&amp;#43;3SD/身高-3SD到&amp;#43;3SD共17列，月龄从0到33逐行列出标准差数值"
+&gt;&lt;/p&gt;
+&lt;p&gt;表格里列出了每个月龄儿童身高（体重）中位数是多少，低于和高于中位数1、2、3个标准差位置的数值分别是多少。这就是我要的判断依据，知道女儿的身高（体重）在同龄宝贝里处于什么位置，相对于中等水平偏离得严不严重。&lt;/p&gt;
+&lt;h2 id="绘制曲线"&gt;绘制曲线
+&lt;/h2&gt;&lt;p&gt;接下来，要啃硬骨头了，来实现第3个能力，“表达我宝贝在相应月龄身高体重偏离正常范围多少”，这是实打实的Excel技巧。&lt;/p&gt;
+&lt;p&gt;现在我的Excel里有两张表格，一张记录着我宝贝各月龄的数据表，一张列出各月龄的正常值范围的参照表。我要做的是在宝贝数据表里新增几列偏离列，在里面查询参照表，得出偏离程度，以加减号的形式表现出来。减号写在左列，靠右对齐；加号写在右列，靠左对齐。这就实现了简化版diverging bar chart。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/45fffc7570cacc97388e354a71345ff4.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，包含日期/日龄/月龄/年龄/身高cm/身高偏离/体重kg/体重偏离八列，偏离列待填充"
+&gt;&lt;/p&gt;
+&lt;h3 id="匹配对照月龄"&gt;匹配对照月龄
+&lt;/h3&gt;&lt;p&gt;这个事情想想是不难，不就是拿vlookup去查嘛，月龄对上，然后一堆If嵌套对比数值大小，输出符号，肯定能搞定。&lt;/p&gt;
+&lt;p&gt;一动手发现没那么简单，因为卫健委表格的月龄有断档：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/5c73a637afedb7ab9c0b2aefb5cc7feb.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，红框标注24/27/30/33月龄行，显示2岁后每3个月才有一行数据，存在月龄断档"
+&gt;&lt;/p&gt;
+&lt;p&gt;它从2周岁开始，每3个月才出一行数据。这很合理，宝贝过了2周岁后，生长确实没有婴儿时那么快了，没必要那么频繁去追踪。但这影响到我的查询方法，如果我在宝贝25月龄的时候记录身高体重，直接用vlookup去查，什么也匹配不到，后续的计算便无从谈起。&lt;/p&gt;
+&lt;p&gt;此时有个土办法，规整数据，手动补全参照表。把缺失的月龄加上，用更小月龄的参照值来填充。比如把25、26月龄的参照标准都填成24月龄的。&lt;/p&gt;
+&lt;p&gt;但这是练手项目啊，拒绝土办法。我要在宝贝数据表里实现智能匹配！&lt;/p&gt;
+&lt;p&gt;于是再增加一个隐藏列，用来计算每行的月龄对应参照表里多大月龄。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/301413489ba78fc5a651e39f21d3ae30.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，红框标注新增的对照月龄列，显示月龄25时匹配24，月龄30时匹配30，实现向下匹配参照表"
+&gt;&lt;/p&gt;
+&lt;p&gt;这一列的公式如下：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(A2),&amp;#34;&amp;#34;,INDEX(&amp;#39;生长对照表&amp;#39;!A$3:A$46,COUNTIFS(&amp;#39;生长对照表&amp;#39;!A$3:A$46,&amp;#34;&amp;lt;=&amp;#34;&amp;amp;C2),0))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;翻译成人话是：先查日期列是不是空的，它空我也空。如果不是，就去参照表里数一数比宝贝月龄小或者相等的有多少行，这就实现了向下匹配。&lt;/p&gt;
+&lt;p&gt;在2周岁以前，月龄与对照月龄一定是相同的。我手动测试了一下，25月龄时如果有记录，它会匹配24月龄作为参照。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/fc8aef6e656e32053bdb2919ec2700b6.jpg"
+loading="lazy"
+alt="Excel表格截图显示#REF!错误，月龄25行对照月龄显示24，红框标注该行，演示公式引用错误情况"
+&gt;&lt;/p&gt;
+&lt;h3 id="计算偏离程度"&gt;计算偏离程度
+&lt;/h3&gt;&lt;p&gt;有了对照月龄列，不担心参照表匹配不上，现在可以放心在偏离列里做计算了。&lt;/p&gt;
+&lt;p&gt;以身高偏低列的公式为例：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(F2),&amp;#34;&amp;#34;,IF(F2&amp;gt;VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;&amp;#34;,IF(F2=VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;=&amp;#34;,REPT(&amp;#34;-&amp;#34;,5-RANK(F2,{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)},1)))))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;啊……这个公式就有点丧心病狂了，我要先拆解一下再翻译。从外向里看，分为3层：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第1层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=IF(ISBLANK(F2),&amp;#34;&amp;#34;,IF(F2&amp;gt;VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;&amp;#34;,IF(F2=VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,12),&amp;#34;=&amp;#34;,第2层)))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这部分先看身高列是不是空的，它空我也空。如果不是，就开始把它与参照表对比，查出对应的身高中位数是多少。如果高于中位数，这列留空（这列专填减号）；如果等于中位数，写个等号“=”；如果低于中位数，就进入第二层，输出一定数量的减号。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第2层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;REPT(&amp;#34;-&amp;#34;,第3层)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;原本是打算用一层又一层的 If 条件判断来决定输出几个减号，后来想想这方法也有点傻。这就是简单的方法，Rept函数可以把一个字符串重复输出一定次数。现在问题甩给第3层，计算要输出减号的数量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第3层&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;5-RANK(F2,{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)},1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此处用到一个Excel隐藏技巧：数组。Excel公式里引用一个范围，这就构成一个数组，我们大多数时候就是这么用的。但你知道吗？可以像编程软件那样，在Excel里手动创建数组，关键就是这个大括号 &lt;code&gt;{}&lt;/code&gt; 。比如 &lt;code&gt;{1,2,3,4}&lt;/code&gt; 在Excel公式里就等效于这个：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/9d271467e501fa6968180d9823103a40.jpg"
+loading="lazy"
+alt="Excel单元格自动填充截图，A列显示0到9数字序列，蓝色填充柄在A5单元格右下角，演示拖拽填充功能"
+&gt;&lt;/p&gt;
+&lt;p&gt;但数组的用法更灵活，可以手动把八竿子打不到一块的数据凑在一起。单看 &lt;code&gt;{}&lt;/code&gt; 里的内容：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{F2,VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,11),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,10),VLOOKUP(E2,&amp;#39;生长对照表&amp;#39;!A$3:O$46,9)}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/914ce9b22412179eaa9415e224c6d770.jpg"
+loading="lazy"
+alt="Excel生长对照表截图，红框标注-3SD/-2SD/-1SD三列身高数据，数值从44.7到61递增，用于数组公式引用"
+&gt;&lt;/p&gt;
+&lt;p&gt;我这个数组，把宝贝的身高（F2）和-1、-2、-3个标准差的身高值放在一个数组里。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;RANK(F2,数组,1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后用Rank函数做个排序，得出宝贝身高在这4个数值里从小到大排第几。最后再用5减去这个数字，就得到减号的数量。至于为什么是用5减，这是个数学问题，不展开，但分情况想想就很容易理解了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/e71ea17395838cdb234236768730de02.jpg"
+loading="lazy"
+alt="Excel生长记录表截图，红框标注身高偏离和体重偏离两列，显示–/-/=/&amp;#43;/&amp;#43;&amp;#43;等符号表示偏离程度"
+&gt;&lt;/p&gt;
+&lt;p&gt;用类似原理，改出另外3个偏离列的公式，效果立竿见影。几个符号表示宝贝的数值在几个标准差范围内。根据正态分布的特征，95%的儿童生长数据都在2个标准差范围内，所以看到2个符号时，我没什么需要担心的，目前为止宝贝一切正常。&lt;/p&gt;
+&lt;h3 id="数据可视化"&gt;数据可视化
+&lt;/h3&gt;&lt;p&gt;既然要做数据可视化，就要让值得留意的数据更显眼，一目了然。加减号的效果稍微糙了点。&lt;/p&gt;
+&lt;p&gt;其实用不着多复杂的图形设计、高级渐变色之类的。要突出异常值，只需要用区别足够明显的符号代替加减号，再简单写个条件格式，用背景色区分就能达到目的，我自己用足够了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/c45040a172c150fd67749caeb6549102.jpg"
+loading="lazy"
+alt="Excel条件格式规则管理器截图，显示身高偏离和体重偏离列的条件格式规则，3个符号黄色背景，4个符号红色背景"
+&gt;&lt;/p&gt;
+&lt;p&gt;3个符号它代表宝贝的数值低于或高于95%的同龄儿童，需要引起重视了，用黄色。4个符号表示低于或高于99.7%的同龄儿童，用红色。我手动改了几个极端值出来，实际效果如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2023-08/0b4602d0fa83edea5c83a597832254fa.jpg"
+loading="lazy"
+alt="Excel生长记录表最终效果截图，身高偏离和体重偏离列应用条件格式，黄色高亮3个符号，红色高亮4个符号，直观显示偏离程度"
+&gt;&lt;/p&gt;
+&lt;h2 id="后记"&gt;后记
+&lt;/h2&gt;&lt;p&gt;搞定，收工！现在可以把育儿App卸了，愉快按下叉叉按钮。&lt;/p&gt;
+&lt;p&gt;这类生长记录小工具，我相信有很多现成的，但自己创造的乐趣是它们无法替代的。像其中的数组、Rept函数、Rank函数，都是现学现用，收获很大。这里面最有意思的部分其实是前期的规划构思，真正动起手来，整个过程1小时就搞定了。&lt;/p&gt;
+&lt;p&gt;它印证了多种知识、工具、技巧相互组合的威力。见招拆招，总能有效解决问题。&lt;/p&gt;
+&lt;p&gt;最后说明一下，我们用的真的不是同一个Excel，我更喜欢用Google Sheets。如果想要在Excel里重复我的实验，未必能成功。可能少数细节要变通一下，但两者的公式和用法是高度一致的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;【2024.1.18 更新】
+有些朋友想要表格文件，我亲自尝试了下，转成Excel后部分公式无法正常工作了。因为Excel并不支持把数组常量作为rank的引用范围，而且数组常量里也无法引用其他单元格。所以Office的Excel做这个会相对麻烦，估计得一堆if嵌套了，还是建议大家有条件就用飞书表格或Google Sheets。&lt;/p&gt;
+&lt;p&gt;我把这个表格做了两个可供取用的版本（男宝/女宝）：&lt;/p&gt;
+&lt;p&gt;男宝版：&lt;br&gt;
+&lt;a class="link" href="https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/JlMKw1NiBis8yok62BJcbCZ3n2d?from=from_copylink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;女宝版：&lt;br&gt;
+&lt;a class="link" href="https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink" target="_blank" rel="noopener"
+&gt;https://my.feishu.cn/wiki/RKHuwkXafiS987kLxPIc8jkxnAc?from=from_copylink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>优化数据表格设计</title><link>https://victor42.eth.limo/post/3516/</link><pubDate>Sun, 07 Aug 2016 12:27:25 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3516/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第143期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-08/08-05/1-WtQpQLwaycWzGw-6rMDc2Q.png"
+loading="lazy"
+alt="彩色网格数据表格设计示意图，用不同色块区分单元格数据类型与层级关系"
+&gt;&lt;/p&gt;
+&lt;p&gt;**糟糕的表格。**它们到底问题出在哪里？&lt;/p&gt;
+&lt;p&gt;表格在互联网早期是基础设施之一，之后许多设计师用更新更时髦的布局取而代之。虽然在如今的互联网上很少露面，但是表格在我们基础日常生活中，仍然为我们收集组织了许多信息。&lt;/p&gt;
+&lt;p&gt;例如，我觉得有一份表格可以称之为表格之母：美国的“协调关税表”，长达3550页的表格，列出了每一种可以进口到美国的商品，包括多如牛毛的条目，例如“男士或男孩的大衣、短大衣、披肩、斗篷、厚夹克（包括滑雪衫）、防风服、和类似物品（包括带衬里的、无袖的夹克）”。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-08/08-05/1-NoYxEosGh6slPJUUPE1buw.png"
+loading="lazy"
+alt="美国协调关税表HTS页面截图，展示密集的商品分类编码与税率数据表格"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;不过短大衣到底是什么？&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;数据表格容易使人发火，毫无疑问这要归咎于它们粗糙的设计，看起来糟糕透了。设计是表格的关键：如果处理得当，就能使复杂的数据能够轻松浏览和比较。如果处理不善，它能让信息完全无法理解。&lt;/p&gt;
+&lt;p&gt;我们当然要处理得当，是吧？&lt;/p&gt;
+&lt;h2 id="了解数字"&gt;了解数字
+&lt;/h2&gt;&lt;p&gt;数字生来并不等同。我不是指π和∞（虽然我在派对上经常用）；我是指数字有的是&lt;em&gt;表格数字&lt;/em&gt;，有的是&lt;em&gt;旧体数字&lt;/em&gt;，有的是&lt;em&gt;等高数字&lt;/em&gt;，有的是&lt;em&gt;比例数字&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;下图简明地阐述了&lt;em&gt;旧体数字&lt;/em&gt;和&lt;em&gt;等高数字&lt;/em&gt;之间的区别。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-08/08-05/1-xWe8Z0-KdRwoncgUtIWG7g.png"
+loading="lazy"
+alt="旧体数字Oldstyle与等高数字Lining字体对比，展示数字高度与基线差异"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;旧体数字与等高数字&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;旧体数字在句子中表现很好，在句子当中它们更匹配小写字母的尺寸和间距；等高数字更加统一，强调了一种网格式的表格结构。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;比例数字&lt;/em&gt;和&lt;em&gt;表格数字&lt;/em&gt;之间的区别不是那么明显：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-08/08-05/1-Xj1N2kM1uKC58kRYGxehag.png"
+loading="lazy"
+alt="比例数字Proportional与表格数字Tabular宽度对比，展示等宽对齐效果差异"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;比例数字和表格数字&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;比例数字的设计初衷是保持黑白协调——也就是说字体的尺寸和间距大致相同。相反，表格数字每一个尺寸都相对独立，数字就能纵向对齐。虽然在一两行的情况下，两者区别似乎不大。但使用表格数字，能让大型表格浏览起来更轻松，不易出错。&lt;/p&gt;
+&lt;h3 id="使用等高表格数字的技巧"&gt;使用等高表格数字的技巧
+&lt;/h3&gt;&lt;p&gt;设计时，你需要花点精力，确保用对了数字的类别（等高表格数字并不是默认的）。Adobe产品有一个“opentype”面板，可以对数字进行适当设置，CSS也提供了一种&lt;a class="link" href="https://css-tricks.com/almanac/properties/f/font-feature-settings/" target="_blank" rel="noopener"
+&gt;slightly-cryptic语法&lt;/a&gt;用来开启这个功能。除此之外，稍微搜索一下你就能找到方向。&lt;/p&gt;
+&lt;p&gt;但也有个坏消息：并非所有字体都包含可用的等高表格数字。&lt;a class="link" href="https://www.myfonts.com/fonts/fontfont/ff-meta/" target="_blank" rel="noopener"
+&gt;那些漂亮的非常贵&lt;/a&gt;。有少数例外：优秀的&lt;a class="link" href="https://fonts.google.com/specimen/Work&amp;#43;Sans" target="_blank" rel="noopener"
+&gt;Work Sans&lt;/a&gt;字体是一款带有等高表格数字的免费字体。&lt;/p&gt;
+&lt;p&gt;如果找不到合适的带有等高表格数字的字体，可以退而求其次使用等宽字体——它们看起来更像“代码”，总是很适合在表格中展示数字。而且，新的Apple系统默认字体——旧金山字体，就包含优秀的等高表格数字，并且在小字号情况下表现良好。&lt;/p&gt;
+&lt;h2 id="对齐很重要"&gt;对齐很重要
+&lt;/h2&gt;&lt;p&gt;可以遵循3条半原则：&lt;/p&gt;
+&lt;p&gt;1. 数字应该右对齐
+2. 文字信息左对齐
+3. 表头与数据对齐
+3.5. 不要使用居中对齐&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-08/08-05/1-ReTh9L-cl-QStJVAUVqejA.png"
+loading="lazy"
+alt="维基百科美国各州历年人口统计表，数字右对齐文字左对齐的标准表格布局"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;美国各州历年人口统计——&lt;a class="link" href="https://en.wikipedia.org/wiki/List_of_U.S._states_by_historical_population" target="_blank" rel="noopener"
+&gt;维基百科&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;数字是从右向左读的；这是因为，我们对比数字时，首先看个位，然后十位、百位。多数人也是这么学会算数的——从右边开始，向左移动，在移动中传递数字**[1]**。因此，表格的数字应当右对齐。&lt;/p&gt;
+&lt;p&gt;文字信息是从左向右读（至少在英文中如此）。比较文本元素通常是靠字母表顺序排列：如果两个条目首字母相同，就对比第二个字母，以此类推。如果不采用左对齐，尝试快速浏览文字会使人抓狂。&lt;/p&gt;
+&lt;p&gt;通常，表头应当符合数据的对齐方式。这能保持表格竖直方向整洁，营造一致性和上下文环境。&lt;/p&gt;
+&lt;p&gt;居中对齐会导致表格的行“参差不齐”，浏览条目就会更难，常常需要额外的分隔物或图形元素。&lt;/p&gt;
+&lt;h3 id="最小数位一致--更好的对齐"&gt;最小数位一致 = 更好的对齐
+&lt;/h3&gt;&lt;p&gt;有个简单办法能使表格正确对齐，保持数字的最小数位一致——通常是指小数部分的数位——每一列保持统一。数位展开来讲可以写一整篇文章，那么我在此就简单总结：数位用的越少越好。&lt;/p&gt;
+&lt;h2 id="短小精悍的标签"&gt;短小精悍的标签
+&lt;/h2&gt;&lt;p&gt;使用标签来配合数据至关重要。这些搭配的内容能让表格被更多读者理解，适用于更多的情况。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-08/08-05/1-na9P5f323Pi8sI-kpvLs9w.png"
+loading="lazy"
+alt="NOAA密西西比河洪水水位预报表格，含位置、变化量与多日预测数据的简洁设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;密西西比河洪水预报——&lt;a class="link" href="http://www.srh.noaa.gov/lmrfc/?n=lmrfc-mississippiandohioriverforecast" target="_blank" rel="noopener"
+&gt;NOAA&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="标题"&gt;标题
+&lt;/h3&gt;&lt;p&gt;虽然是老生常谈，但给数据表格起一个清晰简明的标题，与其他的设计决策同等重要。有了好的标题，表格就可以独立使用：它们可以用在许多不同场合中，也可以由外部来源引用。&lt;/p&gt;
+&lt;h3 id="单位"&gt;单位
+&lt;/h3&gt;&lt;p&gt;表格中最常用的标签，是数据的度量单位；通常，每条数据都会重复加上单位。其实不该如此，应该只在每列的第一条数据加上单位。&lt;/p&gt;
+&lt;h3 id="表头"&gt;表头
+&lt;/h3&gt;&lt;p&gt;表头尽可能短；数据表格的设计，应当使注意力集中在数据本身，而且长表头标签会占用过多的视觉空间。&lt;/p&gt;
+&lt;h2 id="尽可能少着墨"&gt;尽可能少着墨
+&lt;/h2&gt;&lt;p&gt;考虑如何装饰表格中的图形元素时，目标应当始终为削弱表格的痕迹，同时精确保持表格的结构。尽可能少“着墨”，就能做到这一点——也就是说，尽可能不给元素加装饰。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2016-08/08-05/1-71B5i6rZMMsryN0pDwuXzw.png"
+loading="lazy"
+alt="2016年美国棒球联盟击球统计数据表，多列密集数值展示极简分隔线设计"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2016年美国棒球联盟击球统计——&lt;a class="link" href="http://www.baseball-reference.com/leagues/NL/2016.shtml" target="_blank" rel="noopener"
+&gt;BaseballReference&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="分隔线"&gt;分隔线
+&lt;/h3&gt;&lt;p&gt;如果在表格中使用适合的对齐方式，分隔线就是多余的。它们最大的贡献，就是让你缩减元素之间的距离，但仍能区分不同元素。即使要用，分隔线也要非常淡，不能妨碍快速浏览。&lt;/p&gt;
+&lt;p&gt;水平分隔线最有用，因为它们能显著减轻长表格在垂直方向的视觉重量，加快大量数值的对比工作，或者从时间中发现趋势。&lt;/p&gt;
+&lt;p&gt;关于分隔线，我有一条未经证实的观念，&lt;strong&gt;间隔条纹很不好&lt;/strong&gt;。真的非常糟糕，信不信由你。&lt;/p&gt;
+&lt;h3 id="背景"&gt;背景
+&lt;/h3&gt;&lt;p&gt;在指示不同领域的数据时，背景是最有用的：例如从单条数据转为总和或平均值。&lt;/p&gt;
+&lt;p&gt;突出显示数据，为数据增加额外信息，或者用于指明与前一时期相比有变化的数据。达成这些目的，不用背景也行。单单用一些图形元素，例如✻、†（我的最爱之一）或▵。&lt;/p&gt;
+&lt;p&gt;而且，表格应当是黑白的。运用彩色来提供组织性或增加含义，也会增加误解或错误的可能，并且引发视觉障碍者的易用性问题。&lt;/p&gt;
+&lt;h2 id="结论"&gt;结论
+&lt;/h2&gt;&lt;p&gt;表格或许很&lt;a class="link" href="https://medium.com/mission-log/well-designed-interfaces-look-boring-568faa4559e0#.e6301amez" target="_blank" rel="noopener"
+&gt;枯燥&lt;/a&gt;，但它们是数据丰富的文档的主要元素，值得我们投入每一丝每一毫的设计思考。设计更有效、简洁、易用的表格，可以极大改善分析理解大量数据时的痛苦体验。&lt;/p&gt;
+&lt;h3 id="延伸阅读与启发"&gt;延伸阅读与启发
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="http://fivethirtyeight.com/features/the-rise-and-rise-of-nneka-ogwumike/" target="_blank" rel="noopener"
+&gt;&lt;strong&gt;FiveThirtyEight&lt;/strong&gt;&lt;/a&gt;是一个很棒的灵感来源——他们用了一种名为&lt;a class="link" href="https://www.myfonts.com/fonts/tipografiaramis/decima-mono/" target="_blank" rel="noopener"
+&gt;Decima Mono&lt;/a&gt;的字体来展现数据，这是专为狭小空间展现大量数据而设计的。&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="http://practicaltypography.com/" target="_blank" rel="noopener"
+&gt;&lt;strong&gt;Butterick的实用字体&lt;/strong&gt;&lt;/a&gt;，我遇到字体相关的事情首先就会来这，其中的许多资料都保存了一份——非常实用！&lt;/p&gt;
+&lt;p&gt;最后，所有的文章和数据设计，如果没有&lt;a class="link" href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00041I" target="_blank" rel="noopener"
+&gt;&lt;strong&gt;Edward Tufte&lt;/strong&gt;&lt;/a&gt;的箴言那都是不完整的。他在设计上的深刻见解不可或缺。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[1]&lt;/strong&gt; 想了解有趣的算数方法，请看日本儿童使用的这种&lt;a class="link" href="https://www.youtube.com/watch?v=Px_hvzYS3_Y" target="_blank" rel="noopener"
+&gt;算盘&lt;/a&gt;，还有&lt;a class="link" href="https://www.khanacademy.org/math/arithmetic/multiplication-division/lattice-multiplication/v/lattice-multiplication" target="_blank" rel="noopener"
+&gt;网格乘法&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/mission-log/design-better-data-tables-430a30a00d8c#.9hag7vx1g" target="_blank" rel="noopener"
+&gt;https://medium.com/mission-log/design-better-data-tables-430a30a00d8c#.9hag7vx1g&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：&lt;a class="link" href="https://medium.com/@ilikescience?source=post_header_lockup" target="_blank" rel="noopener"
+&gt;Matthew Ström&lt;/a&gt;
+Pixel farmer. Partner at &lt;a class="link" href="http://twitter.com/plntary" target="_blank" rel="noopener"
+&gt;@plntary&lt;/a&gt;. &lt;a class="link" href="http://planetary.io/" target="_blank" rel="noopener"
+&gt;http://planetary.io&lt;/a&gt;&lt;/p&gt;</description></item><item><title>为可视化数据寻找适合的配色</title><link>https://victor42.eth.limo/post/3472/</link><pubDate>Sun, 29 Nov 2015 01:29:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3472/</guid><description>&lt;p&gt;&lt;strong&gt;[国外设计第112期]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wG4NGJ_Q3qKm6lyznGMrxQ.jpeg"
+loading="lazy"
+alt="数据可视化配色方案示意图，展示从浅绿到深蓝的多组渐变柱状图"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然如今&lt;a class="link" href="http://flatuicolors.co/" target="_blank" rel="noopener"
+&gt;好的&lt;/a&gt;&lt;a class="link" href="https://www.google.com/design/spec/style/color.html#color-color-palette" target="_blank" rel="noopener"
+&gt;配色&lt;/a&gt;&lt;a class="link" href="http://colorhunt.co/" target="_blank" rel="noopener"
+&gt;方案&lt;/a&gt;已经唾手可得，但为数据可视化找到合适的配色方案，却&lt;a class="link" href="https://medium.com/data-lab/i-went-a-little-crazy-trying-to-choose-charted-s-colors-8d4182c1d324" target="_blank" rel="noopener"
+&gt;仍是一项巨大挑战&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;在Graphiq，事情甚至更加棘手，因为我们要通过上千种各不相同的数据集合来传递信息，它们&lt;a class="link" href="https://medium.com/graphiq-engineering/visualizing-the-world-s-knowledge-5ca14f098454" target="_blank" rel="noopener"
+&gt;有着各自迥异的视觉表现&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id="目前的问题"&gt;目前的问题
+&lt;/h2&gt;&lt;p&gt;我们没有立刻开始建立自己的配色表，而是发起了一些调查，研究网络上已存在的配色方案。令人惊讶的是，我们发现其中只有少数是为复杂的图表和数据可视化而设计的。我们发现一些不能使用现有配色的原因。&lt;/p&gt;
+&lt;h3 id="问题1辨识度低"&gt;问题1：辨识度低
+&lt;/h3&gt;&lt;p&gt;我们看过的许多配色方案都不适用于数据可视化。不仅由于颜色的明度差异不大，其实它们在创造时就没有考虑过辨识度。Flat UI配色是最广泛使用的配色之一，原因显而易见：它非常优秀。但是，正如它名字所述，这是为界面而设计的。使用Flat UI配色的话，色盲者就难以辨认出数据图像。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-KvDEGIpfwdJtUFwB5acYEA.png"
+loading="lazy"
+alt="Flat UI 配色方案色板，展示绿蓝紫灰黄橙红白灰等15种鲜艳色彩的完整模式"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-agD5sQvrMt6GqRmIg6zKQA.png"
+loading="lazy"
+alt="Flat UI 配色方案在红色盲模式下的色板，颜色变为黄绿蓝灰等低对比度色调"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-PyjFTbCq6JBTx1oymoXeEw.png"
+loading="lazy"
+alt="Flat UI 配色方案在灰度模式下的色板，所有颜色变为不同深浅的灰色，辨识度极低"
+&gt;&lt;/p&gt;
+&lt;p&gt;Flat UI配色的完整色彩、红色盲模式、灰度模式。&lt;/p&gt;
+&lt;h3 id="问题2色彩不够多"&gt;问题2：色彩不够多
+&lt;/h3&gt;&lt;p&gt;另一个问题是，许多现有配色方案没有足够的颜色。创造Graphiq的数据可视化时，我们需要至少6种颜色的配色方案，甚至有时需要8到12种颜色，才能满足所有的应用场景。我们看过的许多配色方案都没有足够多的色彩供选择。&lt;/p&gt;
+&lt;p&gt;下面是&lt;a class="link" href="http://colorhunt.co/" target="_blank" rel="noopener"
+&gt;Color Hunt&lt;/a&gt;里的一些例子：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-ypvRymT0ECQ3pYwtqlfHZw.png"
+loading="lazy"
+alt="Color Hunt 社区12组四色配色方案，每组由四种不同颜色的矩形色块组成"
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然这些都是很棒的配色，但它们都不够灵活，无法提供丰富的色系。&lt;/p&gt;
+&lt;h3 id="问题3难以区分"&gt;问题3：难以区分
+&lt;/h3&gt;&lt;p&gt;不过等一下，还有一些配色方案看起来像是渐变——理论上说可以创造出任意数量的颜色，对吧？&lt;/p&gt;
+&lt;p&gt;不幸的是，它们明度差异通常不大，其中许多颜色很容易变得无法区分，就像这一组，同样来自Color Hunt：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-S85p-zgE9OM9xLTLEKhbng.png"
+loading="lazy"
+alt="Color Hunt 社区12组渐变色板，每组颜色明度差异过小难以区分"
+&gt;&lt;/p&gt;
+&lt;p&gt;我们试着选&lt;a class="link" href="http://colorhunt.co/#00a38879bd8fbeeb9fffff9d" target="_blank" rel="noopener"
+&gt;第一组&lt;/a&gt;，把它扩展为10级色彩：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-623V9z7Xzs1Q3Uyf0qoq-A.png"
+loading="lazy"
+alt="绿色渐变强行扩展为10级色板，4级和10级数据系列中相邻绿色几乎无法区分"
+&gt;&lt;/p&gt;
+&lt;p&gt;如果普通用户能正确的区分出这些颜色，并与相应的数据项对应起来，我就服了，尤其是能区分出左边的4种绿色。&lt;/p&gt;
+&lt;h2 id="我们的方式"&gt;我们的方式
+&lt;/h2&gt;&lt;p&gt;在Graphiq，我们以数据为生命，并且投入了大量时间寻找能够用于数据可视化的配色方案，不是一组，而是许多组。我们在这个过程中受益良多，并且打算分享这些能够创造出灵活配色的准则：&lt;/p&gt;
+&lt;h3 id="第1条色调与明度的跨度都要大"&gt;第1条：色调与明度的跨度都要大
+&lt;/h3&gt;&lt;p&gt;要确保配色非常容易辨识与区分，它们的明度差异一定要够大。明度差异需要全局考虑。选择一种单色系的配色，并且&lt;a class="link" href="https://medium.com/sketch-app-sources/2b189c0d58fe" target="_blank" rel="noopener"
+&gt;测试它在红色盲、绿色盲与灰度模式下的表现&lt;/a&gt;。你就能迅速了解这个配色的辨识度水平。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-hGvw1suMqgupk8EgD068aA.png"
+loading="lazy"
+alt="Google Material Design 浅蓝色系完整色板，从50到900共10级明度渐变，附十六进制色值"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-HnC6oy_l_8t4bHxg1mMyhw.png"
+loading="lazy"
+alt="Google Material Design 浅蓝色系在红色盲模式下的色板，颜色变为蓝紫色调渐变"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-Op_34KD5WNhPdqxZs0TsVQ.png"
+loading="lazy"
+alt="Google Material Design 浅蓝色系在灰度模式下的色板，从浅灰到深灰的10级明度渐变"
+&gt;&lt;/p&gt;
+&lt;p&gt;Google Material配色中的浅蓝色的完整色彩、红色盲模式与灰度模式。&lt;/p&gt;
+&lt;p&gt;但是，有一组明度跨度大的配色还不够。配色越多样，用户越容易将数据与图像联系起来。如果能善加利用色调的变化，就能使非色盲用户更加轻松。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wgC_dBB1C2w3G6jaSFpZPQ.png"
+loading="lazy"
+alt="明度与色调双轴变化示意图，四个象限用笑脸表情展示色盲者和正常人的辨识差异"
+&gt;&lt;/p&gt;
+&lt;p&gt;对于明度与色调，跨度越大，就能承载越多的数据。&lt;/p&gt;
+&lt;h3 id="第2条仿照自然的配色"&gt;第2条：仿照自然的配色
+&lt;/h3&gt;&lt;p&gt;设计师都知道一个小秘密，对于理性派们而言这似乎不符合常识：并非所有颜色都是均等的。&lt;/p&gt;
+&lt;p&gt;从纯数学的角度来看，淡紫到深黄的过渡，与淡黄到深紫的过渡，感觉大概相似。但我们在下面可以看到，前者感觉很自然，后者则不是。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-lL_koW3jH7nYf6_ZbFx3WA.png"
+loading="lazy"
+alt="自然渐变与非自然渐变对比，浅黄到深紫渐变自然，浅紫到深黄渐变不自然"
+&gt;&lt;/p&gt;
+&lt;p&gt;这是由于我们已经习惯于那些长期存在于自然界中的渐变。在华丽的日落中，我们就能看到明黄色向深紫色的渐变，但却没有哪里能看到淡紫色向深黄色的过渡。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-oIa-7FvHZYgGxPp0ytfY6w.jpeg"
+loading="lazy"
+alt="湖面日落景色，天空从橙黄渐变到粉红再到深紫，水面倒映着绚丽的晚霞"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-PPPHMucunVmHYzFJBJW45Q.jpeg"
+loading="lazy"
+alt="密苏里圆形泉水俯拍，周围绿叶环绕，泉水从浅绿渐变到深蓝色"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-Jhvmh70U7q8P-_MajshKew.jpeg"
+loading="lazy"
+alt="海滩日落景色，天空从橙红渐变到紫色，栈桥剪影和两人在浅滩漫步的倒影"
+&gt;&lt;/p&gt;
+&lt;p&gt;照片来源于&lt;a class="link" href="https://www.flickr.com/photos/keepitsurreal/3256634781" target="_blank" rel="noopener"
+&gt;Kyle Pearce&lt;/a&gt;、&lt;a class="link" href="https://www.flickr.com/photos/wfryer/12577018343" target="_blank" rel="noopener"
+&gt;Wesley Fryer&lt;/a&gt;、和&lt;a class="link" href="http://www.public-domain-image.com/nature-landscape/sunset/slides/ocean-beach-sunset.html" target="_blank" rel="noopener"
+&gt;Jon Sullivan&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;类似地，还有浅绿色到藏蓝色、鹅黄色到深绿色、棕红色到蓝灰色，等等。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-NUUVVX2MpC4Y1_nP8CHjWA.jpeg"
+loading="lazy"
+alt="密苏里圆形泉水中浅绿向藏蓝的自然渐变"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-W5vjfZydrhjBbKQ4R9tl3A.jpeg"
+loading="lazy"
+alt="秋季林荫道，两侧树木叶子从金黄渐变到橙红，地上铺满落叶，中间有绿色长椅"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-_dsL23-byBssnWm7aFAKdg.jpeg"
+loading="lazy"
+alt="黄石公园温泉梯田，从白色钙华到橙黄再到棕红色的自然色彩渐变，蒸汽缭绕"
+&gt;&lt;/p&gt;
+&lt;p&gt;照片来源于&lt;a class="link" href="https://commons.wikimedia.org/wiki/File:Round_Spring_-_Missouri,_16.jpg" target="_blank" rel="noopener"
+&gt;Kbh3rd&lt;/a&gt;、&lt;a class="link" href="http://www.freefoto.com/preview/19-07-2/Autumn-Colour" target="_blank" rel="noopener"
+&gt;Ian Britton&lt;/a&gt;、和&lt;a class="link" href="http://www.public-domain-image.com/nature-landscape/hot-spring/slides/hot-spring-in-yellowstone.html" target="_blank" rel="noopener"
+&gt;Jon Sullivan&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;由于我总能看到这些自然的渐变，所以当我们在可视化图表中看到对应的配色时，会感觉熟悉和愉快。&lt;/p&gt;
+&lt;h3 id="第3条使用渐变不要选择一系列固定颜色"&gt;第3条：使用渐变，不要选择一系列固定颜色
+&lt;/h3&gt;&lt;p&gt;渐变配色结合不同色调，对两者都最好。无论你需要2种颜色还是10种，渐变中都能提取出这些颜色，让可视化图表感觉自然，同时保有足够的色调与明度差异。&lt;/p&gt;
+&lt;p&gt;改用渐变的思维并不容易，不过有个好方法，可以在Photoshop中拉辅助线到断点位置，与数据的数量对应上，然后持续对渐变进行测试与调整。以下是我们在修正渐变时产生的屏幕截图。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-wgvwormxteQ6jdT4De63Hg.png"
+loading="lazy"
+alt="Photoshop CC 2015 中调整渐变叠加的截图，顶部灰度渐变条配青色辅助线，下方为多组彩色椭圆色值测试"
+&gt;&lt;/p&gt;
+&lt;p&gt;可以看到，我们将配色表紧挨着顶部的灰度渐变，调整渐变叠加（之后就能得到精确的渐变色值），然后从那些断点处选取颜色，测试配色在实际运用中的效果。&lt;/p&gt;
+&lt;h2 id="我们的配色方案"&gt;我们的配色方案
+&lt;/h2&gt;&lt;p&gt;我们对最终成果感到兴奋。下面是我们使用的部分配色，它们都有从纯白到纯黑的渐变，以达到最大限度的明度差异。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-B29h3NSglI42HGhWZA-5Mg.png"
+loading="lazy"
+alt="冷色系渐变色板，从浅黄绿到深蓝黑，展示1到12级颜色数量对应的色块分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1--Vgr9hPpUU3PYtg_B4rd2g.png"
+loading="lazy"
+alt="暖色系渐变色板，从浅黄到深棕黑，展示1到12级颜色数量对应的色块分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1-pH2QoOf47OqwtG9suWaRJw.png"
+loading="lazy"
+alt="霓虹色系渐变色板，从浅粉到深紫黑，展示1到12级颜色数量对应的色块分布"
+&gt;&lt;/p&gt;
+&lt;p&gt;冷色、暖色和霓虹色。&lt;/p&gt;
+&lt;h2 id="配色的实际运用"&gt;配色的实际运用
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/1.png"
+loading="lazy"
+alt="各国兴奋剂违规次数柱状图，用蓝绿色系区分水上、田径、健美等不同运动项目"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/2.png"
+loading="lazy"
+alt="全球2型糖尿病死亡率热力地图，用黄到棕的渐变色表示各国死亡率高低"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2015-11/11-27/3.png"
+loading="lazy"
+alt="詹妮弗·劳伦斯参演电影类型柱状图，用粉紫渐变区分剧情、科幻、动作等类型"
+&gt;&lt;/p&gt;
+&lt;h2 id="长话短说"&gt;长话短说
+&lt;/h2&gt;&lt;p&gt;尽管优秀的配色方案越来越多，但并非所有都适用于图表和数据可视化。我们的配色方法就是创建色调与明度变化都足够大的自然渐变。这么做能使我们的配色便于色盲辨识，对其他人则更明显，并且可以满足1到12种数据。&lt;/p&gt;
+&lt;h2 id="阅读工具和资源-更新"&gt;阅读、工具和资源 [更新]
+&lt;/h2&gt;&lt;p&gt;这个过程中，我们发现了一些很棒的资源和文章，与我们得出的结论类似，但他们采用了更精确的方法，甚至钻研了色彩理论。我们觉得应该分享出来，供大家深度阅读：&lt;/p&gt;
+&lt;h3 id="阅读"&gt;阅读
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="http://vis4.net/blog/posts/avoid-equidistant-hsv-colors/" target="_blank" rel="noopener"
+&gt;如何避免等差的HSV颜色&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/driven_by_data" target="_blank" rel="noopener"
+&gt;Gregor Aisch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://vis4.net/blog/posts/mastering-multi-hued-color-scales/" target="_blank" rel="noopener"
+&gt;通过chroma.js控制多色调的色彩比例&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/driven_by_data" target="_blank" rel="noopener"
+&gt;Gregor Aisch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/" target="_blank" rel="noopener"
+&gt;微妙的颜色&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/rsimmon" target="_blank" rel="noopener"
+&gt;Robert Simmon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html" target="_blank" rel="noopener"
+&gt;翠绿配色方案&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/hrbrmstr" target="_blank" rel="noopener"
+&gt;Bob Rudis&lt;/a&gt;、&lt;a class="link" href="https://twitter.com/noamross" target="_blank" rel="noopener"
+&gt;Noam Ross&lt;/a&gt;和&lt;a class="link" href="https://twitter.com/sjmgarnier" target="_blank" rel="noopener"
+&gt;Simon Garnier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://blogs.mathworks.com/steve/2014/10/13/a-new-colormap-for-matlab-part-1-introduction/" target="_blank" rel="noopener"
+&gt;MATLAB色彩地图&lt;/a&gt;，作者&lt;a class="link" href="https://twitter.com/steveeddins" target="_blank" rel="noopener"
+&gt;Steve Eddins&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="工具"&gt;工具
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="http://tristen.ca/hcl-picker/" target="_blank" rel="noopener"
+&gt;数据颜色采集工具&lt;/a&gt;——一件很趁手的工具，让你保持&lt;a class="link" href="https://en.wikipedia.org/wiki/Chroma" target="_blank" rel="noopener"
+&gt;浓度&lt;/a&gt;不变的同时轻松选择配色&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://gka.github.io/chroma.js/" target="_blank" rel="noopener"
+&gt;Chroma.js&lt;/a&gt;——一个处理色彩的JavaScript库&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://colorbrewer2.org/" target="_blank" rel="noopener"
+&gt;Colorbrewer2&lt;/a&gt;——热点图与数据可视化颜色工具，自带了多色调与单色调的方案&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="其他资源"&gt;其他资源
+&lt;/h3&gt;&lt;p&gt;我们还找到一些其他爱不释手的配色资源。虽然它们并非专为数据可视化而设计，不过我们觉得或许对你有帮助。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="http://colorhunt.co/" target="_blank" rel="noopener"
+&gt;ColorHunt&lt;/a&gt;——高质量配色方案，能够快速预览，如果你只需要4种颜色，这是绝佳的资源&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.colourlovers.com/" target="_blank" rel="noopener"
+&gt;COLOURlovers&lt;/a&gt;——很棒的颜色社区，其中有许多工具可以创建配色方案，还有设计模式&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.colorschemer.com/" target="_blank" rel="noopener"
+&gt;ColorSchemer Studio&lt;/a&gt;——强大的桌面取色应用&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://coolors.co/app/" target="_blank" rel="noopener"
+&gt;Coolors&lt;/a&gt;——轻量级随机配色生成器，你可以锁定你想要的颜色，然后替换其他的&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://flatuicolors.com/" target="_blank" rel="noopener"
+&gt;Flat UI Colors&lt;/a&gt;——很棒的UI配色，这是最流行的配色之一&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.google.com/design/spec/style/color.html" target="_blank" rel="noopener"
+&gt;Material Design Colors&lt;/a&gt;——另一套优秀的UI配色。它不仅提供了跨度巨大的颜色，也为每种颜色提供了不同的“色深”，或者说明度&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://palettab.com/" target="_blank" rel="noopener"
+&gt;Palettab&lt;/a&gt;——一个Chrome插件，在每个标签页里呈现一套新的配色方案和字体灵感&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.swisscolors.net/" target="_blank" rel="noopener"
+&gt;Swiss Style Color Picker&lt;/a&gt;——另一个优秀的配色方案集&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;希望本文对你有所帮助！你建立配色方案的过程是怎样的？你还用到其他的工具吗？我们想听听你在配色与可视化图表方面的经验。&lt;/p&gt;
+&lt;p&gt;想了解更多我们的工作流程，请订阅我们的刊物：&lt;a class="link" href="https://medium.com/graphiq-engineering" target="_blank" rel="noopener"
+&gt;&lt;strong&gt;Graphiq Engineering&lt;/strong&gt;&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;原文链接：&lt;a class="link" href="https://medium.com/graphiq-engineering/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283#.s6benocrb" target="_blank" rel="noopener"
+&gt;https://medium.com/graphiq-engineering/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283#.s6benocrb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者信息：
+&lt;a class="link" href="https://medium.com/@moyicat" target="_blank" rel="noopener"
+&gt;Samantha Zhang&lt;/a&gt;
+Senior UI/UX &lt;a class="link" href="http://twitter.com/GraphiqHQ" target="_blank" rel="noopener"
+&gt;@GraphiqHQ&lt;/a&gt;. Tutorial writer &lt;a class="link" href="http://twitter.com/TutsPlusCode" target="_blank" rel="noopener"
+&gt;@TutsPlusCode&lt;/a&gt;. Product maker. Data nerd. Side project ninja. More at &lt;a class="link" href="http://samanthaz.me" target="_blank" rel="noopener"
+&gt;http://samanthaz.me/&lt;/a&gt; and &lt;a class="link" href="http://twitter.com/moyicat" target="_blank" rel="noopener"
+&gt;@moyicat&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>生物 on Victor42</title><link>https://victor42.eth.limo/tags/%E7%94%9F%E7%89%A9/</link><description>Recent content in 生物 on Victor42</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hi@victor42.work (Victor42)</managingEditor><webMaster>hi@victor42.work (Victor42)</webMaster><lastBuildDate>Wed, 19 Aug 2026 23:10:52 +0800</lastBuildDate><atom:link href="https://victor42.eth.limo/tags/%E7%94%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>AI生物学家</title><link>https://victor42.eth.limo/post/3649/</link><pubDate>Wed, 20 Mar 2024 15:06:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3649/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg" alt="Featured image of post AI生物学家" /&gt;&lt;p&gt;我用AI给自己造了一位生物学家，但它也被水产市场难倒了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2024-03/27b2a2b1d435b113.jpg"
+loading="lazy"
+alt="深褐色扁平比目鱼放置在圆形木盘上，配有生菜叶、冰块、八角和干红辣椒，展示山东特产鼓眼鱼的外观特征"
+&gt;&lt;/p&gt;
+&lt;p&gt;分享一个有趣的发现，先讲背景：家里人寄来一箱海鲜，是山东特产，包装上写着“古眼鱼”。但我看这鱼扁扁的，鲽形目特征显著，怎么看怎么像比目鱼。想要验证一下我的判断，于是问AI古眼鱼是什么鱼，各家AI都问了，全都在胡编乱造一些不存在的物种。我意识到以后查物种的情况还很多，也许应该为自己写一套提示词，让AI扮演生物学家，给出更专业的回答。说干就干：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your task is to act as a knowledgeable biologist. I will ask you about some creatures. You will give me a brief introduction of this species, including bio taxonomy, species range, evolution history, noticeable feature and anything else you find important. Pay extra attention to the creature names I tell you since they may be far from accurate or academical, sometimes wrong due to misuses by non-biologists. Make sure to check some possible alternative names with similar pronunciation or spelling. If you have access to the Internet, you must search the web for answer. When you find no reliable answer, search for those alternative names instead. Answer in &amp;ldquo;Simplified Chinese&amp;rdquo; regardless of the language I use.
+The first creature I’m interested in is &amp;ldquo;orca&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这样，AI就可以帮我从生物分类、地理分布、演化历史、显著特征等方面为我建立一个基本但全面的认识。我的提示词里问的是虎鲸，各家AI都给出了令人满意的回答。&lt;/p&gt;
+&lt;p&gt;至于问“古眼鱼”为什么这些AI都在胡扯，有一个常见原因：名字不对。一旦涉及到非生物学名，各种幺蛾子就会出现。比如我家楼下菜店，为了迎合文化程度较低的顾客，它小黑板上会故意写错别字，把“里脊肉”写作“里几肉”，把“鲈鱼”写作“卢鱼”。这情况我们消费者见的不多，但在供应链里可能就是惯例。古眼鱼很可能也是遇到了这种情况，谷歌一搜果然，山东人管它叫“鼓眼鱼”，眼睛鼓起来的。这特征就和比目鱼对上了，深入一查发现就是比目鱼。&lt;/p&gt;
+&lt;p&gt;问题得到了解答，但我还希望以后我的AI生物学家能靠点谱，即使遇到这种离谱的情况，也能给出可靠的回答。于是就出现了提示词里的后半段，让它格外留意我提供的生物名称，因为有可能是不准确、被误用的，要它检查可能的同音字和相似拼写，并且把这些可能的名称都搜索网络验证。&lt;/p&gt;
+&lt;p&gt;然后我再用古眼鱼来测试一下，有意思，真有一家AI答对了。这是提示词工程的力量！&lt;/p&gt;
+&lt;p&gt;Google Gemini是唯一给出正确回答的，它真的做了类似名称联想，并用备选名称来搜索。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;古眼鱼 (Gǔ yǎn yú)
+古眼鱼这个名字在生物分类学上没有对应，不过根据读音和意思，可能指的是两种鱼类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;鼓眼鱼 (Gǔ yǎn yú)： 这种鱼更贴近“古眼鱼”的字面意思。它们是鰈形目 (diè xíng mù) 的一种底栖鱼类，身体扁平，左右不对称，其中一只眼睛长在朝上的一面。鼓眼鱼广泛分布于全球各大洲的近海海域，在中国沿海也很常见，青岛地区尤其喜爱食用这种鱼。常见做法是油炸或煎制，外酥里嫩。&lt;/li&gt;
+&lt;li&gt;高眼鲽 (Gāo yǎn diè): 这另一种可能，因为“古”和“高”读音相近。高眼鲽同样是鰈形目的一员，它们的眼睛位于身体的上侧，但不像鼓眼鱼那样突出。高眼鲽主要分布于北太平洋深海区域，体型比鼓眼鱼更大，经济价值也较高。
+这两个物种都是人们常食用的海鱼，都有一个眼睛长在身体的上侧。具体是哪一种鱼，需要看语境或者地方习俗。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接下来是Perplexity(Claude 3 sonnet总结)、Poe的Web search(GPT-3.5总结)，两个会搜索的AI产品。由于专注于搜索能力的优化，忽视了我让它同时搜索类似名称的指令，“古眼鱼”一词搜不到就直接开始瞎编，没有任何进步。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Perplexity&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id="古眼鱼简介"&gt;古眼鱼简介
+&lt;/h2&gt;&lt;p&gt;古眼鱼(Ophthalmolepis)是一种已灭绝的鱼类,属于古老的肺鱼目。它们生存于5.6亿年至3.6亿年前的远古德佛尼安纪和泥盆纪时期。&lt;/p&gt;
+&lt;h2 id="生物分类"&gt;生物分类
+&lt;/h2&gt;&lt;p&gt;古眼鱼隶属于:&lt;br&gt;
+界:脊索动物门&lt;br&gt;
+门:鱼类&lt;br&gt;
+纲:肺鱼纲&lt;br&gt;
+目:肺鱼目&lt;br&gt;
+科:古眼鱼科&lt;/p&gt;
+&lt;h2 id="分布范围"&gt;分布范围
+&lt;/h2&gt;&lt;p&gt;古眼鱼化石广泛分布于欧洲、北美、格陵兰、中国等地区,生存环境包括海洋和淡水环境。&lt;/p&gt;
+&lt;h2 id="进化历史"&gt;进化历史
+&lt;/h2&gt;&lt;p&gt;古眼鱼是最早出现的肺鱼类群之一,被认为是现代两栖类和爬行类的祖先。它们身体呈鱼状,但已发育出原始的肺,能在缺氧环境下短暂生存。这种特征使它们能适应潮汐区等环境,为后来登陆作了铺垫。&lt;/p&gt;
+&lt;h2 id="显著特征"&gt;显著特征
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;头部较大,眼睛位置较高且突出,因此得名&amp;quot;古眼鱼&amp;quot;&lt;/li&gt;
+&lt;li&gt;口部位置较低,适合捕食底栖生物&lt;/li&gt;
+&lt;li&gt;身体扁平,背鳍和臀鳍延长&lt;/li&gt;
+&lt;li&gt;具有内肺和鳃,呼吸方式介于鱼类和两栖类之间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;古眼鱼化石对研究脊椎动物从水生到陆生的过渡阶段具有重要意义。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Web search&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;古眼鱼（Konosirus punctatus），又称黄流鱼、扁鰶、气泡子、油鱼、鰶鱼，是一种斑鰶科鱼类。它以浮游生物为食，主要分布在南海、东海、黄海和渤海等地区&lt;a class="link" href="https://baike.sogou.com/v101570476.htm" target="_blank" rel="noopener"
+&gt;[2]&lt;/a&gt;。下面是关于古眼鱼的一些重要信息：&lt;/p&gt;
+&lt;p&gt;生物分类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;界：动物界&lt;/li&gt;
+&lt;li&gt;门：脊索动物门&lt;/li&gt;
+&lt;li&gt;亚门：脊椎动物亚门&lt;/li&gt;
+&lt;li&gt;纲：硬骨鱼纲&lt;/li&gt;
+&lt;li&gt;目：鲱形目&lt;/li&gt;
+&lt;li&gt;科：斑鰶科&lt;/li&gt;
+&lt;li&gt;属：斑鰶属&lt;/li&gt;
+&lt;li&gt;种：古眼鱼（Konosirus punctatus）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;特征：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;古眼鱼体侧扁，呈长椭圆形，一般体长13～16厘米，长不大&lt;a class="link" href="https://baike.sogou.com/v101570476.htm" target="_blank" rel="noopener"
+&gt;[2]&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;背侧为青绿色，腹侧为银白色。&lt;/li&gt;
+&lt;li&gt;背鳍有一个，最后一鳍条延长为丝状，像一根长须。&lt;/li&gt;
+&lt;li&gt;背鳍、尾鳍为黄绿色，胸鳍为淡黄绿色，腹鳍及臀鳍的颜色更浅。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;进化历史：
+关于古眼鱼的进化历史，目前尚无相关可靠资料。&lt;/p&gt;
+&lt;p&gt;其他名称：
+古眼鱼还有一些其他俗称，如黄流鱼、扁鰶、气泡子、油鱼、鰶鱼等&lt;a class="link" href="https://baike.sogou.com/v101570476.htm" target="_blank" rel="noopener"
+&gt;[2]&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Learn more:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.sohu.com/a/491048259_100022807" target="_blank" rel="noopener"
+&gt;其貌不扬的鼓眼鱼30一斤，青岛人“专属”美食，油炸喷香吃过难忘_偏口鱼&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://baike.sogou.com/v101570476.htm" target="_blank" rel="noopener"
+&gt;古眼鱼 - 搜狗百科&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.163.com/dy/article/GKBO40CG0522UM59.html" target="_blank" rel="noopener"
+&gt;其貌不扬的鼓眼鱼30一斤，青岛人“专属”美食，油炸喷香吃过难忘|鲅鱼|鲳鱼|刀鱼_网易订阅&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最后是Claude 3 sonnet无网络直接答。虽然它推理了类似名称，但方向偏离了我的要求。即使推理正确，这种偏门的知识，无网络直接答不可能答对。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;好的,我会尽力以中文回答您关于&amp;quot;古眼鱼&amp;quot;这种生物的问题。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;古眼鱼&amp;quot;可能是指两种不同的生物:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;原始眼镜鱼(Brownie Glass Eyed)
+这是一种体型较小的热带鱼类,属于眼镜鱼科。它们的分布范围广泛,可见于西太平洋和印度洋沿岸。这种鱼以其大大的侧扁身体和大眼睛而出名,被认为是眼镜鱼科中最原始的物种之一。它们大多生活在浅海区域,以藻类和小型无脊椎动物为食。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;肺鱼(Lungfish)
+这是一种古老的肺鱼类动物,被认为是从鱼类进化到两栖类和爬行类的过渡环节。现存的肺鱼有6种,大多分布于非洲、南美和澳大利亚。它们有一些特殊的结构和习性,如能够周期性地蜷缩在泥坑中度过干旱期,使用肺和皮肤呼吸等。肺鱼被认为在演化过程中保留了相对原始的特征。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果您指的是其他生物,可以提供一些更详细的信息,我会尽力搜索并回答您的问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;用来查阅资料的AI，自身的推理能力和联网搜索能力是它的两台引擎，都极其重要。但这不禁让人思考，仅此而已吗？两台引擎的配合方式也值得注意。&lt;/p&gt;
+&lt;p&gt;从此例来看，让AI自己通过推理来判断何时搜索、怎样搜索，是更灵活的解决方案。而目前专为搜索优化的AI，把推理和搜索两个步骤割裂开了，只能先一次性执行搜索，再基于搜索结果推理，无法应付这种极端的情况。即使专注如Perplexity，也只是在搜索前加了一道意图分析，要么它的意图分析模型逻辑能力不行，要么是它产品功能上就只支持一回合一次搜索，所以最终还是卡壳了。&lt;/p&gt;
+&lt;p&gt;又对这个AI生物学家做了一些测试，极端情况还是不太理想，但也够用了。我想分享的，不是这个提示词，也不是哪家AI强，而是自然语言的复杂和多变。AI要想理解人类所有的语言和变体，怕是还有很长很长的路要走。&lt;/p&gt;</description></item><item><title>熟练优雅地吃鲫鱼</title><link>https://victor42.eth.limo/post/3618/</link><pubDate>Fri, 12 Aug 2022 17:14:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3618/</guid><description>&lt;img src="https://cdn.victor42.work/posts/2022-08/1030021830_0_0_1920_1080_1920x0_80_0_0_2c6e125e2a3534f8cc770412475ee843.jpg" alt="Featured image of post 熟练优雅地吃鲫鱼" /&gt;&lt;p&gt;保姆级教程，教你吃鲫鱼不扎嘴。&lt;/p&gt;
+&lt;p&gt;主要是吃菜技巧，也先归类到菜谱-Food吧。&lt;/p&gt;
+&lt;p&gt;女儿牙都还没长出来，就先想到以后要教会她熟练优雅地吃鲫鱼，我家的这个祖传本领在她这不能失传了。于是思考总结了吃鲫鱼不扎嘴的技巧，附详细步骤讲解。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/v2-1577d379f772963560850076d2e1638b_r.jpg"
+loading="lazy"
+alt="盛放在白色盘子里做好的红烧鲫鱼菜肴近景特写，鱼身完整色泽红亮，表面撒有葱花点缀"
+&gt;&lt;/p&gt;
+&lt;p&gt;很多不太会吃河鱼的人认为，鲫鱼的刺是张牙舞爪随机长的。大自然不会干这种放飞自我的事情好吗！鱼的小刺叫肌间骨，能为这些鱼增加游泳力量，有整齐的排列。图里实心的黑线就是，这副骨头不是鲫鱼的，但类似。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/bone.jpg"
+loading="lazy"
+alt="鱼类侧面肌肉群与黑色线段标示的肌间骨分布示意图，实心黑线标注肌间骨位置，展示脊椎与肋骨结构"
+&gt;&lt;/p&gt;
+&lt;p&gt;鱼骨的核心是这条脊椎骨。肚皮处弯曲且长的骨头相当于人的肋骨，保护其中的内脏，吃鱼时比较容易剔除和避开。而脊椎上其余短且直的骨头，又很难从脊椎上弄断，当然也没有机会进到嘴里。其实包括人在内的所有脊椎动物，躯干部分的骨骼结构都是这个特定模式，脊椎贯穿和支撑躯干，肋骨保护内脏。不信你搜下蛇的骨骼，也是一样。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/v2-e6ea7be67c1abe4ac14d89bcbfe95922_1440w.jpg"
+loading="lazy"
+alt="博物馆展示的由脊椎与大量肋骨构成的长蛇骨骼标本，脊椎贯穿躯干肋骨保护内脏"
+&gt;&lt;/p&gt;
+&lt;p&gt;能扎到嘴的，就是这些会随鱼肉一起脱落的肌间骨。肌间骨的形状五花八门，多有分叉，但大体上有一条主干，主干较粗较硬，分叉较细较软。你日常能吃到的鱼，不会有丧心病狂长成雪花形或仙人球的肌间骨。既然都有主干，把肌间骨和鱼肉分离就能找到通用的方法，对各种鱼肉都有效。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/b233-htwhfzs0673179.jpg"
+loading="lazy"
+alt="案板上五个由圆面团用手按压拍扁的葱油饼面饼近照特写，表面可见绿色葱花"
+&gt;&lt;/p&gt;
+&lt;p&gt;现在开始正式讲解吃法。首先，一口鱼肉夹着肌间骨吃到嘴里，如果咔咔就是一顿嚼，主干或分叉会把你的牙龈扎成筛子。这时候要先用舌头配合上颚把这团鱼肉拍扁，就像做葱油饼。诀窍是不要太扁，就像图里这样，一个圆面团拍到这种程度就差不多了。这时，小刺能从肉团里微微露出头来，方便后面用舌头确定刺的位置和朝向。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/pandan-swiss-roll-mykitchen101-feature-1280x720.jpg"
+loading="lazy"
+alt="盘中切开呈螺旋花纹的绿色斑斓叶瑞士卷蛋糕特写，绿色蛋糕体包裹白色奶油馅"
+&gt;&lt;/p&gt;
+&lt;p&gt;然后，在扁肉团的基础上，用舌头来搓瑞士卷。注意，只是把肉饼搓成条，厚度先保持住。只要小刺不是正对着舌头，就扎不着你。由于每根小刺都有主干，即使肉团里有两个相互垂直的小刺，在搓成条的过程中，两者夹角也会越来越小，最后趋近于平行。现在，你嘴里就有了一个夹着小刺、但刺都朝着同一个方向的肉条。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/yuan_17922def90dcab62299f1ed2e4c8bd4e.jpg"
+loading="lazy"
+alt="多串烤羊肉串近景特写，金属签串着烤熟的肉块，表面撒有辣椒粉和孜然，配绿色生菜"
+&gt;&lt;/p&gt;
+&lt;p&gt;最后，用舌头把肉条往外顶，让上下门牙正好对准肉条的中段。这时一口咬下去，不会扎到牙龈，反而能用牙齿把肉条里的小刺固定住。这时候，就像撸串一样，用舌头尽情把肉刮下来就好。这头刮完，转半圈再刮另一头。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/1030021830_0_0_1920_1080_1920x0_80_0_0_2c6e125e2a3534f8cc770412475ee843.jpg"
+loading="lazy"
+alt="两条鱼头部特写对比图，上方为银灰色鲫鱼头部鳞片清晰，下方为橙黄色鱼头，背景为绿色水面"
+&gt;&lt;/p&gt;
+&lt;p&gt;很好，你完美地达成了骨肉分离，可以呸一下把小刺吐出去了。&lt;/p&gt;
+&lt;p&gt;这个方法之所以有效，是有数学依据的。相当于把原先分布在三维空间的线段，都压扁到二维平面上。再把二维平面的线段，都聚拢到一维线条上。复杂变简单了，混乱变有序了，自然就好处理了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.victor42.work/posts/2022-08/8a2abc28ab7f4e8db49f033b4dfed41e.jpg"
+loading="lazy"
+alt="白色盘中盛放的比目鱼鱼排特写，鱼肉洁白细腻无小刺，表面撒有葱花，旁配柠檬片"
+&gt;&lt;/p&gt;
+&lt;p&gt;以后我就这么教女儿，够详细了吧。当然……事情也未必按我的预期发展，比如：“爸爸，我们以后能不能只吃比目鱼？”&lt;/p&gt;
+&lt;p&gt;补充一点题外话：为什么海里的鱼又没有小刺呢？这是个很有意思的话题，反映了鱼类演化过程。鱼类诞生在海里，作为最原始的脊椎动物之一，一开始并没有肌间骨。之后有一部分鱼类演化出了肌间骨，拥有了更强的肌肉力量，在竞争中占据优势，肌间骨逐渐成了标配。这一时期，有些鱼类带着它们的肌间骨进入江河湖泊，开始了淡水生活。再往后，部分鱼类朝着肌肉力量更强的方向演化，用弹性十足的蛋白质代替了肌间骨，这类鱼往往可以达到更高的游速。在广阔无边的海洋里，捕食者和猎物之间开展军备竞赛，让这些高速鱼类彻底放弃肌间骨，把蛋白质发挥到极致。因此，多数海鱼的肉往往更Q弹。而同时，江河湖泊空间小，淡水鱼不需要那么快的游速，就朝着别的方向演化了，肌间骨被大量保留下来。&lt;/p&gt;
+&lt;p&gt;另外，中国科学家已经找到了控制鲫鱼肌间骨生长的关键基因，让这个基因突变一下，鲫鱼就不长小刺了，其他各方面和普通鲫鱼无异。目前还没到商业应用这一步，希望我这个菜谱-Food是白写了。&lt;/p&gt;</description></item><item><title>关于分辨颜色的视觉实验</title><link>https://victor42.eth.limo/post/3602/</link><pubDate>Fri, 13 Mar 2020 14:52:00 +0000</pubDate><author>hi@victor42.work (Victor42)</author><guid>https://victor42.eth.limo/post/3602/</guid><description>&lt;p&gt;亲身感受人眼工作的两种模式。&lt;/p&gt;
+&lt;p&gt;在家就可以做一个简单的视觉实验。&lt;/p&gt;
+&lt;p&gt;创造一个黑暗的房间，夜晚关灯后就可以。房间里总有些电器带有各种颜色的小灯，比如昨晚公差住酒店，天花板上的烟雾报警器一直闪着红光。&lt;/p&gt;
+&lt;p&gt;等眼睛适应了黑暗的环境后，直视小灯。然后视线逐渐移开，用余光观察小灯。直到发现小灯变成白光。&lt;/p&gt;
+&lt;p&gt;这是因为视网膜上有两种感光细胞：视锥细胞和视杆细胞。视锥细胞能感受光的颜色，主要分布在视网膜中央凹，影响视野中央的画面；视杆细胞能感受光的强弱，但无法分辨颜色，视网膜外围分布较多，影响余光看到的画面。因此在黑暗的环境中，当小灯移出视野中央，我们便无法再分辨它的颜色。&lt;/p&gt;
+&lt;p&gt;实验还有第二部分。直视小灯，眯眼，直到小灯变成白光。而且在这个过程中间，你一定会发现某个中间状态，好像说不清它到底带不带颜色。&lt;/p&gt;
+&lt;p&gt;这是因为视锥细胞的活跃度会受环境影响。越是眯眼，视网膜上的光通量越小。在黑暗的环境中，人眼的视锥细胞会降低活跃度。光线暗到一定程度，就完全由视杆细胞来接受光线了。此时我们的视觉能力便与全色盲没有差别，完全分辨不了颜色。&lt;/p&gt;</description></item></channel></rss>
