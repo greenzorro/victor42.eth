@@ -712,3 +712,9 @@ Each tag appears once. When different categories reuse the same tag, update the 
 - **Use**: travelogues centered on Yunnan
 - **Don't use**: articles that merely pass through Yunnan
 - **Synonyms/retired**:—
+
+### `Nanjing`
+- **Definition**: Nanjing as a destination, including its Republican-era sites
+- **Use**: travelogues or historical pieces centered on Nanjing
+- **Don't use**: articles that merely pass through Nanjing
+- **Synonyms/retired**:—

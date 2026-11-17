@@ -4,13 +4,13 @@
 
 ## Summary
 
-- Articles scanned: 534
-- Articles with tags: 534
-- Unique tags: 334
-- Total tag assignments: 2042
-- Average tags per article: 3.82
-- Glossary tags (CN): 237
-- Glossary tags (EN): 115
+- Articles scanned: 536
+- Articles with tags: 536
+- Unique tags: 336
+- Total tag assignments: 2054
+- Average tags per article: 3.83
+- Glossary tags (CN): 238
+- Glossary tags (EN): 116
 - Used tags missing from glossary (CN): 0
 - Used tags missing from glossary (EN): 0
 - Glossary tags unused in content (CN): 8
@@ -21,10 +21,10 @@
 | Articles per tag | Unique tag count |
 | --- | --- |
 | 1 | 141 |
-| 2 | 57 |
-| 3 | 30 |
+| 2 | 59 |
+| 3 | 29 |
 | 4-5 | 28 |
-| 6-10 | 33 |
+| 6-10 | 34 |
 | 11-20 | 20 |
 | 21-50 | 20 |
 | 51-100 | 4 |
@@ -38,7 +38,7 @@
 | 3 | 140 |
 | 4 | 127 |
 | 5 | 73 |
-| 6 | 35 |
+| 6 | 37 |
 | 7 | 31 |
 | 8 | 11 |
 
@@ -51,18 +51,18 @@
 | `UX` | 62 | 设计译文-Design: 53, 折腾与思考-Geek: 8, 苟且与远方-Life: 1 |
 | `AI` | 55 | 折腾与思考-Geek: 42, 苟且与远方-Life: 6, 神经病-Humor: 4, 梦境与幻想-Dream: 3 |
 | `设计师` | 51 | 折腾与思考-Geek: 36, 神经病-Humor: 14, 苟且与远方-Life: 1 |
-| `美食` | 45 | 苟且与远方-Life: 30, 神经病-Humor: 14, 梦境与幻想-Dream: 1 |
+| `美食` | 46 | 苟且与远方-Life: 31, 神经病-Humor: 14, 梦境与幻想-Dream: 1 |
 | `科技` | 44 | 折腾与思考-Geek: 36, 神经病-Humor: 5, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
 | `职场` | 43 | 折腾与思考-Geek: 12, 设计译文-Design: 12, 神经病-Humor: 11, 苟且与远方-Life: 8 |
 | `日常` | 42 | 神经病-Humor: 25, 折腾与思考-Geek: 15, 苟且与远方-Life: 2 |
+| `旅行` | 39 | 苟且与远方-Life: 29, 神经病-Humor: 5, 梦境与幻想-Dream: 4, 折腾与思考-Geek: 1 |
 | `教育` | 38 | 折腾与思考-Geek: 24, 苟且与远方-Life: 12, 梦境与幻想-Dream: 1, 设计译文-Design: 1 |
-| `旅行` | 38 | 苟且与远方-Life: 28, 神经病-Humor: 5, 梦境与幻想-Dream: 4, 折腾与思考-Geek: 1 |
 | `科普` | 37 | 折腾与思考-Geek: 37 |
 | `网页设计` | 36 | 设计译文-Design: 36 |
 | `产品` | 35 | 折腾与思考-Geek: 24, 设计译文-Design: 11 |
 | `615` | 32 | 神经病-Humor: 26, 苟且与远方-Life: 6 |
+| `历史` | 29 | 折腾与思考-Geek: 14, 苟且与远方-Life: 13, 设计译文-Design: 2 |
 | `散文` | 29 | 折腾与思考-Geek: 14, 苟且与远方-Life: 13, 梦境与幻想-Dream: 2 |
-| `历史` | 28 | 折腾与思考-Geek: 14, 苟且与远方-Life: 12, 设计译文-Design: 2 |
 | `文字游戏` | 28 | 神经病-Humor: 28 |
 | `游戏` | 27 | 神经病-Humor: 19, 苟且与远方-Life: 3, 设计译文-Design: 3, 梦境与幻想-Dream: 2 |
 | `哲学` | 26 | 折腾与思考-Geek: 11, 苟且与远方-Life: 11, 梦境与幻想-Dream: 4 |
@@ -74,10 +74,10 @@
 | `移动端` | 19 | 设计译文-Design: 18, 折腾与思考-Geek: 1 |
 | `育儿` | 18 | 苟且与远方-Life: 15, 神经病-Humor: 2, 折腾与思考-Geek: 1 |
 | `趋势` | 18 | 设计译文-Design: 18 |
+| `History` | 18 | 折腾与思考-Geek: 10, 苟且与远方-Life: 8 |
 | `自然` | 17 | 苟且与远方-Life: 13, 梦境与幻想-Dream: 3, 折腾与思考-Geek: 1 |
 | `科幻` | 17 | 梦境与幻想-Dream: 12, 苟且与远方-Life: 3, 折腾与思考-Geek: 2 |
 | `烹饪` | 17 | 苟且与远方-Life: 16, 折腾与思考-Geek: 1 |
-| `History` | 17 | 折腾与思考-Geek: 10, 苟且与远方-Life: 7 |
 | `Design` | 16 | 折腾与思考-Geek: 16 |
 | `Daily Life` | 16 | 折腾与思考-Geek: 10, 苟且与远方-Life: 6 |
 | `短篇小说` | 15 | 梦境与幻想-Dream: 15 |
@@ -85,12 +85,12 @@
 | `Tutorial` | 14 | 折腾与思考-Geek: 14 |
 | `工具` | 13 | 折腾与思考-Geek: 11, 设计译文-Design: 2 |
 | `设计` | 13 | 折腾与思考-Geek: 13 |
+| `建筑` | 13 | 苟且与远方-Life: 7, 神经病-Humor: 2, 设计译文-Design: 2, 折腾与思考-Geek: 1 |
 | `Philosophy` | 13 | 折腾与思考-Geek: 6, 苟且与远方-Life: 5, 梦境与幻想-Dream: 2 |
 | `成长` | 12 | 设计译文-Design: 7, 折腾与思考-Geek: 3, 梦境与幻想-Dream: 1, 苟且与远方-Life: 1 |
-| `建筑` | 12 | 苟且与远方-Life: 6, 神经病-Humor: 2, 设计译文-Design: 2, 折腾与思考-Geek: 1 |
 | `Product` | 12 | 折腾与思考-Geek: 12 |
 | `Career` | 12 | 折腾与思考-Geek: 10, 苟且与远方-Life: 2 |
-| `Travel` | 11 | 苟且与远方-Life: 10, 折腾与思考-Geek: 1 |
+| `Travel` | 12 | 苟且与远方-Life: 11, 折腾与思考-Geek: 1 |
 | `科学` | 10 | 折腾与思考-Geek: 9, 苟且与远方-Life: 1 |
 | `大学` | 10 | 苟且与远方-Life: 6, 神经病-Humor: 3, 梦境与幻想-Dream: 1 |
 | `Essay` | 10 | 折腾与思考-Geek: 8, 苟且与远方-Life: 2 |
@@ -107,7 +107,6 @@
 | `Adventure` | `content/post-en/梦境与幻想/大雄拯救世界.md` | Nobita Saves the World |
 | `After Effects` | `content/post-en/折腾与思考/AE环形进度条.md` | Creating a Circular Progress Bar in AE |
 | `Alien` | `content/post-en/梦境与幻想/太空酒店.md` | Space Hotel |
-| `Animal` | `content/post-en/梦境与幻想/草原之歌.md` | Song of the Grassland |
 | `Animation` | `content/post-en/折腾与思考/AE环形进度条.md` | Creating a Circular Progress Bar in AE |
 | `Anthropology` | `content/post-en/折腾与思考/人类简史读书笔记.md` | Notes on Sapiens - A Brief History of Humankind |
 | `Apocalypse` | `content/post-en/梦境与幻想/天罚纪元的平凡一天.md` | A Regular Day in the Era of Divine Punishment |
@@ -143,6 +142,7 @@
 | `Mathematics` | `content/post-en/苟且与远方/女儿的新游戏与拓扑学.md` | My Daughter's New Game and Topology |
 | `Middle East` | `content/post-en/折腾与思考/中东乱局80年：从以色列建国到加沙战争及后续.md` | 80 Years of Middle East Turmoil From Israel's Founding to the Gaza War and Beyond |
 | `Mobile` | `content/post-en/折腾与思考/移动端尺寸基础知识.md` | Basic Knowledge of Mobile Dimensions |
+| `Nanjing` | `content/post-en/苟且与远方/南京民国&动物园周末游3天3夜.md` | Nanjing in Three Days and Three Nights — the Republican Era and Hongshan Forest Zoo |
 | `Ningxia` | `content/post-en/苟且与远方/蒙西宁夏国庆小众自驾6天5夜.md` | A 6-Day Off-the-Beaten-Path Road Trip in West Inner Mongolia and North Ningxia |
 | `PS` | `content/post/折腾与思考/蓝草庄园：巧用PS匹配颜色给照片调色.md` | 蓝草庄园:巧用PS匹配颜色给照片调色 |
 | `Programming` | `content/post-en/折腾与思考/自制《失控》活系统.md` | Building a Living System Inspired by Out of Control |
@@ -178,9 +178,9 @@
 | `内蒙古` | `content/post/苟且与远方/蒙西宁夏国庆小众自驾6天5夜.md` | 蒙西宁夏国庆小众自驾6天5夜 |
 | `创业` | `content/post/折腾与思考/设计师在创业团队中的角色.md` | 设计师在创业团队中的角色 |
 | `动漫` | `content/post/苟且与远方/黑暗走向光明.md` | 黑暗走向光明 |
-| `动物` | `content/post/梦境与幻想/草原之歌.md` | 草原之歌 |
 | `北京` | `content/post/苟且与远方/北京4天5夜.md` | 北京4天5夜 |
 | `区块链` | `content/post/折腾与思考/区块链博客.md` | 区块链博客 |
+| `南京` | `content/post/苟且与远方/南京民国&动物园周末游3天3夜.md` | 南京民国&动物园周末游3天3夜 |
 | `同人` | `content/post/梦境与幻想/大雄拯救世界.md` | 大雄拯救世界 |
 | `后台` | `content/post/设计译文/企业后台设计：帮助用户理清头绪.md` | 企业后台设计：帮助用户理清头绪 |
 | `吸血鬼` | `content/post/梦境与幻想/威廉古堡的谜案.md` | 威廉古堡的谜案 |
